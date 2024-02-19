@@ -16,7 +16,6 @@ url: /net/advanced-concepts/
 ### [Displaying Labels in Aspose.Tasks](./label-display/)
 ### [Utility Functions for Lists in Aspose.Tasks](./list-utility-functions/)
 ### [Options for Loading in Aspose.Tasks](./loading-options/)
-### [Metering Usage in Aspose.Tasks](./metering-usage/)
 ### [Handling Monthly Recurrence Patterns in Aspose.Tasks](./monthly-recurrence-patterns/)
 ### [Settings for Microsoft Project Database in Aspose.Tasks](./msp-database-settings/)
 ### [Working with NOT Operation in Aspose.Tasks](./not-operation/)

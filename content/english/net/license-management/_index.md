@@ -10,3 +10,4 @@ url: /net/license-management/
 
 ## Aspose.Tasks License Management Tutorials
 ### [Managing Aspose.Tasks License in .NET](./managing-license/)
+### [Metering Usage in Aspose.Tasks](./metering-usage/)

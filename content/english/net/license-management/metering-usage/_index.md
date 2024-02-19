@@ -5,7 +5,7 @@ second_title: Aspose.Tasks .NET API
 description: 
 type: docs
 weight: 17
-url: /net/advanced-concepts/metering-usage/
+url: /net/license-management/metering-usage/
 ---
 
 ## Complete Source Code
