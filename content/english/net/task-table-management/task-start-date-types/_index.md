@@ -1,0 +1,35 @@
+---
+title: Configuring Task Start Date Types in Aspose.Tasks
+linktitle: Configuring Task Start Date Types in Aspose.Tasks
+second_title: Aspose.Tasks .NET API
+description: 
+type: docs
+weight: 23
+url: /net/task-table-management/task-start-date-types/
+---
+
+## Complete Source Code
+```csharp
+namespace Aspose.Tasks.Examples.CSharp
+{
+    using NUnit.Framework;
+    using Saving;
+
+    [TestFixture]
+    public class ExTaskStartDateType : ApiExampleBase
+    {
+        [Test]
+        public void SetAttributesForNewTasks()
+        {
+            // ExStart:SetAttributesForNewTasks
+            // ExFor: TaskStartDateType
+            // ExSummary: Shows how to set task's default start date as 'CurrentDate'.
+            var project = new Project();
+            project.Set(Prj.NewTaskStartDate, TaskStartDateType.CurrentDate);
+            project.Save(OutDir + "SetAttributesForNewTasks_out.xml", SaveFileFormat.Xml);
+
+            // ExEnd:SetAttributesForNewTasks
+        }
+    }
+}
+```
