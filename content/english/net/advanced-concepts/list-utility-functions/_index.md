@@ -2,172 +2,141 @@
 title: Utility Functions for Lists in Aspose.Tasks
 linktitle: Utility Functions for Lists in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to enhance list management in .NET applications using Aspose.Tasks utilities. Boost productivity and streamline operations effortlessly.
 type: docs
 weight: 15
 url: /net/advanced-concepts/list-utility-functions/
 ---
+## Introduction
 
-## Complete Source Code
+In software development, efficient management of lists is crucial for enhancing productivity and optimizing performance. Aspose.Tasks for .NET provides powerful utility functions to streamline list operations, making it easier for developers to manipulate lists efficiently. In this tutorial, we'll delve into utility functions for lists in Aspose.Tasks for .NET, exploring practical examples and step-by-step guides to leverage these functionalities effectively.
+
+## Prerequisites
+
+Before we dive into the tutorial, ensure you have the following prerequisites set up:
+- Aspose.Tasks for .NET: Install Aspose.Tasks for .NET library. You can download it from [here](https://releases.aspose.com/tasks/net/).
+- Development Environment: Have a .NET development environment set up and ready to use.
+
+## Import Namespaces
+
+Before we start coding, let's import the necessary namespaces to access Aspose.Tasks functionalities:
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+
+using NUnit.Framework;
+using Util;
+
+```
+
+## Using `ListUtils.Find` Method
+
+The `ListUtils.Find` method allows us to find elements within a list based on specific conditions. Let's break down the process into steps:
+
+### Step 1: Load Project and Get Task Filters
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+List<Filter> taskFilters = project.TaskFilters.ToList();
+```
+
+### Step 2: Find a Filter by Name
+
+```csharp
+var filter = ListUtils.Find(taskFilters, new FilterByName("&All Tasks"));
+```
+
+### Step 3: Access Filter Properties
+
+```csharp
+Console.WriteLine("Name: " + filter.Name);
+Console.WriteLine("Filter Type: " + filter.FilterType);
+Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
+Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
+```
+
+## Utilizing `ListUtils.Filter` Method
+
+The `ListUtils.Filter` method enables filtering elements in a list based on specified conditions. Here's how you can implement it:
+
+### Step 1: Load Project and Retrieve Task Filters
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+```
+
+### Step 2: Filter Tasks by Index
+
+```csharp
+ListUtils.Filter(filters, new FilterByIndex(1));
+```
+
+### Step 3: Display Filtered Results
+
+```csharp
+foreach (var filter in filters)
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Diagnostics.CodeAnalysis;
-
-    using NUnit.Framework;
-    using Util;
-
-    [TestFixture]
-    [SuppressMessage("ReSharper", "MemberCanBePrivate.Global", Justification = "Reviewed. Suppression is OK here.")]
-    [SuppressMessage("ReSharper", "StyleCop.SA1600", Justification = "Reviewed. Suppression is OK here.")]
-    [SuppressMessage("ReSharper", "StyleCop.SA1201", Justification = "Reviewed. Suppression is OK here.")]
-    internal class ExListUtils : ApiExampleBase
-    {
-        // ExStart:WorkWithListUtilsFind
-        // ExFor: ListUtils
-        // ExFor: ListUtils.Find``1(IList{``0},ICondition{``0})
-        // ExSummary: Shows how to work with list util Find method.
-        [Test] // ExSkip
-        public void WorkWithListUtilsFind()
-        {
-            var project = new Project(DataDir + "Project2003.mpp");
-            List<Filter> taskFilters = project.TaskFilters.ToList();
-
-            Assert.AreEqual(3, taskFilters.Count, "Project.TaskFilters count");
-
-            var filter = ListUtils.Find(taskFilters, new FilterByName("&All Tasks"));
-
-            Console.WriteLine("Name: " + filter.Name);
-            Console.WriteLine("Filter Type: " + filter.FilterType);
-            Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
-            Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
-        }
-
-        public class FilterByName : ICondition<Filter>
-        {
-            private readonly string name;
-
-            public FilterByName(string name)
-            {
-                this.name = name;
-            }
-
-            /// <summary>
-            /// Returns true if the specified object satisfy the conditions.
-            /// </summary>
-            /// <param name="el">The object to check.</param>
-            /// <returns>True if the object satisfy the conditions.</returns>
-            /// <inheritdoc />
-            public bool Check(Filter el)
-            {
-                return el.Name == this.name;
-            }
-        }
-
-        // ExEnd:WorkWithListUtilsFind
-
-        // ExStart:WorkWithListUtilsFilter
-        // ExFor: ICondition`1
-        // ExFor: ICondition`1.Check(`0)
-        // ExFor: ListUtils.Filter``1(IList{``0},ICondition{``0})
-        // ExSummary: Shows how to work with list util Filter method.
-        [Test] // ExSkip
-        public void WorkWithListUtilsFilter()
-        {
-            var project = new Project(DataDir + "Project2003.mpp");
-            List<Filter> filters = project.TaskFilters.ToList();
-
-            Assert.AreEqual(3, filters.Count, "Project.TaskFilters count");
-
-            ListUtils.Filter(filters, new FilterByIndex(1));
-
-            foreach (var filter in filters)
-            {
-                Console.WriteLine("Name: " + filter.Name);
-                Console.WriteLine("Filter Type: " + filter.FilterType);
-                Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
-                Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
-                Console.WriteLine();
-            }
-        }
-
-        public class FilterByIndex : ICondition<Filter>
-        {
-            private readonly int index;
-
-            public FilterByIndex(int index)
-            {
-                this.index = index;
-            }
-
-            /// <summary>
-            /// Returns true if the specified object satisfy the conditions.
-            /// </summary>
-            /// <param name="el">The object to check.</param>
-            /// <returns>True if the object satisfy the conditions.</returns>
-            /// <inheritdoc />
-            public bool Check(Filter el)
-            {
-                return el.Index == this.index;
-            }
-        }
-
-        // ExEnd:WorkWithListUtilsFilter
-
-        // ExStart:WorkWithListUtilsApply
-        // ExFor: ListUtils.Apply``1(IList{``0},IAlgorithm{``0},Int32)
-        // ExFor: IAlgorithm`1
-        // ExFor: IAlgorithm`1.Alg(`0,Int32)
-        // ExFor: IAlgorithm`1.PostAlg(`0,Int32)
-        // ExFor: IAlgorithm`1.PreAlg(`0,Int32)
-        // ExSummary: Shows how to work with list util Apply method.
-        [Test] // ExSkip
-        public void WorkWithListUtilsApply()
-        {
-            var project = new Project(DataDir + "Project2003.mpp");
-            List<Filter> filters = project.TaskFilters.ToList();
-
-            Assert.AreEqual(3, filters.Count, "Project.TaskFilters count");
-
-            ListUtils.Apply(filters, new RenameAlgorithm(), 0);
-
-            foreach (var filter in filters)
-            {
-                Console.WriteLine("Name: " + filter.Name);
-                Console.WriteLine("Filter Type: " + filter.FilterType);
-                Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
-                Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
-                Console.WriteLine();
-            }
-        }
-
-        private class RenameAlgorithm : IAlgorithm<Filter>
-        {
-            private int current;
-
-            public RenameAlgorithm()
-            {
-                this.current = 0;
-            }
-
-            public void PreAlg(Filter el, int index)
-            {
-                this.current++;
-            }
-
-            public void Alg(Filter el, int index)
-            {
-                el.Name = el.Name + " " + this.current;
-            }
-
-            public void PostAlg(Filter el, int index)
-            {
-            }
-        }
-
-        // ExEnd:WorkWithListUtilsApply
-    }
+    Console.WriteLine("Name: " + filter.Name);
+    Console.WriteLine("Filter Type: " + filter.FilterType);
+    Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
+    Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
+    Console.WriteLine();
 }
 ```
+
+## Applying Changes with `ListUtils.Apply`
+
+The `ListUtils.Apply` method facilitates applying algorithms to elements in a list. Let's explore this process:
+
+### Step 1: Load Project and Fetch Task Filters
+
+```csharp
+var project = new Project(DataDir + "Project2003.mpp");
+List<Filter> filters = project.TaskFilters.ToList();
+```
+
+### Step 2: Apply Algorithm for Renaming
+
+```csharp
+ListUtils.Apply(filters, new RenameAlgorithm(), 0);
+```
+
+### Step 3: Display Updated Filters
+
+```csharp
+foreach (var filter in filters)
+{
+    Console.WriteLine("Name: " + filter.Name);
+    Console.WriteLine("Filter Type: " + filter.FilterType);
+    Console.WriteLine("Show In Menu: " + filter.ShowInMenu);
+    Console.WriteLine("Show Related Summary Rows: " + filter.ShowRelatedSummaryRows);
+    Console.WriteLine();
+}
+```
+
+## Conclusion
+
+Mastering utility functions for lists in Aspose.Tasks for .NET opens doors to efficient list management, enabling developers to streamline operations and enhance productivity. By leveraging these functionalities, you can simplify complex tasks and optimize performance in your .NET applications.
+
+## FAQ's
+
+### Q1: Can I use Aspose.Tasks for .NET with other .NET frameworks?
+
+A1: Yes, Aspose.Tasks for .NET is compatible with various .NET frameworks, including .NET Core and .NET Standard.
+   
+### Q2: Is Aspose.Tasks for .NET suitable for both desktop and web applications?
+
+A2: Absolutely, Aspose.Tasks for .NET can be used in both desktop and web-based .NET applications seamlessly.
+   
+### Q3: Are there any limitations on the size of projects Aspose.Tasks for .NET can handle?
+
+A3: Aspose.Tasks for .NET is designed to handle projects of varying sizes, from small-scale to enterprise-level projects.
+   
+### Q4: Does Aspose.Tasks for .NET support multi-threading?
+
+A4: Yes, Aspose.Tasks for .NET provides thread-safe operations, allowing concurrent access to project data.
+   
+### Q5: Can I integrate Aspose.Tasks for .NET with other Aspose products?
+
+A5: Certainly, Aspose offers a suite of .NET APIs that can be integrated to complement each other, providing comprehensive solutions for document manipulation and management.
