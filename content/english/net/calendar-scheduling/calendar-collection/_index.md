@@ -2,130 +2,160 @@
 title: Managing Calendar Collection in Aspose.Tasks
 linktitle: Managing Calendar Collection in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to manage calendar collections in Aspose.Tasks for .NET efficiently. Create, modify, and manipulate calendars with ease.
 type: docs
 weight: 11
 url: /net/calendar-scheduling/calendar-collection/
 ---
+## Introduction
 
-## Complete Source Code
+In this tutorial, we'll explore how to manage calendar collections in Aspose.Tasks for .NET. Calendars play a crucial role in project management, defining workdays, holidays, and exceptions. Aspose.Tasks provides robust functionality to manipulate calendars within your projects.
+
+## Prerequisites
+
+Before we begin, ensure you have the following:
+
+1. Visual Studio: Install Visual Studio or any other compatible IDE for .NET development.
+2. Aspose.Tasks for .NET: Download and install Aspose.Tasks for .NET from [here](https://releases.aspose.com/tasks/net/).
+3. Basic understanding of C#: Familiarity with C# programming language will be beneficial.
+
+## Import Namespaces
+
+First, let's import the necessary namespaces to work with Aspose.Tasks:
+
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
+using System;
+using System.Collections.Generic;
+using NUnit.Framework;
+using Saving;
+
+```
+
+## Creating a New Calendar
+
+### Step 1: Initialize a new `Project` object.
+```csharp
+var project = new Project();
+```
+
+### Step 2: Add calendars to the project's calendar collection.
+```csharp
+project.Calendars.Add("Calendar");
+var newCalendar = project.Calendars.Add("Parent");
+project.Calendars.Add("Child", newCalendar);
+```
+
+### Step 3: Iterate through the calendars and display their names.
+```csharp
+foreach (var calendar in project.Calendars)
 {
-    using System;
-    using System.Collections.Generic;
-    using NUnit.Framework;
-    using Saving;
-
-    [TestFixture]
-    public class ExCalendarCollection : ApiExampleBase
-    {
-        [Test]
-        public void CreateCalendar()
-        {
-            // ExStart
-            // ExFor: CalendarCollection
-            // ExFor: CalendarCollection.Add(String,Calendar)
-            // ExFor: CalendarCollection.GetEnumerator()
-            // ExSummary: Shows how to add new calendars.
-            var project = new Project();
-
-            // new calendars can be added to a project's calendar collection by using the collection's Add overloads.
-            project.Calendars.Add("Calendar");
-            var newCalendar = project.Calendars.Add("Parent");
-            project.Calendars.Add("Child", newCalendar);
-
-            foreach (var calendar in project.Calendars)
-            {
-                Console.WriteLine("Calendar Name: " + calendar.Name);
-            }
-
-            // ExEnd
-        }
-
-        [Test]
-        public void ReplaceCalendarWithNewCalendar()
-        {
-            try
-            {
-                // ExStart:ReplaceCalendarWithNewCalendar
-                // ExFor: CalendarCollection.Remove(Calendar)
-                // ExSummary: Shows how to replace a calendar in the collection. 
-                var project = new Project(DataDir + "Project5.mpp");
-
-                var calendar = project.Calendars.GetByName("TestCalendar");
-                if (calendar != null)
-                {
-                    project.Calendars.Remove(calendar);
-                }
-
-                // add new calendar
-                project.Calendars.Add("New Calendar");
-                project.Save(OutDir + "ReplaceCalendarWithNewCalendar_out.mpp", SaveFileFormat.Mpp);
-
-                // ExEnd:ReplaceCalendarWithNewCalendar
-            }
-            catch (NotSupportedException ex)
-            {
-                Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
-            }
-        }
-        
-        [Test]
-        public void GetCalendarByNameOrId()
-        {
-            // ExStart
-            // ExFor: CalendarCollection.GetByName(String)
-            // ExFor: CalendarCollection.GetByUid(Int32)
-            // ExSummary: Shows how to get calendars by name or by id. 
-            var project = new Project(DataDir + "Project5.mpp");
-
-            var calendarByName = project.Calendars.GetByName("TestCalendar");
-            var calendarByUid = project.Calendars.GetByUid(4);
-
-            Console.WriteLine("Calendar Name: " + calendarByName.Name);
-            Console.WriteLine("Calendar Name: " + calendarByUid.Name);
-            Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid));
-
-            // ExEnd
-            Assert.AreEqual(calendarByName, calendarByUid);
-        }
-
-        [Test]
-        public void IterateOverCalendars()
-        {
-            // ExStart
-            // ExFor: CalendarCollection.Count
-            // ExFor: CalendarCollection.ToList()
-            // ExSummary: Shows how to iterate over calendar collection. 
-            var project = new Project(DataDir + "Project5.mpp");
-
-            Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
-            List<Calendar> calendars = project.Calendars.ToList();
-            foreach (var calendar in calendars)
-            {
-                Console.WriteLine("Calendar Name: " + calendar.Name);
-            }
-
-            // ExEnd
-        }
-
-        [Test]
-        public void MakeAStandardCalendar()
-        {
-            // ExStart:MakeAStandardCalendar
-            // ExFor: CalendarCollection.Add(String)
-            // ExSummary: Shows how to make a standard calendar.
-            var project = new Project();
-
-            // Define a calendar and make it standard
-            var calendar = project.Calendars.Add("New Standard Calendar");
-            Calendar.MakeStandardCalendar(calendar);
-
-            project.Save(OutDir + "MakeAStandardCalendar_out.xml", SaveFileFormat.Xml);
-
-            // ExEnd:MakeAStandardCalendar
-        }
-    }
+    Console.WriteLine("Calendar Name: " + calendar.Name);
 }
 ```
+
+## Replacing a Calendar with a New Calendar
+
+### Step 1: Load an existing project.
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+```
+
+### Step 2: Remove the existing calendar (if exists).
+```csharp
+var calendar = project.Calendars.GetByName("TestCalendar");
+if (calendar != null)
+{
+    project.Calendars.Remove(calendar);
+}
+```
+
+### Step 3: Add a new calendar.
+```csharp
+project.Calendars.Add("New Calendar");
+project.Save(OutDir + "ReplaceCalendarWithNewCalendar_out.mpp", SaveFileFormat.Mpp);
+```
+
+## Getting Calendar by Name or ID
+
+### Step 1: Load the project.
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+```
+
+### Step 2: Retrieve calendars by name or UID.
+```csharp
+var calendarByName = project.Calendars.GetByName("TestCalendar");
+var calendarByUid = project.Calendars.GetByUid(4);
+```
+
+### Step 3: Display calendar details.
+```csharp
+Console.WriteLine("Calendar Name: " + calendarByName.Name);
+Console.WriteLine("Calendar Name: " + calendarByUid.Name);
+Console.WriteLine("Are calendars equals: " + calendarByName.Equals(calendarByUid));
+```
+
+## Iterating Over Calendars
+
+### Step 1: Load the project.
+```csharp
+var project = new Project(DataDir + "Project5.mpp");
+```
+
+### Step 2: Retrieve the count of calendars.
+```csharp
+Console.WriteLine("Number of calendars in the project: " + project.Calendars.Count);
+```
+
+### Step 3: Iterate over the calendar collection and display names.
+```csharp
+List<Calendar> calendars = project.Calendars.ToList();
+foreach (var calendar in calendars)
+{
+    Console.WriteLine("Calendar Name: " + calendar.Name);
+}
+```
+
+## Making a Standard Calendar
+
+### Step 1: Initialize a new project.
+```csharp
+var project = new Project();
+```
+
+### Step 2: Define a new calendar and make it standard.
+```csharp
+var calendar = project.Calendars.Add("New Standard Calendar");
+Calendar.MakeStandardCalendar(calendar);
+```
+
+### Step 3: Save the project.
+```csharp
+project.Save(OutDir + "MakeAStandardCalendar_out.xml", SaveFileFormat.Xml);
+```
+
+## Conclusion
+
+Managing calendar collections in Aspose.Tasks for .NET is essential for effective project management. With the provided functionalities, you can efficiently create, modify, and manipulate calendars according to your project requirements.
+
+## FAQ's
+
+### Q1: Can I create custom workdays in Aspose.Tasks?
+
+A1: Yes, you can create custom workdays by adding exceptions to calendars.
+
+### Q2: Is it possible to import calendars from Microsoft Project files?
+
+A2: Absolutely, Aspose.Tasks supports importing calendars from Microsoft Project files.
+
+### Q3: How can I remove a specific calendar from a project?
+
+A3: You can remove a calendar by getting it from the collection and then calling the `Remove` method.
+
+### Q4: Does Aspose.Tasks support exporting calendars to different formats?
+
+A4: Yes, Aspose.Tasks allows exporting calendars to various formats like XML, MPP, etc.
+
+### Q5: Can I customize working hours for specific days in a calendar?
+
+A5: Certainly, you can define working hours for individual days using exceptions in the calendar.
