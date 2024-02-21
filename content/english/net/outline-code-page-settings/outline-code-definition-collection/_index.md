@@ -1,112 +1,84 @@
 ---
-title: Collection of Outline Code Definitions in Aspose.Tasks
+title: Collection of Outline Code Definitions in Aspose.Tasks .NET
 linktitle: Collection of Outline Code Definitions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to manipulate outline code definitions in Microsoft Project documents using Aspose.Tasks for .NET. Categorization of your project data effortlessly.
 type: docs
 weight: 13
 url: /net/outline-code-page-settings/outline-code-definition-collection/
 ---
+## Introduction
+Aspose.Tasks is a powerful .NET library designed to manipulate Microsoft Project documents with ease and efficiency. One of its key features is the ability to work with outline code definitions, allowing users to organize and categorize project data effectively. In this tutorial, we'll explore how to work with outline code definitions using Aspose.Tasks for .NET.
+## Prerequisites
+Before we dive into the tutorial, ensure you have the following:
+1. Basic Understanding of C#: Familiarity with C# programming language will be beneficial.
+2. Visual Studio: Install Visual Studio or any other preferred C# development environment.
+3. Aspose.Tasks for .NET: Download and install the Aspose.Tasks for .NET library from [here](https://releases.aspose.com/tasks/net/).
 
-## Complete Source Code
+## Import Namespaces
+To begin, make sure to import the necessary namespaces:
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
+using System;
+using System.Collections.Generic;
+using NUnit.Framework;
+```
+## Step 1: Load a Microsoft Project Document
+Firstly, load a Microsoft Project document to start working with outline code definitions:
+```csharp
+// The path to the documents directory.
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "OutlineCodes.mpp");
+```
+## Step 2: Access Outline Code Definitions
+Now, let's access the outline code definitions within the project:
+```csharp
+Console.WriteLine("Count of outline code definitions: " + project.OutlineCodes.Count);
+foreach (var outlineCode in project.OutlineCodes)
 {
-    using System;
-    using System.Collections.Generic;
-    using NUnit.Framework;
-
-    [TestFixture]
-    public class ExOutlineCodeDefinitionCollection : ApiExampleBase
-    {
-        [Test]
-        public void WorkWithOutlineCodeDefinitionCollection()
-        {
-            // ExStart
-            // ExFor: OutlineCodeDefinitionCollection
-            // ExFor: OutlineCodeDefinitionCollection.Add(OutlineCodeDefinition)
-            // ExFor: OutlineCodeDefinitionCollection.Clear
-            // ExFor: OutlineCodeDefinitionCollection.Contains(OutlineCodeDefinition)
-            // ExFor: OutlineCodeDefinitionCollection.CopyTo(OutlineCodeDefinition[],Int32)
-            // ExFor: OutlineCodeDefinitionCollection.Count
-            // ExFor: OutlineCodeDefinitionCollection.GetEnumerator
-            // ExFor: OutlineCodeDefinitionCollection.IndexOf(OutlineCodeDefinition)
-            // ExFor: OutlineCodeDefinitionCollection.Insert(Int32,OutlineCodeDefinition)
-            // ExFor: OutlineCodeDefinitionCollection.IsReadOnly
-            // ExFor: OutlineCodeDefinitionCollection.Item(Int32)
-            // ExFor: OutlineCodeDefinitionCollection.Remove(OutlineCodeDefinition)
-            // ExFor: OutlineCodeDefinitionCollection.RemoveAt(Int32)
-            // ExFor: OutlineCodeDefinitionCollection.ToList
-            // ExSummary: Shows how to work with outline code definition collections.
-            var project = new Project(DataDir + "OutlineCodes.mpp");
-
-            Console.WriteLine("Count of outline code definitions: " + project.OutlineCodes.Count);
-            foreach (var outlineCode in project.OutlineCodes)
-            {
-                Console.WriteLine("Field Name: " + outlineCode.FieldName);
-                Console.WriteLine("Alias: " + outlineCode.Alias);
-                Console.WriteLine();
-            }
-
-            // add a custom outline code definition
-            var outlineCodeDefinition = new OutlineCodeDefinition { FieldId = ((int)ExtendedAttributeTask.OutlineCode3).ToString("D"), Alias = "My Outline Code" };
-
-            var outlineCodeDefinition2 = new OutlineCodeDefinition { FieldId = ((int)ExtendedAttributeTask.OutlineCode1).ToString("D"), Alias = "My Outline Code 2" };
-
-            if (!project.OutlineCodes.IsReadOnly)
-            {
-                project.OutlineCodes.Add(outlineCodeDefinition);
-
-                // insert outline code definition in position
-                project.OutlineCodes.Insert(0, outlineCodeDefinition2);
-            }
-
-            // find the index of the outline code definition
-            var index = project.OutlineCodes.IndexOf(outlineCodeDefinition);
-
-            // edit the outline code definition
-            project.OutlineCodes[index].Alias = "New Alias";
-
-            // ...
-            // work with outline code definitions
-            // ...
-
-            // remove the outline code definition
-            if (project.OutlineCodes.Contains(outlineCodeDefinition))
-            {
-                project.OutlineCodes.Remove(outlineCodeDefinition);
-            }
-
-            // remove an outline code definition by index
-            project.OutlineCodes.RemoveAt(0);
-
-            var otherProject = new Project(DataDir + "Blank2010.mpp");
-
-            // remove outline code definitions
-            otherProject.OutlineCodes.Clear();
-
-            // copy outline code definitions
-            var outlineCodeDefinitions = new OutlineCodeDefinition[project.OutlineCodes.Count];
-            project.OutlineCodes.CopyTo(outlineCodeDefinitions, 0);
-
-            foreach (var definition in outlineCodeDefinitions)
-            {
-                otherProject.OutlineCodes.Add(definition);
-            }
-
-            // ...
-            // work with outline code definitions
-            // ...
-
-            // remove outline code definitions one by one
-            List<OutlineCodeDefinition> definitions = otherProject.OutlineCodes.ToList();
-            foreach (var definition in definitions)
-            {
-                otherProject.OutlineCodes.Remove(definition);
-            }
-
-            // ExEnd
-        }
-    }
+	Console.WriteLine("Field Name: " + outlineCode.FieldName);
+	Console.WriteLine("Alias: " + outlineCode.Alias);
+	Console.WriteLine();
 }
 ```
+## Step 3: Add Custom Outline Code Definitions
+You can add custom outline code definitions as follows:
+```csharp
+var outlineCodeDefinition = new OutlineCodeDefinition { FieldId = ((int)ExtendedAttributeTask.OutlineCode3).ToString("D"), Alias = "My Outline Code" };
+if (!project.OutlineCodes.IsReadOnly)
+{
+    project.OutlineCodes.Add(outlineCodeDefinition);
+}
+```
+## Step 4: Modify Outline Code Definitions
+Modify existing outline code definitions easily:
+```csharp
+var index = project.OutlineCodes.IndexOf(outlineCodeDefinition);
+project.OutlineCodes[index].Alias = "New Alias";
+```
+## Step 5: Remove Outline Code Definitions
+Remove outline code definitions when no longer needed:
+```csharp
+if (project.OutlineCodes.Contains(outlineCodeDefinition))
+{
+    project.OutlineCodes.Remove(outlineCodeDefinition);
+}
+```
+## Step 6: Save Changes
+Finally, save your changes to the project document:
+```csharp
+project.Save(DataDir + "ModifiedOutlineCodes.mpp", SaveFileFormat.MPP);
+```
+
+## Conclusion
+In conclusion, Aspose.Tasks for .NET provides comprehensive functionality for managing outline code definitions in Microsoft Project documents. By following the steps outlined in this tutorial, you can efficiently manipulate outline code definitions to organize and categorize your project data effectively.
+## FAQ's
+### Q: Can I add multiple outline code definitions to a single project?
+A: Yes, you can add multiple outline code definitions to a project based on your requirements. Simply use the `Add` method for each definition you want to include.
+### Q: Is it possible to remove all outline code definitions from a project at once?
+A: Yes, you can clear all outline code definitions from a project using the `Clear` method.
+### Q: What happens if I try to modify a read-only outline code definition?
+A: If an outline code definition is read-only, you won't be able to modify it directly. You'll need to check its read-only status before attempting any modifications.
+### Q: Are there any limitations on the number of outline code definitions I can add to a project?
+A: Aspose.Tasks for .NET doesn't impose any specific limitations on the number of outline code definitions you can add to a project. However, consider the performance implications when working with a large number of definitions.
+### Q: Can I use outline code definitions to group tasks based on custom criteria?
+A: Yes, outline code definitions allow you to categorize tasks based on custom criteria, providing flexibility in organizing project data.## Complete Source Code

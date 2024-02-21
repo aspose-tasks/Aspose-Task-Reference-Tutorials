@@ -1,167 +1,92 @@
 ---
-title: Handling Outline Code Definitions in Aspose.Tasks
+title: MS Project Outline Code Handling Definitions in Aspose.Tasks
 linktitle: Handling Outline Code Definitions in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to handle MS Project outline code definitions using Aspose.Tasks for .NET, empowering your project management applications.
 type: docs
 weight: 12
 url: /net/outline-code-page-settings/outline-code-definitions/
 ---
-
-## Complete Source Code
+## Introduction
+Microsoft Project is a powerful tool for managing projects, and Aspose.Tasks for .NET provides comprehensive support for manipulating project files programmatically. One essential aspect of project management is organizing tasks using outline codes. In this tutorial, we'll explore how to handle MS Project outline code definitions using Aspose.Tasks for .NET.
+## Prerequisites
+Before we dive into the implementation, make sure you have the following prerequisites:
+### 1. Installation of Aspose.Tasks for .NET
+Ensure you have installed Aspose.Tasks for .NET in your development environment. You can download it from [here](https://releases.aspose.com/tasks/net/).
+### 2. Basic Understanding of C# and .NET Framework
+Familiarize yourself with C# programming language and the .NET framework as this tutorial requires intermediate-level C# knowledge.
+### 3. Integrated Development Environment (IDE)
+Have an IDE such as Visual Studio installed on your system for coding and debugging.
+## Import Namespaces
+Before we start coding, let's import the necessary namespaces to work with Aspose.Tasks for .NET.
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
-{
-    using System;
-    using NUnit.Framework;
-    using Saving;
-
-    [TestFixture]
-    public class ExOutlineCodeDefinition : ApiExampleBase
-    {
-        [Test]
-        public void CheckOutlineCodeIdUniqueness()
-        {
-            // ExStart:CheckOutlineCodeIdUniqueness
-            // ExFor: OutlineCodeDefinition
-            // ExFor: OutlineCodeDefinition.#ctor
-            // ExFor: OutlineCodeDefinition.FieldId
-            // ExFor: OutlineCodeDefinition.Alias
-            // ExFor: OutlineCodeDefinition.AllLevelsRequired
-            // ExFor: OutlineCodeDefinition.Enterprise
-            // ExFor: OutlineCodeDefinition.EnterpriseOutlineCodeAlias
-            // ExFor: OutlineCodeDefinition.FieldName
-            // ExFor: OutlineCodeDefinition.Guid
-            // ExFor: OutlineCodeDefinition.LeafOnly
-            // ExFor: OutlineCodeDefinition.Masks
-            // ExFor: OutlineCodeDefinition.OnlyTableValuesAllowed
-            // ExFor: OutlineCodeDefinition.PhoneticAlias
-            // ExFor: OutlineCodeDefinition.ResourceSubstitutionEnabled
-            // ExFor: OutlineCodeDefinition.ShowIndent
-            // ExSummary: Shows how to work with outline code definitions.
-            var project = new Project(DataDir + "OutlineValues2010.mpp");
-
-            // create a new outline code definition
-            var outline = new OutlineCodeDefinition();
-
-            // set the field number of an outline code
-            outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
-
-            // set the name of a custom outline code
-            outline.FieldName = "Outline Code1";
-
-            // set the Guid of an outline code
-            outline.Guid = "e6afac06-0d86-4359-a96c-db705e3d2ca8";
-
-            // set a value indicating whether the values specified in this outline code field must be leaf values
-            outline.LeafOnly = false;
-
-            // set the alias of a custom outline code
-            outline.Alias = "My Outline Code";
-
-            // set the phonetic pronunciation of the alias of the custom outline code
-            outline.PhoneticAlias = "Outline Code";
-
-            // set a value indicating whether the new codes must have all levels. Not available for Enterprise Codes.
-            outline.AllLevelsRequired = true;
-
-            // set a value indicating whether a custom outline code is an enterprise custom outline code
-            outline.Enterprise = false;
-
-            // set a reference to another custom field for which this outline code definition is an alias
-            outline.EnterpriseOutlineCodeAlias = 0;
-
-            // add an outline mask
-            var mask = new OutlineMask();
-            mask.Type = MaskType.Characters;
-            outline.Masks.Add(mask);
-
-            // set a value indicating whether the values specified must come from values table
-            outline.OnlyTableValuesAllowed = false;
-
-            // set a value indicating whether the custom outline code can be used
-            // by the Resource Substitution Wizard in Microsoft Project
-            outline.ResourceSubstitutionEnabled = false;
-
-            // set a value indicating whether the indents of this outline code must be shown.
-            outline.ShowIndent = false;
-
-            project.OutlineCodes.Add(outline);
-
-            var value = new OutlineValue();
-            value.Value = "Text value 1";
-            value.ValueId = 1;
-            value.Type = OutlineValueType.Text;
-            value.Description = "Text value descr 1";
-            outline.Values.Add(value);
-
-            // ...
-            // ExEnd:CheckOutlineCodeIdUniqueness
-        }
-
-        [Test]
-        public void UpdateOutlineCodes()
-        {
-            try
-            {
-                // ExStart:UpdateOutlineCodes
-                // ExFor: OutlineCodeDefinition.Values
-                // ExSummary: Shows how to create new outline codes.
-                var project = new Project(DataDir + "project.mpp");
-
-                // Define outline code and its outline mask
-                var code1 = new OutlineCodeDefinition();
-                code1.Alias = "New task outline code1";
-                code1.FieldId = ((int)ExtendedAttributeTask.OutlineCode1).ToString();
-                code1.FieldName = "Outline Code1";
-                var mask = new OutlineMask();
-                mask.Separator = "+";
-                mask.Level = 1;
-                mask.Type = MaskType.Numbers;
-                code1.Masks.Add(mask);
-
-                // Add outline value
-                var value = new OutlineValue();
-                value.Description = "Value description";
-                value.ValueId = 1;
-                value.Value = "123456";
-                value.Type = OutlineValueType.Number;
-                code1.Values.Add(value);
-
-                // Add outline code to project
-                project.OutlineCodes.Add(code1);
-
-                // Define outline code and its outline mask
-                var code2 = new OutlineCodeDefinition();
-                code2.Alias = "New rsc outline code2";
-                code2.FieldId = ((int)ExtendedAttributeResource.OutlineCode2).ToString();
-                code2.FieldName = "Outline Code2";
-                var mask2 = new OutlineMask();
-                mask2.Separator = "/";
-                mask2.Level = 1;
-                mask2.Type = MaskType.Numbers;
-                code2.Masks.Add(mask2);
-
-                // Add outline value
-                var value2 = new OutlineValue();
-                value2.Description = "Value2 description";
-                value2.ValueId = 2;
-                value2.Value = "987654";
-                value2.Type = OutlineValueType.Number;
-                code2.Values.Add(value2);
-
-                // Add outline code to project
-                project.OutlineCodes.Add(code2);
-
-                project.Save(OutDir + "Updated_project_out.mpp", SaveFileFormat.Mpp);
-
-                // ExEnd:UpdateOutlineCodes
-            }
-            catch (NotSupportedException ex)
-            {
-                Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
-            }         
-        }
-    }
-}
+using System;
+using NUnit.Framework;
+using Saving;
 ```
+Now, let's break down the provided example into multiple steps for a clear understanding.
+## Step 1: Load the Project File
+First, we need to load the MS Project file into our application.
+```csharp
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "OutlineValues2010.mpp");
+```
+## Step 2: Create Outline Code Definition
+Now, let's create a new outline code definition.
+```csharp
+var outline = new OutlineCodeDefinition();
+```
+## Step 3: Set Field Number and Name
+Set the field number and name for the outline code.
+```csharp
+outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
+outline.FieldName = "Outline Code1";
+```
+## Step 4: Set GUID and Other Properties
+Set the GUID and other properties of the outline code.
+```csharp
+outline.Guid = "e6afac06-0d86-4359-a96c-db705e3d2ca8";
+outline.LeafOnly = false;
+outline.Alias = "My Outline Code";
+outline.PhoneticAlias = "Outline Code";
+outline.AllLevelsRequired = true;
+outline.Enterprise = false;
+outline.EnterpriseOutlineCodeAlias = 0;
+```
+## Step 5: Add Outline Mask
+Add an outline mask to the outline code.
+```csharp
+var mask = new OutlineMask();
+mask.Type = MaskType.Characters;
+outline.Masks.Add(mask);
+```
+## Step 6: Set Other Properties
+Set additional properties of the outline code.
+```csharp
+outline.OnlyTableValuesAllowed = false;
+outline.ResourceSubstitutionEnabled = false;
+outline.ShowIndent = false;
+```
+## Step 7: Add Outline Value
+Finally, let's add an outline value to the outline code.
+```csharp
+var value = new OutlineValue();
+value.Value = "Text value 1";
+value.ValueId = 1;
+value.Type = OutlineValueType.Text;
+value.Description = "Text value descr 1";
+outline.Values.Add(value);
+```
+## Conclusion
+In this tutorial, we've learned how to handle MS Project outline code definitions using Aspose.Tasks for .NET. By following the step-by-step guide, you can efficiently manipulate outline codes in your project files programmatically.
+## FAQ's
+### Q1: Can I use Aspose.Tasks for .NET with different versions of MS Project files?
+A: Yes, Aspose.Tasks for .NET supports various versions of MS Project files, including MPP and XML formats.
+### Q2: Is Aspose.Tasks for .NET compatible with .NET Core?
+A: Yes, Aspose.Tasks for .NET is compatible with .NET Core, allowing you to develop cross-platform applications.
+### Q3: Can I manipulate resource assignments using Aspose.Tasks for .NET?
+A: Yes, Aspose.Tasks for .NET provides extensive features for manipulating resource assignments, including adding, updating, and removing assignments.
+### Q4: Does Aspose.Tasks for .NET support reading custom fields from MS Project files?
+A: Absolutely, Aspose.Tasks for .NET supports reading and writing custom fields, including outline codes, from MS Project files.
+### Q5: Is there a community forum for Aspose.Tasks for .NET?
+A: Yes, you can join the community forum for Aspose.Tasks for .NET [here](https://forum.aspose.com/c/tasks/15) to ask questions, share knowledge, and collaborate with other developers.
