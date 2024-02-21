@@ -1,306 +1,72 @@
 ---
-title: Managing Project Server with Aspose.Tasks
+title: Managing MS Project Server with Aspose.Tasks
 linktitle: Managing Project Server with Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Unlock seamless MS Project Server management with Aspose.Tasks for .NET. Automate project tasks effortlessly.
 type: docs
 weight: 23
 url: /net/project-management-integration/project-server-management/
 ---
-
-## Complete Source Code
+## Introduction
+In this tutorial, we'll delve into managing MS Project Server using Aspose.Tasks for .NET. Aspose.Tasks is a powerful library that enables developers to work with Microsoft Project files programmatically, allowing for seamless integration and manipulation of project data.
+## Prerequisites
+Before we dive into managing MS Project Server with Aspose.Tasks, ensure you have the following prerequisites set up:
+1. Microsoft Project Server: You need access to a Microsoft Project Server instance where you have administrative privileges or at least permissions to create and manage projects.
+2. Aspose.Tasks for .NET Library: Make sure you have downloaded and installed the Aspose.Tasks for .NET library. You can download it from the [website](https://releases.aspose.com/tasks/net/).
+3. Credentials: Obtain the necessary credentials to authenticate with your MS Project Server instance. This typically includes a username and password.
+## Import Namespaces
+Before getting started, ensure you have imported the required namespaces in your C# code:
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
-{
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
     using System.IO;
     using System.Net;
     using NUnit.Framework;
-
-    [TestFixture]
-    [SuppressMessage("ReSharper", "StyleCop.SA1108", Justification = "Reviewed. Suppression is OK here.")]
-    public class ExProjectServerManager : ApiExampleBase
-    {
-        [Test, Ignore("Should be run explicitly.")]
-        public void ProjectServerManager()
-        {
-            // ExStart:CreateProjectOnline
-            // ExFor: ProjectServerManager
-            // ExFor: ProjectServerManager.CreateNewProject(Project,ProjectServerSaveOptions)
-            // ExSummary: Shows how to use Project Server manager to create a new project with predefined save options on Microsoft Project Online.
-            try
-            {
-                const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
-                const string UserName = "admin@contoso.onmicrosoft.com";
-                const string Password = "MyPassword";
-
-                var credentials = new ProjectServerCredentials(sharepointDomainAddress, UserName, Password);
-
-                var project = new Project(DataDir + @"Project1.mpp");
-
-                var manager = new ProjectServerManager(credentials);
-                var options = new ProjectServerSaveOptions
-                {
-                    Timeout = TimeSpan.FromSeconds(10)
-                };
-                manager.CreateNewProject(project, options);
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            // ExEnd:CreateProjectOnline
-        }
-
-        [Test, Ignore("Should be run explicitly.")]
-        public void ProjectServerManagerExecutingWebRequestEvent()
-        {
-            // ExStart:ExecutingWebRequestEvent
-            // ExFor: ProjectServerManager.ExecutingWebRequest
-            // ExSummary: Shows how to use ProjectServerManager.ExecutingWebRequest event to customize web requests issued to Project Server.
-            try
-            {
-                const string SiteUrl = "https://myprojectserver/sites/pwa";
-                const string UserName = "test_user";
-                const string Password = "MyPassword";
-
-                var credentials = new ProjectServerCredentials(SiteUrl, new NetworkCredential(UserName, Password));
-
-                var project = new Project(DataDir + @"Project1.mpp");
-
-                var manager = new ProjectServerManager(credentials);
-                manager.ExecutingWebRequest += delegate (object sender, WebRequestEventArgs e)
-                {
-                    e.WebRequest.Headers.Add("XMyCustomHeader", "testvalue");
-                };
-
-                var list = manager.GetProjectList();
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            // ExEnd:ExecutingWebRequestEvent
-        }
-
-        [Test, Ignore("Should be run explicitly.")]
-        public void ProjectServerManagerCreateNewProject()
-        {
-            // ExStart:ProjectServerManagerCreateNewProject
-            // ExFor: ProjectServerManager.CreateNewProject(Project)
-            // ExSummary: Shows how to use ProjectServerManager to create a new project on Microsoft Project Online.
-            try
-            {
-                const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
-                const string UserName = "admin@contoso.onmicrosoft.com";
-                const string Password = "MyPassword";
-
-                var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
-
-                var project = new Project(DataDir + @"Project1.mpp");
-
-                var manager = new ProjectServerManager(credentials);
-                manager.CreateNewProject(project);
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            // ExEnd:ProjectServerManagerCreateNewProject
-        }
-
-        [SuppressMessage("ReSharper", "UnusedVariable", Justification = "Reviewed. Suppression is OK here.")]
-        [Test, Ignore("Should be run explicitly.")]
-        public void ReadingProjectOnline()
-        {
-            try
-            {
-                // ExStart:ReadingProjectOnline
-                // ExFor: ProjectServerManager.#ctor(ProjectServerCredentials)
-                // ExFor: ProjectServerManager.GetProjectList
-                // ExFor: ProjectServerManager.GetProject(Guid)
-                // ExSummary: Shows how to read a project from Microsoft Project Online.
-                const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
-                const string UserName = "admin@contoso.onmicrosoft.com";
-                const string Password = "MyPassword";
-
-                var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
-                var manager = new ProjectServerManager(credentials);
-                IEnumerable<ProjectInfo> list = manager.GetProjectList();
-
-                foreach (var info in list)
-                {
-                    var project = manager.GetProject(info.Id);
-                    Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
-                    Console.WriteLine("Resources count: {0}", project.Resources.Count);
-                }
-
-                // ExEnd:ReadingProjectOnline
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }
-
-        [SuppressMessage("ReSharper", "UnusedVariable", Justification = "Reviewed. Suppression is OK here.")]
-        [Test, Ignore("Should be run explicitly.")]
-        public void ReadingRawProjectData()
-        {
-            try
-            {
-                // ExStart:GetProjectRawData
-                // ExFor: ProjectServerManager.GetProjectRawData(Guid)
-                // ExSummary: Shows how to retrieve project's raw data from Microsoft Project Online for troubleshooting purposes.
-                const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
-                const string UserName = "admin@contoso.onmicrosoft.com";
-                const string Password = "MyPassword";
-
-                var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
-                var manager = new ProjectServerManager(credentials);
-                IEnumerable<ProjectInfo> list = manager.GetProjectList();
-
-                foreach (var info in list)
-                {
-                    var project = manager.GetProject(info.Id);
-                    Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
-                    Console.WriteLine("Resources count: {0}", project.Resources.Count);
-
-                    // The user can read the project as raw data stream for troubleshooting purposes.
-                    using (FileStream fs = File.Create(OutDir + "projectRawData.zip"))
-                    {
-                        using (var stream = manager.GetProjectRawData(info.Id))
-                        {
-                            stream.CopyTo(fs);
-                        }
-                    }
-
-                    // you can pass the resulting file to support.
-                }
-
-                // ExEnd:GetProjectRawData
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }
-
-        [Test]
-        public void UpdateProjectServer()
-        {
-            // ExStart:UpdateProjectServer
-            // ExFor: ProjectServerManager.UpdateProject(Project)
-            // ExSummary: Shows how to update project on Microsoft Project Online.
-            const string URL = "https://contoso.sharepoint.com/sites/pwa";
-            const string Domain = "CONTOSO.COM";
-            const string UserName = "Administrator";
-            const string Password = "MyPassword";
-
-            var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
-            var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
-            try
-            {
-                var manager = new ProjectServerManager(projectServerCredentials);
-
-                ProjectInfo projectInfo = null;
-                foreach (var info in manager.GetProjectList())
-                {
-                    if (info.Name == "My project")
-                    {
-                        projectInfo = info;
-                    }
-                }
-
-                if (projectInfo == null)
-                {
-                    Console.WriteLine("Project 'My project' not found in working store of Project Online account.");
-                    return;
-                }
-
-                var project = manager.GetProject(projectInfo.Id);
-                project.Set(Prj.FinishDate, new DateTime(2020, 03, 01));
-
-                var task = project.RootTask.Children.Add("New task");
-                task.Set(Tsk.Start, new DateTime(2020, 02, 26));
-                task.Set(Tsk.Duration, project.GetDuration(2, TimeUnitType.Day));
-
-                manager.UpdateProject(project);
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine("Failed to update the project. Error: " + ex);
-            }
-
-            // ExEnd:UpdateProjectServer
-            catch (NotSupportedException ex)
-            {
-                Console.WriteLine(
-                    ex.Message
-                    + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
-            }
-        }
-        
-        [Test]
-        public void UpdateProjectInProjectOnlineWithOptions()
-        {
-            // ExStart:UpdateProjectOnlineWithOptions
-            // ExFor: ProjectServerManager.UpdateProject(Project,ProjectServerSaveOptions)
-            // ExSummary: Shows how to update project on Microsoft Project Online with an usage of Project Server save options.
-            const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
-            const string UserName = "admin@contoso.onmicrosoft.com";
-            const string Password = "MyPassword";
-
-            var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
-
-            try
-            {
-                var manager = new ProjectServerManager(credentials);
-
-                ProjectInfo projectInfo = null;
-                foreach (var info in manager.GetProjectList())
-                {
-                    if (info.Name == "My project")
-                    {
-                        projectInfo = info;
-                    }
-                }
-
-                if (projectInfo == null)
-                {
-                    Console.WriteLine("Project 'My project' not found in working store of Project Online account.");
-                    return;
-                }
-
-                var project = manager.GetProject(projectInfo.Id);
-                project.Set(Prj.FinishDate, new DateTime(2020, 03, 01));
-
-                var task = project.RootTask.Children.Add("New task");
-                task.Set(Tsk.Start, new DateTime(2020, 02, 26));
-                task.Set(Tsk.Duration, project.GetDuration(2, TimeUnitType.Day));
-
-                var options = new ProjectServerSaveOptions { Timeout = TimeSpan.FromMinutes(5) };
-
-                manager.UpdateProject(project, options);
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine("Failed to update the project. Error: " + ex);
-            }
-
-            // ExEnd:UpdateProjectOnlineWithOptions
-            catch (NotSupportedException ex)
-            {
-                Console.WriteLine(
-                    ex.Message
-                    + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
-            }
-        }
-    }
-}
 ```
+## Step 1: Set Up Authentication Credentials
+First, you need to set up authentication credentials to connect to your MS Project Server instance. This includes the domain address, username, and password.
+```csharp
+const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+var credentials = new ProjectServerCredentials(sharepointDomainAddress, UserName, Password);
+```
+## Step 2: Load the Project
+Next, load the MS Project file that you want to manage using Aspose.Tasks.
+```csharp
+var project = new Project(DataDir + @"Project1.mpp");
+```
+## Step 3: Create Project Server Manager
+Instantiate a `ProjectServerManager` object using the previously defined credentials.
+```csharp
+var manager = new ProjectServerManager(credentials);
+```
+## Step 4: Define Save Options
+Define any specific save options for your project. For example, you can set a timeout for the operation.
+```csharp
+var options = new ProjectServerSaveOptions
+{
+    Timeout = TimeSpan.FromSeconds(10)
+};
+```
+## Step 5: Create or Update Project
+Finally, create or update the project on the MS Project Server.
+```csharp
+manager.CreateNewProject(project, options);
+```
+Congratulations! You've successfully managed MS Project Server using Aspose.Tasks for .NET.
+
+## Conclusion
+In this tutorial, we explored how to manage MS Project Server programmatically using Aspose.Tasks for .NET. With the provided steps, you can seamlessly integrate Aspose.Tasks into your .NET applications to automate project management tasks on MS Project Server.
+## FAQ's
+### Q: Is Aspose.Tasks compatible with all versions of Microsoft Project Server?
+A: Aspose.Tasks supports integration with various versions of Microsoft Project Server, ensuring compatibility across different environments.
+### Q: Can I perform bulk operations on projects using Aspose.Tasks?
+A: Yes, Aspose.Tasks allows you to perform bulk operations such as creating, updating, and deleting projects on MS Project Server.
+### Q: Does Aspose.Tasks provide support for project scheduling and resource management?
+A: Absolutely, Aspose.Tasks offers comprehensive support for project scheduling, resource allocation, and task management functionalities.
+### Q: Is it possible to automate reporting tasks with Aspose.Tasks?
+A: Yes, Aspose.Tasks enables you to automate the generation of custom reports based on project data, facilitating efficient project monitoring and analysis.
+### Q: Can I try Aspose.Tasks before purchasing it?
+A: Yes, you can explore the capabilities of Aspose.Tasks by accessing a free trial from the [website](https://purchase.aspose.com/temporary-license/).

@@ -1,148 +1,84 @@
 ---
-title: Managing Project Server Credentials in Aspose.Tasks
+title: Managing MS Project Server Credentials in Aspose.Tasks
 linktitle: Managing Project Server Credentials in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to manage MS Project Server credentials seamlessly with Aspose.Tasks for .NET. Enhance project management efficiency.
 type: docs
 weight: 22
 url: /net/project-management-integration/project-server-credentials/
 ---
+## Introduction
+In the realm of project management, effective coordination and seamless communication are pivotal for successful project execution. Aspose.Tasks for .NET provides a comprehensive solution for managing Microsoft Project Server credentials, enabling users to securely access and manipulate project data. This tutorial delves into the process of managing MS Project Server credentials using Aspose.Tasks for .NET, guiding users through each step to ensure a smooth experience.
+## Prerequisites
+Before embarking on the journey of managing MS Project Server credentials with Aspose.Tasks for .NET, ensure the following prerequisites are met:
+### 1. Installing Aspose.Tasks for .NET
+To begin, download and install Aspose.Tasks for .NET from the provided [download link](https://releases.aspose.com/tasks/net/). Follow the installation instructions to integrate the library into your .NET environment seamlessly.
+### 2. Access Credentials
+Gather the necessary credentials required for accessing the MS Project Server. This includes the SharePoint domain address, username, and password associated with the Project Server.
 
-## Complete Source Code
+## Import Namespaces
+In your .NET project, import the required namespaces to utilize the functionalities provided by Aspose.Tasks for .NET efficiently.
+
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Net;
+using System.Security;
+using Microsoft.SharePoint.Client;
+using NUnit.Framework;
+```
+
+## Step 1: Define Document Directory Path
+```csharp
+String DataDir = "Your Document Directory";
+```
+## Step 2: Set SharePoint Domain Address, Username, and Password
+```csharp
+const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
+const string UserName = "admin@contoso.onmicrosoft.com";
+const string Password = "MyPassword";
+```
+## Step 3: Create Project Server Credentials
+```csharp
+var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
+```
+## Step 4: Load Project File
+```csharp
+var newProject = new Project(DataDir + @"Project1.mpp");
+```
+## Step 5: Initialize Project Server Manager
+```csharp
+var manager = new ProjectServerManager(credentials);
+```
+## Step 6: Create New Project
+```csharp
+manager.CreateNewProject(newProject);
+```
+## Step 7: Retrieve Project List
+```csharp
+IEnumerable<ProjectInfo> list = manager.GetProjectList();
+```
+## Step 8: Iterate Through Project List
+```csharp
+foreach (var info in list)
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Net;
-    using System.Security;
-    using Microsoft.SharePoint.Client;
-    using NUnit.Framework;
-
-    [TestFixture]
-    [SuppressMessage("ReSharper", "StyleCop.SA1108", Justification = "Reviewed. Suppression is OK here.")]
-    public class ExProjectServerCredentials : ApiExampleBase
-    {
-        [Test]
-        public void ProjectServerCredentials()
-        {
-            // ExStart:CreateProjectOnline
-            // ExFor: ProjectServerCredentials
-            // ExFor: ProjectServerCredentials.#ctor(String,String,String)
-            // ExSummary: Shows how to use project server credentials to retrieve list of project from Microsoft Project Online.
-            try
-            {
-                const string SharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
-                const string UserName = "admin@contoso.onmicrosoft.com";
-                const string Password = "MyPassword";
-
-                var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
-
-                var newProject = new Project(DataDir + @"Project1.mpp");
-
-                var manager = new ProjectServerManager(credentials);
-                manager.CreateNewProject(newProject);
-
-                IEnumerable<ProjectInfo> list = manager.GetProjectList();
-
-                foreach (var info in list)
-                {
-                    var project = manager.GetProject(info.Id);
-                    Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
-                    Console.WriteLine("Resources count: {0}", project.Resources.Count);
-                }
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            // ExEnd:CreateProjectOnline
-        }
-
-        [Test]
-        public void CreateProjectInProjectServer()
-        {
-            // ExStart:CreateProjectInProjectServer
-            // ExFor: ProjectServerCredentials.#ctor(String,NetworkCredential)
-            // ExSummary: Shows how to use Project Server credentials with network credentials to read a project from on-premise instance of Project Server.
-            try
-            {
-                const string URL = "https://project_server.local/sites/pwa";
-                const string Domain = "CONTOSO.COM";
-                const string UserName = "Administrator";
-                const string Password = "MyPassword";
-
-                var project = new Project(DataDir + @"Project1.mpp");
-
-                var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
-                var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
-                var manager = new ProjectServerManager(projectServerCredentials);
-                manager.CreateNewProject(project);
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            // ExEnd:CreateProjectInProjectServer
-            catch (NotSupportedException ex)
-            {
-                Console.WriteLine(
-                    ex.Message
-                    + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
-            }
-        }
-        
-        [Test, Category("ExternalDependencies")]
-        public void CreateProjectInProjectServer2()
-        {
-            // ExStart
-            // ExFor: ProjectServerCredentials.#ctor(String,String)
-            // ExFor: ProjectServerCredentials.AuthToken
-            // ExFor: ProjectServerCredentials.SiteUrl
-            // ExFor: ProjectServerCredentials.UserName
-            // ExSummary: Shows how to use Project Server credentials with SharePointOnlineCredentials to create project in Microsoft Project Online.
-            try
-            {
-                const string Username = "admin@contoso.onmicrosoft.com";
-                const string SecuredPassword = "MyPassword";
-                var url = new Uri("https://contoso.sharepoint.com/sites/pwa");
-                var project = new Project(DataDir + "Project1.mpp");
-                var password = new SecureString();
-                foreach (var c in SecuredPassword)
-                {
-                    password.AppendChar(c);
-                }
-
-                var onlineCredentials = new SharePointOnlineCredentials(Username, password);
-                var projectServerCredentials = new ProjectServerCredentials(url.ToString(), onlineCredentials.GetAuthenticationCookie(url, true));
-
-                Console.WriteLine("Project Server Auth Token: " + projectServerCredentials.AuthToken);
-                Console.WriteLine("Project Server Site Url: " + projectServerCredentials.SiteUrl);
-                Console.WriteLine("Project Server User Name: " + projectServerCredentials.UserName);
-
-                var manager = new ProjectServerManager(projectServerCredentials);
-                manager.CreateNewProject(project);
-            }
-            catch (ProjectOnlineException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-
-            // ExEnd
-            catch (NotSupportedException ex)
-            {
-                Console.WriteLine(
-                    ex.Message
-                    + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
-            }
-            catch (WebException ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-        }
-    }
+    var project = manager.GetProject(info.Id);
+    Console.WriteLine("{0} - {1} - {2}", info.Name, info.CreatedDate, info.LastSavedDate);
+    Console.WriteLine("Resources count: {0}", project.Resources.Count);
 }
 ```
+
+## Conclusion
+Effectively managing MS Project Server credentials is paramount for streamlined project management. Aspose.Tasks for .NET simplifies this process by providing a robust set of functionalities. By following the step-by-step guide outlined in this tutorial, users can seamlessly integrate Aspose.Tasks for .NET into their projects, ensuring secure access and manipulation of project data.
+## FAQ's
+### Q: Is Aspose.Tasks for .NET compatible with all versions of Microsoft Project Server?
+A: Aspose.Tasks for .NET is designed to be compatible with various versions of Microsoft Project Server, ensuring versatility and flexibility for users.
+### Q: Can I integrate Aspose.Tasks for .NET into my existing .NET project?
+A: Yes, Aspose.Tasks for .NET can be seamlessly integrated into existing .NET projects, facilitating efficient project management capabilities.
+### Q: Does Aspose.Tasks for .NET provide support for accessing project resources?
+A: Absolutely, Aspose.Tasks for .NET offers comprehensive support for accessing and manipulating project resources, enhancing project management efficiency.
+### Q: Are there any licensing options available for Aspose.Tasks for .NET?
+A: Yes, Aspose.Tasks for .NET offers flexible licensing options, including temporary licenses for trial purposes and full licenses for commercial use.
+### Q: Where can I seek assistance or support for Aspose.Tasks for .NET?
+A: For any inquiries or assistance regarding Aspose.Tasks for .NET, you can visit the support forum at [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).## Complete Source Code

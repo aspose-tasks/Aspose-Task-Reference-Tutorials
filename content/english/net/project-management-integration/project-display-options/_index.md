@@ -1,91 +1,86 @@
 ---
-title: Configuring Project Display Options in Aspose.Tasks
+title: Configuring MS Project Display Options in Aspose.Tasks
 linktitle: Configuring Project Display Options in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to configure MS Project display options programmatically using Aspose.Tasks for .NET. Customize your project's appearance effortlessly.
 type: docs
 weight: 17
 url: /net/project-management-integration/project-display-options/
 ---
+## Introduction
+Microsoft Project offers a plethora of display options to customize the appearance of your project. Aspose.Tasks for .NET provides a robust framework to manipulate these options programmatically. In this tutorial, we'll explore how to configure MS Project display options using Aspose.Tasks.
+## Prerequisites
+Before diving into the tutorial, ensure you have the following:
+1. Aspose.Tasks for .NET: Download and install the library from [here](https://releases.aspose.com/tasks/net/).
+2. Microsoft Project File: Have a valid MS Project file (.mpp) ready to apply the display options.
+3. Basic Knowledge of C#: Familiarity with C# programming language is required.
 
-## Complete Source Code
+## Importing Namespaces
+Firstly, make sure to import the necessary namespaces into your C# code:
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
-{
-    using System;
-    using NUnit.Framework;
-    using Saving;
-
-    [TestFixture]
-    public class ExProjectDisplayOptions : ApiExampleBase
-    {
-        [Test]
-        public void WorkWithProjectDisplayOptions()
-        {
-            try
-            {
-                // ExStart:ProjectDisplayOptionsUsage
-                // ExFor: ProjectDisplayOptions
-                // ExFor: ProjectDisplayOptions.#ctor
-                // ExFor: ProjectDisplayOptions.AddSpaceBeforeLabel
-                // ExFor: ProjectDisplayOptions.MinuteLabel
-                // ExFor: ProjectDisplayOptions.HourLabel
-                // ExFor: ProjectDisplayOptions.DayLabel
-                // ExFor: ProjectDisplayOptions.WeekLabel
-                // ExFor: ProjectDisplayOptions.MonthLabel
-                // ExFor: ProjectDisplayOptions.YearLabel
-                // ExFor: ProjectDisplayOptions.ShowProjectSummaryTask
-                // ExFor: ProjectDisplayOptions.ShowTaskScheduleWarnings
-                // ExFor: ProjectDisplayOptions.ShowTaskScheduleSuggestions
-                // ExFor: ProjectDisplayOptions.UnderlineHyperlinks
-                // ExSummary: Shows how to use project's display options.
-                var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
-
-                // Set a value indicating whether to show warnings when Project identifies a possible scheduling conflict with a manually scheduled task.
-                // This option is available for Project 2010 version and later.
-                project.DisplayOptions.ShowTaskScheduleWarnings = false;
-
-                // a value indicating whether to add a space before the number value and the time abbreviation (1 wk as opposed to 1wk)
-                project.DisplayOptions.AddSpaceBeforeLabel = true;
-
-                // set how the minute label is displayed
-                project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.Min;
-
-                // set how the hour label is displayed
-                project.DisplayOptions.HourLabel = HourLabelDisplay.Hr;
-
-                // set how the day label is displayed
-                project.DisplayOptions.DayLabel = DayLabelDisplay.Dy;
-
-                // set how the week label is displayed
-                project.DisplayOptions.WeekLabel = WeekLabelDisplay.Week;
-
-                // set how the month label is displayed
-                project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mon;
-
-                // set how the year label is displayed
-                project.DisplayOptions.YearLabel = YearLabelDisplay.Year;
-
-                // set a value indicating whether to display summary information about an entire project on a single row with its own summary task bar at the top of the Gantt Chart view.
-                project.DisplayOptions.ShowProjectSummaryTask = true;
-
-                // set a value indicating whether to show suggestions when Project identifies a possible scheduling conflict with a manually scheduled task.
-                project.DisplayOptions.ShowTaskScheduleSuggestions = true;
-
-                // set a value indicating whether to underline hyperlinks.
-                project.DisplayOptions.UnderlineHyperlinks = true;
-
-                project.Save(OutDir + "WorkWithProjectDisplayOptions.mpp", SaveFileFormat.Mpp);
-
-                // ExEnd:ProjectDisplayOptionsUsage
-            }
-            catch (NotSupportedException ex)
-            {
-                Console.WriteLine(
-                    ex.Message
-                    + "\nThis example will only work if you apply a valid Aspose License. You can purchase full license or get 30 day temporary license from http://www.aspose.com/purchase/default.aspx.");
-            }
-        }
-    }
-}
+using System;
+using NUnit.Framework;
+using Saving;
 ```
+## Step 1: Load the Project File
+Load the MS Project file using the `Project` class provided by Aspose.Tasks:
+```csharp
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "YourProjectFile.mpp");
+```
+## Step 2: Configure Display Options
+Now, let's configure various display options available in MS Project:
+### Disable Task Schedule Warnings
+To disable warnings for scheduling conflicts with manually scheduled tasks (available for Project 2010 and later):
+```csharp
+project.DisplayOptions.ShowTaskScheduleWarnings = false;
+```
+### Add Space Before Label
+Set to add a space before the number value and the time abbreviation:
+```csharp
+project.DisplayOptions.AddSpaceBeforeLabel = true;
+```
+### Configure Label Display for Time Units
+Customize how different time units are displayed:
+```csharp
+project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.Min;
+project.DisplayOptions.HourLabel = HourLabelDisplay.Hr;
+project.DisplayOptions.DayLabel = DayLabelDisplay.Dy;
+project.DisplayOptions.WeekLabel = WeekLabelDisplay.Week;
+project.DisplayOptions.MonthLabel = MonthLabelDisplay.Mon;
+project.DisplayOptions.YearLabel = YearLabelDisplay.Year;
+```
+### Show Project Summary Task
+Display summary information about the entire project on a single row:
+```csharp
+project.DisplayOptions.ShowProjectSummaryTask = true;
+```
+### Enable Task Schedule Suggestions
+Allow displaying suggestions for scheduling conflicts with manually scheduled tasks:
+```csharp
+project.DisplayOptions.ShowTaskScheduleSuggestions = true;
+```
+### Underline Hyperlinks
+Set to underline hyperlinks within the project:
+```csharp
+project.DisplayOptions.UnderlineHyperlinks = true;
+```
+## Step 3: Save the Project
+Finally, save the project with the applied display options:
+```csharp
+project.Save(DataDir + "ModifiedProjectFile.mpp", SaveFileFormat.Mpp);
+```
+
+## Conclusion
+In this tutorial, we learned how to configure MS Project display options using Aspose.Tasks for .NET. With these capabilities, you can efficiently customize the appearance of your project files programmatically.
+## FAQ's
+### Q: Can I apply these display options to specific tasks only?
+A: Yes, you can selectively apply display options to individual tasks using Aspose.Tasks API.
+### Q: Do these display options affect the underlying project data?
+A: No, these options only modify the visual representation of the project and do not alter the underlying data.
+### Q: Are these display options compatible with all versions of Microsoft Project?
+A: No, some options may be specific to certain versions of MS Project. Refer to the documentation for compatibility details.
+### Q: Can I revert the display options back to default settings?
+A: Yes, you can reset the display options to their default values using Aspose.Tasks API.
+### Q: Are there any limitations to customizing display options programmatically?
+A: While Aspose.Tasks provides extensive customization capabilities, certain display options may not be accessible programmatically due to limitations in the MS Project file format.
