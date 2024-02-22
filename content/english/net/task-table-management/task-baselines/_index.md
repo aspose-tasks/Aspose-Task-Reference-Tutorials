@@ -1,114 +1,75 @@
 ---
-title: Handling Task Baselines in Aspose.Tasks
+title: Mastering Task Baselines in Aspose.Tasks for .NET
 linktitle: Handling Task Baselines in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to handle task baselines in Aspose.Tasks for .NET with this comprehensive tutorial. Enhance your project management skills today!
 type: docs
 weight: 16
 url: /net/task-table-management/task-baselines/
 ---
-
-## Complete Source Code
+## Introduction
+In the dynamic world of project management, staying organized and informed is crucial. Aspose.Tasks for .NET provides a powerful solution for handling task baselines, allowing you to access valuable baseline information efficiently. This step-by-step guide will walk you through the process, ensuring you grasp each concept with clarity.
+## Prerequisites
+Before diving into the tutorial, make sure you have the following prerequisites in place:
+- Environment Setup: Ensure you have Aspose.Tasks for .NET installed in your development environment. If not, you can download it from the [official Aspose.Tasks documentation](https://reference.aspose.com/tasks/net/).
+- Basic Knowledge of C#: Familiarize yourself with C# programming language basics, as this tutorial assumes a foundational understanding.
+- Integrated Development Environment (IDE): Use a preferred IDE such as Visual Studio to follow along seamlessly.
+## Import Namespaces
+To begin, import the necessary namespaces into your project. This ensures you have access to the Aspose.Tasks functionality:
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
-{
     using System;
     using NUnit.Framework;
-
-    [TestFixture]
-    public class ExTaskBaseline : ApiExampleBase
-    {
-        [Test]
-        public void WorkWithTaskBaseline()
-        {
-            // ExStart:WorkWithTaskBaseline
-            // ExFor: TaskBaseline
-            // ExFor: TaskBaseline.Start
-            // ExFor: TaskBaseline.Duration
-            // ExFor: TaskBaseline.EstimatedDuration
-            // ExFor: TaskBaseline.Finish
-            // ExFor: TaskBaseline.FixedCost
-            // ExFor: TaskBaseline.Interim
-            // ExFor: TaskBaseline.TimephasedData
-            // ExSummary: Shows how to get access to a baseline information.
-            var project = new Project();
-
-            // Creating TaskBaseline
-            var task = project.RootTask.Children.Add("Task");
-            project.SetBaseline(BaselineType.Baseline);
-
-            // Display task baseline duration
-            var baseline = task.Baselines.ToList()[0];
-            Console.WriteLine("Baseline Start: {0}", baseline.Start);
-            Console.WriteLine("Baseline duration: {0}", baseline.Duration);
-            Console.WriteLine("Baseline duration format: {0}", baseline.Duration.TimeUnit);
-            Console.WriteLine("Is it estimated duration?: {0}", baseline.EstimatedDuration);
-            Console.WriteLine("Baseline Finish: {0}", baseline.Finish);
-
-            // value indicating whether this is an Interim Baseline
-            Console.WriteLine("Interim: {0}", baseline.Interim);
-            Console.WriteLine("Fixed Cost: {0}", baseline.FixedCost);
-
-            // print timephased data of task baseline
-            Console.WriteLine("Number of timephased items: " + baseline.TimephasedData.Count);
-            foreach (var data in baseline.TimephasedData)
-            {
-                Console.WriteLine(" Uid: " + data.Uid);
-                Console.WriteLine(" Start: " + data.Start);
-                Console.WriteLine(" Finish: " + data.Finish);
-            }
-
-            // ExEnd:WorkWithTaskBaseline            
-        }
-
-        [Test]
-        public void EqualsTaskBaseline()
-        {
-            // ExStart
-            // ExFor: TaskBaseline.CompareTo(TaskBaseline)
-            // ExFor: TaskBaseline.Equals(TaskBaseline)
-            // ExFor: TaskBaseline.Equals(Object)
-            // ExSummary: Shows how to check equality of baselines. 
-            var project = new Project();
-
-            // creating TaskBaseline
-            var task = project.RootTask.Children.Add("Task");
-            project.SetBaseline(BaselineType.Baseline);
-
-            // display task baseline duration
-            var baseline1 = task.Baselines.ToList()[0];
-            var baseline2 = task.Baselines.ToList()[0];
-
-            // the equality of baselines is checked against to baseline's numbers.
-            Console.WriteLine("Baseline Number 1: " + baseline1.BaselineNumber);
-            Console.WriteLine("Baseline Number 2: " + baseline2.BaselineNumber);
-            Console.WriteLine("Are baselines equal: " + baseline1.Equals(baseline2));
-
-            // ExEnd            
-        }
-
-        [Test]
-        public void GetHashCodeTaskBaseline()
-        {
-            // ExStart
-            // ExFor: TaskBaseline.GetHashCode
-            // ExSummary: Shows how to get hash code of a task baseline.
-            var project = new Project();
-
-            // creating TaskBaseline
-            var task = project.RootTask.Children.Add("Task");
-            project.SetBaseline(BaselineType.Baseline);
-
-            // display task baseline duration
-            var baseline1 = task.Baselines.ToList()[0];
-            var baseline2 = task.Baselines.ToList()[0];
-
-            // the hash code of a calendar is equal to baseline number 
-            Console.WriteLine("Baseline 1 Number: {0} Hash Code: {1}", (int)baseline1.BaselineNumber, baseline1.GetHashCode());
-            Console.WriteLine("Baseline 2 Number: {0} Hash Code: {1}", (int)baseline2.BaselineNumber, baseline2.GetHashCode());
-
-            // ExEnd            
-        }
-    }
+```
+Now, let's break down the provided example into multiple steps to guide you through handling task baselines in Aspose.Tasks.
+## Step 1: Create a Project
+```csharp
+var project = new Project();
+```
+Start by initializing a new project using the `Project` class.
+## Step 2: Create a Task and Set Baseline
+```csharp
+var task = project.RootTask.Children.Add("Task");
+project.SetBaseline(BaselineType.Baseline);
+```
+Add a task to the project and set its baseline using the `SetBaseline` method.
+## Step 3: Display Task Baseline Information
+```csharp
+var baseline = task.Baselines.ToList()[0];
+Console.WriteLine("Baseline Start: {0}", baseline.Start);
+Console.WriteLine("Baseline duration: {0}", baseline.Duration);
+Console.WriteLine("Baseline duration format: {0}", baseline.Duration.TimeUnit);
+Console.WriteLine("Is it estimated duration?: {0}", baseline.EstimatedDuration);
+Console.WriteLine("Baseline Finish: {0}", baseline.Finish);
+```
+Retrieve and display key information about the task baseline, such as start time, duration, and finish time.
+## Step 4: Additional Baseline Details
+```csharp
+Console.WriteLine("Interim: {0}", baseline.Interim);
+Console.WriteLine("Fixed Cost: {0}", baseline.FixedCost);
+```
+Explore additional details, including whether the baseline is an Interim Baseline and the fixed cost associated with it.
+## Step 5: Print Timephased Data
+```csharp
+Console.WriteLine("Number of timephased items: " + baseline.TimephasedData.Count);
+foreach (var data in baseline.TimephasedData)
+{
+    Console.WriteLine(" Uid: " + data.Uid);
+    Console.WriteLine(" Start: " + data.Start);
+    Console.WriteLine(" Finish: " + data.Finish);
 }
 ```
+Understand the timephased data associated with the task baseline, providing insights into various project timelines.
+## Conclusion
+Congratulations! You've successfully learned how to handle task baselines in Aspose.Tasks for .NET. This knowledge will enhance your project management capabilities, ensuring accurate tracking and planning.
+## Frequently Asked Questions
+ (FAQs)
+### Q: Can I use Aspose.Tasks with other .NET frameworks?
+A: Aspose.Tasks is compatible with multiple .NET frameworks, providing flexibility in your development environment.
+### Q: Is there a community forum for Aspose.Tasks support?
+A: Yes, you can find support and engage with the community at [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).
+### Q: How can I obtain a temporary license for Aspose.Tasks?
+A: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for Aspose.Tasks.
+### Q: Are there any tutorials beyond task baselines available?
+A: Explore the [official documentation](https://reference.aspose.com/tasks/net/) for a wide range of tutorials on Aspose.Tasks features.
+### Q: Where can I purchase Aspose.Tasks for .NET?
+A: You can conveniently purchase Aspose.Tasks [here](https://purchase.aspose.com/buy).
