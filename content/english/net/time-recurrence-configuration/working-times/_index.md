@@ -2,57 +2,35 @@
 title: Configuring Working Times in Aspose.Tasks
 linktitle: Configuring Working Times in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Enhance project scheduling in .NET with Aspose.Tasks. Configure working times effortlessly for precise resource management. Download the library now!
 type: docs
 weight: 13
 url: /net/time-recurrence-configuration/working-times/
 ---
-
-## Complete Source Code
+## Introduction
+In project management, precise control over working times is crucial for accurate scheduling and resource allocation. Aspose.Tasks for .NET provides a powerful solution for handling working time information within your projects. This tutorial will guide you through the process of configuring working times using Aspose.Tasks in a .NET environment.
+## Prerequisites
+Before diving into the tutorial, ensure you have the following:
+- Basic understanding of C# programming language.
+- Aspose.Tasks for .NET library installed. You can download it [here](https://releases.aspose.com/tasks/net/).
+- Visual Studio or any preferred C# development environment set up.
+## Import Namespaces
+Start by importing the necessary namespaces to access the Aspose.Tasks functionalities:
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
-{
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
-
     using NUnit.Framework;
+```
+## Step 1: Create Calendar
+```csharp
+var project = new Project();
+var calendar = CreateCalendar(project);
+project.Set(Prj.Calendar, calendar);
+```
+Here, we initiate a new project and create a calendar named "MyCalendar" based on the standard calendar. This calendar will be used to define specific working times.
 
-    [TestFixture]
-    [SuppressMessage("ReSharper", "StyleCop.SA1600", Justification = "Reviewed. Suppression is OK here.")]
-    [SuppressMessage("ReSharper", "MemberCanBePrivate.Global", Justification = "Reviewed. Suppression is OK here.")]
-    public class ExWorkingTime : ApiExampleBase
-    {
-        // ExStart
-        // ExFor: WorkingTime
-        // ExFor: WorkingTime.#ctor(System.DateTime,System.DateTime)
-        // ExFor: WorkingTime.From
-        // ExFor: WorkingTime.To
-        // ExSummary: Shows how to work with working time information.
-        [Test] // ExSkip
-        public void WorkWithWorkingTime()
-        {
-            var project = new Project();
-            var calendar = CreateCalendar(project);
-            project.Set(Prj.Calendar, calendar);
-
-            Console.WriteLine("Work Week Number: " + calendar.WeekDays.Count);
-
-            // This data is all about "Details." button you can set special working times for special WeekDay or even make it nonworking
-            List<WeekDay> weekDays = calendar.WeekDays.ToList();
-            foreach (var day in weekDays)
-            {
-                Console.WriteLine(day.DayType.ToString());
-
-                // You can further traverse through working times and display these
-                foreach (var workingTime in day.WorkingTimes)
-                {
-                    Console.WriteLine(workingTime.From);
-                    Console.WriteLine(workingTime.To);
-                }
-            }
-        }
-
+```csharp
         public static Calendar CreateCalendar(Project project)
         {
             var calendar = project.Calendars.Add("MyCalendar", project.Calendars.GetByName("Standard"));
@@ -71,29 +49,37 @@ namespace Aspose.Tasks.Examples.CSharp
             calendar.WeekDays.Add(new WeekDay(DayType.Sunday));
 
             return calendar;
-        }
-
-        // ExEnd
-        [Test]
-        public void WorkingTimeEquals()
-        {
-            // ExStart
-            // ExFor: WorkingTime.Equals(Object)
-            // ExFor: WorkingTime.#ctor(Int32,Int32)
-            // ExSummary: Shows how to check working time equality.
-            var workingTime1 = new WorkingTime(9, 12);
-            var workingTime2 = new WorkingTime(13, 17);
-
-            // the equality of calendars is checked against to working time's from and to dates.
-            Console.WriteLine("Working Time 1 (From): " + workingTime1.From);
-            Console.WriteLine("Working Time 1 (To): " + workingTime1.To);
-
-            Console.WriteLine("Working Time 2 (From): " + workingTime2.From);
-            Console.WriteLine("Working Time 2 (To): " + workingTime2.To);
-            Console.WriteLine("Are working times equal: " + workingTime1.Equals(workingTime2));
-
-            // ExEnd
-        }
+        }	
+```
+## Step 2: Display Work Week Information
+```csharp
+Console.WriteLine("Work Week Number: " + calendar.WeekDays.Count);
+```
+This step prints the total number of working days in the specified calendar.
+## Step 3: Working Times Details
+```csharp
+List<WeekDay> weekDays = calendar.WeekDays.ToList();
+foreach (var day in weekDays)
+{
+    Console.WriteLine(day.DayType.ToString());
+    foreach (var workingTime in day.WorkingTimes)
+    {
+        Console.WriteLine(workingTime.From);
+        Console.WriteLine(workingTime.To);
     }
 }
 ```
+In this part, we iterate through each day of the week, printing the day type and associated working times. You can customize working times for each weekday according to your project requirements.
+## Conclusion
+Effectively configuring working times in Aspose.Tasks for .NET ensures accurate project planning and resource management. By following this step-by-step guide, you can seamlessly integrate working time adjustments into your project workflows.
+## Frequently Asked Questions
+### Is Aspose.Tasks suitable for large-scale project management?
+Yes, Aspose.Tasks is designed to handle projects of various sizes, offering robust features for efficient project management.
+### Can I set different working times for different team members?
+Absolutely. You can customize working times on a per-resource basis, allowing for individualized schedules.
+### Does Aspose.Tasks support integration with other project management tools?
+Yes, Aspose.Tasks facilitates integration with various project management tools, enhancing interoperability.
+### Is it possible to import/export project data in different formats?
+Aspose.Tasks supports multiple file formats, enabling seamless import/export operations for project data.
+### How frequently are Aspose.Tasks updates released?
+Updates are regularly released to ensure compatibility with the latest technologies and address user feedback.
