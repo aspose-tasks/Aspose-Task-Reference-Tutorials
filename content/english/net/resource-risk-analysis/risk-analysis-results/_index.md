@@ -1,78 +1,90 @@
 ---
-title: Risk Analysis Results in Aspose.Tasks
+title: Efficient Risk Analysis with Aspose.Tasks
 linktitle: Risk Analysis Results in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to conduct risk analysis on MS Project files using Aspose.Tasks for .NET. Streamline project management and mitigate uncertainties efficiently.
 type: docs
 weight: 18
 url: /net/resource-risk-analysis/risk-analysis-results/
 ---
+## Introduction
+Risk analysis is a critical aspect of project management, providing insights into potential uncertainties and their impacts on project timelines. With Aspose.Tasks for .NET, conducting risk analysis becomes streamlined and efficient. In this tutorial, we'll delve into how to perform MS Project analysis and interpret the results using Aspose.Tasks.
+## Prerequisites
+Before we begin, ensure you have the following:
+1. Installation: Download and install Aspose.Tasks for .NET from [here](https://releases.aspose.com/tasks/net/).
+   
+2. Development Environment: Set up your preferred .NET development environment, such as Visual Studio.
+3. Basic Knowledge: Familiarity with C# programming and project management concepts is beneficial.
 
-## Complete Source Code
+## Import Namespaces
+Start by importing the necessary namespaces:
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
+using System.IO;
+using NUnit.Framework;
+using RiskAnalysis;
+```
+## Step 1: Define Data Directory
+Set the directory path where your project files are located.
+```csharp
+String DataDir = "Your Document Directory";
+```
+## Step 2: Configure Risk Analysis Settings
+Initialize the risk analysis settings, specifying parameters like the number of iterations.
+```csharp
+var settings = new RiskAnalysisSettings
 {
-    using System.IO;
-    using NUnit.Framework;
-    using RiskAnalysis;
-
-    [TestFixture]
-    public class ExRiskAnalysisResult : ApiExampleBase
-    {
-        [Test]
-        public void WorkWithRiskAnalysisResult()
-        {
-            // ExStart
-            // ExFor: RiskAnalysis.RiskAnalysisResult
-            // ExFor: RiskAnalysis.RiskAnalysisResult.GetRiskItems(RiskItemType)
-            // ExFor: RiskAnalysis.RiskAnalysisResult.SaveReport(Stream)
-            // ExFor: RiskAnalysis.RiskAnalysisResult.SaveReport(String)
-            // ExFor: RiskItemType
-            // ExSummary: Shows how to calculate statistic of risks and save it into as PDF report.
-            var settings = new RiskAnalysisSettings
-            {
-                IterationsCount = 200
-            };
-
-            var project = new Project(DataDir + "Software Development Plan-1.mpp");
-            var task = project.RootTask.Children.GetById(17);
-
-            // Initialize a risk pattern
-            var pattern = new RiskPattern(task)
-            {
-                // Select a distribution type for the random number generator to generate possible values from (only two types currently supported, namely normal and uniform)            
-                // For more details see here: https://en.wikipedia.org/wiki/Normal_distribution)
-                Distribution = ProbabilityDistributionType.Normal,
-
-                // Set the percentage of the most likely task duration which can happen in the best possible project scenario 
-                // The default value is 75, which means that if the estimated specified task duration is 4 days then the optimistic duration will be 3 days
-                Optimistic = 70,
-
-                // Set the percentage of the most likely task duration which can happen in the worst possible project scenario 
-                // The default value is 125, which means that if the estimated specified task duration is 4 days then the pessimistic duration will be 5 days.
-                Pessimistic = 130,
-
-                // Set a confidence level that correspond to the percentage of the time the actual values will be within optimistic and pessimistic estimates. 
-                // You can think of it as a value of standard deviation: the more uncertain about your estimates you are, the more the value of standard deviation used in random number generator is
-                ConfidenceLevel = ConfidenceLevel.CL75
-            };
-            settings.Patterns.Add(pattern);
-
-            // Analyze the project risks
-            var analyzer = new RiskAnalyzer(settings);
-            var analysisResult = analyzer.Analyze(project);
-
-            // save analysis as a report into a file by file path
-            analysisResult.SaveReport(OutDir + "AnalysisResult_out.pdf");
-
-            // or save analysis into a stream
-            using (var stream = new FileStream(OutDir + "AnalysisResult_out1.pdf", FileMode.Create))
-            {
-                analysisResult.SaveReport(stream);
-            }
-
-            // ExEnd
-        }
-    }
+    IterationsCount = 200
+};
+```
+## Step 3: Load Project File
+Load the MS Project file for analysis.
+```csharp
+var project = new Project(DataDir + "Software Development Plan-1.mpp");
+```
+## Step 4: Identify Task for Analysis
+Select the task within the project for risk analysis.
+```csharp
+var task = project.RootTask.Children.GetById(17);
+```
+## Step 5: Define Risk Pattern
+Set up a risk pattern defining parameters such as distribution type, optimistic and pessimistic durations, and confidence level.
+```csharp
+var pattern = new RiskPattern(task)
+{
+    Distribution = ProbabilityDistributionType.Normal,
+    Optimistic = 70,
+    Pessimistic = 130,
+    ConfidenceLevel = ConfidenceLevel.CL75
+};
+settings.Patterns.Add(pattern);
+```
+## Step 6: Perform Risk Analysis
+Utilize the `RiskAnalyzer` to analyze project risks based on the defined settings.
+```csharp
+var analyzer = new RiskAnalyzer(settings);
+var analysisResult = analyzer.Analyze(project);
+```
+## Step 7: Save Analysis Results
+Save the analysis results either as a file or into a stream.
+```csharp
+analysisResult.SaveReport(OutDir + "AnalysisResult_out.pdf");
+// or save analysis into a stream
+using (var stream = new FileStream(OutDir + "AnalysisResult_out1.pdf", FileMode.Create))
+{
+    analysisResult.SaveReport(stream);
 }
 ```
+
+## Conclusion
+In conclusion, leveraging Aspose.Tasks for .NET facilitates robust risk analysis for MS Project files. By following the steps outlined in this tutorial, project managers can gain valuable insights into potential uncertainties, aiding in informed decision-making and ensuring project success.
+## FAQ's
+### Q: Can Aspose.Tasks handle large MS Project files?
+A: Yes, Aspose.Tasks is capable of efficiently handling large project files, offering high performance and reliability.
+### Q: Is Aspose.Tasks compatible with .NET Core?
+A: Absolutely, Aspose.Tasks seamlessly integrates with .NET Core, providing cross-platform support.
+### Q: Does Aspose.Tasks support different probability distributions for risk analysis?
+A: Yes, Aspose.Tasks supports various probability distributions like normal and uniform distributions for risk analysis.
+### Q: Can I customize the risk analysis settings according to my project requirements?
+A: Certainly, Aspose.Tasks allows extensive customization of risk analysis settings to suit diverse project scenarios.
+### Q: Is technical support available for Aspose.Tasks users?
+A: Yes, users can access comprehensive technical support through the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
