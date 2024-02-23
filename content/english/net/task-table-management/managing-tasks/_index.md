@@ -16,13 +16,13 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 ## Import Namespaces
 In your .NET project, include the necessary namespaces to work with Aspose.Tasks:
 ```csharp
-    using System;
-    using System.Collections.Generic;
-    using System.Diagnostics.CodeAnalysis;
-    using System.Linq;
-    
-    using Aspose.Tasks.Saving;
-    using Aspose.Tasks.Util;
+using System;
+using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
+using System.Linq;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Util;
 ```
 ## 1. Adding a Task to a Project
 ```csharp
@@ -132,7 +132,6 @@ Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 ## Conclusion
 Managing tasks in Aspose.Tasks for .NET is a seamless process with the provided examples. Whether you're a seasoned developer or just getting started, incorporating these techniques will enhance your project management capabilities.
 ## Frequently Asked Questions
- (FAQs)
 ### Q: Is Aspose.Tasks compatible with all .NET frameworks?
 A: Yes, Aspose.Tasks supports various .NET frameworks, ensuring compatibility with your development environment.
 ### Q: How can I obtain a temporary license for Aspose.Tasks?
