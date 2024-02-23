@@ -98,7 +98,3 @@ A: Without a valid license, Aspose.Tasks operates in evaluation mode, which impo
 ### Q: Can I use the same license file for multiple applications?
 
 A: Yes, you can use the same license file across multiple applications developed by the same licensee. However, ensure that your license complies with the terms of use specified by Aspose.
-
-### Q: Do I need to renew my Aspose.Tasks license annually?
-
-A: Aspose.Tasks licenses are typically perpetual, meaning they don't expire. However, purchasing a license entitles you to free updates and support for a limited period. Renewing your subscription ensures continued access to updates and support beyond the initial period.
