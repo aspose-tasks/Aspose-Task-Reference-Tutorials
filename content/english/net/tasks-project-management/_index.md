@@ -15,7 +15,6 @@ Master Earned Value MS Project Method Types with Aspose.Tasks for .NET. Enhance 
 Learn how to work with MS Project extended attributes using Aspose.Tasks for .NET. Manipulate task data programmatically with ease.
 ### [Manage MS Project Attributes Collection in Aspose.Tasks](./extended-attribute-collection/)
 Learn how to efficiently manage MS Project extended attributes using Aspose.Tasks for .NET. Seamlessly manipulate task attributes with step-by-step guidance.
-### [Handling Extended Attribute Definitions in Aspose.Tasks](./extended-attribute-definitions/)
 ### [Master Extended Attribute Definitions MS Project in Aspose.Tasks](./extended-attribute-definition-collection/)
 Learn how to manage extended attribute definitions in Microsoft Project using Aspose.Tasks for .NET. Customize and enhance your project data effortlessly.
 ### [Field Helper MS Project Integration in Aspose.Tasks](./field-helper/)
@@ -26,7 +25,8 @@ Learn how to filter data in MS Project files using Aspose.Tasks for .NET. Enhanc
 Learn how to effectively manage filter MS Project collections using Aspose.Tasks for .NET.
 ### [Mastering MS Project Filter Criteria with Aspose.Tasks](./filter-criteria/)
 Learn how to implement filter criteria in MS Project using Aspose.Tasks for .NET. Boost project management efficiency with targeted data analysis.
-### [Font Saving Arguments in Aspose.Tasks](./font-saving-arguments/)
+### [Font Manipulation in MS Project for Aspose.Tasks](./font-saving-arguments/)
+Learn how to manipulate fonts in MS Project files using Aspose.Tasks for .NET. Step-by-step guide for developers.
 ### [Customizing Gantt Bar Styles with Aspose.Tasks](./gantt-bar-styles/)
 Learn how to customize Gantt bar styles in MS Project using Aspose.Tasks for .NET. Enhance project visualization effortlessly.
 ### [Customize Gantt Chart Columns with Aspose.Tasks](./gantt-chart-columns/)
