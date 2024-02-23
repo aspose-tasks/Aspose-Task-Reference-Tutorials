@@ -18,6 +18,7 @@ Before diving into the tutorial, ensure you have the following:
 ## Importing Namespaces
 Firstly, make sure to import the necessary namespaces into your C# code:
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

@@ -24,6 +24,7 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 Firstly, you need to import the necessary namespaces to access the required classes and methods.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 

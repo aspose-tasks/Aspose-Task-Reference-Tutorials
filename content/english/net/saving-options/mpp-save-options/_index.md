@@ -19,6 +19,7 @@ Before we begin, ensure that you have the following prerequisites in place:
 To start, you need to import the necessary namespaces into your C# code. These namespaces provide access to the functionalities of Aspose.Tasks for .NET.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.IO;
 
@@ -32,6 +33,7 @@ String DataDir = "Your Document Directory";
 ```
 ## Step 2: Initialize FileStream
 ```csharp
+using Aspose.Tasks;
 using (var stream = new FileStream(DataDir + "EmptyProjectSaveStream_out.xml", FileMode.Create, FileAccess.Write))
 {
 ```

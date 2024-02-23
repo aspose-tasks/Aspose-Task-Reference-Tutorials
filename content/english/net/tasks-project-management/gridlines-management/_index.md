@@ -19,6 +19,7 @@ Make sure you have a .NET development environment set up on your machine. You ca
 Before diving into the code, let's import the necessary namespaces to access Aspose.Tasks functionalities.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Drawing;
 

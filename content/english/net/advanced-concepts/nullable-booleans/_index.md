@@ -23,6 +23,7 @@ Before we begin, ensure you have the following prerequisites:
 Firstly, make sure to import the necessary namespaces in your code:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 

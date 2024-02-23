@@ -20,6 +20,7 @@ Before you can start using Aspose.Tasks in your .NET project, you need to import
 1. Open your C# project in Visual Studio or any text editor of your choice.
 2. Add the following using directives at the top of your C# file:
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.IO;
 

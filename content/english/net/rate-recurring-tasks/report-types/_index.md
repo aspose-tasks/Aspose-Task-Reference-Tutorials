@@ -21,6 +21,7 @@ Make sure you have a .NET development environment set up on your machine.
 ## Import Namespaces
 In your .NET project, import the necessary namespaces to start using Aspose.Tasks:
 ```csharp
+using Aspose.Tasks;
 using System.IO;
 
 using Aspose.Tasks.Visualization;
@@ -34,6 +35,7 @@ var project = new Project(DataDir + @"Homemoveplan.mpp");
 ```
 ## Step 2: Save Report
 ```csharp
+using Aspose.Tasks;
 using (var stream = new FileStream(OutDir + "Burndown_out.pdf", FileMode.Create))
 {
     project.SaveReport(stream, ReportType.Burndown);

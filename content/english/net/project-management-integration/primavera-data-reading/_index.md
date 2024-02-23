@@ -23,6 +23,7 @@ Choose your preferred IDE for .NET development such as Visual Studio or JetBrain
 ## Import Namespaces
 Before getting started with the example, let's import the necessary namespaces:
 ```csharp
+using Aspose.Tasks;
 using System;
 
 ```

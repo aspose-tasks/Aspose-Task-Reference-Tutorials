@@ -21,6 +21,7 @@ A fundamental understanding of C# programming language and .NET framework is nec
 ## Import Namespaces
 Before we start saving MS Project options as images using Aspose.Tasks for .NET, let's ensure we import the necessary namespaces to our C# project:
 ```csharp
+using Aspose.Tasks;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Imaging;

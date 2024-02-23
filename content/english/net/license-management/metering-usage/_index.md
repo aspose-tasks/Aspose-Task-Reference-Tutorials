@@ -17,6 +17,7 @@ Before we dive into metering MS Project usage, ensure you have the following pre
 ## Import Namespaces
 Before proceeding, import the necessary namespaces to your project:
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;

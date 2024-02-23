@@ -16,6 +16,7 @@ Before we begin, ensure you have the following prerequisites:
 
 ## Import Namespaces
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

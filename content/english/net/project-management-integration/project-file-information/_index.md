@@ -20,6 +20,7 @@ Before we dive into the tutorial, ensure you have the following prerequisites:
 Firstly, you need to import the necessary namespaces into your C# project to work with Aspose.Tasks:
 ## Step 1: Import Aspose.Tasks Namespace
 ```csharp
+using Aspose.Tasks;
 using System;
 
 ```

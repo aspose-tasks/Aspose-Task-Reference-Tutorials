@@ -24,6 +24,7 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 In your C# project, include the following namespaces to access the required classes and methods:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;

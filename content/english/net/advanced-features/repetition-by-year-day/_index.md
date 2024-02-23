@@ -28,6 +28,7 @@ Before diving into the tutorial, ensure that you have the following prerequisite
 Before we begin coding, let's import the necessary namespaces to facilitate our task manipulation using Aspose.Tasks for .NET.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

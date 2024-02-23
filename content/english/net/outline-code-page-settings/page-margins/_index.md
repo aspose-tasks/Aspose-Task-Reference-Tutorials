@@ -25,6 +25,7 @@ Ensure that you have a Microsoft Project file (`Project2.mpp`) available in your
 To begin manipulating Microsoft Project files using Aspose.Tasks for .NET, you need to import the necessary namespaces into your C# code. This step ensures that you have access to the classes and methods provided by the Aspose.Tasks library.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

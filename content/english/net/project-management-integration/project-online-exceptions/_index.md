@@ -15,6 +15,7 @@ Before we begin, ensure you have the following prerequisites set up:
 ## Import Namespaces
 1. Aspose.Tasks: Import the Aspose.Tasks namespace to access the functionality provided by the Aspose.Tasks API.
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;

@@ -41,6 +41,7 @@ To begin, import the required namespaces to access the Aspose.Tasks classes and 
 In your C# code file, include the following namespace declarations:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

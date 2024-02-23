@@ -24,6 +24,7 @@ Before we proceed, ensure you have the following prerequisites set up:
 Start by importing the necessary namespaces to work with Aspose.Tasks for .NET:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 

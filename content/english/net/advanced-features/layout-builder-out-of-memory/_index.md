@@ -24,6 +24,7 @@ Before diving into this tutorial, ensure that you have the following prerequisit
 To get started, import the necessary namespaces into your C# project:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

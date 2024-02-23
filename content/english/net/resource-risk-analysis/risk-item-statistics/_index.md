@@ -17,6 +17,7 @@ Before we embark on this journey, ensure you have the following prerequisites in
 ## Import Namespaces
 Incorporate the necessary namespaces into your project to harness the functionalities of Aspose.Tasks:
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.RiskAnalysis;

@@ -28,6 +28,7 @@ In your C# project, import the necessary namespaces to access Aspose.Tasks funct
 1. Aspose.Tasks: This namespace provides core classes and interfaces for working with Project documents.
 
 ```csharp
+using Aspose.Tasks;
 using System.Text;
 using System.Threading;
 ```

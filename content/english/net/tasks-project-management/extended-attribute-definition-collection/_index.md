@@ -21,6 +21,7 @@ Open your .NET project in your preferred IDE, such as Visual Studio.
 ## Step 2: Add Aspose.Tasks namespace
 Add the following line at the beginning of your code file to import the Aspose.Tasks namespace:
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 

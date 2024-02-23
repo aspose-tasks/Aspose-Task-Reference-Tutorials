@@ -24,6 +24,7 @@ Before we begin, ensure that you have the following prerequisites in place:
 In your C# project, import the necessary namespaces to work with Aspose.Tasks functionalities:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;

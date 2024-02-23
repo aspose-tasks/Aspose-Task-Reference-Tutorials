@@ -20,6 +20,7 @@ Have an IDE such as Visual Studio installed on your system for coding and debugg
 ## Import Namespaces
 Before we start coding, let's import the necessary namespaces to work with Aspose.Tasks for .NET.
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

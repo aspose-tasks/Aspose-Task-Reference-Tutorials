@@ -26,6 +26,7 @@ Before we begin, ensure you have the following:
 To start, you need to import the necessary namespaces in your C# code:
 
 ```csharp
+using Aspose.Tasks;
 using System.Collections.Generic;
 using System.IO;
 

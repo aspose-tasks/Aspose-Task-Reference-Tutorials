@@ -24,6 +24,7 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 Before you begin working with Aspose.Tasks for .NET, you need to import the required namespaces into your project. This step enables you to access the classes and methods necessary for managing calendar exceptions.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 

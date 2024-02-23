@@ -22,6 +22,7 @@ Before proceeding with this tutorial, ensure you have the following prerequisite
 ## Import Namespaces
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 using Aspose.Tasks;

@@ -23,6 +23,7 @@ Before we dive into managing MS Project risk patterns using Aspose.Tasks for .NE
 Begin by importing the necessary namespaces in your C# project:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.RiskAnalysis;

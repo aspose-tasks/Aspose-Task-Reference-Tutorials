@@ -20,6 +20,7 @@ Before we begin, ensure you have the following set up:
 2. Namespace Importing: Import the necessary namespaces into your project:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 

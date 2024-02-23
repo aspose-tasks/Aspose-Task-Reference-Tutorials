@@ -22,6 +22,7 @@ To get started, you need to import the necessary namespaces into your C# project
 3. Add Aspose.Tasks Reference: Right-click on your project in the Solution Explorer, select "Manage NuGet Packages", search for "Aspose.Tasks", and install the latest version.
 4. Import Aspose.Tasks Namespace: At the top of your C# file, add the following using directive:
 ```csharp
+using Aspose.Tasks;
 using System;
 
 ```

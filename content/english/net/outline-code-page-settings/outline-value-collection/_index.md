@@ -17,6 +17,7 @@ Before we begin, ensure you have the following:
 ## Import Namespaces
 In your C# code file, import the necessary namespaces to access Aspose.Tasks classes and methods:
 ```csharp
+using Aspose.Tasks;
 using System;
 
 ```

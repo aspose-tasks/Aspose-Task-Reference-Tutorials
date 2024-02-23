@@ -18,6 +18,7 @@ Before getting started, ensure you have the following:
 ## Import Namespaces
 Before working with Aspose.Tasks, import the necessary namespaces into your project:
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;

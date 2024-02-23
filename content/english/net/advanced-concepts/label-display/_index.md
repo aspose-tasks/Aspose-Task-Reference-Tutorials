@@ -25,6 +25,7 @@ Before getting started, make sure to import the required namespaces for Aspose.T
 
 ```csharp
 using Aspose.Tasks;
+using Aspose.Tasks;
 ```
 
 ## 1. Displaying Minute Labels

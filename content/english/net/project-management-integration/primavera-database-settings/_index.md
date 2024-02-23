@@ -22,6 +22,7 @@ This tutorial assumes you have a basic understanding of C# programming language 
 Let's start by importing the necessary namespaces into your C# project.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Data.SqlClient;
 using Aspose.Tasks.Connectivity;

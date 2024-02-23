@@ -26,6 +26,7 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 Before getting started, make sure to import the necessary namespaces for working with Aspose.Tasks:
 
 ```csharp
+using Aspose.Tasks;
 using System.IO;
 
 

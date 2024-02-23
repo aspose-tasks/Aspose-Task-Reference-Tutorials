@@ -23,6 +23,7 @@ Before we begin, ensure you have the following prerequisites:
 Firstly, let's import the necessary namespaces for our project:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 

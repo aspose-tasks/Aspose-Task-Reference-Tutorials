@@ -21,6 +21,7 @@ Prepare a sample Microsoft Project file (.mpp) that contains the data you want t
 In your C# code file, import the necessary namespaces to utilize Aspose.Tasks functionalities.
 
 ```csharp
+using Aspose.Tasks;
 using Aspose.Tasks.Saving;
 using System;
 using System.Collections.Generic;

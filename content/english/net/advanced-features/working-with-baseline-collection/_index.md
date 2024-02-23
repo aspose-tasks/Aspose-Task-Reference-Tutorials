@@ -25,6 +25,7 @@ Before we dive into working with baseline collections in Aspose.Tasks, ensure th
 To start working with baseline collections in Aspose.Tasks, you need to import the following namespaces:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 

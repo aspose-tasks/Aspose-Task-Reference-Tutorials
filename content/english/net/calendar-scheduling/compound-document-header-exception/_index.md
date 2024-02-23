@@ -40,6 +40,7 @@ Add a reference to the Aspose.Tasks library in your project. You can achieve thi
 Import the required namespaces at the beginning of your C# file:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 

@@ -25,6 +25,7 @@ Before diving into this tutorial, make sure you have the following:
 Before we begin, ensure you import the necessary namespaces:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 

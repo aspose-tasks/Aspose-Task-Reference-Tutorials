@@ -17,6 +17,7 @@ Before diving into this tutorial, ensure you have the following prerequisites:
 ## Import Namespaces
 Before we begin, let's import the necessary namespaces:
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Drawing;

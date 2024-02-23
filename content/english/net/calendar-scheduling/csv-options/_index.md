@@ -28,6 +28,7 @@ Before we begin exploring CSV options in Aspose.Tasks for .NET, ensure you have 
 Before we dive into the examples, let's import the necessary namespaces to our project:
 
 ```csharp
+using Aspose.Tasks;
 using Aspose.Tasks.Saving;
 using System.Text;
 ```

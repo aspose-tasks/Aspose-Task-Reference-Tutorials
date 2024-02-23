@@ -26,6 +26,7 @@ Before we begin, ensure you have the following prerequisites in place:
 Firstly, import the necessary namespaces to access the Aspose.Tasks functionality:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Linq;

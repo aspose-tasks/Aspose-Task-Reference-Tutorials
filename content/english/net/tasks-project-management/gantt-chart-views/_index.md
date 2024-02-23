@@ -21,6 +21,7 @@ This tutorial assumes you have a basic understanding of C# programming language 
 Before you begin working with Gantt chart views in Aspose.Tasks, you need to import the necessary namespaces into your C# code. Here's how you can do it:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Drawing;

@@ -24,6 +24,7 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 First, let's import the necessary namespaces to use Aspose.Tasks functionalities:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 

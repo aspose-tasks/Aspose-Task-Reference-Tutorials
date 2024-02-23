@@ -24,6 +24,7 @@ Before we begin, make sure you have the following:
 First, let's import the necessary namespaces to access the classes and methods required for creating custom assignment view columns:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

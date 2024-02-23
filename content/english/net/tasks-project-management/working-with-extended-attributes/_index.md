@@ -26,6 +26,7 @@ Create a new project or open an existing one where you want to use Aspose.Tasks.
 ### Step 3: Import Namespaces
 Add the following namespaces at the beginning of your C# file:
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 

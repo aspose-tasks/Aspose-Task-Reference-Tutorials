@@ -24,6 +24,7 @@ To get started, you'll need to download and install Aspose.Tasks for .NET. You c
 In your .NET project, you'll need to import the necessary namespaces to access the functionality provided by Aspose.Tasks. Here's how you can do it:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 ```

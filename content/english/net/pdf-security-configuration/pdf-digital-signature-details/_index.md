@@ -17,6 +17,7 @@ Before we begin, make sure you have the following:
 ## Importing Namespaces
 First, you need to import the necessary namespaces in your .NET project to access the required classes and methods from Aspose.Tasks.
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;

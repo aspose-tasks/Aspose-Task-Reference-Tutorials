@@ -17,6 +17,7 @@ Before we begin, ensure you have the following prerequisites:
 ## Import Namespaces
 In your C# project, include the necessary namespaces:
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 

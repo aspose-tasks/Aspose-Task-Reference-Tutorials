@@ -20,6 +20,7 @@ Familiarize yourself with C# programming language and the .NET framework basics 
 ## Import Namespaces
 In your C# project, import the necessary namespaces to use Aspose.Tasks functionalities:
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 

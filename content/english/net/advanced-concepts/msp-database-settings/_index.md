@@ -23,6 +23,7 @@ Before you start, ensure you have the following:
 First, make sure you import the necessary namespaces to your project:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Data.SqlClient;
 using Aspose.Tasks.Connectivity;

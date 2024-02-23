@@ -36,6 +36,7 @@ Having a basic understanding of project management concepts will help you better
 To get started with Aspose.Tasks for .NET, you need to import the necessary namespaces into your project. These namespaces provide access to the classes and methods required to work with project files efficiently.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Diagnostics.CodeAnalysis;
 

@@ -27,6 +27,7 @@ Now that we have the prerequisites covered, let's dive into the step-by-step gui
 Firstly, import the necessary namespaces into your C# code to access the functionality provided by Aspose.Tasks for .NET.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Util;

@@ -20,6 +20,7 @@ Prepare a Microsoft Project file (.mpp) that you'll use for customization. Ensur
 ## Import Namespaces
 In your C# code, import the necessary namespaces to work with Aspose.Tasks for .NET.
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 

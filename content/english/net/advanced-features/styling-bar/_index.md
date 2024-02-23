@@ -24,6 +24,7 @@ Before we begin, ensure you have the following prerequisites in place:
 Firstly, let's import the necessary namespaces to access Aspose.Tasks classes and methods:
 
 ```csharp
+using Aspose.Tasks;
 using System.Collections.Generic;
 using System.Drawing;
 

@@ -28,6 +28,7 @@ Familiarity with C# programming language and the .NET framework will be benefici
 Before implementing the customization of gridlines in MS Project, make sure to import the necessary namespaces in your C# code. These namespaces provide access to the required classes and methods.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 

@@ -18,6 +18,7 @@ Before we begin, make sure you have the following:
 ## Import Namespaces
 In your C# code, include the necessary namespaces:
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.RiskAnalysis;

@@ -24,6 +24,7 @@ Before proceeding with this tutorial, ensure that you have the following prerequ
 Before starting the implementation, make sure to import the necessary namespaces to access the required classes and methods:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 ```

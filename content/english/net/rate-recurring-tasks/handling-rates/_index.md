@@ -18,6 +18,7 @@ Before we dive into the tutorial, make sure you have the following prerequisites
 Firstly, you need to import the necessary namespaces into your C# project. These namespaces will provide access to the classes and methods required for handling MS Project Rates.
 ## Step 1: Import Aspose.Tasks Namespace
 ```csharp
+using Aspose.Tasks;
 using System;
 
 ```

@@ -24,6 +24,7 @@ Before we begin, ensure you have the following:
 First, let's import the necessary namespaces for our code:
 
 ```csharp
+using Aspose.Tasks;
 using Aspose.Tasks.Util;
 using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;

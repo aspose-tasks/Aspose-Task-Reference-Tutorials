@@ -22,6 +22,7 @@ Before proceeding with this tutorial, ensure that you have the following prerequ
 
 Before starting, make sure to import the necessary namespaces:
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

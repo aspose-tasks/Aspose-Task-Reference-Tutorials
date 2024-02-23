@@ -16,6 +16,7 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 ## Import Namespaces
 In the code snippet provided, you'll notice the usage of certain namespaces. Make sure to include these in your project for seamless integration:
 ```csharp
+using Aspose.Tasks;
 using Aspose.Tasks.Visualization;
 using Aspose.Tasks.Saving;
 ```

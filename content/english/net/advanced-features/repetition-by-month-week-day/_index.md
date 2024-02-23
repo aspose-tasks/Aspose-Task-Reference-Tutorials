@@ -26,6 +26,7 @@ Before diving into the intricacies of setting up repetitions by month, week, and
 To get started with utilizing Aspose.Tasks for .NET in your C# application, you need to import the necessary namespaces. Here's how you can do it:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 using Aspose.Tasks.Saving;

@@ -24,6 +24,7 @@ Before we begin, make sure you have the following:
 First, we need to import the necessary namespaces to our project:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 

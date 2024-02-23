@@ -15,6 +15,7 @@ Before we embark on this journey, ensure you have the following prerequisites in
 Now, let's dive into the step-by-step guide.
 ## Import Namespaces
 ```csharp
+using Aspose.Tasks;
 using Aspose.Tasks.Visualization;
 using System;
 

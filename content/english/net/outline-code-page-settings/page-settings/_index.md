@@ -17,6 +17,7 @@ Before we begin, ensure you have the following prerequisites:
 ## Importing Namespaces
 To get started, you need to import the necessary namespaces in your project. These namespaces provide access to the Aspose.Tasks classes and methods required for manipulating MS Project files.
 ```csharp
+using Aspose.Tasks;
 using System.Linq;
     using System;
     

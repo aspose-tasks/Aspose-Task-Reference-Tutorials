@@ -20,6 +20,7 @@ Gather the necessary credentials required for accessing the MS Project Server. T
 In your .NET project, import the required namespaces to utilize the functionalities provided by Aspose.Tasks for .NET efficiently.
 
 ```csharp
+using Aspose.Tasks;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;

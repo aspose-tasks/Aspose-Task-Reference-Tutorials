@@ -25,6 +25,7 @@ Before we begin, ensure that you have the following prerequisites:
 Before diving into the example, make sure to import the necessary namespaces:
 
 ```csharp
+using Aspose.Tasks;
 using System;
 
 
