@@ -1,230 +1,69 @@
 ---
-title: Gantt Bar Styles in Aspose.Tasks
+title: Customizing Gantt Bar Styles with Aspose.Tasks
 linktitle: Gantt Bar Styles in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to customize Gantt bar styles in MS Project using Aspose.Tasks for .NET. Enhance project visualization effortlessly.
 type: docs
 weight: 20
 url: /net/tasks-project-management/gantt-bar-styles/
 ---
+## Introduction
+In this tutorial, we'll explore how to work with Gantt bar styles in Microsoft Project using Aspose.Tasks for .NET. Gantt bar styles allow you to customize the appearance of bars in a Gantt chart, enhancing the visual representation of your project data.
+## Prerequisites
+Before we begin, ensure you have the following:
+1. Visual Studio: Install Visual Studio on your system.
+2. Aspose.Tasks for .NET: Download and install Aspose.Tasks for .NET from [here](https://releases.aspose.com/tasks/net/).
+3. Basic knowledge of C#: Familiarity with C# programming language will be helpful.
 
-## Complete Source Code
+## Import Namespaces
+First, let's import the necessary namespaces to work with Aspose.Tasks:
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
-{
-    using System;
-    using System.Collections.Generic;
-    using System.Drawing;
-    using System.Linq;
-    using Aspose.Tasks.Saving;
-    using NUnit.Framework;
-    using Visualization;
-
-    [TestFixture]
-    public class ExGanttBarStyle: ApiExampleBase
-    {
-        [Test]
-        public void WorkWithGanttBarStyle()
-        {
-            // ExStart:ReadCustomBarStyle
-            // ExFor: GanttBarStyle
-            // ExFor: GanttBarStyle.#ctor
-            // ExFor: GanttBarStyle.LeftField
-            // ExFor: GanttBarStyle.TopField
-            // ExFor: GanttBarStyle.InsideField
-            // ExFor: GanttBarStyle.RightField
-            // ExFor: GanttBarStyle.BottomField
-            // ExFor: GanttBarStyle.MiddleShape
-            // ExFor: GanttBarStyle.MiddleFillPattern
-            // ExFor: GanttBarStyle.MiddleShapeColor
-            // ExFor: GanttBarStyle.StartShapeType
-            // ExFor: GanttBarStyle.EndShape
-            // ExFor: GanttBarStyle.EndShapeColor
-            // ExFor: GanttBarStyle.EndShapeType
-            // ExFor: GanttBarStyle.StartShapeColor
-            // ExFor: GanttBarStyle.StartShape
-            // ExFor: GanttBarStyle.ParentStyle
-            // ExFor: GanttChartView.BarStyles
-            // ExFor: GanttBarStyle.From
-            // ExFor: GanttBarStyle.To
-            // ExFor: GanttBarStyle.Row
-            // ExFor: GanttBarType
-            // ExSummary: Shows how to read custom bar styles of a view. 
-            var project = new Project(DataDir + "CustomBarStyle.mpp");
-
-            var view = (GanttChartView)project.DefaultView;
-            Console.WriteLine("Custom bar styles count: {0}", view.CustomBarStyles.Count);
-
-            var style1 = view.CustomBarStyles[0];
-            Console.WriteLine("Style1.ParentStyle Name: {0}", style1.ParentStyle.Name);
-            Console.WriteLine("Style1.LeftField: {0}", style1.LeftField);
-            Console.WriteLine("Style1.RightField: {0}", style1.RightField);
-            Console.WriteLine("Style1.TopField: {0}", style1.TopField);
-            Console.WriteLine("Style1.BottomField: {0}", style1.BottomField);
-            Console.WriteLine("Style1.InsideField: {0}", style1.InsideField);
-            Console.WriteLine("Style1.From: {0}", style1.From);
-            Console.WriteLine("Style1.To: {0}", style1.To);
-            Console.WriteLine("Style1.Row: {0}", style1.Row);
-
-            var style2 = view.CustomBarStyles[1];
-            Console.WriteLine("Style2.LeftField: {0}", style2.LeftField);
-            Console.WriteLine("Style2.RightField: {0}", style2.RightField);
-            Console.WriteLine("Style2.TopField: {0}", style2.TopField);
-            Console.WriteLine("Style2.BottomField: {0}", style2.BottomField);
-            Console.WriteLine("Style2.InsideField: {0}", style2.InsideField);
-            Console.WriteLine("Style2.From: {0}", style2.From);
-            Console.WriteLine("Style2.To: {0}", style2.To);
-            Console.WriteLine("Style2.Row: {0}", style1.Row);
-
-            var style3 = view.CustomBarStyles[2];
-            Console.WriteLine("Style3.LeftField: {0}", style3.LeftField);
-            Console.WriteLine("Style3.RightField: {0}", style3.RightField);
-            Console.WriteLine("Style3.TopField: {0}", style3.TopField);
-            Console.WriteLine("Style3.BottomField: {0}", style3.BottomField);
-            Console.WriteLine("Style3.InsideField: {0}", style3.InsideField);
-
-            Console.WriteLine("Style3.StartShape: {0}", style3.StartShape);
-            Console.WriteLine("Style3.StartShapeType: {0}", style3.StartShapeType);
-            Console.WriteLine("Style3.StartShapeColor: {0}", style3.StartShapeColor);
-
-            Console.WriteLine("Style3.EndShape: {0}", style3.EndShape);
-            Console.WriteLine("Style3.EndShapeType: {0}", style3.EndShapeType);
-            Console.WriteLine("Style3.EndShapeColor: {0}", style3.EndShapeColor);
-
-            Console.WriteLine("Style3.MiddleShape: {0}", style3.MiddleShape);
-            Console.WriteLine("Style3.MiddleFillPattern: {0}", style3.MiddleFillPattern);
-            Console.WriteLine("Style3.MiddleShapeColor: {0}", style3.MiddleShapeColor);
-            Console.WriteLine("Style3.From: {0}", style3.From);
-            Console.WriteLine("Style3.To: {0}", style3.To);
-            Console.WriteLine("Style3.Row: {0}", style1.Row);
-
-            // ExEnd:ReadCustomBarStyle
-        }
-        
-        [Test]
-        public void TestCanAddCommonBarStyle2010()
-        {
-            // ExStart
-            // ExFor: GanttBarShowFor
-            // ExFor: GanttBarStyle.Name
-            // ExFor: GanttBarStyle.ShowForCategories
-            // ExFor: GanttBarStyle.ShowForTaskUid
-            // ExSummary: Shows how to use ShowFor categories.
-
-            var project = new Project(DataDir + "Project2.mpp");
-            var view = (GanttChartView)project.DefaultView;
-
-            var barStyle = this.GetCustomBarStyle();
-            barStyle.ShowForTaskUid = null;
-
-            var showForCategories = new[]
-            {
-                GanttBarShowFor.Active,
-                GanttBarShowFor.NotSummary,
-                GanttBarShowFor.Milestone,
-                GanttBarShowFor.Finished
-            };
-            
-            barStyle.ShowForCategories = new List<GanttBarShowFor>(showForCategories);
-            barStyle.Name = "My common style";
-            view.BarStyles.Add(barStyle);
-
-            // work with project...
-
-            // ExEnd
-        }
-
-        [Test]
-        public void CustomizeGanttChartViewBarStyles()
-        {
-            // ExStart
-            // ExFor: GanttBarStyle
-            // ExFor: GanttBarStyle.MiddleShapeColor
-            // ExFor: GanttBarStyle.MiddleShape
-            // ExFor: GanttBarStyle.StartShape
-            // ExFor: GanttBarStyle.StartShapeColor
-            // ExFor: GanttBarStyle.EndShape
-            // ExFor: GanttBarStyle.EndShapeColor
-            // ExFor: Aspose.Tasks.Visualization.TaskBarTextConverter
-            // ExFor: GanttBarStyle.LeftBarTextConverter
-            // ExFor: GanttBarStyle.RightBarTextConverter
-            // ExFor: GanttBarStyle.TopBarTextConverter
-            // ExFor: GanttBarStyle.BottomBarTextConverter
-            // ExFor: GanttBarStyle.InsideBarTextConverter
-            // ExFor: GanttBarMiddleShape
-            // ExFor: GanttBarEndShape
-            // ExSummary: Shows how to use custom bar styles of Gantt Chart view.
-            var project = new Project(DataDir + "Project2.mpp");
-
-            var ganttChartView = (GanttChartView)project.Views.First(v => v.Name == "Gantt &Chart");
-            PdfSaveOptions saveOptions = new PdfSaveOptions();
-            saveOptions.Timescale = Timescale.DefinedInView;
-            saveOptions.ViewSettings = ganttChartView;
-
-            // Bar styles can be either task-specific (located in GanttChartView.CustomBarStyles)
-            // of category-specific (located in GanttChartView.BarStyles)
-            foreach (GanttBarStyle ganttBarStyle in ganttChartView.CustomBarStyles)
-            {
-                if (ganttBarStyle.ShowForTaskUid != 4)
-                {
-                    continue;
-                }
-
-                // For demonstration purposes we are modifying style for Task with Unique ID = 4
-                // Here we set field (TaskName) to render to the left of the task bar.
-                ganttBarStyle.LeftField = Field.TaskName;
-                // Here we set custom converter to control which text should be rendered inside the task bar.
-                ganttBarStyle.InsideBarTextConverter = task => "Hours rem.: " + (int)task.Get(Tsk.RemainingWork).TimeSpan.TotalHours;
-
-                ganttBarStyle.MiddleShapeColor = Color.Green;
-                ganttBarStyle.MiddleShape = GanttBarMiddleShape.LineTop;
-                ganttBarStyle.StartShape = GanttBarEndShape.LeftBracket;
-                ganttBarStyle.StartShapeColor = Color.Aqua;
-                ganttBarStyle.EndShape = GanttBarEndShape.RightBracket;
-                ganttBarStyle.EndShapeColor = Color.Aquamarine;
-            }
-
-            foreach (GanttBarStyle ganttBarStyle in ganttChartView.BarStyles)
-            {
-                if (!ganttBarStyle.ShowForCategories.Contains(GanttBarShowFor.Milestone))
-                {
-                    continue;
-                }
-
-                // For demonstration purposes we are modifying styles applicable to milestone tasks.
-
-                ganttBarStyle.StartShape = GanttBarEndShape.Diamond;
-                ganttBarStyle.RightField = Field.TaskActualFinish;
-                ganttBarStyle.TopBarTextConverter = task => task.Get(Tsk.ActualStart).Day.ToString();
-            }
-
-            project.Save(OutDir + "WorkWithGanttChartViewBarStyles_out.pdf", saveOptions);
-            // ExEnd
-        }
-
-        private GanttBarStyle GetCustomBarStyle()
-        {
-            var style = new GanttBarStyle
-            {
-                ShowForTaskUid = 1,
-                MiddleShape = GanttBarMiddleShape.RectangleBottom,
-                MiddleFillPattern = GanttBarFillPattern.MediumFill,
-                MiddleShapeColor = Color.Blue,
-
-                StartShape = GanttBarEndShape.ArrowDown,
-                StartShapeColor = Color.Red,
-
-                EndShape = GanttBarEndShape.ArrowUp,
-                EndShapeColor = Color.Yellow,
-
-                LeftField = Field.TaskResourceNames,
-                RightField = Field.TaskName,
-                TopField = Field.TaskStart,
-                BottomField = Field.TaskFinish,
-                InsideField = Field.TaskDuration
-            };
-            return style;
-        }
-    }
-}
+using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using Aspose.Tasks.Saving;
+using NUnit.Framework;
+using Visualization;
 ```
+## Step 1: Load Project File
+Begin by loading the project file using the `Project` class:
+```csharp
+// The path to the documents directory.
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "CustomBarStyle.mpp");
+```
+## Step 2: Access Gantt Chart View
+Next, access the Gantt chart view of the project:
+```csharp
+var view = (GanttChartView)project.DefaultView;
+```
+## Step 3: Access Custom Bar Styles
+Now, let's retrieve the custom bar styles from the Gantt chart view:
+```csharp
+Console.WriteLine("Custom bar styles count: {0}", view.CustomBarStyles.Count);
+```
+## Step 4: Explore Bar Styles
+Iterate through the custom bar styles and retrieve their properties:
+```csharp
+var style1 = view.CustomBarStyles[0];
+Console.WriteLine("Style1.ParentStyle Name: {0}", style1.ParentStyle.Name);
+Console.WriteLine("Style1.LeftField: {0}", style1.LeftField);
+Console.WriteLine("Style1.RightField: {0}", style1.RightField);
+// Continue for other properties...
+```
+
+## Conclusion
+In this tutorial, we've learned how to manipulate Gantt bar styles in Microsoft Project using Aspose.Tasks for .NET. By customizing these styles, you can effectively communicate project timelines and milestones.
+
+## FAQ's
+### Q: Can I apply multiple custom bar styles to different tasks in my project?
+A: Yes, you can apply different custom bar styles to individual tasks or groups of tasks based on your project requirements.
+### Q: Are the changes made to bar styles reflected in the original MS Project file?
+A: No, the changes made programmatically using Aspose.Tasks are not directly reflected in the original MS Project file unless explicitly saved.
+### Q: Is Aspose.Tasks compatible with all versions of Microsoft Project?
+A: Aspose.Tasks offers compatibility with various versions of Microsoft Project, ensuring seamless integration and functionality.
+### Q: Can I create new custom bar styles programmatically using Aspose.Tasks?
+A: Yes, you can create new custom bar styles and customize their properties according to your project needs using Aspose.Tasks APIs.
+### Q: Does Aspose.Tasks support other project management functionalities besides Gantt charts?
+A: Yes, Aspose.Tasks provides a comprehensive set of features for working with project management data, including task scheduling, resource management, and project analysis.

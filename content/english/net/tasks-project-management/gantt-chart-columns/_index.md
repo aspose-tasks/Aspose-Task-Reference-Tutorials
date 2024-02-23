@@ -1,155 +1,100 @@
 ---
-title: Gantt Chart Columns in Aspose.Tasks
+title: Customize Gantt Chart Columns with Aspose.Tasks
 linktitle: Gantt Chart Columns in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: 
+description: Learn how to tailor Gantt chart columns in Aspose.Tasks for .NET to display specific task information efficiently.
 type: docs
 weight: 21
 url: /net/tasks-project-management/gantt-chart-columns/
 ---
+## Introduction
+Gantt charts are a fundamental tool in project management, providing a visual representation of tasks, timelines, and resources. Aspose.Tasks for .NET offers powerful capabilities to manipulate Gantt charts, including customizing columns to display specific task information. In this tutorial, we'll explore how to work with Gantt chart columns using Aspose.Tasks for .NET.
+## Prerequisites
+Before we begin, ensure you have the following:
+1. Installation: Aspose.Tasks for .NET installed on your system. If not, download and install it from [here](https://releases.aspose.com/tasks/net/).
+2. .NET Development Environment: A working knowledge of C# and the .NET framework.
+3. Sample Project File: Have a sample Microsoft Project file (`.mpp`) handy to experiment with. If you don't have one, you can create a simple project in MS Project and save it.
 
-## Complete Source Code
+## Import Namespaces
+First, you need to import the necessary namespaces to work with Aspose.Tasks for .NET:
 ```csharp
-namespace Aspose.Tasks.Examples.CSharp
-{
     using System;
     using System.Collections.Generic;
     using System.Globalization;
     using NUnit.Framework;
     using Saving;
     using Visualization;
-
-    [TestFixture]
-    public class ExGanttChartColumn : ApiExampleBase
-    {
-        [Test]
-        public void WorkWithGanttChartColumn()
+```
+## Step 1: Load the Project File
+Load the project file using the `Project` class provided by Aspose.Tasks:
+```csharp
+// The path to the documents directory.
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "Project2.mpp");
+var task = project.RootTask.Children.GetById(1);
+```
+## Step 2: Define Gantt Chart Columns
+Define the columns you want to display in the Gantt chart. You can specify built-in fields or create custom ones:
+```csharp
+var columns = new List<ViewColumn>
+{
+    new GanttChartColumn(20, Field.TaskUniqueID),
+    new GanttChartColumn("Name", 150, Field.TaskName),
+    new GanttChartColumn("Start", 100, Field.TaskStart),
+    new GanttChartColumn("End", 100, Field.TaskFinish),
+    new GanttChartColumn("R-Initials", 100, Field.TaskResourceInitials),
+    new GanttChartColumn("R-Names", 100, Field.TaskResourceNames),
+    new GanttChartColumn("Work", 50, Field.TaskWork),
+    new GanttChartColumn(
+        "Cost", 
+        80,
+        delegate(Task t)
         {
-            // ExStart:WorkWithGanttChartColumn 
-            // ExFor: GanttChartColumn
-            // ExFor: GanttChartColumn.#ctor(Int32,Field)
-            // ExFor: GanttChartColumn.#ctor(String,Int32,Field)
-            // ExFor: GanttChartColumn.#ctor(String,Int32,TaskToColumnTextConverter)
-            // ExFor: GanttChartColumn.#ctor(String,Int32,TaskToColumnTextConverter,Field)
-            // ExFor: GanttChartColumn.Field
-            // ExFor: GanttChartColumn.GetColumnText(Task)
-            // ExFor: TaskToColumnTextConverter
-            // ExSummary: Shows how to add Gantt chart view columns to be exported.
-            var project = new Project(DataDir + "Project2.mpp");
-            var task = project.RootTask.Children.GetById(1);
-            
-            var columns = new List<ViewColumn>
-            {
-                new GanttChartColumn(20, Field.TaskUniqueID),
-                new GanttChartColumn("Name", 150, Field.TaskName),
-                new GanttChartColumn("Start", 100, Field.TaskStart),
-                new GanttChartColumn("End", 100, Field.TaskFinish),
-                new GanttChartColumn("R-Initials", 100, Field.TaskResourceInitials),
-                new GanttChartColumn("R-Names", 100, Field.TaskResourceNames),
-                new GanttChartColumn("Work", 50, Field.TaskWork),
-                new GanttChartColumn(
-                    "Cost", 
-                    80,
-                    delegate(Task t)
-                    {
-                        return t.Get(Tsk.Cost).ToString(CultureInfo.InvariantCulture);
-                    }),
-                new GanttChartColumn(
-                    "Actual Cost", 
-                    80,
-                    delegate(Task t)
-                    {
-                        return t.Get(Tsk.ActualCost).ToString(CultureInfo.InvariantCulture);
-                    },
-                    Field.TaskActualCost)
-            };
-
-            // iterate over columns
-            foreach (var column in columns)
-            {
-                var col = (GanttChartColumn)column;
-                Console.WriteLine("Column Name: " + col.Name);
-                Console.WriteLine("Column Field: " + col.Field);
-                Console.WriteLine("Column Text: " + col.GetColumnText(task));
-                Console.WriteLine();
-            }
-            
-            var options = new CsvOptions
-            {
-                View = new ProjectView(columns)
-            };
-
-            project.Save(OutDir + "WorkWithGanttChartColumn_out.csv", options);
-
-            // ExEnd:WorkWithGanttChartColumn 
-        }
-    }
-    
-    [TestFixture]
-    public class ExPageInfo : ApiExampleBase
-    {
-        [Test]
-        public void WorkWithPageInfo()
+            return t.Get(Tsk.Cost).ToString(CultureInfo.InvariantCulture);
+        }),
+    new GanttChartColumn(
+        "Actual Cost", 
+        80,
+        delegate(Task t)
         {
-            // ExStart:WorkWithPageInfo 
-            // ExFor: PageInfo
-            // ExFor: PageInfo.#ctor
-            // ExFor: PageInfo.Name
-            // ExFor: PageInfo.Header
-            // ExFor: PageInfo.Legend
-            // ExFor: PageInfo.Footer
-            // ExFor: PageInfo.Margins
-            // ExFor: PageInfo.PageSettings
-            // ExFor: PageInfo.PageViewSettings
-            // ExFor: PrinterPaperSize
-            // ExSummary: Shows how to work with page info of MS Project view.
-            var project = new Project(DataDir + "Project2.mpp");
-            
-            // lets modify the default view
-            var info = project.DefaultView.PageInfo;
-
-            Console.WriteLine("Modify Page Info: " + info.Name);
-
-            // lets modify margins
-            info.Margins.Left = 10d;
-            info.Margins.Top = 10d;
-            info.Margins.Right = 10d;
-            info.Margins.Bottom = 10d;
-            
-            // lets modify page settings
-            info.PageSettings.IsPortrait = true;
-            info.PageSettings.PaperSize = PrinterPaperSize.PaperA4;
-            
-            // lets modify page view settings
-            // set a value indicating whether to print notes.
-            info.PageViewSettings.PrintNotes = true;
-
-            var header = new HeaderFooterInfo
-            {
-                LeftText = "Left header text",
-                CenteredText = "Centered header text",
-                RightText = "Right header text"
-            };
-            var legend = new PageLegend
-            {
-                LeftText =  "Left legend text",
-                CenteredText = "Centered legend text",
-                RightText = "Right legend text"
-            };
-            var footer = new HeaderFooterInfo
-            {
-                LeftText = "Left footer text",
-                CenteredText = "Centered footer text",
-                RightText = "Right footer text"
-            };
-
-            info.Header = header;
-            info.Legend = legend;
-            info.Footer = footer;
-            
-            // work with project...
-            // ExEnd:WorkWithPageInfo 
-        }
-    }
+            return t.Get(Tsk.ActualCost).ToString(CultureInfo.InvariantCulture);
+        },
+        Field.TaskActualCost)
+};
+```
+## Step 3: Iterate Over Columns
+Iterate over the defined columns to access their properties and display information:
+```csharp
+foreach (var column in columns)
+{
+    var col = (GanttChartColumn)column;
+    Console.WriteLine("Column Name: " + col.Name);
+    Console.WriteLine("Column Field: " + col.Field);
+    Console.WriteLine("Column Text: " + col.GetColumnText(task));
+    Console.WriteLine();
 }
 ```
+## Step 4: Save Gantt Chart to CSV
+Save the Gantt chart with defined columns to a CSV file:
+```csharp
+var options = new CsvOptions
+{
+    View = new ProjectView(columns)
+};
+project.Save(DataDir + "WorkWithGanttChartColumn_out.csv", options);
+```
+By following these steps, you can effectively work with Gantt chart columns in Aspose.Tasks for .NET, allowing you to customize and display task information as needed.
+
+## Conclusion
+Mastering the manipulation of Gantt chart columns in Aspose.Tasks for .NET opens up endless possibilities for tailoring project management visuals to your specific needs. By following the steps outlined in this tutorial, you can efficiently handle task information and enhance project clarity and organization.
+## FAQ's
+### Q: Can I create custom columns in Aspose.Tasks for .NET?
+A: Yes, you can define custom columns to display specific task attributes according to your project requirements.
+### Q: Is Aspose.Tasks for .NET compatible with all versions of Microsoft Project files?
+A: Aspose.Tasks for .NET supports various versions of Microsoft Project files, ensuring compatibility across different project environments.
+### Q: How can I handle complex project structures with Aspose.Tasks for .NET?
+A: Aspose.Tasks for .NET provides comprehensive APIs and features to manage complex project structures, offering flexibility and scalability.
+### Q: Are there any limitations to the number of columns I can add to a Gantt chart?
+A: Aspose.Tasks for .NET offers extensive customization options, allowing you to add a significant number of columns to Gantt charts without limitations.
+### Q: Where can I find additional support and resources for Aspose.Tasks for .NET?
+A: You can explore the documentation, community forums, and support channels provided by Aspose.Tasks for .NET to access comprehensive resources and assistance.
