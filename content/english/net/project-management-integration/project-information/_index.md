@@ -21,6 +21,7 @@ You'll need the credentials to access the SharePoint where your MS Project files
 ## Importing Namespaces
 Once you've got your prerequisites sorted out, it's time to import the necessary namespaces into your project.
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     

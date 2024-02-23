@@ -16,6 +16,7 @@ Before we jump into the tutorial, make sure you have the following prerequisites
 ## Import Namespaces
 To get started, let's import the necessary namespaces in your .NET project. These namespaces are essential for working with VBA modules in Aspose.Tasks.
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     

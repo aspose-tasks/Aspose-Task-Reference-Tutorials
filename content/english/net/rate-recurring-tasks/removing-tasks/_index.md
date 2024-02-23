@@ -17,6 +17,7 @@ Before we begin, ensure you have the following prerequisites in place:
 ## Import Namespaces
 Make sure to import the necessary namespaces in your C# code:
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;

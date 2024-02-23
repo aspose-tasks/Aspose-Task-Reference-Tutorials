@@ -17,6 +17,7 @@ Before we embark on this journey, ensure you have the following prerequisites in
 ## Import Namespaces
 To kick things off, let's import the necessary namespaces in your .NET project. These namespaces are crucial for accessing the Aspose.Tasks functionality. Insert the following code at the beginning of your project:
 ```csharp
+    using Aspose.Tasks;
     using System.Collections.Generic;
     using System.Drawing;
     

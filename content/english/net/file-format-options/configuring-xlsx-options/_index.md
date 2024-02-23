@@ -21,6 +21,7 @@ Have a Microsoft Project file (MPP) ready that you want to configure and save as
 ## Importing Namespaces
 To begin, import the necessary namespaces:
 ```csharp
+    using Aspose.Tasks;
     using System.Text;
     
     using Aspose.Tasks.Saving;

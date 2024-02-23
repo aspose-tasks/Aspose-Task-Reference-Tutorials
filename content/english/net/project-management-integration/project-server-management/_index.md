@@ -17,6 +17,7 @@ Before we dive into managing MS Project Server with Aspose.Tasks, ensure you hav
 ## Import Namespaces
 Before getting started, ensure you have imported the required namespaces in your C# code:
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;

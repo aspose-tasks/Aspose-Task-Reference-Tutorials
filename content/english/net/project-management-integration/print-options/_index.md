@@ -17,6 +17,7 @@ Before we dive into the intricacies of configuring MS Project printing options, 
 ## Import Namespaces
 Before we begin coding, let's import the necessary namespaces to facilitate our task:
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Diagnostics.CodeAnalysis;
     

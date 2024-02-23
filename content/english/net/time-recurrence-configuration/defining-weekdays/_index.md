@@ -16,6 +16,7 @@ Before we embark on this journey, ensure you have the following prerequisites:
 ## Import Namespaces
 Start by importing the necessary namespaces into your project:
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     

@@ -15,7 +15,7 @@ Before diving into the tutorial, ensure that you have the following prerequisite
 ## Import Namespaces
 Begin by importing the necessary namespaces in your project to access the functionalities of Aspose.Tasks:
 ```csharp
-    
+using Aspose.Tasks;
 ```
 ## Step 1: Set Up Your Project
 Start by setting up your project and including the Aspose.Tasks library. Make sure to reference the library in your project.

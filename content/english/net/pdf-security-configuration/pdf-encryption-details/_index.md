@@ -19,6 +19,7 @@ Before we begin, ensure you have the following prerequisites:
 ## Import Namespaces
 In your C# code, include the necessary namespaces for working with Aspose.Tasks and PDF functionalities:
 ```csharp
+    using Aspose.Tasks;
     using System;
     
     using Aspose.Tasks.Saving;

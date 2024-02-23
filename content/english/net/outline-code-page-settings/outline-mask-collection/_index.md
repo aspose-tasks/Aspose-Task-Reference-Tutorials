@@ -22,6 +22,7 @@ Let's start by importing the necessary namespaces into your C# project. This ste
 
 Add the following namespaces at the beginning of your code file:
 ```csharp
+    using Aspose.Tasks;
     using System;
     
 ```

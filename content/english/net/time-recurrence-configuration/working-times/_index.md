@@ -17,6 +17,7 @@ Before diving into the tutorial, ensure you have the following:
 ## Import Namespaces
 Start by importing the necessary namespaces to access the Aspose.Tasks functionalities:
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;

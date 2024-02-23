@@ -18,6 +18,7 @@ Now that we're all set, let's jump into the exciting world of Aspose.Tasks for .
 ## Import Namespaces
 In your C# project, start by importing the necessary namespaces:
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     

@@ -21,6 +21,7 @@ A fundamental understanding of C# programming language is necessary to follow al
 ## Import Namespaces
 To begin, import the necessary namespaces into your C# project:
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     

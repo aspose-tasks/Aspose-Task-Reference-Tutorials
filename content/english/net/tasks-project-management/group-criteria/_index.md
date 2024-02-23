@@ -21,6 +21,7 @@ Have an IDE such as Visual Studio installed on your system for writing and execu
 ## Import Namespaces
 To get started, import the necessary namespaces in your C# code:
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     

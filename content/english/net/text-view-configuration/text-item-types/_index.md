@@ -17,6 +17,7 @@ Now, let's dive into the nitty-gritty of handling text item types.
 ## Import Namespaces
 First things first, import the necessary namespaces to kickstart your project:
 ```csharp
+    using Aspose.Tasks;
     using System.Collections.Generic;
     using System.Drawing;
     

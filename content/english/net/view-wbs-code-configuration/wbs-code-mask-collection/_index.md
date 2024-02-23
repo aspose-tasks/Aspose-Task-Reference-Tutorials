@@ -17,6 +17,7 @@ Before we embark on this coding journey, ensure you have the following prerequis
 ## Import Namespaces
 To get started, let's import the necessary namespaces:
 ```csharp
+    using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
     

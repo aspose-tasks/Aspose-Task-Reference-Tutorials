@@ -17,6 +17,7 @@ Now, let's jump into the nitty-gritty of handling table fields.
 ## Import Namespaces
 First things first, let's import the necessary namespaces to kickstart our project:
 ```csharp
+    using Aspose.Tasks;
     using System;
     
 ```

@@ -19,6 +19,7 @@ Before proceeding with this tutorial, make sure you have the following:
 Begin by importing the necessary namespaces to access the functionalities provided by the Aspose.Tasks for .NET library.
    
 ```csharp
+    using Aspose.Tasks;
     using System;
     
     using Aspose.Tasks.Saving;

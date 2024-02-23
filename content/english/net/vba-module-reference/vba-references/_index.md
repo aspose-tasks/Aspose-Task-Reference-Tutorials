@@ -17,6 +17,7 @@ Before we get started, make sure you have the following:
 ## Import Namespaces
 Ensure you have the necessary namespaces included at the beginning of your code:
 ```csharp
+    using Aspose.Tasks;
     using System;
     
 ```
