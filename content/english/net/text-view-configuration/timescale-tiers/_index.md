@@ -24,7 +24,9 @@ Before diving into the tutorial, ensure you have the following:
 Now, let's break down each step of the example provided.
 ## Step 1: Initialize Project and Add Task Links
 ```csharp
-var project = new Project("Your Document Directory" + "CreateProject1.mpp");
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
+var project = new Project(DataDir + "CreateProject1.mpp");
 project.TaskLinks.Add(project.RootTask.Children.Add("Task 1"), project.RootTask.Children.Add("Task 2"));
 ```
 Here, we create a project and establish task links between "Task 1" and "Task 2."
@@ -67,7 +69,7 @@ var pdfSaveOptions = new PdfSaveOptions
 {
     Timescale = Timescale.DefinedInView
 };
-project.Save("Your Document Directory" + "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
+project.Save(DataDir+ "CustomizeTimescaleTierLabels_out.pdf", pdfSaveOptions);
 ```
 Save the project with the defined timescale settings.
 ## Conclusion
