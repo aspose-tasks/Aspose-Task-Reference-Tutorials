@@ -39,6 +39,8 @@ Now, let's break down the provided example into multiple steps and elucidate eac
 ## Step 1: Load Project File
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
@@ -76,7 +78,7 @@ Here, we add the defined recurring task parameters to the root task of the proje
 ## Step 4: Save Project
 
 ```csharp
-project.Save(OutDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
+project.Save(DataDir + "CanAddRecurringTask_Years_YearDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
 Finally, we save the modified project file with the added recurring task.

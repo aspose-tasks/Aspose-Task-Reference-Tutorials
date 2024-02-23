@@ -34,6 +34,8 @@ using Visualization;
 Firstly, initialize a `Project` object and define a view, such as the `GanttChartView`.
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 GanttChartView view = (GanttChartView) project.Views.ToList()[0];
 ```
@@ -63,7 +65,7 @@ view.MiddleTimescaleTier.Count = 1;
 Attempt to save the project as an image using the specified options.
 
 ```csharp
-project.Save(OutDir + "SaveToStreamAndCatchException_out.mpp", options);
+project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
 ```
 
 ## Step 5: Catch and Handle Exception
@@ -74,7 +76,7 @@ Implement exception handling to catch the `BitmapInvalidSizeException` if it occ
 try
 {
     // Attempt to save project as an image
-    project.Save(OutDir + "SaveToStreamAndCatchException_out.mpp", options);
+    project.Save(DataDir + "SaveToStreamAndCatchException_out.mpp", options);
 }
 catch (BitmapInvalidSizeException ex)
 {

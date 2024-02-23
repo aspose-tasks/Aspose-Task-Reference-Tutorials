@@ -35,6 +35,8 @@ Let's break down the example code into multiple steps and understand each part:
 ## Step 1: Initialize the Project and Resource
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "UpdateResourceData.mpp");
 var resource = project.Resources.GetById(1);
 ```

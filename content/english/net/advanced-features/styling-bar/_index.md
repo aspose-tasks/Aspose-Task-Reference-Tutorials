@@ -37,6 +37,8 @@ using Visualization;
 To begin, load the project file using the Aspose.Tasks API:
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
@@ -96,7 +98,7 @@ options.BarStyles.Add(style);
 Finally, save the project with the applied bar styles:
 
 ```csharp
-project.Save(OutDir + "WorkWithBarStyle_out.mpp", options);
+project.Save(DataDir + "WorkWithBarStyle_out.mpp", options);
 ```
 
 ## Conclusion

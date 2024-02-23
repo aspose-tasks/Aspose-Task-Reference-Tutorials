@@ -36,6 +36,8 @@ using Visualization;
 To begin, load your project file using the `Project` class:
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 

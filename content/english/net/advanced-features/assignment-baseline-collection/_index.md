@@ -34,6 +34,8 @@ using NUnit.Framework;
 Firstly, we need to load the project file that contains the assignment baselines.
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 ```
 

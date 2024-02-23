@@ -48,6 +48,8 @@ Let's break down the provided example code into multiple steps to understand how
 ## Step 1: Load the Project File
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadProjectInfo.mpp");
 ```
 

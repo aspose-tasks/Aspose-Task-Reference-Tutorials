@@ -37,6 +37,8 @@ Let's break down the provided code snippet into multiple steps to understand eac
 ## Step 1: Load Project File
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
 
@@ -79,7 +81,7 @@ Here, we add the defined recurring task parameters to the root task of the proje
 ## Step 4: Save Project File
 
 ```csharp
-project.Save(OutDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
+project.Save(DataDir + "CanAddRecurringTask_Months_WeekDay_EndByRecurrenceRange_Test_out.mpp", SaveFileFormat.Mpp);
 ```
 
 Finally, we save the modified project file with the added recurring task.

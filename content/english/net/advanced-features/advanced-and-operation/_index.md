@@ -36,6 +36,8 @@ using Util;
 Begin by initializing a new Aspose.Tasks project and collecting all tasks within it:
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);

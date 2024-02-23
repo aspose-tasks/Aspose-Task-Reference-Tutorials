@@ -36,6 +36,8 @@ Let's break down the example code provided into multiple steps to understand how
 ## Step 1: Load the Project
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
 
@@ -64,7 +66,7 @@ In this step, we create an instance of `ImageSaveOptions` to specify the format 
 ## Step 4: Save the Project as an Image
 
 ```csharp
-project.Save(OutDir + "SaveToStreamWithOptionsAndCatchException_out.mpp", options);
+project.Save(DataDir + "SaveToStreamWithOptionsAndCatchException_out.mpp", options);
 ```
 
 Finally, we save the project with specified options. This is where a memory exception may occur if the project is too large or complex.

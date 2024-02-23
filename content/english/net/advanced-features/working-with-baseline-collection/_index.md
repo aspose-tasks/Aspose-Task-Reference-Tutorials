@@ -38,6 +38,8 @@ Now, let's break down each example into multiple steps:
 First, load the Microsoft Project file using Aspose.Tasks:
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "WorkWithBaselineCollection.mpp");
 ```
 

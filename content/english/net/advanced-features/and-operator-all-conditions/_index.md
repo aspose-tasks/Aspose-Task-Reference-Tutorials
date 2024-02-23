@@ -36,6 +36,8 @@ Now, let's break down the example into multiple steps to understand the process 
 ## Step 1: Load the Project File
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 

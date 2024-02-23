@@ -35,6 +35,8 @@ using NUnit.Framework;
 Firstly, load the project file using the `Project` class from Aspose.Tasks. Then, set the baseline type for the project using the `SetBaseline` method.
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "AssignmentBaseline2007.mpp");
 project.SetBaseline(BaselineType.Baseline);
 ```

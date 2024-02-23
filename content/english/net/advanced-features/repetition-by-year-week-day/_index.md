@@ -56,6 +56,8 @@ Now, let's break down the process of setting up a recurring task using the "Repe
 First, initialize the project and define the parameters for the recurring task.
 
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 var parameters = new RecurringTaskParameters
 {
@@ -93,7 +95,7 @@ This line adds the task parameters to the root task of the project, incorporatin
 Finally, save the project file with the configured recurring task.
 
 ```csharp
-project.Save(OutDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
+project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRange_Test.mpp", SaveFileFormat.Mpp);
 ```
 
 This snippet saves the project file with the specified recurring task configuration to the specified output directory.
