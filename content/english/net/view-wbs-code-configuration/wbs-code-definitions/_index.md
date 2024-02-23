@@ -21,7 +21,7 @@ In your .NET project, begin by importing the necessary namespaces:
     using Saving;
 ```
 Now, let's break down the process of defining WBS codes into manageable steps.
-## Step-by-Step Guide: Defining WBS Code Definitions in Aspose.Tasks
+
 ## Step 1: Set the Document Directory
 ```csharp
 String DataDir = "Your Document Directory";

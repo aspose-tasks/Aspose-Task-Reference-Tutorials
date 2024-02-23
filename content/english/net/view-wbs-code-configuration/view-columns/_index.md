@@ -67,7 +67,7 @@ project.Save(OutDir + "WorkWithViewColumn_out.pdf", options);
 ```
 ## Conclusion
 Congratulations! You've successfully learned how to handle MS Project view columns using Aspose.Tasks for .NET. This tutorial provides a foundational understanding of customizing project views for better visualization and analysis.
----
+
 ## Frequently Asked Questions
 ### Q: Can I use Aspose.Tasks with other project management tools?
 A: Aspose.Tasks primarily focuses on Microsoft Project files; however, you can explore integration possibilities based on your project's requirements.

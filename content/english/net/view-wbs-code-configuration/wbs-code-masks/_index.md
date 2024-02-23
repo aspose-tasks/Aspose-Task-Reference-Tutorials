@@ -78,8 +78,8 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 Congratulations! You've successfully configured WBS Code Masks in your Aspose.Tasks project.
 ## Conclusion
 In this tutorial, we've explored the step-by-step process of configuring WBS Code Masks using Aspose.Tasks for .NET. This powerful library provides developers with a seamless way to enhance project management capabilities within their .NET applications.
----
-## FAQs
+
+## FAQ's
 ### Can I use Aspose.Tasks for free?
 Aspose.Tasks offers a free trial, which you can download [here](https://releases.aspose.com/).
 ### Where can I find additional support?
