@@ -61,7 +61,7 @@ foreach (var module in project.VbaProject.Modules)
 By following these steps, you can effectively manage and retrieve information from VBA modules using Aspose.Tasks for .NET.
 ## Conclusion
 In this tutorial, we explored the capabilities of Aspose.Tasks for .NET in managing VBA modules within Microsoft Project files. Leveraging the provided code snippets, developers can easily integrate these features into their applications, enhancing the manipulation of Project files.
----
+
 ## FAQs
 ### Is Aspose.Tasks compatible with all versions of Microsoft Project files?
 Yes, Aspose.Tasks supports various versions of Microsoft Project files, including .mpp and .mpt.
