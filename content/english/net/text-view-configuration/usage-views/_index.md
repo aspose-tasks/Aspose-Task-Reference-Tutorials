@@ -41,7 +41,7 @@ view.AlignDetailsData = HorizontalStringAlignment.Near;
 ```
 ## Step 1.4: Save Project as PDF
 ```csharp
-project.Save(OutDir + "task_usage1_out.pdf", SaveFileFormat.Pdf);
+project.Save(DataDir + "task_usage1_out.pdf", SaveFileFormat.Pdf);
 ```
 ## Step 2: Display Details Header Column
 In this step, we'll modify the view settings to display the details header column and save the project as PDF:
