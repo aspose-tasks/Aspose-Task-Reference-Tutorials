@@ -25,6 +25,8 @@ To kick things off, let's import the necessary namespaces in your .NET project. 
 ```
 ## Step 1: Load the Project
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 This code initializes a new project using the specified MPP file.
@@ -51,7 +53,7 @@ In this step, we configure the save options, specifying the presentation format 
 Repeat these steps as needed to fine-tune text styles across various aspects of your project document.
 ## Conclusion
 Configuring text styles in Aspose.Tasks for .NET provides a seamless way to enhance the visual appeal of your project documents. With the flexibility to adjust colors, fonts, and background patterns, you can tailor the representation of data to meet your specific needs.
-## FAQs
+## FAQ's
 ### Can I apply different text styles to different sections of my project?
 Yes, you can customize text styles for various items within your project, offering granular control over the visual presentation.
 ### Do I need extensive coding knowledge to implement text styles using Aspose.Tasks?

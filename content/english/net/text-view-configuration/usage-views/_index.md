@@ -17,13 +17,14 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 In the code snippet provided, you'll notice the usage of certain namespaces. Make sure to include these in your project for seamless integration:
 ```csharp
 using Aspose.Tasks.Visualization;
-    
-    using Aspose.Tasks.Saving;
+using Aspose.Tasks.Saving;
 ```
 ## Step 1: Render Task Usage View with Details
 Let's start by rendering a task usage view with details. Follow these steps:
 ## Step 1.1: Load Project
 ```csharp
+// The path to th documents directory.
+String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "TaskUsageViewWithDetails.mpp");
 ```
 ## Step 1.2: Get the View
@@ -58,8 +59,8 @@ project.Save(DataDir + "task_usage2_out.pdf", SaveFileFormat.Pdf);
 ```
 ## Conclusion
 Congratulations! You've successfully configured usage views in Aspose.Tasks. This tutorial provides a foundation for efficient project management and visualization using the Aspose.Tasks library.
----
-### FAQs
+
+### FAQ's
 ### Q: Where can I find Aspose.Tasks documentation?
 The comprehensive documentation is available [here](https://reference.aspose.com/tasks/net/).
 ### Q: How can I download Aspose.Tasks for .NET?
