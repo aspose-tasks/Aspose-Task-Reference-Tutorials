@@ -2,11 +2,55 @@
 title: Aspose.Tasks Advanced Features
 linktitle: Aspose.Tasks Advanced Features
 second_title: Aspose.Tasks .NET API
-description: 
+description: Discover advanced features in Aspose.Tasks for .NET with our tutorials. From AND operations to memory exception handling, enhance your project management skills.
 type: docs
 weight: 21
 url: /net/advanced-features/
 ---
+
+## Introduction
+
+Are you ready to elevate your project management skills with Aspose.Tasks for .NET? Dive into our comprehensive tutorials covering a range of advanced features. Whether you're looking to perform intricate AND operations, handle memory exceptions, or customize project views, we've got you covered.
+
+## Advanced AND Operation in Aspose.Tasks
+
+Unlock the potential of advanced AND operations in Aspose.Tasks for .NET. Our tutorial guides you through efficiently filtering project tasks based on multiple criteria. Gain a deeper understanding of task management with practical examples. [Read more](./advanced-and-operation/)
+
+## Using AND Operator in All Conditions with Aspose.Tasks
+
+Explore the use of the AND operator in all conditions with Aspose.Tasks for .NET. Efficiently filter project tasks based on diverse criteria. Elevate your project management skills with this step-by-step guide. [Read more](./and-operator-all-conditions/)
+
+## Handling Memory Exception with Aspose.Tasks Layout Builder
+
+Tackle memory exceptions in .NET using Aspose.Tasks Layout Builder. Our guide provides a step-by-step approach with code examples, ensuring you can handle exceptions seamlessly. Elevate your project efficiency now. [Read more](./layout-builder-out-of-memory/)
+## Working with Assignment in Aspose.Tasks
+
+Efficiently manage project assignments in .NET using Aspose.Tasks. This tutorial delves into different contours for resource scheduling, offering practical insights and tips. Enhance your project organization and streamline workflows. [Read more](./working-with-assignment/)
+
+## Managing Assignment Baseline in Aspose.Tasks
+
+Learn how to manage assignment baselines efficiently with Aspose.Tasks for .NET. This ensures accurate tracking of project progress and performance. Dive into our tutorial for a step-by-step guide on optimizing your project management strategies. [Read more](./assignment-baseline/)
+
+## Collection of Assignment Baselines in Aspose.Tasks
+
+Efficiently manage assignment baselines in project management using Aspose.Tasks for .NET. Enhance productivity and accuracy by following our comprehensive tutorial. Gain valuable insights into optimizing your project workflows. [Read more](./assignment-baseline-collection/)
+
+## Custom Assignment View Column in Aspose.Tasks
+
+Explore how to add custom assignment view columns in Aspose.Tasks for .NET, boosting your project management capabilities. This tutorial provides a detailed guide, empowering you to tailor your project views to meet specific requirements. [Read more](./assignment-view-column/)
+
+## Working with Availability Periods in Aspose.Tasks
+
+Efficiently manage resource availability periods using Aspose.Tasks for .NET. This tutorial offers a step-by-step guide, providing practical insights for working with availability periods in your .NET projects. Enhance project planning and execution. [Read more](./working-with-availability-periods/)
+
+## Collection of Availability Periods in Aspose.Tasks
+
+Master the art of managing availability periods for resources in Aspose.Tasks for .NET. This tutorial guides you through adding, updating, and removing availability periods, ensuring effective project resource planning. Elevate your project management skills. [Read more](./availability-period-collection/)
+
+## Styling Bar in Aspose.Tasks
+
+Learn how to style bars in Aspose.Tasks for .NET to enhance project visualization. Our tutorial provides practical insights, helping you create visually appealing project timelines. Elevate your project presentation and communication. [Read more](./styling-bar/)
+
 
 ## Aspose.Tasks Advanced Features Tutorials
 ### [Advanced AND Operation in Aspose.Tasks](./advanced-and-operation/)
@@ -35,8 +79,6 @@ Learn how to manage baselines in Aspose.Tasks for .NET efficiently. Follow our c
 Learn to set and manipulate project baselines efficiently using Aspose.Tasks for .NET.
 ### [Handling Invalid Size Exception for Bitmap in Aspose.Tasks](./bitmap-invalid-size-exception/)
 Learn how to handle BitmapInvalidSizeException in Aspose.Tasks for .NET when saving projects as images. Comprehensive tutorial with step-by-step guidance.
-### [Retrieving Build Version Information in Aspose.Tasks](./build-version-information/)
-Learn how to retrieve build version information in Aspose.Tasks for .NET with this comprehensive tutorial. Master .NET development.
 ### [Built-In Project Property Collection in Aspose.Tasks](./built-in-project-property-collection/)
 Learn how to manage project meta-properties efficiently in .NET applications using Aspose.Tasks. Read, modify, and iterate over properties effortlessly.
 ### [Repetition by Month Day in Aspose.Tasks](./repetition-by-month-day/)
