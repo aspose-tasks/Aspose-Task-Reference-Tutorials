@@ -19,7 +19,6 @@ To begin, import the necessary namespaces into your project. This ensures you ha
 ```csharp
     using Aspose.Tasks;
     using System;
-    
 ```
 Now, let's break down the provided example into multiple steps to guide you through handling task baselines in Aspose.Tasks.
 ## Step 1: Create a Project
@@ -63,7 +62,6 @@ Understand the timephased data associated with the task baseline, providing insi
 ## Conclusion
 Congratulations! You've successfully learned how to handle task baselines in Aspose.Tasks for .NET. This knowledge will enhance your project management capabilities, ensuring accurate tracking and planning.
 ## Frequently Asked Questions
- (FAQs)
 ### Q: Can I use Aspose.Tasks with other .NET frameworks?
 A: Aspose.Tasks is compatible with multiple .NET frameworks, providing flexibility in your development environment.
 ### Q: Is there a community forum for Aspose.Tasks support?
