@@ -18,7 +18,7 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 In your .NET project, make sure to import the necessary namespaces to leverage Aspose.Tasks functionalities. Add the following lines at the beginning of your code file:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 Now, let's break down the provided example into multiple steps to guide you through handling timephased data using Aspose.Tasks:
 ## Step 1: Set Up the Project
@@ -87,5 +87,5 @@ Yes, you can explore a free trial [here](https://releases.aspose.com/).
 Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support.
 ### What is a temporary license, and how can I obtain one?
 Learn about temporary licenses [here](https://purchase.aspose.com/temporary-license/).
-### Where can I find the official documentation for Aspose.Tasks for .NET?
+### Where can I find the documentation for Aspose.Tasks for .NET?
 Refer to the comprehensive [documentation](https://reference.aspose.com/tasks/net/) for detailed information.

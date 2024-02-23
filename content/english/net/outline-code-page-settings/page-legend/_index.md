@@ -22,8 +22,8 @@ In your .NET project, import the necessary namespaces to access the functionalit
 2. Import Namespaces: At the beginning of your code file, import the required namespaces:
 ```csharp
 using System;
-using NUnit.Framework;
-using Saving;
+
+using Aspose.Tasks.Saving;
 ```
 Let's break down the provided example into step-by-step guide format to understand configuring MS Project page legends using Aspose.Tasks for .NET comprehensively.
 

@@ -11,7 +11,7 @@ url: /net/outline-code-page-settings/outline-codes/
 In this tutorial, we will explore how to manage Microsoft Project outline codes using Aspose.Tasks for .NET. Outline codes are custom fields in Microsoft Project that allow users to categorize and organize tasks according to specific criteria. Aspose.Tasks simplifies the process of reading and manipulating these outline codes programmatically.
 ## Prerequisites
 Before we begin, ensure you have the following:
-1. Aspose.Tasks for .NET Library: Download and install the Aspose.Tasks for .NET library from the [official website](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET Library: Download and install the Aspose.Tasks for .NET library from the [website](https://releases.aspose.com/tasks/net/).
 2. Development Environment: Set up a suitable development environment for .NET programming, such as Visual Studio.
 3. Basic Knowledge of C#: Familiarity with C# programming language will be beneficial for understanding the code examples.
 
@@ -23,7 +23,7 @@ To get started, you need to import the necessary namespaces into your C# project
 4. Import Aspose.Tasks Namespace: At the top of your C# file, add the following using directive:
 ```csharp
 using System;
-using NUnit.Framework;
+
 ```
 ## Step 1: Define Document Directory
 First, set the path to the directory containing your MS Project file.
@@ -67,6 +67,6 @@ A: Aspose.Tasks supports a wide range of Microsoft Project versions, including 2
 ### Q: Does Aspose.Tasks require a license for commercial use?
 A: Yes, a valid license is required for commercial use of Aspose.Tasks. You can obtain a license from the Aspose website.
 ### Q: Can I try Aspose.Tasks before purchasing?
-A: Yes, you can download a free trial version of Aspose.Tasks from the official website to evaluate its features and capabilities.
+A: Yes, you can download a free trial version of Aspose.Tasks from the website to evaluate its features and capabilities.
 ### Q: Where can I get support for Aspose.Tasks?
-A: You can get support for Aspose.Tasks by visiting the official forum at [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).## Complete Source Code
+A: You can get support for Aspose.Tasks by visiting the forum at [Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).## Complete Source Code

@@ -21,7 +21,7 @@ First, let's import the necessary namespaces into our project:
 using System;
 using System.Collections.Generic;
 using System.IO;
-using NUnit.Framework;
+
 ```
 ## Step 1: Set Up Your Project
 Create a new project in Visual Studio and ensure that you have referenced the Aspose.Tasks DLL in your project.

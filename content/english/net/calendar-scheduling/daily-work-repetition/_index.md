@@ -27,7 +27,7 @@ Before we begin, ensure you import the necessary namespaces:
 ```csharp
 using System;
 using System.Diagnostics.CodeAnalysis;
-using NUnit.Framework;
+
 
 ```
 

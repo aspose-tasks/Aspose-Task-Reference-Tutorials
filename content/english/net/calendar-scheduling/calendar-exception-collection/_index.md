@@ -26,7 +26,7 @@ Before you begin working with Aspose.Tasks for .NET, you need to import the requ
 ```csharp
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
+
 
 ```
 

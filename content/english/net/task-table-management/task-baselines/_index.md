@@ -11,14 +11,14 @@ url: /net/task-table-management/task-baselines/
 In the dynamic world of project management, staying organized and informed is crucial. Aspose.Tasks for .NET provides a powerful solution for handling task baselines, allowing you to access valuable baseline information efficiently. This step-by-step guide will walk you through the process, ensuring you grasp each concept with clarity.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-- Environment Setup: Ensure you have Aspose.Tasks for .NET installed in your development environment. If not, you can download it from the [official Aspose.Tasks documentation](https://reference.aspose.com/tasks/net/).
+- Environment Setup: Ensure you have Aspose.Tasks for .NET installed in your development environment. If not, you can download it from the [Aspose.Tasks documentation](https://reference.aspose.com/tasks/net/).
 - Basic Knowledge of C#: Familiarize yourself with C# programming language basics, as this tutorial assumes a foundational understanding.
 - Integrated Development Environment (IDE): Use a preferred IDE such as Visual Studio to follow along seamlessly.
 ## Import Namespaces
 To begin, import the necessary namespaces into your project. This ensures you have access to the Aspose.Tasks functionality:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 Now, let's break down the provided example into multiple steps to guide you through handling task baselines in Aspose.Tasks.
 ## Step 1: Create a Project
@@ -70,6 +70,6 @@ A: Yes, you can find support and engage with the community at [Aspose.Tasks Foru
 ### Q: How can I obtain a temporary license for Aspose.Tasks?
 A: Visit [here](https://purchase.aspose.com/temporary-license/) to obtain a temporary license for Aspose.Tasks.
 ### Q: Are there any tutorials beyond task baselines available?
-A: Explore the [official documentation](https://reference.aspose.com/tasks/net/) for a wide range of tutorials on Aspose.Tasks features.
+A: Explore the [documentation](https://reference.aspose.com/tasks/net/) for a wide range of tutorials on Aspose.Tasks features.
 ### Q: Where can I purchase Aspose.Tasks for .NET?
 A: You can conveniently purchase Aspose.Tasks [here](https://purchase.aspose.com/buy).

@@ -18,7 +18,7 @@ Start by importing the necessary namespaces into your project:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## 1. Check Weekday Equality
 ```csharp

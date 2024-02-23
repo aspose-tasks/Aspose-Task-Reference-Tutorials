@@ -20,9 +20,9 @@ First, let's import the necessary namespaces to our project:
 using System;
 using System.Collections.Generic;
 using System.Globalization;
-using NUnit.Framework;
-using Saving;
-using Visualization;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Visualization;
 ```
 ## Step 1: Load the Project File
 Load the MS Project file using Aspose.Tasks API:

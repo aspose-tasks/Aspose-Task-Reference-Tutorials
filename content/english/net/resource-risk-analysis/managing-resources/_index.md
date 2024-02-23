@@ -12,7 +12,7 @@ Managing resources efficiently is crucial in project management, especially when
 ## Prerequisites
 Before we begin, ensure you have the following prerequisites in place:
 ### 1. Installation of Aspose.Tasks for .NET
-Firstly, you need to have Aspose.Tasks for .NET installed in your development environment. You can download the library from the [official Aspose.Tasks website](https://releases.aspose.com/tasks/net/) and follow the installation instructions provided.
+Firstly, you need to have Aspose.Tasks for .NET installed in your development environment. You can download the library from the [Aspose.Tasks website](https://releases.aspose.com/tasks/net/) and follow the installation instructions provided.
 ### 2. Setting Up Your Development Environment
 Make sure you have a compatible development environment set up, such as Visual Studio or any other IDE that supports .NET development.
 ### 3. Basic Understanding of C# Programming Language
@@ -23,8 +23,8 @@ To begin, import the necessary namespaces into your C# project:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
-    using Saving;
+    
+    using Aspose.Tasks.Saving;
 ```
 
 ## Step 1: Define the Path to Your Document Directory
@@ -60,4 +60,4 @@ A: Absolutely, Aspose.Tasks for .NET offers extensive functionality to customize
 ### Q: Does Aspose.Tasks for .NET support exporting project data to formats other than XML?
 A: Yes, Aspose.Tasks for .NET supports exporting project data to a variety of formats, including MPP, PDF, XLSX, and HTML, among others.
 ### Q: Where can I find further assistance or support for Aspose.Tasks for .NET?
-A: For further assistance or support, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) or refer to the [official documentation](https://reference.aspose.com/tasks/net/) provided by Aspose.
+A: For further assistance or support, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) or refer to the [documentation](https://reference.aspose.com/tasks/net/) provided by Aspose.

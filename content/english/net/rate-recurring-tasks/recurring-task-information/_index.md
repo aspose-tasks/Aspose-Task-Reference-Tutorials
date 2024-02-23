@@ -18,7 +18,7 @@ Before we begin, make sure you have the following prerequisites:
 To get started, import the necessary namespaces in your C# code:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 Now, let's break down the example into multiple steps:
 ## Step 1: Set up the project file path

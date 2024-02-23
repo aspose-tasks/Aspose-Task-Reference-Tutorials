@@ -25,7 +25,7 @@ In your .NET project, you'll need to import the necessary namespaces to access t
 
 ```csharp
 using System;
-using NUnit.Framework;
+
 ```
 
 Now that you have Aspose.Tasks set up in your project, let's explore how to use the Field Helper to work with MS Project fields.

@@ -19,8 +19,8 @@ Before diving into configuring MS Project risk analysis settings using Aspose.Ta
 To begin with, import the necessary namespaces in your C# code to access Aspose.Tasks classes and methods.
 ```csharp
     using System;
-    using NUnit.Framework;
-    using RiskAnalysis;
+    
+    using Aspose.Tasks.RiskAnalysis;
 ```
 
 Now, let's break down the provided example into multiple steps to configure MS Project risk analysis settings using Aspose.Tasks for .NET.

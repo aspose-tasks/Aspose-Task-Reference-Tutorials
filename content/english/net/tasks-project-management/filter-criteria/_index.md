@@ -21,7 +21,7 @@ Firstly, you need to import the necessary namespaces to work with Aspose.Tasks f
 ```csharp
 using System;
 using System.Linq;
-using NUnit.Framework;
+
 ```
 
 ## Step 1: Load Project File

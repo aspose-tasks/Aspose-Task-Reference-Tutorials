@@ -11,14 +11,14 @@ url: /net/time-recurrence-configuration/work-units/
 In the dynamic world of project management, handling work units efficiently is crucial for successful project completion. Aspose.Tasks for .NET provides a powerful toolset to navigate through work unit information, ensuring precise control over project timelines and resource allocation.
 ## Prerequisites
 Before diving into this tutorial, make sure you have the following prerequisites in place:
-1. Aspose.Tasks for .NET Library: Download and install the library from the [official download link](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET Library: Download and install the library from the [download link](https://releases.aspose.com/tasks/net/).
 2. Development Environment: Ensure you have a working .NET development environment set up.
 3. Document Directory: Create a directory to store your project documents.
 ## Import Namespaces
 In your C# code, begin by importing the necessary namespaces:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Initialize Project
 Start by initializing an Aspose.Tasks project using the provided code:
@@ -49,7 +49,7 @@ In conclusion, Aspose.Tasks for .NET empowers developers to seamlessly handle wo
 ### Is Aspose.Tasks compatible with all project management file formats?
 Aspose.Tasks supports various project file formats, including MPP, XML, and more. Refer to the [documentation](https://reference.aspose.com/tasks/net/) for a comprehensive list.
 ### Can I try Aspose.Tasks before purchasing?
-Yes, you can explore Aspose.Tasks with a free trial. Download it from the [official release page](https://releases.aspose.com/).
+Yes, you can explore Aspose.Tasks with a free trial. Download it from the [release page](https://releases.aspose.com/).
 ### Where can I find additional support for Aspose.Tasks?
 Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and discussions.
 ### How do I obtain a temporary license for Aspose.Tasks?

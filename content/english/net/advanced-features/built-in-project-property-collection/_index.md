@@ -38,8 +38,8 @@ To get started with Aspose.Tasks for .NET, you need to import the necessary name
 ```csharp
 using System;
 using System.Diagnostics.CodeAnalysis;
-using NUnit.Framework;
-using Properties;
+
+using Aspose.Tasks.Properties;
 
 ```
 

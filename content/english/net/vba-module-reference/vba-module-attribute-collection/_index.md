@@ -11,14 +11,14 @@ url: /net/vba-module-reference/vba-module-attribute-collection/
 Welcome to the world of Aspose.Tasks for .NET! If you're a developer looking to harness the power of Aspose.Tasks for .NET in your projects, you're in the right place. In this tutorial, we'll delve into the intricacies of working with VBA Module Attributes, providing you with a step-by-step guide on how to effectively utilize them in your .NET applications.
 ## Prerequisites
 Before we embark on this journey, ensure you have the following prerequisites in place:
-- Aspose.Tasks for .NET Library: Download and install the Aspose.Tasks for .NET library from the [official download page](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET Library: Download and install the Aspose.Tasks for .NET library from the [download page](https://releases.aspose.com/tasks/net/).
 - Integrated Development Environment (IDE): Have a .NET-compatible IDE, such as Visual Studio, installed on your machine.
 - Document Directory: Set up a document directory in your project to manage your files efficiently.
 ## Import Namespaces
 To kickstart the process, import the necessary namespaces into your project. This step ensures that you have access to the functionalities provided by Aspose.Tasks for .NET. Here's a snippet to guide you:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 Now, let's break down the provided example into multiple steps for a seamless understanding of working with VBA Module Attributes using Aspose.Tasks for .NET.
 ## Step 1: Set Document Directory
@@ -52,10 +52,10 @@ Congratulations! You've successfully navigated through the steps to work with VB
 ## Conclusion
 In conclusion, Aspose.Tasks for .NET empowers developers to efficiently handle VBA Module Attributes in their projects. By following this guide, you've gained valuable insights into the process, enhancing your capabilities as a .NET developer.
 ## FAQs
-### Q: Where can I find the official documentation for Aspose.Tasks for .NET?
-A: The official documentation is available [here](https://reference.aspose.com/tasks/net/).
+### Q: Where can I find the documentation for Aspose.Tasks for .NET?
+A: The documentation is available [here](https://reference.aspose.com/tasks/net/).
 ### Q: How can I download Aspose.Tasks for .NET?
-A: You can download it from the [official release page](https://releases.aspose.com/tasks/net/).
+A: You can download it from the [release page](https://releases.aspose.com/tasks/net/).
 ### Q: Where can I purchase a license for Aspose.Tasks for .NET?
 A: You can buy a license [here](https://purchase.aspose.com/buy).
 ### Q: Is there a free trial available?

@@ -18,9 +18,9 @@ Before diving into the tutorial, make sure you have the following:
 Before you start coding, import the necessary namespaces to leverage the functionalities of Aspose.Tasks:
 ```csharp
     using System;
-    using NUnit.Framework;
-    using Saving;
-    using Visualization;
+    
+    using Aspose.Tasks.Saving;
+    using Aspose.Tasks.Visualization;
 ```
 Now, let's break down the example into multiple steps:
 ## Step 1: Load Project and Set Project Properties

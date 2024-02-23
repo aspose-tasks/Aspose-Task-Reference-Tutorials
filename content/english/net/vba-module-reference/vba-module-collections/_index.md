@@ -18,7 +18,7 @@ To get started, let's import the necessary namespaces in your .NET project. Thes
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 Now that we have our prerequisites in place, let's break down the tutorial into easy-to-follow steps.
 ## Step 1: Set the Document Directory
@@ -70,4 +70,4 @@ Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for communit
 ### Are temporary licenses available?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find detailed documentation for Aspose.Tasks?
-Explore the official documentation [here](https://reference.aspose.com/tasks/net/).
+Explore the documentation [here](https://reference.aspose.com/tasks/net/).

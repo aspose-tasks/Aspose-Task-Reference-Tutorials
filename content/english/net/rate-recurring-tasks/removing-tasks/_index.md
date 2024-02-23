@@ -20,8 +20,8 @@ Make sure to import the necessary namespaces in your C# code:
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
-    using NUnit.Framework;
-    using Util;
+    
+    using Aspose.Tasks.Util;
 Console.WriteLine("Number of tasks before using the algorithm: " + tasks.Count);
 Console.WriteLine("Number of tasks after using the algorithm: " + tasks.Count);
 ```

@@ -25,7 +25,7 @@ Before starting the implementation, make sure to import the necessary namespaces
 
 ```csharp
 using System;
-using NUnit.Framework;
+
 ```
 
 ## Step 1: Initialize the Aspose.Tasks Project Object

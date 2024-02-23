@@ -2,7 +2,7 @@
 title: Aspose.Tasks View and WBS Code Configuration
 linktitle: Aspose.Tasks View and WBS Code Configuration
 second_title: Aspose.Tasks .NET API
-description: Master Aspose.Tasks for .NET views and WBS codes effortlessly. Customize project management with our step-by-step tutorials. Download now for seamless project visualization.
+description: Master Aspose.Tasks for .NET views and WBS codes. Customize project management with our step-by-step tutorials. Download now for seamless project visualization.
 type: docs
 weight: 32
 url: /net/view-wbs-code-configuration/

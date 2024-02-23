@@ -18,7 +18,7 @@ Before we begin, ensure you have the following:
 ## Import Namespaces
 First, let's import the necessary namespaces to access the functionalities of Aspose.Tasks for .NET:
 ```csharp
-    using NUnit.Framework;
+    
 ```
 
 ## Step 1: Create a new Project instance

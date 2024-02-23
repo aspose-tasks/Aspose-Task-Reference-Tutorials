@@ -11,7 +11,7 @@ url: /net/task-table-management/task-usage-view-fields/
 In the realm of project management, Aspose.Tasks for .NET stands as a robust solution, providing developers with a powerful toolkit to manipulate and manage project data. One of the noteworthy features is the Task Usage View, offering insights into various fields that enhance project visibility. In this tutorial, we'll delve into the intricacies of Task Usage View Fields using Aspose.Tasks for .NET, breaking down each step for a comprehensive understanding.
 ## Prerequisites
 Before we embark on this journey, ensure you have the following prerequisites in place:
-- Aspose.Tasks for .NET Library: Download and install the library from the official [Aspose.Tasks for .NET Documentation](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET Library: Download and install the library from the [Aspose.Tasks for .NET Documentation](https://reference.aspose.com/tasks/net/).
 - Development Environment: Set up a suitable development environment, preferably using Visual Studio or any other .NET development tool.
 - Basic Understanding: Familiarity with C# and the basics of project management concepts will be beneficial.
 ## Import Namespaces
@@ -19,7 +19,7 @@ In your C# project, make sure to import the necessary namespaces to work seamles
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Project Initialization
 Begin by initializing the Aspose.Tasks project and loading the TaskUsageView:

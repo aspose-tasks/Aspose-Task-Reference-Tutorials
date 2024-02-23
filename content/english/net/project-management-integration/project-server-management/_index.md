@@ -22,7 +22,7 @@ Before getting started, ensure you have imported the required namespaces in your
     using System.Diagnostics.CodeAnalysis;
     using System.IO;
     using System.Net;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Set Up Authentication Credentials
 First, you need to set up authentication credentials to connect to your MS Project Server instance. This includes the domain address, username, and password.

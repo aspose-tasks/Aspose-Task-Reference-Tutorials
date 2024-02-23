@@ -19,9 +19,9 @@ Before diving into this tutorial, ensure you have the following prerequisites:
 First, let's import the necessary namespaces to access Aspose.Tasks functionalities.
 ```csharp
 using System.Collections.Generic;
-using NUnit.Framework;
-using Saving;
-using Visualization;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Visualization;
 ```
 
 ## Step 1: Load the Microsoft Project File

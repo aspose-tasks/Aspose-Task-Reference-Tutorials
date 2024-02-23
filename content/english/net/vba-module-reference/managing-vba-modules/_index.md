@@ -18,7 +18,7 @@ Before we get started, ensure that you have the following prerequisites:
 Begin by importing the necessary namespaces into your C# project:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 ## Read Modules Information
 Now, let's read information about the VBA modules present in a Microsoft Project file.
@@ -68,7 +68,7 @@ Yes, Aspose.Tasks supports various versions of Microsoft Project files, includin
 ### Can I modify the source code of VBA modules programmatically using Aspose.Tasks?
 Absolutely! Aspose.Tasks provides methods to not only read but also update the source code of VBA modules.
 ### Where can I find additional examples and documentation for Aspose.Tasks?
-Visit the [official documentation](https://reference.aspose.com/tasks/net/) for comprehensive examples and guidance.
+Visit the [documentation](https://reference.aspose.com/tasks/net/) for comprehensive examples and guidance.
 ### Is there a free trial available for Aspose.Tasks?
 Yes, you can access a free trial [here](https://releases.aspose.com/).
 ### How can I get support or seek assistance for any issues related to Aspose.Tasks?

@@ -24,8 +24,8 @@ Begin by importing the necessary namespaces in your C# project:
 
 ```csharp
 using System;
-using NUnit.Framework;
-using RiskAnalysis;
+
+using Aspose.Tasks.RiskAnalysis;
 ```
 
 Let's break down the example code provided into manageable steps:

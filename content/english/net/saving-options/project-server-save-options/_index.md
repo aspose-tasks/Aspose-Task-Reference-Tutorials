@@ -22,7 +22,7 @@ First, you need to import the necessary namespaces in your project:
     using System;
     using System.Diagnostics.CodeAnalysis;
     using System.Net;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Initialize Project and Credentials
 ```csharp

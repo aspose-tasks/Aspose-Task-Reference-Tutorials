@@ -11,7 +11,7 @@ url: /net/task-table-management/configuring-tables/
 Welcome to this comprehensive guide on configuring tables in Aspose.Tasks for .NET. Aspose.Tasks is a powerful library that enables developers to work with Microsoft Project files seamlessly. In this tutorial, we'll walk you through the process of configuring tables using Aspose.Tasks, breaking down each step for a clear understanding.
 ## Prerequisites
 Before we delve into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.Tasks for .NET: Ensure you have the Aspose.Tasks library installed. You can download it from the official [Aspose.Tasks .NET documentation](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Ensure you have the Aspose.Tasks library installed. You can download it from the [Aspose.Tasks .NET documentation](https://reference.aspose.com/tasks/net/).
 - Development Environment: Set up your development environment with Visual Studio or any other preferred .NET development tool.
 - Sample Project File: Have a sample Microsoft Project file (MPP) ready for testing.
 ## Import Namespaces
@@ -20,8 +20,8 @@ In your .NET project, start by importing the necessary namespaces for working wi
 using Aspose.Tasks.Visualization;
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
-    using Saving;
+    
+    using Aspose.Tasks.Saving;
 ```
 Now, let's break down the example into multiple steps.
 ## Step 1: Define the Document Directory
@@ -62,7 +62,7 @@ A: Yes, but some features require a valid Aspose License. You can get a 30-day t
 ### Q: How can I get support for Aspose.Tasks?
 A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any assistance or queries.
 ### Q: Where can I find more examples and documentation?
-A: Refer to the official [Aspose.Tasks .NET documentation](https://reference.aspose.com/tasks/net/) for detailed information.
+A: Refer to the [Aspose.Tasks .NET documentation](https://reference.aspose.com/tasks/net/) for detailed information.
 ### Q: Is there a free trial available?
 A: Yes, you can explore the free trial version [here](https://releases.aspose.com/).
 ### Q: Where can I purchase Aspose.Tasks?

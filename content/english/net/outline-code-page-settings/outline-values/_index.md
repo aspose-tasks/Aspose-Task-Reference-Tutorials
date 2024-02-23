@@ -19,7 +19,7 @@ Before you begin, ensure you have the following:
 Start by importing the necessary namespaces into your C# code:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Load the Project File
 ```csharp

@@ -20,7 +20,7 @@ Before we begin, import the necessary namespaces to access the Aspose.Tasks func
 ```csharp
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
+
 
 ```
 

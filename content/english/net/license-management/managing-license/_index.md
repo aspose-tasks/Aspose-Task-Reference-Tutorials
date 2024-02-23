@@ -22,7 +22,7 @@ Before you can start using Aspose.Tasks in your .NET project, you need to import
 ```csharp
 using System;
 using System.IO;
-using NUnit.Framework;
+
 ```
 ## Applying License Using File
 One way to apply a license in Aspose.Tasks for .NET is by loading it directly from a license file. This method is straightforward and suitable for most scenarios where you have the license file available on disk.

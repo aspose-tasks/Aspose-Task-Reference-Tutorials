@@ -23,7 +23,7 @@ Once you've got your prerequisites sorted out, it's time to import the necessary
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 Now let's break down the process of extracting MS Project information into multiple steps.
 ## Step 1: Provide Credentials

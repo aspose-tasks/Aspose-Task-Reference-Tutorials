@@ -32,7 +32,7 @@ Familiarity with C# programming language is necessary to follow along with this 
 Let's start by importing the necessary namespaces into our project. This step is essential to access the classes and methods provided by the Aspose.Tasks library.
 
 ```csharp
-using NUnit.Framework;
+
 ```
 
 Now, let's break down the example provided into multiple steps and understand each step in detail.

@@ -19,7 +19,7 @@ Firstly, you need to import the necessary namespaces into your C# project. These
 ## Step 1: Import Aspose.Tasks Namespace
 ```csharp
 using System;
-using NUnit.Framework;
+
 ```
 Now, let's break down the example provided into multiple steps and understand each step thoroughly.
 ## Step 1: Load Project File

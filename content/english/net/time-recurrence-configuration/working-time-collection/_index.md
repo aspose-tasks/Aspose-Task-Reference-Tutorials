@@ -11,14 +11,14 @@ url: /net/time-recurrence-configuration/working-time-collection/
 Are you looking to master the art of managing working times in Aspose.Tasks for .NET? Look no further! In this step-by-step guide, we'll delve into the intricacies of working time collection using Aspose.Tasks, empowering you to efficiently handle custom calendars and streamline your project timelines.
 ## Prerequisites
 Before we embark on this journey, ensure you have the following prerequisites in place:
-- Aspose.Tasks for .NET Library: Download and install the Aspose.Tasks for .NET library from the [official Aspose.Tasks release page](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET Library: Download and install the Aspose.Tasks for .NET library from the [Aspose.Tasks release page](https://releases.aspose.com/tasks/net/).
 - Working Environment: Set up a suitable development environment, preferably using a .NET-compatible IDE.
 ## Import Namespaces
 In your project, import the necessary namespaces to access the Aspose.Tasks functionalities:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 Now, let's break down the tutorial into multiple steps, ensuring a smooth learning experience.
 ## Step 1: Create a Custom Calendar
@@ -108,7 +108,7 @@ Yes, Aspose.Tasks is designed to handle projects of varying sizes, providing rob
 ### Can I integrate Aspose.Tasks with other .NET libraries?
 Certainly! Aspose.Tasks seamlessly integrates with other .NET libraries, enhancing its versatility and compatibility.
 ### How often is Aspose.Tasks updated?
-Aspose.Tasks is regularly updated to incorporate new features, enhancements, and compatibility improvements. Check the [official release page](https://releases.aspose.com/tasks/net/) for the latest updates.
+Aspose.Tasks is regularly updated to incorporate new features, enhancements, and compatibility improvements. Check the [release page](https://releases.aspose.com/tasks/net/) for the latest updates.
 ### Is there a free trial available for Aspose.Tasks?
 Yes, you can explore Aspose.Tasks with a free trial by visiting [this link](https://releases.aspose.com/).
 ### Where can I seek support for Aspose.Tasks?

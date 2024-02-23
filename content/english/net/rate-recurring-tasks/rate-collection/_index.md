@@ -22,7 +22,7 @@ In your C# project, import the necessary namespaces to use Aspose.Tasks function
 ```csharp
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
+
 ```
 Now, let's break down each example into multiple steps:
 ## Step 1: Load an MS Project File

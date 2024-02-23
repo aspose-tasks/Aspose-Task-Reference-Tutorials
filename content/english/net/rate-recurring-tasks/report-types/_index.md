@@ -22,8 +22,8 @@ Make sure you have a .NET development environment set up on your machine.
 In your .NET project, import the necessary namespaces to start using Aspose.Tasks:
 ```csharp
 using System.IO;
-using NUnit.Framework;
-using Visualization;
+
+using Aspose.Tasks.Visualization;
 ```
 
 ## Step 1: Load the MS Project File

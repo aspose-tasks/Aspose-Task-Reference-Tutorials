@@ -24,8 +24,8 @@ Let's start by importing the necessary namespaces into your C# project.
 ```csharp
 using System;
 using System.Data.SqlClient;
-using Connectivity;
-using NUnit.Framework;
+using Aspose.Tasks.Connectivity;
+
 ```
 This line imports the `System.Data.SqlClient` namespace, which contains classes for working with SQL Server databases in .NET applications.
 

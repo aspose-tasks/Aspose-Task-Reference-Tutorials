@@ -26,9 +26,9 @@ To begin manipulating Microsoft Project files using Aspose.Tasks for .NET, you n
 
 ```csharp
 using System;
-using NUnit.Framework;
-using Saving;
-using Visualization;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Visualization;
 ```
 ## Step 1: Load the Microsoft Project File
 First, you need to load the Microsoft Project file (`Project2.mpp`) into your C# application using Aspose.Tasks.

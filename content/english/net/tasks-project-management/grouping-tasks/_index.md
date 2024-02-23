@@ -19,7 +19,7 @@ Before we begin, make sure you have the following prerequisites in place:
 Firstly, you need to import the necessary namespaces to your C# project to use Aspose.Tasks functionalities:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Load MS Project File
 Begin by loading your MS Project file using the following code:

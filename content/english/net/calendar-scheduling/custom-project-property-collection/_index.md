@@ -25,7 +25,7 @@ Start by importing the necessary namespaces to work with Aspose.Tasks for .NET:
 
 ```csharp
 using System;
-using NUnit.Framework;
+
 
 ```
 

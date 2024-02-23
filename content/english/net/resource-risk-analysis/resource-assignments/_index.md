@@ -18,9 +18,9 @@ Firstly, you need to import the necessary namespaces to utilize Aspose.Tasks fun
 ```csharp
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
-using Saving;
-using Util;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Util;
 ```
 Now let's break down the example provided into multiple steps for a comprehensive understanding of how to handle MS Project resource assignments using Aspose.Tasks.
 ## Step 1: Set Up Project and Calendar Settings

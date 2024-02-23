@@ -21,9 +21,9 @@ First, you need to import the necessary namespaces to work with Aspose.Tasks for
     using System;
     using System.Collections.Generic;
     using System.Globalization;
-    using NUnit.Framework;
-    using Saving;
-    using Visualization;
+    
+    using Aspose.Tasks.Saving;
+    using Aspose.Tasks.Visualization;
 ```
 ## Step 1: Load the Project File
 Load the project file using the `Project` class provided by Aspose.Tasks:

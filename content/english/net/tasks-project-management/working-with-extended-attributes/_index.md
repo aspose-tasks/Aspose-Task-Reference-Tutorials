@@ -13,9 +13,9 @@ In this tutorial, we will explore how to work with MS Project extended attribute
 ## Prerequisites
 Before we begin, make sure you have the following prerequisites:
 ### 1. Visual Studio Installed
-Ensure you have Visual Studio installed on your system. You can download it from the official website if you haven't already.
+Ensure you have Visual Studio installed on your system. You can download it from the website if you haven't already.
 ### 2. Aspose.Tasks for .NET Library
-Download and install the Aspose.Tasks for .NET library from the [official website](https://releases.aspose.com/tasks/net/).
+Download and install the Aspose.Tasks for .NET library from the [website](https://releases.aspose.com/tasks/net/).
 
 ## Import Namespaces
 To start working with Aspose.Tasks for .NET, you need to import the necessary namespaces into your project. Follow these steps:
@@ -28,7 +28,7 @@ Add the following namespaces at the beginning of your C# file:
 ```csharp
 using System;
 using System.Diagnostics.CodeAnalysis;
-using NUnit.Framework;
+
 ```
 
 Now that we have set up our environment let's dive into working with MS Project extended attributes using Aspose.Tasks for .NET.

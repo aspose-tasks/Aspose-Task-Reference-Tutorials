@@ -19,7 +19,7 @@ In your .NET project, make sure to import the necessary namespaces for working w
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Load the Project and Access Tasks
 ```csharp

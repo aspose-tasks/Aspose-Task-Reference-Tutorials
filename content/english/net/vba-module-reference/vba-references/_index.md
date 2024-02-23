@@ -18,7 +18,7 @@ Before we get started, make sure you have the following:
 Ensure you have the necessary namespaces included at the beginning of your code:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 ## Reading VBA References
 Let's start by reading VBA references from a project file:
@@ -75,6 +75,6 @@ A: You can get a temporary license [here](https://purchase.aspose.com/temporary-
 ### Q: Is there community support available for Aspose.Tasks?
 A: Yes, you can find support on the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 ### Q: Where can I find detailed documentation for Aspose.Tasks?
-A: The official documentation is available [here](https://reference.aspose.com/tasks/net/).
+A: The documentation is available [here](https://reference.aspose.com/tasks/net/).
 ### Q: Can I purchase Aspose.Tasks?
 A: Yes, you can purchase it [here](https://purchase.aspose.com/buy).

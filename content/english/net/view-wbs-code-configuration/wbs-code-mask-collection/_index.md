@@ -19,7 +19,7 @@ To get started, let's import the necessary namespaces:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## 1. Initialize Project and WBS Code Definition
 ```csharp

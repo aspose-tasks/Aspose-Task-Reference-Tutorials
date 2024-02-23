@@ -26,7 +26,7 @@ First, let's import the necessary namespaces to use Aspose.Tasks functionalities
 ```csharp
 using System;
 using System.Diagnostics.CodeAnalysis;
-using NUnit.Framework;
+
 
 ```
 

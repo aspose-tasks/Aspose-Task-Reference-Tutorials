@@ -24,7 +24,7 @@ In your C# code file, import the necessary namespaces to utilize Aspose.Tasks fu
 using Aspose.Tasks.Saving;
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
+
 ```
 Now let's break down the process of filtering data in MS Project using Aspose.Tasks into multiple steps:
 ## Step 1: Load Project File

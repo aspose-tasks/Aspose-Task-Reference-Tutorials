@@ -25,8 +25,8 @@ In your C# project, import the necessary namespaces to work with Aspose.Tasks fu
 
 ```csharp
 using System;
-using NUnit.Framework;
-using Util;
+
+using Aspose.Tasks.Util;
 
 ```
 

@@ -17,7 +17,7 @@ Before diving into the tutorial, ensure you have the following prerequisites in 
 
 ### 1. Installation of Aspose.Tasks for .NET
 
-Make sure you have Aspose.Tasks for .NET installed in your development environment. You can download the library from the official [Aspose.Tasks for .NET download page](https://releases.aspose.com/tasks/net/) and follow the installation instructions provided.
+Make sure you have Aspose.Tasks for .NET installed in your development environment. You can download the library from the [Aspose.Tasks for .NET download page](https://releases.aspose.com/tasks/net/) and follow the installation instructions provided.
 
 ### 2. Basic Knowledge of C# Programming Language
 
@@ -29,8 +29,8 @@ To get started, import the necessary namespaces into your C# code file. These na
 
 ```csharp
 using System;
-using NUnit.Framework;
-using Saving;
+
+using Aspose.Tasks.Saving;
 
 ```
 

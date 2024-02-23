@@ -11,14 +11,14 @@ url: /net/time-recurrence-configuration/configuring-workweeks/
 Welcome to our comprehensive guide on configuring workweeks in Aspose.Tasks for .NET. Efficiently managing workweeks is crucial for project planning and scheduling. Aspose.Tasks simplifies this process, allowing you to customize workweeks according to your project's needs. In this tutorial, we'll walk you through the steps to configure workweeks seamlessly.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-1. Aspose.Tasks Library: Make sure you have the Aspose.Tasks library installed in your .NET project. You can download it from the [official Aspose.Tasks website](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks Library: Make sure you have the Aspose.Tasks library installed in your .NET project. You can download it from the [Aspose.Tasks website](https://releases.aspose.com/tasks/net/).
 2. .NET Environment: Ensure you are working in a .NET environment, and you have a basic understanding of C# programming.
 ## Import Namespaces
 To get started, include the necessary namespaces in your project:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Set up your project
 ```csharp

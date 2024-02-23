@@ -19,9 +19,9 @@ First things first, import the necessary namespaces to kickstart your project:
 ```csharp
     using System.Collections.Generic;
     using System.Drawing;
-    using NUnit.Framework;
-    using Saving;
-    using Visualization;
+    
+    using Aspose.Tasks.Saving;
+    using Aspose.Tasks.Visualization;
 ```
 ## Step 1: Set Document Directory
 ```csharp
@@ -61,7 +61,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Apply the defined text style to your project and save the customized project as a PDF file.
 Repeat these steps for other customization needs, experimenting with different text item types, font styles, and colors.
 ## Conclusion
-Congratulations! You've just scratched the surface of handling text item types in Aspose.Tasks for .NET. As you continue exploring, refer to the [official documentation](https://reference.aspose.com/tasks/net/) for in-depth insights.
+Congratulations! You've just scratched the surface of handling text item types in Aspose.Tasks for .NET. As you continue exploring, refer to the [documentation](https://reference.aspose.com/tasks/net/) for in-depth insights.
 ### FAQs
 ### Q: Can I use Aspose.Tasks for free?
 A: Aspose.Tasks offers a free trial. Grab it [here](https://releases.aspose.com/).

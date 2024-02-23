@@ -19,7 +19,7 @@ In your .NET project, begin by importing the necessary namespaces to leverage As
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## 1. Create a Project and Resources
 ```csharp

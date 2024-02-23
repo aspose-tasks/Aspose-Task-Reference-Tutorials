@@ -20,7 +20,7 @@ Start by importing the necessary namespaces to access the Aspose.Tasks functiona
     using System;
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Create Calendar
 ```csharp

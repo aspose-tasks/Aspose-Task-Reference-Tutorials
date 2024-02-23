@@ -23,8 +23,8 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using Aspose.Tasks.Saving;
-using NUnit.Framework;
-using Visualization;
+
+using Aspose.Tasks.Visualization;
 ```
 ## Step 1: Load Project File
 Begin by loading the project file using the `Project` class:

@@ -30,7 +30,7 @@ To begin, you need to import the required namespaces into your .NET project.
 Include the `Aspose.Tasks` namespace in your project to access the classes and methods provided by the Aspose.Tasks library.
 
 ```csharp
-using NUnit.Framework;
+
 ```
 
 Now, let's break down the example provided into multiple steps:

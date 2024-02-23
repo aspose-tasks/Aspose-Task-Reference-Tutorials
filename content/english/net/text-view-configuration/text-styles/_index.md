@@ -11,7 +11,7 @@ url: /net/text-view-configuration/text-styles/
 In the realm of project management using .NET, Aspose.Tasks is a powerful tool that offers a myriad of features. One such feature that significantly enhances the visual representation of project data is the ability to customize text styles. In this tutorial, we'll delve into the process of configuring text styles using Aspose.Tasks for .NET, allowing you to bring a personalized touch to your project documents.
 ## Prerequisites
 Before we embark on this journey, ensure you have the following prerequisites in place:
-1. Aspose.Tasks for .NET: Download and install the Aspose.Tasks library from the [official website](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET: Download and install the Aspose.Tasks library from the [website](https://releases.aspose.com/tasks/net/).
 2. .NET Framework: Make sure you have a working knowledge of the .NET framework, as this tutorial focuses on using Aspose.Tasks within a .NET environment.
 3. Document Directory: Set up a directory where your project documents are stored and make a note of its path.
 ## Import Namespaces
@@ -19,9 +19,9 @@ To kick things off, let's import the necessary namespaces in your .NET project. 
 ```csharp
     using System.Collections.Generic;
     using System.Drawing;
-    using NUnit.Framework;
-    using Saving;
-    using Visualization;
+    
+    using Aspose.Tasks.Saving;
+    using Aspose.Tasks.Visualization;
 ```
 ## Step 1: Load the Project
 ```csharp

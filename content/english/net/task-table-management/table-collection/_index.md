@@ -19,7 +19,7 @@ To kick things off, make sure you have the necessary namespaces imported in your
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## 1. Initialize Your Project
 Begin by setting up your project and loading the MPP file:

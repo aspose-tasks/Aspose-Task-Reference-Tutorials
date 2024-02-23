@@ -21,7 +21,7 @@ Firstly, you need to import the necessary namespaces into your C# project to wor
 ## Step 1: Import Aspose.Tasks Namespace
 ```csharp
 using System;
-using NUnit.Framework;
+
 ```
 ## Retrieving MS Project File Information
 Now, let's break down the example code provided into multiple steps:

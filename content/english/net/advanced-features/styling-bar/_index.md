@@ -26,9 +26,9 @@ Firstly, let's import the necessary namespaces to access Aspose.Tasks classes an
 ```csharp
 using System.Collections.Generic;
 using System.Drawing;
-using NUnit.Framework;
-using Saving;
-using Visualization;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Visualization;
 
 ```
 

@@ -11,13 +11,13 @@ url: /net/text-view-configuration/tiff-compression/
 In the realm of project management and task tracking, Aspose.Tasks for .NET emerges as a powerful tool. With its robust features, it provides an efficient way to manage projects seamlessly. One notable feature is the ability to render projects in TIFF format, offering a versatile solution for visualizing project data. In this tutorial, we will delve into the process of choosing Tiff compression in Aspose.Tasks using the .NET framework. Let's embark on this journey step by step, ensuring a smooth understanding of the process.
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.Tasks for .NET: Ensure you have the Aspose.Tasks library integrated into your .NET project. If not, you can download it from the [official Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Ensure you have the Aspose.Tasks library integrated into your .NET project. If not, you can download it from the [Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/).
 - Project File: Have a sample project file (e.g., "Project2.mpp") that you will use to experiment with Tiff compression.
 ## Import Namespaces
 First things first, let's set up the necessary namespaces to work with Aspose.Tasks and handle the project file. Add the following namespaces to your .NET project:
 ```csharp
-    using NUnit.Framework;
-    using Saving;
+    
+    using Aspose.Tasks.Saving;
 ```
 Now that we have the groundwork laid, let's proceed to the step-by-step guide.
 ## Step 1: Project Initialization
@@ -49,7 +49,7 @@ In conclusion, the ability to choose Tiff compression in Aspose.Tasks for .NET a
 ### Can I use Aspose.Tasks for .NET with other project management tools?
 Aspose.Tasks primarily focuses on .NET integration. However, you can explore API functionalities to see if they align with your specific requirements.
 ### Are there any licensing options available for Aspose.Tasks?
-Yes, you can explore licensing options and make a purchase on the [official Aspose.Tasks purchase page](https://purchase.aspose.com/buy).
+Yes, you can explore licensing options and make a purchase on the [Aspose.Tasks purchase page](https://purchase.aspose.com/buy).
 ### Is there a free trial version of Aspose.Tasks for .NET?
 Certainly! You can access the free trial version [here](https://releases.aspose.com/).
 ### Where can I find support for Aspose.Tasks-related queries?

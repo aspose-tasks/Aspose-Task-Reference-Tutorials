@@ -19,7 +19,7 @@ In your C# project, make sure to import the necessary namespaces:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Create a Project and Calendar
 ```csharp

@@ -11,7 +11,7 @@ url: /net/task-table-management/task-baseline-collection/
 Welcome to the world of Aspose.Tasks for .NET, a powerful library that facilitates seamless manipulation and management of project tasks. In this tutorial, we will delve into the fascinating realm of task baselines—a crucial aspect of project planning and tracking. By the end of this guide, you will master the art of working with task baseline collections, enabling you to enhance your project management capabilities.
 ## Prerequisites
 Before we embark on this journey, ensure you have the following prerequisites in place:
-- Aspose.Tasks for .NET Library: Download and install the library from the [official release page](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET Library: Download and install the library from the [release page](https://releases.aspose.com/tasks/net/).
 - Development Environment: Set up your preferred .NET development environment.
 - Basic Understanding of C#: Familiarity with C# programming language is beneficial.
 Now that we're all set, let's jump into the exciting world of Aspose.Tasks for .NET.
@@ -20,7 +20,7 @@ In your C# project, start by importing the necessary namespaces:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## 1. Set Up Project and Task
 Begin by creating a new project and adding a task to it:

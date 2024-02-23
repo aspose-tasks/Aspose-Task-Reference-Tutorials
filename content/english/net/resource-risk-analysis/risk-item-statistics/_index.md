@@ -18,8 +18,8 @@ Before we embark on this journey, ensure you have the following prerequisites in
 Incorporate the necessary namespaces into your project to harness the functionalities of Aspose.Tasks:
 ```csharp
 using System;
-using NUnit.Framework;
-using RiskAnalysis;
+
+using Aspose.Tasks.RiskAnalysis;
 ```
 
 ## Step 1: Define Data Directory

@@ -11,7 +11,7 @@ url: /net/view-wbs-code-configuration/view-columns/
 In the realm of project management, Aspose.Tasks for .NET stands out as a powerful toolkit for handling Microsoft Project files. One of the essential aspects of project visualization is managing view columns efficiently. In this tutorial, we'll explore how to handle MS Project view columns using Aspose.Tasks, empowering you to customize and optimize your project views.
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites in place:
-1. Aspose.Tasks for .NET Library: Download and install the library from the [official Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET Library: Download and install the library from the [Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/).
 2. Microsoft Project File: Prepare a Microsoft Project file (MPP) that you will use for this tutorial.
 3. Development Environment: Set up your .NET development environment with Visual Studio or any other preferred IDE.
 ## Import Namespaces
@@ -20,9 +20,9 @@ To begin, import the necessary namespaces into your project. These namespaces pr
     using System;
     using System.Collections.Generic;
     using System.Drawing;
-    using NUnit.Framework;
-    using Saving;
-    using Visualization;
+    
+    using Aspose.Tasks.Saving;
+    using Aspose.Tasks.Visualization;
 ```
 ## Step 1: Load the Project File
 Start by loading your Microsoft Project file using Aspose.Tasks. Ensure you have the correct path to your document directory.
@@ -78,4 +78,4 @@ A: Yes, you can download a free trial version from [here](https://releases.aspos
 ### Q: What is the significance of the `MyTextStyleCallback` class in the tutorial?
 A: The `MyTextStyleCallback` class demonstrates how to customize text styles for improved visual representation in specific views.
 ### Q: Where can I find additional resources and documentation for Aspose.Tasks?
-A: Refer to the official [Aspose.Tasks documentation](https://reference.aspose.com/tasks/net/) for in-depth guidance and resources.
+A: Refer to the [Aspose.Tasks documentation](https://reference.aspose.com/tasks/net/) for in-depth guidance and resources.

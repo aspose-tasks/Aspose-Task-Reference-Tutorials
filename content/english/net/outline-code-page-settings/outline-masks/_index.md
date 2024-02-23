@@ -19,7 +19,7 @@ Before diving into this tutorial, ensure you have the following:
 ## Import Namespaces
 Before proceeding with the tutorial, import the necessary namespaces in your C# file:
 ```csharp
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Load Project File
 The first step is to load the Microsoft Project file using Aspose.Tasks library.

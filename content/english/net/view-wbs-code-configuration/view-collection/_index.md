@@ -18,7 +18,7 @@ To get started, import the necessary namespaces into your project:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Set up Your Project
 Begin by initializing your project using the Aspose.Tasks library.

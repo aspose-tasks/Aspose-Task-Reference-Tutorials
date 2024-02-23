@@ -20,7 +20,7 @@ To begin, let's import the necessary namespaces in your C# project:
 	using Aspose.Tasks;
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 These namespaces provide access to essential classes and methods required for effective task management.
 Now, let's break down the tutorial into a series of steps, ensuring clarity and simplicity.

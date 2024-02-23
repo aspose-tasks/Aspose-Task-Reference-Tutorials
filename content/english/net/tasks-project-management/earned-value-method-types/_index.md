@@ -13,14 +13,14 @@ In the realm of project management, leveraging the right tools and methodologies
 Before diving into this tutorial, ensure you have the following prerequisites in place:
 ### Environment Setup
 1. Install Visual Studio: Make sure you have Visual Studio installed on your system.
-   - Visit the official website to download and install Visual Studio: [Download Visual Studio](https://visualstudio.microsoft.com/downloads/)
+   - Visit the website to download and install Visual Studio: [Download Visual Studio](https://visualstudio.microsoft.com/downloads/)
 2. Install Aspose.Tasks for .NET: Install the Aspose.Tasks for .NET library to your Visual Studio project.
    - You can download the library from the following link: [Download Aspose.Tasks for .NET](https://releases.aspose.com/tasks/net/)
 
 ## Import Namespaces
 Before proceeding with the examples, let's import the necessary namespaces to our project:
 ```csharp
-using NUnit.Framework;
+
 ```
 
 ## Step 1: Define the Document Directory

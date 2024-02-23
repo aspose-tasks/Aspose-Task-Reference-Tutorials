@@ -28,8 +28,8 @@ Firstly, import the necessary namespaces into your C# code to access the functio
 
 ```csharp
 using System;
-using NUnit.Framework;
-using Util;
+
+using Aspose.Tasks.Util;
 
 ```
 

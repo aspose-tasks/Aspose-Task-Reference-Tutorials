@@ -25,8 +25,8 @@ In your C# project, include the following namespaces to access the required clas
 
 ```csharp
 using System;
-using NUnit.Framework;
-using Util;
+
+using Aspose.Tasks.Util;
 
 ```
 

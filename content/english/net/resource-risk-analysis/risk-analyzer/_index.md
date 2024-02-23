@@ -19,8 +19,8 @@ Before we begin, make sure you have the following:
 In your C# code, include the necessary namespaces:
 ```csharp
 using System;
-using NUnit.Framework;
-using RiskAnalysis;
+
+using Aspose.Tasks.RiskAnalysis;
 
 ```
 ## Step 1: Initialize Risk Analysis Settings

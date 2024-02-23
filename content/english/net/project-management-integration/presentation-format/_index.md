@@ -24,9 +24,9 @@ If you haven't already, download and install Aspose.Tasks for .NET from the [dow
 In your .NET project, make sure to import the required namespaces for Aspose.Tasks:
 
 ```csharp
-using NUnit.Framework;
-using Saving;
-using Visualization;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Visualization;
 ```
 
 With these prerequisites in place, let's dive into the step-by-step guide to formatting MS Project project presentations using Aspose.Tasks.

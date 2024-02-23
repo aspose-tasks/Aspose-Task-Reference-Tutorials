@@ -19,7 +19,7 @@ Before we begin, ensure you have the following prerequisites:
 In your C# project, import the necessary namespaces:
 ```csharp
 using System;
-using NUnit.Framework;
+
 ```
 ## Step 1: Set Up Your Project
 Start by creating a new C# project in Visual Studio. Make sure you have Aspose.Tasks for .NET installed and referenced in your project.

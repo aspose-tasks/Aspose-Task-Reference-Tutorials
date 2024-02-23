@@ -23,7 +23,7 @@ Let's start by importing the necessary namespaces into your C# project. This ste
 Add the following namespaces at the beginning of your code file:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 Now, let's break down the provided example into multiple steps and explain each step in detail:
 ## Step 1: Initialize the Project Object

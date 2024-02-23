@@ -19,7 +19,7 @@ Before we begin, make sure you have the following prerequisites:
 First, you need to import the necessary namespaces into your C# project. This will allow you to access the classes and methods provided by the Aspose.Tasks library.
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Initialize Project Object
 To begin, you need to initialize a `Project` object by loading an existing MS Project file.

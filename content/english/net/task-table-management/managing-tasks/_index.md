@@ -20,9 +20,9 @@ In your .NET project, include the necessary namespaces to work with Aspose.Tasks
     using System.Collections.Generic;
     using System.Diagnostics.CodeAnalysis;
     using System.Linq;
-    using NUnit.Framework;
-    using Saving;
-    using Util;
+    
+    using Aspose.Tasks.Saving;
+    using Aspose.Tasks.Util;
 ```
 ## 1. Adding a Task to a Project
 ```csharp

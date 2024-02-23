@@ -11,7 +11,7 @@ url: /net/time-recurrence-configuration/weekday-collection/
 Aspose.Tasks for .NET is a powerful library that facilitates efficient manipulation of project management data. In this tutorial, we will explore the collection of weekdays in Aspose.Tasks, enabling you to customize working days, remove weekends, and create specialized calendars to meet your project requirements. Whether you are a seasoned developer or a newcomer, this step-by-step guide will walk you through the process of working with weekdays in Aspose.Tasks for .NET.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
-- Install the Aspose.Tasks for .NET library. You can download it from the official [Aspose.Tasks for .NET download page](https://releases.aspose.com/tasks/net/).
+- Install the Aspose.Tasks for .NET library. You can download it from the [Aspose.Tasks for .NET download page](https://releases.aspose.com/tasks/net/).
 - Familiarity with C# programming language.
 - Integrated development environment (IDE) such as Visual Studio.
 ## Import Namespaces
@@ -19,7 +19,7 @@ Begin by importing the necessary namespaces into your C# project:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Create a Project Instance
 Initialize a new Aspose.Tasks project:
@@ -87,10 +87,10 @@ In this tutorial, we explored the powerful capabilities of Aspose.Tasks for .NET
 ### Q: Can I use Aspose.Tasks for .NET with other programming languages?
 A: Aspose.Tasks primarily supports .NET languages, but it also offers versions for Java.
 ### Q: Is there a free trial available for Aspose.Tasks for .NET?
-A: Yes, you can download a free trial from the official [Aspose.Tasks releases page](https://releases.aspose.com/).
+A: Yes, you can download a free trial from the [Aspose.Tasks releases page](https://releases.aspose.com/).
 ### Q: How can I get support for Aspose.Tasks for .NET?
 A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support or consider purchasing a support plan.
 ### Q: Where can I find comprehensive documentation for Aspose.Tasks for .NET?
-A: Refer to the official [Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/) for detailed information.
+A: Refer to the [Aspose.Tasks for .NET documentation](https://reference.aspose.com/tasks/net/) for detailed information.
 ### Q: How do I obtain a temporary license for Aspose.Tasks for .NET?
 A: You can acquire a temporary license from the [temporary license page](https://purchase.aspose.com/temporary-license/).

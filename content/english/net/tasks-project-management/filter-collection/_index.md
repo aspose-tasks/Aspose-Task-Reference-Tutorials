@@ -18,7 +18,7 @@ Before we begin, ensure you have the following prerequisites:
 ```csharp
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
+
 ```
 ## Step 1: Load Project File
 ```csharp

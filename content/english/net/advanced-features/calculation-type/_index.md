@@ -26,7 +26,7 @@ Before diving into the example, make sure to import the necessary namespaces:
 
 ```csharp
 using System;
-using NUnit.Framework;
+
 
 ```
 

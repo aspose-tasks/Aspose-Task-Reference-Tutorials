@@ -11,11 +11,11 @@ url: /net/time-recurrence-configuration/workgroup-types/
 Aspose.Tasks for .NET provides a robust solution for handling workgroup types in project management scenarios. Managing workgroups efficiently is crucial for optimizing resource allocation and ensuring smooth project execution. In this tutorial, we will delve into the process of handling workgroup types using Aspose.Tasks, offering step-by-step guidance.
 ## Prerequisites
 Before diving into the tutorial, ensure that you have the following prerequisites in place:
-- Aspose.Tasks for .NET: Make sure you have the Aspose.Tasks library installed. You can download it from the [official website](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Make sure you have the Aspose.Tasks library installed. You can download it from the [website](https://releases.aspose.com/tasks/net/).
 ## Import Namespaces
 Begin by importing the necessary namespaces in your project to access the functionalities of Aspose.Tasks:
 ```csharp
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Set Up Your Project
 Start by setting up your project and including the Aspose.Tasks library. Make sure to reference the library in your project.

@@ -20,7 +20,7 @@ Before proceeding, import the necessary namespaces to your project:
 using System;
 using System.Diagnostics.CodeAnalysis;
 using System.Net;
-using NUnit.Framework;
+
 ```
 ## Step 1: Set Up Metering
 To begin metering MS Project usage, set up the metered environment by providing your public and private keys:

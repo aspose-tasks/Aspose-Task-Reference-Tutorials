@@ -22,9 +22,9 @@ In your C# code, import the necessary namespaces to work with Aspose.Tasks for .
 ```csharp
 using System;
 using System.Collections.Generic;
-using NUnit.Framework;
-using Saving;
-using Visualization;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Visualization;
 ```
 Now let's break down the example provided into multiple steps:
 ## Step 1: Load the Microsoft Project File

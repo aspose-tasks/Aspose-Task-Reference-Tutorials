@@ -17,7 +17,7 @@ Now, let's dive into the step-by-step guide.
 ```csharp
 using Aspose.Tasks.Visualization;
 using System;
-using NUnit.Framework;
+
 ```
 ## Step 1: Create an Empty Project Without Views
 ```csharp

@@ -20,7 +20,7 @@ First, let's import the necessary namespaces:
 ```csharp
     using System;
     using System.Collections.Generic;
-    using NUnit.Framework;
+    
 ```
 ## Step 1: Load the Project File
 Begin by loading the Microsoft Project file:

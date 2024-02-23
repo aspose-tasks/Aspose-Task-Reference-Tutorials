@@ -28,7 +28,7 @@ Basic knowledge of the .NET framework and C# programming language is required to
 Let's start by importing the necessary namespaces to access the Aspose.Tasks functionality in our .NET project:
 
 ```csharp
-using NUnit.Framework;
+
 ```
 
 Now that we have covered the prerequisites and imported the required namespaces, let's proceed to break down each example into multiple steps.

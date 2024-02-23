@@ -20,7 +20,7 @@ Before diving into the tutorial, ensure you have the following prerequisites:
 In your C# code, make sure to import the necessary namespaces:
 ```csharp
     using System;
-    using NUnit.Framework;
+    
 ```
 
 ## Step 1: Creating a Project Instance

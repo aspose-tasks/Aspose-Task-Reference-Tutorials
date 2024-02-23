@@ -20,9 +20,9 @@ To get started, let's import the necessary namespaces:
 ```csharp
 using System;
 using System.Drawing;
-using NUnit.Framework;
-using Saving;
-using Visualization;
+
+using Aspose.Tasks.Saving;
+using Aspose.Tasks.Visualization;
 ```
 Now, let's break down each step in handling progress lines:
 ## Step 1: Load the Project File

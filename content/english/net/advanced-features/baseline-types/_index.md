@@ -32,7 +32,7 @@ Have an IDE such as Visual Studio installed on your system for writing, compilin
 Before we begin working with Aspose.Tasks in our C# project, we need to import the necessary namespaces to access the required classes and methods. Follow these steps:
 
 ```csharp
-using NUnit.Framework;
+
 ```
 
 Now that we have set up our prerequisites and imported the necessary namespaces, let's dive into setting different types of baselines using Aspose.Tasks for .NET. We'll break down each example into multiple steps for clarity and ease of understanding.

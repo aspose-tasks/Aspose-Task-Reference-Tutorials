@@ -17,9 +17,9 @@ Before diving into the tutorial, make sure you have the following prerequisites 
 In your .NET project, import the necessary namespaces to access Aspose.Tasks functionalities. Add the following lines to your code:
 ```csharp
     using System;
-    using NUnit.Framework;
-    using Saving;
-    using Visualization;
+    
+    using Aspose.Tasks.Saving;
+    using Aspose.Tasks.Visualization;
 ```
 ## Step 1: Set the Document Directory Path
 Before working with the Aspose.Tasks functionalities, set the path to your documents directory. Replace `"Your Document Directory"` with the actual path.
@@ -62,7 +62,7 @@ project.Save(DataDir + outputProject, options);
 ```
 ## Conclusion
 Configuring task usage views with Aspose.Tasks for .NET is a straightforward process. By customizing timescale settings, you can tailor the visualization of your project tasks according to your specific needs.
-Feel free to explore more features and functionalities in the [official documentation](https://reference.aspose.com/tasks/net/).
+Feel free to explore more features and functionalities in the [documentation](https://reference.aspose.com/tasks/net/).
 ## Frequently Asked Questions
 ### Can I customize the timescale beyond predefined settings?
 Yes, you can set a custom timescale by specifying the intervals and units.

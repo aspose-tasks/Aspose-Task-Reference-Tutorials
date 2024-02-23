@@ -19,8 +19,8 @@ Before we begin, ensure you have the following prerequisites:
 Firstly, make sure to import the necessary namespaces to access the Aspose.Tasks functionality in your C# project:
 ```csharp
     using System;
-    using NUnit.Framework;
-    using RiskAnalysis;
+    
+    using Aspose.Tasks.RiskAnalysis;
 ```
 ## Step 1: Initialize RiskAnalysisSettings
 Initialize the `RiskAnalysisSettings` object with desired parameters such as the number of iterations for Monte Carlo simulation.

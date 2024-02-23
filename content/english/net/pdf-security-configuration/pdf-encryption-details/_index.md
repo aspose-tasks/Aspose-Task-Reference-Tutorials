@@ -20,8 +20,8 @@ Before we begin, ensure you have the following prerequisites:
 In your C# code, include the necessary namespaces for working with Aspose.Tasks and PDF functionalities:
 ```csharp
     using System;
-    using NUnit.Framework;
-    using Saving;
+    
+    using Aspose.Tasks.Saving;
 ```
 ## Step 1: Load the Microsoft Project File
 The first step is to load the Microsoft Project file you want to encrypt:
