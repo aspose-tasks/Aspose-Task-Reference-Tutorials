@@ -54,8 +54,7 @@ This command saves the modified project with Spreadsheet 2003 format and the cus
 ## Conclusion
 Utilizing Aspose.Tasks for .NET, specifically the Spreadsheet 2003 Save MS Project Options, empowers developers to efficiently manage and customize MS Project files programmatically. By following the step-by-step guide outlined in this tutorial, you can seamlessly integrate these capabilities into your .NET applications, enhancing productivity and flexibility.
 
-## FAQs
- (Frequently Asked Questions)
+## FAQ's
 ### Q: Can Aspose.Tasks for .NET be used in both web and desktop applications?
 A: Yes, Aspose.Tasks for .NET can be seamlessly integrated into both web and desktop applications, providing consistent functionality across platforms.
 ### Q: Is there a trial version available for Aspose.Tasks for .NET?
