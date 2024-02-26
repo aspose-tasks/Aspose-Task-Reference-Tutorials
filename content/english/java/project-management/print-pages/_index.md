@@ -1,0 +1,74 @@
+---
+title: Print Pages to Separate Image in Aspose.Tasks
+linktitle: Print Pages to Separate Image in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: 
+type: docs
+weight: 22
+url: /java/project-management/print-pages/
+---
+
+## Complete Source Code
+```java
+/*
+ * Copyright 2001-2022 Aspose Pty Ltd. All Rights Reserved.
+ *
+ * This file is part of Aspose.Tasks. The source code in this file
+ * is only intended as a supplement to the documentation, and is provided
+ * "as is", without warranty of any kind, either expressed or implied.
+ */
+
+
+
+import com.aspose.tasks.Gridline;
+import com.aspose.tasks.GridlineType;
+import com.aspose.tasks.ImageSaveOptions;
+import com.aspose.tasks.LinePattern;
+import com.aspose.tasks.Prj;
+import com.aspose.tasks.Project;
+import com.aspose.tasks.SaveFileFormat;
+
+
+import java.awt.*;
+import java.util.ArrayList;
+
+public class PrintPagesToSeparateImage {
+    public static void main(String[] args) {
+        // The path to the documents directory.
+        String dataDir = "Your Data Directory";
+
+        Project project = new Project(dataDir + "CustomerFeedback.mpp");
+        ImageSaveOptions saveOptions = new ImageSaveOptions(SaveFileFormat.Png);
+
+        java.util.Calendar cal = java.util.Calendar.getInstance();
+        cal.setTime(project.get(Prj.START_DATE));
+        cal.add(java.util.Calendar.DATE, -3);
+
+        saveOptions.setStartDate(cal.getTime());
+        saveOptions.setEndDate(project.get(Prj.FINISH_DATE));
+
+        saveOptions.setMarkCriticalTasks(true);
+        saveOptions.setLegendOnEachPage(false);
+
+        saveOptions.setGridlines(new ArrayList<Gridline>());
+
+        Gridline gridline = new Gridline();
+        gridline.setGridlineType(GridlineType.GanttRow);
+        gridline.setColor(Color.BLUE);
+        gridline.setPattern(LinePattern.Dashed);
+        saveOptions.getGridlines().add(gridline);
+
+        // Save the whole project layout to one file
+        project.save(dataDir + "CustomerFeedback.png", saveOptions);
+
+        // Save project layout to separate files
+        saveOptions.setRenderToSinglePage(false);
+        project.save(dataDir + "CustomerFeedback_.png", saveOptions);
+    }
+}
+
+
+
+
+
+```

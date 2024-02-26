@@ -1,0 +1,63 @@
+---
+title: Read Work Weeks from Calendar with Aspose.Tasks
+linktitle: Read Work Weeks from Calendar with Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: 
+type: docs
+weight: 15
+url: /java/calendars/read-work-weeks/
+---
+
+## Complete Source Code
+```java
+/*
+ * Copyright 2001-2022 Aspose Pty Ltd. All Rights Reserved.
+ *
+ * This file is part of Aspose.Tasks. The source code in this file
+ * is only intended as a supplement to the documentation, and is provided
+ * "as is", without warranty of any kind, either expressed or implied.
+ */
+
+
+
+import com.aspose.tasks.Calendar;
+import com.aspose.tasks.Project;
+import com.aspose.tasks.WeekDay;
+import com.aspose.tasks.WeekDayCollection;
+import com.aspose.tasks.WorkWeek;
+import com.aspose.tasks.WorkWeekCollection;
+import com.aspose.tasks.WorkingTimeCollection;
+
+
+public class ReadWorkWeeks {
+
+	public static void main(String[] args) {
+		// ExStart: ReadWorkWeeksInformation
+		// The path to the documents directory.
+		String dataDir = "Your Data Directory";
+
+		// Create project instance and access calendar and work weeks collection
+		Project project = new Project(dataDir + "ReadWorkWeeksInformation.mpp");
+		Calendar calendar = project.getCalendars().getByUid(3);
+		WorkWeekCollection collection = calendar.getWorkWeeks();
+
+		for (WorkWeek workWeek : collection) {
+			// Display work week name, from and to dates
+			System.out.println(workWeek.getName());
+			System.out.println(workWeek.getFromDate());
+			System.out.println(workWeek.getToDate());
+
+			// This data is all about "Details." button you can set special working times
+			// for special WeekDay or even make it non-working
+			WeekDayCollection weekDays = workWeek.getWeekDays();
+			for (WeekDay day : weekDays) {
+				// You can further traverse through working times and display these
+				WorkingTimeCollection workingTimes = day.getWorkingTimes();
+			}
+		}
+		// ExEnd: ReadWorkWeeksInformation
+	}
+
+}
+
+```

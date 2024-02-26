@@ -1,0 +1,61 @@
+---
+title: Save Data to Excel in Aspose.Tasks
+linktitle: Save Data to Excel in Aspose.Tasks
+second_title: Aspose.Tasks Java API
+description: 
+type: docs
+weight: 19
+url: /java/project-file-operations/save-data-to-excel/
+---
+
+## Complete Source Code
+```java
+/*
+ * Copyright 2001-2022 Aspose Pty Ltd. All Rights Reserved.
+ *
+ * This file is part of Aspose.Tasks. The source code in this file
+ * is only intended as a supplement to the documentation, and is provided
+ * "as is", without warranty of any kind, either expressed or implied.
+ */
+
+
+
+import java.io.IOException;
+
+import com.aspose.tasks.Project;
+import com.aspose.tasks.SaveFileFormat;
+
+
+public class SaveDataToExcel {
+    public static void main(String[] args) {
+        // The path to the documents directory.
+        // The path to the documents directory.
+        String dataDir = "Your Data Directory";
+
+        savingProjectAsXlsx(dataDir);
+
+        savingProjectAsXml(dataDir);
+
+        //Display result of conversion.
+        System.out.println("Process completed Successfully");
+    }
+
+    public static void savingProjectAsXlsx(String dataDir) {
+        // Read the input Project file
+        Project project = new Project(dataDir + "project5.mpp");
+
+        // Save the Project as XLSX
+        project.save(dataDir + "project1.xlsx", SaveFileFormat.Xlsx);
+    }
+
+    public static void savingProjectAsXml(String dataDir) {
+        Project project = new Project(dataDir + "project5.mpp");
+        project.save(dataDir + "project5.xml", SaveFileFormat.Spreadsheet2003);
+    }
+}
+
+
+
+
+
+```

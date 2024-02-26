@@ -1,0 +1,63 @@
+---
+title: Configure Gantt Chart View in Aspose.Tasks Projects
+linktitle: Configure Gantt Chart View in Aspose.Tasks Projects
+second_title: Aspose.Tasks Java API
+description: 
+type: docs
+weight: 10
+url: /java/project-configuration/configure-gantt-chart/
+---
+
+## Complete Source Code
+```java
+/*
+ * Copyright 2001-2022 Aspose Pty Ltd. All Rights Reserved.
+ *
+ * This file is part of Aspose.Tasks. The source code in this file
+ * is only intended as a supplement to the documentation, and is provided
+ * "as is", without warranty of any kind, either expressed or implied.
+ */
+
+
+
+import com.aspose.tasks.*;
+
+
+public class ConfigureGanttChartView {
+    public static void main(String[] args) {
+        // Shows how to configure Gantt Chart properties.
+        // The path to the documents directory.
+        String dataDir = "Your Data Directory";
+
+        Project project = new Project(dataDir + "project.mpp");
+
+        // Create a new project task
+        Task task = project.getRootTask().getChildren().add("New Activity");
+
+        // Define new custom attribute
+        ExtendedAttributeDefinition text1Definition = ExtendedAttributeDefinition.createTaskDefinition(ExtendedAttributeTask.Text1, null);
+        project.getExtendedAttributes().add(text1Definition);
+        // Add custom text attribute to created task.
+        task.getExtendedAttributes().add(text1Definition.createExtendedAttribute("Activity attribute"));
+
+        // Customize table by adding text attribute field
+        TableField attrField = new TableField();
+        attrField.setField(Field.TaskText1);
+        attrField.setWidth(20);
+        attrField.setTitle("Custom attribute");
+        attrField.setAlignTitle(HorizontalStringAlignment.Center);
+        attrField.setAlignData(HorizontalStringAlignment.Center);
+
+        Table table = project.getTables().toList().get(0);
+        table.getTableFields().add(3, attrField);
+
+        // The result of opening of saved project in MSP2010 is in attached screenshot
+        project.save("saved.mpp", SaveFileFormat.Mpp);
+    }
+}
+
+
+
+
+
+```
