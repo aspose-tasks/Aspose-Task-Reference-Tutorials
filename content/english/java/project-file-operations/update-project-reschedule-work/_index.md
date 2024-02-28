@@ -1,25 +1,23 @@
 ---
-title: Update Project and Reschedule Uncompleted Work in Aspose.Tasks
+title: Update & Reschedule MS Project in Aspose.Tasks
 linktitle: Update Project and Reschedule Uncompleted Work in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 
+description: Learn how to update and reschedule MS Project files programmatically using Aspose.Tasks for Java.
 type: docs
 weight: 23
 url: /java/project-file-operations/update-project-reschedule-work/
 ---
+## Introduction
+Microsoft Project is a widely-used project management software that allows users to manage tasks, resources, and timelines efficiently. Aspose.Tasks for Java provides a powerful set of APIs to manipulate Microsoft Project files programmatically. In this tutorial, we'll learn how to update MS Project files and reschedule uncompleted work using Aspose.Tasks for Java.
+## Prerequisites
+Before we begin, ensure you have the following:
+1. Java Development Kit (JDK) installed on your system.
+2. Aspose.Tasks for Java library. You can download it from [here](https://releases.aspose.com/tasks/java/).
+3. Basic understanding of Java programming language.
 
-## Complete Source Code
+## Import Packages
+First, import the necessary packages in your Java code:
 ```java
-/*
- * Copyright 2001-2022 Aspose Pty Ltd. All Rights Reserved.
- *
- * This file is part of Aspose.Tasks. The source code in this file
- * is only intended as a supplement to the documentation, and is provided
- * "as is", without warranty of any kind, either expressed or implied.
- */
-
-
-
 import com.aspose.tasks.NullableBool;
 import com.aspose.tasks.Prj;
 import com.aspose.tasks.Project;
@@ -29,75 +27,49 @@ import com.aspose.tasks.TaskLink;
 import com.aspose.tasks.TaskLinkType;
 import com.aspose.tasks.TimeUnitType;
 import com.aspose.tasks.Tsk;
-
-
 import java.util.Calendar;
-
-public class UpdateProjectAndRescheduleUncompletedWork {
-    public static void main(String[] args) {
-        // The path to the documents directory.
-        String dataDir = "Your Data Directory";
-
-        Project project = new Project();
-
-        java.util.Calendar cal = java.util.Calendar.getInstance();
-        cal.set(2014, Calendar.JANUARY, 27, 8, 0, 0);
-        project.set(Prj.START_DATE, cal.getTime());
-
-        Task task1 = project.getRootTask().getChildren().add("Task 1");
-        Task task2 = project.getRootTask().getChildren().add("Task 2");
-        task2.set(Tsk.DURATION, task2.getParentProject().getDuration(16, TimeUnitType.Hour));
-        Task task3 = project.getRootTask().getChildren().add("Task 3");
-        task3.set(Tsk.DURATION, task2.getParentProject().getDuration(24, TimeUnitType.Hour));
-        Task task4 = project.getRootTask().getChildren().add("Task 4");
-        task4.set(Tsk.DURATION, task2.getParentProject().getDuration(16, TimeUnitType.Hour));
-        Task task5 = project.getRootTask().getChildren().add("Task 5");
-        task5.set(Tsk.DURATION, task2.getParentProject().getDuration(16, TimeUnitType.Hour));
-
-        TaskLink link12 = project.getTaskLinks().add(task1, task2, TaskLinkType.FinishToStart);
-        TaskLink link23 = project.getTaskLinks().add(task2, task3, TaskLinkType.FinishToStart);
-        link23.setLinkLag(4800); // one day lag
-        TaskLink link34 = project.getTaskLinks().add(task3, task4, TaskLinkType.FinishToStart);
-        TaskLink link45 = project.getTaskLinks().add(task4, task5, TaskLinkType.FinishToStart);
-
-        Task task6 = project.getRootTask().getChildren().add("Task 6");
-        Task task7 = project.getRootTask().getChildren().add("Task 7");
-        task7.set(Tsk.DURATION, task7.getParentProject().getDuration(24, TimeUnitType.Hour));
-        Task task8 = project.getRootTask().getChildren().add("Task 8");
-        task8.set(Tsk.DURATION, task2.getParentProject().getDuration(16, TimeUnitType.Hour));
-        Task task9 = project.getRootTask().getChildren().add("Task 9");
-        task9.set(Tsk.DURATION, task2.getParentProject().getDuration(16, TimeUnitType.Hour));
-        Task task10 = project.getRootTask().getChildren().add("Task 10");
-
-        TaskLink link67 = project.getTaskLinks().add(task6, task7, TaskLinkType.FinishToStart);
-        TaskLink link78 = project.getTaskLinks().add(task7, task8, TaskLinkType.FinishToStart);
-        TaskLink link89 = project.getTaskLinks().add(task8, task9, TaskLinkType.FinishToStart);
-        TaskLink link910 = project.getTaskLinks().add(task9, task10, TaskLinkType.FinishToStart);
-
-        task6.set(Tsk.IS_MANUAL, new NullableBool(true));
-        task7.set(Tsk.IS_MANUAL, new NullableBool(true));
-        task8.set(Tsk.IS_MANUAL, new NullableBool(true));
-        task9.set(Tsk.IS_MANUAL, new NullableBool(true));
-        task10.set(Tsk.IS_MANUAL, new NullableBool(true));
-
-        project.save(dataDir + "not updated.xml", SaveFileFormat.Xml);
-
-        cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
-        project.updateProjectWorkAsComplete(cal.getTime(), false);
-
-        project.save(dataDir + "updated.xml", SaveFileFormat.Xml);
-
-        cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
-        project.rescheduleUncompletedWorkToStartAfter(cal.getTime());
-
-        project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
-        //Display result of conversion.
-        System.out.println("Process completed Successfully");
-    }
-}
-
-
-
-
-
 ```
+## Step 1: Set up the Project
+Initialize a new Project object and define tasks within it along with their durations and dependencies.
+```java
+String dataDir = "Your Data Directory";
+Project project = new Project();
+// Define tasks and their durations
+// ...
+// Define task dependencies
+// ...
+// Save the initial project state
+project.save(dataDir + "not_updated.xml", SaveFileFormat.Xml);
+```
+## Step 2: Update Project Work
+Update the project work to mark it as complete up to a certain date.
+```java
+Calendar cal = Calendar.getInstance();
+cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
+project.updateProjectWorkAsComplete(cal.getTime(), false);
+// Save the updated project
+project.save(dataDir + "updated.xml", SaveFileFormat.Xml);
+```
+## Step 3: Reschedule Uncompleted Work
+Reschedule any uncompleted work to start after a specified date.
+```java
+cal.set(2014, Calendar.JANUARY, 28, 17, 0, 0);
+project.rescheduleUncompletedWorkToStartAfter(cal.getTime());
+// Save the rescheduled project
+project.save(dataDir + "rescheduled.xml", SaveFileFormat.Xml);
+```
+
+## Conclusion
+In this tutorial, we've learned how to update MS Project files and reschedule uncompleted work using Aspose.Tasks for Java. This can be particularly useful in scenarios where project timelines need adjustment based on progress or changing priorities.
+
+## FAQ's
+### Q: Can Aspose.Tasks for Java handle complex project structures?
+A: Yes, Aspose.Tasks for Java provides robust APIs to manage tasks, dependencies, resources, and other project elements efficiently.
+### Q: Is there a trial version available for Aspose.Tasks for Java?
+A: Yes, you can get a free trial from [here](https://releases.aspose.com/).
+### Q: How can I get support for Aspose.Tasks for Java?
+A: You can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for any assistance or queries.
+### Q: Can I purchase a temporary license for Aspose.Tasks for Java?
+A: Yes, temporary licenses are available for purchase [here](https://purchase.aspose.com/temporary-license/).
+### Q: Where can I find detailed documentation for Aspose.Tasks for Java?
+A: You can refer to the documentation [here](https://reference.aspose.com/tasks/java/) for comprehensive guides and API references.
