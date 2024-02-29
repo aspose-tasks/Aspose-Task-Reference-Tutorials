@@ -2,7 +2,7 @@
 title: Change Progress of Task in Aspose.Tasks
 linktitle: Change Progress of Task in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Enhance Java project management with Aspose.Tasks: Learn to modify task progress seamlessly in this step-by-step tutorial. Download now!
+description: Enhance Java project management with Aspose.Tasks. Learn to modify task progress seamlessly in this step-by-step tutorial. Download now!
 type: docs
 weight: 12
 url: /java/task-properties/change-progress/
