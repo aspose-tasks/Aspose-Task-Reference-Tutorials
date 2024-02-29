@@ -1,25 +1,23 @@
 ---
-title: Add Extended Attributes to Resource Assignments in Aspose.Tasks
+title: Mastering MS Project Manipulation with Aspose.Tasks for Java
 linktitle: Add Extended Attributes to Resource Assignments in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: 
+description: Learn how to efficiently write MS Project information using Aspose.Tasks for Java. Step-by-step guide for Java developers.
 type: docs
 weight: 10
 url: /java/resource-assignments/add-extended-attributes/
 ---
+## Introduction
+In this tutorial, we'll delve into utilizing Aspose.Tasks for Java, a powerful library for manipulating Microsoft Project files programmatically. We'll focus on a fundamental task: writing MS Project information using Aspose.Tasks. Whether you're a seasoned developer or just starting your journey in Java programming, this guide will walk you through the process step by step.
+## Prerequisites
+Before diving into the tutorial, ensure you have the following prerequisites in place:
+1. Java Development Kit (JDK): Make sure you have JDK installed on your system.
+2. Aspose.Tasks for Java Library: Download and install the Aspose.Tasks for Java library. You can obtain it from [here](https://releases.aspose.com/tasks/java/).
+3. Integrated Development Environment (IDE): Choose an IDE of your preference. We recommend IntelliJ IDEA or Eclipse.
 
-## Complete Source Code
+## Import Packages
+First, import the necessary packages in your Java project:
 ```java
-/*
- * Copyright 2001-2022 Aspose Pty Ltd. All Rights Reserved.
- *
- * This file is part of Aspose.Tasks. The source code in this file
- * is only intended as a supplement to the documentation, and is provided
- * "as is", without warranty of any kind, either expressed or implied.
- */
-
-
-
 import com.aspose.tasks.CustomFieldType;
 import com.aspose.tasks.ExtendedAttribute;
 import com.aspose.tasks.ExtendedAttributeDefinition;
@@ -31,86 +29,46 @@ import com.aspose.tasks.ResourceAssignment;
 import com.aspose.tasks.SaveFileFormat;
 import com.aspose.tasks.Task;
 import com.aspose.tasks.Value;
-
-
 import java.io.IOException;
 import java.math.BigDecimal;
-
-public class AddExtendedAttributesToResourceAssignments {
-    public static void main(String[] args) {
-        AddPlainExtendedAttributeToResourceAssignment();
-        AddLookUpExtendedAttributeToResourceAssignment();
-    }
-
-    public static void AddPlainExtendedAttributeToResourceAssignment() {
-        String dataDir = "Your Data Directory";
-
-        // ExStart: AddPlainExtendedAttributeToResourceAssignment
-        Project project = new Project(dataDir + "Blank2010.mpp");
-
-        // Add new task and resource
-        Task task1 = project.getRootTask().getChildren().add("Task");
-        Resource rsc1 = project.getResources().add("Rsc");
-
-        // Assign the resource desired task
-        ResourceAssignment assn = project.getResourceAssignments().add(task1, rsc1);
-
-        ResourceAssignment assignment = project.getResourceAssignments().toList().get(0);
-
-        // Custom attributes which is visible in "Resource Usage" view can be created
-        // with ExtendedAttributeDefinition.CreateResourceDefinition method.
-        ExtendedAttributeDefinition resCostAttr = ExtendedAttributeDefinition.createResourceDefinition(CustomFieldType.Cost, ExtendedAttributeResource.Cost5, "My cost");
-
-        project.getExtendedAttributes().add(resCostAttr);
-
-        ExtendedAttribute value = resCostAttr.createExtendedAttribute();
-        value.setNumericValue(BigDecimal.valueOf(1500));
-        assignment.getExtendedAttributes().add(value);
-
-        // Custom attributes which is visible in "Task Usage" view can be created with
-        // ExtendedAttributeDefinition.CreateTaskDefinition method
-        ExtendedAttributeDefinition resCostAttr2 = ExtendedAttributeDefinition.createTaskDefinition(CustomFieldType.Cost, ExtendedAttributeTask.Cost5, "My cost for task");
-
-        project.getExtendedAttributes().add(resCostAttr2);
-
-        value = resCostAttr2.createExtendedAttribute();
-        value.setNumericValue(BigDecimal.valueOf(2300));
-
-        assignment.getExtendedAttributes().add(value);
-
-        project.save(dataDir + "AddExtendedAttributesToResourceAssignment_out.mpp", SaveFileFormat.Mpp);
-        // ExEnd: AddPlainExtendedAttributeToResourceAssignment
-    }
-
-    public static void AddLookUpExtendedAttributeToResourceAssignment() {
-        String dataDir = "Your Data Directory";
-        // ExStart: AddLookUpExtendedAttributeToResourceAssignment
-        Project project = new Project(dataDir + "Blank2010.mpp");
-
-        ExtendedAttributeDefinition resCostAttr = ExtendedAttributeDefinition.createLookupResourceDefinition(CustomFieldType.Cost, ExtendedAttributeResource.Cost5, "My lookup cost");
-
-        Value value1 = new Value();
-        value1.setNumericValue(BigDecimal.valueOf(1500));
-        value1.setDescription("Val 1");
-        value1.setId(1);
-        value1.setVal("1500");
-
-        resCostAttr.addLookupValue(value1);
-
-        Value value2 = new Value();
-        value1.setNumericValue(BigDecimal.valueOf(2500));
-        value1.setDescription("Val 2");
-        value1.setId(2);
-
-        resCostAttr.addLookupValue(value2);
-
-        project.getExtendedAttributes().add(resCostAttr);
-
-        ExtendedAttribute value = resCostAttr.createExtendedAttribute(value1);
-        value.setNumericValue(BigDecimal.valueOf(1500));
-        project.save(dataDir + "AddExtendedAttributesToRAWithLookUp_out.mpp", SaveFileFormat.Mpp);
-        // ExEnd: AddLookUpExtendedAttributeToResourceAssignment
-    }
-}
-
 ```
+#Let's break down the example provided into multiple steps:
+## Step 1: Set Up Data Directory
+Define the directory where your project data will be stored.
+```java
+String dataDir = "Your Data Directory";
+```
+## Step 2: Create Project Instance
+Initialize a new project instance.
+```java
+Project project = new Project();
+```
+## Step 3: Set Project Information Properties
+Set properties for the project such as start date, schedule from start, and status date.
+```java
+project.set(Prj.SCHEDULE_FROM_START, new NullableBool(true));
+java.util.Calendar cal = java.util.Calendar.getInstance();
+cal.set(2014, Calendar.JULY, 10);
+project.set(Prj.START_DATE, cal.getTime());
+project.set(Prj.CURRENT_DATE, cal.getTime());
+project.set(Prj.STATUS_DATE, cal.getTime());
+```
+## Step 4: Save Project as XML
+Save the project with the updated information as an XML file.
+```java
+project.save(dataDir + "project3.xml", SaveFileFormat.Xml);
+```
+
+## Conclusion
+Congratulations! You've successfully learned how to write MS Project information using Aspose.Tasks for Java. With this newfound knowledge, you can automate various tasks related to Microsoft Project files, enhancing your productivity as a Java developer.
+## FAQ's
+### Q: Can I use Aspose.Tasks for Java to read MS Project files?
+A: Yes, Aspose.Tasks for Java provides robust functionalities for both reading and writing MS Project files.
+### Q: Is Aspose.Tasks for Java compatible with different versions of MS Project?
+A: Absolutely, Aspose.Tasks for Java supports various versions of MS Project, ensuring compatibility across different file formats.
+### Q: Are there any limitations to the trial version of Aspose.Tasks for Java?
+A: While the trial version allows you to explore the library's capabilities, it has certain limitations such as watermarks on output files.
+### Q: How can I get support for Aspose.Tasks for Java?
+A: You can seek assistance from the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks/15).
+### Q: Can I purchase a temporary license for Aspose.Tasks for Java?
+A: Yes, temporary licenses are available for short-term usage. You can obtain one from [here](https://purchase.aspose.com/temporary-license/).
