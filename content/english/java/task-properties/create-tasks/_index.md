@@ -2,7 +2,7 @@
 title: Create Tasks in Aspose.Tasks
 linktitle: Create Tasks in Aspose.Tasks
 second_title: Aspose.Tasks Java API
-description: Effortlessly manage Java projects with Aspose.Tasks: create tasks, subtasks, and more. Follow our step-by-step guide for seamless project management.
+description: Effortlessly manage Java projects with Aspose.Tasks. Create tasks, subtasks, and more. Follow our step-by-step guide for seamless project management.
 type: docs
 weight: 13
 url: /java/task-properties/create-tasks/
