@@ -48,7 +48,7 @@ In these steps, we utilize Aspose.Tasks for Java to collect and analyze tasks, e
 By breaking down the example into these steps, we aim to make the process clear and manageable for users at various skill levels.
 ## Conclusion
 Mastering the handling of estimated and milestone tasks in Aspose.Tasks for Java opens up possibilities for effective project management. As you delve into this tutorial, don't hesitate to experiment and explore further functionalities offered by the Aspose.Tasks library.
----
+
 ## FAQs
 ### Is Aspose.Tasks suitable for large-scale project management?
 Absolutely! Aspose.Tasks is designed to handle projects of varying sizes, providing robust functionality for efficient project management.

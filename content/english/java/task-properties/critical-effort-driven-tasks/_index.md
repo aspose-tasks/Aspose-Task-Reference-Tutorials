@@ -50,7 +50,6 @@ By following these steps, you can effectively manage critical and effort-driven 
 ## Conclusion
 In conclusion, Aspose.Tasks for Java empowers Java developers to efficiently manage critical and effort-driven tasks in project management. With its easy-to-use features and robust functionalities, handling complex project scenarios becomes a breeze.
 ## Frequently Asked Questions
- (FAQs)
 ### Q: Can I use Aspose.Tasks for Java in both Windows and Linux environments?
 Yes, Aspose.Tasks for Java is platform-independent and can be used in both Windows and Linux environments.
 ### Q: Is there a free trial available for Aspose.Tasks for Java?

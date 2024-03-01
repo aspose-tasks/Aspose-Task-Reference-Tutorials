@@ -73,7 +73,6 @@ This step calculates the task duration in months.
 ## Conclusion
 Managing task durations is made simple with Aspose.Tasks for Java. This tutorial has walked you through the process step by step, providing clarity on different units of time.
 ## Frequently Asked Questions
- (FAQs)
 ### Q: Can I use Aspose.Tasks for Java with any Java IDE?
 Yes, Aspose.Tasks for Java is compatible with any Java Integrated Development Environment (IDE).
 ### Q: How can I obtain a task's ID in a Microsoft Project file?

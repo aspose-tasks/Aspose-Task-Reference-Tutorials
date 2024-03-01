@@ -94,7 +94,6 @@ Explanation: Output and display the timephased data.
 ## Conclusion
 Effectively managing task timephased data is indispensable for project success. Aspose.Tasks for Java simplifies this process, providing a comprehensive set of functionalities. By following this tutorial, you can seamlessly integrate Aspose.Tasks into your Java project, ensuring precise control over project timelines and resource allocation.
 ## Frequently Asked Questions
- (FAQs)
 ### Q: Can I use Aspose.Tasks for Java in any Java project?
 A: Yes, Aspose.Tasks for Java is compatible with any Java-based project.
 ### Q: Where can I find additional support for Aspose.Tasks for Java?
