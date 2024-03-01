@@ -12,7 +12,7 @@ In this tutorial, we'll learn how to retrieve Microsoft Project outline codes us
 ## Prerequisites
 Before we begin, ensure you have the following prerequisites set up:
 ### 1. Java Development Environment
-Make sure you have Java Development Kit (JDK) installed on your system. You can download and install JDK from the official Oracle website.
+Make sure you have Java Development Kit (JDK) installed on your system. You can download and install JDK from the Oracle website.
 ### 2. Aspose.Tasks Library
 Download and include the Aspose.Tasks library in your Java project. You can download the library from the [Aspose.Tasks for Java Download Page](https://releases.aspose.com/tasks/java/).
 ## Import Packages

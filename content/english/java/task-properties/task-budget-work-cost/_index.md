@@ -70,4 +70,4 @@ Explore the Aspose.Tasks community forum [here](https://forum.aspose.com/c/tasks
 ### How can I obtain a temporary license for Aspose.Tasks for Java?
 Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/) for testing and evaluation purposes.
 ### Are there any additional resources for Aspose.Tasks for Java?
-Refer to the official documentation [here](https://reference.aspose.com/tasks/java/) for in-depth information and examples.
+Refer to the documentation [here](https://reference.aspose.com/tasks/java/) for in-depth information and examples.

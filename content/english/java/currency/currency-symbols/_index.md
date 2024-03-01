@@ -11,7 +11,7 @@ url: /java/currency/currency-symbols/
 In this tutorial, we'll delve into the manipulation of currency symbols in MS Project files using the Aspose.Tasks library for Java. Aspose.Tasks provides powerful functionalities to work with Microsoft Project documents, enabling developers to efficiently handle various aspects of project management.
 ## Prerequisites
 Before we begin, ensure you have the following prerequisites:
-1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install the latest version of JDK from the official Oracle website.
+1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install the latest version of JDK from the Oracle website.
 2. Aspose.Tasks for Java: Download and install Aspose.Tasks for Java from the [download link](https://releases.aspose.com/tasks/java/). Follow the installation instructions provided in the documentation.
 
 ## Import Packages

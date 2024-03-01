@@ -12,7 +12,7 @@ In the dynamic realm of project management, effective task progress tracking is 
 ## Prerequisites
 Before diving into the tutorial, ensure you have the following prerequisites set up:
 1. Java Development Environment: Install and set up a functional Java development environment on your system.
-2. Aspose.Tasks for Java Library: Download the library from the [official link](https://releases.aspose.com/tasks/java/).
+2. Aspose.Tasks for Java Library: Download the library from the [link](https://releases.aspose.com/tasks/java/).
 3. Document Directory: Create a directory to store your project documents.
 ## Import Packages
 Let's start by importing the necessary packages into your Java project. This code snippet initializes the project and adds a task with 50% progress.

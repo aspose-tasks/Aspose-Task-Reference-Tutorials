@@ -11,7 +11,7 @@ url: /java/calendars/define-weekdays/
 In this tutorial, we will walk through the process of defining weekdays in an MS Project Calendar using Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that enables developers to manipulate Microsoft Project files programmatically.
 ## Prerequisites
 Before we begin, ensure you have the following prerequisites in place:
-1. Java Development Kit (JDK): Make sure you have JDK installed on your system. You can download it from the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) if you haven't already.
+1. Java Development Kit (JDK): Make sure you have JDK installed on your system. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) if you haven't already.
 2. Aspose.Tasks for Java Library: Download and install the Aspose.Tasks for Java library from the [download page](https://releases.aspose.com/tasks/java/). Follow the installation instructions provided in the documentation.
 
 ## Import Packages

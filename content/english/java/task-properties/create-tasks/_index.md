@@ -47,7 +47,7 @@ Congratulations! You've successfully learned how to use Aspose.Tasks for Java to
 ### Is Aspose.Tasks suitable for small-scale projects?
 Absolutely! Aspose.Tasks is versatile and can be used for projects of any scale.
 ### Where can I find detailed documentation for Aspose.Tasks for Java?
-Refer to the official documentation [here](https://reference.aspose.com/tasks/java/).
+Refer to the documentation [here](https://reference.aspose.com/tasks/java/).
 ### How do I obtain a temporary license for Aspose.Tasks?
 Visit [this link](https://purchase.aspose.com/temporary-license/) for temporary licensing.
 ### Can I customize task attributes using Aspose.Tasks?

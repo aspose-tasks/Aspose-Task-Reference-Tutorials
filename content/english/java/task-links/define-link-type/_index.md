@@ -12,7 +12,7 @@ Welcome to the world of efficient project management with Aspose.Tasks for Java!
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites set up:
 - Java Development Environment: Ensure that you have a functional Java development environment installed on your system.
-- Aspose.Tasks Library: Download and install the Aspose.Tasks for Java library from the [official download link](https://releases.aspose.com/tasks/java/).
+- Aspose.Tasks Library: Download and install the Aspose.Tasks for Java library from the [download link](https://releases.aspose.com/tasks/java/).
 - Document Directory: Create a directory where you will store your project documents.
 ## Import Packages
 In this step, we'll import the necessary packages to kickstart our project. This ensures that your Java environment is ready to integrate Aspose.Tasks functionality seamlessly.
@@ -55,8 +55,8 @@ A: Yes, Aspose.Tasks is designed to seamlessly integrate with various Java devel
 ### Q: Can I customize link types based on my project requirements?
 A: Absolutely! Aspose.Tasks provides flexibility, allowing you to define and customize link types to suit your project needs.
 ### Q: Where can I find detailed documentation for Aspose.Tasks for Java?
-A: Refer to the official [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/) for in-depth guidance.
+A: Refer to the [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/) for in-depth guidance.
 ### Q: How can I obtain a temporary license for Aspose.Tasks?
 A: Visit [this link](https://purchase.aspose.com/temporary-license/) to acquire a temporary license for testing purposes.
 ### Q: Where can I get support for Aspose.Tasks-related queries?
-A: Join the Aspose.Tasks community on the [official support forum](https://forum.aspose.com/c/tasks/15) for assistance and discussions.
+A: Join the Aspose.Tasks community on the [support forum](https://forum.aspose.com/c/tasks/15) for assistance and discussions.

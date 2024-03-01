@@ -13,7 +13,7 @@ In this tutorial, we will delve into the world of Aspose.Tasks for Java, a power
 ## Prerequisites
 Before diving into this tutorial, make sure you have the following prerequisites in place:
 ### Java Development Kit (JDK) Installation
-Ensure that you have Java Development Kit (JDK) installed on your system. You can download and install the latest version of JDK from the official Oracle website.
+Ensure that you have Java Development Kit (JDK) installed on your system. You can download and install the latest version of JDK from the Oracle website.
 ### Aspose.Tasks for Java Library
 Download and set up the Aspose.Tasks for Java library. You can obtain the library from the [download page](https://releases.aspose.com/tasks/java/).
 

@@ -102,4 +102,4 @@ Yes, you can visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)
 ### How can I obtain a temporary license for Aspose.Tasks for Java?
 You can get a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find comprehensive documentation for Aspose.Tasks for Java?
-The official documentation is available [here](https://reference.aspose.com/tasks/java/).
+The documentation is available [here](https://reference.aspose.com/tasks/java/).

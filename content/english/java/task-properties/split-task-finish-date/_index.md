@@ -47,7 +47,7 @@ Mastering the art of manipulating task finish dates is pivotal for effective pro
 ### Q1: How can I download Aspose.Tasks for Java?
 A1: You can download it [here](https://releases.aspose.com/tasks/java/).
 ### Q2: Where can I find documentation for Aspose.Tasks?
-A2: Refer to the official documentation [here](https://reference.aspose.com/tasks/java/).
+A2: Refer to the documentation [here](https://reference.aspose.com/tasks/java/).
 ### Q3: How do I get a temporary license for Aspose.Tasks?
 A3: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Q4: Where can I seek support for Aspose.Tasks?

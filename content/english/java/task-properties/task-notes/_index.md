@@ -44,7 +44,7 @@ Managing task notes in Aspose.Tasks for Java is a straightforward process with t
 ### Can I use Aspose.Tasks for Java for free?
 Yes, you can download a free trial [here](https://releases.aspose.com/).
 ### Where can I find detailed documentation?
-Refer to the official documentation [here](https://reference.aspose.com/tasks/java/).
+Refer to the documentation [here](https://reference.aspose.com/tasks/java/).
 ### How can I get support for Aspose.Tasks for Java?
 Visit the support forum [here](https://forum.aspose.com/c/tasks/15).
 ### Are temporary licenses available?

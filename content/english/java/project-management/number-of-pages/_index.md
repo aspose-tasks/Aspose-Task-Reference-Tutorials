@@ -12,7 +12,7 @@ In the realm of Java development, Aspose.Tasks stands out as a powerful tool for
 ## Prerequisites
 Before delving into the tutorial, ensure you have the following prerequisites in place:
 ### Java Development Kit (JDK) Installation
-1. Download JDK: Visit the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) to download the latest version of JDK compatible with your operating system.
+1. Download JDK: Visit the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html) to download the latest version of JDK compatible with your operating system.
    
 2. Installation: Follow the installation instructions provided by Oracle to install JDK on your machine.
 ### Aspose.Tasks Installation

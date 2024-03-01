@@ -11,7 +11,7 @@ url: /java/project-file-operations/save-as-jpeg/
 In this tutorial, we'll explore how to save a Microsoft Project file as a JPEG image using Aspose.Tasks for Java. This can be particularly useful for sharing project visualizations or integrating project data into reports or presentations.
 ## Prerequisites
 Before we begin, ensure you have the following:
-1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install the latest version from the [official Java website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install the latest version from the [Java website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2. Aspose.Tasks for Java: Download and set up Aspose.Tasks for Java by following the instructions provided in the [documentation](https://reference.aspose.com/tasks/java/).
 
 ## Import Packages

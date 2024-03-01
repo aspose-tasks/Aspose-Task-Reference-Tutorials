@@ -47,7 +47,7 @@ Congratulations! You've successfully navigated the intricacies of managing tasks
 ## Frequently Asked Questions
 ### How can I download Aspose.Tasks for Java?
 Visit [this link](https://releases.aspose.com/tasks/java/) to download the library.
-### Where can I find the official documentation for Aspose.Tasks?
+### Where can I find the documentation for Aspose.Tasks?
 Explore the documentation [here](https://reference.aspose.com/tasks/java/).
 ### Is there a free trial available?
 Yes, you can access a free trial [here](https://releases.aspose.com/).

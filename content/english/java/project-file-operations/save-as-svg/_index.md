@@ -12,7 +12,7 @@ Aspose.Tasks for Java is a powerful library for working with project management 
 ## Prerequisites
 Before we begin, ensure you have the following:
 ### Java Development Environment
-Make sure you have Java Development Kit (JDK) installed on your system. You can download and install JDK from the official Oracle website.
+Make sure you have Java Development Kit (JDK) installed on your system. You can download and install JDK from the Oracle website.
 ### Aspose.Tasks for Java Library
 Download and install the Aspose.Tasks for Java library from the website. You can find the download link in the documentation provided [here](https://releases.aspose.com/tasks/java/).
 

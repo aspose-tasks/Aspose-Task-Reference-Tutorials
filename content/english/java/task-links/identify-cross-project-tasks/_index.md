@@ -53,7 +53,7 @@ Mastering cross-project task identification with Aspose.Tasks for Java opens up 
 ### Q: Can I use Aspose.Tasks with other programming languages?
 A: Yes, Aspose.Tasks supports multiple programming languages, including Java, .NET, and more.
 ### Q: Where can I find detailed documentation for Aspose.Tasks for Java?
-A: Refer to the official documentation [here](https://reference.aspose.com/tasks/java/).
+A: Refer to the documentation [here](https://reference.aspose.com/tasks/java/).
 ### Q: Is there a free trial available for Aspose.Tasks for Java?
 A: Yes, you can get a free trial [here](https://releases.aspose.com/).
 ### Q: How can I get temporary licensing for Aspose.Tasks?

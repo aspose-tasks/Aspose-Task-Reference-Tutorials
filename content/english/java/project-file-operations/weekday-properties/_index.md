@@ -12,7 +12,7 @@ Aspose.Tasks for Java is a powerful API that enables Java developers to work wit
 ## Prerequisites
 Before diving into Aspose.Tasks for Java, ensure you have the following prerequisites:
 ### Java Development Kit (JDK)
-Make sure you have JDK installed on your system. You can download and install the latest JDK from the official Oracle website.
+Make sure you have JDK installed on your system. You can download and install the latest JDK from the Oracle website.
 ### Aspose.Tasks for Java Library
 Download and install the Aspose.Tasks for Java library from the website. You can access the download link [here](https://releases.aspose.com/tasks/java/).
 ### Integrated Development Environment (IDE)

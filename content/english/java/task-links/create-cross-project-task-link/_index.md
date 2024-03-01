@@ -12,7 +12,7 @@ In the dynamic world of project management, efficiency and collaboration are par
 ## Prerequisites
 Before we embark on this tutorial, ensure you have the following prerequisites in place:
 - A working knowledge of Java programming.
-- Aspose.Tasks for Java installed. You can download it from the official [Aspose.Tasks for Java release page](https://releases.aspose.com/tasks/java/).
+- Aspose.Tasks for Java installed. You can download it from the [Aspose.Tasks for Java release page](https://releases.aspose.com/tasks/java/).
 - A basic understanding of project management and task dependencies.
 ## Import Packages
 To kickstart the process, let's import the necessary packages in your Java environment. This ensures that you have access to the Aspose.Tasks for Java functionalities. Use the following code snippet:

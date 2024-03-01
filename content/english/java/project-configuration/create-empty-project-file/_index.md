@@ -11,7 +11,7 @@ url: /java/project-configuration/create-empty-project-file/
 In the realm of project management and task scheduling, handling Microsoft Project files is often a necessity. Aspose.Tasks for Java offers a robust solution to create, manipulate, and manage these files seamlessly within Java applications. In this tutorial, we'll delve into the process of creating an empty Microsoft Project file using Aspose.Tasks for Java.
 ## Prerequisites
 Before we embark on this journey, ensure you have the following prerequisites in place:
-1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install the latest JDK from the official Oracle website.
+1. Java Development Kit (JDK): Make sure you have Java installed on your system. You can download and install the latest JDK from the Oracle website.
 2. Aspose.Tasks for Java Library: Obtain the Aspose.Tasks for Java library from the website or Maven repository. You can download it from [here](https://releases.aspose.com/tasks/java/).
 
 ## Import Packages

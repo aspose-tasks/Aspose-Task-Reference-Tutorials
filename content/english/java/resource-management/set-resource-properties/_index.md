@@ -12,7 +12,7 @@ In the realm of Java development, managing tasks efficiently is a crucial aspect
 ## Prerequisites
 Before diving into this tutorial, ensure that you have the following prerequisites in place:
 ### Java Development Environment Setup
-1. Install JDK: Make sure you have Java Development Kit (JDK) installed on your system. You can download it from the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+1. Install JDK: Make sure you have Java Development Kit (JDK) installed on your system. You can download it from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 2. IDE Setup: Choose an Integrated Development Environment (IDE) such as IntelliJ IDEA, Eclipse, or NetBeans and have it set up on your machine.
 ### Aspose.Tasks for Java Installation
 1. Download Aspose.Tasks for Java: Head to the [download page](https://releases.aspose.com/tasks/java/) and acquire the latest version of Aspose.Tasks for Java.

@@ -80,8 +80,8 @@ By following these steps, you'll effectively renumber WBS codes for tasks in you
 ## Conclusion
 Congratulations! You've successfully learned how to work with WBS codes using Aspose.Tasks for Java. This knowledge will empower you to efficiently manage and customize your project's task hierarchy.
 ## FAQs
-### Q: Where can I find the official documentation for Aspose.Tasks for Java?
-A: The official documentation is available [here](https://reference.aspose.com/tasks/java/).
+### Q: Where can I find the documentation for Aspose.Tasks for Java?
+A: The documentation is available [here](https://reference.aspose.com/tasks/java/).
 ### Q: How can I download Aspose.Tasks for Java?
 A: You can download it [here](https://releases.aspose.com/tasks/java/).
 ### Q: Is there a free trial available for Aspose.Tasks for Java?

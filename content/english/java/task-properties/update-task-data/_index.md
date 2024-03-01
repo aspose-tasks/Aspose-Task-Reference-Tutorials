@@ -11,7 +11,7 @@ url: /java/task-properties/update-task-data/
 Welcome to our step-by-step guide on updating task data to MPP format using Aspose.Tasks for Java. In this tutorial, we'll walk you through the process, ensuring that you grasp each step with clarity. Aspose.Tasks for Java provides a robust solution for working with Microsoft Project files, and by the end of this guide, you'll be able to efficiently update task data in MPP format.
 ## Prerequisites
 Before we dive into the tutorial, make sure you have the following prerequisites in place:
-- Aspose.Tasks for Java: Ensure that you have the Aspose.Tasks library installed. You can download it from the [official release page](https://releases.aspose.com/tasks/java/).
+- Aspose.Tasks for Java: Ensure that you have the Aspose.Tasks library installed. You can download it from the [release page](https://releases.aspose.com/tasks/java/).
 - Java Development Kit (JDK): Make sure you have Java installed on your system.
 - Integrated Development Environment (IDE): Use an IDE of your choice for Java development.
 ## Import Packages
@@ -84,9 +84,9 @@ By following these steps, you've successfully updated task data to MPP format us
 Congratulations! You've completed a comprehensive guide on updating task data in MPP format using Aspose.Tasks for Java. This powerful library simplifies project management tasks, making it a valuable tool for Java developers.
 ## FAQs
 ### Q: Where can I find the Aspose.Tasks for Java documentation?
-A: The official documentation is available [here](https://reference.aspose.com/tasks/java/).
+A: The documentation is available [here](https://reference.aspose.com/tasks/java/).
 ### Q: How can I download Aspose.Tasks for Java?
-A: You can download it from the [official release page](https://releases.aspose.com/tasks/java/).
+A: You can download it from the [release page](https://releases.aspose.com/tasks/java/).
 ### Q: Is there a free trial available?
 A: Yes, you can access the free trial [here](https://releases.aspose.com/).
 ### Q: Where can I get support for Aspose.Tasks for Java?

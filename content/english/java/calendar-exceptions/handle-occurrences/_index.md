@@ -12,7 +12,7 @@ In the realm of project management, dealing with exceptions in calendars is cruc
 ## Prerequisites
 Before diving into this tutorial, ensure you have the following:
 ### Java Development Environment Setup
-1. Install Java Development Kit (JDK): Download and install the JDK from the official Oracle website.
+1. Install Java Development Kit (JDK): Download and install the JDK from the Oracle website.
 2. Set Up IDE: Choose and set up an Integrated Development Environment (IDE) such as IntelliJ IDEA or Eclipse.
 3. Aspose.Tasks for Java: Download and install Aspose.Tasks for Java from the [download link](https://releases.aspose.com/tasks/java/).
 

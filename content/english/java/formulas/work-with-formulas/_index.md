@@ -12,7 +12,7 @@ In this tutorial, we'll delve into working with MS Project Formulas using Aspose
 ## Prerequisites
 Before we begin, ensure you have the following prerequisites set up:
 ### Java Development Environment
-Make sure you have a Java Development Kit (JDK) installed on your system. You can download and install the latest JDK from the official Oracle website.
+Make sure you have a Java Development Kit (JDK) installed on your system. You can download and install the latest JDK from the Oracle website.
 ### Aspose.Tasks Library
 You need to have the Aspose.Tasks library added to your Java project. You can download the library from the [Aspose.Tasks for Java download page](https://releases.aspose.com/tasks/java/) and include it in your project's dependencies.
 

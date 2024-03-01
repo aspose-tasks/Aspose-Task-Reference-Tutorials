@@ -13,7 +13,7 @@ In this tutorial, we'll delve into the world of assignment budget management usi
 ## Prerequisites
 Before diving into this tutorial, make sure you have the following prerequisites in place:
 ### Java Development Environment
-Ensure you have Java Development Kit (JDK) installed on your system. You can download and install the latest version from the [official Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
+Ensure you have Java Development Kit (JDK) installed on your system. You can download and install the latest version from the [Oracle website](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html).
 ### Aspose.Tasks for Java
 Download and set up Aspose.Tasks for Java by following the instructions provided in the [documentation](https://reference.aspose.com/tasks/java/). You can download the library from the [Aspose.Tasks website](https://releases.aspose.com/tasks/java/).
 ### Integrated Development Environment (IDE)

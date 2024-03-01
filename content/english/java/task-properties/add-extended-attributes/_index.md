@@ -12,7 +12,7 @@ Enhancing your project management capabilities is crucial for efficient task tra
 ## Prerequisites
 Before diving into the tutorial, ensure that you have the following prerequisites:
 - Basic knowledge of Java programming.
-- Aspose.Tasks for Java library installed. You can download it from the [official website](https://releases.aspose.com/tasks/java/).
+- Aspose.Tasks for Java library installed. You can download it from the [website](https://releases.aspose.com/tasks/java/).
 - A Java Integrated Development Environment (IDE) installed on your system.
 ## Import Packages
 In your Java project, import the necessary packages to access Aspose.Tasks functionalities:
@@ -70,7 +70,7 @@ A: Yes, Aspose.Tasks for Java can be seamlessly integrated into your Java projec
 ### Q: Is Aspose.Tasks for Java suitable for large-scale project management applications?
 A: Absolutely, Aspose.Tasks for Java is designed to handle projects of varying sizes, including large-scale applications.
 ### Q: Are there any licensing considerations for using Aspose.Tasks for Java in a commercial project?
-A: Yes, make sure to review the licensing information provided on the [official Aspose.Tasks website](https://purchase.aspose.com/buy).
+A: Yes, make sure to review the licensing information provided on the [Aspose.Tasks website](https://purchase.aspose.com/buy).
 ### Q: How can I get support or assistance with Aspose.Tasks for Java?
 A: Visit the [Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) for community support and discussions.
 ### Q: Can I try Aspose.Tasks for Java before purchasing?

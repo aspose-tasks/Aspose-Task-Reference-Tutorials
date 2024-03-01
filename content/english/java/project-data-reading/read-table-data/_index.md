@@ -11,7 +11,7 @@ url: /java/project-data-reading/read-table-data/
 In this tutorial, we'll explore how to read table data from a file using Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that allows developers to work with Microsoft Project documents programmatically.
 ## Prerequisites
 Before we begin, make sure you have the following prerequisites:
-1. Java Development Kit (JDK): Ensure that you have JDK installed on your system. You can download and install it from the official Oracle website.
+1. Java Development Kit (JDK): Ensure that you have JDK installed on your system. You can download and install it from the Oracle website.
 2. Aspose.Tasks for Java JAR File: Download the Aspose.Tasks for Java library from the [download link](https://releases.aspose.com/tasks/java/) and include it in your Java project.
 
 ## Import Packages

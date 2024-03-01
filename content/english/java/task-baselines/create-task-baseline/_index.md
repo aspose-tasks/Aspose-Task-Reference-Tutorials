@@ -11,7 +11,7 @@ url: /java/task-baselines/create-task-baseline/
 In this tutorial, we'll delve into the process of creating a Microsoft Project task baseline using Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that enables developers to work with Microsoft Project files without requiring Microsoft Project to be installed. With Aspose.Tasks, you can effortlessly manipulate project data, including tasks, resources, and calendars, to streamline project management tasks.
 ## Prerequisites
 Before we begin, ensure you have the following prerequisites:
-1. Java Development Kit (JDK): Aspose.Tasks for Java requires JDK installed on your system. You can download and install JDK from the official Oracle website.
+1. Java Development Kit (JDK): Aspose.Tasks for Java requires JDK installed on your system. You can download and install JDK from the Oracle website.
 2. Aspose.Tasks for Java Library: Download the Aspose.Tasks for Java library from the [download link](https://releases.aspose.com/tasks/java/) provided.
 
 ## Import Packages

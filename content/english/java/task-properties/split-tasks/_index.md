@@ -12,7 +12,7 @@ Are you struggling with task management in your Java project? Aspose.Tasks for J
 ## Prerequisites
 Before diving into the tutorial, make sure you have the following prerequisites in place:
 - Java Development Kit (JDK) installed on your machine.
-- Aspose.Tasks for Java library downloaded and added to your project. You can download it from the [official Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/).
+- Aspose.Tasks for Java library downloaded and added to your project. You can download it from the [Aspose.Tasks for Java documentation](https://reference.aspose.com/tasks/java/).
 ## Import Packages
 Begin by importing the necessary packages into your Java project:
 ```java

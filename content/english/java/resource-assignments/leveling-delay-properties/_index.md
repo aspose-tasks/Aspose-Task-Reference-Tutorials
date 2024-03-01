@@ -11,7 +11,7 @@ url: /java/resource-assignments/leveling-delay-properties/
 In this tutorial, we'll walk through the process of handling leveling delay properties for resource assignments in Aspose.Tasks for Java. Aspose.Tasks is a powerful Java library that allows you to work with Microsoft Project files without requiring Microsoft Project to be installed on your system.
 ## Prerequisites
 Before we begin, make sure you have the following prerequisites:
-1. Java Development Kit (JDK): Ensure that you have Java JDK installed on your system. You can download and install it from the [official website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
+1. Java Development Kit (JDK): Ensure that you have Java JDK installed on your system. You can download and install it from the [website](https://www.oracle.com/java/technologies/javase-jdk15-downloads.html).
    
 2. Aspose.Tasks for Java Library: Download the Aspose.Tasks for Java library from the [download page](https://releases.aspose.com/tasks/java/).
 

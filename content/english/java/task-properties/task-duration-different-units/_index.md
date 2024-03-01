@@ -80,6 +80,6 @@ You can inspect the project file or use Aspose.Tasks API to retrieve task IDs pr
 ### Q: Is Aspose.Tasks suitable for handling large-scale projects?
 Absolutely. Aspose.Tasks is designed to efficiently handle projects of varying sizes.
 ### Q: Where can I find further documentation?
-Visit the [official documentation](https://reference.aspose.com/tasks/java/) for comprehensive resources.
+Visit the [documentation](https://reference.aspose.com/tasks/java/) for comprehensive resources.
 ### Q: Can I try Aspose.Tasks for Java before purchasing?
 Yes, you can explore a [free trial](https://releases.aspose.com/) to evaluate its capabilities.

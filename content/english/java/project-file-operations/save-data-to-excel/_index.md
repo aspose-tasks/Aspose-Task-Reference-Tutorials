@@ -11,7 +11,7 @@ url: /java/project-file-operations/save-data-to-excel/
 Aspose.Tasks for Java is a powerful library that allows developers to work with Microsoft Project files programmatically. In this tutorial, we will guide you through the process of saving data from a Project file to an Excel file step by step.
 ## Prerequisites
 Before we begin, make sure you have the following prerequisites:
-1. Java Development Kit (JDK): Ensure that you have Java installed on your system. You can download and install the latest version of JDK from the official Oracle website.
+1. Java Development Kit (JDK): Ensure that you have Java installed on your system. You can download and install the latest version of JDK from the Oracle website.
 2. Aspose.Tasks for Java Library: Download the Aspose.Tasks for Java library from the [download link](https://releases.aspose.com/tasks/java/) and include it in your Java project.
 
 ## Import Packages
