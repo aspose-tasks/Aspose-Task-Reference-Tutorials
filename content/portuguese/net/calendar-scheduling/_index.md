@@ -55,7 +55,7 @@ Aprenda como usar Aspose.Tasks for .NET para gerenciar e analisar com eficiênci
 
 ## Opções CSV em Aspose.Tasks
 
- Utilize Aspose.Tasks for .NET para trabalhar de forma eficiente com arquivos CSV. Aprimore seus recursos de gerenciamento de projetos sem esforço com tutoriais passo a passo.[Consulte Mais informação](./csv-options/)
+ Utilize Aspose.Tasks for .NET para trabalhar eficientemente com arquivos CSV. Aprimore seus recursos de gerenciamento de projetos sem esforço com tutoriais passo a passo.[Consulte Mais informação](./csv-options/)
 
 ## Posições do símbolo monetário em Aspose.Tasks
 
@@ -116,7 +116,7 @@ Aprenda como gerenciar os custos do projeto de forma eficaz com Aspose.Tasks for
 ### [CSS salvando argumentos em Aspose.Tasks](./css-saving-arguments/)
 Aprenda como salvar argumentos CSS em Aspose.Tasks for .NET para personalizar a saída HTML. Aprimore a apresentação com configurações CSS personalizadas.
 ### [Opções CSV em Aspose.Tasks](./csv-options/)
-Aprenda como utilizar Aspose.Tasks for .NET para trabalhar de forma eficiente com arquivos CSV, aprimorando seus recursos de gerenciamento de projetos sem esforço.
+Aprenda como utilizar Aspose.Tasks for .NET para trabalhar eficientemente com arquivos CSV, aprimorando seus recursos de gerenciamento de projetos sem esforço.
 ### [Posições do símbolo monetário em Aspose.Tasks](./currency-symbol-positions/)
 Aprenda como controlar posições de símbolos monetários em projetos .NET sem esforço com Aspose.Tasks.
 ### [Tipos de campos personalizados em Aspose.Tasks](./custom-field-types/)

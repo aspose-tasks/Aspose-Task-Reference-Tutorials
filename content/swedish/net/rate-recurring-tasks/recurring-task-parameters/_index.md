@@ -8,7 +8,7 @@ weight: 14
 url: /sv/net/rate-recurring-tasks/recurring-task-parameters/
 ---
 ## Introduktion
-I den här handledningen guidar vi dig genom processen att ställa in parametrar för återkommande uppgifter i Microsoft Project med Aspose.Tasks för .NET.
+den här handledningen guidar vi dig genom processen att ställa in parametrar för återkommande uppgifter i Microsoft Project med Aspose.Tasks för .NET.
 ## Förutsättningar
 Innan du börjar, se till att du har följande:
 1. Grundläggande förståelse för programmeringsspråket C#.
@@ -26,12 +26,12 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- byta ut`"Your Document Directory"` med sökvägen till din dokumentkatalog.
+ Byta ut`"Your Document Directory"` med sökvägen till din dokumentkatalog.
 ## Steg 2: Ladda projektfilen
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- Denna kodrad laddar Microsoft Project-filen i`project` variabler.
+ Denna kodrad laddar Microsoft Project-filen i`project` variabel.
 ## Steg 3: Definiera parametrar för återkommande uppgift
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -67,7 +67,7 @@ project.RootTask.Children.Add(parameters);
 Lägg slutligen till parametrarna i projektets rotuppgift.
 
 ## Slutsats
-I den här handledningen har vi visat hur du ställer in parametrar för återkommande uppgifter i Microsoft Project med Aspose.Tasks för .NET. Genom att följa dessa steg kan du effektivt hantera återkommande uppgifter i dina projekt.
+den här handledningen har vi visat hur du ställer in parametrar för återkommande uppgifter i Microsoft Project med Aspose.Tasks för .NET. Genom att följa dessa steg kan du effektivt hantera återkommande uppgifter i dina projekt.
 ## Vanliga frågor
 ### Kan jag anpassa återfallsmönstret ytterligare?
 Ja, Aspose.Tasks tillhandahåller olika återkommande mönster och alternativ för att anpassa efter dina projektkrav.

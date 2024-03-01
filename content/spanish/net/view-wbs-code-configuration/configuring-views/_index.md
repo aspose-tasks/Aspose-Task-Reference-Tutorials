@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Resalte el filtro para una sola vista.
 ## Paso 4: Ajustar la configuración de vista
 ```csharp
 // Ajustar algunas configuraciones de vista
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Establezca el número de primeras columnas que se imprimirán en todas las páginas
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Establezca el número de primeras columnas que se imprimirán en todas las páginas
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Imprima un número específico de primeras columnas en todas las páginas
 ```
 ## Paso 5: agregar vista al proyecto
 ```csharp
-//Agregar la vista a nuestro proyecto.
+// Agregar la vista a nuestro proyecto.
 project.Views.Add(view);
 ```
 ## Paso 6: guarde el proyecto con la nueva vista
@@ -73,8 +73,8 @@ Aspose.Tasks está diseñado principalmente para Microsoft Project, lo que garan
 ### ¿Hay una prueba gratuita disponible para Aspose.Tasks para .NET?
  Sí, puedes explorar una prueba gratuita.[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte para Aspose.Tasks para .NET?
- visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener apoyo de la comunidad o considere comprar planes de soporte.
+ Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener apoyo de la comunidad o considere comprar planes de soporte.
 ### ¿Puedo personalizar aún más la apariencia de las vistas?
- Por supuesto, profundiza en la documentación de Aspose.Tasks[aquí](https://reference.aspose.com/tasks/net/)para opciones de personalización avanzadas.
+ Por supuesto, profundiza en la documentación de Aspose.Tasks[aquí](https://reference.aspose.com/tasks/net/) para opciones de personalización avanzadas.
 ### ¿Dónde puedo comprar Aspose.Tasks para .NET?
  Puedes comprar la biblioteca.[aquí](https://purchase.aspose.com/buy) para una experiencia de gestión de proyectos perfecta.

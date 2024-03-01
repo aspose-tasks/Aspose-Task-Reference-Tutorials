@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Konfigurasikan opsi penyimpanan HTML
+        //Konfigurasikan opsi penyimpanan HTML
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ A3: Aspose.Tasks untuk .NET mendukung berbagai versi file Microsoft Project, mem
 
 ### Q4: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.Tasks untuk .NET?
 
- A4: Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/tasks/net/) untuk informasi rinci dan contoh.
+A4: Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/tasks/net/) untuk informasi rinci dan contoh.
 
 ### Q5: Apakah Aspose.Tasks untuk .NET menawarkan dukungan untuk pengembang?
 

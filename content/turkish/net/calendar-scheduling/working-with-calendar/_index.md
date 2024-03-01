@@ -172,7 +172,7 @@ Açıklama:
 - Proje dosyasını yükleyin.
 - Takvim, başlangıç tarihi ve bitiş tarihi gibi görev ayrıntılarını alın.
 - Her günü yineleyerek ve bunun bir çalışma günü olup olmadığını kontrol ederek çalışma saatlerini hesaplayın.
-- Toplam süreyi dakika olarak özetleyin.
+- Toplam süreyi dakika cinsinden özetleyin.
 
 ## 5. Adım: Takvim için Hafta İçi Günleri Tanımlayın
 
@@ -244,7 +244,7 @@ public void WriteUpdatedCalendarDataToMpp()
     }
     catch (NotSupportedException ex)
     {
-        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://satın alma.aspose.com/temporary-license/.");
+        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://satın alma.aspose.com/temporary-license/).");
     }
 }
 ```
@@ -370,9 +370,9 @@ Açıklama:
 - Bir başlangıç tarihi ve çalışma süresi tanımlayın.
 - Başlangıç tarihine ve işe göre bitiş tarihini hesaplayın.
 
-## Adım 12: Sonraki Çalışma Günü Başlangıcını Alın
+## Adım 12: Bir Sonraki İş Günü Başlangıcını Alın
 
-Bir sonraki iş gününü takvim kullanarak başlatmak için şu adımları izleyin:
+Bir sonraki iş gününün takvim kullanarak başlamasını sağlamak için şu adımları izleyin:
 
 ```csharp
 public void GetNextWorking

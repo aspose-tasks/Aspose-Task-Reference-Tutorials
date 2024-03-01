@@ -71,7 +71,7 @@ Evet, Aspose.Tasks çeşitli .NET çerçevelerini destekleyerek geliştirme orta
 ### Zaman çizelgesi görünümünde bireysel görevlerin görünümünü özelleştirebilir miyim?
 Kesinlikle! Aspose.Tasks, zaman çizelgesi görünümünde her görevin görünümünü özelleştirme esnekliği sağlar.
 ### Aspose.Tasks için ek kaynakları ve desteği nerede bulabilirim?
- ziyaret edin[Aspose.Tasks belgeleri](https://reference.aspose.com/tasks/net/) kapsamlı kılavuzlar ve[destek Forumu](https://forum.aspose.com/c/tasks/15) yardım için.
+ Ziyaret edin[Aspose.Tasks belgeleri](https://reference.aspose.com/tasks/net/)kapsamlı kılavuzlar ve[destek Forumu](https://forum.aspose.com/c/tasks/15) yardım için.
 ### Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks için geçici lisansı nasıl edinebilirim?

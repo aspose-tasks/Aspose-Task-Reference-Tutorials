@@ -88,7 +88,7 @@ summary.Set(Tsk.Work, project.GetWork(summaryWork));
 summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ```
 
-Cập nhật giá trị công việc cho các nhiệm vụ dựa trên thông tin đã thu thập được.
+Cập nhật giá trị công việc cho các nhiệm vụ dựa trên thông tin đã thu thập.
 
 ## Phần kết luận
 

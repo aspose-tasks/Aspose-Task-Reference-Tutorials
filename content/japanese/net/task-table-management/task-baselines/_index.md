@@ -2,7 +2,7 @@
 title: Aspose.Tasks for .NET のタスク ベースラインをマスターする
 linktitle: Aspose.Tasks でのタスク ベースラインの処理
 second_title: Aspose.Tasks .NET API
-description: この包括的なチュートリアルで、Aspose.Tasks for .NET でタスク ベースラインを処理する方法を学びましょう。今すぐプロジェクト管理スキルを向上させましょう!
+description: この包括的なチュートリアルで、Aspose.Tasks for .NET でタスク ベースラインを処理する方法を学びましょう。今すぐプロジェクト管理スキルを向上させましょう。
 type: docs
 weight: 16
 url: /ja/net/task-table-management/task-baselines/
@@ -65,10 +65,10 @@ foreach (var data in baseline.TimephasedData)
 ### Q: Aspose.Tasks を他の .NET フレームワークで使用できますか?
 A: Aspose.Tasks は複数の .NET フレームワークと互換性があり、開発環境に柔軟性をもたらします。
 ### Q: Aspose.Tasks サポートのためのコミュニティ フォーラムはありますか?
-A: はい、次の場所でサポートを見つけたり、コミュニティに参加したりできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
+ A: はい、次の場所でサポートを見つけたり、コミュニティに参加したりできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか?
 訪問[ここ](https://purchase.aspose.com/temporary-license/)Aspose.Tasks の一時ライセンスを取得します。
 ### Q: タスクのベースラインを超えるチュートリアルはありますか?
- A: を探索してください[ドキュメンテーション](https://reference.aspose.com/tasks/net/)Aspose.Tasks 機能に関する幅広いチュートリアルをご覧ください。
+ A: 調べてみてください[ドキュメンテーション](https://reference.aspose.com/tasks/net/)Aspose.Tasks 機能に関する幅広いチュートリアルをご覧ください。
 ### Q: Aspose.Tasks for .NET はどこで購入できますか?
  A: Aspose.Tasks は簡単に購入できます。[ここ](https://purchase.aspose.com/buy).

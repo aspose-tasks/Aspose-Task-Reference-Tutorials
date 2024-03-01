@@ -2,7 +2,7 @@
 title: Hoạt động VÀ nâng cao trong Aspose.Tasks
 linktitle: Hoạt động VÀ nâng cao trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách thực hiện các thao tác AND nâng cao trong Aspose.Tasks cho .NET để lọc hiệu quả các tác vụ dự án dựa trên nhiều tiêu chí.
+description: Tìm hiểu cách thực hiện các thao tác AND nâng cao trong Aspose.Tasks dành cho .NET để lọc hiệu quả các tác vụ dự án dựa trên nhiều tiêu chí.
 type: docs
 weight: 10
 url: /vi/net/advanced-features/advanced-and-operation/
@@ -84,7 +84,7 @@ foreach (var task in collection)
 
 ## Phần kết luận
 
- Trong hướng dẫn này, chúng ta đã học cách thực hiện các thao tác AND nâng cao trong Aspose.Tasks cho .NET. Bằng cách kết hợp các điều kiện sử dụng`Util.And` lớp, chúng ta có thể lọc các tác vụ một cách hiệu quả dựa trên nhiều tiêu chí.
+ Trong hướng dẫn này, chúng ta đã học cách thực hiện các thao tác AND nâng cao trong Aspose.Tasks cho .NET. Bằng cách kết hợp các điều kiện sử dụng`Util.And`lớp, chúng ta có thể lọc các tác vụ một cách hiệu quả dựa trên nhiều tiêu chí.
 
 ## Câu hỏi thường gặp
 
@@ -102,8 +102,8 @@ Trả lời: Có, Util.And có thể được sử dụng để kết hợp bấ
 
 ### Câu hỏi 4: Tôi có thể tìm tài liệu về Aspose.Tasks cho .NET ở đâu?
 
- A: Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/tasks/net/).
+ A: Bạn có thể tìm tài liệu[đây](https://reference.aspose.com/tasks/net/).
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
 
- Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15).
+Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).

@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Steg 3: Definiera anpassad kolumn
 
- Definiera nu din anpassade kolumn genom att skapa en instans av`AssignmentViewColumn`Den här klassen kräver kolumnnamn, bredd och en delegatfunktion för att konvertera tilldelningsdata till kolumntext:
+ Definiera nu din anpassade kolumn genom att skapa en instans av`AssignmentViewColumn`. Den här klassen kräver kolumnnamn, bredd och en delegatfunktion för att konvertera tilldelningsdata till kolumntext:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

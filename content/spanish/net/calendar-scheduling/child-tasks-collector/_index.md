@@ -18,7 +18,7 @@ Antes de comenzar, asegúrese de contar con los siguientes requisitos previos:
 1. Comprensión básica de C#: la familiaridad con el lenguaje de programación C# es esencial.
 2.  Instalación de Aspose.Tasks para .NET: Descargue e instale la biblioteca Aspose.Tasks para .NET desde[enlace de descarga](https://releases.aspose.com/tasks/net/).
 3. Entorno de desarrollo: configure un entorno de desarrollo, como Visual Studio, para escribir y ejecutar código C#.
-4.  Acceso a la Documentación: Conservar la[Aspose.Tasks para la documentación de .NET](https://reference.aspose.com/tasks/net/) útil como referencia.
+4. Acceso a la Documentación: Conservar la[Aspose.Tasks para la documentación de .NET](https://reference.aspose.com/tasks/net/) útil como referencia.
 
 Ahora que tenemos cubiertos los requisitos previos, profundicemos en la guía paso a paso para recopilar tareas secundarias utilizando Aspose.Tasks para .NET.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Aplicamos el`ChildTasksCollector` la tarea raíz del proyecto, iniciando el proceso de recolección de forma recursiva.
+ Aplicamos el`ChildTasksCollector` a la tarea raíz del proyecto, iniciando el proceso de recolección de forma recursiva.
 
 ## Paso 4: iterar a través de las tareas recopiladas
 
@@ -91,7 +91,7 @@ R3: Si bien está diseñado principalmente para entornos .NET, Aspose.Tasks para
 
 ### P4: ¿Hay soporte técnico disponible para Aspose.Tasks para .NET?
 
- R4: Sí, los usuarios pueden acceder a soporte técnico a través del[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+R4: Sí, los usuarios pueden acceder a soporte técnico a través del[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### P5: ¿Puedo probar Aspose.Tasks para .NET antes de comprarlo?
 

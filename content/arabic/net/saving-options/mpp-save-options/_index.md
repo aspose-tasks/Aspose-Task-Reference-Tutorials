@@ -11,7 +11,7 @@ url: /ar/net/saving-options/mpp-save-options/
 في عالم تطوير .NET، تعد إدارة ملفات المشروع ومعالجتها بكفاءة أمرًا بالغ الأهمية لتحقيق النجاح. يوفر Aspose.Tasks for .NET حلاً قويًا للتعامل مع ملفات Microsoft Project (MPP) بسهولة. من بين ميزاته العديدة، يتيح Aspose.Tasks للمستخدمين حفظ خيارات MS Project بسلاسة، وتبسيط سير العمل وضمان سلامة المشروع. في هذا البرنامج التعليمي، سوف نتعمق في عملية حفظ خيارات MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
-1. تثبيت Aspose.Tasks لـ .NET: قم بتنزيل وتثبيت Aspose.Tasks لمكتبة .NET من[هنا](https://releases.aspose.com/tasks/net/).
+1.  تثبيت Aspose.Tasks لـ .NET: قم بتنزيل وتثبيت Aspose.Tasks لمكتبة .NET من[هنا](https://releases.aspose.com/tasks/net/).
 2. بيئة التطوير: قم بإعداد بيئة تطوير .NET، مثل Visual Studio.
 3. الفهم الأساسي لـ C#: يعد الإلمام بلغة البرمجة C# أمرًا ضروريًا لتنفيذ الأمثلة.
 
@@ -62,7 +62,7 @@ project.Save(stream, options);
 ### هل يمكنني تجربة Aspose.Tasks لـ .NET قبل الشراء؟
  بالتأكيد! يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Tasks لـ .NET من[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم الفني لـ Aspose.Tasks لـ .NET؟
- للحصول على المساعدة الفنية، يمكنك زيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+للحصول على المساعدة الفنية، يمكنك زيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### ما هو الترخيص المؤقت وكيف يمكنني الحصول عليه؟
  يسمح لك الترخيص المؤقت بتقييم Aspose.Tasks لـ .NET دون أي قيود. يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء نسخة مرخصة من Aspose.Tasks لـ .NET؟

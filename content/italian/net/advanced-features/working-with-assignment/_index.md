@@ -108,4 +108,4 @@ R4: Sì, come dimostrato in questo tutorial, puoi impostare vari contorni come t
 
 ### Q5: dove posso trovare supporto per le query relative ad Aspose.Tasks?
 
- R5: Puoi trovare supporto su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) dove esperti e membri della comunità si impegnano attivamente nelle discussioni.
+R5: Puoi trovare supporto su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) dove esperti e membri della comunità si impegnano attivamente nelle discussioni.

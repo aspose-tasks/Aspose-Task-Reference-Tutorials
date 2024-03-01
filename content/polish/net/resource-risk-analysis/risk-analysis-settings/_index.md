@@ -1,6 +1,6 @@
 ---
-title: Skonfiguruj analizę ryzyka projektu MS w Aspose.Tasks
-linktitle: Skonfiguruj ustawienia analizy ryzyka w Aspose.Tasks
+title: Konfigurowanie analizy ryzyka projektu MS w Aspose.Tasks
+linktitle: Konfigurowanie ustawień analizy ryzyka w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować ustawienia analizy ryzyka MS Project przy użyciu Aspose.Tasks dla .NET. Zwiększ efektywność zarządzania projektami dzięki zaawansowanym technikom oceny ryzyka.
 type: docs
@@ -59,7 +59,7 @@ var pattern = new RiskPattern(task);
 ```csharp
 pattern.Distribution = ProbabilityDistributionType.Normal;
 ```
-Wybierz typ rozkładu do generowania wartości losowych (np. normalny lub jednolity).
+Wybierz typ rozkładu do generowania wartości losowych (np. normalny lub równomierny).
 ## Krok 8: Ustaw optymistyczny czas trwania
 ```csharp
 pattern.Optimistic = 70;
@@ -80,7 +80,7 @@ Ustaw poziom ufności, aby określić pewność szacunków.
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Zainicjuj a`RiskAnalyzer` obiektywne i przeprowadzić analizę ryzyka projektu.
+ Zainicjuj a`RiskAnalyzer` obiektu i przeprowadzić analizę ryzyka projektu.
 ## Krok 12: Pobierz wyniki analizy
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

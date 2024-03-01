@@ -52,4 +52,4 @@ R : Oui, Aspose.Tasks pour .NET est optimisé pour gérer facilement des fichier
 ### Q : Aspose.Tasks pour .NET prend-il en charge les licences temporaires ?
  R : Oui, des licences temporaires sont disponibles pour Aspose.Tasks pour .NET. Vous pouvez les obtenir auprès de :[Permis temporaire](https://purchase.aspose.com/temporary-license/)
 ### Q : Où puis-je acheter Aspose.Tasks pour .NET ?
- R : Vous pouvez acheter Aspose.Tasks pour .NET sur le site Web :[achat](https://purchase.aspose.com/buy).
+ R : Vous pouvez acheter Aspose.Tasks pour .NET sur le site Web :[Achat](https://purchase.aspose.com/buy).

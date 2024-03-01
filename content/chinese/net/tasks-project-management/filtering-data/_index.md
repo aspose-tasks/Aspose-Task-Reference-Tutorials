@@ -12,7 +12,7 @@ Aspose.Tasks for .NET 提供了强大的功能来过滤 Microsoft Project 文件
 ## 先决条件
 在深入学习本教程之前，请确保您具备以下先决条件：
 ### 1.安装Aspose.Tasks for .NET
-从以下位置下载并安装 Aspose.Tasks for .NET[下载页面](https://releases.aspose.com/tasks/net/),按照提供的安装说明在您的开发环境中设置该库。
+从以下位置下载并安装 Aspose.Tasks for .NET[下载页面](https://releases.aspose.com/tasks/net/)。按照提供的安装说明在您的开发环境中设置该库。
 ### 2. 设置您的开发环境
 确保您拥有适用于 .NET 编程的有效开发环境。这包括兼容的 IDE（例如 Visual Studio）和对 C# 编程语言的基本了解。
 ### 3. 访问示例 Microsoft Project 文件
@@ -66,9 +66,9 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
 ```
 显示资源过滤器的详细信息，包括计数、过滤器类型、在菜单中显示和显示相关摘要行。
 ## 结论
-使用 Aspose.Tasks for .NET 过滤 MS Project 文件中的数据是一个简单的过程，可以提高工作效率和分析能力。通过遵循本教程中概述的步骤，您可以根据特定标准有效管理项目信息。
+使用 Aspose.Tasks for .NET 过滤 MS Project 文件中的数据是一个简单的过程，可以提高工作效率和分析能力。通过遵循本教程中概述的步骤，您可以根据特定条件有效管理项目信息。
 ## 常见问题解答
-### 问：Aspose.Tasks 可以根据自定义标准过滤数据吗？
+### 问：Aspose.Tasks 可以根据自定义条件过滤数据吗？
 答：是的，Aspose.Tasks 允许根据根据您的项目要求定制的自定义标准来过滤数据。
 ### 问：Aspose.Tasks 是否与所有版本的 Microsoft Project 文件兼容？
 答：Aspose.Tasks 支持各种版本的 Microsoft Project 文件，确保不同环境下的兼容性。

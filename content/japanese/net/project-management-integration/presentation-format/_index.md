@@ -17,7 +17,7 @@ Aspose.Tasks for .NET を使用して MS Project プロジェクトのプレゼ�
 
 ### 1. Aspose.Tasks for .NET をインストールする
 
-まだダウンロードしていない場合は、Aspose.Tasks for .NET をダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/tasks/net/)、提供されるインストール手順に従って、正しくセットアップしてください。
+まだダウンロードしていない場合は、Aspose.Tasks for .NET をダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/tasks/net/)。提供されるインストール手順に従って、正しくセットアップしてください。
 
 ### 2. 必要な名前空間をインポートする
 
@@ -89,4 +89,4 @@ A: もちろん、Aspose.Tasks は常に更新され、MS Project の最新バ�
  A: Aspose.Tasks に関する問い合わせやサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)で質問したり、コミュニティと交流したりできます。
 
 ### Q5: テスト目的には一時ライセンスが必要ですか?
- A: テストまたは評価の目的で一時ライセンスが必要な場合は、次のサイトからライセンスを取得できます。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/)Aspose Web サイトで。
+ A: テストまたは評価の目的で一時ライセンスが必要な場合は、次のサイトからライセンスを取得できます。[一時ライセンスのページ](https://purchase.aspose.com/temporary-license/) Aspose Web サイトで。

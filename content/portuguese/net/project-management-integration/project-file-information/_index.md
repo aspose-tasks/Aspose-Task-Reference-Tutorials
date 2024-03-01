@@ -31,12 +31,12 @@ Agora, vamos dividir o código de exemplo fornecido em várias etapas:
 // O caminho para o diretório de documentos.
 string dataDir = "Your Document Directory";
 ```
- substituir`"Your Document Directory"` com o caminho para o diretório que contém o arquivo do MS Project.
+ Substituir`"Your Document Directory"` com o caminho para o diretório que contém o arquivo do MS Project.
 ## Etapa 3: recuperar informações do arquivo do projeto
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Esta linha de código recupera informações sobre o arquivo de projeto especificado. substituir`"Project.xml"` com o nome do seu arquivo MS Project.
+ Esta linha de código recupera informações sobre o arquivo de projeto especificado. Substituir`"Project.xml"` com o nome do seu arquivo MS Project.
 ## Etapa 4: exibir informações do projeto
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);
@@ -50,7 +50,7 @@ Neste tutorial, aprendemos como recuperar informações de arquivos do Microsoft
 ## Perguntas frequentes
 ### O Aspose.Tasks pode lidar com diferentes versões de arquivos do Microsoft Project?
 Sim, Aspose.Tasks oferece suporte a várias versões de arquivos do Microsoft Project, incluindo formatos MPP e XML.
-### Aspose.Tasks é compatível com .NET Core?
+### O Aspose.Tasks é compatível com .NET Core?
 Sim, Aspose.Tasks é compatível com .NET Framework e .NET Core.
 ### Posso manipular dados do projeto usando Aspose.Tasks?
 Com certeza, Aspose.Tasks oferece amplos recursos para leitura, gravação e manipulação de dados do projeto de forma programática.

@@ -11,7 +11,7 @@ url: /id/net/task-table-management/managing-tasks/
 Jika Anda seorang pengembang .NET yang ingin mengelola tugas dalam proyek Anda secara efisien, Aspose.Tasks untuk .NET memberikan solusi yang kuat. Tutorial ini akan memandu Anda melalui berbagai aspek pengelolaan tugas menggunakan Aspose.Tasks, menawarkan petunjuk langkah demi langkah dan contoh kode. Baik Anda menambahkan tugas, menampilkan bagian yang terpisah, memindahkan tugas di bawah induk yang sama, mendapatkan/mengatur properti tugas, mengulangi penetapan tugas, membaca garis dasar tugas, atau menghapus tugas, panduan ini siap membantu Anda.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-1.  Aspose.Tasks untuk .NET Library: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks untuk .NET Library: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks untuk .NET. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
 2. Direktori Dokumen: Siapkan direktori tempat dokumen proyek Anda akan disimpan.
 ## Impor Namespace
 Dalam proyek .NET Anda, sertakan namespace yang diperlukan untuk bekerja dengan Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Muat proyek dengan tugas terpisah
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Akses tugas
+// Akses tugas
 var task = project.RootTask.Children.GetById(4);
 // Tampilkan bagian yang terpisah
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Tambahkan tugas
 var task = project.RootTask.Children.Add("Task");
-// Menampilkan jumlah tugas sebelum dan sesudah penghapusan
+//Menampilkan jumlah tugas sebelum dan sesudah penghapusan
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Hapus tugas
 task.Delete();

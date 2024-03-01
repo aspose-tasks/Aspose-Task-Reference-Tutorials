@@ -151,7 +151,7 @@ A2: Absoluut, Aspose.Tasks ondersteunt het importeren van agenda's uit Microsoft
 
 ### Q3: Hoe kan ik een specifieke kalender uit een project verwijderen?
 
-A3: U kunt een kalender verwijderen door deze uit de collectie te halen en vervolgens te bellen naar de`Remove` methode.
+ A3: U kunt een kalender verwijderen door deze uit de collectie te halen en vervolgens te bellen naar de`Remove` methode.
 
 ### V4: Ondersteunt Aspose.Tasks het exporteren van agenda's naar verschillende formaten?
 

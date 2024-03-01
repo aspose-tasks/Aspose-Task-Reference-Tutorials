@@ -31,9 +31,9 @@ Gdy zagłębisz się w świat zarządzania projektami, opanowanie kodów konspek
 Efektywnie zarządzaj wartościami konspektu programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Ten samouczek umożliwia łatwe dostosowywanie konturów projektu, zapewniając płynne doświadczenie w procesie zarządzania projektami.[Czytaj więcej](./outline-values/)
 
 ## Zbiór wartości konspektu w Aspose.Tasks dla .NET
- Dowiedz się, jak zarządzać wartościami konspektu w plikach Microsoft Project za pomocą Aspose.Tasks dla .NET. Ten samouczek krok po kroku zawiera przykłady kodu, dzięki którym możesz bez wysiłku wdrożyć te praktyki.[Czytaj więcej](./outline-value-collection/)
+ Dowiedz się, jak zarządzać wartościami konspektu w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET. Ten samouczek krok po kroku zawiera przykłady kodu, dzięki którym możesz bez wysiłku wdrożyć te praktyki.[Czytaj więcej](./outline-value-collection/)
 
-## Skonfiguruj legendę strony w Aspose.Tasks dla .NET
+## Konfigurowanie legendy strony w Aspose.Tasks dla .NET
  Efektywne zarządzanie projektami obejmuje także konfigurowanie legend stron MS Project w .NET. Ten samouczek, wykorzystujący Aspose.Tasks, zawiera przewodnik krok po kroku dotyczący dostosowywania legend projektu w celu uzyskania optymalnej wydajności.[Czytaj więcej](./page-legend/)
 
 ## Bez wysiłku ustawiaj marginesy strony projektu MS za pomocą Aspose.Tasks dla .NET
@@ -62,8 +62,8 @@ Dowiedz się, jak manipulować maskami konturowymi kolekcji MS Project za pomoc�
 ### [Opanowanie wartości zarysu projektu MS za pomocą Aspose.Tasks](./outline-values/)
 Dowiedz się, jak efektywnie zarządzać wartościami konspektu MS Project za pomocą Aspose.Tasks dla .NET. Z łatwością dostosowuj kontury projektu.
 ### [Zbiór wartości konspektu w Aspose.Tasks](./outline-value-collection/)
-Dowiedz się, jak zarządzać wartościami konspektu w plikach Microsoft Project za pomocą Aspose.Tasks dla .NET. Samouczek krok po kroku z przykładami kodu.
-### [Skonfiguruj legendę strony w Aspose.Tasks](./page-legend/)
+Dowiedz się, jak zarządzać wartościami konspektu w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET. Samouczek krok po kroku z przykładami kodu.
+### [Konfigurowanie legendy strony w Aspose.Tasks](./page-legend/)
 Dowiedz się, jak skonfigurować legendy stron MS Project w .NET przy użyciu Aspose.Tasks w celu wydajnego zarządzania projektami. Dostarczono przewodnik krok po kroku.
 ### [Bez wysiłku ustawiaj marginesy strony projektu MS za pomocą Aspose.Tasks](./page-margins/)
 Dowiedz się, jak dostosować marginesy strony w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET. Z łatwością ulepszaj układ i prezentację dokumentów.

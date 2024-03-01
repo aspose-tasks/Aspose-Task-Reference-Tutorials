@@ -32,7 +32,7 @@ Geef eerst het pad naar uw Microsoft Project-bestand op:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- vervangen`"Your Document Directory"` met het pad naar uw projectbestand.
+ Vervangen`"Your Document Directory"` met het pad naar uw projectbestand.
 ## Stap 2: Informatie over taakgroepen ophalen
 Haal vervolgens informatie op over taakgroepen in het project:
 ```csharp

@@ -13,7 +13,7 @@ url: /ar/net/project-management-integration/project-online-exceptions/
 قبل أن نبدأ، تأكد من إعداد المتطلبات الأساسية التالية:
 
 ## استيراد مساحات الأسماء
-1. Aspose.Tasks: قم باستيراد مساحة الاسم Aspose.Tasks للوصول إلى الوظائف التي توفرها واجهة برمجة تطبيقات Aspose.Tasks.
+1. Aspose.Tasks: قم باستيراد مساحة الاسم Aspose.Tasks للوصول إلى الوظائف التي توفرها واجهة برمجة التطبيقات Aspose.Tasks.
 ```csharp
 using Aspose.Tasks;
 using System;
@@ -71,6 +71,6 @@ manager.CreateNewProject(project);
 ### س: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Tasks؟
  ج: تتوفر الوثائق التفصيلية لـ Aspose.Tasks[هنا](https://reference.aspose.com/tasks/net/).
 ### س: كيف يمكنني الحصول على الدعم لـ Aspose.Tasks؟
- ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks.[هنا](https://forum.aspose.com/c/tasks/15).
+ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: كيف يمكنني شراء ترخيص Aspose.Tasks؟
  ج: يمكنك شراء ترخيص Aspose.Tasks من[صفحة الشراء](https://purchase.aspose.com/buy).

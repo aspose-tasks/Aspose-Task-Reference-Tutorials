@@ -26,7 +26,7 @@ using Aspose.Tasks.Saving;
 // Jalur ke direktori dokumen.
 String DataDir = "Your Document Directory";
 ```
- mengganti`"Your Document Directory"` dengan jalur di mana dokumen MSP Anda berada.
+ Mengganti`"Your Document Directory"` dengan jalur di mana dokumen MSP Anda berada.
 ## Langkah 2: Muat Dokumen MSP
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");

@@ -27,7 +27,7 @@ Základní znalost programování .NET je nezbytná pro pochopení konceptů pro
 
 Chcete-li začít, musíte do svého projektu .NET importovat požadované jmenné prostory. 
 
- Zahrnout`Aspose.Tasks` jmenný prostor ve vašem projektu pro přístup ke třídám a metodám poskytovaným knihovnou Aspose.Tasks.
+ Zahrnout`Aspose.Tasks`jmenný prostor ve vašem projektu pro přístup ke třídám a metodám poskytovaným knihovnou Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Nyní si uvedený příklad rozdělíme do několika kroků:
 
 ## Krok 1: Načtěte soubor projektu
 
- Začněte načtením souboru projektu pomocí`Project`konstruktor třídy.
+ Začněte načtením souboru projektu pomocí`Project` konstruktor třídy.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

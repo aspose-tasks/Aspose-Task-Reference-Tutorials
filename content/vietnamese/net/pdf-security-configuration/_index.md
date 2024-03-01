@@ -2,7 +2,7 @@
 title: Cấu hình bảo mật Aspose.Tasks PDF
 linktitle: Cấu hình bảo mật Aspose.Tasks PDF
 second_title: Aspose.Tasks .NET API
-description: Khám phá cách nâng cao tính bảo mật của các tệp PDF Microsoft Project của bạn bằng Aspose.Tasks cho .NET. Tìm hiểu kỹ thuật mã hóa và chữ ký số.
+description: Khám phá cách nâng cao tính bảo mật của các tệp PDF Microsoft Project của bạn bằng Aspose.Tasks for .NET. Tìm hiểu kỹ thuật mã hóa và chữ ký số.
 type: docs
 weight: 35
 url: /vi/net/pdf-security-configuration/

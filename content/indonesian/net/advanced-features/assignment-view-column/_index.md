@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Langkah 3: Tentukan Kolom Kustom
 
- Sekarang, tentukan kolom khusus Anda dengan membuat sebuah instance`AssignmentViewColumn`Kelas ini memerlukan nama kolom, lebar, dan fungsi delegasi untuk mengubah data tugas menjadi teks kolom:
+ Sekarang, tentukan kolom khusus Anda dengan membuat sebuah instance`AssignmentViewColumn`. Kelas ini memerlukan nama kolom, lebar, dan fungsi delegasi untuk mengubah data tugas menjadi teks kolom:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

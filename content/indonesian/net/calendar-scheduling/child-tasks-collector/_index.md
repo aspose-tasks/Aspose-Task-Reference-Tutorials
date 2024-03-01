@@ -18,7 +18,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 1. Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# sangat penting.
 2.  Instalasi Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[tautan unduhan](https://releases.aspose.com/tasks/net/).
 3. Lingkungan Pengembangan: Siapkan lingkungan pengembangan, seperti Visual Studio, untuk menulis dan mengeksekusi kode C#.
-4.  Akses ke Dokumentasi: Simpan[Aspose.Tasks untuk dokumentasi .NET](https://reference.aspose.com/tasks/net/) berguna untuk referensi.
+4. Akses ke Dokumentasi: Simpan[Aspose.Tasks untuk dokumentasi .NET](https://reference.aspose.com/tasks/net/) berguna untuk referensi.
 
 Sekarang setelah prasyaratnya tercakup, mari selami panduan langkah demi langkah untuk mengumpulkan tugas anak menggunakan Aspose.Tasks untuk .NET.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Kami menerapkan`ChildTasksCollector`ke tugas utama proyek, memulai proses pengumpulan secara rekursif.
+ Kami menerapkan`ChildTasksCollector` ke tugas utama proyek, memulai proses pengumpulan secara rekursif.
 
 ## Langkah 4: Ulangi Tugas yang Dikumpulkan
 
@@ -91,7 +91,7 @@ A3: Meskipun dirancang khusus untuk lingkungan .NET, Aspose.Tasks untuk .NET dap
 
 ### Q4: Apakah dukungan teknis tersedia untuk Aspose.Tasks untuk .NET?
 
- A4: Ya, pengguna dapat mengakses dukungan teknis melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+A4: Ya, pengguna dapat mengakses dukungan teknis melalui[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: Dapatkah saya mencoba Aspose.Tasks untuk .NET sebelum membeli?
 

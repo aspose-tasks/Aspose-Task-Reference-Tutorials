@@ -17,7 +17,7 @@ Voordat u Aspose.Tasks voor .NET gaat gebruiken, zijn er een aantal vereisten wa
 
 ### 1. Aspose.Tasks voor .NET installeren
 
- Om aan de slag te gaan, moet u Aspose.Tasks voor .NET downloaden en installeren. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/tasks/net/), Volg de meegeleverde installatie-instructies om de bibliotheek in uw ontwikkelomgeving in te stellen.
+ Om aan de slag te gaan, moet u Aspose.Tasks voor .NET downloaden en installeren. Je kunt de downloadlink vinden[hier](https://releases.aspose.com/tasks/net/). Volg de meegeleverde installatie-instructies om de bibliotheek in uw ontwikkelomgeving in te stellen.
 
 ### 2. Naamruimten importeren
 

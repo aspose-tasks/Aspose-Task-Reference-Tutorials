@@ -25,7 +25,7 @@ url: /ru/net/task-table-management/task-baselines/
 ```csharp
 var project = new Project();
 ```
- Начните с инициализации нового проекта с помощью`Project` класс.класс.
+ Начните с инициализации нового проекта с помощью`Project` сорт.
 ## Шаг 2. Создайте задачу и установите базовый план
 ```csharp
 var task = project.RootTask.Children.Add("Task");
@@ -48,7 +48,7 @@ Console.WriteLine("Interim: {0}", baseline.Interim);
 Console.WriteLine("Fixed Cost: {0}", baseline.FixedCost);
 ```
 Узнайте дополнительную информацию, в том числе о том, является ли базовый план промежуточным, а также связанные с ним фиксированные затраты.
-## Шаг 5. Печать поэтапных данных
+## Шаг 5. Печать повременных данных
 ```csharp
 Console.WriteLine("Number of timephased items: " + baseline.TimephasedData.Count);
 foreach (var data in baseline.TimephasedData)
@@ -65,10 +65,10 @@ foreach (var data in baseline.TimephasedData)
 ### Вопрос: Могу ли я использовать Aspose.Tasks с другими платформами .NET?
 О: Aspose.Tasks совместим с несколькими платформами .NET, обеспечивая гибкость вашей среды разработки.
 ### Вопрос: Существует ли форум сообщества для поддержки Aspose.Tasks?
-О: Да, вы можете найти поддержку и пообщаться с сообществом на сайте[Форум Aspose.Задачи](https://forum.aspose.com/c/tasks/15).
+ О: Да, вы можете найти поддержку и пообщаться с сообществом на сайте[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Вопрос: Как я могу получить временную лицензию на Aspose.Tasks?
- Визит[здесь](https://purchase.aspose.com/temporary-license/) получить временную лицензию на Aspose.Tasks.
+ Визит[здесь](https://purchase.aspose.com/temporary-license/)получить временную лицензию для Aspose.Tasks.
 ### Вопрос: Существуют ли какие-либо учебные пособия, выходящие за рамки базовых показателей задач?
- А: Исследуйте[документация](https://reference.aspose.com/tasks/net/) широкий спектр учебных пособий по функциям Aspose.Tasks.
+ А: Исследуйте[документация](https://reference.aspose.com/tasks/net/) для широкого спектра учебных пособий по функциям Aspose.Tasks.
 ### Вопрос: Где я могу приобрести Aspose.Tasks для .NET?
  О: Вы можете удобно приобрести Aspose.Tasks.[здесь](https://purchase.aspose.com/buy).

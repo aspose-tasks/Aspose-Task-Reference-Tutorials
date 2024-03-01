@@ -2,14 +2,14 @@
 title: Aspose.Tasks의 CSV 옵션
 linktitle: Aspose.Tasks의 CSV 옵션
 second_title: Aspose.태스크 .NET API
-description: Aspose.Tasks for .NET을 활용하여 CSV 파일을 효율적으로 사용하여 프로젝트 관리 기능을 손쉽게 향상시키는 방법을 알아보세요.
+description: Aspose.Tasks for .NET을 활용하여 CSV 파일을 효율적으로 작업하고 프로젝트 관리 기능을 손쉽게 향상시키는 방법을 알아보세요.
 type: docs
 weight: 21
 url: /ko/net/calendar-scheduling/csv-options/
 ---
 ## 소개
 
-오늘날의 디지털 시대에 비즈니스가 성공하려면 작업과 프로젝트를 효율적으로 관리하는 것이 중요합니다. Aspose.Tasks for .NET은 개발자가 프로젝트 관리 파일을 쉽게 사용할 수 있는 강력한 툴킷을 제공합니다. 제공되는 주요 기능 중 하나는 CSV(쉼표로 구분된 값) 파일로 작업하는 기능입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks의 CSV 옵션을 자세히 살펴보고 각 예제를 단계별 가이드로 나누어 원활하게 이해하고 구현하는 데 도움을 드립니다.
+오늘날의 디지털 시대에 비즈니스가 성공하려면 작업과 프로젝트를 효율적으로 관리하는 것이 중요합니다. Aspose.Tasks for .NET은 개발자가 프로젝트 관리 파일을 쉽게 사용할 수 있는 강력한 툴킷을 제공합니다. 제공되는 주요 기능 중 하나는 CSV(쉼표로 구분된 값) 파일로 작업하는 기능입니다. 이 튜토리얼에서는 Aspose.Tasks for .NET의 CSV 옵션을 자세히 살펴보고 각 예제를 단계별 가이드로 나누어 원활하게 이해하고 구현하는 데 도움을 드립니다.
 
 ## 전제조건
 
@@ -71,7 +71,7 @@ A1: Aspose.Tasks for .NET은 수천 개의 작업이 포함된 대규모 프로�
 
 ### Q2: Aspose.Tasks for .NET에 사용할 수 있는 무료 평가판이 있습니까?
 
- A2: 예, 다음 사이트에서 Aspose.Tasks for .NET 무료 평가판을 얻을 수 있습니다.[웹사이트](https://releases.aspose.com/tasks/net/)구매하기 전에 기능을 평가하십시오.
+ A2: 예, 다음 사이트에서 Aspose.Tasks for .NET 무료 평가판을 얻을 수 있습니다.[웹사이트](https://releases.aspose.com/tasks/net/) 구매하기 전에 기능을 평가하십시오.
 
 ### Q3: .NET용 Aspose.Tasks는 여러 플랫폼을 지원합니까?
 

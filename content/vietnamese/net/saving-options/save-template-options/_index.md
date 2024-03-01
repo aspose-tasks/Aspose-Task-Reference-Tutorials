@@ -46,7 +46,7 @@ var options = new SaveTemplateOptions
 	RemoveActualValues = true,
 	// Xóa tỷ lệ tài nguyên khỏi mẫu dự án
 	RemoveResourceRates = true,
-	// Xóa tất cả các giá trị cơ bản khỏi mẫu dự án
+	// Xóa tất cả các giá trị cơ sở khỏi mẫu dự án
 	RemoveBaselineValues = true
 };
 ```
@@ -75,4 +75,4 @@ Trả lời: Có, bạn có thể áp dụng mẫu cho các dự án hiện có 
 ### Câu hỏi: Aspose.Tasks cho .NET có hỗ trợ phát triển đa nền tảng không?
 Trả lời: Aspose.Tasks for .NET được thiết kế chủ yếu cho các ứng dụng .NET framework chạy trên nền tảng Windows.
 ### Câu hỏi: Aspose.Tasks dành cho .NET có hỗ trợ kỹ thuật không?
- Đáp: Có, bạn có thể tìm kiếm sự hỗ trợ và hướng dẫn kỹ thuật từ cộng đồng Aspose.Tasks.[diễn đàn](https://forum.aspose.com/c/tasks/15) hoặc liên hệ trực tiếp với nhóm hỗ trợ của họ.
+ Trả lời: Có, bạn có thể tìm kiếm sự hỗ trợ và hướng dẫn kỹ thuật từ cộng đồng Aspose.Tasks[diễn đàn](https://forum.aspose.com/c/tasks/15)hoặc liên hệ trực tiếp với nhóm hỗ trợ của họ.

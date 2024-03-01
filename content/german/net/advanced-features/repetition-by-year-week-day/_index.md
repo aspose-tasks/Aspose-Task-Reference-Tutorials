@@ -21,7 +21,7 @@ Machen Sie sich mit den Grundlagen des .NET Frameworks vertraut, einschließlich
 
 ### 2. Installation von Aspose.Tasks für .NET
 
- Laden Sie die Aspose.Tasks für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/tasks/net/)Befolgen Sie die bereitgestellten Installationsanweisungen, um die Bibliothek in Ihre Entwicklungsumgebung zu integrieren.
+ Laden Sie die Aspose.Tasks für .NET-Bibliothek von herunter und installieren Sie sie[Download-Link](https://releases.aspose.com/tasks/net/). Befolgen Sie die bereitgestellten Installationsanweisungen, um die Bibliothek in Ihre Entwicklungsumgebung zu integrieren.
 
 ### 3. Zugriff auf Dokumentation
 
@@ -125,4 +125,4 @@ A: Ja, Aspose.Tasks für .NET bietet Unterstützung für cloudbasierte Projektma
 
 ### F5: Gibt es eine Testversion für Aspose.Tasks für .NET?
 
- A: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Tasks für .NET zugreifen[Webseite](https://releases.aspose.com/)So können Sie die Funktionen erkunden, bevor Sie eine Kaufentscheidung treffen.
+A: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Tasks für .NET zugreifen[Webseite](https://releases.aspose.com/)So können Sie die Funktionen erkunden, bevor Sie eine Kaufentscheidung treffen.

@@ -38,7 +38,7 @@ Tentukan jalur ke direktori tempat file MS Project Anda berada:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
+ Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
 ## Langkah 2: Muat File Proyek
  Muat file MS Project menggunakan`Project` kelas:
 ```csharp
@@ -52,7 +52,7 @@ foreach (var task in project.RootTask.Children)
 {
     foreach (var attribute in task.ExtendedAttributes)
     {
-        // Baca informasi umum tentang atribut yang diperluas
+        // Baca info umum tentang atribut yang diperluas
         Console.WriteLine("Extended Attribute: " + attribute.ToString());
     }
 }

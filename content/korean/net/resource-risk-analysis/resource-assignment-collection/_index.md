@@ -11,7 +11,7 @@ url: /ko/net/resource-risk-analysis/resource-assignment-collection/
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project에서 리소스 할당을 관리하는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다. 이 튜토리얼에서는 프로세스를 단계별로 자세히 살펴보고 리소스 할당을 효율적으로 조작하는 방법을 확실하게 이해할 수 있도록 하겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 여러분이 알아야 할 모든 것을 안내합니다.
 ## 전제조건
 코드를 살펴보기 전에 다음이 설정되어 있는지 확인하세요.
-1. .NET용 Aspose.Tasks 설치: 개발 환경에 .NET용 Aspose.Tasks가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
+1.  .NET용 Aspose.Tasks 설치: 개발 환경에 .NET용 Aspose.Tasks가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
 2. C#에 대한 기본 지식: 이 자습서에서는 사용자가 C# 프로그래밍 언어에 대한 기본 지식을 가지고 있다고 가정합니다.
 3. Microsoft Project 파일: 테스트 목적으로 Microsoft Project 파일을 준비합니다. 샘플 파일이 없으면 샘플 파일을 만들 수 있습니다.
 

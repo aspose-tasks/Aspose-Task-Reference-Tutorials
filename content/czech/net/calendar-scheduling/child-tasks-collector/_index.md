@@ -18,7 +18,7 @@ Než začneme, ujistěte se, že máte splněny následující předpoklady:
 1. Základní porozumění C#: Znalost programovacího jazyka C# je nezbytná.
 2.  Instalace Aspose.Tasks for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[odkaz ke stažení](https://releases.aspose.com/tasks/net/).
 3. Vývojové prostředí: Nastavte vývojové prostředí, jako je Visual Studio, pro psaní a spouštění kódu C#.
-4.  Přístup k dokumentaci: Uschovejte[Aspose.Tasks pro dokumentaci .NET](https://reference.aspose.com/tasks/net/) užitečné pro referenci.
+4. Přístup k dokumentaci: Uschovejte[Aspose.Tasks pro dokumentaci .NET](https://reference.aspose.com/tasks/net/) užitečné pro referenci.
 
 Nyní, když máme pokryty předpoklady, pojďme se ponořit do podrobného průvodce shromažďováním podřízených úkolů pomocí Aspose.Tasks for .NET.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Aplikujeme`ChildTasksCollector`ke kořenové úloze projektu a rekurzivně inicializuje proces sběru.
+ Aplikujeme`ChildTasksCollector` ke kořenové úloze projektu a rekurzivně inicializuje proces sběru.
 
 ## Krok 4: Iterujte shromážděné úkoly
 
@@ -91,7 +91,7 @@ A3: Přestože jsou Aspose.Tasks pro .NET primárně určeny pro prostředí .NE
 
 ### Q4: Je k dispozici technická podpora pro Aspose.Tasks pro .NET?
 
- A4: Ano, uživatelé mají přístup k technické podpoře prostřednictvím[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+A4: Ano, uživatelé mají přístup k technické podpoře prostřednictvím[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: Mohu vyzkoušet Aspose.Tasks pro .NET před nákupem?
 

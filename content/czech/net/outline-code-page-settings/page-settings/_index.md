@@ -1,6 +1,6 @@
 ---
 title: Konfigurace nastavení stránky MS Project pomocí Aspose.Tasks
-linktitle: Nakonfigurujte nastavení stránky v Aspose.Tasks
+linktitle: Konfigurace nastavení stránky v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat nastavení stránky MS Project pomocí Aspose.Tasks for .NET. Přizpůsobte si orientaci, velikost a další pomocí jednoduchých kroků.
 type: docs
@@ -64,7 +64,7 @@ project.Save(dataDir + "TestCanWritePageSettings.mpp", options);
 ```
 
 ## Závěr
-tomto tutoriálu jsme se naučili, jak nakonfigurovat nastavení stránky Microsoft Project pomocí Aspose.Tasks for .NET. Pomocí těchto kroků můžete snadno přizpůsobit orientaci stránky, velikost a další možnosti tisku podle vašich požadavků.
+V tomto tutoriálu jsme se naučili, jak nakonfigurovat nastavení stránky Microsoft Project pomocí Aspose.Tasks for .NET. Pomocí těchto kroků můžete snadno přizpůsobit orientaci stránky, velikost a další možnosti tisku podle vašich požadavků.
 
 ## FAQ
 ### Otázka: Mohu konfigurovat nastavení stránky pro více souborů MS Project současně?

@@ -87,4 +87,4 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks được thiết kế để đ�
 ### Câu hỏi: Tôi có thể tùy chỉnh cài đặt phân tích rủi ro trong Aspose.Tasks không?
 Trả lời: Có, Aspose.Tasks mang đến sự linh hoạt trong việc định cấu hình cài đặt phân tích rủi ro để phù hợp với các yêu cầu và kịch bản dự án cụ thể của bạn.
 ### Câu hỏi: Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
- Trả lời: Có, người dùng Aspose.Tasks có thể truy cập hỗ trợ kỹ thuật thông qua Aspose.[diễn đàn](https://forum.aspose.com/c/tasks/15), nơi họ có thể đặt câu hỏi, báo cáo vấn đề và tương tác với cộng đồng.
+ Trả lời: Có, người dùng Aspose.Tasks có thể truy cập hỗ trợ kỹ thuật thông qua Aspose[diễn đàn](https://forum.aspose.com/c/tasks/15), nơi họ có thể đặt câu hỏi, báo cáo vấn đề và tương tác với cộng đồng.

@@ -21,7 +21,7 @@ Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következ
 
 ## Névterek importálása
 
-C# projektben vegye fel a következő névtereket a szükséges osztályok és metódusok eléréséhez:
+A C# projektben vegye fel a következő névtereket a szükséges osztályok és metódusok eléréséhez:
 
 ```csharp
 using Aspose.Tasks;
@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## 1. lépés: Töltse be a projektfájlt
 
- Kezdje azzal, hogy betölti a Microsoft Project fájlt (.mpp), amelynél ellenőrizni szeretné, hogy nem sérült-e meg a szerkezet. Használja a`Project` osztályt a fájl betöltéséhez.
+Kezdje azzal, hogy betölti a Microsoft Project fájlt (.mpp), amelynél ellenőrizni szeretné, hogy nem sérült-e meg a szerkezet. Használja a`Project` osztályt a fájl betöltéséhez.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## 2. lépés: Ellenőrizze a projekt szerkezetét
 
- A projekten belüli törött szerkezetek észleléséhez a`CheckCircuit` osztály együtt`TaskUtils.Apply` módszer.
+ A projekten belüli törött szerkezetek észleléséhez a`CheckCircuit` osztály a`TaskUtils.Apply` módszer.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ Az Aspose.Tasks for .NET segítségével a projektfájlok kezelése és elemzés
 
 ### 3. kérdés: Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
 
-3. válasz: Kérhet segítséget az Aspose.Tasks közösségi fórumtól[itt](https://forum.aspose.com/c/tasks/15).
+ 3. válasz: Kérhet segítséget az Aspose.Tasks közösségi fórumtól[itt](https://forum.aspose.com/c/tasks/15).
 
 ### 4. kérdés: Szükségem van ideiglenes licencre tesztelés céljából?
 

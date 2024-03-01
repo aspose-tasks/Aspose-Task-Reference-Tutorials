@@ -32,7 +32,7 @@ Najpierw określ ścieżkę do pliku Microsoft Project:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- zastępować`"Your Document Directory"` ze ścieżką do pliku projektu.
+ Zastępować`"Your Document Directory"` ze ścieżką do pliku projektu.
 ## Krok 2: Pobierz informacje o grupach zadań
 Następnie pobierz informacje o grupach zadań w projekcie:
 ```csharp

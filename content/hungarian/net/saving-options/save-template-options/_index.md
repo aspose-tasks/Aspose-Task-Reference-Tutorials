@@ -75,4 +75,4 @@ V: Igen, alkalmazhat sablonokat meglévő projektekre, ha betölti a sablonfájl
 ### K: Az Aspose.Tasks for .NET támogatja a platformok közötti fejlesztést?
 V: Az Aspose.Tasks for .NET elsősorban Windows platformon futó .NET-keretrendszer-alkalmazásokhoz készült.
 ### K: Elérhető technikai támogatás az Aspose.Tasks for .NET számára?
- V: Igen, kérhet technikai segítséget és útmutatást az Aspose.Tasks közösségtől.[fórumok](https://forum.aspose.com/c/tasks/15) vagy forduljon közvetlenül a támogatási csapatukhoz.
+ V: Igen, kérhet technikai segítséget és útmutatást az Aspose.Tasks közösségtől[fórumok](https://forum.aspose.com/c/tasks/15)vagy forduljon közvetlenül a támogatási csapatukhoz.

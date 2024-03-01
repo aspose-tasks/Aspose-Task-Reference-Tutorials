@@ -15,7 +15,7 @@ Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a követ
 - C# programozási alapismeretek
 - NET projektekhez beállított fejlesztői környezet
 ## Névterek importálása
-C# kódban győződjön meg arról, hogy tartalmazza a szükséges névtereket az Aspose.Tasks funkcióinak kihasználásához. Adja hozzá a következőket a szkript elejéhez:
+A C# kódban győződjön meg arról, hogy tartalmazza a szükséges névtereket az Aspose.Tasks funkcióinak kihasználásához. Adja hozzá a következőket a szkript elejéhez:
 ```csharp
     
     using Aspose.Tasks.Saving;
@@ -71,6 +71,6 @@ Teljesen! Az Aspose.Tasks rugalmasságot biztosít a WBS-kódok projektkövetelm
 ### Létezik próbaverzió?
  Igen tudsz[tölts le egy ingyenes próbaverziót](https://releases.aspose.com/) hogy vásárlás előtt fedezze fel a funkciókat.
 ### Hogyan kaphatok közösségi támogatást az Aspose.Tasks-hoz?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) kapcsolatba lépni a közösséggel és segítséget kérni.
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) kapcsolatba lépni a közösséggel és segítséget kérni.
 ### Vannak ideiglenes licencek?
- Igen, kaphat a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
+ Igen, megszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) tesztelési célokra.

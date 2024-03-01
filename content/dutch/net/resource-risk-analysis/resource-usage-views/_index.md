@@ -1,6 +1,6 @@
 ---
-title: Configureer MS Project Resource Gebruiksweergaven in Aspose.Tasks
-linktitle: Configureer resourcegebruiksweergaven in Aspose.Tasks
+title: Weergaven van MS Project-resourcegebruik configureren in Aspose.Tasks
+linktitle: Resourcegebruiksweergaven configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-resourcegebruiksweergaven configureert met Aspose.Tasks voor .NET. Stap-voor-stap handleiding met codevoorbeelden inbegrepen.
 type: docs

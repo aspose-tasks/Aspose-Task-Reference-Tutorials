@@ -50,9 +50,9 @@ Závěrem lze říci, že Aspose.Tasks for .NET umožňuje vývojářům bezprob
 ### Je Aspose.Tasks kompatibilní se všemi formáty souborů pro správu projektů?
  Aspose.Tasks podporuje různé formáty projektových souborů, včetně MPP, XML a dalších. Odkazovat na[dokumentace](https://reference.aspose.com/tasks/net/) pro úplný seznam.
 ### Mohu Aspose.Tasks před nákupem vyzkoušet?
-Ano, můžete prozkoumat Aspose.Tasks s bezplatnou zkušební verzí. Stáhněte si jej z[stránka vydání](https://releases.aspose.com/).
+ Ano, můžete prozkoumat Aspose.Tasks s bezplatnou zkušební verzí. Stáhněte si jej z[stránka vydání](https://releases.aspose.com/).
 ### Kde najdu další podporu pro Aspose.Tasks?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a diskuze.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a diskuze.
 ### Jak získám dočasnou licenci pro Aspose.Tasks?
  Získejte dočasnou licenci pro Aspose.Tasks návštěvou[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
 ### Jaké výhody nabízí Aspose.Tasks pro manipulaci s pracovními jednotkami?

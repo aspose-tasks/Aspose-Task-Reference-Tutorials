@@ -12,7 +12,7 @@ Aspose.Tasks for .NET は、Microsoft Project ファイルを操作するため�
 ## 前提条件
 始める前に、次の設定がされていることを確認してください。
 - C# プログラミング言語に関する実践的な知識。
-- Aspose.Tasks for .NET ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks for .NET ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
 - Visual Studio などの統合開発環境 (IDE)。
 ## 名前空間のインポート
 まず、必要な名前空間が C# ファイルの先頭にインポートされていることを確認します。
@@ -72,7 +72,7 @@ table.TableFields.Insert(idx, field2);
 table.TableFields[idx].WrapHeader = true;
 ```
 ## ステップ 7: フィールドを削除する
-テーブルのフィールドを 1 つずつ削除するか、コレクション全体をクリアします。
+テーブルフィールドを 1 つずつ削除するか、コレクション全体をクリアします。
 ```csharp
 Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
 //フィールドを削除する

@@ -9,7 +9,7 @@ url: /pl/net/calendar-scheduling/calendar-collection/
 ---
 ## Wstęp
 
-tym samouczku omówimy, jak zarządzać kolekcjami kalendarzy w Aspose.Tasks dla .NET. Kalendarze odgrywają kluczową rolę w zarządzaniu projektami, definiując dni robocze, święta i wyjątki. Aspose.Tasks zapewnia solidną funkcjonalność do manipulowania kalendarzami w projektach.
+W tym samouczku omówimy, jak zarządzać kolekcjami kalendarzy w Aspose.Tasks dla .NET. Kalendarze odgrywają kluczową rolę w zarządzaniu projektami, definiując dni robocze, święta i wyjątki. Aspose.Tasks zapewnia solidną funkcjonalność do manipulowania kalendarzami w projektach.
 
 ## Warunki wstępne
 
@@ -151,7 +151,7 @@ Odpowiedź 2: Oczywiście, Aspose.Tasks obsługuje importowanie kalendarzy z pli
 
 ### P3: Jak mogę usunąć konkretny kalendarz z projektu?
 
-Odpowiedź 3: Możesz usunąć kalendarz, pobierając go z kolekcji, a następnie wywołując metodę`Remove` metoda.
+ Odpowiedź 3: Możesz usunąć kalendarz, pobierając go z kolekcji, a następnie wywołując metodę`Remove` metoda.
 
 ### P4: Czy Aspose.Tasks obsługuje eksportowanie kalendarzy do różnych formatów?
 

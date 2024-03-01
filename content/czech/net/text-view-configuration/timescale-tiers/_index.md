@@ -8,11 +8,11 @@ weight: 16
 url: /cs/net/text-view-configuration/timescale-tiers/
 ---
 ## Úvod
-dynamickém prostředí projektového řízení je efektivní vizualizace zásadní pro pochopení časových os a termínů. Aspose.Tasks for .NET poskytuje výkonnou sadu nástrojů a v tomto tutoriálu prozkoumáme, jak nakonfigurovat vrstvy časové osy pro optimální reprezentaci v zobrazení Ganttova diagramu. Chcete-li zlepšit vizualizaci projektu, postupujte podle těchto podrobných pokynů.
+V dynamickém prostředí projektového řízení je efektivní vizualizace zásadní pro pochopení časových os a termínů. Aspose.Tasks for .NET poskytuje výkonnou sadu nástrojů a v tomto tutoriálu prozkoumáme, jak nakonfigurovat vrstvy časové osy pro optimální reprezentaci v zobrazení Ganttova diagramu. Chcete-li zlepšit vizualizaci projektu, postupujte podle těchto podrobných pokynů.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte následující:
 - Základní znalost C# a .NET.
-- Nainstalovaná knihovna Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
+-  Nainstalovaná knihovna Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
 - Vývojové prostředí nastavené pro vývoj aplikací .NET.
 ## Importovat jmenné prostory
 ```csharp

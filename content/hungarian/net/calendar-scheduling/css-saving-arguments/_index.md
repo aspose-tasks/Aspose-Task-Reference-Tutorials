@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Konfigurálja a HTML mentési beállításokat
+        //Konfigurálja a HTML mentési beállításokat
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan menthetők el a CSS-argumentumok
 
 ### 4. kérdés: Hol találom az Aspose.Tasks for .NET átfogó dokumentációját?
 
- A4: Hivatkozhat a[dokumentáció](https://reference.aspose.com/tasks/net/) részletes információkért és példákért.
+A4: Hivatkozhat a[dokumentáció](https://reference.aspose.com/tasks/net/) részletes információkért és példákért.
 
 ### 5. kérdés: Az Aspose.Tasks for .NET támogatja a fejlesztőket?
 

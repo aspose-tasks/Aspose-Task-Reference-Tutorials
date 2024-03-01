@@ -1,6 +1,6 @@
 ---
-title: Configurer les vues d'utilisation des ressources MS Project dans Aspose.Tasks
-linktitle: Configurer les vues d'utilisation des ressources dans Aspose.Tasks
+title: Configuration des vues d'utilisation des ressources MS Project dans Aspose.Tasks
+linktitle: Configuration des vues d'utilisation des ressources dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les vues d'utilisation des ressources MS Project à l'aide d'Aspose.Tasks pour .NET. Guide étape par étape avec des exemples de code inclus.
 type: docs

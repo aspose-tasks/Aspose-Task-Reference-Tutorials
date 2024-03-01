@@ -15,7 +15,7 @@ Trong quản lý dự án, việc hiểu và giảm thiểu rủi ro là rất q
 Trước khi chúng ta đi sâu vào quản lý các mẫu rủi ro MS Project bằng Aspose.Tasks cho .NET, hãy đảm bảo bạn có những điều sau:
 
 1. Tệp dự án Microsoft: Có tệp Microsoft Project (.mpp) chứa các nhiệm vụ và dữ liệu dự án có liên quan.
-2. Aspose.Tasks cho .NET: Tải xuống và cài đặt thư viện Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks cho .NET: Tải xuống và cài đặt thư viện Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/tasks/net/).
 3. Hiểu biết cơ bản về C#: Nên làm quen với các kiến thức cơ bản về ngôn ngữ lập trình C#.
 
 ## Nhập không gian tên
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- Trong bước này, chúng tôi xác định thư mục cho tài liệu dự án và tạo cài đặt để phân tích rủi ro. Điều chỉnh`IterationsCount` khi cần thiết dựa trên độ phức tạp của dự án.
+Trong bước này, chúng tôi xác định thư mục cho tài liệu dự án và tạo cài đặt để phân tích rủi ro. Điều chỉnh`IterationsCount` khi cần thiết dựa trên độ phức tạp của dự án.
 
 ## Bước 2: Tải dự án và nhiệm vụ
 

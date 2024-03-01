@@ -11,7 +11,7 @@ url: /ko/net/project-management-integration/print-options/
 소프트웨어 개발 영역에서 Aspose.Tasks for .NET은 작업과 프로젝트를 효율적으로 관리하기 위한 강력한 도구로 돋보입니다. 주요 기능 중 하나는 Microsoft Project 인쇄 옵션을 원활하게 구성하는 기능입니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 MS Project 인쇄 옵션을 구성하는 과정을 자세히 살펴보겠습니다.
 ## 전제조건
 MS Project 인쇄 옵션을 구성하는 복잡한 과정을 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-1.  .NET용 Aspose.Tasks 설치: .NET 라이브러리용 Aspose.Tasks를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
+1. .NET용 Aspose.Tasks 설치: .NET 라이브러리용 Aspose.Tasks를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
 2. C#의 기본 이해: 이 자습서에서는 주로 C#을 데모용으로 사용하므로 C# 프로그래밍 언어 기본 사항에 익숙해지세요.
 
 ## 네임스페이스 가져오기
@@ -43,7 +43,7 @@ var options = new PrintOptions
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //인쇄를 진행하세요
+    // 인쇄를 진행하세요
     project.Print(options);
 }
 ```

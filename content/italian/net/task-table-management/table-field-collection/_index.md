@@ -8,11 +8,11 @@ weight: 13
 url: /it/net/task-table-management/table-field-collection/
 ---
 ## introduzione
-Aspose.Tasks per .NET è una potente libreria che facilita la gestione dei progetti fornendo funzionalità estese per lavorare con i file di Microsoft Project. In questo tutorial, approfondiremo la raccolta di campi della tabella in Aspose.Tasks, esplorando come manipolarli e gestirli in modo efficiente utilizzando C#.
+Aspose.Tasks per .NET è una potente libreria che facilita la gestione dei progetti fornendo ampie funzionalità per lavorare con i file di Microsoft Project. In questo tutorial, approfondiremo la raccolta di campi della tabella in Aspose.Tasks, esplorando come manipolarli e gestirli in modo efficiente utilizzando C#.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere la seguente configurazione:
 - Una conoscenza pratica del linguaggio di programmazione C#.
-- Aspose.Tasks per la libreria .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks per la libreria .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
 - Un ambiente di sviluppo integrato (IDE) come Visual Studio.
 ## Importa spazi dei nomi
 Innanzitutto, assicurati di aver importato gli spazi dei nomi necessari all'inizio del file C#:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // scorrere i campi della tabella
+    //scorrere i campi della tabella
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -108,6 +108,6 @@ Assolutamente! Come mostrato nel tutorial, puoi aggiungere, inserire, modificare
 ### Esistono considerazioni sulla licenza per l'utilizzo di Aspose.Tasks per .NET in un progetto commerciale?
  Sì, è necessaria una licenza valida per utilizzare Aspose.Tasks per .NET in un progetto commerciale. È possibile ottenere una licenza[Qui](https://purchase.aspose.com/buy).
 ### Come posso ottenere supporto o chiedere assistenza con Aspose.Tasks per .NET?
- visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per ottenere supporto, porre domande e collaborare con la comunità.
+ Visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)per ottenere supporto, porre domande e collaborare con la comunità.
 ### È disponibile una prova gratuita per Aspose.Tasks per .NET?
  Sì, puoi esplorare le funzionalità di Aspose.Tasks per .NET con una prova gratuita. Scaricalo[Qui](https://releases.aspose.com/).

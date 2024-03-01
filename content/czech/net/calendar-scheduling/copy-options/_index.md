@@ -75,7 +75,7 @@ project.CopyTo(mppProject, copyToOptions);
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali možnosti kopírování v Aspose.Tasks pro .NET, což umožňuje vývojářům efektivně spravovat úlohy kopírování dat projektu. Dodržováním tohoto podrobného průvodce můžete bezproblémově integrovat funkce kopírování projektů do aplikací .NET, čímž zvýšíte produktivitu a možnosti řízení projektů.
+tomto tutoriálu jsme prozkoumali možnosti kopírování v Aspose.Tasks pro .NET, což umožňuje vývojářům efektivně spravovat úlohy kopírování dat projektu. Dodržováním tohoto podrobného průvodce můžete bezproblémově integrovat funkce kopírování projektů do aplikací .NET, čímž zvýšíte produktivitu a možnosti řízení projektů.
 
 ## FAQ
 

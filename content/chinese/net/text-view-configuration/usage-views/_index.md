@@ -11,7 +11,7 @@ url: /zh/net/text-view-configuration/usage-views/
 如果您是一名希望增强项目管理能力的 .NET 开发人员，Aspose.Tasks 是一款功能强大的工具，可让您轻松操作 Microsoft Project 文件。在本教程中，我们将重点介绍使用 Aspose.Tasks for .NET 配置使用视图。请继续深入了解渲染任务使用情况视图以及更好的项目可视化的详细信息。
 ## 先决条件
 在深入学习本教程之前，请确保您具备以下先决条件：
-- Aspose.Tasks 库：确保您已将 Aspose.Tasks 库集成到您的 .NET 项目中。如果没有的话可以下载[这里](https://releases.aspose.com/tasks/net/)并按照安装说明进行操作。
+-  Aspose.Tasks 库：确保您已将 Aspose.Tasks 库集成到您的 .NET 项目中。如果没有的话可以下载[这里](https://releases.aspose.com/tasks/net/)并按照安装说明进行操作。
 - 文档目录：设置存储项目文档的目录。将代码片段中的“您的文档目录”替换为文档目录的实际路径。
 ## 导入命名空间
 在提供的代码片段中，您会注意到某些命名空间的使用。确保将这些包含在您的项目中以实现无缝集成：

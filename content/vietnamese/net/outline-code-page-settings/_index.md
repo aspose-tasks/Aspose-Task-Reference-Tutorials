@@ -27,11 +27,11 @@ Khi bạn đi sâu vào thế giới quản lý dự án, việc nắm vững c�
 ## Bộ sưu tập Mặt nạ phác thảo bằng Aspose.Tasks cho .NET
  Nâng cao năng suất của bạn bằng cách tìm hiểu cách thao tác với mặt nạ phác thảo của bộ sưu tập Microsoft Project bằng Aspose.Tasks cho .NET. Hướng dẫn toàn diện này cung cấp cho bạn các công cụ để tối ưu hóa quy trình quản lý dự án của bạn.[Đọc thêm](./outline-mask-collection/)
 
-## Làm chủ các giá trị phác thảo của dự án MS với Aspose.Tasks cho .NET
-Quản lý hiệu quả các giá trị phác thảo của Microsoft Project với Aspose.Tasks for .NET. Hướng dẫn này cho phép bạn tùy chỉnh đề cương dự án một cách dễ dàng, mang lại trải nghiệm liền mạch trong hành trình quản lý dự án của bạn.[Đọc thêm](./outline-values/)
+## Nắm vững các giá trị phác thảo dự án MS với Aspose.Tasks cho .NET
+Quản lý hiệu quả các giá trị phác thảo của Microsoft Project bằng Aspose.Tasks for .NET. Hướng dẫn này cho phép bạn tùy chỉnh đề cương dự án một cách dễ dàng, mang lại trải nghiệm liền mạch trong hành trình quản lý dự án của bạn.[Đọc thêm](./outline-values/)
 
-## Bộ sưu tập các giá trị Outline trong Aspose.Tasks cho .NET
- Tìm hiểu cách quản lý các giá trị phác thảo trong tệp Microsoft Project bằng Aspose.Tasks for .NET. Hướng dẫn từng bước này bao gồm các ví dụ về mã, đảm bảo bạn có thể triển khai các phương pháp này một cách dễ dàng.[Đọc thêm](./outline-value-collection/)
+## Bộ sưu tập các giá trị phác thảo trong Aspose.Tasks cho .NET
+ Tìm hiểu cách quản lý các giá trị phác thảo trong tệp Microsoft Project bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước này bao gồm các ví dụ về mã, đảm bảo bạn có thể triển khai các phương pháp này một cách dễ dàng.[Đọc thêm](./outline-value-collection/)
 
 ## Định cấu hình Chú giải Trang trong Aspose.Tasks cho .NET
  Quản lý dự án hiệu quả mở rộng đến việc định cấu hình chú giải trang MS Project trong .NET. Hướng dẫn này, sử dụng Aspose.Tasks, cung cấp hướng dẫn từng bước về cách điều chỉnh chú giải dự án của bạn để đạt hiệu quả tối ưu.[Đọc thêm](./page-legend/)
@@ -61,8 +61,8 @@ Tìm hiểu cách làm việc với các tệp Microsoft Project theo chương t
 Tìm hiểu cách thao tác với mặt nạ phác thảo của bộ sưu tập MS Project bằng Aspose.Tasks cho .NET. Nâng cao năng suất với hướng dẫn toàn diện này.
 ### [Nắm vững các giá trị phác thảo của dự án MS với Aspose.Tasks](./outline-values/)
 Tìm hiểu cách quản lý các giá trị phác thảo MS Project một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho .NET. Tùy chỉnh phác thảo dự án một cách dễ dàng.
-### [Tập hợp các giá trị Outline trong Aspose.Tasks](./outline-value-collection/)
-Tìm hiểu cách quản lý các giá trị phác thảo trong tệp Microsoft Project bằng Aspose.Tasks for .NET. Hướng dẫn từng bước với các ví dụ về mã.
+### [Bộ sưu tập các giá trị phác thảo trong Aspose.Tasks](./outline-value-collection/)
+Tìm hiểu cách quản lý các giá trị phác thảo trong tệp Microsoft Project bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước với các ví dụ về mã.
 ### [Định cấu hình Chú giải Trang trong Aspose.Tasks](./page-legend/)
 Tìm hiểu cách định cấu hình chú giải trang MS Project trong .NET bằng Aspose.Tasks để quản lý dự án hiệu quả. Hướng dẫn từng bước được cung cấp.
 ### [Dễ dàng đặt lề trang dự án MS với Aspose.Tasks](./page-margins/)

@@ -108,4 +108,4 @@ A4: 예, 이 튜토리얼에서 설명한 것처럼 프로젝트 요구 사항�
 
 ### Q5: Aspose.Tasks 관련 쿼리에 대한 지원은 어디서 찾을 수 있나요?
 
- A5: 다음에서 지원을 찾을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 전문가와 커뮤니티 구성원이 적극적으로 토론에 참여하는 곳입니다.
+A5: 다음에서 지원을 찾을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 전문가와 커뮤니티 구성원이 적극적으로 토론에 참여하는 곳입니다.

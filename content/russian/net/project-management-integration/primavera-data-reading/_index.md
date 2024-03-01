@@ -44,7 +44,7 @@ var options = new PrimaveraReadOptions();
 options.ProjectUid = 3881;
 ```
 ## Шаг 4. Считайте данные MS Project Primavera
- Использовать`Project` конструктор класса для чтения данных MS Project Primavera, указав путь к файлу и`PrimaveraReadOptions` Объект Object.
+ Использовать`Project` конструктор класса для чтения данных MS Project Primavera, указав путь к файлу и`PrimaveraReadOptions` объект.
 ```csharp
 var project = new Project(DataDir + "PrimaveraProject.xml", options);
 ```
@@ -64,6 +64,6 @@ Console.WriteLine(project.Get(Prj.Name));
 ### Вопрос: Могу ли я изменять и сохранять изменения в файлах MS Project Primavera с помощью Aspose.Tasks?
 А: Абсолютно! Aspose.Tasks позволяет вам не только читать, но также изменять и сохранять изменения в файлах MS Project Primavera в ваших .NET-приложениях.
 ### Вопрос: Доступна ли бесплатная пробная версия Aspose.Tasks?
- О: Да, вы можете воспользоваться бесплатной пробной версией Aspose.Tasks от[здесь](https://releases.aspose.com/) чтобы изучить его особенности и возможности перед совершением покупки.
+ О: Да, вы можете воспользоваться бесплатной пробной версией Aspose.Tasks от[здесь](https://releases.aspose.com/)чтобы изучить его особенности и возможности перед совершением покупки.
 ### Вопрос: Где я могу получить поддержку для Aspose.Tasks?
- О: По любым вопросам или помощи относительно Aspose.Tasks вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15)где вы можете получить помощь от сообщества или сотрудников службы поддержки Aspose.## Полный исходный код
+ О: По любым вопросам или помощи относительно Aspose.Tasks вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) где вы можете получить помощь от сообщества или сотрудников службы поддержки Aspose.## Полный исходный код

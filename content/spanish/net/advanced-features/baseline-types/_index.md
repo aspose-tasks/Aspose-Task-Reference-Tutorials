@@ -21,11 +21,11 @@ Para aprovechar el poder de Aspose.Tasks, es esencial tener un conocimiento bás
 
 ### 2. Instalación de Aspose.Tasks para .NET
 
- Asegúrese de haber instalado la biblioteca Aspose.Tasks para .NET en su entorno de desarrollo. Puedes descargarlo desde el[Sitio web de Aspose.Tasks](https://releases.aspose.com/tasks/net/) o mediante el administrador de paquetes NuGet.
+Asegúrese de haber instalado la biblioteca Aspose.Tasks para .NET en su entorno de desarrollo. Puedes descargarlo desde el[Sitio web de Aspose.Tasks](https://releases.aspose.com/tasks/net/) o mediante el administrador de paquetes NuGet.
 
 ### 3. Entorno de desarrollo integrado (IDE)
 
-Tenga instalado en su sistema un IDE como Visual Studio para escribir, compilar y depurar código C# sin problemas.
+Tenga un IDE como Visual Studio instalado en su sistema para escribir, compilar y depurar código C# sin problemas.
 
 ## Importar espacios de nombres
 
@@ -45,9 +45,9 @@ Ahora que hemos configurado nuestros requisitos previos e importado los espacios
 var project = new Project("Project2.mpp");
 ```
 
-## Paso 2: Establecer la línea de base
+## Paso 2: establecer la línea de base
 
- Una vez cargado el proyecto, podemos proceder a establecer la línea base. Las líneas de base proporcionan una instantánea del cronograma inicial del proyecto, que sirve como punto de referencia para comparar a medida que avanza el proyecto. Utilizar el`SetBaseline` método para establecer la línea de base. Por ejemplo, para establecer la línea base para todo el proyecto, utilice el`BaselineType.Baseline` enumeración:
+Una vez cargado el proyecto, podemos proceder a establecer la línea base. Las líneas de base proporcionan una instantánea del cronograma inicial del proyecto, que sirve como punto de referencia para comparar a medida que avanza el proyecto. Utilizar el`SetBaseline` método para establecer la línea de base. Por ejemplo, para establecer la línea base para todo el proyecto, utilice el`BaselineType.Baseline` enumeración:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);

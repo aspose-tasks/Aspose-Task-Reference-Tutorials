@@ -12,7 +12,7 @@ url: /zh/net/project-management-integration/project-server-credentials/
 ## 先决条件
 在开始使用 Aspose.Tasks for .NET 管理 MS Project Server 凭据之前，请确保满足以下先决条件：
 ### 1.安装Aspose.Tasks for .NET
-首先，从提供的下载并安装 Aspose.Tasks for .NET[下载链接](https://releases.aspose.com/tasks/net/),按照安装说明将该库无缝集成到您的 .NET 环境中。
+首先，从提供的下载并安装 Aspose.Tasks for .NET[下载链接](https://releases.aspose.com/tasks/net/)。按照安装说明将该库无缝集成到您的 .NET 环境中。
 ### 2. 访问凭证
 收集访问 MS Project Server 所需的必要凭据。这包括与 Project Server 关联的 SharePoint 域地址、用户名和密码。
 

@@ -55,7 +55,7 @@ Lär dig hur du använder Aspose.Tasks för .NET för att effektivt hantera och 
 
 ## CSV-alternativ i Aspose.Tasks
 
- Använd Aspose.Tasks för .NET för att arbeta effektivt med CSV-filer. Förbättra dina projektledningsmöjligheter utan ansträngning med steg-för-steg handledningar.[Läs mer](./csv-options/)
+ Använd Aspose.Tasks för .NET för att effektivt arbeta med CSV-filer. Förbättra dina projektledningsmöjligheter utan ansträngning med steg-för-steg handledningar.[Läs mer](./csv-options/)
 
 ## Valutasymbolpositioner i Aspose.Tasks
 
@@ -116,7 +116,7 @@ Lär dig hur du hanterar projektkostnader effektivt med Aspose.Tasks för .NET. 
 ### [CSS sparar argument i Aspose.Tasks](./css-saving-arguments/)
 Lär dig hur du sparar CSS-argument i Aspose.Tasks för .NET för att anpassa HTML-utdata. Förbättra presentationen med skräddarsydda CSS-inställningar.
 ### [CSV-alternativ i Aspose.Tasks](./csv-options/)
-Lär dig hur du använder Aspose.Tasks för .NET för att arbeta effektivt med CSV-filer, vilket förbättrar dina projektledningsmöjligheter utan ansträngning.
+Lär dig hur du använder Aspose.Tasks för .NET för att effektivt arbeta med CSV-filer och förbättra dina projektledningsmöjligheter utan ansträngning.
 ### [Valutasymbolpositioner i Aspose.Tasks](./currency-symbol-positions/)
 Lär dig hur du kontrollerar valutasymbolpositioner i .NET-projekt utan ansträngning med Aspose.Tasks.
 ### [Anpassade fälttyper i Aspose.Tasks](./custom-field-types/)

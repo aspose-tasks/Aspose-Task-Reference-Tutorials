@@ -62,7 +62,7 @@ Skapa en ny barstil och anpassa dess egenskaper:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Ställ in barobjektstyp
 style.BarColor = Color.Green; // Ställ in stapelfärg
-style.BarShape = BarShape.HalfHeight; //Ställ in stångform
+style.BarShape = BarShape.HalfHeight; // Ställ in stångform
 style.StartShape = Shape.LeftBracket; // Ställ in formen i början av stapeln
 style.StartShapeColor = Color.Aqua; // Ställ in färg på startformen
 style.EndShape = Shape.RightBracket; // Sätt formen i slutet av stången

@@ -71,7 +71,7 @@ Sim, Aspose.Tasks oferece suporte a vários frameworks .NET, garantindo compatib
 ### Posso personalizar a aparência de tarefas individuais na visualização da linha do tempo?
 Absolutamente! Aspose.Tasks oferece flexibilidade para personalizar a aparência de cada tarefa na visualização da linha do tempo.
 ### Onde posso encontrar recursos adicionais e suporte para Aspose.Tasks?
- visite a[Documentação Aspose.Tasks](https://reference.aspose.com/tasks/net/) para guias completos e o[Fórum de suporte](https://forum.aspose.com/c/tasks/15) para assistência.
+ Visite a[Documentação Aspose.Tasks](https://reference.aspose.com/tasks/net/)para guias completos e o[Fórum de suporte](https://forum.aspose.com/c/tasks/15) para assistência.
 ### Existe um teste gratuito disponível para Aspose.Tasks?
  Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).
 ### Como obtenho uma licença temporária para Aspose.Tasks?

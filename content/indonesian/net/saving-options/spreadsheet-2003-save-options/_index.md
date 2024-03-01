@@ -8,7 +8,7 @@ weight: 19
 url: /id/net/saving-options/spreadsheet-2003-save-options/
 ---
 ## Perkenalan
-Dalam tutorial ini, kita akan mempelajari pemanfaatan Aspose.Tasks untuk .NET untuk memanfaatkan Opsi Proyek Simpan MS Spreadsheet 2003. Alat canggih ini memungkinkan manipulasi dan penyesuaian file MS Project dengan lancar di lingkungan .NET. Mari kita uraikan prosesnya selangkah demi selangkah.
+Dalam tutorial ini, kita akan mempelajari pemanfaatan Aspose.Tasks untuk .NET untuk memanfaatkan Opsi Proyek Simpan MS Spreadsheet 2003. Alat canggih ini memungkinkan manipulasi dan penyesuaian file MS Project dengan lancar di lingkungan .NET. Mari kita uraikan prosesnya langkah demi langkah.
 ## Prasyarat
 Sebelum kita memulai tutorial ini, pastikan Anda memiliki prasyarat berikut:
 1.  Instalasi Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[tautan unduhan](https://releases.aspose.com/tasks/net/).
@@ -27,9 +27,9 @@ Pertama, muat file MS Project menggunakan Aspose.Tasks:
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- mengganti`"Your Document Directory"`dengan jalur direktori sebenarnya tempat file MS Project Anda berada.
+ Mengganti`"Your Document Directory"`dengan jalur direktori sebenarnya tempat file MS Project Anda berada.
 ## Langkah 2: Tentukan Opsi Simpan
- Tentukan opsi Simpan Spreadsheet 2003 dengan membuat instance`Spreadsheet2003SaveOptions`,
+ Tentukan opsi Simpan Spreadsheet 2003 dengan membuat instance`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ Memanfaatkan Aspose.Tasks untuk .NET, khususnya Spreadsheet 2003 Save MS Project
 ### T: Apakah Aspose.Tasks untuk .NET dapat digunakan di aplikasi web dan desktop?
 J: Ya, Aspose.Tasks untuk .NET dapat diintegrasikan dengan mulus ke dalam aplikasi web dan desktop, menyediakan fungsionalitas yang konsisten di seluruh platform.
 ### T: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
- J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur-fiturnya sebelum melakukan pembelian.
+J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur-fiturnya sebelum melakukan pembelian.
 ### T: Apakah ada batasan untuk mengkustomisasi kolom tampilan menggunakan Aspose.Tasks untuk .NET?
 J: Aspose.Tasks untuk .NET menawarkan opsi penyesuaian ekstensif untuk kolom tampilan, dengan batasan minimal. Namun, penyesuaian yang rumit mungkin memerlukan pengetahuan tingkat lanjut tentang perpustakaan.
 ### T: Dapatkah saya mencari bantuan jika saya mengalami masalah saat menggunakan Aspose.Tasks untuk .NET?

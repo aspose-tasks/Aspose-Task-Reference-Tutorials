@@ -36,7 +36,7 @@ Mari kita bagi contoh yang diberikan menjadi beberapa langkah:
 
 ## Langkah 1: Muat File Proyek
 
- Pertama, muat file proyek menggunakan`Project` kelas:
+Pertama, muat file proyek menggunakan`Project` kelas:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

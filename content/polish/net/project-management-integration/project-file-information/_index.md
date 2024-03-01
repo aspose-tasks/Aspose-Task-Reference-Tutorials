@@ -31,12 +31,12 @@ Podzielmy teraz dostarczony przykładowy kod na kilka kroków:
 // Ścieżka do katalogu dokumentów.
 string dataDir = "Your Document Directory";
 ```
- zastępować`"Your Document Directory"` ze ścieżką do katalogu zawierającego plik MS Project.
+ Zastępować`"Your Document Directory"` ze ścieżką do katalogu zawierającego plik MS Project.
 ## Krok 3: Pobierz informacje o pliku projektu
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Ten wiersz kodu pobiera informacje o określonym pliku projektu. zastępować`"Project.xml"` z nazwą pliku MS Project.
+ Ten wiersz kodu pobiera informacje o określonym pliku projektu. Zastępować`"Project.xml"` z nazwą pliku MS Project.
 ## Krok 4: Wyświetl informacje o projekcie
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);
@@ -46,7 +46,7 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 Te linie kodu wyświetlają różne informacje o pliku MS Project, takie jak jego czytelność, informacje o aplikacji i format pliku.
 
 ## Wniosek
-W tym samouczku dowiedzieliśmy się, jak odzyskać informacje o pliku Microsoft Project za pomocą Aspose.Tasks dla .NET. Wykonując te proste kroki, możesz bezproblemowo zintegrować tę funkcjonalność z aplikacjami .NET, umożliwiając wydajną pracę z plikami MS Project.
+tym samouczku dowiedzieliśmy się, jak odzyskać informacje o pliku Microsoft Project za pomocą Aspose.Tasks dla .NET. Wykonując te proste kroki, możesz bezproblemowo zintegrować tę funkcjonalność z aplikacjami .NET, umożliwiając wydajną pracę z plikami MS Project.
 ## Często zadawane pytania
 ### Czy Aspose.Tasks może obsługiwać różne wersje plików Microsoft Project?
 Tak, Aspose.Tasks obsługuje różne wersje plików Microsoft Project, w tym formaty MPP i XML.

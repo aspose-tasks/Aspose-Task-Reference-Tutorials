@@ -9,7 +9,7 @@ url: /pl/net/advanced-features/working-with-assignment/
 ---
 ## Wstęp
 
-tym samouczku omówimy, jak pracować z przypisaniami w Aspose.Tasks dla .NET. Zadania odgrywają kluczową rolę w zarządzaniu projektami, ponieważ przydzielają zasoby do zadań, pomagają w planowaniu i śledzeniu postępów. Skoncentrujemy się na generowaniu danych okresowych przydziału zasobów o różnych konturach za pomocą Aspose.Tasks.
+W tym samouczku omówimy, jak pracować z przypisaniami w Aspose.Tasks dla .NET. Zadania odgrywają kluczową rolę w zarządzaniu projektami, ponieważ przydzielają zasoby do zadań, pomagają w planowaniu i śledzeniu postępów. Skoncentrujemy się na generowaniu danych okresowych przydziału zasobów o różnych konturach za pomocą Aspose.Tasks.
 
 ## Warunki wstępne
 
@@ -86,7 +86,7 @@ resourceAssignment.Set(Asn.WorkContour, WorkContourType.Turtle);
 
 ## Wniosek
 
-W tym samouczku nauczyliśmy się, jak pracować z przypisaniami w Aspose.Tasks dla .NET. Zbadaliśmy generowanie danych okresowych przydziału zasobów o różnych konturach. Wiedza ta może być niezwykle przydatna w scenariuszach zarządzania projektami.
+tym samouczku nauczyliśmy się, jak pracować z przypisaniami w Aspose.Tasks dla .NET. Zbadaliśmy generowanie danych okresowych przydziału zasobów o różnych konturach. Wiedza ta może być niezwykle przydatna w scenariuszach zarządzania projektami.
 
 ## Często zadawane pytania
 
@@ -108,4 +108,4 @@ O4: Tak, jak pokazano w tym samouczku, możesz ustawić różne kontury, takie j
 
 ### P5: Gdzie mogę znaleźć pomoc dotyczącą zapytań związanych z Aspose.Tasks?
 
- Odpowiedź 5: Pomoc można znaleźć na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) gdzie eksperci i członkowie społeczności aktywnie angażują się w dyskusje.
+Odpowiedź 5: Pomoc można znaleźć na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) gdzie eksperci i członkowie społeczności aktywnie angażują się w dyskusje.

@@ -25,7 +25,7 @@ Visual Studio 또는 원하는 다른 IDE를 포함하여 .NET용 개발 환경�
 
 ### 3. .NET용 Aspose.Tasks 설치
 
-다음에서 Aspose.Tasks for .NET 라이브러리를 다운로드하고 설치하세요.[웹사이트](https://releases.aspose.com/tasks/net/).
+ 다음에서 Aspose.Tasks for .NET 라이브러리를 다운로드하고 설치하세요.[웹사이트](https://releases.aspose.com/tasks/net/).
 
 ### 4. 프로젝트 관리 개념에 대한 숙지
 

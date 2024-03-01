@@ -1,6 +1,6 @@
 ---
 title: Beherrschen der Textstilanpassung in Aspose.Tasks
-linktitle: Konfigurieren Sie Textstile in Aspose.Tasks
+linktitle: Konfigurieren von Textstilen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Verbessern Sie die Ästhetik von Projektdokumenten mit Aspose.Tasks für .NET. Passen Sie Textstile mühelos an, um eine optisch ansprechende Darstellung zu erzielen.
 type: docs

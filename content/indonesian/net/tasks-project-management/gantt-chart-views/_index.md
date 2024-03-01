@@ -12,7 +12,7 @@ Bagan Gantt adalah alat canggih yang digunakan dalam manajemen proyek untuk memv
 ## Prasyarat
 Sebelum melanjutkan, pastikan Anda memiliki prasyarat berikut:
 ### 1. Instalasi Aspose.Tasks untuk .NET
- Pastikan Anda telah menginstal Aspose.Tasks untuk .NET. Anda dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/tasks/net/)dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi[Di Sini](https://reference.aspose.com/tasks/net/).
+ Pastikan Anda telah menginstal Aspose.Tasks untuk .NET. Anda dapat mengunduh perpustakaan dari[Di Sini](https://releases.aspose.com/tasks/net/) dan ikuti petunjuk instalasi yang disediakan dalam dokumentasi[Di Sini](https://reference.aspose.com/tasks/net/).
 ### 2. File Proyek Microsoft
 Siapkan file Microsoft Project (`Project2.mpp`) yang akan Anda gunakan untuk bekerja dengan tampilan bagan Gantt.
 ### 3. Pengetahuan Dasar C# dan .NET Framework
@@ -75,13 +75,13 @@ Mendefinisikan warna untuk waktu tidak bekerja pada bagan Gantt.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Tentukan apakah batang pada bagan Gantt harus digulung.
+Menentukan apakah batang pada bagan Gantt harus digulung.
 ### Tampilkan Pemisahan Bar
 ```csharp
 view.ShowBarSplits = true;
 ```
 Menentukan apakah pembagian tugas pada bagan Gantt harus ditampilkan.
-### menunjukkan gambar
+### Tunjukkan Gambar
 ```csharp
 view.ShowDrawings = true;
 ```

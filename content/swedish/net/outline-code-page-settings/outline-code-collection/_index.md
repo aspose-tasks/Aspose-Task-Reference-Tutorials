@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Manipulera konturkoderna efter behov, som att infoga, ta bort eller rensa.
 ```csharp
 // Exempel på manipulation
-// ,
+// ...
 // Sätt in kod med 2 i rätt läge
 task.OutlineCodes.Insert(2, code2);
 // Kontrollera om koden satts in

@@ -94,7 +94,7 @@ Trong hướng dẫn này, chúng ta đã học cách làm việc với các kho
 
 ### Câu hỏi 2: Có bản dùng thử miễn phí dành cho Aspose.Tasks dành cho .NET không?
 
- Câu trả lời 2: Có, bạn có thể nhận bản dùng thử miễn phí Aspose.Tasks cho .NET[đây](https://releases.aspose.com/).
+Câu trả lời 2: Có, bạn có thể nhận bản dùng thử miễn phí Aspose.Tasks cho .NET[đây](https://releases.aspose.com/).
 
 ### Câu hỏi 3: Tôi có thể tìm tài liệu về Aspose.Tasks cho .NET ở đâu?
 
@@ -102,7 +102,7 @@ Trong hướng dẫn này, chúng ta đã học cách làm việc với các kho
 
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
 
- A4: Bạn có thể nhận được hỗ trợ từ diễn đàn cộng đồng.[đây](https://forum.aspose.com/c/tasks/15).
+ A4: Bạn có thể nhận được hỗ trợ từ diễn đàn cộng đồng[đây](https://forum.aspose.com/c/tasks/15).
 
 ### Câu hỏi 5: Bạn có cung cấp giấy phép tạm thời cho Aspose.Tasks cho .NET không?
 

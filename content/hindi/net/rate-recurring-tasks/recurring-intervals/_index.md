@@ -32,7 +32,7 @@ url: /hi/net/rate-recurring-tasks/recurring-intervals/
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-यहां, हम इसका एक नया उदाहरण प्रारंभ करते हैं`Project` Microsoft प्रोजेक्ट फ़ाइल के लिए पथ प्रदान करके क्लास।
+ यहां, हम इसका एक नया उदाहरण प्रारंभ करते हैं`Project` Microsoft प्रोजेक्ट फ़ाइल के लिए पथ प्रदान करके क्लास।
 ## चरण 2: स्थिति तिथि निर्धारित करें:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
@@ -75,7 +75,7 @@ interval.MonthlyDayMonthNumber = 1;
 interval.MonthlyFirstLast = true;
 // मासिक प्रगति पंक्तियों के पहले या अंतिम दिन का प्रकार निर्धारित करें।
 interval.MonthlyFirstLastDay = RecurringInterval.DayType.Day;
-// प्रगति पंक्तियों की मासिक संख्या निर्धारित करें.
+// प्रगति पंक्तियों की माह संख्या निर्धारित करें।
 interval.MonthlyFirstLastMonthNumber = 1;
 ```
 ये चरण निर्दिष्ट मापदंडों के अनुसार मासिक प्रगति लाइनों को कॉन्फ़िगर करते हैं।

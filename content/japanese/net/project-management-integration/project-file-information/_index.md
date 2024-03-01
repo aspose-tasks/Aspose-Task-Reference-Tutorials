@@ -8,7 +8,7 @@ weight: 19
 url: /ja/net/project-management-integration/project-file-information/
 ---
 ## 導入
-Aspose.Tasks for .NET を使用して Microsoft Project ファイル情報を取得するためのステップバイステップ ガイドへようこそ。 Aspose.Tasks は、.NET 開発者がプログラムで Microsoft Project ファイルを操作できるようにする強力なライブラリであり、プロジェクト データの読み取り、書き込み、操作などのタスクを実行できるようになります。
+Aspose.Tasks for .NET を使用して Microsoft Project ファイル情報を取得するためのステップバイステップ ガイドへようこそ。 Aspose.Tasks は、.NET 開発者がプログラムで Microsoft Project ファイルを操作できるようにする強力なライブラリで、プロジェクト データの読み取り、書き込み、操作などのタスクを実行できるようにします。
 ## 前提条件
 チュートリアルに入る前に、次の前提条件を満たしていることを確認してください。
 1. C# と .NET の基本知識: このチュートリアルは、C# プログラミング言語と .NET フレームワークの基本を理解していることを前提としています。

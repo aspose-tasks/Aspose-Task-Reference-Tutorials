@@ -59,7 +59,7 @@ Aspose.Tasks 主要关注.NET 应用程序。但是，您可以将数据导出�
 ### Aspose.Tasks for .NET 可以免费试用吗？
 是的，您可以通过免费试用来体验 Aspose.Tasks for .NET 的功能[这里](https://releases.aspose.com/).
 ### 如何获得 Aspose.Tasks for .NET 支持？
-访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)获取基于社区的支持或探索综合文档。
+参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)获取基于社区的支持或探索综合文档。
 ### Aspose.Tasks for .NET 是否有临时许可证？
 是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/)供短期使用。
 ### 项目文档支持哪些文件格式？

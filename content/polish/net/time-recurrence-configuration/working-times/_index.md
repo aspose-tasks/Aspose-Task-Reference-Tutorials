@@ -1,6 +1,6 @@
 ---
-title: Skonfiguruj czasy pracy w Aspose.Tasks
-linktitle: Skonfiguruj czasy pracy w Aspose.Tasks
+title: Konfigurowanie czasów pracy w Aspose.Tasks
+linktitle: Konfigurowanie czasów pracy w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ulepsz planowanie projektów w .NET dzięki Aspose.Tasks. Konfiguruj czasy pracy bez wysiłku, aby precyzyjnie zarządzać zasobami. Pobierz bibliotekę teraz!
 type: docs
@@ -8,12 +8,12 @@ weight: 13
 url: /pl/net/time-recurrence-configuration/working-times/
 ---
 ## Wstęp
-W zarządzaniu projektami precyzyjna kontrola czasu pracy ma kluczowe znaczenie dla dokładnego planowania i alokacji zasobów. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do obsługi informacji o czasie pracy w projektach. Ten samouczek poprowadzi Cię przez proces konfigurowania czasu pracy przy użyciu Aspose.Tasks w środowisku .NET.
+zarządzaniu projektami precyzyjna kontrola czasu pracy ma kluczowe znaczenie dla dokładnego planowania i alokacji zasobów. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do obsługi informacji o czasie pracy w projektach. Ten samouczek poprowadzi Cię przez proces konfigurowania czasu pracy przy użyciu Aspose.Tasks w środowisku .NET.
 ## Warunki wstępne
 Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące elementy:
 - Podstawowa znajomość języka programowania C#.
-- Zainstalowana biblioteka Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
-- Skonfiguruj program Visual Studio lub dowolne preferowane środowisko programistyczne języka C#.
+-  Zainstalowana biblioteka Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
+- Skonfigurowano program Visual Studio lub dowolne preferowane środowisko programistyczne C#.
 ## Importuj przestrzenie nazw
 Zacznij od zaimportowania niezbędnych przestrzeni nazw, aby uzyskać dostęp do funkcjonalności Aspose.Tasks:
 ```csharp
@@ -56,7 +56,7 @@ Tutaj inicjujemy nowy projekt i tworzymy kalendarz o nazwie „MójKalendarz” 
 ```csharp
 Console.WriteLine("Work Week Number: " + calendar.WeekDays.Count);
 ```
-tym kroku drukowana jest całkowita liczba dni roboczych w określonym kalendarzu.
+W tym kroku drukowana jest całkowita liczba dni roboczych w określonym kalendarzu.
 ## Krok 3: Szczegóły czasu pracy
 ```csharp
 List<WeekDay> weekDays = calendar.WeekDays.ToList();
@@ -70,7 +70,7 @@ foreach (var day in weekDays)
     }
 }
 ```
-W tej części iterujemy po każdym dniu tygodnia, drukując typ dnia i powiązane z nim godziny pracy. Możesz dostosować godziny pracy dla każdego dnia tygodnia zgodnie z wymaganiami projektu.
+tej części iterujemy po każdym dniu tygodnia, drukując typ dnia i powiązane z nim godziny pracy. Możesz dostosować godziny pracy dla każdego dnia tygodnia zgodnie z wymaganiami projektu.
 ## Wniosek
 Efektywna konfiguracja czasów pracy w Aspose.Tasks dla .NET zapewnia dokładne planowanie projektów i zarządzanie zasobami. Postępując zgodnie z tym przewodnikiem krok po kroku, możesz bezproblemowo zintegrować korekty czasu pracy z przepływami pracy w projekcie.
 ## Często Zadawane Pytania

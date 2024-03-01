@@ -151,7 +151,7 @@ R2: Por supuesto, Aspose.Tasks admite la importación de calendarios desde archi
 
 ### P3: ¿Cómo puedo eliminar un calendario específico de un proyecto?
 
-R3: Puede eliminar un calendario al obtenerlo de la colección y luego llamar al`Remove` método.
+ R3: Puede eliminar un calendario al obtenerlo de la colección y luego llamar al`Remove` método.
 
 ### P4: ¿Aspose.Tasks admite la exportación de calendarios a diferentes formatos?
 

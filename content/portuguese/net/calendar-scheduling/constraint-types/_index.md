@@ -70,7 +70,7 @@ A1: As restrições do projeto são limitações ou restrições que afetam a da
 
 ### Q2: Quantos tipos de restrições o Aspose.Tasks suporta?
 
-A2: Aspose.Tasks oferece suporte a vários tipos de restrições, incluindo O mais breve possível, O mais tarde possível, Não terminar antes, Não terminar depois, Deve começar em e Deve terminar em.
+A2: Aspose.Tasks oferece suporte a vários tipos de restrições, incluindo O mais rápido possível, O mais tarde possível, Não terminar antes de, Não terminar depois de, Deve começar em e Deve terminar em.
 
 ### P3: Posso aplicar restrições a várias tarefas simultaneamente?
 

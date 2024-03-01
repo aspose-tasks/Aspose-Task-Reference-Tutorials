@@ -12,7 +12,7 @@ Con l’evolversi della gestione dei progetti, cresce anche la necessità di str
 ## Prerequisiti
 Prima di immergerci nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 - Una conoscenza pratica dello sviluppo .NET.
-- Aspose.Tasks per la libreria .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks per la libreria .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
 - Un editor di codice (si consiglia Visual Studio).
 ## Importa spazi dei nomi
 Nel tuo progetto .NET, inizia importando gli spazi dei nomi necessari:

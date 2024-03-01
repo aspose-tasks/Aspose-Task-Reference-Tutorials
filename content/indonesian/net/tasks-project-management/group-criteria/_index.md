@@ -32,7 +32,7 @@ Pertama, tentukan jalur ke file Microsoft Project Anda:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- mengganti`"Your Document Directory"` dengan jalur ke file proyek Anda.
+ Mengganti`"Your Document Directory"` dengan jalur ke file proyek Anda.
 ## Langkah 2: Ambil Informasi Kelompok Tugas
 Selanjutnya, ambil informasi tentang kelompok tugas dalam proyek:
 ```csharp

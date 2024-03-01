@@ -32,7 +32,7 @@ Ora suddividiamo ciascun esempio in più passaggi e spieghiamoli in dettaglio.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Qui inizializziamo una nuova istanza di`Project` class fornendo il percorso del file Microsoft Project.
+ Qui inizializziamo una nuova istanza di`Project` class fornendo il percorso del file Microsoft Project.
 ## Passaggio 2: impostare la data dello stato:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

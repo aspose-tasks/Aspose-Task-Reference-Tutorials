@@ -29,7 +29,7 @@ string DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineValues2010.mpp");
 ```
 ## Steg 2: Rensa befintliga dispositionsvärden
-Rensa sedan alla befintliga dispositionsvärden från projektet:
+Ta sedan bort alla befintliga dispositionsvärden från projektet:
 ```csharp
 foreach (var outlineCode in project.OutlineCodes)
 {
@@ -104,7 +104,7 @@ S: Ja, du kan definiera och manipulera flera dispositionskoder inom ett projekt 
 S: Ja, Aspose.Tasks stöder olika versioner av Microsoft Project-filer, inklusive MPP- och XML-format.
 ### F: Hur kan jag hantera fel när jag arbetar med konturvärden?
 S: Du kan implementera felhanteringsmekanismer som try-catch-block för att hantera undantag elegant.
-### F: Kan jag anpassa utseendet på konturvärden i mitt projekt?
+### F: Kan jag anpassa utseendet på konturvärdena i mitt projekt?
 S: Ja, Aspose.Tasks tillhandahåller omfattande API:er för att anpassa utseendet och beteendet hos konturvärdena enligt dina krav.
 ### F: Var kan jag hitta ytterligare resurser och support för Aspose.Tasks?
  A: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och utforska[dokumentation](https://reference.aspose.com/tasks/net/) för detaljerad information om API:er och funktioner.

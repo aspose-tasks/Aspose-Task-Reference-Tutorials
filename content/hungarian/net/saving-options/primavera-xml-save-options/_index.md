@@ -1,6 +1,6 @@
 ---
 title: MS Project mentése Primavera XML-ben az Aspose.Tasks számára
-linktitle: A Primavera XML mentési beállításai az Aspose.Tasks számára
+linktitle: Primavera XML mentési beállításai az Aspose.Tasks számára
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan használja az Aspose.Tasks for .NET alkalmazást az MS Project beállításainak Primavera XML formátumban történő mentéséhez. Fokozza a projektmenedzsment képességeit erőfeszítés nélkül.
 type: docs
@@ -11,8 +11,8 @@ url: /hu/net/saving-options/primavera-xml-save-options/
 A projektmenedzsment és feladatkezelés területén az Aspose.Tasks for .NET hatékony szövetségesként jelenik meg. Ez a könyvtár felvértezi a fejlesztőket a projektadatok .NET-alkalmazásokon belüli erőfeszítés nélküli manipulálásához szükséges eszközökkel. Az egyik figyelemre méltó tulajdonság a Primavera XML fájlokkal való interakció képessége, ami zökkenőmentes élményt kínál a projektinformációk kezelésében.
 ## Előfeltételek
 Mielőtt belemerülne az Aspose.Tasks for .NET használatának bonyolultságába az MS Project opcióinak Primavera XML formátumban történő mentéséhez, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
-1.  Telepítés: Telepítse az Aspose.Tasks for .NET könyvtárat a fejlesztői környezetébe. Ha nem, töltsd le innen[itt](https://releases.aspose.com/tasks/net/)és kövesse a dokumentációban található telepítési utasításokat[itt](https://reference.aspose.com/tasks/net/).
-2. A .NET Framework ismerete: A .NET-keretrendszer és a C# programozási nyelv alapvető ismerete elengedhetetlen az oktatóanyagban tárgyalt fogalmak megértéséhez.
+1.  Telepítés: Telepítse az Aspose.Tasks for .NET könyvtárat a fejlesztői környezetébe. Ha nem, töltsd le innen[itt](https://releases.aspose.com/tasks/net/) és kövesse a dokumentációban található telepítési utasításokat[itt](https://reference.aspose.com/tasks/net/).
+2. .NET Framework ismerete: A .NET-keretrendszer és a C# programozási nyelv alapvető ismerete elengedhetetlen az oktatóanyagban tárgyalt fogalmak megértéséhez.
 3. MS Project fájl: Készítsen Microsoft Project fájlt (`project.xml`), amelyet Primavera XML formátumban kíván menteni.
 
 ## Névterek importálása
@@ -51,7 +51,7 @@ V: Igen, az Aspose.Tasks for .NET támogatja a különféle projektmenedzsment e
 ### K: Elérhető ingyenes próbaverzió az Aspose.Tasks for .NET számára?
  V: Igen, hozzáférhet az Aspose.Tasks ingyenes próbaverziójához .NET-hez[itt](https://releases.aspose.com/).
 ### K: Hogyan kaphatok technikai támogatást az Aspose.Tasks for .NET-hez?
- V: Az Aspose.Tasks fórumon technikai segítséget kérhet, és kapcsolatba léphet a közösséggel.[itt](https://forum.aspose.com/c/tasks/15).
+ V: Az Aspose.Tasks fórumon technikai segítséget kérhet, és kapcsolatba léphet a közösséggel[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Melyek az Aspose.Tasks for .NET licencelési lehetőségei?
  V: Az Aspose.Tasks for .NET számára különféle licencelési lehetőségek állnak rendelkezésre, beleértve az ideiglenes licenceket. Fedezze fel az engedélyezés részleteit[itt](https://purchase.aspose.com/buy).
 ### K: Testreszabhatom a Primavera XML formátum mentési beállításait?

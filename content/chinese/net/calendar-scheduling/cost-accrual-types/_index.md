@@ -73,7 +73,7 @@ A1：是的，您可以循环遍历资源集合并单独为每个资源设置成
 
 ### Q2：除了“结束”之外，还有哪些可用的成本应计类型？
 
- A2：Aspose.Tasks for .NET 提供了几种其他成本应计类型，例如`Start`, `Prorated`，和`Duration`.
+A2：Aspose.Tasks for .NET 提供了几种其他成本应计类型，例如`Start`, `Prorated`， 和`Duration`.
 
 ### 问题 3：如何确定资源当前的成本应计类型？
 

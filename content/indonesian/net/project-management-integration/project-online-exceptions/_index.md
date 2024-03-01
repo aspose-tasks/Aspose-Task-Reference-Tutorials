@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## Langkah 1: Siapkan Direktori Dokumen
- Pastikan Anda memiliki direktori khusus untuk bekerja dengan file Proyek Anda. mengganti`"Your Document Directory"` dengan jalur ke direktori dokumen Anda.
+ Pastikan Anda memiliki direktori khusus untuk bekerja dengan file Proyek Anda. Mengganti`"Your Document Directory"` dengan jalur ke direktori dokumen Anda.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -64,13 +64,13 @@ manager.CreateNewProject(project);
 ## Kesimpulan
 Selamat! Anda telah berhasil mempelajari cara bekerja dengan pengecualian MS Project Online menggunakan Aspose.Tasks untuk .NET. Dengan pengetahuan ini, Anda dapat secara efisien menangani pengecualian dan mengelola file Microsoft Project dalam aplikasi .NET Anda.
 ## FAQ
-### T: Dapatkah saya menggunakan Aspose.Tasks dengan alat manajemen proyek lainnya?
+### T: Bisakah saya menggunakan Aspose.Tasks dengan alat manajemen proyek lainnya?
 J: Ya, Aspose.Tasks memberikan dukungan ekstensif untuk bekerja dengan berbagai format file manajemen proyek, termasuk Microsoft Project, Primavera, dan banyak lagi.
 ### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
  J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks dari[situs web](https://releases.aspose.com/).
 ### T: Di mana saya dapat menemukan dokumentasi untuk Aspose.Tasks?
  J: Dokumentasi terperinci untuk Aspose.Tasks tersedia[Di Sini](https://reference.aspose.com/tasks/net/).
 ### T: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
- J: Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Tasks.[Di Sini](https://forum.aspose.com/c/tasks/15).
+J: Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### T: Bagaimana cara membeli lisensi Aspose.Tasks?
  J: Anda dapat membeli lisensi untuk Aspose.Tasks dari[halaman pembelian](https://purchase.aspose.com/buy).

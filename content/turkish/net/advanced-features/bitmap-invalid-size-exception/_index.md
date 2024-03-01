@@ -9,7 +9,7 @@ url: /tr/net/advanced-features/bitmap-invalid-size-exception/
 ---
 ## giriiş
 
-Bu eğitimde, aşağıdaki işlemleri ele alacağız:`BitmapInvalidSizeException` Aspose.Tasks for .NET ile çalışırken. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak yönetmelerine olanak tanıyan, projeleri görüntü olarak kaydetme gibi görevleri mümkün kılan güçlü bir kütüphanedir. Ancak bazen bir projeyi resim olarak kaydetmeye çalışırken bir hatayla karşılaşabiliriz.`Invalid Size Exception` Bitmap ile ilgili. Bu eğitimin amacı, bu istisnayı etkili bir şekilde yakalama ve işleme süreci boyunca size rehberlik etmektir.
+ Bu eğitimde, aşağıdaki işlemleri ele alacağız:`BitmapInvalidSizeException` Aspose.Tasks for .NET ile çalışırken. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak yönetmelerine olanak tanıyan, projeleri görüntü olarak kaydetme gibi görevleri mümkün kılan güçlü bir kütüphanedir. Ancak bazen bir projeyi resim olarak kaydetmeye çalışırken bir hatayla karşılaşabiliriz.`Invalid Size Exception`Bitmap ile ilgili. Bu eğitimin amacı, bu istisnayı etkili bir şekilde yakalama ve işleme süreci boyunca size rehberlik etmektir.
 
 ## Önkoşullar
 
@@ -54,7 +54,7 @@ var options = new ImageSaveOptions(SaveFileFormat.Png)
 
 ## 3. Adım: Zaman Ölçeği Birimini ve Sayımı Ayarlayın
 
-Zaman ölçeği birimini ayarlayın ve ihtiyaçlarınıza göre sayın. Bu örnekte zaman ölçeğini dakika olarak ayarladık.
+Zaman ölçeği birimini ayarlayın ve gereksinimlerinize göre sayın. Bu örnekte zaman ölçeğini dakika olarak ayarladık.
 
 ```csharp
 view.MiddleTimescaleTier.Unit = TimescaleUnit.Minutes;

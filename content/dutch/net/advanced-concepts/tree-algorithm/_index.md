@@ -88,7 +88,7 @@ summary.Set(Tsk.Work, project.GetWork(summaryWork));
 summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ```
 
-Update de werkwaarden voor taken op basis van de verzamelde informatie.
+Werk de werkwaarden voor taken bij op basis van de verzamelde informatie.
 
 ## Conclusie
 

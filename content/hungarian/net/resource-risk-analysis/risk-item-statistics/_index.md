@@ -11,7 +11,7 @@ url: /hu/net/resource-risk-analysis/risk-item-statistics/
 Szeretné javítani projektmenedzsment képességeit az Aspose.Tasks for .NET használatával? Merüljön el a kockázatelemzés birodalmában az MS Project fájlokban található kockázati tételekre vonatkozó statisztikák beszerzéséről szóló, lépésről lépésre bemutatott útmutatónkkal. Az Aspose.Tasks hatékony képességeinek kihasználásával felbecsülhetetlen értékű betekintést nyerhet a projektek bizonytalanságaiba, és megalapozott döntéseket hozhat a kockázatok hatékony csökkentése érdekében.
 ## Előfeltételek
 Mielőtt nekivágnánk ennek az útnak, győződjön meg arról, hogy a következő előfeltételeket teljesíti:
-1.  Aspose.Tasks for .NET Library: Töltse le és telepítse a könyvtárat a[Aspose.Tasks .NET dokumentációhoz](https://reference.aspose.com/tasks/net/), Ez a könyvtár robusztus eszközökkel ruházza fel az MS Project fájlok programozott kezeléséhez.
+1.  Aspose.Tasks for .NET Library: Töltse le és telepítse a könyvtárat a[Aspose.Tasks .NET dokumentációhoz](https://reference.aspose.com/tasks/net/). Ez a könyvtár robusztus eszközökkel ruházza fel az MS Project fájlok programozott kezeléséhez.
 2. .NET fejlesztői környezet: Állítsa be .NET fejlesztői környezetét, beleértve a Visual Studio-t vagy bármely más választott IDE-t, hogy megkönnyítse az Aspose.Tasks projektekbe való zökkenőmentes integrációját.
 
 ## Névterek importálása
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- Biztosítsa a cserét`"Your Document Directory"` dokumentumkönyvtár elérési útjával, ahol az MS Project fájljai találhatók.
+ Biztosítsa a cserét`"Your Document Directory"` a dokumentumkönyvtár elérési útjával, ahol az MS Project fájljai találhatók.
 ## 2. lépés: Konfigurálja a kockázatelemzési beállításokat
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- Állítsa be a`IterationsCount` a projekt követelményei alapján a kockázatelemzés pontosságának ellenőrzése érdekében.
+ Állítsa be a`IterationsCount` projekt követelményei alapján a kockázatelemzés pontosságának ellenőrzése érdekében.
 ## 3. lépés: Töltse be az MS Project fájlt
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

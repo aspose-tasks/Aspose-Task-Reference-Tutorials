@@ -63,7 +63,7 @@ project.ExtendedAttributes.Add(calculation);
 
 ## 4. lépés: Határozza meg a számítási típust az összegző sorokhoz
 
-Ezután létrehozunk egy másik kiterjesztett attribútumdefiníciót, ahol az összegző feladatok értékeit az Átlagos összesítés típusával számítjuk ki:
+Ezután egy másik kiterjesztett attribútumdefiníciót hozunk létre, ahol az összegző feladatok értékeit az Átlagos összesítés típusával számítjuk ki:
 
 ```csharp
 var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
@@ -74,13 +74,13 @@ project.ExtendedAttributes.Add(lookup);
 
 ## Következtetés
 
-Ebben az oktatóanyagban megvizsgáltuk, hogyan dolgozhatunk a számítási típussal az Aspose.Tasks for .NET-ben. A kiterjesztett attribútumok számítási típusainak meghatározásával testreszabhatjuk, hogy a projekten belül hogyan számítsa ki az értékeket a feladatokhoz és az összefoglaló feladatokhoz, így nagyobb rugalmasságot és irányítást biztosít.
+Ebben az oktatóanyagban megvizsgáltuk, hogyan dolgozhatunk a számítási típussal az Aspose.Tasks for .NET-ben. A kiterjesztett attribútumokhoz tartozó számítási típusok meghatározásával testreszabhatjuk, hogy a projekten belül hogyan számítsa ki az értékeket a feladatokhoz és az összefoglaló feladatokhoz, így nagyobb rugalmasságot és irányítást biztosít.
 
 ## GYIK
 
 ### 1. kérdés: Mi az Aspose.Tasks számítási típusa?
 
-1. válasz: Az Aspose.Tasks számítási típusa meghatározza, hogy a projekten belül hogyan számítják ki az értékeket a feladatokhoz és az összefoglaló feladatokhoz, és olyan lehetőségeket kínál, mint a Képlet és az Összegzés.
+1. válasz: Az Aspose.Tasks számítási típusa meghatározza, hogy a projekten belül hogyan számítsa ki a rendszer a feladatok és összefoglaló feladatok értékeit, és olyan lehetőségeket kínál, mint a Képlet és az Összegzés.
 
 ### 2. kérdés: Hogyan állíthatom be a számítási típust egy kiterjesztett attribútumhoz?
 
@@ -92,7 +92,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan dolgozhatunk a számítási típ
 
 ### 4. kérdés: Rendelkezésre állnak különböző összesítő típusok az összefoglaló feladatszámításokhoz?
 
-4. válasz: Igen, az Aspose.Tasks különböző összesítő típusokat biztosít, például az Átlag, Összeg és Számlálás az összefoglaló feladatok értékeinek kiszámításához.
+4. válasz: Igen, az Aspose.Tasks különböző összesítő típusokat biztosít, például Átlag, Összeg és Számlálás az összefoglaló feladatok értékeinek kiszámításához.
 
 ### 5. kérdés: Hol találok további forrásokat az Aspose.Tasks for .NET webhelyen?
 

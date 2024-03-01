@@ -36,7 +36,7 @@ const string Password = "MyPassword";
 var credentials = new ProjectServerCredentials(SharepointDomainAddress, UserName, Password);
 ```
 ## 2단계: 프로젝트 서버 관리자 초기화
- 다음으로,`ProjectServerManager` 제공된 자격 증명을 사용하여 인스턴스를 생성합니다.
+ 다음으로 초기화`ProjectServerManager` 제공된 자격 증명을 사용하여 인스턴스를 생성합니다.
 ```csharp
 var reader = new ProjectServerManager(credentials);
 ```

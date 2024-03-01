@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Bước 3: Xác định cột tùy chỉnh
 
- Bây giờ, hãy xác định cột tùy chỉnh của bạn bằng cách tạo một phiên bản của`AssignmentViewColumn`Lớp này yêu cầu tên cột, chiều rộng và hàm đại biểu để chuyển đổi dữ liệu gán thành văn bản cột:
+ Bây giờ, hãy xác định cột tùy chỉnh của bạn bằng cách tạo một phiên bản của`AssignmentViewColumn`. Lớp này yêu cầu tên cột, chiều rộng và hàm đại biểu để chuyển đổi dữ liệu gán thành văn bản cột:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

@@ -12,7 +12,7 @@ Im Bereich Projektmanagement sind effektive Koordination und reibungslose Kommun
 ## Voraussetzungen
 Bevor Sie mit der Verwaltung von MS Project Server-Anmeldeinformationen mit Aspose.Tasks für .NET beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 ### 1. Aspose.Tasks für .NET installieren
- Laden Sie zunächst Aspose.Tasks für .NET von der bereitgestellten Website herunter und installieren Sie es[Download-Link](https://releases.aspose.com/tasks/net/), Befolgen Sie die Installationsanweisungen, um die Bibliothek nahtlos in Ihre .NET-Umgebung zu integrieren.
+ Laden Sie zunächst Aspose.Tasks für .NET von der bereitgestellten Website herunter und installieren Sie es[Download-Link](https://releases.aspose.com/tasks/net/). Befolgen Sie die Installationsanweisungen, um die Bibliothek nahtlos in Ihre .NET-Umgebung zu integrieren.
 ### 2. Zugangsdaten
 Sammeln Sie die erforderlichen Anmeldeinformationen für den Zugriff auf den MS Project Server. Dazu gehören die SharePoint-Domänenadresse, der Benutzername und das Kennwort, die dem Project Server zugeordnet sind.
 

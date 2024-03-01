@@ -86,7 +86,7 @@ A1: Ja, Aspose.Tasks ondersteunt verschillende versies van Microsoft Project-dat
 
 ### Vraag 2: Hoe kan ik verbindingsproblemen met de database oplossen?
 
-A2: Zorg ervoor dat uw verbindingsreeks correct is geconfigureerd met de juiste referenties en databasegegevens. U kunt ook de documentatie raadplegen of ondersteuning zoeken bij de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+ A2: Zorg ervoor dat uw verbindingsreeks correct is geconfigureerd met de juiste referenties en databasegegevens. U kunt ook de documentatie raadplegen of ondersteuning zoeken bij de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
 
 ### V3: Is er een proefversie beschikbaar voor Aspose.Tasks?
 

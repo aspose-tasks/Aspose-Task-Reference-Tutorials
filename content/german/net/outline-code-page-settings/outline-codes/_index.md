@@ -15,7 +15,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 2. Entwicklungsumgebung: Richten Sie eine geeignete Entwicklungsumgebung für die .NET-Programmierung ein, beispielsweise Visual Studio.
 3. Grundkenntnisse in C#: Vertrautheit mit der Programmiersprache C# ist für das Verständnis der Codebeispiele von Vorteil.
 
-## Namespaces importieren
+## Namensräume importieren
 Um zu beginnen, müssen Sie die erforderlichen Namespaces in Ihr C#-Projekt importieren. Dadurch können Sie auf die von der Aspose.Tasks-Bibliothek bereitgestellten Klassen und Methoden zugreifen.
 1. Öffnen Sie Visual Studio: Starten Sie Ihre Visual Studio-IDE.
 2. Erstellen Sie ein neues Projekt: Starten Sie ein neues C#-Projekt oder öffnen Sie ein vorhandenes, in dem Sie Aspose.Tasks verwenden möchten.
@@ -31,7 +31,7 @@ Legen Sie zunächst den Pfad zu dem Verzeichnis fest, das Ihre MS Project-Datei 
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer Projektdatei.
+ Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrer Projektdatei.
 ## Schritt 2: Laden Sie die Projektdatei
  Instanziieren Sie eine neue`Project` Objekt durch Laden der MS Project-Datei.
 ```csharp

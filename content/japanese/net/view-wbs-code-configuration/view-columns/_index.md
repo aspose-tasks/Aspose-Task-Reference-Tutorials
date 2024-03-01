@@ -73,9 +73,9 @@ project.Save(OutDir + "WorkWithViewColumn_out.pdf", options);
 ### Q: Aspose.Tasks を他のプロジェクト管理ツールと一緒に使用できますか?
 A: Aspose.Tasks は主に Microsoft Project ファイルに焦点を当てています。ただし、プロジェクトの要件に基づいて統合の可能性を検討することはできます。
 ### Q: ビュー列のカスタマイズに関する問題をトラブルシューティングするにはどうすればよいですか?
-A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティのサポートや、遭遇した課題への支援が受けられます。
+ A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティのサポートや、遭遇した課題への支援が受けられます。
 ### Q: Aspose.Tasks を購入する前に利用できる試用版はありますか?
-A: はい、以下から無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/).
+ A: はい、以下から無料試用版をダウンロードできます。[ここ](https://releases.aspose.com/).
 ###  Q: の重要性は何ですか?`MyTextStyleCallback` class in the tutorial?
  A:`MyTextStyleCallback`このクラスは、特定のビューでの視覚表現を改善するためにテキスト スタイルをカスタマイズする方法を示します。
 ### Q: Aspose.Tasks の追加リソースとドキュメントはどこで入手できますか?

@@ -66,6 +66,6 @@ Dans ce didacticiel, nous avons exploré le processus de configuration des modè
 ### Existe-t-il des conditions préalables pour utiliser Aspose.Tasks pour .NET ?
  Assurez-vous d'avoir une connaissance pratique de C# et .NET, ainsi que de la bibliothèque Aspose.Tasks installée. Télécharge le[ici](https://releases.aspose.com/tasks/net/).
 ### Comment puis-je obtenir de l'aide pour Aspose.Tasks ?
- visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour le soutien et l’assistance de la communauté.
+ Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour le soutien et l’assistance de la communauté.
 ### Puis-je essayer Aspose.Tasks gratuitement avant d’acheter ?
  Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).

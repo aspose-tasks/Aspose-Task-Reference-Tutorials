@@ -74,7 +74,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptions()
         PreserveUids = true
     };
 
-    // Définir les options de lecture de Primavera
+    // Définir les options de lecture Primavera
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     // Charger le projet Primavera avec les options spécifiées
@@ -119,7 +119,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
         ProjectUid = 3882 // Définir l'UID du projet
     };
 
-    // Définir les options de lecture de Primavera
+    // Définir les options de lecture Primavera
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     //Définir une gestion personnalisée des erreurs

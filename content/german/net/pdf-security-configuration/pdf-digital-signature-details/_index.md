@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren Sie die digitale PDF-Signatur von MS Project mit Aspose.Tasks
-linktitle: Konfigurieren Sie die Details der digitalen PDF-Signatur in Aspose.Tasks
+linktitle: Konfigurieren der Details der digitalen PDF-Signatur in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie die digitalen Signaturdetails von Microsoft Project PDF mit Aspose.Tasks für .NET konfigurieren. Sorgen Sie für Sicherheit und Authentizität Ihrer Projektdateien.
 type: docs
@@ -14,7 +14,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 1.  Aspose.Tasks für .NET: Stellen Sie sicher, dass Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
 2. Microsoft Project-Datei: Bereiten Sie die Microsoft Project-Datei vor, mit der Sie arbeiten möchten, und stellen Sie sicher, dass sie in Ihrem Projektverzeichnis zugänglich ist.
 3. X.509-Zertifikat: Besorgen Sie sich ein X.509-Zertifikat, das für die digitale Signatur verwendet wird. Wenn Sie noch kein Zertifikat haben, können Sie zu Testzwecken ein selbstsigniertes Zertifikat erstellen.
-## Namespaces importieren
+## Namensräume importieren
 Zunächst müssen Sie die erforderlichen Namespaces in Ihr .NET-Projekt importieren, um auf die erforderlichen Klassen und Methoden von Aspose.Tasks zuzugreifen.
 ```csharp
 using Aspose.Tasks;

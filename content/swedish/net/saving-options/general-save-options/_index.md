@@ -35,7 +35,7 @@ Först måste du ladda MS Project-filen med Aspose.Tasks:
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## Steg 2: Definiera sparalternativ
- Definiera sparalternativen enligt dina krav. I det här exemplet använder vi`Spreadsheet2003SaveOptions`,
+ Definiera sparalternativen enligt dina krav. I det här exemplet använder vi`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ S: Ja, Aspose.Tasks stöder olika versioner av MS Project-filer, vilket säkerst
 ### F: Kan jag prova Aspose.Tasks innan jag köper?
  S: Ja, du kan utforska Aspose.Tasks med en gratis provperiod tillgänglig[här](https://releases.aspose.com/).
 ### F: Var kan jag hitta dokumentation för Aspose.Tasks?
-S: Detaljerad dokumentation finns[här](https://reference.aspose.com/tasks/net/), som ger omfattande vägledning om hur du använder Aspose.Tasks-funktioner.
+ S: Detaljerad dokumentation finns[här](https://reference.aspose.com/tasks/net/), som ger omfattande vägledning om hur du använder Aspose.Tasks-funktioner.
 ### F: Hur kan jag få tillfälliga licenser för Aspose.Tasks?
- S: Tillfälliga licenser är tillgängliga för utvärderingssyften.[här](https://purchase.aspose.com/temporary-license/).
+ S: Tillfälliga licenser är tillgängliga för utvärderingssyften[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag söka stöd för Aspose.Tasks-relaterade frågor?
- S: Du kan gå med i Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15) för att få hjälp av experter och andra utvecklare.
+ S: Du kan gå med i Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15)för att få hjälp av experter och andra utvecklare.

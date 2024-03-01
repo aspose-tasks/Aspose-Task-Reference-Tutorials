@@ -27,7 +27,7 @@ Bắt đầu bằng cách khởi tạo dự án của bạn bằng thư viện A
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
-## Bước 2: Sửa đổi chế độ xem hiện tại
+## Bước 2: Sửa đổi chế độ xem hiện có
 Lặp lại danh sách các dạng xem và thực hiện sửa đổi nếu cần. Trong ví dụ này, chúng tôi sẽ thay đổi văn bản tiêu đề của từng chế độ xem.
 ```csharp
 List<View> list = project.Views.ToList();
@@ -83,14 +83,14 @@ foreach (var v in array)
 }
 ```
 ## Phần kết luận
-Chúc mừng! Bạn đã điều hướng thành công bối cảnh Aspose.Tasks cho .NET, nắm vững nghệ thuật quản lý Chế độ xem dự án MS. Bây giờ, hãy giải phóng toàn bộ tiềm năng của thư viện này trong các dự án của bạn để quản lý dự án liền mạch.
+Chúc mừng! Bạn đã điều hướng thành công bối cảnh Aspose.Tasks cho .NET, nắm vững nghệ thuật quản lý Chế độ xem Dự án MS. Bây giờ, hãy giải phóng toàn bộ tiềm năng của thư viện này trong các dự án của bạn để quản lý dự án liền mạch.
 ## Câu hỏi thường gặp
 ### Aspose.Tasks có tương thích với các phiên bản .NET Framework mới nhất không?
 Aspose.Tasks được thiết kế để tương thích với nhiều phiên bản .NET Framework khác nhau. Kiểm tra tài liệu để biết chi tiết cụ thể.
 ### Tôi có thể tùy chỉnh giao diện của các chế độ xem Biểu đồ Gantt không?
 Tuyệt đối! Aspose.Tasks cung cấp các tùy chọn mở rộng để tùy chỉnh giao diện của các chế độ xem Biểu đồ Gantt cho phù hợp với nhu cầu dự án của bạn.
 ### Có bản dùng thử miễn phí cho Aspose.Tasks không?
- Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được sự hỗ trợ của cộng đồng cho Aspose.Tasks?
  Tương tác với cộng đồng Aspose.Tasks trên[diễn đàn](https://forum.aspose.com/c/tasks/15) cho bất kỳ thắc mắc hoặc hỗ trợ.
 ### Giấy phép tạm thời có sẵn cho Aspose.Tasks không?

@@ -1,6 +1,6 @@
 ---
 title: Beheersing van Microsoft-projectweergaven met Aspose.Tasks
-linktitle: Configureer weergaven in Aspose.Tasks
+linktitle: Weergaven configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Beheers Microsoft Project-weergaven met Aspose.Tasks voor .NET. Pas uw projectmanagementervaring moeiteloos aan en stroomlijn deze.
 type: docs
@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Markeer het filter voor één weergave
 ## Stap 4: Stem de weergave-instellingen af
 ```csharp
 // Stem enkele weergave-instellingen af
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Stel het aantal eerste kolommen in dat op alle pagina's moet worden afgedrukt
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Stel het aantal eerste kolommen in dat op alle pagina's moet worden afgedrukt
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Druk een bepaald aantal eerste kolommen af op alle pagina's
 ```
 ## Stap 5: Voeg weergave toe aan het project
 ```csharp
-//Voeg de weergave toe aan ons project
+// Voeg de weergave toe aan ons project
 project.Views.Add(view);
 ```
 ## Stap 6: Sla het project op met de nieuwe weergave
@@ -73,8 +73,8 @@ Aspose.Tasks is primair ontworpen voor Microsoft Project en zorgt voor een naadl
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
  Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Tasks voor .NET?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning of overweeg om ondersteuningsplannen aan te schaffen.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning of overweeg om ondersteuningsplannen aan te schaffen.
 ### Kan ik de weergave van weergaven verder aanpassen?
- Absoluut, duik in de Aspose.Tasks-documentatie[hier](https://reference.aspose.com/tasks/net/)voor geavanceerde aanpassingsmogelijkheden.
+ Absoluut, duik in de Aspose.Tasks-documentatie[hier](https://reference.aspose.com/tasks/net/) voor geavanceerde aanpassingsmogelijkheden.
 ### Waar kan ik Aspose.Tasks voor .NET kopen?
  Je kunt de bibliotheek kopen[hier](https://purchase.aspose.com/buy) voor een naadloze projectmanagementervaring.

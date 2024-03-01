@@ -9,7 +9,7 @@ url: /hu/net/advanced-features/repetition-by-year-week-day/
 ---
 ## Bevezetés
 
-projektmenedzsment területén a hatékonyság és a precizitás a legfontosabb. Az Aspose.Tasks for .NET hatékony eszközként jelenik meg, amely számos funkciót kínál a projektkezelés egyszerűsítésére. Arzenálja közé tartozik az ismétlődő feladatok figyelemreméltó rugalmasság kezelésének képessége. Az egyik ilyen funkció az "Ismétlés évenkénti hétnaponként" funkció, amely lehetővé teszi a felhasználók számára, hogy olyan feladatokat állítsanak be, amelyek a hét meghatározott napjain, meghatározott hónapokon belül és több éven keresztül ismétlődnek.
+A projektmenedzsment területén a hatékonyság és a precizitás a legfontosabb. Az Aspose.Tasks for .NET hatékony eszközként jelenik meg, amely számos funkciót kínál a projektkezelés egyszerűsítésére. Arzenálja közé tartozik az ismétlődő feladatok figyelemreméltó rugalmasság kezelésének képessége. Az egyik ilyen funkció az "Ismétlés évenkénti hétnaponként" funkció, amely lehetővé teszi a felhasználók számára, hogy olyan feladatokat állítsanak be, amelyek a hét meghatározott napjain, meghatározott hónapokon belül és több éven keresztül ismétlődnek.
 
 ## Előfeltételek
 
@@ -21,7 +21,7 @@ Ismerkedjen meg a .NET-keretrendszer alapjaival, beleértve az objektumorientál
 
 ### 2. Az Aspose.Tasks telepítése .NET-hez
 
- Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési link](https://releases.aspose.com/tasks/net/)Kövesse a kapott telepítési utasításokat a könyvtár fejlesztői környezetbe való integrálásához.
+ Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési link](https://releases.aspose.com/tasks/net/). Kövesse a kapott telepítési utasításokat a könyvtár fejlesztői környezetbe való integrálásához.
 
 ### 3. Hozzáférés a Dokumentációhoz
 
@@ -125,4 +125,4 @@ V: Igen, az Aspose.Tasks for .NET támogatja a felhő alapú projektmenedzsment 
 
 ### 5. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
 
- V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez a következőről:[weboldal](https://releases.aspose.com/), amely lehetővé teszi, hogy a vásárlási döntés meghozatala előtt felfedezze tulajdonságait.
+V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez a következőről:[weboldal](https://releases.aspose.com/), amely lehetővé teszi, hogy a vásárlási döntés meghozatala előtt felfedezze tulajdonságait.

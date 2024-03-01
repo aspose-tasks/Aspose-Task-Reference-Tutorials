@@ -68,7 +68,7 @@ Console.WriteLine("Week Day 2 Hash Code: {0}", weekDay2.GetHashCode());
 var project = new Project();
 // Definujte kalendář
 var calendar = project.Calendars.Add("Calendar1");
-// Přidejte pracovní dny a výjimečné dny
+// Přidejte pracovní dny a výjimečný den
 // Přidejte podobné výstupní příkazy pro FromDate a ToDate
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));

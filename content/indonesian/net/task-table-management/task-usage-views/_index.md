@@ -1,6 +1,6 @@
 ---
 title: Menguasai Tampilan Penggunaan Tugas di Aspose.Tasks untuk .NET
-linktitle: Konfigurasikan Tampilan Penggunaan Tugas di Aspose.Tasks
+linktitle: Mengonfigurasi Tampilan Penggunaan Tugas di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi Aspose.Tasks untuk .NET dan pelajari cara mengonfigurasi tampilan penggunaan tugas. Sesuaikan pengaturan skala waktu dan tingkatkan visual manajemen proyek Anda.
 type: docs
@@ -23,7 +23,7 @@ Di proyek .NET Anda, impor namespace yang diperlukan untuk mengakses fungsionali
     using Aspose.Tasks.Visualization;
 ```
 ## Langkah 1: Tetapkan Jalur Direktori Dokumen
- Sebelum bekerja dengan fungsi Aspose.Tasks, atur jalur ke direktori dokumen Anda. mengganti`"Your Document Directory"` dengan jalur sebenarnya.
+ Sebelum bekerja dengan fungsi Aspose.Tasks, atur jalur ke direktori dokumen Anda. Mengganti`"Your Document Directory"` dengan jalur sebenarnya.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Ya, Aspose.Tasks mendukung format file proyek populer seperti MPP, XML, dan CSV.
 ### Bisakah saya menerapkan pengaturan skala waktu yang berbeda untuk tugas tertentu?
 Tentu saja, Anda dapat menyesuaikan pengaturan skala waktu untuk masing-masing tugas dalam proyek Anda.
 ### Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan untuk Aspose.Tasks?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan bimbingan masyarakat.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan bimbingan masyarakat.

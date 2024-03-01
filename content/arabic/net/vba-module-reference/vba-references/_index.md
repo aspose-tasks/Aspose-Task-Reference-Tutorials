@@ -21,7 +21,7 @@ url: /ar/net/vba-module-reference/vba-references/
     using System;
     
 ```
-## قراءة المراجع VBA
+## قراءة مراجع VBA
 لنبدأ بقراءة مراجع VBA من ملف المشروع:
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -72,10 +72,10 @@ foreach (var reference in project.VbaProject.References)
 ### س: هل يمكنني استخدام Aspose.Tasks مع لغات البرمجة الأخرى؟
 ج: يدعم Aspose.Tasks بشكل أساسي لغات .NET، ولكن هناك منتجات Aspose أخرى مصممة خصيصًا لمنصات ولغات مختلفة.
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
-ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: هل يتوفر دعم مجتمعي لـ Aspose.Tasks؟
  ج: نعم، يمكنك العثور على الدعم على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
 ### س: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.Tasks؟
  ج: الوثائق متاحة[هنا](https://reference.aspose.com/tasks/net/).
 ### س: هل يمكنني شراء Aspose.Tasks؟
- ج: نعم يمكنك شرائها.[هنا](https://purchase.aspose.com/buy).
+ ج: نعم يمكنك شرائها[هنا](https://purchase.aspose.com/buy).

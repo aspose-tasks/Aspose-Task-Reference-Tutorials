@@ -1,6 +1,6 @@
 ---
 title: Feladathasználati nézetek elsajátítása az Aspose.Tasks for .NET-ben
-linktitle: Konfigurálja a Feladathasználati nézeteket az Aspose.Tasks alkalmazásban
+linktitle: Feladathasználati nézetek konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel az Aspose.Tasks for .NET webhelyet, és tanulja meg, hogyan konfigurálhatja a feladathasználati nézeteket. Testreszabhatja az időbeosztás beállításait, és javíthatja projektmenedzsment látványvilágát.
 type: docs
@@ -23,7 +23,7 @@ A .NET-projektben importálja a szükséges névtereket az Aspose.Tasks funkció
     using Aspose.Tasks.Visualization;
 ```
 ## 1. lépés: Állítsa be a dokumentumkönyvtár elérési útját
- Az Aspose.Tasks funkciók használata előtt állítsa be a dokumentumkönyvtár elérési útját. cserélje ki`"Your Document Directory"` a tényleges úttal.
+ Az Aspose.Tasks funkciók használata előtt állítsa be a dokumentumkönyvtár elérési útját. Cserélje ki`"Your Document Directory"` a tényleges úttal.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Igen, az Aspose.Tasks támogatja az olyan népszerű projektfájlformátumokat, 
 ### Alkalmazhatok különböző időbeállításokat bizonyos feladatokhoz?
 Természetesen személyre szabhatja az időskála beállításait az egyes feladatokhoz a projekten belül.
 ### Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.Tasks számára?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért és útmutatásért.
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért és útmutatásért.

@@ -9,7 +9,7 @@ url: /es/net/advanced-features/calculation-type/
 ---
 ## Introducción
 
-En este tutorial, exploraremos la función Tipo de cálculo en Aspose.Tasks para .NET. Aspose.Tasks es una poderosa biblioteca que permite a los desarrolladores .NET trabajar con archivos de Microsoft Project sin la necesidad de tener Microsoft Project instalado en sus sistemas. Tipo de cálculo nos permite definir cómo se calculan los valores para las tareas y las tareas de resumen dentro de un proyecto.
+En este tutorial, exploraremos la función Tipo de cálculo en Aspose.Tasks para .NET. Aspose.Tasks es una poderosa biblioteca que permite a los desarrolladores .NET trabajar con archivos de Microsoft Project sin la necesidad de tener Microsoft Project instalado en sus sistemas. El tipo de cálculo nos permite definir cómo se calculan los valores para las tareas y las tareas de resumen dentro de un proyecto.
 
 ## Requisitos previos
 
@@ -74,7 +74,7 @@ project.ExtendedAttributes.Add(lookup);
 
 ## Conclusión
 
-En este tutorial, exploramos cómo trabajar con el tipo de cálculo en Aspose.Tasks para .NET. Al definir Tipos de cálculo para atributos extendidos, podemos personalizar cómo se calculan los valores para tareas y tareas resumidas dentro de un proyecto, brindando mayor flexibilidad y control.
+En este tutorial, exploramos cómo trabajar con el tipo de cálculo en Aspose.Tasks para .NET. Al definir tipos de cálculo para atributos extendidos, podemos personalizar cómo se calculan los valores para tareas y tareas resumidas dentro de un proyecto, brindando mayor flexibilidad y control.
 
 ## Preguntas frecuentes
 

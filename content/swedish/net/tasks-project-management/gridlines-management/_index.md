@@ -13,7 +13,7 @@ Att hantera projekt effektivt innebär ofta att visualisera tidslinjer och uppgi
 Innan vi börjar, se till att du har ställt in följande förutsättningar:
 ### 1. Installera Aspose.Tasks för .NET
 För att arbeta med Aspose.Tasks för .NET måste du ha det installerat i din utvecklingsmiljö. Du kan ladda ner biblioteket från[hemsida](https://releases.aspose.com/tasks/net/) eller via pakethanterare som NuGet.
-### 2.Utvecklingsmiljö
+### 2. Utvecklingsmiljö
 Se till att du har en .NET-utvecklingsmiljö inställd på din dator. Du kan använda Visual Studio eller vilken annan .NET IDE som helst.
 ## Importera namnområden
 Innan vi dyker in i koden, låt oss importera de nödvändiga namnrymden för att komma åt Aspose.Tasks-funktioner.

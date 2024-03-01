@@ -31,12 +31,12 @@ using System;
 // Belgeler dizininin yolu.
 string dataDir = "Your Document Directory";
 ```
- yer değiştirmek`"Your Document Directory"` MS Project dosyasını içeren dizininizin yolu ile birlikte.
+ Yer değiştirmek`"Your Document Directory"` MS Project dosyasını içeren dizininizin yolu ile birlikte.
 ## Adım 3: Proje Dosyası Bilgilerini Alın
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Bu kod satırı, belirtilen Proje dosyası hakkındaki bilgileri alır. yer değiştirmek`"Project.xml"` MS Project dosyanızın adıyla.
+ Bu kod satırı, belirtilen Proje dosyası hakkındaki bilgileri alır. Yer değiştirmek`"Project.xml"` MS Project dosyanızın adıyla.
 ## Adım 4: Proje Bilgilerini Görüntüleyin
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);

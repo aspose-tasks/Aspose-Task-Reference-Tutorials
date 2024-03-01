@@ -41,7 +41,7 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 Bằng cách làm theo các bước này, bạn sẽ có thể định cấu hình Loại phương pháp dự án MS có giá trị kiếm được bằng cách sử dụng Aspose.Tasks cho .NET một cách dễ dàng.
 
 ## Phần kết luận
-Tóm lại, việc nắm vững các phương pháp Quản lý giá trị kiếm được bằng Aspose.Tasks cho .NET có thể nâng cao đáng kể khả năng quản lý dự án của bạn. Bằng cách đo lường chính xác hiệu suất dự án và so sánh nó với các mục tiêu đã lên kế hoạch, bạn có thể đưa ra quyết định sáng suốt để đưa dự án của mình tới thành công.
+Tóm lại, việc nắm vững các phương pháp Quản lý giá trị kiếm được bằng Aspose.Tasks cho .NET có thể nâng cao đáng kể khả năng quản lý dự án của bạn. Bằng cách đo lường chính xác hiệu suất dự án và so sánh nó với các mục tiêu đã lên kế hoạch, bạn có thể đưa ra quyết định sáng suốt để đưa dự án của mình hướng tới thành công.
 ## Câu hỏi thường gặp
 ### Câu hỏi: Aspose.Tasks cho .NET có thể xử lý các tệp dự án lớn một cách hiệu quả không?
 Trả lời: Có, Aspose.Tasks for .NET được tối ưu hóa để xử lý các tệp dự án lớn một cách dễ dàng, đảm bảo hiệu suất và độ tin cậy cao.
@@ -52,4 +52,4 @@ Trả lời: Có, bạn có thể sử dụng bản dùng thử miễn phí Aspo
 ### Câu hỏi: Aspose.Tasks cho .NET có hỗ trợ giấy phép tạm thời không?
  Trả lời: Có, giấy phép tạm thời có sẵn cho Aspose.Tasks for .NET. Bạn có thể lấy chúng từ:[Giấy phép tạm thời](https://purchase.aspose.com/temporary-license/)
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho .NET ở đâu?
- Trả lời: Bạn có thể mua Aspose.Tasks cho .NET từ trang web:[mua](https://purchase.aspose.com/buy).
+ Trả lời: Bạn có thể mua Aspose.Tasks cho .NET từ trang web:[Mua](https://purchase.aspose.com/buy).

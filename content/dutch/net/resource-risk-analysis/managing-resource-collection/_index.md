@@ -98,4 +98,4 @@ A: Ja, Aspose.Tasks ondersteunt multi-threading, waardoor gelijktijdige bewerkin
 
 ### Vraag: Is er technische ondersteuning beschikbaar voor Aspose.Tasks-gebruikers?
 
- A: Ja, Aspose.Tasks-gebruikers hebben via het forum toegang tot technische ondersteuning.[hier](https://forum.aspose.com/c/tasks/15).
+ A: Ja, Aspose.Tasks-gebruikers hebben via het forum toegang tot technische ondersteuning[hier](https://forum.aspose.com/c/tasks/15).

@@ -8,10 +8,10 @@ weight: 21
 url: /sv/net/resource-risk-analysis/risk-item-statistics/
 ---
 ## Introduktion
-Vill du förbättra din projektledningsförmåga med Aspose.Tasks för .NET? Fördjupa dig i riskanalysens område med vår steg-för-steg-handledning om att få statistik för riskobjekt i MS Project-filer. Genom att utnyttja de kraftfulla funktionerna i Aspose.Tasks kan du få ovärderliga insikter i projektets osäkerheter och fatta välgrundade beslut för att minska risker effektivt.
+Vill du förbättra din projektledningsförmåga med Aspose.Tasks för .NET? Fördjupa dig i riskanalysens område med vår steg-för-steg-handledning om att få statistik för riskobjekt i MS Project-filer. Genom att utnyttja de kraftfulla funktionerna hos Aspose.Tasks kan du få ovärderliga insikter i projektets osäkerheter och fatta välgrundade beslut för att minska riskerna effektivt.
 ## Förutsättningar
 Innan vi ger oss ut på denna resa, se till att du har följande förutsättningar på plats:
-1.  Aspose.Tasks för .NET Library: Ladda ner och installera biblioteket från[Aspose.Tasks för .NET-dokumentation](https://reference.aspose.com/tasks/net/), Detta bibliotek utrustar dig med robusta verktyg för att manipulera MS Project-filer programmatiskt.
+1.  Aspose.Tasks för .NET Library: Ladda ner och installera biblioteket från[Aspose.Tasks för .NET-dokumentation](https://reference.aspose.com/tasks/net/). Detta bibliotek utrustar dig med robusta verktyg för att manipulera MS Project-filer programmatiskt.
 2. .NET-utvecklingsmiljö: Konfigurera din .NET-utvecklingsmiljö, inklusive Visual Studio eller någon annan IDE du väljer, för att underlätta sömlös integrering av Aspose.Tasks i dina projekt.
 
 ## Importera namnområden
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- Se till att byta ut`"Your Document Directory"`med sökvägen till din dokumentkatalog där dina MS Project-filer finns.
+ Se till att byta ut`"Your Document Directory"` med sökvägen till din dokumentkatalog där dina MS Project-filer finns.
 ## Steg 2: Konfigurera inställningar för riskanalys
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- Justera`IterationsCount` parameter baserad på dina projektkrav för att kontrollera precisionen i riskanalysen.
+ Justera`IterationsCount`parameter baserad på dina projektkrav för att kontrollera precisionen i riskanalysen.
 ## Steg 3: Ladda MS Project File
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

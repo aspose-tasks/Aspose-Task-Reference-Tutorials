@@ -8,10 +8,10 @@ weight: 12
 url: /pl/net/saving-options/mpp-save-options/
 ---
 ## Wstęp
-W świecie programowania .NET efektywne zarządzanie plikami projektów i manipulowanie nimi ma kluczowe znaczenie dla osiągnięcia sukcesu. Aspose.Tasks dla .NET oferuje potężne rozwiązanie do łatwej obsługi plików Microsoft Project (MPP). Wśród wielu funkcji Aspose.Tasks umożliwia użytkownikom płynne zapisywanie opcji MS Project, usprawniając przepływ pracy i zapewniając integralność projektu. W tym samouczku zagłębimy się w proces zapisywania opcji MS Project przy użyciu Aspose.Tasks dla .NET.
+świecie programowania .NET efektywne zarządzanie plikami projektów i manipulowanie nimi ma kluczowe znaczenie dla osiągnięcia sukcesu. Aspose.Tasks dla .NET oferuje potężne rozwiązanie do łatwej obsługi plików Microsoft Project (MPP). Wśród wielu funkcji Aspose.Tasks umożliwia użytkownikom płynne zapisywanie opcji MS Project, usprawniając przepływ pracy i zapewniając integralność projektu. W tym samouczku zagłębimy się w proces zapisywania opcji MS Project przy użyciu Aspose.Tasks dla .NET.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
-1. Instalacja Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[Tutaj](https://releases.aspose.com/tasks/net/).
+1.  Instalacja Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[Tutaj](https://releases.aspose.com/tasks/net/).
 2. Środowisko programistyczne: skonfiguruj środowisko programistyczne .NET, takie jak Visual Studio.
 3. Podstawowa znajomość języka C#: Znajomość języka programowania C# jest niezbędna do wdrożenia przykładów.
 
@@ -62,7 +62,7 @@ Tak, Aspose.Tasks dla .NET obsługuje różne wersje plików Microsoft Project, 
 ### Czy mogę wypróbować Aspose.Tasks dla .NET przed zakupem?
  Z pewnością! Możesz pobrać bezpłatną wersję próbną Aspose.Tasks dla .NET z[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać pomoc techniczną dla Aspose.Tasks dla .NET?
- Aby uzyskać pomoc techniczną, możesz odwiedzić forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+Aby uzyskać pomoc techniczną, możesz odwiedzić forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### Co to jest licencja tymczasowa i jak mogę ją uzyskać?
  Licencja tymczasowa pozwala na korzystanie z Aspose.Tasks dla .NET bez żadnych ograniczeń. Możesz nabyć licencję tymczasową od[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę kupić licencjonowaną wersję Aspose.Tasks dla .NET?

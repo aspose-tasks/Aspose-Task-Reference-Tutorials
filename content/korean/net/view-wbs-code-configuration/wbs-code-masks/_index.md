@@ -84,7 +84,7 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ### Aspose.Tasks를 무료로 사용할 수 있나요?
  Aspose.Tasks는 다운로드할 수 있는 무료 평가판을 제공합니다.[여기](https://releases.aspose.com/).
 ### 추가 지원은 어디서 찾을 수 있나요?
- 방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)지역 사회 지원을 위해.
+ 방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역 사회 지원을 위해.
 ### 임시 라이센스는 어떻게 얻을 수 있나요?
  임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### 자세한 문서가 제공되나요?

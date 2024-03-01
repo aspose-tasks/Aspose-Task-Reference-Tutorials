@@ -11,7 +11,7 @@ url: /fr/net/rate-recurring-tasks/removing-tasks/
 Dans ce didacticiel, nous verrons comment supprimer des tâches d'un fichier Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Aspose.Tasks est une API puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme. La suppression de tâches d'un fichier de projet peut être une exigence courante dans les scénarios de gestion de projet, et Aspose.Tasks fournit un moyen simple d'y parvenir.
 ## Conditions préalables
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
-1. Installation d'Aspose.Tasks pour .NET : Vous devez avoir installé Aspose.Tasks pour .NET dans votre environnement de développement. Si vous ne l'avez pas encore installé, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/net/).
+1.  Installation d'Aspose.Tasks pour .NET : Vous devez avoir installé Aspose.Tasks pour .NET dans votre environnement de développement. Si vous ne l'avez pas encore installé, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/net/).
 2. Fichier Microsoft Project : préparez un fichier Microsoft Project (`Project1.mpp` dans cet exemple) dont vous souhaitez supprimer des tâches.
 
 ## Importer des espaces de noms
@@ -66,12 +66,12 @@ Enfin, nous vérifions les résultats pour nous assurer que la tâche spécifié
 Dans ce didacticiel, nous avons appris à supprimer des tâches d'un fichier Microsoft Project à l'aide d'Aspose.Tasks pour .NET. En suivant le guide étape par étape, vous pouvez intégrer de manière transparente cette fonctionnalité dans vos applications .NET, améliorant ainsi vos capacités de gestion de projet.
 ## FAQ
 ### Q : Puis-je supprimer plusieurs tâches à la fois à l’aide d’Aspose.Tasks ?
-R : Oui, vous pouvez supprimer plusieurs tâches en parcourant les tâches que vous souhaitez supprimer et en appliquant l'algorithme de suppression à chaque tâche.
+: Oui, vous pouvez supprimer plusieurs tâches en parcourant les tâches que vous souhaitez supprimer et en appliquant l'algorithme de suppression à chaque tâche.
 ### Q : Aspose.Tasks est-il compatible avec différentes versions des fichiers Microsoft Project ?
 R : Oui, Aspose.Tasks prend en charge différentes versions de fichiers Microsoft Project, notamment les formats MPP et XML.
 ### Q : Puis-je annuler l’opération de suppression de tâche si nécessaire ?
 R : Aspose.Tasks fournit des fonctionnalités robustes pour annuler des opérations. Vous pouvez implémenter une logique personnalisée pour gérer les scénarios d'annulation si nécessaire.
 ### Q : Aspose.Tasks offre-t-il un support pour les structures de projets complexes ?
-: Absolument, Aspose.Tasks offre une prise en charge complète des structures de projet complexes, vous permettant de manipuler facilement les tâches, les ressources et d'autres éléments du projet.
+R : Absolument, Aspose.Tasks offre une prise en charge complète des structures de projet complexes, vous permettant de manipuler facilement les tâches, les ressources et d'autres éléments du projet.
 ### Q : Existe-t-il une version d'essai disponible pour Aspose.Tasks ?
  R : Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Tasks à partir de[ici](https://releases.aspose.com/tasks/net/) pour explorer ses fonctionnalités avant de faire un achat.

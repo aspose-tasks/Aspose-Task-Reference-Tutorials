@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks を使用して MS Project PDF デジタル署名を構成する
-linktitle: Aspose.Tasks で PDF デジタル署名の詳細を構成する
+linktitle: Aspose.Tasks での PDF デジタル署名の詳細の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project PDF デジタル署名の詳細を構成する方法を学習します。プロジェクト ファイルのセキュリティと信頼性を確保します。
 type: docs

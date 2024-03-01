@@ -11,7 +11,7 @@ url: /es/net/pdf-security-configuration/
 
 En el ámbito digital, proteger los archivos de su proyecto es primordial. Aspose.Tasks para .NET proporciona una solución sólida para fortalecer la seguridad de sus archivos PDF de Microsoft Project. Esta serie de tutoriales profundiza en las complejidades de la configuración de seguridad de PDF, garantizando la confidencialidad y autenticidad de los valiosos datos de su proyecto.
 
-## Configure la firma digital PDF de MS Project con Aspose.Tasks
+## Configuración de la firma digital PDF de MS Project con Aspose.Tasks
 
 Cuando se trata de validar la autenticidad de los documentos de su proyecto, las firmas digitales desempeñan un papel fundamental. En este tutorial, lo guiamos a través del proceso de configuración de los detalles de la firma digital PDF de Microsoft Project usando Aspose.Tasks para .NET. Al final, poseerá el conocimiento para implementar firmas digitales de manera efectiva, asegurando la integridad de los archivos de su proyecto.
 
@@ -19,7 +19,7 @@ Las firmas digitales sirven como huellas digitales electrónicas y proporcionan 
 
 [Obtenga más información sobre cómo configurar la firma digital PDF de MS Project con Aspose.Tasks](./pdf-digital-signature-details/)
 
-## Configure los detalles de cifrado de PDF de MS Project en Aspose.Tasks
+## Configuración de los detalles de cifrado de PDF de MS Project en Aspose.Tasks
 
 Más allá de las firmas digitales, el cifrado agrega una capa adicional de protección a los archivos de su proyecto. Este tutorial se centra en la configuración de los detalles de cifrado de PDF de MS Project utilizando Aspose.Tasks para .NET. Al final de esta guía, será experto en proteger los archivos de su proyecto con contraseñas de usuario y propietario.
 

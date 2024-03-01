@@ -74,7 +74,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptions()
         PreserveUids = true
     };
 
-    // Primavera seçeneklerini okumayı ayarlayın
+    // Primavera okuma seçeneklerini ayarlama
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     // Primavera projesini belirtilen seçeneklerle yükleyin
@@ -119,7 +119,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
         ProjectUid = 3882 // Proje UID'sini ayarlayın
     };
 
-    // Primavera seçeneklerini okumayı ayarlayın
+    // Primavera okuma seçeneklerini ayarlama
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     //Özel hata işlemeyi ayarlayın

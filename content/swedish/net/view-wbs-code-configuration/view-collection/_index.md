@@ -90,7 +90,7 @@ Aspose.Tasks är designad för att vara kompatibel med olika .NET Framework-vers
 ### Kan jag anpassa utseendet på Gantt-diagramvyer?
 Absolut! Aspose.Tasks erbjuder omfattande alternativ för att anpassa utseendet på Gantt-diagramvyer för att passa ditt projekts behov.
 ### Finns det en gratis testversion tillgänglig för Aspose.Tasks?
- Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
+Ja, du kan få tillgång till en gratis provperiod[här](https://releases.aspose.com/).
 ### Hur kan jag få gemenskapsstöd för Aspose.Tasks?
  Engagera dig med Aspose.Tasks-communityt på[forum](https://forum.aspose.com/c/tasks/15) för eventuella frågor eller hjälp.
 ### Finns tillfälliga licenser tillgängliga för Aspose.Tasks?

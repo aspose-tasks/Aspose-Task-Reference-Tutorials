@@ -12,7 +12,7 @@ Aspose.Tasks for .NET은 개발자가 Microsoft Project 파일을 쉽게 조작�
 ## 전제조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 ### 1. .NET용 Aspose.Tasks 설치
-.NET용 Aspose.Tasks를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
+ .NET용 Aspose.Tasks를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
 ### 2. 라이센스 취득(선택)
  상업용 프로젝트에서 Aspose.Tasks를 사용하는 경우 라이선스가 필요합니다. 다음에서 라이센스를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy) , 또는 임시 라이센스를 요청할 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### 3. 개발 환경 설정
@@ -53,5 +53,5 @@ A: 예, 상업용 프로젝트에서 Aspose.Tasks for .NET을 사용할 수 있�
  A: 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
 ### Q4: Aspose.Tasks에 대한 지원은 어떻게 받을 수 있나요?
  A: 커뮤니티로부터 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
-### Q5: .NET용 Aspose.Tasks를 어떻게 다운로드합니까?
+### Q5: .NET용 Aspose.Tasks를 어떻게 다운로드하나요?
  A: .NET용 Aspose.Tasks를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).

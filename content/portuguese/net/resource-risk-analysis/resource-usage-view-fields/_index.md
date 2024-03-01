@@ -60,7 +60,7 @@ Dominar a manipulação de campos de visualização de uso de recursos em Aspose
 ### P: O Aspose.Tasks for .NET é compatível com todas as versões de arquivos do Microsoft Project?
 R: Sim, Aspose.Tasks for .NET oferece suporte a uma ampla variedade de formatos de arquivo do Microsoft Project, garantindo compatibilidade entre várias versões.
 ### P: Posso realizar cálculos avançados em campos de visualização de uso de recursos usando Aspose.Tasks for .NET?
-R: Absolutamente! Aspose.Tasks for .NET fornece ampla funcionalidade para realizar cálculos e manipulações avançadas em campos de visualização de uso de recursos.
+R: Absolutamente! Aspose.Tasks for .NET fornece ampla funcionalidade para realizar cálculos e manipulações avançadas em campos de exibição de uso de recursos.
 ### P: Onde posso encontrar suporte ou assistência adicional com Aspose.Tasks for .NET?
  R: Você pode buscar ajuda da vibrante comunidade e dos especialistas do[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### P: Existe uma versão de teste disponível para Aspose.Tasks for .NET?

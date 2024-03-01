@@ -31,7 +31,7 @@ Először állítsa be az MS Project fájlt tartalmazó könyvtár elérési út
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- cserélje ki`"Your Document Directory"` a projektfájl tényleges elérési útjával.
+ Cserélje ki`"Your Document Directory"` a projektfájl tényleges elérési útjával.
 ## 2. lépés: Töltse be a projektfájlt
  Példányosítson egy újat`Project` objektumot az MS Project fájl betöltésével.
 ```csharp

@@ -59,7 +59,7 @@ var pattern = new RiskPattern(task);
 ```csharp
 pattern.Distribution = ProbabilityDistributionType.Normal;
 ```
-Chọn loại phân phối để tạo giá trị ngẫu nhiên (ví dụ: bình thường hoặc đồng nhất).
+Chọn loại phân phối để tạo các giá trị ngẫu nhiên (ví dụ: bình thường hoặc đồng nhất).
 ## Bước 8: Đặt thời lượng lạc quan
 ```csharp
 pattern.Optimistic = 70;
@@ -80,7 +80,7 @@ pattern.ConfidenceLevel = ConfidenceLevel.CL75;
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Khởi tạo một`RiskAnalyzer` mục tiêu và thực hiện phân tích rủi ro của dự án.
+ Khởi tạo một`RiskAnalyzer` đối tượng và thực hiện phân tích rủi ro đối với dự án.
 ## Bước 12: Truy xuất kết quả phân tích
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

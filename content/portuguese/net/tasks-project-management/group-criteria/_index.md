@@ -32,7 +32,7 @@ Primeiro, especifique o caminho para o arquivo do Microsoft Project:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- substituir`"Your Document Directory"` com o caminho para o arquivo do seu projeto.
+ Substituir`"Your Document Directory"` com o caminho para o arquivo do seu projeto.
 ## Etapa 2: recuperar informações dos grupos de tarefas
 A seguir, recupere informações sobre grupos de tarefas no projeto:
 ```csharp

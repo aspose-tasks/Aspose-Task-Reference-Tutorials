@@ -17,7 +17,7 @@ Aspose.Tasks for .NET の使用に入る前に、いくつかの前提条件を�
 
 ### 1. Aspose.Tasks for .NET のインストール
 
-開始するには、Aspose.Tasks for .NET をダウンロードしてインストールする必要があります。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/tasks/net/)、提供されるインストール手順に従って、開発環境にライブラリをセットアップします。
+開始するには、Aspose.Tasks for .NET をダウンロードしてインストールする必要があります。ダウンロードリンクが見つかります[ここ](https://releases.aspose.com/tasks/net/)。提供されるインストール手順に従って、開発環境にライブラリをセットアップします。
 
 ### 2. 名前空間のインポート
 

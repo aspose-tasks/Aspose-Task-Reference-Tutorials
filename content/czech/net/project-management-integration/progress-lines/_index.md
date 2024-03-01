@@ -93,6 +93,6 @@ Odpověď: Ano, Aspose.Tasks poskytuje rozsáhlou podporu pro manipulaci s různ
 ### Otázka: Mohu integrovat Aspose.Tasks s jinými knihovnami .NET?
 Odpověď: Rozhodně, Aspose.Tasks je navržen tak, aby se hladce integroval s ostatními knihovnami .NET, což vám umožní dále vylepšit vaše aplikace pro řízení projektů.
 ### Otázka: Existuje komunitní fórum pro podporu Aspose.Tasks?
- Odpověď: Ano, užitečné zdroje a pomoc můžete vyhledat na fóru Aspose.Tasks.[tady](https://forum.aspose.com/c/tasks/15).
+ Odpověď: Ano, užitečné zdroje a pomoc můžete vyhledat na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Nabízí Aspose.Tasks dočasné licence pro účely hodnocení?
  Odpověď: Ano, můžete získat dočasnou licenci pro vyzkoušení od[tady](https://purchase.aspose.com/temporary-license/).

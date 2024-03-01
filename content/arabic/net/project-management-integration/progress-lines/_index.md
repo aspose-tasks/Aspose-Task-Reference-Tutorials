@@ -93,6 +93,6 @@ project.Save(DataDir + "WorkWithProgressLines_out.mpp", SaveFileFormat.Mpp);
 ### س: هل يمكنني دمج Aspose.Tasks مع مكتبات .NET الأخرى؟
 ج: بالتأكيد، تم تصميم Aspose.Tasks للتكامل بسلاسة مع مكتبات .NET الأخرى، مما يسمح لك بتحسين تطبيقات إدارة المشروعات الخاصة بك بشكل أكبر.
 ### س: هل يوجد منتدى مجتمعي لدعم Aspose.Tasks؟
- ج: نعم، يمكنك العثور على موارد مفيدة وطلب المساعدة في منتدى Aspose.Tasks.[هنا](https://forum.aspose.com/c/tasks/15).
+ ج: نعم، يمكنك العثور على موارد مفيدة وطلب المساعدة في منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: هل يقدم Aspose.Tasks تراخيص مؤقتة لأغراض التقييم؟
  ج: نعم، يمكنك الحصول على ترخيص مؤقت للتقييم من[هنا](https://purchase.aspose.com/temporary-license/).

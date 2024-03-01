@@ -1,6 +1,6 @@
 ---
 title: Skonfiguruj podpis cyfrowy PDF MS Project za pomocą Aspose.Tasks
-linktitle: Skonfiguruj szczegóły podpisu cyfrowego PDF w Aspose.Tasks
+linktitle: Konfigurowanie szczegółów podpisu cyfrowego PDF w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować szczegóły podpisu cyfrowego Microsoft Project PDF przy użyciu Aspose.Tasks dla .NET. Zapewnij bezpieczeństwo i autentyczność plików swojego projektu.
 type: docs

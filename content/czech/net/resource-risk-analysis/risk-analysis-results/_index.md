@@ -77,7 +77,7 @@ using (var stream = new FileStream(OutDir + "AnalysisResult_out1.pdf", FileMode.
 ```
 
 ## Závěr
-Závěrem lze říci, že využití Aspose.Tasks for .NET usnadňuje robustní analýzu rizik pro soubory MS Project. Dodržováním kroků uvedených v tomto návodu mohou projektoví manažeři získat cenné poznatky o potenciálních nejistotách, což jim pomůže při informovaném rozhodování a zajistí úspěch projektu.
+Závěrem lze říci, že využití Aspose.Tasks for .NET usnadňuje robustní analýzu rizik pro soubory MS Project. Dodržením kroků uvedených v tomto návodu mohou projektoví manažeři získat cenné poznatky o potenciálních nejistotách, což jim pomůže při informovaném rozhodování a zajistí úspěch projektu.
 ## FAQ
 ### Otázka: Dokáže Aspose.Tasks zpracovat velké soubory MS Project?
 Odpověď: Ano, Aspose.Tasks je schopen efektivně zpracovávat velké soubory projektů a nabízí vysoký výkon a spolehlivost.

@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan Opsi MS Project XLSX di Aspose.Tasks untuk .NET
-linktitle: Konfigurasikan Opsi XLSX di Aspose.Tasks
+linktitle: Mengonfigurasi Opsi XLSX di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi opsi MS Project XLSX di Aspose.Tasks untuk .NET. Sesuaikan kolom, pengkodean, dan lainnya dengan mudah.
 type: docs
@@ -12,7 +12,7 @@ Microsoft Project (MS Project) adalah alat yang ampuh untuk manajemen proyek, da
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 ### 1. Aspose.Tasks untuk .NET Terinstal
- Pastikan Anda telah menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Jika belum, Anda dapat mendownloadnya dari[Aspose.Tasks untuk halaman unduh .NET](https://releases.aspose.com/tasks/net/).
+ Pastikan Anda telah menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Jika belum, Anda dapat mendownloadnya dari[Aspose.Tasks untuk halaman unduhan .NET](https://releases.aspose.com/tasks/net/).
 ### 2. Pemahaman Dasar C# dan .NET Framework
 Keakraban dengan bahasa pemrograman C# dan kerangka .NET diperlukan untuk mengikuti tutorial ini.
 ### 3. File Proyek Microsoft

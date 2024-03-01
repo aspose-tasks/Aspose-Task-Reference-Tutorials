@@ -11,7 +11,7 @@ url: /zh-hant/net/resource-risk-analysis/risk-item-statistics/
 您是否希望使用 Aspose.Tasks for .NET 來增強您的專案管理能力？透過我們有關獲取 MS Project 檔案中風險項目統計資訊的逐步教程，深入了解風險分析領域。透過利用 Aspose.Tasks 的強大功能，您可以獲得對專案不確定性的寶貴見解，並做出明智的決策以有效降低風險。
 ## 先決條件
 在我們開始這趟旅程之前，請確保您具備以下先決條件：
-1.  Aspose.Tasks for .NET Library：從以下位置下載並安裝該程式庫：[.NET 文件的 Aspose.Tasks](https://reference.aspose.com/tasks/net/),該庫為您提供了強大的工具，用於以程式設計方式操作 MS Project 檔案。
+1.  Aspose.Tasks for .NET Library：從以下位置下載並安裝該程式庫：[.NET 文件的 Aspose.Tasks](https://reference.aspose.com/tasks/net/)。該庫為您提供了強大的工具，用於以程式設計方式操作 MS Project 檔案。
 2. .NET 開發環境：設定您的 .NET 開發環境，包括 Visual Studio 或您選擇的任何其他 IDE，以促進 Aspose.Tasks 無縫整合到您的專案中。
 
 ## 導入命名空間

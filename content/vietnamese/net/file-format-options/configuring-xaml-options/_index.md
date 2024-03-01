@@ -25,7 +25,7 @@ using Aspose.Tasks.Visualization;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn nơi chứa tệp MS Project.
+ Thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn nơi chứa tệp MS Project.
 ## Bước 2: Tải tệp dự án MS
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -38,7 +38,7 @@ options.FitContent = true;
 options.LegendOnEachPage = false;
 options.Timescale = Timescale.ThirdsOfMonths;
 ```
-Tại đây, chúng tôi tạo một phiên bản XamlOptions và định cấu hình các tùy chọn khác nhau như nội dung phù hợp, tắt chú giải trên mỗi trang và đặt khoảng thời gian thành ba tháng.
+Tại đây, chúng tôi tạo một phiên bản XamlOptions và định cấu hình các tùy chọn khác nhau như điều chỉnh nội dung, tắt chú giải trên mỗi trang và đặt khoảng thời gian thành ba tháng.
 ## Bước 4: Lưu dự án với các tùy chọn đã cấu hình
 ```csharp
 project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
@@ -59,11 +59,11 @@ Trả lời: Có, Aspose.Tasks for .NET hỗ trợ tích hợp với nhiều cô
 
 ### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
 
- Đáp: Bạn có thể tìm kiếm sự trợ giúp từ các diễn đàn cộng đồng.[đây](https://forum.aspose.com/c/tasks/15).
+ Đáp: Bạn có thể tìm kiếm sự trợ giúp từ các diễn đàn cộng đồng[đây](https://forum.aspose.com/c/tasks/15).
 
 ### Câu hỏi: Tôi có cần giấy phép tạm thời để sử dụng Aspose.Tasks cho .NET không?
 
-Đáp: Bạn có thể yêu cầu giấy phép tạm thời cho một số tính năng nâng cao nhất định mà bạn có thể nhận được.[đây](https://purchase.aspose.com/temporary-license/).
+ Đáp: Bạn có thể yêu cầu giấy phép tạm thời cho một số tính năng nâng cao nhất định mà bạn có thể nhận được.[đây](https://purchase.aspose.com/temporary-license/).
 
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho .NET ở đâu?
 

@@ -36,7 +36,7 @@ Rozdělme poskytnutý příklad do několika kroků:
 
 ## Krok 1: Načtěte soubor projektu
 
- Nejprve načtěte soubor projektu pomocí`Project` třída:
+Nejprve načtěte soubor projektu pomocí`Project` třída:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

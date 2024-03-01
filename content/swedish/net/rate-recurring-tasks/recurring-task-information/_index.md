@@ -26,7 +26,7 @@ Låt oss nu dela upp exemplet i flera steg:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- byta ut`"Your Document Directory"` med sökvägen till din MS Project-fil.
+ Byta ut`"Your Document Directory"` med sökvägen till din MS Project-fil.
 ## Steg 2: Ladda MS Project-filen
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
@@ -50,7 +50,7 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 ```
 Denna loop itererar genom alla uppgifter i projektet och kontrollerar om varje uppgift har återkommande information kopplad till sig. Om den gör det, hämtar och visar den olika egenskaper för den återkommande uppgiften, såsom startdatum, varaktighet, slutdatum, etc.
 ## Slutsats
-I den här handledningen har vi lärt oss hur man extraherar information om återkommande uppgifter från MS Project-filer med Aspose.Tasks för .NET. Med denna kunskap kan du nu integrera den här funktionen i dina .NET-applikationer för att arbeta med återkommande uppgifter mer effektivt.
+den här handledningen har vi lärt oss hur man extraherar information om återkommande uppgifter från MS Project-filer med Aspose.Tasks för .NET. Med denna kunskap kan du nu integrera den här funktionen i dina .NET-applikationer för att arbeta med återkommande uppgifter mer effektivt.
 ## FAQ's
 ### F: Kan jag ändra information om återkommande uppgifter med Aspose.Tasks för .NET?
 S: Ja, du kan modifiera information om återkommande uppgifter programmatiskt med hjälp av de medföljande API:erna.
@@ -61,4 +61,4 @@ S: Ja, Aspose.Tasks stöder olika projektfilformat som MPP, XML och CSV.
 ### F: Var kan jag hitta dokumentation för Aspose.Tasks för .NET?
  S: Du kan hitta dokumentationen[här](https://reference.aspose.com/tasks/net/).
 ### F: Hur kan jag få teknisk support för Aspose.Tasks för .NET?
-S: Du kan få teknisk support från Aspose.Tasks-forumet.[här](https://forum.aspose.com/c/tasks/15).
+ S: Du kan få teknisk support från Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).

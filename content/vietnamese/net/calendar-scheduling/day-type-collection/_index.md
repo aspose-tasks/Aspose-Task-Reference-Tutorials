@@ -9,7 +9,7 @@ url: /vi/net/calendar-scheduling/day-type-collection/
 ---
 ## Giới thiệu
 
- Aspose.Tasks for .NET cung cấp chức năng mạnh mẽ để quản lý các bộ sưu tập loại ngày, rất quan trọng để xác định các ngoại lệ lịch hàng tuần trong các ứng dụng quản lý dự án. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng`DayTypeCollection` lớp một cách hiệu quả. 
+ Aspose.Tasks for .NET cung cấp chức năng mạnh mẽ để quản lý bộ sưu tập loại ngày, rất quan trọng để xác định các ngoại lệ lịch hàng tuần trong các ứng dụng quản lý dự án. Trong hướng dẫn này, chúng ta sẽ khám phá cách sử dụng`DayTypeCollection` lớp một cách hiệu quả. 
 
 ## Điều kiện tiên quyết
 
@@ -118,7 +118,7 @@ foreach (var dayType in exc3.DaysOfWeek)
 
 ## Phần kết luận
 
- Tóm lại, việc quản lý các bộ sưu tập loại ngày trong Aspose.Tasks cho .NET là điều cần thiết để xác định và sửa đổi các ngoại lệ lịch hàng tuần trong các ứng dụng quản lý dự án. Bằng cách làm theo hướng dẫn từng bước được cung cấp trong hướng dẫn này, bạn có thể sử dụng hiệu quả`DayTypeCollection` lớp để xử lý các hoạt động lịch khác nhau.
+ Tóm lại, việc quản lý bộ sưu tập loại ngày trong Aspose.Tasks cho .NET là điều cần thiết để xác định và sửa đổi các ngoại lệ lịch hàng tuần trong các ứng dụng quản lý dự án. Bằng cách làm theo hướng dẫn từng bước được cung cấp trong hướng dẫn này, bạn có thể sử dụng hiệu quả`DayTypeCollection` lớp để xử lý các hoạt động lịch khác nhau.
 
 ## Câu hỏi thường gặp
 

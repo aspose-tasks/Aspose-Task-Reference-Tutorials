@@ -34,11 +34,11 @@ url: /tr/net/view-wbs-code-configuration/
 
 ## Aspose.Tasks'ta WBS Kod Maskelerinin Toplanması
 
- Aspose.Tasks for .NET ile proje yönetiminizi bir sonraki seviyeye taşıyın.[WBS Kod Maskeleri koleksiyonu](./wbs-code-mask-collection/) Eğitim, WBS Kod Maskelerini zahmetsizce oluşturmaya, yönetmeye ve aktarmaya ilişkin bilgiler sağlar. Proje yönetimi becerilerinizi geliştirin ve WBS Kod Maskelerini projenizin gelişen ihtiyaçlarına uyacak şekilde uyarlayın.
+ Aspose.Tasks for .NET ile proje yönetiminizi bir sonraki seviyeye taşıyın.[WBS Kod Maskeleri koleksiyonu](./wbs-code-mask-collection/) öğretici, WBS Kod Maskelerini zahmetsizce oluşturmaya, yönetmeye ve aktarmaya ilişkin bilgiler sağlar. Proje yönetimi becerilerinizi geliştirin ve WBS Kod Maskelerini projenizin gelişen ihtiyaçlarına uyacak şekilde uyarlayın.
 
 ## Aspose.Tasks'ta WBS Dizilerini Tanımlama
 
- Aspose.Tasks for .NET ile proje yönetiminizi sorunsuz bir şekilde güçlendirin[wbs dizilerini tanımlama](./wbs-sequences/), Bu eğitim, verimliliği zahmetsizce artırarak süreç boyunca size rehberlik eder. Sorunsuz ve akıcı bir proje yönetimi deneyimi sağlayarak projelerinizi tanımlanmış WBS dizileriyle organize etme ve yapılandırma sanatında ustalaşın.
+ Aspose.Tasks for .NET ile proje yönetiminizi sorunsuz bir şekilde güçlendirin[WBS dizilerini tanımlama](./wbs-sequences/). Bu eğitim, verimliliği zahmetsizce artırarak süreç boyunca size rehberlik eder. Sorunsuz ve akıcı bir proje yönetimi deneyimi sağlayarak projelerinizi tanımlanmış WBS dizileriyle organize etme ve yapılandırma sanatında ustalaşın.
 
 Sonuç olarak, bu eğitimler Aspose.Tasks for .NET görünümleri ve WBS kodlarında uzmanlaşmak için başvuracağınız kaynak görevi görmektedir. Hemen indirin ve proje yönetimi deneyiminizi zahmetsizce özelleştirme, kolaylaştırma ve geliştirme potansiyelinin kilidini açın. Verimli proje görselleştirme ve yönetiminde yeni bir döneme merhaba deyin!
 ## Aspose.Tasks Görünümü ve WBS Kodu Yapılandırma Eğitimleri
@@ -49,7 +49,7 @@ Aspose.Tasks for .NET'i keşfedin ve MS Proje Görünümlerini zahmetsizce yöne
 ### [Aspose.Tasks'ta Görünüm Sütunlarını İşleme](./view-columns/)
 Aspose.Tasks for .NET ile proje görselleştirmesini geliştirin. MS Project görünüm sütunlarını adım adım kullanmayı öğrenin. Verimliliği ve özelleştirmeyi artırın.
 ### [Aspose.Tasks'ta WBS Kodu Tanımlarını Tanımlama](./wbs-code-definitions/)
-Aspose.Tasks for .NET, verimli proje yönetimini güçlendirir. Kapsamlı eğitimimizle WBS kodlarında zahmetsizce uzmanlaşın. İş akışlarını bugün kolaylaştırın!
+Aspose.Tasks for .NET, verimli proje yönetimini güçlendirir. Kapsamlı eğitimimizle WBS kodlarında zahmetsizce ustalaşın. İş akışlarını bugün kolaylaştırın!
 ### [Aspose.Tasks'ta WBS Kod Maskelerini Yapılandırma](./wbs-code-masks/)
 Aspose.Tasks'ı kullanarak .NET projelerinde adım adım WBS Kod Maskeleri yapılandırmasını keşfedin. Proje yönetimi yeteneklerini zahmetsizce geliştirin.
 ### [Aspose.Tasks'ta WBS Kod Maskelerinin Toplanması](./wbs-code-mask-collection/)

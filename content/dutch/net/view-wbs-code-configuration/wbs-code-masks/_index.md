@@ -1,6 +1,6 @@
 ---
 title: Stapsgewijze WBS-codeconfiguratie in Aspose.Tasks .NET
-linktitle: Configureer WBS-codemaskers in Aspose.Tasks
+linktitle: WBS-codemaskers configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de stapsgewijze configuratie van WBS-codemaskers in .NET-projecten met behulp van Aspose.Tasks. Verbeter moeiteloos de mogelijkheden voor projectmanagement.
 type: docs
@@ -84,7 +84,7 @@ In deze zelfstudie hebben we het stapsgewijze proces van het configureren van WB
 ### Kan ik Aspose.Tasks gratis gebruiken?
  Aspose.Tasks biedt een gratis proefversie, die u kunt downloaden[hier](https://releases.aspose.com/).
 ### Waar kan ik aanvullende ondersteuning vinden?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15)voor gemeenschapssteun.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapssteun.
 ### Hoe kan ik een tijdelijke licentie verkrijgen?
  U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Is er gedetailleerde documentatie beschikbaar?

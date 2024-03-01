@@ -68,7 +68,7 @@ Console.WriteLine("Week Day 2 Hash Code: {0}", weekDay2.GetHashCode());
 var project = new Project();
 // Bir takvim tanımlayın
 var calendar = project.Calendars.Add("Calendar1");
-// Çalışma günlerini ve istisna günlerini ekleyin
+// Çalışma günlerini ve istisna gününü ekleyin
 // FromDate ve ToDate için benzer çıktı ifadeleri ekleyin
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
@@ -108,7 +108,7 @@ Bu eğitimde Aspose.Tasks for .NET'te hafta içi günleri tanımlamanın temel y
 ## SSS
 ### Her gün için özel çalışma saatleri tanımlayabilir miyim?
 Evet, verilen örnekleri kullanarak haftanın belirli günleri için özel çalışma saatleri ayarlayabilirsiniz.
-### Takvime birden fazla istisna günü eklemek mümkün müdür?
+### Takvime birden fazla istisna günü eklemek mümkün mü?
 Kesinlikle. Ek istisna günlerini eklemek için dördüncü örnekteki kodu değiştirin.
 ### Haftanın belirli bir gününü takvimden nasıl kaldırabilirim?
 Gerektiğinde hafta içi günleri kaldırmak için Aspose.Tasks kütüphanesi tarafından sağlanan uygun yöntemleri kullanın.

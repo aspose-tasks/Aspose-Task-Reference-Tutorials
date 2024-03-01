@@ -91,7 +91,7 @@ A3：虽然Aspose.Tasks for .NET主要是为.NET环境设计的，但它可以�
 
 ### Q4：Aspose.Tasks for .NET 是否提供技术支持？
 
- A4：是的，用户可以通过[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
+A4：是的，用户可以通过[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
 
 ### Q5：我可以在购买前试用 Aspose.Tasks for .NET 吗？
 

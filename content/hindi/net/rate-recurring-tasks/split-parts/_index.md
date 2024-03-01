@@ -24,18 +24,18 @@ url: /hi/net/rate-recurring-tasks/split-parts/
     
 ```
 
-## चरण 1: एक प्रोजेक्ट इंस्टेंस बनाएं
+## चरण 1: एक प्रोजेक्ट इंस्टेंस बनाना
 ```csharp
 var project = new Project();
 ```
- का एक नया उदाहरण बनाएं`Project` कक्षा. कक्षा.
+ का एक नया उदाहरण बनाएं`Project` कक्षा।
 ## चरण 2: परियोजना प्रारंभ और समाप्ति तिथियां निर्धारित करना
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2000, 3, 15, 8, 0, 0));
 project.Set(Prj.FinishDate, new DateTime(2000, 3, 21, 17, 0, 0));
 ```
 परियोजना के लिए प्रारंभ और समाप्ति तिथियां निर्धारित करें।
-## चरण 3: कार्य जोड़ना
+## चरण 3: एक कार्य जोड़ना
 ```csharp
 var task = project.RootTask.Children.Add("Task1");
 ```
@@ -59,11 +59,11 @@ assignment.Set(Asn.Work, task.Get(Tsk.Work));
 assignment.Set(Asn.Finish, new DateTime(2000, 3, 19, 17, 0, 0));
 ```
 असाइनमेंट के लिए आरंभ तिथि, कार्य और समाप्ति तिथि जैसे गुण सेट करें।
-## चरण 7: समय चरणबद्ध डेटा तैयार करना
+## चरण 7: समयबद्ध डेटा उत्पन्न करना
 ```csharp
 assignment.TimephasedDataFromTaskDuration(project.Get(Prj.Calendar));
 ```
-प्रोजेक्ट कैलेंडर के आधार पर असाइनमेंट के लिए समय चरणबद्ध डेटा तैयार करें।
+प्रोजेक्ट कैलेंडर के आधार पर असाइनमेंट के लिए समयबद्ध डेटा तैयार करें।
 ## चरण 8: कार्य को विभाजित करना
 ```csharp
 assignment.SplitTask(new DateTime(2000, 3, 16, 8, 0, 0), new DateTime(2000, 3, 17, 17, 0, 0), project.Get(Prj.Calendar));

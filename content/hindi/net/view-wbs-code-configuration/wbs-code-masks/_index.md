@@ -76,18 +76,18 @@ foreach (var cm in project.WBSCodeDefinition.CodeMaskCollection)
 ```csharp
 project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ```
-बधाई हो! आपने अपने Aspose. Tasks प्रोजेक्ट में WBS कोड मास्क को सफलतापूर्वक कॉन्फ़िगर कर लिया है।
+बधाई हो! आपने अपने Aspose.Tasks प्रोजेक्ट में WBS कोड मास्क को सफलतापूर्वक कॉन्फ़िगर कर लिया है।
 ## निष्कर्ष
 इस ट्यूटोरियल में, हमने .NET के लिए Aspose.Tasks का उपयोग करके WBS कोड मास्क को कॉन्फ़िगर करने की चरण-दर-चरण प्रक्रिया का पता लगाया है। यह शक्तिशाली लाइब्रेरी डेवलपर्स को उनके .NET अनुप्रयोगों के भीतर परियोजना प्रबंधन क्षमताओं को बढ़ाने का एक सहज तरीका प्रदान करती है।
 
 ## अक्सर पूछे जाने वाले प्रश्न
-### क्या मैं Aspose. कार्यों का निःशुल्क उपयोग कर सकता हूँ?
+### क्या मैं Aspose.Tasks का निःशुल्क उपयोग कर सकता हूँ?
  Aspose.Tasks एक निःशुल्क परीक्षण प्रदान करता है, जिसे आप डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### मुझे अतिरिक्त सहायता कहां मिल सकती है?
- दौरा करना[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15)सामुदायिक समर्थन के लिए.
+ दौरा करना[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) सामुदायिक समर्थन के लिए.
 ### मैं अस्थायी लाइसेंस कैसे प्राप्त कर सकता हूँ?
  आपको अस्थायी लाइसेंस मिल सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### क्या कोई विस्तृत दस्तावेज उपलब्ध है?
  हाँ, व्यापक दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/tasks/net/).
-### मैं Aspose कहां से खरीद सकता हूं। कार्य?
- खरीद Aspose. कार्य[यहाँ](https://purchase.aspose.com/buy).
+### मैं Aspose.Tasks कहाँ से खरीद सकता हूँ?
+ Aspose.कार्य खरीदें[यहाँ](https://purchase.aspose.com/buy).

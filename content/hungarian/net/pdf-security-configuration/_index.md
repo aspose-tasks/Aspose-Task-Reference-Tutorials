@@ -11,7 +11,7 @@ url: /hu/net/pdf-security-configuration/
 
 digitális területen a projektfájlok védelme a legfontosabb. Az Aspose.Tasks for .NET robusztus megoldást kínál a Microsoft Project PDF-fájlok biztonságának erősítésére. Ez az oktatóanyag-sorozat a PDF biztonsági konfiguráció bonyolultságába nyúlik bele, biztosítva az értékes projektadatok bizalmas kezelését és hitelességét.
 
-## Konfigurálja az MS Project PDF digitális aláírását az Aspose.Tasks segítségével
+## MS Project PDF digitális aláírás konfigurálása az Aspose.Tasks segítségével
 
 Amikor a projektdokumentumok hitelességének ellenőrzéséről van szó, a digitális aláírások kulcsszerepet játszanak. Ebben az oktatóanyagban végigvezetjük a Microsoft Project PDF digitális aláírás részleteinek konfigurálásán az Aspose.Tasks for .NET használatával. A végére birtokában lesz a digitális aláírások hatékony megvalósításához szükséges ismereteknek, amelyek biztosítják a projektfájlok integritását.
 
@@ -19,7 +19,7 @@ digitális aláírások elektronikus ujjlenyomatként szolgálnak, egyedi azonos
 
 [További információ az MS Project PDF digitális aláírásának Aspose.Tasks segítségével történő konfigurálásáról](./pdf-digital-signature-details/)
 
-## Konfigurálja az MS Project PDF titkosítási részleteit az Aspose.Tasks-ban
+## Az MS Project PDF titkosítási részleteinek konfigurálása az Aspose.Tasks-ban
 
 A digitális aláírásokon túl a titkosítás egy extra védelmi réteget ad a projektfájlokhoz. Ez az oktatóanyag az MS Project PDF titkosítási részleteinek konfigurálására összpontosít az Aspose.Tasks for .NET használatával. Ennek az útmutatónak a végére jártas lesz a projektfájlok biztonságossá tételében mind a felhasználói, mind a tulajdonosi jelszavakkal.
 

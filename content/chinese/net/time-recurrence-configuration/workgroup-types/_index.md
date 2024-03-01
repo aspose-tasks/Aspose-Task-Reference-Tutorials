@@ -32,7 +32,7 @@ resource.Set(Rsc.Workgroup, WorkGroupType.Web);
 将资源添加到您的项目并设置其工作组类型。在此示例中，工作组类型设置为`Web`，但您可以根据您的项目需求进行调整。
 ## 第 5 步：进一步配置（可选）
 根据您的具体项目需求进一步自定义项目和资源设置。这可能包括设置任务依赖性、定义工作时间等等。
-根据需要重复这些步骤以处理项目中的多个工作组类型。
+根据需要重复这些步骤以处理项目中的多种工作组类型。
 ## 结论
 有效处理工作组类型对于成功的项目管理至关重要。 Aspose.Tasks for .NET 简化了这个过程，为资源分配和任务管理提供了可靠的解决方案。
 ## 常见问题解答
@@ -41,7 +41,7 @@ resource.Set(Rsc.Workgroup, WorkGroupType.Web);
 ### 我可以为单个资源设置多个工作组类型吗？
 是的，您可以在项目的不同阶段为资源设置不同的工作组类型。
 ### 在哪里可以找到对 Aspose.Tasks 的额外支持？
-访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区支持和讨论。
+参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区支持和讨论。
 ### Aspose.Tasks 是否有免费试用版？
 是的，您可以从以下位置获取免费试用版[这里](https://releases.aspose.com/).
 ### 我如何获得 Aspose.Tasks 的临时许可证？

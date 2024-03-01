@@ -49,7 +49,7 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 
 ## FAQ
 
-### Q: Aspose.Tasks for .NET을 다른 프로젝트 관리 도구와 함께 사용할 수 있습니까?
+### Q: Aspose.Tasks for .NET을 다른 프로젝트 관리 도구와 함께 사용할 수 있나요?
 
 A: 예, Aspose.Tasks for .NET은 원활한 데이터 교환을 위해 다양한 프로젝트 관리 도구와의 통합을 지원합니다.
 
@@ -63,7 +63,7 @@ A: 예, Aspose.Tasks for .NET은 원활한 데이터 교환을 위해 다양한 
 
 ### Q: Aspose.Tasks for .NET을 사용하려면 임시 라이선스가 필요합니까?
 
-A: 특정 고급 기능을 사용하려면 임시 라이센스가 필요할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A: 특정 고급 기능을 사용하려면 임시 라이센스가 필요할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 
 ### Q: .NET용 Aspose.Tasks는 어디서 구매할 수 있나요?
 

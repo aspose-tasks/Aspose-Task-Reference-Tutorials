@@ -8,7 +8,7 @@ weight: 16
 url: /pl/net/outline-code-page-settings/outline-values/
 ---
 ## Wstęp
-W tym samouczku przyjrzymy się, jak zarządzać wartościami konspektu programu Microsoft Project za pomocą biblioteki Aspose.Tasks dla .NET. Dzięki Aspose.Tasks możesz łatwo manipulować kodami konspektu, tworzyć nowe wartości konspektu i dostosowywać konspekty projektu zgodnie z własnymi wymaganiami.
+W tym samouczku omówimy, jak zarządzać wartościami konspektu programu Microsoft Project przy użyciu biblioteki Aspose.Tasks dla platformy .NET. Dzięki Aspose.Tasks możesz łatwo manipulować kodami konspektu, tworzyć nowe wartości konspektu i dostosowywać konspekty projektu zgodnie z własnymi wymaganiami.
 ## Warunki wstępne
 Zanim zaczniesz, upewnij się, że masz następujące elementy:
 1.  Instalacja Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET ze strony[Tutaj](https://releases.aspose.com/tasks/net/).
@@ -64,15 +64,15 @@ outline2.Values.Add(value2);
 W tym kroku tworzymy dwa obiekty OutlineValue i ustawiamy ich właściwości, takie jak wartość, identyfikator wartości, typ, opis i stan zwinięcia.
 
 ## Wniosek
-Zarządzanie wartościami konspektu MS Project za pomocą Aspose.Tasks dla .NET jest proste dzięki dostarczonym funkcjom. Wykonując kroki opisane w tym samouczku, możesz efektywnie manipulować kodami konspektu i wartościami, aby dostosować konspekty projektu do swoich potrzeb.
+Zarządzanie wartościami zarysu MS Project za pomocą Aspose.Tasks dla .NET jest proste dzięki dostarczonym funkcjom. Wykonując kroki opisane w tym samouczku, możesz efektywnie manipulować kodami i wartościami konspektu, aby dostosować konspekty projektu do swoich potrzeb.
 ## Często zadawane pytania
 ### P: Czy mogę używać Aspose.Tasks z innymi frameworkami .NET?
 O: Tak, Aspose.Tasks jest kompatybilny z różnymi frameworkami .NET, zapewniając elastyczność w Twoim środowisku programistycznym.
 ### P: Czy dostępna jest wersja próbna Aspose.Tasks?
  Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks z[Tutaj](https://releases.aspose.com/).
 ### P: Jak mogę uzyskać wsparcie dla Aspose.Tasks?
- Odp.: Aby uzyskać wsparcie i pomoc, możesz odwiedzić forum Aspose.Tasks.[Tutaj](https://forum.aspose.com/c/tasks/15).
+ Odp.: Aby uzyskać wsparcie i pomoc, możesz odwiedzić forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### P: Czy mogę kupić tymczasową licencję na Aspose.Tasks?
- Odp.: Tak, możesz kupić tymczasową licencję na Aspose.Tasks od[Tutaj](https://purchase.aspose.com/temporary-license/).
+Odp.: Tak, możesz kupić tymczasową licencję na Aspose.Tasks od[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę znaleźć szczegółową dokumentację dla Aspose.Tasks?
  Odp.: Możesz zapoznać się z dostępną obszerną dokumentacją[Tutaj](https://reference.aspose.com/tasks/net/).

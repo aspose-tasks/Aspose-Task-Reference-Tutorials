@@ -75,8 +75,8 @@ S: Aspose.Tasks fokuserar främst på Microsoft Project-filer; men du kan utfors
 ### F: Hur kan jag felsöka problem med anpassning av vykolumnen?
  A: Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för gemenskapsstöd och hjälp med alla utmaningar du stöter på.
 ### F: Finns det en testversion innan du köper Aspose.Tasks?
-S: Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
+ S: Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
 ###  F: Vad är betydelsen av`MyTextStyleCallback` class in the tutorial?
- A: Den`MyTextStyleCallback` Klassen visar hur man anpassar textstilar för förbättrad visuell representation i specifika vyer.
+ A: Den`MyTextStyleCallback` klass visar hur man anpassar textstilar för förbättrad visuell representation i specifika vyer.
 ### F: Var kan jag hitta ytterligare resurser och dokumentation för Aspose.Tasks?
  S: Se[Aspose.Tasks dokumentation](https://reference.aspose.com/tasks/net/) för djupgående vägledning och resurser.

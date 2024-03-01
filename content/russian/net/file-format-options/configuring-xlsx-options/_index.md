@@ -8,7 +8,7 @@ weight: 11
 url: /ru/net/file-format-options/configuring-xlsx-options/
 ---
 ## Введение
-Microsoft Project (MS Project) — мощный инструмент для управления проектами, а Aspose.Tasks для .NET обеспечивает бесшовную интеграцию для программной работы с файлами MS Project. В этом руководстве мы рассмотрим процесс настройки параметров MS Project XLSX с помощью Aspose.Tasks для .NET.
+Microsoft Project (MS Project) — мощный инструмент для управления проектами, а Aspose.Tasks для .NET обеспечивает бесшовную интеграцию для программной работы с файлами MS Project. В этом руководстве мы рассмотрим процесс настройки параметров MS Project XLSX с использованием Aspose.Tasks для .NET.
 ## Предварительные условия
 Прежде чем мы начнем, убедитесь, что у вас есть следующее:
 ### 1. Установлен Aspose.Tasks для .NET.

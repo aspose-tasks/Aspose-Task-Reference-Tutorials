@@ -108,4 +108,4 @@ A4: 是的，如本教學所示範的，您可以根據您的專案要求設定�
 
 ### Q5：在哪裡可以找到 Aspose.Tasks 相關查詢的支援？
 
- A5：您可以在[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)專家和社區成員積極參與討論。
+A5：您可以在[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)專家和社區成員積極參與討論。

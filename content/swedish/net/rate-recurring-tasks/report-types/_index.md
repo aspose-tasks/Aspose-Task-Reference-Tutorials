@@ -12,7 +12,7 @@ Aspose.Tasks för .NET är ett kraftfullt bibliotek som tillåter utvecklare att
 ## Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar på plats:
 ### 1. Installera Aspose.Tasks för .NET
-Se till att du har installerat Aspose.Tasks för .NET. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
+ Se till att du har installerat Aspose.Tasks för .NET. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
 ### 2. Skaffa en licens (valfritt)
  Om du använder Aspose.Tasks i ett kommersiellt projekt behöver du en licens. Du kan köpa en licens från[här](https://purchase.aspose.com/buy) , eller så kan du begära en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### 3. Ställ in din utvecklingsmiljö

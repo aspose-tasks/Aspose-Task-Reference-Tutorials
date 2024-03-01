@@ -1,6 +1,6 @@
 ---
 title: Personalize as configurações de visualização de página do MS Project em Aspose.Tasks
-linktitle: Definir configurações de visualização de página em Aspose.Tasks
+linktitle: Definindo configurações de visualização de página em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como definir as configurações de visualização de página em Aspose.Tasks for .NET para personalizar o formato de impressão de seus documentos do Microsoft Project.
 type: docs
@@ -75,4 +75,4 @@ R: Sim, você pode ajustar as configurações de visualização de página de fo
 ### P: O Aspose.Tasks é compatível com todas as versões do Microsoft Project?
 R: Aspose.Tasks oferece compatibilidade com o Microsoft Project 2003 e versões posteriores.
 ### P: Onde posso encontrar mais assistência ou suporte para Aspose.Tasks?
- R: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)para quaisquer dúvidas ou problemas que você encontrar durante o uso.
+ R: Você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para quaisquer dúvidas ou problemas que você encontrar durante o uso.

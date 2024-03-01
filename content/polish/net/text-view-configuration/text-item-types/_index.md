@@ -11,7 +11,7 @@ url: /pl/net/text-view-configuration/text-item-types/
 Jeśli jesteś programistą .NET i zajmujesz się zarządzaniem projektami przy użyciu Aspose.Tasks, trafiłeś we właściwe miejsce! W tym przewodniku krok po kroku zbadamy zawiłości obsługi typów elementów tekstowych w Aspose.Tasks, skupiając się na dostosowywaniu przy użyciu potężnej biblioteki .NET.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
-1. Aspose.Tasks dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Tasks. Jeśli nie, możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks dla biblioteki .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Tasks. Jeśli nie, możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
 2. Katalog dokumentów: skonfiguruj katalog dla dokumentów projektu.
 Przejdźmy teraz do sedna obsługi typów elementów tekstowych.
 ## Importuj przestrzenie nazw
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Zastosuj zdefiniowany styl tekstu do swojego projektu i zapisz dostosowany projekt jako plik PDF.
 Powtórz te kroki w przypadku innych potrzeb dostosowywania, eksperymentując z różnymi typami elementów tekstowych, stylami czcionek i kolorami.
 ## Wniosek
- Gratulacje! Właśnie zarysowałeś podstawy obsługi typów elementów tekstowych w Aspose.Tasks dla .NET. Kontynuując eksplorację, zapoznaj się z sekcją[dokumentacja](https://reference.aspose.com/tasks/net/) dla dogłębnych spostrzeżeń.
+Gratulacje! Właśnie zarysowałeś podstawy obsługi typów elementów tekstowych w Aspose.Tasks dla .NET. Kontynuując eksplorację, zapoznaj się z sekcją[dokumentacja](https://reference.aspose.com/tasks/net/) dla dogłębnych spostrzeżeń.
 ### Często zadawane pytania
 ### P: Czy mogę korzystać z Aspose.Tasks za darmo?
  Odp.: Aspose.Tasks oferuje bezpłatną wersję próbną. Chwyć to[Tutaj](https://releases.aspose.com/).

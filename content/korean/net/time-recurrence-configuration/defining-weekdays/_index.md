@@ -28,7 +28,7 @@ String DataDir = "Your Document Directory";
 // 프로젝트 파일 로드
 var project = new Project(DataDir + "Project2.mpp");
 var calendar = project.Calendars.GetByUid(1);
-// 평일 이용
+// 평일 액세스
 var weekDay1 = calendar.WeekDays[0];
 var weekDay2 = calendar.WeekDays[1];
 // 다양한 속성을 기반으로 동등성을 확인합니다.

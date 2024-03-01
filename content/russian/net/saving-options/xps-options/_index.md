@@ -1,6 +1,6 @@
 ---
 title: Преобразование параметров MSP в XPS с помощью Aspose.Tasks
-linktitle: Параметры XPS для задач Aspose.
+linktitle: Параметры XPS для Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как конвертировать файлы Microsoft Project в формат XPS с помощью Aspose.Tasks для .NET. Простая интеграция, надежная функциональность.
 type: docs
@@ -40,7 +40,7 @@ var options = new XpsOptions
     RenderMetafileAsBitmap = true
 };
 ```
- На этом этапе мы создаем экземпляр`XpsOptions`и настройте параметры. Параметр`RenderMetafileAsBitmap` к`true` Обеспечивает правильный рендеринг метафайлов.
+ На этом этапе мы создаем экземпляр`XpsOptions`и настройте параметры. Параметр`RenderMetafileAsBitmap` к`true` обеспечивает правильное отображение метафайлов.
 ## Шаг 4. Сохраните документ в формате XPS.
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
@@ -59,4 +59,4 @@ project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ### Вопрос: Могу ли я настроить параметры рендеринга выходного файла?
 О: Конечно, Aspose.Tasks для .NET предоставляет широкие возможности для настройки параметров рендеринга в соответствии с вашими требованиями.
 ### Вопрос: Где я могу найти дополнительную поддержку или помощь по Aspose.Tasks для .NET?
- О: Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для любых вопросов или помощи относительно Aspose.Tasks for .NET.
+ О: Вы можете посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для любых вопросов или помощи относительно Aspose.Tasks для .NET.

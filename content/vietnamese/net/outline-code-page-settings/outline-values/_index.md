@@ -1,6 +1,6 @@
 ---
 title: Nắm vững các giá trị phác thảo của dự án MS với Aspose.Tasks
-linktitle: Quản lý giá trị Outline trong Aspose.Tasks
+linktitle: Quản lý giá trị phác thảo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách quản lý các giá trị phác thảo MS Project một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho .NET. Tùy chỉnh phác thảo dự án một cách dễ dàng.
 type: docs
@@ -8,7 +8,7 @@ weight: 16
 url: /vi/net/outline-code-page-settings/outline-values/
 ---
 ## Giới thiệu
-Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý các giá trị phác thảo của Microsoft Project bằng thư viện Aspose.Tasks cho .NET. Với Aspose.Tasks, bạn có thể dễ dàng thao tác mã phác thảo, tạo giá trị phác thảo mới và tùy chỉnh phác thảo dự án theo yêu cầu của mình.
+Trong hướng dẫn này, chúng ta sẽ khám phá cách quản lý các giá trị phác thảo Microsoft Project bằng thư viện Aspose.Tasks cho .NET. Với Aspose.Tasks, bạn có thể dễ dàng thao tác mã phác thảo, tạo giá trị phác thảo mới và tùy chỉnh phác thảo dự án theo yêu cầu của mình.
 ## Điều kiện tiên quyết
 Trước khi bắt đầu, hãy đảm bảo bạn có những điều sau:
 1.  Cài đặt Aspose.Tasks cho .NET: Tải xuống và cài đặt thư viện Aspose.Tasks cho .NET từ[đây](https://releases.aspose.com/tasks/net/).
@@ -28,7 +28,7 @@ Bắt đầu bằng cách nhập các vùng tên cần thiết vào mã C# của
 string DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineValues2010.mpp");
 ```
-Bước này khởi tạo một đối tượng Project mới và tải tệp Microsoft Project từ thư mục được chỉ định.
+Bước này khởi tạo một đối tượng Project mới và tải tệp Microsoft Project từ thư mục đã chỉ định.
 ## Bước 2: Xác định định nghĩa mã phác thảo
 ```csharp
 var outline = new OutlineCodeDefinition();
@@ -71,8 +71,8 @@ Trả lời: Có, Aspose.Tasks tương thích với nhiều khung .NET khác nha
 ### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks không?
  Trả lời: Có, bạn có thể truy cập phiên bản dùng thử miễn phí của Aspose.Tasks từ[đây](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks?
- Trả lời: Để được hỗ trợ và trợ giúp, bạn có thể truy cập diễn đàn Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15).
+ Trả lời: Để được hỗ trợ và trợ giúp, bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks không?
- Đáp: Có, bạn có thể mua giấy phép tạm thời cho Aspose.Tasks từ[đây](https://purchase.aspose.com/temporary-license/).
+Đáp: Có, bạn có thể mua giấy phép tạm thời cho Aspose.Tasks từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm tài liệu chi tiết về Aspose.Tasks ở đâu?
  A: Bạn có thể tham khảo tài liệu đầy đủ có sẵn[đây](https://reference.aspose.com/tasks/net/).

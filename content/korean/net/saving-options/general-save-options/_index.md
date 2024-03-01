@@ -35,7 +35,7 @@ Aspose.Tasks for .NET은 Microsoft Project 파일을 프로그래밍 방식으�
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## 2단계: 저장 옵션 정의
- 요구 사항에 따라 저장 옵션을 정의합니다. 이 예에서는`Spreadsheet2003SaveOptions`,
+ 요구 사항에 따라 저장 옵션을 정의합니다. 이 예에서는`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ A: 예, Aspose.Tasks는 다양한 버전의 MS 프로젝트 파일을 지원하�
 ### Q: 구매하기 전에 Aspose.Tasks를 사용해 볼 수 있나요?
  A: 예, 무료 평가판을 통해 Aspose.Tasks를 탐색할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 대한 문서는 어디서 찾을 수 있나요?
-A: 자세한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/net/), Aspose.Tasks 기능 사용에 대한 포괄적인 지침을 제공합니다.
+ A: 자세한 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/net/), Aspose.Tasks 기능 사용에 대한 포괄적인 지침을 제공합니다.
 ### Q: Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
- A: 평가 목적으로 임시 라이센스를 사용할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A: 평가 목적으로 임시 라이선스를 사용할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks 관련 쿼리에 대한 지원은 어디서 구할 수 있나요?
- A: Aspose.Tasks 커뮤니티 포럼에 가입할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15) 전문가와 동료 개발자의 도움을 받으세요.
+ A: Aspose.Tasks 커뮤니티 포럼에 가입할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15)전문가와 동료 개발자의 도움을 받으세요.

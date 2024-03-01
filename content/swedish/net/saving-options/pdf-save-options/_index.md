@@ -59,7 +59,7 @@ project.Save("Output_PDF_File_Path.pdf", options);
 ```
 
 ## Slutsats
-den här handledningen undersökte vi hur man sparar Microsoft Project-filer som PDF-filer med Aspose.Tasks för .NET. Genom att följa dessa steg kan du effektivt hantera dina projektfiler och effektivisera ditt arbetsflöde.
+I den här handledningen undersökte vi hur man sparar Microsoft Project-filer som PDF-filer med Aspose.Tasks för .NET. Genom att följa dessa steg kan du effektivt hantera dina projektfiler och effektivisera ditt arbetsflöde.
 ## FAQ's
 ### F: Kan jag anpassa utseendet på den exporterade PDF-filen?
 S: Ja, du kan anpassa olika aspekter som typsnitt, färger och sidlayout enligt dina krav.
@@ -70,4 +70,4 @@ S: Absolut, du kan automatisera processen att konvertera flera projektfiler till
 ### F: Stöder Aspose.Tasks för .NET andra filformat för konvertering?
 S: Ja, förutom PDF kan du konvertera Microsoft Project-filer till olika format inklusive XLSX, HTML och bilder.
 ### F: Finns teknisk support tillgänglig för Aspose.Tasks för .NET?
- S: Ja, du kan få teknisk support från Aspose.Tasks-forumet.[här](https://forum.aspose.com/c/tasks/15).
+ S: Ja, du kan få teknisk support från Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).

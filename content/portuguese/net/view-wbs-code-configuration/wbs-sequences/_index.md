@@ -64,13 +64,13 @@ Parabéns! Você definiu com sucesso sequências WBS em seu projeto usando Aspos
 ## Conclusão
 O gerenciamento de sequências de WBS é crucial para o gerenciamento eficaz de projetos, e o Aspose.Tasks for .NET torna essa tarefa perfeita. Seguindo essas etapas simples, você pode aprimorar a funcionalidade da EAP em seu aplicativo de gerenciamento de projetos.
 ## perguntas frequentes
-### Aspose.Tasks é compatível com .NET Core?
+### O Aspose.Tasks é compatível com .NET Core?
 Sim, Aspose.Tasks oferece suporte a .NET Core, permitindo construir aplicativos de plataforma cruzada.
 ### Posso personalizar ainda mais o formato do código WBS?
 Absolutamente! Aspose.Tasks oferece flexibilidade na definição de códigos WBS de acordo com os requisitos do seu projeto.
 ### Existe uma versão de teste disponível?
  Sim você pode[baixe um teste gratuito](https://releases.aspose.com/) para explorar os recursos antes de fazer uma compra.
 ### Como posso obter suporte da comunidade para Aspose.Tasks?
- visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para se conectar com a comunidade e buscar assistência.
+ Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para se conectar com a comunidade e buscar assistência.
 ### Existem licenças temporárias disponíveis?
  Sim, você pode obter um[licença temporária](https://purchase.aspose.com/temporary-license/) para fins de teste.

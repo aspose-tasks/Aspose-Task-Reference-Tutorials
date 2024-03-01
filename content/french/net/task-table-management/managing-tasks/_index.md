@@ -11,7 +11,7 @@ url: /fr/net/task-table-management/managing-tasks/
 Si vous êtes un développeur .NET cherchant à gérer efficacement les tâches au sein de vos projets, Aspose.Tasks for .NET fournit une solution robuste. Ce didacticiel vous guidera à travers différents aspects de la gestion des tâches à l'aide d'Aspose.Tasks, en vous proposant des instructions étape par étape et des exemples de code. Que vous ajoutiez des tâches, affichiez des parties fractionnées, déplaciez des tâches sous le même parent, obteniez/définissiez des propriétés de tâche, parcouriez les affectations de tâches, lisiez les lignes de base des tâches ou supprimiez des tâches, ce guide est là pour vous.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
-1.  Bibliothèque Aspose.Tasks pour .NET : assurez-vous que la bibliothèque Aspose.Tasks pour .NET est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/tasks/net/).
+1. Bibliothèque Aspose.Tasks pour .NET : assurez-vous que la bibliothèque Aspose.Tasks pour .NET est installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/tasks/net/).
 2. Répertoire de documents : configurez un répertoire dans lequel les documents de votre projet seront stockés.
 ## Importer des espaces de noms
 Dans votre projet .NET, incluez les espaces de noms nécessaires pour travailler avec Aspose.Tasks :
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Charger un projet avec des tâches fractionnées
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Accéder à une tâche
+// Accéder à une tâche
 var task = project.RootTask.Children.GetById(4);
 // Afficher les pièces divisées
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Ajouter une tâche
 var task = project.RootTask.Children.Add("Task");
-// Afficher le nombre de tâches avant et après suppression
+//Afficher le nombre de tâches avant et après suppression
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Supprimer la tâche
 task.Delete();
@@ -135,7 +135,7 @@ Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 La gestion des tâches dans Aspose.Tasks pour .NET est un processus transparent avec les exemples fournis. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, l'intégration de ces techniques améliorera vos capacités de gestion de projet.
 ## Questions fréquemment posées
 ### Q : Aspose.Tasks est-il compatible avec tous les frameworks .NET ?
-: Oui, Aspose.Tasks prend en charge divers frameworks .NET, garantissant ainsi la compatibilité avec votre environnement de développement.
+R : Oui, Aspose.Tasks prend en charge divers frameworks .NET, garantissant ainsi la compatibilité avec votre environnement de développement.
 ### Q : Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
  R : Vous pouvez obtenir une licence temporaire de 30 jours auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Existe-t-il des limitations lorsque vous travaillez avec des tâches fractionnées dans Aspose.Tasks ?

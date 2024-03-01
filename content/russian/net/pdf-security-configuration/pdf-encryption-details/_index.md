@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Определите детали шифрования, включая пароль пользователя, пароль владельца, алгоритм шифрования и разрешения:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //Пользовательский пароль
+    "userPassword",        // Пользовательский пароль
     "ownerPassword",       // Пароль владельца
     PdfEncryptionAlgorithm.RC4_128);  // Алгоритм шифрования
 // Укажите разрешения

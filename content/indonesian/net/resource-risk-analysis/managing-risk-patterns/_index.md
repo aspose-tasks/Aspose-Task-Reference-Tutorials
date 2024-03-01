@@ -15,7 +15,7 @@ Dalam manajemen proyek, pemahaman dan mitigasi risiko sangat penting untuk keber
 Sebelum kita mendalami pengelolaan pola risiko MS Project menggunakan Aspose.Tasks untuk .NET, pastikan Anda memiliki hal berikut:
 
 1. File Microsoft Project: Memiliki file Microsoft Project (.mpp) yang berisi tugas dan data proyek yang relevan.
-2. Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/).
 3. Pemahaman Dasar C#: Dianjurkan untuk memahami dasar-dasar bahasa pemrograman C#.
 
 ## Impor Namespace
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- Pada langkah ini, kita menentukan direktori untuk dokumen proyek dan membuat pengaturan untuk analisis risiko. Sesuaikan`IterationsCount` sesuai kebutuhan berdasarkan kompleksitas proyek.
+Pada langkah ini, kita menentukan direktori untuk dokumen proyek dan membuat pengaturan untuk analisis risiko. Sesuaikan`IterationsCount` sesuai kebutuhan berdasarkan kompleksitas proyek.
 
 ## Langkah 2: Muat Proyek dan Tugas
 

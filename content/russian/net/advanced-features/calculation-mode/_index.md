@@ -1,6 +1,6 @@
 ---
-title: Режим расчета в Aspose.Задачи
-linktitle: Режим расчета в Aspose.Задачи
+title: Режим расчета в Aspose.Tasks
+linktitle: Режим расчета в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять режимами вычислений в Aspose.Tasks для .NET, чтобы оптимизировать планирование проекта и зависимости задач.
 type: docs
@@ -34,7 +34,7 @@ using System;
 
 ### Шаг 1. Создайте новый экземпляр проекта.
 
- Инициализировать новый`Project` объект и установите его`CalculationMode` собственность`CalculationMode.Automatic`.
+ Инициализируйте новый`Project` объект и установите его`CalculationMode` собственность`CalculationMode.Automatic`.
 
 ```csharp
 var project = new Project
@@ -74,7 +74,7 @@ Console.WriteLine("Task1 Start + 1 Equals Task2 Start : {0} ", task1.Get(Tsk.Sta
 
 ### Шаг 1. Создайте новый экземпляр проекта.
 
- Инициализировать новый`Project` объект и установите его`CalculationMode` собственность`CalculationMode.Manual`.
+ Инициализируйте новый`Project` объект и установите его`CalculationMode` собственность`CalculationMode.Manual`.
 
 ```csharp
 var project = new Project
@@ -114,7 +114,7 @@ project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 
 ### Шаг 1. Создайте новый экземпляр проекта.
 
- Инициализировать новый`Project` объект и установите его`CalculationMode` собственность`CalculationMode.None`.
+ Инициализируйте новый`Project` объект и установите его`CalculationMode` собственность`CalculationMode.None`.
 
 ```csharp
 var project = new Project
@@ -142,7 +142,7 @@ Console.WriteLine("Task.Id Equals 0 : {0} ", task.Get(Tsk.Id).Equals(0));
 
 ## Заключение
 
-В этом руководстве мы изучили режимы вычислений, доступные в Aspose.Tasks для .NET, и узнали, как применять их в практических сценариях. Независимо от того, нужен ли вам автоматический, ручной или режим без расчета, Aspose.Tasks обеспечивает гибкость в соответствии с требованиями вашего проекта.
+В этом руководстве мы изучили режимы вычислений, доступные в Aspose.Tasks для .NET, и узнали, как применять их в практических сценариях. Независимо от того, нужен ли вам автоматический, ручной или режим без расчета, Aspose.Tasks обеспечивает гибкость, соответствующую требованиям вашего проекта.
 
 ## Часто задаваемые вопросы
 

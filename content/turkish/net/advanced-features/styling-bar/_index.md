@@ -62,7 +62,7 @@ Yeni bir çubuk stili oluşturun ve özelliklerini özelleştirin:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Çubuk öğesi türünü ayarla
 style.BarColor = Color.Green; // Çubuk rengini ayarla
-style.BarShape = BarShape.HalfHeight; //Çubuk şeklini ayarla
+style.BarShape = BarShape.HalfHeight; // Çubuk şeklini ayarla
 style.StartShape = Shape.LeftBracket; // Şekli çubuğun başlangıcında ayarla
 style.StartShapeColor = Color.Aqua; // Başlangıç şeklinin rengini ayarlama
 style.EndShape = Shape.RightBracket; // Çubuğun sonundaki şekli ayarla

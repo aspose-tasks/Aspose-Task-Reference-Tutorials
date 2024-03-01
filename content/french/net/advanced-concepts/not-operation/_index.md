@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Ici, nous créons un`ChildTasksCollector` objet pour rassembler toutes les tâches du projet. On utilise alors`TaskUtils.Apply`méthode pour parcourir la hiérarchie des tâches du projet et collecter toutes les tâches enfants.
+ Ici, nous créons un`ChildTasksCollector` objet pour rassembler toutes les tâches du projet. On utilise alors`TaskUtils.Apply` méthode pour parcourir la hiérarchie des tâches du projet et collecter toutes les tâches enfants.
 
 ## Étape 3 : Définir la condition du filtre
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Nous définissons une condition de filtre à l'aide d'une classe personnalisée nommée`NullCondition`, Cette condition sélectionne les tâches qui ont une valeur nulle.
+ Nous définissons une condition de filtre à l'aide d'une classe personnalisée nommée`NullCondition`. Cette condition sélectionne les tâches qui ont une valeur nulle.
 
 ## Étape 4 : Appliquer l’opération NOT
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- Nous appliquons l’opération NOT à la condition de filtre en utilisant la`Not<T>` classe fournie par Aspose.Tasks. Cela inversera la condition de filtre, en sélectionnant les tâches qui n'ont pas de valeur nulle.
+ Nous appliquons l’opération NOT à la condition de filtre en utilisant la`Not<T>`classe fournie par Aspose.Tasks. Cela inversera la condition de filtre, en sélectionnant les tâches qui n'ont pas de valeur nulle.
 
 ## Étape 5 : filtrer les tâches
 
@@ -97,7 +97,7 @@ Dans ce didacticiel, nous avons appris à utiliser l'opération NOT dans Aspose.
 
 ### Q1 : Puis-je utiliser Aspose.Tasks avec d’autres frameworks .NET ?
 
-R : Oui, Aspose.Tasks prend en charge divers frameworks .NET, notamment .NET Core, .NET Standard et .NET Framework.
+: Oui, Aspose.Tasks prend en charge divers frameworks .NET, notamment .NET Core, .NET Standard et .NET Framework.
 
 ### Q2 : Existe-t-il un essai gratuit disponible pour Aspose.Tasks ?
 

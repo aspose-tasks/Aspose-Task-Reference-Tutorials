@@ -51,9 +51,9 @@ In diesem Tutorial haben wir gelernt, wie Sie den MS Project Primavera XML Reade
 ### F: Kann Aspose.Tasks komplexe Projektstrukturen verarbeiten?
 A: Ja, Aspose.Tasks bietet robuste Funktionen, um verschiedene Projektstrukturen und -komplexitäten effektiv zu bewältigen.
 ### F: Gibt es eine kostenlose Testversion für Aspose.Tasks?
-A: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
+ A: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 ### F: Wie kann ich Unterstützung für Aspose.Tasks erhalten?
- A: Unterstützung erhalten Sie im Aspose.Tasks-Forum.[Hier](https://forum.aspose.com/c/tasks/15).
+ A: Unterstützung erhalten Sie im Aspose.Tasks-Forum[Hier](https://forum.aspose.com/c/tasks/15).
 ### F: Kann ich eine temporäre Lizenz für Aspose.Tasks erwerben?
  A: Ja, temporäre Lizenzen können erworben werden[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wo finde ich eine umfassende Dokumentation für Aspose.Tasks?

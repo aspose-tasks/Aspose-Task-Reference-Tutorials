@@ -27,7 +27,7 @@ Es necesaria una comprensión fundamental de la programación .NET para comprend
 
 Para comenzar, debe importar los espacios de nombres requeridos a su proyecto .NET. 
 
- Incluir la`Aspose.Tasks` espacio de nombres en su proyecto para acceder a las clases y métodos proporcionados por la biblioteca Aspose.Tasks.
+ Incluir la`Aspose.Tasks`espacio de nombres en su proyecto para acceder a las clases y métodos proporcionados por la biblioteca Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Ahora, dividamos el ejemplo proporcionado en varios pasos:
 
 ## Paso 1: cargue el archivo del proyecto
 
- Comience cargando el archivo del proyecto usando el`Project`constructor de clases.
+ Comience cargando el archivo del proyecto usando el`Project` constructor de clases.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -77,7 +77,7 @@ R2: Sí, Aspose.Tasks admite múltiples monedas, lo que permite a los desarrolla
 
  R3: Sí, puede obtener una prueba gratuita de Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/).
 
-### P4: ¿Puedo buscar ayuda si encuentro algún problema al utilizar Aspose.Tasks para .NET?
+### P4: ¿Puedo buscar ayuda si encuentro algún problema al usar Aspose.Tasks para .NET?
 
  R4: ¡Por supuesto! Puede buscar apoyo y asistencia en el foro de la comunidad Aspose.Tasks.[aquí](https://forum.aspose.com/c/tasks/15).
 

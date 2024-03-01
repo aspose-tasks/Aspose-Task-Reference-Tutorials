@@ -17,7 +17,7 @@ url: /ko/net/project-management-integration/presentation-format/
 
 ### 1. .NET용 Aspose.Tasks 설치
 
- 아직 설치하지 않았다면 다음에서 Aspose.Tasks for .NET을 다운로드하여 설치하세요.[다운로드 페이지](https://releases.aspose.com/tasks/net/), 제공된 설치 지침에 따라 올바르게 설정하세요.
+ 아직 설치하지 않았다면 다음에서 Aspose.Tasks for .NET을 다운로드하여 설치하세요.[다운로드 페이지](https://releases.aspose.com/tasks/net/). 제공된 설치 지침에 따라 올바르게 설정하세요.
 
 ### 2. 필요한 네임스페이스 가져오기
 
@@ -68,7 +68,7 @@ options.PresentationFormat = PresentationFormat.ResourceSheet;
 project.Save(DataDir + "ResourceSheetView_out.pdf", options);
 ```
 
- 교체를 확인하세요`"ResourceSheetView_out.pdf"` 출력 파일에 원하는 이름을 사용하십시오.
+ 반드시 교체하세요`"ResourceSheetView_out.pdf"` 출력 파일에 원하는 이름을 사용하십시오.
 
 ## 결론
 

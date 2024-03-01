@@ -24,7 +24,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## Étape 1 : Charger le fichier MS Project
-Commencez par charger le fichier MS Project avec lequel vous avez l'intention de travailler dans votre application C#. Vous pouvez le faire en utilisant le`Project` classe fournie par Aspose.Tasks.
+ Commencez par charger le fichier MS Project avec lequel vous avez l'intention de travailler dans votre application C#. Vous pouvez le faire en utilisant le`Project` classe fournie par Aspose.Tasks.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -50,12 +50,12 @@ project.Save(DataDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
 En conclusion, l'utilisation d'Aspose.Tasks pour .NET permet aux développeurs de manipuler de manière transparente les fichiers MS Project, y compris les options d'enregistrement pour Primavera. En suivant les étapes décrites dans ce didacticiel, vous pouvez intégrer efficacement cette fonctionnalité dans vos applications .NET.
 ## FAQ
 ### Q : Puis-je personnaliser d'autres paramètres que les ID d'activité lors de l'enregistrement des options MS Project pour Primavera ?
-R : Oui, Aspose.Tasks offre un large éventail d'options de personnalisation, notamment l'allocation des ressources et la planification des tâches.
+: Oui, Aspose.Tasks offre un large éventail d'options de personnalisation, notamment l'allocation des ressources et la planification des tâches.
 ### Q : Aspose.Tasks prend-il en charge d'autres logiciels de gestion de projet en dehors de Primavera ?
 R : Oui, Aspose.Tasks prend en charge divers formats compatibles avec les outils de gestion de projet populaires tels qu'Oracle Primavera, Microsoft Project Server, etc.
 ### Q : Aspose.Tasks convient-il aussi bien aux projets à petite échelle qu'aux projets d'entreprise ?
 R : Absolument, Aspose.Tasks est conçu pour répondre aux besoins des développeurs travaillant sur des projets de toutes tailles, offrant évolutivité et performances robustes.
 ### Q : Puis-je essayer Aspose.Tasks gratuitement avant d’effectuer un achat ?
- R : Oui, vous pouvez télécharger un essai gratuit d'Aspose.Tasks à partir de[ici](https://releases.aspose.com/) pour explorer ses fonctionnalités et ses capacités.
+ R : Oui, vous pouvez télécharger un essai gratuit d'Aspose.Tasks à partir de[ici](https://releases.aspose.com/) pour explorer ses fonctionnalités et ses capacités.
 ### Q : Où puis-je obtenir de l'aide si je rencontre des problèmes ou si j'ai des questions lors de l'utilisation d'Aspose.Tasks ?
-R : Vous pouvez demander de l'aide à la communauté Aspose.Tasks et à l'équipe d'assistance sur le[forum](https://forum.aspose.com/c/tasks/15).
+ R : Vous pouvez demander de l'aide à la communauté Aspose.Tasks et à l'équipe d'assistance sur le[forum](https://forum.aspose.com/c/tasks/15).

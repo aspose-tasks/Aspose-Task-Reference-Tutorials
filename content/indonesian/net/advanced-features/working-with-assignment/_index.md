@@ -80,7 +80,7 @@ Kita dapat mengubah tipe kontur dan menghasilkan data berfase waktu yang sesuai.
 ```csharp
 // Ubah kontur
 resourceAssignment.Set(Asn.WorkContour, WorkContourType.Turtle);
-// Hasilkan data bertahap waktu dan cetak
+// Hasilkan data bertahap dan cetak
 // Ulangi langkah ini untuk tipe kontur lainnya
 ```
 
@@ -102,10 +102,10 @@ A1: Ya, Aspose.Tasks menyediakan API komprehensif untuk penjadwalan dan manajeme
 
 A3: Aspose.Tasks tidak menerapkan batasan apa pun pada jumlah tugas atau sumber daya yang dapat Anda kelola dalam proyek Anda.
 
-### Q4: Bisakah saya menyesuaikan kontur untuk penetapan sumber daya di Aspose.Tasks?
+### Q4: Dapatkah saya menyesuaikan kontur untuk penetapan sumber daya di Aspose.Tasks?
 
 A4: Ya, seperti yang ditunjukkan dalam tutorial ini, Anda dapat mengatur berbagai kontur seperti turtle, bell, peak, dll., sesuai dengan kebutuhan proyek Anda.
 
 ### Q5: Di mana saya dapat menemukan dukungan untuk pertanyaan terkait Aspose.Tasks?
 
- A5: Anda dapat menemukan dukungan di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) di mana para ahli dan anggota masyarakat secara aktif terlibat dalam diskusi.
+A5: Anda dapat menemukan dukungan di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) di mana para ahli dan anggota masyarakat secara aktif terlibat dalam diskusi.

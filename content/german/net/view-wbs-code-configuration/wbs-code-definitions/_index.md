@@ -12,7 +12,7 @@ Mit der Weiterentwicklung des Projektmanagements steigt auch der Bedarf an leist
 ## Voraussetzungen
 Bevor wir uns mit dem Tutorial befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 - Grundkenntnisse in der .NET-Entwicklung.
-- Aspose.Tasks für .NET-Bibliothek installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks für .NET-Bibliothek installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
 - Ein Code-Editor (Visual Studio wird empfohlen).
 ## Namespaces importieren
 Beginnen Sie in Ihrem .NET-Projekt mit dem Importieren der erforderlichen Namespaces:
@@ -73,7 +73,7 @@ In diesem Tutorial haben wir die Leistungsfähigkeit von Aspose.Tasks für .NET 
 Ja, Aspose.Tasks unterstützt verschiedene .NET-Versionen und gewährleistet so die Kompatibilität mit einer Vielzahl von Entwicklungsumgebungen.
 ### Kann ich das WBS-Codeformat weiter anpassen?
 Absolut. Aspose.Tasks bietet umfassende Flexibilität und ermöglicht es Ihnen, WBS-Codes an spezifische Projektanforderungen anzupassen.
-### Gibt es Einschränkungen hinsichtlich der Anzahl der PSP-Codes, die ich definieren kann?
+### Gibt es Einschränkungen hinsichtlich der Anzahl der WBS-Codes, die ich definieren kann?
 Aspose.Tasks bietet Skalierbarkeit und Sie können eine beträchtliche Anzahl von WBS-Codes basierend auf der Komplexität Ihres Projekts definieren.
 ### Wie kann ich Probleme im Zusammenhang mit dem WBS-Code in meinem Projekt beheben?
  Das Aspose.Tasks-Forum (Link zu[Unterstützung](https://forum.aspose.com/c/tasks/15)) ist eine wertvolle Ressource für die Suche nach Hilfe und die Behebung von Fragen.

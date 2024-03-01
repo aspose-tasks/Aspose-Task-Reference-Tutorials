@@ -11,7 +11,7 @@ url: /ko/net/saving-options/mpp-save-options/
 .NET 개발 세계에서는 프로젝트 파일을 효율적으로 관리하고 조작하는 것이 성공을 위해 매우 중요합니다. Aspose.Tasks for .NET은 Microsoft Project 파일(MPP)을 쉽게 처리할 수 있는 강력한 솔루션을 제공합니다. 많은 기능 중에서 Aspose.Tasks를 사용하면 사용자는 MS 프로젝트 옵션을 원활하게 저장하여 작업 흐름을 간소화하고 프로젝트 무결성을 보장할 수 있습니다. 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 MS 프로젝트 옵션을 저장하는 과정을 살펴보겠습니다.
 ## 전제조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-1. .NET용 Aspose.Tasks 설치: 다음에서 .NET용 Aspose.Tasks 라이브러리를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/tasks/net/).
+1.  .NET용 Aspose.Tasks 설치: 다음에서 .NET용 Aspose.Tasks 라이브러리를 다운로드하여 설치하세요.[여기](https://releases.aspose.com/tasks/net/).
 2. 개발 환경: Visual Studio와 같은 .NET 개발 환경을 설정합니다.
 3. C#에 대한 기본 이해: 예제를 구현하려면 C# 프로그래밍 언어에 대한 지식이 필수적입니다.
 
@@ -62,7 +62,7 @@ project.Save(stream, options);
 ### 구매하기 전에 .NET용 Aspose.Tasks를 사용해 볼 수 있나요?
  틀림없이! .NET용 Aspose.Tasks 무료 평가판을 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### .NET용 Aspose.Tasks에 대한 기술 지원은 어떻게 받을 수 있나요?
- 기술 지원을 받으려면 Aspose.Tasks 포럼을 방문하세요.[여기](https://forum.aspose.com/c/tasks/15).
+기술 지원을 받으려면 Aspose.Tasks 포럼을 방문하세요.[여기](https://forum.aspose.com/c/tasks/15).
 ### 임시 라이센스란 무엇이며 어떻게 얻을 수 있나요?
  임시 라이선스를 사용하면 아무런 제한 없이 .NET용 Aspose.Tasks를 평가할 수 있습니다. 에서 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### .NET용 Aspose.Tasks의 라이선스 버전을 어디에서 구입할 수 있나요?

@@ -51,11 +51,11 @@ Desbloquee las habilidades para manejar líneas base de tareas sin esfuerzo en A
 
  Libere el poder de Aspose.Tasks para .NET en la gestión eficiente de enlaces de tareas de proyectos. Siga nuestra guía paso a paso para mejorar su experiencia de gestión de proyectos con el[Tutorial de colección de enlaces de tareas](./task-link-collection/).
 
-## Configurar los tipos de fecha de inicio de tareas en Aspose.Tasks
+## Configuración de tipos de fecha de inicio de tareas en Aspose.Tasks
 
- Configure fácilmente los tipos de fechas de inicio de tareas con Aspose.Tasks para .NET. Optimice la gestión de proyectos con facilidad explorando las[Tutorial sobre tipos de fecha de inicio de tarea](./task-start-date-types/), ¡Descarga tu prueba gratuita ahora!
+ Configure fácilmente los tipos de fechas de inicio de tareas con Aspose.Tasks para .NET. Optimice la gestión de proyectos con facilidad explorando las[Tutorial sobre tipos de fecha de inicio de tarea](./task-start-date-types/). ¡Descarga tu prueba gratuita ahora!
 
-## Configurar vistas de uso de tareas en Aspose.Tasks
+## Configuración de vistas de uso de tareas en Aspose.Tasks
 
  Administre y visualice de manera eficiente los datos del proyecto utilizando Aspose.Tasks para .NET. Sumérjase en los campos de visualización de uso de tareas para obtener información mejorada sobre el proyecto con la[Tutorial de vistas de uso de tareas](./task-usage-views/).
 
@@ -85,9 +85,9 @@ Explore las líneas base de tareas sin esfuerzo con Aspose.Tasks para .NET. Gest
 Explore la gestión eficiente de la recopilación de tareas en Aspose.Tasks para .NET. Desde la creación hasta la edición, domina la gestión de proyectos con facilidad.
 ### [Manejo de enlaces de tareas en Aspose.Tasks](./task-link-collection/)
 Explore el poder de Aspose.Tasks para .NET en la gestión eficiente de enlaces de tareas de proyectos. Siga nuestra guía paso a paso para mejorar su experiencia de gestión de proyectos.
-### [Configurar los tipos de fecha de inicio de tareas en Aspose.Tasks](./task-start-date-types/)
+### [Configuración de tipos de fecha de inicio de tareas en Aspose.Tasks](./task-start-date-types/)
 Explore Aspose.Tasks para .NET para configurar fácilmente los tipos de fechas de inicio de tareas. Optimice la gestión de proyectos con facilidad. ¡Descarga tu prueba gratuita ahora!
-### [Configurar vistas de uso de tareas en Aspose.Tasks](./task-usage-views/)
+### [Configuración de vistas de uso de tareas en Aspose.Tasks](./task-usage-views/)
 Explore Aspose.Tasks para .NET para administrar y visualizar datos del proyecto sin esfuerzo. Sumérjase en los campos de visualización de uso de tareas para obtener información mejorada sobre el proyecto.
 ### [Colección de campos de vista de uso de tareas en Aspose.Tasks](./task-usage-view-fields/)
 Explore Aspose.Tasks para .NET y aprenda cómo configurar vistas de uso de tareas. Personalice la configuración de escala de tiempo y mejore los elementos visuales de gestión de proyectos.

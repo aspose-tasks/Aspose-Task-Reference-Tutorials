@@ -66,6 +66,6 @@ Trong hướng dẫn này, chúng ta đã khám phá quy trình định cấu h�
 ### Có điều kiện tiên quyết nào để sử dụng Aspose.Tasks cho .NET không?
  Đảm bảo bạn có kiến thức làm việc về C# và .NET, cũng như đã cài đặt thư viện Aspose.Tasks. Tải xuống[đây](https://releases.aspose.com/tasks/net/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và giúp đỡ.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và giúp đỡ.
 ### Tôi có thể dùng thử Aspose.Tasks miễn phí trước khi mua không?
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).

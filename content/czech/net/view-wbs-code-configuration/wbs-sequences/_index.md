@@ -71,6 +71,6 @@ Absolutně! Aspose.Tasks poskytuje flexibilitu při definování kódů WBS podl
 ### Je k dispozici zkušební verze?
  Ano můžeš[stáhnout zkušební verzi zdarma](https://releases.aspose.com/) k prozkoumání funkcí před nákupem.
 ### Jak mohu získat podporu komunity pro Aspose.Tasks?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) spojit se s komunitou a vyhledat pomoc.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) spojit se s komunitou a vyhledat pomoc.
 ### Jsou dostupné dočasné licence?
  Ano, můžete získat a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro testovací účely.

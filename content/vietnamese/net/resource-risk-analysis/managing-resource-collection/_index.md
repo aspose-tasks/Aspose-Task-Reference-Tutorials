@@ -98,4 +98,4 @@ Trả lời: Có, Aspose.Tasks hỗ trợ đa luồng, cho phép thực hiện c
 
 ### Câu hỏi: Người dùng Aspose.Tasks có được hỗ trợ kỹ thuật không?
 
- Trả lời: Có, người dùng Aspose.Tasks có thể truy cập hỗ trợ kỹ thuật thông qua diễn đàn.[đây](https://forum.aspose.com/c/tasks/15).
+ Trả lời: Có, người dùng Aspose.Tasks có thể truy cập hỗ trợ kỹ thuật thông qua diễn đàn[đây](https://forum.aspose.com/c/tasks/15).

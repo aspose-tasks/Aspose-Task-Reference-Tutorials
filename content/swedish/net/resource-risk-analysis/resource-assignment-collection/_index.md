@@ -11,7 +11,7 @@ url: /sv/net/resource-risk-analysis/resource-assignment-collection/
 Välkommen till denna omfattande handledning om hantering av resurstilldelningar i Microsoft Project med Aspose.Tasks för .NET. I den här handledningen kommer vi att fördjupa oss i processen steg för steg, för att säkerställa att du har en gedigen förståelse för hur du manipulerar resurstilldelningar effektivt. Oavsett om du är en erfaren utvecklare eller precis har börjat, kommer den här guiden att gå igenom allt du behöver veta.
 ## Förutsättningar
 Innan vi dyker in i koden, se till att du har följande inställning:
-1. Aspose.Tasks för .NET installerat: Se till att du har Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Om inte kan du ladda ner den från[här](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks för .NET installerat: Se till att du har Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Om inte kan du ladda ner den från[här](https://releases.aspose.com/tasks/net/).
 2. Grundläggande kunskaper om C#: Denna handledning förutsätter att du har en grundläggande förståelse för programmeringsspråket C#.
 3. Microsoft Project File: Ha en Microsoft Project-fil redo för teständamål. Om du inte har en kan du skapa en exempelfil.
 

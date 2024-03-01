@@ -9,7 +9,7 @@ url: /zh/net/calendar-scheduling/compound-document-header-exception/
 ---
 ## 介绍
 
-在 .NET 开发领域，有效管理项目任务是最重要的问题。 Aspose.Tasks 为.NET 开发人员提供了一个全面的解决方案来无缝处理项目管理任务。然而，遇到异常是软件开发中不可避免的一个方面。开发人员可能遇到的一种例外是`CompoundDocumentHeaderException`,本教程旨在指导开发人员如何使用 Aspose.Tasks for .NET 有效处理此异常。
+在 .NET 开发领域，有效管理项目任务是最重要的问题。 Aspose.Tasks 为.NET 开发人员提供了一个全面的解决方案来无缝处理项目管理任务。然而，遇到异常是软件开发中不可避免的一个方面。开发人员可能遇到的一种例外是`CompoundDocumentHeaderException`。本教程旨在指导开发人员如何使用 Aspose.Tasks for .NET 有效处理此异常。
 
 ## 先决条件
 

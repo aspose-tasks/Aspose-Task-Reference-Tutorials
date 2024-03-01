@@ -31,7 +31,7 @@ String DataDir = "Your Document Directory";
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- บรรทัดโค้ดนี้จะโหลดไฟล์ Microsoft Project ลงในไฟล์`project` ตัวแปร
+ บรรทัดโค้ดนี้จะโหลดไฟล์ Microsoft Project ลงในไฟล์`project` ตัวแปร.
 ## ขั้นตอนที่ 3: กำหนดพารามิเตอร์งานที่เกิดซ้ำ
 ```csharp
 var parameters = new RecurringTaskParameters

@@ -106,4 +106,4 @@ A: はい、Util.And を使用すると、任意の数の条件を組み合わ�
 
 ### Q5: Aspose.Tasks for .NET のサポートを受けるにはどうすればよいですか?
 
- A: Aspose.Tasks コミュニティ フォーラムからサポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+A: Aspose.Tasks コミュニティ フォーラムからサポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).

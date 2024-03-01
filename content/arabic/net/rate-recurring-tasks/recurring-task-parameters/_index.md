@@ -31,7 +31,7 @@ String DataDir = "Your Document Directory";
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- يقوم هذا السطر من التعليمات البرمجية بتحميل ملف Microsoft Project في ملف`project` المتغيرات.
+ يقوم هذا السطر من التعليمات البرمجية بتحميل ملف Microsoft Project في ملف`project` عامل.
 ## الخطوة 3: تحديد معلمات المهمة المتكررة
 ```csharp
 var parameters = new RecurringTaskParameters

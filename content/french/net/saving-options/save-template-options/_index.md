@@ -42,11 +42,11 @@ var options = new SaveTemplateOptions
 {
 	// Supprimez tous les coûts fixes du modèle de projet
 	RemoveFixedCosts = true,
-	// Supprimez toutes les valeurs réelles du modèle de projet
+	// Supprimer toutes les valeurs réelles du modèle de projet
 	RemoveActualValues = true,
 	// Supprimer les taux de ressources du modèle de projet
 	RemoveResourceRates = true,
-	// Supprimez toutes les valeurs de base du modèle de projet
+	// Supprimez toutes les valeurs de référence du modèle de projet
 	RemoveBaselineValues = true
 };
 ```
@@ -75,4 +75,4 @@ R : Oui, vous pouvez appliquer des modèles à des projets existants en chargean
 ### Q : Aspose.Tasks pour .NET prend-il en charge le développement multiplateforme ?
 R : Aspose.Tasks for .NET est principalement conçu pour les applications de framework .NET exécutées sur les plates-formes Windows.
 ### Q : Le support technique est-il disponible pour Aspose.Tasks pour .NET ?
- R : Oui, vous pouvez demander une assistance technique et des conseils à la communauté Aspose.Tasks.[forums](https://forum.aspose.com/c/tasks/15) ou contactez directement leur équipe d’assistance.
+ R : Oui, vous pouvez demander une assistance technique et des conseils à la communauté Aspose.Tasks.[forums](https://forum.aspose.com/c/tasks/15)ou contactez directement leur équipe d’assistance.

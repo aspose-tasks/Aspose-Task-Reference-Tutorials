@@ -1,6 +1,6 @@
 ---
-title: Aspose. कार्य बचत विकल्प
-linktitle: Aspose. कार्य बचत विकल्प
+title: Aspose.कार्य बचत विकल्प
+linktitle: Aspose.कार्य बचत विकल्प
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks के साथ MS प्रोजेक्ट फ़ाइलों को सहेजें, कनवर्ट करें और प्रबंधित करें। HTML, इमेज, PDF, प्राइमेरा, टेम्प्लेट और बहुत कुछ के लिए चरण-दर-चरण ट्यूटोरियल देखें।
 type: docs

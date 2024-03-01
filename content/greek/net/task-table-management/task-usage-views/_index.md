@@ -23,7 +23,7 @@ url: /el/net/task-table-management/task-usage-views/
     using Aspose.Tasks.Visualization;
 ```
 ## Βήμα 1: Ορίστε τη διαδρομή καταλόγου εγγράφων
- Πριν εργαστείτε με τις λειτουργίες Aspose.Tasks, ορίστε τη διαδρομή προς τον κατάλογο των εγγράφων σας. αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή.
+ Πριν εργαστείτε με τις λειτουργίες Aspose.Tasks, ορίστε τη διαδρομή προς τον κατάλογο των εγγράφων σας. Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή.
 ```csharp
 String DataDir = "Your Document Directory";
 ```

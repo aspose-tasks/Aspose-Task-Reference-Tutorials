@@ -32,7 +32,7 @@ url: /ru/net/rate-recurring-tasks/recurring-intervals/
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Здесь мы инициализируем новый экземпляр`Project` класс, указав путь к файлу Microsoft Project.
+ Здесь мы инициализируем новый экземпляр`Project` класс, указав путь к файлу Microsoft Project.
 ## Шаг 2: Установите дату статуса:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
@@ -75,7 +75,7 @@ interval.MonthlyDayMonthNumber = 1;
 interval.MonthlyFirstLast = true;
 // Установите тип первого или последнего дня ежемесячных линий прогресса.
 interval.MonthlyFirstLastDay = RecurringInterval.DayType.Day;
-// Установите ежемесячное количество строк прогресса.
+// Установите количество строк прогресса в месяце.
 interval.MonthlyFirstLastMonthNumber = 1;
 ```
 Эти шаги настраивают ежемесячные линии прогресса в соответствии с указанными параметрами.

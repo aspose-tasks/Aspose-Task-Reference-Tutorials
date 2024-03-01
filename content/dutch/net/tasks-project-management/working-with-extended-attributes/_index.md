@@ -38,7 +38,7 @@ Definieer het pad naar de map waar uw MS Project-bestand zich bevindt:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
+ Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
 ## Stap 2: Laad het projectbestand
  Laad het MS Project-bestand met behulp van de`Project` klas:
 ```csharp

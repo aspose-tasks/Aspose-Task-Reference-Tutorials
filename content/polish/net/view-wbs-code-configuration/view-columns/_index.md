@@ -75,8 +75,8 @@ O: Aspose.Tasks koncentruje się głównie na plikach Microsoft Project; można 
 ### P: Jak mogę rozwiązać problemy z dostosowywaniem kolumn widoku?
  O: Odwiedź[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie społeczności i pomoc w przypadku wszelkich napotkanych wyzwań.
 ### P: Czy przed zakupem Aspose.Tasks dostępna jest wersja próbna?
-Odp.: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+ Odp.: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 ###  P: Jakie jest znaczenie`MyTextStyleCallback` class in the tutorial?
- O:`MyTextStyleCallback` Klasa pokazuje, jak dostosować style tekstu w celu lepszej reprezentacji wizualnej w określonych widokach.
+ O:`MyTextStyleCallback` klasa demonstruje, jak dostosować style tekstu w celu lepszej reprezentacji wizualnej w określonych widokach.
 ### P: Gdzie mogę znaleźć dodatkowe zasoby i dokumentację dla Aspose.Tasks?
  Odp.: Patrz[Dokumentacja Aspose.Tasks](https://reference.aspose.com/tasks/net/) aby uzyskać szczegółowe wskazówki i zasoby.

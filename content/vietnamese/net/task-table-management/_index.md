@@ -43,7 +43,7 @@ Mở khóa các kỹ năng để xử lý các nhiệm vụ cơ bản một các
 
  Khám phá các đường cơ sở của nhiệm vụ một cách hiệu quả với Aspose.Tasks for .NET. Hướng dẫn này đơn giản hóa sự phức tạp của việc quản lý nhiệm vụ cơ bản. Nâng cao tính đơn giản trong quản lý dự án của bạn với[Hướng dẫn thu thập đường cơ sở nhiệm vụ](./task-baseline-collection/).
 
-## Quản lý bộ sưu tập tác vụ trong Aspose.Tasks
+## Quản lý bộ sưu tập nhiệm vụ trong Aspose.Tasks
 
  Đi sâu vào quản lý tuyển tập tác vụ hiệu quả trong Aspose.Tasks for .NET. Từ việc tạo đến chỉnh sửa, quản lý dự án một cách dễ dàng bằng cách sử dụng[Hướng dẫn thu thập nhiệm vụ](./task-collection/).
 
@@ -53,7 +53,7 @@ Mở khóa các kỹ năng để xử lý các nhiệm vụ cơ bản một các
 
 ## Định cấu hình các loại ngày bắt đầu nhiệm vụ trong Aspose.Tasks
 
- Dễ dàng định cấu hình các loại ngày bắt đầu tác vụ với Aspose.Tasks cho .NET. Tối ưu hóa quản lý dự án một cách dễ dàng bằng cách khám phá[Hướng dẫn về loại ngày bắt đầu nhiệm vụ](./task-start-date-types/), Tải về dùng thử ngay!
+ Dễ dàng định cấu hình các loại ngày bắt đầu tác vụ với Aspose.Tasks cho .NET. Tối ưu hóa quản lý dự án một cách dễ dàng bằng cách khám phá[Hướng dẫn về loại ngày bắt đầu nhiệm vụ](./task-start-date-types/). Tải về dùng thử ngay!
 
 ## Định cấu hình Chế độ xem sử dụng tác vụ trong Aspose.Tasks
 
@@ -81,12 +81,12 @@ Khám phá hướng dẫn toàn diện về cách quản lý tác vụ với Asp
 Tìm hiểu cách xử lý các đường cơ sở của nhiệm vụ trong Aspose.Tasks for .NET với hướng dẫn toàn diện này. Hãy nâng cao kỹ năng quản lý dự án của bạn ngay hôm nay!
 ### [Bộ sưu tập các đường cơ sở của nhiệm vụ trong Aspose.Tasks](./task-baseline-collection/)
 Khám phá các đường cơ sở của nhiệm vụ một cách dễ dàng với Aspose.Tasks for .NET. Quản lý dự án hiệu quả được thực hiện đơn giản.
-### [Quản lý bộ sưu tập tác vụ trong Aspose.Tasks](./task-collection/)
+### [Quản lý bộ sưu tập nhiệm vụ trong Aspose.Tasks](./task-collection/)
 Khám phá quản lý tuyển tập tác vụ hiệu quả trong Aspose.Tasks for .NET. Từ việc tạo đến chỉnh sửa, quản lý dự án một cách dễ dàng.
 ### [Xử lý các liên kết tác vụ trong Aspose.Tasks](./task-link-collection/)
 Khám phá sức mạnh của Aspose.Tasks cho .NET trong việc quản lý các liên kết nhiệm vụ dự án một cách hiệu quả. Hãy làm theo hướng dẫn từng bước của chúng tôi để nâng cao trải nghiệm quản lý dự án của bạn.
 ### [Định cấu hình các loại ngày bắt đầu nhiệm vụ trong Aspose.Tasks](./task-start-date-types/)
-Khám phá Aspose.Tasks for .NET để dễ dàng định cấu hình các loại ngày bắt đầu tác vụ. Tối ưu hóa quản lý dự án một cách dễ dàng. Tải về dùng thử ngay!
+Khám phá Aspose.Tasks for .NET để dễ dàng định cấu hình các loại ngày bắt đầu nhiệm vụ. Tối ưu hóa quản lý dự án một cách dễ dàng. Tải về dùng thử ngay!
 ### [Định cấu hình Chế độ xem sử dụng tác vụ trong Aspose.Tasks](./task-usage-views/)
 Khám phá Aspose.Tasks dành cho .NET để dễ dàng quản lý và trực quan hóa dữ liệu dự án. Đi sâu vào các trường xem sử dụng nhiệm vụ để hiểu rõ hơn về dự án.
 ### [Bộ sưu tập các trường xem sử dụng tác vụ trong Aspose.Tasks](./task-usage-view-fields/)

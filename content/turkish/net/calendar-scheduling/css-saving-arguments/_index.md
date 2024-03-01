@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // HTML kaydetme seçeneklerini yapılandırma
+        //HTML kaydetme seçeneklerini yapılandırma
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ Cevap3: Aspose.Tasks for .NET, Microsoft Project dosyalarının çeşitli sürü
 
 ### S4: Aspose.Tasks for .NET'in kapsamlı belgelerini nerede bulabilirim?
 
- A4: başvurabilirsiniz[dokümantasyon](https://reference.aspose.com/tasks/net/) detaylı bilgi ve örnekler için.
+A4: başvurabilirsiniz[dokümantasyon](https://reference.aspose.com/tasks/net/) detaylı bilgi ve örnekler için.
 
 ### S5: Aspose.Tasks for .NET geliştiricilere destek sunuyor mu?
 

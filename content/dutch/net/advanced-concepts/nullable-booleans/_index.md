@@ -9,7 +9,7 @@ url: /nl/net/advanced-concepts/nullable-booleans/
 ---
 ## Invoering
 
- In deze zelfstudie gaan we dieper in op het werken met nulbare booleans in Aspose.Tasks voor .NET. Nullable booleans bieden flexibiliteit bij het weergeven van booleaanse waarden, waardoor de mogelijkheid bestaat dat ze ongedefinieerd zijn. We zullen onderzoeken hoe we de`NullableBool` klasse, de constructors, eigenschappen en methoden ervan.
+In deze zelfstudie gaan we dieper in op het werken met nulbare booleans in Aspose.Tasks voor .NET. Nullable booleans bieden flexibiliteit bij het weergeven van booleaanse waarden, waardoor de mogelijkheid bestaat dat ze ongedefinieerd zijn. We zullen onderzoeken hoe we de`NullableBool` klasse, de constructors, eigenschappen en methoden ervan.
 
 ## Vereisten
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Laten we nu elk voorbeeld in meerdere stappen opsplitsen.
 
-##  werken met`NullableBool`
+##  Werken met`NullableBool`
 
 ###  Stap 1: Maak een nieuwe`Project` instance.
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Stap 6: Geef de tekenreeksweergave van de weer`NullableBool` object.
+###  Stap 6: Geef de tekenreeksweergave van de weer`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Stap 2: Druk de hashcode voor elk af`NullableBool` object.
+### Stap 2: Druk de hashcode voor elk af`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Conclusie
 
- In deze zelfstudie hebben we onderzocht hoe u met nulbare booleans omgaat in Aspose.Tasks voor .NET. Door gebruik te maken van de`NullableBool` class en zijn methoden, kunt u Booleaanse waarden efficiënt beheren met de extra flexibiliteit dat ze nullable zijn.
+ In deze zelfstudie hebben we onderzocht hoe u met nulbare booleans omgaat in Aspose.Tasks voor .NET. Door gebruik te maken van de`NullableBool` class en zijn methoden, kunt u Booleaanse waarden efficiënt beheren met de extra flexibiliteit dat ze nulwaarden kunnen bevatten.
 
 ## Veelgestelde vragen
 

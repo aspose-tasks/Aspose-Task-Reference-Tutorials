@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Xác định chi tiết mã hóa bao gồm mật khẩu người dùng, mật khẩu chủ sở hữu, thuật toán mã hóa và quyền:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //Mật khẩu người dùng
+    "userPassword",        // Mật khẩu người dùng
     "ownerPassword",       // Mật khẩu chủ sở hữu
     PdfEncryptionAlgorithm.RC4_128);  // Thuật toán mã hóa
 // Chỉ định quyền

@@ -10,21 +10,21 @@ url: /tr/net/vba-module-reference/
 
 ## Aspose.Tasks'ta VBA Modüllerini Yönetme
 
- Aspose.Tasks for .NET ile Microsoft Project dosyalarının potansiyelini ortaya çıkarın. Bu eğitimde, sorunsuz yönetim konusunda size rehberlik edeceğiz.[VBA modülleri](./managing-vba-modules/), Aspose.Tasks'ın tüm gücünden yararlanmanızı sağlayarak adım adım talimatlarla geliştirme iş akışınızı zahmetsizce geliştirin.
+ Aspose.Tasks for .NET ile Microsoft Project dosyalarının potansiyelini ortaya çıkarın. Bu eğitimde, sorunsuz yönetim konusunda size rehberlik edeceğiz.[VBA modülleri](./managing-vba-modules/). Aspose.Tasks'ın tüm gücünden yararlanmanızı sağlayarak adım adım talimatlarla geliştirme iş akışınızı zahmetsizce geliştirin.
 
 ## Aspose.Tasks'ta VBA Modülü Niteliklerinin Toplanması
 
- Karmaşık dünyasını keşfederken Aspose.Tasks for .NET'in derinliklerine inin[VBA modülü özellikleri](./vba-module-attribute-collection/), .NET projelerinizi geliştirerek öznitelikleri zahmetsizce yönetmeyi öğrenin. Eğitimimiz, proje geliştirmenin bu önemli yönüne hakim olmanızı sağlayacak açık ve ayrıntılı bir kılavuz sunar.
+ Karmaşık dünyasını keşfederken Aspose.Tasks for .NET'in derinliklerine inin[VBA modülü özellikleri](./vba-module-attribute-collection/). .NET projelerinizi geliştirerek öznitelikleri zahmetsizce yönetmeyi öğrenin. Eğitimimiz, proje geliştirmenin bu önemli yönüne hakim olmanızı sağlayacak açık ve ayrıntılı bir kılavuz sunar.
 
 ## Aspose.Tasks'ta VBA Modül Koleksiyonlarını Yönetme
 
- verimli bir şekilde idare etmek[VBA modül koleksiyonları](./vba-module-collections/)Adım adım kılavuzumuzla Aspose.Tasks for .NET'te. Projelerinize kusursuz entegrasyon için en iyi uygulamaları keşfedin. İster acemi ister deneyimli bir geliştirici olun, bu eğitim, VBA modül koleksiyonlarında uzmanlaşmak için sorunsuz bir öğrenme eğrisi sağlar.
+ Verimli bir şekilde kullanın[VBA modül koleksiyonları](./vba-module-collections/)Adım adım kılavuzumuzla Aspose.Tasks for .NET'te. Projelerinize kusursuz entegrasyon için en iyi uygulamaları keşfedin. İster acemi ister deneyimli bir geliştirici olun, bu eğitim, VBA modül koleksiyonlarında uzmanlaşmak için sorunsuz bir öğrenme eğrisi sağlar.
 
 ## Aspose.Tasks'ta VBA Projeleriyle Çalışmak
 
- Yönetimde Aspose.Tasks for .NET'in gücünü açığa çıkarın[vba projeleri](./vba-projects/) Zahmetsizce. Eğitmenimiz, proje yönetimi yeteneklerinizi optimize etmeye yönelik içgörüler sağlayarak sizi temel adımlardan geçirir. Her düzeydeki geliştiriciler için özel olarak hazırlanmış kapsamlı bir kılavuzla becerilerinizi geliştirin.
+ Yönetimde Aspose.Tasks for .NET'in gücünü açığa çıkarın[VBA projeleri](./vba-projects/) Zahmetsizce. Eğitmenimiz, proje yönetimi yeteneklerinizi optimize etmeye yönelik içgörüler sağlayarak sizi temel adımlardan geçirir. Her düzeydeki geliştiriciler için özel olarak hazırlanmış kapsamlı bir kılavuzla becerilerinizi geliştirin.
 
-## Aspose.Tasks'ta Referans VBA'yı Yönetme
+## Aspose.Tasks'ta VBA Referanslarını Yönetme
 
  İşlemenin karmaşıklıklarını ortadan kaldırın[VBA referansları](./vba-references/) Kapsamlı eğitimimizle Aspose.Tasks for .NET'te. VBA referanslarını sorunsuz bir şekilde okumayı, karşılaştırmayı ve bunlarla çalışmayı öğrenin. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz sizi VBA referanslarından etkili bir şekilde yararlanmanız için gereken bilgilerle donatır.
 
@@ -38,5 +38,5 @@ VBA Modülü Niteliklerini yönetmede Aspose.Tasks for .NET'in gücünü keşfed
 Aspose.Tasks for .NET'te VBA Modül Koleksiyonlarını nasıl verimli bir şekilde yönetebileceğinizi keşfedin. Projelerinize kusursuz entegrasyon için adım adım kılavuz.
 ### [Aspose.Tasks'ta VBA Projeleriyle Çalışmak](./vba-projects/)
 Aspose.Tasks for .NET'in VBA Projelerini zahmetsizce yönetme gücünü keşfedin. Bu adım adım kılavuzla proje yönetimi yeteneklerinizi geliştirin.
-### [Aspose.Tasks'ta Referans VBA'yı Yönetme](./vba-references/)
+### [Aspose.Tasks'ta VBA Referanslarını Yönetme](./vba-references/)
 Kapsamlı eğitimimizle Aspose.Tasks .NET'te VBA referanslarını işlemenin gücünü keşfedin. VBA referanslarını sorunsuz bir şekilde okumayı, karşılaştırmayı ve bunlarla çalışmayı öğrenin.

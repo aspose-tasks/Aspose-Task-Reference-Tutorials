@@ -70,12 +70,12 @@ Ten ostatni przykład pokazuje, jak iterować po całej kolekcji referencji VBA 
 Gratulacje! Pomyślnie przeszedłeś przez obsługę odwołań VBA w Aspose.Tasks dla .NET. Ten przewodnik wyposażył Cię w wiedzę niezbędną do czytania, porównywania, uzyskiwania kodów skrótu i efektywnej pracy z referencjami VBA.
 ## Często zadawane pytania
 ### P: Czy mogę używać Aspose.Tasks z innymi językami programowania?
-Odp.: Aspose.Tasks obsługuje przede wszystkim języki .NET, ale istnieją inne produkty Aspose dostosowane do różnych platform i języków.
+Odp.: Aspose.Tasks obsługuje głównie języki .NET, ale istnieją inne produkty Aspose dostosowane do różnych platform i języków.
 ### P: Jak uzyskać tymczasową licencję na Aspose.Tasks?
-Odp.: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
+ Odp.: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Czy dostępne jest wsparcie społeczności dla Aspose.Tasks?
  Odp.: Tak, pomoc można znaleźć na stronie[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### P: Gdzie mogę znaleźć szczegółową dokumentację dla Aspose.Tasks?
  Odp.: Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/tasks/net/).
 ### P: Czy mogę kupić Aspose.Tasks?
- Odp.: tak, możesz to kupić.[Tutaj](https://purchase.aspose.com/buy).
+ Odp.: tak, możesz to kupić[Tutaj](https://purchase.aspose.com/buy).

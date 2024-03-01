@@ -11,7 +11,7 @@ url: /cs/net/task-table-management/configuring-tables/
 Vítejte v tomto komplexním průvodci konfigurací tabulek v Aspose.Tasks pro .NET. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům bezproblémově pracovat se soubory aplikace Microsoft Project. V tomto tutoriálu vás provedeme procesem konfigurace tabulek pomocí Aspose.Tasks, přičemž každý krok rozebereme, aby bylo jasno.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
--  Aspose.Tasks for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Tasks. Můžete si jej stáhnout z[Aspose.Tasks .NET dokumentace](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Tasks. Můžete si jej stáhnout z[Aspose.Tasks .NET dokumentace](https://reference.aspose.com/tasks/net/).
 - Vývojové prostředí: Nastavte své vývojové prostředí pomocí sady Visual Studio nebo jakéhokoli jiného preferovaného vývojového nástroje .NET.
 - Vzorový soubor projektu: Připravte si vzorový soubor Microsoft Project (MPP) k testování.
 ## Importovat jmenné prostory

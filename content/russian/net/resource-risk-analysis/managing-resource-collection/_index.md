@@ -1,6 +1,6 @@
 ---
 title: Управление коллекцией ресурсов проекта в Aspose.Tasks
-linktitle: Управление коллекцией ресурсов в Aspose.
+linktitle: Управление коллекцией ресурсов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять коллекциями ресурсов Microsoft Project в .NET с помощью API Aspose.Tasks. Повышайте производительность и гибкость.
 type: docs
@@ -67,7 +67,7 @@ foreach (var rsc in project.Resources)
     Console.WriteLine("Resource Name: " + rsc.Get(Rsc.Name));
 }
 ```
-## Шаг 7. Удаление ресурсов
+## Шаг 7: Удаление ресурсов
 Удалить ресурсы из проекта:
 ```csharp
 List<Resource> list = project.Resources.ToList();
@@ -98,4 +98,4 @@ foreach (var rsc in list)
 
 ### Вопрос: Доступна ли техническая поддержка для пользователей Aspose.Tasks?
 
- О: Да, пользователи Aspose.Tasks могут получить техническую поддержку через форум.[здесь](https://forum.aspose.com/c/tasks/15).
+ О: Да, пользователи Aspose.Tasks могут получить доступ к технической поддержке через форум.[здесь](https://forum.aspose.com/c/tasks/15).

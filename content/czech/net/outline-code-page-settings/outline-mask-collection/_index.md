@@ -12,7 +12,7 @@ Chcete využít sílu obrysových masek Microsoft Project pomocí Aspose.Tasks f
 ## Předpoklady
 Než se pustíte do tohoto výukového programu, ujistěte se, že máte splněny následující předpoklady:
 ### 1. Instalace Aspose.Tasks pro .NET
- Ujistěte se, že máte Aspose.Tasks for .NET nainstalované ve svém vývojovém prostředí. Knihovnu si můžete stáhnout z webu Aspose[tady](https://releases.aspose.com/tasks/net/).
+Ujistěte se, že máte Aspose.Tasks for .NET nainstalované ve svém vývojovém prostředí. Knihovnu si můžete stáhnout z webu Aspose[tady](https://releases.aspose.com/tasks/net/).
 ### 2. Základní znalost C# a .NET Framework
 Seznamte se s programovacím jazykem C# a rozhraním .NET Framework, protože tento tutoriál využije obojí.
 ### 3. Soubor Microsoft Project
@@ -108,4 +108,4 @@ A: Rozhodně! Masky obrysu můžete přizpůsobit úpravou jejich délky, úrovn
 ### Q4: Poskytuje Aspose.Tasks pro .NET dokumentaci a podporu?
 Odpověď: Ano, Aspose.Tasks for .NET nabízí komplexní dokumentaci a vyhrazenou podporu prostřednictvím svých webových stránek a[fórech](https://forum.aspose.com/c/tasks/15).
 ### Q5: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
- Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks for .NET z jejich[webová stránka](https://releases.aspose.com/tasks/net/), prozkoumat jeho vlastnosti a funkce před nákupem.
+ Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks for .NET z jejich[webová stránka](https://releases.aspose.com/tasks/net/). prozkoumat jeho vlastnosti a funkce před nákupem.

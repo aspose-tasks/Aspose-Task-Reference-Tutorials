@@ -12,7 +12,7 @@ Les diagrammes de Gantt sont des outils puissants utilisés dans la gestion de p
 ## Conditions préalables
 Avant de continuer, assurez-vous que les conditions préalables suivantes sont remplies :
 ### 1. Installation d'Aspose.Tasks pour .NET
- Assurez-vous d'avoir installé Aspose.Tasks pour .NET. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/tasks/net/)et suivez les instructions d'installation fournies dans la documentation[ici](https://reference.aspose.com/tasks/net/).
+ Assurez-vous d'avoir installé Aspose.Tasks pour .NET. Vous pouvez télécharger la bibliothèque depuis[ici](https://releases.aspose.com/tasks/net/) et suivez les instructions d'installation fournies dans la documentation[ici](https://reference.aspose.com/tasks/net/).
 ### 2. Fichier de projet Microsoft
 Préparez un fichier Microsoft Project (`Project2.mpp`) que vous utiliserez pour travailler avec les vues de diagramme de Gantt.
 ### 3. Connaissance de base de C# et .NET Framework
@@ -75,13 +75,13 @@ Définit la couleur des temps chômés sur le diagramme de Gantt.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Spécifiez si les barres du diagramme de Gantt doivent être cumulées.
+Spécifie si les barres du diagramme de Gantt doivent être cumulées.
 ### Afficher les divisions de barre
 ```csharp
 view.ShowBarSplits = true;
 ```
 Détermine si les répartitions de tâches sur le diagramme de Gantt doivent être affichées.
-### montrer des dessins
+### Afficher les dessins
 ```csharp
 view.ShowDrawings = true;
 ```

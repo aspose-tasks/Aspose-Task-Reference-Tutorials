@@ -11,7 +11,7 @@ url: /vi/net/rate-recurring-tasks/removing-tasks/
 Trong hướng dẫn này, chúng ta sẽ khám phá cách xóa tác vụ khỏi tệp Microsoft Project bằng Aspose.Tasks cho .NET. Aspose.Tasks là một API mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project theo chương trình. Xóa tác vụ khỏi tệp dự án có thể là một yêu cầu phổ biến trong các tình huống quản lý dự án và Aspose.Tasks cung cấp một cách đơn giản để đạt được điều này.
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-1. Cài đặt Aspose.Tasks cho .NET: Bạn cần cài đặt Aspose.Tasks cho .NET trong môi trường phát triển của mình. Nếu bạn chưa cài đặt nó, bạn có thể tải xuống từ[đây](https://releases.aspose.com/tasks/net/).
+1.  Cài đặt Aspose.Tasks cho .NET: Bạn cần cài đặt Aspose.Tasks cho .NET trong môi trường phát triển của mình. Nếu bạn chưa cài đặt nó, bạn có thể tải xuống từ[đây](https://releases.aspose.com/tasks/net/).
 2. Tệp dự án Microsoft: Chuẩn bị tệp Microsoft Project (`Project1.mpp` trong ví dụ này) mà bạn muốn loại bỏ nhiệm vụ.
 
 ## Nhập không gian tên

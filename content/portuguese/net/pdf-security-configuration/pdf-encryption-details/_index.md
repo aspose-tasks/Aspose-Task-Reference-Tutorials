@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Defina os detalhes de criptografia, incluindo senha do usuário, senha do proprietário, algoritmo de criptografia e permissões:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //Senha do usuário
+    "userPassword",        // Senha do usuário
     "ownerPassword",       // Senha do proprietário
     PdfEncryptionAlgorithm.RC4_128);  // Algoritmo de criptografia
 // Especifique permissões

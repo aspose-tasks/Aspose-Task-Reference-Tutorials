@@ -71,7 +71,7 @@ Ja, Aspose.Tasks ondersteunt verschillende .NET-frameworks, waardoor compatibili
 ### Kan ik de weergave van individuele taken in de tijdlijnweergave aanpassen?
 Absoluut! Aspose.Tasks biedt flexibiliteit om het uiterlijk van elke taak in de tijdlijnweergave aan te passen.
 ### Waar kan ik aanvullende bronnen en ondersteuning voor Aspose.Tasks vinden?
- bezoek de[Aspose.Tasks-documentatie](https://reference.aspose.com/tasks/net/) voor uitgebreide handleidingen en de[Helpforum](https://forum.aspose.com/c/tasks/15) Voor assistentie.
+ Bezoek de[Aspose.Tasks-documentatie](https://reference.aspose.com/tasks/net/)voor uitgebreide handleidingen en de[Helpforum](https://forum.aspose.com/c/tasks/15) Voor assistentie.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks?
  Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
 ### Hoe verkrijg ik een tijdelijke licentie voor Aspose.Tasks?

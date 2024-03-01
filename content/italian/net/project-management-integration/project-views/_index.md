@@ -12,7 +12,7 @@ Microsoft Project è un potente strumento per la gestione dei progetti, che cons
 ## Prerequisiti
 Prima di iniziare, assicurati di avere configurati i seguenti prerequisiti:
 ### 1. Installare Aspose.Tasks per .NET
- È possibile scaricare e installare Aspose.Tasks per .NET da[sito web](https://releases.aspose.com/tasks/net/), Seguire le istruzioni di installazione fornite per configurare la libreria nel proprio ambiente di sviluppo.
+ È possibile scaricare e installare Aspose.Tasks per .NET da[sito web](https://releases.aspose.com/tasks/net/). Seguire le istruzioni di installazione fornite per configurare la libreria nel proprio ambiente di sviluppo.
 ### 2. Conoscenza di base di C# e .NET Framework
 Acquisisci familiarità con il linguaggio di programmazione C# e .NET Framework, poiché questa esercitazione presuppone una conoscenza di base di questi concetti.
 ### 3. File di progetto Microsoft

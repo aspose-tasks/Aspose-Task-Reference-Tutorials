@@ -13,7 +13,7 @@ Gestionar proyectos de manera eficiente a menudo implica visualizar cronogramas 
 Antes de comenzar, asegúrese de tener configurados los siguientes requisitos previos:
 ### 1. Instale Aspose.Tasks para .NET
 Para trabajar con Aspose.Tasks para .NET, debe tenerlo instalado en su entorno de desarrollo. Puedes descargar la biblioteca desde[sitio web](https://releases.aspose.com/tasks/net/) o mediante administradores de paquetes como NuGet.
-### 2.Entorno de desarrollo
+### 2. Entorno de desarrollo
 Asegúrese de tener un entorno de desarrollo .NET configurado en su máquina. Puede utilizar Visual Studio o cualquier otro IDE .NET de su elección.
 ## Importar espacios de nombres
 Antes de profundizar en el código, importemos los espacios de nombres necesarios para acceder a las funcionalidades de Aspose.Tasks.

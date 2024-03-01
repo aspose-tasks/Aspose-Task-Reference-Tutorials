@@ -64,6 +64,6 @@ Trả lời: Có, Aspose.Tasks hỗ trợ các định dạng quản lý dự á
 ### Câu hỏi: Tôi có thể sửa đổi và lưu các thay đổi đối với tệp MS Project Primavera bằng Aspose.Tasks không?
 Đ: Chắc chắn rồi! Aspose.Tasks cho phép bạn không chỉ đọc mà còn sửa đổi và lưu các thay đổi đối với tệp MS Project Primavera một cách liền mạch trong các ứng dụng .NET của bạn.
 ### Câu hỏi: Aspose.Tasks có bản dùng thử miễn phí không?
- Đáp: Có, bạn có thể dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/) để khám phá các tính năng và khả năng của nó trước khi mua hàng.
+ Đáp: Có, bạn có thể dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/)để khám phá các tính năng và khả năng của nó trước khi mua hàng.
 ### Câu hỏi: Tôi có thể nhận hỗ trợ cho Aspose.Tasks ở đâu?
- Trả lời: Đối với bất kỳ thắc mắc hoặc hỗ trợ nào liên quan đến Aspose.Tasks, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15)nơi bạn có thể nhận trợ giúp từ cộng đồng hoặc nhân viên hỗ trợ Aspose.## Mã nguồn hoàn chỉnh
+ Trả lời: Đối với bất kỳ thắc mắc hoặc hỗ trợ nào liên quan đến Aspose.Tasks, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nơi bạn có thể nhận trợ giúp từ cộng đồng hoặc nhân viên hỗ trợ Aspose.## Mã nguồn hoàn chỉnh

@@ -132,7 +132,7 @@ Con Aspose.Tasks per .NET, la gestione dei codici WBS diventa un compito semplic
 ### D: Posso utilizzare Aspose.Tasks per .NET con altri linguaggi di programmazione?
 R: Aspose.Tasks supporta principalmente i linguaggi .NET, ma puoi esplorare le opzioni di interoperabilità con altri linguaggi.
 ### D: È disponibile una versione di prova per Aspose.Tasks per .NET?
- R: Sì, puoi scaricare la versione di prova.[Qui](https://releases.aspose.com/).
+ R: Sì, puoi scaricare la versione di prova[Qui](https://releases.aspose.com/).
 ### D: Come posso chiedere aiuto o segnalare problemi con Aspose.Tasks per .NET?
  R: Visita il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per supporto e discussioni.
 ### D: Qual è lo scopo dei codici WBS nella gestione dei progetti?

@@ -21,7 +21,7 @@ Acquisisci familiarità con le nozioni di base di .NET Framework, inclusi i conc
 
 ### 2. Installazione di Aspose.Tasks per .NET
 
- Scarica e installa la libreria Aspose.Tasks per .NET da[Link per scaricare](https://releases.aspose.com/tasks/net/)Segui le istruzioni di installazione fornite per integrare la libreria nel tuo ambiente di sviluppo.
+ Scarica e installa la libreria Aspose.Tasks per .NET da[Link per scaricare](https://releases.aspose.com/tasks/net/). Segui le istruzioni di installazione fornite per integrare la libreria nel tuo ambiente di sviluppo.
 
 ### 3. Accesso alla documentazione
 
@@ -125,4 +125,4 @@ R: Sì, Aspose.Tasks per .NET offre supporto per soluzioni di gestione dei proge
 
 ### Q5: È disponibile una versione di prova per Aspose.Tasks per .NET?
 
- R: Sì, puoi accedere a una prova gratuita di Aspose.Tasks per .NET da[sito web](https://releases.aspose.com/), permettendoti di esplorare le sue funzionalità prima di prendere una decisione di acquisto.
+R: Sì, puoi accedere a una prova gratuita di Aspose.Tasks per .NET da[sito web](https://releases.aspose.com/), permettendoti di esplorare le sue funzionalità prima di prendere una decisione di acquisto.

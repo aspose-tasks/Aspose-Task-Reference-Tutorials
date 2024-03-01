@@ -12,7 +12,7 @@ url: /el/net/task-table-management/table-field-collection/
 ## Προαπαιτούμενα
 Πριν ξεκινήσουμε, βεβαιωθείτε ότι έχετε ρυθμίσει τις ακόλουθες ρυθμίσεις:
 - Γνώση εργασίας γλώσσας προγραμματισμού C#.
-- Εγκαταστάθηκε το Aspose.Tasks για τη βιβλιοθήκη .NET. Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/tasks/net/).
+-  Εγκαταστάθηκε το Aspose.Tasks για τη βιβλιοθήκη .NET. Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/tasks/net/).
 - Ένα ολοκληρωμένο περιβάλλον ανάπτυξης (IDE) όπως το Visual Studio.
 ## Εισαγωγή χώρων ονομάτων
 Αρχικά, βεβαιωθείτε ότι έχετε εισαγάγει τους απαραίτητους χώρους ονομάτων στην αρχή του αρχείου C#:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // επανάληψη σε πεδία πίνακα
+    //επανάληψη σε πεδία πίνακα
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -72,7 +72,7 @@ table.TableFields.Insert(idx, field2);
 table.TableFields[idx].WrapHeader = true;
 ```
 ## Βήμα 7: Αφαιρέστε το πεδίο
-Καταργήστε τα πεδία του πίνακα είτε ένα προς ένα είτε διαγράψτε ολόκληρη τη συλλογή.
+Καταργήστε το πεδίο πίνακα είτε ένα προς ένα είτε διαγράψτε ολόκληρη τη συλλογή.
 ```csharp
 Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
 // Αφαιρέστε το πεδίο
@@ -108,6 +108,6 @@ else
 ### Υπάρχουν ζητήματα αδειοδότησης για τη χρήση του Aspose.Tasks για .NET σε ένα εμπορικό έργο;
  Ναι, χρειάζεστε έγκυρη άδεια χρήσης για να χρησιμοποιήσετε το Aspose.Tasks για .NET σε ένα εμπορικό έργο. Μπορείτε να αποκτήσετε άδεια[εδώ](https://purchase.aspose.com/buy).
 ### Πώς μπορώ να λάβω υποστήριξη ή να ζητήσω βοήθεια με το Aspose.Tasks για .NET;
- Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για να λάβετε υποστήριξη, να κάνετε ερωτήσεις και να συνεργαστείτε με την κοινότητα.
+ Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15)για να λάβετε υποστήριξη, να κάνετε ερωτήσεις και να συνεργαστείτε με την κοινότητα.
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Tasks για .NET;
  Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες του Aspose.Tasks για .NET με μια δωρεάν δοκιμή. Κατέβασέ το[εδώ](https://releases.aspose.com/).

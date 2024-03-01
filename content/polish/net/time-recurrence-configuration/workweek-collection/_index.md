@@ -8,7 +8,7 @@ weight: 17
 url: /pl/net/time-recurrence-configuration/workweek-collection/
 ---
 ## Wstęp
-Witamy w naszym samouczku na temat tworzenia niestandardowego tygodnia pracy przy użyciu Aspose.Tasks dla .NET! W tym przewodniku krok po kroku przeprowadzimy Cię przez proces definiowania spersonalizowanego tygodnia pracy dla kalendarza w Twoim projekcie. Aspose.Tasks to potężna biblioteka, która umożliwia programistom wydajną pracę z dokumentami Microsoft Project w aplikacjach .NET.
+Witamy w naszym samouczku na temat tworzenia niestandardowego tygodnia pracy przy użyciu Aspose.Tasks dla .NET! W tym przewodniku krok po kroku przeprowadzimy Cię przez proces definiowania spersonalizowanego tygodnia pracy dla kalendarza w Twoim projekcie. Aspose.Tasks to potężna biblioteka, która umożliwia programistom efektywną pracę z dokumentami Microsoft Project w aplikacjach .NET.
 ## Warunki wstępne
 Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wymagania wstępne:
 1. Visual Studio: Upewnij się, że na komputerze jest zainstalowany program Visual Studio.
@@ -75,10 +75,10 @@ Podsumowując, Aspose.Tasks dla .NET zapewnia solidne rozwiązanie do obsługi k
 ### Czy mogę mieć wiele niestandardowych tygodni pracy w jednym projekcie?
 Tak, możesz dodać wiele niestandardowych tygodni pracy do kalendarza projektu.
 ### Jak mogę zmodyfikować istniejące tygodnie pracy?
- Skorzystaj z podanego`WorkWeek` właściwości i metody modyfikacji istniejących tygodni pracy.
+ Skorzystaj z podanego`WorkWeek`właściwości i metody modyfikacji istniejących tygodni pracy.
 ### Czy Aspose.Tasks jest kompatybilny z .NET Core?
 Tak, Aspose.Tasks obsługuje .NET Core.
 ### Czy mogę wyeksportować projekt z niestandardowymi tygodniami pracy do formatu pliku Microsoft Project?
 Absolutnie Aspose.Tasks umożliwia zapisanie projektu w różnych formatach, w tym Microsoft Project.
 ### Gdzie mogę szukać pomocy w przypadku zapytań związanych z Aspose.Tasks?
- odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za jakiekolwiek wsparcie lub pomoc.
+ Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za jakiekolwiek wsparcie lub pomoc.

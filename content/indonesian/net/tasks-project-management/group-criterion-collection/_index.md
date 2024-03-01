@@ -125,4 +125,4 @@ J: Tentu saja, Anda dapat menambahkan beberapa kriteria ke grup dengan mengulang
 
 ### Q5: Bagaimana saya bisa mendapatkan dukungan jika saya mengalami masalah?
 
- J: Jika Anda memiliki pertanyaan atau menghadapi masalah apa pun, Anda dapat mencari dukungan dari forum Aspose.Tasks.[Di Sini](https://forum.aspose.com/c/tasks/15).
+ J: Jika Anda memiliki pertanyaan atau menghadapi masalah apa pun, Anda dapat mencari dukungan dari forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).

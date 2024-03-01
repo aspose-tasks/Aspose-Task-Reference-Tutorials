@@ -9,7 +9,7 @@ url: /nl/net/calendar-scheduling/compound-document-header-exception/
 ---
 ## Invoering
 
- Op het gebied van .NET-ontwikkeling is het efficiënt beheren van projecttaken van het allergrootste belang. Aspose.Tasks biedt een uitgebreide oplossing voor .NET-ontwikkelaars om projectbeheertaken naadloos af te handelen. Het tegenkomen van uitzonderingen is echter een onvermijdelijk aspect van softwareontwikkeling. Een dergelijke uitzondering die ontwikkelaars tegen kunnen komen is de`CompoundDocumentHeaderException`Deze tutorial is bedoeld om ontwikkelaars te begeleiden bij het effectief omgaan met deze uitzondering met behulp van Aspose.Tasks voor .NET.
+ Op het gebied van .NET-ontwikkeling is het efficiënt beheren van projecttaken van het allergrootste belang. Aspose.Tasks biedt een uitgebreide oplossing voor .NET-ontwikkelaars om projectbeheertaken naadloos af te handelen. Het tegenkomen van uitzonderingen is echter een onvermijdelijk aspect van softwareontwikkeling. Een dergelijke uitzondering die ontwikkelaars tegen kunnen komen is de`CompoundDocumentHeaderException`. Deze tutorial is bedoeld om ontwikkelaars te begeleiden bij het effectief omgaan met deze uitzondering met behulp van Aspose.Tasks voor .NET.
 
 ## Vereisten
 
@@ -78,7 +78,7 @@ Krijg toegang tot alle vereiste projectinformatie, zoals de projectnaam, met beh
 
 ## Stap 4: Afhandeling van uitzonderingen
 
- In het geval dat de`CompoundDocumentHeaderException`optreedt tijdens het laden van het project, behandel dit binnen het catch-blok. Druk het uitzonderingsbericht af of registreer het voor verdere analyse.
+ In het geval dat de`CompoundDocumentHeaderException` optreedt tijdens het laden van het project, behandel dit binnen het catch-blok. Druk het uitzonderingsbericht af of registreer het voor verdere analyse.
 
 ## Conclusie
 

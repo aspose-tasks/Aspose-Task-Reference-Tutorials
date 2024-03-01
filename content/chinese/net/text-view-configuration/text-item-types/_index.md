@@ -11,7 +11,7 @@ url: /zh/net/text-view-configuration/text-item-types/
 如果您是一名 .NET 开发人员，正在使用 Aspose.Tasks 进行项目管理，那么您来对地方了！在本分步指南中，我们将探讨在 Aspose.Tasks 中处理文本项类型的复杂性，重点是使用强大的 .NET 库进行自定义。
 ## 先决条件
 在我们开始之前，请确保您已准备好以下内容：
-1. Aspose.Tasks for .NET Library：确保您已安装 Aspose.Tasks 库。如果没有的话可以下载[这里](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Library：确保您已安装 Aspose.Tasks 库。如果没有的话可以下载[这里](https://releases.aspose.com/tasks/net/).
 2. 文档目录：为您的项目文档设置目录。
 现在，让我们深入了解处理文本项类型的实质内容。
 ## 导入命名空间

@@ -2,7 +2,7 @@
 title: Настройте линии сетки проекта с помощью Aspose.Tasks для .NET
 linktitle: Управление линиями сетки в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Узнайте, как программно настроить параметры линий сетки в файлах Microsoft Project с помощью Aspose.Tasks для .NET, визуализации проектов и повышения эффективности управления.
+description: Узнайте, как программно настроить параметры линий сетки в файлах Microsoft Project с помощью Aspose.Tasks для .NET, визуализации проекта и эффективности управления.
 type: docs
 weight: 24
 url: /ru/net/tasks-project-management/gridlines-management/
@@ -68,4 +68,4 @@ project.Save(dataDir + "WorkWithGridlines_out.mpp", SaveFileFormat.Mpp);
 ### Вопрос: Могу ли я автоматизировать процесс корректировки линий сетки на основе параметров или условий проекта?
 А: Конечно. С помощью Aspose.Tasks вы можете включить логику для динамической настройки параметров линии сетки на основе данных проекта или определяемых пользователем критериев.
 ### Вопрос: Где я могу найти дополнительные ресурсы и поддержку Aspose.Tasks для .NET?
- О: Вы можете изучить[документация](https://reference.aspose.com/tasks/net/) Для получения подробных руководств посетите[форум поддержки](https://forum.aspose.com/c/tasks/15) за помощью или рассматриваете возможность получения[временная лицензия](https://purchase.aspose.com/temporary-license/) для расширенной оценки.
+ О: Вы можете изучить[документация](https://reference.aspose.com/tasks/net/) для получения подробных руководств посетите[форум поддержки](https://forum.aspose.com/c/tasks/15) за помощью или рассмотрите возможность получения[временная лицензия](https://purchase.aspose.com/temporary-license/) для расширенной оценки.

@@ -93,6 +93,6 @@ R : Oui, vous pouvez ajuster diverses propriétés telles que la couleur des lig
 ### Q : Puis-je intégrer Aspose.Tasks à d’autres bibliothèques .NET ?
 R : Absolument, Aspose.Tasks est conçu pour s'intégrer de manière transparente à d'autres bibliothèques .NET, vous permettant d'améliorer davantage vos applications de gestion de projet.
 ### Q : Existe-t-il un forum communautaire pour le support d'Aspose.Tasks ?
- R : Oui, vous pouvez trouver des ressources utiles et demander de l'aide sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+ R : Oui, vous pouvez trouver des ressources utiles et demander de l'aide sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
 ### Q : Aspose.Tasks propose-t-il des licences temporaires à des fins d'évaluation ?
  R : Oui, vous pouvez obtenir une licence temporaire pour évaluation auprès de[ici](https://purchase.aspose.com/temporary-license/).

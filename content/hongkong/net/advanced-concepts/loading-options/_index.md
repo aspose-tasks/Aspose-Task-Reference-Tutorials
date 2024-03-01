@@ -74,7 +74,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptions()
         PreserveUids = true
     };
 
-    //設定閱讀 Primavera 選項
+    //設定 Primavera 閱讀選項
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     //使用指定選項載入 Primavera 項目
@@ -119,7 +119,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
         ProjectUid = 3882 //設定項目 UID
     };
 
-    //設定閱讀 Primavera 選項
+    //設定 Primavera 閱讀選項
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     //設定自訂錯誤處理
@@ -138,7 +138,7 @@ private static object CustomDurationHandlerForFile(object sender, ParseErrorArgs
 }
 ```
 
-透過執行這些步驟，您可以有效地利用 Aspose.Tasks for .NET 中的載入選項根據您的要求操作專案文件。
+透過執行這些步驟，您可以有效地利用 Aspose.Tasks for .NET 中的載入選項根據您的要求操作項目文件。
 
 ## 結論
 

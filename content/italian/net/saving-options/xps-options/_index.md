@@ -26,7 +26,7 @@ using Aspose.Tasks.Saving;
 // Il percorso della directory dei documenti.
 String DataDir = "Your Document Directory";
 ```
- sostituire`"Your Document Directory"` con il percorso in cui si trova il tuo documento MSP.
+ Sostituire`"Your Document Directory"` con il percorso in cui si trova il tuo documento MSP.
 ## Passaggio 2: caricare il documento MSP
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -40,15 +40,15 @@ var options = new XpsOptions
     RenderMetafileAsBitmap = true
 };
 ```
- In questo passaggio creiamo un'istanza`XpsOptions` configurare i parametri. Impostazioni`RenderMetafileAsBitmap` A`true` garantisce il corretto rendering dei metafile.
+ In questo passaggio creiamo un'istanza`XpsOptions` configurare i parametri. Collocamento`RenderMetafileAsBitmap` A`true` garantisce il corretto rendering dei metafile.
 ## Passaggio 4: salva il documento come XPS
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ```
- Alla fine abbiamo chiamato il`Save` metodo sul`Project` oggetto, specificando il percorso del file di output e quello precedentemente configurato`XpsOptions`.
+ Infine, chiamiamo il`Save` metodo sul`Project` oggetto, specificando il percorso del file di output e quello precedentemente configurato`XpsOptions`.
 
 ## Conclusione
-In conclusione, Aspose.Tasks per .NET semplifica il processo di conversione dei documenti Microsoft Project in formato XPS a livello di codice. Seguendo i passaggi descritti in questo tutorial, gli sviluppatori possono integrare perfettamente questa funzionalità nelle proprie applicazioni .NET, migliorando con facilità i flussi di lavoro di gestione dei progetti.
+In conclusione, Aspose.Tasks per .NET semplifica il processo di conversione dei documenti Microsoft Project in formato XPS a livello di programmazione. Seguendo i passaggi descritti in questo tutorial, gli sviluppatori possono integrare perfettamente questa funzionalità nelle proprie applicazioni .NET, migliorando con facilità i flussi di lavoro di gestione dei progetti.
 ## Domande frequenti
 ### D: Aspose.Tasks per .NET può gestire file MSP complessi?
 R: Sì, Aspose.Tasks per .NET può gestire in modo efficiente file Microsoft Project complessi, garantendo una conversione accurata in vari formati.

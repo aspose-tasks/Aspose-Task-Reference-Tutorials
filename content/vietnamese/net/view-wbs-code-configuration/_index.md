@@ -34,11 +34,11 @@ Chào mừng bạn đến với hướng dẫn toàn diện về Aspose.Tasks d�
 
 ## Bộ sưu tập mặt nạ mã WBS trong Aspose.Tasks
 
- Đưa việc quản lý dự án của bạn lên một tầm cao mới với Aspose.Tasks for .NET. Các[bộ sưu tập Mặt nạ Mã WBS](./wbs-code-mask-collection/) Hướng dẫn này cung cấp thông tin chi tiết về cách tạo, quản lý và chuyển Mặt nạ mã WBS một cách dễ dàng. Nâng cao kỹ năng quản lý dự án của bạn và điều chỉnh Mặt nạ mã WBS cho phù hợp với nhu cầu phát triển của dự án.
+ Đưa việc quản lý dự án của bạn lên một tầm cao mới với Aspose.Tasks for .NET. Các[bộ sưu tập Mặt nạ Mã WBS](./wbs-code-mask-collection/) hướng dẫn cung cấp thông tin chi tiết về cách tạo, quản lý và chuyển Mặt nạ mã WBS một cách dễ dàng. Nâng cao kỹ năng quản lý dự án của bạn và điều chỉnh Mặt nạ mã WBS cho phù hợp với nhu cầu phát triển của dự án.
 
 ## Xác định trình tự WBS trong Aspose.Tasks
 
- Trao quyền quản lý dự án của bạn với Aspose.Tasks for .NET một cách liền mạch[xác định trình tự wbs](./wbs-sequences/), Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, nâng cao hiệu quả một cách dễ dàng. Nắm vững nghệ thuật tổ chức và cấu trúc các dự án của bạn với các trình tự WBS xác định, đảm bảo trải nghiệm quản lý dự án suôn sẻ và hợp lý.
+ Trao quyền quản lý dự án của bạn với Aspose.Tasks for .NET một cách liền mạch[xác định trình tự WBS](./wbs-sequences/). Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, nâng cao hiệu quả một cách dễ dàng. Nắm vững nghệ thuật tổ chức và cấu trúc các dự án của bạn với các trình tự WBS xác định, đảm bảo trải nghiệm quản lý dự án suôn sẻ và hợp lý.
 
 Tóm lại, những hướng dẫn này đóng vai trò là tài nguyên tham khảo của bạn để thành thạo Aspose.Tasks cho các chế độ xem .NET và mã WBS. Tải xuống ngay bây giờ và mở khóa tiềm năng tùy chỉnh, hợp lý hóa và nâng cao trải nghiệm quản lý dự án của bạn một cách dễ dàng. Chào mừng kỷ nguyên mới của việc trực quan hóa và quản lý dự án hiệu quả!
 ## Hướng dẫn cấu hình mã WBS và chế độ xem Aspose.Tasks

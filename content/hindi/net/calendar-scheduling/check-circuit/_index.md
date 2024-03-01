@@ -1,6 +1,6 @@
 ---
-title: Aspose में सर्किट की जाँच करें। कार्य
-linktitle: Aspose में सर्किट की जाँच करें। कार्य
+title: Aspose.Tasks में सर्किट की जाँच करें
+linktitle: Aspose.Tasks में सर्किट की जाँच करें
 second_title: Aspose.Tasks .NET API
 description: C# में प्रोजेक्ट फ़ाइलों को कुशलतापूर्वक प्रबंधित और विश्लेषण करने के लिए .NET के लिए Aspose.Tasks का उपयोग करना सीखें।
 type: docs
@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## चरण 1: प्रोजेक्ट फ़ाइल लोड करें
 
- Microsoft प्रोजेक्ट फ़ाइल (.mpp) को लोड करके प्रारंभ करें जिसे आप टूटी हुई संरचना के लिए जाँचना चाहते हैं। उपयोग`Project` फ़ाइल लोड करने के लिए क्लास।
+Microsoft प्रोजेक्ट फ़ाइल (.mpp) को लोड करके प्रारंभ करें जिसे आप टूटी हुई संरचना के लिए जाँचना चाहते हैं। उपयोग`Project` फ़ाइल लोड करने के लिए क्लास।
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -70,7 +70,7 @@ A1: हां, .NET के लिए Aspose.Tasks .NET कोर और .NET फ
 
 ### Q3: मैं .NET के लिए Aspose.Tasks के लिए समर्थन कैसे प्राप्त कर सकता हूं?
 
-उ3: आप Aspose.Tasks समुदाय मंच से सहायता ले सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+ उ3: आप Aspose.Tasks समुदाय मंच से सहायता ले सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
 
 ### Q4: क्या मुझे परीक्षण उद्देश्यों के लिए अस्थायी लाइसेंस की आवश्यकता है?
 

@@ -50,7 +50,7 @@ Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project kaynak kullanım gör
 ## SSS'ler
 ### S: Aspose.Tasks, Microsoft Project dosyalarının farklı sürümleriyle uyumlu mudur?
 C: Evet, Aspose.Tasks, .mpp, .mpt, .xml ve .mpx dahil olmak üzere Microsoft Project dosyalarının çeşitli sürümlerini destekler.
-### S: Zaman ölçeği ayarlarını ve sunum biçimini daha da özelleştirebilir miyim?
+### S: Zaman ölçeği ayarlarını ve sunum formatını daha da özelleştirebilir miyim?
 C: Kesinlikle, Aspose.Tasks, zaman ölçeği ayarlarını ve sunum formatlarını gereksinimlerinize göre özelleştirme esnekliği sağlar.
 ### S: Aspose.Tasks, PDF'nin yanı sıra diğer çıktı formatlarını da destekliyor mu?
 C: Evet, Aspose.Tasks, XLSX, MPP, XML, HTML ve daha fazlasını içeren çeşitli çıktı formatlarını destekler.

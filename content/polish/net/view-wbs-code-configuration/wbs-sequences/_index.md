@@ -15,7 +15,7 @@ Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymag
 - Podstawowa znajomość programowania w języku C#
 - Środowisko programistyczne skonfigurowane dla projektów .NET
 ## Importuj przestrzenie nazw
-kodzie C# pamiętaj o uwzględnieniu niezbędnych przestrzeni nazw, aby wykorzystać funkcjonalność Aspose.Tasks. Dodaj następujący tekst na początku skryptu:
+W kodzie C# pamiętaj o uwzględnieniu niezbędnych przestrzeni nazw, aby wykorzystać funkcjonalność Aspose.Tasks. Dodaj następujący tekst na początku skryptu:
 ```csharp
     
     using Aspose.Tasks.Saving;
@@ -71,6 +71,6 @@ Absolutnie! Aspose.Tasks zapewnia elastyczność w definiowaniu kodów WBS zgodn
 ### Czy dostępna jest wersja próbna?
  Tak, możesz[pobierz bezpłatną wersję próbną](https://releases.aspose.com/) aby zapoznać się z funkcjami przed dokonaniem zakupu.
 ### Jak mogę uzyskać wsparcie społeczności dla Aspose.Tasks?
- odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nawiązać kontakt ze społecznością i poprosić o pomoc.
+ Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nawiązać kontakt ze społecznością i poprosić o pomoc.
 ### Czy dostępne są licencje tymczasowe?
- Tak, możesz dostać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do celów testowych.
+ Tak, możesz uzyskać[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do celów testowych.

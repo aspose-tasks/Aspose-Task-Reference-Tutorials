@@ -112,4 +112,4 @@ project.Save(DataDir + "PrintProjectPagesToSeparateFiles_out.png", options);
 
 ### Q5：Aspose.Tasks for .NET 有試用版嗎？
 
-答：是的，您可以下載免費試用版[Aspose.Tasks for .NET 來自](https://forum.aspose.com/c/tasks/15),在購買之前探索其功能。
+答：是的，您可以下載免費試用版[Aspose.Tasks for .NET 來自](https://forum.aspose.com/c/tasks/15)。在購買之前探索其功能。

@@ -69,8 +69,8 @@ Evet, Aspose.Tasks, .mpp ve .mpt dahil olmak üzere Microsoft Project dosyaları
 ### Aspose.Tasks'ı kullanarak VBA modüllerinin kaynak kodunu programlı olarak değiştirebilir miyim?
 Kesinlikle! Aspose.Tasks, VBA modüllerinin kaynak kodunu yalnızca okumak için değil aynı zamanda güncellemek için de yöntemler sağlar.
 ### Aspose.Tasks için ek örnekleri ve belgeleri nerede bulabilirim?
- ziyaret edin[dokümantasyon](https://reference.aspose.com/tasks/net/) Kapsamlı örnekler ve rehberlik için.
+ Ziyaret edin[dokümantasyon](https://reference.aspose.com/tasks/net/) Kapsamlı örnekler ve rehberlik için.
 ### Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks ile ilgili herhangi bir konuda nasıl destek alabilirim veya yardım isteyebilirim?
- Ziyaret etmekten çekinmeyin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)topluluk desteği için.
+Ziyaret etmekten çekinmeyin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için.

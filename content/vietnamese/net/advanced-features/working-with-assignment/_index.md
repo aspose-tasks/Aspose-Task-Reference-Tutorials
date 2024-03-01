@@ -108,4 +108,4 @@ Câu trả lời 4: Có, như được minh họa trong hướng dẫn này, b�
 
 ### Câu hỏi 5: Tôi có thể tìm hỗ trợ cho các truy vấn liên quan đến Aspose.Tasks ở đâu?
 
- Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nơi các chuyên gia và thành viên cộng đồng tích cực tham gia thảo luận.
+Câu trả lời 5: Bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nơi các chuyên gia và thành viên cộng đồng tích cực tham gia thảo luận.

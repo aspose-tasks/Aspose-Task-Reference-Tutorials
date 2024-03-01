@@ -9,7 +9,7 @@ url: /es/net/calendar-scheduling/compound-document-header-exception/
 ---
 ## Introducción
 
- En el ámbito del desarrollo .NET, gestionar las tareas del proyecto de manera eficiente es una preocupación primordial. Aspose.Tasks proporciona una solución integral para que los desarrolladores de .NET manejen las tareas de gestión de proyectos sin problemas. Sin embargo, encontrar excepciones es un aspecto inevitable del desarrollo de software. Una de esas excepciones con las que se pueden encontrar los desarrolladores es la`CompoundDocumentHeaderException`Este tutorial tiene como objetivo guiar a los desarrolladores sobre cómo manejar eficazmente esta excepción utilizando Aspose.Tasks para .NET.
+ En el ámbito del desarrollo .NET, gestionar las tareas del proyecto de manera eficiente es una preocupación primordial. Aspose.Tasks proporciona una solución integral para que los desarrolladores de .NET manejen las tareas de gestión de proyectos sin problemas. Sin embargo, encontrar excepciones es un aspecto inevitable del desarrollo de software. Una de esas excepciones con las que se pueden encontrar los desarrolladores es la`CompoundDocumentHeaderException`. Este tutorial tiene como objetivo guiar a los desarrolladores sobre cómo manejar eficazmente esta excepción utilizando Aspose.Tasks para .NET.
 
 ## Requisitos previos
 
@@ -78,7 +78,7 @@ Acceda a cualquier información requerida del proyecto, como el nombre del proye
 
 ## Paso 4: Manejo de excepciones
 
- En caso de que el`CompoundDocumentHeaderException`ocurre durante la carga del proyecto, manéjelo dentro del bloque catch. Imprima o registre el mensaje de excepción para su posterior análisis.
+ En caso de que el`CompoundDocumentHeaderException` ocurre durante la carga del proyecto, manéjelo dentro del bloque catch. Imprima o registre el mensaje de excepción para su posterior análisis.
 
 ## Conclusión
 

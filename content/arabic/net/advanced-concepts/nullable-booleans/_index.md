@@ -9,7 +9,7 @@ url: /ar/net/advanced-concepts/nullable-booleans/
 ---
 ## مقدمة
 
- في هذا البرنامج التعليمي، سوف نتعمق في العمل مع القيم المنطقية الخالية في Aspose.Tasks لـ .NET. توفر القيم المنطقية الخالية المرونة في تمثيل القيم المنطقية، مما يسمح بإمكانية كونها غير محددة. سوف نستكشف كيفية استخدام`NullableBool` الطبقة ومنشئاتها وخصائصها وأساليبها.
+في هذا البرنامج التعليمي، سوف نتعمق في العمل مع القيم المنطقية الخالية في Aspose.Tasks لـ .NET. توفر القيم المنطقية الخالية المرونة في تمثيل القيم المنطقية، مما يسمح بإمكانية كونها غير محددة. سوف نستكشف كيفية استخدام`NullableBool` الطبقة ومنشئاتها وخصائصها وأساليبها.
 
 ## المتطلبات الأساسية
 
@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  الخطوة 4: استخدم`NullableBool` instance by setting it in the project.
+###  الخطوة 4: الاستفادة من`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### الخطوة 6: عرض تمثيل السلسلة لـ`NullableBool` object.
+###  الخطوة 6: عرض تمثيل السلسلة لـ`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  الخطوة 2: طباعة رمز التجزئة لكل منها`NullableBool` object.
+### الخطوة 2: طباعة رمز التجزئة لكل منها`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## خاتمة
 
- في هذا البرنامج التعليمي، اكتشفنا كيفية التعامل مع القيم المنطقية الخالية في Aspose.Tasks لـ .NET. باستخدام`NullableBool` فئة وأساليبها، يمكنك إدارة القيم المنطقية بكفاءة مع المرونة الإضافية المتمثلة في كونها فارغة.
+ في هذا البرنامج التعليمي، اكتشفنا كيفية التعامل مع القيم المنطقية الخالية في Aspose.Tasks لـ .NET. من خلال الاستفادة من`NullableBool` فئة وأساليبها، يمكنك إدارة القيم المنطقية بكفاءة مع المرونة الإضافية المتمثلة في كونها فارغة.
 
 ## الأسئلة الشائعة
 

@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 حدد تفاصيل التشفير بما في ذلك كلمة مرور المستخدم وكلمة مرور المالك وخوارزمية التشفير والأذونات:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //كلمة مرور المستخدم
+    "userPassword",        // كلمة مرور المستخدم
     "ownerPassword",       // كلمة مرور المالك
     PdfEncryptionAlgorithm.RC4_128);  // خوارزمية التشفير
 // تحديد الأذونات

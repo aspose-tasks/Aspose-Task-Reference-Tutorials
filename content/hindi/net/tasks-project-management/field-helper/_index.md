@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks में फील्ड हेल्पर एमएस प्रोजेक्ट इंटीग्रेशन
-linktitle: Aspose में फ़ील्ड हेल्पर। कार्य
+linktitle: Aspose.Tasks में फ़ील्ड हेल्पर
 second_title: Aspose.Tasks .NET API
 description: MS प्रोजेक्ट फ़ाइलों के साथ निर्बाध रूप से काम करने के लिए .NET के लिए Aspose.Tasks का लाभ उठाना सीखें।
 type: docs
@@ -29,7 +29,7 @@ using System;
 
 ```
 
-अब जब आपके पास आपके प्रोजेक्ट में Aspose.कार्य सेट हो गए हैं, तो आइए जानें कि MS प्रोजेक्ट फ़ील्ड के साथ काम करने के लिए फ़ील्ड हेल्पर का उपयोग कैसे करें।
+अब जब आपने अपने प्रोजेक्ट में Aspose.Tasks सेट कर लिया है, तो आइए जानें कि MS प्रोजेक्ट फ़ील्ड के साथ काम करने के लिए फ़ील्ड हेल्पर का उपयोग कैसे करें।
 
 ## चरण 1: कार्य फ़ील्ड शीर्षकों तक पहुँचना
 
@@ -43,7 +43,7 @@ Console.WriteLine("Title for Tsk.ActualCost: " + FieldHelper.GetDefaultTaskField
 
 ## चरण 2: कार्य प्रतिशत पूर्ण शीर्षक पुनः प्राप्त करना
 
- इसी तरह, आप इसके लिए शीर्षक पुनः प्राप्त कर सकते हैं`PercentWorkComplete` फ़ील्ड का उपयोग कर रहा हूँ`FieldHelper.GetDefaultTaskFieldTitle` तरीका:
+ इसी प्रकार, आप इसके लिए शीर्षक पुनः प्राप्त कर सकते हैं`PercentWorkComplete` फ़ील्ड का उपयोग कर रहा हूँ`FieldHelper.GetDefaultTaskFieldTitle` तरीका:
 
 ```csharp
 Console.WriteLine("Title for Tsk.PercentWorkComplete: " + FieldHelper.GetDefaultTaskFieldTitle(Tsk.PercentWorkComplete.KeyType));

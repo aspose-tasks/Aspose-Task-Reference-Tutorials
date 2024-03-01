@@ -25,7 +25,7 @@ using Aspose.Tasks.Visualization;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- byta ut`"Your Document Directory"` med sökvägen till din dokumentkatalog där MS Project-filen finns.
+ Byta ut`"Your Document Directory"` med sökvägen till din dokumentkatalog där MS Project-filen finns.
 ## Steg 2: Ladda MS Project File
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -59,11 +59,11 @@ S: Ja, Aspose.Tasks för .NET stöder integration med olika projekthanteringsver
 
 ### F: Hur kan jag få support för Aspose.Tasks för .NET?
 
- S: Du kan söka hjälp från community-forumen.[här](https://forum.aspose.com/c/tasks/15).
+ S: Du kan söka hjälp från community-forumen[här](https://forum.aspose.com/c/tasks/15).
 
 ### F: Behöver jag en tillfällig licens för att använda Aspose.Tasks för .NET?
 
-S: Du kan kräva en tillfällig licens för vissa avancerade funktioner, som kan erhållas[här](https://purchase.aspose.com/temporary-license/).
+ S: Du kan kräva en tillfällig licens för vissa avancerade funktioner, som kan erhållas[här](https://purchase.aspose.com/temporary-license/).
 
 ### F: Var kan jag köpa Aspose.Tasks för .NET?
 

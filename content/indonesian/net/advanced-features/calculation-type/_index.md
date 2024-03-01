@@ -74,13 +74,13 @@ project.ExtendedAttributes.Add(lookup);
 
 ## Kesimpulan
 
-Dalam tutorial ini, kita telah menjelajahi cara bekerja dengan Calculation Type di Aspose.Tasks untuk .NET. Dengan menentukan Jenis Perhitungan untuk atribut yang diperluas, kita dapat menyesuaikan cara penghitungan nilai untuk tugas dan ringkasan tugas dalam suatu proyek, memberikan fleksibilitas dan kontrol yang lebih besar.
+Dalam tutorial ini, kita telah menjelajahi cara bekerja dengan Calculation Type di Aspose.Tasks untuk .NET. Dengan menentukan Jenis Penghitungan untuk atribut yang diperluas, kita dapat menyesuaikan cara penghitungan nilai untuk tugas dan ringkasan tugas dalam suatu proyek, sehingga memberikan fleksibilitas dan kontrol yang lebih besar.
 
 ## FAQ
 
 ### Q1: Apa Jenis Perhitungan di Aspose.Tasks?
 
-A1: Jenis Perhitungan di Aspose.Tasks menentukan bagaimana nilai dihitung untuk tugas dan ringkasan tugas dalam suatu proyek, menawarkan opsi seperti Formula dan Rollup.
+A1: Jenis Perhitungan di Aspose.Tasks menentukan bagaimana nilai dihitung untuk tugas dan ringkasan tugas dalam proyek, menawarkan opsi seperti Formula dan Rollup.
 
 ### Q2: Bagaimana cara mengatur Tipe Perhitungan untuk Atribut yang Diperluas?
 

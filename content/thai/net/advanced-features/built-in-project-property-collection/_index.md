@@ -25,7 +25,7 @@ url: /th/net/advanced-features/built-in-project-property-collection/
 
 ### 3. การติดตั้ง Aspose.Tasks สำหรับ .NET
 
-ดาวน์โหลดและติดตั้งไลบรารี Aspose.Tasks สำหรับ .NET จากไฟล์[เว็บไซต์](https://releases.aspose.com/tasks/net/).
+ ดาวน์โหลดและติดตั้งไลบรารี Aspose.Tasks สำหรับ .NET จากไฟล์[เว็บไซต์](https://releases.aspose.com/tasks/net/).
 
 ### 4. ความคุ้นเคยกับแนวคิดการจัดการโครงการ
 

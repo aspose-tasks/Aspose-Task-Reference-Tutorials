@@ -84,7 +84,7 @@ var options = new CsvOptions
 };
 project.Save(DataDir + "WorkWithGanttChartColumn_out.csv", options);
 ```
-Wykonując te kroki, możesz efektywnie pracować z kolumnami wykresu Gantta w Aspose.Tasks for .NET, umożliwiając dostosowywanie i wyświetlanie informacji o zadaniach zgodnie z potrzebami.
+Wykonując te kroki, możesz efektywnie pracować z kolumnami wykresu Gantta w Aspose.Tasks dla .NET, umożliwiając dostosowywanie i wyświetlanie informacji o zadaniach zgodnie z potrzebami.
 
 ## Wniosek
 Opanowanie manipulacji kolumnami wykresu Gantta w Aspose.Tasks dla .NET otwiera nieograniczone możliwości dostosowywania wizualizacji zarządzania projektami do konkretnych potrzeb. Wykonując kroki opisane w tym samouczku, możesz efektywnie zarządzać informacjami o zadaniach oraz poprawić przejrzystość i organizację projektu.

@@ -64,7 +64,7 @@ catch (InvalidPasswordException e)
 
 ### Q1：什麼原因會導致 Aspose.Tasks 中出現 InvalidPasswordException？
 
- A1：安`InvalidPasswordException`當嘗試存取受密碼保護的項目檔案而不提供正確的密碼或提供的密碼不正確時，會引發該錯誤。
+ A1：一個`InvalidPasswordException`當嘗試存取受密碼保護的項目檔案而不提供正確的密碼或提供的密碼不正確時，會引發該錯誤。
 
 ### Q2：我可以使用Aspose.Tasks來處理其他類型的異常嗎？
 

@@ -8,7 +8,7 @@ weight: 14
 url: /pl/net/rate-recurring-tasks/recurring-task-parameters/
 ---
 ## Wstęp
-W tym samouczku przeprowadzimy Cię przez proces ustawiania parametrów zadań cyklicznych programu Microsoft Project za pomocą Aspose.Tasks dla .NET.
+tym samouczku przeprowadzimy Cię przez proces ustawiania parametrów zadań cyklicznych programu Microsoft Project za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
 Zanim zaczniesz, upewnij się, że masz następujące elementy:
 1. Podstawowa znajomość języka programowania C#.
@@ -26,12 +26,12 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- zastępować`"Your Document Directory"` ze ścieżką do katalogu dokumentów.
+ Zastępować`"Your Document Directory"` ze ścieżką do katalogu dokumentów.
 ## Krok 2: Załaduj plik projektu
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- Ta linia kodu ładuje plik Microsoft Project do pliku`project` zmienne.
+ Ta linia kodu ładuje plik Microsoft Project do pliku`project` zmienny.
 ## Krok 3: Zdefiniuj parametry zadania cyklicznego
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -67,7 +67,7 @@ project.RootTask.Children.Add(parameters);
 Na koniec dodaj parametry do zadania głównego projektu.
 
 ## Wniosek
-W tym samouczku pokazaliśmy, jak ustawić parametry zadań cyklicznych programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Wykonując poniższe kroki, możesz efektywnie zarządzać powtarzającymi się zadaniami w swoich projektach.
+tym samouczku pokazaliśmy, jak ustawić parametry zadań cyklicznych programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Wykonując poniższe kroki, możesz efektywnie zarządzać powtarzającymi się zadaniami w swoich projektach.
 ## Często zadawane pytania
 ### Czy mogę bardziej dostosować wzór powtarzania?
 Tak, Aspose.Tasks zapewnia różne wzorce powtarzania i opcje, które można dostosować do wymagań projektu.

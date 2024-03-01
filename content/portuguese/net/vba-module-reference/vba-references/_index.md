@@ -21,7 +21,7 @@ Certifique-se de ter os namespaces necessários incluídos no início do seu có
     using System;
     
 ```
-## Lendo referências VBA
+## Lendo referências do VBA
 Vamos começar lendo referências VBA de um arquivo de projeto:
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -72,10 +72,10 @@ Parabéns! Você navegou com sucesso pelo tratamento de referências VBA em Aspo
 ### P: Posso usar Aspose.Tasks com outras linguagens de programação?
 R: Aspose.Tasks oferece suporte principalmente a linguagens .NET, mas existem outros produtos Aspose adaptados para diferentes plataformas e idiomas.
 ### P: Como obtenho uma licença temporária para Aspose.Tasks?
-R: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
+ R: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Existe suporte da comunidade disponível para Aspose.Tasks?
  R: Sim, você pode encontrar suporte no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### P: Onde posso encontrar documentação detalhada para Aspose.Tasks?
  R: A documentação está disponível[aqui](https://reference.aspose.com/tasks/net/).
 ### P: Posso comprar o Aspose.Tasks?
- R: Sim, você pode comprá-lo.[aqui](https://purchase.aspose.com/buy).
+ R: Sim, você pode comprá-lo[aqui](https://purchase.aspose.com/buy).

@@ -15,7 +15,7 @@ No gerenciamento de projetos, compreender e mitigar os riscos são cruciais para
 Antes de nos aprofundarmos no gerenciamento de padrões de risco do MS Project usando Aspose.Tasks for .NET, certifique-se de ter o seguinte:
 
 1. Arquivo do Microsoft Project: Tenha um arquivo do Microsoft Project (.mpp) contendo tarefas e dados relevantes do projeto.
-2. Aspose.Tasks for .NET: Baixe e instale a biblioteca Aspose.Tasks para .NET do[local na rede Internet](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET: Baixe e instale a biblioteca Aspose.Tasks para .NET do[local na rede Internet](https://releases.aspose.com/tasks/net/).
 3. Compreensão básica de C#: Recomenda-se familiaridade com os fundamentos da linguagem de programação C#.
 
 ## Importar namespaces
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- Nesta etapa definimos o diretório do documento do projeto e criamos configurações para análise de riscos. Ajusta a`IterationsCount` conforme necessário com base na complexidade do projeto.
+Nesta etapa definimos o diretório do documento do projeto e criamos configurações para análise de riscos. Ajusta a`IterationsCount` conforme necessário com base na complexidade do projeto.
 
 ## Etapa 2: carregar projeto e tarefa
 
@@ -97,7 +97,7 @@ Salve o relatório de análise em formato PDF para referência futura.
 
 ## Conclusão
 
-O gerenciamento eficaz dos padrões de risco do MS Project é essencial para o sucesso do projeto. Aspose.Tasks for .NET fornece ferramentas abrangentes para analisar e mitigar riscos, garantindo execução e entrega de projetos mais tranquilas.
+gerenciamento eficaz dos padrões de risco do MS Project é essencial para o sucesso do projeto. Aspose.Tasks for .NET fornece ferramentas abrangentes para analisar e mitigar riscos, garantindo execução e entrega de projetos mais tranquilas.
 
 ## Perguntas frequentes
 

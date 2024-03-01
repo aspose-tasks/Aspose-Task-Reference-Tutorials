@@ -38,7 +38,7 @@ Adja meg annak a könyvtárnak az elérési útját, ahol az MS Project fájl ta
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+ Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 ## 2. lépés: Töltse be a projektfájlt
  Töltse be az MS Project fájlt a`Project` osztály:
 ```csharp
@@ -66,7 +66,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan dolgozhatunk az MS Project kiterjes
 Igen, az Aspose.Tasks for .NET támogatja a Microsoft Project különféle verzióit, beleértve a 2003-as, 2007-es, 2010-es, 2013-as, 2016-os és 2019-es verziókat.
 ### Használhatom az Aspose.Tasks for .NET-et új MS Project fájlok létrehozására?
 Teljesen! Az Aspose.Tasks for .NET lehetővé teszi az MS Project fájlok programozott létrehozását, módosítását és kezelését.
-### Az Aspose.Tasks for .NET-hez licenc szükséges a kereskedelmi használatra?
+### Az Aspose.Tasks for .NEThez szükséges-e licenc a kereskedelmi használatra?
 Igen, licencet kell vásárolnia az Aspose.Tasks for .NET kereskedelmi használatához. Azonban ingyenes próbaverziót is igénybe vehet a képességek értékeléséhez.
 ### Testreszabhatom a kiterjesztett attribútumokat a projektem követelményei szerint?
 Igen, az Aspose.Tasks for .NET kiterjedt lehetőségeket kínál a kiterjesztett attribútumok testreszabásához a projekt speciális igényei szerint.

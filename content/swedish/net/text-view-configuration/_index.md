@@ -24,7 +24,7 @@ Förbättra estetiken i dina projektdokument genom att anpassa textstilar med As
  Bemästra konsten att anpassa tidslinjevyer med Aspose.Tasks för .NET för att förbättra din projektledningsupplevelse. Skräddarsy visuellt tilltalande tidslinjer för att möta ditt projekts unika behov. Navigera genom vår steg-för-steg-guide på[Anpassa tidslinjevyer i Aspose.Tasks](./timeline-views/).
 
 ## Hantera tidsfasdata i Aspose.Tasks## 
-Hantera data i tidsfas utan ansträngning, förbättra projektplaneringen och optimera resurshanteringen med Aspose.Tasks för .NET. Upptäck insikterna genom att utforska vår guide om[Hantering av tidsfasad data i Aspose.Tasks](./timephased-data/).
+Hantera data i tidsfas utan ansträngning, förbättra projektplaneringen och optimera resurshanteringen med Aspose.Tasks för .NET. Upptäck insikterna genom att utforska vår guide på[Hantering av tidsfasad data i Aspose.Tasks](./timephased-data/).
 
 ## Insamling av tidsfasdata i Aspose.Tasks## 
  Fördjupa dig i världen av tidsfasad datainsamling i Aspose.Tasks för .NET med vår steg-för-steg-guide, vanliga frågor och mer. Öka dina projektledningsförmåga idag genom att utforska[Insamling av tidsfasad data i Aspose.Tasks](./timephased-data-collection/).

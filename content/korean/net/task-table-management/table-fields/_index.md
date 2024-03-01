@@ -11,7 +11,7 @@ url: /ko/net/task-table-management/table-fields/
 .NET 애플리케이션에서 Microsoft Project 파일을 원활하게 조작할 수 있는 강력한 라이브러리인 Aspose.Tasks for .NET의 세계에 오신 것을 환영합니다. 이 튜토리얼에서는 Aspose.Tasks에서 테이블 필드를 처리하는 복잡한 방법을 살펴보고 프로젝트 테이블을 효율적으로 읽고 관리할 수 있습니다. 노련한 개발자이든 초보자이든 이 단계별 가이드를 통해 Aspose.Tasks의 잠재력을 최대한 활용할 수 있습니다.
 ## 전제조건
 이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
--  Aspose.Tasks 라이브러리: Aspose.Tasks for .NET 라이브러리를 다운로드하고 설치합니다. 당신은 그것을 찾을 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks 라이브러리: Aspose.Tasks for .NET 라이브러리를 다운로드하고 설치합니다. 당신은 그것을 찾을 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
 - 개발 환경: 컴퓨터에 Visual Studio와 같은 적합한 개발 환경이 설정되어 있는지 확인하세요.
 이제 테이블 필드 처리의 핵심을 살펴보겠습니다.
 ## 네임스페이스 가져오기
@@ -71,4 +71,4 @@ Aspose.Tasks는 MPP, XML 및 MPX를 포함한 다양한 Microsoft Project 파일
 ### Aspose.Tasks에 대한 업데이트는 얼마나 자주 출시됩니까?
 Aspose.Tasks의 업데이트는 호환성을 보장하고 새로운 기능을 도입하기 위해 정기적으로 릴리스됩니다.
 ### Aspose.Tasks 지원을 위한 커뮤니티 포럼이 있나요?
-예, 다음에서 도움말과 토론을 찾을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+ 예, 다음에서 도움말과 토론을 찾을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).

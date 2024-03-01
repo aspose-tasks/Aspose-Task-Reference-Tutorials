@@ -12,7 +12,7 @@ Aspose.Tasks for .NET é uma biblioteca poderosa que permite aos desenvolvedores
 ## Pré-requisitos
 Antes de começarmos, certifique-se de ter os seguintes pré-requisitos em vigor:
 ### 1. Instale Aspose.Tasks para .NET
-Certifique-se de ter instalado o Aspose.Tasks for .NET. Você pode baixá-lo em[aqui](https://releases.aspose.com/tasks/net/).
+ Certifique-se de ter instalado o Aspose.Tasks for .NET. Você pode baixá-lo em[aqui](https://releases.aspose.com/tasks/net/).
 ### 2. Obtenha uma licença (opcional)
  Se estiver usando Aspose.Tasks em um projeto comercial, você precisará de uma licença. Você pode comprar uma licença de[aqui](https://purchase.aspose.com/buy) , ou você pode solicitar uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### 3. Configure seu ambiente de desenvolvimento

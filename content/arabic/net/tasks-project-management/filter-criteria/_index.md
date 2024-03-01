@@ -51,12 +51,12 @@ foreach (var row in filter.Criteria.CriteriaRows)
     Console.WriteLine("Value{0}: {1}", values.Length == 1 ? "" : "s", string.Join(", ", values));
 }
 ```
-شرح: يتكرر هذا القسم خلال كل صف معايير للمرشح ويعرض مجاله وتشغيله واختباره وقيمه (إن وجدت).
+Explanation: يتكرر هذا القسم خلال كل صف معايير لمرشح التصفية ويعرض المجال والعملية والاختبار والقيم الخاصة به (إن وجدت).
 ## الخطوة 4: طباعة معايير التصفية
 ```csharp
 Console.WriteLine(filter.Criteria.Operation.ToString());
 ```
-Explanation: طباعة عملية معايير الترشيح.
+Explanation: طباعة عملية معايير التصفية.
 ## الخطوة 5: عرض تفاصيل المعايير
 ```csharp
 var criteria1 = filter.Criteria.CriteriaRows[0];

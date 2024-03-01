@@ -12,7 +12,7 @@ Ahogy a projektmenedzsment fejlődik, úgy nő az igény a folyamatokat egyszer�
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 - .NET fejlesztési ismeretek.
-- Aspose.Tasks for .NET könyvtár telepítve. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks for .NET könyvtár telepítve. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
 - Kódszerkesztő (a Visual Studio ajánlott).
 ## Névterek importálása
 A .NET-projektben kezdje a szükséges névterek importálásával:

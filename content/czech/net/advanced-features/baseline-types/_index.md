@@ -21,7 +21,7 @@ Pro využití síly Aspose.Tasks je nezbytná základní znalost programovacího
 
 ### 2. Instalace Aspose.Tasks pro .NET
 
- Ujistěte se, že jste ve svém vývojovém prostředí nainstalovali knihovnu Aspose.Tasks for .NET. Můžete si jej stáhnout z[Web Aspose.Tasks](https://releases.aspose.com/tasks/net/) nebo prostřednictvím správce balíčků NuGet.
+Ujistěte se, že jste ve svém vývojovém prostředí nainstalovali knihovnu Aspose.Tasks for .NET. Můžete si jej stáhnout z[Web Aspose.Tasks](https://releases.aspose.com/tasks/net/) nebo prostřednictvím správce balíčků NuGet.
 
 ### 3. Integrované vývojové prostředí (IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Krok 2: Nastavte základní linii
 
- Jakmile je projekt načten, můžeme přistoupit k nastavení základní linie. Základní linie poskytují snímek počátečního harmonogramu projektu, který slouží jako referenční bod pro srovnání v průběhu projektu. Použijte`SetBaseline` způsob nastavení základní linie. Chcete-li například nastavit základní linii pro celý projekt, použijte`BaselineType.Baseline` výčet:
+Jakmile je projekt načten, můžeme přistoupit k nastavení základní linie. Základní linie poskytují snímek počátečního harmonogramu projektu, který slouží jako referenční bod pro srovnání v průběhu projektu. Použijte`SetBaseline` způsob nastavení základní linie. Chcete-li například nastavit základní linii pro celý projekt, použijte`BaselineType.Baseline` výčet:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);
@@ -59,7 +59,7 @@ Po nastavení základní linie můžete pracovat s různými poli základní lin
 
 ## Závěr
 
-Závěrem lze říci, že Aspose.Tasks for .NET vybavuje vývojáře výkonnými nástroji pro efektivní správu projektových plánů. Podle kroků uvedených v tomto tutoriálu můžete plynule nastavit a manipulovat s různými typy základních linií, což vám umožní přesně a pružně sledovat postup projektu.
+Závěrem lze říci, že Aspose.Tasks for .NET vybavuje vývojáře výkonnými nástroji pro efektivní správu projektových plánů. Podle kroků uvedených v tomto kurzu můžete plynule nastavovat a manipulovat s různými typy základních linií, což vám umožní přesně a pružně sledovat postup projektu.
 
 ## FAQ
 

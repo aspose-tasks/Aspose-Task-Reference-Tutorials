@@ -23,7 +23,7 @@ Aspose.Tasks for .NET으로 프로젝트 관리 및 통합 기술을 향상시�
 
 여행은 여기서 끝나지 않습니다. 진행 라인 처리 및 프로젝트 데이터 마스터링부터 표시 옵션 구성 및 MS Project Server의 원활한 관리에 이르기까지 모든 것을 다루는 수많은 튜토리얼을 살펴보세요. .NET용 Aspose.Tasks 튜토리얼을 살펴보고 프로젝트 관리 기능의 잠재력을 최대한 활용하세요.
 
- MS 프로젝트 보기를 사용자 정의하고, 서버 자격 증명을 관리하고, 프로젝트 정보를 쉽게 추출할 준비가 되셨습니까? 다음 가이드를 따르세요.[MS 프로젝트 보기 사용자 정의](./project-views/), [MS Project Server 자격 증명 관리](./project-server-credentials/) ,그리고[MS 프로젝트 정보 추출](./project-information/) 심층적인 통찰력을 위해.
+ MS 프로젝트 보기를 사용자 정의하고, 서버 자격 증명을 관리하고, 프로젝트 정보를 쉽게 추출할 준비가 되셨습니까? 우리의 가이드를 따르십시오[MS 프로젝트 보기 사용자 정의](./project-views/), [MS Project Server 자격 증명 관리](./project-server-credentials/) , 그리고[MS 프로젝트 정보 추출](./project-information/) 심층적인 통찰력을 위해.
 
  MS Project Online 예외를 원활하게 처리하고, 프로젝트 작업을 자동화하고, 튜토리얼을 통해 프로젝트 관리 효율성을 향상시킵니다.[MS Project 온라인 예외 관리](./project-online-exceptions/) 그리고[Aspose.Tasks를 사용하여 MS Project Server 관리](./project-server-management/).
 

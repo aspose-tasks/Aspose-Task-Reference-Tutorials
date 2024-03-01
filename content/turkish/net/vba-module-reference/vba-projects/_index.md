@@ -76,6 +76,6 @@ C: Evet, Aspose.Tasks herhangi bir .NET projesiyle sorunsuz bir şekilde bütün
 ### S: Ücretsiz deneme mevcut mu?
  C: Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks için nasıl geçici lisans alabilirim?
-C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks'ı nereden satın alabilirim?
  C: Aspose.Tasks'ı satın alın[Burada](https://purchase.aspose.com/buy).

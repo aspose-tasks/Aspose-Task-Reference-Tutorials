@@ -151,7 +151,7 @@ A naptárgyűjtemények kezelése az Aspose.Tasks for .NET-ben elengedhetetlen a
 
 ### 3. kérdés: Hogyan távolíthatok el egy adott naptárt egy projektből?
 
-3. válasz: Eltávolíthat egy naptárt, ha letölti a gyűjteményből, majd felhívja a`Remove` módszer.
+ 3. válasz: Eltávolíthat egy naptárt, ha letölti a gyűjteményből, majd felhívja a`Remove` módszer.
 
 ### 4. kérdés: Az Aspose.Tasks támogatja a naptárak különböző formátumokba történő exportálását?
 

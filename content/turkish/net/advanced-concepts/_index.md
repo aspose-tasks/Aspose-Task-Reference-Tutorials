@@ -14,7 +14,7 @@ Aspose.Tasks for .NET becerilerinizi bir sonraki seviyeye taşımaya hazır mıs
 
 ## Aspose.Tasks'ta Görüntü Kaydetmeyi Yönetme
 
-Aspose.Tasks for .NET'te görüntü kaydetme sanatını adım adım yönergelerimizle öğrenin. Görüntü kaydetme işlevini .NET uygulamalarınıza sorunsuz bir şekilde entegre ederek proje verilerinizin görsel temsilini geliştirin.[Devamını oku](./image-saving/)
+ Aspose.Tasks for .NET'te görüntü kaydetme sanatını adım adım yönergelerimizle öğrenin. Görüntü kaydetme işlevini .NET uygulamalarınıza sorunsuz bir şekilde entegre ederek proje verilerinizin görsel temsilini geliştirin.[Devamını oku](./image-saving/)
 
 ## Aspose.Tasks'ta Geçersiz Şifre İstisnasıyla Başa Çıkmak
 
@@ -22,11 +22,11 @@ Aspose.Tasks for .NET'te görüntü kaydetme sanatını adım adım yönergeleri
 
 ## Aspose.Tasks'ta Sayfa Kaydederek Geri Aramayı Uygulama
 
- Çok sayfalı belge çıktı akışları için özelleştirilmiş işleme potansiyelinin kilidini açın. Aspose.Tasks for .NET'te, proje verilerinizin sunumu üzerinde kontrol sahibi olmanızı sağlayan, sayfa tasarrufu sağlayan bir geri aramayı nasıl uygulayacağınızı öğrenin.[Devamını oku](./page-saving-callback/)
+Çok sayfalı belge çıktı akışları için özelleştirilmiş işleme potansiyelinin kilidini açın. Aspose.Tasks for .NET'te, proje verilerinizin sunumu üzerinde kontrol sahibi olmanızı sağlayan, sayfa tasarrufu sağlayan bir geri aramayı nasıl uygulayacağınızı öğrenin.[Devamını oku](./page-saving-callback/)
 
 ## Aspose.Tasks'ta Ağaç Algoritmasını Kullanmak
 
-Aspose.Tasks'ın Ağaç Algoritmasını kullanarak .NET projelerinizde görev hiyerarşilerini etkili bir şekilde yönetin. Bu eğitim, kesintisiz ve düzenli bir iş akışı sağlayarak proje yapılarını optimize etmenizi sağlar.[Devamını oku](./tree-algorithm/)
+ Aspose.Tasks'ın Ağaç Algoritmasını kullanarak .NET projelerinizde görev hiyerarşilerini etkili bir şekilde yönetin. Bu eğitim, kesintisiz ve düzenli bir iş akışı sağlayarak proje yapılarını optimize etmenizi sağlar.[Devamını oku](./tree-algorithm/)
 
 ## Aspose.Tasks'ta Etiketleri Görüntüleme
 
@@ -38,11 +38,11 @@ Aspose.Tasks'ın Ağaç Algoritmasını kullanarak .NET projelerinizde görev hi
 
 ## Aspose.Tasks'ta Aylık Yinelenme Modellerini İşleme
 
- Aspose.Tasks for .NET'te aylık yineleme modellerini işleme sanatında ustalaşın. Bu eğitim, projelerinizde yinelenen görevleri verimli bir şekilde yönetmek için adım adım bir kılavuz sağlar.[Devamını oku](./monthly-recurrence-patterns/)
+Aspose.Tasks for .NET'te aylık yineleme modellerini işleme sanatında ustalaşın. Bu eğitim, projelerinizde yinelenen görevleri verimli bir şekilde yönetmek için adım adım bir kılavuz sağlar.[Devamını oku](./monthly-recurrence-patterns/)
 
 ## Aspose.Tasks'ta Microsoft Project Veritabanı Ayarları
 
-Aspose.Tasks for .NET ile Microsoft Project veritabanı ayarlarını sorunsuz bir şekilde yapılandırın. Proje verilerini .NET uygulamalarınıza zahmetsizce entegre ederek proje yönetimi yeteneklerinizi optimize edin.[Devamını oku](./msp-database-settings/)
+ Aspose.Tasks for .NET ile Microsoft Project veritabanı ayarlarını sorunsuz bir şekilde yapılandırın. Proje verilerini .NET uygulamalarınıza zahmetsizce entegre ederek proje yönetimi yeteneklerinizi optimize edin.[Devamını oku](./msp-database-settings/)
 
 ## Aspose.Tasks'ta NOT İşlemi ile Çalışmak
 
@@ -54,11 +54,11 @@ Aspose.Tasks for .NET ile Microsoft Project veritabanı ayarlarını sorunsuz bi
 
 ## Aspose.Tasks'ta OLE Nesneleriyle Çalışmak
 
- Aspose.Tasks'ı kullanarak .NET uygulamalarında OLE nesneleriyle verimli bir şekilde çalışın. OLE nesnelerinin işlenmesinde uzmanlaşarak proje yönetimi becerilerinizi geliştirin ve proje belgelerinize yeni bir boyut ekleyin.[Devamını oku](./ole-objects/)
+Aspose.Tasks'ı kullanarak .NET uygulamalarında OLE nesneleriyle verimli bir şekilde çalışın. OLE nesnelerinin işlenmesinde uzmanlaşarak proje yönetimi becerilerinizi geliştirin ve proje belgelerinize yeni bir boyut ekleyin.[Devamını oku](./ole-objects/)
 
 ## Aspose.Tasks'ta OLE Nesnelerinin Toplanması
 
-Bu kapsamlı eğitimle Aspose.Tasks for .NET'teki OLE nesnelerini yönetin. OLE nesnelerinin projelerinize kusursuz entegrasyonunu sağlayarak, proje belgeleri içindeki gömülü dosyaları yönetme konusunda uzmanlık kazanın.[Devamını oku](./ole-object-collection/)
+ Bu kapsamlı eğitimle Aspose.Tasks for .NET'teki OLE nesnelerini yönetin. OLE nesnelerinin projelerinize kusursuz entegrasyonunu sağlayarak, proje belgeleri içindeki gömülü dosyaları yönetme konusunda uzmanlık kazanın.[Devamını oku](./ole-object-collection/)
 ## İleri Kavramlar Eğitimleri
 ### [Aspose.Tasks'ta Görüntü Kaydetmeyi Yönetme](./image-saving/)
 Aspose.Tasks for .NET'te görüntü kaydetme işlemini adım adım yönergelerle nasıl yapacağınızı öğrenin. Görüntü kaydetme işlevini .NET uygulamalarınıza sorunsuz bir şekilde entegre edin.

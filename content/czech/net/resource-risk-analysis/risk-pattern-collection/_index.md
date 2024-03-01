@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Krok 8: Vymažte vzory
 Vymažte kolekci vzorů jednotlivě nebo úplně:
 ```csharp
-// individuální odstranění
+// Individuální odstranění
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ A: Jistě, Aspose.Tasks se bez problémů integruje s ostatními .NET frameworky
 ### Otázka: Je k dispozici zkušební verze pro Aspose.Tasks?
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks z[tady](https://releases.aspose.com/)což vám umožní prozkoumat jeho funkce před nákupem.
 ### Otázka: Kde najdu podporu pro Aspose.Tasks?
- Odpověď: Komplexní podporu a pomoc najdete na fóru Aspose.Tasks.[tady](https://forum.aspose.com/c/tasks/15), kde můžete komunikovat s odborníky a ostatními uživateli a řešit dotazy a problémy.
+ Odpověď: Komplexní podporu a pomoc najdete na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15), kde můžete komunikovat s odborníky a ostatními uživateli a řešit dotazy a problémy.

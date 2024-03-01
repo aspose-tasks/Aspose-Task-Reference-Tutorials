@@ -71,7 +71,7 @@ project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat
 ### ฉันสามารถปรับแต่งลักษณะที่ปรากฏของงานแต่ละงานในมุมมองไทม์ไลน์ได้หรือไม่
 อย่างแน่นอน! Aspose.Tasks ให้ความยืดหยุ่นในการปรับแต่งลักษณะที่ปรากฏของแต่ละงานในมุมมองไทม์ไลน์
 ### ฉันจะหาแหล่งข้อมูลเพิ่มเติมและการสนับสนุนสำหรับ Aspose.Tasks ได้ที่ไหน
- เยี่ยมชม[เอกสารประกอบ Aspose.Tasks](https://reference.aspose.com/tasks/net/) สำหรับคำแนะนำที่ครอบคลุมและ[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/tasks/15) สำหรับความช่วยเหลือ.
+ เยี่ยมชม[เอกสารประกอบ Aspose.Tasks](https://reference.aspose.com/tasks/net/)สำหรับคำแนะนำที่ครอบคลุมและ[ฟอรั่มการสนับสนุน](https://forum.aspose.com/c/tasks/15) สำหรับความช่วยเหลือ.
 ### Aspose.Tasks มีรุ่นทดลองใช้ฟรีหรือไม่
  ใช่ คุณสามารถทดลองใช้งานฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้อย่างไร

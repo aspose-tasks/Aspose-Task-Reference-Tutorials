@@ -51,7 +51,7 @@ A: はい、Aspose.Tasks for .NET は、Microsoft Project、Primavera P6 など�
 ### Q: Aspose.Tasks for .NET に利用できる無料トライアルはありますか?
  A: はい、Aspose.Tasks for .NET の無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
 ### Q: Aspose.Tasks for .NET のテクニカル サポートを受けるにはどうすればよいですか?
- A: Aspose.Tasks フォーラムで技術支援を求めたり、コミュニティに参加したりできます。[ここ](https://forum.aspose.com/c/tasks/15).
+ A: Aspose.Tasks フォーラムで技術サポートを求めたり、コミュニティに参加したりできます。[ここ](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks for .NET のライセンス オプションは何ですか?
  A: Aspose.Tasks for .NET では、一時ライセンスを含むさまざまなライセンス オプションが利用可能です。ライセンスの詳細を確認する[ここ](https://purchase.aspose.com/buy).
 ### Q: Primavera XML 形式の保存オプションをカスタマイズできますか?

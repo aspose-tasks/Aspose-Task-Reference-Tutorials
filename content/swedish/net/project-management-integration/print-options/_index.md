@@ -11,7 +11,7 @@ url: /sv/net/project-management-integration/print-options/
 Inom mjukvaruutvecklingen framstår Aspose.Tasks för .NET som ett kraftfullt verktyg för att hantera uppgifter och projekt effektivt. En av dess nyckelfunktioner är möjligheten att konfigurera Microsoft Projects utskriftsalternativ sömlöst. I den här handledningen kommer vi att fördjupa oss i processen att konfigurera utskriftsalternativ för MS Project med Aspose.Tasks för .NET.
 ## Förutsättningar
 Innan vi dyker in i krångligheterna med att konfigurera MS Project-utskriftsalternativ, se till att du har följande förutsättningar på plats:
-1.  Installation av Aspose.Tasks för .NET: Se till att du har installerat Aspose.Tasks för .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
+1. Installation av Aspose.Tasks för .NET: Se till att du har installerat Aspose.Tasks för .NET-biblioteket. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
 2. Grundläggande förståelse för C#: Bekanta dig med programmeringsspråket i C# eftersom denna handledning främst använder C# för demonstration.
 
 ## Importera namnområden
@@ -43,7 +43,7 @@ Innan du skriver ut är det klokt att kontrollera sidantalet för att undvika at
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Fortsätt med utskrift
+    // Fortsätt med utskrift
     project.Print(options);
 }
 ```

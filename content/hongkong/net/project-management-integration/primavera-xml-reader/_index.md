@@ -53,7 +53,7 @@ foreach (var projectUid in projectUids)
 ### Q：Aspose.Tasks 是否有免費試用版？
 答：是的，您可以從以下位置下載免費試用版：[這裡](https://releases.aspose.com/).
 ### Q：如何獲得 Aspose.Tasks 的支援？
-答：您可以從 Aspose.Tasks 論壇獲得支援。[這裡](https://forum.aspose.com/c/tasks/15).
+答：您可以從 Aspose.Tasks 論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
 ### Q：我可以購買 Aspose.Tasks 的臨時授權嗎？
 答：是的，可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：在哪裡可以找到 Aspose.Tasks 的綜合文件？

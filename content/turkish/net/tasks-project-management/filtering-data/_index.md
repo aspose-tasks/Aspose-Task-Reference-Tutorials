@@ -12,7 +12,7 @@ Aspose.Tasks for .NET, Microsoft Project dosyalarındaki verileri filtrelemek i�
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 ### 1. Aspose.Tasks for .NET'i yükleyin
- Aspose.Tasks for .NET'i şu adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/tasks/net/), Kitaplığı geliştirme ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
+ Aspose.Tasks for .NET'i şu adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/tasks/net/). Kitaplığı geliştirme ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
 ### 2. Geliştirme Ortamınızı Kurun
 .NET programlama için çalışan bir geliştirme ortamına sahip olduğunuzdan emin olun. Buna Visual Studio gibi uyumlu bir IDE ve C# programlama dilinin temel düzeyde anlaşılması da dahildir.
 ### 3. Örnek Microsoft Project Dosyasına Erişin

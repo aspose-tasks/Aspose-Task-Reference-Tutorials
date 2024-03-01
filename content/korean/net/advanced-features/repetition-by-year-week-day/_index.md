@@ -21,7 +21,7 @@ url: /ko/net/advanced-features/repetition-by-year-week-day/
 
 ### 2. .NET용 Aspose.Tasks 설치
 
- 다음에서 Aspose.Tasks for .NET 라이브러리를 다운로드하고 설치하세요.[다운로드 링크](https://releases.aspose.com/tasks/net/)라이브러리를 개발 환경에 통합하려면 제공된 설치 지침을 따르십시오.
+ 다음에서 Aspose.Tasks for .NET 라이브러리를 다운로드하고 설치하세요.[다운로드 링크](https://releases.aspose.com/tasks/net/). 라이브러리를 개발 환경에 통합하려면 제공된 설치 지침을 따르십시오.
 
 ### 3. 문서에 대한 접근
 
@@ -125,4 +125,4 @@ A: 예, Aspose.Tasks for .NET은 클라우드 기반 프로젝트 관리 솔루�
 
 ### Q5: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
 
- A: 예, 다음에서 .NET용 Aspose.Tasks 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/), 구매 결정을 내리기 전에 기능을 탐색할 수 있습니다.
+A: 예, 다음에서 .NET용 Aspose.Tasks 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/), 구매 결정을 내리기 전에 기능을 탐색할 수 있습니다.

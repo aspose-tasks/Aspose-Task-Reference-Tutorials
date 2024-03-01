@@ -33,7 +33,7 @@ var project = new Project(DataDir + "CreateProject1.mpp");
 ```csharp
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
-## Шаг 3. Изучите другие форматы
+## Шаг 3. Изучите другие форматы
  Aspose.Tasks поддерживает различные форматы сохранения файлов проекта, такие как XML, PDF, XLSX и другие. Вы можете изучить эти форматы, просто изменив`SaveFileFormat` параметр в`Save` метод.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
@@ -50,7 +50,7 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
 ### Вопрос: Могу ли я попробовать Aspose.Tasks перед покупкой?
  О: Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
 ### Вопрос: Как я могу получить поддержку Aspose.Tasks?
- О: Вы можете получить поддержку на форуме сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+О: Вы можете получить поддержку на форуме сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
 ### Вопрос: Доступны ли временные лицензии для Aspose.Tasks?
  О: Да, временные лицензии доступны для ознакомительных целей. Вы можете получить один[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Какова цена Aspose.Tasks?

@@ -8,7 +8,7 @@ weight: 17
 url: /hu/net/time-recurrence-configuration/workweek-collection/
 ---
 ## Bevezetés
-Üdvözöljük az Aspose.Tasks for .NET használatával egyéni munkahét létrehozásáról szóló oktatóanyagunkban! Ebben a lépésenkénti útmutatóban végigvezetjük a projektben szereplő naptár személyre szabott munkahét meghatározásának folyamatán. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan dolgozzanak a Microsoft Project dokumentumaival .NET-alkalmazásaikban.
+Üdvözöljük az Aspose.Tasks for .NET használatával egyéni munkahét létrehozásáról szóló oktatóanyagunkban! Ebben a lépésenkénti útmutatóban végigvezetjük a projektben szereplő naptár személyre szabott munkahét meghatározásának folyamatán. Az Aspose.Tasks egy hatékony könyvtár, amely képessé teszi a fejlesztőket arra, hogy hatékonyan dolgozzanak Microsoft Project dokumentumokkal .NET-alkalmazásaikban.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a gépen.
@@ -75,10 +75,10 @@ Ez az átfogó útmutató lehetővé teszi az egyéni munkahetek hatékony létr
 ### Lehet több egyéni munkahetem egyetlen projektben?
 Igen, több egyéni munkahetet is hozzáadhat egy projektnaptárhoz.
 ### Hogyan módosíthatom a meglévő munkaheteket?
- Használja a biztosított`WorkWeek` tulajdonságok és módszerek a meglévő munkahetek módosítására.
+ Használja a biztosított`WorkWeek`tulajdonságok és módszerek a meglévő munkahetek módosítására.
 ### Az Aspose.Tasks kompatibilis a .NET Core programmal?
 Igen, az Aspose.Tasks támogatja a .NET Core-t.
 ### Exportálhatom az egyéni munkahetekkel rendelkező projektet Microsoft Project fájlformátumba?
 Természetesen az Aspose.Tasks lehetővé teszi a projektek különböző formátumokban történő elmentését, beleértve a Microsoft Projectet is.
 ### Hol kérhetek támogatást az Aspose.Tasks-hoz kapcsolódó lekérdezésekhez?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) bármilyen támogatásért vagy segítségért.
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) bármilyen támogatásért vagy segítségért.

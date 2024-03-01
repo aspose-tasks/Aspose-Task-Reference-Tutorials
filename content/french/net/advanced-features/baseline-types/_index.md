@@ -21,7 +21,7 @@ Pour exploiter la puissance d'Aspose.Tasks, une compréhension de base du langag
 
 ### 2. Installation d'Aspose.Tasks pour .NET
 
- Assurez-vous d'avoir installé la bibliothèque Aspose.Tasks for .NET dans votre environnement de développement. Vous pouvez le télécharger depuis le[Site Web Aspose.Tasks](https://releases.aspose.com/tasks/net/) ou via le gestionnaire de packages NuGet.
+Assurez-vous d'avoir installé la bibliothèque Aspose.Tasks for .NET dans votre environnement de développement. Vous pouvez le télécharger depuis le[Site Web Aspose.Tasks](https://releases.aspose.com/tasks/net/) ou via le gestionnaire de packages NuGet.
 
 ### 3. Environnement de développement intégré (IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Étape 2 : Définir la ligne de base
 
- Une fois le projet chargé, nous pouvons procéder à la définition de la ligne de base. Les lignes de base fournissent un instantané du calendrier initial du projet, qui sert de point de référence pour la comparaison à mesure que le projet progresse. Utilisez le`SetBaseline` méthode pour définir la ligne de base. Par exemple, pour définir la référence pour l'ensemble du projet, utilisez l'option`BaselineType.Baseline` énumération:
+Une fois le projet chargé, nous pouvons procéder à la définition de la ligne de base. Les lignes de base fournissent un instantané du calendrier initial du projet, qui sert de point de référence pour la comparaison à mesure que le projet progresse. Utilisez le`SetBaseline` méthode pour définir la ligne de base. Par exemple, pour définir la référence pour l'ensemble du projet, utilisez l'option`BaselineType.Baseline` énumération:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);
@@ -55,7 +55,7 @@ project.SetBaseline(BaselineType.Baseline);
 
 ## Étape 3 : Travailler avec les références du projet
 
-Après avoir défini la référence, vous pouvez travailler avec différents champs de référence du projet pour analyser et suivre avec précision la progression du projet. Cette étape consiste à accéder aux données de référence telles que les dates de début, les dates de fin, les durées et les coûts. C'est ici que vous pouvez tirer parti du riche ensemble de fonctionnalités fournies par Aspose.Tasks pour manipuler les données de base en fonction de vos besoins.
+Après avoir défini la référence, vous pouvez travailler avec différents champs de référence du projet pour analyser et suivre avec précision la progression du projet. Cette étape consiste à accéder aux données de référence telles que les dates de début, les dates de fin, les durées et les coûts. Voici où vous pouvez exploiter le riche ensemble de fonctionnalités fournies par Aspose.Tasks pour manipuler les données de base en fonction de vos besoins.
 
 ## Conclusion
 

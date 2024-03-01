@@ -36,7 +36,7 @@ using System.Diagnostics.CodeAnalysis;
 
 ## Βήμα 1: Φορτώστε το Αρχείο Έργου
 
- Αρχικά, φορτώστε το αρχείο του έργου χρησιμοποιώντας το`Project` τάξη:
+Αρχικά, φορτώστε το αρχείο του έργου χρησιμοποιώντας το`Project` τάξη:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

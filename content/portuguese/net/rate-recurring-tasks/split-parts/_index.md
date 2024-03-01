@@ -82,7 +82,7 @@ foreach (var splitPart in task.SplitParts)
 Itere sobre as partes divididas da tarefa e imprima suas datas de início e término.
 
 ## Conclusão
-manuseio eficaz das partes divididas do MS Project no Aspose.Tasks for .NET é crucial para a eficiência do gerenciamento de projetos. Seguindo as etapas descritas neste tutorial, você pode gerenciar facilmente tarefas divididas e aprimorar seu fluxo de trabalho de gerenciamento de projetos.
+O manuseio eficaz das partes divididas do MS Project no Aspose.Tasks for .NET é crucial para a eficiência do gerenciamento de projetos. Seguindo as etapas descritas neste tutorial, você pode gerenciar facilmente tarefas divididas e aprimorar seu fluxo de trabalho de gerenciamento de projetos.
 ## Perguntas frequentes
 ### P: Posso usar Aspose.Tasks for .NET com outras estruturas .NET?
 R: Sim, Aspose.Tasks for .NET é compatível com vários frameworks .NET, incluindo .NET Core e .NET Standard.

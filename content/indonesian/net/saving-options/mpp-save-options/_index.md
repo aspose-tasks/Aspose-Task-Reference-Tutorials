@@ -11,7 +11,7 @@ url: /id/net/saving-options/mpp-save-options/
 Dalam dunia pengembangan .NET, mengelola dan memanipulasi file proyek secara efisien sangat penting untuk kesuksesan. Aspose.Tasks untuk .NET menawarkan solusi ampuh untuk menangani file Microsoft Project (MPP) dengan mudah. Di antara banyak fiturnya, Aspose.Tasks memungkinkan pengguna menyimpan opsi MS Project dengan lancar, menyederhanakan alur kerja, dan memastikan integritas proyek. Dalam tutorial ini, kita akan mempelajari proses menyimpan opsi MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
-1. Instalasi Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/tasks/net/).
+1.  Instalasi Aspose.Tasks untuk .NET: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/tasks/net/).
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan .NET, seperti Visual Studio.
 3. Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# sangat penting untuk mengimplementasikan contoh-contoh.
 
@@ -62,7 +62,7 @@ Ya, Aspose.Tasks untuk .NET mendukung berbagai versi file Microsoft Project, ter
 ### Bisakah saya mencoba Aspose.Tasks untuk .NET sebelum membeli?
  Tentu! Anda dapat mengunduh uji coba gratis Aspose.Tasks untuk .NET dari[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Tasks untuk .NET?
- Untuk bantuan teknis, Anda dapat mengunjungi forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+Untuk bantuan teknis, Anda dapat mengunjungi forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### Apa yang dimaksud dengan izin sementara, dan bagaimana cara memperolehnya?
  Lisensi sementara memungkinkan Anda mengevaluasi Aspose.Tasks untuk .NET tanpa batasan apa pun. Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat membeli versi berlisensi Aspose.Tasks untuk .NET?

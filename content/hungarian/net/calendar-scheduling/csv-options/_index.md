@@ -2,7 +2,7 @@
 title: CSV-beállítások az Aspose.Tasks-ban
 linktitle: CSV-beállítások az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
-description: Tanulja meg, hogyan használhatja az Aspose.Tasks for .NET alkalmazást a CSV-fájlokkal való hatékony munkavégzéshez, így könnyedén fejlesztheti projektkezelési képességeit.
+description: Tanulja meg, hogyan használhatja az Aspose.Tasks for .NET alkalmazást a CSV-fájlok hatékony kezeléséhez, és könnyedén javíthatja projektkezelési képességeit.
 type: docs
 weight: 21
 url: /hu/net/calendar-scheduling/csv-options/
@@ -19,7 +19,7 @@ Mielőtt elkezdené a CSV-beállítások feltárását az Aspose.Tasks for .NET-
 
 1. .NET SDK telepítése: Győződjön meg arról, hogy a .NET SDK telepítve van a rendszeren. Letöltheti a .NET webhelyről.
 
-2. Visual Studio beállítása: Telepítse a Visual Studio-t vagy bármely más preferált IDE-t a .NET-fejlesztéshez.
+2. A Visual Studio beállítása: Telepítse a Visual Studio-t vagy bármely más preferált IDE-t a .NET-fejlesztéshez.
 
 3. Az Aspose.Tasks for .NET letöltése: Szerezze be az Aspose.Tasks for .NET könyvtárat a webhelyről vagy a NuGet csomagkezelőn keresztül.
 
@@ -71,7 +71,7 @@ Az Aspose.Tasks for .NET CSV-beállításainak elsajátítása a hatékony proje
 
 ### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.Tasks for .NET számára?
 
- 2. válasz: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez a[weboldal](https://releases.aspose.com/tasks/net/)hogy vásárlás előtt értékelje tulajdonságait.
+ 2. válasz: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez a[weboldal](https://releases.aspose.com/tasks/net/) hogy vásárlás előtt értékelje tulajdonságait.
 
 ### 3. kérdés: Az Aspose.Tasks for .NET több platformot is támogat?
 

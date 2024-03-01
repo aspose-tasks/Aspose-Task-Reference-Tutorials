@@ -12,7 +12,7 @@ Jak se vyvíjí projektové řízení, roste i potřeba výkonných nástrojů, 
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 - Pracovní znalost vývoje .NET.
-- Nainstalovaná knihovna Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
+-  Nainstalovaná knihovna Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
 - Editor kódu (doporučuje se Visual Studio).
 ## Importovat jmenné prostory
 Ve svém projektu .NET začněte importováním potřebných jmenných prostorů:

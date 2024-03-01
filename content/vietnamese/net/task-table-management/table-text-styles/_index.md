@@ -11,7 +11,7 @@ url: /vi/net/task-table-management/table-text-styles/
 Trong thế giới quản lý dự án, việc hình dung hiệu quả các nhiệm vụ là rất quan trọng để thành công. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để tùy chỉnh kiểu văn bản bảng, cho phép bạn điều chỉnh giao diện của các mục văn bản trong dự án của mình. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình định cấu hình kiểu văn bản bảng bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những điều sau:
--  Aspose.Tasks for .NET: Đảm bảo rằng bạn đã cài đặt phiên bản Aspose.Tasks mới nhất cho .NET. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Đảm bảo rằng bạn đã cài đặt phiên bản Aspose.Tasks mới nhất cho .NET. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
 - Thư mục tài liệu: Thiết lập một thư mục cho tài liệu của bạn. Thay thế "Thư mục tài liệu của bạn" trong mã bằng đường dẫn thực tế.
 -  Giấy phép Aspose hợp lệ: Ví dụ này yêu cầu giấy phép Aspose hợp lệ. Bạn có thể mua giấy phép đầy đủ[đây](https://purchase.aspose.com/buy) hoặc xin giấy phép tạm thời 30 ngày[đây](https://purchase.aspose.com/temporary-license/).
 ## Nhập không gian tên
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## Phần kết luận

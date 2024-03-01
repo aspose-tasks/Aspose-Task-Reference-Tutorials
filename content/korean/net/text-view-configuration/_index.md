@@ -9,7 +9,7 @@ url: /ko/net/text-view-configuration/
 ---
 ## 소개
 
-텍스트 및 보기 구성에 초점을 맞춘 .NET 자습서용 Aspose.Tasks에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 기사에서는 프로젝트 관리의 다양한 측면을 탐구하여 Aspose.Tasks의 기능을 익히는 데 대한 단계별 통찰력을 제공합니다.
+텍스트 및 보기 구성에 초점을 맞춘 .NET 자습서용 Aspose.Tasks에 대한 포괄적인 가이드에 오신 것을 환영합니다. 이 기사에서는 Aspose.Tasks의 기능을 익히는 데 대한 단계별 통찰력을 제공하면서 프로젝트 관리의 다양한 측면을 살펴보겠습니다.
 
 ## Aspose.Tasks에서 텍스트 항목 유형 처리## 
  이 상세한 튜토리얼에서 .NET용 Aspose.Tasks를 사용하여 텍스트 항목 유형 사용자 정의의 복잡성을 알아보세요. 당사의 포괄적인 가이드를 따라 손쉽게 프로젝트 관리 기술을 향상시키세요.[Aspose.Tasks에서 텍스트 항목 유형 처리](./text-item-types/). 
@@ -24,7 +24,7 @@ url: /ko/net/text-view-configuration/
  Aspose.Tasks for .NET으로 타임라인 뷰를 사용자 정의하는 기술을 익히고 프로젝트 관리 경험을 향상하세요. 프로젝트의 고유한 요구 사항에 맞게 시각적으로 매력적인 타임라인을 맞춤화하세요. 다음의 단계별 가이드를 살펴보세요.[Aspose.Tasks에서 타임라인 보기 사용자 정의](./timeline-views/).
 
 ## Aspose.Tasks에서 시간대별 데이터 처리## 
-Aspose.Tasks for .NET을 사용하면 시간대별 데이터를 손쉽게 관리하고, 프로젝트 계획을 개선하고, 리소스 관리를 최적화할 수 있습니다. 가이드를 탐색하여 통찰력을 발견하세요[Aspose.Tasks에서 시간대별 데이터 처리](./timephased-data/).
+Aspose.Tasks for .NET을 사용하면 시간대별 데이터를 손쉽게 관리하고, 프로젝트 계획을 개선하고, 리소스 관리를 최적화할 수 있습니다. 다음에 대한 가이드를 탐색하여 통찰력을 얻으십시오.[Aspose.Tasks에서 시간대별 데이터 처리](./timephased-data/).
 
 ## Aspose.Tasks에서 시간대별 데이터 수집## 
  단계별 가이드, FAQ 등을 통해 .NET용 Aspose.Tasks의 시간대별 데이터 수집 세계를 살펴보세요. 지금 탐색하여 프로젝트 관리 역량을 향상시키세요.[Aspose.Tasks에서 시간대별 데이터 수집](./timephased-data-collection/).

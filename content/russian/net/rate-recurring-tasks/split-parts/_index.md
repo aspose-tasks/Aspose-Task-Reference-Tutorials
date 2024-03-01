@@ -24,18 +24,18 @@ url: /ru/net/rate-recurring-tasks/split-parts/
     
 ```
 
-## Шаг 1. Создайте экземпляр проекта
+## Шаг 1. Создание экземпляра проекта
 ```csharp
 var project = new Project();
 ```
- Создайте новый экземпляр`Project` класс.класс.
+ Создайте новый экземпляр`Project` сорт.
 ## Шаг 2. Установка дат начала и окончания проекта
 ```csharp
 project.Set(Prj.StartDate, new DateTime(2000, 3, 15, 8, 0, 0));
 project.Set(Prj.FinishDate, new DateTime(2000, 3, 21, 17, 0, 0));
 ```
 Установите даты начала и окончания проекта.
-## Шаг 3. Добавление задачи
+## Шаг 3. Добавление задачи
 ```csharp
 var task = project.RootTask.Children.Add("Task1");
 ```
@@ -59,11 +59,11 @@ assignment.Set(Asn.Work, task.Get(Tsk.Work));
 assignment.Set(Asn.Finish, new DateTime(2000, 3, 19, 17, 0, 0));
 ```
 Установите такие свойства, как дата начала, работа и дата окончания для назначения.
-## Шаг 7: Генерация поэтапных данных
+## Шаг 7: Генерация повременных данных
 ```csharp
 assignment.TimephasedDataFromTaskDuration(project.Get(Prj.Calendar));
 ```
-Создавайте поэтапные данные для назначения на основе календаря проекта.
+Создавайте повременные данные для назначения на основе календаря проекта.
 ## Шаг 8: Разделение задачи
 ```csharp
 assignment.SplitTask(new DateTime(2000, 3, 16, 8, 0, 0), new DateTime(2000, 3, 17, 17, 0, 0), project.Get(Prj.Calendar));

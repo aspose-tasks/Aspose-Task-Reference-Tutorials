@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## 1. Adım: Belge Dizinini Ayarlayın
- Proje dosyalarınızla çalışmak için belirlenmiş bir dizininiz olduğundan emin olun. yer değiştirmek`"Your Document Directory"` belge dizininizin yolu ile.
+ Proje dosyalarınızla çalışmak için belirlenmiş bir dizininiz olduğundan emin olun. Yer değiştirmek`"Your Document Directory"` belge dizininizin yolu ile.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ C: Evet, Aspose.Tasks, Microsoft Project, Primavera ve daha fazlası dahil olmak
 ### S: Aspose.Tasks belgelerini nerede bulabilirim?
  C: Aspose.Tasks için ayrıntılı belgeler mevcut[Burada](https://reference.aspose.com/tasks/net/).
 ### S: Aspose.Tasks için nasıl destek alabilirim?
- C: Aspose.Tasks topluluk forumundan destek alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks lisansını nasıl satın alabilirim?
  C: Aspose.Tasks için lisansı şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).

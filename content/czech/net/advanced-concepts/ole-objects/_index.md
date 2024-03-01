@@ -15,7 +15,7 @@ Aspose.Tasks for .NET poskytuje komplexní funkce pro práci s objekty OLE (Obje
 
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 
-1. Instalace: Ujistěte se, že máte ve vývojovém prostředí nainstalovaný Aspose.Tasks for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
+1.  Instalace: Ujistěte se, že máte ve vývojovém prostředí nainstalovaný Aspose.Tasks for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
 
 2. Základní znalosti: Seznamte se s programovacím jazykem C# a koncepty frameworku .NET.
 
@@ -125,7 +125,7 @@ else
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali, jak efektivně pracovat s objekty OLE v Aspose.Tasks for .NET. Podle těchto podrobných příkladů můžete do svých aplikací .NET bez problémů integrovat možnosti správy objektů OLE a vylepšit tak jejich funkčnost a použitelnost.
+V tomto tutoriálu jsme prozkoumali, jak efektivně pracovat s objekty OLE v Aspose.Tasks for .NET. Podle těchto podrobných příkladů můžete do svých aplikací .NET bez problémů integrovat možnosti správy objektů OLE a vylepšit tak jejich funkčnost a použitelnost.
 
 ## FAQ
 

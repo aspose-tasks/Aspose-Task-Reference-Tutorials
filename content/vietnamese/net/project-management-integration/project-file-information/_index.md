@@ -31,12 +31,12 @@ Bây giờ, hãy chia mã ví dụ được cung cấp thành nhiều bước:
 // Đường dẫn đến thư mục tài liệu.
 string dataDir = "Your Document Directory";
 ```
- thay thế`"Your Document Directory"` với đường dẫn đến thư mục chứa tệp MS Project của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn đến thư mục chứa tệp MS Project của bạn.
 ## Bước 3: Truy xuất thông tin tệp dự án
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Dòng mã này lấy thông tin về tệp Dự án được chỉ định. thay thế`"Project.xml"` với tên tệp MS Project của bạn.
+ Dòng mã này lấy thông tin về tệp Dự án được chỉ định. Thay thế`"Project.xml"` với tên tệp MS Project của bạn.
 ## Bước 4: Hiển thị thông tin dự án
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);

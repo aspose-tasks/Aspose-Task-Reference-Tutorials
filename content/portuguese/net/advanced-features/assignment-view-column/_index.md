@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Etapa 3: definir coluna personalizada
 
- Agora, defina sua coluna personalizada criando uma instância de`AssignmentViewColumn`Esta classe requer o nome da coluna, a largura e uma função delegada para converter os dados de atribuição em texto da coluna:
+ Agora, defina sua coluna personalizada criando uma instância de`AssignmentViewColumn`. Esta classe requer o nome da coluna, a largura e uma função delegada para converter os dados de atribuição em texto da coluna:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

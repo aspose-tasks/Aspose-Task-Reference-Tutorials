@@ -34,14 +34,14 @@ resource.Set(Rsc.Workgroup, WorkGroupType.Web);
 Testreszabhatja a projekt- és erőforrás-beállításokat a konkrét projektigények alapján. Ez magában foglalhatja a feladatfüggőségek beállítását, a munkaidő meghatározását stb.
 Ha szükséges, ismételje meg ezeket a lépéseket több munkacsoporttípus kezeléséhez a projekten belül.
 ## Következtetés
-A munkacsoporttípusok hatékony kezelése létfontosságú a sikeres projektmenedzsmenthez. Az Aspose.Tasks for .NET leegyszerűsíti ezt a folyamatot, és megbízható megoldást kínál az erőforrások elosztására és a feladatkezelésre.
+munkacsoporttípusok hatékony kezelése létfontosságú a sikeres projektmenedzsmenthez. Az Aspose.Tasks for .NET leegyszerűsíti ezt a folyamatot, és megbízható megoldást kínál az erőforrások elosztására és a feladatkezelésre.
 ## GYIK
 ### Az Aspose.Tasks kompatibilis a .NET Core programmal?
 Igen, az Aspose.Tasks támogatja a .NET Core-t a hagyományos .NET-keretrendszer mellett.
 ### Beállíthatok több munkacsoporttípust egyetlen erőforráshoz?
 Igen, különböző munkacsoporttípusokat állíthat be egy erőforráshoz a projekt különböző szakaszaiban.
 ### Hol találok további támogatást az Aspose.Tasks számára?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
 ### Elérhető az Aspose.Tasks ingyenes próbaverziója?
  Igen, elérheti az ingyenes próbaverziót innen[itt](https://releases.aspose.com/).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?

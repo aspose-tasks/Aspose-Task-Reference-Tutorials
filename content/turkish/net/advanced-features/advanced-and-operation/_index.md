@@ -84,7 +84,7 @@ foreach (var task in collection)
 
 ## Çözüm
 
- Bu eğitimde Aspose.Tasks for .NET'te gelişmiş AND işlemlerinin nasıl gerçekleştirileceğini öğrendik. Koşulları birleştirerek`Util.And` sınıf, görevleri birden çok kritere göre verimli bir şekilde filtreleyebiliriz.
+ Bu eğitimde Aspose.Tasks for .NET'te gelişmiş AND işlemlerinin nasıl gerçekleştirileceğini öğrendik. Koşulları birleştirerek`Util.And`sınıf, görevleri birden çok kritere göre verimli bir şekilde filtreleyebiliriz.
 
 ## SSS'ler
 
@@ -106,4 +106,4 @@ C: Evet, Util.And karmaşık filtreleme kriterleri oluşturmak amacıyla herhang
 
 ### S5: Aspose.Tasks for .NET için nasıl destek alabilirim?
 
- C: Aspose.Tasks topluluk forumundan destek alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).

@@ -151,7 +151,7 @@ Cevap2: Kesinlikle Aspose.Tasks, Microsoft Project dosyalarından takvimlerin i�
 
 ### S3: Belirli bir takvimi bir projeden nasıl kaldırabilirim?
 
-Cevap3: Bir takvimi koleksiyondan alıp ardından çağrı yaparak kaldırabilirsiniz.`Remove` yöntem.
+ Cevap3: Bir takvimi koleksiyondan alıp ardından çağrı yaparak kaldırabilirsiniz.`Remove` yöntem.
 
 ### S4: Aspose.Tasks takvimlerin farklı formatlara aktarılmasını destekliyor mu?
 

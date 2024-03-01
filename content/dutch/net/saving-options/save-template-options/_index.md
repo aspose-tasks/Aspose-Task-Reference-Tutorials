@@ -75,4 +75,4 @@ A: Ja, u kunt sjablonen toepassen op bestaande projecten door het sjabloonbestan
 ### Vraag: Ondersteunt Aspose.Tasks voor .NET platformonafhankelijke ontwikkeling?
 A: Aspose.Tasks voor .NET is voornamelijk ontworpen voor .NET-framework-applicaties die op Windows-platforms draaien.
 ### Vraag: Is er technische ondersteuning beschikbaar voor Aspose.Tasks voor .NET?
- A: Ja, u kunt technische hulp en begeleiding zoeken bij de Aspose.Tasks-gemeenschap.[forums](https://forum.aspose.com/c/tasks/15) of neem rechtstreeks contact op met hun ondersteuningsteam.
+ A: Ja, u kunt technische hulp en begeleiding zoeken bij de Aspose.Tasks-gemeenschap[forums](https://forum.aspose.com/c/tasks/15)of neem rechtstreeks contact op met hun ondersteuningsteam.

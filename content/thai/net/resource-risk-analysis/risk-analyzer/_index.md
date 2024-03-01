@@ -58,7 +58,7 @@ var analysisResult = analyzer.Analyze(project);
 var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
 ```
 ## ขั้นตอนที่ 5: ดึงผลการวิเคราะห์
-ดึงและแสดงผลการวิเคราะห์ เช่น ค่าที่คาดหวังและเปอร์เซ็นไทล์
+ดึงข้อมูลและแสดงผลการวิเคราะห์ เช่น ค่าที่คาดหวังและเปอร์เซ็นไทล์
 ```csharp
 Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
 Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);

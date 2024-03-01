@@ -38,7 +38,7 @@ Definieren Sie den Pfad zu dem Verzeichnis, in dem sich Ihre MS Project-Datei be
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
+ Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
 ## Schritt 2: Laden Sie die Projektdatei
  Laden Sie die MS Project-Datei mit`Project` Klasse:
 ```csharp

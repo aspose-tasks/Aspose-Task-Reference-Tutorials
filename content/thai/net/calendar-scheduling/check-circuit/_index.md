@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## ขั้นตอนที่ 1: โหลดไฟล์โครงการ
 
- เริ่มต้นด้วยการโหลดไฟล์ Microsoft Project (.mpp) ที่คุณต้องการตรวจสอบโครงสร้างที่เสียหาย ใช้`Project` คลาสเพื่อโหลดไฟล์
+เริ่มต้นด้วยการโหลดไฟล์ Microsoft Project (.mpp) ที่คุณต้องการตรวจสอบโครงสร้างที่เสียหาย ใช้`Project` คลาสเพื่อโหลดไฟล์
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## ขั้นตอนที่ 2: ตรวจสอบโครงสร้างโครงการ
 
- ในการตรวจจับโครงสร้างที่เสียหายภายในโครงการ เราจะใช้`CheckCircuit` ชั้นเรียนไปด้วย`TaskUtils.Apply` วิธี.
+ ในการตรวจจับโครงสร้างที่เสียหายภายในโครงการ เราจะใช้`CheckCircuit` ชั้นเรียนพร้อมกับ`TaskUtils.Apply` วิธี.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ catch (TasksException ex)
 
 ### คำถามที่ 3: ฉันจะได้รับการสนับสนุนสำหรับ Aspose.Tasks สำหรับ .NET ได้อย่างไร
 
-A3: คุณสามารถขอความช่วยเหลือได้จากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+ A3: คุณสามารถขอความช่วยเหลือได้จากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
 
 ### คำถามที่ 4: ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวเพื่อการทดสอบหรือไม่
 

@@ -11,7 +11,7 @@ url: /sv/net/text-view-configuration/usage-views/
 Om du är en .NET-utvecklare som vill förbättra dina projektledningsmöjligheter, är Aspose.Tasks ett kraftfullt verktyg som låter dig manipulera Microsoft Project-filer utan ansträngning. I den här handledningen kommer vi att fokusera på att konfigurera användningsvyer med Aspose.Tasks för .NET. Följ med för att få insikter i hur du renderar uppgiftsanvändningsvyer med detaljer för bättre projektvisualisering.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
-- Aspose.Tasks Library: Se till att du har Aspose.Tasks-biblioteket integrerat i ditt .NET-projekt. Om inte kan du ladda ner den[här](https://releases.aspose.com/tasks/net/) och följ installationsanvisningarna.
+-  Aspose.Tasks Library: Se till att du har Aspose.Tasks-biblioteket integrerat i ditt .NET-projekt. Om inte kan du ladda ner den[här](https://releases.aspose.com/tasks/net/) och följ installationsanvisningarna.
 - Dokumentkatalog: Skapa en katalog där dina projektdokument lagras. Ersätt "Din dokumentkatalog" i kodavsnitten med den faktiska sökvägen till din dokumentkatalog.
 ## Importera namnområden
 I kodavsnittet som tillhandahålls kommer du att märka användningen av vissa namnområden. Se till att inkludera dessa i ditt projekt för sömlös integration:

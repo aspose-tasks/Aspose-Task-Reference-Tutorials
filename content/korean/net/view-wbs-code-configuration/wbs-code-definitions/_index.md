@@ -12,7 +12,7 @@ url: /ko/net/view-wbs-code-configuration/wbs-code-definitions/
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 - .NET 개발에 대한 실무 지식.
-- .NET 라이브러리용 Aspose.Tasks가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
+-  .NET 라이브러리용 Aspose.Tasks가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
 - 코드 편집기(Visual Studio 권장)
 ## 네임스페이스 가져오기
 .NET 프로젝트에서 필요한 네임스페이스를 가져오는 것부터 시작하세요.
@@ -70,7 +70,7 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 이 튜토리얼에서는 WBS 코드 정의에 있어 .NET용 Aspose.Tasks의 강력한 기능을 살펴보았습니다. 다음 단계를 수행하면 프로젝트 관리 기능을 향상시켜 워크플로우에 구조와 효율성을 더할 수 있습니다.
 ## 자주 묻는 질문
 ### Aspose.Tasks는 모든 .NET 버전과 호환됩니까?
-예, Aspose.Tasks는 다양한 .NET 버전을 지원하여 광범위한 개발 환경과의 호환성을 보장합니다.
+예, Aspose.Tasks는 다양한 .NET 버전을 지원하여 다양한 개발 환경과의 호환성을 보장합니다.
 ### WBS 코드 형식을 추가로 사용자 정의할 수 있나요?
 전적으로. Aspose.Tasks는 광범위한 유연성을 제공하므로 특정 프로젝트 요구 사항에 맞게 WBS 코드를 맞춤화할 수 있습니다.
 ### 정의할 수 있는 WBS 코드 수에 제한이 있습니까?

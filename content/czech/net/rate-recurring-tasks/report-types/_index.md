@@ -12,7 +12,7 @@ Aspose.Tasks for .NET je výkonná knihovna, která umožňuje vývojářům sna
 ## Předpoklady
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
 ### 1. Nainstalujte Aspose.Tasks for .NET
-Ujistěte se, že jste nainstalovali Aspose.Tasks for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
+ Ujistěte se, že jste nainstalovali Aspose.Tasks for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
 ### 2. Získejte licenci (volitelné)
  Pokud používáte Aspose.Tasks v komerčním projektu, budete potřebovat licenci. Licenci si můžete zakoupit od[tady](https://purchase.aspose.com/buy) nebo můžete požádat o dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### 3. Nastavte své vývojové prostředí

@@ -8,7 +8,7 @@ weight: 18
 url: /pl/net/tasks-project-management/filter-criteria/
 ---
 ## Wstęp
-W dziedzinie zarządzania projektami Microsoft Project jest niezawodnym narzędziem oferującym mnóstwo funkcji ułatwiających planistom i menedżerom projektów. Wśród wielu funkcjonalności znajduje się możliwość filtrowania danych projektowych, dzięki czemu użytkownicy mogą skupić się na konkretnych aspektach zadań projektowych. Jednakże opanowanie tych możliwości filtrowania może być trudnym zadaniem bez odpowiednich wskazówek. Ten samouczek ma na celu objaśnienie tego procesu poprzez przedstawienie przewodnika krok po kroku dotyczącego wdrażania filtrów kryteriów w MS Project przy użyciu Aspose.Tasks dla .NET.
+W dziedzinie zarządzania projektami Microsoft Project jest niezawodnym narzędziem oferującym mnóstwo funkcji ułatwiających planistom i menedżerom projektów. Wśród wielu funkcjonalności znajduje się możliwość filtrowania danych projektowych, dzięki czemu użytkownicy mogą skupić się na konkretnych aspektach zadań projektowych. Jednakże opanowanie tych możliwości filtrowania może być trudnym zadaniem bez odpowiednich wskazówek. Ten samouczek ma na celu objaśnienie tego procesu poprzez przedstawienie przewodnika krok po kroku dotyczącego wdrażania kryteriów filtrowania w MS Project przy użyciu Aspose.Tasks dla .NET.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 1. Podstawowa znajomość języka C#: Znajomość języka programowania C# jest konieczna, aby zrozumieć koncepcje omówione w tym samouczku.
@@ -51,7 +51,7 @@ foreach (var row in filter.Criteria.CriteriaRows)
     Console.WriteLine("Value{0}: {1}", values.Length == 1 ? "" : "s", string.Join(", ", values));
 }
 ```
-Objaśnienie: Ta sekcja iteruje po każdym wierszu kryteriów filtra i wyświetla jego pole, operację, test i wartości (jeśli istnieją).
+Objaśnienie: Ta sekcja przegląda każdy wiersz kryteriów filtru i wyświetla jego pole, operację, test i wartości (jeśli istnieją).
 ## Krok 4: Wydrukuj kryteria filtra
 ```csharp
 Console.WriteLine(filter.Criteria.Operation.ToString());

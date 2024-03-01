@@ -1,6 +1,6 @@
 ---
-title: Configurer les options d'affichage de MS Project dans Aspose.Tasks
-linktitle: Configurer les options d'affichage du projet dans Aspose.Tasks
+title: Configuration des options d'affichage de MS Project dans Aspose.Tasks
+linktitle: Configuration des options d'affichage du projet dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les options d'affichage de MS Project par programme à l'aide d'Aspose.Tasks pour .NET. Personnalisez l'apparence de votre projet sans effort.
 type: docs
@@ -78,7 +78,7 @@ Dans ce didacticiel, nous avons appris à configurer les options d'affichage de 
 ### Q : Puis-je appliquer ces options d'affichage à des tâches spécifiques uniquement ?
 R : Oui, vous pouvez appliquer de manière sélective des options d'affichage à des tâches individuelles à l'aide de l'API Aspose.Tasks.
 ### Q : Ces options d'affichage affectent-elles les données du projet sous-jacentes ?
-R : Non, ces options modifient uniquement la représentation visuelle du projet et n'altèrent pas les données sous-jacentes.
+: Non, ces options modifient uniquement la représentation visuelle du projet et n'altèrent pas les données sous-jacentes.
 ### Q : Ces options d'affichage sont-elles compatibles avec toutes les versions de Microsoft Project ?
 R : Non, certaines options peuvent être spécifiques à certaines versions de MS Project. Reportez-vous à la documentation pour plus de détails sur la compatibilité.
 ### Q : Puis-je rétablir les options d'affichage aux paramètres par défaut ?

@@ -93,4 +93,4 @@ A1: Aspose.Tasks поддерживает различные версии фай
 
 ### В5: Где я могу приобрести лицензию на Aspose.Tasks?
 
- A5: Вы можете приобрести лицензию на Aspose.Tasks на сайте[здесь](https://purchase.aspose.com/buy)
+ A5: Вы можете приобрести лицензию на Aspose.Tasks на сайте.[здесь](https://purchase.aspose.com/buy)

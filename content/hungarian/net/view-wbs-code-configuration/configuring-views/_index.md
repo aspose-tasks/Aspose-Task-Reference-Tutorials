@@ -1,6 +1,6 @@
 ---
 title: Microsoft Project Views elsajátítása az Aspose.Tasks segítségével
-linktitle: Állítsa be a nézeteket az Aspose.Tasks alkalmazásban
+linktitle: Nézetek konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Sajátítsa el a Microsoft Project nézeteit az Aspose.Tasks for .NET segítségével. Könnyedén testreszabhatja és egyszerűsítheti projektmenedzsment-élményét.
 type: docs
@@ -8,7 +8,7 @@ weight: 10
 url: /hu/net/view-wbs-code-configuration/configuring-views/
 ---
 ## Bevezetés
-projektmenedzsment dinamikus világában a Microsoft Project nézeteinek testreszabása jelentősen javíthatja a munkafolyamatot. Az Aspose.Tasks for .NET hatékony eszközkészletet biztosít a projektnézetek zökkenőmentes kezeléséhez és konfigurálásához. Ebben az oktatóanyagban a nézetek Aspose.Tasks for .NET használatával konfigurálásának lépéseibe fogunk belemenni, ami segít a projektek vizualizációjának egyszerűsítésében.
+A projektmenedzsment dinamikus világában a Microsoft Project nézeteinek testreszabása jelentősen javíthatja a munkafolyamatot. Az Aspose.Tasks for .NET hatékony eszközkészletet biztosít a projektnézetek zökkenőmentes kezeléséhez és konfigurálásához. Ebben az oktatóanyagban a nézetek Aspose.Tasks for .NET használatával konfigurálásának lépéseibe fogunk belemenni, ami segít a projektek vizualizációjának egyszerűsítésében.
 ## Előfeltételek
 Mielőtt nekivágnánk ennek az útnak, győződjön meg arról, hogy a következő előfeltételeket teljesíti:
 -  Aspose.Tasks for .NET Library: Töltse le és telepítse a könyvtárat innen[itt](https://releases.aspose.com/tasks/net/).
@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Egyetlen nézethez jelölje ki a szűrőt
 ## 4. lépés: Hangolja be a nézetbeállításokat
 ```csharp
 // Hangoljon be néhány nézetbeállítást
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Állítsa be az összes oldalra nyomtatandó első oszlopok számát
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Állítsa be az összes oldalra nyomtatandó első oszlopok számát
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Nyomtasson meghatározott számú első oszlopot az összes oldalra
 ```
 ## 5. lépés: Nézet hozzáadása a projekthez
 ```csharp
-//Adja hozzá a nézetet a projektünkhöz
+// Adja hozzá a nézetet a projektünkhöz
 project.Views.Add(view);
 ```
 ## 6. lépés: Mentse el a projektet az új nézetben
@@ -73,8 +73,8 @@ Az Aspose.Tasks elsősorban a Microsoft Project számára készült, biztosítva
 ### Létezik ingyenes próbaverzió az Aspose.Tasks for .NET számára?
  Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért, vagy fontolja meg támogatási tervek vásárlását.
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért, vagy fontolja meg támogatási tervek vásárlását.
 ### Tovább szabhatom a nézetek megjelenését?
- Feltétlenül mélyedjen el az Aspose.Tasks dokumentációjában[itt](https://reference.aspose.com/tasks/net/) speciális testreszabási lehetőségekért.
+ Feltétlenül mélyedjen el az Aspose.Tasks dokumentációjában[itt](https://reference.aspose.com/tasks/net/) a speciális testreszabási lehetőségekért.
 ### Hol vásárolhatom meg az Aspose.Tasks-t .NET-hez?
  Meg lehet vásárolni a könyvtárat[itt](https://purchase.aspose.com/buy) a zökkenőmentes projektmenedzsment tapasztalatért.

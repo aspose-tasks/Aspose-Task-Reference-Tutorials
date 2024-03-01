@@ -11,7 +11,7 @@ url: /vi/net/text-view-configuration/text-item-types/
 Nếu bạn là nhà phát triển .NET đang nghiên cứu quản lý dự án bằng Aspose.Tasks, thì bạn đã đến đúng nơi! Trong hướng dẫn từng bước này, chúng ta sẽ khám phá sự phức tạp của việc xử lý các loại mục văn bản trong Aspose.Tasks, tập trung vào việc tùy chỉnh bằng thư viện .NET mạnh mẽ.
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có những điều sau:
-1. Aspose.Tasks for .NET Library: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Tasks. Nếu không, bạn có thể tải xuống[đây](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Library: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Tasks. Nếu không, bạn có thể tải xuống[đây](https://releases.aspose.com/tasks/net/).
 2. Thư mục Tài liệu: Thiết lập một thư mục cho các tài liệu dự án của bạn.
 Bây giờ, hãy đi sâu vào cách xử lý các loại mục văn bản.
 ## Nhập không gian tên
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Áp dụng kiểu văn bản đã xác định cho dự án của bạn và lưu dự án tùy chỉnh dưới dạng tệp PDF.
 Lặp lại các bước này cho các nhu cầu tùy chỉnh khác, thử nghiệm với các loại mục văn bản, kiểu phông chữ và màu sắc khác nhau.
 ## Phần kết luận
- Chúc mừng! Bạn vừa mới bắt đầu xử lý các loại mục văn bản trong Aspose.Tasks cho .NET. Khi bạn tiếp tục khám phá, hãy tham khảo[tài liệu](https://reference.aspose.com/tasks/net/) để có những hiểu biết sâu sắc.
+Chúc mừng! Bạn vừa mới bắt đầu xử lý các loại mục văn bản trong Aspose.Tasks cho .NET. Khi bạn tiếp tục khám phá, hãy tham khảo[tài liệu](https://reference.aspose.com/tasks/net/) để có những hiểu biết sâu sắc.
 ### Câu hỏi thường gặp
 ### Hỏi: Tôi có thể sử dụng Aspose.Tasks miễn phí không?
  Đáp: Aspose.Tasks cung cấp bản dùng thử miễn phí. Lấy nó[đây](https://releases.aspose.com/).

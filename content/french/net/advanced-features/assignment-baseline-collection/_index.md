@@ -9,7 +9,7 @@ url: /fr/net/advanced-features/assignment-baseline-collection/
 ---
 ## Introduction
 
-Dans le domaine de la gestion de projet, le suivi et la gestion des références des missions sont essentiels pour garantir le succès du projet et le respect des délais. Aspose.Tasks for .NET offre un ensemble robuste de fonctionnalités pour faciliter la gestion efficace des lignes de base d'affectation au sein des projets. Dans ce didacticiel, nous aborderons les subtilités de l'utilisation des collections de référence d'affectation à l'aide d'Aspose.Tasks pour .NET.
+Dans le domaine de la gestion de projet, le suivi et la gestion des références des missions sont essentiels pour garantir le succès du projet et le respect des délais. Aspose.Tasks for .NET offre un ensemble robuste de fonctionnalités pour faciliter une gestion efficace des lignes de base d'affectation au sein des projets. Dans ce didacticiel, nous aborderons les subtilités de l'utilisation des collections de référence d'affectation à l'aide d'Aspose.Tasks pour .NET.
 
 ## Conditions préalables
 

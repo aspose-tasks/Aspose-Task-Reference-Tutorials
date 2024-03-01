@@ -27,9 +27,9 @@ Nejprve načtěte soubor MS Project pomocí Aspose.Tasks:
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- nahradit`"Your Document Directory"`se skutečnou cestou k adresáři, kde se nachází váš soubor MS Project.
+ Nahradit`"Your Document Directory"`se skutečnou cestou k adresáři, kde se nachází váš soubor MS Project.
 ## Krok 2: Definujte možnosti uložení
- Definujte možnosti uložení Spreadsheet 2003 vytvořením instance`Spreadsheet2003SaveOptions`,
+ Definujte možnosti uložení Spreadsheet 2003 vytvořením instance`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ Využití Aspose.Tasks pro .NET, konkrétně Spreadsheet 2003 Save MS Project Op
 ### Otázka: Lze Aspose.Tasks for .NET používat ve webových i desktopových aplikacích?
 Odpověď: Ano, Aspose.Tasks for .NET lze bez problémů integrovat do webových i desktopových aplikací a poskytovat konzistentní funkce napříč platformami.
 ### Otázka: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
- Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks pro .NET z webu[webová stránka](https://releases.aspose.com/), což vám umožní prozkoumat jeho funkce před nákupem.
+Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks pro .NET z webu[webová stránka](https://releases.aspose.com/), což vám umožní prozkoumat jeho funkce před nákupem.
 ### Otázka: Existují nějaká omezení pro přizpůsobení sloupců zobrazení pomocí Aspose.Tasks pro .NET?
 Odpověď: Aspose.Tasks for .NET nabízí rozsáhlé možnosti přizpůsobení pro sloupce zobrazení s minimálními omezeními. Složité úpravy však mohou vyžadovat pokročilé znalosti knihovny.
 ### Otázka: Mohu požádat o pomoc, pokud při používání Aspose.Tasks pro .NET narazím na problémy?

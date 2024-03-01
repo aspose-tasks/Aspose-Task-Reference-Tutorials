@@ -9,7 +9,7 @@ url: /fr/net/advanced-features/repetition-by-year-day/
 ---
 ## Introduction
 
-Dans le domaine de la gestion de projet, une planification efficace des tâches et leur récurrence jouent un rôle essentiel pour garantir une exécution rapide et un flux de travail fluide. Aspose.Tasks for .NET offre une solution robuste permettant aux développeurs de gérer sans effort les tâches récurrentes au sein de leurs applications. Dans ce didacticiel, nous approfondissons les subtilités du travail avec des répétitions quotidiennes annuelles à l'aide d'Aspose.Tasks, fournissant un guide complet pour créer des tâches récurrentes basées sur des modèles annuels.
+Dans le domaine de la gestion de projet, une planification efficace des tâches et leur récurrence jouent un rôle essentiel pour garantir une exécution rapide et un flux de travail fluide. Aspose.Tasks for .NET offre une solution robuste permettant aux développeurs de gérer sans effort les tâches récurrentes au sein de leurs applications. Dans ce didacticiel, nous approfondissons les subtilités du travail avec les répétitions des jours de l'année à l'aide d'Aspose.Tasks, fournissant un guide complet pour créer des tâches récurrentes basées sur des modèles annuels.
 
 ## Conditions préalables
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- Dans cette étape, nous définissons les paramètres de notre tâche récurrente. Nous spécifions le nom de la tâche, la durée et le modèle de récurrence. Pour la récurrence annuelle, nous utilisons le`YearlyRecurrencePattern` et définissez la répétition pour qu'elle se produise le 1er juillet en utilisant`ByYearDayRepetition`, De plus, nous définissons la plage de récurrence du 1er juillet 2018 au 1er juillet 2019.
+ Dans cette étape, nous définissons les paramètres de notre tâche récurrente. Nous spécifions le nom de la tâche, la durée et le modèle de récurrence. Pour la récurrence annuelle, nous utilisons le`YearlyRecurrencePattern` et définissez la répétition pour qu'elle se produise le 1er juillet en utilisant`ByYearDayRepetition`. De plus, nous définissons la plage de récurrence du 1er juillet 2018 au 1er juillet 2019.
 
 ## Étape 3 : ajouter une tâche au projet
 

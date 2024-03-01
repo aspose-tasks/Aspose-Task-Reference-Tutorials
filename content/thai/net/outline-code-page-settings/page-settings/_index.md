@@ -1,6 +1,6 @@
 ---
 title: กำหนดการตั้งค่าหน้าโครงการ MS ด้วย Aspose.Tasks
-linktitle: กำหนดการตั้งค่าเพจใน Aspose.Tasks
+linktitle: การกำหนดการตั้งค่าเพจใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดการตั้งค่าหน้า MS Project โดยใช้ Aspose.Tasks สำหรับ .NET ปรับแต่งการวางแนว ขนาด และอื่นๆ ด้วยขั้นตอนง่ายๆ
 type: docs
@@ -15,7 +15,7 @@ url: /th/net/outline-code-page-settings/page-settings/
 2. สภาพแวดล้อมการพัฒนา: มีสภาพแวดล้อมการพัฒนาที่ตั้งค่าด้วย Visual Studio หรือ IDE ที่ต้องการอื่นๆ สำหรับการพัฒนา .NET
 
 ## การนำเข้าเนมสเปซ
-ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ของคุณ เนมสเปซเหล่านี้ให้การเข้าถึงคลาส Aspose.Tasks และวิธีการที่จำเป็นสำหรับการจัดการไฟล์ MS Project
+ในการเริ่มต้น คุณต้องนำเข้าเนมสเปซที่จำเป็นในโปรเจ็กต์ของคุณ เนมสเปซเหล่านี้ให้การเข้าถึงคลาส Aspose.Tasks และวิธีการที่จำเป็นสำหรับการจัดการไฟล์ MS Project
 ```csharp
 using Aspose.Tasks;
 using System.Linq;

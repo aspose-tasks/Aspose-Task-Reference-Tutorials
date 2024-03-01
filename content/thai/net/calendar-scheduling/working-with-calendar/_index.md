@@ -244,7 +244,7 @@ public void WriteUpdatedCalendarDataToMpp()
     }
     catch (NotSupportedException ex)
     {
-        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://buy.aspose.com/temporary-license/");
+        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://buy.aspose.com/temporary-license/)");
     }
 }
 ```
@@ -326,7 +326,7 @@ public void GetBaseResourceCalendar()
 คำอธิบาย:
 - โหลดไฟล์โครงการ
 - เพิ่มทรัพยากรและปฏิทิน
-- พิมพ์ชื่อปฏิทินพื้นฐานสำหรับทรัพยากรทั้งหมด
+- พิมพ์ชื่อปฏิทินฐานสำหรับทรัพยากรทั้งหมด
 
 ## ขั้นตอนที่ 10: ลบปฏิทิน
 
@@ -372,7 +372,7 @@ public void GetFinishDateByStartAndWork()
 
 ## ขั้นตอนที่ 12: เริ่มต้นวันทำการถัดไป
 
-เมื่อต้องการเริ่มต้นวันทำงานถัดไปโดยใช้ปฏิทิน ให้ทำตามขั้นตอนเหล่านี้:
+เมื่อต้องการเริ่มต้นวันทำการถัดไปโดยใช้ปฏิทิน ให้ทำตามขั้นตอนเหล่านี้:
 
 ```csharp
 public void GetNextWorking

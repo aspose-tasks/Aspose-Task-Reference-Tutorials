@@ -57,10 +57,10 @@ I den här handledningen utforskade vi rikedomen i Aspose.Tasks för .NET, med f
 ### Kan jag använda Aspose.Tasks för .NET med andra projekthanteringsverktyg?
 Aspose.Tasks fokuserar främst på .NET-applikationer. Du kan dock exportera data till olika format som är kompatibla med andra verktyg.
 ### Finns en gratis testversion tillgänglig för Aspose.Tasks för .NET?
-Ja, du kan uppleva funktionerna i Aspose.Tasks för .NET genom att få en gratis provperiod[här](https://releases.aspose.com/).
+ Ja, du kan uppleva funktionerna i Aspose.Tasks för .NET genom att få en gratis provperiod[här](https://releases.aspose.com/).
 ### Hur kan jag få support för Aspose.Tasks för .NET?
- besök[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) för gemenskapsbaserat stöd eller utforska den omfattande dokumentationen.
+ Besök[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15) för gemenskapsbaserat stöd eller utforska den omfattande dokumentationen.
 ### Finns tillfälliga licenser tillgängliga för Aspose.Tasks för .NET?
- Ja, du kan skaffa tillfälliga licenser[här](https://purchase.aspose.com/temporary-license/) för kortvarigt bruk.
+ Ja, du kan skaffa tillfälliga licenser[här](https://purchase.aspose.com/temporary-license/) för kortvarig användning.
 ### Vilka filformat stöds för projektdokument?
 Aspose.Tasks för .NET stöder olika format, inklusive MPP, XML och CSV.

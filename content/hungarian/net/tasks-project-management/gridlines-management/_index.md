@@ -2,7 +2,7 @@
 title: A projekt rácsvonalainak testreszabása az Aspose.Tasks segítségével .NET-hez
 linktitle: Gridlines Management az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan módosíthatja programozottan a rácsvonal-beállításokat a Microsoft Project-fájlokban az Aspose.Tasks for .NET használatával, valamint a projektek vizualizálásával és kezelésének hatékonyságával.
+description: Ismerje meg, hogyan módosíthatja programozottan a rácsvonal-beállításokat a Microsoft Project-fájlokban az Aspose.Tasks for .NET segítségével, valamint a projektek megjelenítése és a kezelés hatékonysága.
 type: docs
 weight: 24
 url: /hu/net/tasks-project-management/gridlines-management/

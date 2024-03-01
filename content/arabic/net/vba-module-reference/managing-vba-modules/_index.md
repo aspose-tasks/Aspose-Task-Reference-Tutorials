@@ -71,6 +71,6 @@ foreach (var module in project.VbaProject.Modules)
 ### أين يمكنني العثور على أمثلة ووثائق إضافية لـ Aspose.Tasks؟
  قم بزيارة[توثيق](https://reference.aspose.com/tasks/net/) للحصول على أمثلة وإرشادات شاملة.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Tasks؟
- نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
+نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم أو طلب المساعدة في أي مشكلة تتعلق بـ Aspose.Tasks؟
- لا تتردد في الزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)لدعم المجتمع.
+لا تتردد في زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع.

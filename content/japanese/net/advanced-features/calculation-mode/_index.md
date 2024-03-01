@@ -34,7 +34,7 @@ using System;
 
 ### ステップ 1: 新しいプロジェクト インスタンスを作成する
 
-新しいものを初期化する`Project`オブジェクトを作成し、そのオブジェクトを設定します`CalculationMode`財産を`CalculationMode.Automatic`.
+新しいものを初期化する`Project`オブジェクトを設定し、`CalculationMode`財産を`CalculationMode.Automatic`.
 
 ```csharp
 var project = new Project
@@ -74,7 +74,7 @@ Console.WriteLine("Task1 Start + 1 Equals Task2 Start : {0} ", task1.Get(Tsk.Sta
 
 ### ステップ 1: 新しいプロジェクト インスタンスを作成する
 
-新しいものを初期化する`Project`オブジェクトを作成し、そのオブジェクトを設定します`CalculationMode`財産を`CalculationMode.Manual`.
+新しいものを初期化する`Project`オブジェクトを設定し、`CalculationMode`財産を`CalculationMode.Manual`.
 
 ```csharp
 var project = new Project
@@ -114,7 +114,7 @@ project.TaskLinks.Add(task1, task2, TaskLinkType.FinishToStart);
 
 ### ステップ 1: 新しいプロジェクト インスタンスを作成する
 
-新しいものを初期化する`Project`オブジェクトを作成し、そのオブジェクトを設定します`CalculationMode`財産を`CalculationMode.None`.
+新しいものを初期化する`Project`オブジェクトを設定し、`CalculationMode`財産を`CalculationMode.None`.
 
 ```csharp
 var project = new Project

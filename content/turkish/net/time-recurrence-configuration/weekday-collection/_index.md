@@ -8,7 +8,7 @@ weight: 11
 url: /tr/net/time-recurrence-configuration/weekday-collection/
 ---
 ## giriiş
-Aspose.Tasks for .NET, proje yönetimi verilerinin verimli şekilde değiştirilmesini kolaylaştıran güçlü bir kütüphanedir. Bu eğitimde, Aspose.Tasks'teki hafta içi gün koleksiyonunu keşfederek çalışma günlerini özelleştirmenize, hafta sonlarını kaldırmanıza ve proje gereksinimlerinizi karşılamak için özel takvimler oluşturmanıza olanak sağlayacağız. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu adım adım kılavuz Aspose.Tasks for .NET'te hafta içi çalışma sürecinde size yol gösterecektir.
+Aspose.Tasks for .NET, proje yönetimi verilerinin verimli şekilde değiştirilmesini kolaylaştıran güçlü bir kütüphanedir. Bu derste, Aspose.Tasks'teki hafta içi gün koleksiyonunu keşfederek çalışma günlerini özelleştirmenize, hafta sonlarını kaldırmanıza ve proje gereksinimlerinizi karşılamak için özel takvimler oluşturmanıza olanak sağlayacağız. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu adım adım kılavuz Aspose.Tasks for .NET'te hafta içi çalışma sürecinde size yol gösterecektir.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 -  Aspose.Tasks for .NET kitaplığını yükleyin. adresinden indirebilirsiniz.[Aspose.Tasks for .NET indirme sayfası](https://releases.aspose.com/tasks/net/).

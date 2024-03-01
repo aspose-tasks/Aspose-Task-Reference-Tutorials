@@ -89,7 +89,7 @@ R : Oui, Aspose.Tasks pour .NET est compatible avec divers frameworks .NET, nota
 ### Q : Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour .NET ?
  R : Oui, vous pouvez obtenir un essai gratuit auprès de[ici](https://releases.aspose.com/).
 ### Q : Aspose.Tasks pour .NET prend-il en charge la gestion des ressources ?
-R : Oui, Aspose.Tasks for .NET vous permet de gérer efficacement les ressources du projet.
+: Oui, Aspose.Tasks for .NET vous permet de gérer efficacement les ressources du projet.
 ### Q : Puis-je personnaliser les calendriers de projet à l’aide d’Aspose.Tasks pour .NET ?
 R : Absolument, vous pouvez personnaliser les calendriers de projet en fonction des exigences de votre projet.
 ### Q : Où puis-je trouver de l'assistance pour Aspose.Tasks pour .NET ?

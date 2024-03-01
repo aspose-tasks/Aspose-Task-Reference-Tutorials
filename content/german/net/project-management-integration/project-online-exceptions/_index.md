@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## Schritt 1: Dokumentenverzeichnis einrichten
- Stellen Sie sicher, dass Sie über ein bestimmtes Verzeichnis zum Arbeiten mit Ihren Projektdateien verfügen. ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrem Dokumentenverzeichnis.
+ Stellen Sie sicher, dass Sie über ein bestimmtes Verzeichnis zum Arbeiten mit Ihren Projektdateien verfügen. Ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrem Dokumentenverzeichnis.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ A: Ja, Aspose.Tasks bietet umfassende Unterstützung für die Arbeit mit verschi
 ### F: Wo finde ich Dokumentation für Aspose.Tasks?
  A: Eine ausführliche Dokumentation für Aspose.Tasks ist verfügbar[Hier](https://reference.aspose.com/tasks/net/).
 ### F: Wie kann ich Unterstützung für Aspose.Tasks erhalten?
- A: Sie können Unterstützung vom Aspose.Tasks-Community-Forum erhalten.[Hier](https://forum.aspose.com/c/tasks/15).
+A: Sie können Unterstützung vom Aspose.Tasks-Community-Forum erhalten[Hier](https://forum.aspose.com/c/tasks/15).
 ### F: Wie kaufe ich eine Lizenz für Aspose.Tasks?
  A: Sie können eine Lizenz für Aspose.Tasks erwerben[Kaufseite](https://purchase.aspose.com/buy).

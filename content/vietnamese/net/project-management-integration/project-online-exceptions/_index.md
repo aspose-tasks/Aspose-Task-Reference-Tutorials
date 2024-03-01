@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## Bước 1: Thiết lập thư mục tài liệu
- Đảm bảo bạn có một thư mục được chỉ định để làm việc với các tệp Dự án của mình. thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn.
+ Đảm bảo bạn có một thư mục được chỉ định để làm việc với các tệp Dự án của mình. Thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ Trả lời: Có, Aspose.Tasks cung cấp hỗ trợ rộng rãi để làm vi�
 ### Câu hỏi: Tôi có thể tìm tài liệu về Aspose.Tasks ở đâu?
  Đáp: Đã có tài liệu chi tiết về Aspose.Tasks[đây](https://reference.aspose.com/tasks/net/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks?
- Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15).
+Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Làm cách nào để mua giấy phép cho Aspose.Tasks?
  Trả lời: Bạn có thể mua giấy phép cho Aspose.Tasks từ[trang mua hàng](https://purchase.aspose.com/buy).

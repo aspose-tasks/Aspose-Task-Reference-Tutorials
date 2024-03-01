@@ -9,7 +9,7 @@ url: /tr/net/advanced-features/assignment-baseline/
 ---
 ## giriiş
 
-Proje yönetimi görevleri üzerinde çalışırken, atama temel çizgilerini yönetmek, ilerlemenin doğru şekilde izlenmesi açısından çok önemlidir. Aspose.Tasks for .NET, atama temellerini verimli bir şekilde yönetmek için kapsamlı bir araç seti sağlar. Bu öğreticide, atama temellerini adım adım yönetme sürecini ele alacağız.
+Proje yönetimi görevleri üzerinde çalışırken, ilerlemeyi doğru bir şekilde izlemek için atama temellerini yönetmek çok önemlidir. Aspose.Tasks for .NET, atama temellerini verimli bir şekilde yönetmek için kapsamlı bir araç seti sağlar. Bu öğreticide, atama temellerini adım adım yönetme sürecini ele alacağız.
 
 ## Önkoşullar
 
@@ -114,11 +114,11 @@ C2: Evet, Aspose.Tasks, XML, MPX ve MPP dahil çok çeşitli proje dosyası form
 
 ### S3: Aspose.Tasks'ı kullanarak temel bilgileri programlı olarak değiştirebilir miyim?
 
-Cevap3: Kesinlikle, Aspose.Tasks, temel bilgileri proje gereksinimlerine göre dinamik olarak değiştirmek için kapsamlı API'ler sağlayarak proje yönetimi süreçleri üzerinde esneklik ve kontrol sunar.
+Cevap3: Kesinlikle, Aspose.Tasks, temel bilgileri proje gereksinimlerine göre dinamik olarak değiştirmek için kapsamlı API'ler sağlayarak, proje yönetimi süreçleri üzerinde esneklik ve kontrol sunar.
 
 ### S4: Aspose.Tasks geliştiriciler için dokümantasyon ve destek kaynakları sunuyor mu?
 
-Cevap4: Evet, geliştiriciler Aspose.Tasks web sitesinden kapsamlı belgelere, eğitimlere ve forumlara erişebilir, böylece sorunsuz entegrasyon ve sorun giderme işlemleri kolaylaştırılabilir.
+Cevap4: Evet, geliştiriciler Aspose.Tasks web sitesindeki kapsamlı belgelere, eğitimlere ve forumlara erişebilir, böylece sorunsuz entegrasyon ve sorun giderme işlemleri kolaylaştırılabilir.
 
 ### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
 

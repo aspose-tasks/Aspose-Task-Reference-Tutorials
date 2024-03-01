@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 W razie potrzeby manipuluj kodami konspektu, na przykład wstawiając, usuwając lub czyszcząc.
 ```csharp
 // Przykład manipulacji
-// ,
+// ...
 // Wstaw kod z cyfrą 2 na właściwej pozycji
 task.OutlineCodes.Insert(2, code2);
 // Sprawdź, czy kod został wpisany
@@ -86,7 +86,7 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 tym samouczku nauczyliśmy się zbierać kody konspektu programu Microsoft Project za pomocą Aspose.Tasks dla .NET. Wykonując poniższe kroki, możesz skutecznie zarządzać kodami konspektu w swoich projektach, poprawiając organizację i przejrzystość.
 ## Często zadawane pytania
 ### P: Czy mogę używać Aspose.Tasks dla .NET z innymi językami programowania?
-O: Tak, Aspose.Tasks for .NET jest skierowany przede wszystkim na platformę .NET, ale zapewnia także obsługę innych języków programowania poprzez Aspose.Tasks for Cloud.
+O: Tak, Aspose.Tasks for .NET jest przeznaczony głównie dla platformy .NET, ale zapewnia także obsługę innych języków programowania poprzez Aspose.Tasks for Cloud.
 ### P: Czy istnieją jakieś ograniczenia dotyczące rozmiaru plików projektu, które może obsłużyć Aspose.Tasks dla .NET?
 Odp.: Aspose.Tasks dla .NET może wydajnie obsługiwać duże pliki projektu, ale wydajność może się różnić w zależności od złożoności i rozmiaru pliku.
 ### P: Czy Aspose.Tasks for .NET jest kompatybilny z najnowszymi wersjami Microsoft Project?

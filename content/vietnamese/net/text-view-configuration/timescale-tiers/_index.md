@@ -12,7 +12,7 @@ Trong bối cảnh năng động của quản lý dự án, việc hình dung hi
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những điều sau:
 - Kiến thức cơ bản về C# và .NET.
-- Aspose.Tasks cho thư viện .NET đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks cho thư viện .NET đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
 - Một môi trường phát triển được thiết lập để phát triển ứng dụng .NET.
 ## Nhập không gian tên
 ```csharp

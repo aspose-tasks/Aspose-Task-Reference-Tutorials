@@ -27,7 +27,7 @@ En grundläggande förståelse för .NET-programmering är nödvändig för att 
 
 Till att börja med måste du importera de nödvändiga namnområdena till ditt .NET-projekt. 
 
- Inkludera`Aspose.Tasks` namnutrymmet i ditt projekt för att komma åt klasserna och metoderna som tillhandahålls av Aspose.Tasks-biblioteket.
+ Inkludera`Aspose.Tasks`namnutrymmet i ditt projekt för att komma åt klasserna och metoderna som tillhandahålls av Aspose.Tasks-biblioteket.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Låt oss nu dela upp exemplet i flera steg:
 
 ## Steg 1: Ladda projektfilen
 
- Börja med att ladda projektfilen med hjälp av`Project`klass konstruktör.
+ Börja med att ladda projektfilen med hjälp av`Project` klass konstruktör.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

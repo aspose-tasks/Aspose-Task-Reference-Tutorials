@@ -1,6 +1,6 @@
 ---
-title: Configureer MS Project-afdrukopties in Aspose.Tasks
-linktitle: Configureer afdrukopties in Aspose.Tasks
+title: MS Project-afdrukopties configureren in Aspose.Tasks
+linktitle: Afdrukopties configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-afdrukopties naadloos kunt configureren met Aspose.Tasks voor .NET. Verbeter uw projectmanagementmogelijkheden.
 type: docs
@@ -11,7 +11,7 @@ url: /nl/net/project-management-integration/print-options/
 Op het gebied van softwareontwikkeling onderscheidt Aspose.Tasks voor .NET zich als een krachtig hulpmiddel voor het efficiënt beheren van taken en projecten. Een van de belangrijkste kenmerken is de mogelijkheid om de afdrukopties van Microsoft Project naadloos te configureren. In deze zelfstudie verdiepen we ons in het proces van het configureren van MS Project-afdrukopties met Aspose.Tasks voor .NET.
 ## Vereisten
 Voordat we ingaan op de fijne kneepjes van het configureren van MS Project-afdrukopties, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-1.  Installatie van Aspose.Tasks voor .NET: Zorg ervoor dat u de Aspose.Tasks voor .NET-bibliotheek hebt geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
+1. Installatie van Aspose.Tasks voor .NET: Zorg ervoor dat u de Aspose.Tasks voor .NET-bibliotheek hebt geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
 2. Basiskennis van C#: Maak uzelf vertrouwd met de basisprincipes van de programmeertaal C#, aangezien deze tutorial voornamelijk C# gebruikt voor demonstratie.
 
 ## Naamruimten importeren
@@ -43,7 +43,7 @@ Voordat u gaat afdrukken, is het verstandig om het aantal pagina's te controlere
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Ga verder met afdrukken
+    // Ga verder met afdrukken
     project.Print(options);
 }
 ```
@@ -52,7 +52,7 @@ if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 Concluderend: het configureren van MS Project-afdrukopties met Aspose.Tasks voor .NET is een eenvoudig proces dat uw projectbeheermogelijkheden aanzienlijk kan verbeteren. Door de stappen in deze zelfstudie te volgen, kunt u de afdrukinstellingen efficiënt aanpassen aan uw specifieke behoeften.
 ## Veelgestelde vragen
 ### Vraag: Is Aspose.Tasks voor .NET compatibel met alle versies van Microsoft Project?
-A: Aspose.Tasks voor .NET biedt compatibiliteit met verschillende versies van Microsoft Project, waardoor een naadloze integratie tussen verschillende omgevingen wordt gegarandeerd.
+A: Aspose.Tasks voor .NET biedt compatibiliteit met verschillende versies van Microsoft Project, waardoor een naadloze integratie in verschillende omgevingen wordt gegarandeerd.
 ### Vraag: Kan ik de afdruklay-out aanpassen met Aspose.Tasks voor .NET?
 A: Ja, Aspose.Tasks voor .NET biedt uitgebreide opties voor het aanpassen van afdruklay-outs, waardoor gebruikers de gewenste opmaak en presentatie kunnen bereiken.
 ### Vraag: Ondersteunt Aspose.Tasks voor .NET multi-threading?

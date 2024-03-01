@@ -94,7 +94,7 @@ public static void ReadWorkWeeksInformation()
 
 Εξήγηση:
 - Φορτώστε το αρχείο του έργου.
-- Λήψη του ημερολογίου κατά UID.
+- Λάβετε το ημερολόγιο κατά UID.
 - Επαναλάβετε κάθε εργάσιμη εβδομάδα στο ημερολόγιο.
 - Εκτυπώστε το όνομα, την ημερομηνία έναρξης και την ημερομηνία λήξης κάθε εργάσιμης εβδομάδας.
 - Διασχίστε εργάσιμες ημέρες και ώρες εργασίας μέσα σε κάθε εβδομάδα.
@@ -244,7 +244,7 @@ public void WriteUpdatedCalendarDataToMpp()
     }
     catch (NotSupportedException ex)
     {
-        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://buy.aspose.com/temporary-license/.");
+        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://buy.aspose.com/temporary-license/).");
     }
 }
 ```
@@ -388,7 +388,7 @@ DayStart()
 
 Εξήγηση:
 - Φορτώστε το αρχείο του έργου.
-- Λήψη του ημερολογίου κατά UID.
+- Λάβετε το ημερολόγιο κατά UID.
 - Λάβετε ώρα έναρξης την επόμενη εργάσιμη ημέρα.
 
 ## Βήμα 13: Λάβετε το τέλος της προηγούμενης εργάσιμης ημέρας
@@ -407,7 +407,7 @@ public void GetPreviousWorkingDayEnd()
 
 Εξήγηση:
 - Φορτώστε το αρχείο του έργου.
-- Λήψη του ημερολογίου κατά UID.
+- Λάβετε το ημερολόγιο κατά UID.
 - Λάβετε την ώρα λήξης της προηγούμενης εργάσιμης ημέρας.
 
 ## Βήμα 14: Λήψη ημερομηνίας έναρξης από το τέλος και τη διάρκεια
@@ -426,7 +426,7 @@ public void GetStartDateFromFinishAndDuration()
 
 Εξήγηση:
 - Φορτώστε το αρχείο του έργου.
-- Λήψη του ημερολογίου κατά UID.
+- Λάβετε το ημερολόγιο κατά UID.
 - Υπολογίστε την ημερομηνία έναρξης από την ημερομηνία λήξης και τη διάρκεια.
 
 ## Βήμα 15: Λήψη ωραρίου εργασίας
@@ -445,7 +445,7 @@ public void GetWorkingHours()
 
 Εξήγηση:
 - Φορτώστε το αρχείο του έργου.
-- Λήψη του ημερολογίου κατά UID.
+- Λάβετε το ημερολόγιο κατά UID.
 - Λάβετε τις ώρες εργασίας για την καθορισμένη ημερομηνία.
 
 ## Βήμα 16: Λήψη ωρών εργασίας
@@ -469,7 +469,7 @@ public void GetWorkingTimes()
 
 Εξήγηση:
 - Φορτώστε το αρχείο του έργου.
-- Λήψη του ημερολογίου κατά UID.
+- Λάβετε το ημερολόγιο κατά UID.
 - Λάβετε τις ώρες εργασίας για την καθορισμένη ημερομηνία.
 
 ## συμπέρασμα

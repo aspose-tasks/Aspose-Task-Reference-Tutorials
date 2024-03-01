@@ -92,7 +92,7 @@ Aktualizujte pracovní hodnoty pro úkoly na základě shromážděných informa
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak využít stromový algoritmus v Aspose.Tasks pro .NET k efektivní manipulaci s hierarchiemi úloh. Podle podrobného průvodce můžete efektivně spravovat úkoly a zdroje v rámci svých projektů.
+V tomto tutoriálu jsme se naučili, jak využít stromový algoritmus v Aspose.Tasks pro .NET k efektivní manipulaci s hierarchiemi úloh. Podle podrobného průvodce můžete efektivně spravovat úkoly a zdroje v rámci svých projektů.
 
 ## FAQ
 

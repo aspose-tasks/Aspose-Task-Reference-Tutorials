@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Ở đây, chúng tôi đặt loại tích lũy chi phí cho tài nguyên. Trong ví dụ này, chúng tôi đang đặt nó thành`CostAccrualType.End`, có nghĩa là chi phí sẽ không được tích lũy cho đến khi công việc còn lại bằng không.
+Ở đây, chúng tôi đặt loại tích lũy chi phí cho tài nguyên. Trong ví dụ này, chúng tôi đang đặt nó thành`CostAccrualType.End`, có nghĩa là chi phí sẽ không được tích lũy cho đến khi công việc còn lại bằng không.
 
 ## Bước 4: Làm việc với dự án
 
@@ -73,7 +73,7 @@ Câu trả lời 1: Có, bạn có thể lặp qua bộ sưu tập tài nguyên 
 
 ### Câu hỏi 2: Các loại tích lũy chi phí có sẵn khác ngoài 'Kết thúc' là gì?
 
- Câu trả lời 2: Aspose.Tasks cho .NET cung cấp một số loại tích lũy chi phí khác như`Start`, `Prorated` ,Và`Duration`.
+Câu trả lời 2: Aspose.Tasks cho .NET cung cấp một số loại tích lũy chi phí khác như`Start`, `Prorated` , Và`Duration`.
 
 ### Câu hỏi 3: Làm cách nào tôi có thể xác định loại tích lũy chi phí hiện tại cho một nguồn lực?
 

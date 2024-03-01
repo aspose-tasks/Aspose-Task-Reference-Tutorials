@@ -77,7 +77,7 @@ S: Ja, du kan anpassa kolumner oberoende för varje vy med Aspose.Tasks för .NE
 
 ### F: Finns det en testversion innan du köper Aspose.Tasks för .NET?
 
- S: Ja, du kan ladda ner en gratis provversion från[Aspose.Tasks för .NET-versioner sida](https://releases.aspose.com/).
+ S: Ja, du kan ladda ner en gratis testversion från[Aspose.Tasks för .NET-versioner sida](https://releases.aspose.com/).
 
 ### F: Hur kan jag få support om jag stöter på några problem eller har frågor under implementeringen?
 

@@ -12,7 +12,7 @@ A Gantt-diagramok hatékony eszközök a projektmenedzsmentben a feladatok, idő
 ## Előfeltételek
 Mielőtt folytatná, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
 ### 1. Az Aspose.Tasks telepítése .NET-hez
- Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET-et. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/tasks/net/)és kövesse a dokumentációban található telepítési utasításokat[itt](https://reference.aspose.com/tasks/net/).
+ Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET-et. A könyvtárat innen töltheti le[itt](https://releases.aspose.com/tasks/net/) és kövesse a dokumentációban található telepítési utasításokat[itt](https://reference.aspose.com/tasks/net/).
 ### 2. Microsoft Project File
 Készítsen egy Microsoft Project fájlt (`Project2.mpp`), amelyet a Gantt-diagram nézetekkel való munkához fog használni.
 ### 3. C# és .NET Framework alapismeretek
@@ -75,13 +75,13 @@ Meghatározza a munkaszüneti idő színét a Gantt-diagramon.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Adja meg, hogy a Gantt-diagram oszlopait fel kell-e görgetni.
+Meghatározza, hogy a Gantt-diagram oszlopait fel kell-e görgetni.
 ### Show Bar Splits
 ```csharp
 view.ShowBarSplits = true;
 ```
 Meghatározza, hogy meg kell-e jeleníteni a Gantt-diagram feladatfelosztásait.
-### rajzokat mutatni
+### Rajzok megjelenítése
 ```csharp
 view.ShowDrawings = true;
 ```

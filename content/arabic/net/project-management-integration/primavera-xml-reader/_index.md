@@ -51,9 +51,9 @@ foreach (var projectUid in projectUids)
 ### س: هل يمكن لـ Aspose.Tasks التعامل مع هياكل المشروع المعقدة؟
 ج: نعم، يوفر Aspose.Tasks ميزات قوية للتعامل مع هياكل وتعقيدات المشروع المختلفة بفعالية.
 ### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Tasks؟
-ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+ ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### س: كيف يمكنني الحصول على الدعم لـ Aspose.Tasks؟
- ج: يمكنك الحصول على الدعم من منتدى Aspose.Tasks.[هنا](https://forum.aspose.com/c/tasks/15).
+ ج: يمكنك الحصول على الدعم من منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: هل يمكنني شراء ترخيص مؤقت لـ Aspose.Tasks؟
  ج: نعم، التراخيص المؤقتة متاحة للشراء[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني العثور على وثائق شاملة لـ Aspose.Tasks؟

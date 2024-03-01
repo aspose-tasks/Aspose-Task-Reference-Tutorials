@@ -12,8 +12,8 @@ url: /ko/net/time-recurrence-configuration/working-times/
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 사항을 확인하세요.
 - C# 프로그래밍 언어에 대한 기본 이해.
-- .NET 라이브러리용 Aspose.Tasks가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
-- Visual Studio 또는 선호하는 C# 개발 환경을 설정합니다.
+-  .NET 라이브러리용 Aspose.Tasks가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
+- Visual Studio 또는 선호하는 C# 개발 환경 설정.
 ## 네임스페이스 가져오기
 Aspose.Tasks 기능에 액세스하는 데 필요한 네임스페이스를 가져오는 것부터 시작하세요.
 ```csharp

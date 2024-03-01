@@ -12,7 +12,7 @@ Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memungkinkan pengembang
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 ### 1. Instal Aspose.Tasks untuk .NET
-Pastikan Anda telah menginstal Aspose.Tasks untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
+ Pastikan Anda telah menginstal Aspose.Tasks untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
 ### 2. Dapatkan Lisensi (Opsional)
  Jika Anda menggunakan Aspose.Tasks dalam proyek komersial, Anda memerlukan lisensi. Anda dapat membeli lisensi dari[Di Sini](https://purchase.aspose.com/buy) , atau Anda dapat meminta lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### 3. Siapkan Lingkungan Pengembangan Anda

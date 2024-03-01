@@ -32,7 +32,7 @@ Sẵn sàng để khám phá thêm? Kiểm tra danh sách đầy đủ các hư�
 ### [Lưu MS Project dưới dạng HTML với Aspose.Tasks](./html-save-options/)
 Tìm hiểu cách lưu tệp Microsoft Project dưới dạng HTML bằng Aspose.Tasks cho .NET. Chuyển đổi dữ liệu dự án một cách dễ dàng với hướng dẫn từng bước của chúng tôi.
 ### [Lưu hình ảnh Tùy chọn dự án MS cho Aspose.Tasks](./image-save-options/)
-Tìm hiểu cách lưu các tùy chọn MS Project dưới dạng hình ảnh bằng Aspose.Tasks for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+Tìm hiểu cách lưu các tùy chọn MS Project dưới dạng hình ảnh bằng Aspose.Tasks cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
 ### [Dễ dàng lưu các tùy chọn dự án MS cho Aspose.Tasks](./mpp-save-options/)
 Tìm hiểu cách lưu các tùy chọn MS Project một cách dễ dàng với Aspose.Tasks for .NET. Tăng hiệu quả quản lý dự án của bạn.
 ### [Chuyển đổi MS Project sang PDF dễ dàng trong Aspose.Tasks](./pdf-save-options/)

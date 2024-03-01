@@ -19,10 +19,10 @@ Czy starasz się opanować zawiłości zarządzania stawkami MS Project i powtar
  W[Opanuj stawki za projekty MS za pomocą Aspose.Tasks](./rate-collection/), zagłębiamy się w zawiłości zarządzania stawkami w plikach MS Project. Ten samouczek to podstawowe źródło wiedzy umożliwiające zrozumienie niuansów związanych z gromadzeniem stawek, oferujące praktyczne spostrzeżenia i umożliwiające ulepszenie możliwości zarządzania zasobami projektu.
 
 ## Bezproblemowe powtarzające się interwały projektu MS w Aspose.Tasks
- Odkryj sztukę zarządzania powtarzającymi się interwałami bez wysiłku[Bezproblemowe powtarzające się interwały projektu MS w Aspose.Tasks](./recurring-intervals/), Ten samouczek poprowadzi Cię przez proces korzystania z Aspose.Tasks dla .NET, zapewniając bezproblemową obsługę powtarzających się zadań w programie MS Project.
+ Odkryj sztukę zarządzania powtarzającymi się interwałami bez wysiłku[Bezproblemowe powtarzające się interwały projektu MS w Aspose.Tasks](./recurring-intervals/). Ten samouczek poprowadzi Cię przez proces korzystania z Aspose.Tasks dla .NET, zapewniając bezproblemową obsługę powtarzających się zadań w programie MS Project.
 
 ## Wyodrębnianie informacji o powtarzających się zadaniach w Aspose.Tasks
- Poznaj tajniki wyodrębniania powtarzających się informacji o zadaniach z plików MS Project za pomocą[Wyodrębnianie informacji o powtarzających się zadaniach w Aspose.Tasks](./recurring-task-information/)Ten samouczek oferuje programistom .NET łatwą integrację, umożliwiając wydajną pracę z powtarzającymi się zadaniami w projektach.
+ Poznaj tajniki wyodrębniania powtarzających się informacji o zadaniach z plików MS Project za pomocą[Wyodrębnianie informacji o powtarzających się zadaniach w Aspose.Tasks](./recurring-task-information/)Ten samouczek oferuje łatwą integrację dla programistów .NET, umożliwiając wydajną pracę z powtarzającymi się zadaniami w projektach.
 
 ## Ustawianie powtarzających się parametrów zadań w Aspose.Tasks
  W[Ustawianie powtarzających się parametrów zadań w Aspose.Tasks](./recurring-task-parameters/), zapewniamy kompleksowy przewodnik na temat ustawiania parametrów zadań cyklicznych w programie Microsoft Project przy użyciu Aspose.Tasks dla .NET. Zdobądź wiedzę, aby z łatwością konfigurować zadania cykliczne.
@@ -31,13 +31,13 @@ Czy starasz się opanować zawiłości zarządzania stawkami MS Project i powtar
  Pożegnaj ręczne usuwanie zadań![Usuwanie zadań MS Project za pomocą Aspose.Tasks](./removing-tasks/) przeprowadzi Cię przez proces programowego usuwania zadań przy użyciu Aspose.Tasks dla .NET. Przewodnik krok po kroku zawiera przykłady kodu zapewniające bezproblemową obsługę.
 
 ## Opanuj raportowanie projektów MS za pomocą Aspose.Tasks
- Odblokuj pełny potencjał raportowania MS Project za pomocą[Opanuj raportowanie projektów MS za pomocą Aspose.Tasks](./report-types/), W tym samouczku opisano, jak pracować z plikami MS Project przy użyciu Aspose.Tasks dla .NET, umożliwiając bezproblemowe generowanie różnych typów raportów.
+ Odblokuj pełny potencjał raportowania MS Project za pomocą[Opanuj raportowanie projektów MS za pomocą Aspose.Tasks](./report-types/). W tym samouczku opisano, jak pracować z plikami MS Project przy użyciu Aspose.Tasks dla .NET, umożliwiając bezproblemowe generowanie różnych typów raportów.
 
 ## Zapisywanie plików MS Project w różnych formatach w Aspose.Tasks
 Efektywne zarządzanie projektami obejmuje różnorodne formaty plików.[Zapisywanie plików MS Project w różnych formatach w Aspose.Tasks](./save-file-formats/) poprowadzi Cię przez etapy zapisywania plików MS Project w różnych formatach przy użyciu Aspose.Tasks dla .NET.
 
 ## Obsługa podzielonych części projektu MS w Aspose.Tasks
- Nawigowanie po podzielonych częściach w MS Project staje się proste[Obsługa podzielonych części projektu MS w Aspose.Tasks](./split-parts/), Usprawnij przepływ pracy w zarządzaniu projektami, wydajnie obsługując podzielone części za pomocą Aspose.Tasks dla .NET.
+ Nawigowanie po podzielonych częściach w MS Project staje się proste[Obsługa podzielonych części projektu MS w Aspose.Tasks](./split-parts/). Usprawnij przepływ pracy w zarządzaniu projektami, wydajnie obsługując podzielone części za pomocą Aspose.Tasks dla .NET.
 
 ## Zbieraj podzielone części projektu MS w Aspose.Tasks
  Nasz tutorial dot[Zbieraj podzielone części projektu MS w Aspose.Tasks](./split-part-collection/) to kompleksowy przewodnik, który przeprowadzi Cię przez proces krok po kroku. Dowiedz się, jak zbierać podzielone części w programie MS Project, co umożliwi Ci optymalizację przepływu pracy w zarządzaniu projektami.

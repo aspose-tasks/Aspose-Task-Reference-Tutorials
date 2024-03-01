@@ -21,7 +21,7 @@ url: /zh/net/project-management-integration/primavera-data-reading/
 选择您首选的 .NET 开发 IDE，例如 Visual Studio 或 JetBrains Rider。
 
 ## 导入命名空间
-在开始示例之前，让我们导入必要的命名空间：
+在开始使用示例之前，让我们导入必要的命名空间：
 ```csharp
 using Aspose.Tasks;
 using System;

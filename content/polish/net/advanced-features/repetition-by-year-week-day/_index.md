@@ -9,7 +9,7 @@ url: /pl/net/advanced-features/repetition-by-year-week-day/
 ---
 ## Wstęp
 
-zarządzaniu projektami najważniejsza jest wydajność i precyzja. Aspose.Tasks dla .NET okazuje się potężnym narzędziem oferującym mnóstwo funkcji usprawniających obsługę projektów. Wśród jego arsenału znajduje się możliwość zarządzania powtarzającymi się zadaniami z niezwykłą elastycznością. Jedną z takich funkcji jest funkcja „Powtarzanie według roku, dnia tygodnia”, umożliwiająca użytkownikom konfigurowanie zadań powtarzających się w określone dni tygodnia, w wyznaczonych miesiącach i przez wiele lat.
+W zarządzaniu projektami najważniejsza jest wydajność i precyzja. Aspose.Tasks dla .NET okazuje się potężnym narzędziem oferującym mnóstwo funkcji usprawniających obsługę projektów. Wśród jego arsenału znajduje się możliwość zarządzania powtarzającymi się zadaniami z niezwykłą elastycznością. Jedną z takich funkcji jest funkcja „Powtarzanie według roku, dnia tygodnia”, umożliwiająca użytkownikom konfigurowanie zadań powtarzających się w określone dni tygodnia, w wyznaczonych miesiącach i przez wiele lat.
 
 ## Warunki wstępne
 
@@ -21,7 +21,7 @@ Zapoznaj się z podstawami .NET Framework, w tym koncepcjami programowania obiek
 
 ### 2. Instalacja Aspose.Tasks dla .NET
 
- Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[link do pobrania](https://releases.aspose.com/tasks/net/)Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby zintegrować bibliotekę ze środowiskiem programistycznym.
+ Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[link do pobrania](https://releases.aspose.com/tasks/net/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby zintegrować bibliotekę ze środowiskiem programistycznym.
 
 ### 3. Dostęp do Dokumentacji
 
@@ -125,4 +125,4 @@ Odp.: Tak, Aspose.Tasks dla .NET oferuje wsparcie dla rozwiązań do zarządzani
 
 ### P5: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
 
- Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla .NET z poziomu[strona internetowa](https://releases.aspose.com/), dzięki czemu możesz zapoznać się z jego funkcjami przed podjęciem decyzji o zakupie.
+Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla .NET z poziomu[strona internetowa](https://releases.aspose.com/), dzięki czemu możesz zapoznać się z jego funkcjami przed podjęciem decyzji o zakupie.

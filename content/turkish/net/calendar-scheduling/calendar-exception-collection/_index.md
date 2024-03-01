@@ -68,7 +68,7 @@ exception.WorkingTimes.Add(wt2);
 calendar.Exceptions.Add(exception);
 ```
 
-Bu adım, belirli başlangıç ve bitiş tarihleriyle birlikte bu tarihler içindeki çalışma süreleriyle birlikte bir çalışma süresi istisnası tanımlar ve bunu takvime ekler.
+Bu adım, belirli başlangıç ve bitiş tarihleriyle birlikte bu tarihlerdeki çalışma süreleriyle birlikte bir çalışma süresi istisnası tanımlar ve bunu takvime ekler.
 
 ## Adım 4: Çalışma Dışı Zaman İstisnalarını Tanımlayın ve Ekleyin
 

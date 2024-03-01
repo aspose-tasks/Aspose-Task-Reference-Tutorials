@@ -65,9 +65,9 @@ Gefeliciteerd! U hebt met succes geleerd hoe u met taakbasislijnen omgaat in Asp
 ### Vraag: Kan ik Aspose.Tasks gebruiken met andere .NET-frameworks?
 A: Aspose.Tasks is compatibel met meerdere .NET-frameworks en biedt flexibiliteit in uw ontwikkelomgeving.
 ### Vraag: Is er een communityforum voor ondersteuning van Aspose.Tasks?
-A: Ja, u kunt ondersteuning vinden en in contact komen met de gemeenschap op[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+ A: Ja, u kunt ondersteuning vinden en in contact komen met de gemeenschap op[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Hoe kan ik een tijdelijke licentie voor Aspose.Tasks verkrijgen?
- Een bezoek[hier](https://purchase.aspose.com/temporary-license/) om een tijdelijke licentie voor Aspose.Tasks te verkrijgen.
+ Een bezoek[hier](https://purchase.aspose.com/temporary-license/)om een tijdelijke licentie voor Aspose.Tasks te verkrijgen.
 ### Vraag: Zijn er tutorials beschikbaar die verder gaan dan de taakbasislijnen?
  A: Ontdek de[documentatie](https://reference.aspose.com/tasks/net/) voor een breed scala aan tutorials over Aspose.Tasks-functies.
 ### Vraag: Waar kan ik Aspose.Tasks voor .NET kopen?

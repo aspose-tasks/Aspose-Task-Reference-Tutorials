@@ -27,7 +27,7 @@ Most, hogy megvannak az előfeltételeink, bontsuk le az oktatóanyagot könnyen
 // A dokumentumok könyvtárának elérési útja.
 String DataDir = "Your Document Directory";
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"` a projekt dokumentumkönyvtárának tényleges elérési útjával.
+ Mindenképpen cserélje ki`"Your Document Directory"` projekt dokumentumkönyvtárának tényleges elérési útjával.
 ## 2. lépés: Töltse be a projektet, és lépjen be a VBA Projectbe
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -63,11 +63,11 @@ Ha követi ezeket a lépéseket, jártas lesz a VBA-modulgyűjtemények kezelés
 Összefoglalva, az Aspose.Tasks VBA moduljainak elsajátítása új lehetőségeket nyit meg a hatékony projektmenedzsmentben. Ezzel a tudással felvértezve testreszabhatja és továbbfejlesztheti projektjeit, hogy megfeleljenek a konkrét követelményeknek.
 ## GYIK
 ### Használhatom az Aspose.Tasks for .NET programot más programozási nyelvekkel?
-Az Aspose.Tasks elsősorban a .NET nyelveket támogatja, például a C#-t. Vannak azonban Java-verziók a többnyelvű kompatibilitás érdekében.
+Az Aspose.Tasks elsősorban az olyan .NET nyelveket támogatja, mint a C#. Vannak azonban Java-verziók a többnyelvű kompatibilitás érdekében.
 ### Létezik ingyenes próbaverzió az Aspose.Tasks for .NET számára?
-Igen, letöltheti az ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+ Igen, letöltheti az ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást az Aspose.Tasks programhoz?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért, vagy fontolja meg egy támogatási terv megvásárlását.
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért, vagy fontolja meg egy támogatási terv megvásárlását.
 ### Vannak ideiglenes licencek?
  Igen, kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol találom az Aspose.Tasks részletes dokumentációját?

@@ -1,6 +1,6 @@
 ---
 title: Padroneggiare le visualizzazioni di Microsoft Project con Aspose.Tasks
-linktitle: Configurare le visualizzazioni in Aspose.Tasks
+linktitle: Configurazione delle visualizzazioni in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Padroneggia le visualizzazioni di Microsoft Project con Aspose.Tasks per .NET. Personalizza e semplifica la tua esperienza di gestione dei progetti senza sforzo.
 type: docs
@@ -35,17 +35,17 @@ View view = new GanttChartView();
 ```csharp
 // Imposta alcune proprietà della vista
 view.ShowInMenu = true;  // Mostra la vista nel menu della barra multifunzione
-view.HighlightFilter = true;  // Evidenzia il filtro per una singola vista
+view.HighlightFilter = true;  // Evidenzia il filtro per una singola visualizzazione
 ```
 ## Passaggio 4: ottimizzare le impostazioni di visualizzazione
 ```csharp
 // Ottimizza alcune impostazioni di visualizzazione
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Imposta il numero delle prime colonne da stampare su tutte le pagine
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Imposta il numero delle prime colonne da stampare su tutte le pagine
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Stampa un numero specificato di prime colonne su tutte le pagine
 ```
 ## Passaggio 5: aggiungi vista al progetto
 ```csharp
-//Aggiungi la vista al nostro progetto
+// Aggiungi la vista al nostro progetto
 project.Views.Add(view);
 ```
 ## Passaggio 6: salva il progetto con la nuova vista
@@ -73,8 +73,8 @@ Aspose.Tasks è progettato principalmente per Microsoft Project, garantendo inte
 ### È disponibile una prova gratuita per Aspose.Tasks per .NET?
  Sì, puoi esplorare una prova gratuita[Qui](https://releases.aspose.com/).
 ### Come posso ottenere supporto per Aspose.Tasks per .NET?
- visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto della comunità o prendere in considerazione l'acquisto di piani di supporto.
+ Visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto della comunità o prendere in considerazione l'acquisto di piani di supporto.
 ### Posso personalizzare ulteriormente l'aspetto delle visualizzazioni?
- Assolutamente, approfondisci la documentazione di Aspose.Tasks[Qui](https://reference.aspose.com/tasks/net/)per opzioni di personalizzazione avanzate.
+ Assolutamente, approfondisci la documentazione di Aspose.Tasks[Qui](https://reference.aspose.com/tasks/net/) per opzioni di personalizzazione avanzate.
 ### Dove posso acquistare Aspose.Tasks per .NET?
- Puoi acquistare la libreria[Qui](https://purchase.aspose.com/buy) per un'esperienza di gestione del progetto senza soluzione di continuità.
+ È possibile acquistare la libreria[Qui](https://purchase.aspose.com/buy) per un'esperienza di gestione del progetto senza soluzione di continuità.

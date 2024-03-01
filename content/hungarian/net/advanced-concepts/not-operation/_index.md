@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 
 1. Visual Studio: A kódpéldák követéséhez a Visual Studio működőképes telepítésére van szükség.
 2.  Aspose.Tasks for .NET: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[weboldal](https://releases.aspose.com/tasks/net/).
-3. A C# alapjai: A C# programozási nyelv ismerete hasznos lesz a kódpéldák megértésében.
+3. C# alapjai: A C# programozási nyelv ismerete hasznos lesz a kódpéldák megértésében.
 
 ## Névterek importálása
 
@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Itt létrehozunk a`ChildTasksCollector` tiltakozik a projekten belüli összes feladat összegyűjtésére. Utána használjuk`TaskUtils.Apply`módszerrel végighaladhat a projekt feladathierarchiáján, és összegyűjtheti az összes alárendelt feladatot.
+ Itt létrehozunk a`ChildTasksCollector` tiltakozik a projekten belüli összes feladat összegyűjtésére. Utána használjuk`TaskUtils.Apply` módszerrel végighaladhat a projekt feladathierarchiáján, és összegyűjtheti az összes alárendelt feladatot.
 
 ## 3. lépés: Adja meg a szűrőfeltételt
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Meghatározzuk a szűrőfeltételt a nevű egyéni osztály használatával`NullCondition`, Ez a feltétel a null értékkel rendelkező feladatokat választja ki.
+ Meghatározzuk a szűrőfeltételt a nevű egyéni osztály használatával`NullCondition`. Ez a feltétel a null értékkel rendelkező feladatokat választja ki.
 
 ## 4. lépés: Alkalmazza a NEM műveletet
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- A szűrőfeltételre a NEM műveletet alkalmazzuk a`Not<T>` osztály által biztosított Aspose.Tasks. Ez megfordítja a szűrőfeltételt, és kiválasztja azokat a feladatokat, amelyeknek nincs null értéke.
+ A szűrőfeltételre a NEM műveletet alkalmazzuk a`Not<T>`osztály által biztosított Aspose.Tasks. Ez megfordítja a szűrőfeltételt, és kiválasztja azokat a feladatokat, amelyeknek nincs null értéke.
 
 ## 5. lépés: Feladatok szűrése
 

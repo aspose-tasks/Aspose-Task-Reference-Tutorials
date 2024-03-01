@@ -32,7 +32,7 @@ Başlamak için gerekli ad alanlarını C# kodunuza aktarın:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- yer değiştirmek`"Your Document Directory"` proje dosyanızın yolu ile birlikte.
+ Yer değiştirmek`"Your Document Directory"` proje dosyanızın yolu ile birlikte.
 ## Adım 2: Görev Grupları Bilgilerini Alın
 Daha sonra projedeki görev grupları hakkındaki bilgileri alın:
 ```csharp
@@ -66,7 +66,7 @@ Console.WriteLine("Ascending/Descending: " + criterion.Ascending);
 Bu adım, yazı tipi adını, boyutunu, stilini ve kriterin artan veya azalan düzende sıralanıp sıralanmadığını yazdırır.
 
 ## Çözüm
-Bu eğitimde, bir Microsoft Project dosyasından görev grupları ve kriterler hakkında bilgi almak için Aspose.Tasks for .NET'in nasıl kullanılacağını araştırdık. Adım adım kılavuzu takip ederek .NET uygulamalarınızda proje verileriyle programlı olarak verimli bir şekilde çalışabilirsiniz.
+Bu eğitimde, bir Microsoft Project dosyasından görev grupları ve kriterler hakkındaki bilgileri almak için Aspose.Tasks for .NET'in nasıl kullanılacağını araştırdık. Adım adım kılavuzu takip ederek .NET uygulamalarınızda proje verileriyle programlı olarak verimli bir şekilde çalışabilirsiniz.
 ## SSS'ler
 ### Aspose.Tasks büyük Microsoft Project dosyalarını işleyebilir mi?
 Aspose.Tasks, büyük proje dosyalarını verimli bir şekilde yönetecek şekilde optimize edilerek yüksek performans ve güvenilirlik sağlanır.

@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks के साथ MS प्रोजेक्ट रूपरेखा मूल्यों में महारत हासिल करना
-linktitle: Aspose.Tasks में रूपरेखा मानों का प्रबंधन
+title: Aspose.Tasks के साथ एमएस प्रोजेक्ट रूपरेखा मूल्यों में महारत हासिल करना
+linktitle: Aspose.Tasks में रूपरेखा मूल्यों का प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट रूपरेखा मानों को कुशलतापूर्वक प्रबंधित करना सीखें। प्रोजेक्ट की रूपरेखा को आसानी से अनुकूलित करें।
 type: docs
@@ -73,6 +73,6 @@ outline2.Values.Add(value2);
 ### प्रश्न: मैं Aspose.Tasks के लिए समर्थन कैसे प्राप्त कर सकता हूं?
  उत्तर: समर्थन और सहायता के लिए, आप Aspose.Tasks फोरम पर जा सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### प्रश्न: क्या मैं Aspose.Tasks के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
- उ: हाँ, आप Aspose के लिए एक अस्थायी लाइसेंस खरीद सकते हैं। से कार्य[यहाँ](https://purchase.aspose.com/temporary-license/).
+उत्तर: हां, आप Aspose.Tasks के लिए एक अस्थायी लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मुझे Aspose.Tasks के लिए विस्तृत दस्तावेज़ कहां मिल सकते हैं?
  उ: आप उपलब्ध व्यापक दस्तावेज़ का संदर्भ ले सकते हैं[यहाँ](https://reference.aspose.com/tasks/net/).

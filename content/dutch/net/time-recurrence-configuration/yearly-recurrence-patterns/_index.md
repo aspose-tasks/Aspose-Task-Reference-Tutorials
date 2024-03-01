@@ -66,6 +66,6 @@ In deze zelfstudie hebben we het proces van het configureren van jaarlijkse herh
 ### Zijn er vereisten voor het gebruik van Aspose.Tasks voor .NET?
  Zorg ervoor dat u praktische kennis heeft van C# en .NET, en dat u de bibliotheek Aspose.Tasks hebt geïnstalleerd. Download het[hier](https://releases.aspose.com/tasks/net/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Tasks?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor steun en hulp van de gemeenschap.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor steun en hulp van de gemeenschap.
 ### Kan ik Aspose.Tasks gratis uitproberen voordat ik een aankoop doe?
  Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).

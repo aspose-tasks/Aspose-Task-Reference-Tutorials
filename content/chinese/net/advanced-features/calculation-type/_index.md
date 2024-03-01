@@ -9,7 +9,7 @@ url: /zh/net/advanced-features/calculation-type/
 ---
 ## 介绍
 
-在本教程中，我们将探索 Aspose.Tasks for .NET 中的计算类型功能。 Aspose.Tasks 是一个功能强大的库，使 .NET 开发人员能够使用 Microsoft Project 文件，而无需在其系统上安装 Microsoft Project。计算类型允许我们定义如何计算项目中的任务和摘要任务的值。
+在本教程中，我们将探索 Aspose.Tasks for .NET 中的计算类型功能。 Aspose.Tasks 是一个功能强大的库，使 .NET 开发人员能够使用 Microsoft Project 文件，而无需在其系统上安装 Microsoft Project。计算类型允许我们定义如何计算项目中任务和摘要任务的值。
 
 ## 先决条件
 
@@ -74,13 +74,13 @@ project.ExtendedAttributes.Add(lookup);
 
 ## 结论
 
-在本教程中，我们探讨了如何在 Aspose.Tasks for .NET 中使用计算类型。通过定义扩展属性的计算类型，我们可以自定义项目内任务和摘要任务的值计算方式，提供更大的灵活性和控制力。
+在本教程中，我们探讨了如何在 Aspose.Tasks for .NET 中使用计算类型。通过定义扩展属性的计算类型，我们可以自定义项目中任务和摘要任务的值计算方式，从而提供更大的灵活性和控制力。
 
 ## 常见问题解答
 
 ### Q1：Aspose.Tasks 中的计算类型是什么？
 
-A1：Aspose.Tasks 中的计算类型决定了如何计算项目内的任务和摘要任务的值，提供公式和汇总等选项。
+A1：Aspose.Tasks 中的计算类型确定如何计算项目中的任务和摘要任务的值，提供公式和汇总等选项。
 
 ### Q2：如何设置扩展属性的计算类型？
 
@@ -92,7 +92,7 @@ A3：是的，Aspose.Tasks 允许您指定汇总行的计算类型，使您能�
 
 ### Q4：是否有不同的 Rollup Type 可用于摘要任务计算？
 
-A4：是的，Aspose.Tasks 提供了 Average、Sum 和 Count 等各种 Rollup Type 来计算摘要任务的值。
+A4：是的，Aspose.Tasks 提供了各种 Rollup 类型，例如 Average、Sum 和 Count 来计算摘要任务的值。
 
 ### Q5：在哪里可以找到有关 Aspose.Tasks for .NET 的更多资源？
 

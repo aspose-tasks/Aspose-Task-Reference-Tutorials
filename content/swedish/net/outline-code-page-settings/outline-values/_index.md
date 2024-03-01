@@ -1,6 +1,6 @@
 ---
 title: Bemästra MS Project Outline Values med Aspose.Tasks
-linktitle: Hantera översiktsvärden i Aspose.Tasks
+linktitle: Hantera dispositionsvärden i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Lär dig hur du hanterar MS Projects dispositionsvärden effektivt med Aspose.Tasks för .NET. Anpassa projektkonturer med lätthet.
 type: docs
@@ -8,7 +8,7 @@ weight: 16
 url: /sv/net/outline-code-page-settings/outline-values/
 ---
 ## Introduktion
-I den här handledningen kommer vi att undersöka hur man hanterar Microsoft Project-konturvärden med Aspose.Tasks-biblioteket för .NET. Med Aspose.Tasks kan du enkelt manipulera dispositionskoder, skapa nya dispositionsvärden och anpassa projektkonturer efter dina krav.
+I den här självstudien kommer vi att utforska hur man hanterar Microsoft Project-konturvärden med Aspose.Tasks-biblioteket för .NET. Med Aspose.Tasks kan du enkelt manipulera dispositionskoder, skapa nya dispositionsvärden och anpassa projektkonturer efter dina krav.
 ## Förutsättningar
 Innan du börjar, se till att du har följande:
 1.  Installation av Aspose.Tasks för .NET: Ladda ner och installera Aspose.Tasks for .NET-biblioteket från[här](https://releases.aspose.com/tasks/net/).
@@ -64,15 +64,15 @@ outline2.Values.Add(value2);
 I det här steget skapar vi två OutlineValue-objekt och ställer in deras egenskaper som värde, värde-ID, typ, beskrivning och kollapsstatus.
 
 ## Slutsats
-Att hantera MS Project-konturvärden med Aspose.Tasks för .NET är enkelt med de tillhandahållna funktionerna. Genom att följa stegen som beskrivs i denna handledning kan du effektivt manipulera dispositionskoder och värden för att anpassa projektkonturer efter dina behov.
+Att hantera MS Project-konturvärden med Aspose.Tasks för .NET är enkelt med de medföljande funktionerna. Genom att följa stegen som beskrivs i denna handledning kan du effektivt manipulera dispositionskoder och värden för att anpassa projektkonturer efter dina behov.
 ## FAQ's
 ### F: Kan jag använda Aspose.Tasks med andra .NET-ramverk?
 S: Ja, Aspose.Tasks är kompatibelt med olika .NET-ramverk, vilket säkerställer flexibilitet i din utvecklingsmiljö.
 ### F: Finns det en testversion tillgänglig för Aspose.Tasks?
  S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks från[här](https://releases.aspose.com/).
 ### F: Hur kan jag få support för Aspose.Tasks?
- S: För support och hjälp kan du besöka Aspose.Tasks-forumet.[här](https://forum.aspose.com/c/tasks/15).
+ S: För support och hjälp kan du besöka Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).
 ### F: Kan jag köpa en tillfällig licens för Aspose.Tasks?
- S: Ja, du kan köpa en tillfällig licens för Aspose.Tasks från[här](https://purchase.aspose.com/temporary-license/).
+S: Ja, du kan köpa en tillfällig licens för Aspose.Tasks från[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag hitta detaljerad dokumentation för Aspose.Tasks?
  S: Du kan hänvisa till den omfattande dokumentationen som finns tillgänglig[här](https://reference.aspose.com/tasks/net/).

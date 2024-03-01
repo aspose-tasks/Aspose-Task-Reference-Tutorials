@@ -57,13 +57,13 @@ Console.WriteLine(project.Get(Prj.Name));
 ## 결론
 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS Project Primavera 데이터를 읽는 방법을 배웠습니다. 위에 설명된 단계를 따르면 .NET 애플리케이션에서 프로그래밍 방식으로 MS Project 파일에 쉽게 액세스하고 조작할 수 있습니다.
 ## FAQ
-### Q: Aspose.Tasks는 대용량 MS Project Primavera 파일을 처리할 수 있나요?
+### Q: Aspose.Tasks는 대용량 MS Project Primavera 파일을 처리할 수 있습니까?
 A: Aspose.Tasks는 Primavera 파일을 포함한 대용량 MS 프로젝트 파일을 효율적으로 처리하도록 설계되어 최적의 성능과 안정성을 보장합니다.
 ### Q: Aspose.Tasks는 MS Project 및 Primavera 외에 다른 프로젝트 관리 형식을 지원합니까?
 A: 예, Aspose.Tasks는 MPP, XML 및 CSV와 같은 다양한 프로젝트 관리 형식을 지원하여 개발자에게 프로젝트 데이터 작업을 위한 다양한 옵션을 제공합니다.
 ### Q: Aspose.Tasks를 사용하여 MS Project Primavera 파일의 변경 사항을 수정하고 저장할 수 있나요?
 답: 물론이죠! Aspose.Tasks를 사용하면 .NET 애플리케이션 내에서 MS Project Primavera 파일의 변경 사항을 읽을 뿐만 아니라 수정하고 저장할 수도 있습니다.
 ### Q: Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
- A: 예, Aspose의 무료 평가판을 이용할 수 있습니다.[여기](https://releases.aspose.com/) 구매하기 전에 기능과 성능을 살펴보세요.
+ A: 예, Aspose의 무료 평가판을 이용할 수 있습니다.[여기](https://releases.aspose.com/)구매하기 전에 기능과 성능을 살펴보세요.
 ### Q: Aspose.Tasks에 대한 지원은 어디서 받을 수 있나요?
- A: Aspose.Tasks에 관한 질문이나 도움이 필요하면 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)커뮤니티나 Aspose 지원 직원으로부터 도움을 받을 수 있습니다.## 전체 소스 코드
+ A: Aspose.Tasks에 관한 질문이나 도움이 필요하면 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티나 Aspose 지원 직원으로부터 도움을 받을 수 있습니다.## 전체 소스 코드

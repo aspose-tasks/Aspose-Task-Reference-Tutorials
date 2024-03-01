@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren Sie die Druckoptionen für MS Project in Aspose.Tasks
-linktitle: Konfigurieren Sie Druckoptionen in Aspose.Tasks
+title: Konfigurieren der MS Project-Druckoptionen in Aspose.Tasks
+linktitle: Konfigurieren von Druckoptionen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Druckoptionen nahtlos mit Aspose.Tasks für .NET konfigurieren. Erweitern Sie Ihre Projektmanagementfähigkeiten.
 type: docs
@@ -11,7 +11,7 @@ url: /de/net/project-management-integration/print-options/
 Im Bereich der Softwareentwicklung zeichnet sich Aspose.Tasks für .NET als leistungsstarkes Tool zur effizienten Verwaltung von Aufgaben und Projekten aus. Eine seiner Hauptfunktionen ist die Möglichkeit, die Druckoptionen für Microsoft Project nahtlos zu konfigurieren. In diesem Tutorial befassen wir uns mit dem Prozess der Konfiguration der MS Project-Druckoptionen mithilfe von Aspose.Tasks für .NET.
 ## Voraussetzungen
 Bevor wir uns mit den Feinheiten der Konfiguration der MS Project-Druckoptionen befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-1.  Installation von Aspose.Tasks für .NET: Stellen Sie sicher, dass Sie die Aspose.Tasks für .NET-Bibliothek installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
+1. Installation von Aspose.Tasks für .NET: Stellen Sie sicher, dass Sie die Aspose.Tasks für .NET-Bibliothek installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
 2. Grundlegendes Verständnis von C#: Machen Sie sich mit den Grundlagen der Programmiersprache C# vertraut, da in diesem Tutorial hauptsächlich C# zur Demonstration verwendet wird.
 
 ## Namespaces importieren
@@ -43,7 +43,7 @@ Vor dem Drucken ist es ratsam, die Seitenzahl zu überprüfen, um zu vermeiden, 
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Fahren Sie mit dem Drucken fort
+    // Fahren Sie mit dem Drucken fort
     project.Print(options);
 }
 ```

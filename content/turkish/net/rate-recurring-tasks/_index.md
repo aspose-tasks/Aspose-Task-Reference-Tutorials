@@ -19,7 +19,7 @@ MS Project ücret yönetiminin ve yinelenen görevlerin inceliklerini öğrenmek
  İçinde[Aspose.Tasks ile MS Proje Hızlarında Ustalaşın](./rate-collection/), MS Project dosyalarındaki oranları yönetmenin inceliklerini araştırıyoruz. Bu eğitim, ücret toplamanın inceliklerini anlamak, pratik bilgiler sunmak ve projenizin kaynak yönetimi yeteneklerini geliştirmeniz için sizi güçlendirmek için başvurulacak kaynağınızdır.
 
 ## Aspose.Tasks'ta Zahmetsiz MS Projesi Yinelenen Aralıklar
- Yinelenen aralıkları zahmetsizce yönetme sanatını keşfedin[Aspose.Tasks'ta Zahmetsiz MS Projesi Yinelenen Aralıklar](./recurring-intervals/), Bu eğitim, Aspose.Tasks for .NET'i kullanma süreci boyunca size rehberlik ederek, MS Project'inizde yinelenen görevleri sorunsuz bir şekilde gerçekleştirebilmenizi sağlar.
+ Yinelenen aralıkları zahmetsizce yönetme sanatını keşfedin[Aspose.Tasks'ta Zahmetsiz MS Projesi Yinelenen Aralıklar](./recurring-intervals/). Bu eğitim, Aspose.Tasks for .NET'i kullanma süreci boyunca size rehberlik ederek MS Project'inizde yinelenen görevleri sorunsuz bir şekilde gerçekleştirebilmenizi sağlar.
 
 ## Aspose.Tasks'ta Tekrarlanan Görev Bilgilerini Çıkarma
  MS Project dosyalarından yinelenen görev bilgilerini çıkarmanın inceliklerini öğrenin.[Aspose.Tasks'ta Tekrarlanan Görev Bilgilerini Çıkarma](./recurring-task-information/)Bu eğitim, .NET geliştiricileri için kolay entegrasyon sunarak projelerinizde yinelenen görevlerle verimli bir şekilde çalışmanıza olanak tanır.
@@ -31,13 +31,13 @@ MS Project ücret yönetiminin ve yinelenen görevlerin inceliklerini öğrenmek
  Manuel görev kaldırma işlemine elveda deyin![Aspose.Tasks ile MS Project Görevlerini Kaldırma](./removing-tasks/) Aspose.Tasks for .NET'i kullanarak görevleri programlı olarak kaldırma sürecinde size yol gösterir. Adım adım kılavuz, sorunsuz bir deneyim için kod örnekleri içerir.
 
 ## Aspose.Tasks ile MS Proje Raporlamasında Ustalaşın
- MS Project raporlamasının tüm potansiyelini açığa çıkarın[Aspose.Tasks ile MS Proje Raporlamasında Ustalaşın](./report-types/), Bu eğitimde, Aspose.Tasks for .NET kullanılarak MS Project dosyalarıyla nasıl çalışılacağı anlatılarak çeşitli rapor türlerini zahmetsizce oluşturmanıza olanak sağlanır.
+ MS Project raporlamasının tüm potansiyelini açığa çıkarın[Aspose.Tasks ile MS Proje Raporlamasında Ustalaşın](./report-types/). Bu eğitimde, Aspose.Tasks for .NET kullanılarak MS Project dosyalarıyla nasıl çalışılacağı anlatılarak, çeşitli rapor türlerini zahmetsizce oluşturmanıza olanak sağlanır.
 
 ## Aspose.Tasks'ta MS Project Dosyalarını Çeşitli Formatlarda Kaydetme
 Verimli proje yönetimi çeşitli dosya formatlarını içerir.[Aspose.Tasks'ta MS Project Dosyalarını Çeşitli Formatlarda Kaydetme](./save-file-formats/) Aspose.Tasks for .NET'i kullanarak MS Project dosyalarını farklı formatlarda kaydetme adımlarında size rehberlik eder.
 
 ## Aspose.Tasks'ta MS Project Bölünmüş Parçaları İşleme
- MS Project'te bölünmüş parçalarda gezinmek artık çok kolay[Aspose.Tasks'ta MS Project Bölünmüş Parçaları İşleme](./split-parts/), Aspose.Tasks for .NET'i kullanarak bölünmüş parçaları verimli bir şekilde işleyerek proje yönetimi iş akışınızı geliştirin.
+ MS Project'te bölünmüş parçalarda gezinmek artık çok kolay[Aspose.Tasks'ta MS Project Bölünmüş Parçaları İşleme](./split-parts/). Aspose.Tasks for .NET'i kullanarak bölünmüş parçaları verimli bir şekilde işleyerek proje yönetimi iş akışınızı geliştirin.
 
 ## Aspose.Tasks'ta MS Project Bölünmüş Parçalarını Toplayın
  Bizim eğitimimiz[Aspose.Tasks'ta MS Project Bölünmüş Parçalarını Toplayın](./split-part-collection/) süreç boyunca size adım adım yol gösteren kapsamlı bir kılavuzdur. MS Project'te bölünmüş parçaları nasıl toplayacağınızı öğrenin ve proje yönetimi iş akışınızı optimize etmenizi sağlayın.

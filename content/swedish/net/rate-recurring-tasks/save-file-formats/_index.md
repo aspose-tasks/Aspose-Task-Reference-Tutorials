@@ -34,7 +34,7 @@ Låt oss nu spara projektet i CSV-format.
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## Steg 3: Utforska andra format
- Aspose.Tasks stöder olika format för att spara projektfiler, såsom XML, PDF, XLSX och mer. Du kan utforska dessa format genom att helt enkelt ändra`SaveFileFormat` parametrar i`Save` metod.
+ Aspose.Tasks stöder olika format för att spara projektfiler, såsom XML, PDF, XLSX och mer. Du kan utforska dessa format genom att helt enkelt ändra`SaveFileFormat` parametern i`Save` metod.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,7 +50,7 @@ S: Aspose.Tasks stöder Microsoft Project 2003 XML, Microsoft Project 2007 MPP o
 ### F: Kan jag prova Aspose.Tasks innan jag köper?
  S: Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
 ### F: Hur kan jag få support för Aspose.Tasks?
- S: Du kan få stöd från Aspose.Tasks communityforum.[här](https://forum.aspose.com/c/tasks/15).
+S: Du kan få stöd från Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15).
 ### F: Finns tillfälliga licenser tillgängliga för Aspose.Tasks?
  S: Ja, tillfälliga licenser är tillgängliga för utvärderingssyften. Du kan få en[här](https://purchase.aspose.com/temporary-license/).
 ### F: Vad är priset för Aspose.Tasks?

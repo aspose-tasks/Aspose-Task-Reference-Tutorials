@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Aqui, criamos um`ChildTasksCollector` objeto para reunir todas as tarefas dentro do projeto. Usamos então`TaskUtils.Apply`método para percorrer a hierarquia de tarefas do projeto e coletar todas as tarefas filho.
+ Aqui, criamos um`ChildTasksCollector` objeto para reunir todas as tarefas dentro do projeto. Usamos então`TaskUtils.Apply` método para percorrer a hierarquia de tarefas do projeto e coletar todas as tarefas filho.
 
 ## Etapa 3: definir a condição do filtro
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Definimos uma condição de filtro usando uma classe personalizada chamada`NullCondition`, Esta condição seleciona tarefas que possuem um valor nulo.
+ Definimos uma condição de filtro usando uma classe personalizada chamada`NullCondition`. Esta condição seleciona tarefas que possuem um valor nulo.
 
 ## Etapa 4: Aplicar operação NOT
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- Aplicamos a operação NOT à condição de filtro usando o`Not<T>` classe fornecida por Aspose.Tasks. Isso reverterá a condição do filtro, selecionando tarefas que não possuem valor nulo.
+ Aplicamos a operação NOT à condição de filtro usando o`Not<T>`classe fornecida por Aspose.Tasks. Isso reverterá a condição do filtro, selecionando tarefas que não possuem valor nulo.
 
 ## Etapa 5: Filtrar tarefas
 

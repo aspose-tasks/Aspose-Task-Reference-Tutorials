@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Manipule os códigos de estrutura conforme necessário, como inserir, remover ou limpar.
 ```csharp
 // Exemplo de manipulação
-// ,
+// ...
 // Insira o código com 2 na posição correta
 task.OutlineCodes.Insert(2, code2);
 // Verifique se o código foi inserido

@@ -12,7 +12,7 @@ Az Aspose.Tasks for .NET robusztus funkcionalitást biztosít a Microsoft Projec
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 ### 1. Telepítse az Aspose.Tasks programot .NET-hez
- Töltse le és telepítse az Aspose.Tasks for .NET alkalmazást a[letöltési oldal](https://releases.aspose.com/tasks/net/), Kövesse a kapott telepítési utasításokat a könyvtár beállításához a fejlesztői környezetben.
+ Töltse le és telepítse az Aspose.Tasks for .NET alkalmazást a[letöltési oldal](https://releases.aspose.com/tasks/net/). Kövesse a kapott telepítési utasításokat a könyvtár beállításához a fejlesztői környezetben.
 ### 2. Állítsa be fejlesztői környezetét
 Győződjön meg arról, hogy rendelkezik működő fejlesztői környezettel a .NET programozáshoz. Ez magában foglal egy kompatibilis IDE-t, például a Visual Studio-t, valamint a C# programozási nyelv alapvető ismereteit.
 ### 3. Nyissa meg a Minta Microsoft Project fájlt
@@ -66,7 +66,7 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
 ```
 Az erőforrásszűrők részleteinek megjelenítése, beleértve a számot, a szűrőtípust, a Megjelenítés a menüben és a Kapcsolódó összegzési sorok megjelenítése.
 ## Következtetés
-Az MS Project fájlok adatainak szűrése az Aspose.Tasks for .NET használatával egyszerű folyamat, amely növeli a termelékenységet és az elemzési képességeket. Az ebben az oktatóanyagban vázolt lépések követésével hatékonyan kezelheti a projektinformációkat a meghatározott feltételek szerint.
+Az MS Project fájlok adatainak szűrése az Aspose.Tasks for .NET használatával egyszerű folyamat, amely növeli a termelékenységet és az elemzési képességeket. Az oktatóanyagban ismertetett lépések követésével hatékonyan kezelheti a projektinformációkat meghatározott kritériumok szerint.
 ## GYIK
 ### K: Az Aspose.Tasks szűrheti az adatokat egyéni kritériumok alapján?
 V: Igen, az Aspose.Tasks lehetővé teszi az adatok szűrését a projekt követelményeihez szabott egyéni kritériumok alapján.

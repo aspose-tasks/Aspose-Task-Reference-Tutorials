@@ -11,7 +11,7 @@ url: /ar/net/task-table-management/configuring-tables/
 مرحبًا بك في هذا الدليل الشامل حول تكوين الجداول في Aspose.Tasks لـ .NET. Aspose.Tasks هي مكتبة قوية تمكن المطورين من العمل مع ملفات Microsoft Project بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تكوين الجداول باستخدام Aspose.Tasks، مع تفصيل كل خطوة للحصول على فهم واضح.
 ## المتطلبات الأساسية
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
--  Aspose.Tasks لـ .NET: تأكد من تثبيت مكتبة Aspose.Tasks. يمكنك تنزيله من[وثائق Aspose.Tasks .NET](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks لـ .NET: تأكد من تثبيت مكتبة Aspose.Tasks. يمكنك تنزيله من[وثائق Aspose.Tasks .NET](https://reference.aspose.com/tasks/net/).
 - بيئة التطوير: قم بإعداد بيئة التطوير الخاصة بك باستخدام Visual Studio أو أي أداة تطوير .NET مفضلة أخرى.
 - نموذج ملف مشروع: احصل على نموذج ملف Microsoft Project (MPP) جاهز للاختبار.
 ## استيراد مساحات الأسماء

@@ -35,7 +35,7 @@ Aspose.Tasks for .NET は、Microsoft Project ファイルをプログラムで�
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## ステップ 2: 保存オプションを定義する
-要件に応じて保存オプションを定義します。この例では、`Spreadsheet2003SaveOptions`、
+要件に応じて保存オプションを定義します。この例では、`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -61,9 +61,9 @@ Aspose.Tasks for .NET を使用して一般的な MS Project 保存オプショ�
 ### Q: Aspose.Tasks は、MS Project ファイルのさまざまなバージョンと互換性がありますか?
 A: はい、Aspose.Tasks はさまざまなバージョンの MS Project ファイルをサポートしており、さまざまな環境間での互換性を確保しています。
 ### Q: 購入する前に Aspose.Tasks を試すことはできますか?
- A: はい、無料トライアルを利用して Aspose.Tasks を探索できます。[ここ](https://releases.aspose.com/).
+A: はい、無料トライアルを利用して Aspose.Tasks を探索できます。[ここ](https://releases.aspose.com/).
 ### Q: Aspose.Tasks のドキュメントはどこで見つけられますか?
-A: 詳細なドキュメントが見つかります。[ここ](https://reference.aspose.com/tasks/net/)、Aspose.Tasks 機能の使用に関する包括的なガイダンスを提供します。
+ A: 詳細なドキュメントが見つかります。[ここ](https://reference.aspose.com/tasks/net/)、Aspose.Tasks 機能の使用に関する包括的なガイダンスを提供します。
 ### Q: Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか?
  A: 一時ライセンスは評価目的で使用できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks 関連のクエリのサポートはどこに問い合わせればよいですか?

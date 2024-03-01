@@ -34,7 +34,7 @@ Ange katalogsökvägen där din MS Project-fil finns.
 ```csharp
 var riskAnalysisSettings = new RiskAnalysisSettings();
 ```
- Skapa en instans av`RiskAnalysisSettings` klass för att konfigurera parametrar för riskanalys.
+ Skapa en instans av`RiskAnalysisSettings` klass för att konfigurera riskanalysparametrar.
 ## Steg 3: Ställ in antal iterationer
 ```csharp
 riskAnalysisSettings.IterationsCount = 200;
@@ -80,7 +80,7 @@ Ställ in konfidensnivån för att bestämma säkerheten för uppskattningar.
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Initiera a`RiskAnalyzer` målsätta och utföra riskanalys på projektet.
+ Initiera a`RiskAnalyzer` objekt och utföra riskanalys på projektet.
 ## Steg 12: Hämta analysresultat
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

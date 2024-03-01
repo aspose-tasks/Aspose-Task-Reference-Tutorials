@@ -32,7 +32,7 @@ Importeer om te beginnen de benodigde naamruimten in uw C#-project:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
+ Vervangen`"Your Document Directory"` met het daadwerkelijke pad naar uw documentmap.
 ## Stap 2: Maak een nieuw projectexemplaar
 ```csharp
 var project = new Project();
@@ -50,7 +50,7 @@ project.Save(DataDir + "CreateResources_out.xml", SaveFileFormat.Xml);
 Met deze stap wordt het project met de toegevoegde bronnen opgeslagen in een XML-bestand. U kunt de bestandsnaam en het formaat naar wens wijzigen.
 
 ## Conclusie
-Het beheren van Microsoft Project-resourceverzamelingen wordt moeiteloos met Aspose.Tasks voor .NET. Door de stappen te volgen die in deze tutorial worden beschreven, kunt u efficiënt omgaan met de resources binnen uw project, waardoor een soepele uitvoering en optimale toewijzing van resources wordt gegarandeerd.
+Het beheren van Microsoft Project-resourceverzamelingen wordt moeiteloos met Aspose.Tasks voor .NET. Door de stappen te volgen die in deze tutorial worden beschreven, kunt u efficiënt omgaan met resources binnen uw project, waardoor een soepele uitvoering en optimale toewijzing van resources wordt gegarandeerd.
 ## Veelgestelde vragen
 ### Vraag: Kan ik meerdere bronnen tegelijk toevoegen met Aspose.Tasks voor .NET?
 A: Ja, u kunt meerdere bronnen toevoegen door een lijst of reeks bronnamen te herhalen en deze afzonderlijk aan het project toe te voegen.
@@ -61,4 +61,4 @@ A: Absoluut, Aspose.Tasks voor .NET biedt uitgebreide functionaliteit om resourc
 ### Vraag: Ondersteunt Aspose.Tasks voor .NET het exporteren van projectgegevens naar andere formaten dan XML?
 A: Ja, Aspose.Tasks voor .NET ondersteunt het exporteren van projectgegevens naar verschillende formaten, waaronder onder andere MPP, PDF, XLSX en HTML.
 ### Vraag: Waar kan ik verdere hulp of ondersteuning vinden voor Aspose.Tasks voor .NET?
-A: Voor verdere hulp of ondersteuning kunt u terecht op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) of raadpleeg de[documentatie](https://reference.aspose.com/tasks/net/) aangeboden door Aspose.
+ A: Voor verdere hulp of ondersteuning kunt u terecht op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) of raadpleeg de[documentatie](https://reference.aspose.com/tasks/net/) aangeboden door Aspose.

@@ -9,7 +9,7 @@ url: /tr/net/advanced-concepts/label-display/
 ---
 ## giriiş
 
-Yazılım geliştirme alanında, projelerin başarısı için görevlerin verimli bir şekilde yönetilmesi zorunludur. Aspose.Tasks for .NET, proje yönetimi görevlerini .NET çerçevesinde sorunsuz bir şekilde gerçekleştirmek için güçlü bir çözüm sunar. Proje yönetiminin önemli yönlerinden biri, ekran seçeneklerini belirli gereksinimlere uyacak şekilde özelleştirebilme yeteneğidir. Bu eğitimde, proje dosyalarındaki dakika, saat, gün, hafta, ay ve yıl etiket görünümlerini değiştirmek için Aspose.Tasks for .NET'i nasıl kullanabileceğimizi keşfedeceğiz.
+Yazılım geliştirme alanında, projelerin başarısı için görevlerin verimli bir şekilde yönetilmesi zorunludur. Aspose.Tasks for .NET, proje yönetimi görevlerini .NET çerçevesinde sorunsuz bir şekilde gerçekleştirmek için güçlü bir çözüm sunar. Proje yönetiminin önemli yönlerinden biri, ekran seçeneklerini belirli gereksinimlere uyacak şekilde özelleştirebilme yeteneğidir. Bu eğitimde, proje dosyalarındaki dakika, saat, gün, hafta, ay ve yıl etiket görünümlerini değiştirmek için Aspose.Tasks for .NET'in nasıl kullanılacağını keşfedeceğiz.
 
 ## Önkoşullar
 

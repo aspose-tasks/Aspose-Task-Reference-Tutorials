@@ -27,7 +27,7 @@ url: /el/net/calendar-scheduling/currency-symbol-positions/
 
 Για να ξεκινήσετε, πρέπει να εισαγάγετε τους απαιτούμενους χώρους ονομάτων στο έργο σας .NET. 
 
- Συμπεριλάβετε το`Aspose.Tasks` namespace στο έργο σας για πρόσβαση στις κλάσεις και τις μεθόδους που παρέχονται από τη βιβλιοθήκη Aspose.Tasks.
+ Συμπεριλάβετε το`Aspose.Tasks`namespace στο έργο σας για πρόσβαση στις κλάσεις και τις μεθόδους που παρέχονται από τη βιβλιοθήκη Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ url: /el/net/calendar-scheduling/currency-symbol-positions/
 
 ## Βήμα 1: Φορτώστε το Αρχείο Έργου
 
- Ξεκινήστε φορτώνοντας το αρχείο του έργου χρησιμοποιώντας το`Project`κατασκευαστής τάξης.
+ Ξεκινήστε φορτώνοντας το αρχείο του έργου χρησιμοποιώντας το`Project` κατασκευαστής τάξης.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

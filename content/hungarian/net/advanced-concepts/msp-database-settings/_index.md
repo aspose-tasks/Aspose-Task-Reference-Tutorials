@@ -47,7 +47,7 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-Ügyeljen arra, hogy a helyőrző értékeket a tényleges adatbázis hitelesítő adataira cserélje.
+Ügyeljen arra, hogy a helyőrző értékeket lecserélje a tényleges adatbázis hitelesítő adataira.
 
 ## 2. lépés: Az MspDbSettings konfigurálása
 
@@ -86,7 +86,7 @@ Ebben az oktatóanyagban megtanulta, hogyan konfigurálhatja a Microsoft Project
 
 ### 2. kérdés: Hogyan háríthatom el a csatlakozási problémákat az adatbázissal?
 
-2. válasz: Győződjön meg arról, hogy a kapcsolati karakterlánc megfelelően van konfigurálva a megfelelő hitelesítő adatokkal és adatbázis-részletekkel. Tekintse meg a dokumentációt, vagy kérjen támogatást a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+ 2. válasz: Győződjön meg arról, hogy a kapcsolati karakterlánc megfelelően van konfigurálva a megfelelő hitelesítő adatokkal és adatbázis-részletekkel. Tekintse meg a dokumentációt, vagy kérjen támogatást a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
 
 ### 3. kérdés: Elérhető az Aspose.Tasks próbaverziója?
 

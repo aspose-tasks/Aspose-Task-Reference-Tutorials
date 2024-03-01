@@ -9,7 +9,7 @@ url: /sv/net/calendar-scheduling/calendar-collection/
 ---
 ## Introduktion
 
-den här handledningen kommer vi att utforska hur man hanterar kalendersamlingar i Aspose.Tasks för .NET. Kalendrar spelar en avgörande roll i projektledning och definierar arbetsdagar, helgdagar och undantag. Aspose.Tasks ger robust funktionalitet för att manipulera kalendrar i dina projekt.
+I den här handledningen kommer vi att utforska hur man hanterar kalendersamlingar i Aspose.Tasks för .NET. Kalendrar spelar en avgörande roll i projektledning och definierar arbetsdagar, helgdagar och undantag. Aspose.Tasks ger robust funktionalitet för att manipulera kalendrar i dina projekt.
 
 ## Förutsättningar
 
@@ -151,7 +151,7 @@ S2: Absolut, Aspose.Tasks stöder import av kalendrar från Microsoft Project-fi
 
 ### F3: Hur kan jag ta bort en specifik kalender från ett projekt?
 
-S3: Du kan ta bort en kalender genom att hämta den från samlingen och sedan ringa till`Remove` metod.
+ S3: Du kan ta bort en kalender genom att hämta den från samlingen och sedan ringa till`Remove` metod.
 
 ### F4: Stöder Aspose.Tasks export av kalendrar till olika format?
 

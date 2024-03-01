@@ -2,7 +2,7 @@
 title: CSV-Optionen in Aspose.Tasks
 linktitle: CSV-Optionen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
-description: Erfahren Sie, wie Sie Aspose.Tasks für .NET nutzen, um effizient mit CSV-Dateien zu arbeiten und Ihre Projektmanagementfunktionen mühelos zu verbessern.
+description: Erfahren Sie, wie Sie Aspose.Tasks für .NET nutzen, um effizient mit CSV-Dateien zu arbeiten und so Ihre Projektmanagementfunktionen mühelos zu verbessern.
 type: docs
 weight: 21
 url: /de/net/calendar-scheduling/csv-options/
@@ -71,7 +71,7 @@ A1: Aspose.Tasks für .NET wurde für die effiziente Abwicklung von Projekten je
 
 ### F2: Gibt es eine kostenlose Testversion für Aspose.Tasks für .NET?
 
- A2: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für .NET erhalten[Webseite](https://releases.aspose.com/tasks/net/)um die Funktionen vor dem Kauf zu bewerten.
+ A2: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für .NET erhalten[Webseite](https://releases.aspose.com/tasks/net/) um die Funktionen vor dem Kauf zu bewerten.
 
 ### F3: Unterstützt Aspose.Tasks für .NET mehrere Plattformen?
 

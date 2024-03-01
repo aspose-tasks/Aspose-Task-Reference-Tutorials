@@ -14,7 +14,7 @@ Czy jesteś gotowy, aby przenieść swoje umiejętności Aspose.Tasks for .NET n
 
 ## Obsługa zapisywania obrazów w Aspose.Tasks
 
-Naucz się sztuki obsługi zapisywania obrazów w Aspose.Tasks dla .NET, korzystając z naszych wskazówek krok po kroku. Bezproblemowo integruj funkcję zapisywania obrazów z aplikacjami .NET, poprawiając wizualną reprezentację danych projektu.[Czytaj więcej](./image-saving/)
+ Naucz się sztuki obsługi zapisywania obrazów w Aspose.Tasks dla .NET, korzystając z naszych wskazówek krok po kroku. Bezproblemowo integruj funkcję zapisywania obrazów z aplikacjami .NET, poprawiając wizualną reprezentację danych projektu.[Czytaj więcej](./image-saving/)
 
 ## Radzenie sobie z wyjątkiem nieprawidłowego hasła w Aspose.Tasks
 
@@ -22,11 +22,11 @@ Naucz się sztuki obsługi zapisywania obrazów w Aspose.Tasks dla .NET, korzyst
 
 ## Implementacja wywołania zwrotnego zapisywania strony w Aspose.Tasks
 
- Odblokuj potencjał niestandardowej obsługi wielostronicowych strumieni wyjściowych dokumentów. Dowiedz się, jak zaimplementować wywołanie zwrotne oszczędzające stronę w Aspose.Tasks dla .NET, zapewniając kontrolę nad prezentacją danych projektu.[Czytaj więcej](./page-saving-callback/)
+Odblokuj potencjał niestandardowej obsługi wielostronicowych strumieni wyjściowych dokumentów. Dowiedz się, jak zaimplementować wywołanie zwrotne oszczędzające stronę w Aspose.Tasks dla .NET, zapewniając kontrolę nad prezentacją danych projektu.[Czytaj więcej](./page-saving-callback/)
 
 ## Korzystanie z algorytmu drzewa w Aspose.Tasks
 
-Efektywnie manipuluj hierarchiami zadań w projektach .NET za pomocą algorytmu drzewa Aspose.Tasks. Ten samouczek umożliwia optymalizację struktur projektu, zapewniając płynny i zorganizowany przepływ pracy.[Czytaj więcej](./tree-algorithm/)
+ Efektywnie manipuluj hierarchiami zadań w projektach .NET za pomocą algorytmu drzewa Aspose.Tasks. Ten samouczek umożliwia optymalizację struktur projektu, zapewniając płynny i zorganizowany przepływ pracy.[Czytaj więcej](./tree-algorithm/)
 
 ## Wyświetlanie etykiet w Aspose.Tasks
 
@@ -38,11 +38,11 @@ Efektywnie manipuluj hierarchiami zadań w projektach .NET za pomocą algorytmu 
 
 ## Obsługa miesięcznych wzorców powtarzania w Aspose.Tasks
 
- Opanuj sztukę obsługi miesięcznych wzorców powtarzania w Aspose.Tasks dla .NET. Ten samouczek zawiera przewodnik krok po kroku umożliwiający efektywne zarządzanie powtarzającymi się zadaniami w projektach.[Czytaj więcej](./monthly-recurrence-patterns/)
+Opanuj sztukę obsługi miesięcznych wzorców powtarzania w Aspose.Tasks dla .NET. Ten samouczek zawiera przewodnik krok po kroku umożliwiający efektywne zarządzanie powtarzającymi się zadaniami w projektach.[Czytaj więcej](./monthly-recurrence-patterns/)
 
 ## Ustawienia bazy danych Microsoft Project w Aspose.Tasks
 
-Bezproblemowo konfiguruj ustawienia bazy danych Microsoft Project za pomocą Aspose.Tasks dla .NET. Bez wysiłku integruj dane projektu z aplikacjami .NET, optymalizując możliwości zarządzania projektami.[Czytaj więcej](./msp-database-settings/)
+ Bezproblemowo konfiguruj ustawienia bazy danych Microsoft Project za pomocą Aspose.Tasks dla .NET. Bez wysiłku integruj dane projektu z aplikacjami .NET, optymalizując możliwości zarządzania projektami.[Czytaj więcej](./msp-database-settings/)
 
 ## Praca z operacją NOT w Aspose.Tasks
 
@@ -54,11 +54,11 @@ Bezproblemowo konfiguruj ustawienia bazy danych Microsoft Project za pomocą Asp
 
 ## Praca z obiektami OLE w Aspose.Tasks
 
- Efektywna praca z obiektami OLE w aplikacjach .NET przy użyciu Aspose.Tasks. Zwiększ swoje możliwości zarządzania projektami, opanowując obsługę obiektów OLE, dodając nowy wymiar do dokumentów projektu.[Czytaj więcej](./ole-objects/)
+Efektywna praca z obiektami OLE w aplikacjach .NET przy użyciu Aspose.Tasks. Zwiększ swoje możliwości zarządzania projektami, opanowując obsługę obiektów OLE, dodając nowy wymiar do dokumentów projektu.[Czytaj więcej](./ole-objects/)
 
 ## Kolekcja obiektów OLE w Aspose.Tasks
 
-Zarządzaj obiektami OLE w Aspose.Tasks dla .NET dzięki temu wszechstronnemu samouczkowi. Zdobądź wiedzę w zakresie obsługi plików osadzonych w dokumentach projektowych, zapewniając bezproblemową integrację obiektów OLE ze swoimi projektami.[Czytaj więcej](./ole-object-collection/)
+ Zarządzaj obiektami OLE w Aspose.Tasks dla .NET dzięki temu wszechstronnemu samouczkowi. Zdobądź wiedzę w zakresie obsługi plików osadzonych w dokumentach projektowych, zapewniając bezproblemową integrację obiektów OLE ze swoimi projektami.[Czytaj więcej](./ole-object-collection/)
 ## Poradniki dotyczące zaawansowanych koncepcji
 ### [Obsługa zapisywania obrazów w Aspose.Tasks](./image-saving/)
 Dowiedz się, jak obsługiwać zapisywanie obrazów w Aspose.Tasks dla .NET, korzystając ze wskazówek krok po kroku. Bezproblemowo integruj funkcję zapisywania obrazów z aplikacjami .NET.
@@ -79,7 +79,7 @@ Dowiedz się, jak skonfigurować ustawienia bazy danych Microsoft Project za pom
 ### [Praca z operacją NOT w Aspose.Tasks](./not-operation/)
 Dowiedz się, jak używać operacji NOT w Aspose.Tasks dla .NET, aby skutecznie filtrować zadania. Zwiększ swoje możliwości zarządzania projektami już teraz.
 ### [Obsługa wartości logicznych dopuszczających wartość null w Aspose.Tasks](./nullable-booleans/)
- Dowiedz się, jak skutecznie obsługiwać wartości logiczne null w Aspose.Tasks dla .NET dzięki temu wszechstronnemu samouczkowi. Opanuj użycie`NullableBool` klasy i usprawnij swój rozwój .NET.
+ Dowiedz się, jak efektywnie obsługiwać wartości logiczne null w Aspose.Tasks dla .NET dzięki temu wszechstronnemu samouczkowi. Opanuj użycie`NullableBool` klasy i usprawnij swój rozwój .NET.
 ### [Praca z obiektami OLE w Aspose.Tasks](./ole-objects/)
 Dowiedz się, jak wydajnie pracować z obiektami OLE w aplikacjach .NET przy użyciu Aspose.Tasks, zwiększając możliwości zarządzania projektami.
 ### [Kolekcja obiektów OLE w Aspose.Tasks](./ole-object-collection/)

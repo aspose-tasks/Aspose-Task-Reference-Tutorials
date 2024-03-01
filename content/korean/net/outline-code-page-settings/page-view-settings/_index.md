@@ -75,4 +75,4 @@ A: 예, 작업하는 각 프로젝트 파일에 대해 독립적으로 페이지
 ### Q: Aspose.Tasks는 모든 버전의 Microsoft Project와 호환됩니까?
 A: Aspose.Tasks는 Microsoft Project 2003 및 이후 버전과의 호환성을 제공합니다.
 ### Q: Aspose.Tasks에 대한 추가 지원은 어디에서 찾을 수 있나요?
- A: 다음을 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)이용 중 발생한 문의사항이나 문제에 대해
+ A: 다음을 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 이용 중 발생한 문의사항이나 문제에 대해

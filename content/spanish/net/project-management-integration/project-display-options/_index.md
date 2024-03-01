@@ -1,5 +1,5 @@
 ---
-title: Configurar las opciones de visualización de MS Project en Aspose.Tasks
+title: Configuración de las opciones de visualización de MS Project en Aspose.Tasks
 linktitle: Configurar las opciones de visualización del proyecto en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar las opciones de visualización de MS Project mediante programación utilizando Aspose.Tasks para .NET. Personaliza la apariencia de tu proyecto sin esfuerzo.
@@ -62,7 +62,7 @@ Permitir mostrar sugerencias para conflictos de programación con tareas program
 project.DisplayOptions.ShowTaskScheduleSuggestions = true;
 ```
 ### Subrayar hipervínculos
-Establecer para subrayar hipervínculos dentro del proyecto:
+Configurado para subrayar hipervínculos dentro del proyecto:
 ```csharp
 project.DisplayOptions.UnderlineHyperlinks = true;
 ```

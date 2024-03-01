@@ -9,7 +9,7 @@ url: /tr/net/advanced-concepts/tree-algorithm/
 ---
 ## giriiş
 
-Aspose.Tasks for .NET, proje yönetimi görevleri, kaynakları ve zamanlamalarıyla çalışmak için güçlü işlevler sağlar. Bu özelliklerden biri, kullanıcıların görev hiyerarşilerini verimli bir şekilde değiştirmelerine olanak tanıyan Ağaç Algoritmasıdır. Bu derste, Aspose.Tasks for .NET'teki Ağaç Algoritmasının, ortak işleri toplamak ve bir proje içindeki iş değerlerini güncellemek için nasıl kullanılacağını keşfedeceğiz.
+Aspose.Tasks for .NET, proje yönetimi görevleri, kaynakları ve zamanlamalarıyla çalışmak için güçlü işlevler sağlar. Bu özelliklerden biri, kullanıcıların görev hiyerarşilerini verimli bir şekilde değiştirmelerine olanak tanıyan Ağaç Algoritmasıdır. Bu eğitimde, Aspose.Tasks for .NET'teki Ağaç Algoritmasının, ortak işleri toplamak ve bir proje içindeki iş değerlerini güncellemek için nasıl kullanılacağını keşfedeceğiz.
 
 ## Önkoşullar
 

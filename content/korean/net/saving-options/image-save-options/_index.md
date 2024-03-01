@@ -13,7 +13,7 @@ url: /ko/net/saving-options/image-save-options/
 ## 전제조건
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 옵션을 이미지로 저장하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 ### 1. .NET용 Aspose.Tasks 설치
- 시작하려면 개발 환경에 Aspose.Tasks for .NET이 설치되어 있어야 합니다. 라이브러리는 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/tasks/net/) 제공된 설치 지침을 따르십시오.
+시작하려면 개발 환경에 Aspose.Tasks for .NET이 설치되어 있어야 합니다. 라이브러리는 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/tasks/net/) 제공된 설치 지침을 따르십시오.
 ### 2. 라이센스 취득(선택)
  Aspose.Tasks for .NET은 평가 모드에서 라이선스 없이 사용할 수 있지만, 전체 기능을 사용하고 평가 제한 사항을 제거하려면 라이선스를 취득하는 것이 좋습니다. 에서 라이센스를 취득할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy) 또는 다음을 선택하세요.[임시면허](https://purchase.aspose.com/temporary-license/) 테스트 목적으로.
 ### 3. C# 및 .NET 개발에 대한 기본 지식
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## 3단계: 이미지 저장 옵션 정의
- 인스턴스 만들기`ImageSaveOptions` 원하는 설정을 지정합니다.
+ 인스턴스 만들기`ImageSaveOptions`원하는 설정을 지정합니다.
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {

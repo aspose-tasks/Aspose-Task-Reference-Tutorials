@@ -71,7 +71,7 @@ Ja, Aspose.Tasks stöder olika .NET-ramverk, vilket säkerställer kompatibilite
 ### Kan jag anpassa utseendet på enskilda uppgifter i tidslinjevyn?
 Absolut! Aspose.Tasks ger flexibilitet för att anpassa utseendet på varje uppgift i tidslinjevyn.
 ### Var kan jag hitta ytterligare resurser och support för Aspose.Tasks?
- besök[Aspose.Tasks dokumentation](https://reference.aspose.com/tasks/net/) för omfattande guider och[supportforum](https://forum.aspose.com/c/tasks/15) för assistens.
+ Besök[Aspose.Tasks dokumentation](https://reference.aspose.com/tasks/net/)för omfattande guider och[supportforum](https://forum.aspose.com/c/tasks/15) för assistens.
 ### Finns det en gratis testversion tillgänglig för Aspose.Tasks?
  Ja, du kan utforska en gratis provperiod[här](https://releases.aspose.com/).
 ### Hur får jag en tillfällig licens för Aspose.Tasks?

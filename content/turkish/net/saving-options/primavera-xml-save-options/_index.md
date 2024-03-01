@@ -11,7 +11,7 @@ url: /tr/net/saving-options/primavera-xml-save-options/
 Aspose.Tasks for .NET, proje yönetimi ve görev yönetimi alanında güçlü bir müttefik olarak ortaya çıkıyor. Bu kitaplık, geliştiricilere proje verilerini .NET uygulamaları içinde zahmetsizce işlemek için gerekli araçlarla donatır. Dikkate değer özelliklerden biri, Primavera XML dosyalarıyla etkileşime girerek proje bilgilerinin işlenmesinde kusursuz bir deneyim sunmasıdır.
 ## Önkoşullar
 MS Project seçeneklerini Primavera XML formatında kaydetmek için Aspose.Tasks for .NET'i kullanmanın inceliklerine dalmadan önce, aşağıdaki önkoşulların yerine getirildiğinden emin olun:
-1.  Kurulum: Geliştirme ortamınızda Aspose.Tasks for .NET kütüphanesinin kurulu olmasını sağlayın. Değilse, şuradan indirin:[Burada](https://releases.aspose.com/tasks/net/)ve belgelerde verilen kurulum talimatlarını izleyin[Burada](https://reference.aspose.com/tasks/net/).
+1.  Kurulum: Geliştirme ortamınızda Aspose.Tasks for .NET kütüphanesinin kurulu olmasını sağlayın. Değilse, şuradan indirin:[Burada](https://releases.aspose.com/tasks/net/) ve belgelerde verilen kurulum talimatlarını izleyin[Burada](https://reference.aspose.com/tasks/net/).
 2. .NET Framework'e aşinalık: Bu eğitimde tartışılan kavramları kavramak için .NET Framework ve C# programlama dilinin temel düzeyde anlaşılması önemlidir.
 3. MS Project Dosyası: Bir Microsoft Project dosyası hazırlayın (`project.xml`) Primavera XML formatında kaydetmeyi düşündüğünüz.
 

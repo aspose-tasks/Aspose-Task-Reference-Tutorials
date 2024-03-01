@@ -17,7 +17,7 @@ Zanim zaczniemy, upewnij się, że masz następujące elementy:
 
 1. Znajomość języka programowania C#: Powinieneś posiadać podstawową wiedzę na temat składni i pojęć C#.
    
-2. Instalacja Aspose.Tasks dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Tasks w swoim środowisku programistycznym. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
+2.  Instalacja Aspose.Tasks dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Tasks w swoim środowisku programistycznym. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
 
 3. Konfiguracja środowiska programistycznego: Skonfiguruj preferowane środowisko IDE dla programowania w środowisku .NET, takie jak Visual Studio.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## Krok 2: Skonfiguruj opcje zapisywania obrazu
 
- Definiować`ImageSaveOptions` i dostosuj zachowanie strony podczas zapisywania, ustawiając`PageSavingCallback` nieruchomość:
+ Definiować`ImageSaveOptions` dostosuj zachowanie strony podczas zapisywania, ustawiając`PageSavingCallback` nieruchomość:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -98,7 +98,7 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
 ## Wniosek:
 
-tym samouczku nauczyliśmy się, jak zaimplementować wywołanie zwrotne zapisywania strony w Aspose.Tasks dla .NET, co pozwala nam zapisywać wielostronicowe dokumenty w oddzielnych strumieniach. Wykonując poniższe kroki, możesz zwiększyć funkcjonalność aplikacji i uzyskać niestandardową obsługę wyników.
+W tym samouczku nauczyliśmy się, jak zaimplementować wywołanie zwrotne zapisywania strony w Aspose.Tasks dla .NET, co pozwala nam zapisywać wielostronicowe dokumenty w oddzielnych strumieniach. Wykonując poniższe kroki, możesz zwiększyć funkcjonalność aplikacji i uzyskać niestandardową obsługę wyników.
 
 ## Często zadawane pytania
 

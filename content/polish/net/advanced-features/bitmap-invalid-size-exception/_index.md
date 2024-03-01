@@ -9,7 +9,7 @@ url: /pl/net/advanced-features/bitmap-invalid-size-exception/
 ---
 ## Wstęp
 
- tym samouczku zajmiemy się obsługą plików`BitmapInvalidSizeException` podczas pracy z Aspose.Tasks dla .NET. Aspose.Tasks to potężna biblioteka, która umożliwia programistom programowe manipulowanie plikami Microsoft Project, umożliwiając wykonywanie takich zadań, jak zapisywanie projektów jako obrazów. Jednak czasami podczas próby zapisania projektu jako obrazu możemy napotkać błąd`Invalid Size Exception` związane z bitmapą. Ten samouczek ma na celu poprowadzić Cię przez proces skutecznego wychwytywania i obsługi tego wyjątku.
+ W tym samouczku zajmiemy się obsługą plików`BitmapInvalidSizeException` podczas pracy z Aspose.Tasks dla .NET. Aspose.Tasks to potężna biblioteka, która umożliwia programistom programowe manipulowanie plikami Microsoft Project, umożliwiając wykonywanie takich zadań, jak zapisywanie projektów jako obrazów. Jednak czasami podczas próby zapisania projektu jako obrazu możemy napotkać błąd`Invalid Size Exception`związane z bitmapą. Ten samouczek ma na celu poprowadzić Cię przez proces skutecznego wychwytywania i obsługi tego wyjątku.
 
 ## Warunki wstępne
 
@@ -32,7 +32,7 @@ using Aspose.Tasks.Visualization;
 
 ## Krok 1: Zainicjuj projekt i zdefiniuj widok
 
- Najpierw zainicjuj a`Project` obiekt i zdefiniuj widok, taki jak`GanttChartView`.
+ Po pierwsze, zainicjuj a`Project` obiekt i zdefiniuj widok, taki jak`GanttChartView`.
 
 ```csharp
 // Ścieżka do katalogu dokumentów.

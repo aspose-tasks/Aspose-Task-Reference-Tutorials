@@ -75,7 +75,7 @@ project.Save(OutDir + "WorkWithViewColumn_out.pdf", options);
 ### س: كيف يمكنني استكشاف مشكلات تخصيص عمود العرض وإصلاحها؟
  ج: قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع والمساعدة في أي تحديات تواجهها.
 ### س: هل هناك نسخة تجريبية متاحة قبل شراء Aspose.Tasks؟
-ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+ ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ###  س: ما أهمية`MyTextStyleCallback` class in the tutorial?
  ج: ال`MyTextStyleCallback` يوضح الفصل كيفية تخصيص أنماط النص لتحسين التمثيل المرئي في طرق عرض محددة.
 ### س: أين يمكنني العثور على موارد ووثائق إضافية لـ Aspose.Tasks؟

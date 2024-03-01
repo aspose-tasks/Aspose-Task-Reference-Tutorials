@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
-我們使用名為的自訂類別定義過濾條件`NullCondition`,此條件選擇具有空值的任務。
+我們使用名為的自訂類別定義過濾條件`NullCondition`。此條件選擇具有空值的任務。
 
 ## 步驟 4：應用 NOT 運算
 

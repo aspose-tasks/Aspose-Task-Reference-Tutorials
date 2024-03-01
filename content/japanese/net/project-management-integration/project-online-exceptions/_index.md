@@ -71,6 +71,6 @@ A: はい、Aspose.Tasks は、Microsoft Project、Primavera などを含むさ�
 ### Q: Aspose.Tasks のドキュメントはどこで見つけられますか?
  A: Aspose.Tasks の詳細なドキュメントが入手可能です。[ここ](https://reference.aspose.com/tasks/net/).
 ### Q: Aspose.Tasks のサポートを受けるにはどうすればよいですか?
- A: Aspose.Tasks コミュニティ フォーラムからサポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+A: Aspose.Tasks コミュニティ フォーラムからサポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks のライセンスを購入するにはどうすればよいですか?
  A: Aspose.Tasks のライセンスは、[購入ページ](https://purchase.aspose.com/buy).

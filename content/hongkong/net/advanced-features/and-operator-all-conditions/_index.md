@@ -117,4 +117,4 @@ A4：是的，您可以將 Aspose.Tasks 與其他 .NET 框架和程式庫無縫�
 
 ### Q5：Aspose.Tasks 使用者有可用的社群論壇或支援管道嗎？
 
- A5：是的，您可以造訪 Aspose.Tasks 社群論壇。[這裡](https://forum.aspose.com/c/tasks/15)如有任何疑問或幫助。
+ A5：是的，您可以造訪 Aspose.Tasks 社群論壇[這裡](https://forum.aspose.com/c/tasks/15)如有任何疑問或幫助。

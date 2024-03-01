@@ -87,7 +87,7 @@ foreach (var filter in filtersToDelete)
     otherProject.TaskFilters.Remove(filter);
 }
 ```
-Si sigue estos pasos, puede administrar de manera eficiente las colecciones de filtros de MS Project utilizando Aspose.Tasks para .NET.
+Si sigue estos pasos, puede administrar de manera eficiente las colecciones de filtros de MS Project usando Aspose.Tasks para .NET.
 
 ## Conclusión
 La gestión eficaz de los filtros en las colecciones de MS Project es crucial para organizar y analizar los datos del proyecto. Aspose.Tasks para .NET proporciona una funcionalidad integral para manejar filtros de tareas y recursos sin problemas, lo que permite a los desarrolladores optimizar las tareas de gestión de proyectos de manera eficiente.

@@ -8,7 +8,7 @@ weight: 12
 url: /vi/net/view-wbs-code-configuration/view-columns/
 ---
 ## Giới thiệu
-Trong lĩnh vực quản lý dự án, Aspose.Tasks for .NET nổi bật như một bộ công cụ mạnh mẽ để xử lý các tệp Microsoft Project. Một trong những khía cạnh thiết yếu của trực quan hóa dự án là quản lý các cột dạng xem một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách xử lý các cột chế độ xem MS Project bằng Aspose.Tasks, cho phép bạn tùy chỉnh và tối ưu hóa các chế độ xem dự án của mình.
+Trong lĩnh vực quản lý dự án, Aspose.Tasks for .NET nổi bật như một bộ công cụ mạnh mẽ để xử lý các tệp Microsoft Project. Một trong những khía cạnh thiết yếu của trực quan hóa dự án là quản lý các cột dạng xem một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ khám phá cách xử lý các cột của chế độ xem MS Project bằng Aspose.Tasks, cho phép bạn tùy chỉnh và tối ưu hóa các chế độ xem dự án của mình.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 1.  Aspose.Tasks for .NET Library: Tải xuống và cài đặt thư viện từ[Aspose.Tasks cho tài liệu .NET](https://reference.aspose.com/tasks/net/).
@@ -75,8 +75,8 @@ Trả lời: Aspose.Tasks chủ yếu tập trung vào các tệp Microsoft Proj
 ### Câu hỏi: Làm cách nào để khắc phục sự cố với tùy chỉnh cột dạng xem?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và giúp đỡ với bất kỳ thách thức nào bạn gặp phải.
 ### Câu hỏi: Có phiên bản dùng thử trước khi mua Aspose.Tasks không?
-Đ: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+ Đ: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ###  Hỏi: Ý nghĩa của`MyTextStyleCallback` class in the tutorial?
- Đáp: Cái`MyTextStyleCallback` Lớp học này trình bày cách tùy chỉnh kiểu văn bản để cải thiện cách trình bày trực quan trong các chế độ xem cụ thể.
+ Đáp: Cái`MyTextStyleCallback` lớp trình bày cách tùy chỉnh kiểu văn bản để cải thiện cách trình bày trực quan trong các chế độ xem cụ thể.
 ### Câu hỏi: Tôi có thể tìm tài nguyên và tài liệu bổ sung cho Aspose.Tasks ở đâu?
  Đáp: Hãy tham khảo[Tài liệu Aspose.Tasks](https://reference.aspose.com/tasks/net/) để được hướng dẫn chuyên sâu và có nguồn tài liệu.

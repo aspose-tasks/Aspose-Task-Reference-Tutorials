@@ -83,8 +83,8 @@ Odp.: Tak, Aspose.Tasks jest w stanie efektywnie obsługiwać duże pliki MS Pro
 ### P: Czy Aspose.Tasks obsługuje inne formaty plików projektów oprócz .mpp?
 O: Tak, Aspose.Tasks obsługuje różne formaty plików projektów, w tym XML i MPT.
 ### P: Czy Aspose.Tasks nadaje się do aplikacji do zarządzania projektami na poziomie przedsiębiorstwa?
-Odpowiedź: Oczywiście, Aspose.Tasks został zaprojektowany, aby sprostać wymaganiom aplikacji do zarządzania projektami na poziomie przedsiębiorstwa, zapewniając solidne funkcje i obszerną dokumentację.
+O: Oczywiście, Aspose.Tasks został zaprojektowany, aby sprostać wymaganiom aplikacji do zarządzania projektami na poziomie przedsiębiorstwa, zapewniając solidne funkcje i obszerną dokumentację.
 ### P: Czy mogę dostosować ustawienia analizy ryzyka w Aspose.Tasks?
 O: Tak, Aspose.Tasks oferuje elastyczność w konfigurowaniu ustawień analizy ryzyka tak, aby odpowiadały konkretnym wymaganiom i scenariuszom projektu.
 ### P: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Tasks?
- Odp.: Tak, użytkownicy Aspose.Tasks mogą uzyskać dostęp do pomocy technicznej poprzez Aspose.[fora](https://forum.aspose.com/c/tasks/15), gdzie mogą zadawać pytania, zgłaszać problemy i wchodzić w interakcje ze społecznością.
+ Odp.: Tak, użytkownicy Aspose.Tasks mogą uzyskać dostęp do pomocy technicznej poprzez Aspose[fora](https://forum.aspose.com/c/tasks/15), gdzie mogą zadawać pytania, zgłaszać problemy i wchodzić w interakcje ze społecznością.

@@ -244,7 +244,7 @@ public void WriteUpdatedCalendarDataToMpp()
     }
     catch (NotSupportedException ex)
     {
-        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://Purchase.aspose.com/temporary-license/.");
+        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://Purchase.aspose.com/temporary-license/).");
     }
 }
 ```
@@ -372,7 +372,7 @@ Erläuterung:
 
 ## Schritt 12: Starten Sie am nächsten Arbeitstag
 
-Gehen Sie folgendermaßen vor, um mithilfe eines Kalenders den nächsten Arbeitstag zu beginnen:
+Um mithilfe eines Kalenders den nächsten Arbeitstag zu beginnen, gehen Sie folgendermaßen vor:
 
 ```csharp
 public void GetNextWorking

@@ -34,14 +34,14 @@ resource.Set(Rsc.Workgroup, WorkGroupType.Web);
 Personalize ainda mais as configurações do projeto e dos recursos com base nas necessidades específicas do seu projeto. Isso pode incluir a definição de dependências de tarefas, a definição de horários de trabalho e muito mais.
 Repita essas etapas conforme necessário para lidar com vários tipos de grupos de trabalho em seu projeto.
 ## Conclusão
-O manejo eficaz dos tipos de grupos de trabalho é vital para o sucesso do gerenciamento de projetos. Aspose.Tasks for .NET simplifica esse processo, fornecendo uma solução confiável para alocação de recursos e gerenciamento de tarefas.
+manejo eficaz dos tipos de grupos de trabalho é vital para o sucesso do gerenciamento de projetos. Aspose.Tasks for .NET simplifica esse processo, fornecendo uma solução confiável para alocação de recursos e gerenciamento de tarefas.
 ## Perguntas frequentes
-### Aspose.Tasks é compatível com .NET Core?
+### O Aspose.Tasks é compatível com .NET Core?
 Sim, Aspose.Tasks oferece suporte ao .NET Core junto com o .NET Framework tradicional.
 ### Posso definir vários tipos de grupos de trabalho para um único recurso?
 Sim, você pode definir diferentes tipos de grupos de trabalho para um recurso em diferentes estágios do seu projeto.
 ### Onde posso encontrar suporte adicional para Aspose.Tasks?
- visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e discussões da comunidade.
+ Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e discussões da comunidade.
 ### Existe um teste gratuito disponível para Aspose.Tasks?
  Sim, você pode acessar uma avaliação gratuita em[aqui](https://releases.aspose.com/).
 ### Como posso obter uma licença temporária para Aspose.Tasks?

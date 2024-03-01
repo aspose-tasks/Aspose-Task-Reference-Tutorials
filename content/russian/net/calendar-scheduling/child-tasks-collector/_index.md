@@ -18,7 +18,7 @@ url: /ru/net/calendar-scheduling/child-tasks-collector/
 1. Базовое понимание C#. Знание языка программирования C# необходимо.
 2.  Установка Aspose.Tasks для .NET: Загрузите и установите библиотеку Aspose.Tasks для .NET с сайта[ссылка для скачивания](https://releases.aspose.com/tasks/net/).
 3. Среда разработки: настройте среду разработки, например Visual Studio, для написания и выполнения кода C#.
-4.  Доступ к документации: сохраните[Документация Aspose.Tasks для .NET](https://reference.aspose.com/tasks/net/) удобно для справки.
+4. Доступ к документации: сохраните[Документация Aspose.Tasks для .NET](https://reference.aspose.com/tasks/net/) удобно для справки.
 
 Теперь, когда у нас есть все необходимые условия, давайте углубимся в пошаговое руководство по сбору дочерних задач с помощью Aspose.Tasks для .NET.
 
@@ -42,7 +42,7 @@ using Aspose.Tasks.Util;
 var project = new Project(DataDir + "ParentChildTasks.mpp");
 ```
 
- Эта строка кода инициализирует новую`Project` объект, загружая файл проекта с именем «ParentChildTasks.mpp» из указанного каталога.
+ Эта строка кода инициализирует новый`Project` объект, загружая файл проекта с именем «ParentChildTasks.mpp» из указанного каталога.
 
 ## Шаг 2. Создайте объект ChildTasksCollector
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Мы применяем`ChildTasksCollector`к корневой задаче проекта, рекурсивно инициируя процесс сбора.
+ Мы применяем`ChildTasksCollector` к корневой задаче проекта, рекурсивно инициируя процесс сбора.
 
 ## Шаг 4. Перебор собранных задач
 
@@ -79,7 +79,7 @@ foreach (var task in collector.Tasks)
 
 ### Вопрос 1. Совместим ли Aspose.Tasks для .NET со всеми версиями .NET?
 
-О1: Да, Aspose.Tasks для .NET совместим с различными версиями платформы .NET, что обеспечивает широкую совместимость.
+О1: Да, Aspose.Tasks для .NET совместим с различными версиями .NET Framework, что обеспечивает широкую совместимость.
 
 ### Вопрос 2: Могу ли я использовать Aspose.Tasks для .NET для создания новых файлов проекта?
 
@@ -91,7 +91,7 @@ A3: Хотя Aspose.Tasks for .NET в первую очередь разрабо
 
 ### Вопрос 4: Доступна ли техническая поддержка для Aspose.Tasks для .NET?
 
- О4: Да, пользователи могут получить доступ к технической поддержке через[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+О4: Да, пользователи могут получить доступ к технической поддержке через[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### Вопрос 5: Могу ли я попробовать Aspose.Tasks для .NET перед покупкой?
 

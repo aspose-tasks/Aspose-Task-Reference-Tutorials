@@ -73,4 +73,4 @@ WBS シーケンスの管理は効果的なプロジェクト管理にとって�
 ### Aspose.Tasks のコミュニティ サポートを受けるにはどうすればよいですか?
 訪問[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティとつながり、支援を求めます。
 ### 一時ライセンスは利用できますか?
-はい、入手できます[仮免許証](https://purchase.aspose.com/temporary-license/)テスト目的のため。
+はい、入手できます[仮免許](https://purchase.aspose.com/temporary-license/)テスト目的のため。

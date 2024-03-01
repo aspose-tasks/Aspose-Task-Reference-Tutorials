@@ -11,7 +11,7 @@ url: /tr/net/task-table-management/configuring-tables/
 Aspose.Tasks for .NET'te tabloların yapılandırılmasına ilişkin bu kapsamlı kılavuza hoş geldiniz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarıyla sorunsuz bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde, Aspose.Tasks'ı kullanarak tabloları yapılandırma sürecinde size yol göstereceğiz ve net bir anlayış için her adımı parçalara ayıracağız.
 ## Önkoşullar
 Eğiticiye geçmeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
--  Aspose.Tasks for .NET: Aspose.Tasks kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.Tasks .NET belgeleri](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Aspose.Tasks kütüphanesinin kurulu olduğundan emin olun. adresinden indirebilirsiniz.[Aspose.Tasks .NET belgeleri](https://reference.aspose.com/tasks/net/).
 - Geliştirme Ortamı: Geliştirme ortamınızı Visual Studio veya tercih edilen herhangi bir başka .NET geliştirme aracıyla kurun.
 - Örnek Proje Dosyası: Test için örnek bir Microsoft Project dosyasını (MPP) hazır bulundurun.
 ## Ad Alanlarını İçe Aktar

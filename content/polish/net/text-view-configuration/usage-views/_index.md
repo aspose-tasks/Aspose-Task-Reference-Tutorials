@@ -1,6 +1,6 @@
 ---
-title: Skonfiguruj widoki użycia w Aspose.Tasks
-linktitle: Skonfiguruj widoki użycia w Aspose.Tasks
+title: Konfigurowanie widoków użytkowania w Aspose.Tasks
+linktitle: Konfigurowanie widoków użytkowania w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować widoki użycia zadań w Aspose.Tasks dla .NET. Ulepsz wizualizację projektu dzięki szczegółowym krokom. Pobierz bibliotekę teraz!
 type: docs
@@ -11,7 +11,7 @@ url: /pl/net/text-view-configuration/usage-views/
 Jeśli jesteś programistą .NET i chcesz zwiększyć swoje możliwości zarządzania projektami, Aspose.Tasks to potężne narzędzie, które pozwala na łatwe manipulowanie plikami Microsoft Project. W tym samouczku skupimy się na konfigurowaniu widoków użytkowania za pomocą Aspose.Tasks dla .NET. Postępuj zgodnie ze wskazówkami, aby uzyskać wgląd w renderowanie widoków użycia zadań ze szczegółami w celu lepszej wizualizacji projektu.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-- Biblioteka Aspose.Tasks: Upewnij się, że biblioteka Aspose.Tasks jest zintegrowana z projektem .NET. Jeśli nie, możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/) i postępuj zgodnie z instrukcją instalacji.
+-  Biblioteka Aspose.Tasks: Upewnij się, że biblioteka Aspose.Tasks jest zintegrowana z projektem .NET. Jeśli nie, możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/) i postępuj zgodnie z instrukcją instalacji.
 - Katalog dokumentów: skonfiguruj katalog, w którym przechowywane są dokumenty projektu. Zastąp „Twój katalog dokumentów” we fragmentach kodu rzeczywistą ścieżką do katalogu dokumentów.
 ## Importuj przestrzenie nazw
 W dostarczonym fragmencie kodu zauważysz użycie pewnych przestrzeni nazw. Aby zapewnić bezproblemową integrację, pamiętaj o uwzględnieniu ich w swoim projekcie:

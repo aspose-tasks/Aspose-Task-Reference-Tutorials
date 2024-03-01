@@ -80,7 +80,7 @@ Concluderend is het beheer van OLE-objecten in Aspose.Tasks voor .NET cruciaal v
 
 ### V1: Wat is een OLE-object?
 
-A1: Een OLE-object (Object Linking and Embedding) is een technologie die het insluiten of koppelen van bestanden uit andere toepassingen in een document mogelijk maakt.
+A1: Een OLE-object (Object Linking and Embedding) is een technologie die het insluiten of koppelen van bestanden uit andere toepassingen binnen een document mogelijk maakt.
 
 ### V2: Hoe installeer ik Aspose.Tasks voor .NET?
 

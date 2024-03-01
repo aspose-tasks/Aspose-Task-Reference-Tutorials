@@ -84,7 +84,7 @@ I den här handledningen har vi utforskat processen steg-för-steg för att konf
 ### Kan jag använda Aspose.Tasks gratis?
  Aspose.Tasks erbjuder en gratis testversion som du kan ladda ner[här](https://releases.aspose.com/).
 ### Var kan jag hitta ytterligare support?
- besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)för samhällsstöd.
+ Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd.
 ### Hur kan jag få en tillfällig licens?
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Finns det detaljerad dokumentation tillgänglig?

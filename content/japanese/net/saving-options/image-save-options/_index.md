@@ -15,7 +15,7 @@ Aspose.Tasks for .NET を使用して MS Project オプションをイメージ�
 ### 1. Aspose.Tasks for .NET をインストールする
 まず、Aspose.Tasks for .NET を開発環境にインストールする必要があります。ライブラリはからダウンロードできます。[Webサイト](https://releases.aspose.com/tasks/net/)提供されるインストール手順に従ってください。
 ### 2. ライセンスの取得 (オプション)
- Aspose.Tasks for .NET は評価モードではライセンスなしで使用できますが、すべての機能を使用し、評価の制限を解除するにはライセンスを取得することをお勧めします。からライセンスを取得できます。[購入ページ](https://purchase.aspose.com/buy)または、[仮免許証](https://purchase.aspose.com/temporary-license/)テスト目的のため。
+ Aspose.Tasks for .NET は評価モードではライセンスなしで使用できますが、すべての機能を使用し、評価の制限を解除するにはライセンスを取得することをお勧めします。からライセンスを取得できます。[購入ページ](https://purchase.aspose.com/buy)または、[仮免許](https://purchase.aspose.com/temporary-license/)テスト目的のため。
 ### 3. C# および .NET 開発の基礎知識
 例に従って、Aspose.Tasks の機能をアプリケーションに効果的に統合するには、C# プログラミング言語と .NET Framework の基本を理解する必要があります。
 ## 名前空間のインポート

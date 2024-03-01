@@ -11,7 +11,7 @@ url: /pt/net/task-table-management/table-fields/
 Bem-vindo ao mundo do Aspose.Tasks for .NET, uma biblioteca poderosa que permite a manipulação perfeita de arquivos do Microsoft Project em seus aplicativos .NET. Neste tutorial, nos aprofundaremos nos meandros do tratamento de campos de tabela em Aspose.Tasks, permitindo que você leia e gerencie tabelas de projeto com eficiência. Quer você seja um desenvolvedor experiente ou um novato, este guia passo a passo irá capacitá-lo a aproveitar todo o potencial do Aspose.Tasks.
 ## Pré-requisitos
 Antes de embarcarmos nesta jornada, certifique-se de ter os seguintes pré-requisitos em vigor:
--  Biblioteca Aspose.Tasks: Baixe e instale a biblioteca Aspose.Tasks para .NET. Você pode encontrá lo[aqui](https://releases.aspose.com/tasks/net/).
+- Biblioteca Aspose.Tasks: Baixe e instale a biblioteca Aspose.Tasks para .NET. Você pode encontrá lo[aqui](https://releases.aspose.com/tasks/net/).
 - Ambiente de desenvolvimento: certifique-se de ter um ambiente de desenvolvimento adequado, como o Visual Studio, configurado em sua máquina.
 Agora, vamos entrar nos detalhes do tratamento dos campos da tabela.
 ## Importar namespaces
@@ -30,7 +30,7 @@ Certifique-se de substituir "Seu diretório de documentos" pelo caminho real ond
 ## Passo 2: Leia as tabelas do projeto
 Agora, vamos ler as tabelas do projeto usando o seguinte código:
 ```csharp
-// Mostra como ler tabelas de projeto.
+// Mostra como ler tabelas de projetos.
 var project = new Project(DataDir + "ReadTableData.mpp");
 ```
  Este código inicializa o`Project` objeto com o arquivo do Microsoft Project especificado.
@@ -67,8 +67,8 @@ Aspose.Tasks oferece suporte a vários formatos de arquivo do Microsoft Project,
 ### Posso modificar os campos da tabela usando Aspose.Tasks?
 Absolutamente! Você pode não apenas ler, mas também modificar os campos da tabela usando Aspose.Tasks.
 ### Há alguma limitação quanto ao número de campos da tabela em um projeto?
-A partir da versão mais recente, não há limitações estritas quanto ao número de campos da tabela.
+partir da versão mais recente, não há limitações estritas quanto ao número de campos da tabela.
 ### Com que frequência as atualizações são lançadas para Aspose.Tasks?
 Atualizações para Aspose.Tasks são lançadas regularmente para garantir compatibilidade e introduzir novos recursos.
 ### Existe um fórum da comunidade para suporte do Aspose.Tasks?
-Sim, você pode encontrar ajuda e discussões no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Sim, você pode encontrar ajuda e discussões no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).

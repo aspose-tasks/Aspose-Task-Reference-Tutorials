@@ -61,7 +61,7 @@ task1.Set(Tsk.Duration, duration1);
 Console.WriteLine("The duration of task 1: " + task1.Get(Tsk.Duration));
 ```
 
-## feladatok időtartamának kivonása
+## A feladatok időtartamának kivonása
 
 ### 1. lépés: Töltse be a projektfájlt
 
@@ -155,4 +155,4 @@ Ebben az oktatóanyagban az Aspose.Tasks for .NET időtartamának kezelésének 
 
 ### 5. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
 
- 5. válasz: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez[itt](https://releases.aspose.com/).
+5. válasz: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez[itt](https://releases.aspose.com/).

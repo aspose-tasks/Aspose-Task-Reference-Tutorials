@@ -1,6 +1,6 @@
 ---
 title: การเรียนรู้การปรับแต่งสไตล์ข้อความใน Aspose.Tasks
-linktitle: กำหนดค่าลักษณะข้อความใน Aspose.Tasks
+linktitle: การกำหนดค่าสไตล์ข้อความใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: ปรับปรุงความสวยงามของเอกสารโครงการด้วย Aspose.Tasks สำหรับ .NET ปรับแต่งรูปแบบข้อความได้อย่างง่ายดายเพื่อการนำเสนอที่ดึงดูดสายตา
 type: docs

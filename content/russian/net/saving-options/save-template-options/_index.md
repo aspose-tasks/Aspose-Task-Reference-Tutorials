@@ -46,7 +46,7 @@ var options = new SaveTemplateOptions
 	RemoveActualValues = true,
 	// Удалить расценки на ресурсы из шаблона проекта
 	RemoveResourceRates = true,
-	// Удалить все базовые значения из шаблона проекта
+	// Удалите все базовые значения из шаблона проекта.
 	RemoveBaselineValues = true
 };
 ```
@@ -75,4 +75,4 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 ### Вопрос: Поддерживает ли Aspose.Tasks для .NET кроссплатформенную разработку?
 О: Aspose.Tasks for .NET в первую очередь разработан для приложений .NET Framework, работающих на платформах Windows.
 ### Вопрос: Доступна ли техническая поддержка для Aspose.Tasks для .NET?
- О: Да, вы можете обратиться за технической помощью и рекомендациями к сообществу Aspose.Tasks.[форумы](https://forum.aspose.com/c/tasks/15) или свяжитесь напрямую с их службой поддержки.
+ О: Да, вы можете обратиться за технической помощью и рекомендациями к сообществу Aspose.Tasks.[форумы](https://forum.aspose.com/c/tasks/15)или свяжитесь напрямую с их службой поддержки.

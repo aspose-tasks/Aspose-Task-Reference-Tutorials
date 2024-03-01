@@ -1,6 +1,6 @@
 ---
 title: ปรับแต่งการตั้งค่ามุมมองหน้าโครงการ MS ใน Aspose.Tasks
-linktitle: กำหนดการตั้งค่าการดูเพจใน Aspose.Tasks
+linktitle: การกำหนดการตั้งค่าการดูเพจใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดการตั้งค่าการดูเพจใน Aspose.Tasks for .NET เพื่อปรับแต่งรูปแบบการพิมพ์ของเอกสาร Microsoft Project ของคุณ
 type: docs
@@ -75,4 +75,4 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 ### ถาม: Aspose.Tasks เข้ากันได้กับ Microsoft Project ทุกเวอร์ชันหรือไม่
 ตอบ: Aspose.Tasks นำเสนอความเข้ากันได้กับ Microsoft Project 2003 และเวอร์ชันที่ใหม่กว่า
 ### ถาม: ฉันจะขอความช่วยเหลือหรือการสนับสนุนเพิ่มเติมสำหรับ Aspose.Tasks ได้ที่ไหน
- ตอบ: คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)สำหรับการสอบถามหรือปัญหาใด ๆ ที่คุณพบระหว่างการใช้งาน
+ ตอบ: คุณสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสอบถามหรือปัญหาใด ๆ ที่คุณพบระหว่างการใช้งาน

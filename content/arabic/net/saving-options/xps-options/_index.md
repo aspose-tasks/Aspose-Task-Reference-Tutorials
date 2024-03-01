@@ -40,12 +40,12 @@ var options = new XpsOptions
     RenderMetafileAsBitmap = true
 };
 ```
- في هذه الخطوة، نقوم بإنشاء مثيل`XpsOptions`وتكوين المعلمات. إعدادات`RenderMetafileAsBitmap` ل`true` يضمن العرض الصحيح لملفات التعريف.
+ في هذه الخطوة، نقوم بإنشاء مثيل`XpsOptions`وتكوين المعلمات. جلسة`RenderMetafileAsBitmap` ل`true` يضمن العرض الصحيح لملفات التعريف.
 ## الخطوة 4: احفظ المستند باسم XPS
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ```
- وأخيرا اتصلنا ب`Save` الطريقة على`Project` الكائن، وتحديد مسار ملف الإخراج وتكوينه مسبقًا`XpsOptions`.
+ وأخيراً نسمي`Save` الطريقة على`Project` الكائن، وتحديد مسار ملف الإخراج وتكوينه مسبقًا`XpsOptions`.
 
 ## خاتمة
 في الختام، يعمل Aspose.Tasks for .NET على تبسيط عملية تحويل مستندات Microsoft Project إلى تنسيق XPS برمجيًا. باتباع الخطوات الموضحة في هذا البرنامج التعليمي، يمكن للمطورين دمج هذه الوظيفة بسلاسة في تطبيقات .NET الخاصة بهم، مما يعزز سير عمل إدارة المشروع بسهولة.

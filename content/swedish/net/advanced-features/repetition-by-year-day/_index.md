@@ -9,7 +9,7 @@ url: /sv/net/advanced-features/repetition-by-year-day/
 ---
 ## Introduktion
 
-Inom projektledningssfären spelar effektiv schemaläggning av uppgifter och återkommande uppgifter avgörande roller för att säkerställa snabb utförande och smidigt arbetsflöde. Aspose.Tasks för .NET erbjuder en robust lösning för utvecklare att hantera återkommande uppgifter utan ansträngning inom sina applikationer. I den här handledningen fördjupar vi oss i krångligheterna med att arbeta med årliga dagsupprepningar med Aspose.Tasks, vilket ger en omfattande guide för att skapa återkommande uppgifter baserade på årliga mönster.
+Inom projektledningssfären spelar effektiv schemaläggning av uppgifter och återkommande uppgifter avgörande roller för att säkerställa snabb utförande och smidigt arbetsflöde. Aspose.Tasks för .NET erbjuder en robust lösning för utvecklare att hantera återkommande uppgifter utan ansträngning inom sina applikationer. I den här handledningen fördjupar vi oss i krångligheterna med att arbeta med årsdagsrepetitioner med Aspose.Tasks, som ger en omfattande guide för att skapa återkommande uppgifter baserade på årliga mönster.
 
 ## Förutsättningar
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- I det här steget definierar vi parametrar för vår återkommande uppgift. Vi anger uppgiftens namn, varaktighet och återkommande mönster. För årliga återkommande använder vi`YearlyRecurrencePattern` och ställ in upprepningen att ske den 1:a dagen i juli med hjälp av`ByYearDayRepetition`, Dessutom definierar vi upprepningsintervallet från 1 juli 2018 till 1 juli 2019.
+ I det här steget definierar vi parametrar för vår återkommande uppgift. Vi anger uppgiftens namn, varaktighet och återkommande mönster. För årliga återkommande använder vi`YearlyRecurrencePattern` och ställ in upprepningen att ske den 1:a dagen i juli med hjälp av`ByYearDayRepetition`. Dessutom definierar vi upprepningsintervallet från 1 juli 2018 till 1 juli 2019.
 
 ## Steg 3: Lägg till uppgift i projektet
 
@@ -86,7 +86,7 @@ Slutligen sparar vi den modifierade projektfilen med den tillagda återkommande 
 
 ## Slutsats
 
-den här handledningen har vi utforskat processen att arbeta med årsdagsrepetitioner i Aspose.Tasks för .NET. Genom att följa de angivna stegen kan utvecklare sömlöst integrera funktionalitet för återkommande uppgifter i sina applikationer, vilket förbättrar projektledningskapaciteten.
+I den här handledningen har vi utforskat processen att arbeta med årsdagsrepetitioner i Aspose.Tasks för .NET. Genom att följa de angivna stegen kan utvecklare sömlöst integrera funktionalitet för återkommande uppgifter i sina applikationer, vilket förbättrar projektledningskapaciteten.
 
 ## FAQ's
 

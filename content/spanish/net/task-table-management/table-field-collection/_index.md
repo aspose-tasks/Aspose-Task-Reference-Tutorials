@@ -12,7 +12,7 @@ Aspose.Tasks para .NET es una potente biblioteca que facilita la gestión de pro
 ## Requisitos previos
 Antes de comenzar, asegúrese de tener la siguiente configuración:
 - Conocimiento práctico del lenguaje de programación C#.
-- Aspose.Tasks para la biblioteca .NET instalada. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks para la biblioteca .NET instalada. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
 - Un entorno de desarrollo integrado (IDE) como Visual Studio.
 ## Importar espacios de nombres
 En primer lugar, asegúrese de haber importado los espacios de nombres necesarios al principio de su archivo C#:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // iterar sobre los campos de la tabla
+    //iterar sobre los campos de la tabla
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -108,6 +108,6 @@ Sí, Aspose.Tasks admite varias versiones de archivos de Microsoft Project, lo q
 ### ¿Existe alguna consideración de licencia para usar Aspose.Tasks para .NET en un proyecto comercial?
  Sí, necesita una licencia válida para utilizar Aspose.Tasks para .NET en un proyecto comercial. Puedes obtener una licencia[aquí](https://purchase.aspose.com/buy).
 ### ¿Cómo puedo obtener soporte o buscar ayuda con Aspose.Tasks para .NET?
- visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener apoyo, hacer preguntas y colaborar con la comunidad.
+ Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15)para obtener soporte, hacer preguntas y colaborar con la comunidad.
 ### ¿Hay una prueba gratuita disponible para Aspose.Tasks para .NET?
  Sí, puede explorar las funciones de Aspose.Tasks para .NET con una prueba gratuita. Descargalo[aquí](https://releases.aspose.com/).

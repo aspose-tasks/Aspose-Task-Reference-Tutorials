@@ -31,7 +31,7 @@ String DataDir = "Your Document Directory";
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- 이 코드 줄은 Microsoft Project 파일을`project` 변수.
+ 이 코드 줄은 Microsoft Project 파일을`project` 변하기 쉬운.
 ## 3단계: 반복 작업 매개변수 정의
 ```csharp
 var parameters = new RecurringTaskParameters

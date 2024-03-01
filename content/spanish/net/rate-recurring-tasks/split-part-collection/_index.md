@@ -65,4 +65,4 @@ R: Aspose.Tasks admite varias versiones de archivos de MS Project, lo que garant
 ### P: ¿Cómo puedo obtener licencias temporales para mis proyectos?
  R: Las licencias temporales se pueden adquirir en[aquí](https://purchase.aspose.com/temporary-license/) para uso a corto plazo.
 ### P: ¿Dónde puedo buscar ayuda o soporte con respecto a Aspose.Tasks?
- R: Puedes visitar el foro de Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15) buscar ayuda de la comunidad o del equipo de soporte de Aspose.
+ R: Puedes visitar el foro de Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15)buscar ayuda de la comunidad o del equipo de soporte de Aspose.

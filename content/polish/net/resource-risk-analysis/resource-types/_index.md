@@ -48,7 +48,7 @@ cost.Set(Rsc.Cost, 59.99m);
 Na koniec dodajemy zasób kosztowy o nazwie „Zasób kosztowy” i ustawiamy jego typ jako ResourceType.Cost. Dodatkowo ustaliliśmy wartość kosztu na 59,99, reprezentującą wartość pieniężną powiązaną z tym zasobem.
 
 ## Wniosek
-tym samouczku omówiliśmy, jak pracować z różnymi typami zasobów w Aspose.Tasks dla .NET, w tym zasobami pracy, materiałów i kosztów. Postępując zgodnie z przewodnikiem krok po kroku, możesz efektywnie i programowo zarządzać zasobami w swoich projektach.
+W tym samouczku omówiliśmy, jak pracować z różnymi typami zasobów w Aspose.Tasks dla .NET, w tym zasobami pracy, materiałów i kosztów. Postępując zgodnie z przewodnikiem krok po kroku, możesz efektywnie i programowo zarządzać zasobami w swoich projektach.
 ## Często zadawane pytania
 ### P: Czy mogę używać Aspose.Tasks dla .NET z innymi formatami oprogramowania do zarządzania projektami?
 O: Tak, Aspose.Tasks obsługuje różne formaty, w tym Microsoft Project (MPP), Primavera P6 i inne.

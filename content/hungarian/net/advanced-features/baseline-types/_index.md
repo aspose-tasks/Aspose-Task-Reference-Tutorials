@@ -21,7 +21,7 @@ Az Aspose.Tasks erejének kihasználásához elengedhetetlen a C# programozási 
 
 ### 2. Az Aspose.Tasks telepítése .NET-hez
 
- Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET könyvtárat a fejlesztői környezetben. Letöltheti a[Aspose.Tasks webhely](https://releases.aspose.com/tasks/net/) vagy a NuGet csomagkezelőn keresztül.
+Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET könyvtárat a fejlesztői környezetben. Letöltheti a[Aspose.Tasks webhely](https://releases.aspose.com/tasks/net/) vagy a NuGet csomagkezelőn keresztül.
 
 ### 3. Integrált fejlesztési környezet (IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## 2. lépés: Állítsa be az alapvonalat
 
- A projekt betöltése után folytathatjuk az alapvonal beállítását. Az alapvonalak pillanatképet adnak a projekt kezdeti ütemtervéről, amely referenciapontként szolgál a projekt előrehaladtával történő összehasonlításhoz. Használja a`SetBaseline` módszer az alapvonal beállításához. Például a teljes projekt alapvonalának beállításához használja a`BaselineType.Baseline` felsorolás:
+ projekt betöltése után folytathatjuk az alapvonal beállítását. Az alapvonalak pillanatképet adnak a projekt kezdeti ütemtervéről, amely referenciapontként szolgál a projekt előrehaladtával történő összehasonlításhoz. Használja a`SetBaseline` módszer az alapvonal beállításához. Például a teljes projekt alapvonalának beállításához használja a`BaselineType.Baseline` felsorolás:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);
@@ -77,7 +77,7 @@ A2: Abszolút! Az Aspose.Tasks különféle projektfájlformátumokat támogat, 
 
 ### 4. kérdés: Az Aspose.Tasks támogatja a projektmenedzsment eszközökkel való integrációt?
 
-4. válasz: Az Aspose.Tasks kiterjedt dokumentációt és támogatási fórumokat biztosít, hogy segítse a fejlesztőket abban, hogy funkcióit zökkenőmentesen integrálják a népszerű projektmenedzsment eszközökkel és platformokkal.
+4. válasz: Az Aspose.Tasks kiterjedt dokumentációt és támogatási fórumokat biztosít, hogy segítse a fejlesztőket abban, hogy zökkenőmentesen integrálják szolgáltatásait népszerű projektmenedzsment eszközökkel és platformokkal.
 
 ### 5. kérdés: Kipróbálhatom az Aspose.Tasks-t vásárlás előtt?
 

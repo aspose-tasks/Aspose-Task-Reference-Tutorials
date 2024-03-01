@@ -41,7 +41,7 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 Genom att följa dessa steg kommer du att kunna konfigurera Earned Value MS Project Method Types med Aspose.Tasks för .NET utan ansträngning.
 
 ## Slutsats
-Sammanfattningsvis, att behärska Earned Value Management-metoder med Aspose.Tasks för .NET kan avsevärt förbättra dina projektledningsmöjligheter. Genom att noggrant mäta projektprestanda och jämföra dem med planerade mål kan du fatta välgrundade beslut för att styra dina projekt mot framgång.
+Sammanfattningsvis, att behärska Earned Value Management-metoder med Aspose.Tasks för .NET kan avsevärt förbättra dina projektledningsmöjligheter. Genom att noggrant mäta projektprestanda och jämföra dem mot planerade mål kan du fatta välgrundade beslut för att styra dina projekt mot framgång.
 ## FAQ's
 ### F: Kan Aspose.Tasks för .NET hantera stora projektfiler effektivt?
 S: Ja, Aspose.Tasks för .NET är optimerat för att hantera stora projektfiler med lätthet, vilket säkerställer hög prestanda och tillförlitlighet.
@@ -52,4 +52,4 @@ S: Ja, du kan använda en gratis testversion av Aspose.Tasks för .NET från web
 ### F: Stöder Aspose.Tasks för .NET tillfälliga licenser?
  S: Ja, temporära licenser är tillgängliga för Aspose.Tasks för .NET. Du kan få dem från:[Tillfällig licens](https://purchase.aspose.com/temporary-license/)
 ### F: Var kan jag köpa Aspose.Tasks för .NET?
- S: Du kan köpa Aspose.Tasks för .NET från webbplatsen:[inköp](https://purchase.aspose.com/buy).
+ S: Du kan köpa Aspose.Tasks för .NET från webbplatsen:[Inköp](https://purchase.aspose.com/buy).

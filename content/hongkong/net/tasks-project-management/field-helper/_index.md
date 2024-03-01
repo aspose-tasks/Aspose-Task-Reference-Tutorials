@@ -17,7 +17,7 @@ Aspose.Tasks for .NET 是一個功能強大的 API，可讓開發人員在其 .N
 
 ### 1.安裝Aspose.Tasks for .NET
 
-首先，您需要下載並安裝 Aspose.Tasks for .NET。你可以找到下載鏈接[這裡](https://releases.aspose.com/tasks/net/),按照提供的安裝說明在您的開發環境中設定該庫。
+首先，您需要下載並安裝 Aspose.Tasks for .NET。你可以找到下載鏈接[這裡](https://releases.aspose.com/tasks/net/)。按照提供的安裝說明在您的開發環境中設定該庫。
 
 ### 2. 導入命名空間
 

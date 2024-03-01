@@ -70,13 +70,13 @@ project.Save(OutDir + "WorkWithViewColumn_out.pdf", options);
 Selamat! Anda telah berhasil mempelajari cara menangani kolom tampilan Proyek MS menggunakan Aspose.Tasks untuk .NET. Tutorial ini memberikan pemahaman dasar tentang menyesuaikan tampilan proyek untuk visualisasi dan analisis yang lebih baik.
 
 ## Pertanyaan yang Sering Diajukan
-### T: Dapatkah saya menggunakan Aspose.Tasks dengan alat manajemen proyek lainnya?
+### T: Bisakah saya menggunakan Aspose.Tasks dengan alat manajemen proyek lainnya?
 J: Aspose.Tasks terutama berfokus pada file Microsoft Project; namun, Anda dapat mengeksplorasi kemungkinan integrasi berdasarkan kebutuhan proyek Anda.
 ### T: Bagaimana cara memecahkan masalah penyesuaian kolom tampilan?
  J: Kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan komunitas dan bantuan dengan tantangan apa pun yang Anda temui.
 ### T: Apakah ada versi uji coba yang tersedia sebelum membeli Aspose.Tasks?
-J: Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+ J: Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ###  T: Apa pentingnya`MyTextStyleCallback` class in the tutorial?
- J: Itu`MyTextStyleCallback` Kelas ini mendemonstrasikan cara menyesuaikan gaya teks untuk meningkatkan representasi visual dalam tampilan tertentu.
+ J: Itu`MyTextStyleCallback` kelas mendemonstrasikan cara menyesuaikan gaya teks untuk meningkatkan representasi visual dalam tampilan tertentu.
 ### T: Di mana saya dapat menemukan sumber daya dan dokumentasi tambahan untuk Aspose.Tasks?
  J: Lihat[Dokumentasi Aspose.Tasks](https://reference.aspose.com/tasks/net/) untuk panduan dan sumber daya yang mendalam.

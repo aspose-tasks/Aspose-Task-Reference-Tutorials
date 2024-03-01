@@ -29,7 +29,7 @@ var project = new Project(DataDir + "CreateProject2.mpp");
 ```
  바꾸다`"Your Document Directory"`MS 프로젝트 파일이 있는 실제 디렉터리 경로를 사용합니다.
 ## 2단계: 저장 옵션 정의
- 인스턴스를 생성하여 Spreadsheet 2003 저장 옵션을 정의합니다.`Spreadsheet2003SaveOptions`,
+ 인스턴스를 생성하여 Spreadsheet 2003 저장 옵션을 정의합니다.`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ project.Save(DataDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ### Q: Aspose.Tasks for .NET을 웹과 데스크톱 애플리케이션 모두에서 사용할 수 있나요?
 A: 예, Aspose.Tasks for .NET은 웹 및 데스크톱 애플리케이션 모두에 원활하게 통합되어 플랫폼 전반에 걸쳐 일관된 기능을 제공할 수 있습니다.
 ### Q: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
- A: 예, 다음에서 .NET용 Aspose.Tasks 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/), 구매하기 전에 기능을 탐색할 수 있습니다.
+A: 예, 다음에서 .NET용 Aspose.Tasks 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/), 구매하기 전에 기능을 탐색할 수 있습니다.
 ### Q: Aspose.Tasks for .NET을 사용하여 뷰 열을 사용자 정의하는 데 제한 사항이 있나요?
 A: Aspose.Tasks for .NET은 최소한의 제한으로 뷰 열에 대한 광범위한 사용자 정의 옵션을 제공합니다. 그러나 복잡한 사용자 정의에는 라이브러리에 대한 고급 지식이 필요할 수 있습니다.
 ### Q: Aspose.Tasks for .NET을 사용하는 동안 문제가 발생하면 도움을 요청할 수 있나요?

@@ -9,7 +9,7 @@ url: /hu/net/advanced-features/bitmap-invalid-size-exception/
 ---
 ## Bevezetés
 
-Ebben az oktatóanyagban a kezelésével foglalkozunk`BitmapInvalidSizeException` amikor az Aspose.Tasks for .NET programmal dolgozik. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat, lehetővé téve például a projektek képként történő mentését. Időnként azonban, amikor egy projektet képként próbálunk menteni, előfordulhat, hogy egy`Invalid Size Exception` a bittérképhez kapcsolódik. Ennek az oktatóanyagnak az a célja, hogy végigvezeti Önt a kivétel hatékony észlelésének és kezelésének folyamatán.
+ Ebben az oktatóanyagban a kezelésével foglalkozunk`BitmapInvalidSizeException` amikor az Aspose.Tasks for .NET programmal dolgozik. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat, lehetővé téve például a projektek képként történő mentését. Időnként azonban, amikor egy projektet képként próbálunk menteni, előfordulhat, hogy egy`Invalid Size Exception` bittérképhez kapcsolódik. Ennek az oktatóanyagnak az a célja, hogy végigvezeti Önt a kivétel hatékony észlelésének és kezelésének folyamatán.
 
 ## Előfeltételek
 
@@ -88,11 +88,11 @@ catch (BitmapInvalidSizeException ex)
 
 ## Következtetés
 
- Összefoglalva, kezelése a`BitmapInvalidSizeException` Amikor a projekteket képként menti az Aspose.Tasks for .NET-ben, elengedhetetlen az alkalmazások zökkenőmentes végrehajtásához. Az oktatóanyagban vázolt lépések követésével hatékonyan elkaphatja és kezelheti ezt a kivételt, így növelve projektmenedzsment-megoldásai robusztusságát.
+ Összegezve, kezelése a`BitmapInvalidSizeException` Amikor a projekteket képként menti az Aspose.Tasks for .NET-ben, elengedhetetlen az alkalmazások zökkenőmentes végrehajtásához. Az ebben az oktatóanyagban ismertetett lépések követésével hatékonyan elkaphatja és kezelheti ezt a kivételt, így növelve projektmenedzsment-megoldásai robusztusságát.
 
 ## GYIK
 
-### 1. kérdés: Mi okozza a BitmapInvalidSizeExceptiont az Aspose.Tasks programban?
+### 1. kérdés: Mi okozza a BitmapInvalidSizeException kivételt az Aspose.Tasks programban?
 
 1. válasz: Ez a kivétel akkor fordul elő, ha egy projektet érvénytelen bitképméret-paraméterekkel próbál meg képként menteni.
 

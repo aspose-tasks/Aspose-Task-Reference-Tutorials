@@ -9,7 +9,7 @@ url: /pl/net/advanced-concepts/tree-algorithm/
 ---
 ## Wstęp
 
-Aspose.Tasks dla .NET zapewnia zaawansowane funkcje do pracy z zadaniami, zasobami i harmonogramami zarządzania projektami. Jedną z takich funkcji jest algorytm drzewa, który pozwala użytkownikom efektywnie manipulować hierarchiami zadań. W tym samouczku przyjrzymy się, jak wykorzystać algorytm drzewa w Aspose.Tasks dla .NET do gromadzenia typowych prac i aktualizowania wartości pracy w projekcie.
+Aspose.Tasks dla .NET zapewnia zaawansowane funkcje do pracy z zadaniami, zasobami i harmonogramami zarządzania projektami. Jedną z takich funkcji jest algorytm drzewa, który pozwala użytkownikom efektywnie manipulować hierarchiami zadań. W tym samouczku odkryjemy, jak wykorzystać algorytm drzewa w Aspose.Tasks dla .NET do gromadzenia typowych prac i aktualizowania wartości pracy w projekcie.
 
 ## Warunki wstępne
 
@@ -92,7 +92,7 @@ Zaktualizuj wartości pracy dla zadań na podstawie zebranych informacji.
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak wykorzystywać algorytm drzewa w Aspose.Tasks dla .NET do efektywnego manipulowania hierarchiami zadań. Postępując zgodnie z przewodnikiem krok po kroku, możesz efektywnie zarządzać zadaniami i zasobami w ramach swoich projektów.
+W tym samouczku nauczyliśmy się, jak wykorzystywać algorytm drzewa w Aspose.Tasks dla .NET do efektywnego manipulowania hierarchiami zadań. Postępując zgodnie z przewodnikiem krok po kroku, możesz efektywnie zarządzać zadaniami i zasobami w ramach swoich projektów.
 
 ## Często zadawane pytania
 

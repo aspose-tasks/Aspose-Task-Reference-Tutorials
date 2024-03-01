@@ -93,6 +93,6 @@ R: Sì, Aspose.Tasks fornisce ampio supporto per la manipolazione di vari aspett
 ### D: Posso integrare Aspose.Tasks con altre librerie .NET?
 R: Assolutamente, Aspose.Tasks è progettato per integrarsi perfettamente con altre librerie .NET, consentendoti di migliorare ulteriormente le tue applicazioni di gestione dei progetti.
 ### D: Esiste un forum della community per il supporto di Aspose.Tasks?
- R: Sì, puoi trovare risorse utili e chiedere assistenza nel forum Aspose.Tasks.[Qui](https://forum.aspose.com/c/tasks/15).
+ R: Sì, puoi trovare risorse utili e chiedere assistenza nel forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
 ### D: Aspose.Tasks offre licenze temporanee a scopo di valutazione?
  R: Sì, puoi ottenere una licenza temporanea per la valutazione[Qui](https://purchase.aspose.com/temporary-license/).

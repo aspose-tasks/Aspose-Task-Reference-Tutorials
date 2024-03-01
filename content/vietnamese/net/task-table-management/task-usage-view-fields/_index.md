@@ -57,10 +57,10 @@ Trong hướng dẫn này, chúng ta đã khám phá sự phong phú của Aspos
 ### Tôi có thể sử dụng Aspose.Tasks cho .NET với các công cụ quản lý dự án khác không?
 Aspose.Tasks chủ yếu tập trung vào các ứng dụng .NET. Tuy nhiên, bạn có thể xuất dữ liệu sang nhiều định dạng khác nhau tương thích với các công cụ khác.
 ### Có bản dùng thử miễn phí cho Aspose.Tasks cho .NET không?
-Có, bạn có thể trải nghiệm các chức năng của Aspose.Tasks cho .NET bằng cách dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Có, bạn có thể trải nghiệm các chức năng của Aspose.Tasks cho .NET bằng cách dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ dựa vào cộng đồng hoặc khám phá tài liệu toàn diện.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ dựa vào cộng đồng hoặc khám phá tài liệu toàn diện.
 ### Giấy phép tạm thời có sẵn cho Aspose.Tasks cho .NET không?
- Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để sử dụng ngắn hạn.
+ Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) để sử dụng trong thời gian ngắn.
 ### Những định dạng tập tin nào được hỗ trợ cho các tài liệu dự án?
 Aspose.Tasks for .NET hỗ trợ nhiều định dạng khác nhau, bao gồm MPP, XML và CSV.

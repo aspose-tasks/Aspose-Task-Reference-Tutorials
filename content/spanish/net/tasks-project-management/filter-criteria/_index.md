@@ -8,7 +8,7 @@ weight: 18
 url: /es/net/tasks-project-management/filter-criteria/
 ---
 ## Introducción
-En el ámbito de la gestión de proyectos, Microsoft Project se erige como una herramienta incondicional que ofrece una gran cantidad de funciones para ayudar a los planificadores y administradores de proyectos. Entre sus muchas funcionalidades se encuentra la capacidad de filtrar datos del proyecto, lo que permite a los usuarios centrarse en aspectos específicos de las tareas de su proyecto. Sin embargo, dominar estas capacidades de filtrado puede ser una tarea desalentadora sin la orientación adecuada. Este tutorial tiene como objetivo desmitificar el proceso proporcionando una guía paso a paso sobre cómo implementar filtros de criterios en MS Project utilizando Aspose.Tasks para .NET.
+En el ámbito de la gestión de proyectos, Microsoft Project se erige como una herramienta incondicional que ofrece una gran cantidad de funciones para ayudar a los planificadores y administradores de proyectos. Entre sus muchas funcionalidades se encuentra la capacidad de filtrar datos del proyecto, lo que permite a los usuarios centrarse en aspectos específicos de las tareas de su proyecto. Sin embargo, dominar estas capacidades de filtrado puede ser una tarea desalentadora sin la orientación adecuada. Este tutorial tiene como objetivo desmitificar el proceso proporcionando una guía paso a paso sobre cómo implementar criterios de filtro en MS Project utilizando Aspose.Tasks para .NET.
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 1. Comprensión básica de C#: es necesario estar familiarizado con el lenguaje de programación C# para comprender los conceptos cubiertos en este tutorial.
@@ -51,7 +51,7 @@ foreach (var row in filter.Criteria.CriteriaRows)
     Console.WriteLine("Value{0}: {1}", values.Length == 1 ? "" : "s", string.Join(", ", values));
 }
 ```
-Explicación: esta sección recorre cada fila de criterios del filtro y muestra su campo, operación, prueba y valores (si los hay).
+Explicación: Esta sección recorre cada fila de criterios del filtro y muestra su campo, operación, prueba y valores (si los hay).
 ## Paso 4: Imprimir criterios de filtro
 ```csharp
 Console.WriteLine(filter.Criteria.Operation.ToString());

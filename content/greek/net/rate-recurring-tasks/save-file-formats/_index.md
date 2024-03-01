@@ -34,7 +34,7 @@ var project = new Project(DataDir + "CreateProject1.mpp");
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## Βήμα 3: Εξερευνήστε άλλες μορφές
- Το Aspose.Tasks υποστηρίζει διάφορες μορφές για την αποθήκευση αρχείων έργου, όπως XML, PDF, XLSX και άλλα. Μπορείτε να εξερευνήσετε αυτές τις μορφές αλλάζοντας απλώς τις`SaveFileFormat` παραμέτρους στο`Save` μέθοδος.
+ Το Aspose.Tasks υποστηρίζει διάφορες μορφές για την αποθήκευση αρχείων έργου, όπως XML, PDF, XLSX και άλλα. Μπορείτε να εξερευνήσετε αυτές τις μορφές αλλάζοντας απλώς τις`SaveFileFormat` παράμετρος στο`Save` μέθοδος.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,8 +50,8 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
 ### Ε: Μπορώ να δοκιμάσω το Aspose.Tasks πριν από την αγορά;
  Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[εδώ](https://releases.aspose.com/).
 ### Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
- Α: Μπορείτε να λάβετε υποστήριξη από το φόρουμ κοινότητας Aspose.Tasks.[εδώ](https://forum.aspose.com/c/tasks/15).
+Α: Μπορείτε να λάβετε υποστήριξη από το φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Ε: Διατίθενται προσωρινές άδειες για το Aspose.Tasks;
- Α: Ναι, διατίθενται προσωρινές άδειες για σκοπούς αξιολόγησης. Μπορείτε να πάρετε ένα[εδώ](https://purchase.aspose.com/temporary-license/).
+ Α: Ναι, διατίθενται προσωρινές άδειες για σκοπούς αξιολόγησης. Μπορείτε να αποκτήσετε ένα[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Ποια είναι η τιμολόγηση για το Aspose.Tasks;
  Α: Πληροφορίες τιμολόγησης μπορείτε να βρείτε στη σελίδα αγοράς Aspose.Tasks[εδώ](https://purchase.aspose.com/buy).

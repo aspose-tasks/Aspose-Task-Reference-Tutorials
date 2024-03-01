@@ -31,7 +31,7 @@ String DataDir = "Your Document Directory";
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
-这行代码将 Microsoft Project 文件加载到`project`变量。
+这行代码将 Microsoft Project 文件加载到`project`多变的。
 ## 步骤 3：定义重复任务参数
 ```csharp
 var parameters = new RecurringTaskParameters

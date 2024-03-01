@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks'ta Workweek Yapılandırmasında Uzmanlaşma
-linktitle: Aspose.Tasks'ta Workweeks'i yapılandırma
+linktitle: Aspose.Tasks'ta Workweeks'i Yapılandırma
 second_title: Aspose.Tasks .NET API'si
 description: Aspose.Tasks for .NET'te çalışma haftalarını zahmetsizce nasıl yapılandıracağınızı öğrenin. Adım adım kılavuzumuzla proje planlamasını ve kaynak yönetimini geliştirin.
 type: docs

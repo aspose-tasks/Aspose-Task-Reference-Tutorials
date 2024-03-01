@@ -12,7 +12,7 @@ Microsoft Project はプロジェクト管理のための強力なツールで�
 ## 前提条件
 始める前に、次の前提条件が設定されていることを確認してください。
 ### 1. Aspose.Tasks for .NET をインストールする
- Aspose.Tasks for .NET は、[Webサイト](https://releases.aspose.com/tasks/net/)、提供されるインストール手順に従って、開発環境にライブラリをセットアップします。
+ Aspose.Tasks for .NET は、[Webサイト](https://releases.aspose.com/tasks/net/)。提供されるインストール手順に従って、開発環境にライブラリをセットアップします。
 ### 2. C# と .NET Framework の基礎知識
 このチュートリアルはこれらの概念の基本的な理解を前提としているため、C# プログラミング言語と .NET Framework についてよく理解してください。
 ### 3. Microsoft プロジェクト ファイル

@@ -9,7 +9,7 @@ url: /pt/net/advanced-features/assignment-baseline/
 ---
 ## Introdução
 
-Ao trabalhar em tarefas de gerenciamento de projetos, gerenciar linhas de base de atribuições é crucial para monitorar o progresso com precisão. Aspose.Tasks for .NET fornece um conjunto abrangente de ferramentas para lidar com linhas de base de atribuição com eficiência. Neste tutorial, nos aprofundaremos no processo de gerenciamento de linhas de base de atribuição passo a passo.
+Ao trabalhar em tarefas de gerenciamento de projetos, o gerenciamento das linhas de base das atribuições é crucial para acompanhar o progresso com precisão. Aspose.Tasks for .NET fornece um conjunto abrangente de ferramentas para lidar com linhas de base de atribuição com eficiência. Neste tutorial, nos aprofundaremos no processo de gerenciamento de linhas de base de atribuição passo a passo.
 
 ## Pré-requisitos
 

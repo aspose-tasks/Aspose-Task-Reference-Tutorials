@@ -12,7 +12,7 @@ url: /es/net/outline-code-page-settings/outline-mask-collection/
 ## Requisitos previos
 Antes de sumergirse en este tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 ### 1. Instalación de Aspose.Tasks para .NET
- Asegúrese de tener Aspose.Tasks para .NET instalado en su entorno de desarrollo. Puede descargar la biblioteca desde el sitio web de Aspose.[aquí](https://releases.aspose.com/tasks/net/).
+Asegúrese de tener Aspose.Tasks para .NET instalado en su entorno de desarrollo. Puede descargar la biblioteca desde el sitio web de Aspose.[aquí](https://releases.aspose.com/tasks/net/).
 ### 2. Conocimientos básicos de C# y .NET Framework
 Familiarícese con el lenguaje de programación C# y .NET Framework, ya que este tutorial utilizará ambos.
 ### 3. Archivo de proyecto de Microsoft
@@ -97,7 +97,7 @@ foreach (var maskToAdd in masks)
 ```
 Finalmente, copiamos las máscaras de esquema de un proyecto a otro, asegurando la coherencia entre los diferentes proyectos.
 ## Conclusión
-¡Felicidades! Ha aprendido con éxito cómo manipular máscaras de esquema de colección de MS Project usando Aspose.Tasks para .NET. Al seguir este tutorial, ahora estará equipado con las habilidades para administrar eficientemente máscaras de contorno en sus proyectos, mejorando en última instancia su productividad y flujo de trabajo.
+¡Felicidades! Ha aprendido con éxito cómo manipular máscaras de esquema de colección de MS Project usando Aspose.Tasks para .NET. Al seguir este tutorial, ahora estará equipado con las habilidades para administrar de manera eficiente las máscaras de contorno en sus proyectos, mejorando en última instancia su productividad y flujo de trabajo.
 ## Preguntas frecuentes
 ### P1: ¿Puedo usar Aspose.Tasks para .NET con diferentes versiones de archivos de Microsoft Project?
 R: Sí, Aspose.Tasks para .NET admite varias versiones de archivos de Microsoft Project, incluidos los formatos MPP, MPT y XML.
@@ -108,4 +108,4 @@ R: ¡Absolutamente! Puede personalizar las máscaras de contorno ajustando su lo
 ### P4: ¿Aspose.Tasks para .NET proporciona documentación y soporte?
 R: Sí, Aspose.Tasks para .NET ofrece documentación completa y soporte dedicado a través de su sitio web y[foros](https://forum.aspose.com/c/tasks/15).
 ### P5: ¿Hay una prueba gratuita disponible para Aspose.Tasks para .NET?
- R: Sí, puede acceder a una prueba gratuita de Aspose.Tasks para .NET desde su[sitio web](https://releases.aspose.com/tasks/net/), para explorar sus características y funcionalidades antes de realizar una compra.
+ R: Sí, puede acceder a una prueba gratuita de Aspose.Tasks para .NET desde su[sitio web](https://releases.aspose.com/tasks/net/). para explorar sus características y funcionalidades antes de realizar una compra.

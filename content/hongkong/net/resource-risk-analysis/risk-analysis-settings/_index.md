@@ -80,7 +80,7 @@ pattern.ConfidenceLevel = ConfidenceLevel.CL75;
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
-初始化一個`RiskAnalyzer`目標並對專案進行風險分析。
+初始化一個`RiskAnalyzer`反對並對專案進行風險分析。
 ## 步驟 12：檢索分析結果
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

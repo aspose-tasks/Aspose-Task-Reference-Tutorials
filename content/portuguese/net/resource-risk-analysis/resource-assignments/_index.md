@@ -71,5 +71,5 @@ Sim, Aspose.Tasks oferece suporte a várias versões do Microsoft Project, garan
 Com certeza, Aspose.Tasks oferece amplas opções de personalização para atribuições de recursos para atender às necessidades específicas do projeto.
 ### O Aspose.Tasks oferece suporte à exportação de dados do projeto para outros formatos?
 Sim, Aspose.Tasks permite exportar dados do projeto para diversos formatos como XML, PDF e HTML, entre outros.
-### suporte técnico está disponível para usuários do Aspose.Tasks?
+### O suporte técnico está disponível para usuários do Aspose.Tasks?
 Sim, a Aspose fornece suporte técnico dedicado por meio de seu fórum e outros canais para auxiliar os usuários com quaisquer dúvidas ou problemas.

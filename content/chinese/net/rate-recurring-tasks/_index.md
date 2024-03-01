@@ -19,10 +19,10 @@ url: /zh/net/rate-recurring-tasks/
 在[使用 Aspose.Tasks 掌握 MS 项目费率](./rate-collection/)，我们深入研究了管理 MS Project 文件中费率的复杂性。本教程是您了解费率收集的细微差别、提供实用见解并帮助您增强项目资源管理能力的首选资源。
 
 ## Aspose.Tasks 中轻松的 MS 项目重复间隔
-发现轻松管理重复间隔的艺术[Aspose.Tasks 中轻松的 MS 项目重复间隔](./recurring-intervals/),本教程将指导您使用 Aspose.Tasks for .NET 完成整个过程，确保您可以无缝处理 MS 项目中的重复任务。
+发现轻松管理重复间隔的艺术[Aspose.Tasks 中轻松的 MS 项目重复间隔](./recurring-intervals/)。本教程将指导您使用 Aspose.Tasks for .NET 完成整个过程，确保您可以无缝处理 MS 项目中的重复任务。
 
 ## 在 Aspose.Tasks 中提取重复任务信息
-了解从 MS Project 文件中提取重复任务信息的诀窍[在 Aspose.Tasks 中提取重复任务信息](./recurring-task-information/),本教程为 .NET 开发人员提供了轻松的集成，使您能够高效地处理项目中的重复任务。
+了解从 MS Project 文件中提取重复任务信息的诀窍[在 Aspose.Tasks 中提取重复任务信息](./recurring-task-information/)。本教程为 .NET 开发人员提供了轻松的集成，使您能够高效地处理项目中的重复任务。
 
 ## 在 Aspose.Tasks 中设置重复任务参数
 在[在 Aspose.Tasks 中设置重复任务参数](./recurring-task-parameters/)，我们提供了有关如何使用 Aspose.Tasks for .NET 在 Microsoft Project 中设置重复任务参数的全面指南。掌握轻松配置重复任务的知识。
@@ -31,13 +31,13 @@ url: /zh/net/rate-recurring-tasks/
 告别手动任务删除！[使用 Aspose.Tasks 删除 MS Project 任务](./removing-tasks/)引导您完成使用 Aspose.Tasks for .NET 以编程方式删除任务的过程。分步指南包含可实现无缝体验的代码示例。
 
 ## 使用 Aspose.Tasks 掌握 MS 项目报告
-释放 MS Project 报告的全部潜力[使用 Aspose.Tasks 掌握 MS 项目报告](./report-types/),本教程探讨如何使用 Aspose.Tasks for .NET 处理 MS Project 文件，使您能够轻松生成各种报告类型。
+释放 MS Project 报告的全部潜力[使用 Aspose.Tasks 掌握 MS 项目报告](./report-types/)。本教程探讨如何使用 Aspose.Tasks for .NET 处理 MS Project 文件，使您能够轻松生成各种报告类型。
 
 ## 在 Aspose.Tasks 中以各种格式保存 MS 项目文件
 高效的项目管理包括多种文件格式。[在 Aspose.Tasks 中以各种格式保存 MS 项目文件](./save-file-formats/)指导您完成使用 Aspose.Tasks for .NET 以不同格式保存 MS Project 文件的步骤。
 
 ## 在 Aspose.Tasks 中处理 MS Project 拆分部分
-在 MS Project 中导航拆分部件变得轻而易举[在 Aspose.Tasks 中处理 MS Project 拆分部分](./split-parts/),使用 Aspose.Tasks for .NET 高效处理拆分部分，增强您的项目管理工作流程。
+在 MS Project 中导航拆分部件变得轻而易举[在 Aspose.Tasks 中处理 MS Project 拆分部分](./split-parts/)。使用 Aspose.Tasks for .NET 高效处理拆分部分，增强您的项目管理工作流程。
 
 ## 在 Aspose.Tasks 中收集 MS 项目拆分部分
 我们的教程[在 Aspose.Tasks 中收集 MS 项目拆分部分](./split-part-collection/)是一本全面的指南，将逐步引导您完成整个过程。了解如何在 MS Project 中收集拆分部件，使您能够优化项目管理工作流程。

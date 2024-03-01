@@ -27,7 +27,7 @@ Nyní, když máme připraveny naše předpoklady, pojďme si tutoriál rozděli
 // Cesta k adresáři dokumentů.
 String DataDir = "Your Document Directory";
 ```
- Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou k adresáři vašeho projektového dokumentu.
+ Nezapomeňte vyměnit`"Your Document Directory"`se skutečnou cestou k adresáři vašeho projektového dokumentu.
 ## Krok 2: Načtěte projekt a získejte přístup k projektu VBA
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -63,11 +63,11 @@ Podle těchto kroků budete zběhlí ve správě kolekcí modulů VBA v Aspose.T
 Závěrem lze říci, že zvládnutí modulů VBA v Aspose.Tasks otevírá nové možnosti pro efektivní řízení projektů. Vyzbrojeni těmito znalostmi můžete přizpůsobit a vylepšit své projekty tak, aby splňovaly specifické požadavky.
 ## Nejčastější dotazy
 ### Mohu používat Aspose.Tasks pro .NET s jinými programovacími jazyky?
-Aspose.Tasks primárně podporuje jazyky .NET, jako je C#. Existují však verze Java pro kompatibilitu mezi jazyky.
+Aspose.Tasks primárně podporuje jazyky .NET jako C#. Existují však verze Java pro kompatibilitu mezi jazyky.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
-Ano, bezplatnou zkušební verzi si můžete stáhnout z[tady](https://releases.aspose.com/).
+ Ano, bezplatnou zkušební verzi si můžete stáhnout z[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu pro Aspose.Tasks?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro podporu komunity nebo zvažte nákup plánu podpory.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro podporu komunity nebo zvažte nákup plánu podpory.
 ### Jsou dostupné dočasné licence?
  Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu podrobnou dokumentaci k Aspose.Tasks?

@@ -32,7 +32,7 @@ var calendar = project.Get(Prj.Calendar);
 project.Set(Prj.StartDate, new DateTime(2000, 3, 15, 8, 0, 0));
 project.Set(Prj.FinishDate, new DateTime(2000, 4, 21, 17, 0, 0));
 ```
-## Krok 2: Přidejte úkol do projektu
+## Krok 2: Přidejte do projektu úkol
 Dále přidejte nový úkol do kořenového úkolu projektu:
 ```csharp
 var task = project.RootTask.Children.Add("Task1");
@@ -51,7 +51,7 @@ assignment.SplitTask(new DateTime(2000, 3, 16, 8, 0, 0), new DateTime(2000, 3, 1
 assignment.SplitTask(new DateTime(2000, 3, 18, 8, 0, 0), new DateTime(2000, 3, 18, 17, 0, 0), calendar);
 ```
 ## Krok 5: Nastavte pracovní obrys
-Nastavte typ pracovního obrysu pro přiřazení:
+Nastavte typ pracovního obrysu pro úkol:
 ```csharp
 assignment.Set(Asn.WorkContour, WorkContourType.Contoured);
 ```

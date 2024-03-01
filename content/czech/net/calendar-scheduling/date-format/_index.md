@@ -73,11 +73,11 @@ Nakonec uložte projekt s přizpůsobeným formátem data.
 project.Save("output_path.pdf", SaveFileFormat.Pdf);
 ```
 
-Dodržením těchto jednoduchých kroků můžete bez námahy přizpůsobit formáty data ve svých projektech Aspose.Tasks a vyhovět vašim specifickým potřebám prezentace.
+Pomocí těchto jednoduchých kroků můžete bez námahy přizpůsobit formáty data ve svých projektech Aspose.Tasks tak, aby vyhovovaly vašim specifickým potřebám prezentace.
 
 ## Závěr
 
-Zvládnutí formátů data v Aspose.Tasks for .NET je zásadní pro zlepšení čitelnosti a použitelnosti výstupů vašeho projektu. Podle podrobného průvodce uvedeného v tomto tutoriálu můžete efektivně přizpůsobit reprezentace data podle svých preferencí a zajistit tak jasnou komunikaci a porozumění mezi zúčastněnými stranami projektu.
+Zvládnutí formátů data v Aspose.Tasks for .NET je zásadní pro zlepšení čitelnosti a použitelnosti výstupů vašeho projektu. Pokud se budete řídit podrobným průvodcem v tomto kurzu, můžete efektivně přizpůsobit reprezentace data podle svých preferencí a zajistit tak jasnou komunikaci a porozumění mezi zúčastněnými stranami projektu.
 
 ## FAQ
 

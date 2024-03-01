@@ -12,7 +12,7 @@ url: /hi/net/task-table-management/table-field-collection/
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित सेटअप है:
 - C# प्रोग्रामिंग भाषा का कार्यसाधक ज्ञान।
-- .NET लाइब्रेरी के लिए Aspose.Tasks स्थापित। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/).
+-  .NET लाइब्रेरी के लिए Aspose.Tasks स्थापित। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/).
 - एक एकीकृत विकास पर्यावरण (आईडीई) जैसे विजुअल स्टूडियो।
 ## नामस्थान आयात करें
 सबसे पहले, सुनिश्चित करें कि आपने अपनी C# फ़ाइल की शुरुआत में आवश्यक नामस्थान आयात किए हैं:
@@ -28,7 +28,7 @@ url: /hi/net/task-table-management/table-field-collection/
 String DataDir = "Your Document Directory";
 ```
 ## चरण 2: प्रोजेक्ट फ़ाइल लोड करें
-Aspose. Tasks लाइब्रेरी का उपयोग करके प्रोजेक्ट फ़ाइल लोड करें।
+Aspose.Tasks लाइब्रेरी का उपयोग करके प्रोजेक्ट फ़ाइल लोड करें।
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");
 ```
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // तालिका फ़ील्ड पर पुनरावृति करें
+    //तालिका फ़ील्ड पर पुनरावृति करें
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -106,8 +106,8 @@ else
 ### क्या रनटाइम के दौरान तालिका फ़ील्ड को गतिशील रूप से बनाना और संशोधित करना संभव है?
 बिल्कुल! जैसा कि ट्यूटोरियल में दिखाया गया है, आप आवश्यकतानुसार तालिका फ़ील्ड को गतिशील रूप से जोड़, सम्मिलित, संपादित और हटा सकते हैं।
 ### क्या किसी वाणिज्यिक परियोजना में .NET के लिए Aspose.Tasks का उपयोग करने के लिए कोई लाइसेंस संबंधी विचार हैं?
- हाँ, आपको किसी व्यावसायिक परियोजना में .NET के लिए Aspose.कार्यों का उपयोग करने के लिए एक वैध लाइसेंस की आवश्यकता है। आप लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/buy).
+ हां, किसी व्यावसायिक प्रोजेक्ट में .NET के लिए Aspose.Tasks का उपयोग करने के लिए आपको एक वैध लाइसेंस की आवश्यकता है। आप लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/buy).
 ### मैं .NET के लिए Aspose.Tasks से सहायता कैसे प्राप्त कर सकता हूँ या सहायता कैसे प्राप्त कर सकता हूँ?
- दौरा करना[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) समर्थन पाने के लिए, प्रश्न पूछें और समुदाय के साथ सहयोग करें।
+ दौरा करना[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15)समर्थन प्राप्त करने, प्रश्न पूछने और समुदाय के साथ सहयोग करने के लिए।
 ### क्या .NET के लिए Aspose.Tasks का निःशुल्क परीक्षण उपलब्ध है?
  हाँ, आप नि:शुल्क परीक्षण के साथ .NET के लिए Aspose.Tasks की सुविधाओं का पता लगा सकते हैं। इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/).

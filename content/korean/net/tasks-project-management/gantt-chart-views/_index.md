@@ -12,7 +12,7 @@ url: /ko/net/tasks-project-management/gantt-chart-views/
 ## 전제조건
 계속하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 ### 1. .NET용 Aspose.Tasks 설치
- .NET용 Aspose.Tasks를 설치했는지 확인하세요. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/)설명서에 제공된 설치 지침을 따르십시오.[여기](https://reference.aspose.com/tasks/net/).
+ .NET용 Aspose.Tasks를 설치했는지 확인하세요. 다음에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/) 설명서에 제공된 설치 지침을 따르십시오.[여기](https://reference.aspose.com/tasks/net/).
 ### 2. 마이크로소프트 프로젝트 파일
 Microsoft Project 파일을 준비합니다(`Project2.mpp`) Gantt 차트 보기 작업에 사용할 것입니다.
 ### 3. C# 및 .NET Framework에 대한 기본 지식
@@ -81,7 +81,7 @@ view.RollUpGanttBars = true;
 view.ShowBarSplits = true;
 ```
 간트 차트에 작업 분할을 표시해야 하는지 여부를 결정합니다.
-### 그림을 보여주다
+### 도면 표시
 ```csharp
 view.ShowDrawings = true;
 ```

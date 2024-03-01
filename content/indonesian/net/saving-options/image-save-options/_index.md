@@ -13,7 +13,7 @@ Dalam dunia pengembangan perangkat lunak, menangani tugas-tugas proyek secara ef
 ## Prasyarat
 Sebelum mulai menggunakan Aspose.Tasks untuk .NET untuk menyimpan opsi MS Project sebagai gambar, pastikan Anda memiliki prasyarat berikut:
 ### 1. Instal Aspose.Tasks untuk .NET
- Untuk memulai, Anda perlu menginstal Aspose.Tasks for .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari[situs web](https://releases.aspose.com/tasks/net/) dan ikuti petunjuk instalasi yang diberikan.
+Untuk memulai, Anda perlu menginstal Aspose.Tasks for .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari[situs web](https://releases.aspose.com/tasks/net/) dan ikuti petunjuk instalasi yang diberikan.
 ### 2. Dapatkan Lisensi (Opsional)
  Meskipun Aspose.Tasks untuk .NET dapat digunakan tanpa lisensi dalam mode evaluasi, disarankan untuk mendapatkan lisensi untuk fungsionalitas penuh dan untuk menghilangkan batasan evaluasi. Anda dapat memperoleh lisensi dari[halaman pembelian](https://purchase.aspose.com/buy) atau memilih a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
 ### 3. Pengetahuan Dasar Pengembangan C# dan .NET
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## Langkah 3: Tentukan Opsi Penyimpanan Gambar
- Buat sebuah contoh dari`ImageSaveOptions` dan tentukan pengaturan yang diinginkan:
+ Buat sebuah contoh dari`ImageSaveOptions`dan tentukan pengaturan yang diinginkan:
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {

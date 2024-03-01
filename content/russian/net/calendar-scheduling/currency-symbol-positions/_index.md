@@ -27,7 +27,7 @@ url: /ru/net/calendar-scheduling/currency-symbol-positions/
 
 Для начала вам необходимо импортировать необходимые пространства имен в ваш проект .NET. 
 
- Включите`Aspose.Tasks` пространство имен в вашем проекте для доступа к классам и методам, предоставляемым библиотекой Aspose.Tasks.
+ Включите`Aspose.Tasks`пространство имен в вашем проекте для доступа к классам и методам, предоставляемым библиотекой Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ url: /ru/net/calendar-scheduling/currency-symbol-positions/
 
 ## Шаг 1. Загрузите файл проекта
 
- Начните с загрузки файла проекта с помощью`Project`конструктор класса.
+ Начните с загрузки файла проекта с помощью`Project` конструктор класса.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

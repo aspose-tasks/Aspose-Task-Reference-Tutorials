@@ -64,6 +64,6 @@ V: Igen, az Aspose.Tasks támogatja a különféle projektmenedzsment formátumo
 ### K: Módosíthatom és menthetem az MS Project Primavera fájlok módosításait az Aspose.Tasks segítségével?
 V: Abszolút! Az Aspose.Tasks lehetővé teszi az MS Project Primavera fájlok zökkenőmentes olvasását, de azok módosítását és mentését is .NET-alkalmazásaiban.
 ### K: Elérhető az Aspose.Tasks ingyenes próbaverziója?
- V: Igen, igénybe veheti az Aspose.Tasks ingyenes próbaverzióját[itt](https://releases.aspose.com/) hogy vásárlás előtt feltárja a funkcióit és képességeit.
+ V: Igen, igénybe veheti az Aspose.Tasks ingyenes próbaverzióját[itt](https://releases.aspose.com/)hogy vásárlás előtt feltárja a funkcióit és képességeit.
 ### K: Hol kaphatok támogatást az Aspose.Tasks-hoz?
- V: Az Aspose.Tasks-szal kapcsolatos kérdéseivel vagy segítségével látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15)ahol segítséget kaphat a közösségtől vagy az Aspose támogató személyzetétől.## Töltse ki a forráskódot
+ V: Az Aspose.Tasks-szal kapcsolatos kérdéseivel vagy segítségével látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) ahol segítséget kaphat a közösségtől vagy az Aspose támogató személyzetétől.## Töltse ki a forráskódot

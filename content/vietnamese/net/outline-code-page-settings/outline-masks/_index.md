@@ -75,4 +75,4 @@ A: Thật vậy, bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://f
 ### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks cho .NET trước khi mua không?
  Đ: Tất nhiên! Bạn có thể truy cập bản dùng thử miễn phí của Aspose.Tasks[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể lấy giấy phép tạm thời cho Aspose.Tasks ở đâu?
- Đáp: Nếu bạn cần giấy phép tạm thời cho mục đích đánh giá hoặc thử nghiệm, bạn có thể lấy giấy phép.[đây](https://purchase.aspose.com/temporary-license/).
+ Đáp: Nếu bạn cần giấy phép tạm thời cho mục đích đánh giá hoặc thử nghiệm, bạn có thể lấy một giấy phép[đây](https://purchase.aspose.com/temporary-license/).

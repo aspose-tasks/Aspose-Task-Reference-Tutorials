@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Stap 1: Laad het projectbestand
 
- Begin met het laden van het Microsoft Project-bestand (.mpp) dat u wilt controleren op een gebroken structuur. Gebruik de`Project` klasse om het bestand te laden.
+Begin met het laden van het Microsoft Project-bestand (.mpp) dat u wilt controleren op een gebroken structuur. Gebruik de`Project` klasse om het bestand te laden.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## Stap 2: Controleer de projectstructuur
 
- Om eventuele gebroken structuren binnen het project te detecteren, gebruiken we de`CheckCircuit` klas mee`TaskUtils.Apply` methode.
+ Om eventuele gebroken structuren binnen het project te detecteren, gebruiken we de`CheckCircuit` klas samen met de`TaskUtils.Apply` methode.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ A1: Ja, Aspose.Tasks voor .NET is compatibel met verschillende .NET-frameworks, 
 
 ### V3: Hoe kan ik ondersteuning krijgen voor Aspose.Tasks voor .NET?
 
-A3: U kunt hulp zoeken op het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
+ A3: U kunt hulp zoeken op het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
 
 ### Vraag 4: Heb ik een tijdelijke licentie nodig voor testdoeleinden?
 

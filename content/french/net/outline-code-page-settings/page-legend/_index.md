@@ -1,6 +1,6 @@
 ---
-title: Configurer les légendes MS Project dans Aspose.Tasks
-linktitle: Configurer la légende de la page dans Aspose.Tasks
+title: Configuration des légendes MS Project dans Aspose.Tasks
+linktitle: Configuration de la légende de la page dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les légendes des pages MS Project dans .NET à l'aide d'Aspose.Tasks pour une gestion de projet efficace. Guide étape par étape fourni.
 type: docs
@@ -11,7 +11,7 @@ url: /fr/net/outline-code-page-settings/page-legend/
 Dans le domaine du développement .NET, la gestion efficace des tâches est cruciale, en particulier lorsqu'il s'agit de gestion de projet. Aspose.Tasks for .NET apparaît comme un outil puissant, offrant une multitude de fonctionnalités pour rationaliser les processus de gestion des tâches. L'une de ces fonctionnalités est la possibilité de configurer les légendes des pages MS Project, offrant ainsi aux utilisateurs des informations précieuses sur la présentation des données du projet.
 ## Conditions préalables
 Avant de vous lancer dans la configuration des légendes des pages MS Project à l'aide d'Aspose.Tasks pour .NET, assurez-vous que les conditions préalables suivantes sont remplies :
-1.  Installation : installez Aspose.Tasks pour .NET dans votre environnement de développement. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/net/).
+1. Installation : installez Aspose.Tasks pour .NET dans votre environnement de développement. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/net/).
 2. Connaissance de base de .NET : Familiarisez-vous avec les bases du développement .NET, notamment la configuration de projets et l'utilisation des espaces de noms.
 3. Environnement de développement : utilisez un environnement de développement intégré (IDE) tel que Visual Studio pour une expérience de codage transparente.
 4. Fichier de projet : disposez d'un fichier Microsoft Project (MPP) prêt pour l'expérimentation.

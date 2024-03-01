@@ -24,7 +24,7 @@ Vylepšete estetiku svých projektových dokumentů přizpůsobením stylů text
  Osvojte si umění přizpůsobení zobrazení časové osy pomocí Aspose.Tasks for .NET, abyste zlepšili své zkušenosti s řízením projektů. Přizpůsobte vizuálně přitažlivé časové osy tak, aby vyhovovaly jedinečným potřebám vašeho projektu. Procházejte naším podrobným průvodcem na[Přizpůsobení zobrazení časové osy v Aspose.Tasks](./timeline-views/).
 
 ## Zpracování časově uspořádaných dat v Aspose.Tasks## 
- Aspose.Tasks for .NET můžete bez námahy spravovat časově uspořádaná data, zlepšit plánování projektů a optimalizovat správu zdrojů. Objevte postřehy prozkoumáním našeho průvodce na[Zpracování časově uspořádaných dat v Aspose.Tasks](./timephased-data/).
+ Aspose.Tasks for .NET můžete bez námahy spravovat časově uspořádaná data, zlepšit plánování projektů a optimalizovat správu zdrojů. Odhalte postřehy prozkoumáním našeho průvodce na[Zpracování časově uspořádaných dat v Aspose.Tasks](./timephased-data/).
 
 ## Shromažďování časově uspořádaných dat v Aspose.Tasks## 
  Ponořte se do světa časově řízeného shromažďování dat v Aspose.Tasks pro .NET pomocí našeho podrobného průvodce, často kladených otázek a dalších. Prozkoumejte ještě dnes své možnosti projektového řízení[Sběr časově uspořádaných dat v Aspose.Tasks](./timephased-data-collection/).

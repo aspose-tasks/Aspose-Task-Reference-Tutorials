@@ -24,7 +24,7 @@ url: /ru/net/outline-code-page-settings/outline-code-collection/
     using Aspose.Tasks.Util;
 ```
 ## Шаг 1. Загрузите файл проекта
- Начните с загрузки файла Microsoft Project с помощью`Project` класс.класс.
+ Начните с загрузки файла Microsoft Project с помощью`Project` сорт.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineCodes2003.mpp");

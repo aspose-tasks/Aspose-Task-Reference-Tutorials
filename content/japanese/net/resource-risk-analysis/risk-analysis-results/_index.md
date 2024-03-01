@@ -66,7 +66,7 @@ var analyzer = new RiskAnalyzer(settings);
 var analysisResult = analyzer.Analyze(project);
 ```
 ## ステップ 7: 分析結果を保存する
-分析結果をファイルまたはストリームとして保存します。
+分析結果をファイルまたはストリームに保存します。
 ```csharp
 analysisResult.SaveReport(OutDir + "AnalysisResult_out.pdf");
 //または分析をストリームに保存します

@@ -1,6 +1,6 @@
 ---
 title: Passen Sie die Einstellungen für die Seitenansicht von MS Project in Aspose.Tasks an
-linktitle: Konfigurieren Sie die Seitenansichtseinstellungen in Aspose.Tasks
+linktitle: Konfigurieren der Seitenansichtseinstellungen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie die Seitenansichtseinstellungen in Aspose.Tasks für .NET konfigurieren, um das Druckformat Ihrer Microsoft Project-Dokumente anzupassen.
 type: docs
@@ -66,7 +66,7 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 ## Abschluss
 Das Konfigurieren der Microsoft Project-Seitenansichtseinstellungen in Aspose.Tasks für .NET ist unkompliziert und ermöglicht Ihnen, das Druckformat genau an Ihre Bedürfnisse anzupassen. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie sicherstellen, dass Ihre Projektdokumente genau wie erforderlich präsentiert werden.
 ## FAQs
-### F: Kann ich die Seitenansichtseinstellungen für andere Dateiformate außer PDF konfigurieren?
+### F: Kann ich die Seitenansichtseinstellungen für andere Dateiformate als PDF konfigurieren?
 A: Ja, Aspose.Tasks unterstützt verschiedene Dateiformate zum Speichern von Projekten, darunter XLSX, MPP und HTML.
 ### F: Gibt es Einschränkungen hinsichtlich der Anzahl der Spalten, die ich drucken kann?
 A: Mit Aspose.Tasks können Sie die Anzahl der zu druckenden Spalten entsprechend Ihren Anforderungen anpassen.
@@ -75,4 +75,4 @@ A: Ja, Sie können die Seitenansichtseinstellungen für jede Projektdatei, mit d
 ### F: Ist Aspose.Tasks mit allen Versionen von Microsoft Project kompatibel?
 A: Aspose.Tasks bietet Kompatibilität mit Microsoft Project 2003 und späteren Versionen.
 ### F: Wo finde ich weitere Hilfe oder Unterstützung für Aspose.Tasks?
- A: Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15)für alle Fragen oder Probleme, die während der Nutzung auftreten.
+ A: Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für alle Fragen oder Probleme, die während der Nutzung auftreten.

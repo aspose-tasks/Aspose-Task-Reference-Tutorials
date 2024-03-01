@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan Database MS Project Primavera di Aspose.Tasks
-linktitle: Konfigurasikan Pengaturan Basis Data Primavera di Aspose.Tasks
+linktitle: Mengonfigurasi Pengaturan Basis Data Primavera di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi pengaturan Database MS Project Primavera di Aspose.Tasks untuk .NET dengan mudah. Sederhanakan tugas manajemen proyek Anda.
 type: docs
@@ -12,7 +12,7 @@ Apakah Anda siap memanfaatkan kekuatan Aspose.Tasks untuk .NET guna mengonfigura
 ## Prasyarat
 Sebelum memulai, pastikan Anda memiliki prasyarat berikut:
 ### 1. Instal Aspose.Tasks untuk .NET
- Pergilah ke[Unduh Aspose.Tasks untuk .NET](https://releases.aspose.com/tasks/net/) dan ambil versi terbaru perpustakaan Aspose.Tasks. Ikuti petunjuk penginstalan yang diberikan untuk menyiapkannya di lingkungan .NET Anda.
+ Pergilah ke[Unduh Aspose.Tasks untuk .NET](https://releases.aspose.com/tasks/net/)dan ambil versi terbaru perpustakaan Aspose.Tasks. Ikuti petunjuk penginstalan yang diberikan untuk menyiapkannya di lingkungan .NET Anda.
 ### 2. Akses Basis Data MS Project Primavera
 Pastikan Anda memiliki akses ke Database MS Project Primavera. Anda memerlukan kredensial dan detail koneksi yang diperlukan untuk melanjutkan.
 ### 3. Pengetahuan Dasar C# dan .NET Framework
@@ -43,17 +43,17 @@ sb.UserID = "privuser";
 sb.Password = "***";
 sb.ConnectTimeout = 2; // MantanLewati
 ```
- Kode ini menciptakan a`SqlConnectionStringBuilder` objek dan mengatur berbagai properti seperti`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`, dll., untuk mengonfigurasi string koneksi untuk database Primavera.
+ Kode ini menciptakan a`SqlConnectionStringBuilder`objek dan mengatur berbagai properti seperti`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`, dll., untuk mengonfigurasi string koneksi untuk database Primavera.
 ## Langkah 2: Inisialisasi Objek PrimaveraDbSettings
 ```csharp
 var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```
-Di sini, kami menginisialisasi instance baru dari`PrimaveraDbSettings` kelas dengan meneruskan string koneksi dan ID proyek (dalam hal ini,`4502`) sebagai parameter.
+ Di sini, kami menginisialisasi instance baru dari`PrimaveraDbSettings` kelas dengan meneruskan string koneksi dan ID proyek (dalam hal ini,`4502`) sebagai parameter.
 ## Langkah 3: Baca Proyek dari Database
 ```csharp
 var project = new Project(settings);
 ```
- Baris ini menciptakan yang baru`Project` objek dengan melewati`settings` objek yang kita buat sebelumnya. Ini membuat koneksi ke database Primavera dan membaca proyek dengan UID yang ditentukan (`4502`,
+ Baris ini menciptakan yang baru`Project` objek dengan melewati`settings` objek yang kita buat sebelumnya. Ini membuat koneksi ke database Primavera dan membaca proyek dengan UID yang ditentukan (`4502`).
 ## Langkah 4: Tampilkan UID Proyek
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
@@ -69,7 +69,7 @@ J: Ya, Aspose.Tasks untuk .NET mendukung integrasi dengan berbagai perangkat lun
 J: Ya, Aspose.Tasks untuk .NET kompatibel dengan lingkungan .NET Core dan .NET Framework.
 ### T: Apakah Aspose.Tasks untuk .NET menawarkan dukungan untuk solusi manajemen proyek berbasis cloud?
 J: Aspose.Tasks untuk .NET terutama berfokus pada solusi manajemen proyek lokal, namun dapat diadaptasi untuk lingkungan cloud tertentu dengan konfigurasi yang sesuai.
-### T: Dapatkah saya memanipulasi data proyek secara terprogram menggunakan Aspose.Tasks untuk .NET?
+### T: Bisakah saya memanipulasi data proyek secara terprogram menggunakan Aspose.Tasks untuk .NET?
 J: Tentu saja! Aspose.Tasks untuk .NET menyediakan serangkaian API untuk membaca, menulis, dan memanipulasi data proyek dalam berbagai format.
 ### T: Apakah ada forum komunitas atau saluran dukungan yang tersedia untuk Aspose.Tasks bagi pengguna .NET?
- A: Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan komunitas dan bantuan dengan masalah atau pertanyaan apa pun yang mungkin Anda miliki.## Kode Sumber Lengkap
+ A: Ya, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)untuk dukungan komunitas dan bantuan dengan masalah atau pertanyaan apa pun yang mungkin Anda miliki.## Kode Sumber Lengkap

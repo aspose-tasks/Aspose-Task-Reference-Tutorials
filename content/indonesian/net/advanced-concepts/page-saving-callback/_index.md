@@ -17,7 +17,7 @@ Sebelum kita mulai, pastikan Anda memiliki hal berikut:
 
 1. Pengetahuan tentang bahasa pemrograman C#: Anda harus memiliki pemahaman dasar tentang sintaksis dan konsep C#.
    
-2. Instalasi Aspose.Tasks untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
+2.  Instalasi Aspose.Tasks untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
 
 3. Pengaturan Lingkungan Pengembangan: Siapkan IDE pilihan Anda untuk pengembangan .NET, seperti Visual Studio.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## Langkah 2: Konfigurasikan Opsi Penyimpanan Gambar
 
- Mendefinisikan`ImageSaveOptions` dan sesuaikan perilaku penyimpanan halaman dengan mengatur`PageSavingCallback` Properti:
+ Mendefinisikan`ImageSaveOptions`dan sesuaikan perilaku penyimpanan halaman dengan mengatur`PageSavingCallback` Properti:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);

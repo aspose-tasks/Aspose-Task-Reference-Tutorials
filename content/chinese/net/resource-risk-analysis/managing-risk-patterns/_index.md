@@ -15,7 +15,7 @@ url: /zh/net/resource-risk-analysis/managing-risk-patterns/
 在我们深入使用 Aspose.Tasks for .NET 管理 MS Project 风险模式之前，请确保您具备以下条件：
 
 1. Microsoft Project 文件：拥有包含任务和相关项目数据的 Microsoft Project 文件 (.mpp)。
-2. Aspose.Tasks for .NET：从以下位置下载并安装 Aspose.Tasks for .NET 库：[网站](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET：从以下位置下载并安装 Aspose.Tasks for .NET 库：[网站](https://releases.aspose.com/tasks/net/).
 3. 对 C# 的基本了解：建议熟悉 C# 编程语言基础知识。
 
 ## 导入命名空间

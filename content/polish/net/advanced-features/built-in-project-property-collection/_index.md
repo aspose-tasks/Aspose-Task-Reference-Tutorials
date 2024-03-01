@@ -25,7 +25,7 @@ Zapoznaj się z podstawami języka programowania C#, w tym ze zmiennymi, typami 
 
 ### 3. Instalacja Aspose.Tasks dla .NET
 
-Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[strona internetowa](https://releases.aspose.com/tasks/net/).
+ Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[strona internetowa](https://releases.aspose.com/tasks/net/).
 
 ### 4. Znajomość koncepcji zarządzania projektami
 
@@ -83,7 +83,7 @@ Ten krok obejmuje iterację wbudowanej kolekcji właściwości projektu i wydruk
 
 ## Wniosek
 
-Podsumowując, Aspose.Tasks dla .NET zapewnia kompleksowe rozwiązanie do efektywnego zarządzania meta-właściwościami projektu w aplikacjach .NET. Postępując zgodnie z krokami opisanymi w tym przewodniku, programiści mogą bezproblemowo zintegrować funkcje zarządzania projektami ze swoimi projektami oprogramowania, zwiększając produktywność i organizację.
+Podsumowując, Aspose.Tasks dla .NET zapewnia kompleksowe rozwiązanie do wydajnego zarządzania meta-właściwościami projektu w aplikacjach .NET. Postępując zgodnie z krokami opisanymi w tym przewodniku, programiści mogą bezproblemowo zintegrować funkcje zarządzania projektami ze swoimi projektami oprogramowania, zwiększając produktywność i organizację.
 
 ## Często zadawane pytania
 

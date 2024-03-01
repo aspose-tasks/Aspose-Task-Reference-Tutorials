@@ -87,4 +87,4 @@ foreach (var statistic in statistics)
 ### 问：我可以在 Aspose.Tasks 中自定义风险分析设置吗？
 答：是的，Aspose.Tasks 可以灵活地配置风险分析设置，以满足您的特定项目要求和场景。
 ### 问：Aspose.Tasks 用户可以获得技术支持吗？
-答：是的，Aspose.Tasks 用户可以通过 Aspose 获得技术支持。[论坛](https://forum.aspose.com/c/tasks/15)，他们可以提出问题、报告问题并与社区互动。
+答：是的，Aspose.Tasks 用户可以通过 Aspose 获得技术支持[论坛](https://forum.aspose.com/c/tasks/15)，他们可以提出问题、报告问题并与社区互动。

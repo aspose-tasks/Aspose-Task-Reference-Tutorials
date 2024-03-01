@@ -11,7 +11,7 @@ url: /nl/net/license-management/metering-usage/
 Wilt u uw MS Project-gebruik effectief beheren en monitoren met Aspose.Tasks? Met de kracht van meting kunt u uw verbruik bijhouden en uw projectmanagementinspanningen optimaliseren. In deze zelfstudie begeleiden we u stap voor stap bij het meten van het MS Project-gebruik met behulp van Aspose.Tasks voor .NET.
 ## Vereisten
 Voordat we dieper ingaan op het meten van het MS Project-gebruik, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-1.  Aspose.Tasks voor .NET-bibliotheek: Download en installeer de Aspose.Tasks voor .NET-bibliotheek vanaf de[downloadpagina](https://releases.aspose.com/tasks/net/), Volg de installatie-instructies om de bibliotheek in uw ontwikkelomgeving in te stellen.
+1.  Aspose.Tasks voor .NET-bibliotheek: Download en installeer de Aspose.Tasks voor .NET-bibliotheek vanaf de[downloadpagina](https://releases.aspose.com/tasks/net/). Volg de installatie-instructies om de bibliotheek in uw ontwikkelomgeving in te stellen.
 2.  Publieke en privésleutels: verkrijg uw publieke en privésleutels van Aspose. Deze toetsen zijn essentieel voor het meten van het gebruik. Als u nog geen sleutels heeft, kunt u deze bij Aspose aanvragen via de[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) bladzijde.
 
 ## Naamruimten importeren
@@ -30,7 +30,7 @@ String DataDir = "Your Document Directory";
 var metered = new Metered();
 metered.SetMeteredKey("<public key>", "<private key>");
 ```
- vervangen`"Your Document Directory"` door het pad naar uw documentmap en vervang`<public key>` En`<private key>` met uw daadwerkelijke sleutels verkregen van Aspose.
+ Vervangen`"Your Document Directory"` door het pad naar uw documentmap en vervang`<public key>` En`<private key>` met uw daadwerkelijke sleutels verkregen van Aspose.
 ## Stap 2: MS-projectbestand laden
 Laad vervolgens uw MS Project-bestand met Aspose.Tasks:
 ```csharp

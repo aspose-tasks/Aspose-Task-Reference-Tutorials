@@ -36,7 +36,7 @@ Låt oss dela upp exemplet i flera steg:
 
 ## Steg 1: Ladda projektfilen
 
- Ladda först projektfilen med hjälp av`Project` klass:
+Ladda först projektfilen med hjälp av`Project` klass:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

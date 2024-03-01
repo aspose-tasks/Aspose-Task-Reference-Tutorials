@@ -1,6 +1,6 @@
 ---
 title: Configuración del código WBS paso a paso en Aspose.Tasks .NET
-linktitle: Configurar máscaras de código WBS en Aspose.Tasks
+linktitle: Configuración de máscaras de código WBS en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore la configuración de máscaras de código WBS paso a paso en proyectos .NET utilizando Aspose.Tasks. Mejore las capacidades de gestión de proyectos sin esfuerzo.
 type: docs
@@ -84,7 +84,7 @@ En este tutorial, exploramos el proceso paso a paso de configurar máscaras de c
 ### ¿Puedo utilizar Aspose.Tasks gratis?
  Aspose.Tasks ofrece una prueba gratuita, que puedes descargar[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar soporte adicional?
- visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15)para el apoyo de la comunidad.
+ Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para el apoyo de la comunidad.
 ### ¿Cómo puedo obtener una licencia temporal?
  Puedes obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Hay documentación detallada disponible?

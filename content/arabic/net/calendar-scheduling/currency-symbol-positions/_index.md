@@ -27,7 +27,7 @@ url: /ar/net/calendar-scheduling/currency-symbol-positions/
 
 للبدء، تحتاج إلى استيراد مساحات الأسماء المطلوبة إلى مشروع .NET الخاص بك. 
 
- تشمل`Aspose.Tasks` مساحة الاسم في مشروعك للوصول إلى الفئات والأساليب التي توفرها مكتبة Aspose.Tasks.
+ تشمل`Aspose.Tasks`مساحة الاسم في مشروعك للوصول إلى الفئات والأساليب التي توفرها مكتبة Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ url: /ar/net/calendar-scheduling/currency-symbol-positions/
 
 ## الخطوة 1: تحميل ملف المشروع
 
- ابدأ بتحميل ملف المشروع باستخدام ملف`Project`منشئ الطبقة.
+ ابدأ بتحميل ملف المشروع باستخدام ملف`Project` منشئ الطبقة.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

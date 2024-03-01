@@ -21,7 +21,7 @@ Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes req
 
 ### 2. Conocimientos básicos del lenguaje de programación C#
 
-Familiarícese con los conceptos básicos del lenguaje de programación C#, ya que este tutorial implicará escribir código C# para manipular formatos de fecha utilizando Aspose.Tasks para .NET.
+Familiarícese con los conceptos básicos del lenguaje de programación C#, ya que este tutorial implicará escribir código C# para manipular formatos de fecha usando Aspose.Tasks para .NET.
 
 ## Importar espacios de nombres
 

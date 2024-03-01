@@ -65,4 +65,4 @@ A: Aspose.Tasks ondersteunt verschillende versies van MS Project-bestanden, waar
 ### Vraag: Hoe kan ik tijdelijke licenties krijgen voor mijn projecten?
  A: Tijdelijke licenties kunnen worden verkregen via[hier](https://purchase.aspose.com/temporary-license/) voor kortdurend gebruik.
 ### Vraag: Waar kan ik hulp of ondersteuning zoeken met betrekking tot Aspose.Tasks?
- A: U kunt het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15) om hulp te zoeken bij de gemeenschap of het Aspose-ondersteuningsteam.
+ A: U kunt het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15)om hulp te zoeken bij de gemeenschap of het Aspose-ondersteuningsteam.

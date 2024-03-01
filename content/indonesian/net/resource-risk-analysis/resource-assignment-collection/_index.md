@@ -11,7 +11,7 @@ url: /id/net/resource-risk-analysis/resource-assignment-collection/
 Selamat datang di tutorial komprehensif tentang mengelola penetapan sumber daya di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Dalam tutorial ini, kami akan mempelajari prosesnya langkah demi langkah, memastikan Anda memiliki pemahaman yang kuat tentang cara memanipulasi penetapan sumber daya secara efisien. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memandu Anda melalui semua yang perlu Anda ketahui.
 ## Prasyarat
 Sebelum kita mendalami kodenya, pastikan Anda telah menyiapkan yang berikut:
-1. Aspose.Tasks for .NET Installed: Pastikan Anda telah menginstal Aspose.Tasks for .NET di lingkungan pengembangan Anda. Jika tidak, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Installed: Pastikan Anda telah menginstal Aspose.Tasks for .NET di lingkungan pengembangan Anda. Jika tidak, Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
 2. Pengetahuan Dasar C#: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang bahasa pemrograman C#.
 3. File Proyek Microsoft: Siapkan file Microsoft Project untuk tujuan pengujian. Jika Anda tidak memilikinya, Anda dapat membuat file sampel.
 

@@ -25,7 +25,7 @@ Familiarisez-vous avec les bases du langage de programmation C#, notamment les v
 
 ### 3. Installation d'Aspose.Tasks pour .NET
 
-Téléchargez et installez la bibliothèque Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/tasks/net/).
+ Téléchargez et installez la bibliothèque Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/tasks/net/).
 
 ### 4. Familiarité avec les concepts de gestion de projet
 
@@ -97,7 +97,7 @@ A2 : Absolument ! Aspose.Tasks for .NET vous permet non seulement de lire mais �
 
 ### Q3 : Aspose.Tasks pour .NET prend-il en charge les formats de fichiers de projet courants ?
 
-A3 : Oui, Aspose.Tasks pour .NET prend en charge un large éventail de formats de fichiers de projet, notamment MPP, XML et XLSX.
+A3 : Oui, Aspose.Tasks pour .NET prend en charge un large éventail de formats de fichiers de projet, notamment MPP, XML et XLSX, entre autres.
 
 ### Q4 : Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour .NET ?
 

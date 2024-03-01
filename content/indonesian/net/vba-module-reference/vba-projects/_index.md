@@ -69,13 +69,13 @@ Dengan mengikuti langkah-langkah ini, Anda dapat bekerja dengan Proyek VBA di As
 ## Kesimpulan
 Menguasai Proyek VBA di Aspose.Tasks membuka dimensi baru dalam manajemen proyek dalam kerangka .NET. Manfaatkan kekuatan Aspose.Tasks untuk menyederhanakan proses Anda dan meningkatkan produktivitas.
 ## FAQ
-### T: Dapatkah saya menggunakan Aspose.Tasks dengan proyek .NET apa pun?
+### T: Bisakah saya menggunakan Aspose.Tasks dengan proyek .NET apa pun?
 J: Ya, Aspose.Tasks terintegrasi secara mulus dengan proyek .NET apa pun, memberikan kemampuan manajemen proyek yang ditingkatkan.
 ### T: Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Tasks?
  J: Kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi komunitas.
 ### T: Apakah tersedia uji coba gratis?
  A: Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks?
-A: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat membeli Aspose.Tasks?
  A: Beli Aspose.Tugas[Di Sini](https://purchase.aspose.com/buy).

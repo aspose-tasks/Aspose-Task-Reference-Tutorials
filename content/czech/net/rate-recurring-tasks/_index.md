@@ -19,7 +19,7 @@ Snažíte se zvládnout složitosti řízení sazeb MS Project a opakujících s
  v[Master MS Project Sazby s Aspose.Tasks](./rate-collection/), ponoříme se do složitosti správy sazeb v souborech MS Project. Tento výukový program je vaším výchozím zdrojem pro pochopení nuancí shromažďování sazeb, nabízí praktické poznatky a umožňuje vám vylepšit možnosti správy zdrojů vašeho projektu.
 
 ## Bez námahy opakující se intervaly MS Project v Aspose.Tasks
- Objevte umění zvládat opakující se intervaly bez námahy[Bez námahy opakující se intervaly MS Project v Aspose.Tasks](./recurring-intervals/), Tento tutoriál vás provede procesem pomocí Aspose.Tasks pro .NET a zajistí, že budete bezproblémově zvládat opakující se úkoly v rámci vašeho MS Project.
+ Objevte umění zvládat opakující se intervaly bez námahy[Bez námahy opakující se intervaly MS Project v Aspose.Tasks](./recurring-intervals/). Tento tutoriál vás provede procesem pomocí Aspose.Tasks pro .NET a zajistí, že budete bezproblémově zvládat opakující se úkoly v rámci vašeho MS Project.
 
 ## Extrahování informací o opakované úloze v Aspose.Tasks
  Naučte se, jak extrahovat informace o opakujících se úkolech ze souborů MS Project[Extrahování informací o opakované úloze v Aspose.Tasks](./recurring-task-information/)Tento výukový program nabízí snadnou integraci pro vývojáře .NET a umožňuje vám efektivně pracovat s opakujícími se úkoly ve vašich projektech.
@@ -31,13 +31,13 @@ Snažíte se zvládnout složitosti řízení sazeb MS Project a opakujících s
  Dejte sbohem ručnímu odstraňování úloh![Odebrání úloh MS Project pomocí Aspose.Tasks](./removing-tasks/) vás provede procesem programového odstraňování úkolů pomocí Aspose.Tasks for .NET. Podrobný průvodce obsahuje příklady kódu pro bezproblémové používání.
 
 ## Master MS Project Reporting s Aspose.Tasks
- Odemkněte plný potenciál MS Project reportingu[Master MS Project Reporting s Aspose.Tasks](./report-types/), Tento výukový program zkoumá, jak pracovat se soubory MS Project pomocí Aspose.Tasks pro .NET, což vám umožní snadno generovat různé typy sestav.
+ Odemkněte plný potenciál MS Project reportingu[Master MS Project Reporting s Aspose.Tasks](./report-types/). Tento výukový program zkoumá, jak pracovat se soubory MS Project pomocí Aspose.Tasks pro .NET, což vám umožní snadno generovat různé typy sestav.
 
 ## Ukládání souborů MS Project v různých formátech v Aspose.Tasks
 Efektivní správa projektů zahrnuje různé formáty souborů.[Ukládání souborů MS Project v různých formátech v Aspose.Tasks](./save-file-formats/) vás provede kroky ukládání souborů MS Project v různých formátech pomocí Aspose.Tasks pro .NET.
 
 ## Manipulace s rozdělenými díly MS Project v Aspose.Tasks
- Navigace rozdělených částí v MS Project se stává hračkou[Manipulace s rozdělenými díly MS Project v Aspose.Tasks](./split-parts/), Vylepšete svůj pracovní postup projektového řízení efektivním zpracováním rozdělených částí pomocí Aspose.Tasks for .NET.
+ Navigace rozdělených částí v MS Project se stává hračkou[Manipulace s rozdělenými díly MS Project v Aspose.Tasks](./split-parts/). Vylepšete svůj pracovní postup projektového řízení efektivním zpracováním rozdělených částí pomocí Aspose.Tasks for .NET.
 
 ## Sbírejte MS Project Split Parts v Aspose.Tasks
  Náš tutoriál na[Sbírejte MS Project Split Parts v Aspose.Tasks](./split-part-collection/) je komplexní průvodce, který vás provede procesem krok za krokem. Naučte se shromažďovat rozdělené části v MS Project, což vám umožní optimalizovat pracovní postup řízení projektů.

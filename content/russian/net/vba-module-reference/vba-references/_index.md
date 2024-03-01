@@ -72,9 +72,9 @@ foreach (var reference in project.VbaProject.References)
 ### Вопрос: Могу ли я использовать Aspose.Tasks с другими языками программирования?
 О: Aspose.Tasks в основном поддерживает языки .NET, но существуют и другие продукты Aspose, адаптированные для разных платформ и языков.
 ### Вопрос: Как мне получить временную лицензию на Aspose.Tasks?
-О: Вы можете получить временную лицензию.[здесь](https://purchase.aspose.com/temporary-license/).
+ О: Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Доступна ли поддержка сообщества для Aspose.Tasks?
- О: Да, вы можете найти поддержку на сайте.[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ О: Да, вы можете найти поддержку на[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Вопрос: Где я могу найти подробную документацию по Aspose.Tasks?
  О: Документация доступна.[здесь](https://reference.aspose.com/tasks/net/).
 ### Вопрос: Могу ли я приобрести Aspose.Tasks?

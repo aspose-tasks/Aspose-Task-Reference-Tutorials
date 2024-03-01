@@ -51,11 +51,11 @@ Lås upp färdigheterna för att hantera uppgiftens baslinjer utan ansträngning
 
  Släpp lös kraften i Aspose.Tasks för .NET för att effektivt hantera projektuppgiftslänkar. Följ vår steg-för-steg-guide för att förbättra din projektledningsupplevelse med[Handledning för Task Link Collection](./task-link-collection/).
 
-## Konfigurera aktivitetens startdatumtyper i Aspose.Tasks
+## Konfigurera aktivitetsstartdatumtyper i Aspose.Tasks
 
- Konfigurera enkelt startdatum för uppgifter med Aspose.Tasks för .NET. Optimera projektledning med lätthet genom att utforska[Handledning för uppgiftsstartdatumtyper](./task-start-date-types/), Ladda ner din kostnadsfria testversion nu!
+ Konfigurera enkelt startdatum för uppgifter med Aspose.Tasks för .NET. Optimera projektledning med lätthet genom att utforska[Handledning för uppgiftsstartdatumtyper](./task-start-date-types/). Ladda ner din kostnadsfria testversion nu!
 
-## Konfigurera Task Usage Views i Aspose.Tasks
+## Konfigurera uppgiftsanvändningsvyer i Aspose.Tasks
 
  Hantera och visualisera projektdata effektivt med Aspose.Tasks för .NET. Dyk in i fälten för uppgiftsanvändning för förbättrade projektinsikter med[Handledning för uppgiftsanvändning](./task-usage-views/).
 
@@ -85,9 +85,9 @@ Utforska uppgiftens baslinjer utan ansträngning med Aspose.Tasks för .NET. Eff
 Utforska effektiv uppgiftsinsamlingshantering i Aspose.Tasks för .NET. Från skapande till redigering, behärska projektledning med lätthet.
 ### [Hantera uppgiftslänkar i Aspose.Tasks](./task-link-collection/)
 Utforska kraften i Aspose.Tasks för .NET för att effektivt hantera projektuppgiftslänkar. Följ vår steg-för-steg-guide för att förbättra din projektledningsupplevelse.
-### [Konfigurera aktivitetens startdatumtyper i Aspose.Tasks](./task-start-date-types/)
+### [Konfigurera aktivitetsstartdatumtyper i Aspose.Tasks](./task-start-date-types/)
 Utforska Aspose.Tasks för .NET för att enkelt konfigurera uppgifternas startdatum. Optimera projektledning med lätthet. Ladda ner din kostnadsfria testversion nu!
-### [Konfigurera Task Usage Views i Aspose.Tasks](./task-usage-views/)
+### [Konfigurera uppgiftsanvändningsvyer i Aspose.Tasks](./task-usage-views/)
 Utforska Aspose.Tasks för .NET för att enkelt hantera och visualisera projektdata. Dyk in i Task Usage View Fields för förbättrade projektinsikter.
 ### [Samling av fält för uppgiftsanvändning i Aspose.Tasks](./task-usage-view-fields/)
 Utforska Aspose.Tasks för .NET och lär dig hur du konfigurerar uppgiftsanvändningsvyer. Anpassa tidsskalainställningar och förbättra dina projektledningsbilder.

@@ -41,7 +41,7 @@ using Aspose.Tasks.Saving;
 var connectionString = "Data Source=" + DataDir + "\\PPMDBSQLite.db";
 ```
 
-在此步驟中，我們定義連接字串以連接到 Primavera 資料庫。確保您更換`DataDir`與資料庫檔案所在的目錄。
+在此步驟中，我們定義連接字串以連接到 Primavera 資料庫。確保更換`DataDir`與資料庫檔案所在的目錄。
 
 ## 第 2 步：建立資料庫設置
 

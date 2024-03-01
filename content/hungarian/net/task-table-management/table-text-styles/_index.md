@@ -1,6 +1,6 @@
 ---
 title: Táblázat szövegstílusainak testreszabása az Aspose.Tasks programban
-linktitle: Állítsa be a táblázat szövegstílusait az Aspose.Tasks alkalmazásban
+linktitle: Táblázat szövegstílusainak konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Javítsa a projektek megjelenítését az Aspose.Tasks for .NET segítségével. Ismerje meg lépésről lépésre a táblázat szövegstílusainak konfigurálását. Növelje a hatékonyságot és a prezentációt.
 type: docs
@@ -11,7 +11,7 @@ url: /hu/net/task-table-management/table-text-styles/
 A projektmenedzsment világában a feladatok hatékony megjelenítése kulcsfontosságú a sikerhez. Az Aspose.Tasks for .NET hatékony megoldást kínál a táblázat szövegstílusainak testreszabására, lehetővé téve a szöveges elemek megjelenésének testreszabását a projektben. Ebben a részletes útmutatóban végigvezetjük a táblázat szövegstílusainak konfigurálásán az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik az alábbiakkal:
--  Aspose.Tasks for .NET: Győződjön meg arról, hogy az Aspose.Tasks for .NET legújabb verziója telepítve van. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Győződjön meg arról, hogy az Aspose.Tasks for .NET legújabb verziója telepítve van. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
 - Dokumentumkönyvtár: Állítson be egy könyvtárat a dokumentumok számára. Cserélje ki a „Saját dokumentumkönyvtárat” a kódban a tényleges elérési úttal.
 -  Érvényes Aspose licenc: ehhez a példához érvényes Aspose licenc szükséges. Teljes licencet vásárolhat[itt](https://purchase.aspose.com/buy) vagy szerezzen 30 napos ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ## Névterek importálása
@@ -61,11 +61,11 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## Következtetés
-A táblázat szövegstílusainak testreszabása az Aspose.Tasks for .NET-ben rugalmas és hatékony módot biztosít a projekt vizuális megjelenítésének javítására. Néhány egyszerű lépéssel személyre szabottabb és hatásosabb projektmenedzsment élményt hozhat létre.
+táblázat szövegstílusainak testreszabása az Aspose.Tasks for .NET-ben rugalmas és hatékony módot biztosít a projekt vizuális megjelenítésének javítására. Néhány egyszerű lépéssel személyre szabottabb és hatásosabb projektmenedzsment élményt hozhat létre.
 ## Gyakran Ismételt Kérdések
 ### Használhatom az Aspose.Tasks-t .NET-hez licenc nélkül?
  Nem, ehhez a funkcióhoz érvényes Aspose-licenc szükséges. Engedélyt szerezhet[itt](https://purchase.aspose.com/buy) vagy szerezzen 30 napos ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).

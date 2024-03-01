@@ -34,11 +34,11 @@ url: /zh/net/view-wbs-code-configuration/
 
 ## Aspose.Tasks 中 WBS 代码掩码的集合
 
-使用 Aspose.Tasks for .NET 将您的项目管理提升到新的水平。这[WBS 代码掩码集合](./wbs-code-mask-collection/)本教程提供了如何轻松创建、管理和传输 WBS 代码掩码的见解。提高您的项目管理技能并调整 WBS 代码掩码以满足您项目不断变化的需求。
+使用 Aspose.Tasks for .NET 将您的项目管理提升到新的水平。这[WBS 代码掩码集合](./wbs-code-mask-collection/)教程提供了如何轻松创建、管理和传输 WBS 代码掩码的见解。提高您的项目管理技能并调整 WBS 代码掩码以满足您项目不断变化的需求。
 
 ## 在 Aspose.Tasks 中定义 WBS 序列
 
-通过 Aspose.Tasks for .NET 无缝地增强您的项目管理能力[定义 wbs 序列](./wbs-sequences/),本教程将指导您完成整个过程，轻松提高效率。掌握使用定义的 WBS 序列组织和构建项目的艺术，确保流畅、精简的项目管理体验。
+通过 Aspose.Tasks for .NET 无缝地增强您的项目管理能力[定义 WBS 序列](./wbs-sequences/)。本教程将指导您完成整个过程，轻松提高效率。掌握使用定义的 WBS 序列组织和构建项目的艺术，确保流畅、精简的项目管理体验。
 
 总之，这些教程可作为您掌握 .NET 视图和 WBS 代码的 Aspose.Tasks 的首选资源。立即下载并释放轻松定制、简化和增强项目管理体验的潜力。迎接高效项目可视化和管理的新时代！
 ## Aspose.Tasks 视图和 WBS 代码配置教程

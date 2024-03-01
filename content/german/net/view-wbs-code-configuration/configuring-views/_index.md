@@ -1,6 +1,6 @@
 ---
 title: Beherrschen Sie Microsoft Project-Ansichten mit Aspose.Tasks
-linktitle: Konfigurieren Sie Ansichten in Aspose.Tasks
+linktitle: Konfigurieren von Ansichten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Beherrschen Sie Microsoft Project-Ansichten mit Aspose.Tasks für .NET. Passen Sie Ihr Projektmanagement-Erlebnis mühelos an und optimieren Sie es.
 type: docs
@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Markieren Sie den Filter für eine einzelne Ans
 ## Schritt 4: Ansichtseinstellungen anpassen
 ```csharp
 // Passen Sie einige Ansichtseinstellungen an
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Legen Sie die Anzahl der ersten Spalten fest, die auf allen Seiten gedruckt werden sollen
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Legen Sie die Anzahl der ersten Spalten fest, die auf allen Seiten gedruckt werden sollen
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Druckt eine angegebene Anzahl erster Spalten auf allen Seiten
 ```
 ## Schritt 5: Ansicht zum Projekt hinzufügen
 ```csharp
-//Fügen Sie die Ansicht zu unserem Projekt hinzu
+// Fügen Sie die Ansicht zu unserem Projekt hinzu
 project.Views.Add(view);
 ```
 ## Schritt 6: Speichern Sie das Projekt mit der neuen Ansicht
@@ -75,6 +75,6 @@ Aspose.Tasks wurde in erster Linie für Microsoft Project entwickelt und gewähr
 ### Wie erhalte ich Unterstützung für Aspose.Tasks für .NET?
  Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Community-Unterstützung oder erwägen Sie den Kauf von Support-Plänen.
 ### Kann ich das Erscheinungsbild von Ansichten weiter anpassen?
- Schauen Sie sich auf jeden Fall die Aspose.Tasks-Dokumentation an[Hier](https://reference.aspose.com/tasks/net/)für erweiterte Anpassungsoptionen.
+ Schauen Sie sich auf jeden Fall die Aspose.Tasks-Dokumentation an[Hier](https://reference.aspose.com/tasks/net/) für erweiterte Anpassungsoptionen.
 ### Wo kann ich Aspose.Tasks für .NET kaufen?
  Sie können die Bibliothek kaufen[Hier](https://purchase.aspose.com/buy) für ein nahtloses Projektmanagement-Erlebnis.

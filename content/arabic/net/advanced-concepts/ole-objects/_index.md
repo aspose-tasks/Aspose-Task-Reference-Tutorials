@@ -15,7 +15,7 @@ url: /ar/net/advanced-concepts/ole-objects/
 
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. التثبيت: تأكد من تثبيت Aspose.Tasks for .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
+1.  التثبيت: تأكد من تثبيت Aspose.Tasks for .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
 
 2. المعرفة الأساسية: تعرف على لغة البرمجة C# ومفاهيم إطار عمل .NET.
 

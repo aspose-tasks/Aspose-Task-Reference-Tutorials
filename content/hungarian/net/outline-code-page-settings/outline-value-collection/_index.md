@@ -1,5 +1,5 @@
 ---
-title: Kezelje az MS Project Outline értékeket az Aspose.Tasks segítségével
+title: Az MS Project Outline értékek kezelése az Aspose.Tasks segítségével
 linktitle: Vázlati értékek gyűjteménye az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a vázlatértékeket a Microsoft Project fájlokban az Aspose.Tasks for .NET segítségével. Lépésről lépésre bemutató oktatóprogram kódpéldákkal.
@@ -8,7 +8,7 @@ weight: 17
 url: /hu/net/outline-code-page-settings/outline-value-collection/
 ---
 ## Bevezetés
-Az Aspose.Tasks for .NET szolgáltatások átfogó készletét kínálja a Microsoft Project fájlokkal való interakcióhoz. Az egyik ilyen funkció a vázlatértékek kezelésének képessége egy projekten belül. Ebben az oktatóanyagban megvizsgáljuk, hogyan gyűjthet össze és kezelhet körvonalértékeket az Aspose.Tasks for .NET segítségével.
+Az Aspose.Tasks for .NET szolgáltatások átfogó készletét kínálja a Microsoft Project fájlokkal való interakcióhoz. Az egyik ilyen funkció a vázlatértékek kezelésének képessége a projekten belül. Ebben az oktatóanyagban megvizsgáljuk, hogyan gyűjthetünk össze és kezelhetünk vázlatértékeket az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 1.  Aspose.Tasks for .NET: A könyvtár letölthető innen[itt](https://releases.aspose.com/tasks/net/).
@@ -62,7 +62,7 @@ Frissítse a körvonalkód értékét:
 codeDefinition.Values[0].Value = "654321";
 ```
 ## 5. lépés: Ismételje meg a vázlatos értékeket
-Ismételje meg a vázlatos értékeket, és nyomtassa ki a részleteket:
+Ismételje meg a vázlatértékeket, és nyomtassa ki a részleteket:
 ```csharp
 foreach (var definitionValue in codeDefinition.Values)
 {
@@ -96,7 +96,7 @@ foreach (var outlineValue in outlineValues)
 }
 ```
 ## Következtetés
-Ebben az oktatóanyagban megtanultuk, hogyan dolgozhatunk a Microsoft Project fájlokban található vázlatértékekkel az Aspose.Tasks for .NET használatával. A megadott lépések követésével hatékonyan kezelheti a vázlatértékeket projektjein belül, ami nagyobb irányítást és rugalmasságot tesz lehetővé.
+Ebben az oktatóanyagban megtanultuk, hogyan dolgozhatunk a Microsoft Project fájlokban található vázlatértékekkel az Aspose.Tasks for .NET segítségével. A megadott lépések követésével hatékonyan kezelheti a vázlatértékeket a projekteken belül, ami nagyobb irányítást és rugalmasságot tesz lehetővé.
 ## GYIK
 ### K: Manipulálhatok több vázlatkódot egyszerre?
 V: Igen, az Aspose.Tasks segítségével több vázlatkódot is meghatározhat és kezelhet egy projekten belül.

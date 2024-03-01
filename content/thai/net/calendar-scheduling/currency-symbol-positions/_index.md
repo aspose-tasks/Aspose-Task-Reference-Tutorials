@@ -27,7 +27,7 @@ url: /th/net/calendar-scheduling/currency-symbol-positions/
 
 ในการเริ่มต้น คุณจะต้องนำเข้าเนมสเปซที่จำเป็นลงในโปรเจ็กต์ .NET ของคุณ 
 
- รวม`Aspose.Tasks` เนมสเปซในโครงการของคุณเพื่อเข้าถึงคลาสและวิธีการที่มีให้โดยไลบรารี Aspose.Tasks
+ รวม`Aspose.Tasks`เนมสเปซในโครงการของคุณเพื่อเข้าถึงคลาสและวิธีการที่มีให้โดยไลบรารี Aspose.Tasks
 
 ```csharp
 
@@ -37,7 +37,7 @@ url: /th/net/calendar-scheduling/currency-symbol-positions/
 
 ## ขั้นตอนที่ 1: โหลดไฟล์โครงการ
 
- เริ่มต้นด้วยการโหลดไฟล์โครงการโดยใช้นามสกุล`Project`ตัวสร้างคลาส
+ เริ่มต้นด้วยการโหลดไฟล์โครงการโดยใช้นามสกุล`Project` ตัวสร้างคลาส
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

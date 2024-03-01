@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks で MS Project Primavera データベースを構成する
-linktitle: Aspose.Tasks で Primavera データベース設定を構成する
+linktitle: Aspose.Tasks での Primavera データベース設定の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET で MS Project Primavera データベース設定を簡単に構成する方法を学びます。プロジェクト管理タスクを合理化します。
 type: docs
@@ -53,7 +53,7 @@ var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```csharp
 var project = new Project(settings);
 ```
-この行は新しいものを作成します`Project`を渡してオブジェクトをオブジェクトにします`settings`先ほど作成したオブジェクト。 Primavera データベースへの接続を確立し、指定された UID を持つプロジェクトを読み取ります (`4502`、
+この行は新しいものを作成します`Project`を渡してオブジェクトをオブジェクトにします`settings`先ほど作成したオブジェクト。 Primavera データベースへの接続を確立し、指定された UID を持つプロジェクトを読み取ります (`4502`）。
 ## ステップ 4: プロジェクト UID を表示する
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);

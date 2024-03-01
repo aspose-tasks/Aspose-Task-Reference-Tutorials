@@ -75,8 +75,8 @@ C: Aspose.Tasks öncelikle Microsoft Project dosyalarına odaklanır; ancak proj
 ### S: Görünüm sütunu özelleştirmesiyle ilgili sorunları nasıl giderebilirim?
  C: Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Karşılaştığınız zorluklarla ilgili topluluk desteği ve yardımı için.
 ### S: Aspose.Tasks'ı satın almadan önce deneme sürümü mevcut mu?
-C: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+ C: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ###  Soru: Bunun önemi nedir?`MyTextStyleCallback` class in the tutorial?
- C:`MyTextStyleCallback` Bu ders, belirli görünümlerde gelişmiş görsel temsil için metin stillerinin nasıl özelleştirileceğini gösterir.
+ C:`MyTextStyleCallback` sınıf, belirli görünümlerde gelişmiş görsel temsil için metin stillerinin nasıl özelleştirileceğini gösterir.
 ### S: Aspose.Tasks için ek kaynakları ve belgeleri nerede bulabilirim?
  C: Bkz.[Aspose.Tasks belgeleri](https://reference.aspose.com/tasks/net/) Ayrıntılı rehberlik ve kaynaklar için.

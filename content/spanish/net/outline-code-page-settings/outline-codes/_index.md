@@ -31,7 +31,7 @@ Primero, establezca la ruta al directorio que contiene su archivo de MS Project.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- reemplazar`"Your Document Directory"` con la ruta real a su archivo de proyecto.
+ Reemplazar`"Your Document Directory"` con la ruta real a su archivo de proyecto.
 ## Paso 2: cargue el archivo del proyecto
  Crear una instancia nueva`Project` objeto cargando el archivo de MS Project.
 ```csharp

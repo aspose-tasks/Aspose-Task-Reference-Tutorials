@@ -11,7 +11,7 @@ url: /vi/net/outline-code-page-settings/page-legend/
 Trong lĩnh vực phát triển .NET, việc quản lý các tác vụ một cách hiệu quả là rất quan trọng, đặc biệt là khi xử lý việc quản lý dự án. Aspose.Tasks for .NET nổi lên như một công cụ mạnh mẽ, cung cấp rất nhiều chức năng để hợp lý hóa các quy trình quản lý tác vụ. Một tính năng như vậy là khả năng định cấu hình chú giải trang MS Project, cung cấp cho người dùng những hiểu biết sâu sắc có giá trị về cách trình bày dữ liệu dự án.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào định cấu hình chú giải trang MS Project bằng Aspose.Tasks cho .NET, hãy đảm bảo đáp ứng các điều kiện tiên quyết sau:
-1.  Cài đặt: Đã cài đặt Aspose.Tasks cho .NET trong môi trường phát triển của bạn. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
+1. Cài đặt: Đã cài đặt Aspose.Tasks cho .NET trong môi trường phát triển của bạn. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
 2. Kiến thức cơ bản về .NET: Làm quen với những kiến thức cơ bản về phát triển .NET, bao gồm thiết lập dự án và làm việc với không gian tên.
 3. Môi trường phát triển: Sử dụng môi trường phát triển tích hợp (IDE) như Visual Studio để có trải nghiệm mã hóa liền mạch.
 4. Tệp dự án: Chuẩn bị sẵn tệp Microsoft Project (MPP) để thử nghiệm.
@@ -82,6 +82,6 @@ Trả lời: Có, Aspose.Tasks cho .NET tương thích với nhiều khung .NET 
 ### Câu hỏi: Có bất kỳ hạn chế nào khi sử dụng giấy phép tạm thời cho Aspose.Tasks cho .NET không?
 Trả lời: Giấy phép tạm thời cung cấp quyền truy cập đầy đủ vào Aspose.Tasks cho các chức năng .NET nhưng bị giới hạn về thời gian. Chúng phù hợp cho các dự án ngắn hạn hoặc mục đích đánh giá.
 ### Câu hỏi: Tôi có thể tùy chỉnh thêm chú giải trang ngoài ví dụ được cung cấp không?
-Trả lời: Hoàn toàn có thể, Aspose.Tasks dành cho .NET cung cấp các tùy chọn tùy chỉnh mở rộng, cho phép bạn điều chỉnh chú thích trang theo yêu cầu dự án cụ thể của mình.
+Trả lời: Hoàn toàn có thể, Aspose.Tasks dành cho .NET cung cấp các tùy chọn tùy chỉnh mở rộng, cho phép bạn điều chỉnh chú giải trang theo yêu cầu dự án cụ thể của mình.
 ### Câu hỏi: Tôi có thể tìm diễn đàn cộng đồng hoặc hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
  Đáp: Bạn có thể tìm kiếm sự hỗ trợ và tương tác với cộng đồng tại[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15), nơi bạn có thể tìm thấy câu trả lời cho các truy vấn và tương tác với các nhà phát triển đồng nghiệp.

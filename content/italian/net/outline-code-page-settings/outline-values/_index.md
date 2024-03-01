@@ -2,13 +2,13 @@
 title: Padroneggiare i valori di struttura del progetto MS con Aspose.Tasks
 linktitle: Gestione dei valori di struttura in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
-description: Scopri come gestire i valori di struttura di MS Project in modo efficiente utilizzando Aspose.Tasks per .NET. Personalizza facilmente i contorni del progetto.
+description: Scopri come gestire i valori della struttura di MS Project in modo efficiente utilizzando Aspose.Tasks per .NET. Personalizza facilmente i contorni del progetto.
 type: docs
 weight: 16
 url: /it/net/outline-code-page-settings/outline-values/
 ---
 ## introduzione
-In questo tutorial esploreremo come gestire i valori di struttura di Microsoft Project utilizzando la libreria Aspose.Tasks per .NET. Con Aspose.Tasks, puoi facilmente manipolare i codici di struttura, creare nuovi valori di struttura e personalizzare i contorni del progetto in base alle tue esigenze.
+In questo tutorial esploreremo come gestire i valori della struttura di Microsoft Project utilizzando la libreria Aspose.Tasks per .NET. Con Aspose.Tasks, puoi facilmente manipolare i codici di struttura, creare nuovi valori di struttura e personalizzare i contorni del progetto in base alle tue esigenze.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere quanto segue:
 1.  Installazione di Aspose.Tasks per .NET: scaricare e installare la libreria Aspose.Tasks per .NET da[Qui](https://releases.aspose.com/tasks/net/).
@@ -64,15 +64,15 @@ outline2.Values.Add(value2);
 In questo passaggio creiamo due oggetti OutlineValue e ne impostiamo le proprietà quali valore, ID valore, tipo, descrizione e stato di compressione.
 
 ## Conclusione
-La gestione dei valori di struttura di MS Project utilizzando Aspose.Tasks per .NET è semplice con le funzionalità fornite. Seguendo i passaggi descritti in questo tutorial, puoi manipolare in modo efficiente i codici e i valori del contorno per personalizzare i contorni del progetto in base alle tue esigenze.
+La gestione dei valori di struttura di MS Project utilizzando Aspose.Tasks per .NET è semplice con le funzionalità fornite. Seguendo i passaggi descritti in questo tutorial, puoi manipolare in modo efficiente codici e valori di struttura per personalizzare le strutture del progetto in base alle tue esigenze.
 ## Domande frequenti
 ### D: Posso utilizzare Aspose.Tasks con altri framework .NET?
 R: Sì, Aspose.Tasks è compatibile con vari framework .NET, garantendo flessibilità nel tuo ambiente di sviluppo.
 ### D: È disponibile una versione di prova per Aspose.Tasks?
  R: Sì, puoi accedere a una versione di prova gratuita di Aspose.Tasks da[Qui](https://releases.aspose.com/).
 ### D: Come posso ottenere supporto per Aspose.Tasks?
- R: Per supporto e assistenza, è possibile visitare il forum Aspose.Tasks.[Qui](https://forum.aspose.com/c/tasks/15).
+ R: Per supporto e assistenza, è possibile visitare il forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
 ### D: Posso acquistare una licenza temporanea per Aspose.Tasks?
- R: Sì, puoi acquistare una licenza temporanea per Aspose.Tasks da[Qui](https://purchase.aspose.com/temporary-license/).
+R: Sì, puoi acquistare una licenza temporanea per Aspose.Tasks da[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso trovare la documentazione dettagliata per Aspose.Tasks?
  R: Puoi fare riferimento alla documentazione completa disponibile[Qui](https://reference.aspose.com/tasks/net/).

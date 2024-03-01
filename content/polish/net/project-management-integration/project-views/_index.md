@@ -12,7 +12,7 @@ Microsoft Project to potężne narzędzie do zarządzania projektami, umożliwia
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz skonfigurowane następujące wymagania wstępne:
 ### 1. Zainstaluj Aspose.Tasks dla .NET
- Możesz pobrać i zainstalować Aspose.Tasks dla .NET z[strona internetowa](https://releases.aspose.com/tasks/net/), Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby skonfigurować bibliotekę w środowisku programistycznym.
+ Możesz pobrać i zainstalować Aspose.Tasks dla .NET z[strona internetowa](https://releases.aspose.com/tasks/net/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby skonfigurować bibliotekę w środowisku programistycznym.
 ### 2. Podstawowa znajomość C# i .NET Framework
 Zapoznaj się z językiem programowania C# i platformą .NET Framework, ponieważ w tym samouczku założono podstawowe zrozumienie tych pojęć.
 ### 3. Plik projektu Microsoft

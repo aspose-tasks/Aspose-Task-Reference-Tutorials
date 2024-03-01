@@ -19,7 +19,7 @@ Voordat u met Aspose.Tasks voor .NET kunt gaan werken, moet u het in uw ontwikke
 ### 2. Bekendheid met de programmeertaal C#
 Omdat Aspose.Tasks voor .NET een .NET-bibliotheek is, moet u een basiskennis hebben van de syntaxis en concepten van de programmeertaal C#.
 ### 3. Microsoft Project-bestand
-Zorg ervoor dat u een Microsoft Project-bestand (`Project2.mpp`) beschikbaar in uw aangewezen documentmap (`DataDir`, Dit bestand zal dienen als doel voor het instellen van de paginamarges.
+Zorg ervoor dat u een Microsoft Project-bestand (`Project2.mpp`) beschikbaar in uw aangewezen documentmap (`DataDir`). Dit bestand zal dienen als doel voor het instellen van de paginamarges.
 
 ## Naamruimten importeren
 Om te beginnen met het manipuleren van Microsoft Project-bestanden met Aspose.Tasks voor .NET, moet u de benodigde naamruimten in uw C#-code importeren. Deze stap zorgt ervoor dat u toegang hebt tot de klassen en methoden die worden aangeboden door de Aspose.Tasks-bibliotheek.
@@ -61,7 +61,7 @@ project.Save(DataDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
 ```
 
 ## Conclusie
-In deze zelfstudie hebben we het proces van het instellen van MS Project-paginamarges onderzocht met behulp van Aspose.Tasks voor .NET. Door de stapsgewijze handleiding te volgen en gebruik te maken van de mogelijkheden van de Aspose.Tasks-bibliotheek, kunt u projectbestanden efficiënt manipuleren om aan uw specifieke vereisten te voldoen. Of u nu de marges aanpast voor een betere documentlay-out of de esthetische presentaties verbetert, Aspose.Tasks stelt u in staat uw doelen met gemak te bereiken.
+In deze zelfstudie hebben we het proces van het instellen van MS Project-paginamarges onderzocht met behulp van Aspose.Tasks voor .NET. Door de stapsgewijze handleiding te volgen en gebruik te maken van de mogelijkheden van de Aspose.Tasks-bibliotheek, kunt u projectbestanden efficiënt manipuleren om aan uw specifieke vereisten te voldoen. Of u nu de marges aanpast voor een betere documentlay-out of de esthetiek van de presentatie verbetert, met Aspose.Tasks kunt u uw doelen met gemak bereiken.
 ## Veelgestelde vragen
 ### Vraag: Is Aspose.Tasks compatibel met alle versies van Microsoft Project-bestanden?
 A: Aspose.Tasks ondersteunt verschillende versies van Microsoft Project-bestanden, waardoor compatibiliteit tussen verschillende omgevingen wordt gegarandeerd.

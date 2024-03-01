@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Ustaw właściwości przypisania...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Ustaw właściwości przypisania 2...
+//Ustaw właściwości przypisania 2...
 ```
 ## 4. Pracuj z danymi okresowymi
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Manipuluj danymi okresowymi
 ```csharp
-//Dodaj nieprawidłowy element danych okresowych, a następnie usuń go
+// Dodaj nieprawidłowy element danych okresowych, a następnie go usuń
 var td4 = new TimephasedData
 {
     // Ustaw nieprawidłowe właściwości danych okresowych...
@@ -120,4 +120,4 @@ Aspose.Tasks obsługuje projekty o różnej wielkości i nie ma ścisłego ogran
 ### Czy mogę wypróbować Aspose.Tasks dla .NET przed zakupem?
  Tak, możesz poznać funkcje Aspose.Tasks dla .NET, uzyskując dostęp do[bezpłatna wersja próbna](https://releases.aspose.com/).
 ### Gdzie mogę kupić licencję na Aspose.Tasks dla .NET?
- Możesz kupić licencję na Aspose.Tasks dla .NET[Tutaj](https://purchase.aspose.com/buy).
+Możesz kupić licencję na Aspose.Tasks dla .NET[Tutaj](https://purchase.aspose.com/buy).

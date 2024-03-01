@@ -12,7 +12,7 @@ En el ámbito de la gestión de proyectos, la coordinación eficaz y la comunica
 ## Requisitos previos
 Antes de embarcarse en el viaje de administrar las credenciales de MS Project Server con Aspose.Tasks para .NET, asegúrese de que se cumplan los siguientes requisitos previos:
 ### 1. Instalación de Aspose.Tasks para .NET
- Para comenzar, descargue e instale Aspose.Tasks para .NET desde el archivo proporcionado[enlace de descarga](https://releases.aspose.com/tasks/net/), Siga las instrucciones de instalación para integrar la biblioteca en su entorno .NET sin problemas.
+ Para comenzar, descargue e instale Aspose.Tasks para .NET desde el archivo proporcionado[enlace de descarga](https://releases.aspose.com/tasks/net/). Siga las instrucciones de instalación para integrar la biblioteca en su entorno .NET sin problemas.
 ### 2. Credenciales de acceso
 Reúna las credenciales necesarias para acceder a MS Project Server. Esto incluye la dirección de dominio de SharePoint, el nombre de usuario y la contraseña asociados con Project Server.
 

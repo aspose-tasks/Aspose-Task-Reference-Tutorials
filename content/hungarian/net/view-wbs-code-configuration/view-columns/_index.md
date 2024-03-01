@@ -75,8 +75,8 @@ V: Az Aspose.Tasks elsősorban a Microsoft Project fájlokra összpontosít; azo
 ### K: Hogyan háríthatom el a nézetoszlop testreszabásával kapcsolatos problémákat?
  V: Látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért és segítségért bármilyen kihívással kapcsolatban.
 ### K: Van-e próbaverzió az Aspose.Tasks megvásárlása előtt?
-V: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+ V: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ###  K: Mi a jelentősége a`MyTextStyleCallback` class in the tutorial?
- V: A`MyTextStyleCallback` Az osztály bemutatja, hogyan lehet testreszabni a szövegstílusokat a jobb vizuális megjelenítés érdekében bizonyos nézetekben.
+ V: A`MyTextStyleCallback` osztály bemutatja, hogyan lehet testreszabni a szövegstílusokat a jobb vizuális megjelenítés érdekében bizonyos nézetekben.
 ### K: Hol találhatok további forrásokat és dokumentációt az Aspose.Tasks-hoz?
  V: Lásd a[Aspose.Tasks dokumentáció](https://reference.aspose.com/tasks/net/) mélyreható útmutatásért és forrásokért.

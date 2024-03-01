@@ -89,4 +89,4 @@ project.Save("OutputFile.xlsx", options);
 
 ### प्रश्न: क्या परीक्षण उद्देश्यों के लिए कोई अस्थायी लाइसेंस विकल्प उपलब्ध हैं?
 
- उत्तर: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[Aspose. कार्य अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).
+ उत्तर: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[Aspose.कार्य अस्थायी लाइसेंस पृष्ठ](https://purchase.aspose.com/temporary-license/).

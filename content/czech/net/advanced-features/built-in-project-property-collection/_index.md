@@ -25,7 +25,7 @@ Seznamte se se základy programovacího jazyka C#, včetně proměnných, datov�
 
 ### 3. Instalace Aspose.Tasks pro .NET
 
-Stáhněte a nainstalujte knihovnu Aspose.Tasks for .NET z[webová stránka](https://releases.aspose.com/tasks/net/).
+ Stáhněte a nainstalujte knihovnu Aspose.Tasks for .NET z[webová stránka](https://releases.aspose.com/tasks/net/).
 
 ### 4. Seznámení s koncepty projektového řízení
 

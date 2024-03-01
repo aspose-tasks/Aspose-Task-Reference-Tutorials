@@ -34,7 +34,7 @@ using Aspose.Tasks.Visualization;
 
 ## 1단계: 프로젝트 로드
 
- 시작하려면 다음을 사용하여 프로젝트 파일을 로드합니다.`Project` 수업:
+ 시작하려면 다음을 사용하여 프로젝트 파일을 로드하십시오.`Project` 수업:
 
 ```csharp
 // 문서 디렉터리의 경로입니다.
@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## 3단계: 맞춤 열 정의
 
- 이제 다음 인스턴스를 생성하여 맞춤 열을 정의하세요.`AssignmentViewColumn`이 클래스에는 할당 데이터를 열 텍스트로 변환하기 위한 열 이름, 너비 및 대리자 함수가 필요합니다.
+ 이제 다음 인스턴스를 생성하여 맞춤 열을 정의하세요.`AssignmentViewColumn`. 이 클래스에는 할당 데이터를 열 텍스트로 변환하기 위한 열 이름, 너비 및 대리자 함수가 필요합니다.
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

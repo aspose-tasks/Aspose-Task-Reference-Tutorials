@@ -12,7 +12,7 @@ Czy chcesz wykorzystać moc masek konturowych Microsoft Project przy użyciu Asp
 ## Warunki wstępne
 Zanim zagłębisz się w ten samouczek, upewnij się, że spełniasz następujące wymagania wstępne:
 ### 1. Instalacja Aspose.Tasks dla .NET
- Upewnij się, że w środowisku programistycznym zainstalowano Aspose.Tasks for .NET. Bibliotekę można pobrać ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/tasks/net/).
+Upewnij się, że w środowisku programistycznym zainstalowano Aspose.Tasks for .NET. Bibliotekę można pobrać ze strony internetowej Aspose[Tutaj](https://releases.aspose.com/tasks/net/).
 ### 2. Podstawowa znajomość C# i .NET Framework
 Zapoznaj się z językiem programowania C# i platformą .NET Framework, ponieważ w tym samouczku zostaną wykorzystane oba.
 ### 3. Plik projektu Microsoft
@@ -108,4 +108,4 @@ Odp.: Absolutnie! Można dostosować maski konturu, dostosowując ich długość
 ### P4: Czy Aspose.Tasks dla .NET zapewnia dokumentację i wsparcie?
 Odp.: Tak, Aspose.Tasks dla .NET oferuje obszerną dokumentację i dedykowane wsparcie za pośrednictwem swojej strony internetowej i[fora](https://forum.aspose.com/c/tasks/15).
 ### P5: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla .NET?
- Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla .NET z ich[strona internetowa](https://releases.aspose.com/tasks/net/), aby zapoznać się z jego cechami i funkcjonalnościami przed dokonaniem zakupu.
+ Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla .NET z ich[strona internetowa](https://releases.aspose.com/tasks/net/). aby zapoznać się z jego cechami i funkcjonalnościami przed dokonaniem zakupu.

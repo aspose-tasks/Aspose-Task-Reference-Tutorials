@@ -2,7 +2,7 @@
 title: Настройка уровней шкалы времени диаграммы Ганта в Aspose.Tasks
 linktitle: Настройка уровней шкалы времени в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Изучите Aspose.Tasks для .NET, чтобы настроить уровни временной шкалы в представлении диаграммы Ганта для точной визуализации временной шкалы проекта. #Aspose.Tasks #MSProject
+description: Изучите Aspose.Tasks для .NET, чтобы настроить уровни временной шкалы в представлении диаграммы Ганта для точной визуализации временной шкалы проекта. #Aspose.Tasks #MS Project
 type: docs
 weight: 16
 url: /ru/net/text-view-configuration/timescale-tiers/
@@ -12,7 +12,7 @@ url: /ru/net/text-view-configuration/timescale-tiers/
 ## Предварительные условия
 Прежде чем приступить к изучению руководства, убедитесь, что у вас есть следующее:
 - Базовые знания C# и .NET.
-- Установлена библиотека Aspose.Tasks для .NET. Вы можете скачать его[здесь](https://releases.aspose.com/tasks/net/).
+-  Установлена библиотека Aspose.Tasks для .NET. Вы можете скачать его[здесь](https://releases.aspose.com/tasks/net/).
 - Среда разработки, предназначенная для разработки приложений .NET.
 ## Импортировать пространства имен
 ```csharp

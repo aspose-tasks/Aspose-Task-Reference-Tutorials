@@ -8,9 +8,9 @@ weight: 18
 url: /pl/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ---
 ## Wstęp
-W dynamicznym świecie zarządzania projektami, sprawna obsługa powtarzających się zadań jest kluczowym aspektem. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do konfiguracji rocznych wzorców powtarzania, co pozwala usprawnić planowanie i zarządzanie projektami. W tym przewodniku krok po kroku omówimy, jak skonfigurować roczne wzorce powtarzania za pomocą Aspose.Tasks.
+dynamicznym świecie zarządzania projektami, sprawna obsługa powtarzających się zadań jest kluczowym aspektem. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do konfiguracji rocznych wzorców powtarzania, co pozwala usprawnić planowanie i zarządzanie projektami. W tym przewodniku krok po kroku omówimy, jak skonfigurować roczne wzorce powtarzania za pomocą Aspose.Tasks.
 ## Warunki wstępne
-Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące informacje:
+Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące elementy:
 - Praktyczna znajomość C# i .NET Framework.
 -  Zainstalowana biblioteka Aspose.Tasks. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
 - Zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio.
@@ -57,7 +57,7 @@ Zapisz projekt ze skonfigurowanym wzorcem powtarzania:
 project.Save("Your Document Directory" + "WorkWithYearlyRecurrencePattern_out.mpp", SaveFileFormat.Mpp);
 ```
 ## Wniosek
-W tym samouczku omówiliśmy proces konfigurowania rocznych wzorców powtarzania w Aspose.Tasks dla .NET. Wykonując te proste kroki, możesz zwiększyć możliwości zarządzania projektami i efektywnie obsługiwać powtarzające się zadania.
+tym samouczku omówiliśmy proces konfigurowania rocznych wzorców powtarzania w Aspose.Tasks dla .NET. Wykonując te proste kroki, możesz zwiększyć możliwości zarządzania projektami i efektywnie obsługiwać powtarzające się zadania.
 ## Często zadawane pytania
 ### Czy do działania tego przykładu wymagana jest ważna licencja Aspose?
  Tak, konieczna jest ważna licencja Aspose. Możesz kupić licencję pełną lub uzyskać 30-dniową licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
@@ -66,6 +66,6 @@ W tym samouczku omówiliśmy proces konfigurowania rocznych wzorców powtarzania
 ### Czy są jakieś wymagania wstępne dotyczące korzystania z Aspose.Tasks dla .NET?
  Upewnij się, że posiadasz praktyczną wiedzę na temat C# i .NET, a także zainstalowanej biblioteki Aspose.Tasks. Pobierz to[Tutaj](https://releases.aspose.com/tasks/net/).
 ### Jak mogę uzyskać wsparcie dla Aspose.Tasks?
- odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie i pomoc społeczną.
+ Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie i pomoc społeczną.
 ### Czy mogę wypróbować Aspose.Tasks za darmo przed zakupem?
  Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).

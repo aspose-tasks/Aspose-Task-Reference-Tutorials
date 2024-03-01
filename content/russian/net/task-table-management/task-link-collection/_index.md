@@ -50,7 +50,7 @@ project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDurat
 ```csharp
 Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
 Console.WriteLine("Task links count: " + project.TaskLinks.Count);
-// Перебирать ссылки задач
+//Перебирать ссылки задач
 foreach (var link in project.TaskLinks)
 {
     Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
@@ -81,7 +81,7 @@ foreach (var link in taskLinks)
 В настоящее время Aspose.Tasks поддерживает стандартные типы ссылок на задачи, а пользовательские типы ссылок недоступны.
 ### Как я могу применить ограничения к задачам в Aspose.Tasks?
  Вы можете применить ограничения, используя`ConstraintType` собственность`Task` класс в Aspose.Tasks.
-### Есть ли какие-либо ограничения на размер файлов проекта, которые может обрабатывать Aspose.Tasks?
+### Существуют ли какие-либо ограничения на размер файлов проекта, которые может обрабатывать Aspose.Tasks?
 Aspose.Tasks может эффективно обрабатывать большие файлы проектов с минимальным влиянием на производительность.
 ### Есть ли форум сообщества для поддержки Aspose.Tasks?
  Да, вы можете найти поддержку и пообщаться с сообществом на[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15).

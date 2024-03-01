@@ -33,7 +33,7 @@ Verwalten Sie Microsoft Project-Gliederungswerte effizient mit Aspose.Tasks für
 ## Sammlung von Gliederungswerten in Aspose.Tasks für .NET
  Erfahren Sie, wie Sie Gliederungswerte in Microsoft Project-Dateien mit Aspose.Tasks für .NET verwalten. Dieses Schritt-für-Schritt-Tutorial enthält Codebeispiele, um sicherzustellen, dass Sie diese Vorgehensweisen mühelos implementieren können.[Mehr lesen](./outline-value-collection/)
 
-## Konfigurieren Sie die Seitenlegende in Aspose.Tasks für .NET
+## Konfigurieren der Seitenlegende in Aspose.Tasks für .NET
  Effizientes Projektmanagement reicht bis zur Konfiguration von MS Project-Seitenlegenden in .NET. Dieses Tutorial mit Aspose.Tasks bietet eine Schritt-für-Schritt-Anleitung, wie Sie Ihre Projektlegenden für optimale Effizienz anpassen.[Mehr lesen](./page-legend/)
 
 ## Legen Sie mühelos MS Project-Seitenränder mit Aspose.Tasks für .NET fest
@@ -63,7 +63,7 @@ Erfahren Sie, wie Sie Gliederungsmasken für MS Project-Sammlungen mit Aspose.Ta
 Erfahren Sie, wie Sie MS Project-Gliederungswerte mit Aspose.Tasks für .NET effizient verwalten. Passen Sie Projektskizzen ganz einfach an.
 ### [Sammlung von Gliederungswerten in Aspose.Tasks](./outline-value-collection/)
 Erfahren Sie, wie Sie Gliederungswerte in Microsoft Project-Dateien mit Aspose.Tasks für .NET verwalten. Schritt-für-Schritt-Anleitung mit Codebeispielen.
-### [Konfigurieren Sie die Seitenlegende in Aspose.Tasks](./page-legend/)
+### [Konfigurieren der Seitenlegende in Aspose.Tasks](./page-legend/)
 Erfahren Sie, wie Sie MS Project-Seitenlegenden in .NET mithilfe von Aspose.Tasks für eine effiziente Projektverwaltung konfigurieren. Schritt-für-Schritt-Anleitung bereitgestellt.
 ### [Legen Sie mühelos MS Project-Seitenränder mit Aspose.Tasks fest](./page-margins/)
 Erfahren Sie, wie Sie Seitenränder in Microsoft Project-Dateien mit Aspose.Tasks für .NET anpassen. Verbessern Sie mühelos das Layout und die Präsentation von Dokumenten.

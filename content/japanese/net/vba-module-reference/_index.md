@@ -10,11 +10,11 @@ url: /ja/net/vba-module-reference/
 
 ## Aspose.Tasks での VBA モジュールの管理
 
-Aspose.Tasks for .NET を使用して Microsoft Project ファイルの可能性を解き放ちます。このチュートリアルでは、シームレスな管理について説明します。[VBAモジュール](./managing-vba-modules/)、段階的な手順に従って開発ワークフローを簡単に強化し、Aspose.Tasks の能力を最大限に活用できるようにします。
+Aspose.Tasks for .NET を使用して Microsoft Project ファイルの可能性を解き放ちます。このチュートリアルでは、シームレスな管理について説明します。[VBAモジュール](./managing-vba-modules/)。段階的な手順に従って開発ワークフローを簡単に強化し、Aspose.Tasks の能力を最大限に活用できるようにします。
 
 ## Aspose.Tasks の VBA モジュール属性のコレクション
 
-Aspose.Tasks for .NET の複雑な世界を探索しながら、その奥深くまで掘り下げてみましょう。[VBA モジュールの属性](./vba-module-attribute-collection/)、属性を簡単に管理して、.NET プロジェクトを強化する方法を学びましょう。私たちのチュートリアルは、プロジェクト開発のこの重要な側面を確実に習得できる、明確で詳細なガイドを提供します。
+Aspose.Tasks for .NET の複雑な世界を探索しながら、その奥深くまで掘り下げてみましょう。[VBA モジュールの属性](./vba-module-attribute-collection/)。属性を簡単に管理して、.NET プロジェクトを強化する方法を学びましょう。私たちのチュートリアルは、プロジェクト開発のこの重要な側面を確実に習得できる、明確で詳細なガイドを提供します。
 
 ## Aspose.Tasks での VBA モジュール コレクションの管理
 
@@ -24,7 +24,7 @@ Aspose.Tasks for .NET の複雑な世界を探索しながら、その奥深く�
 
 管理において Aspose.Tasks for .NET のパワーを解放します。[VBA プロジェクト](./vba-projects/)楽に。私たちのチュートリアルでは、重要な手順を説明し、プロジェクト管理機能を最適化するための洞察を提供します。あらゆるレベルの開発者向けに調整された包括的なガイドでスキルを向上させます。
 
-## Aspose.Tasks での参照 VBA の処理
+## Aspose.Tasks での VBA 参照の処理
 
 複雑な取り扱いを乗り越える[VBA リファレンス](./vba-references/)Aspose.Tasks for .NET の包括的なチュートリアルをご覧ください。 VBA 参照をシームレスに読み取り、比較し、操作する方法を学びます。経験豊富な開発者であっても、初心者であっても、このガイドは VBA 参照を効果的に活用するための知識を提供します。
 
@@ -38,5 +38,5 @@ VBA モジュール属性の管理における Aspose.Tasks for .NET の機能�
 Aspose.Tasks for .NET で VBA モジュール コレクションを効率的に管理する方法を説明します。プロジェクトにシームレスに統合するためのステップバイステップのガイド。
 ### [Aspose.Tasks での VBA プロジェクトの操作](./vba-projects/)
 VBA プロジェクトを簡単に管理できる Aspose.Tasks for .NET の機能を試してください。このステップバイステップのガイドを使用して、プロジェクト管理機能を強化します。
-### [Aspose.Tasks での参照 VBA の処理](./vba-references/)
+### [Aspose.Tasks での VBA 参照の処理](./vba-references/)
 包括的なチュートリアルで、Aspose.Tasks .NET での VBA 参照の処理能力を体験してください。 VBA 参照をシームレスに読み取り、比較し、操作する方法を学びます。

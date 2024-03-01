@@ -108,7 +108,7 @@ A2: Absolutně, Aspose.Tasks umožňuje přiřadit konkrétní kalendáře k jed
 
 ### Q3: Podporuje Aspose.Tasks jiné vzorce opakování kromě každodenního?
 
-Odpověď 3: Ano, Aspose.Tasks poskytuje širokou škálu vzorců opakování, jako je týdenní, měsíční, roční atd., které uspokojí potřeby různých projektů.
+Odpověď 3: Ano, Aspose.Tasks poskytuje širokou škálu vzorců opakování, jako jsou týdenní, měsíční, roční atd., které uspokojí potřeby různých projektů.
 
 ### Q4: Mohu si představit opakující se úkoly vytvořené pomocí Aspose.Tasks?
 

@@ -11,7 +11,7 @@ url: /es/net/text-view-configuration/usage-views/
 Si es un desarrollador .NET y busca mejorar sus capacidades de gestión de proyectos, Aspose.Tasks es una poderosa herramienta que le permite manipular archivos de Microsoft Project sin esfuerzo. En este tutorial, nos centraremos en configurar vistas de uso usando Aspose.Tasks para .NET. Siga las instrucciones para obtener información sobre cómo representar vistas de uso de tareas con detalles para una mejor visualización del proyecto.
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-- Biblioteca Aspose.Tasks: asegúrese de tener la biblioteca Aspose.Tasks integrada en su proyecto .NET. Si no, puedes descargarlo.[aquí](https://releases.aspose.com/tasks/net/) y siga las instrucciones de instalación.
+-  Biblioteca Aspose.Tasks: asegúrese de tener la biblioteca Aspose.Tasks integrada en su proyecto .NET. Si no, puedes descargarlo.[aquí](https://releases.aspose.com/tasks/net/) y siga las instrucciones de instalación.
 - Directorio de documentos: configure un directorio donde se almacenan los documentos de su proyecto. Reemplace "Su directorio de documentos" en los fragmentos de código con la ruta real a su directorio de documentos.
 ## Importar espacios de nombres
 En el fragmento de código proporcionado, observará el uso de ciertos espacios de nombres. Asegúrese de incluirlos en su proyecto para una integración perfecta:

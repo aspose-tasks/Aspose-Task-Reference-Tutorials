@@ -1,6 +1,6 @@
 ---
 title: Menguasai Tampilan Proyek Microsoft dengan Aspose.Tasks
-linktitle: Konfigurasikan Tampilan di Aspose.Tasks
+linktitle: Mengonfigurasi Tampilan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Kuasai tampilan Proyek Microsoft dengan Aspose.Tasks untuk .NET. Sesuaikan dan sederhanakan pengalaman manajemen proyek Anda dengan mudah.
 type: docs
@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Sorot filter untuk satu tampilan
 ## Langkah 4: Sesuaikan Pengaturan Tampilan
 ```csharp
 // Sesuaikan beberapa pengaturan tampilan
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Atur jumlah kolom pertama yang akan dicetak pada semua halaman
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Atur jumlah kolom pertama yang akan dicetak pada semua halaman
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Cetak sejumlah kolom pertama tertentu di semua halaman
 ```
 ## Langkah 5: Tambahkan Tampilan ke Proyek
 ```csharp
-//Tambahkan tampilan ke proyek kami
+// Tambahkan tampilan ke proyek kami
 project.Views.Add(view);
 ```
 ## Langkah 6: Simpan Proyek dengan Tampilan Baru
@@ -73,8 +73,8 @@ Aspose.Tasks terutama dirancang untuk Microsoft Project, memastikan integrasi da
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk .NET?
  Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks untuk .NET?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan komunitas atau mempertimbangkan pembelian rencana dukungan.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan komunitas atau mempertimbangkan pembelian rencana dukungan.
 ### Bisakah saya menyesuaikan tampilan tampilan lebih lanjut?
- Tentu saja, pelajari dokumentasi Aspose.Tasks[Di Sini](https://reference.aspose.com/tasks/net/)untuk opsi penyesuaian lanjutan.
+ Tentu saja, pelajari dokumentasi Aspose.Tasks[Di Sini](https://reference.aspose.com/tasks/net/) untuk opsi penyesuaian lanjutan.
 ### Di mana saya dapat membeli Aspose.Tasks untuk .NET?
  Anda dapat membeli perpustakaan[Di Sini](https://purchase.aspose.com/buy) untuk pengalaman manajemen proyek yang lancar.

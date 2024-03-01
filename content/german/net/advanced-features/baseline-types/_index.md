@@ -21,7 +21,7 @@ Um die Leistungsfähigkeit von Aspose.Tasks nutzen zu können, sind grundlegende
 
 ### 2. Installation von Aspose.Tasks für .NET
 
- Stellen Sie sicher, dass Sie die Aspose.Tasks for .NET-Bibliothek in Ihrer Entwicklungsumgebung installiert haben. Sie können es hier herunterladen[Aspose.Tasks-Website](https://releases.aspose.com/tasks/net/) oder über den NuGet-Paketmanager.
+Stellen Sie sicher, dass Sie die Aspose.Tasks for .NET-Bibliothek in Ihrer Entwicklungsumgebung installiert haben. Sie können es hier herunterladen[Aspose.Tasks-Website](https://releases.aspose.com/tasks/net/) oder über den NuGet-Paketmanager.
 
 ### 3. Integrierte Entwicklungsumgebung (IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Schritt 2: Basislinie festlegen
 
- Sobald das Projekt geladen ist, können wir mit dem Festlegen der Grundlinie fortfahren. Baselines bieten eine Momentaufnahme des ursprünglichen Zeitplans des Projekts, die im Verlauf des Projekts als Referenzpunkt für den Vergleich dient. Benutzen Sie die`SetBaseline` Methode zum Festlegen der Grundlinie. Um beispielsweise die Grundlinie für das gesamte Projekt festzulegen, verwenden Sie die`BaselineType.Baseline` Aufzählung:
+Sobald das Projekt geladen ist, können wir mit dem Festlegen der Grundlinie fortfahren. Baselines bieten eine Momentaufnahme des ursprünglichen Zeitplans des Projekts, die im Verlauf des Projekts als Referenzpunkt für den Vergleich dient. Benutzen Sie die`SetBaseline` Methode zum Festlegen der Grundlinie. Um beispielsweise die Grundlinie für das gesamte Projekt festzulegen, verwenden Sie die`BaselineType.Baseline` Aufzählung:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);
@@ -79,6 +79,6 @@ A3: Sie können Aspose.Tasks verwenden, um Projektdaten in gängige Dateiformate
 
 A4: Aspose.Tasks bietet umfangreiche Dokumentation und Supportforen, um Entwickler bei der nahtlosen Integration seiner Funktionen in gängige Projektmanagement-Tools und -Plattformen zu unterstützen.
 
-### F5: Kann ich Aspose.Tasks vor dem Kauf testen?
+### F5: Kann ich Aspose.Tasks vor dem Kauf ausprobieren?
 
 A5: Ja, Sie können Aspose.Tasks über eine kostenlose Testversion auf der Website erkunden und so die Funktionen aus erster Hand erleben.

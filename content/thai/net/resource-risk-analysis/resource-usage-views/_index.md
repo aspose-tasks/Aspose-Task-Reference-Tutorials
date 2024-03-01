@@ -1,6 +1,6 @@
 ---
-title: กำหนดค่ามุมมองการใช้ทรัพยากรโครงการ MS ใน Aspose.Tasks
-linktitle: กำหนดค่ามุมมองการใช้ทรัพยากรใน Aspose.Tasks
+title: การกำหนดค่ามุมมองการใช้ทรัพยากรโครงการ MS ใน Aspose.Tasks
+linktitle: การกำหนดค่ามุมมองการใช้ทรัพยากรใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่ามุมมองการใช้ทรัพยากร MS Project โดยใช้ Aspose.Tasks สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดรวมอยู่ด้วย
 type: docs

@@ -15,7 +15,7 @@ Innan vi börjar, se till att du har följande förutsättningar:
 2. Utvecklingsmiljö: Ha en utvecklingsmiljö inrättad med Visual Studio eller någon annan föredragen IDE för .NET-utveckling.
 
 ## Importera namnområden
-För att komma igång måste du importera de nödvändiga namnrymden till ditt projekt. Dessa namnområden ger åtkomst till Aspose.Tasks-klasserna och metoderna som krävs för att manipulera MS Project-filer.
+För att komma igång måste du importera de nödvändiga namnrymden i ditt projekt. Dessa namnområden ger åtkomst till Aspose.Tasks-klasserna och metoderna som krävs för att manipulera MS Project-filer.
 ```csharp
 using Aspose.Tasks;
 using System.Linq;
@@ -64,7 +64,7 @@ project.Save(dataDir + "TestCanWritePageSettings.mpp", options);
 ```
 
 ## Slutsats
-den här handledningen har vi lärt oss hur man konfigurerar Microsoft Project-sidans inställningar med Aspose.Tasks för .NET. Genom att följa dessa steg kan du enkelt anpassa sidans orientering, storlek och andra utskriftsalternativ enligt dina krav.
+I den här handledningen har vi lärt oss hur man konfigurerar Microsoft Project-sidans inställningar med Aspose.Tasks för .NET. Genom att följa dessa steg kan du enkelt anpassa sidans orientering, storlek och andra utskriftsalternativ enligt dina krav.
 
 ## FAQ's
 ### F: Kan jag konfigurera sidinställningar för flera MS Project-filer samtidigt?

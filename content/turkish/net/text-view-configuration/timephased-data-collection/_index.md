@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Atama özelliklerini ayarlayın...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Atama2 özelliklerini ayarla...
+//Atama2 özelliklerini ayarla...
 ```
 ## 4. Zaman Aşamalı Verilerle Çalışmak
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Zaman Aşamalı Verileri Yönetin
 ```csharp
-//Yanlış bir zaman aşamalı veri öğesi ekleyin ve ardından silin
+// Yanlış bir zaman aşamalı veri öğesi ekleyin ve ardından silin
 var td4 = new TimephasedData
 {
     // Yanlış zaman aşamalı veri özelliklerini ayarlayın...
@@ -120,4 +120,4 @@ Aspose.Tasks farklı boyutlardaki projeleri yönetir ve kaynak ve görev sayıs�
 ### Aspose.Tasks for .NET'i satın almadan önce deneyebilir miyim?
  Evet, Aspose.Tasks for .NET'in özelliklerini şu adrese erişerek keşfedebilirsiniz:[ücretsiz deneme](https://releases.aspose.com/).
 ### Aspose.Tasks for .NET lisansını nereden satın alabilirim?
- Aspose.Tasks for .NET için bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+Aspose.Tasks for .NET için bir lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

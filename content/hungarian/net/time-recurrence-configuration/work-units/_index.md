@@ -50,9 +50,9 @@ Ismételje meg ezeket a lépéseket, ha szükséges az adott projekt követelmé
 ### Az Aspose.Tasks kompatibilis az összes projektmenedzsment fájlformátummal?
  Az Aspose.Tasks különféle projektfájlformátumokat támogat, beleértve az MPP-t, az XML-t és egyebeket. Utal[dokumentáció](https://reference.aspose.com/tasks/net/) átfogó listáért.
 ### Kipróbálhatom az Aspose.Tasks-t vásárlás előtt?
-Igen, az Aspose.Tasks szolgáltatást ingyenes próbaverzióval fedezheti fel. Töltse le a[kiadási oldal](https://releases.aspose.com/).
+ Igen, az Aspose.Tasks szolgáltatást ingyenes próbaverzióval fedezheti fel. Töltse le a[kiadási oldal](https://releases.aspose.com/).
 ### Hol találok további támogatást az Aspose.Tasks számára?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásra és beszélgetésekre.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
  Szerezzen ideiglenes licencet az Aspose.Tasks számára a webhely felkeresésével[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
 ### Milyen előnyöket kínál az Aspose.Tasks a munkaegységek kezeléséhez?

@@ -17,7 +17,7 @@ Przed przystąpieniem do samouczka upewnij się, że spełniasz następujące wy
 2. Podstawowa znajomość języka C#: Znajomość języka programowania C# będzie korzystna.
 
 ## Importuj przestrzenie nazw
-kodzie C# pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw:
+W kodzie C# pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw:
 ```csharp
     using Aspose.Tasks;
     using System;

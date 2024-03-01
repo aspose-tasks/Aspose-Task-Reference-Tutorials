@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 उपयोगकर्ता पासवर्ड, स्वामी पासवर्ड, एन्क्रिप्शन एल्गोरिदम और अनुमतियों सहित एन्क्रिप्शन विवरण परिभाषित करें:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //उपयोगकर्ता पासवर्ड
+    "userPassword",        // उपयोगकर्ता पासवर्ड
     "ownerPassword",       // स्वामी पासवर्ड
     PdfEncryptionAlgorithm.RC4_128);  // एन्क्रिप्शन एल्गोरिथम
 // अनुमतियाँ निर्दिष्ट करें

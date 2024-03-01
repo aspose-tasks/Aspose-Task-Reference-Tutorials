@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
 
- На этом этапе файл проекта «Blank2010.mpp» загружается в экземпляр`Project` класс.класс.
+ На этом этапе файл проекта «Blank2010.mpp» загружается в экземпляр`Project` сорт.
 
 ## Шаг 2. Настройка представления диаграммы Ганта
 

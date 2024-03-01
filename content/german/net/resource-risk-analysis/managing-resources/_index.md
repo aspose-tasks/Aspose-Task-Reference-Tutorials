@@ -32,7 +32,7 @@ Importieren Sie zunächst die erforderlichen Namespaces in Ihr C#-Projekt:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
+ Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
 ## Schritt 2: Erstellen Sie eine neue Projektinstanz
 ```csharp
 var project = new Project();
@@ -61,4 +61,4 @@ A: Absolut, Aspose.Tasks für .NET bietet umfangreiche Funktionen zum Anpassen v
 ### F: Unterstützt Aspose.Tasks für .NET den Export von Projektdaten in andere Formate als XML?
 A: Ja, Aspose.Tasks für .NET unterstützt den Export von Projektdaten in verschiedene Formate, darunter unter anderem MPP, PDF, XLSX und HTML.
 ### F: Wo finde ich weitere Hilfe oder Unterstützung für Aspose.Tasks für .NET?
-A: Für weitere Hilfe oder Unterstützung können Sie die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) oder beziehen Sie sich auf die[Dokumentation](https://reference.aspose.com/tasks/net/) bereitgestellt von Aspose.
+ A: Für weitere Hilfe oder Unterstützung können Sie die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) oder beziehen Sie sich auf die[Dokumentation](https://reference.aspose.com/tasks/net/) bereitgestellt von Aspose.

@@ -85,7 +85,7 @@ Aspose.Tasks terutama dirancang untuk pengembangan .NET. Namun, fungsinya dapat 
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk .NET?
  Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks untuk .NET?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)untuk dukungan masyarakat.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan masyarakat.
 ### Apa yang dimaksud dengan izin sementara, dan bagaimana cara memperolehnya?
  Pelajari tentang lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi Aspose.Tasks untuk .NET?

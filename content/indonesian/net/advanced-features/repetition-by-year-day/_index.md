@@ -9,7 +9,7 @@ url: /id/net/advanced-features/repetition-by-year-day/
 ---
 ## Perkenalan
 
-Dalam bidang manajemen proyek, penjadwalan dan pengulangan tugas yang efisien memainkan peran penting dalam memastikan pelaksanaan tepat waktu dan kelancaran alur kerja. Aspose.Tasks untuk .NET menawarkan solusi tangguh bagi pengembang untuk menangani tugas berulang dengan mudah dalam aplikasi mereka. Dalam tutorial ini, kami mempelajari seluk-beluk bekerja dengan pengulangan hari tahunan menggunakan Aspose.Tasks, memberikan panduan komprehensif untuk membuat tugas berulang berdasarkan pola tahunan.
+Dalam bidang manajemen proyek, penjadwalan dan pengulangan tugas yang efisien memainkan peran penting dalam memastikan pelaksanaan tepat waktu dan kelancaran alur kerja. Aspose.Tasks untuk .NET menawarkan solusi tangguh bagi pengembang untuk menangani tugas berulang dengan mudah dalam aplikasi mereka. Dalam tutorial ini, kami mempelajari seluk-beluk bekerja dengan pengulangan hari tahun menggunakan Aspose.Tasks, memberikan panduan komprehensif untuk membuat tugas berulang berdasarkan pola tahunan.
 
 ## Prasyarat
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- Pada langkah ini, kami menentukan parameter untuk tugas berulang kami. Kami menentukan nama tugas, durasi, dan pola pengulangan. Untuk pengulangan tahunan, kami menggunakan`YearlyRecurrencePattern` dan atur pengulangan agar terjadi pada hari 1 Juli menggunakan`ByYearDayRepetition`, Selain itu, kami menentukan rentang pengulangan dari 1 Juli 2018 hingga 1 Juli 2019.
+ Pada langkah ini, kami menentukan parameter untuk tugas berulang kami. Kami menentukan nama tugas, durasi, dan pola pengulangan. Untuk pengulangan tahunan, kami menggunakan`YearlyRecurrencePattern` dan atur pengulangan agar terjadi pada hari 1 Juli menggunakan`ByYearDayRepetition`. Selain itu, kami menentukan rentang pengulangan dari 1 Juli 2018 hingga 1 Juli 2019.
 
 ## Langkah 3: Tambahkan Tugas ke Proyek
 

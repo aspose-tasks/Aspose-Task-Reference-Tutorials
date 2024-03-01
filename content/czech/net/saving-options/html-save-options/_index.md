@@ -50,7 +50,7 @@ Gratulujeme! Naučili jste se ukládat soubory Microsoft Project jako HTML pomoc
 ### Otázka: Mohu přizpůsobit vzhled výstupu HTML?
 Odpověď: Ano, můžete upravit různé aspekty, jako jsou styly písma, barvy a rozvržení, úpravou HTMLSaveOptions.
 ### Otázka: Podporuje Aspose.Tasks jiné formáty souborů pro převod?
-Odpověď: Ano, Aspose.Tasks podporuje konverzi do různých formátů včetně PDF, XLSX a PNG.
+Odpověď: Ano, Aspose.Tasks podporuje konverzi do různých formátů včetně PDF, XLSX a PNG, mezi jinými.
 ### Otázka: Je Aspose.Tasks kompatibilní s různými verzemi souborů Microsoft Project?
 Odpověď: Ano, Aspose.Tasks podporuje širokou škálu verzí souborů Microsoft Project, což zajišťuje kompatibilitu s vašimi stávajícími projekty.
 ### Otázka: Mohu extrahovat konkrétní data projektu pro konverzi HTML?

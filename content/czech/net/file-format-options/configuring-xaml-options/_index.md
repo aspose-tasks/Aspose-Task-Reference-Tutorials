@@ -25,7 +25,7 @@ using Aspose.Tasks.Visualization;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- nahradit`"Your Document Directory"` s cestou k adresáři vašeho dokumentu, kde je umístěn soubor MS Project.
+ Nahradit`"Your Document Directory"` s cestou k adresáři vašeho dokumentu, kde je umístěn soubor MS Project.
 ## Krok 2: Načtěte soubor MS Project
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -59,11 +59,11 @@ Odpověď: Ano, Aspose.Tasks for .NET podporuje integraci s různými nástroji 
 
 ### Otázka: Jak mohu získat podporu pro Aspose.Tasks pro .NET?
 
- Odpověď: Můžete požádat o pomoc na komunitních fórech.[tady](https://forum.aspose.com/c/tasks/15).
+ Odpověď: Můžete požádat o pomoc na komunitních fórech[tady](https://forum.aspose.com/c/tasks/15).
 
 ### Otázka: Potřebuji dočasnou licenci pro používání Aspose.Tasks pro .NET?
 
-Odpověď: Můžete vyžadovat dočasnou licenci pro určité pokročilé funkce, které lze získat[tady](https://purchase.aspose.com/temporary-license/).
+ Odpověď: Můžete vyžadovat dočasnou licenci pro určité pokročilé funkce, které lze získat[tady](https://purchase.aspose.com/temporary-license/).
 
 ### Otázka: Kde mohu zakoupit Aspose.Tasks pro .NET?
 

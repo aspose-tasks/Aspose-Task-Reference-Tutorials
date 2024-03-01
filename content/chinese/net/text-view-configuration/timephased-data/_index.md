@@ -85,7 +85,7 @@ Aspose.Tasks 主要是为.NET 开发而设计的。然而，它的功能可以�
 ### Aspose.Tasks for .NET 是否有免费试用版？
 是的，您可以探索免费试用[这里](https://releases.aspose.com/).
 ### 如何获得 Aspose.Tasks for .NET 支持？
-访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区支持。
+参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区支持。
 ### 什么是临时许可证？如何获得临时许可证？
 了解临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到 Aspose.Tasks for .NET 的文档？

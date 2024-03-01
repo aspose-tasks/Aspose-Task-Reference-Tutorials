@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren Sie die MS Project Primavera-Datenbank in Aspose.Tasks
-linktitle: Konfigurieren Sie die Primavera-Datenbankeinstellungen in Aspose.Tasks
+linktitle: Konfigurieren der Primavera-Datenbankeinstellungen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project Primavera-Datenbankeinstellungen in Aspose.Tasks für .NET mühelos konfigurieren. Optimieren Sie Ihre Projektmanagementaufgaben.
 type: docs
@@ -12,7 +12,7 @@ Sind Sie bereit, die Leistungsfähigkeit von Aspose.Tasks für .NET zu nutzen, u
 ## Voraussetzungen
 Bevor Sie beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 ### 1. Installieren Sie Aspose.Tasks für .NET
- Geh 'rüber zu[Laden Sie Aspose.Tasks für .NET herunter](https://releases.aspose.com/tasks/net/) und holen Sie sich die neueste Version der Aspose.Tasks-Bibliothek. Befolgen Sie die bereitgestellten Installationsanweisungen, um es in Ihrer .NET-Umgebung einzurichten.
+ Geh 'rüber zu[Laden Sie Aspose.Tasks für .NET herunter](https://releases.aspose.com/tasks/net/)und holen Sie sich die neueste Version der Aspose.Tasks-Bibliothek. Befolgen Sie die bereitgestellten Installationsanweisungen, um es in Ihrer .NET-Umgebung einzurichten.
 ### 2. Greifen Sie auf die MS Project Primavera-Datenbank zu
 Stellen Sie sicher, dass Sie Zugriff auf die MS Project Primavera-Datenbank haben. Sie benötigen die erforderlichen Anmeldeinformationen und Verbindungsdetails, um fortzufahren.
 ### 3. Grundkenntnisse in C# und .NET Framework
@@ -43,17 +43,17 @@ sb.UserID = "privuser";
 sb.Password = "***";
 sb.ConnectTimeout = 2; // ExSkip
 ```
- Dieser Code erstellt eine`SqlConnectionStringBuilder` Objekt und legt verschiedene Eigenschaften fest, wie z`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`usw., um die Verbindungszeichenfolge für die Primavera-Datenbank zu konfigurieren.
+ Dieser Code erstellt eine`SqlConnectionStringBuilder`Objekt und legt verschiedene Eigenschaften fest, wie z`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`usw., um die Verbindungszeichenfolge für die Primavera-Datenbank zu konfigurieren.
 ## Schritt 2: PrimaveraDbSettings-Objekt initialisieren
 ```csharp
 var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```
-Hier initialisieren wir eine neue Instanz von`PrimaveraDbSettings` Klasse durch Übergabe der Verbindungszeichenfolge und der Projekt-ID (in diesem Fall`4502`) als Parameter.
+ Hier initialisieren wir eine neue Instanz von`PrimaveraDbSettings` Klasse durch Übergabe der Verbindungszeichenfolge und der Projekt-ID (in diesem Fall`4502`) als Parameter.
 ## Schritt 3: Projekt aus Datenbank lesen
 ```csharp
 var project = new Project(settings);
 ```
- Diese Zeile erzeugt eine neue`Project` Objekt durch Übergeben des`settings` Objekt, das wir zuvor erstellt haben. Es stellt eine Verbindung zur Primavera-Datenbank her und liest das Projekt mit der angegebenen UID (`4502`,
+ Diese Zeile erzeugt eine neue`Project` Objekt durch Übergeben des`settings` Objekt, das wir zuvor erstellt haben. Es stellt eine Verbindung zur Primavera-Datenbank her und liest das Projekt mit der angegebenen UID (`4502`).
 ## Schritt 4: Projekt-UID anzeigen
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
@@ -72,4 +72,4 @@ A: Aspose.Tasks für .NET konzentriert sich hauptsächlich auf lokale Projektman
 ### F: Kann ich Projektdaten programmgesteuert mit Aspose.Tasks für .NET bearbeiten?
 A: Auf jeden Fall! Aspose.Tasks für .NET bietet einen umfangreichen Satz an APIs zum Lesen, Schreiben und Bearbeiten von Projektdaten in verschiedenen Formaten.
 ### F: Gibt es ein Community-Forum oder einen Support-Kanal für Aspose.Tasks für .NET-Benutzer?
- A: Ja, Sie können das besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) Für Community-Unterstützung und Hilfe bei Problemen oder Fragen, die Sie haben.## Vollständiger Quellcode
+ A: Ja, Sie können das besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15)Für Community-Unterstützung und Hilfe bei Problemen oder Fragen, die Sie haben.## Vollständiger Quellcode

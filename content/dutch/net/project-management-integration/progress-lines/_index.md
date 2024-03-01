@@ -93,6 +93,6 @@ A: Ja, Aspose.Tasks biedt uitgebreide ondersteuning voor het manipuleren van ver
 ### Vraag: Kan ik Aspose.Tasks integreren met andere .NET-bibliotheken?
 A: Absoluut, Aspose.Tasks is ontworpen om naadloos te integreren met andere .NET-bibliotheken, waardoor u uw projectbeheertoepassingen verder kunt verbeteren.
 ### Vraag: Is er een communityforum voor ondersteuning van Aspose.Tasks?
- A: Ja, u kunt nuttige bronnen vinden en hulp zoeken op het Aspose.Tasks-forum.[hier](https://forum.aspose.com/c/tasks/15).
+ A: Ja, u kunt nuttige bronnen vinden en hulp zoeken op het Aspose.Tasks-forum[hier](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Biedt Aspose.Tasks tijdelijke licenties voor evaluatiedoeleinden?
  A: Ja, u kunt een tijdelijke licentie voor evaluatie verkrijgen van[hier](https://purchase.aspose.com/temporary-license/).

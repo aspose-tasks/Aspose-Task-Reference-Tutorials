@@ -37,7 +37,7 @@ var options = new HtmlSaveOptions();
 ```csharp
 project.Save("OutputFilePath.html", options);
 ```
-## خطوة إضافية: حفظ صفحة معينة
+## خطوة إضافية: حفظ صفحة محددة
 إذا كنت تريد حفظ صفحة معينة من المشروع:
 ```csharp
 options.Pages.Add(pageNumber);

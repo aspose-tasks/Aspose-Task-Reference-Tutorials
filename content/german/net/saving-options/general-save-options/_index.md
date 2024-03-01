@@ -8,13 +8,13 @@ weight: 17
 url: /de/net/saving-options/general-save-options/
 ---
 ## Einführung
-Aspose.Tasks für .NET bietet leistungsstarke Funktionen zum programmgesteuerten Bearbeiten von Microsoft Project-Dateien. In diesem Tutorial befassen wir uns mit den Feinheiten des Speicherns von MS Project-Dateien mithilfe verschiedener Optionen von Aspose.Tasks. Wir konzentrieren uns insbesondere auf die allgemeinen Speicheroptionen, die für Aspose.Tasks verfügbar sind, sodass Sie die Ausgabe an Ihre spezifischen Anforderungen anpassen können.
+Aspose.Tasks für .NET bietet leistungsstarke Funktionen zum programmgesteuerten Bearbeiten von Microsoft Project-Dateien. In diesem Tutorial befassen wir uns mit den Feinheiten des Speicherns von MS Project-Dateien mithilfe verschiedener Optionen von Aspose.Tasks. Konkret konzentrieren wir uns auf die allgemeinen Speicheroptionen, die für Aspose.Tasks verfügbar sind, sodass Sie die Ausgabe an Ihre spezifischen Anforderungen anpassen können.
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 1.  Installation von Aspose.Tasks für .NET: Laden Sie Aspose.Tasks für .NET von herunter und installieren Sie es[Download-Link](https://releases.aspose.com/tasks/net/).
 2. Grundlegendes Verständnis von .NET Framework: Vertrautheit mit .NET-Programmierkonzepten ist von Vorteil.
 
-## Namespaces importieren
+## Namensräume importieren
 Stellen Sie vor dem Eintauchen in den Code sicher, dass Sie die erforderlichen Namespaces importieren:
 ```csharp
     using Aspose.Tasks;
@@ -35,7 +35,7 @@ Zunächst müssen Sie die MS Project-Datei mit Aspose.Tasks laden:
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## Schritt 2: Speicheroptionen definieren
- Definieren Sie die Speicheroptionen entsprechend Ihren Anforderungen. In diesem Beispiel verwenden wir`Spreadsheet2003SaveOptions`,
+ Definieren Sie die Speicheroptionen entsprechend Ihren Anforderungen. In diesem Beispiel verwenden wir`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ A: Ja, Aspose.Tasks unterstützt verschiedene Versionen von MS Project-Dateien u
 ### F: Kann ich Aspose.Tasks vor dem Kauf testen?
  A: Ja, Sie können Aspose.Tasks mit einer kostenlosen Testversion erkunden[Hier](https://releases.aspose.com/).
 ### F: Wo finde ich Dokumentation für Aspose.Tasks?
-A: Eine ausführliche Dokumentation finden Sie hier[Hier](https://reference.aspose.com/tasks/net/), mit umfassenden Anleitungen zur Verwendung der Aspose.Tasks-Funktionen.
+ A: Eine ausführliche Dokumentation finden Sie hier[Hier](https://reference.aspose.com/tasks/net/), mit umfassenden Anleitungen zur Verwendung der Aspose.Tasks-Funktionen.
 ### F: Wie kann ich temporäre Lizenzen für Aspose.Tasks erhalten?
- A: Für Evaluierungszwecke stehen temporäre Lizenzen zur Verfügung.[Hier](https://purchase.aspose.com/temporary-license/).
+ A: Für Evaluierungszwecke stehen temporäre Lizenzen zur Verfügung[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wo kann ich Unterstützung für Fragen zu Aspose.Tasks erhalten?
- A: Sie können dem Aspose.Tasks-Community-Forum beitreten[Hier](https://forum.aspose.com/c/tasks/15) um Unterstützung von Experten und anderen Entwicklern zu erhalten.
+ A: Sie können dem Aspose.Tasks-Community-Forum beitreten[Hier](https://forum.aspose.com/c/tasks/15)um Unterstützung von Experten und anderen Entwicklern zu erhalten.

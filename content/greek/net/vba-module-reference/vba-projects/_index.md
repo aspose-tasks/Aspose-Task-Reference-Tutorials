@@ -76,6 +76,6 @@ foreach (var reference in project.VbaProject.References)
 ### Ε: Υπάρχει δωρεάν δοκιμή διαθέσιμη;
  Α: Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
-Α: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
+ Α: Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να αγοράσω το Aspose.Tasks;
  Α: Αγορά Aspose.Tasks[εδώ](https://purchase.aspose.com/buy).

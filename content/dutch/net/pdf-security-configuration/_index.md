@@ -11,7 +11,7 @@ url: /nl/net/pdf-security-configuration/
 
 In de digitale wereld is het beschermen van uw projectbestanden van het allergrootste belang. Aspose.Tasks voor .NET biedt een robuuste oplossing om de beveiliging van uw Microsoft Project PDF's te verbeteren. Deze tutorialserie gaat dieper in op de fijne kneepjes van de PDF-beveiligingsconfiguratie en waarborgt de vertrouwelijkheid en authenticiteit van uw waardevolle projectgegevens.
 
-## Configureer MS Project PDF digitale handtekening met Aspose.Tasks
+## MS Project PDF digitale handtekening configureren met Aspose.Tasks
 
 Als het gaat om het valideren van de authenticiteit van uw projectdocumenten, spelen digitale handtekeningen een cruciale rol. In deze zelfstudie begeleiden we u bij het configureren van de details van de digitale handtekening van Microsoft Project PDF met behulp van Aspose.Tasks voor .NET. Uiteindelijk beschikt u over de kennis om digitale handtekeningen effectief te implementeren, waardoor de integriteit van uw projectbestanden wordt gewaarborgd.
 
@@ -19,7 +19,7 @@ Digitale handtekeningen dienen als elektronische vingerafdrukken en bieden een u
 
 [Meer informatie over het configureren van MS Project PDF digitale handtekening met Aspose.Tasks](./pdf-digital-signature-details/)
 
-## Configureer MS Project PDF-coderingsdetails in Aspose.Tasks
+## Details van MS Project PDF-codering configureren in Aspose.Tasks
 
 Naast digitale handtekeningen voegt encryptie een extra beschermingslaag toe aan uw projectbestanden. Deze tutorial richt zich op het configureren van MS Project PDF-coderingsdetails met behulp van Aspose.Tasks voor .NET. Aan het einde van deze handleiding bent u bedreven in het beveiligen van uw projectbestanden met zowel gebruikers- als eigenaarswachtwoorden.
 

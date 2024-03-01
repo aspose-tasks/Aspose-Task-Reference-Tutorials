@@ -71,6 +71,6 @@ manager.CreateNewProject(project);
 ### ถาม: ฉันจะหาเอกสารสำหรับ Aspose.Tasks ได้ที่ไหน
  ตอบ: มีเอกสารประกอบโดยละเอียดสำหรับ Aspose.Tasks[ที่นี่](https://reference.aspose.com/tasks/net/).
 ### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้อย่างไร
- ตอบ: คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+ตอบ: คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
 ### ถาม: ฉันจะซื้อใบอนุญาตสำหรับ Aspose.Tasks ได้อย่างไร
  ตอบ: คุณสามารถซื้อใบอนุญาตสำหรับ Aspose.Tasks ได้จาก[หน้าซื้อ](https://purchase.aspose.com/buy).

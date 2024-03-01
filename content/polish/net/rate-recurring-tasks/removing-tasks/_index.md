@@ -11,7 +11,7 @@ url: /pl/net/rate-recurring-tasks/removing-tasks/
 W tym samouczku przyjrzymy się, jak usunąć zadania z pliku Microsoft Project za pomocą Aspose.Tasks dla .NET. Aspose.Tasks to potężny interfejs API, który umożliwia programistom programowe manipulowanie plikami Microsoft Project. Usuwanie zadań z pliku projektu może być częstym wymaganiem w scenariuszach zarządzania projektami, a Aspose.Tasks zapewnia prosty sposób na osiągnięcie tego.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
-1. Instalacja Aspose.Tasks dla .NET: Musisz mieć zainstalowany Aspose.Tasks dla .NET w swoim środowisku programistycznym. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/tasks/net/).
+1.  Instalacja Aspose.Tasks dla .NET: Musisz mieć zainstalowany Aspose.Tasks dla .NET w swoim środowisku programistycznym. Jeśli jeszcze go nie zainstalowałeś, możesz go pobrać ze strony[Tutaj](https://releases.aspose.com/tasks/net/).
 2. Plik programu Microsoft Project: Przygotuj plik programu Microsoft Project (`Project1.mpp` w tym przykładzie), z którego chcesz usunąć zadania.
 
 ## Importuj przestrzenie nazw
@@ -68,7 +68,7 @@ W tym samouczku nauczyliśmy się, jak usuwać zadania z pliku Microsoft Project
 ### P: Czy mogę usunąć wiele zadań jednocześnie za pomocą Aspose.Tasks?
 O: Tak, możesz usunąć wiele zadań, przeglądając zadania, które chcesz usunąć, i stosując algorytm usuwania do każdego zadania.
 ### P: Czy Aspose.Tasks jest kompatybilny z różnymi wersjami plików Microsoft Project?
-Odp.: Tak, Aspose.Tasks obsługuje różne wersje plików Microsoft Project, w tym formaty MPP i XML.
+O: Tak, Aspose.Tasks obsługuje różne wersje plików Microsoft Project, w tym formaty MPP i XML.
 ### P: Czy w razie potrzeby mogę cofnąć operację usuwania zadania?
 O: Aspose.Tasks zapewnia solidną funkcjonalność cofania operacji. W razie potrzeby można zaimplementować niestandardową logikę obsługi scenariuszy cofania.
 ### P: Czy Aspose.Tasks oferuje wsparcie dla złożonych struktur projektów?

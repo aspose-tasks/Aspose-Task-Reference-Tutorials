@@ -119,7 +119,7 @@ url: /ru/net/tasks-project-management/
 ### [Настройка линий сетки в MS Project для Aspose.Tasks](./gridlines/)
 Узнайте, как настроить линии сетки в MS Project с помощью Aspose.Tasks для .NET. Улучшите визуализацию и управление своим проектом с помощью простых шагов.
 ### [ Настройте линии сетки проекта с помощью Aspose.Tasks для .NET](./gridlines-management/)
-Узнайте, как программно настроить параметры линий сетки в файлах Microsoft Project с помощью Aspose.Tasks для .NET, визуализации проектов и повышения эффективности управления.
+Узнайте, как программно настроить параметры линий сетки в файлах Microsoft Project с помощью Aspose.Tasks для .NET, визуализации проекта и эффективности управления.
 ### [Эффективная группировка задач MS Project с помощью Aspose.Tasks](./grouping-tasks/)
 Узнайте, как эффективно группировать задачи Microsoft Project с помощью Aspose.Tasks для .NET.
 ### [Управление коллекциями проектов в Aspose.Tasks](./group-collection/)

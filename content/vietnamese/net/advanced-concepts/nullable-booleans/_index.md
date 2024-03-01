@@ -9,7 +9,7 @@ url: /vi/net/advanced-concepts/nullable-booleans/
 ---
 ## Giới thiệu
 
- Trong hướng dẫn này, chúng ta sẽ đi sâu vào làm việc với các boolean có thể rỗng trong Aspose.Tasks cho .NET. Các boolean nullable mang lại sự linh hoạt trong việc biểu diễn các giá trị boolean, cho phép khả năng không được xác định. Chúng ta sẽ khám phá cách sử dụng`NullableBool` lớp, các hàm tạo, thuộc tính và phương thức của nó.
+Trong hướng dẫn này, chúng ta sẽ đi sâu vào làm việc với các boolean có thể rỗng trong Aspose.Tasks cho .NET. Các boolean nullable mang lại sự linh hoạt trong việc biểu diễn các giá trị boolean, cho phép khả năng không được xác định. Chúng ta sẽ khám phá cách sử dụng`NullableBool` lớp, các hàm tạo, thuộc tính và phương thức của nó.
 
 ## Điều kiện tiên quyết
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Bây giờ, hãy chia mỗi ví dụ thành nhiều bước.
 
-##  làm việc với`NullableBool`
+##  Làm việc với`NullableBool`
 
 ###  Bước 1: Tạo mới`Project` instance.
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Bước 6: Hiển thị biểu diễn chuỗi của`NullableBool` object.
+###  Bước 6: Hiển thị biểu diễn chuỗi của`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Bước 2: In mã băm cho mỗi`NullableBool` object.
+### Bước 2: In mã băm cho mỗi`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Phần kết luận
 
- Trong hướng dẫn này, chúng ta đã khám phá cách xử lý các boolean có thể rỗng trong Aspose.Tasks cho .NET. Bằng cách sử dụng`NullableBool` lớp và các phương thức của nó, bạn có thể quản lý các giá trị boolean một cách hiệu quả với tính linh hoạt bổ sung là có thể rỗng.
+ Trong hướng dẫn này, chúng ta đã khám phá cách xử lý các boolean có thể rỗng trong Aspose.Tasks cho .NET. Bằng cách sử dụng`NullableBool` class và các phương thức của nó, bạn có thể quản lý các giá trị boolean một cách hiệu quả với tính linh hoạt bổ sung là có thể rỗng.
 
 ## Câu hỏi thường gặp
 

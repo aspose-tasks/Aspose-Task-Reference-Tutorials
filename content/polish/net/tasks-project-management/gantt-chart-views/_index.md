@@ -12,11 +12,11 @@ Wykresy Gantta to potężne narzędzia wykorzystywane w zarządzaniu projektami 
 ## Warunki wstępne
 Przed kontynuowaniem upewnij się, że spełnione są następujące wymagania wstępne:
 ### 1. Instalacja Aspose.Tasks dla .NET
- Upewnij się, że zainstalowałeś Aspose.Tasks dla .NET. Bibliotekę możesz pobrać ze strony[Tutaj](https://releases.aspose.com/tasks/net/) postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji[Tutaj](https://reference.aspose.com/tasks/net/).
+ Upewnij się, że zainstalowałeś Aspose.Tasks dla .NET. Bibliotekę możesz pobrać ze strony[Tutaj](https://releases.aspose.com/tasks/net/) i postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji[Tutaj](https://reference.aspose.com/tasks/net/).
 ### 2. Plik projektu Microsoft
 Przygotuj plik Microsoft Project (`Project2.mpp`), którego będziesz używać do pracy z widokami wykresów Gantta.
 ### 3. Podstawowa znajomość C# i .NET Framework
-W tym samouczku założono, że masz podstawową wiedzę na temat języka programowania C# i platformy .NET.
+tym samouczku założono, że masz podstawową wiedzę na temat języka programowania C# i platformy .NET.
 ## Importuj przestrzenie nazw
 Zanim zaczniesz pracować z widokami wykresów Gantta w Aspose.Tasks, musisz zaimportować niezbędne przestrzenie nazw do swojego kodu C#. Oto jak możesz to zrobić:
 
@@ -75,13 +75,13 @@ Określa kolor czasu wolnego na wykresie Gantta.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Określ, czy słupki na wykresie Gantta muszą być zwinięte.
+Określa, czy słupki na wykresie Gantta muszą być zwinięte.
 ### Pokaż podziały słupków
 ```csharp
 view.ShowBarSplits = true;
 ```
 Określa, czy na wykresie Gantta muszą być pokazywane podziały zadań.
-### pokaż rysunki
+### Pokaż rysunki
 ```csharp
 view.ShowDrawings = true;
 ```
@@ -97,7 +97,7 @@ project.Save(DataDir + "WorkWithGanttChartViews_out.pdf", SaveFileFormat.Pdf);
 ```
 Na koniec zapisujemy dostosowany widok wykresu Gantta jako plik PDF.
 ## Wniosek
-tym samouczku nauczyliśmy się, jak pracować z widokami wykresów Gantta w Aspose.Tasks dla .NET. Postępując zgodnie z podanymi krokami, możesz efektywnie manipulować wykresami Gantta i dostosowywać je zgodnie z wymaganiami projektu.
+W tym samouczku nauczyliśmy się, jak pracować z widokami wykresów Gantta w Aspose.Tasks dla .NET. Postępując zgodnie z podanymi krokami, możesz efektywnie manipulować wykresami Gantta i dostosowywać je zgodnie z wymaganiami projektu.
 ## Często zadawane pytania
 ### P: Czy mogę bardziej dostosować wygląd pasków wykresu Gantta?
 O: Tak, Aspose.Tasks zapewnia rozbudowane opcje dostosowywania wyglądu słupków wykresu Gantta, w tym kolorów, kształtów i rozmiarów.

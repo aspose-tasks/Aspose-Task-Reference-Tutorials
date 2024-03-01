@@ -1,6 +1,6 @@
 ---
-title: กำหนดค่าระดับไทม์สเกลแผนภูมิแกนต์ใน Aspose.Tasks
-linktitle: กำหนดค่าระดับมาตราส่วนเวลาใน Aspose.Tasks
+title: การกำหนดค่าระดับไทม์สเกลแผนภูมิแกนต์ใน Aspose.Tasks
+linktitle: การกำหนดค่าระดับไทม์สเกลใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: สำรวจ Aspose.Tasks สำหรับ .NET เพื่อกำหนดค่าระดับมาตราส่วนเวลาในมุมมองแผนภูมิ Gantt ของคุณเพื่อการแสดงภาพไทม์ไลน์ของโปรเจ็กต์ที่แม่นยำ #Aspose.Tasks #โครงการ MS
 type: docs
@@ -12,7 +12,7 @@ url: /th/net/text-view-configuration/timescale-tiers/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 - ความรู้พื้นฐานเกี่ยวกับ C# และ .NET
-- ติดตั้ง Aspose.Tasks สำหรับไลบรารี .NET แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/tasks/net/).
+-  ติดตั้ง Aspose.Tasks สำหรับไลบรารี .NET แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/tasks/net/).
 - สภาพแวดล้อมการพัฒนาที่ตั้งค่าไว้สำหรับการพัฒนาแอปพลิเคชัน .NET
 ## นำเข้าเนมสเปซ
 ```csharp
@@ -23,7 +23,7 @@ url: /th/net/text-view-configuration/timescale-tiers/
     using Aspose.Tasks.Visualization;
 ```
 ตอนนี้ เรามาดูรายละเอียดแต่ละขั้นตอนของตัวอย่างที่ให้ไว้กัน
-## ขั้นตอนที่ 1: เริ่มต้นโครงการและเพิ่มลิงก์งาน
+## ขั้นตอนที่ 1: เริ่มต้นโครงการและเพิ่มลิงค์งาน
 ```csharp
 // พาธไปยังไดเร็กทอรีเอกสารth
 String DataDir = "Your Document Directory";

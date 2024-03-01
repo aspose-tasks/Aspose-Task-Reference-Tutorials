@@ -1,6 +1,6 @@
 ---
 title: การเรียนรู้มุมมองการใช้งานใน Aspose.Tasks สำหรับ .NET
-linktitle: กำหนดค่ามุมมองการใช้งานใน Aspose.Tasks
+linktitle: การกำหนดค่ามุมมองการใช้งานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: สำรวจ Aspose.Tasks สำหรับ .NET และเรียนรู้วิธีกำหนดค่ามุมมองการใช้งาน ปรับแต่งการตั้งค่ามาตราส่วนเวลาและปรับปรุงภาพการจัดการโครงการของคุณ
 type: docs

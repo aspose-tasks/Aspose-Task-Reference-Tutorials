@@ -69,7 +69,7 @@ Cancella i criteri di gruppo esistenti se non è di sola lettura.
 group.GroupCriteria.Clear();
 ```
 
-## Passaggio 5: aggiungi nuovi criteri
+## Passaggio 5: aggiungi un nuovo criterio
 
 Crea un nuovo criterio di gruppo e aggiungilo al gruppo.
 
@@ -103,7 +103,7 @@ foreach (var criterion in criteria)
 
 ### Conclusione
 
-In questo tutorial, abbiamo imparato come gestire la raccolta Group Criterion MS Project utilizzando Aspose.Tasks per .NET. Seguendo questi passaggi è possibile manipolare in modo efficace i criteri di gruppo all'interno dei file di Microsoft Project a livello di programmazione.
+In questo tutorial, abbiamo imparato come gestire la raccolta Group Criterion MS Project utilizzando Aspose.Tasks per .NET. Seguendo questi passaggi è possibile manipolare in modo efficace i criteri di gruppo all'interno dei file di Microsoft Project a livello di codice.
 
 ## Domande frequenti
 
@@ -125,4 +125,4 @@ R: Assolutamente, puoi aggiungere più criteri a un gruppo scorrendoli ciascuno 
 
 ### Q5: Come posso ottenere supporto in caso di problemi?
 
- R: Se hai domande o riscontri problemi, puoi chiedere supporto al forum Aspose.Tasks.[Qui](https://forum.aspose.com/c/tasks/15).
+ R: Se hai domande o riscontri problemi, puoi chiedere supporto al forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).

@@ -1,6 +1,6 @@
 ---
 title: Beherrschen der Arbeitswochenkonfiguration in Aspose.Tasks
-linktitle: Konfigurieren Sie Arbeitswochen in Aspose.Tasks
+linktitle: Konfigurieren von Arbeitswochen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Arbeitswochen mühelos in Aspose.Tasks für .NET konfigurieren. Verbessern Sie die Projektplanung und das Ressourcenmanagement mit unserer Schritt-für-Schritt-Anleitung.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks での MS Project ページ ビュー設定のカスタマイズ
-linktitle: Aspose.Tasks でページ ビュー設定を構成する
+linktitle: Aspose.Tasks でのページ ビュー設定の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でページ ビュー設定を構成し、Microsoft Project ドキュメントの印刷形式を調整する方法を学びます。
 type: docs

@@ -13,7 +13,7 @@ Gérer efficacement des projets implique souvent de visualiser les délais et le
 Avant de commencer, assurez-vous d'avoir configuré les conditions préalables suivantes :
 ### 1. Installez Aspose.Tasks pour .NET
 Pour travailler avec Aspose.Tasks pour .NET, vous devez l'installer dans votre environnement de développement. Vous pouvez télécharger la bibliothèque à partir du[site web](https://releases.aspose.com/tasks/net/) ou via des gestionnaires de packages comme NuGet.
-### 2.Environnement de développement
+### 2. Environnement de développement
 Assurez-vous d'avoir un environnement de développement .NET configuré sur votre ordinateur. Vous pouvez utiliser Visual Studio ou tout autre IDE .NET de votre choix.
 ## Importer des espaces de noms
 Avant de plonger dans le code, importons les espaces de noms nécessaires pour accéder aux fonctionnalités d'Aspose.Tasks.

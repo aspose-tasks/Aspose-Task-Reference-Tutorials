@@ -75,10 +75,10 @@ Na závěr, Aspose.Tasks for .NET poskytuje robustní řešení pro práci s pro
 ### Mohu mít více vlastních pracovních týdnů v jednom projektu?
 Ano, do kalendáře projektu můžete přidat více vlastních pracovních týdnů.
 ### Jak mohu upravit stávající pracovní týdny?
- Použijte poskytnuté`WorkWeek` vlastnosti a metody pro úpravu stávajících pracovních týdnů.
+ Použijte poskytnuté`WorkWeek`vlastnosti a metody pro úpravu stávajících pracovních týdnů.
 ### Je Aspose.Tasks kompatibilní s .NET Core?
 Ano, Aspose.Tasks podporuje .NET Core.
 ### Mohu exportovat projekt s vlastními pracovními týdny do formátu souboru Microsoft Project?
 Rozhodně vám Aspose.Tasks umožňuje uložit váš projekt v různých formátech, včetně Microsoft Project.
 ### Kde mohu hledat podporu pro dotazy související s Aspose.Tasks?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za jakoukoli podporu nebo pomoc.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za jakoukoli podporu nebo pomoc.

@@ -14,7 +14,7 @@ Você está pronto para levar suas habilidades em Aspose.Tasks for .NET para o p
 
 ## Lidando com salvamento de imagens em Aspose.Tasks
 
-Aprenda a arte de salvar imagens no Aspose.Tasks for .NET com nossas diretrizes passo a passo. Integre perfeitamente a funcionalidade de salvamento de imagens em seus aplicativos .NET, aprimorando a representação visual dos dados do seu projeto.[Consulte Mais informação](./image-saving/)
+ Aprenda a arte de salvar imagens no Aspose.Tasks for .NET com nossas diretrizes passo a passo. Integre perfeitamente a funcionalidade de salvamento de imagens em seus aplicativos .NET, aprimorando a representação visual dos dados do seu projeto.[Consulte Mais informação](./image-saving/)
 
 ## Lidando com exceção de senha inválida em Aspose.Tasks
 
@@ -22,11 +22,11 @@ Aprenda a arte de salvar imagens no Aspose.Tasks for .NET com nossas diretrizes 
 
 ## Implementando retorno de chamada para salvar página em Aspose.Tasks
 
- Libere o potencial do manuseio personalizado para fluxos de saída de documentos com várias páginas. Aprenda como implementar um retorno de chamada para salvar página em Aspose.Tasks for .NET, fornecendo controle sobre a apresentação dos dados do seu projeto.[Consulte Mais informação](./page-saving-callback/)
+Libere o potencial do manuseio personalizado para fluxos de saída de documentos com várias páginas. Aprenda como implementar um retorno de chamada para salvar página em Aspose.Tasks for .NET, fornecendo controle sobre a apresentação dos dados do seu projeto.[Consulte Mais informação](./page-saving-callback/)
 
 ## Usando algoritmo de árvore em Aspose.Tasks
 
-Manipule efetivamente hierarquias de tarefas em seus projetos .NET usando o algoritmo de árvore Aspose.Tasks. Este tutorial permite otimizar estruturas de projetos, garantindo um fluxo de trabalho organizado e contínuo.[Consulte Mais informação](./tree-algorithm/)
+ Manipule efetivamente hierarquias de tarefas em seus projetos .NET usando o algoritmo de árvore Aspose.Tasks. Este tutorial permite otimizar estruturas de projetos, garantindo um fluxo de trabalho organizado e contínuo.[Consulte Mais informação](./tree-algorithm/)
 
 ## Exibindo rótulos em Aspose.Tasks
 
@@ -38,11 +38,11 @@ Manipule efetivamente hierarquias de tarefas em seus projetos .NET usando o algo
 
 ## Lidando com padrões de recorrência mensal em Aspose.Tasks
 
- Domine a arte de lidar com padrões de recorrência mensal em Aspose.Tasks for .NET. Este tutorial fornece um guia passo a passo para gerenciar com eficiência tarefas recorrentes em seus projetos.[Consulte Mais informação](./monthly-recurrence-patterns/)
+Domine a arte de lidar com padrões de recorrência mensal em Aspose.Tasks for .NET. Este tutorial fornece um guia passo a passo para gerenciar com eficiência tarefas recorrentes em seus projetos.[Consulte Mais informação](./monthly-recurrence-patterns/)
 
 ## Configurações para banco de dados do Microsoft Project em Aspose.Tasks
 
-Defina as configurações do banco de dados do Microsoft Project perfeitamente com Aspose.Tasks for .NET. Integre dados de projetos em seus aplicativos .NET sem esforço, otimizando seus recursos de gerenciamento de projetos.[Consulte Mais informação](./msp-database-settings/)
+ Defina as configurações do banco de dados do Microsoft Project perfeitamente com Aspose.Tasks for .NET. Integre dados de projetos em seus aplicativos .NET sem esforço, otimizando seus recursos de gerenciamento de projetos.[Consulte Mais informação](./msp-database-settings/)
 
 ## Trabalhando com operação NOT em Aspose.Tasks
 
@@ -54,11 +54,11 @@ Defina as configurações do banco de dados do Microsoft Project perfeitamente c
 
 ## Trabalhando com objetos OLE em Aspose.Tasks
 
- Trabalhe eficientemente com objetos OLE em aplicativos .NET usando Aspose.Tasks. Aprimore seus recursos de gerenciamento de projetos dominando a manipulação de objetos OLE, adicionando uma nova dimensão aos documentos do seu projeto.[Consulte Mais informação](./ole-objects/)
+Trabalhe eficientemente com objetos OLE em aplicativos .NET usando Aspose.Tasks. Aprimore seus recursos de gerenciamento de projetos dominando a manipulação de objetos OLE, adicionando uma nova dimensão aos documentos do seu projeto.[Consulte Mais informação](./ole-objects/)
 
 ## Coleção de objetos OLE em Aspose.Tasks
 
-Gerencie objetos OLE em Aspose.Tasks for .NET com este tutorial abrangente. Obtenha experiência no tratamento de arquivos incorporados em documentos de projetos, garantindo uma integração perfeita de objetos OLE em seus projetos.[Consulte Mais informação](./ole-object-collection/)
+ Gerencie objetos OLE em Aspose.Tasks for .NET com este tutorial abrangente. Obtenha experiência no tratamento de arquivos incorporados em documentos de projetos, garantindo uma integração perfeita de objetos OLE em seus projetos.[Consulte Mais informação](./ole-object-collection/)
 ## Tutoriais de conceitos avançados
 ### [Lidando com salvamento de imagens em Aspose.Tasks](./image-saving/)
 Aprenda como salvar imagens em Aspose.Tasks for .NET usando orientações passo a passo. Integre perfeitamente a funcionalidade de salvamento de imagens em seus aplicativos .NET.

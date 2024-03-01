@@ -1,6 +1,6 @@
 ---
 title: Настройка линий сетки в MS Project для Aspose.Tasks
-linktitle: Линии сетки в Aspose.
+linktitle: Линии сетки в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как настроить линии сетки в MS Project с помощью Aspose.Tasks для .NET. Улучшите визуализацию и управление своим проектом с помощью простых шагов.
 type: docs

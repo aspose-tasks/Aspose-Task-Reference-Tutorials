@@ -1,5 +1,5 @@
 ---
-title: Nakonfigurujte možnosti zobrazení MS Project v Aspose.Tasks
+title: Konfigurace možností zobrazení MS Project v Aspose.Tasks
 linktitle: Konfigurace možností zobrazení projektu v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat možnosti zobrazení MS Project programově pomocí Aspose.Tasks pro .NET. Přizpůsobte si vzhled svého projektu bez námahy.
@@ -16,7 +16,7 @@ Než se pustíte do výukového programu, ujistěte se, že máte následující
 3. Základní znalost C#: Vyžaduje se znalost programovacího jazyka C#.
 
 ## Import jmenných prostorů
-Nejprve se ujistěte, že do kódu C# importujete potřebné jmenné prostory:
+Nejprve se ujistěte, že jste do kódu C# importovali potřebné jmenné prostory:
 ```csharp
 using Aspose.Tasks;
 using System;
@@ -30,7 +30,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "YourProjectFile.mpp");
 ```
 ## Krok 2: Nakonfigurujte možnosti zobrazení
-Nyní nakonfigurujeme různé možnosti zobrazení dostupné v MS Project:
+Nyní nakonfigurujme různé možnosti zobrazení dostupné v MS Project:
 ### Zakázat varování plánu úloh
 Chcete-li zakázat upozornění na konflikty plánování s ručně naplánovanými úlohami (k dispozici pro Project 2010 a novější):
 ```csharp
@@ -82,6 +82,6 @@ Odpověď: Ne, tyto možnosti pouze upravují vizuální reprezentaci projektu a
 ### Otázka: Jsou tyto možnosti zobrazení kompatibilní se všemi verzemi aplikace Microsoft Project?
 Odpověď: Ne, některé možnosti mohou být specifické pro určité verze MS Project. Podrobnosti o kompatibilitě naleznete v dokumentaci.
 ### Otázka: Mohu vrátit možnosti zobrazení zpět na výchozí nastavení?
-Odpověď: Ano, možnosti zobrazení můžete resetovat na výchozí hodnoty pomocí Aspose.Tasks API.
+Odpověď: Ano, můžete resetovat možnosti zobrazení na jejich výchozí hodnoty pomocí Aspose.Tasks API.
 ### Otázka: Existují nějaká omezení programového přizpůsobení možností zobrazení?
 Odpověď: Přestože Aspose.Tasks poskytuje rozsáhlé možnosti přizpůsobení, určité možnosti zobrazení nemusí být programově dostupné kvůli omezením ve formátu souboru MS Project.

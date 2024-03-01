@@ -95,7 +95,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 Мы распечатываем количество и подробную информацию о каждом периоде доступности, связанном с ресурсом.
 
-## Шаг 6. Скопируйте периоды доступности в другой ресурс
+## Шаг 6. Скопируйте периоды доступности на другой ресурс
 
 ```csharp
 var periodsToCopy = new AvailabilityPeriod[resource.AvailabilityPeriods.Count];

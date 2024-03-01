@@ -25,7 +25,7 @@ url: /ar/net/advanced-features/built-in-project-property-collection/
 
 ### 3. تثبيت Aspose.Tasks لـ .NET
 
-قم بتنزيل وتثبيت Aspose.Tasks لمكتبة .NET من[موقع إلكتروني](https://releases.aspose.com/tasks/net/).
+ قم بتنزيل وتثبيت Aspose.Tasks لمكتبة .NET من[موقع إلكتروني](https://releases.aspose.com/tasks/net/).
 
 ### 4. الإلمام بمفاهيم إدارة المشاريع
 

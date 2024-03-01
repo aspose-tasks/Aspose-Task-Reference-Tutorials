@@ -24,7 +24,7 @@ Aspose.Tasks for .NET을 사용하여 MS 프로젝트 옵션을 이미지로 저
 
  효율성은 프로젝트 관리의 핵심입니다. .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 옵션을 쉽게 저장하는 방법을 알아보세요. 이 튜토리얼은 프로젝트 관리 효율성을 향상시켜 가장 중요한 것, 즉 성공적인 프로젝트 완료에 집중할 수 있도록 설계되었습니다.[더 읽어보세요](./mpp-save-options/)
 
-.NET용 Aspose.Tasks를 마스터하기 위한 여정을 시작하면 튜토리얼에서 PDF 변환, Project Server와의 통합, 출력 옵션 사용자 정의를 포함한 다양한 저장 옵션을 다룹니다. 귀하가 초보자이든 숙련된 사용자이든 관계없이 당사의 가이드는 귀하의 요구 사항에 맞게 맞춤화되었습니다.
+.NET용 Aspose.Tasks를 마스터하기 위한 여정을 시작하면 튜토리얼에서 PDF 변환, Project Server와의 통합, 출력 옵션 사용자 정의 등 다양한 저장 옵션을 다룹니다. 귀하가 초보자이든 숙련된 사용자이든 관계없이 당사의 가이드는 귀하의 요구 사항에 맞게 맞춤화되었습니다.
 
 더 자세히 알아볼 준비가 되셨나요? 전체 튜토리얼 목록을 확인하세요:
 
@@ -50,6 +50,6 @@ Aspose.Tasks for .NET을 사용하여 Microsoft Project 파일을 템플릿으�
 ### [Aspose.Tasks용 스프레드시트 2003 옵션이 포함된 MS 프로젝트](./spreadsheet-2003-save-options/)
 마스터 스프레드시트 2003 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 옵션을 저장합니다. 프로그래밍 방식으로 MS 프로젝트 파일을 원활하게 사용자 정의하고 저장합니다.
 ### [Aspose.Tasks를 위한 간편한 SVG 생성](./svg-options/)
-향상된 프로젝트 시각화를 위해 Aspose.Tasks for .NET을 활용하여 Microsoft Project 파일의 SVG 표현을 손쉽게 생성하는 방법을 알아보세요.
+향상된 프로젝트 시각화를 위해 Aspose.Tasks for .NET을 활용하여 Microsoft Project 파일의 SVG 표현을 쉽게 생성하는 방법을 알아보세요.
 ### [Aspose.Tasks를 사용하여 MSP를 XPS 옵션으로 변환](./xps-options/)
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일을 XPS 형식으로 변환하는 방법을 알아보세요. 간편한 통합, 강력한 기능.

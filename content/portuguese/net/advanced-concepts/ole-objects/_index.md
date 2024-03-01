@@ -15,7 +15,7 @@ Aspose.Tasks for .NET fornece funcionalidade abrangente para trabalhar com objet
 
 Antes de começarmos, certifique-se de ter os seguintes pré-requisitos em vigor:
 
-1. Instalação: Certifique-se de ter o Aspose.Tasks for .NET instalado em seu ambiente de desenvolvimento. Você pode baixá-lo em[aqui](https://releases.aspose.com/tasks/net/).
+1.  Instalação: Certifique-se de ter o Aspose.Tasks for .NET instalado em seu ambiente de desenvolvimento. Você pode baixá-lo em[aqui](https://releases.aspose.com/tasks/net/).
 
 2. Conhecimento básico: familiarize-se com a linguagem de programação C# e os conceitos do .NET framework.
 

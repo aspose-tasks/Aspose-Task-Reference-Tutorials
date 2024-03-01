@@ -29,7 +29,7 @@ string DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineValues2010.mpp");
 ```
 ## Étape 2 : Effacer les valeurs de plan existantes
-Ensuite, supprimez toutes les valeurs de plan existantes du projet :
+Ensuite, effacez toutes les valeurs de plan existantes du projet :
 ```csharp
 foreach (var outlineCode in project.OutlineCodes)
 {
@@ -104,7 +104,7 @@ R : Oui, vous pouvez définir et manipuler plusieurs codes hiérarchiques au sei
 R : Oui, Aspose.Tasks prend en charge différentes versions de fichiers Microsoft Project, notamment les formats MPP et XML.
 ### Q : Comment puis-je gérer les erreurs lorsque je travaille avec des valeurs hiérarchiques ?
 R : Vous pouvez implémenter des mécanismes de gestion des erreurs tels que des blocs try-catch pour gérer les exceptions avec élégance.
-### Q : Puis-je personnaliser l'apparence des valeurs de plan dans mon projet ?
+### Q : Puis-je personnaliser l’apparence des valeurs de plan dans mon projet ?
 R : Oui, Aspose.Tasks fournit des API complètes pour personnaliser l'apparence et le comportement des valeurs de plan en fonction de vos besoins.
 ### Q : Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Tasks ?
  R : Vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour obtenir le soutien de la communauté et explorer les[Documentation](https://reference.aspose.com/tasks/net/) pour des informations détaillées sur les API et les fonctionnalités.

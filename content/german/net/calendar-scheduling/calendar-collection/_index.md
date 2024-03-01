@@ -151,7 +151,7 @@ A2: Absolut, Aspose.Tasks unterstützt den Import von Kalendern aus Microsoft Pr
 
 ### F3: Wie kann ich einen bestimmten Kalender aus einem Projekt entfernen?
 
-A3: Sie können einen Kalender entfernen, indem Sie ihn aus der Sammlung abrufen und dann den aufrufen`Remove` Methode.
+ A3: Sie können einen Kalender entfernen, indem Sie ihn aus der Sammlung abrufen und dann den aufrufen`Remove` Methode.
 
 ### F4: Unterstützt Aspose.Tasks den Export von Kalendern in verschiedene Formate?
 

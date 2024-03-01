@@ -60,8 +60,8 @@ Aspose.Tasks for .NET을 사용하여 Microsoft Project 개요 코드를 수집�
 ### [Aspose.Tasks의 윤곽선 마스크 컬렉션](./outline-mask-collection/)
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 컬렉션 개요 마스크를 조작하는 방법을 알아보세요. 이 포괄적인 튜토리얼을 통해 생산성을 향상하세요.
 ### [Aspose.Tasks로 MS 프로젝트 개요 값 마스터하기](./outline-values/)
-Aspose.Tasks for .NET을 사용하여 MS 프로젝트 개요 값을 효율적으로 관리하는 방법을 알아보세요. 프로젝트 개요를 쉽게 사용자 정의하세요.
-### [Aspose.Tasks의 개요 값 수집](./outline-value-collection/)
+.NET용 Aspose.Tasks를 사용하여 MS 프로젝트 개요 값을 효율적으로 관리하는 방법을 알아보세요. 프로젝트 개요를 쉽게 사용자 정의하세요.
+### [Aspose.Tasks의 개요 값 컬렉션](./outline-value-collection/)
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일의 개요 값을 관리하는 방법을 알아보세요. 코드 예제가 포함된 단계별 튜토리얼입니다.
 ### [Aspose.Tasks에서 페이지 범례 구성](./page-legend/)
 효율적인 프로젝트 관리를 위해 Aspose.Tasks를 사용하여 .NET에서 MS 프로젝트 페이지 범례를 구성하는 방법을 알아보세요. 단계별 가이드가 제공됩니다.

@@ -75,8 +75,8 @@ R: Aspose.Tasks concentra-se principalmente em arquivos do Microsoft Project; en
 ### P: Como posso solucionar problemas com a personalização de colunas de visualização?
  R: Visite o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pelo apoio e assistência da comunidade em quaisquer desafios que você encontrar.
 ### P: Existe uma versão de teste disponível antes de comprar o Aspose.Tasks?
-R: Sim, você pode baixar uma versão de avaliação gratuita em[aqui](https://releases.aspose.com/).
+ R: Sim, você pode baixar uma versão de avaliação gratuita em[aqui](https://releases.aspose.com/).
 ###  P: Qual é o significado do`MyTextStyleCallback` class in the tutorial?
- R: O`MyTextStyleCallback` A aula demonstra como personalizar estilos de texto para melhorar a representação visual em visualizações específicas.
+ R: O`MyTextStyleCallback` classe demonstra como personalizar estilos de texto para melhorar a representação visual em visualizações específicas.
 ### P: Onde posso encontrar recursos e documentação adicionais para Aspose.Tasks?
  R: Consulte o[Documentação Aspose.Tasks](https://reference.aspose.com/tasks/net/) para orientação e recursos detalhados.

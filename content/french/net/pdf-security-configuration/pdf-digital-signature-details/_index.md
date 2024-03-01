@@ -1,6 +1,6 @@
 ---
 title: Configurer la signature numérique MS Project PDF avec Aspose.Tasks
-linktitle: Configurer les détails de la signature numérique PDF dans Aspose.Tasks
+linktitle: Configuration des détails de la signature numérique PDF dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les détails de la signature numérique Microsoft Project PDF à l'aide d'Aspose.Tasks pour .NET. Assurez la sécurité et l’authenticité de vos fichiers de projet.
 type: docs
@@ -75,7 +75,7 @@ project.Save(DataDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
 Toutes nos félicitations! Vous avez configuré avec succès les détails de la signature numérique Microsoft Project PDF à l'aide d'Aspose.Tasks pour .NET. En suivant ces étapes, vous pouvez garantir la sécurité et l'authenticité de vos fichiers MS Project.
 ## FAQ
 ### Q : Puis-je utiliser un certificat auto-signé pour la signature numérique ?
-R : Oui, vous pouvez utiliser un certificat auto-signé à des fins de test. Toutefois, pour les environnements de production, il est recommandé d'utiliser un certificat de confiance émis par une autorité de certification.
+: Oui, vous pouvez utiliser un certificat auto-signé à des fins de test. Toutefois, pour les environnements de production, il est recommandé d'utiliser un certificat de confiance émis par une autorité de certification.
 ### Q : Aspose.Tasks prend-il en charge d'autres algorithmes de hachage pour la signature numérique ?
 R : Oui, Aspose.Tasks prend en charge divers algorithmes de hachage pour la signature numérique, notamment SHA-1, SHA-256 et SHA-512.
 ### Q : Puis-je personnaliser l’apparence de la signature numérique dans le PDF ?
@@ -83,4 +83,4 @@ R : Oui, vous pouvez personnaliser l'apparence de la signature numérique, notam
 ### Q : Est-il possible de supprimer ou de mettre à jour une signature numérique une fois qu'elle est appliquée ?
 R : Non, une fois qu'une signature numérique est appliquée à un PDF, elle ne peut pas être supprimée ou mise à jour. Cependant, vous pouvez ajouter des signatures supplémentaires si nécessaire.
 ### Q : Existe-t-il des limitations quant à la taille ou à la complexité du fichier Microsoft Project ?
-R : Aspose.Tasks peut gérer des fichiers Microsoft Project de différentes tailles et complexités sans limitations. Cependant, les performances peuvent varier en fonction du matériel et des ressources disponibles.
+: Aspose.Tasks peut gérer des fichiers Microsoft Project de différentes tailles et complexités sans limitations. Cependant, les performances peuvent varier en fonction du matériel et des ressources disponibles.

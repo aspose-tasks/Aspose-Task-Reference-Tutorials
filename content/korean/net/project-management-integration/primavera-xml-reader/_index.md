@@ -51,7 +51,7 @@ foreach (var projectUid in projectUids)
 ### Q: Aspose.Tasks가 복잡한 프로젝트 구조를 처리할 수 있나요?
 A: 예, Aspose.Tasks는 다양한 프로젝트 구조와 복잡성을 효과적으로 처리할 수 있는 강력한 기능을 제공합니다.
 ### Q: Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
-A: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+ A: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 대한 지원은 어떻게 받을 수 있나요?
  A: Aspose.Tasks 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks의 임시 라이선스를 구매할 수 있나요?

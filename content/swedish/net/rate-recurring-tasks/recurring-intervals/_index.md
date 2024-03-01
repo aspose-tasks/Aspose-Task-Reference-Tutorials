@@ -32,7 +32,7 @@ Låt oss nu dela upp varje exempel i flera steg och förklara dem i detalj.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Här initierar vi en ny instans av`Project` klass genom att ange sökvägen till Microsoft Project-filen.
+ Här initierar vi en ny instans av`Project` klass genom att ange sökvägen till Microsoft Project-filen.
 ## Steg 2: Ställ in statusdatum:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

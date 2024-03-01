@@ -11,7 +11,7 @@ url: /ar/net/task-table-management/managing-tasks/
 إذا كنت مطور .NET وتتطلع إلى إدارة المهام داخل مشاريعك بكفاءة، فإن Aspose.Tasks for .NET يوفر حلاً قويًا. سيرشدك هذا البرنامج التعليمي عبر الجوانب المختلفة لإدارة المهام باستخدام Aspose.Tasks، ويقدم إرشادات خطوة بخطوة وأمثلة على التعليمات البرمجية. سواء كنت تضيف مهام، أو تعرض أجزاء مقسمة، أو تنقل المهام ضمن نفس الأصل، أو تحصل على/تعيين خصائص المهمة، أو تتكرر تعيينات المهام، أو تقرأ الخطوط الأساسية للمهام، أو تحذف المهام، فإن هذا الدليل يوفر لك كل ما تحتاجه.
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-1.  Aspose.Tasks لمكتبة .NET: تأكد من تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks لمكتبة .NET: تأكد من تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
 2. دليل المستندات: قم بإعداد دليل حيث سيتم تخزين مستندات مشروعك.
 ## استيراد مساحات الأسماء
 في مشروع .NET الخاص بك، قم بتضمين مساحات الأسماء الضرورية للعمل مع Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // قم بتحميل مشروع بمهام مقسمة
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//الوصول إلى مهمة
+// الوصول إلى مهمة
 var task = project.RootTask.Children.GetById(4);
 // عرض الأجزاء المقسمة
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // أضف مهمة
 var task = project.RootTask.Children.Add("Task");
-// عرض عدد المهام قبل وبعد الحذف
+//عرض عدد المهام قبل وبعد الحذف
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // احذف المهمة
 task.Delete();

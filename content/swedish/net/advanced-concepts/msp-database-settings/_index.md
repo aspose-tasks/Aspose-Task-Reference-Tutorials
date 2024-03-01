@@ -86,7 +86,7 @@ S1: Ja, Aspose.Tasks stöder olika versioner av Microsoft Project-databaser, vil
 
 ### F2: Hur kan jag felsöka anslutningsproblem med databasen?
 
-S2: Se till att din anslutningssträng är korrekt konfigurerad med lämpliga referenser och databasdetaljer. Du kan också hänvisa till dokumentationen eller söka stöd från[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+ S2: Se till att din anslutningssträng är korrekt konfigurerad med lämpliga referenser och databasdetaljer. Du kan också hänvisa till dokumentationen eller söka stöd från[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 ### F3: Finns det en testversion tillgänglig för Aspose.Tasks?
 

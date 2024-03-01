@@ -12,7 +12,7 @@ Proje yönetiminin dinamik ortamında, zaman çizelgelerini ve son teslim tarihl
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - Temel C# ve .NET bilgisi.
-- Aspose.Tasks for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
 - .NET uygulama geliştirme için kurulmuş bir geliştirme ortamı.
 ## Ad Alanlarını İçe Aktar
 ```csharp

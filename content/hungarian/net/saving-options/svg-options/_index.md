@@ -2,7 +2,7 @@
 title: Könnyű SVG-generálás az Aspose.Tasks-hoz
 linktitle: Az Aspose.Tasks SVG-beállításai
 second_title: Aspose.Tasks .NET API
-description: Ismerje meg, hogyan használhatja az Aspose.Tasks for .NET-et Microsoft Project-fájlok SVG-reprezentációinak egyszerű létrehozásához a továbbfejlesztett projektvizualizáció érdekében.
+description: Tanulja meg, hogyan használhatja az Aspose.Tasks for .NET-et Microsoft Project-fájlok SVG-reprezentációinak egyszerű létrehozásához a továbbfejlesztett projektvizualizáció érdekében.
 type: docs
 weight: 20
 url: /hu/net/saving-options/svg-options/
@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## 1. lépés: Határozza meg a dokumentumkönyvtárat
-Győződjön meg arról, hogy rendelkezik egy kijelölt könyvtárral a dokumentumok számára. cserélje ki`"Your Document Directory"` a kívánt könyvtár elérési útjával.
+ Győződjön meg arról, hogy rendelkezik egy kijelölt könyvtárral a dokumentumok számára. Cserélje ki`"Your Document Directory"` a kívánt könyvtár elérési útjával.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## 2. lépés: Töltse be a projektfájlt
- Töltse be a Microsoft Project fájlt (.mpp) a`Project` osztály.
+Töltse be a Microsoft Project fájlt (.mpp) a`Project` osztály.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

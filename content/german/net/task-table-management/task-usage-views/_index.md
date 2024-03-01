@@ -1,6 +1,6 @@
 ---
 title: Beherrschen der Aufgabennutzungsansichten in Aspose.Tasks für .NET
-linktitle: Konfigurieren Sie Aufgabennutzungsansichten in Aspose.Tasks
+linktitle: Konfigurieren von Aufgabenverwendungsansichten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie Aspose.Tasks für .NET und erfahren Sie, wie Sie Aufgabennutzungsansichten konfigurieren. Passen Sie die Zeitskaleneinstellungen an und verbessern Sie die visuelle Darstellung Ihres Projektmanagements.
 type: docs
@@ -23,7 +23,7 @@ Importieren Sie in Ihrem .NET-Projekt die erforderlichen Namespaces, um auf die 
     using Aspose.Tasks.Visualization;
 ```
 ## Schritt 1: Legen Sie den Dokumentverzeichnispfad fest
- Bevor Sie mit den Aspose.Tasks-Funktionen arbeiten, legen Sie den Pfad zu Ihrem Dokumentenverzeichnis fest. ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad.
+ Bevor Sie mit den Aspose.Tasks-Funktionen arbeiten, legen Sie den Pfad zu Ihrem Dokumentenverzeichnis fest. Ersetzen`"Your Document Directory"` mit dem tatsächlichen Pfad.
 ```csharp
 String DataDir = "Your Document Directory";
 ```

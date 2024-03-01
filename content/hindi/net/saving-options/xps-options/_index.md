@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks के साथ एमएसपी को एक्सपीएस विकल्पों में बदलें
-linktitle: Aspose के लिए XPS विकल्प। कार्य
+linktitle: Aspose.Tasks के लिए XPS विकल्प
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइलों को XPS प्रारूप में परिवर्तित करना सीखें। आसान एकीकरण, मजबूत कार्यक्षमता।
 type: docs
@@ -34,13 +34,13 @@ var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
  यहां, हम एक नया प्रारंभ करते हैं`Project` एमएसपी दस्तावेज़ का पथ पारित करके आपत्ति करें।
 ## चरण 3: एक्सपीएस सेव विकल्प बनाएं
 ```csharp
-// XPS सेव विकल्प बनाएं और पैरामीटर समायोजित करें
+// एक्सपीएस सेव विकल्प बनाएं और पैरामीटर्स को ट्यून करें
 var options = new XpsOptions
 {
     RenderMetafileAsBitmap = true
 };
 ```
- इस चरण में, हम त्वरित करते हैं`XpsOptions`और पैरामीटर कॉन्फ़िगर करें. सेटिंग`RenderMetafileAsBitmap` को`true` मेटाफ़ाइल्स का उचित प्रतिपादन सुनिश्चित करता है।
+ इस चरण में, हम त्वरित करते हैं`XpsOptions`और पैरामीटर कॉन्फ़िगर करें। सेटिंग`RenderMetafileAsBitmap` को`true` मेटाफ़ाइल्स का उचित प्रतिपादन सुनिश्चित करता है।
 ## चरण 4: दस्तावेज़ को XPS के रूप में सहेजें
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
@@ -59,4 +59,4 @@ project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ### प्रश्न: क्या मैं आउटपुट फ़ाइल के लिए रेंडरिंग विकल्पों को अनुकूलित कर सकता हूँ?
 उत्तर: बिल्कुल, .NET के लिए Aspose.Tasks आपकी आवश्यकताओं के अनुसार रेंडरिंग मापदंडों को अनुकूलित करने के लिए व्यापक विकल्प प्रदान करता है।
 ### प्रश्न: मुझे .NET के लिए Aspose.Tasks के लिए अतिरिक्त समर्थन या सहायता कहां मिल सकती है?
- उत्तर: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) Aspose से संबंधित किसी भी प्रश्न या सहायता के लिए। .NET के लिए कार्य।
+ उत्तर: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) .NET के लिए Aspose.Tasks के संबंध में किसी भी प्रश्न या सहायता के लिए।

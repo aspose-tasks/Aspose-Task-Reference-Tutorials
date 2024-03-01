@@ -1,6 +1,6 @@
 ---
 title: การเรียนรู้ค่าโครงร่างโครงการ MS ด้วย Aspose.Tasks
-linktitle: การจัดการค่าโครงร่างใน Aspose.Tasks
+linktitle: การจัดการค่าเค้าร่างใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีจัดการค่าเค้าร่างของ MS Project อย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks สำหรับ .NET ปรับแต่งโครงร่างโครงการได้อย่างง่ายดาย
 type: docs
@@ -47,7 +47,7 @@ mask.Type = MaskType.Characters;
 outline.Masks.Add(mask);
 ```
 ขั้นตอนนี้ตั้งค่า OutlineMask สำหรับคำจำกัดความของโค้ดโครงร่าง
-## ขั้นตอนที่ 4: สร้างค่าโครงร่าง
+## ขั้นตอนที่ 4: สร้างค่าเค้าร่าง
 ```csharp
 var value = new OutlineValue();
 value.Value = "Text value 1";
@@ -73,6 +73,6 @@ outline2.Values.Add(value2);
 ### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้อย่างไร
  ตอบ: สำหรับการสนับสนุนและความช่วยเหลือ คุณสามารถไปที่ฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
 ### ถาม: ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้หรือไม่
- ตอบ: ได้ คุณสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ตอบ: ได้ คุณสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.Tasks ได้ที่ไหน
  ตอบ: คุณสามารถดูเอกสารประกอบที่มีอยู่ได้[ที่นี่](https://reference.aspose.com/tasks/net/).

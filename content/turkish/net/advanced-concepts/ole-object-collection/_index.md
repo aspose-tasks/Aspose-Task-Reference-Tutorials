@@ -80,7 +80,7 @@ Sonuç olarak, Aspose.Tasks for .NET'te OLE nesnelerini yönetmek, proje belgele
 
 ### S1: OLE nesnesi nedir?
 
-Cevap1: Bir OLE (Nesne Bağlama ve Katıştırma) nesnesi, bir belge içindeki diğer uygulamalardan dosyaların eklenmesini veya bağlantılandırılmasını sağlayan bir teknolojidir.
+Cevap1: Bir OLE (Nesne Bağlama ve Gömme) nesnesi, bir belge içindeki diğer uygulamalardan dosyaların gömülmesini veya bağlanmasını sağlayan bir teknolojidir.
 
 ### S2: Aspose.Tasks for .NET'i nasıl yüklerim?
 

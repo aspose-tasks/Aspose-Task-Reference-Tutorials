@@ -11,7 +11,7 @@ url: /tr/net/resource-risk-analysis/risk-item-statistics/
 Aspose.Tasks for .NET'i kullanarak proje yönetimi becerilerinizi geliştirmek mi istiyorsunuz? MS Project dosyalarındaki risk öğelerine ilişkin istatistiklerin elde edilmesine ilişkin adım adım eğitimimizle risk analizi alanına adım atın. Aspose.Tasks'ın güçlü yeteneklerinden yararlanarak proje belirsizlikleri hakkında paha biçilmez bilgiler edinebilir ve riskleri etkili bir şekilde azaltmak için bilinçli kararlar alabilirsiniz.
 ## Önkoşullar
 Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
-1.  Aspose.Tasks for .NET Library: Kütüphaneyi şuradan indirip yükleyin:[Aspose.Tasks for .NET belgeleri](https://reference.aspose.com/tasks/net/), Bu kitaplık, MS Project dosyalarını programlı olarak işlemek için sizi güçlü araçlarla donatır.
+1.  Aspose.Tasks for .NET Library: Kütüphaneyi şuradan indirip yükleyin:[Aspose.Tasks for .NET belgeleri](https://reference.aspose.com/tasks/net/). Bu kitaplık, MS Project dosyalarını programlı olarak işlemek için sizi güçlü araçlarla donatır.
 2. .NET Geliştirme Ortamı: Aspose.Tasks'ın projelerinize kusursuz entegrasyonunu kolaylaştırmak için Visual Studio veya seçtiğiniz herhangi bir IDE dahil .NET geliştirme ortamınızı kurun.
 
 ## Ad Alanlarını İçe Aktar
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- Değiştirildiğinden emin olun`"Your Document Directory"`MS Project dosyalarınızın bulunduğu belge dizininizin yolu ile birlikte.
+ Değiştirildiğinden emin olun`"Your Document Directory"` MS Project dosyalarınızın bulunduğu belge dizininizin yolu ile birlikte.
 ## Adım 2: Risk Analizi Ayarlarını Yapılandırın
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- Ayarlayın`IterationsCount` Risk analizinin hassasiyetini kontrol etmek için proje gereksinimlerinize dayalı parametre.
+ Ayarlayın`IterationsCount`Risk analizinin hassasiyetini kontrol etmek için proje gereksinimlerinize dayalı parametre.
 ## Adım 3: MS Proje Dosyasını Yükleyin
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

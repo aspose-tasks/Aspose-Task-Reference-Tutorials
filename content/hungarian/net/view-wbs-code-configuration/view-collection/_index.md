@@ -14,7 +14,7 @@ Mielőtt nekivágnánk ennek az útnak, győződjön meg arról, hogy a követke
 -  Aspose.Tasks Library: Töltse le és telepítse az Aspose.Tasks könyvtárat innen[itt](https://releases.aspose.com/tasks/net/).
 - .NET-keretrendszer: Győződjön meg arról, hogy a .NET-keretrendszer telepítve van a fejlesztőgépen.
 ## Névterek importálása
-kezdéshez importálja a szükséges névtereket a projektbe:
+A kezdéshez importálja a szükséges névtereket a projektbe:
 ```csharp
     using Aspose.Tasks;
     using System;
@@ -90,7 +90,7 @@ Az Aspose.Tasks-t úgy tervezték, hogy kompatibilis legyen a .NET-keretrendszer
 ### Testreszabhatom a Gantt-diagram nézeteinek megjelenését?
 Teljesen! Az Aspose.Tasks kiterjedt lehetőségeket kínál a Gantt-diagram nézetek megjelenésének testreszabására a projekt igényei szerint.
 ### Elérhető az Aspose.Tasks ingyenes próbaverziója?
- Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok közösségi támogatást az Aspose.Tasks-hoz?
  Vegyen részt az Aspose.Tasks közösséggel a[fórum](https://forum.aspose.com/c/tasks/15) bármilyen kérdésért vagy segítségért.
 ### Rendelkezésre állnak ideiglenes licencek az Aspose.Tasks számára?

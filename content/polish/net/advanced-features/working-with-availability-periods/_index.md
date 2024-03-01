@@ -9,7 +9,7 @@ url: /pl/net/advanced-features/working-with-availability-periods/
 ---
 ## Wstęp
 
-tym samouczku omówimy, jak pracować z okresami dostępności w Aspose.Tasks dla .NET. Okresy dostępności są kluczowe dla efektywnego zarządzania zasobami w scenariuszach zarządzania projektami. Krok po kroku przeprowadzimy Cię przez proces.
+W tym samouczku omówimy, jak pracować z okresami dostępności w Aspose.Tasks dla .NET. Okresy dostępności są kluczowe dla efektywnego zarządzania zasobami w scenariuszach zarządzania projektami. Krok po kroku przeprowadzimy Cię przez proces.
 
 ## Warunki wstępne
 
@@ -94,7 +94,7 @@ W tym samouczku nauczyliśmy się pracować z okresami dostępności w Aspose.Ta
 
 ### P2: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla .NET?
 
- A2: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks dla .NET[Tutaj](https://releases.aspose.com/).
+A2: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks dla .NET[Tutaj](https://releases.aspose.com/).
 
 ### P3: Gdzie mogę znaleźć dokumentację Aspose.Tasks dla .NET?
 
@@ -102,7 +102,7 @@ W tym samouczku nauczyliśmy się pracować z okresami dostępności w Aspose.Ta
 
 ### P4: Jak mogę uzyskać wsparcie dla Aspose.Tasks dla .NET?
 
- Odpowiedź 4: Możesz uzyskać pomoc na forum społeczności.[Tutaj](https://forum.aspose.com/c/tasks/15).
+ Odpowiedź 4: Możesz uzyskać pomoc na forum społeczności[Tutaj](https://forum.aspose.com/c/tasks/15).
 
 ### P5: Czy oferujecie tymczasowe licencje na Aspose.Tasks dla .NET?
 

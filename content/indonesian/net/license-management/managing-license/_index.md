@@ -13,7 +13,7 @@ Mengelola lisensi adalah aspek penting dalam memanfaatkan Aspose.Tasks dalam apl
 Sebelum kita mendalami pengelolaan lisensi dengan Aspose.Tasks di .NET, pastikan Anda memiliki prasyarat berikut:
 - Pemahaman dasar bahasa pemrograman C# dan framework .NET.
 - Menginstal Aspose.Tasks untuk .NET.
-- Akses ke file lisensi Aspose.Tasks yang valid (`.lic`,
+- Akses ke file lisensi Aspose.Tasks yang valid (`.lic`).
 ## Impor Namespace
 Sebelum Anda dapat mulai menggunakan Aspose.Tasks di proyek .NET, Anda perlu mengimpor namespace yang diperlukan. Namespace ini menyediakan akses ke kelas dan metode yang diperlukan untuk manajemen lisensi.
 

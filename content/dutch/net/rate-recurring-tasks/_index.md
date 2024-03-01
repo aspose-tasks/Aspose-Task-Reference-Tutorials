@@ -19,7 +19,7 @@ Heeft u moeite om de fijne kneepjes van het MS Project-tariefbeheer en terugkere
  In[Beheer MS-projecttarieven met Aspose.Tasks](./rate-collection/), verdiepen we ons in de fijne kneepjes van het beheren van tarieven in MS Project-bestanden. Deze tutorial is uw referentiebron voor het begrijpen van de nuances van het verzamelen van tarieven, biedt praktische inzichten en stelt u in staat de mogelijkheden voor resourcebeheer van uw project te verbeteren.
 
 ## Moeiteloos MS-project Terugkerende intervallen in Aspose.Tasks
- Ontdek de kunst van het moeiteloos beheren van terugkerende intervallen[Moeiteloos MS-project Terugkerende intervallen in Aspose.Tasks](./recurring-intervals/), Deze tutorial leidt u door het proces met Aspose.Tasks voor .NET, zodat u terugkerende taken binnen uw MS Project naadloos kunt afhandelen.
+ Ontdek de kunst van het moeiteloos beheren van terugkerende intervallen[Moeiteloos MS-project Terugkerende intervallen in Aspose.Tasks](./recurring-intervals/). Deze tutorial leidt u door het proces met Aspose.Tasks voor .NET, zodat u terugkerende taken binnen uw MS Project naadloos kunt afhandelen.
 
 ## Informatie over terugkerende taken extraheren in Aspose.Tasks
  Leer de kneepjes van het extraheren van terugkerende taakinformatie uit MS Project-bestanden met[Informatie over terugkerende taken extraheren in Aspose.Tasks](./recurring-task-information/)Deze tutorial biedt eenvoudige integratie voor .NET-ontwikkelaars, zodat u efficiënt kunt werken met terugkerende taken in uw projecten.
@@ -31,13 +31,13 @@ Heeft u moeite om de fijne kneepjes van het MS Project-tariefbeheer en terugkere
  Zeg vaarwel tegen het handmatig verwijderen van taken![MS Project-taken verwijderen met Aspose.Tasks](./removing-tasks/) begeleidt u bij het programmatisch verwijderen van taken met Aspose.Tasks voor .NET. De stapsgewijze handleiding bevat codevoorbeelden voor een naadloze ervaring.
 
 ## Beheers MS-projectrapportage met Aspose.Tasks
- Ontgrendel het volledige potentieel van MS Project-rapportage met[Beheers MS-projectrapportage met Aspose.Tasks](./report-types/), In deze zelfstudie wordt onderzocht hoe u met MS Project-bestanden kunt werken met behulp van Aspose.Tasks voor .NET, zodat u moeiteloos verschillende rapporttypen kunt genereren.
+ Ontgrendel het volledige potentieel van MS Project-rapportage met[Beheers MS-projectrapportage met Aspose.Tasks](./report-types/). In deze zelfstudie wordt onderzocht hoe u met MS Project-bestanden kunt werken met behulp van Aspose.Tasks voor .NET, zodat u moeiteloos verschillende rapporttypen kunt genereren.
 
 ## MS-projectbestanden opslaan in verschillende formaten in Aspose.Tasks
 Efficiënt projectbeheer omvat diverse bestandsformaten.[MS-projectbestanden opslaan in verschillende formaten in Aspose.Tasks](./save-file-formats/) begeleidt u bij de stappen voor het opslaan van MS Project-bestanden in verschillende formaten met Aspose.Tasks voor .NET.
 
 ## Omgaan met gesplitste MS Project-onderdelen in Aspose.Tasks
- Navigeren door gesplitste onderdelen in MS Project wordt een fluitje van een cent[Omgaan met gesplitste MS Project-onderdelen in Aspose.Tasks](./split-parts/), Verbeter uw projectbeheerworkflow door gesplitste onderdelen efficiënt af te handelen met Aspose.Tasks voor .NET.
+ Navigeren door gesplitste onderdelen in MS Project wordt een fluitje van een cent[Omgaan met gesplitste MS Project-onderdelen in Aspose.Tasks](./split-parts/). Verbeter uw projectbeheerworkflow door gesplitste onderdelen efficiënt af te handelen met Aspose.Tasks voor .NET.
 
 ## Verzamel MS Project-gesplitste onderdelen in Aspose.Tasks
  Onze tutorial over[Verzamel MS Project-gesplitste onderdelen in Aspose.Tasks](./split-part-collection/) is een uitgebreide gids die u stap voor stap door het proces leidt. Leer hoe u gesplitste onderdelen verzamelt in MS Project, zodat u uw projectbeheerworkflow kunt optimaliseren.

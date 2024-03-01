@@ -65,9 +65,9 @@ Gratulálunk! Sikeresen megtanulta, hogyan kell kezelni az alapfeladatokat az As
 ### K: Használhatom az Aspose.Tasks-t más .NET-keretrendszerekkel?
 V: Az Aspose.Tasks kompatibilis több .NET-keretrendszerrel, rugalmasságot biztosítva a fejlesztői környezetben.
 ### K: Létezik közösségi fórum az Aspose.Tasks támogatására?
-V: Igen, itt találhat támogatást és kapcsolatba léphet a közösséggel[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+ V: Igen, itt találhat támogatást és kapcsolatba léphet a közösséggel[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
- Egy látogatás[itt](https://purchase.aspose.com/temporary-license/) hogy ideiglenes engedélyt szerezzen az Aspose.Tasks számára.
+ Egy látogatás[itt](https://purchase.aspose.com/temporary-license/)hogy ideiglenes engedélyt szerezzen az Aspose.Tasks számára.
 ### K: Rendelkezésre állnak olyan oktatóanyagok, amelyek az alapfeladatokon túl vannak?
  V: Fedezze fel a[dokumentáció](https://reference.aspose.com/tasks/net/) az Aspose.Tasks funkcióival kapcsolatos oktatóanyagok széles skálájához.
 ### K: Hol vásárolhatom meg az Aspose.Tasks-t .NET-hez?

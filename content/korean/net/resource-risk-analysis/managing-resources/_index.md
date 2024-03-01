@@ -61,4 +61,4 @@ A: 물론, Aspose.Tasks for .NET은 가용성, 비용 등을 포함하여 프로
 ### Q: Aspose.Tasks for .NET은 프로젝트 데이터를 XML 이외의 형식으로 내보내기를 지원합니까?
 A: 예, Aspose.Tasks for .NET은 MPP, PDF, XLSX, HTML 등 다양한 형식으로 프로젝트 데이터 내보내기를 지원합니다.
 ### Q: Aspose.Tasks for .NET에 대한 추가 지원은 어디서 찾을 수 있나요?
-A: 추가 지원이 필요하면 다음 사이트를 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 또는[선적 서류 비치](https://reference.aspose.com/tasks/net/) Aspose에서 제공합니다.
+ A: 추가 지원이 필요하면 다음 사이트를 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 또는[선적 서류 비치](https://reference.aspose.com/tasks/net/) Aspose에서 제공합니다.

@@ -1,6 +1,6 @@
 ---
 title: Konfigurálja az MS Project XLSX beállításait az Aspose.Tasks for .NET-ben
-linktitle: Konfigurálja az XLSX-beállításokat az Aspose.Tasks-ban
+linktitle: XLSX-beállítások konfigurálása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja az MS Project XLSX beállításait az Aspose.Tasks for .NET-ben. Könnyedén testreszabhatja az oszlopokat, a kódolást és még sok mást.
 type: docs

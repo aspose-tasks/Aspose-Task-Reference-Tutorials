@@ -11,7 +11,7 @@ url: /it/net/task-table-management/
 
 Aspose.Tasks per .NET rivoluziona la gestione dei progetti con le sue robuste funzionalità. Questo articolo esplora vari tutorial sulla gestione delle attività e sulla formattazione delle tabelle, offrendo una guida completa per massimizzare la tua efficienza. Entriamo negli argomenti chiave:
 
-## Configurare le tabelle in Aspose.Tasks
+## Configurazione delle tabelle in Aspose.Tasks
 
 Impara l'arte di configurare le tabelle in Aspose.Tasks per .NET con la nostra guida passo passo. Questo tutorial ti consente di migliorare la tua esperienza di gestione dei progetti senza sforzo. Esplorare la[Esercitazione sulla configurazione delle tabelle](./configuring-tables/) per padroneggiare questa abilità.
 
@@ -27,7 +27,7 @@ Impara l'arte di configurare le tabelle in Aspose.Tasks per .NET con la nostra g
 
 Immergiti nel mondo dinamico della gestione dei progetti con Aspose.Tasks per .NET. Questo tutorial ti guida nella manipolazione delle raccolte di campi tabella per personalizzare la tua esperienza di progetto. Esplorare la[Esercitazione sulla raccolta dei campi della tabella](./table-field-collection/) per arricchire le tue competenze.
 
-## Configurare gli stili di testo della tabella in Aspose.Tasks
+## Configurazione degli stili di testo della tabella in Aspose.Tasks
 
  Migliora la visualizzazione del progetto configurando gli stili di testo della tabella in Aspose.Tasks per .NET. Questa guida passo passo ti consente di aumentare l'efficienza e la presentazione del tuo progetto. Scopri i segreti con[Esercitazione sugli stili di testo delle tabelle](./table-text-styles/).
 
@@ -51,11 +51,11 @@ Sblocca le competenze per gestire le basi delle attività senza sforzo in Aspose
 
  Scatena la potenza di Aspose.Tasks per .NET nella gestione efficiente dei collegamenti alle attività del progetto. Segui la nostra guida passo passo per migliorare la tua esperienza di gestione dei progetti con[Esercitazione sulla raccolta dei collegamenti alle attività](./task-link-collection/).
 
-## Configurare i tipi di data di inizio attività in Aspose.Tasks
+## Configurazione dei tipi di data di inizio attività in Aspose.Tasks
 
- Configura facilmente i tipi di data di inizio delle attività con Aspose.Tasks per .NET. Ottimizza la gestione dei progetti con facilità esplorando il[Esercitazione sui tipi di data di inizio attività](./task-start-date-types/), Scarica la prova gratis adesso!
+ Configura facilmente i tipi di data di inizio delle attività con Aspose.Tasks per .NET. Ottimizza la gestione dei progetti con facilità esplorando il[Esercitazione sui tipi di data di inizio attività](./task-start-date-types/). Scarica la prova gratis adesso!
 
-## Configurare le visualizzazioni di utilizzo delle attività in Aspose.Tasks
+## Configurazione delle visualizzazioni di utilizzo delle attività in Aspose.Tasks
 
  Gestisci e visualizza in modo efficiente i dati del progetto utilizzando Aspose.Tasks per .NET. Immergiti nei campi di visualizzazione dell'utilizzo delle attività per ottenere informazioni dettagliate sul progetto con[Esercitazione sulle visualizzazioni dell'utilizzo delle attività](./task-usage-views/).
 
@@ -65,7 +65,7 @@ Sblocca le competenze per gestire le basi delle attività senza sforzo in Aspose
 
 Con questi tutorial, sei sulla buona strada per padroneggiare Aspose.Tasks per .NET, potenziandoti con funzionalità avanzate di gestione dei progetti. Immergiti, esplora e migliora le tue abilità oggi stesso!
 ## Aspose.Tasks Esercitazioni sulla gestione delle attività e sulla formattazione delle tabelle
-### [Configurare le tabelle in Aspose.Tasks](./configuring-tables/)
+### [Configurazione delle tabelle in Aspose.Tasks](./configuring-tables/)
 Impara a configurare le tabelle in Aspose.Tasks per .NET con questa guida passo passo. Migliora la tua esperienza di gestione dei progetti senza sforzo.
 ### [Raccolta di tabelle in Aspose.Tasks](./table-collection/)
 Padroneggia Aspose.Tasks per .NET con la nostra guida passo passo sulla gestione delle raccolte di tabelle. Migliora facilmente le applicazioni di gestione dei progetti. Scarica ora!
@@ -73,7 +73,7 @@ Padroneggia Aspose.Tasks per .NET con la nostra guida passo passo sulla gestione
 Padroneggia i campi della tabella di gestione in Aspose.Tasks per .NET con questo tutorial completo. Impara a leggere, visualizzare e modificare le tabelle di progetto senza sforzo.
 ### [Raccolta di campi della tabella in Aspose.Tasks](./table-field-collection/)
 Esplora il mondo dinamico della gestione dei progetti con Aspose.Tasks per .NET. Scopri come manipolare le raccolte di campi tabella per un'esperienza di progetto personalizzata.
-### [Configurare gli stili di testo della tabella in Aspose.Tasks](./table-text-styles/)
+### [Configurazione degli stili di testo della tabella in Aspose.Tasks](./table-text-styles/)
 Migliora la visualizzazione del progetto con Aspose.Tasks per .NET. Impara a configurare gli stili di testo della tabella passo dopo passo. Aumenta l'efficienza e la presentazione.
 ### [Gestione delle attività in Aspose.Tasks](./managing-tasks/)
 Esplora la guida completa sulla gestione delle attività con Aspose.Tasks per .NET. Impara ad aggiungere, visualizzare parti divise, spostare, ottenere/impostare proprietà e altro ancora.
@@ -85,9 +85,9 @@ Esplora le basi delle attività senza sforzo con Aspose.Tasks per .NET. La gesti
 Esplora la gestione efficiente della raccolta di attività in Aspose.Tasks per .NET. Dalla creazione alla modifica, padroneggia facilmente la gestione dei progetti.
 ### [Gestione dei collegamenti alle attività in Aspose.Tasks](./task-link-collection/)
 Esplora la potenza di Aspose.Tasks per .NET nella gestione efficiente dei collegamenti alle attività del progetto. Segui la nostra guida passo passo per migliorare la tua esperienza di gestione dei progetti.
-### [Configurare i tipi di data di inizio attività in Aspose.Tasks](./task-start-date-types/)
+### [Configurazione dei tipi di data di inizio attività in Aspose.Tasks](./task-start-date-types/)
 Esplora Aspose.Tasks per .NET per configurare facilmente i tipi di data di inizio delle attività. Ottimizza la gestione dei progetti con facilità. Scarica la prova gratis adesso!
-### [Configurare le visualizzazioni di utilizzo delle attività in Aspose.Tasks](./task-usage-views/)
+### [Configurazione delle visualizzazioni di utilizzo delle attività in Aspose.Tasks](./task-usage-views/)
 Esplora Aspose.Tasks per .NET per gestire e visualizzare facilmente i dati del progetto. Immergiti nei campi di visualizzazione dell'utilizzo delle attività per ottenere informazioni dettagliate sul progetto.
 ### [Raccolta di campi di visualizzazione utilizzo attività in Aspose.Tasks](./task-usage-view-fields/)
 Esplora Aspose.Tasks per .NET e scopri come configurare le visualizzazioni di utilizzo delle attività. Personalizza le impostazioni della scala temporale e migliora gli elementi visivi della gestione del progetto.

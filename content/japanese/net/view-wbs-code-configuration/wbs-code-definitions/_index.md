@@ -12,7 +12,7 @@ url: /ja/net/view-wbs-code-configuration/wbs-code-definitions/
 ## 前提条件
 チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
 - .NET 開発に関する実践的な知識。
-- Aspose.Tasks for .NET ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks for .NET ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
 - コード エディター (Visual Studio を推奨)。
 ## 名前空間のインポート
 .NET プロジェクトで、必要な名前空間をインポートすることから始めます。

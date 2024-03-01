@@ -24,7 +24,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## Stap 1: MS-projectbestand laden
-Begin met het laden van het MS Project-bestand waarmee u wilt werken in uw C#-toepassing. Dit kunt u doen met behulp van de`Project` klasse aangeboden door Aspose.Tasks.
+ Begin met het laden van het MS Project-bestand waarmee u wilt werken in uw C#-toepassing. Dit kunt u doen met behulp van de`Project` klasse aangeboden door Aspose.Tasks.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -58,4 +58,4 @@ A: Absoluut, Aspose.Tasks is ontworpen om tegemoet te komen aan de behoeften van
 ### Vraag: Kan ik Aspose.Tasks gratis uitproberen voordat ik een aankoop doe?
  A: Ja, u kunt een gratis proefversie van Aspose.Tasks downloaden van[hier](https://releases.aspose.com/) om de kenmerken en mogelijkheden ervan te verkennen.
 ### Vraag: Waar kan ik ondersteuning krijgen als ik problemen ondervind of vragen heb tijdens het gebruik van Aspose.Tasks?
-A: U kunt hulp zoeken bij de Aspose.Tasks-gemeenschap en het ondersteuningsteam op de[forum](https://forum.aspose.com/c/tasks/15).
+ A: U kunt hulp zoeken bij de Aspose.Tasks-gemeenschap en het ondersteuningsteam op de[forum](https://forum.aspose.com/c/tasks/15).

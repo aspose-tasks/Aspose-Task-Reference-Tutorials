@@ -18,7 +18,7 @@ url: /ru/net/project-management-integration/project-file-information/
 
 ## Импортировать пространства имен
 Во-первых, вам необходимо импортировать необходимые пространства имен в ваш проект C# для работы с Aspose.Tasks:
-## Шаг 1. Импортируйте пространство имен Aspose.Tasks.
+## Шаг 1. Импортируйте пространство имен Aspose.Tasks.
 ```csharp
 using Aspose.Tasks;
 using System;

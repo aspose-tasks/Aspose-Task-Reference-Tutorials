@@ -72,10 +72,10 @@ Congratulazioni! Hai navigato con successo attraverso la gestione dei riferiment
 ### D: Posso utilizzare Aspose.Tasks con altri linguaggi di programmazione?
 R: Aspose.Tasks supporta principalmente i linguaggi .NET, ma esistono altri prodotti Aspose su misura per piattaforme e linguaggi diversi.
 ### D: Come posso ottenere una licenza temporanea per Aspose.Tasks?
-R: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ R: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: È disponibile il supporto della community per Aspose.Tasks?
  R: Sì, puoi trovare supporto su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### D: Dove posso trovare la documentazione dettagliata per Aspose.Tasks?
  R: La documentazione è disponibile[Qui](https://reference.aspose.com/tasks/net/).
 ### D: Posso acquistare Aspose.Tasks?
- R: Sì, puoi acquistarlo.[Qui](https://purchase.aspose.com/buy).
+ R: Sì, puoi acquistarlo[Qui](https://purchase.aspose.com/buy).

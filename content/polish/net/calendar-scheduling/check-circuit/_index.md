@@ -21,7 +21,7 @@ Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymag
 
 ## Importuj przestrzenie nazw
 
-projekcie C# uwzględnij następujące przestrzenie nazw, aby uzyskać dostęp do wymaganych klas i metod:
+W projekcie C# uwzględnij następujące przestrzenie nazw, aby uzyskać dostęp do wymaganych klas i metod:
 
 ```csharp
 using Aspose.Tasks;
@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Krok 1: Załaduj plik projektu
 
- Rozpocznij od załadowania pliku Microsoft Project (.mpp), który chcesz sprawdzić pod kątem uszkodzonej struktury. Użyj`Project` klasę, aby załadować plik.
+Rozpocznij od załadowania pliku Microsoft Project (.mpp), który chcesz sprawdzić pod kątem uszkodzonej struktury. Użyj`Project` klasę, aby załadować plik.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -70,7 +70,7 @@ O1: Tak, Aspose.Tasks dla .NET jest kompatybilny z różnymi frameworkami .NET, 
 
 ### P3: Jak mogę uzyskać wsparcie dla Aspose.Tasks dla .NET?
 
-O3: Możesz zwrócić się o pomoc na forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
+ O3: Możesz zwrócić się o pomoc na forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
 
 ### P4: Czy potrzebuję tymczasowej licencji do celów testowych?
 

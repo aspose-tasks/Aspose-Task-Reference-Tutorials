@@ -11,7 +11,7 @@ url: /hu/net/text-view-configuration/text-item-types/
 Ha Ön .NET fejlesztő, aki az Aspose.Tasks használatával merül fel a projektmenedzsmentben, akkor jó helyen jár! Ebben a lépésről-lépésre szóló útmutatóban az Aspose.Tasks szövegelem-típusok kezelésének finomságait fedezzük fel, a nagy teljesítményű .NET-könyvtár segítségével történő testreszabásra összpontosítva.
 ## Előfeltételek
 Mielőtt hozzákezdenénk, győződjön meg arról, hogy a helyén van a következő:
-1. Aspose.Tasks for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.Tasks könyvtár. Ha nem, akkor letöltheti[itt](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.Tasks könyvtár. Ha nem, akkor letöltheti[itt](https://releases.aspose.com/tasks/net/).
 2. Dokumentumkönyvtár: Állítson be egy könyvtárat a projektdokumentumokhoz.
 Most pedig merüljünk el a szövegelem-típusok kezelésének finom dolgaiban.
 ## Névterek importálása
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Alkalmazza a meghatározott szövegstílust a projektre, és mentse a testreszabott projektet PDF-fájlként.
 Ismételje meg ezeket a lépéseket más testreszabási igényekhez, kísérletezzen különböző szövegelemtípusokkal, betűstílusokkal és színekkel.
 ## Következtetés
- Gratulálunk! Most megkarcolta a szövegelemtípusok kezelésének felületét az Aspose.Tasks for .NET-ben. Miközben folytatja a felfedezést, tekintse meg a[dokumentáció](https://reference.aspose.com/tasks/net/) mélyreható betekintésért.
+Gratulálunk! Most megkarcolta a szövegelemtípusok kezelésének felületét az Aspose.Tasks for .NET-ben. Miközben folytatja a felfedezést, tekintse meg a[dokumentáció](https://reference.aspose.com/tasks/net/) mélyreható betekintésért.
 ### GYIK
 ### K: Használhatom ingyenesen az Aspose.Tasks-t?
  V: Az Aspose.Tasks ingyenes próbaverziót kínál. Fogd meg[itt](https://releases.aspose.com/).
@@ -70,7 +70,7 @@ Ismételje meg ezeket a lépéseket más testreszabási igényekhez, kísérlete
  V: Látogassa meg az Aspose.Tasks oldalt[fórum](https://forum.aspose.com/c/tasks/15) szakértői segítségért.
 ### K: Hogyan szerezhetek ideiglenes engedélyt?
  V: Szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
-### K: Létezik egy lépésről lépésre bemutató útmutató más funkciókhoz?
+### K: Létezik-e lépésenkénti oktatóanyag más funkciókhoz?
 V: Fedezzen fel további oktatóanyagokat az Aspose.Tasks dokumentációban.
 ### K: Hol vásárolhatom meg az Aspose.Tasks-t .NET-hez?
  V: Vásárolja meg a könyvtárat[itt](https://purchase.aspose.com/buy).

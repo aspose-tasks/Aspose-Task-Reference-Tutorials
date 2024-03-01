@@ -11,7 +11,7 @@ url: /zh/net/task-table-management/managing-tasks/
 如果您是一名 .NET 开发人员，希望有效管理项目中的任务，Aspose.Tasks for .NET 提供了一个强大的解决方案。本教程将指导您完成使用 Aspose.Tasks 管理任务的各个方面，并提供分步说明和代码示例。无论您是添加任务、显示拆分部分、在同一父级下移动任务、获取/设置任务属性、迭代任务分配、读取任务基线还是删除任务，本指南都能满足您的要求。
 ## 先决条件
 在深入学习本教程之前，请确保您具备以下先决条件：
-1.  Aspose.Tasks for .NET 库：确保您已安装 Aspose.Tasks for .NET 库。你可以下载它[这里](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET 库：确保您已安装 Aspose.Tasks for .NET 库。你可以下载它[这里](https://releases.aspose.com/tasks/net/).
 2. 文档目录：设置存储项目文档的目录。
 ## 导入命名空间
 在您的 .NET 项目中，包含使用 Aspose.Tasks 所需的命名空间：

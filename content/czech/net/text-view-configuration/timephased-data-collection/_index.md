@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Nastavit vlastnosti přiřazení...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Nastavit vlastnosti přiřazení2...
+//Nastavit vlastnosti přiřazení2...
 ```
 ## 4. Práce s časově uspořádanými daty
 ```csharp
@@ -60,7 +60,7 @@ var td = new TimephasedData
 assignment.TimephasedData.Add(td);
 // Přidejte seznam časově uspořádaných dat
 var list = new List<TimephasedData>();
-// Přidat do seznamu další časově uspořádané datové položky...
+// Přidat do seznamu více časově uspořádaných datových položek...
 assignment.TimephasedData.AddRange(list);
 // Filtrujte časově uspořádaná data podle typu a období
 Console.WriteLine("Print filtered timephased data:");
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Manipulujte s časově uspořádanými daty
 ```csharp
-//Přidejte nesprávnou časově uspořádanou datovou položku a poté ji odstraňte
+// Přidejte nesprávnou časově uspořádanou datovou položku a poté ji odstraňte
 var td4 = new TimephasedData
 {
     // Nastavit špatné vlastnosti časově uspořádaných dat...
@@ -120,4 +120,4 @@ Aspose.Tasks zpracovává projekty různých velikostí a neexistuje žádný p�
 ### Mohu vyzkoušet Aspose.Tasks pro .NET před jeho zakoupením?
  Ano, funkce Aspose.Tasks pro .NET můžete prozkoumat přístupem na[zkušební verze zdarma](https://releases.aspose.com/).
 ### Kde si mohu zakoupit licenci pro Aspose.Tasks pro .NET?
- Můžete si zakoupit licenci pro Aspose.Tasks pro .NET[tady](https://purchase.aspose.com/buy).
+Můžete si zakoupit licenci pro Aspose.Tasks pro .NET[tady](https://purchase.aspose.com/buy).

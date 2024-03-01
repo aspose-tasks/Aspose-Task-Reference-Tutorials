@@ -11,7 +11,7 @@ url: /ar/net/task-table-management/table-text-styles/
 في عالم إدارة المشاريع، يعد التصور الفعال للمهام أمرًا بالغ الأهمية لتحقيق النجاح. يوفر Aspose.Tasks for .NET حلاً قويًا لتخصيص أنماط نص الجدول، مما يسمح لك بتخصيص مظهر العناصر النصية في مشروعك. في هذا الدليل التفصيلي، سنرشدك خلال عملية تكوين أنماط نص الجدول باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك ما يلي:
--  Aspose.Tasks لـ .NET: تأكد من تثبيت أحدث إصدار من Aspose.Tasks لـ .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks لـ .NET: تأكد من تثبيت أحدث إصدار من Aspose.Tasks لـ .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
 - دليل المستندات: قم بإعداد دليل لمستنداتك. استبدل "دليل المستندات الخاص بك" في الكود بالمسار الفعلي.
 -  ترخيص Aspose صالح: يتطلب هذا المثال ترخيص Aspose صالحًا. يمكنك شراء ترخيص كامل[هنا](https://purchase.aspose.com/buy) أو الحصول على ترخيص مؤقت لمدة 30 يومًا[هنا](https://purchase.aspose.com/temporary-license/).
 ## استيراد مساحات الأسماء
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## خاتمة

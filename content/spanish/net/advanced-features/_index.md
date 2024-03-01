@@ -14,22 +14,22 @@ url: /es/net/advanced-features/
 
 ## Operación avanzada AND en Aspose.Tasks
 
- Libere el potencial de las operaciones AND avanzadas en Aspose.Tasks para .NET. Nuestro tutorial lo guía a través del filtrado eficiente de tareas del proyecto según múltiples criterios. Obtenga una comprensión más profunda de la gestión de tareas con ejemplos prácticos.[Leer más](./advanced-and-operation/)
+Libere el potencial de las operaciones AND avanzadas en Aspose.Tasks para .NET. Nuestro tutorial lo guía a través del filtrado eficiente de tareas del proyecto según múltiples criterios. Obtenga una comprensión más profunda de la gestión de tareas con ejemplos prácticos.[Leer más](./advanced-and-operation/)
 
 ## Uso del operador AND en todas las condiciones con Aspose.Tasks
 
-Explore el uso del operador AND en todas las condiciones con Aspose.Tasks para .NET. Filtre eficientemente las tareas del proyecto según diversos criterios. Mejore sus habilidades de gestión de proyectos con esta guía paso a paso.[Leer más](./and-operator-all-conditions/)
+ Explore el uso del operador AND en todas las condiciones con Aspose.Tasks para .NET. Filtre eficientemente las tareas del proyecto según diversos criterios. Mejore sus habilidades de gestión de proyectos con esta guía paso a paso.[Leer más](./and-operator-all-conditions/)
 
 ## Manejo de excepciones de memoria con Aspose.Tasks Layout Builder
 
  Aborde las excepciones de memoria en .NET utilizando Aspose.Tasks Layout Builder. Nuestra guía proporciona un enfoque paso a paso con ejemplos de código, lo que garantiza que pueda manejar las excepciones sin problemas. Eleve la eficiencia de su proyecto ahora.[Leer más](./layout-builder-out-of-memory/)
 ## Trabajar con Asignación en Aspose.Tasks
 
- Administre eficientemente las asignaciones de proyectos en .NET usando Aspose.Tasks. Este tutorial profundiza en diferentes contornos para la programación de recursos y ofrece ideas y consejos prácticos. Mejore la organización de su proyecto y agilice los flujos de trabajo.[Leer más](./working-with-assignment/)
+Administre eficientemente las asignaciones de proyectos en .NET usando Aspose.Tasks. Este tutorial profundiza en diferentes contornos para la programación de recursos y ofrece ideas y consejos prácticos. Mejore la organización de su proyecto y agilice los flujos de trabajo.[Leer más](./working-with-assignment/)
 
 ## Gestión de la línea base de tareas en Aspose.Tasks
 
-Aprenda a administrar líneas base de asignaciones de manera eficiente con Aspose.Tasks para .NET. Esto garantiza un seguimiento preciso del progreso y el rendimiento del proyecto. Sumérgete en nuestro tutorial para obtener una guía paso a paso sobre cómo optimizar tus estrategias de gestión de proyectos.[Leer más](./assignment-baseline/)
+ Aprenda a administrar líneas base de asignaciones de manera eficiente con Aspose.Tasks para .NET. Esto garantiza un seguimiento preciso del progreso y el rendimiento del proyecto. Sumérgete en nuestro tutorial para obtener una guía paso a paso sobre cómo optimizar tus estrategias de gestión de proyectos.[Leer más](./assignment-baseline/)
 
 ## Colección de líneas base de asignaciones en Aspose.Tasks
 
@@ -37,11 +37,11 @@ Aprenda a administrar líneas base de asignaciones de manera eficiente con Aspos
 
 ## Columna de vista de asignación personalizada en Aspose.Tasks
 
- Explore cómo agregar columnas de vista de tareas personalizadas en Aspose.Tasks para .NET, mejorando sus capacidades de gestión de proyectos. Este tutorial proporciona una guía detallada que le permite adaptar las vistas de su proyecto para cumplir con requisitos específicos.[Leer más](./assignment-view-column/)
+Explore cómo agregar columnas de vista de tareas personalizadas en Aspose.Tasks para .NET, mejorando sus capacidades de gestión de proyectos. Este tutorial proporciona una guía detallada que le permite adaptar las vistas de su proyecto para cumplir con requisitos específicos.[Leer más](./assignment-view-column/)
 
 ## Trabajar con períodos de disponibilidad en Aspose.Tasks
 
-Administre eficientemente los períodos de disponibilidad de recursos utilizando Aspose.Tasks para .NET. Este tutorial ofrece una guía paso a paso que proporciona información práctica para trabajar con períodos de disponibilidad en sus proyectos .NET. Mejorar la planificación y ejecución de proyectos.[Leer más](./working-with-availability-periods/)
+ Administre eficientemente los períodos de disponibilidad de recursos utilizando Aspose.Tasks para .NET. Este tutorial ofrece una guía paso a paso que proporciona información práctica para trabajar con períodos de disponibilidad en sus proyectos .NET. Mejorar la planificación y ejecución de proyectos.[Leer más](./working-with-availability-periods/)
 
 ## Colección de períodos de disponibilidad en Aspose.Tasks
 
@@ -49,7 +49,7 @@ Administre eficientemente los períodos de disponibilidad de recursos utilizando
 
 ## Barra de estilo en Aspose.Tasks
 
- Aprenda a aplicar estilo a las barras en Aspose.Tasks para .NET para mejorar la visualización del proyecto. Nuestro tutorial proporciona información práctica que le ayudará a crear cronogramas de proyectos visualmente atractivos. Eleve la presentación y comunicación de su proyecto.[Leer más](./styling-bar/)
+Aprenda a aplicar estilo a las barras en Aspose.Tasks para .NET para mejorar la visualización del proyecto. Nuestro tutorial proporciona información práctica que le ayudará a crear cronogramas de proyectos visualmente atractivos. Eleve la presentación y comunicación de su proyecto.[Leer más](./styling-bar/)
 
 
 ## Tutoriales de funciones avanzadas de Aspose.Tasks

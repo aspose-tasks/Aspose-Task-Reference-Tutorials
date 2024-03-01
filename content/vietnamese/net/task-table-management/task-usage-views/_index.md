@@ -23,7 +23,7 @@ Trong dự án .NET của bạn, hãy nhập các vùng tên cần thiết để
     using Aspose.Tasks.Visualization;
 ```
 ## Bước 1: Đặt đường dẫn thư mục tài liệu
- Trước khi làm việc với các chức năng Aspose.Tasks, hãy đặt đường dẫn đến thư mục tài liệu của bạn. thay thế`"Your Document Directory"` với đường dẫn thực tế.
+ Trước khi làm việc với các chức năng Aspose.Tasks, hãy đặt đường dẫn đến thư mục tài liệu của bạn. Thay thế`"Your Document Directory"` với đường dẫn thực tế.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Có, Aspose.Tasks hỗ trợ các định dạng tệp dự án phổ biến nh�
 ### Tôi có thể áp dụng các cài đặt thang thời gian khác nhau cho các tác vụ cụ thể không?
 Hoàn toàn có thể, bạn có thể tùy chỉnh cài đặt thang thời gian cho từng tác vụ trong dự án của mình.
 ### Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp cho Aspose.Tasks?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và hướng dẫn.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và hướng dẫn.

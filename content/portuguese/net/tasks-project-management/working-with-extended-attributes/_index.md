@@ -38,7 +38,7 @@ Defina o caminho para o diretório onde seu arquivo do MS Project está localiza
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- substituir`"Your Document Directory"` com o caminho real para o diretório do seu documento.
+ Substituir`"Your Document Directory"` com o caminho real para o diretório do seu documento.
 ## Etapa 2: carregar o arquivo do projeto
  Carregue o arquivo do MS Project usando o`Project` aula:
 ```csharp

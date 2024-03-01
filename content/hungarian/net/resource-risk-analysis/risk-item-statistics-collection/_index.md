@@ -87,4 +87,4 @@ V: Természetesen az Aspose.Tasks úgy lett kialakítva, hogy megfeleljen a vál
 ### K: Testreszabhatom az Aspose.Tasks kockázatelemzési beállításait?
 V: Igen, az Aspose.Tasks rugalmasságot kínál a kockázatelemzési beállítások konfigurálásában, hogy megfeleljenek az Ön konkrét projektkövetelményeinek és forgatókönyveinek.
 ### K: Elérhető technikai támogatás az Aspose.Tasks felhasználók számára?
- V: Igen, az Aspose.Tasks felhasználók hozzáférhetnek a technikai támogatáshoz az Aspose-on keresztül.[fórumok](https://forum.aspose.com/c/tasks/15), ahol kérdéseket tehetnek fel, problémákat jelenthetnek be, és kapcsolatba léphetnek a közösséggel.
+ V: Igen, az Aspose.Tasks felhasználók hozzáférhetnek a technikai támogatáshoz az Aspose-on keresztül[fórumok](https://forum.aspose.com/c/tasks/15), ahol kérdéseket tehetnek fel, problémákat jelenthetnek be, és kapcsolatba léphetnek a közösséggel.

@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
- تأكد من استبدال`"Your Document Directory"`, `URL`, `Domain`, `UserName` ،و`Password` بقيمك الفعلية
+ تأكد من استبدال`"Your Document Directory"`, `URL`, `Domain`, `UserName` ، و`Password` بقيمك الفعلية
 ## الخطوة 2: إنشاء مدير خادم المشروع
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
- أضبط ال`ProjectGuid`, `ProjectName`, `Timeout` ،و`PollingInterval` وفقا لمتطلباتك.
+ أضبط ال`ProjectGuid`, `ProjectName`, `Timeout` ، و`PollingInterval` وفقا لمتطلباتك.
 ## الخطوة 4: حفظ المشروع على الخادم
 ```csharp
 manager.CreateNewProject(project, options);

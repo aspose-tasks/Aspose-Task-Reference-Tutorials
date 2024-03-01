@@ -26,7 +26,7 @@ using Aspose.Tasks.Saving;
 // Belgeler dizininin yolu.
 String DataDir = "Your Document Directory";
 ```
- yer değiştirmek`"Your Document Directory"` MSP belgenizin bulunduğu yol ile.
+ Yer değiştirmek`"Your Document Directory"` MSP belgenizin bulunduğu yol ile.
 ## Adım 2: MSP Belgesini Yükleyin
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -40,12 +40,12 @@ var options = new XpsOptions
     RenderMetafileAsBitmap = true
 };
 ```
- Bu adımda somutlaştırıyoruz`XpsOptions`ve parametreleri yapılandırın. Ayarlar`RenderMetafileAsBitmap` ile`true` Meta dosyalarının düzgün şekilde işlenmesini sağlar.
+ Bu adımda somutlaştırıyoruz`XpsOptions`ve parametreleri yapılandırın. Ayar`RenderMetafileAsBitmap` ile`true` Meta dosyalarının düzgün şekilde oluşturulmasını sağlar.
 ## Adım 4: Belgeyi XPS olarak kaydedin
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ```
- Sonunda aradık`Save` konusundaki yöntem`Project` çıktı dosyası yolunu ve önceden yapılandırılmış olanı belirten nesne`XpsOptions`.
+ Son olarak şunu diyoruz:`Save` konusundaki yöntem`Project` çıktı dosyası yolunu ve önceden yapılandırılmış olanı belirten nesne`XpsOptions`.
 
 ## Çözüm
 Sonuç olarak Aspose.Tasks for .NET, Microsoft Project belgelerinin programlı olarak XPS formatına dönüştürülmesi sürecini basitleştirir. Geliştiriciler, bu eğitimde özetlenen adımları izleyerek bu işlevselliği .NET uygulamalarına sorunsuz bir şekilde entegre edebilir ve proje yönetimi iş akışlarını kolaylıkla geliştirebilirler.

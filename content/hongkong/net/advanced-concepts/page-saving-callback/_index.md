@@ -17,7 +17,7 @@ url: /zh-hant/net/advanced-concepts/page-saving-callback/
 
 1. C# 程式語言知識：您應該對 C# 文法和概念有基本的了解。
    
-2. Aspose.Tasks for .NET 的安裝：請確定您已在開發環境中安裝了 Aspose.Tasks 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET 的安裝：請確定您已在開發環境中安裝了 Aspose.Tasks 函式庫。您可以從以下位置下載：[這裡](https://releases.aspose.com/tasks/net/).
 
 3. 開發環境設定：設定您首選的 .NET 開發 IDE，例如 Visual Studio。
 
@@ -120,4 +120,4 @@ A4：您可以在回呼方法中實作錯誤處理機制來管理異常並確保
 
 ### Q5：在哪裡可以找到更多關於 Aspose.Tasks 的資源和支援？
 
- A5：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)如需協助，請造訪文檔[這裡](https://reference.aspose.com/tasks/net/)，或探索其他功能和許可選項[Aspose.Tasks 網站](https://purchase.aspose.com/buy).
+ A5：您可以訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)如需協助，請造訪文檔[這裡](https://reference.aspose.com/tasks/net/)，或探索其他功能和授權選項[Aspose.Tasks 網站](https://purchase.aspose.com/buy).

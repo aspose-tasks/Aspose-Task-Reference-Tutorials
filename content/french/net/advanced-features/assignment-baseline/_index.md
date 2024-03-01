@@ -9,7 +9,7 @@ url: /fr/net/advanced-features/assignment-baseline/
 ---
 ## Introduction
 
-Lorsque vous travaillez sur des tâches de gestion de projet, la gestion des références d'affectation est cruciale pour suivre avec précision les progrès. Aspose.Tasks for .NET fournit un ensemble complet d'outils pour gérer efficacement les références d'affectation. Dans ce didacticiel, nous aborderons étape par étape le processus de gestion des références d’affectation.
+Lorsque vous travaillez sur des tâches de gestion de projet, la gestion des références d’affectation est cruciale pour suivre avec précision les progrès. Aspose.Tasks for .NET fournit un ensemble complet d'outils pour gérer efficacement les références d'affectation. Dans ce didacticiel, nous aborderons étape par étape le processus de gestion des références d’affectation.
 
 ## Conditions préalables
 

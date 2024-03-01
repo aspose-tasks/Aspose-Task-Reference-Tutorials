@@ -41,7 +41,7 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 Podle těchto kroků budete moci bez námahy konfigurovat typy metod MS Project Method Types pomocí Aspose.Tasks for .NET.
 
 ## Závěr
-Závěrem lze říci, že zvládnutí metod Earned Value Management pomocí Aspose.Tasks for .NET může výrazně zlepšit vaše schopnosti projektového řízení. Přesným měřením výkonu projektu a jeho porovnáním s plánovanými cíli můžete činit informovaná rozhodnutí, která nasměrují své projekty k úspěchu.
+Závěrem lze říci, že zvládnutí metod Earned Value Management pomocí Aspose.Tasks for .NET může výrazně zlepšit vaše schopnosti projektového řízení. Přesným měřením výkonu projektu a jeho porovnáním s plánovanými cíli můžete činit informovaná rozhodnutí, která nasměrují vaše projekty k úspěchu.
 ## FAQ
 ### Otázka: Dokáže Aspose.Tasks for .NET efektivně zpracovat velké projektové soubory?
 Odpověď: Ano, Aspose.Tasks for .NET je optimalizován pro snadné zpracování velkých projektových souborů a zajišťuje vysoký výkon a spolehlivost.
@@ -52,4 +52,4 @@ Odpověď: Ano, můžete využít bezplatnou zkušební verzi Aspose.Tasks pro .
 ### Otázka: Podporuje Aspose.Tasks for .NET dočasné licence?
  Odpověď: Ano, dočasné licence jsou k dispozici pro Aspose.Tasks pro .NET. Můžete je získat z:[Dočasná licence](https://purchase.aspose.com/temporary-license/)
 ### Otázka: Kde mohu zakoupit Aspose.Tasks pro .NET?
- Odpověď: Aspose.Tasks pro .NET si můžete zakoupit na webu:[nákup](https://purchase.aspose.com/buy).
+ Odpověď: Aspose.Tasks pro .NET si můžete zakoupit na webu:[Nákup](https://purchase.aspose.com/buy).

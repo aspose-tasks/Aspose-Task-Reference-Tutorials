@@ -62,7 +62,7 @@ SaveOptions options = new PdfSaveOptions
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // تعيين نوع عنصر الشريط
 style.BarColor = Color.Green; // تعيين لون الشريط
-style.BarShape = BarShape.HalfHeight; //ضبط شكل الشريط
+style.BarShape = BarShape.HalfHeight; // ضبط شكل الشريط
 style.StartShape = Shape.LeftBracket; // تعيين الشكل في بداية الشريط
 style.StartShapeColor = Color.Aqua; // ضبط لون شكل البداية
 style.EndShape = Shape.RightBracket; // تعيين الشكل في نهاية الشريط
@@ -110,7 +110,7 @@ project.Save(DataDir + "WorkWithBarStyle_out.mpp", options);
 
 ### س1: هل يمكنني تطبيق أنماط شريطية متعددة على مشروع واحد؟
 
-ج1: نعم، يمكنك تحديد أنماط شريطية متعددة وتطبيقها على أنواع مختلفة من المهام داخل نفس المشروع.
+ج1: نعم، يمكنك تعريف وتطبيق أنماط شريطية متعددة على أنواع مختلفة من المهام داخل نفس المشروع.
    
 ### س2: هل من الممكن تغيير أنماط الشريط ديناميكيًا أثناء وقت التشغيل؟
 

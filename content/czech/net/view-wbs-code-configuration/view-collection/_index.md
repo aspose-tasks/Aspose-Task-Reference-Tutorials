@@ -90,7 +90,7 @@ Aspose.Tasks je navržen tak, aby byl kompatibilní s různými verzemi rozhran�
 ### Mohu přizpůsobit vzhled zobrazení Ganttova diagramu?
 Absolutně! Aspose.Tasks poskytuje rozsáhlé možnosti přizpůsobení vzhledu zobrazení Ganttova diagramu tak, aby vyhovoval potřebám vašeho projektu.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks?
- Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu komunity pro Aspose.Tasks?
  Zapojte se do komunity Aspose.Tasks na[Fórum](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy nebo pomoc.
 ### Jsou pro Aspose.Tasks dostupné dočasné licence?

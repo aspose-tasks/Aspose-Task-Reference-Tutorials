@@ -32,13 +32,13 @@ Pour commencer, importez les espaces de noms nécessaires dans votre projet C# 
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- remplacer`"Your Document Directory"` avec le chemin réel vers votre répertoire de documents.
+ Remplacer`"Your Document Directory"` avec le chemin réel vers votre répertoire de documents.
 ## Étape 2 : Créer une nouvelle instance de projet
 ```csharp
 var project = new Project();
 ```
  Cette ligne initialise une nouvelle instance du`Project` classe fournie par Aspose.Tasks.
-## Étape 3 : Ajouter des ressources au projet
+## Étape 3 : ajouter des ressources au projet
 ```csharp
 project.Resources.Add("Resource");
 ```
@@ -58,7 +58,7 @@ R : Oui, vous pouvez ajouter plusieurs ressources en parcourant une liste ou un 
 R : Aspose.Tasks pour .NET offre une compatibilité avec différentes versions de Microsoft Project, garantissant une intégration transparente avec vos flux de travail de gestion de projet.
 ### Q : Puis-je personnaliser les propriétés des ressources telles que la disponibilité et le coût à l'aide d'Aspose.Tasks pour .NET ?
 R : Absolument, Aspose.Tasks pour .NET offre des fonctionnalités étendues pour personnaliser les propriétés des ressources en fonction des exigences de votre projet, notamment la disponibilité, le coût, etc.
-### Q : Aspose.Tasks for .NET prend-il en charge l'exportation de données de projet vers des formats autres que XML ?
+### : Aspose.Tasks for .NET prend-il en charge l'exportation de données de projet vers des formats autres que XML ?
 R : Oui, Aspose.Tasks for .NET prend en charge l'exportation des données de projet vers divers formats, notamment MPP, PDF, XLSX et HTML.
 ### Q : Où puis-je trouver une assistance ou un support supplémentaire pour Aspose.Tasks pour .NET ?
-R : Pour obtenir de l'aide ou du soutien supplémentaire, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) ou se référer au[Documentation](https://reference.aspose.com/tasks/net/) fourni par Aspose.
+ R : Pour obtenir de l'aide ou du soutien supplémentaire, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) ou se référer au[Documentation](https://reference.aspose.com/tasks/net/) fourni par Aspose.

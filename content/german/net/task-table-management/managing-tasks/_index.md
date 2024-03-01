@@ -11,7 +11,7 @@ url: /de/net/task-table-management/managing-tasks/
 Wenn Sie ein .NET-Entwickler sind und Aufgaben in Ihren Projekten effizient verwalten möchten, bietet Aspose.Tasks für .NET eine robuste Lösung. Dieses Tutorial führt Sie durch verschiedene Aspekte der Aufgabenverwaltung mit Aspose.Tasks und bietet Schritt-für-Schritt-Anleitungen und Codebeispiele. Ganz gleich, ob Sie Aufgaben hinzufügen, geteilte Teile anzeigen, Aufgaben unter dasselbe übergeordnete Element verschieben, Aufgabeneigenschaften abrufen/festlegen, Aufgabenzuweisungen iterieren, Aufgabenbasislinien lesen oder Aufgaben löschen – in diesem Leitfaden sind Sie bestens aufgehoben.
 ## Voraussetzungen
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-1.  Aspose.Tasks for .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Tasks for .NET-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Tasks for .NET-Bibliothek installiert haben. Sie können es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
 2. Dokumentenverzeichnis: Richten Sie ein Verzeichnis ein, in dem Ihre Projektdokumente gespeichert werden.
 ## Namespaces importieren
 Fügen Sie in Ihr .NET-Projekt die erforderlichen Namespaces ein, um mit Aspose.Tasks zu arbeiten:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Laden Sie ein Projekt mit aufgeteilten Aufgaben
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Auf eine Aufgabe zugreifen
+// Auf eine Aufgabe zugreifen
 var task = project.RootTask.Children.GetById(4);
 // Geteilte Teile anzeigen
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Fügen Sie eine Aufgabe hinzu
 var task = project.RootTask.Children.Add("Task");
-// Zeigen Sie die Anzahl der Aufgaben vor und nach dem Löschen an
+//Zeigen Sie die Anzahl der Aufgaben vor und nach dem Löschen an
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Löschen Sie die Aufgabe
 task.Delete();

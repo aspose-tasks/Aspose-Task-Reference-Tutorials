@@ -1,5 +1,5 @@
 ---
-title: Освойте ставки по проектам MS с помощью Aspose.Tasks
+title: Освойте ставки проектов MS с помощью Aspose.Tasks
 linktitle: Сбор ставок в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как управлять ставками в файлах MS Project с помощью Aspose.Tasks для .NET. Пошаговое руководство по эффективному управлению ресурсами.
@@ -67,7 +67,7 @@ foreach (KeyValuePair<RateType, RateByDateCollection> sortedRates in resource.Ra
 }
 ```
 На этом шаге выводится информация о ставках, связанных с ресурсом.
-## Шаг 5. Обновите тариф
+## Шаг 5. Обновите ставку
 ```csharp
 var rateToUpdate = resource.Rates[RateType.B][new DateTime(2019, 11, 12, 8, 0, 0)];
 rateToUpdate.RatesTo = new DateTime(2020, 12, 31, 17, 0, 0);
@@ -75,7 +75,7 @@ Console.WriteLine("Rates From: " + rateToUpdate.RatesFrom);
 Console.WriteLine("Rates To: " + rateToUpdate.RatesTo);
 ```
 Мы обновляем дату окончания определенного тарифа.
-## Шаг 6. Удаление ставок
+## Шаг 6: Удаление ставок
 ```csharp
 List<Rate> rates = resource.Rates.ToList(RateType.A);
 for (var i = 0; i < rates.Count; i++)

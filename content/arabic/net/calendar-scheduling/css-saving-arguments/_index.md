@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // تكوين خيارات حفظ HTML
+        //تكوين خيارات حفظ HTML
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ project.Save("document_out.html", options);
 
 ### س4: أين يمكنني العثور على وثائق شاملة لـ Aspose.Tasks لـ .NET؟
 
- ج4: يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/tasks/net/) للحصول على معلومات وأمثلة مفصلة.
+ج4: يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/tasks/net/) للحصول على معلومات وأمثلة مفصلة.
 
 ### س5: هل يقدم Aspose.Tasks لـ .NET الدعم للمطورين؟
 

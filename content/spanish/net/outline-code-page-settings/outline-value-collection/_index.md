@@ -23,7 +23,7 @@ using System;
 ```
 Dividamos el ejemplo proporcionado en varios pasos:
 ## Paso 1: cargar un archivo de proyecto
- Primero, inicialice un`Project` objeto cargando un archivo de Microsoft Project existente:
+ En primer lugar, inicialice un`Project` objeto cargando un archivo de Microsoft Project existente:
 ```csharp
 string DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineValues2010.mpp");
@@ -96,7 +96,7 @@ foreach (var outlineValue in outlineValues)
 }
 ```
 ## Conclusión
-En este tutorial, aprendimos cómo trabajar con valores de esquema en archivos de Microsoft Project usando Aspose.Tasks para .NET. Si sigue los pasos proporcionados, podrá administrar de manera eficiente los valores del esquema dentro de sus proyectos, lo que permitirá un mayor control y flexibilidad.
+En este tutorial, aprendimos cómo trabajar con valores de esquema en archivos de Microsoft Project usando Aspose.Tasks para .NET. Si sigue los pasos proporcionados, puede administrar de manera eficiente los valores del esquema dentro de sus proyectos, lo que permite un mayor control y flexibilidad.
 ## Preguntas frecuentes
 ### P: ¿Puedo manipular varios códigos de esquema simultáneamente?
 R: Sí, puedes definir y manipular múltiples códigos de esquema dentro de un proyecto usando Aspose.Tasks.
@@ -104,7 +104,7 @@ R: Sí, puedes definir y manipular múltiples códigos de esquema dentro de un p
 R: Sí, Aspose.Tasks admite varias versiones de archivos de Microsoft Project, incluidos los formatos MPP y XML.
 ### P: ¿Cómo puedo manejar los errores mientras trabajo con valores de esquema?
 R: Puede implementar mecanismos de manejo de errores, como bloques try-catch, para administrar las excepciones de manera elegante.
-### P: ¿Puedo personalizar la apariencia de los valores de contorno en mi proyecto?
+### P: ¿Puedo personalizar la apariencia de los valores del esquema en mi proyecto?
 R: Sí, Aspose.Tasks proporciona API completas para personalizar la apariencia y el comportamiento de los valores de esquema según sus requisitos.
 ### P: ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.Tasks?
  R: Puedes visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener apoyo de la comunidad y explorar[documentación](https://reference.aspose.com/tasks/net/) para obtener información detallada sobre API y funciones.

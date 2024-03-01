@@ -12,7 +12,7 @@ Az Aspose.Tasks for .NET egy hatékony könyvtár, amely megkönnyíti a projekt
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy beállította a következőket:
 - C# programozási nyelv gyakorlati ismerete.
-- Aspose.Tasks for .NET könyvtár telepítve. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks for .NET könyvtár telepítve. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
 - Integrált fejlesztői környezet (IDE), például a Visual Studio.
 ## Névterek importálása
 Először is győződjön meg arról, hogy a szükséges névtereket importálta a C# fájl elejére:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // iterálja a táblázat mezőit
+    //iteráljon a táblázat mezői között
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -72,7 +72,7 @@ Szerkessze az újonnan hozzáadott táblamezőt indexeléréssel.
 table.TableFields[idx].WrapHeader = true;
 ```
 ## 7. lépés: Távolítsa el a mezőt
-Távolítsa el a táblázat mezőit egyenként, vagy törölje a teljes gyűjteményt.
+Távolítsa el a táblázat mezőjét egyenként, vagy törölje a teljes gyűjteményt.
 ```csharp
 Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
 // Távolítsa el a mezőt
@@ -108,6 +108,6 @@ Teljesen! Ahogy az oktatóanyagban is látható, szükség szerint dinamikusan h
 ### Vannak-e licencelési megfontolások az Aspose.Tasks for .NET használatához kereskedelmi projektekben?
  Igen, érvényes licenc szükséges az Aspose.Tasks for .NET használatához egy kereskedelmi projektben. Engedélyt szerezhet[itt](https://purchase.aspose.com/buy).
 ### Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.Tasks for .NET-hez?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) támogatást kapni, kérdéseket feltenni és együttműködni a közösséggel.
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15)támogatást kapni, kérdéseket feltenni és együttműködni a közösséggel.
 ### Létezik ingyenes próbaverzió az Aspose.Tasks for .NET számára?
  Igen, egy ingyenes próbaverzióval felfedezheti az Aspose.Tasks for .NET szolgáltatásait. Töltsd le[itt](https://releases.aspose.com/).

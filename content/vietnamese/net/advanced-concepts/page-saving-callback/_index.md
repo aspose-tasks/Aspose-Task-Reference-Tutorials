@@ -17,7 +17,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có những đi�
 
 1. Kiến thức về ngôn ngữ lập trình C#: Bạn cần có hiểu biết cơ bản về cú pháp và khái niệm C#.
    
-2. Cài đặt Aspose.Tasks cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Tasks trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
+2.  Cài đặt Aspose.Tasks cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Tasks trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
 
 3. Thiết lập môi trường phát triển: Thiết lập IDE ưa thích của bạn để phát triển .NET, chẳng hạn như Visual Studio.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## Bước 2: Định cấu hình tùy chọn lưu hình ảnh
 
- Định nghĩa`ImageSaveOptions` và tùy chỉnh hành vi lưu trang bằng cách đặt`PageSavingCallback` tài sản:
+ Định nghĩa`ImageSaveOptions`và tùy chỉnh hành vi lưu trang bằng cách đặt`PageSavingCallback` tài sản:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);

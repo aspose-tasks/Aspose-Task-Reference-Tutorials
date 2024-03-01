@@ -11,7 +11,7 @@ url: /id/net/resource-risk-analysis/risk-item-statistics/
 Apakah Anda ingin meningkatkan kecakapan manajemen proyek Anda menggunakan Aspose.Tasks untuk .NET? Selidiki bidang analisis risiko dengan tutorial langkah demi langkah kami tentang cara mendapatkan statistik item risiko dalam file MS Project. Dengan memanfaatkan kemampuan Aspose.Tasks yang kuat, Anda dapat memperoleh wawasan berharga tentang ketidakpastian proyek dan membuat keputusan yang tepat untuk memitigasi risiko secara efektif.
 ## Prasyarat
 Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
-1.  Aspose.Tasks untuk .NET Library: Unduh dan instal perpustakaan dari[Aspose.Tasks untuk dokumentasi .NET](https://reference.aspose.com/tasks/net/), Pustaka ini membekali Anda dengan alat canggih untuk memanipulasi file MS Project secara terprogram.
+1.  Aspose.Tasks untuk .NET Library: Unduh dan instal perpustakaan dari[Aspose.Tasks untuk dokumentasi .NET](https://reference.aspose.com/tasks/net/). Pustaka ini membekali Anda dengan alat canggih untuk memanipulasi file MS Project secara terprogram.
 2. Lingkungan Pengembangan .NET: Siapkan lingkungan pengembangan .NET Anda, termasuk Visual Studio atau IDE lain pilihan Anda, untuk memfasilitasi integrasi Aspose.Tasks ke dalam proyek Anda.
 
 ## Impor Namespace
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- Pastikan untuk mengganti`"Your Document Directory"`dengan jalur ke direktori dokumen tempat file MS Project Anda berada.
+ Pastikan untuk mengganti`"Your Document Directory"` dengan jalur ke direktori dokumen tempat file MS Project Anda berada.
 ## Langkah 2: Konfigurasikan Pengaturan Analisis Risiko
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- Sesuaikan`IterationsCount` parameter berdasarkan kebutuhan proyek Anda untuk mengontrol ketepatan analisis risiko.
+ Sesuaikan`IterationsCount`parameter berdasarkan kebutuhan proyek Anda untuk mengontrol ketepatan analisis risiko.
 ## Langkah 3: Muat File Proyek MS
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

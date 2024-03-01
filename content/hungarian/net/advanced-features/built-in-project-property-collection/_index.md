@@ -25,7 +25,7 @@ Ismerkedjen meg a C# programozási nyelv alapjaival, beleértve a változókat, 
 
 ### 3. Az Aspose.Tasks telepítése .NET-hez
 
-Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[weboldal](https://releases.aspose.com/tasks/net/).
+ Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[weboldal](https://releases.aspose.com/tasks/net/).
 
 ### 4. Projektmenedzsment fogalmak ismerete
 

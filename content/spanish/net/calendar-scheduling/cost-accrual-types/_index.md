@@ -41,13 +41,13 @@ var project = new Project("Project2.mpp");
 
  Primero, necesitamos cargar el archivo del proyecto en nuestra aplicación. Creamos un nuevo`Project` objeto e inicialícelo con la ruta a nuestro archivo de proyecto.
 
-## Paso 2: Acceda a los recursos
+## Paso 2: acceder al recurso
 
 ```csharp
 var resource = project.Resources.GetById(1);
 ```
 
- A continuación accedemos al recurso al que queremos aplicar el tipo de acumulación de coste. Usamos el`GetById` método de`Resources` colección y pasar el ID del recurso como argumento.
+ A continuación accedemos al recurso al que queremos aplicar el tipo de acumulación de coste. Usamos el`GetById` método de la`Resources` colección y pasar el ID del recurso como argumento.
 
 ## Paso 3: Establecer el tipo de acumulación de costos
 
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Aquí configuramos el tipo de acumulación de costos para el recurso. En este ejemplo, lo estamos configurando en`CostAccrualType.End`, lo que significa que los costos no se acumularán hasta que el trabajo restante sea cero.
+Aquí configuramos el tipo de acumulación de costos para el recurso. En este ejemplo, lo estamos configurando en`CostAccrualType.End`, lo que significa que los costos no se acumularán hasta que el trabajo restante sea cero.
 
 ## Paso 4: trabajar con el proyecto
 
@@ -73,7 +73,7 @@ R1: Sí, puede recorrer la recopilación de recursos y establecer el tipo de acu
 
 ### P2: ¿Cuáles son los otros tipos de acumulación de costos disponibles además de "Fin"?
 
- R2: Aspose.Tasks para .NET proporciona varios otros tipos de acumulación de costos, como`Start`, `Prorated` ,y`Duration`.
+R2: Aspose.Tasks para .NET proporciona varios otros tipos de acumulación de costos, como`Start`, `Prorated` , y`Duration`.
 
 ### P3: ¿Cómo puedo determinar el tipo de acumulación de costos actual para un recurso?
 

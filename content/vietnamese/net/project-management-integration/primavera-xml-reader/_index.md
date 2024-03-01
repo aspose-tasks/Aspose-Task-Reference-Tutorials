@@ -51,9 +51,9 @@ Trong hướng dẫn này, chúng ta đã học cách sử dụng MS Project Pri
 ### Câu hỏi: Aspose.Tasks có thể xử lý các cấu trúc dự án phức tạp không?
 Trả lời: Có, Aspose.Tasks cung cấp các tính năng mạnh mẽ để xử lý các cấu trúc và độ phức tạp khác nhau của dự án một cách hiệu quả.
 ### Câu hỏi: Aspose.Tasks có bản dùng thử miễn phí không?
-Đ: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+ Đ: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks?
- Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15).
+ Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Tôi có thể mua giấy phép tạm thời cho Aspose.Tasks không?
  Đáp: Có, giấy phép tạm thời có sẵn để mua[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm tài liệu toàn diện về Aspose.Tasks ở đâu?

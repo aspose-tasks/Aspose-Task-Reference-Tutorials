@@ -57,9 +57,9 @@ In deze zelfstudie hebben we de rijkdom van Aspose.Tasks voor .NET onderzocht, m
 ### Kan ik Aspose.Tasks voor .NET gebruiken met andere projectbeheertools?
 Aspose.Tasks richt zich primair op .NET-applicaties. U kunt gegevens echter exporteren naar verschillende formaten die compatibel zijn met andere tools.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
-Ja, u kunt de functionaliteiten van Aspose.Tasks voor .NET ervaren door een gratis proefperiode aan te vragen[hier](https://releases.aspose.com/).
+ Ja, u kunt de functionaliteiten van Aspose.Tasks voor .NET ervaren door een gratis proefperiode aan te vragen[hier](https://releases.aspose.com/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Tasks voor .NET?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor community-gebaseerde ondersteuning of verken de uitgebreide documentatie.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor community-gebaseerde ondersteuning of verken de uitgebreide documentatie.
 ### Zijn er tijdelijke licenties beschikbaar voor Aspose.Tasks voor .NET?
  Ja, u kunt tijdelijke licenties aanschaffen[hier](https://purchase.aspose.com/temporary-license/) voor kortdurend gebruik.
 ### Welke bestandsformaten worden ondersteund voor projectdocumenten?

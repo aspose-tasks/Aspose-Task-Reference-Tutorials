@@ -1,6 +1,6 @@
 ---
 title: Testreszabhatja az MS Project oldalnézeti beállításait az Aspose.Tasks alkalmazásban
-linktitle: Konfigurálja az oldalnézet beállításait az Aspose.Tasks alkalmazásban
+linktitle: Az Aspose.Tasks oldalnézeti beállításainak konfigurálása
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja az Aspose.Tasks for .NET oldalnézeti beállításait a Microsoft Project-dokumentumok nyomtatási formátumának testreszabásához.
 type: docs
@@ -64,7 +64,7 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 ```
 
 ## Következtetés
-Microsoft Project oldalnézeti beállításainak konfigurálása az Aspose.Tasks for .NET-ben egyszerű, és lehetővé teszi, hogy a nyomtatási formátumot pontosan az igényeihez igazítsa. Az ebben az oktatóanyagban ismertetett lépések követésével biztosíthatja, hogy a projektdokumentumok pontosan a szükséges módon jelenjenek meg.
+A Microsoft Project oldalnézeti beállításainak konfigurálása az Aspose.Tasks for .NET-ben egyszerű, és lehetővé teszi, hogy a nyomtatási formátumot pontosan az igényeihez igazítsa. Az ebben az oktatóanyagban ismertetett lépések követésével biztosíthatja, hogy a projektdokumentumok pontosan a szükséges módon jelenjenek meg.
 ## GYIK
 ### K: Konfigurálhatom az oldalnézet beállításait a PDF-en kívül más fájlformátumokhoz is?
 V: Igen, az Aspose.Tasks különféle fájlformátumokat támogat projektek mentéséhez, beleértve az XLSX-et, az MPP-t és a HTML-t.
@@ -75,4 +75,4 @@ V: Igen, az oldalnézet beállításait függetlenül módosíthatja minden egye
 ### K: Az Aspose.Tasks kompatibilis a Microsoft Project összes verziójával?
 V: Az Aspose.Tasks kompatibilis a Microsoft Project 2003 és újabb verzióival.
 ### K: Hol találhatok további segítséget vagy támogatást az Aspose.Tasks-hoz?
- V: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15)bármilyen kérdés vagy probléma esetén, amellyel a használat során találkozik.
+ V: Meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) bármilyen kérdés vagy probléma esetén, amellyel a használat során találkozik.

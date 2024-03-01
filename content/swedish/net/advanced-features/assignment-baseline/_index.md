@@ -9,7 +9,7 @@ url: /sv/net/advanced-features/assignment-baseline/
 ---
 ## Introduktion
 
-När du arbetar med projektledningsuppgifter är det avgörande att hantera uppdragets baslinjer för att spåra korrekta framsteg. Aspose.Tasks för .NET tillhandahåller en omfattande uppsättning verktyg för att hantera uppdragsbaslinjer effektivt. I den här handledningen kommer vi att fördjupa oss i processen att hantera uppdragsbaslinjer steg för steg.
+När du arbetar med projektledningsuppgifter är hantering av uppdragets baslinjer avgörande för att spåra framstegen korrekt. Aspose.Tasks för .NET tillhandahåller en omfattande uppsättning verktyg för att hantera uppdragsbaslinjer effektivt. I den här handledningen kommer vi att fördjupa oss i processen att hantera uppdragsbaslinjer steg för steg.
 
 ## Förutsättningar
 

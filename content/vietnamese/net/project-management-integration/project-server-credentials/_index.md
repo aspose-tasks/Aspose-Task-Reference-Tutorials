@@ -12,7 +12,7 @@ Trong lĩnh vực quản lý dự án, sự phối hợp hiệu quả và giao t
 ## Điều kiện tiên quyết
 Trước khi bắt đầu hành trình quản lý thông tin đăng nhập MS Project Server bằng Aspose.Tasks cho .NET, hãy đảm bảo đáp ứng các điều kiện tiên quyết sau:
 ### 1. Cài đặt Aspose.Tasks cho .NET
- Để bắt đầu, hãy tải xuống và cài đặt Aspose.Tasks for .NET từ gói được cung cấp[Liên kết tải xuống](https://releases.aspose.com/tasks/net/), Làm theo hướng dẫn cài đặt để tích hợp thư viện vào môi trường .NET của bạn một cách liền mạch.
+ Để bắt đầu, hãy tải xuống và cài đặt Aspose.Tasks for .NET từ gói được cung cấp[Liên kết tải xuống](https://releases.aspose.com/tasks/net/). Làm theo hướng dẫn cài đặt để tích hợp thư viện vào môi trường .NET của bạn một cách liền mạch.
 ### 2. Thông tin xác thực truy cập
 Thu thập thông tin xác thực cần thiết để truy cập MS Project Server. Điều này bao gồm địa chỉ miền SharePoint, tên người dùng và mật khẩu được liên kết với Máy chủ dự án.
 

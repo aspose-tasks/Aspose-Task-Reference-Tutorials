@@ -76,6 +76,6 @@ Odpověď: Ano, Aspose.Tasks se bez problémů integruje s jakýmkoli projektem 
 ### Otázka: Je k dispozici bezplatná zkušební verze?
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Otázka: Jak mohu získat dočasnou licenci pro Aspose.Tasks?
-Odpověď: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ Odpověď: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu zakoupit Aspose.Tasks?
  A: Nákup Aspose.Tasks[tady](https://purchase.aspose.com/buy).

@@ -89,7 +89,7 @@ catch (BitmapInvalidSizeException ex)
 
 ## 결론
 
-이 단계별 가이드를 따르면 .NET 애플리케이션에서 Aspose.Tasks Layout Builder로 작업할 때 메모리 예외를 효과적으로 처리할 수 있습니다. 리소스 사용을 최적화하고 프로젝트의 복잡성을 고려하여 메모리 관련 문제를 완화하는 것을 잊지 마세요.
+이 단계별 가이드를 따르면 .NET 애플리케이션에서 Aspose.Tasks Layout Builder로 작업할 때 메모리 예외를 효과적으로 처리할 수 있습니다. 리소스 사용을 최적화하고 프로젝트의 복잡성을 고려하여 메모리 관련 문제를 완화하는 것을 잊지 마십시오.
 
 ## FAQ
 

@@ -12,8 +12,8 @@ projektmenedzsment területén a hatékony koordináció és a zökkenőmentes k
 ## Előfeltételek
 Mielőtt elkezdené az MS Project Server hitelesítő adatainak Aspose.Tasks for .NET segítségével történő kezelését, győződjön meg arról, hogy teljesülnek a következő előfeltételek:
 ### 1. Az Aspose.Tasks telepítése .NET-hez
- Kezdésként töltse le és telepítse az Aspose.Tasks for .NET programot a mellékelt webhelyről[letöltési link](https://releases.aspose.com/tasks/net/), Kövesse a telepítési utasításokat a könyvtár .NET-környezetébe történő zökkenőmentes integrálásához.
-### 2. Hozzáférési hitelesítő adatok
+ Kezdésként töltse le és telepítse az Aspose.Tasks for .NET programot a mellékelt webhelyről[letöltési link](https://releases.aspose.com/tasks/net/). Kövesse a telepítési utasításokat a könyvtár .NET-környezetébe történő zökkenőmentes integrálásához.
+### 2. Hozzáférés a hitelesítő adatokhoz
 Gyűjtse össze az MS Project Server eléréséhez szükséges hitelesítő adatokat. Ez magában foglalja a Project Serverhez társított SharePoint tartománycímet, felhasználónevet és jelszót.
 
 ## Névterek importálása

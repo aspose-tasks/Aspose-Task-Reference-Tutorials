@@ -1,6 +1,6 @@
 ---
-title: Configurar visualizações de uso em Aspose.Tasks
-linktitle: Configurar visualizações de uso em Aspose.Tasks
+title: Configurando visualizações de uso em Aspose.Tasks
+linktitle: Configurando visualizações de uso em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar visualizações de uso de tarefas em Aspose.Tasks for .NET. Aprimore a visualização do projeto com etapas detalhadas. Baixe a biblioteca agora!
 type: docs
@@ -11,7 +11,7 @@ url: /pt/net/text-view-configuration/usage-views/
 Se você é um desenvolvedor .NET que deseja aprimorar seus recursos de gerenciamento de projetos, Aspose.Tasks é uma ferramenta poderosa que permite manipular arquivos do Microsoft Project sem esforço. Neste tutorial, vamos nos concentrar na configuração de visualizações de uso usando Aspose.Tasks for .NET. Acompanhe para obter insights sobre a renderização de visualizações de uso de tarefas com detalhes para melhor visualização do projeto.
 ## Pré-requisitos
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
-- Biblioteca Aspose.Tasks: certifique-se de ter a biblioteca Aspose.Tasks integrada ao seu projeto .NET. Se não, você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/) e siga as instruções de instalação.
+-  Biblioteca Aspose.Tasks: certifique-se de ter a biblioteca Aspose.Tasks integrada ao seu projeto .NET. Se não, você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/) e siga as instruções de instalação.
 - Diretório de documentos: configure um diretório onde os documentos do seu projeto são armazenados. Substitua "Seu diretório de documentos" nos trechos de código pelo caminho real para o diretório de documentos.
 ## Importar namespaces
 No trecho de código fornecido, você notará o uso de determinados namespaces. Certifique-se de incluí-los em seu projeto para uma integração perfeita:

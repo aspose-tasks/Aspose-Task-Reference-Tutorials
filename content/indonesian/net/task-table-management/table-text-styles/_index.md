@@ -1,6 +1,6 @@
 ---
 title: Panduan Menyesuaikan Gaya Teks Tabel di Aspose.Tasks
-linktitle: Konfigurasikan Gaya Teks Tabel di Aspose.Tasks
+linktitle: Mengonfigurasi Gaya Teks Tabel di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Tingkatkan visualisasi proyek dengan Aspose.Tasks untuk .NET. Pelajari cara mengonfigurasi gaya teks tabel langkah demi langkah. Meningkatkan efisiensi dan presentasi.
 type: docs
@@ -11,7 +11,7 @@ url: /id/net/task-table-management/table-text-styles/
 Dalam dunia manajemen proyek, visualisasi tugas yang efektif sangat penting untuk kesuksesan. Aspose.Tasks untuk .NET memberikan solusi ampuh untuk mengkustomisasi gaya teks tabel, memungkinkan Anda menyesuaikan tampilan item teks dalam proyek Anda. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengonfigurasi gaya teks tabel menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki hal berikut:
--  Aspose.Tasks for .NET: Pastikan Anda menginstal Aspose.Tasks for .NET versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Pastikan Anda menginstal Aspose.Tasks for .NET versi terbaru. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
 - Direktori Dokumen: Siapkan direktori untuk dokumen Anda. Ganti "Direktori Dokumen Anda" dalam kode dengan jalur sebenarnya.
 -  Lisensi Aspose yang Valid: Contoh ini memerlukan lisensi Aspose yang valid. Anda dapat membeli lisensi penuh[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara 30 hari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ## Impor Namespace
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## Kesimpulan

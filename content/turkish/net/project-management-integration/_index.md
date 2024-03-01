@@ -21,9 +21,9 @@ Aspose.Tasks for .NET'i kullanarak MS Project sunumlarını zahmetsizce nasıl f
 ## Aspose.Tasks ile MS Project Primavera Verilerini Okumak
  Aspose.Tasks for .NET'i kullanarak MS Project Primavera verilerini okuma yeteneğinin kilidini açın. Eğitimimiz[Burada](./primavera-data-reading/) Kod örnekleriyle süreç boyunca size yol göstererek veri almayı kolaylaştırır.
 
-Yolculuk burada bitmiyor; İlerleme satırlarının ele alınmasından proje verilerinin master edilmesine, ekran seçeneklerinin yapılandırılmasından MS Project Server'ın sorunsuz bir şekilde yönetilmesine kadar her şeyi kapsayan sayısız öğreticiyi keşfedin. Proje yönetimi yeteneklerinizin tüm potansiyelini açığa çıkarmak için Aspose.Tasks for .NET eğitimlerine dalın.
+Yolculuk burada bitmiyor; İlerleme satırlarının ele alınması ve proje verilerinin master edilmesinden ekran seçeneklerinin yapılandırılmasına ve MS Project Server'ın sorunsuz bir şekilde yönetilmesine kadar her şeyi kapsayan sayısız öğreticiyi keşfedin. Proje yönetimi yeteneklerinizin tüm potansiyelini açığa çıkarmak için Aspose.Tasks for .NET eğitimlerine dalın.
 
- MS Project görünümlerini özelleştirmeye, sunucu kimlik bilgilerini yönetmeye ve proje bilgilerini zahmetsizce çıkarmaya hazır mısınız? Kılavuzlarımızı takip edin[MS Proje Görünümlerini Özelleştirme](./project-views/), [MS Project Server Kimlik Bilgilerini Yönetme](./project-server-credentials/) ,Ve[MS Proje Bilgilerini Çıkarma](./project-information/) derinlemesine bilgiler için.
+ MS Project görünümlerini özelleştirmeye, sunucu kimlik bilgilerini yönetmeye ve proje bilgilerini zahmetsizce çıkarmaya hazır mısınız? Kılavuzlarımızı takip edin[MS Proje Görünümlerini Özelleştirme](./project-views/), [MS Project Server Kimlik Bilgilerini Yönetme](./project-server-credentials/) , Ve[MS Proje Bilgilerini Çıkarma](./project-information/) derinlemesine bilgiler için.
 
  MS Project Online istisnalarını sorunsuz bir şekilde yönetin, proje görevlerini otomatikleştirin ve aşağıdaki eğitimlerle proje yönetimi verimliliğini artırın[MS Project Çevrimiçi İstisnalarını Yönetme](./project-online-exceptions/) Ve[MS Project Server'ı Aspose.Tasks ile Yönetmek](./project-server-management/).
 

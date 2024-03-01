@@ -1,5 +1,5 @@
 ---
-title: Konfigurera Gantt Chart Timescale Tiers i Aspose.Tasks
+title: Konfigurera Gantt-diagrams tidsskalanivåer i Aspose.Tasks
 linktitle: Konfigurera tidsskalanivåer i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska Aspose.Tasks för .NET för att konfigurera tidsskalanivåer i din Gantt-diagramvy för exakt projekttidslinjevisualisering. #Aspose.Tasks #MS Project
@@ -8,11 +8,11 @@ weight: 16
 url: /sv/net/text-view-configuration/timescale-tiers/
 ---
 ## Introduktion
-det dynamiska landskapet för projektledning är effektiv visualisering avgörande för att förstå tidslinjer och deadlines. Aspose.Tasks för .NET tillhandahåller en kraftfull verktygsuppsättning, och i den här handledningen kommer vi att utforska hur man konfigurerar tidsskalanivåer för optimal representation i Gantt-diagramvyn. Följ dessa steg-för-steg-instruktioner för att förbättra din projektvisualisering.
+I det dynamiska landskapet för projektledning är effektiv visualisering avgörande för att förstå tidslinjer och deadlines. Aspose.Tasks för .NET tillhandahåller en kraftfull verktygsuppsättning, och i den här handledningen kommer vi att utforska hur man konfigurerar tidsskalanivåer för optimal representation i Gantt-diagramvyn. Följ dessa steg-för-steg-instruktioner för att förbättra din projektvisualisering.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande:
 - Grundläggande kunskaper i C# och .NET.
-- Aspose.Tasks för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
 - En utvecklingsmiljö inrättad för .NET-applikationsutveckling.
 ## Importera namnområden
 ```csharp

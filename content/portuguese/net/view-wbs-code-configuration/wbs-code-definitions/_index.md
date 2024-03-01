@@ -12,7 +12,7 @@ url: /pt/net/view-wbs-code-configuration/wbs-code-definitions/
 ## Pré-requisitos
 Antes de mergulharmos no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 - Conhecimento prático de desenvolvimento .NET.
-- Biblioteca Aspose.Tasks para .NET instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/).
+-  Biblioteca Aspose.Tasks para .NET instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/).
 - Um editor de código (Visual Studio é recomendado).
 ## Importar namespaces
 No seu projeto .NET, comece importando os namespaces necessários:

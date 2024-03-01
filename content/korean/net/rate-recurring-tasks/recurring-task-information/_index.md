@@ -61,4 +61,4 @@ A: 예, Aspose.Tasks는 MPP, XML, CSV와 같은 다양한 프로젝트 파일 �
 ### Q: .NET용 Aspose.Tasks에 대한 설명서는 어디서 찾을 수 있나요?
  A: 문서를 찾을 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
 ### Q: Aspose.Tasks for .NET에 대한 기술 지원은 어떻게 받을 수 있나요?
-A: Aspose.Tasks 포럼에서 기술 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+ A: Aspose.Tasks 포럼에서 기술 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).

@@ -2,7 +2,7 @@
 title: Zbiór wyjątków kalendarza w Aspose.Tasks
 linktitle: Zbiór wyjątków kalendarza w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak efektywnie obsługiwać wyjątki kalendarza w projektach .NET przy użyciu Aspose.Tasks, zapewniając dokładne planowanie i zarządzanie zasobami.
+description: Dowiedz się, jak efektywnie obsługiwać wyjątki kalendarza w projektach .NET za pomocą Aspose.Tasks, zapewniając dokładne planowanie i zarządzanie zasobami.
 type: docs
 weight: 13
 url: /pl/net/calendar-scheduling/calendar-exception-collection/

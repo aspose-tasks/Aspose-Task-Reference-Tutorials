@@ -41,13 +41,13 @@ var project = new Project("Project2.mpp");
 
  Först måste vi ladda projektfilen i vår applikation. Vi skapar en ny`Project` objekt och initiera det med sökvägen till vår projektfil.
 
-## Steg 2: Få tillgång till resurser
+## Steg 2: Få tillgång till resurs
 
 ```csharp
 var resource = project.Resources.GetById(1);
 ```
 
- Därefter kommer vi åt den resurs som vi vill tillämpa kostnadsperiodiseringstypen på. Vi använder`GetById` metod av`Resources` samla in och skicka resurs-ID som ett argument.
+ Därefter kommer vi åt den resurs som vi vill tillämpa kostnadsperiodiseringstypen på. Vi använder`GetById` metod för`Resources` samla in och skicka resurs-ID som ett argument.
 
 ## Steg 3: Ställ in kostnadstillverkningstyp
 
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Här ställer vi in kostnadsperiodiseringstypen för resursen. I det här exemplet ställer vi in det till`CostAccrualType.End`, vilket innebär att kostnader inte kommer att periodiseras förrän återstående arbete är noll.
+Här ställer vi in kostnadsperiodiseringstypen för resursen. I det här exemplet ställer vi in det till`CostAccrualType.End`, vilket innebär att kostnader inte kommer att periodiseras förrän återstående arbete är noll.
 
 ## Steg 4: Arbeta med projektet
 
@@ -73,7 +73,7 @@ S1: Ja, du kan gå igenom resursinsamlingen och ställa in kostnadsperiodisering
 
 ### F2: Vilka är de andra tillgängliga typerna av kostnadstillverkning förutom "Slut"?
 
- S2: Aspose.Tasks för .NET tillhandahåller flera andra typer av kostnadsföring som t.ex`Start`, `Prorated` ,och`Duration`.
+S2: Aspose.Tasks för .NET tillhandahåller flera andra typer av kostnadsföring som t.ex`Start`, `Prorated` , och`Duration`.
 
 ### F3: Hur kan jag bestämma den aktuella kostnadsperioden för en resurs?
 

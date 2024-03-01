@@ -1,6 +1,6 @@
 ---
-title: Configureer MS Project Legends in Aspose.Tasks
-linktitle: Configureer de paginalegenda in Aspose.Tasks
+title: MS Project-legenda's configureren in Aspose.Tasks
+linktitle: Paginalegenda configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-paginalegenda's in .NET configureert met behulp van Aspose.Tasks voor efficiënt projectbeheer. Stap-voor-stap handleiding meegeleverd.
 type: docs
@@ -11,7 +11,7 @@ url: /nl/net/outline-code-page-settings/page-legend/
 Op het gebied van .NET-ontwikkeling is het efficiënt beheren van taken cruciaal, vooral als het om projectmanagement gaat. Aspose.Tasks voor .NET komt naar voren als een krachtig hulpmiddel dat een overvloed aan functionaliteiten biedt om taakbeheerprocessen te stroomlijnen. Eén zo'n functie is de mogelijkheid om MS Project-paginalegenda's te configureren, waardoor gebruikers waardevolle inzichten krijgen in de presentatie van projectgegevens.
 ## Vereisten
 Voordat u zich verdiept in het configureren van MS Project-paginalegenda's met Aspose.Tasks voor .NET, moet u ervoor zorgen dat aan de volgende vereisten wordt voldaan:
-1.  Installatie: zorg dat Aspose.Tasks voor .NET in uw ontwikkelomgeving is geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
+1. Installatie: zorg dat Aspose.Tasks voor .NET in uw ontwikkelomgeving is geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
 2. Basiskennis van .NET: maak uzelf vertrouwd met de basisprincipes van .NET-ontwikkeling, inclusief het opzetten van projecten en het werken met naamruimten.
 3. Ontwikkelomgeving: Gebruik een geïntegreerde ontwikkelomgeving (IDE), zoals Visual Studio, voor een naadloze codeerervaring.
 4. Projectbestand: Zorg ervoor dat u een Microsoft Project-bestand (MPP) gereed heeft om mee te experimenteren.
@@ -19,7 +19,7 @@ Voordat u zich verdiept in het configureren van MS Project-paginalegenda's met A
 ## Naamruimten importeren
 Importeer in uw .NET-project de benodigde naamruimten om toegang te krijgen tot de functionaliteiten van Aspose.Tasks voor .NET.
 1. Open uw project: Start uw .NET-project in de IDE van uw voorkeur.
-2. Naamruimten importeren: importeer aan het begin van uw codebestand de vereiste naamruimten:
+2. Naamruimten importeren: Importeer aan het begin van uw codebestand de vereiste naamruimten:
 ```csharp
 using Aspose.Tasks;
 using System;

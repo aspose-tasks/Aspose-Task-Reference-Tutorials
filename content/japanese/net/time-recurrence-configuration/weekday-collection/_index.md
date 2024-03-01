@@ -90,7 +90,7 @@ A: Aspose.Tasks は主に .NET 言語をサポートしていますが、Java �
 ### Q: Aspose.Tasks for .NET に利用できる無料トライアルはありますか?
  A: はい、次のサイトから無料トライアルをダウンロードできます。[Aspose.Tasks リリース ページ](https://releases.aspose.com/).
 ### Q: Aspose.Tasks for .NET のサポートを受けるにはどうすればよいですか?
-A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティ サポートが必要な場合は、サポート プランの購入を検討してください。
+ A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティ サポートが必要な場合は、サポート プランの購入を検討してください。
 ### Q: Aspose.Tasks for .NET の包括的なドキュメントはどこで見つけられますか?
  A: を参照してください。[Aspose.Tasks for .NET ドキュメント](https://reference.aspose.com/tasks/net/)詳細については。
 ### Q: Aspose.Tasks for .NET の一時ライセンスを取得するにはどうすればよいですか?

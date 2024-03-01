@@ -55,7 +55,7 @@ Découvrez comment utiliser Aspose.Tasks pour .NET pour gérer et analyser effic
 
 ## Options CSV dans Aspose.Tasks
 
- Utilisez Aspose.Tasks pour .NET pour travailler efficacement avec les fichiers CSV. Améliorez vos capacités de gestion de projet sans effort grâce à des didacticiels étape par étape.[En savoir plus](./csv-options/)
+ Utilisez Aspose.Tasks pour .NET pour travailler efficacement avec des fichiers CSV. Améliorez vos capacités de gestion de projet sans effort grâce à des didacticiels étape par étape.[En savoir plus](./csv-options/)
 
 ## Positions des symboles monétaires dans Aspose.Tasks
 

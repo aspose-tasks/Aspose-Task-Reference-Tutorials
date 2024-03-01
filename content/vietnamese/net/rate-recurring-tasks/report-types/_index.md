@@ -2,17 +2,17 @@
 title: Báo cáo dự án MS chính với Aspose.Tasks
 linktitle: Làm việc với các loại báo cáo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách làm việc với các tệp MS Project bằng Aspose.Tasks cho .NET. Tạo các loại báo cáo khác nhau một cách dễ dàng.
+description: Tìm hiểu cách làm việc với các tệp MS Project bằng Aspose.Tasks for .NET. Tạo các loại báo cáo khác nhau một cách dễ dàng.
 type: docs
 weight: 16
 url: /vi/net/rate-recurring-tasks/report-types/
 ---
 ## Giới thiệu
-Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project một cách dễ dàng. Cho dù bạn đang làm việc về quản lý dự án, lập kế hoạch hoặc báo cáo nhiệm vụ, Aspose.Tasks đều cung cấp một bộ tính năng toàn diện để hợp lý hóa quy trình làm việc của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các tệp MS Project và tạo các loại báo cáo khác nhau bằng Aspose.Tasks cho .NET.
+Aspose.Tasks for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp Microsoft Project một cách dễ dàng. Cho dù bạn đang làm việc về quản lý dự án, lập lịch trình hay báo cáo nhiệm vụ, Aspose.Tasks đều cung cấp một bộ tính năng toàn diện để hợp lý hóa quy trình làm việc của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách làm việc với các tệp MS Project và tạo các loại báo cáo khác nhau bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 ### 1. Cài đặt Aspose.Tasks cho .NET
-Đảm bảo bạn đã cài đặt Aspose.Tasks cho .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
+ Đảm bảo bạn đã cài đặt Aspose.Tasks cho .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
 ### 2. Lấy giấy phép (Tùy chọn)
  Nếu bạn đang sử dụng Aspose.Tasks trong một dự án thương mại, bạn sẽ cần có giấy phép. Bạn có thể mua giấy phép từ[đây](https://purchase.aspose.com/buy) , hoặc bạn có thể yêu cầu giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### 3. Thiết lập môi trường phát triển của bạn
@@ -50,7 +50,7 @@ Tóm lại, Aspose.Tasks for .NET là một thư viện linh hoạt để làm v
 ### Q2: Có bản dùng thử miễn phí không?
  Trả lời: Có, bạn có thể yêu cầu giấy phép dùng thử miễn phí[đây](https://releases.aspose.com/tasks/net/).
 ### Câu hỏi 3: Tôi có thể tìm tài liệu về Aspose.Tasks ở đâu?
- A: Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/tasks/net/).
+ A: Bạn có thể tìm tài liệu[đây](https://reference.aspose.com/tasks/net/).
 ### Câu hỏi 4: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks?
  A: Bạn có thể nhận được sự hỗ trợ từ cộng đồng[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi 5: Làm cách nào để tải xuống Aspose.Tasks cho .NET?

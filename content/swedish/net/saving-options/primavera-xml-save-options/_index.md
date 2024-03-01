@@ -11,7 +11,7 @@ url: /sv/net/saving-options/primavera-xml-save-options/
 Inom sfären av projektledning och uppgiftshantering framstår Aspose.Tasks för .NET som en kraftfull allierad. Detta bibliotek utrustar utvecklare med de verktyg som krävs för att manipulera projektdata utan ansträngning i .NET-applikationer. En anmärkningsvärd funktion är dess förmåga att interagera med Primavera XML-filer, vilket ger en sömlös upplevelse av att hantera projektinformation.
 ## Förutsättningar
 Innan du dyker in i krångligheterna med att använda Aspose.Tasks för .NET för att spara MS Project-alternativ i Primavera XML-format, se till att du har följande förutsättningar:
-1.  Installation: Ha Aspose.Tasks för .NET-biblioteket installerat i din utvecklingsmiljö. Om inte, ladda ner den från[här](https://releases.aspose.com/tasks/net/)och följ installationsinstruktionerna i dokumentationen[här](https://reference.aspose.com/tasks/net/).
+1.  Installation: Ha Aspose.Tasks för .NET-biblioteket installerat i din utvecklingsmiljö. Om inte, ladda ner den från[här](https://releases.aspose.com/tasks/net/) och följ installationsinstruktionerna i dokumentationen[här](https://reference.aspose.com/tasks/net/).
 2. Bekantskap med .NET Framework: Grundläggande förståelse för .NET Framework och C# programmeringsspråk är avgörande för att förstå de begrepp som diskuteras i denna handledning.
 3. MS Project File: Förbered en Microsoft Project-fil (`project.xml`) som du tänker spara i Primavera XML-format.
 
@@ -51,7 +51,7 @@ S: Ja, Aspose.Tasks för .NET stöder integration med olika projekthanteringsver
 ### F: Finns det en gratis testversion tillgänglig för Aspose.Tasks för .NET?
  S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks för .NET[här](https://releases.aspose.com/).
 ### F: Hur kan jag få teknisk support för Aspose.Tasks för .NET?
- S: Du kan söka teknisk hjälp och engagera dig i samhället på Aspose.Tasks-forumet.[här](https://forum.aspose.com/c/tasks/15).
+ S: Du kan söka teknisk hjälp och engagera dig i samhället på Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).
 ### F: Vilka är licensalternativen för Aspose.Tasks för .NET?
  S: Olika licensalternativ, inklusive tillfälliga licenser, finns tillgängliga för Aspose.Tasks för .NET. Utforska licensinformation[här](https://purchase.aspose.com/buy).
 ### F: Kan jag anpassa sparalternativen för Primavera XML-format?

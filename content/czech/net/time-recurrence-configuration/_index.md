@@ -12,28 +12,28 @@ url: /cs/net/time-recurrence-configuration/
 Vítejte ve světě Aspose.Tasks for .NET, kde se efektivní projektové řízení snoubí se silou přizpůsobitelných časových konfigurací a vzorců opakování. V tomto komplexním průvodci se ponoříme do různých výukových programů, které vám umožní zvládnout umění plánování projektů a správy zdrojů.
 
 ## Definování pracovních dnů v Aspose.Tasks
-[Definování pracovních dnů v Aspose.Tasks](./defining-weekdays/) Výukový program odhaluje schopnost Aspose.Tasks pro .NET při přizpůsobování pracovních dnů. Ponořte se do podrobných informací o správě projektových kalendářů a dolaďování pracovních časů pro vyšší efektivitu.
+[Definování pracovních dnů v Aspose.Tasks](./defining-weekdays/) tutoriál odhaluje schopnost Aspose.Tasks pro .NET v přizpůsobení pracovních dnů. Ponořte se do podrobných informací o správě projektových kalendářů a dolaďování pracovních časů pro vyšší efektivitu.
 
 ## Kolekce pracovních dnů v Aspose.Tasks
-Objevte snadnost správy pracovních dnů s[Kolekce pracovních dnů v Aspose.Tasks](./weekday-collection/), Tento výukový program vás provede přizpůsobením pracovních dnů, s výjimkou víkendů, a jednoduchým vytvářením specializovaných kalendářů.
+Objevte snadnost správy pracovních dnů s[Kolekce pracovních dnů v Aspose.Tasks](./weekday-collection/). Tento výukový program vás provede přizpůsobením pracovních dnů, s výjimkou víkendů, a jednoduchým vytvářením specializovaných kalendářů.
 
 ## Práce s typy pracovních skupin v Aspose.Tasks
- Bez námahy optimalizujte alokaci zdrojů a vylepšete řízení projektů pomocí[Práce s typy pracovních skupin v Aspose.Tasks](./workgroup-types/), Prozkoumejte, jak Aspose.Tasks for .NET zjednodušuje práci v pracovní skupině a zajišťuje efektivní pracovní tok projektu.
+ Bez námahy optimalizujte alokaci zdrojů a vylepšete řízení projektů pomocí[Práce s typy pracovních skupin v Aspose.Tasks](./workgroup-types/). Prozkoumejte, jak Aspose.Tasks for .NET zjednodušuje práci v pracovní skupině a zajišťuje efektivní pracovní tok projektu.
 
 ## Konfigurace pracovní doby v Aspose.Tasks
-[Konfigurace pracovní doby v Aspose.Tasks](./working-times/) je vaším hlavním zdrojem pro vylepšení plánování projektů v .NET. Naučte se, jak přesně konfigurovat pracovní dobu a zajistit optimální správu zdrojů. Nenechte si ujít – stáhněte si knihovnu hned teď!
+[Konfigurace pracovní doby v Aspose.Tasks](./working-times/) je vaším hlavním zdrojem pro vylepšení plánování projektů v .NET. Naučte se, jak přesně konfigurovat pracovní dobu a zajistit optimální správu zdrojů. Nenechte si ujít – stáhněte si knihovnu nyní!
 
 ## Sbírka pracovních dob v Aspose.Tasks
- Odemkněte potenciál Aspose.Tasks pro .NET s[Sbírka pracovní doby](./working-time-collection/), Efektivně spravujte časové osy projektů přizpůsobením kalendářů, nastavením pracovní doby a snadnou racionalizací projektů.
+ Odemkněte potenciál Aspose.Tasks pro .NET s[Sbírka pracovní doby](./working-time-collection/). Efektivně spravujte časové osy projektů přizpůsobením kalendářů, nastavením pracovní doby a snadnou racionalizací projektů.
 
 ## Manipulace s pracovními jednotkami v Aspose.Tasks
 Prozkoumejte Aspose.Tasks for .NET jako výkonnou knihovnu pro efektivní řízení projektů.[Manipulace s pracovními jednotkami v Aspose.Tasks](./work-units/) vás provede precizním zacházením s pracovními jednotkami a optimalizuje využití zdrojů pro úspěšné výsledky projektu.
 
 ## Konfigurace pracovních týdnů v Aspose.Tasks
- Naučte se umění konfigurovat pracovní týdny bez námahy[Konfigurace pracovních týdnů v Aspose.Tasks](./configuring-workweeks/), Tento kurz vylepšuje plánování projektů a správu zdrojů a poskytuje podrobného průvodce pro bezproblémovou implementaci.
+ Naučte se umění konfigurovat pracovní týdny bez námahy[Konfigurace pracovních týdnů v Aspose.Tasks](./configuring-workweeks/). Tento kurz vylepšuje plánování projektů a správu zdrojů a poskytuje podrobného průvodce pro bezproblémovou implementaci.
 
 ## Kolekce pracovních týdnů v Aspose.Tasks
- Ponořte se do procesu přizpůsobení pracovních týdnů v Aspose.Tasks pro .NET s[Sbírka pracovních týdnů](./workweek-collection/), Tento podrobný průvodce zajišťuje, že můžete efektivně vytvářet personalizované projektové kalendáře. Stáhněte si nyní a zefektivněte časové osy svých projektů.
+ Ponořte se do procesu přizpůsobení pracovních týdnů v Aspose.Tasks pro .NET s[Sbírka pracovních týdnů](./workweek-collection/). Tento podrobný průvodce zajišťuje, že můžete efektivně vytvářet personalizované projektové kalendáře. Stáhněte si nyní a zefektivněte časové osy svých projektů.
 
 ## Konfigurace vzorů ročního opakování v Aspose.Tasks
  Zakončete svou cestu tím, že se to naučíte[Konfigurace ročních vzorů opakování](./yearly-recurrence-patterns/) Aspose.Tasks pro .NET. Zlepšete své dovednosti projektového řízení pomocí tohoto podrobného průvodce, který zajistí, že budete moci efektivně zvládat roční vzorce opakování pro úspěch projektu.

@@ -1,6 +1,6 @@
 ---
-title: Quản lý bộ sưu tập tác vụ trong Aspose.Tasks
-linktitle: Quản lý bộ sưu tập tác vụ trong Aspose.Tasks
+title: Quản lý bộ sưu tập nhiệm vụ trong Aspose.Tasks
+linktitle: Quản lý bộ sưu tập nhiệm vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá quản lý tuyển tập tác vụ hiệu quả trong Aspose.Tasks for .NET. Từ việc tạo đến chỉnh sửa, quản lý dự án một cách dễ dàng.
 type: docs

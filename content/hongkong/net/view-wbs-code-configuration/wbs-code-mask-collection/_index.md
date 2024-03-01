@@ -8,7 +8,7 @@ weight: 15
 url: /zh-hant/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
 ## 介紹
-在專案管理的動態世界中，有效地組織任務至關重要。 Aspose.Tasks for .NET 提供了一個強大的解決方案來輕鬆管理專案工作分解結構 (WBS) 程式碼。在本教程中，我們將深入研究 WBS 程式碼遮罩集合，探索如何使用 Aspose.Tasks for .NET 來實作和操作它們。
+在專案管理的動態世界中，有效地組織任務至關重要。 Aspose.Tasks for .NET 提供了一個強大的解決方案來輕鬆管理專案工作分解結構 (WBS) 程式碼。在本教程中，我們將深入研究 WBS 程式碼遮罩集合，探索如何使用 Aspose.Tasks for .NET 實作和操作它們。
 ## 先決條件
 在我們開始此編碼之旅之前，請確保您具備以下先決條件：
 - C# 程式語言的應用知識。
@@ -132,7 +132,7 @@ foreach (var childTask in otherChildTasks)
 ### Q：我可以將 Aspose.Tasks for .NET 與其他程式語言一起使用嗎？
 答：Aspose.Tasks 主要支援 .NET 語言，但您可以探索與其他語言的互通性選項。
 ### Q：Aspose.Tasks for .NET 有試用版嗎？
-答：是的，您可以下載試用版。[這裡](https://releases.aspose.com/).
+答：是的，您可以下載試用版[這裡](https://releases.aspose.com/).
 ### Q：如何尋求協助或回報 Aspose.Tasks for .NET 問題？
 答：訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以尋求支持和討論。
 ### Q：WBS 代碼在專案管理中的用途是什麼？

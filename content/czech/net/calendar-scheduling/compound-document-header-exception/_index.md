@@ -9,7 +9,7 @@ url: /cs/net/calendar-scheduling/compound-document-header-exception/
 ---
 ## Úvod
 
- V oblasti vývoje .NET je efektivní řízení projektových úkolů prvořadým zájmem. Aspose.Tasks poskytuje komplexní řešení pro vývojáře .NET pro bezproblémové zvládnutí úkolů projektového řízení. Setkání s výjimkami je však nevyhnutelným aspektem vývoje softwaru. Jedna taková výjimka, na kterou mohou vývojáři narazit, je`CompoundDocumentHeaderException`Tento tutoriál si klade za cíl vést vývojáře, jak efektivně zacházet s touto výjimkou pomocí Aspose.Tasks for .NET.
+ V oblasti vývoje .NET je efektivní řízení projektových úkolů prvořadým zájmem. Aspose.Tasks poskytuje komplexní řešení pro vývojáře .NET pro bezproblémové zvládnutí úkolů projektového řízení. Setkání s výjimkami je však nevyhnutelným aspektem vývoje softwaru. Jedna taková výjimka, na kterou mohou vývojáři narazit, je`CompoundDocumentHeaderException`. Tento tutoriál si klade za cíl vést vývojáře, jak efektivně zacházet s touto výjimkou pomocí Aspose.Tasks for .NET.
 
 ## Předpoklady
 
@@ -78,7 +78,7 @@ Získejte přístup k požadovaným informacím o projektu, jako je název proje
 
 ## Krok 4: Zpracování výjimek
 
- V případě, že`CompoundDocumentHeaderException`dojde při načítání projektu, manipulujte s ním v rámci záchytného bloku. Vytiskněte nebo zaprotokolujte zprávu o výjimce pro další analýzu.
+ V případě, že`CompoundDocumentHeaderException` dojde při načítání projektu, manipulujte s ním v rámci záchytného bloku. Vytiskněte nebo zaprotokolujte zprávu o výjimce pro další analýzu.
 
 ## Závěr
 

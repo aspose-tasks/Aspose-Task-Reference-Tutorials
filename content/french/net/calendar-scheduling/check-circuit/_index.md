@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Étape 1 : Charger le fichier de projet
 
- Commencez par charger le fichier Microsoft Project (.mpp) dont vous souhaitez rechercher une structure cassée. Utilisez le`Project` classe pour charger le fichier.
+Commencez par charger le fichier Microsoft Project (.mpp) dont vous souhaitez rechercher une structure cassée. Utilisez le`Project` classe pour charger le fichier.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## Étape 2 : Vérifiez la structure du projet
 
- Pour détecter toute structure cassée au sein du projet, nous utiliserons le`CheckCircuit` classe avec`TaskUtils.Apply` méthode.
+ Pour détecter toute structure cassée au sein du projet, nous utiliserons le`CheckCircuit` classe avec le`TaskUtils.Apply` méthode.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ A1 : Oui, Aspose.Tasks pour .NET est compatible avec divers frameworks .NET, not
 
 ### Q3 : Comment puis-je obtenir de l'assistance pour Aspose.Tasks pour .NET ?
 
-A3 : Vous pouvez demander de l'aide au forum communautaire Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+ A3 : Vous pouvez demander de l'aide au forum communautaire Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
 
 ### Q4 : Ai-je besoin d’une licence temporaire à des fins de test ?
 

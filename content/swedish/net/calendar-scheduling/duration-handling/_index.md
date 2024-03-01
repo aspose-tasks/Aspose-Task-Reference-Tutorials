@@ -133,7 +133,7 @@ Console.WriteLine("The duration as a string: " + duration.ToString());
 
 ## Slutsats
 
-I den här handledningen täckte vi olika aspekter av varaktighetshantering i Aspose.Tasks för .NET. Att förstå och effektivt hantera varaktigheter är avgörande för framgångsrik projektledning. Aspose.Tasks tillhandahåller omfattande funktioner för att förenkla varaktighetshanteringsuppgifter i dina .NET-applikationer.
+den här handledningen täckte vi olika aspekter av varaktighetshantering i Aspose.Tasks för .NET. Att förstå och effektivt hantera varaktigheter är avgörande för framgångsrik projektledning. Aspose.Tasks tillhandahåller omfattande funktioner för att förenkla varaktighetshanteringsuppgifter i dina .NET-applikationer.
 
 ## FAQ's
 
@@ -155,4 +155,4 @@ S4: Ja, Aspose.Tasks stöder läsning och skrivning av Microsoft Project-filer i
 
 ### F5: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
 
- S5: Ja, du kan få en gratis provversion av Aspose.Tasks för .NET från[här](https://releases.aspose.com/).
+S5: Ja, du kan få en gratis provversion av Aspose.Tasks för .NET från[här](https://releases.aspose.com/).

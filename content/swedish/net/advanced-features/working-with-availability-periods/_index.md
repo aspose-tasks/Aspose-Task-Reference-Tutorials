@@ -9,7 +9,7 @@ url: /sv/net/advanced-features/working-with-availability-periods/
 ---
 ## Introduktion
 
-den här handledningen kommer vi att utforska hur man arbetar med tillgänglighetsperioder i Aspose.Tasks för .NET. Tillgänglighetsperioder är avgörande för att hantera resurser effektivt i projektledningsscenarier. Vi guidar dig genom processen steg för steg.
+I den här handledningen kommer vi att utforska hur man arbetar med tillgänglighetsperioder i Aspose.Tasks för .NET. Tillgänglighetsperioder är avgörande för att hantera resurser effektivt i projektledningsscenarier. Vi guidar dig genom processen steg för steg.
 
 ## Förutsättningar
 
@@ -94,7 +94,7 @@ I den här handledningen lärde vi oss hur man arbetar med tillgänglighetsperio
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.Tasks för .NET?
 
- S2: Ja, du kan få en gratis testversion av Aspose.Tasks för .NET[här](https://releases.aspose.com/).
+S2: Ja, du kan få en gratis testversion av Aspose.Tasks för .NET[här](https://releases.aspose.com/).
 
 ### F3: Var kan jag hitta dokumentation för Aspose.Tasks för .NET?
 
@@ -102,7 +102,7 @@ I den här handledningen lärde vi oss hur man arbetar med tillgänglighetsperio
 
 ### F4: Hur kan jag få support för Aspose.Tasks för .NET?
 
- S4: Du kan få stöd från communityforumet.[här](https://forum.aspose.com/c/tasks/15).
+ S4: Du kan få stöd från communityforumet[här](https://forum.aspose.com/c/tasks/15).
 
 ### F5: Erbjuder ni tillfälliga licenser för Aspose.Tasks för .NET?
 

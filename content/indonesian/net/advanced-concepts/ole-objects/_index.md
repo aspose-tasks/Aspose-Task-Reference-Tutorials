@@ -15,7 +15,7 @@ Aspose.Tasks untuk .NET menyediakan fungsionalitas komprehensif untuk bekerja de
 
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
-1. Instalasi: Pastikan Anda telah menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
+1.  Instalasi: Pastikan Anda telah menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
 
 2. Pengetahuan Dasar: Biasakan diri Anda dengan bahasa pemrograman C# dan konsep kerangka .NET.
 

@@ -58,7 +58,7 @@ var analysisResult = analyzer.Analyze(project);
 var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
 ```
 ## Étape 5 : Récupérer les résultats de l'analyse
-Récupérez et affichez les résultats de l'analyse, tels que les valeurs attendues et les centiles.
+Récupérez et affichez les résultats de l’analyse, tels que les valeurs attendues et les percentiles.
 ```csharp
 Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
 Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);

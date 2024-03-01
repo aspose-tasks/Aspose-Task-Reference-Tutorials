@@ -8,7 +8,7 @@ weight: 18
 url: /id/net/tasks-project-management/filter-criteria/
 ---
 ## Perkenalan
-Di bidang manajemen proyek, Microsoft Project berdiri sebagai alat pendukung, menawarkan banyak fitur untuk membantu perencana dan manajer proyek. Di antara banyak fungsinya terdapat kemampuan untuk memfilter data proyek, memungkinkan pengguna untuk fokus pada aspek tertentu dari tugas proyek mereka. Namun, menguasai kemampuan pemfilteran ini bisa menjadi tugas yang sulit tanpa panduan yang tepat. Tutorial ini bertujuan untuk memperjelas proses dengan memberikan panduan langkah demi langkah tentang penerapan kriteria filtera di MS Project menggunakan Aspose.Tasks untuk .NET.
+Di bidang manajemen proyek, Microsoft Project berdiri sebagai alat pendukung, menawarkan banyak fitur untuk membantu perencana dan manajer proyek. Di antara banyak fungsinya terdapat kemampuan untuk memfilter data proyek, memungkinkan pengguna untuk fokus pada aspek tertentu dari tugas proyek mereka. Namun, menguasai kemampuan pemfilteran ini bisa menjadi tugas yang sulit tanpa panduan yang tepat. Tutorial ini bertujuan untuk memperjelas proses dengan memberikan panduan langkah demi langkah tentang penerapan kriteria filter di MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 1. Pemahaman Dasar C#: Keakraban dengan bahasa pemrograman C# diperlukan untuk memahami konsep yang dibahas dalam tutorial ini.

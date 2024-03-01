@@ -1,6 +1,6 @@
 ---
 title: กำหนดค่าลายเซ็นดิจิทัล MS Project PDF ด้วย Aspose.Tasks
-linktitle: กำหนดค่ารายละเอียดลายเซ็นดิจิทัล PDF ใน Aspose.Tasks
+linktitle: การกำหนดค่ารายละเอียดลายเซ็นดิจิทัล PDF ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่ารายละเอียดลายเซ็นดิจิทัล Microsoft Project PDF โดยใช้ Aspose.Tasks สำหรับ .NET รับประกันความปลอดภัยและความถูกต้องของไฟล์โครงการของคุณ
 type: docs

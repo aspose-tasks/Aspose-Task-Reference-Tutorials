@@ -55,4 +55,4 @@ Aspose.Tasks se primárně zaměřuje na integraci .NET. Můžete však prozkoum
 ### Kde najdu podporu pro dotazy související s Aspose.Tasks?
  V případě jakýchkoli dotazů nebo diskuzí navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Jak mohu získat dočasnou licenci pro Aspose.Tasks?
- Chcete-li získat dočasnou licenci, navštivte[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).
+ Chcete-li získat dočasnou licenci, navštivte stránku[dočasná licenční stránka](https://purchase.aspose.com/temporary-license/).

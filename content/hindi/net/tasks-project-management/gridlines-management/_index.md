@@ -16,7 +16,7 @@ url: /hi/net/tasks-project-management/gridlines-management/
 ### 2. विकास का वातावरण
 सुनिश्चित करें कि आपकी मशीन पर .NET विकास वातावरण स्थापित है। आप विजुअल स्टूडियो या अपनी पसंद के किसी अन्य .NET IDE का उपयोग कर सकते हैं।
 ## नामस्थान आयात करें
-कोड में गोता लगाने से पहले, Aspose तक पहुँचने के लिए आवश्यक नेमस्पेस आयात करें। कार्य कार्यक्षमताएँ।
+कोड में गोता लगाने से पहले, आइए Aspose.Tasks कार्यात्मकताओं तक पहुंचने के लिए आवश्यक नामस्थान आयात करें।
 
 ```csharp
 using Aspose.Tasks;
@@ -34,7 +34,7 @@ using Aspose.Tasks.Visualization;
 string dataDir = "Your Document Directory";
 var project = new Project(dataDir + "Project2.mpp");
 ```
- इस चरण में, हम प्रोजेक्ट फ़ाइल "Project2.mpp" का उपयोग करके लोड करते हैं`Project` Aspose द्वारा प्रदान की गई कक्षा। कार्य।
+ इस चरण में, हम प्रोजेक्ट फ़ाइल "Project2.mpp" का उपयोग करके लोड करते हैं`Project` Aspose.Tasks द्वारा प्रदान की गई कक्षा।
 ## चरण 2: गैंट चार्ट दृश्य तक पहुंचें
 ```csharp
 var view = (GanttChartView)project.Views.ToList()[0];
@@ -68,4 +68,4 @@ project.Save(dataDir + "WorkWithGridlines_out.mpp", SaveFileFormat.Mpp);
 ### प्रश्न: क्या मैं परियोजना मापदंडों या शर्तों के आधार पर ग्रिडलाइनों को समायोजित करने की प्रक्रिया को स्वचालित कर सकता हूं?
 ए: निश्चित रूप से. Aspose.Tasks के साथ, आप प्रोजेक्ट डेटा या उपयोगकर्ता-परिभाषित मानदंडों के आधार पर ग्रिडलाइन सेटिंग्स को गतिशील रूप से समायोजित करने के लिए तर्क को शामिल कर सकते हैं।
 ### प्रश्न: मुझे .NET के लिए Aspose.Tasks के लिए अधिक संसाधन और समर्थन कहां मिल सकता है?
- ए: आप इसका पता लगा सकते हैं[प्रलेखन](https://reference.aspose.com/tasks/net/) व्यापक गाइड के लिए, पर जाएँ[सहयता मंच](https://forum.aspose.com/c/tasks/15) सहायता के लिए, या प्राप्त करने पर विचार करने के लिए[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) विस्तारित मूल्यांकन के लिए.
+ ए: आप इसका पता लगा सकते हैं[प्रलेखन](https://reference.aspose.com/tasks/net/) व्यापक गाइड के लिए, पर जाएँ[सहयता मंच](https://forum.aspose.com/c/tasks/15) सहायता के लिए, या प्राप्त करने पर विचार करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) विस्तारित मूल्यांकन के लिए.

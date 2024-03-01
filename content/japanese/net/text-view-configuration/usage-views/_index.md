@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks で使用状況ビューを構成する
-linktitle: Aspose.Tasks で使用状況ビューを構成する
+title: Aspose.Tasks での使用状況ビューの構成
+linktitle: Aspose.Tasks での使用状況ビューの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET でタスク使用状況ビューを構成する方法を学習します。詳細な手順でプロジェクトの視覚化を強化します。今すぐライブラリをダウンロードしてください!
 type: docs
@@ -11,7 +11,7 @@ url: /ja/net/text-view-configuration/usage-views/
 プロジェクト管理機能の強化を検討している .NET 開発者にとって、Aspose.Tasks は Microsoft Project ファイルを簡単に操作できる強力なツールです。このチュートリアルでは、Aspose.Tasks for .NET を使用した使用状況ビューの構成に焦点を当てます。フォローして、プロジェクトの視覚化を改善するための詳細を含むタスク使用状況ビューのレンダリングに関する洞察を得ることができます。
 ## 前提条件
 チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
-- Aspose.Tasks ライブラリ: Aspose.Tasks ライブラリが .NET プロジェクトに統合されていることを確認します。そうでない場合は、ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/)インストール手順に従ってください。
+-  Aspose.Tasks ライブラリ: Aspose.Tasks ライブラリが .NET プロジェクトに統合されていることを確認します。そうでない場合は、ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/)インストール手順に従ってください。
 - ドキュメント ディレクトリ: プロジェクト ドキュメントが保存されるディレクトリを設定します。コード スニペット内の「ドキュメント ディレクトリ」をドキュメント ディレクトリへの実際のパスに置き換えます。
 ## 名前空間のインポート
 提供されているコード スニペットでは、特定の名前空間が使用されていることがわかります。シームレスな統合のために、プロジェクトにこれらを必ず含めてください。

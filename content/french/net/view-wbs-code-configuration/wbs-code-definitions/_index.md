@@ -12,7 +12,7 @@ url: /fr/net/view-wbs-code-configuration/wbs-code-definitions/
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 - Une connaissance pratique du développement .NET.
-- Aspose.Tasks pour la bibliothèque .NET installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks pour la bibliothèque .NET installée. Vous pouvez le télécharger[ici](https://releases.aspose.com/tasks/net/).
 - Un éditeur de code (Visual Studio est recommandé).
 ## Importer des espaces de noms
 Dans votre projet .NET, commencez par importer les espaces de noms nécessaires :

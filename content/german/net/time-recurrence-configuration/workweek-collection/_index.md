@@ -75,7 +75,7 @@ Zusammenfassend bietet Aspose.Tasks für .NET eine robuste Lösung für die Hand
 ### Kann ich in einem einzigen Projekt mehrere benutzerdefinierte Arbeitswochen haben?
 Ja, Sie können einem Projektkalender mehrere benutzerdefinierte Arbeitswochen hinzufügen.
 ### Wie kann ich bestehende Arbeitswochen ändern?
- Nutzen Sie das bereitgestellte`WorkWeek` Eigenschaften und Methoden zur Änderung bestehender Arbeitswochen.
+ Nutzen Sie das bereitgestellte`WorkWeek`Eigenschaften und Methoden zur Änderung bestehender Arbeitswochen.
 ### Ist Aspose.Tasks mit .NET Core kompatibel?
 Ja, Aspose.Tasks unterstützt .NET Core.
 ### Kann ich das Projekt mit benutzerdefinierten Arbeitswochen in das Microsoft Project-Dateiformat exportieren?

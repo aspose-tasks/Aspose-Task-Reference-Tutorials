@@ -11,7 +11,7 @@ url: /ko/net/rate-recurring-tasks/removing-tasks/
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 Microsoft Project 파일에서 작업을 제거하는 방법을 살펴보겠습니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 프로그래밍 방식으로 조작할 수 있는 강력한 API입니다. 프로젝트 파일에서 작업을 제거하는 것은 프로젝트 관리 시나리오에서 일반적인 요구 사항일 수 있으며 Aspose.Tasks는 이를 달성하는 간단한 방법을 제공합니다.
 ## 전제조건
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-1. .NET용 Aspose.Tasks 설치: 개발 환경에 .NET용 Aspose.Tasks가 설치되어 있어야 합니다. 아직 설치하지 않으셨다면 아래에서 다운로드 받으실 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
+1.  .NET용 Aspose.Tasks 설치: 개발 환경에 .NET용 Aspose.Tasks가 설치되어 있어야 합니다. 아직 설치하지 않으셨다면 아래에서 다운로드 받으실 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
 2. Microsoft Project 파일: Microsoft Project 파일을 준비합니다(`Project1.mpp` 이 예에서는) 작업을 제거하려는 항목입니다.
 
 ## 네임스페이스 가져오기

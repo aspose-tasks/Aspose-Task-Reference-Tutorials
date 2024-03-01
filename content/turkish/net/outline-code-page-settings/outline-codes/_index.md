@@ -31,7 +31,7 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- yer değiştirmek`"Your Document Directory"` proje dosyanızın gerçek yolu ile.
+ Yer değiştirmek`"Your Document Directory"` proje dosyanızın gerçek yolu ile.
 ## Adım 2: Proje Dosyasını Yükleyin
  Yeni bir örnek oluştur`Project` MS Project dosyasını yükleyerek nesneyi oluşturun.
 ```csharp

@@ -19,7 +19,7 @@ Než začnete pracovat s Aspose.Tasks for .NET, musíte jej mít nainstalovaný 
 ### 2. Znalost programovacího jazyka C#
 Protože Aspose.Tasks for .NET je knihovna .NET, měli byste mít základní znalosti o syntaxi a konceptech programovacího jazyka C#.
 ### 3. Soubor Microsoft Project
-Ujistěte se, že máte soubor Microsoft Project (`Project2.mpp`) dostupné ve vámi určeném adresáři dokumentů (`DataDir`, Tento soubor bude sloužit jako cíl pro nastavení okrajů stránky.
+Ujistěte se, že máte soubor Microsoft Project (`Project2.mpp`) dostupné ve vámi určeném adresáři dokumentů (`DataDir`). Tento soubor bude sloužit jako cíl pro nastavení okrajů stránky.
 
 ## Importovat jmenné prostory
 Chcete-li začít manipulovat se soubory Microsoft Project pomocí Aspose.Tasks for .NET, musíte do kódu C# importovat potřebné jmenné prostory. Tento krok zajistí, že budete mít přístup ke třídám a metodám poskytovaným knihovnou Aspose.Tasks.
@@ -61,13 +61,13 @@ project.Save(DataDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
 ```
 
 ## Závěr
-V tomto tutoriálu jsme prozkoumali proces nastavení okrajů stránek MS Project pomocí Aspose.Tasks pro .NET. Dodržováním podrobného průvodce a využitím možností knihovny Aspose.Tasks můžete efektivně manipulovat se soubory projektu tak, aby vyhovovaly vašim specifickým požadavkům. Ať už upravujete okraje pro lepší rozvržení dokumentu nebo vylepšujete estetické prezentace, Aspose.Tasks vám umožní snadno dosáhnout vašich cílů.
+V tomto tutoriálu jsme prozkoumali proces nastavení okrajů stránek MS Project pomocí Aspose.Tasks pro .NET. Dodržováním podrobného průvodce a využitím možností knihovny Aspose.Tasks můžete efektivně manipulovat se soubory projektu tak, aby vyhovovaly vašim specifickým požadavkům. Ať už upravujete okraje pro lepší rozvržení dokumentu nebo vylepšujete estetiku prezentace, Aspose.Tasks vám umožní snadno dosáhnout vašich cílů.
 ## FAQ
 ### Otázka: Je Aspose.Tasks kompatibilní se všemi verzemi souborů Microsoft Project?
 Odpověď: Aspose.Tasks podporuje různé verze souborů Microsoft Project, čímž zajišťuje kompatibilitu v různých prostředích.
 ### Otázka: Mohu upravit okraje stránky pro konkrétní sekce v souboru projektu?
 Odpověď: Ano, pomocí Aspose.Tasks for .NET můžete upravit okraje stránky pro konkrétní sekce nebo stránky v souboru Microsoft Project.
-### Otázka: Existují nějaká omezení hodnot marží, které lze nastavit?
+### Otázka: Existují nějaká omezení pro hodnoty okrajů, které lze nastavit?
 Odpověď: Aspose.Tasks poskytuje flexibilitu při nastavování hodnot okrajů a umožňuje vám specifikovat přesná měření podle vašich požadavků.
 ### Otázka: Nabízí Aspose.Tasks podporu pro další funkce projektového řízení?
 Odpověď: Ano, Aspose.Tasks nabízí komplexní sadu funkcí pro správu projektů, včetně plánování úloh, přidělování zdrojů a vytváření sestav.

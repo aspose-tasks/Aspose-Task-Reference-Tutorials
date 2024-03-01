@@ -71,6 +71,6 @@ foreach (var module in project.VbaProject.Modules)
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.Tasks ได้ที่ไหน
  เยี่ยมชม[เอกสารประกอบ](https://reference.aspose.com/tasks/net/) สำหรับตัวอย่างและคำแนะนำที่ครอบคลุม
 ### Aspose.Tasks มีรุ่นทดลองใช้ฟรีหรือไม่
- ใช่ คุณสามารถเข้าถึงการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
+ใช่ คุณสามารถเข้าถึงการทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนหรือขอความช่วยเหลือสำหรับปัญหาที่เกี่ยวข้องกับ Aspose.Tasks ได้อย่างไร
- เชิญแวะชมได้ตามอัธยาศัย[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)เพื่อสนับสนุนชุมชน
+เชิญเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อสนับสนุนชุมชน

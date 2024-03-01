@@ -86,6 +86,6 @@ A3: はい、Aspose.Tasks は MPP、XML、HTML などのさまざまなプロジ
 
 A4: はい、Aspose.Tasks を使用すると、プロジェクト ファイル内のタスク データとリソース データの両方を操作できます。
 
-### Q5: Aspose.Tasks ユーザー向けのコミュニティ フォーラムはありますか?
+### Q5: Aspose.Tasks ユーザーのためのコミュニティ フォーラムはありますか?
 
  A5: はい、ご覧いただけます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)他のユーザーと交流し、Aspose チームからサポートを受けることができます。

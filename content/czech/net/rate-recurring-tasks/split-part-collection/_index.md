@@ -65,4 +65,4 @@ Odpověď: Aspose.Tasks podporuje různé verze souborů MS Project a zajišťuj
 ### Otázka: Jak mohu získat dočasné licence pro své projekty?
  Odpověď: Dočasné licence lze získat od[tady](https://purchase.aspose.com/temporary-license/) pro krátkodobé použití.
 ### Otázka: Kde mohu hledat pomoc nebo podporu ohledně Aspose.Tasks?
- Odpověď: Můžete navštívit fórum Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15) požádat o pomoc komunitu nebo tým podpory Aspose.
+ Odpověď: Můžete navštívit fórum Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15)požádat o pomoc komunitu nebo tým podpory Aspose.

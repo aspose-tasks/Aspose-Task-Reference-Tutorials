@@ -32,7 +32,7 @@ Most bontsuk le az egyes példákat több lépésre, és magyarázzuk el őket r
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Itt inicializáljuk a`Project` osztályt a Microsoft Project fájl elérési útjának megadásával.
+ Itt inicializáljuk a`Project` osztályt a Microsoft Project fájl elérési útjának megadásával.
 ## 2. lépés: Állítsa be az állapot dátumát:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

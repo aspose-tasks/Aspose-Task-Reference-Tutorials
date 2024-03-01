@@ -1,6 +1,6 @@
 ---
 title: Διαμόρφωση επιλογών MS Project XLSX στο Aspose.Tasks για .NET
-linktitle: Διαμορφώστε τις επιλογές XLSX στο Aspose.Tasks
+linktitle: Διαμόρφωση επιλογών XLSX στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις επιλογές του MS Project XLSX στο Aspose.Tasks για .NET. Προσαρμόστε στήλες, κωδικοποίηση και πιο εύκολα.
 type: docs

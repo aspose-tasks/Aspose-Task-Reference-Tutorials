@@ -32,7 +32,7 @@ Laten we nu elk voorbeeld in meerdere stappen opsplitsen en deze in detail uitle
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Hier initialiseren we een nieuw exemplaar van de`Project` klasse door het pad naar het Microsoft Project-bestand op te geven.
+ Hier initialiseren we een nieuw exemplaar van de`Project` klasse door het pad naar het Microsoft Project-bestand op te geven.
 ## Stap 2: Statusdatum instellen:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

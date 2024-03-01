@@ -2,7 +2,7 @@
 title: Nắm vững các ngày trong tuần trong Aspose.Tasks
 linktitle: Bộ sưu tập các ngày trong tuần trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Khám phá sức mạnh của Aspose.Tasks dành cho .NET trong việc quản lý các ngày trong tuần một cách dễ dàng. Tùy chỉnh ngày làm việc, loại bỏ ngày cuối tuần và tạo lịch chuyên biệt một cách dễ dàng.
+description: Khám phá sức mạnh của Aspose.Tasks dành cho .NET trong việc quản lý các ngày trong tuần một cách dễ dàng. Tùy chỉnh ngày làm việc, loại bỏ ngày cuối tuần và tạo lịch chuyên dụng một cách dễ dàng.
 type: docs
 weight: 11
 url: /vi/net/time-recurrence-configuration/weekday-collection/

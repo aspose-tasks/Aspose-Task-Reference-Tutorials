@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Thao tác các mã phác thảo nếu cần, chẳng hạn như chèn, xóa hoặc xóa.
 ```csharp
 // Ví dụ về thao tác
-// ,
+// ...
 // Chèn mã số 2 vào đúng vị trí
 task.OutlineCodes.Insert(2, code2);
 // Kiểm tra xem mã đã được chèn chưa
@@ -86,7 +86,7 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 Trong hướng dẫn này, chúng ta đã tìm hiểu cách thu thập mã phác thảo Microsoft Project bằng Aspose.Tasks cho .NET. Bằng cách làm theo các bước này, bạn có thể quản lý hiệu quả các mã phác thảo trong dự án của mình, nâng cao tính tổ chức và sự rõ ràng.
 ## Câu hỏi thường gặp
 ### Câu hỏi: Tôi có thể sử dụng Aspose.Tasks cho .NET với các ngôn ngữ lập trình khác không?
-Trả lời: Có, Aspose.Tasks for .NET chủ yếu nhắm đến nền tảng .NET, nhưng nó cũng cung cấp hỗ trợ cho các ngôn ngữ lập trình khác thông qua Aspose.Tasks for Cloud.
+Đáp: Có, Aspose.Tasks for .NET chủ yếu hướng tới nền tảng .NET, nhưng nó cũng cung cấp hỗ trợ cho các ngôn ngữ lập trình khác thông qua Aspose.Tasks for Cloud.
 ### Câu hỏi: Có bất kỳ hạn chế nào về kích thước của tệp Dự án mà Aspose.Tasks for .NET có thể xử lý không?
 Trả lời: Aspose.Tasks for .NET có thể xử lý các tệp Dự án lớn một cách hiệu quả, nhưng hiệu suất có thể khác nhau tùy thuộc vào độ phức tạp và kích thước của tệp.
 ### Câu hỏi: Aspose.Tasks dành cho .NET có tương thích với các phiên bản mới nhất của Microsoft Project không?

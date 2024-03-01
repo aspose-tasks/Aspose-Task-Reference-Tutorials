@@ -12,8 +12,8 @@ url: /ar/net/time-recurrence-configuration/working-times/
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك ما يلي:
 - الفهم الأساسي للغة البرمجة C#.
-- تم تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
-- قم بإعداد Visual Studio أو أي بيئة تطوير مفضلة لـ C#.
+-  تم تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
+- إعداد Visual Studio أو أي بيئة تطوير مفضلة لـ C#.
 ## استيراد مساحات الأسماء
 ابدأ باستيراد مساحات الأسماء الضرورية للوصول إلى وظائف Aspose.Tasks:
 ```csharp

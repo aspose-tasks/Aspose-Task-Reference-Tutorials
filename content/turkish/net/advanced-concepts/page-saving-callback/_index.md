@@ -17,7 +17,7 @@ Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 1. C# programlama dili bilgisi: C# sözdizimi ve kavramları hakkında temel bir anlayışa sahip olmalısınız.
    
-2. Aspose.Tasks for .NET Kurulumu: Aspose.Tasks kütüphanesini geliştirme ortamınıza yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET Kurulumu: Aspose.Tasks kütüphanesini geliştirme ortamınıza yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
 
 3. Geliştirme Ortamı Kurulumu: .NET geliştirme için tercih ettiğiniz IDE'yi (örneğin, Visual Studio) ayarlayın.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## 2. Adım: Görüntü Kaydetme Seçeneklerini Yapılandırın
 
- Tanımlamak`ImageSaveOptions` ayarlayarak sayfa kaydetme davranışını özelleştirin.`PageSavingCallback` mülk:
+ Tanımlamak`ImageSaveOptions`ayarlayarak sayfa kaydetme davranışını özelleştirin.`PageSavingCallback` mülk:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);

@@ -12,7 +12,7 @@ Dalam bidang manajemen proyek, koordinasi yang efektif dan komunikasi yang lanca
 ## Prasyarat
 Sebelum memulai perjalanan mengelola kredensial MS Project Server dengan Aspose.Tasks untuk .NET, pastikan prasyarat berikut terpenuhi:
 ### 1. Menginstal Aspose.Tasks untuk .NET
- Untuk memulai, unduh dan instal Aspose.Tasks untuk .NET dari yang disediakan[tautan unduhan](https://releases.aspose.com/tasks/net/), Ikuti petunjuk instalasi untuk mengintegrasikan perpustakaan ke dalam lingkungan .NET Anda dengan lancar.
+ Untuk memulai, unduh dan instal Aspose.Tasks untuk .NET dari yang disediakan[tautan unduhan](https://releases.aspose.com/tasks/net/). Ikuti petunjuk instalasi untuk mengintegrasikan perpustakaan ke dalam lingkungan .NET Anda dengan lancar.
 ### 2. Akses Kredensial
 Kumpulkan kredensial yang diperlukan untuk mengakses MS Project Server. Ini termasuk alamat domain SharePoint, nama pengguna, dan kata sandi yang terkait dengan Project Server.
 

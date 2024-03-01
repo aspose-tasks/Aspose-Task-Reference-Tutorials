@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks で MS Project のリソース使用状況ビューを構成する
-linktitle: Aspose.Tasks でリソース使用状況ビューを構成する
+title: Aspose.Tasks での MS Project のリソース使用状況ビューの構成
+linktitle: Aspose.Tasks でのリソース使用状況ビューの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project のリソース使用状況ビューを構成する方法を学びます。コード例を含むステップバイステップのガイド。
 type: docs

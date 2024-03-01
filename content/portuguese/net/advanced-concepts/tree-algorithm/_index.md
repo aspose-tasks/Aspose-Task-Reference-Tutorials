@@ -9,7 +9,7 @@ url: /pt/net/advanced-concepts/tree-algorithm/
 ---
 ## Introdução
 
-Aspose.Tasks for .NET fornece funcionalidades poderosas para trabalhar com tarefas, recursos e cronogramas de gerenciamento de projetos. Um desses recursos é o Algoritmo Árvore, que permite aos usuários manipular hierarquias de tarefas com eficiência. Neste tutorial, exploraremos como utilizar o algoritmo de árvore em Aspose.Tasks for .NET para reunir trabalhos comuns e atualizar valores de trabalho dentro de um projeto.
+Aspose.Tasks for .NET fornece funcionalidades poderosas para trabalhar com tarefas, recursos e cronogramas de gerenciamento de projetos. Um desses recursos é o Algoritmo Árvore, que permite aos usuários manipular hierarquias de tarefas com eficiência. Neste tutorial, exploraremos como utilizar o algoritmo de árvore em Aspose.Tasks for .NET para reunir trabalho comum e atualizar valores de trabalho dentro de um projeto.
 
 ## Pré-requisitos
 
@@ -88,7 +88,7 @@ summary.Set(Tsk.Work, project.GetWork(summaryWork));
 summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ```
 
-Atualize os valores de trabalho das tarefas com base nas informações coletadas.
+Atualize os valores de trabalho para tarefas com base nas informações coletadas.
 
 ## Conclusão
 

@@ -12,7 +12,7 @@ Microsoft Project je výkonný nástroj pro řízení projektů, který uživate
 ## Předpoklady
 Než začneme, ujistěte se, že máte nastaveny následující předpoklady:
 ### 1. Nainstalujte Aspose.Tasks for .NET
- Aspose.Tasks for .NET si můžete stáhnout a nainstalovat z[webová stránka](https://releases.aspose.com/tasks/net/), Postupujte podle pokynů k instalaci a nastavte knihovnu ve svém vývojovém prostředí.
+ Aspose.Tasks for .NET si můžete stáhnout a nainstalovat z[webová stránka](https://releases.aspose.com/tasks/net/). Postupujte podle pokynů k instalaci a nastavte knihovnu ve svém vývojovém prostředí.
 ### 2. Základní znalost C# a .NET Framework
 Seznamte se s programovacím jazykem C# a rozhraním .NET Framework, protože tento tutoriál předpokládá základní pochopení těchto pojmů.
 ### 3. Soubor Microsoft Project

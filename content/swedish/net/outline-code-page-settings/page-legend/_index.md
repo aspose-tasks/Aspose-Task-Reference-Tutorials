@@ -11,13 +11,13 @@ url: /sv/net/outline-code-page-settings/page-legend/
 När det gäller .NET-utveckling är det avgörande att hantera uppgifter effektivt, särskilt när det gäller projektledning. Aspose.Tasks för .NET framstår som ett kraftfullt verktyg som erbjuder en uppsjö av funktioner för att effektivisera processer för uppgiftshantering. En sådan funktion är möjligheten att konfigurera MS Project-sidelegender, vilket ger användarna värdefulla insikter i presentationen av projektdata.
 ## Förutsättningar
 Innan du fördjupar dig i att konfigurera MS Project-sidelegender med Aspose.Tasks för .NET, se till att följande förutsättningar är uppfyllda:
-1.  Installation: Har Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
+1. Installation: Har Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
 2. Grundläggande kunskap om .NET: Bekanta dig med grunderna för .NET-utveckling, inklusive att sätta upp projekt och arbeta med namnområden.
 3. Utvecklingsmiljö: Använd en integrerad utvecklingsmiljö (IDE) som Visual Studio för sömlös kodningsupplevelse.
 4. Projektfil: Ha en Microsoft Project-fil (MPP) redo för experiment.
 
 ## Importera namnområden
-ditt .NET-projekt, importera de nödvändiga namnområdena för att komma åt funktionerna som tillhandahålls av Aspose.Tasks för .NET.
+I ditt .NET-projekt, importera de nödvändiga namnområdena för att komma åt funktionerna som tillhandahålls av Aspose.Tasks för .NET.
 1. Öppna ditt projekt: Starta ditt .NET-projekt i din föredragna IDE.
 2. Importera namnutrymmen: I början av din kodfil importerar du de nödvändiga namnområdena:
 ```csharp

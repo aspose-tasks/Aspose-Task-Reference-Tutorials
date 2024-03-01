@@ -11,7 +11,7 @@ url: /it/net/text-view-configuration/text-item-types/
 Se sei uno sviluppatore .NET che si immerge nella gestione dei progetti utilizzando Aspose.Tasks, sei nel posto giusto! In questa guida passo passo, esploreremo le complessità della gestione dei tipi di elementi di testo in Aspose.Tasks, concentrandoci sulla personalizzazione utilizzando la potente libreria .NET.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere a disposizione quanto segue:
-1. Libreria Aspose.Tasks per .NET: assicurarsi di aver installato la libreria Aspose.Tasks. In caso contrario, puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
+1.  Libreria Aspose.Tasks per .NET: assicurarsi di aver installato la libreria Aspose.Tasks. In caso contrario, puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
 2. Directory dei documenti: imposta una directory per i documenti del tuo progetto.
 Ora tuffiamoci nel nocciolo della questione della gestione dei tipi di elementi di testo.
 ## Importa spazi dei nomi
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Applica lo stile di testo definito al tuo progetto e salva il progetto personalizzato come file PDF.
 Ripeti questi passaggi per altre esigenze di personalizzazione, sperimentando diversi tipi di elementi di testo, stili di carattere e colori.
 ## Conclusione
- Congratulazioni! Hai appena scalfito la superficie della gestione dei tipi di elementi di testo in Aspose.Tasks per .NET. Mentre continui a esplorare, fai riferimento a[documentazione](https://reference.aspose.com/tasks/net/) per approfondimenti.
+Congratulazioni! Hai appena scalfito la superficie della gestione dei tipi di elementi di testo in Aspose.Tasks per .NET. Mentre continui a esplorare, fai riferimento a[documentazione](https://reference.aspose.com/tasks/net/) per approfondimenti.
 ### Domande frequenti
 ### D: Posso utilizzare Aspose.Tasks gratuitamente?
  R: Aspose.Tasks offre una prova gratuita. Prendilo[Qui](https://releases.aspose.com/).

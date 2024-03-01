@@ -72,10 +72,10 @@ Toutes nos félicitations! Vous avez réussi à gérer les références VBA dans
 ### Q : Puis-je utiliser Aspose.Tasks avec d’autres langages de programmation ?
 R : Aspose.Tasks prend principalement en charge les langages .NET, mais il existe d'autres produits Aspose adaptés à différentes plates-formes et langages.
 ### Q : Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
-R : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ R : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Existe-t-il un support communautaire disponible pour Aspose.Tasks ?
  R : Oui, vous pouvez trouver de l'aide sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Q : Où puis-je trouver une documentation détaillée pour Aspose.Tasks ?
  R : La documentation est disponible[ici](https://reference.aspose.com/tasks/net/).
 ### Q : Puis-je acheter Aspose.Tasks ?
- R : Oui, vous pouvez l’acheter.[ici](https://purchase.aspose.com/buy).
+ R : Oui, vous pouvez l'acheter[ici](https://purchase.aspose.com/buy).

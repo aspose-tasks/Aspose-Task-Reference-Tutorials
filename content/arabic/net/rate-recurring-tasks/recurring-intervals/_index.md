@@ -32,7 +32,7 @@ url: /ar/net/rate-recurring-tasks/recurring-intervals/
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-هنا، نقوم بتهيئة نسخة جديدة من`Project` فئة عن طريق توفير المسار إلى ملف Microsoft Project.
+ هنا، نقوم بتهيئة نسخة جديدة من`Project` فئة عن طريق توفير المسار إلى ملف Microsoft Project.
 ## الخطوة 2: تعيين تاريخ الحالة:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

@@ -1,6 +1,6 @@
 ---
 title: 使用 Aspose.Tasks 管理 MS 项目大纲值
-linktitle: Aspose.Tasks中大纲值的集合
+linktitle: Aspose.Tasks 中大纲值的集合
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks for .NET 管理 Microsoft Project 文件中的大纲值。带有代码示例的分步教程。
 type: docs
@@ -62,7 +62,7 @@ project.OutlineCodes.Add(codeDefinition);
 codeDefinition.Values[0].Value = "654321";
 ```
 ## 第 5 步：迭代轮廓值
-迭代大纲值并打印其详细信息：
+遍历轮廓值并打印其详细信息：
 ```csharp
 foreach (var definitionValue in codeDefinition.Values)
 {
@@ -105,6 +105,6 @@ foreach (var outlineValue in outlineValues)
 ### 问：使用轮廓值时如何处理错误？
 答：您可以实现错误处理机制（例如 try-catch 块）来优雅地管理异常。
 ### 问：我可以在项目中自定义轮廓值的外观吗？
-答：是的，Aspose.Tasks 提供了广泛的 API 来根据您的要求自定义大纲值的外观和行为。
+答：是的，Aspose.Tasks 提供了广泛的 API，可以根据您的要求自定义大纲值的外观和行为。
 ### 问：在哪里可以找到 Aspose.Tasks 的其他资源和支持？
 答：您可以访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区支持并探索[文档](https://reference.aspose.com/tasks/net/)有关 API 和功能的详细信息。

@@ -68,7 +68,7 @@ Console.WriteLine("Week Day 2 Hash Code: {0}", weekDay2.GetHashCode());
 var project = new Project();
 // Határozzon meg egy naptárt
 var calendar = project.Calendars.Add("Calendar1");
-// Adjon hozzá munkanapokat és kivételes napokat
+// Adjon hozzá munkanapokat és kivételnapokat
 // Adjon hozzá hasonló kimeneti utasításokat a FromDate és a ToDate számára
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));

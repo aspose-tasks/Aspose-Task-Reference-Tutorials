@@ -41,7 +41,7 @@ var project = new Project("Project2.mpp");
 
  Nejprve musíme načíst soubor projektu do naší aplikace. Vytváříme nový`Project` objekt a inicializujte jej s cestou k souboru našeho projektu.
 
-## Krok 2: Přístup ke zdrojům
+## Krok 2: Přístup ke zdroji
 
 ```csharp
 var resource = project.Resources.GetById(1);
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Zde nastavíme typ časového rozlišení nákladů pro zdroj. V tomto příkladu to nastavujeme na`CostAccrualType.End`, což znamená, že náklady nebudou časově rozlišovány, dokud zbývající práce nebude nulová.
+Zde nastavíme typ časového rozlišení nákladů pro zdroj. V tomto příkladu to nastavujeme na`CostAccrualType.End`, což znamená, že náklady nebudou časově rozlišovány, dokud zbývající práce nebude nulová.
 
 ## Krok 4: Práce s projektem
 
@@ -73,7 +73,7 @@ A1: Ano, můžete procházet kolekcí zdrojů a nastavit typ časového rozliše
 
 ### Otázka 2: Jaké jsou další dostupné typy časového rozlišení nákladů kromě „Konec“?
 
- A2: Aspose.Tasks for .NET poskytuje několik dalších typů časového rozlišení nákladů, jako je např`Start`, `Prorated` ,a`Duration`.
+A2: Aspose.Tasks for .NET poskytuje několik dalších typů časového rozlišení nákladů, jako je např`Start`, `Prorated` , a`Duration`.
 
 ### Q3: Jak mohu určit aktuální typ časového rozlišení nákladů pro zdroj?
 

@@ -13,7 +13,7 @@ url: /zh/net/license-management/managing-license/
 在我们深入使用 .NET 中的 Aspose.Tasks 管理许可证之前，请确保您满足以下先决条件：
 - 对 C# 编程语言和 .NET 框架有基本了解。
 - 安装了 .NET 的 Aspose.Tasks。
-- 访问有效的 Aspose.Tasks 许可证文件（`.lic`,
+- 访问有效的 Aspose.Tasks 许可证文件（`.lic`）。
 ## 导入命名空间
 在您开始在 .NET 项目中使用 Aspose.Tasks 之前，您需要导入必要的命名空间。这些命名空间提供对许可证管理所需的类和方法的访问。
 

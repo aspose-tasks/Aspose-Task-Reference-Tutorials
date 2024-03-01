@@ -11,7 +11,7 @@ url: /cs/net/license-management/metering-usage/
 Hledáte efektivně spravovat a monitorovat využití MS Project pomocí Aspose.Tasks? Díky výkonu měření můžete sledovat své využití a optimalizovat své úsilí při řízení projektů. V tomto tutoriálu vás provedeme procesem měření využití MS Project krok za krokem pomocí Aspose.Tasks for .NET.
 ## Předpoklady
 Než se vrhneme na měření využití MS Project, ujistěte se, že máte následující předpoklady:
-1.  Aspose.Tasks for .NET Library: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[stránka ke stažení](https://releases.aspose.com/tasks/net/), Postupujte podle pokynů k instalaci a nastavte knihovnu ve svém vývojovém prostředí.
+1.  Aspose.Tasks for .NET Library: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[stránka ke stažení](https://releases.aspose.com/tasks/net/). Postupujte podle pokynů k instalaci a nastavte knihovnu ve svém vývojovém prostředí.
 2.  Veřejné a soukromé klíče: Získejte své veřejné a soukromé klíče od Aspose. Tyto klíče jsou nezbytné pro použití měření. Pokud ještě nemáte klíče, můžete si je vyžádat od Aspose prostřednictvím[dočasná licence](https://purchase.aspose.com/temporary-license/) strana.
 
 ## Importovat jmenné prostory
@@ -30,7 +30,7 @@ String DataDir = "Your Document Directory";
 var metered = new Metered();
 metered.SetMeteredKey("<public key>", "<private key>");
 ```
- nahradit`"Your Document Directory"` s cestou k adresáři dokumentů a nahraďte`<public key>` a`<private key>` s vašimi skutečnými klíči získanými od Aspose.
+ Nahradit`"Your Document Directory"` s cestou k adresáři dokumentů a nahraďte`<public key>` a`<private key>` s vašimi skutečnými klíči získanými od Aspose.
 ## Krok 2: Načtěte soubor MS Project
 Dále načtěte soubor MS Project pomocí Aspose.Tasks:
 ```csharp

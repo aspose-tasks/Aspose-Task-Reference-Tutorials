@@ -27,7 +27,7 @@ Cần có hiểu biết cơ bản về lập trình .NET để nắm bắt các 
 
 Để bắt đầu, bạn cần nhập các vùng tên cần thiết vào dự án .NET của mình. 
 
- Bao gồm cái`Aspose.Tasks` không gian tên trong dự án của bạn để truy cập các lớp và phương thức do thư viện Aspose.Tasks cung cấp.
+ Bao gồm cái`Aspose.Tasks`không gian tên trong dự án của bạn để truy cập các lớp và phương thức do thư viện Aspose.Tasks cung cấp.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Bây giờ, hãy chia ví dụ được cung cấp thành nhiều bước:
 
 ## Bước 1: Tải tệp dự án
 
- Bắt đầu bằng cách tải tệp dự án bằng cách sử dụng`Project`hàm tạo lớp.
+ Bắt đầu bằng cách tải tệp dự án bằng cách sử dụng`Project` hàm tạo lớp.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

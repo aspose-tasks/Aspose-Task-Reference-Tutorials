@@ -1,6 +1,6 @@
 ---
-title: Configurar los tipos de fecha de inicio de tareas en Aspose.Tasks
-linktitle: Configurar los tipos de fecha de inicio de tareas en Aspose.Tasks
+title: Configuración de tipos de fecha de inicio de tareas en Aspose.Tasks
+linktitle: Configuración de tipos de fecha de inicio de tareas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore Aspose.Tasks para .NET para configurar fácilmente los tipos de fechas de inicio de tareas. Optimice la gestión de proyectos con facilidad. ¡Descarga tu prueba gratuita ahora!
 type: docs
@@ -10,7 +10,7 @@ url: /es/net/task-table-management/task-start-date-types/
 En el dinámico mundo de la gestión de proyectos, establecer la fecha de inicio correcta para las tareas es crucial. Aspose.Tasks para .NET proporciona una solución poderosa para configurar los tipos de fechas de inicio de tareas sin esfuerzo. En este tutorial, lo guiaremos a través del proceso, dividiéndolo en pasos simples para garantizar una integración perfecta.
 ## Requisitos previos
 Antes de profundizar en la configuración de los tipos de fechas de inicio de tareas, asegúrese de cumplir con los siguientes requisitos previos:
--  Aspose.Tasks para .NET: asegúrese de tener instalada la biblioteca Aspose.Tasks para .NET. Si no, descárgalo del[enlace de descarga](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks para .NET: asegúrese de tener instalada la biblioteca Aspose.Tasks para .NET. Si no, descárgalo del[enlace de descarga](https://releases.aspose.com/tasks/net/).
 - Entorno .NET: este tutorial asume que tiene conocimientos prácticos del entorno .NET.
 - Su directorio de documentos: reemplace "Su directorio de documentos" en el fragmento de código con la ruta a su directorio de documentos real.
 ## Importar espacios de nombres
@@ -45,7 +45,7 @@ Configurar los tipos de fechas de inicio de tareas en Aspose.Tasks para .NET es 
 ### P1: ¿Puedo establecer una fecha de inicio específica para tareas individuales?
 Sí, puede personalizar la fecha de inicio de cada tarea individualmente utilizando Aspose.Tasks para .NET.
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.Tasks para .NET?
-Sí, puedes explorar las funciones de Aspose.Tasks obteniendo una prueba gratuita[aquí](https://releases.aspose.com/).
+ Sí, puedes explorar las funciones de Aspose.Tasks obteniendo una prueba gratuita[aquí](https://releases.aspose.com/).
 ### P3: ¿Cómo obtengo soporte para Aspose.Tasks?
  Visita el foro de Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15) para obtener apoyo de la comunidad o buscar ayuda del equipo de Aspose.
 ### P4: ¿Dónde puedo encontrar documentación completa para Aspose.Tasks?

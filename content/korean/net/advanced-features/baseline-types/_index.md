@@ -21,7 +21,7 @@ Aspose.Tasks의 강력한 기능을 활용하려면 C# 프로그래밍 언어와
 
 ### 2. .NET용 Aspose.Tasks 설치
 
- 개발 환경에 Aspose.Tasks for .NET 라이브러리를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose.Tasks 웹사이트](https://releases.aspose.com/tasks/net/) 또는 NuGet 패키지 관리자를 통해.
+개발 환경에 Aspose.Tasks for .NET 라이브러리를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose.Tasks 웹사이트](https://releases.aspose.com/tasks/net/) 또는 NuGet 패키지 관리자를 통해.
 
 ### 3. 통합 개발 환경(IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## 2단계: 기준선 설정
 
- 프로젝트가 로드되면 기준선 설정을 진행할 수 있습니다. 기준선은 프로젝트가 진행됨에 따라 비교를 위한 참조 지점 역할을 하는 프로젝트 초기 일정의 스냅샷을 제공합니다. 사용`SetBaseline` 기준선을 설정하는 방법입니다. 예를 들어 전체 프로젝트의 기준선을 설정하려면`BaselineType.Baseline` 열거:
+프로젝트가 로드되면 기준선 설정을 진행할 수 있습니다. 기준선은 프로젝트가 진행됨에 따라 비교를 위한 참조 지점 역할을 하는 프로젝트 초기 일정의 스냅샷을 제공합니다. 사용`SetBaseline` 기준선을 설정하는 방법입니다. 예를 들어 전체 프로젝트의 기준선을 설정하려면`BaselineType.Baseline` 열거:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);

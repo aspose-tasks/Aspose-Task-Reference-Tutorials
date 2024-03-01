@@ -87,4 +87,4 @@ J: Tentu saja, Aspose.Tasks dirancang untuk memenuhi tuntutan aplikasi manajemen
 ### T: Dapatkah saya menyesuaikan pengaturan analisis risiko di Aspose.Tasks?
 J: Ya, Aspose.Tasks menawarkan fleksibilitas dalam mengonfigurasi pengaturan analisis risiko agar sesuai dengan kebutuhan dan skenario proyek spesifik Anda.
 ### T: Apakah dukungan teknis tersedia untuk pengguna Aspose.Tasks?
- J: Ya, pengguna Aspose.Tasks dapat mengakses dukungan teknis melalui Aspose.[forum](https://forum.aspose.com/c/tasks/15), tempat mereka dapat mengajukan pertanyaan, melaporkan masalah, dan berinteraksi dengan komunitas.
+ J: Ya, pengguna Aspose.Tasks dapat mengakses dukungan teknis melalui Aspose[forum](https://forum.aspose.com/c/tasks/15), tempat mereka dapat mengajukan pertanyaan, melaporkan masalah, dan berinteraksi dengan komunitas.

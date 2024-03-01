@@ -11,7 +11,7 @@ url: /tr/net/text-view-configuration/usage-views/
 Proje yönetimi yeteneklerinizi geliştirmek isteyen bir .NET geliştiricisiyseniz Aspose.Tasks, Microsoft Project dosyalarını zahmetsizce değiştirmenize olanak tanıyan güçlü bir araçtır. Bu eğitimde Aspose.Tasks for .NET'i kullanarak kullanım görünümlerini yapılandırmaya odaklanacağız. Daha iyi proje görselleştirmesi için görev kullanım görünümlerinin ayrıntılarla birlikte oluşturulmasına ilişkin içgörüler kazanmak için takip edin.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
-- Aspose.Tasks Kütüphanesi: Aspose.Tasks kütüphanesinin .NET projenize entegre olduğundan emin olun. Değilse indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/) ve kurulum talimatlarını takip edin.
+-  Aspose.Tasks Kütüphanesi: Aspose.Tasks kütüphanesinin .NET projenize entegre olduğundan emin olun. Değilse indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/) ve kurulum talimatlarını takip edin.
 - Belge Dizini: Proje belgelerinizin saklandığı bir dizin ayarlayın. Kod parçacıklarındaki "Belge Dizininiz"i, belge dizininizin gerçek yoluyla değiştirin.
 ## Ad Alanlarını İçe Aktar
 Sağlanan kod parçacığında belirli ad alanlarının kullanımını fark edeceksiniz. Sorunsuz entegrasyon için bunları projenize eklediğinizden emin olun:

@@ -33,7 +33,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Давайте разобьем каждый пример на несколько шагов в формате пошагового руководства:
 
-## Обновленная продолжительность задач
+## Обновление длительности задач
 
 ### Шаг 1. Загрузите файл проекта
 
@@ -48,7 +48,7 @@ var task1 = project.RootTask.Children.GetById(1);
 var duration1 = task1.Get(Tsk.Duration);
 ```
 
-### Шаг 3. Обновление продолжительности
+### Шаг 3. Обновление продолжительности
 
 ```csharp
 duration1 = duration1.Add(project.GetDuration(1, TimeUnitType.Day));
@@ -155,4 +155,4 @@ A1: Aspose.Tasks for .NET — это мощная библиотека для р
 
 ### Вопрос 5: Доступна ли пробная версия Aspose.Tasks для .NET?
 
- О5: Да, вы можете получить бесплатную пробную версию Aspose.Tasks для .NET на сайте[здесь](https://releases.aspose.com/).
+О5: Да, вы можете получить бесплатную пробную версию Aspose.Tasks для .NET на сайте[здесь](https://releases.aspose.com/).

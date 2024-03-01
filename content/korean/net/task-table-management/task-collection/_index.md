@@ -85,7 +85,7 @@ foreach (var task in tasks)
 ## 결론
 이 단계별 가이드를 사용하면 Aspose.Tasks for .NET에서 작업 컬렉션을 관리하는 것이 매우 쉽습니다. 작업을 생성, 편집 또는 삭제하는 경우 Aspose.Tasks를 사용하면 프로젝트 관리를 원활하게 처리할 수 있습니다.
 ## 자주 묻는 질문
-### Aspose.Tasks는 .NET Core와 호환됩니까?
+### Aspose.Tasks는 .NET Core와 호환되나요?
 예, Aspose.Tasks는 .NET Core를 지원하므로 크로스 플랫폼 애플리케이션에서 사용할 수 있습니다.
 ### 프로젝트 작업을 다른 파일 형식으로 내보낼 수 있나요?
 전적으로! Aspose.Tasks는 PDF, XLSX 및 MPP를 포함한 다양한 내보내기 옵션을 제공합니다.

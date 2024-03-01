@@ -11,7 +11,7 @@ url: /sv/net/rate-recurring-tasks/removing-tasks/
 I den här handledningen kommer vi att utforska hur du tar bort uppgifter från en Microsoft Project-fil med Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt API som tillåter utvecklare att manipulera Microsoft Project-filer programmatiskt. Att ta bort uppgifter från en projektfil kan vara ett vanligt krav i projektledningsscenarier, och Aspose.Tasks ger ett enkelt sätt att uppnå detta.
 ## Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar på plats:
-1. Installation av Aspose.Tasks för .NET: Du måste ha Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Om du inte har installerat det ännu kan du ladda ner det från[här](https://releases.aspose.com/tasks/net/).
+1.  Installation av Aspose.Tasks för .NET: Du måste ha Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Om du inte har installerat det ännu kan du ladda ner det från[här](https://releases.aspose.com/tasks/net/).
 2. Microsoft Project File: Förbered en Microsoft Project-fil (`Project1.mpp` i det här exemplet) som du vill ta bort uppgifter från.
 
 ## Importera namnområden

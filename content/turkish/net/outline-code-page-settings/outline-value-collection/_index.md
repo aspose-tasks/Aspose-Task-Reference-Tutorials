@@ -8,7 +8,7 @@ weight: 17
 url: /tr/net/outline-code-page-settings/outline-value-collection/
 ---
 ## giriiş
-Aspose.Tasks for .NET, Microsoft Project dosyalarıyla etkileşim kurmak için kapsamlı bir dizi özellik sunar. Bu özelliklerden biri, bir proje içindeki anahat değerlerini yönetme yeteneğidir. Bu eğitimde Aspose.Tasks for .NET'i kullanarak anahat değerlerinin nasıl toplanıp değiştirileceğini keşfedeceğiz.
+Aspose.Tasks for .NET, Microsoft Project dosyalarıyla etkileşim kurmak için kapsamlı bir dizi özellik sunar. Bu özelliklerden biri, bir proje içindeki anahat değerlerini yönetme yeteneğidir. Bu eğitimde Aspose.Tasks for .NET'i kullanarak anahat değerlerinin nasıl toplanıp değiştirileceğini inceleyeceğiz.
 ## Önkoşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 1.  Aspose.Tasks for .NET: Kütüphaneyi şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/tasks/net/).
@@ -29,7 +29,7 @@ string DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineValues2010.mpp");
 ```
 ## Adım 2: Mevcut Anahat Değerlerini Temizleyin
-Ardından, projedeki mevcut tüm anahat değerlerini temizleyin:
+Daha sonra projedeki mevcut anahat değerlerini temizleyin:
 ```csharp
 foreach (var outlineCode in project.OutlineCodes)
 {
@@ -105,6 +105,6 @@ C: Evet, Aspose.Tasks, MPP ve XML formatları da dahil olmak üzere Microsoft Pr
 ### S: Anahat değerleriyle çalışırken hataları nasıl halledebilirim?
 C: İstisnaları düzgün bir şekilde yönetmek için try-catch blokları gibi hata işleme mekanizmalarını uygulayabilirsiniz.
 ### S: Projemdeki anahat değerlerinin görünümünü özelleştirebilir miyim?
-C: Evet, Aspose.Tasks, anahat değerlerinin görünümünü ve davranışını ihtiyaçlarınıza göre özelleştirmek için kapsamlı API'ler sağlar.
+C: Evet, Aspose.Tasks, anahat değerlerinin görünümünü ve davranışını gereksinimlerinize göre özelleştirmeniz için kapsamlı API'ler sağlar.
 ### S: Aspose.Tasks için ek kaynakları ve desteği nerede bulabilirim?
  C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için ve keşfetmek için[dokümantasyon](https://reference.aspose.com/tasks/net/) API'ler ve özellikler hakkında ayrıntılı bilgi için.

@@ -155,4 +155,4 @@ Cevap4: Evet, Aspose.Tasks, MPP, XML ve MPX dahil olmak üzere çeşitli formatl
 
 ### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
 
- Cevap5: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
+Cevap5: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).

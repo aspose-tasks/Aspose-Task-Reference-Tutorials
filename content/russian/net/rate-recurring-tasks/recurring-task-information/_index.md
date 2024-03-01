@@ -31,7 +31,7 @@ String DataDir = "Your Document Directory";
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
 ```
- Эта строка инициализирует новую`Project` объект, загрузив файл MS Project, указанный по пути.
+ Эта строка инициализирует новый`Project` объект, загрузив файл MS Project, указанный по пути.
 ## Шаг 3. Прочтите повторяющуюся информацию о задачах.
 ```csharp
 foreach (var task in project.RootTask.SelectAllChildTasks())
@@ -61,4 +61,4 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 ### Вопрос: Где я могу найти документацию по Aspose.Tasks для .NET?
  О: Вы можете найти документацию[здесь](https://reference.aspose.com/tasks/net/).
 ### Вопрос: Как я могу получить техническую поддержку по Aspose.Tasks для .NET?
-О: Вы можете получить техническую поддержку на форуме Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+ О: Вы можете получить техническую поддержку на форуме Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).

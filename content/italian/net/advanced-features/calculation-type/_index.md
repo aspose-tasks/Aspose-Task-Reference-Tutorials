@@ -80,7 +80,7 @@ In questo tutorial, abbiamo esplorato come lavorare con il tipo di calcolo in As
 
 ### Q1: Qual è il tipo di calcolo in Aspose.Tasks?
 
-A1: il tipo di calcolo in Aspose.Tasks determina il modo in cui vengono calcolati i valori per le attività e le attività di riepilogo all'interno di un progetto, offrendo opzioni come Formula e Rollup.
+A1: Il tipo di calcolo in Aspose.Tasks determina il modo in cui vengono calcolati i valori per le attività e le attività di riepilogo all'interno di un progetto, offrendo opzioni come Formula e Rollup.
 
 ### Q2: Come imposto il tipo di calcolo per un attributo esteso?
 
@@ -92,7 +92,7 @@ A3: Sì, Aspose.Tasks ti consente di specificare il tipo di calcolo per le righe
 
 ### Q4: Sono disponibili diversi tipi di rollup per i calcoli delle attività di riepilogo?
 
-A4: Sì, Aspose.Tasks fornisce vari tipi di rollup come Media, Somma e Conteggio per il calcolo dei valori delle attività di riepilogo.
+A4: Sì, Aspose.Tasks fornisce vari tipi di rollup come media, somma e conteggio per il calcolo dei valori delle attività di riepilogo.
 
 ### Q5: Dove posso trovare più risorse su Aspose.Tasks per .NET?
 

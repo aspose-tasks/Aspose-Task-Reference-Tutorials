@@ -1,6 +1,6 @@
 ---
 title: Beheer van taakgebruiksweergaven in Aspose.Tasks voor .NET
-linktitle: Configureer taakgebruiksweergaven in Aspose.Tasks
+linktitle: Taakgebruiksweergaven configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Verken Aspose.Tasks voor .NET en leer hoe u taakgebruiksweergaven configureert. Pas de tijdschaalinstellingen aan en verbeter de visuals van uw projectmanagement.
 type: docs
@@ -23,7 +23,7 @@ Importeer in uw .NET-project de benodigde naamruimten om toegang te krijgen tot 
     using Aspose.Tasks.Visualization;
 ```
 ## Stap 1: Stel het documentmappad in
- Voordat u met de Aspose.Tasks-functionaliteiten gaat werken, stelt u het pad naar uw documentenmap in. vervangen`"Your Document Directory"` met het daadwerkelijke pad.
+ Voordat u met de Aspose.Tasks-functionaliteiten gaat werken, stelt u het pad naar uw documentenmap in. Vervangen`"Your Document Directory"` met het daadwerkelijke pad.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Ja, Aspose.Tasks ondersteunt populaire projectbestandsindelingen zoals MPP, XML 
 ### Kan ik verschillende tijdschaalinstellingen toepassen op specifieke taken?
 Absoluut, u kunt de tijdschaalinstellingen voor individuele taken binnen uw project aanpassen.
 ### Hoe kan ik ondersteuning krijgen of hulp zoeken voor Aspose.Tasks?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en begeleiding.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en begeleiding.

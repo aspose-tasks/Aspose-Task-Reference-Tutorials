@@ -1,6 +1,6 @@
 ---
 title: Přizpůsobte nastavení zobrazení stránky MS Project v Aspose.Tasks
-linktitle: Nakonfigurujte nastavení zobrazení stránky v Aspose.Tasks
+linktitle: Konfigurace nastavení zobrazení stránky v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak nakonfigurovat nastavení zobrazení stránky v Aspose.Tasks for .NET, abyste přizpůsobili formát tisku vašich dokumentů Microsoft Project.
 type: docs
@@ -75,4 +75,4 @@ Odpověď: Ano, nastavení zobrazení stránky můžete upravit nezávisle pro k
 ### Otázka: Je Aspose.Tasks kompatibilní se všemi verzemi Microsoft Project?
 Odpověď: Aspose.Tasks nabízí kompatibilitu s Microsoft Project 2003 a novějšími verzemi.
 ### Otázka: Kde najdu další pomoc nebo podporu pro Aspose.Tasks?
- A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)pro jakékoli dotazy nebo problémy, se kterými se během používání setkáte.
+ A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro jakékoli dotazy nebo problémy, se kterými se během používání setkáte.

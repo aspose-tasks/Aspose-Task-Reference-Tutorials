@@ -31,12 +31,12 @@ Most bontsuk fel a példakódot több lépésre:
 // A dokumentumok könyvtárának elérési útja.
 string dataDir = "Your Document Directory";
 ```
- cserélje ki`"Your Document Directory"` az MS Project fájlt tartalmazó könyvtár elérési útjával.
+ Cserélje ki`"Your Document Directory"` az MS Project fájlt tartalmazó könyvtár elérési útjával.
 ## 3. lépés: A projektfájl adatainak lekérése
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Ez a kódsor információkat kér le a megadott projektfájlról. cserélje ki`"Project.xml"` az MS Project fájl nevével.
+ Ez a kódsor információkat kér le a megadott projektfájlról. Cserélje ki`"Project.xml"` az MS Project fájl nevével.
 ## 4. lépés: Jelenítse meg a projektinformációkat
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);

@@ -11,8 +11,8 @@ url: /ja/net/license-management/metering-usage/
 Aspose.Tasks を使用して MS Project の使用状況を効果的に管理および監視したいと考えていますか?メーター機能を利用すると、使用状況を追跡し、プロジェクト管理の取り組みを最適化できます。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project の使用量を測定するプロセスを段階的に説明します。
 ## 前提条件
 MS Project の使用量の計測に入る前に、次の前提条件を満たしていることを確認してください。
-1.  Aspose.Tasks for .NET ライブラリ: Aspose.Tasks for .NET ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/tasks/net/)、インストール手順に従って、開発環境にライブラリをセットアップします。
-2. 公開キーと秘密キー: Aspose から公開キーと秘密キーを取得します。これらのキーは使用量の計測に不可欠です。まだキーを持っていない場合は、Aspose からキーをリクエストできます。[仮免許証](https://purchase.aspose.com/temporary-license/)ページ。
+1.  Aspose.Tasks for .NET ライブラリ: Aspose.Tasks for .NET ライブラリを次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/tasks/net/)。インストール手順に従って、開発環境にライブラリをセットアップします。
+2. 公開キーと秘密キー: Aspose から公開キーと秘密キーを取得します。これらのキーは使用量の計測に不可欠です。まだキーを持っていない場合は、Aspose からキーをリクエストできます。[仮免許](https://purchase.aspose.com/temporary-license/)ページ。
 
 ## 名前空間のインポート
 続行する前に、必要な名前空間をプロジェクトにインポートします。

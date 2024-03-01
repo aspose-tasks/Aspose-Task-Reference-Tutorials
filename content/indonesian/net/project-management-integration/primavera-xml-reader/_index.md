@@ -2,7 +2,7 @@
 title: Menggunakan MS Project Primavera XML Reader di Aspose.Tasks
 linktitle: Menggunakan Primavera XML Reader di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
-description: Pelajari cara memanfaatkan MS Project Primavera XML Reader di Aspose.Tasks untuk .NET guna mengelola data proyek secara efektif. Dapatkan panduan langkah demi langkah dan jelajahi FAQ.
+description: Pelajari cara memanfaatkan MS Project Primavera XML Reader di Aspose.Tasks untuk .NET untuk mengelola data proyek secara efektif. Dapatkan panduan langkah demi langkah dan jelajahi FAQ.
 type: docs
 weight: 13
 url: /id/net/project-management-integration/primavera-xml-reader/
@@ -51,9 +51,9 @@ Dalam tutorial ini, kita telah mempelajari cara memanfaatkan MS Project Primaver
 ### T: Dapatkah Aspose.Tasks menangani struktur proyek yang kompleks?
 J: Ya, Aspose.Tasks menyediakan fitur canggih untuk menangani berbagai struktur dan kompleksitas proyek secara efektif.
 ### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
-J: Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+ J: Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### T: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
- J: Anda bisa mendapatkan dukungan dari forum Aspose.Tasks.[Di Sini](https://forum.aspose.com/c/tasks/15).
+ J: Anda bisa mendapatkan dukungan dari forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### T: Dapatkah saya membeli lisensi sementara untuk Aspose.Tasks?
  J: Ya, lisensi sementara tersedia untuk dibeli[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat menemukan dokumentasi komprehensif untuk Aspose.Tasks?

@@ -23,7 +23,7 @@ Ve svém projektu .NET importujte potřebné jmenné prostory pro přístup k fu
     using Aspose.Tasks.Visualization;
 ```
 ## Krok 1: Nastavte cestu k adresáři dokumentu
- Než začnete pracovat s funkcemi Aspose.Tasks, nastavte cestu k adresáři vašich dokumentů. nahradit`"Your Document Directory"` se skutečnou cestou.
+ Než začnete pracovat s funkcemi Aspose.Tasks, nastavte cestu k adresáři vašich dokumentů. Nahradit`"Your Document Directory"` se skutečnou cestou.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Ano, Aspose.Tasks podporuje oblíbené formáty projektových souborů, jako jso
 ### Mohu na konkrétní úkoly použít různá nastavení časové osy?
 Absolutně si můžete přizpůsobit nastavení časové osy pro jednotlivé úkoly v rámci vašeho projektu.
 ### Jak mohu získat podporu nebo vyhledat pomoc pro Aspose.Tasks?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu a vedení komunity.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu a vedení komunity.

@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Paso 8: patrones claros
 Borre la colección de patrones de forma individual o completa:
 ```csharp
-// eliminación individual
+// Eliminación individual
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ R: Ciertamente, Aspose.Tasks se integra perfectamente con otros marcos .NET, lo 
 ### P: ¿Existe una versión de prueba disponible para Aspose.Tasks?
  R: Sí, puedes acceder a una prueba gratuita de Aspose.Tasks desde[aquí](https://releases.aspose.com/)permitiéndole explorar sus funciones antes de realizar una compra.
 ### P: ¿Dónde puedo encontrar soporte para Aspose.Tasks?
- R: Puede encontrar soporte y asistencia integrales en el foro Aspose.Tasks.[aquí](https://forum.aspose.com/c/tasks/15), donde podrás interactuar con expertos y otros usuarios para resolver consultas y problemas.
+ R: Puede encontrar soporte y asistencia integrales en el foro Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15), donde podrás interactuar con expertos y otros usuarios para resolver consultas y problemas.

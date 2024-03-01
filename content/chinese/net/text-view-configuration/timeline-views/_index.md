@@ -22,7 +22,7 @@ url: /zh/net/text-view-configuration/timeline-views/
     
     using Aspose.Tasks.Saving;
 ```
-## 第 1 步：初始化项目和时间轴视图
+## 第 1 步：初始化项目和时间线视图
 首先初始化一个新项目和时间线视图：
 ```csharp
 var project = new Project();
@@ -71,7 +71,7 @@ project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat
 ### 我可以自定义时间线视图中各个任务的外观吗？
 绝对地！ Aspose.Tasks 提供了自定义时间线视图中每个任务的外观的灵活性。
 ### 在哪里可以找到 Aspose.Tasks 的其他资源和支持？
-访问[Aspose.Tasks 文档](https://reference.aspose.com/tasks/net/)获取综合指南和[支持论坛](https://forum.aspose.com/c/tasks/15)寻求帮助。
+参观[Aspose.Tasks 文档](https://reference.aspose.com/tasks/net/)获取综合指南和[支持论坛](https://forum.aspose.com/c/tasks/15)寻求帮助。
 ### Aspose.Tasks 是否有免费试用版？
 是的，您可以探索免费试用[这里](https://releases.aspose.com/).
 ### 如何获得 Aspose.Tasks 的临时许可证？

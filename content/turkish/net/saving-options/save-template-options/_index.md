@@ -46,7 +46,7 @@ var options = new SaveTemplateOptions
 	RemoveActualValues = true,
 	// Kaynak oranlarını proje şablonundan kaldırın
 	RemoveResourceRates = true,
-	// Tüm temel değerleri proje şablonundan kaldırın
+	// Proje şablonundan tüm temel değerleri kaldırın
 	RemoveBaselineValues = true
 };
 ```
@@ -75,4 +75,4 @@ C: Evet, şablon dosyasını yükleyerek ve gerektiğinde mevcut projenizle birl
 ### S: Aspose.Tasks for .NET platformlar arası geliştirmeyi destekliyor mu?
 C: Aspose.Tasks for .NET öncelikle Windows platformlarında çalışan .NET framework uygulamaları için tasarlanmıştır.
 ### S: Aspose.Tasks for .NET için teknik destek mevcut mu?
- C: Evet, Aspose.Tasks topluluğundan teknik yardım ve rehberlik alabilirsiniz.[forumlar](https://forum.aspose.com/c/tasks/15) veya doğrudan destek ekibiyle iletişime geçin.
+ C: Evet, Aspose.Tasks topluluğundan teknik yardım ve rehberlik alabilirsiniz.[forumlar](https://forum.aspose.com/c/tasks/15)veya doğrudan destek ekibiyle iletişime geçin.

@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Konfigurieren Sie HTML-Speicheroptionen
+        //Konfigurieren Sie HTML-Speicheroptionen
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ A3: Aspose.Tasks für .NET unterstützt verschiedene Versionen von Microsoft Pro
 
 ### F4: Wo finde ich eine umfassende Dokumentation zu Aspose.Tasks für .NET?
 
- A4: Sie können sich auf die beziehen[Dokumentation](https://reference.aspose.com/tasks/net/) Ausführliche Informationen und Beispiele finden Sie hier.
+A4: Sie können sich auf die beziehen[Dokumentation](https://reference.aspose.com/tasks/net/) Ausführliche Informationen und Beispiele finden Sie hier.
 
 ### F5: Bietet Aspose.Tasks für .NET Unterstützung für Entwickler?
 

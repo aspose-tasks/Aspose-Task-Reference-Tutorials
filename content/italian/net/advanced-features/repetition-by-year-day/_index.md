@@ -9,7 +9,7 @@ url: /it/net/advanced-features/repetition-by-year-day/
 ---
 ## introduzione
 
-Nell'ambito della gestione dei progetti, la pianificazione efficiente delle attività e la ricorrenza svolgono un ruolo fondamentale nel garantire un'esecuzione tempestiva e un flusso di lavoro regolare. Aspose.Tasks per .NET offre una soluzione solida per gli sviluppatori per gestire attività ricorrenti senza sforzo all'interno delle loro applicazioni. In questo tutorial, approfondiamo le complessità del lavoro con ripetizioni giornaliere annuali utilizzando Aspose.Tasks, fornendo una guida completa per la creazione di attività ricorrenti basate su modelli annuali.
+Nell'ambito della gestione dei progetti, la pianificazione efficiente delle attività e la ricorrenza svolgono un ruolo fondamentale nel garantire un'esecuzione tempestiva e un flusso di lavoro regolare. Aspose.Tasks per .NET offre una soluzione solida per gli sviluppatori per gestire attività ricorrenti senza sforzo all'interno delle loro applicazioni. In questo tutorial, approfondiamo le complessità del lavoro con le ripetizioni dei giorni dell'anno utilizzando Aspose.Tasks, fornendo una guida completa per la creazione di attività ricorrenti basate su modelli annuali.
 
 ## Prerequisiti
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- In questo passaggio definiamo i parametri per la nostra attività ricorrente. Specifichiamo il nome dell'attività, la durata e il modello di ricorrenza. Per la ricorrenza annuale, utilizziamo il file`YearlyRecurrencePattern` e impostare la ripetizione in modo che avvenga il 1° giorno di luglio utilizzando`ByYearDayRepetition`, Inoltre, definiamo l'intervallo di ricorrenza dal 1 luglio 2018 al 1 luglio 2019.
+ In questo passaggio definiamo i parametri per la nostra attività ricorrente. Specifichiamo il nome dell'attività, la durata e il modello di ricorrenza. Per la ricorrenza annuale, utilizziamo il file`YearlyRecurrencePattern` e impostare la ripetizione in modo che avvenga il 1° giorno di luglio utilizzando`ByYearDayRepetition`. Inoltre, definiamo l'intervallo di ricorrenza dal 1 luglio 2018 al 1 luglio 2019.
 
 ## Passaggio 3: aggiungi attività al progetto
 

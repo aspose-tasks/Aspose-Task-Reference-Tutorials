@@ -12,7 +12,7 @@ Aspose.Tasks für .NET bietet robuste Funktionen zum Filtern von Daten in Micros
 ## Voraussetzungen
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 ### 1. Installieren Sie Aspose.Tasks für .NET
- Laden Sie Aspose.Tasks für .NET herunter und installieren Sie es[Download-Seite](https://releases.aspose.com/tasks/net/), Befolgen Sie die bereitgestellten Installationsanweisungen, um die Bibliothek in Ihrer Entwicklungsumgebung einzurichten.
+ Laden Sie Aspose.Tasks für .NET herunter und installieren Sie es[Download-Seite](https://releases.aspose.com/tasks/net/). Befolgen Sie die bereitgestellten Installationsanweisungen, um die Bibliothek in Ihrer Entwicklungsumgebung einzurichten.
 ### 2. Richten Sie Ihre Entwicklungsumgebung ein
 Stellen Sie sicher, dass Sie über eine funktionierende Entwicklungsumgebung für die .NET-Programmierung verfügen. Dazu gehören eine kompatible IDE wie Visual Studio und grundlegende Kenntnisse der Programmiersprache C#.
 ### 3. Greifen Sie auf eine Beispiel-Microsoft-Projektdatei zu

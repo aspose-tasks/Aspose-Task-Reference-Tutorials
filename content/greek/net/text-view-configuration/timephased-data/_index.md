@@ -85,7 +85,7 @@ foreach (var assignment in project.ResourceAssignments)
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Tasks για .NET;
  Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Tasks για .NET;
- Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15)για κοινοτική υποστήριξη.
+ Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για κοινοτική υποστήριξη.
 ### Τι είναι η προσωρινή άδεια και πώς μπορώ να αποκτήσω;
  Μάθετε για τις προσωρινές άδειες[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω την τεκμηρίωση για το Aspose.Tasks για .NET;

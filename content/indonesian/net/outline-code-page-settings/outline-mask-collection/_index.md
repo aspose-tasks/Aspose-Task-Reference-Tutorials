@@ -12,7 +12,7 @@ Apakah Anda ingin memanfaatkan kekuatan masker garis besar Microsoft Project men
 ## Prasyarat
 Sebelum mendalami tutorial ini, pastikan Anda memiliki prasyarat berikut:
 ### 1. Instalasi Aspose.Tasks untuk .NET
- Pastikan Anda telah menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari situs web Aspose[Di Sini](https://releases.aspose.com/tasks/net/).
+Pastikan Anda telah menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari situs web Aspose[Di Sini](https://releases.aspose.com/tasks/net/).
 ### 2. Pengetahuan Dasar C# dan .NET Framework
 Biasakan diri Anda dengan bahasa pemrograman C# dan .NET Framework, karena tutorial ini akan memanfaatkan keduanya.
 ### 3. File Proyek Microsoft
@@ -99,7 +99,7 @@ Terakhir, kami menyalin outline mask dari satu proyek ke proyek lainnya, memasti
 ## Kesimpulan
 Selamat! Anda telah berhasil mempelajari cara memanipulasi masker kerangka koleksi MS Project menggunakan Aspose.Tasks untuk .NET. Dengan mengikuti tutorial ini, Anda kini dibekali dengan keterampilan untuk mengelola masker kerangka secara efisien dalam proyek Anda, yang pada akhirnya meningkatkan produktivitas dan alur kerja Anda.
 ## FAQ
-### Q1: Dapatkah saya menggunakan Aspose.Tasks untuk .NET dengan versi file Microsoft Project yang berbeda?
+### Q1: Bisakah saya menggunakan Aspose.Tasks untuk .NET dengan versi file Microsoft Project yang berbeda?
 J: Ya, Aspose.Tasks untuk .NET mendukung berbagai versi file Microsoft Project, termasuk format MPP, MPT, dan XML.
 ### Q2: Apakah Aspose.Tasks untuk .NET kompatibel dengan .NET Core?
 J: Ya, Aspose.Tasks untuk .NET kompatibel dengan .NET Core, memungkinkan Anda menggunakannya dalam aplikasi lintas platform.
@@ -108,4 +108,4 @@ J: Tentu saja! Anda dapat mengkustomisasi masker kerangka dengan menyesuaikan pa
 ### Q4: Apakah Aspose.Tasks untuk .NET menyediakan dokumentasi dan dukungan?
 J: Ya, Aspose.Tasks untuk .NET menawarkan dokumentasi komprehensif dan dukungan khusus melalui situs web mereka dan[forum](https://forum.aspose.com/c/tasks/15).
 ### Q5: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk .NET?
- J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk .NET dari mereka[situs web](https://releases.aspose.com/tasks/net/), untuk menjelajahi fitur dan fungsinya sebelum melakukan pembelian.
+ J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk .NET dari mereka[situs web](https://releases.aspose.com/tasks/net/). untuk menjelajahi fitur dan fungsinya sebelum melakukan pembelian.

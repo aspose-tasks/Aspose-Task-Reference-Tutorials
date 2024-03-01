@@ -2,7 +2,7 @@
 title: Формат даты в Aspose.Tasks
 linktitle: Формат даты в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Узнайте, как легко настроить форматы дат в Aspose.Tasks для .NET с помощью этого подробного пошагового руководства.
+description: Узнайте, как легко настроить форматы даты в Aspose.Tasks для .NET с помощью этого подробного пошагового руководства.
 type: docs
 weight: 27
 url: /ru/net/calendar-scheduling/date-format/

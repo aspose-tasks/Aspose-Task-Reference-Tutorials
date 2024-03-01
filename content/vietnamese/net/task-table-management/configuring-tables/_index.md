@@ -11,7 +11,7 @@ url: /vi/net/task-table-management/configuring-tables/
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách định cấu hình bảng trong Aspose.Tasks cho .NET. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp Microsoft Project. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình định cấu hình bảng bằng Aspose.Tasks, chia nhỏ từng bước để bạn hiểu rõ ràng.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Aspose.Tasks for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Tasks. Bạn có thể tải nó xuống từ[Tài liệu Aspose.Tasks .NET](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Tasks. Bạn có thể tải nó xuống từ[Tài liệu Aspose.Tasks .NET](https://reference.aspose.com/tasks/net/).
 - Môi trường phát triển: Thiết lập môi trường phát triển của bạn với Visual Studio hoặc bất kỳ công cụ phát triển .NET ưa thích nào khác.
 - Tệp dự án mẫu: Chuẩn bị sẵn tệp Microsoft Project (MPP) mẫu để thử nghiệm.
 ## Nhập không gian tên

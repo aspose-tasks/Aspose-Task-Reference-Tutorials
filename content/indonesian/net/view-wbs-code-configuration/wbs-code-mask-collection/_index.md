@@ -132,7 +132,7 @@ Dengan Aspose.Tasks untuk .NET, mengelola kode WBS menjadi tugas yang mudah. Tut
 ### T: Bisakah saya menggunakan Aspose.Tasks untuk .NET dengan bahasa pemrograman lain?
 J: Aspose.Tasks terutama mendukung bahasa .NET, namun Anda dapat menjelajahi opsi interoperabilitas dengan bahasa lain.
 ### T: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
- A: Ya, Anda dapat mendownload versi trialnya.[Di Sini](https://releases.aspose.com/).
+ A: Ya, Anda dapat mendownload versi trialnya[Di Sini](https://releases.aspose.com/).
 ### T: Bagaimana cara mencari bantuan atau melaporkan masalah dengan Aspose.Tasks untuk .NET?
  J: Kunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi.
 ### T: Apa tujuan kode WBS dalam manajemen proyek?

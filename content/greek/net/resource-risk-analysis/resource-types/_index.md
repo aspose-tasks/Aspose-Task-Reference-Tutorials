@@ -2,7 +2,7 @@
 title: Τύποι πόρων στο Aspose.Tasks
 linktitle: Τύποι πόρων στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Μάθετε πώς να εργάζεστε με διαφορετικούς τύπους πόρων στο Aspose.Tasks για .NET, συμπεριλαμβανομένων πόρων εργασίας, υλικών και κόστους, μέσα από ένα βήμα προς βήμα σεμινάριο.
+description: Μάθετε πώς να εργάζεστε με διαφορετικούς τύπους πόρων στο Aspose.Tasks για .NET, συμπεριλαμβανομένων πόρων εργασίας, υλικών και κόστους, μέσα από ένα βήμα προς βήμα εκμάθηση.
 type: docs
 weight: 14
 url: /el/net/resource-risk-analysis/resource-types/

@@ -19,7 +19,7 @@ Antes de poder comenzar a trabajar con Aspose.Tasks para .NET, debe tenerlo inst
 ### 2. Familiaridad con el lenguaje de programación C#
 Dado que Aspose.Tasks para .NET es una biblioteca .NET, debe tener un conocimiento básico de la sintaxis y los conceptos del lenguaje de programación C#.
 ### 3. Archivo de proyecto de Microsoft
-Asegúrese de tener un archivo de Microsoft Project (`Project2.mpp`) disponible en su directorio de documentos designado (`DataDir`, Este archivo servirá como destino para configurar los márgenes de la página.
+Asegúrese de tener un archivo de Microsoft Project (`Project2.mpp`) disponible en su directorio de documentos designado (`DataDir`). Este archivo servirá como destino para configurar los márgenes de la página.
 
 ## Importar espacios de nombres
 Para comenzar a manipular archivos de Microsoft Project usando Aspose.Tasks para .NET, necesita importar los espacios de nombres necesarios en su código C#. Este paso garantiza que tenga acceso a las clases y métodos proporcionados por la biblioteca Aspose.Tasks.
@@ -61,7 +61,7 @@ project.Save(DataDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
 ```
 
 ## Conclusión
-En este tutorial, exploramos el proceso de configuración de los márgenes de la página de MS Project usando Aspose.Tasks para .NET. Si sigue la guía paso a paso y aprovecha las capacidades de la biblioteca Aspose.Tasks, puede manipular eficientemente los archivos del proyecto para cumplir con sus requisitos específicos. Ya sea que esté ajustando los márgenes para mejorar el diseño del documento o mejorando presentaciones estéticas, Aspose.Tasks le permite alcanzar sus objetivos con facilidad.
+En este tutorial, exploramos el proceso de configuración de los márgenes de la página de MS Project usando Aspose.Tasks para .NET. Si sigue la guía paso a paso y aprovecha las capacidades de la biblioteca Aspose.Tasks, puede manipular eficientemente los archivos del proyecto para cumplir con sus requisitos específicos. Ya sea que esté ajustando los márgenes para mejorar el diseño del documento o mejorando la estética de la presentación, Aspose.Tasks le permite alcanzar sus objetivos con facilidad.
 ## Preguntas frecuentes
 ### P: ¿Aspose.Tasks es compatible con todas las versiones de archivos de Microsoft Project?
 R: Aspose.Tasks admite varias versiones de archivos de Microsoft Project, lo que garantiza la compatibilidad entre diferentes entornos.

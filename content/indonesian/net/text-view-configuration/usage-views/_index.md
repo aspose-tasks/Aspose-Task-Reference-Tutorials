@@ -1,6 +1,6 @@
 ---
-title: Konfigurasikan Tampilan Penggunaan di Aspose.Tasks
-linktitle: Konfigurasikan Tampilan Penggunaan di Aspose.Tasks
+title: Mengonfigurasi Tampilan Penggunaan di Aspose.Tasks
+linktitle: Mengonfigurasi Tampilan Penggunaan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi tampilan penggunaan tugas di Aspose.Tasks untuk .NET. Tingkatkan visualisasi proyek dengan langkah-langkah mendetail. Unduh perpustakaannya sekarang!
 type: docs
@@ -11,7 +11,7 @@ url: /id/net/text-view-configuration/usage-views/
 Jika Anda seorang pengembang .NET yang ingin meningkatkan kemampuan manajemen proyek Anda, Aspose.Tasks adalah alat canggih yang memungkinkan Anda memanipulasi file Microsoft Project dengan mudah. Dalam tutorial ini, kami akan fokus pada mengonfigurasi tampilan penggunaan menggunakan Aspose.Tasks untuk .NET. Ikuti terus untuk mendapatkan wawasan tentang rendering tampilan penggunaan tugas dengan detail untuk visualisasi proyek yang lebih baik.
 ## Prasyarat
 Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
-- Perpustakaan Aspose.Tasks: Pastikan Anda memiliki perpustakaan Aspose.Tasks yang terintegrasi ke dalam proyek .NET Anda. Jika belum, Anda dapat mendownloadnya[Di Sini](https://releases.aspose.com/tasks/net/) dan ikuti petunjuk instalasi.
+-  Perpustakaan Aspose.Tasks: Pastikan Anda memiliki perpustakaan Aspose.Tasks yang terintegrasi ke dalam proyek .NET Anda. Jika belum, Anda dapat mendownloadnya[Di Sini](https://releases.aspose.com/tasks/net/) dan ikuti petunjuk instalasi.
 - Direktori Dokumen: Siapkan direktori tempat dokumen proyek Anda disimpan. Ganti "Direktori Dokumen Anda" di cuplikan kode dengan jalur sebenarnya ke direktori dokumen Anda.
 ## Impor Namespace
 Dalam cuplikan kode yang disediakan, Anda akan melihat penggunaan namespace tertentu. Pastikan untuk menyertakan ini dalam proyek Anda untuk integrasi yang lancar:

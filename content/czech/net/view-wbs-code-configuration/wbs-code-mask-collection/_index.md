@@ -8,11 +8,11 @@ weight: 15
 url: /cs/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
 ## Úvod
-dynamickém světě projektového řízení je efektivní organizace úkolů zásadní. Aspose.Tasks for .NET poskytuje výkonné řešení pro snadnou správu kódů struktury členění projektové práce (WBS). V tomto tutoriálu se ponoříme do kolekce WBS kódových masek a prozkoumáme, jak je implementovat a manipulovat s nimi pomocí Aspose.Tasks for .NET.
+V dynamickém světě projektového řízení je efektivní organizace úkolů zásadní. Aspose.Tasks for .NET poskytuje výkonné řešení pro snadnou správu kódů struktury členění projektové práce (WBS). V tomto tutoriálu se ponoříme do kolekce WBS kódových masek a prozkoumáme, jak je implementovat a manipulovat s nimi pomocí Aspose.Tasks for .NET.
 ## Předpoklady
 Než se pustíme do této kódovací cesty, ujistěte se, že máte splněny následující předpoklady:
 - Pracovní znalost programovacího jazyka C#.
--  Aspose.Tasks for .NET nainstalované ve vašem vývojovém prostředí. Pokud ne, stáhněte si jej[tady](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks for .NET nainstalované ve vašem vývojovém prostředí. Pokud ne, stáhněte si ji[tady](https://releases.aspose.com/tasks/net/).
 - Editor kódu jako Visual Studio pro bezproblémové kódování.
 ## Importovat jmenné prostory
 Chcete-li začít, importujme potřebné jmenné prostory:
@@ -132,7 +132,7 @@ S Aspose.Tasks for .NET se správa kódů WBS stává snadným úkolem. Tento v�
 ### Otázka: Mohu používat Aspose.Tasks pro .NET s jinými programovacími jazyky?
 Odpověď: Aspose.Tasks primárně podporuje jazyky .NET, ale můžete prozkoumat možnosti interoperability s jinými jazyky.
 ### Otázka: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
- Odpověď: Ano, můžete si stáhnout zkušební verzi.[tady](https://releases.aspose.com/).
+ Odpověď: Ano, můžete si stáhnout zkušební verzi[tady](https://releases.aspose.com/).
 ### Otázka: Jak mohu vyhledat pomoc nebo nahlásit problémy s Aspose.Tasks for .NET?
  A: Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu a diskuze.
 ### Otázka: Jaký je účel kódů WBS v řízení projektů?

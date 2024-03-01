@@ -65,7 +65,7 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
 ### Поддерживает ли Aspose.Tasks другие форматы файлов проекта, кроме MS Project?
 Да, Aspose.Tasks поддерживает различные форматы файлов проектов, включая MPP, XML и MPX.
 ### Доступна ли бесплатная пробная версия Aspose.Tasks?
- Да, вы можете скачать бесплатную пробную версию Aspose.[здесь](https://releases.aspose.com/).
+ Да, вы можете скачать бесплатную пробную версию Aspose.Tasks с сайта[здесь](https://releases.aspose.com/).
 ### Где я могу найти документацию для Aspose.Tasks?
  Вы можете найти документацию для Aspose.Tasks.[здесь](https://reference.aspose.com/tasks/net/).
 ### Как я могу получить поддержку для Aspose.Tasks?

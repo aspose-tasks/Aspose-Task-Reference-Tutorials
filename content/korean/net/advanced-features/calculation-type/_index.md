@@ -9,7 +9,7 @@ url: /ko/net/advanced-features/calculation-type/
 ---
 ## 소개
 
-이 튜토리얼에서는 .NET용 Aspose.Tasks의 계산 유형 기능을 살펴보겠습니다. Aspose.Tasks는 .NET 개발자가 시스템에 Microsoft Project를 설치하지 않고도 Microsoft Project 파일로 작업할 수 있도록 하는 강력한 라이브러리입니다. 계산 유형을 사용하면 프로젝트 내의 작업 및 요약 작업에 대한 값이 계산되는 방식을 정의할 수 있습니다.
+이 튜토리얼에서는 .NET용 Aspose.Tasks의 계산 유형 기능을 살펴보겠습니다. Aspose.Tasks는 .NET 개발자가 시스템에 Microsoft Project를 설치할 필요 없이 Microsoft Project 파일로 작업할 수 있도록 하는 강력한 라이브러리입니다. 계산 유형을 사용하면 프로젝트 내의 작업 및 요약 작업에 대한 값이 계산되는 방식을 정의할 수 있습니다.
 
 ## 전제조건
 
@@ -80,7 +80,7 @@ project.ExtendedAttributes.Add(lookup);
 
 ### Q1: Aspose.Tasks의 계산 유형은 무엇입니까?
 
-A1: Aspose.Tasks의 계산 유형은 프로젝트 내의 작업 및 요약 작업에 대한 값이 계산되는 방식을 결정하고 수식 및 롤업과 같은 옵션을 제공합니다.
+A1: Aspose.Tasks의 계산 유형은 프로젝트 내의 작업 및 요약 작업에 대한 값이 계산되는 방법을 결정하고 수식 및 롤업과 같은 옵션을 제공합니다.
 
 ### Q2: 확장 속성에 대한 계산 유형을 어떻게 설정합니까?
 
@@ -92,7 +92,7 @@ A3: 예, Aspose.Tasks를 사용하면 요약 행에 대한 계산 유형을 지�
 
 ### Q4: 요약 작업 계산에 사용할 수 있는 다양한 롤업 유형이 있습니까?
 
-A4: 네, Aspose.Tasks는 요약 작업의 값을 계산하기 위해 Average, Sum, Count와 같은 다양한 롤업 유형을 제공합니다.
+A4: 예, Aspose.Tasks는 요약 작업의 값을 계산하기 위해 평균, 합계 및 개수와 같은 다양한 롤업 유형을 제공합니다.
 
 ### Q5: Aspose.Tasks for .NET에 대한 추가 리소스는 어디서 찾을 수 있나요?
 

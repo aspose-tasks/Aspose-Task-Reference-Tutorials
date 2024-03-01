@@ -32,7 +32,7 @@ Bây giờ, hãy chia từng ví dụ thành nhiều bước và giải thích c
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Ở đây, chúng ta khởi tạo một phiên bản mới của`Project` lớp bằng cách cung cấp đường dẫn đến tệp Microsoft Project.
+ Ở đây, chúng ta khởi tạo một phiên bản mới của`Project` lớp bằng cách cung cấp đường dẫn đến tệp Microsoft Project.
 ## Bước 2: Đặt ngày trạng thái:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

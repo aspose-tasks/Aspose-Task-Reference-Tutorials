@@ -101,7 +101,7 @@ Enfin, nous parcourons les taux restants après la suppression.
 En conclusion, ce didacticiel vous a fourni un guide complet sur la gestion des tarifs dans les fichiers MS Project à l'aide d'Aspose.Tasks pour .NET. En suivant les instructions étape par étape décrites dans ce didacticiel, vous pouvez gérer efficacement les tarifs au sein de vos projets, garantissant ainsi une gestion précise des ressources.
 ## FAQ
 ### Q : Puis-je utiliser Aspose.Tasks pour .NET avec d’autres logiciels de gestion de projet ?
-R : Oui, Aspose.Tasks pour .NET prend en charge l'intégration avec divers logiciels de gestion de projet, notamment MS Project, Primavera, etc.
+: Oui, Aspose.Tasks pour .NET prend en charge l'intégration avec divers logiciels de gestion de projet, notamment MS Project, Primavera, etc.
 ### Q : Aspose.Tasks pour .NET est-il compatible avec différentes versions de fichiers MS Project ?
 R : Absolument, Aspose.Tasks pour .NET prend en charge l'utilisation de fichiers MS Project de différentes versions, garantissant ainsi flexibilité et compatibilité.
 ### Q : Aspose.Tasks pour .NET propose-t-il une documentation et une assistance ?

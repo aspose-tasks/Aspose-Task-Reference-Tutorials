@@ -33,7 +33,7 @@ Beheer de overzichtswaarden van Microsoft Project efficiënt met Aspose.Tasks vo
 ## Verzameling van overzichtswaarden in Aspose.Tasks voor .NET
  Leer hoe u overzichtswaarden in Microsoft Project-bestanden beheert met Aspose.Tasks voor .NET. Deze stapsgewijze zelfstudie bevat codevoorbeelden, zodat u deze praktijken moeiteloos kunt implementeren.[Lees verder](./outline-value-collection/)
 
-## Configureer de paginalegenda in Aspose.Tasks voor .NET
+## Paginalegenda configureren in Aspose.Tasks voor .NET
  Efficiënt projectbeheer strekt zich uit tot het configureren van MS Project-paginalegenda's in .NET. Deze tutorial, met behulp van Aspose.Tasks, biedt een stapsgewijze handleiding voor het aanpassen van uw projectlegenda's voor optimale efficiëntie.[Lees verder](./page-legend/)
 
 ## Stel moeiteloos MS-projectpaginamarges in met Aspose.Tasks voor .NET
@@ -54,7 +54,7 @@ Leer hoe u Microsoft Project-overzichtscodes verzamelt met Aspose.Tasks voor .NE
 ### [Omgaan met overzichtscodedefinities in Aspose.Tasks](./outline-code-definitions/)
 Leer hoe u met MS Project-overzichtscodedefinities kunt omgaan met Aspose.Tasks voor .NET, waarmee u uw projectbeheertoepassingen kunt versterken.
 ### [Verzameling van overzichtscodedefinities in Aspose.Tasks](./outline-code-definition-collection/)
-Leer hoe u overzichtscodedefinities in Microsoft Project-documenten kunt manipuleren met Aspose.Tasks voor .NET. Moeiteloos categoriseren van uw projectgegevens.
+Leer hoe u overzichtscodedefinities in Microsoft Project-documenten kunt manipuleren met behulp van Aspose.Tasks voor .NET. Moeiteloos categoriseren van uw projectgegevens.
 ### [Werken met overzichtsmaskers in Aspose.Tasks](./outline-masks/)
 Leer hoe u programmatisch met Microsoft Project-bestanden kunt werken met Aspose.Tasks voor .NET. Beheers overzichtsmaskers efficiënt.
 ### [Verzameling overzichtsmaskers in Aspose.Tasks](./outline-mask-collection/)
@@ -63,7 +63,7 @@ Leer hoe u overzichtsmaskers van MS Project-verzamelingen kunt manipuleren met A
 Leer hoe u MS Project-overzichtswaarden efficiënt kunt beheren met Aspose.Tasks voor .NET. Pas eenvoudig projectoverzichten aan.
 ### [Verzameling van overzichtswaarden in Aspose.Tasks](./outline-value-collection/)
 Leer hoe u overzichtswaarden in Microsoft Project-bestanden beheert met Aspose.Tasks voor .NET. Stapsgewijze zelfstudie met codevoorbeelden.
-### [Configureer de paginalegenda in Aspose.Tasks](./page-legend/)
+### [Paginalegenda configureren in Aspose.Tasks](./page-legend/)
 Leer hoe u MS Project-paginalegenda's in .NET configureert met behulp van Aspose.Tasks voor efficiënt projectbeheer. Stap-voor-stap handleiding meegeleverd.
 ### [Stel moeiteloos MS-projectpaginamarges in met Aspose.Tasks](./page-margins/)
 Leer hoe u paginamarges in Microsoft Project-bestanden kunt aanpassen met Aspose.Tasks voor .NET. Verbeter eenvoudig de lay-out en presentatie van documenten.

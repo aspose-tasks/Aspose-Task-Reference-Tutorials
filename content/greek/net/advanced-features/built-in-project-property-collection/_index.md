@@ -25,7 +25,7 @@ url: /el/net/advanced-features/built-in-project-property-collection/
 
 ### 3. Εγκατάσταση του Aspose.Tasks για .NET
 
-Κατεβάστε και εγκαταστήστε το Aspose.Tasks για τη βιβλιοθήκη .NET από το[δικτυακός τόπος](https://releases.aspose.com/tasks/net/).
+ Κατεβάστε και εγκαταστήστε το Aspose.Tasks για τη βιβλιοθήκη .NET από το[δικτυακός τόπος](https://releases.aspose.com/tasks/net/).
 
 ### 4. Εξοικείωση με τις Έννοιες Διαχείρισης Έργων
 

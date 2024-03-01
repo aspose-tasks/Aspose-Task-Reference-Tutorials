@@ -69,7 +69,7 @@ Törölje a meglévő csoportfeltételeket, ha az nem csak olvasható.
 group.GroupCriteria.Clear();
 ```
 
-## 5. lépés: Új kritériumok hozzáadása
+## 5. lépés: Új feltétel hozzáadása
 
 Hozzon létre egy új csoportfeltételt, és adja hozzá a csoporthoz.
 
@@ -125,4 +125,4 @@ V: Természetesen több feltételt is hozzáadhat egy csoporthoz úgy, hogy mind
 
 ### 5. kérdés: Hogyan kaphatok támogatást, ha bármilyen problémába ütközöm?
 
- V: Ha bármilyen kérdése van, vagy bármilyen problémája van, kérjen támogatást az Aspose.Tasks fórumon.[itt](https://forum.aspose.com/c/tasks/15).
+ V: Ha bármilyen kérdése van, vagy bármilyen problémája van, kérhet támogatást az Aspose.Tasks fórumon[itt](https://forum.aspose.com/c/tasks/15).

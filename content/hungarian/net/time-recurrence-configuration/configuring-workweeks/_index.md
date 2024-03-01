@@ -1,6 +1,6 @@
 ---
 title: A munkahét konfigurálásának elsajátítása az Aspose.Tasks programban
-linktitle: Konfigurálja a munkahéteket az Aspose.Tasks alkalmazásban
+linktitle: Workweeks konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja könnyedén a munkaheteket az Aspose.Tasks for .NET-ben. Fokozza a projekt ütemezését és az erőforrás-kezelést lépésről lépésre szóló útmutatónkkal.
 type: docs

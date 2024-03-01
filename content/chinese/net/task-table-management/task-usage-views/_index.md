@@ -1,6 +1,6 @@
 ---
 title: 掌握 Aspose.Tasks for .NET 中的任务使用视图
-linktitle: 在 Aspose.Tasks 中配置任务使用视图
+linktitle: 在 Aspose.Tasks 中配置任务使用情况视图
 second_title: Aspose.Tasks .NET API
 description: 探索 Aspose.Tasks for .NET 并了解如何配置任务使用视图。自定义时间刻度设置并增强您的项目管理视觉效果。
 type: docs
@@ -74,4 +74,4 @@ Aspose.Tasks 支持各种演示格式，包括甘特图、ResourceUsage 等。
 ### 我可以对特定任务应用不同的时间刻度设置吗？
 当然，您可以为项目中的各个任务自定义时间刻度设置。
 ### 我如何获得 Aspose.Tasks 的支持或寻求帮助？
-访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区的支持和指导。
+参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区的支持和指导。

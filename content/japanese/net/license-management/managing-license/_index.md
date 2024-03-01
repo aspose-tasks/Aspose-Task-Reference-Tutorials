@@ -13,7 +13,7 @@ url: /ja/net/license-management/managing-license/
 .NET の Aspose.Tasks を使用したライセンスの管理に入る前に、次の前提条件を満たしていることを確認してください。
 - C# プログラミング言語と .NET Framework の基本的な理解。
 - Aspose.Tasks for .NET がインストールされました。
-- 有効な Aspose.Tasks ライセンス ファイルへのアクセス (`.lic`、
+- 有効な Aspose.Tasks ライセンス ファイルへのアクセス (`.lic`）。
 ## 名前空間のインポート
 .NET プロジェクトで Aspose.Tasks の使用を開始する前に、必要な名前空間をインポートする必要があります。これらの名前空間は、ライセンス管理に必要なクラスとメソッドへのアクセスを提供します。
 

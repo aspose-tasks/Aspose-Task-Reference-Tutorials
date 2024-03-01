@@ -31,12 +31,12 @@ using System;
 // Η διαδρομή προς τον κατάλογο εγγράφων.
 string dataDir = "Your Document Directory";
 ```
- αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον κατάλογό σας που περιέχει το αρχείο MS Project.
+ Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον κατάλογό σας που περιέχει το αρχείο MS Project.
 ## Βήμα 3: Ανάκτηση πληροφοριών αρχείου έργου
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Αυτή η γραμμή κώδικα ανακτά πληροφορίες σχετικά με το καθορισμένο αρχείο Project. αντικαθιστώ`"Project.xml"` με το όνομα του αρχείου MS Project.
+ Αυτή η γραμμή κώδικα ανακτά πληροφορίες σχετικά με το καθορισμένο αρχείο Project. Αντικαθιστώ`"Project.xml"` με το όνομα του αρχείου MS Project.
 ## Βήμα 4: Εμφάνιση πληροφοριών έργου
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);

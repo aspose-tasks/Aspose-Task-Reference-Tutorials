@@ -41,7 +41,7 @@ Evet, Aspose.Tasks, geleneksel .NET Framework'ün yanı sıra .NET Core'u da des
 ### Tek bir kaynak için birden fazla çalışma grubu türü ayarlayabilir miyim?
 Evet, projenizin farklı aşamalarında bir kaynak için farklı çalışma grubu türleri ayarlayabilirsiniz.
 ### Aspose.Tasks için ek desteği nerede bulabilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve tartışmalar için.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve tartışmalar için.
 ### Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümüne şuradan erişebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks için nasıl geçici lisans alabilirim?

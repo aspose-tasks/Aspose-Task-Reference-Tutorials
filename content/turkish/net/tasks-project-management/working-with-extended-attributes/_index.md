@@ -8,7 +8,7 @@ weight: 11
 url: /tr/net/tasks-project-management/working-with-extended-attributes/
 ---
 ## giriiş
-Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını programlı olarak yönetmelerine olanak tanıyan güçlü bir kitaplıktır. Bu kütüphanenin en önemli özelliklerinden biri MS Project'in genişletilmiş nitelikleriyle çalışabilmesidir. Genişletilmiş öznitelikler, bir projedeki görevlere ek özelleştirme ve meta veriler sağlayarak kullanıcıların standart görev özelliklerinin ötesinde belirli bilgileri depolamasına ve yönetmesine olanak tanır.
+Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını programlı olarak yönetmelerine olanak tanıyan güçlü bir kitaplıktır. Bu kütüphanenin en önemli özelliklerinden biri MS Project'in genişletilmiş özellikleriyle çalışabilmesidir. Genişletilmiş öznitelikler, bir projedeki görevlere ek özelleştirme ve meta veriler sağlayarak kullanıcıların standart görev özelliklerinin ötesinde belirli bilgileri depolamasına ve yönetmesine olanak tanır.
 Bu eğitimde Aspose.Tasks for .NET kullanarak MS Project'in genişletilmiş nitelikleriyle nasıl çalışılacağını inceleyeceğiz. Önkoşulları ele alacağız, ad alanlarını içe aktaracağız ve her örneği adım adım kılavuz formatında birden fazla adıma ayıracağız. Bu eğitimin sonunda, .NET uygulamalarınızda genişletilmiş özniteliklerden nasıl yararlanacağınıza dair sağlam bir anlayışa sahip olacaksınız.
 ## Önkoşullar
 Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
@@ -38,7 +38,7 @@ MS Project dosyanızın bulunduğu dizinin yolunu tanımlayın:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
+ Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
 ## Adım 2: Proje Dosyasını Yükleyin
  MS Project dosyasını kullanarak yükleyin.`Project` sınıf:
 ```csharp

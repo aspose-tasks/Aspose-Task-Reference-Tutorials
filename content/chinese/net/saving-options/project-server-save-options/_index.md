@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
-确保更换`"Your Document Directory"`, `URL`, `Domain`, `UserName`，和`Password`与你的实际价值观。
+确保更换`"Your Document Directory"`, `URL`, `Domain`, `UserName`， 和`Password`与你的实际价值观。
 ## 第2步：创建项目服务器管理器
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
-调整`ProjectGuid`, `ProjectName`, `Timeout`，和`PollingInterval`根据您的要求。
+调整`ProjectGuid`, `ProjectName`, `Timeout`， 和`PollingInterval`根据您的要求。
 ## 第 4 步：将项目保存到服务器
 ```csharp
 manager.CreateNewProject(project, options);

@@ -50,9 +50,9 @@ Tóm lại, Aspose.Tasks for .NET trao quyền cho các nhà phát triển xử 
 ### Aspose.Tasks có tương thích với tất cả các định dạng tệp quản lý dự án không?
  Aspose.Tasks hỗ trợ các định dạng tệp dự án khác nhau, bao gồm MPP, XML, v.v. Tham khảo đến[tài liệu](https://reference.aspose.com/tasks/net/) để có danh sách đầy đủ.
 ### Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
-Có, bạn có thể khám phá Aspose.Tasks với bản dùng thử miễn phí. Tải xuống nó từ[trang phát hành](https://releases.aspose.com/).
+ Có, bạn có thể khám phá Aspose.Tasks với bản dùng thử miễn phí. Tải xuống nó từ[trang phát hành](https://releases.aspose.com/).
 ### Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Tasks ở đâu?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.Tasks?
  Nhận giấy phép tạm thời cho Aspose.Tasks bằng cách truy cập[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks mang lại lợi ích gì cho việc xử lý các đơn vị công việc?

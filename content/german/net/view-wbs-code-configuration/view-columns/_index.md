@@ -75,8 +75,8 @@ A: Aspose.Tasks konzentriert sich hauptsächlich auf Microsoft Project-Dateien. 
 ### F: Wie kann ich Probleme bei der Anpassung von Ansichtsspalten beheben?
  A: Besuchen Sie die[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für die Unterstützung der Community und die Unterstützung bei allen Herausforderungen, denen Sie begegnen.
 ### F: Gibt es vor dem Kauf von Aspose.Tasks eine Testversion?
-A: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
+ A: Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 ###  F: Welche Bedeutung hat das?`MyTextStyleCallback` class in the tutorial?
- A: Die`MyTextStyleCallback` Der Kurs zeigt, wie Sie Textstile anpassen, um die visuelle Darstellung in bestimmten Ansichten zu verbessern.
+ A: Die`MyTextStyleCallback` Der Kurs zeigt, wie Textstile für eine verbesserte visuelle Darstellung in bestimmten Ansichten angepasst werden.
 ### F: Wo finde ich zusätzliche Ressourcen und Dokumentation für Aspose.Tasks?
  A: Siehe[Aspose.Tasks-Dokumentation](https://reference.aspose.com/tasks/net/) für ausführliche Anleitung und Ressourcen.

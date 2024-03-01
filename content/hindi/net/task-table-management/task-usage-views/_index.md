@@ -14,7 +14,7 @@ url: /hi/net/task-table-management/task-usage-views/
 1.  .NET के लिए Aspose.Tasks: सुनिश्चित करें कि आपके पास Aspose.Tasks लाइब्रेरी आपके .NET प्रोजेक्ट में एकीकृत है। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/).
 2. .NET वातावरण: अपनी मशीन पर एक कार्यशील .NET वातावरण स्थापित करें।
 ## नामस्थान आयात करें
-अपने .NET प्रोजेक्ट में, Aspose. कार्य कार्यक्षमताओं तक पहुँचने के लिए आवश्यक नेमस्पेस आयात करें। अपने कोड में निम्नलिखित पंक्तियाँ जोड़ें:
+अपने .NET प्रोजेक्ट में, Aspose.Tasks कार्यात्मकताओं तक पहुँचने के लिए आवश्यक नामस्थान आयात करें। अपने कोड में निम्नलिखित पंक्तियाँ जोड़ें:
 ```csharp
     using Aspose.Tasks;
     using System;
@@ -23,12 +23,12 @@ url: /hi/net/task-table-management/task-usage-views/
     using Aspose.Tasks.Visualization;
 ```
 ## चरण 1: दस्तावेज़ निर्देशिका पथ सेट करें
- Aspose. Tasks कार्यात्मकताओं के साथ काम करने से पहले, अपने दस्तावेज़ निर्देशिका के लिए पथ सेट करें। प्रतिस्थापित करें`"Your Document Directory"` वास्तविक पथ के साथ.
+ Aspose.Tasks कार्यात्मकताओं के साथ काम करने से पहले, अपने दस्तावेज़ निर्देशिका के लिए पथ सेट करें। प्रतिस्थापित करें`"Your Document Directory"` वास्तविक पथ के साथ.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## चरण 2: प्रोजेक्ट लोड करें
- Aspose को आरंभ करें। कार्य`Project` अपनी प्रोजेक्ट फ़ाइल लोड करके ऑब्जेक्ट करें (उदाहरण के लिए, TaskUsageView.mpp)।
+ Aspose.Tasks को प्रारंभ करें`Project` अपनी प्रोजेक्ट फ़ाइल लोड करके ऑब्जेक्ट करें (उदाहरण के लिए, TaskUsageView.mpp)।
 ```csharp
 var project = new Project(DataDir + "TaskUsageView.mpp");
 ```

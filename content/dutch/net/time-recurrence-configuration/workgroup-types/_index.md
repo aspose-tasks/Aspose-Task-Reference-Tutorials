@@ -41,7 +41,7 @@ Ja, Aspose.Tasks ondersteunt .NET Core samen met het traditionele .NET Framework
 ### Kan ik meerdere werkgroeptypen instellen voor één resource?
 Ja, u kunt in verschillende fasen van uw project verschillende werkgroeptypen instellen voor een resource.
 ### Waar kan ik aanvullende ondersteuning vinden voor Aspose.Tasks?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en discussies.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en discussies.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks?
  Ja, u kunt toegang krijgen tot een gratis proefperiode van[hier](https://releases.aspose.com/).
 ### Hoe kan ik een tijdelijke licentie voor Aspose.Tasks verkrijgen?

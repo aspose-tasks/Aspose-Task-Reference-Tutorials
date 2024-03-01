@@ -93,6 +93,6 @@ project.Save(DataDir + "WorkWithProgressLines_out.mpp", SaveFileFormat.Mpp);
 ### Q：我可以將 Aspose.Tasks 與其他 .NET 函式庫整合嗎？
 答：當然，Aspose.Tasks 旨在與其他 .NET 程式庫無縫集成，讓您進一步增強專案管理應用程式。
 ### Q：是否有 Aspose.Tasks 支援的社群論壇？
-答：是的，您可以在 Aspose.Tasks 論壇上找到有用的資源並尋求協助。[這裡](https://forum.aspose.com/c/tasks/15).
+答：是的，您可以在 Aspose.Tasks 論壇上找到有用的資源並尋求協助[這裡](https://forum.aspose.com/c/tasks/15).
 ### Q：Aspose.Tasks 是否提供用於評估目的的臨時許可證？
 答：是的，您可以從以下位置取得臨時評估許可證：[這裡](https://purchase.aspose.com/temporary-license/).

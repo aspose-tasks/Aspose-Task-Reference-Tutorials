@@ -71,8 +71,8 @@ A: Absolut! Medan Aspose.Tasks främst fokuserar på Microsoft Project-filer, ge
 ### F: Stöder Aspose.Tasks både läsning och skrivning av Microsoft Project-filer?
 S: Ja, Aspose.Tasks tillåter utvecklare att både läsa från och skriva till Microsoft Project-filer, vilket möjliggör omfattande manipulation.
 ### F: Finns det ett communityforum för Aspose.Tasks där jag kan söka hjälp?
-S: Du kan verkligen besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) att ställa frågor, dela idéer och interagera med andra användare.
+A: Du kan faktiskt besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) att ställa frågor, dela idéer och interagera med andra användare.
 ### F: Kan jag prova Aspose.Tasks för .NET innan jag köper?
  A: Självklart! Du kan få tillgång till en gratis testversion av Aspose.Tasks[här](https://releases.aspose.com/).
 ### F: Var kan jag få en tillfällig licens för Aspose.Tasks?
- S: Om du behöver en tillfällig licens för utvärdering eller testning kan du få en.[här](https://purchase.aspose.com/temporary-license/).
+ S: Om du behöver en tillfällig licens för utvärdering eller testning kan du få en[här](https://purchase.aspose.com/temporary-license/).

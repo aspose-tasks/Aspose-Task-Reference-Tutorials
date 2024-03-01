@@ -63,7 +63,7 @@ A: はい、Aspose.Tasks for .NET は、シームレスなデータ交換のた�
 
 ### Q: Aspose.Tasks for .NET を使用するには一時ライセンスが必要ですか?
 
-A: 特定の高度な機能については、一時ライセンスが必要になる場合があります。[ここ](https://purchase.aspose.com/temporary-license/).
+ A: 特定の高度な機能については、一時ライセンスが必要になる場合があります。[ここ](https://purchase.aspose.com/temporary-license/).
 
 ### Q: Aspose.Tasks for .NET はどこで購入できますか?
 

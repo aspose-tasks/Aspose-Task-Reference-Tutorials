@@ -12,7 +12,7 @@ medida que evoluciona la gestión de proyectos, también lo hace la necesidad de
 ## Requisitos previos
 Antes de sumergirnos en el tutorial, asegúrese de tener implementados los siguientes requisitos previos:
 - Un conocimiento práctico del desarrollo .NET.
-- Aspose.Tasks para la biblioteca .NET instalada. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks para la biblioteca .NET instalada. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
 - Un editor de código (se recomienda Visual Studio).
 ## Importar espacios de nombres
 En su proyecto .NET, comience importando los espacios de nombres necesarios:

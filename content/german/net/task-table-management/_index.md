@@ -11,7 +11,7 @@ url: /de/net/task-table-management/
 
 Aspose.Tasks für .NET revolutioniert das Projektmanagement mit seinen robusten Funktionen. Dieser Artikel befasst sich mit verschiedenen Tutorials zur Aufgabenverwaltung und Tabellenformatierung und bietet eine umfassende Anleitung zur Maximierung Ihrer Effizienz. Tauchen wir ein in die Kernthemen:
 
-## Konfigurieren Sie Tabellen in Aspose.Tasks
+## Konfigurieren von Tabellen in Aspose.Tasks
 
 Lernen Sie mit unserer Schritt-für-Schritt-Anleitung die Kunst des Konfigurierens von Tabellen in Aspose.Tasks für .NET. Mit diesem Tutorial können Sie Ihre Projektmanagementerfahrung mühelos verbessern. Entdecke die[Tutorial zum Konfigurieren von Tabellen](./configuring-tables/) um diese Fähigkeit zu beherrschen.
 
@@ -27,7 +27,7 @@ Lernen Sie mit unserer Schritt-für-Schritt-Anleitung die Kunst des Konfiguriere
 
 Tauchen Sie mit Aspose.Tasks für .NET in die dynamische Welt des Projektmanagements ein. Dieses Tutorial führt Sie durch die Bearbeitung von Tabellenfeldsammlungen, um Ihr Projekterlebnis anzupassen. Entdecke die[Tutorial zur Tabellenfeldsammlung](./table-field-collection/) um Ihre Fähigkeiten zu bereichern.
 
-## Konfigurieren Sie Tabellentextstile in Aspose.Tasks
+## Konfigurieren von Tabellentextstilen in Aspose.Tasks
 
  Verbessern Sie die Projektvisualisierung, indem Sie Tabellentextstile in Aspose.Tasks für .NET konfigurieren. Diese Schritt-für-Schritt-Anleitung sorgt dafür, dass Sie die Effizienz und Präsentation Ihres Projekts steigern können. Entdecken Sie die Geheimnisse mit dem[Tutorial zu Tabellentextstilen](./table-text-styles/).
 
@@ -51,11 +51,11 @@ Erlernen Sie die Fähigkeiten zur mühelosen Bearbeitung von Aufgaben-Baselines 
 
  Nutzen Sie die Leistungsfähigkeit von Aspose.Tasks für .NET bei der effizienten Verwaltung von Projektaufgabenverknüpfungen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um Ihr Projektmanagement-Erlebnis mit zu verbessern[Tutorial zur Task-Link-Sammlung](./task-link-collection/).
 
-## Konfigurieren Sie Aufgabenstartdatumstypen in Aspose.Tasks
+## Konfigurieren von Aufgabenstartdatumstypen in Aspose.Tasks
 
- Konfigurieren Sie mühelos Startdatumstypen für Aufgaben mit Aspose.Tasks für .NET. Optimieren Sie das Projektmanagement ganz einfach, indem Sie das erkunden[Tutorial zu Aufgabenstartdatumstypen](./task-start-date-types/), Laden Sie jetzt Ihre kostenlose Testversion herunter!
+ Konfigurieren Sie mühelos die Startdatumstypen für Aufgaben mit Aspose.Tasks für .NET. Optimieren Sie das Projektmanagement ganz einfach, indem Sie das erkunden[Tutorial zu Aufgabenstartdatumstypen](./task-start-date-types/). Laden Sie jetzt Ihre kostenlose Testversion herunter!
 
-## Konfigurieren Sie Aufgabennutzungsansichten in Aspose.Tasks
+## Konfigurieren von Aufgabenverwendungsansichten in Aspose.Tasks
 
  Verwalten und visualisieren Sie Projektdaten effizient mit Aspose.Tasks für .NET. Tauchen Sie ein in die Felder der Aufgabenverwendungsansicht, um erweiterte Projekteinblicke zu erhalten[Tutorial zu Aufgabennutzungsansichten](./task-usage-views/).
 
@@ -65,7 +65,7 @@ Erlernen Sie die Fähigkeiten zur mühelosen Bearbeitung von Aufgaben-Baselines 
 
 Mit diesen Tutorials sind Sie auf dem Weg, Aspose.Tasks für .NET zu beherrschen und sich mit erweiterten Projektmanagementfunktionen vertraut zu machen. Tauchen Sie noch heute ein, erkunden Sie und erweitern Sie Ihre Fähigkeiten!
 ## Aspose.Tasks Tutorials zur Aufgabenverwaltung und Tabellenformatierung
-### [Konfigurieren Sie Tabellen in Aspose.Tasks](./configuring-tables/)
+### [Konfigurieren von Tabellen in Aspose.Tasks](./configuring-tables/)
 Erfahren Sie mit dieser Schritt-für-Schritt-Anleitung, wie Sie Tabellen in Aspose.Tasks für .NET konfigurieren. Verbessern Sie mühelos Ihre Projektmanagement-Erfahrung.
 ### [Sammlung von Tabellen in Aspose.Tasks](./table-collection/)
 Meistern Sie Aspose.Tasks für .NET mit unserer Schritt-für-Schritt-Anleitung zum Umgang mit Tabellensammlungen. Verbessern Sie Projektmanagementanwendungen mühelos. Jetzt downloaden!
@@ -73,7 +73,7 @@ Meistern Sie Aspose.Tasks für .NET mit unserer Schritt-für-Schritt-Anleitung z
 Beherrschen Sie den Umgang mit Tabellenfeldern in Aspose.Tasks für .NET mit diesem umfassenden Tutorial. Lernen Sie, Projekttabellen mühelos zu lesen, anzuzeigen und zu ändern.
 ### [Sammlung von Tabellenfeldern in Aspose.Tasks](./table-field-collection/)
 Entdecken Sie die dynamische Welt des Projektmanagements mit Aspose.Tasks für .NET. Erfahren Sie, wie Sie Tabellenfeldsammlungen für ein individuelles Projekterlebnis bearbeiten.
-### [Konfigurieren Sie Tabellentextstile in Aspose.Tasks](./table-text-styles/)
+### [Konfigurieren von Tabellentextstilen in Aspose.Tasks](./table-text-styles/)
 Verbessern Sie die Projektvisualisierung mit Aspose.Tasks für .NET. Erfahren Sie Schritt für Schritt, wie Sie Tabellentextstile konfigurieren. Steigern Sie Effizienz und Präsentation.
 ### [Verwalten von Aufgaben in Aspose.Tasks](./managing-tasks/)
 Entdecken Sie den umfassenden Leitfaden zum Verwalten von Aufgaben mit Aspose.Tasks für .NET. Erfahren Sie, wie Sie geteilte Teile hinzufügen, anzeigen, verschieben, Eigenschaften abrufen/festlegen und vieles mehr.
@@ -85,9 +85,9 @@ Erkunden Sie mühelos Aufgabenbasislinien mit Aspose.Tasks für .NET. Effiziente
 Entdecken Sie die effiziente Verwaltung von Aufgabensammlungen in Aspose.Tasks für .NET. Meistern Sie das Projektmanagement von der Erstellung bis zur Bearbeitung mit Leichtigkeit.
 ### [Umgang mit Aufgabenlinks in Aspose.Tasks](./task-link-collection/)
 Entdecken Sie die Leistungsfähigkeit von Aspose.Tasks für .NET bei der effizienten Verwaltung von Projektaufgabenverknüpfungen. Befolgen Sie unsere Schritt-für-Schritt-Anleitung, um Ihr Projektmanagement-Erlebnis zu verbessern.
-### [Konfigurieren Sie Aufgabenstartdatumstypen in Aspose.Tasks](./task-start-date-types/)
+### [Konfigurieren von Aufgabenstartdatumstypen in Aspose.Tasks](./task-start-date-types/)
 Entdecken Sie Aspose.Tasks für .NET, um mühelos Startdatumstypen für Aufgaben zu konfigurieren. Optimieren Sie das Projektmanagement ganz einfach. Laden Sie jetzt Ihre kostenlose Testversion herunter!
-### [Konfigurieren Sie Aufgabennutzungsansichten in Aspose.Tasks](./task-usage-views/)
+### [Konfigurieren von Aufgabenverwendungsansichten in Aspose.Tasks](./task-usage-views/)
 Entdecken Sie Aspose.Tasks für .NET, um Projektdaten mühelos zu verwalten und zu visualisieren. Tauchen Sie ein in die Felder der Aufgabennutzungsansicht, um erweiterte Projekteinblicke zu erhalten.
 ### [Sammlung von Feldern zur Aufgabenverwendungsansicht in Aspose.Tasks](./task-usage-view-fields/)
 Entdecken Sie Aspose.Tasks für .NET und erfahren Sie, wie Sie Aufgabennutzungsansichten konfigurieren. Passen Sie die Zeitskaleneinstellungen an und verbessern Sie die visuelle Darstellung Ihres Projektmanagements.

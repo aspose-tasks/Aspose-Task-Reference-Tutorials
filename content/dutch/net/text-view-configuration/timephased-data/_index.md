@@ -85,7 +85,7 @@ Aspose.Tasks is voornamelijk ontworpen voor .NET-ontwikkeling. De functionalitei
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
  Ja, u kunt een gratis proefperiode uitproberen[hier](https://releases.aspose.com/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Tasks voor .NET?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15)voor gemeenschapssteun.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapssteun.
 ### Wat is een tijdelijke licentie en hoe kan ik deze verkrijgen?
  Meer informatie over tijdelijke licenties[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik de documentatie voor Aspose.Tasks voor .NET vinden?

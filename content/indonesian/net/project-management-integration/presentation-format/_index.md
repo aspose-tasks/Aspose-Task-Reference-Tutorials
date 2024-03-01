@@ -17,7 +17,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 
 ### 1. Instal Aspose.Tasks untuk .NET
 
- Jika Anda belum melakukannya, unduh dan instal Aspose.Tasks untuk .NET dari[Unduh Halaman](https://releases.aspose.com/tasks/net/), Ikuti petunjuk instalasi yang diberikan untuk mengaturnya dengan benar.
+ Jika Anda belum melakukannya, unduh dan instal Aspose.Tasks untuk .NET dari[Unduh Halaman](https://releases.aspose.com/tasks/net/). Ikuti petunjuk instalasi yang diberikan untuk mengaturnya dengan benar.
 
 ### 2. Impor Namespace yang Diperlukan
 
@@ -39,7 +39,7 @@ Pertama, pastikan Anda memiliki direktori yang disiapkan untuk menyimpan file pr
 String DataDir = "Your Document Directory";
 ```
 
- mengganti`"Your Document Directory"` dengan jalur ke direktori yang Anda inginkan.
+ Mengganti`"Your Document Directory"` dengan jalur ke direktori yang Anda inginkan.
 
 ## Langkah 2: Muat File Proyek MS Anda
 
@@ -49,7 +49,7 @@ Selanjutnya, Anda perlu memuat file MS Project Anda menggunakan Aspose.Tasks:
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- mengganti`"ResourceSheetView.mpp"` dengan nama file MS Project Anda.
+ Mengganti`"ResourceSheetView.mpp"` dengan nama file MS Project Anda.
 
 ## Langkah 3: Tentukan Opsi Simpan
 

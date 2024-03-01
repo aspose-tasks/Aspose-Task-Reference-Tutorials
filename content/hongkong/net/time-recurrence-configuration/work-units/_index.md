@@ -52,7 +52,7 @@ Console.WriteLine("Working hours: " + workUnit.WorkingHours);
 ### 我可以在購買前試用 Aspose.Tasks 嗎？
 是的，您可以透過免費試用來探索 Aspose.Tasks。從以下位置下載[發布頁面](https://releases.aspose.com/).
 ### 在哪裡可以找到對 Aspose.Tasks 的額外支援？
-訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持和討論。
+參觀[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持和討論。
 ### 如何取得 Aspose.Tasks 的臨時許可證？
 透過存取取得 Aspose.Tasks 的臨時許可證[臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks 為處理工作單元提供了哪些好處？

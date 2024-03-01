@@ -42,7 +42,7 @@ var project = new Project(DataDir + "Project2.mpp");
 var margins = project.DefaultView.PageInfo.Margins;
 ```
 ## चरण 3: मार्जिन समायोजित करें
-पृष्ठ के बाएँ, ऊपर, दाएँ और नीचे के पक्षों के लिए वांछित मार्जिन मान निर्दिष्ट करें।
+पृष्ठ के बाएँ, ऊपर, दाएँ और नीचे के लिए वांछित मार्जिन मान निर्दिष्ट करें।
 ```csharp
 margins.Left = 10d;
 margins.Top = 10d;

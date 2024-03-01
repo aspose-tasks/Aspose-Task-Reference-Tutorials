@@ -26,7 +26,7 @@ url: /el/net/rate-recurring-tasks/recurring-task-information/
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς το αρχείο MS Project.
+ Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς το αρχείο MS Project.
 ## Βήμα 2: Φορτώστε το αρχείο MS Project
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
@@ -61,4 +61,4 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 ### Ε: Πού μπορώ να βρω τεκμηρίωση για το Aspose.Tasks για .NET;
  Α: Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/net/).
 ### Ε: Πώς μπορώ να λάβω τεχνική υποστήριξη για το Aspose.Tasks για .NET;
-Α: Μπορείτε να λάβετε τεχνική υποστήριξη από το φόρουμ Aspose.Tasks.[εδώ](https://forum.aspose.com/c/tasks/15).
+ Α: Μπορείτε να λάβετε τεχνική υποστήριξη από το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).

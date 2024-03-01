@@ -1,6 +1,6 @@
 ---
-title: กำหนดค่าตัวเลือกการแสดงโครงการ MS ใน Aspose.Tasks
-linktitle: กำหนดค่าตัวเลือกการแสดงโครงการใน Aspose.Tasks
+title: การกำหนดค่าตัวเลือกการแสดงโครงการ MS ใน Aspose.Tasks
+linktitle: การกำหนดค่าตัวเลือกการแสดงโครงการใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่าตัวเลือกการแสดงผล MS Project โดยทางโปรแกรมโดยใช้ Aspose.Tasks สำหรับ .NET ปรับแต่งรูปลักษณ์ของโครงการของคุณได้อย่างง่ายดาย
 type: docs

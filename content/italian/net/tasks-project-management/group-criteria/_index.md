@@ -32,7 +32,7 @@ Innanzitutto, specifica il percorso del tuo file Microsoft Project:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- sostituire`"Your Document Directory"` con il percorso del file di progetto.
+ Sostituire`"Your Document Directory"` con il percorso del file di progetto.
 ## Passaggio 2: recuperare le informazioni sui gruppi di attività
 Successivamente, recupera le informazioni sui gruppi di attività nel progetto:
 ```csharp

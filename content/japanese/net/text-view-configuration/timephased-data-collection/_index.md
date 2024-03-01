@@ -120,4 +120,4 @@ Aspose.Tasks はさまざまなサイズのプロジェクトを処理し、リ�
 ### Aspose.Tasks for .NET を購入する前に試すことはできますか?
 はい、Aspose.Tasks for .NET の機能を調べるには、[無料トライアル](https://releases.aspose.com/).
 ### Aspose.Tasks for .NET のライセンスはどこで購入できますか?
- Aspose.Tasks for .NET のライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).
+Aspose.Tasks for .NET のライセンスを購入できます。[ここ](https://purchase.aspose.com/buy).

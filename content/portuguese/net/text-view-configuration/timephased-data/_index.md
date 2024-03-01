@@ -78,14 +78,14 @@ foreach (var assignment in project.ResourceAssignments)
 Por fim, exiba os dados divididos em fases para cada tarefa.
 #
 ## Conclusão
-O tratamento eficaz de dados divididos em fases no Aspose.Tasks abre novas possibilidades para planejamento detalhado de projetos e gerenciamento de recursos. Seguindo este guia passo a passo, você aprendeu como manipular dados divididos em fases para atender às necessidades específicas de seus projetos.
+tratamento eficaz de dados divididos em fases no Aspose.Tasks abre novas possibilidades para planejamento detalhado de projetos e gerenciamento de recursos. Seguindo este guia passo a passo, você aprendeu como manipular dados divididos em fases para atender às necessidades específicas de seus projetos.
 ## perguntas frequentes
 ### Posso usar o Aspose.Tasks for .NET com outras ferramentas de gerenciamento de projetos?
 Aspose.Tasks foi projetado principalmente para desenvolvimento .NET. Porém, suas funcionalidades podem complementar diversas ferramentas de gerenciamento de projetos.
 ### Existe uma avaliação gratuita disponível para Aspose.Tasks for .NET?
  Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).
 ### Como posso obter suporte para Aspose.Tasks for .NET?
- visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)para apoio comunitário.
+ Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio comunitário.
 ### O que é uma licença temporária e como posso obtê-la?
  Saiba mais sobre licenças temporárias[aqui](https://purchase.aspose.com/temporary-license/).
 ### Onde posso encontrar a documentação do Aspose.Tasks for .NET?

@@ -19,10 +19,10 @@ Fällt es Ihnen schwer, die Feinheiten der Ratenverwaltung und der wiederkehrend
  In[Master-MS-Projektraten mit Aspose.Tasks](./rate-collection/), befassen wir uns mit den Feinheiten der Tarifverwaltung in MS Project-Dateien. Dieses Tutorial ist Ihre Anlaufstelle, um die Nuancen der Tariferhebung zu verstehen. Es bietet praktische Einblicke und gibt Ihnen die Möglichkeit, die Ressourcenverwaltungsfunktionen Ihres Projekts zu verbessern.
 
 ## Mühelose wiederkehrende Intervalle für MS Project in Aspose.Tasks
- Entdecken Sie die Kunst, wiederkehrende Intervalle mühelos zu verwalten[Mühelose wiederkehrende Intervalle für MS Project in Aspose.Tasks](./recurring-intervals/), Dieses Tutorial führt Sie durch den Prozess mit Aspose.Tasks für .NET und stellt sicher, dass Sie wiederkehrende Aufgaben in Ihrem MS Project nahtlos bearbeiten können.
+ Entdecken Sie die Kunst, wiederkehrende Intervalle mühelos zu verwalten[Mühelose wiederkehrende Intervalle für MS Project in Aspose.Tasks](./recurring-intervals/). Dieses Tutorial führt Sie durch den Prozess mit Aspose.Tasks für .NET und stellt sicher, dass Sie wiederkehrende Aufgaben in Ihrem MS Project nahtlos bearbeiten können.
 
 ## Extrahieren wiederkehrender Aufgabeninformationen in Aspose.Tasks
- Erfahren Sie, wie Sie wiederkehrende Aufgabeninformationen aus MS Project-Dateien extrahieren[Extrahieren wiederkehrender Aufgabeninformationen in Aspose.Tasks](./recurring-task-information/)Dieses Tutorial bietet .NET-Entwicklern eine einfache Integration, sodass Sie wiederkehrende Aufgaben in Ihren Projekten effizient bearbeiten können.
+ Erfahren Sie, wie Sie wiederkehrende Aufgabeninformationen aus MS Project-Dateien extrahieren[Extrahieren wiederkehrender Aufgabeninformationen in Aspose.Tasks](./recurring-task-information/)Dieses Tutorial bietet eine einfache Integration für .NET-Entwickler, sodass Sie wiederkehrende Aufgaben in Ihren Projekten effizient bearbeiten können.
 
 ## Festlegen wiederkehrender Aufgabenparameter in Aspose.Tasks
  In[Festlegen wiederkehrender Aufgabenparameter in Aspose.Tasks](./recurring-task-parameters/)bieten wir eine umfassende Anleitung zum Festlegen wiederkehrender Aufgabenparameter in Microsoft Project mithilfe von Aspose.Tasks für .NET. Verschaffen Sie sich das nötige Wissen, um wiederkehrende Aufgaben mühelos zu konfigurieren.
@@ -31,13 +31,13 @@ Fällt es Ihnen schwer, die Feinheiten der Ratenverwaltung und der wiederkehrend
  Verabschieden Sie sich vom manuellen Entfernen von Aufgaben![Entfernen von MS Project-Aufgaben mit Aspose.Tasks](./removing-tasks/) führt Sie durch den Prozess des programmgesteuerten Entfernens von Aufgaben mit Aspose.Tasks für .NET. Die Schritt-für-Schritt-Anleitung enthält Codebeispiele für ein nahtloses Erlebnis.
 
 ## Meistern Sie die MS-Projektberichterstattung mit Aspose.Tasks
- Nutzen Sie das volle Potenzial der MS Project-Berichterstellung mit[Meistern Sie die MS-Projektberichterstattung mit Aspose.Tasks](./report-types/), In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET mit MS Project-Dateien arbeiten und so mühelos verschiedene Berichtstypen erstellen können.
+ Nutzen Sie das volle Potenzial der MS Project-Berichterstellung mit[Meistern Sie die MS-Projektberichterstattung mit Aspose.Tasks](./report-types/). In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET mit MS Project-Dateien arbeiten und so mühelos verschiedene Berichtstypen erstellen können.
 
 ## Speichern von MS Project-Dateien in verschiedenen Formaten in Aspose.Tasks
 Effizientes Projektmanagement umfasst vielfältige Dateiformate.[Speichern von MS Project-Dateien in verschiedenen Formaten in Aspose.Tasks](./save-file-formats/) führt Sie durch die Schritte zum Speichern von MS Project-Dateien in verschiedenen Formaten mit Aspose.Tasks für .NET.
 
 ## Umgang mit geteilten MS Project-Teilen in Aspose.Tasks
- Das Navigieren in geteilten Teilen in MS Project wird damit zum Kinderspiel[Umgang mit geteilten MS Project-Teilen in Aspose.Tasks](./split-parts/), Verbessern Sie Ihren Projektmanagement-Workflow durch die effiziente Handhabung geteilter Teile mit Aspose.Tasks für .NET.
+ Das Navigieren in geteilten Teilen in MS Project wird damit zum Kinderspiel[Umgang mit geteilten MS Project-Teilen in Aspose.Tasks](./split-parts/). Verbessern Sie Ihren Projektmanagement-Workflow durch die effiziente Handhabung geteilter Teile mit Aspose.Tasks für .NET.
 
 ## Sammeln Sie geteilte MS Project-Teile in Aspose.Tasks
  Unser Tutorial zum Thema[Sammeln Sie geteilte MS Project-Teile in Aspose.Tasks](./split-part-collection/) ist eine umfassende Anleitung, die Sie Schritt für Schritt durch den Prozess führt. Erfahren Sie, wie Sie geteilte Teile in MS Project sammeln und so Ihren Projektmanagement-Workflow optimieren.

@@ -15,7 +15,7 @@ url: /ar/net/resource-risk-analysis/managing-risk-patterns/
 قبل أن نتعمق في إدارة أنماط مخاطر MS Project باستخدام Aspose.Tasks لـ .NET، تأكد من أن لديك ما يلي:
 
 1. ملف Microsoft Project: احصل على ملف Microsoft Project (.mpp) يحتوي على المهام وبيانات المشروع ذات الصلة.
-2. Aspose.Tasks لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.Tasks لـ .NET من[موقع إلكتروني](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks لـ .NET: قم بتنزيل وتثبيت مكتبة Aspose.Tasks لـ .NET من[موقع إلكتروني](https://releases.aspose.com/tasks/net/).
 3. الفهم الأساسي لـ C#: يوصى بالإلمام بأساسيات لغة البرمجة C#.
 
 ## استيراد مساحات الأسماء
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- في هذه الخطوة، نقوم بتحديد الدليل الخاص بوثيقة المشروع وإنشاء إعدادات لتحليل المخاطر. أضبط ال`IterationsCount` حسب الحاجة على أساس تعقيد المشروع.
+في هذه الخطوة، نقوم بتحديد الدليل الخاص بوثيقة المشروع وإنشاء إعدادات لتحليل المخاطر. أضبط ال`IterationsCount` حسب الحاجة على أساس تعقيد المشروع.
 
 ## الخطوة 2: تحميل المشروع والمهمة
 

@@ -65,9 +65,9 @@ Grattis! Du har framgångsrikt lärt dig hur du hanterar uppgiftens baslinjer i 
 ### F: Kan jag använda Aspose.Tasks med andra .NET-ramverk?
 S: Aspose.Tasks är kompatibelt med flera .NET-ramverk, vilket ger flexibilitet i din utvecklingsmiljö.
 ### F: Finns det ett communityforum för Aspose.Tasks-stöd?
-S: Ja, du kan hitta stöd och engagera dig i samhället på[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).
+ S: Ja, du kan hitta stöd och engagera dig i samhället på[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).
 ### F: Hur kan jag få en tillfällig licens för Aspose.Tasks?
- Ett besök[här](https://purchase.aspose.com/temporary-license/) för att få en tillfällig licens för Aspose.Tasks.
+ Ett besök[här](https://purchase.aspose.com/temporary-license/)för att få en tillfällig licens för Aspose.Tasks.
 ### F: Finns det några handledningar utöver uppgiftens baslinjer tillgängliga?
  S: Utforska[dokumentation](https://reference.aspose.com/tasks/net/) för ett brett utbud av tutorials om Aspose.Tasks-funktioner.
 ### F: Var kan jag köpa Aspose.Tasks för .NET?

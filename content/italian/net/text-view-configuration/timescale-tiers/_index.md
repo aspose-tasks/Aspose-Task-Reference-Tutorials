@@ -1,6 +1,6 @@
 ---
-title: Configurare i livelli di scala cronologica del diagramma di Gantt in Aspose.Tasks
-linktitle: Configurare i livelli di scala temporale in Aspose.Tasks
+title: Configurazione dei livelli di scala cronologica del diagramma di Gantt in Aspose.Tasks
+linktitle: Configurazione dei livelli di scala cronologica in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora Aspose.Tasks per .NET per configurare i livelli di scala temporale nella visualizzazione del diagramma di Gantt per una visualizzazione precisa della sequenza temporale del progetto. #Aspose.Tasks #Progetto MS
 type: docs
@@ -12,7 +12,7 @@ Nel panorama dinamico della gestione dei progetti, una visualizzazione efficace 
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di avere quanto segue:
 - Conoscenza base di C# e .NET.
-- Aspose.Tasks per la libreria .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks per la libreria .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
 - Un ambiente di sviluppo configurato per lo sviluppo di applicazioni .NET.
 ## Importa spazi dei nomi
 ```csharp
@@ -58,7 +58,7 @@ view.TopTimescaleTier.DateTimeConverter = date =>
     new[] { "Янв.", "Фев.", "Мар.", "Апр.", "Май", "Июнь", "Июль", "Авг.", "Сен.", "Окт.", "Ноя.", "Дек." }[date.Month - 1];
 ```
 Personalizza le etichette dei mesi per una migliore visualizzazione.
-## Passaggio 6: imposta la scala temporale del progetto
+## Passaggio 6: impostare la scala temporale del progetto
 ```csharp
 project.Set(Prj.TimescaleStart, new DateTime(2012, 7, 30));
 project.Set(Prj.TimescaleFinish, new DateTime(2012, 10, 6));

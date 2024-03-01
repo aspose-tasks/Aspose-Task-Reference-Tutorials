@@ -1,6 +1,6 @@
 ---
-title: Skonfiguruj opcje drukowania MS Project w Aspose.Tasks
-linktitle: Skonfiguruj opcje drukowania w Aspose.Tasks
+title: Konfigurowanie opcji drukowania MS Project w Aspose.Tasks
+linktitle: Konfigurowanie opcji drukowania w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak bezproblemowo skonfigurować opcje drukowania MS Project za pomocą Aspose.Tasks dla .NET. Zwiększ swoje możliwości zarządzania projektami.
 type: docs
@@ -11,7 +11,7 @@ url: /pl/net/project-management-integration/print-options/
 W dziedzinie tworzenia oprogramowania Aspose.Tasks for .NET wyróżnia się jako potężne narzędzie do efektywnego zarządzania zadaniami i projektami. Jedną z jego kluczowych funkcji jest możliwość płynnej konfiguracji opcji drukowania Microsoft Project. W tym samouczku zagłębimy się w proces konfigurowania opcji drukowania MS Project za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
 Zanim zagłębimy się w zawiłości konfiguracji opcji drukowania MS Project, upewnij się, że spełnione są następujące wymagania wstępne:
-1.  Instalacja Aspose.Tasks dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Tasks dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
+1. Instalacja Aspose.Tasks dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Tasks dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
 2. Podstawowa znajomość języka C#: Zapoznaj się z podstawami języka programowania C#, ponieważ w tym samouczku zastosowano głównie język C# w celach demonstracyjnych.
 
 ## Importuj przestrzenie nazw
@@ -43,13 +43,13 @@ Przed drukowaniem warto sprawdzić liczbę stron, aby uniknąć drukowania niepo
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Kontynuuj drukowanie
+    // Kontynuuj drukowanie
     project.Print(options);
 }
 ```
 
 ## Wniosek
-Podsumowując, konfigurowanie opcji drukowania MS Project przy użyciu Aspose.Tasks dla .NET to prosty proces, który może znacznie zwiększyć możliwości zarządzania projektami. Wykonując kroki opisane w tym samouczku, możesz skutecznie dostosować ustawienia drukowania do swoich konkretnych potrzeb.
+Podsumowując, konfigurowanie opcji drukowania MS Project przy użyciu Aspose.Tasks dla .NET jest prostym procesem, który może znacznie zwiększyć możliwości zarządzania projektami. Wykonując kroki opisane w tym samouczku, możesz skutecznie dostosować ustawienia drukowania do swoich konkretnych potrzeb.
 ## Często zadawane pytania
 ### P: Czy Aspose.Tasks for .NET jest kompatybilny ze wszystkimi wersjami Microsoft Project?
 Odp.: Aspose.Tasks dla .NET oferuje kompatybilność z różnymi wersjami Microsoft Project, zapewniając bezproblemową integrację w różnych środowiskach.

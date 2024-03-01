@@ -9,15 +9,15 @@ url: /hu/net/saving-options/image-save-options/
 ---
 
 ## Bevezetés
-szoftverfejlesztés világában a projektfeladatok hatékony kezelése kulcsfontosságú a sikeres projektmenedzsmenthez. Az Aspose.Tasks for .NET hatékony megoldást kínál a Microsoft Project fájlokkal dolgozó fejlesztők számára, lehetővé téve számukra a projektfeladatok zökkenőmentes kezelését, konvertálását és kezelését .NET-alkalmazásaikon belül.
+A szoftverfejlesztés világában a projektfeladatok hatékony kezelése kulcsfontosságú a sikeres projektmenedzsmenthez. Az Aspose.Tasks for .NET hatékony megoldást kínál a Microsoft Project fájlokkal dolgozó fejlesztők számára, lehetővé téve számukra a projektfeladatok zökkenőmentes kezelését, konvertálását és kezelését .NET-alkalmazásaikon belül.
 ## Előfeltételek
 Mielőtt belevágna az Aspose.Tasks for .NET használatába az MS Project beállításainak képként történő mentéséhez, győződjön meg arról, hogy a következő előfeltételek vannak:
 ### 1. Telepítse az Aspose.Tasks programot .NET-hez
- A kezdéshez telepítenie kell az Aspose.Tasks for .NET programot a fejlesztői környezetébe. A könyvtár letölthető a[weboldal](https://releases.aspose.com/tasks/net/) és kövesse a mellékelt telepítési utasításokat.
+ kezdéshez telepítenie kell az Aspose.Tasks for .NET programot a fejlesztői környezetébe. A könyvtár letölthető a[weboldal](https://releases.aspose.com/tasks/net/) és kövesse a mellékelt telepítési utasításokat.
 ### 2. Szerezzen engedélyt (opcionális)
  Míg az Aspose.Tasks for .NET licenc nélkül is használható kiértékelési módban, a teljes funkcionalitás és az értékelési korlátozások megszüntetése érdekében ajánlatos egy licenc beszerzése. Engedélyt szerezhet a[vásárlási oldal](https://purchase.aspose.com/buy) vagy válasszon a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) tesztelési célokra.
 ### 3. C# és .NET fejlesztési alapismeretek
-C# programozási nyelv és a .NET keretrendszer alapvető ismerete szükséges a példák követéséhez, és az Aspose.Tasks funkciók hatékony integrálásához az alkalmazásokba.
+A C# programozási nyelv és a .NET keretrendszer alapvető ismerete szükséges a példák követéséhez, és az Aspose.Tasks funkciók hatékony integrálásához az alkalmazásokba.
 ## Névterek importálása
 Mielőtt elkezdenénk az Aspose.Tasks for .NET segítségével képként menteni az MS Project beállításait, győződjünk meg arról, hogy importáljuk a szükséges névtereket C# projektünkbe:
 ```csharp
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## 3. lépés: Adja meg a képmentési beállításokat
- Hozzon létre egy példányt a`ImageSaveOptions` és adja meg a kívánt beállításokat:
+ Hozzon létre egy példányt a`ImageSaveOptions`és adja meg a kívánt beállításokat:
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {

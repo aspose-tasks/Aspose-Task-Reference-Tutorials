@@ -14,7 +14,7 @@ Sei pronto a portare le tue competenze su Aspose.Tasks per .NET al livello succe
 
 ## Gestione del salvataggio delle immagini in Aspose.Tasks
 
-Impara l'arte di gestire il salvataggio delle immagini in Aspose.Tasks per .NET con le nostre linee guida dettagliate. Integra perfettamente la funzionalità di salvataggio delle immagini nelle tue applicazioni .NET, migliorando la rappresentazione visiva dei dati del tuo progetto.[Per saperne di più](./image-saving/)
+ Impara l'arte di gestire il salvataggio delle immagini in Aspose.Tasks per .NET con le nostre linee guida dettagliate. Integra perfettamente la funzionalità di salvataggio delle immagini nelle tue applicazioni .NET, migliorando la rappresentazione visiva dei dati del tuo progetto.[Per saperne di più](./image-saving/)
 
 ## Gestione dell'eccezione password non valida in Aspose.Tasks
 
@@ -22,11 +22,11 @@ Impara l'arte di gestire il salvataggio delle immagini in Aspose.Tasks per .NET 
 
 ## Implementazione della richiamata di salvataggio della pagina in Aspose.Tasks
 
- Sfrutta il potenziale della gestione personalizzata per flussi di output di documenti multipagina. Scopri come implementare un callback per il salvataggio della pagina in Aspose.Tasks per .NET, fornendoti il controllo sulla presentazione dei dati del tuo progetto.[Per saperne di più](./page-saving-callback/)
+Sfrutta il potenziale della gestione personalizzata per flussi di output di documenti multipagina. Scopri come implementare un callback per il salvataggio della pagina in Aspose.Tasks per .NET, fornendoti il controllo sulla presentazione dei dati del tuo progetto.[Per saperne di più](./page-saving-callback/)
 
 ## Utilizzo dell'algoritmo dell'albero in Aspose.Tasks
 
-Manipola in modo efficace le gerarchie delle attività nei tuoi progetti .NET utilizzando l'algoritmo ad albero di Aspose.Tasks. Questo tutorial ti consente di ottimizzare le strutture del progetto, garantendo un flusso di lavoro fluido e organizzato.[Per saperne di più](./tree-algorithm/)
+ Manipola in modo efficace le gerarchie delle attività nei tuoi progetti .NET utilizzando l'algoritmo ad albero di Aspose.Tasks. Questo tutorial ti consente di ottimizzare le strutture del progetto, garantendo un flusso di lavoro fluido e organizzato.[Per saperne di più](./tree-algorithm/)
 
 ## Visualizzazione delle etichette in Aspose.Tasks
 
@@ -38,11 +38,11 @@ Manipola in modo efficace le gerarchie delle attività nei tuoi progetti .NET ut
 
 ## Gestione dei modelli di ricorrenza mensile in Aspose.Tasks
 
- Padroneggia l'arte di gestire modelli di ricorrenza mensile in Aspose.Tasks per .NET. Questo tutorial fornisce una guida passo passo per gestire in modo efficiente le attività ricorrenti nei tuoi progetti.[Per saperne di più](./monthly-recurrence-patterns/)
+Padroneggia l'arte di gestire modelli di ricorrenza mensile in Aspose.Tasks per .NET. Questo tutorial fornisce una guida passo passo per gestire in modo efficiente le attività ricorrenti nei tuoi progetti.[Per saperne di più](./monthly-recurrence-patterns/)
 
 ## Impostazioni per il database di Microsoft Project in Aspose.Tasks
 
-Configura le impostazioni del database di Microsoft Project senza problemi con Aspose.Tasks per .NET. Integra facilmente i dati di progetto nelle tue applicazioni .NET, ottimizzando le tue capacità di gestione dei progetti.[Per saperne di più](./msp-database-settings/)
+ Configura le impostazioni del database di Microsoft Project senza problemi con Aspose.Tasks per .NET. Integra facilmente i dati di progetto nelle tue applicazioni .NET, ottimizzando le tue capacità di gestione dei progetti.[Per saperne di più](./msp-database-settings/)
 
 ## Lavorare con l'operazione NOT in Aspose.Tasks
 
@@ -54,11 +54,11 @@ Configura le impostazioni del database di Microsoft Project senza problemi con A
 
 ## Lavorare con oggetti OLE in Aspose.Tasks
 
- Lavora in modo efficiente con oggetti OLE nelle applicazioni .NET utilizzando Aspose.Tasks. Migliora le tue capacità di gestione dei progetti padroneggiando la gestione degli oggetti OLE, aggiungendo una nuova dimensione ai tuoi documenti di progetto.[Per saperne di più](./ole-objects/)
+Lavora in modo efficiente con oggetti OLE nelle applicazioni .NET utilizzando Aspose.Tasks. Migliora le tue capacità di gestione dei progetti padroneggiando la gestione degli oggetti OLE, aggiungendo una nuova dimensione ai tuoi documenti di progetto.[Per saperne di più](./ole-objects/)
 
 ## Raccolta di oggetti OLE in Aspose.Tasks
 
-Gestisci oggetti OLE in Aspose.Tasks per .NET con questo tutorial completo. Acquisisci esperienza nella gestione di file incorporati all'interno dei documenti di progetto, garantendo una perfetta integrazione degli oggetti OLE nei tuoi progetti.[Per saperne di più](./ole-object-collection/)
+ Gestisci oggetti OLE in Aspose.Tasks per .NET con questo tutorial completo. Acquisisci esperienza nella gestione di file incorporati all'interno dei documenti di progetto, garantendo una perfetta integrazione degli oggetti OLE nei tuoi progetti.[Per saperne di più](./ole-object-collection/)
 ## Esercitazioni sui concetti avanzati
 ### [Gestione del salvataggio delle immagini in Aspose.Tasks](./image-saving/)
 Scopri come gestire il salvataggio delle immagini in Aspose.Tasks per .NET utilizzando linee guida dettagliate. Integra perfettamente la funzionalità di salvataggio delle immagini nelle tue applicazioni .NET.
@@ -79,7 +79,7 @@ Scopri come configurare le impostazioni del database di Microsoft Project utiliz
 ### [Lavorare con l'operazione NOT in Aspose.Tasks](./not-operation/)
 Scopri come utilizzare l'operazione NOT in Aspose.Tasks per .NET per filtrare le attività in modo efficace. Migliora subito le tue capacità di gestione dei progetti.
 ### [Gestione di valori booleani nullable in Aspose.Tasks](./nullable-booleans/)
- Scopri come gestire i valori booleani nullable in modo efficace in Aspose.Tasks per .NET con questo tutorial completo. Padroneggiare l'utilizzo di`NullableBool` classe e migliorare il tuo sviluppo .NET.
+ Scopri come gestire i valori booleani nullable in modo efficace in Aspose.Tasks per .NET con questo tutorial completo. Padroneggiare l'uso di`NullableBool` classe e migliorare il tuo sviluppo .NET.
 ### [Lavorare con oggetti OLE in Aspose.Tasks](./ole-objects/)
 Scopri come lavorare in modo efficiente con oggetti OLE nelle applicazioni .NET utilizzando Aspose.Tasks, migliorando le funzionalità di gestione dei progetti.
 ### [Raccolta di oggetti OLE in Aspose.Tasks](./ole-object-collection/)

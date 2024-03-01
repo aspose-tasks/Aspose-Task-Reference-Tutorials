@@ -19,7 +19,7 @@ url: /zh-hant/net/advanced-features/repetition-by-month-week-day/
    
 2. 安裝 Aspose.Tasks for .NET：請確定您已下載並安裝 Aspose.Tasks for .NET 程式庫。您可以從以下位置取得該庫：[下載頁面](https://releases.aspose.com/tasks/net/).
 
-3. 存取 .mpp 專案文件：準備好 Microsoft Project 檔案 (.mpp)，因為我們將利用它來示範按月、週和日進行重複的實作。
+3. 存取 .mpp 專案檔案：準備好 Microsoft Project 檔案 (.mpp)，因為我們將利用它來示範按月、週和日進行重複的實作。
 
 ## 導入命名空間
 

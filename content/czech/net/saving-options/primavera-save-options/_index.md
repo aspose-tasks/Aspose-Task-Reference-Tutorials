@@ -24,7 +24,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## Krok 1: Načtěte soubor MS Project
-Začněte načtením souboru MS Project, se kterým hodláte pracovat, do vaší aplikace C#. Můžete to udělat pomocí`Project` třídy poskytuje Aspose.Tasks.
+ Začněte načtením souboru MS Project, se kterým hodláte pracovat, do vaší aplikace C#. Můžete to udělat pomocí`Project` třídy poskytuje Aspose.Tasks.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -58,4 +58,4 @@ Odpověď: Aspose.Tasks je rozhodně navržen tak, aby vyhovoval potřebám výv
 ### Otázka: Mohu si Aspose.Tasks před nákupem vyzkoušet zdarma?
  Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks z[tady](https://releases.aspose.com/) prozkoumat jeho vlastnosti a možnosti.
 ### Otázka: Kde mohu získat podporu, pokud při používání Aspose.Tasks narazím na problémy nebo mám dotazy?
-Odpověď: Můžete požádat o pomoc komunitu Aspose.Tasks a tým podpory na stránce[Fórum](https://forum.aspose.com/c/tasks/15).
+ Odpověď: Můžete požádat o pomoc komunitu Aspose.Tasks a tým podpory na stránce[Fórum](https://forum.aspose.com/c/tasks/15).

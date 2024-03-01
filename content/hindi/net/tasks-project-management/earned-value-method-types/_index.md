@@ -48,7 +48,7 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 ### प्रश्न: क्या .NET के लिए Aspose.Tasks का निःशुल्क परीक्षण उपलब्ध है?
 उत्तर: हां, आप वेबसाइट से .NET के लिए Aspose.Tasks के निःशुल्क परीक्षण का लाभ उठा सकते हैं:[मुफ्त परीक्षण](https://releases.aspose.com/)
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- उत्तर: आप Aspose.Tasks समुदाय मंचों से समर्थन प्राप्त कर सकते हैं:[Aspose. कार्य मंच](https://forum.aspose.com/c/tasks/15)
+ उत्तर: आप Aspose.Tasks समुदाय मंचों से समर्थन प्राप्त कर सकते हैं:[Aspose.कार्य फोरम](https://forum.aspose.com/c/tasks/15)
 ### प्रश्न: क्या .NET के लिए Aspose.Tasks अस्थायी लाइसेंस का समर्थन करता है?
  उत्तर: हां, .NET के लिए Aspose.Tasks के लिए अस्थायी लाइसेंस उपलब्ध हैं। आप उन्हें यहां से प्राप्त कर सकते हैं:[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/)
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks कहां से खरीद सकता हूं?

@@ -61,4 +61,4 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 ### ถาม: ฉันจะหาเอกสารสำหรับ Aspose.Tasks for .NET ได้ที่ไหน
  ตอบ: คุณสามารถค้นหาเอกสารประกอบได้[ที่นี่](https://reference.aspose.com/tasks/net/).
 ### ถาม: ฉันจะได้รับการสนับสนุนด้านเทคนิคสำหรับ Aspose.Tasks สำหรับ .NET ได้อย่างไร
-ตอบ: คุณสามารถรับการสนับสนุนทางเทคนิคได้จากฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+ ตอบ: คุณสามารถรับการสนับสนุนทางเทคนิคได้จากฟอรัม Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).

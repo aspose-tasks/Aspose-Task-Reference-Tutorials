@@ -34,7 +34,7 @@ var project = new Project(DataDir + "CreateProject1.mpp");
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## 3. Adım: Diğer Formatları Keşfedin
- Aspose.Tasks, proje dosyalarını kaydetmek için XML, PDF, XLSX ve daha fazlası gibi çeşitli formatları destekler. Bu formatları basitçe değiştirerek keşfedebilirsiniz.`SaveFileFormat` parametreler`Save` yöntem.
+ Aspose.Tasks, proje dosyalarını kaydetmek için XML, PDF, XLSX ve daha fazlası gibi çeşitli formatları destekler. Bu formatları basitçe değiştirerek keşfedebilirsiniz.`SaveFileFormat` parametresi`Save` yöntem.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,8 +50,8 @@ C: Aspose.Tasks, Microsoft Project 2003 XML, Microsoft Project 2007 MPP ve Micro
 ### S: Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
  C: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks için nasıl destek alabilirim?
- C: Aspose.Tasks topluluk forumundan destek alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+C: Aspose.Tasks topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks için geçici lisanslar mevcut mu?
- C: Evet, değerlendirme amaçlı olarak geçici lisanslar mevcuttur. Bir tane alabilirsin[Burada](https://purchase.aspose.com/temporary-license/).
+ C: Evet, değerlendirme amaçlı olarak geçici lisanslar mevcuttur. Bir tane alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks'ın fiyatı nedir?
  C: Fiyatlandırma bilgilerini Aspose.Tasks satın alma sayfasında bulabilirsiniz[Burada](https://purchase.aspose.com/buy).

@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Passaggio 1: caricare il file di progetto
 
- Inizia caricando il file Microsoft Project (.mpp) di cui desideri verificare la presenza di una struttura interrotta. Usa il`Project` classe per caricare il file.
+Inizia caricando il file Microsoft Project (.mpp) di cui desideri verificare la presenza di una struttura interrotta. Usa il`Project` classe per caricare il file.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -70,7 +70,7 @@ R1: Sì, Aspose.Tasks per .NET è compatibile con vari framework .NET, inclusi .
 
 ### Q3: Come posso ottenere supporto per Aspose.Tasks per .NET?
 
-A3: è possibile chiedere assistenza al forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
+ A3: è possibile chiedere assistenza al forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
 
 ### Q4: Ho bisogno di una licenza temporanea a scopo di test?
 

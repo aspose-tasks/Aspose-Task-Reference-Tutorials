@@ -15,7 +15,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 2.  Aspose.Tasks für .NET: Laden Sie Aspose.Tasks für .NET herunter und installieren Sie es von[Hier](https://releases.aspose.com/tasks/net/).
 3. Grundkenntnisse in C#: Vertrautheit mit der Programmiersprache C# ist von Vorteil.
 
-## Namespaces importieren
+## Namensräume importieren
 Importieren wir zunächst die erforderlichen Namespaces:
 ```csharp
 using Aspose.Tasks;
@@ -93,6 +93,6 @@ A: Ja, Aspose.Tasks bietet umfassende Unterstützung für die Bearbeitung versch
 ### F: Kann ich Aspose.Tasks in andere .NET-Bibliotheken integrieren?
 A: Absolut, Aspose.Tasks ist so konzipiert, dass es sich nahtlos in andere .NET-Bibliotheken integrieren lässt, sodass Sie Ihre Projektmanagementanwendungen weiter verbessern können.
 ### F: Gibt es ein Community-Forum für den Aspose.Tasks-Support?
- A: Ja, im Aspose.Tasks-Forum finden Sie hilfreiche Ressourcen und können Hilfe suchen.[Hier](https://forum.aspose.com/c/tasks/15).
+ A: Ja, im Aspose.Tasks-Forum finden Sie hilfreiche Ressourcen und können Hilfe suchen[Hier](https://forum.aspose.com/c/tasks/15).
 ### F: Bietet Aspose.Tasks temporäre Lizenzen zu Evaluierungszwecken an?
  A: Ja, Sie können eine temporäre Lizenz zur Evaluierung bei erhalten[Hier](https://purchase.aspose.com/temporary-license/).

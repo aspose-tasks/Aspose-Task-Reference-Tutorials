@@ -93,6 +93,6 @@ J: Ya, Aspose.Tasks menyediakan dukungan ekstensif untuk memanipulasi berbagai a
 ### T: Bisakah saya mengintegrasikan Aspose.Tasks dengan perpustakaan .NET lainnya?
 J: Tentu saja, Aspose.Tasks dirancang untuk berintegrasi secara mulus dengan pustaka .NET lainnya, memungkinkan Anda untuk lebih meningkatkan aplikasi manajemen proyek Anda.
 ### T: Apakah ada forum komunitas untuk dukungan Aspose.Tasks?
- J: Ya, Anda dapat menemukan sumber daya yang bermanfaat dan mencari bantuan di forum Aspose.Tasks.[Di Sini](https://forum.aspose.com/c/tasks/15).
+ J: Ya, Anda dapat menemukan sumber daya yang bermanfaat dan mencari bantuan di forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### T: Apakah Aspose.Tasks menawarkan lisensi sementara untuk tujuan evaluasi?
  A: Ya, Anda bisa mendapatkan lisensi sementara untuk evaluasi dari[Di Sini](https://purchase.aspose.com/temporary-license/).

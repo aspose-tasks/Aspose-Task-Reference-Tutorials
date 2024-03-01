@@ -32,7 +32,7 @@ Para começar, importe os namespaces necessários para o seu projeto C#:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- substituir`"Your Document Directory"` com o caminho real para o diretório do seu documento.
+ Substituir`"Your Document Directory"` com o caminho real para o diretório do seu documento.
 ## Etapa 2: criar uma nova instância de projeto
 ```csharp
 var project = new Project();
@@ -61,4 +61,4 @@ R: Com certeza, Aspose.Tasks for .NET oferece ampla funcionalidade para personal
 ### P: O Aspose.Tasks for .NET oferece suporte à exportação de dados do projeto para formatos diferentes de XML?
 R: Sim, o Aspose.Tasks for .NET suporta a exportação de dados do projeto para uma variedade de formatos, incluindo MPP, PDF, XLSX e HTML, entre outros.
 ### P: Onde posso encontrar mais assistência ou suporte para Aspose.Tasks for .NET?
-R: Para obter mais assistência ou suporte, você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) ou consulte o[documentação](https://reference.aspose.com/tasks/net/) fornecido pela Aspose.
+ R: Para obter mais assistência ou suporte, você pode visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) ou consulte o[documentação](https://reference.aspose.com/tasks/net/) fornecido pela Aspose.

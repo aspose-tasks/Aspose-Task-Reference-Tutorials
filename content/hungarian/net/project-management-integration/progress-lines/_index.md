@@ -93,6 +93,6 @@ V: Igen, az Aspose.Tasks széleskörű támogatást nyújt az MS Project fájlok
 ### K: Integrálhatom az Aspose.Tasks-t más .NET könyvtárakkal?
 V: Természetesen az Aspose.Tasks úgy lett kialakítva, hogy zökkenőmentesen integrálódjon más .NET-könyvtárakba, lehetővé téve a projektmenedzsment-alkalmazások továbbfejlesztését.
 ### K: Létezik közösségi fórum az Aspose.Tasks támogatására?
- V: Igen, az Aspose.Tasks fórumon hasznos forrásokat találhat, és segítséget kérhet.[itt](https://forum.aspose.com/c/tasks/15).
+ V: Igen, az Aspose.Tasks fórumon hasznos forrásokat találhat, és segítséget kérhet[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Az Aspose.Tasks kínál ideiglenes licenceket értékelési célokra?
  V: Igen, ideiglenes engedélyt szerezhet az értékeléshez[itt](https://purchase.aspose.com/temporary-license/).

@@ -75,10 +75,10 @@ Tóm lại, Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ đ�
 ### Tôi có thể có nhiều tuần làm việc tùy chỉnh trong một dự án không?
 Có, bạn có thể thêm nhiều tuần làm việc tùy chỉnh vào lịch dự án.
 ### Làm cách nào để sửa đổi tuần làm việc hiện tại?
- Sử dụng được cung cấp`WorkWeek` các thuộc tính và phương pháp để sửa đổi các tuần làm việc hiện có.
+ Sử dụng được cung cấp`WorkWeek`các thuộc tính và phương pháp để sửa đổi các tuần làm việc hiện có.
 ### Aspose.Tasks có tương thích với .NET Core không?
 Có, Aspose.Tasks hỗ trợ .NET Core.
 ### Tôi có thể xuất dự án có tuần làm việc tùy chỉnh sang định dạng tệp Microsoft Project không?
 Hoàn toàn có thể, Aspose.Tasks cho phép bạn lưu dự án của mình ở nhiều định dạng khác nhau, bao gồm cả Microsoft Project.
 ### Tôi có thể tìm kiếm hỗ trợ cho các truy vấn liên quan đến Aspose.Tasks ở đâu?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) cho bất kỳ hỗ trợ hoặc trợ giúp.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) cho bất kỳ hỗ trợ hoặc trợ giúp.

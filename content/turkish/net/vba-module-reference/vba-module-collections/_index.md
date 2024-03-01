@@ -27,7 +27,7 @@ Artık önkoşullarımızı yerine getirdiğimize göre, öğreticiyi takip edil
 // Belgeler dizininin yolu.
 String DataDir = "Your Document Directory";
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"` proje belge dizininizin gerçek yolu ile.
+ Değiştirdiğinizden emin olun`"Your Document Directory"`proje belge dizininizin gerçek yolu ile.
 ## Adım 2: Projeyi Yükleyin ve VBA Projesine Erişin
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -63,11 +63,11 @@ Bu adımları izleyerek Aspose.Tasks for .NET'te VBA Modül Koleksiyonlarını y
 Sonuç olarak, Aspose.Tasks'ta VBA modüllerine hakim olmak, verimli proje yönetimi için yeni olanakların kapısını aralıyor. Bu bilgiyle donanmış olarak projelerinizi özel gereksinimleri karşılayacak şekilde özelleştirebilir ve geliştirebilirsiniz.
 ## SSS
 ### Aspose.Tasks for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
-Aspose.Tasks öncelikle C# gibi .NET dillerini destekler. Ancak diller arası uyumluluk için Java sürümleri mevcuttur.
+Aspose.Tasks öncelikli olarak C# gibi .NET dillerini destekler. Ancak diller arası uyumluluk için Java sürümleri mevcuttur.
 ### Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
-Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+ Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks için nasıl destek alabilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için veya bir destek planı satın almayı düşünün.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için veya bir destek planı satın almayı düşünün.
 ### Geçici lisanslar mevcut mu?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks için ayrıntılı belgeleri nerede bulabilirim?

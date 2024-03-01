@@ -121,7 +121,7 @@ public void DefineCalendarExceptions()
     exception2.ToDate = new System.DateTime(2009, 1, 3);
     cal.Exceptions.Add(exception2);
 
-    // Uitzonderingen bij het afdrukken
+    // Uitzonderingen afdrukken
     foreach (var exc in cal.Exceptions)
     {
         Console.WriteLine("Name: " + exc.Name);

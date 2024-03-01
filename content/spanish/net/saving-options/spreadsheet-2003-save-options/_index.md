@@ -27,9 +27,9 @@ En primer lugar, cargue el archivo de MS Project usando Aspose.Tasks:
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- reemplazar`"Your Document Directory"`con la ruta del directorio real donde se encuentra su archivo de MS Project.
+ Reemplazar`"Your Document Directory"`con la ruta del directorio real donde se encuentra su archivo de MS Project.
 ## Paso 2: definir opciones de guardar
- Defina las opciones de guardar de Spreadsheet 2003 creando una instancia de`Spreadsheet2003SaveOptions`,
+ Defina las opciones de guardar de Spreadsheet 2003 creando una instancia de`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ El uso de Aspose.Tasks para .NET, específicamente las opciones para guardar MS 
 ### P: ¿Se puede utilizar Aspose.Tasks para .NET en aplicaciones web y de escritorio?
 R: Sí, Aspose.Tasks para .NET se puede integrar perfectamente en aplicaciones web y de escritorio, proporcionando una funcionalidad consistente en todas las plataformas.
 ### P: ¿Existe una versión de prueba disponible de Aspose.Tasks para .NET?
- R: Sí, puede acceder a una prueba gratuita de Aspose.Tasks para .NET desde[sitio web](https://releases.aspose.com/), permitiéndole explorar sus características antes de realizar una compra.
+R: Sí, puede acceder a una prueba gratuita de Aspose.Tasks para .NET desde[sitio web](https://releases.aspose.com/), permitiéndole explorar sus características antes de realizar una compra.
 ### P: ¿Existe alguna limitación para personalizar las columnas de vista usando Aspose.Tasks para .NET?
 R: Aspose.Tasks para .NET ofrece amplias opciones de personalización para las columnas de vista, con limitaciones mínimas. Sin embargo, las personalizaciones complejas pueden requerir conocimientos avanzados de la biblioteca.
 ### P: ¿Puedo buscar ayuda si tengo problemas al utilizar Aspose.Tasks para .NET?

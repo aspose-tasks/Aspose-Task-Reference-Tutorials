@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks を使用して MS プロジェクト ページ設定を構成する
-linktitle: Aspose.Tasks でページ設定を構成する
+linktitle: Aspose.Tasks でのページ設定の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project ページ設定を構成する方法を学習します。簡単な手順で方向やサイズなどをカスタマイズします。
 type: docs
@@ -15,7 +15,7 @@ url: /ja/net/outline-code-page-settings/page-settings/
 2. 開発環境: Visual Studio またはその他の .NET 開発用の推奨 IDE を使用して開発環境をセットアップします。
 
 ## 名前空間のインポート
-開始するには、必要な名前空間をプロジェクトにインポートする必要があります。これらの名前空間は、MS Project ファイルの操作に必要な Aspose.Tasks クラスとメソッドへのアクセスを提供します。
+まず、必要な名前空間をプロジェクトにインポートする必要があります。これらの名前空間は、MS Project ファイルの操作に必要な Aspose.Tasks クラスとメソッドへのアクセスを提供します。
 ```csharp
 using Aspose.Tasks;
 using System.Linq;

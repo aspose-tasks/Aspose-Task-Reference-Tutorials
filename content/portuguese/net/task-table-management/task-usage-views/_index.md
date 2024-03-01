@@ -1,6 +1,6 @@
 ---
 title: Dominando as visualizações de uso de tarefas em Aspose.Tasks para .NET
-linktitle: Configurar visualizações de uso de tarefas em Aspose.Tasks
+linktitle: Configurando visualizações de uso de tarefas em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore Aspose.Tasks for .NET e aprenda como configurar visualizações de uso de tarefas. Personalize as configurações de escala de tempo e aprimore os recursos visuais de gerenciamento de projetos.
 type: docs
@@ -23,7 +23,7 @@ Em seu projeto .NET, importe os namespaces necessários para acessar as funciona
     using Aspose.Tasks.Visualization;
 ```
 ## Etapa 1: definir o caminho do diretório do documento
- Antes de trabalhar com as funcionalidades do Aspose.Tasks, defina o caminho para o diretório de documentos. substituir`"Your Document Directory"` com o caminho real.
+ Antes de trabalhar com as funcionalidades do Aspose.Tasks, defina o caminho para o diretório de documentos. Substituir`"Your Document Directory"` com o caminho real.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Sim, Aspose.Tasks oferece suporte a formatos de arquivo de projeto populares, co
 ### Posso aplicar diferentes configurações de escala de tempo a tarefas específicas?
 Com certeza, você pode personalizar as configurações de escala de tempo para tarefas individuais em seu projeto.
 ### Como posso obter suporte ou assistência para Aspose.Tasks?
- visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e orientação da comunidade.
+ Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e orientação da comunidade.

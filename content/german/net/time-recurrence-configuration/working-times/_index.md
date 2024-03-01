@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren Sie Arbeitszeiten in Aspose.Tasks
-linktitle: Konfigurieren Sie Arbeitszeiten in Aspose.Tasks
+title: Arbeitszeiten in Aspose.Tasks konfigurieren
+linktitle: Arbeitszeiten in Aspose.Tasks konfigurieren
 second_title: Aspose.Tasks .NET-API
 description: Verbessern Sie die Projektplanung in .NET mit Aspose.Tasks. Konfigurieren Sie mühelos Arbeitszeiten für ein präzises Ressourcenmanagement. Laden Sie die Bibliothek jetzt herunter!
 type: docs
@@ -12,8 +12,8 @@ Im Projektmanagement ist die genaue Kontrolle der Arbeitszeiten entscheidend fü
 ## Voraussetzungen
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 - Grundlegendes Verständnis der Programmiersprache C#.
-- Aspose.Tasks für .NET-Bibliothek installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
-- Richten Sie Visual Studio oder eine beliebige C#-Entwicklungsumgebung ein.
+-  Aspose.Tasks für .NET-Bibliothek installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
+- Visual Studio oder eine beliebige bevorzugte C#-Entwicklungsumgebung einrichten.
 ## Namespaces importieren
 Beginnen Sie mit dem Importieren der erforderlichen Namespaces, um auf die Aspose.Tasks-Funktionen zuzugreifen:
 ```csharp

@@ -108,4 +108,4 @@ foreach (var maskToAdd in masks)
 ### Q4：Aspose.Tasks for .NET 是否提供文件和支援？
 答：是的，Aspose.Tasks for .NET 透過其網站和[論壇](https://forum.aspose.com/c/tasks/15).
 ### Q5：Aspose.Tasks for .NET 有免費試用版嗎？
-答：是的，您可以從他們的網站訪問 Aspose.Tasks for .NET 的免費試用版[網站](https://releases.aspose.com/tasks/net/),在購買之前探索其特性和功能。
+答：是的，您可以從他們的網站訪問 Aspose.Tasks for .NET 的免費試用版[網站](https://releases.aspose.com/tasks/net/)。在購買之前探索其特性和功能。

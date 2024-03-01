@@ -21,7 +21,7 @@ url: /th/net/advanced-features/repetition-by-year-week-day/
 
 ### 2. การติดตั้ง Aspose.Tasks สำหรับ .NET
 
- ดาวน์โหลดและติดตั้งไลบรารี Aspose.Tasks สำหรับ .NET จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/tasks/net/)ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้เพื่อรวมไลบรารีเข้ากับสภาพแวดล้อมการพัฒนาของคุณ
+ ดาวน์โหลดและติดตั้งไลบรารี Aspose.Tasks สำหรับ .NET จาก[ลิ้งค์ดาวน์โหลด](https://releases.aspose.com/tasks/net/). ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้ไว้เพื่อรวมไลบรารีเข้ากับสภาพแวดล้อมการพัฒนาของคุณ
 
 ### 3. การเข้าถึงเอกสาร
 
@@ -125,4 +125,4 @@ project.Save(DataDir + "CanAddRecurringTask_Years_YearWeekDay_EndByRecurrenceRan
 
 ### คำถามที่ 5: Aspose.Tasks สำหรับ .NET มีเวอร์ชันทดลองใช้งานหรือไม่
 
- ตอบ: ได้ คุณสามารถเข้าถึง Aspose.Tasks for .NET รุ่นทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/)ให้คุณสำรวจฟีเจอร์ต่างๆ ก่อนตัดสินใจซื้อ
+ตอบ: ได้ คุณสามารถเข้าถึง Aspose.Tasks for .NET รุ่นทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/)ให้คุณสำรวจฟีเจอร์ต่างๆ ก่อนตัดสินใจซื้อ

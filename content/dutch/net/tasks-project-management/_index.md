@@ -107,7 +107,7 @@ Leer hoe u gegevens in MS Project-bestanden filtert met Aspose.Tasks voor .NET. 
 ### [Beheer MS-projectfilters efficiënt met Aspose.Tasks](./filter-collection/)
 Leer hoe u filter-MS Project-verzamelingen effectief kunt beheren met Aspose.Tasks voor .NET.
 ### [Beheersing van MS-projectfiltercriteria met Aspose.Tasks](./filter-criteria/)
-Leer hoe u filtercriteria in MS Project kunt implementeren met behulp van Aspose.Tasks voor .NET. Verhoog de efficiëntie van projectmanagement met gerichte data-analyse.
+Leer hoe u filtercriteria in MS Project implementeert met behulp van Aspose.Tasks voor .NET. Verhoog de efficiëntie van projectmanagement met gerichte data-analyse.
 ### [Lettertypemanipulatie in MS Project voor Aspose.Tasks](./font-saving-arguments/)
 Leer hoe u lettertypen in MS Project-bestanden kunt manipuleren met Aspose.Tasks voor .NET. Stapsgewijze handleiding voor ontwikkelaars.
 ### [Gantt-balkstijlen aanpassen met Aspose.Tasks](./gantt-bar-styles/)

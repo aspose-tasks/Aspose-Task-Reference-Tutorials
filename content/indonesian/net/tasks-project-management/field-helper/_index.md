@@ -17,7 +17,7 @@ Sebelum mulai menggunakan Aspose.Tasks untuk .NET, ada beberapa prasyarat yang h
 
 ### 1. Menginstal Aspose.Tasks untuk .NET
 
- Untuk memulai, Anda harus mengunduh dan menginstal Aspose.Tasks untuk .NET. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/tasks/net/), Ikuti petunjuk instalasi yang disediakan untuk menyiapkan perpustakaan di lingkungan pengembangan Anda.
+ Untuk memulai, Anda harus mengunduh dan menginstal Aspose.Tasks untuk .NET. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/tasks/net/). Ikuti petunjuk instalasi yang disediakan untuk menyiapkan perpustakaan di lingkungan pengembangan Anda.
 
 ### 2. Mengimpor Namespace
 

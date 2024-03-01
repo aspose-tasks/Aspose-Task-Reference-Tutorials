@@ -67,7 +67,7 @@ foreach (KeyValuePair<RateType, RateByDateCollection> sortedRates in resource.Ra
 }
 ```
 Bước này in thông tin về tỷ lệ liên quan đến tài nguyên.
-## Bước 5: Cập nhật tỷ lệ
+## Bước 5: Cập nhật tỷ giá
 ```csharp
 var rateToUpdate = resource.Rates[RateType.B][new DateTime(2019, 11, 12, 8, 0, 0)];
 rateToUpdate.RatesTo = new DateTime(2020, 12, 31, 17, 0, 0);

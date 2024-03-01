@@ -9,7 +9,7 @@ url: /sv/net/advanced-concepts/image-saving/
 ---
 ## Introduktion
 
-den här handledningen kommer vi att fördjupa oss i processen att hantera bildsparande i Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt API som gör det möjligt för utvecklare att manipulera Microsoft Project-filer programmatiskt. En vanlig uppgift när man arbetar med projektfiler är behovet av att spara bilder, som kan innehålla diagram, grafer eller andra visuella element. Vi kommer att bryta ner processen steg för steg, för att säkerställa klarhet och förståelse hela tiden.
+I den här handledningen kommer vi att fördjupa oss i processen att hantera bildsparande i Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt API som gör det möjligt för utvecklare att manipulera Microsoft Project-filer programmatiskt. En vanlig uppgift när man arbetar med projektfiler är behovet av att spara bilder, som kan innehålla diagram, grafer eller andra visuella element. Vi kommer att bryta ner processen steg för steg, för att säkerställa klarhet och förståelse hela tiden.
 
 ## Förutsättningar
 

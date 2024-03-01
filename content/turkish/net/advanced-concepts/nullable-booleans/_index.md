@@ -9,7 +9,7 @@ url: /tr/net/advanced-concepts/nullable-booleans/
 ---
 ## giriiş
 
- Bu eğitimde Aspose.Tasks for .NET'te null olabilen boolean'larla çalışmayı derinlemesine inceleyeceğiz. Null yapılabilir boolean'lar, boolean değerleri temsil etmede esneklik sunarak tanımsız olma olasılığına olanak tanır. nasıl kullanılacağını araştıracağız.`NullableBool` sınıf, yapıcıları, özellikleri ve yöntemleri.
+Bu eğitimde Aspose.Tasks for .NET'te null olabilen boolean'larla çalışmayı derinlemesine inceleyeceğiz. Null yapılabilir boolean'lar, boolean değerleri temsil etmede esneklik sunarak tanımsız olma olasılığına olanak tanır. nasıl kullanılacağını araştıracağız.`NullableBool` sınıf, yapıcıları, özellikleri ve yöntemleri.
 
 ## Önkoşullar
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Şimdi her örneği birden fazla adıma ayıralım.
 
-##  ile çalışan`NullableBool`
+##  İle çalışan`NullableBool`
 
 ###  1. Adım: Yeni bir tane oluşturun`Project` instance.
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Adım 6: Dizi gösterimini görüntüleyin`NullableBool` object.
+###  Adım 6: Dizi gösterimini görüntüleyin`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Adım 2: Her biri için karma kodunu yazdırın`NullableBool` object.
+### Adım 2: Her biri için karma kodunu yazdırın`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Çözüm
 
- Bu eğitimde Aspose.Tasks for .NET'te null olabilen booleanların nasıl ele alınacağını araştırdık. kullanarak`NullableBool` sınıfı ve yöntemleri, null olabilme esnekliğiyle boolean değerlerini verimli bir şekilde yönetebilirsiniz.
+ Bu eğitimde Aspose.Tasks for .NET'te null olabilen booleanların nasıl ele alınacağını araştırdık. Kullanarak`NullableBool` sınıfı ve yöntemleri sayesinde, boolean değerlerini null olabilme esnekliğiyle verimli bir şekilde yönetebilirsiniz.
 
 ## SSS'ler
 

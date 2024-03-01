@@ -50,6 +50,6 @@ Ismerje meg, hogyan mentheti a Microsoft Project fájlokat sablonként az Aspose
 ### [MS Project with Spreadsheet 2003 Options for Aspose.Tasks](./spreadsheet-2003-save-options/)
 Master Spreadsheet 2003 MS Project Options mentése az Aspose.Tasks segítségével .NET-hez. Zökkenőmentesen testreszabhatja és mentheti az MS Project fájlokat programozottan.
 ### [Könnyű SVG-generálás az Aspose.Tasks-hoz](./svg-options/)
-Ismerje meg, hogyan használhatja az Aspose.Tasks for .NET-et Microsoft Project-fájlok SVG-reprezentációinak egyszerű létrehozásához a továbbfejlesztett projektvizualizáció érdekében.
+Tanulja meg, hogyan használhatja az Aspose.Tasks for .NET-et Microsoft Project-fájlok SVG-reprezentációinak egyszerű létrehozásához a továbbfejlesztett projektvizualizáció érdekében.
 ### [Konvertálja az MSP-t XPS-beállításokká az Aspose.Tasks segítségével](./xps-options/)
 Ismerje meg, hogyan konvertálhat Microsoft Project fájlokat XPS formátumba az Aspose.Tasks for .NET segítségével. Könnyű integráció, robusztus funkcionalitás.

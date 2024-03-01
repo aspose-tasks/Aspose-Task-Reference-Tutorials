@@ -17,7 +17,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 
 ### 1. Installeer Aspose.Tasks voor .NET
 
- Als u dat nog niet heeft gedaan, download en installeer dan Aspose.Tasks voor .NET vanaf de[downloadpagina](https://releases.aspose.com/tasks/net/), Volg de meegeleverde installatie-instructies om hem correct in te stellen.
+ Als u dat nog niet heeft gedaan, download en installeer dan Aspose.Tasks voor .NET vanaf de[downloadpagina](https://releases.aspose.com/tasks/net/). Volg de meegeleverde installatie-instructies om hem correct in te stellen.
 
 ### 2. Importeer de benodigde naamruimten
 
@@ -39,7 +39,7 @@ Zorg er eerst voor dat u een map hebt ingesteld waarin u uw projectbestanden kun
 String DataDir = "Your Document Directory";
 ```
 
- vervangen`"Your Document Directory"` met het pad naar de gewenste map.
+ Vervangen`"Your Document Directory"` met het pad naar de gewenste map.
 
 ## Stap 2: Laad uw MS-projectbestand
 
@@ -49,7 +49,7 @@ Vervolgens moet u uw MS Project-bestand laden met Aspose.Tasks:
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- vervangen`"ResourceSheetView.mpp"` met de naam van uw MS Project-bestand.
+ Vervangen`"ResourceSheetView.mpp"` met de naam van uw MS Project-bestand.
 
 ## Stap 3: Definieer de opslagopties
 

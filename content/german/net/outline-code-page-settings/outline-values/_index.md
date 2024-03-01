@@ -1,6 +1,6 @@
 ---
 title: Beherrschen der Gliederungswerte von MS Project mit Aspose.Tasks
-linktitle: Gliederungswerte in Aspose.Tasks verwalten
+linktitle: Verwalten von Gliederungswerten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Gliederungswerte mit Aspose.Tasks für .NET effizient verwalten. Passen Sie Projektskizzen ganz einfach an.
 type: docs
@@ -64,15 +64,15 @@ outline2.Values.Add(value2);
 In diesem Schritt erstellen wir zwei OutlineValue-Objekte und legen deren Eigenschaften wie Wert, Wert-ID, Typ, Beschreibung und Reduzierungsstatus fest.
 
 ## Abschluss
-Die Verwaltung von MS Project-Gliederungswerten mit Aspose.Tasks für .NET ist mit den bereitgestellten Funktionen unkompliziert. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie Gliederungscodes und -werte effizient bearbeiten, um Projektgliederungen entsprechend Ihren Anforderungen anzupassen.
+Die Verwaltung von MS Project-Gliederungswerten mit Aspose.Tasks für .NET ist dank der bereitgestellten Funktionalitäten unkompliziert. Indem Sie die in diesem Tutorial beschriebenen Schritte befolgen, können Sie Gliederungscodes und -werte effizient bearbeiten, um Projektgliederungen entsprechend Ihren Anforderungen anzupassen.
 ## FAQs
 ### F: Kann ich Aspose.Tasks mit anderen .NET-Frameworks verwenden?
 A: Ja, Aspose.Tasks ist mit verschiedenen .NET-Frameworks kompatibel und sorgt so für Flexibilität in Ihrer Entwicklungsumgebung.
 ### F: Gibt es eine Testversion für Aspose.Tasks?
  A: Ja, Sie können auf eine kostenlose Testversion von Aspose.Tasks zugreifen[Hier](https://releases.aspose.com/).
 ### F: Wie kann ich Unterstützung für Aspose.Tasks erhalten?
- A: Für Unterstützung und Unterstützung können Sie das Aspose.Tasks-Forum besuchen.[Hier](https://forum.aspose.com/c/tasks/15).
+ A: Für Unterstützung und Unterstützung können Sie das Aspose.Tasks-Forum besuchen[Hier](https://forum.aspose.com/c/tasks/15).
 ### F: Kann ich eine temporäre Lizenz für Aspose.Tasks erwerben?
- A: Ja, Sie können eine temporäre Lizenz für Aspose.Tasks erwerben bei[Hier](https://purchase.aspose.com/temporary-license/).
+A: Ja, Sie können eine temporäre Lizenz für Aspose.Tasks erwerben bei[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wo finde ich eine ausführliche Dokumentation zu Aspose.Tasks?
  A: Sie können auf die umfassende verfügbare Dokumentation zurückgreifen[Hier](https://reference.aspose.com/tasks/net/).

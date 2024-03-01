@@ -11,7 +11,7 @@ url: /id/net/license-management/metering-usage/
 Apakah Anda ingin mengelola dan memantau penggunaan Proyek MS Anda secara efektif dengan Aspose.Tasks? Dengan kekuatan pengukuran, Anda dapat melacak penggunaan dan mengoptimalkan upaya manajemen proyek Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses pengukuran penggunaan MS Project langkah demi langkah menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
 Sebelum kita mendalami pengukuran penggunaan MS Project, pastikan Anda memiliki prasyarat berikut:
-1.  Aspose.Tasks untuk .NET Library: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[Unduh Halaman](https://releases.aspose.com/tasks/net/), Ikuti petunjuk instalasi untuk menyiapkan perpustakaan di lingkungan pengembangan Anda.
+1.  Aspose.Tasks untuk .NET Library: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[Unduh Halaman](https://releases.aspose.com/tasks/net/). Ikuti petunjuk instalasi untuk menyiapkan perpustakaan di lingkungan pengembangan Anda.
 2.  Kunci Publik dan Pribadi: Dapatkan kunci publik dan pribadi Anda dari Aspose. Kunci-kunci ini penting untuk penggunaan pengukuran. Jika Anda belum memiliki kunci, Anda dapat memintanya dari Aspose melalui[izin sementara](https://purchase.aspose.com/temporary-license/) halaman.
 
 ## Impor Namespace
@@ -24,13 +24,13 @@ using System.Net;
 
 ```
 ## Langkah 1: Siapkan Pengukuran
-Untuk mulai mengukur penggunaan MS Project, atur lingkungan terukur dengan memberikan kunci publik dan pribadi Anda:
+Untuk mulai mengukur penggunaan MS Project, atur lingkungan terukur dengan memberikan kunci publik dan privat Anda:
 ```csharp
 String DataDir = "Your Document Directory";
 var metered = new Metered();
 metered.SetMeteredKey("<public key>", "<private key>");
 ```
- mengganti`"Your Document Directory"` dengan jalur ke direktori dokumen Anda, dan gantikan`<public key>` Dan`<private key>` dengan kunci Anda yang sebenarnya diperoleh dari Aspose.
+ Mengganti`"Your Document Directory"` dengan jalur ke direktori dokumen Anda, dan gantikan`<public key>` Dan`<private key>` dengan kunci Anda yang sebenarnya diperoleh dari Aspose.
 ## Langkah 2: Muat File Proyek MS
 Selanjutnya, muat file MS Project Anda menggunakan Aspose.Tasks:
 ```csharp

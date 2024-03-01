@@ -94,7 +94,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 ### Q2: क्या .NET के लिए Aspose.Tasks के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
 
- उ2: हाँ, आप .NET के लिए Aspose.Tasks का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
+उ2: हाँ, आप .NET के लिए Aspose.Tasks का निःशुल्क परीक्षण प्राप्त कर सकते हैं[यहाँ](https://releases.aspose.com/).
 
 ### Q3: मुझे .NET के लिए Aspose.Tasks के लिए दस्तावेज़ कहाँ मिल सकते हैं?
 

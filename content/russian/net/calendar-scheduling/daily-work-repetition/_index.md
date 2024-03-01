@@ -36,7 +36,7 @@ using System.Diagnostics.CodeAnalysis;
 
 ## Шаг 1. Загрузите файл проекта
 
- Сначала загрузите файл проекта, используя`Project` сорт:
+Сначала загрузите файл проекта, используя`Project` сорт:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

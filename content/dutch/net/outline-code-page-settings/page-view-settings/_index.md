@@ -1,6 +1,6 @@
 ---
 title: Pas de MS Project-paginaweergave-instellingen aan in Aspose.Tasks
-linktitle: Configureer paginaweergave-instellingen in Aspose.Tasks
+linktitle: Instellingen voor paginaweergave configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u de instellingen voor paginaweergave in Aspose.Tasks voor .NET configureert om het afdrukformaat van uw Microsoft Project-documenten aan te passen.
 type: docs
@@ -75,4 +75,4 @@ A: Ja, u kunt de paginaweergave-instellingen afzonderlijk aanpassen voor elk pro
 ### Vraag: Is Aspose.Tasks compatibel met alle versies van Microsoft Project?
 A: Aspose.Tasks biedt compatibiliteit met Microsoft Project 2003 en latere versies.
 ### Vraag: Waar kan ik verdere hulp of ondersteuning vinden voor Aspose.Tasks?
- A: U kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15)voor eventuele vragen of problemen die u tegenkomt tijdens het gebruik.
+ A: U kunt een bezoek brengen aan de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor eventuele vragen of problemen die u tegenkomt tijdens het gebruik.

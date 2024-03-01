@@ -21,9 +21,9 @@ Lär dig hur du enkelt formaterar MS Project-presentationer med Aspose.Tasks fö
 ## Läsa MS Project Primavera-data med Aspose.Tasks
  Lås upp möjligheten att läsa MS Project Primavera-data med Aspose.Tasks för .NET. Vår handledning[här](./primavera-data-reading/) guidar dig genom processen med kodexempel, vilket gör datahämtning till en lek.
 
-Resan slutar inte här; Utforska en myriad av handledningar som täcker allt från att hantera förloppsrader och bemästra projektdata till att konfigurera visningsalternativ och hantera MS Project Server sömlöst. Dyk in i Aspose.Tasks för .NET-handledningarna för att låsa upp den fulla potentialen hos dina projektledningsfunktioner.
+Resan slutar inte här; utforska en myriad av självstudiekurser som täcker allt från att hantera förloppsrader och bemästra projektdata till att konfigurera visningsalternativ och hantera MS Project Server sömlöst. Dyk in i Aspose.Tasks för .NET-handledningarna för att låsa upp den fulla potentialen hos dina projektledningsfunktioner.
 
- Är du redo att anpassa MS Project-vyer, hantera serverreferenser och extrahera projektinformation utan ansträngning? Följ våra guider på[Anpassa MS Project Views](./project-views/), [Hantera MS Project Server-uppgifter](./project-server-credentials/) ,och[Extrahera MS Project Information](./project-information/) för djupgående insikter.
+ Är du redo att anpassa MS Project-vyer, hantera serverreferenser och extrahera projektinformation utan ansträngning? Följ våra guider på[Anpassa MS Project Views](./project-views/), [Hantera MS Project Server-uppgifter](./project-server-credentials/) , och[Extrahera MS Project Information](./project-information/) för djupgående insikter.
 
  Hantera MS Project Online-undantag sömlöst, automatisera projektuppgifter och förbättra effektiviteten i projekthanteringen med handledningar om[Hantera undantag för MS Project Online](./project-online-exceptions/) och[Hantera MS Project Server med Aspose.Tasks](./project-server-management/).
 

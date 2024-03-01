@@ -11,7 +11,7 @@ url: /pl/net/resource-risk-analysis/resource-assignment-collection/
 Witamy w tym kompleksowym samouczku na temat zarządzania przypisaniami zasobów w programie Microsoft Project przy użyciu Aspose.Tasks dla .NET. W tym samouczku omówimy ten proces krok po kroku, upewniając się, że dobrze rozumiesz, jak efektywnie manipulować przydziałami zasobów. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten przewodnik przeprowadzi Cię przez wszystko, co musisz wiedzieć.
 ## Warunki wstępne
 Zanim zagłębimy się w kod, upewnij się, że masz następującą konfigurację:
-1. Zainstalowany Aspose.Tasks dla .NET: Upewnij się, że masz zainstalowany Aspose.Tasks dla .NET w swoim środowisku programistycznym. Jeśli nie, możesz go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
+1.  Zainstalowany Aspose.Tasks dla .NET: Upewnij się, że masz zainstalowany Aspose.Tasks dla .NET w swoim środowisku programistycznym. Jeśli nie, możesz go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
 2. Podstawowa znajomość języka C#: W tym samouczku założono, że masz podstawową wiedzę na temat języka programowania C#.
 3. Plik programu Microsoft Project: przygotuj plik programu Microsoft Project do celów testowych. Jeśli go nie masz, możesz utworzyć przykładowy plik.
 

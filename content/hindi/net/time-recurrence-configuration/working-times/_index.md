@@ -1,6 +1,6 @@
 ---
-title: Aspose में कार्य समय को कॉन्फ़िगर करना। कार्य
-linktitle: Aspose में कार्य समय को कॉन्फ़िगर करना। कार्य
+title: Aspose.Tasks में कार्य समय को कॉन्फ़िगर करना
+linktitle: Aspose.Tasks में कार्य समय को कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks के साथ .NET में प्रोजेक्ट शेड्यूलिंग बढ़ाएँ। सटीक संसाधन प्रबंधन के लिए कार्य समय को सहजता से कॉन्फ़िगर करें। अभी लाइब्रेरी डाउनलोड करें!
 type: docs
@@ -12,10 +12,10 @@ url: /hi/net/time-recurrence-configuration/working-times/
 ## आवश्यक शर्तें
 ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - C# प्रोग्रामिंग भाषा की बुनियादी समझ।
-- .NET लाइब्रेरी के लिए Aspose.Tasks स्थापित। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/).
+-  .NET लाइब्रेरी के लिए Aspose.Tasks स्थापित। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/).
 - विज़ुअल स्टूडियो या कोई पसंदीदा C# विकास वातावरण स्थापित करें।
 ## नामस्थान आयात करें
-Aspose तक पहुँचने के लिए आवश्यक नामस्थान आयात करके प्रारंभ करें। कार्य कार्यक्षमताएँ:
+Aspose.Tasks कार्यात्मकताओं तक पहुँचने के लिए आवश्यक नामस्थान आयात करके प्रारंभ करें:
 ```csharp
     using Aspose.Tasks;
     using System;
@@ -29,7 +29,7 @@ var project = new Project();
 var calendar = CreateCalendar(project);
 project.Set(Prj.Calendar, calendar);
 ```
-यहां, हम एक नया प्रोजेक्ट शुरू करते हैं और मानक कैलेंडर के आधार पर "माईकैलेंडर" नामक एक कैलेंडर बनाते हैं। इस कैलेंडर का उपयोग विशिष्ट कार्य समय को परिभाषित करने के लिए किया जाएगा।
+यहां, हम एक नया प्रोजेक्ट शुरू करते हैं और मानक कैलेंडर के आधार पर "MyCalendar" नामक एक कैलेंडर बनाते हैं। इस कैलेंडर का उपयोग विशिष्ट कार्य समय को परिभाषित करने के लिए किया जाएगा।
 
 ```csharp
         public static Calendar CreateCalendar(Project project)

@@ -1,6 +1,6 @@
 ---
 title: Opanowywanie widoków projektów Microsoft za pomocą Aspose.Tasks
-linktitle: Skonfiguruj widoki w Aspose.Tasks
+linktitle: Konfigurowanie widoków w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Opanuj widoki Microsoft Project za pomocą Aspose.Tasks dla .NET. Dostosuj i usprawnij zarządzanie projektami bez wysiłku.
 type: docs
@@ -8,7 +8,7 @@ weight: 10
 url: /pl/net/view-wbs-code-configuration/configuring-views/
 ---
 ## Wstęp
-dynamicznym świecie zarządzania projektami dostosowywanie widoków w programie Microsoft Project może znacząco usprawnić przepływ pracy. Aspose.Tasks dla .NET zapewnia potężny zestaw narzędzi do płynnego manipulowania i konfigurowania widoków projektu. W tym samouczku zagłębimy się w etapy konfigurowania widoków za pomocą Aspose.Tasks dla .NET, pomagając Ci usprawnić wizualizację projektu.
+W dynamicznym świecie zarządzania projektami dostosowywanie widoków w programie Microsoft Project może znacząco usprawnić przepływ pracy. Aspose.Tasks dla .NET zapewnia potężny zestaw narzędzi do płynnego manipulowania i konfigurowania widoków projektu. W tym samouczku zagłębimy się w etapy konfigurowania widoków za pomocą Aspose.Tasks dla .NET, pomagając Ci usprawnić wizualizację projektu.
 ## Warunki wstępne
 Zanim wyruszymy w tę podróż, upewnijmy się, że spełniliśmy następujące wymagania wstępne:
 -  Aspose.Tasks dla biblioteki .NET: Pobierz i zainstaluj bibliotekę z[Tutaj](https://releases.aspose.com/tasks/net/).
@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Zaznacz filtr dla pojedynczego widoku
 ## Krok 4: Dostosuj ustawienia widoku
 ```csharp
 // Dostosuj niektóre ustawienia widoku
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Ustaw liczbę pierwszych kolumn drukowanych na wszystkich stronach
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Ustaw liczbę pierwszych kolumn drukowanych na wszystkich stronach
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Wydrukuj określoną liczbę pierwszych kolumn na wszystkich stronach
 ```
 ## Krok 5: Dodaj widok do projektu
 ```csharp
-//Dodaj widok do naszego projektu
+// Dodaj widok do naszego projektu
 project.Views.Add(view);
 ```
 ## Krok 6: Zapisz projekt z nowym widokiem
@@ -73,8 +73,8 @@ Aspose.Tasks jest przeznaczony przede wszystkim dla Microsoft Project, zapewniaj
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla .NET?
  Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać wsparcie dla Aspose.Tasks dla .NET?
- odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o wsparcie społeczności lub rozważ zakup planów wsparcia.
+ Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o wsparcie społeczności lub rozważ zakup planów wsparcia.
 ### Czy mogę bardziej dostosować wygląd widoków?
- Koniecznie zajrzyj do dokumentacji Aspose.Tasks[Tutaj](https://reference.aspose.com/tasks/net/)dla zaawansowanych opcji dostosowywania.
+ Koniecznie zajrzyj do dokumentacji Aspose.Tasks[Tutaj](https://reference.aspose.com/tasks/net/) dla zaawansowanych opcji dostosowywania.
 ### Gdzie mogę kupić Aspose.Tasks dla .NET?
  Można kupić bibliotekę[Tutaj](https://purchase.aspose.com/buy) dla bezproblemowego zarządzania projektami.

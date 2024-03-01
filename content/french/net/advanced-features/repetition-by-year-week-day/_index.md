@@ -9,7 +9,7 @@ url: /fr/net/advanced-features/repetition-by-year-week-day/
 ---
 ## Introduction
 
-Dans le domaine de la gestion de projet, l’efficacité et la précision sont primordiales. Aspose.Tasks for .NET apparaît comme un outil puissant, offrant une multitude de fonctionnalités pour rationaliser la gestion des projets. Parmi son arsenal figure la capacité de gérer des tâches récurrentes avec une flexibilité remarquable. L'une de ces fonctionnalités est la fonctionnalité « Répétition par année, semaine, jour », permettant aux utilisateurs de configurer des tâches qui se répètent certains jours de la semaine, au cours de mois désignés et sur plusieurs années.
+Dans le domaine de la gestion de projet, l’efficacité et la précision sont primordiales. Aspose.Tasks for .NET apparaît comme un outil puissant, offrant une multitude de fonctionnalités pour rationaliser la gestion des projets. Parmi son arsenal figure la capacité de gérer des tâches récurrentes avec une flexibilité remarquable. L'une de ces fonctionnalités est la fonctionnalité « Répétition par année, semaine et jour », permettant aux utilisateurs de configurer des tâches qui se répètent certains jours de la semaine, au cours de mois désignés et sur plusieurs années.
 
 ## Conditions préalables
 
@@ -21,7 +21,7 @@ Familiarisez-vous avec les bases du .NET Framework, y compris les concepts de pr
 
 ### 2. Installation d'Aspose.Tasks pour .NET
 
- Téléchargez et installez la bibliothèque Aspose.Tasks for .NET à partir du[lien de téléchargement](https://releases.aspose.com/tasks/net/)Suivez les instructions d'installation fournies pour intégrer la bibliothèque dans votre environnement de développement.
+ Téléchargez et installez la bibliothèque Aspose.Tasks for .NET à partir du[lien de téléchargement](https://releases.aspose.com/tasks/net/). Suivez les instructions d'installation fournies pour intégrer la bibliothèque dans votre environnement de développement.
 
 ### 3. Accès à la documentation
 
@@ -81,7 +81,7 @@ var parameters = new RecurringTaskParameters
 
 Ce segment de code initialise un nouveau projet et spécifie les paramètres d'une tâche récurrente. Il définit le nom de la tâche, sa durée et définit le modèle de récurrence.
 
-## Étape 2 : Ajouter des paramètres au projet
+## Étape 2 : ajouter des paramètres au projet
 
 Ensuite, ajoutez les paramètres définis au projet.
 
@@ -125,4 +125,4 @@ R : Oui, Aspose.Tasks for .NET prend en charge les solutions de gestion de proje
 
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour .NET ?
 
- R : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/), vous permettant d'explorer ses fonctionnalités avant de prendre une décision d'achat.
+ : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/), vous permettant d'explorer ses fonctionnalités avant de prendre une décision d'achat.

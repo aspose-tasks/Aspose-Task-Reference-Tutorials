@@ -12,7 +12,7 @@ Aspose.Tasks för .NET är ett kraftfullt bibliotek som underlättar projektledn
 ## Förutsättningar
 Innan vi börjar, se till att du har följande inställning:
 - Har praktiska kunskaper i programmeringsspråket C#.
-- Aspose.Tasks för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
 - En integrerad utvecklingsmiljö (IDE) som Visual Studio.
 ## Importera namnområden
 Se först till att du har de nödvändiga namnrymden importerade i början av din C#-fil:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // iterera över tabellfält
+    //iterera över tabellfält
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -72,7 +72,7 @@ Redigera det nyligen tillagda tabellfältet med hjälp av indexåtkomst.
 table.TableFields[idx].WrapHeader = true;
 ```
 ## Steg 7: Ta bort fältet
-Ta bort tabellfälten antingen ett i taget eller rensa hela samlingen.
+Ta bort tabellfältet antingen ett i taget eller rensa hela samlingen.
 ```csharp
 Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
 // Ta bort fältet
@@ -108,6 +108,6 @@ Absolut! Som visas i handledningen kan du lägga till, infoga, redigera och ta b
 ### Finns det några licensöverväganden för att använda Aspose.Tasks för .NET i ett kommersiellt projekt?
  Ja, du behöver en giltig licens för att använda Aspose.Tasks för .NET i ett kommersiellt projekt. Du kan få en licens[här](https://purchase.aspose.com/buy).
 ### Hur kan jag få support eller söka hjälp med Aspose.Tasks för .NET?
- besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) att få stöd, ställa frågor och samarbeta med samhället.
+ Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)att få stöd, ställa frågor och samarbeta med samhället.
 ### Finns det en gratis testversion tillgänglig för Aspose.Tasks för .NET?
  Ja, du kan utforska funktionerna i Aspose.Tasks för .NET med en gratis provperiod. Ladda ner det[här](https://releases.aspose.com/).

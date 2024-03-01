@@ -32,7 +32,7 @@ Untuk memulai, impor namespace yang diperlukan ke proyek C# Anda:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
+ Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke direktori dokumen Anda.
 ## Langkah 2: Buat Instans Proyek Baru
 ```csharp
 var project = new Project();
@@ -61,4 +61,4 @@ J: Tentu saja, Aspose.Tasks untuk .NET menawarkan fungsionalitas ekstensif untuk
 ### T: Apakah Aspose.Tasks untuk .NET mendukung ekspor data proyek ke format selain XML?
 J: Ya, Aspose.Tasks untuk .NET mendukung ekspor data proyek ke berbagai format, antara lain MPP, PDF, XLSX, dan HTML.
 ### T: Di mana saya dapat menemukan bantuan atau dukungan lebih lanjut untuk Aspose.Tasks untuk .NET?
-A: Untuk bantuan atau dukungan lebih lanjut, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) atau rujuk ke[dokumentasi](https://reference.aspose.com/tasks/net/) disediakan oleh Aspose.
+ A: Untuk bantuan atau dukungan lebih lanjut, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) atau rujuk ke[dokumentasi](https://reference.aspose.com/tasks/net/) disediakan oleh Aspose.

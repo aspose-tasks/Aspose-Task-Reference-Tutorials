@@ -14,7 +14,7 @@ Apakah Anda siap untuk meningkatkan keterampilan Aspose.Tasks untuk .NET Anda ke
 
 ## Menangani Penyimpanan Gambar di Aspose.Tasks
 
-Pelajari seni menangani penyimpanan gambar di Aspose.Tasks untuk .NET dengan panduan langkah demi langkah kami. Integrasikan fungsionalitas penyimpanan gambar dengan mulus ke dalam aplikasi .NET Anda, sehingga meningkatkan representasi visual data proyek Anda.[Baca selengkapnya](./image-saving/)
+ Pelajari seni menangani penyimpanan gambar di Aspose.Tasks untuk .NET dengan panduan langkah demi langkah kami. Integrasikan fungsionalitas penyimpanan gambar dengan mulus ke dalam aplikasi .NET Anda, sehingga meningkatkan representasi visual data proyek Anda.[Baca selengkapnya](./image-saving/)
 
 ## Menangani Pengecualian Kata Sandi Tidak Valid di Aspose.Tasks
 
@@ -22,11 +22,11 @@ Pelajari seni menangani penyimpanan gambar di Aspose.Tasks untuk .NET dengan pan
 
 ## Menerapkan Panggilan Balik Penyimpanan Halaman di Aspose.Tasks
 
- Buka potensi penanganan yang disesuaikan untuk aliran keluaran dokumen multi-halaman. Pelajari cara menerapkan panggilan balik penyimpanan halaman di Aspose.Tasks untuk .NET, yang memberi Anda kontrol atas presentasi data proyek Anda.[Baca selengkapnya](./page-saving-callback/)
+Buka potensi penanganan yang disesuaikan untuk aliran keluaran dokumen multi-halaman. Pelajari cara menerapkan panggilan balik penyimpanan halaman di Aspose.Tasks untuk .NET, yang memberi Anda kontrol atas presentasi data proyek Anda.[Baca selengkapnya](./page-saving-callback/)
 
 ## Menggunakan Algoritma Pohon di Aspose.Tasks
 
-Memanipulasi hierarki tugas secara efektif di proyek .NET Anda menggunakan Algoritma Pohon Aspose.Tasks. Tutorial ini memberdayakan Anda untuk mengoptimalkan struktur proyek, memastikan alur kerja yang lancar dan terorganisir.[Baca selengkapnya](./tree-algorithm/)
+ Memanipulasi hierarki tugas secara efektif di proyek .NET Anda menggunakan Algoritma Pohon Aspose.Tasks. Tutorial ini memberdayakan Anda untuk mengoptimalkan struktur proyek, memastikan alur kerja yang lancar dan terorganisir.[Baca selengkapnya](./tree-algorithm/)
 
 ## Menampilkan Label di Aspose.Tasks
 
@@ -38,11 +38,11 @@ Memanipulasi hierarki tugas secara efektif di proyek .NET Anda menggunakan Algor
 
 ## Menangani Pola Pengulangan Bulanan di Aspose.Tasks
 
- Kuasai seni menangani pola pengulangan bulanan di Aspose.Tasks untuk .NET. Tutorial ini memberikan panduan langkah demi langkah untuk mengelola tugas berulang dalam proyek Anda secara efisien.[Baca selengkapnya](./monthly-recurrence-patterns/)
+Kuasai seni menangani pola pengulangan bulanan di Aspose.Tasks untuk .NET. Tutorial ini memberikan panduan langkah demi langkah untuk mengelola tugas berulang dalam proyek Anda secara efisien.[Baca selengkapnya](./monthly-recurrence-patterns/)
 
 ## Pengaturan untuk Microsoft Project Database di Aspose.Tasks
 
-Konfigurasikan pengaturan database Microsoft Project secara lancar dengan Aspose.Tasks untuk .NET. Integrasikan data proyek ke dalam aplikasi .NET Anda dengan mudah, optimalkan kemampuan manajemen proyek Anda.[Baca selengkapnya](./msp-database-settings/)
+ Konfigurasikan pengaturan database Microsoft Project secara lancar dengan Aspose.Tasks untuk .NET. Integrasikan data proyek ke dalam aplikasi .NET Anda dengan mudah, optimalkan kemampuan manajemen proyek Anda.[Baca selengkapnya](./msp-database-settings/)
 
 ## Bekerja dengan Operasi NOT di Aspose.Tasks
 
@@ -54,11 +54,11 @@ Konfigurasikan pengaturan database Microsoft Project secara lancar dengan Aspose
 
 ## Bekerja dengan Objek OLE di Aspose.Tasks
 
- Bekerja secara efisien dengan objek OLE dalam aplikasi .NET menggunakan Aspose.Tasks. Tingkatkan kemampuan manajemen proyek Anda dengan menguasai penanganan objek OLE, menambahkan dimensi baru ke dokumen proyek Anda.[Baca selengkapnya](./ole-objects/)
+Bekerja secara efisien dengan objek OLE dalam aplikasi .NET menggunakan Aspose.Tasks. Tingkatkan kemampuan manajemen proyek Anda dengan menguasai penanganan objek OLE, menambahkan dimensi baru ke dokumen proyek Anda.[Baca selengkapnya](./ole-objects/)
 
 ## Kumpulan Objek OLE di Aspose.Tasks
 
-Kelola objek OLE di Aspose.Tasks untuk .NET dengan tutorial komprehensif ini. Dapatkan keahlian dalam menangani file yang tertanam dalam dokumen proyek, memastikan integrasi objek OLE ke dalam proyek Anda.[Baca selengkapnya](./ole-object-collection/)
+ Kelola objek OLE di Aspose.Tasks untuk .NET dengan tutorial komprehensif ini. Dapatkan keahlian dalam menangani file yang tertanam dalam dokumen proyek, memastikan integrasi objek OLE ke dalam proyek Anda.[Baca selengkapnya](./ole-object-collection/)
 ## Tutorial Konsep Tingkat Lanjut
 ### [Menangani Penyimpanan Gambar di Aspose.Tasks](./image-saving/)
 Pelajari cara menangani penyimpanan gambar di Aspose.Tasks untuk .NET menggunakan panduan langkah demi langkah. Integrasikan fungsionalitas penyimpanan gambar dengan mulus ke dalam aplikasi .NET Anda.

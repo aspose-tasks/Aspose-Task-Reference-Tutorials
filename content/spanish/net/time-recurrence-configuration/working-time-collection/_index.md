@@ -68,7 +68,7 @@ var sundayWorkingTimes = new List<WorkingTime>
 };
 var sunday = new WeekDay(DayType.Sunday, sundayWorkingTimes);
 ```
-## Paso 6: Imprima los períodos laborales dominicales
+## Paso 6: Imprima los períodos laborales del domingo
 Imprimir los horarios de trabajo configurados para el domingo:
 ```csharp
 List<WorkingTime> workingTimes = sunday.WorkingTimes.ToList();

@@ -85,7 +85,7 @@ foreach (var weekDay in weekDaysArray)
 ## 결론
 이 튜토리얼에서는 프로젝트 달력 내에서 평일을 관리하는 데 있어 Aspose.Tasks for .NET의 강력한 기능을 살펴보았습니다. 근무일 사용자 정의부터 전문적인 24시간 달력 생성에 이르기까지 Aspose.Tasks는 프로세스를 단순화하고 프로젝트 관리에 유연성과 제어 기능을 제공합니다.
 ## 자주 묻는 질문
-### Q: Aspose.Tasks for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있나요?
+### Q: Aspose.Tasks for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있습니까?
 A: Aspose.Tasks는 주로 .NET 언어를 지원하지만 Java용 버전도 제공합니다.
 ### Q: Aspose.Tasks for .NET에 사용할 수 있는 무료 평가판이 있나요?
  A: 예, 다음 사이트에서 무료 평가판을 다운로드할 수 있습니다.[Aspose.Tasks 릴리스 페이지](https://releases.aspose.com/).

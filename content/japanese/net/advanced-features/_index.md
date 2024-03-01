@@ -85,7 +85,7 @@ Aspose.Tasks を使用して .NET アプリケーションでプロジェクト�
 Aspose.Tasks を使用して .NET プロジェクトの繰り返しタスクを管理する方法を学びます。月日ごとの繰り返しを処理するためのステップバイステップのガイド。
 ### [Aspose.Tasks での月週日による繰り返し](./repetition-by-month-week-day/)
 Aspose.Tasks for .NET で月、週、日ごとに繰り返しを設定し、定期的なタスクを効率的に自動化する方法を学びます。
-### [Aspose.Tasks での年日ごとの繰り返し](./repetition-by-year-day/)
+### [Aspose.Tasks での年日別の繰り返し](./repetition-by-year-day/)
 Aspose.Tasks for .NET で年日の繰り返しを処理し、定期的なタスク管理を効率的に合理化する方法を学びます。
 ### [Aspose.Tasks での年週日による繰り返し](./repetition-by-year-week-day/)
 定期的なタスクを効率的に管理する際の Aspose.Tasks for .NET の機能を試してください。年・曜日による繰り返し機能を実装するためのステップバイステップのガイド。

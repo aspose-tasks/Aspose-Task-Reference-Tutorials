@@ -12,7 +12,7 @@ Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách thu thập các ph
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 1. Cài đặt Aspose.Tasks cho .NET: Đảm bảo bạn đã cài đặt Aspose.Tasks cho .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
-2. Kiến thức cơ bản về C#: Làm quen với ngôn ngữ lập trình C# sẽ có ích vì chúng ta sẽ viết các đoạn mã bằng C#.
+2. Kiến thức cơ bản về C#: Làm quen với ngôn ngữ lập trình C# sẽ có ích vì chúng ta sẽ viết các đoạn mã trong C#.
 
 ## Nhập không gian tên
 Trong dự án C# của bạn, hãy bao gồm các không gian tên cần thiết:
@@ -63,6 +63,6 @@ Trả lời: Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của tệp
 ### Hỏi: Có phiên bản dùng thử nào dành cho mục đích thử nghiệm không?
  Đ: Có, bạn có thể tải phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/) để đánh giá.
 ### Hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho các dự án của mình?
- Đáp: Giấy phép tạm thời có thể được lấy từ[đây](https://purchase.aspose.com/temporary-license/) để sử dụng ngắn hạn.
+ Đáp: Giấy phép tạm thời có thể được lấy từ[đây](https://purchase.aspose.com/temporary-license/) để sử dụng trong thời gian ngắn.
 ### Câu hỏi: Tôi có thể tìm kiếm trợ giúp hoặc hỗ trợ về Aspose.Tasks ở đâu?
- Trả lời: Bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) để tìm kiếm sự hỗ trợ từ cộng đồng hoặc nhóm hỗ trợ Aspose.
+ Trả lời: Bạn có thể truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15)để tìm kiếm sự hỗ trợ từ cộng đồng hoặc nhóm hỗ trợ Aspose.

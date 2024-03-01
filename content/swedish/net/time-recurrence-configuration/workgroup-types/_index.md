@@ -41,7 +41,7 @@ Ja, Aspose.Tasks stöder .NET Core tillsammans med det traditionella .NET Framew
 ### Kan jag ställa in flera arbetsgruppstyper för en enskild resurs?
 Ja, du kan ställa in olika arbetsgruppstyper för en resurs i olika skeden av ditt projekt.
 ### Var kan jag hitta ytterligare support för Aspose.Tasks?
- besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och diskussioner.
+ Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och diskussioner.
 ### Finns det en gratis testversion tillgänglig för Aspose.Tasks?
  Ja, du kan få tillgång till en gratis provperiod från[här](https://releases.aspose.com/).
 ### Hur kan jag få en tillfällig licens för Aspose.Tasks?

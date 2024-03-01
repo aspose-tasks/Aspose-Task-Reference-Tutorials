@@ -98,4 +98,4 @@ C: Evet, Aspose.Tasks çoklu iş parçacığını destekleyerek performansı art
 
 ### S: Aspose.Tasks kullanıcıları için teknik destek mevcut mu?
 
- C: Evet, Aspose.Tasks kullanıcıları teknik desteğe forum aracılığıyla erişebilirler.[Burada](https://forum.aspose.com/c/tasks/15).
+ C: Evet, Aspose.Tasks kullanıcıları teknik desteğe forum aracılığıyla erişebilirler[Burada](https://forum.aspose.com/c/tasks/15).

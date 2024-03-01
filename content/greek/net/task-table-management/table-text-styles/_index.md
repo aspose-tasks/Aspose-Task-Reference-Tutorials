@@ -11,7 +11,7 @@ url: /el/net/task-table-management/table-text-styles/
 Στον κόσμο της διαχείρισης έργων, η αποτελεσματική απεικόνιση των εργασιών είναι ζωτικής σημασίας για την επιτυχία. Το Aspose.Tasks για .NET παρέχει μια ισχυρή λύση για την προσαρμογή στυλ κειμένου πίνακα, επιτρέποντάς σας να προσαρμόσετε την εμφάνιση των στοιχείων κειμένου στο έργο σας. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία διαμόρφωσης στυλ κειμένου πίνακα χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
 Πριν βουτήξετε στο σεμινάριο, βεβαιωθείτε ότι έχετε τα εξής:
--  Aspose.Tasks για .NET: Βεβαιωθείτε ότι έχετε εγκατεστημένη την πιο πρόσφατη έκδοση του Aspose.Tasks για .NET. Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks για .NET: Βεβαιωθείτε ότι έχετε εγκατεστημένη την πιο πρόσφατη έκδοση του Aspose.Tasks για .NET. Μπορείτε να το κατεβάσετε[εδώ](https://releases.aspose.com/tasks/net/).
 - Κατάλογος εγγράφων: Ρυθμίστε έναν κατάλογο για τα έγγραφά σας. Αντικαταστήστε τον "Ο Κατάλογος Εγγράφων σας" στον κώδικα με την πραγματική διαδρομή.
 -  Valid Aspose License: Αυτό το παράδειγμα απαιτεί μια έγκυρη άδεια Aspose. Μπορείτε να αγοράσετε μια πλήρη άδεια[εδώ](https://purchase.aspose.com/buy) ή αποκτήστε προσωρινή άδεια 30 ημερών[εδώ](https://purchase.aspose.com/temporary-license/).
 ## Εισαγωγή χώρων ονομάτων
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## συμπέρασμα

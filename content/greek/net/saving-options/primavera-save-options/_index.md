@@ -24,7 +24,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## Βήμα 1: Φορτώστε το αρχείο MS Project
-Ξεκινήστε φορτώνοντας το αρχείο MS Project με το οποίο σκοπεύετε να εργαστείτε στην εφαρμογή σας C#. Μπορείτε να το κάνετε αυτό χρησιμοποιώντας το`Project` τάξη που παρέχεται από το Aspose.Tasks.
+ Ξεκινήστε φορτώνοντας το αρχείο MS Project με το οποίο σκοπεύετε να εργαστείτε στην εφαρμογή σας C#. Μπορείτε να το κάνετε αυτό χρησιμοποιώντας το`Project` τάξη που παρέχεται από το Aspose.Tasks.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -58,4 +58,4 @@ project.Save(DataDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
 ### Ε: Μπορώ να δοκιμάσω το Aspose.Tasks δωρεάν πριν κάνω μια αγορά;
  Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής του Aspose.Tasks από[εδώ](https://releases.aspose.com/) για να εξερευνήσετε τα χαρακτηριστικά και τις δυνατότητές του.
 ### Ε: Πού μπορώ να λάβω υποστήριξη εάν αντιμετωπίσω προβλήματα ή έχω ερωτήσεις κατά τη χρήση του Aspose.Tasks;
-Α: Μπορείτε να ζητήσετε βοήθεια από την κοινότητα Aspose.Tasks και την ομάδα υποστήριξης στο[δικαστήριο](https://forum.aspose.com/c/tasks/15).
+ Α: Μπορείτε να ζητήσετε βοήθεια από την κοινότητα Aspose.Tasks και την ομάδα υποστήριξης στο[δικαστήριο](https://forum.aspose.com/c/tasks/15).

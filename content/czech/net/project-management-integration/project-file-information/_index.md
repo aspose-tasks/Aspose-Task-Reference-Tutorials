@@ -31,12 +31,12 @@ Nyní si rozeberme poskytnutý příklad kódu do několika kroků:
 // Cesta k adresáři dokumentů.
 string dataDir = "Your Document Directory";
 ```
- nahradit`"Your Document Directory"` s cestou k vašemu adresáři obsahujícímu soubor MS Project.
+ Nahradit`"Your Document Directory"` s cestou k vašemu adresáři obsahujícímu soubor MS Project.
 ## Krok 3: Načtěte informace o souboru projektu
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Tento řádek kódu načte informace o zadaném souboru projektu. nahradit`"Project.xml"` s názvem vašeho souboru MS Project.
+ Tento řádek kódu načte informace o zadaném souboru projektu. Nahradit`"Project.xml"` s názvem vašeho souboru MS Project.
 ## Krok 4: Zobrazte informace o projektu
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);
@@ -46,7 +46,7 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 Tyto řádky kódu zobrazují různé informace o souboru MS Project, jako je jeho čitelnost, informace o aplikaci a formát souboru.
 
 ## Závěr
-V tomto tutoriálu jsme se naučili, jak získat informace o souborech Microsoft Project pomocí Aspose.Tasks for .NET. Pomocí těchto jednoduchých kroků můžete tuto funkci bez problémů integrovat do svých aplikací .NET, což vám umožní efektivně pracovat se soubory MS Project.
+tomto tutoriálu jsme se naučili, jak získat informace o souborech Microsoft Project pomocí Aspose.Tasks for .NET. Pomocí těchto jednoduchých kroků můžete tuto funkci bez problémů integrovat do svých aplikací .NET, což vám umožní efektivně pracovat se soubory MS Project.
 ## FAQ
 ### Dokáže Aspose.Tasks zpracovat různé verze souborů Microsoft Project?
 Ano, Aspose.Tasks podporuje různé verze souborů Microsoft Project, včetně formátů MPP a XML.

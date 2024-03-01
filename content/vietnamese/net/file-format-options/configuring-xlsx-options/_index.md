@@ -2,7 +2,7 @@
 title: Định cấu hình tùy chọn MS Project XLSX trong Aspose.Tasks cho .NET
 linktitle: Định cấu hình tùy chọn XLSX trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách định cấu hình các tùy chọn MS Project XLSX trong Aspose.Tasks cho .NET. Tùy chỉnh cột, mã hóa và dễ dàng hơn.
+description: Tìm hiểu cách định cấu hình các tùy chọn MS Project XLSX trong Aspose.Tasks cho .NET. Tùy chỉnh các cột, mã hóa và dễ dàng hơn.
 type: docs
 weight: 11
 url: /vi/net/file-format-options/configuring-xlsx-options/

@@ -94,7 +94,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan dolgozhatunk a rendelkezésre áll�
 
 ### 2. kérdés: Elérhető ingyenes próbaverzió az Aspose.Tasks for .NET számára?
 
- 2. válasz: Igen, beszerezheti az Aspose.Tasks ingyenes próbaverzióját .NET-hez[itt](https://releases.aspose.com/).
+2. válasz: Igen, beszerezheti az Aspose.Tasks ingyenes próbaverzióját .NET-hez[itt](https://releases.aspose.com/).
 
 ### 3. kérdés: Hol találom az Aspose.Tasks for .NET dokumentációját?
 
@@ -102,7 +102,7 @@ Ebben az oktatóanyagban megtanultuk, hogyan dolgozhatunk a rendelkezésre áll�
 
 ### 4. kérdés: Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
 
- V4: Támogatást kaphat a közösségi fórumon.[itt](https://forum.aspose.com/c/tasks/15).
+ V4: Támogatást kaphat a közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
 
 ### 5. kérdés: Kínál ideiglenes licenceket az Aspose.Tasks for .NET számára?
 

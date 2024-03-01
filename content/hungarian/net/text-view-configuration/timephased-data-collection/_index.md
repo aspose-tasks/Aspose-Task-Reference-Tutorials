@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Hozzárendelés tulajdonságainak beállítása...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Hozzárendelés2 tulajdonságainak beállítása...
+//Hozzárendelés2 tulajdonságainak beállítása...
 ```
 ## 4. Munkaidőszakos adatokkal
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Manipulálja az időfázisú adatokat
 ```csharp
-//Helytelen időfázisú adatelem hozzáadása, majd törlése
+// Helytelen időfázisú adatelem hozzáadása, majd törlése
 var td4 = new TimephasedData
 {
     // Rossz időfázisú adattulajdonságok beállítása...
@@ -120,4 +120,4 @@ Az Aspose.Tasks különböző méretű projekteket kezel, és nincs szigorú kor
 ### Kipróbálhatom az Aspose.Tasks for .NET-et a vásárlás előtt?
  Igen, felfedezheti az Aspose.Tasks for .NET szolgáltatásait, ha eléri a[ingyenes próbaverzió](https://releases.aspose.com/).
 ### Hol vásárolhatok licencet az Aspose.Tasks for .NET-hez?
- Vásárolhat licencet az Aspose.Tasks for .NET számára[itt](https://purchase.aspose.com/buy).
+Vásárolhat licencet az Aspose.Tasks for .NET számára[itt](https://purchase.aspose.com/buy).

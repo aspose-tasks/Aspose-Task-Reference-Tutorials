@@ -48,12 +48,12 @@ foreach (var projectUid in projectUids)
 ## Wniosek
 W tym samouczku nauczyliśmy się, jak korzystać z czytnika XML MS Project Primavera w Aspose.Tasks dla .NET, aby efektywnie uzyskiwać dostęp do danych projektu i zarządzać nimi. Wykonując te kroki, możesz bezproblemowo zintegrować Aspose.Tasks z aplikacjami .NET, aby uzyskać ulepszone możliwości zarządzania projektami.
 ## Często zadawane pytania
-### P: Czy Aspose.Tasks obsługuje złożone struktury projektów?
+### P: Czy Aspose.Tasks obsługuje złożone struktury projektu?
 Odp.: Tak, Aspose.Tasks zapewnia solidne funkcje do skutecznej obsługi różnych struktur i złożoności projektów.
 ### P: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks?
-Odp.: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+ Odp.: Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 ### P: Jak mogę uzyskać wsparcie dla Aspose.Tasks?
- Odp.: Możesz uzyskać pomoc na forum Aspose.Tasks.[Tutaj](https://forum.aspose.com/c/tasks/15).
+ Odp.: Możesz uzyskać pomoc na forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### P: Czy mogę kupić tymczasową licencję na Aspose.Tasks?
  Odpowiedź: Tak, można kupić licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę znaleźć obszerną dokumentację dla Aspose.Tasks?

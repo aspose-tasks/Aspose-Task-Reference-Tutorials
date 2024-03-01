@@ -12,7 +12,7 @@ Você está procurando aproveitar o poder das máscaras de contorno do Microsoft
 ## Pré-requisitos
 Antes de mergulhar neste tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
 ### 1. Instalação do Aspose.Tasks para .NET
- Certifique-se de ter o Aspose.Tasks for .NET instalado em seu ambiente de desenvolvimento. Você pode baixar a biblioteca do site Aspose[aqui](https://releases.aspose.com/tasks/net/).
+Certifique-se de ter o Aspose.Tasks for .NET instalado em seu ambiente de desenvolvimento. Você pode baixar a biblioteca do site Aspose[aqui](https://releases.aspose.com/tasks/net/).
 ### 2. Conhecimento básico de C# e .NET Framework
 Familiarize-se com a linguagem de programação C# e o .NET Framework, pois este tutorial utilizará ambos.
 ### 3. Arquivo do Microsoft Project
@@ -108,4 +108,4 @@ R: Absolutamente! Você pode personalizar máscaras de contorno ajustando seu co
 ### Q4: O Aspose.Tasks for .NET fornece documentação e suporte?
 R: Sim, Aspose.Tasks for .NET oferece documentação abrangente e suporte dedicado por meio de seu site e[fóruns](https://forum.aspose.com/c/tasks/15).
 ### Q5: Existe uma avaliação gratuita disponível para Aspose.Tasks for .NET?
- R: Sim, você pode acessar uma avaliação gratuita do Aspose.Tasks for .NET em seu site.[local na rede Internet](https://releases.aspose.com/tasks/net/), para explorar seus recursos e funcionalidades antes de fazer uma compra.
+ R: Sim, você pode acessar uma avaliação gratuita do Aspose.Tasks for .NET em seu site.[local na rede Internet](https://releases.aspose.com/tasks/net/). para explorar seus recursos e funcionalidades antes de fazer uma compra.

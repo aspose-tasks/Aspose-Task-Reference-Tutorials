@@ -1,6 +1,6 @@
 ---
 title: Beheersing van de werkweekconfiguratie in Aspose.Tasks
-linktitle: Configureer werkweken in Aspose.Tasks
+linktitle: Werkweken configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u moeiteloos werkweken kunt configureren in Aspose.Tasks voor .NET. Verbeter projectplanning en resourcebeheer met onze stapsgewijze handleiding.
 type: docs

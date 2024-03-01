@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Laden Sie die Projektdatei mit`Project` Klassenkonstruktor, der den Dateipfad angibt.
+ Laden Sie die Projektdatei mit`Project`Klassenkonstruktor, der den Dateipfad angibt.
 
 ## Schritt 2: Sammeln Sie alle Projektaufgaben
 
@@ -117,4 +117,4 @@ A4: Ja, Sie können Aspose.Tasks nahtlos in andere .NET-Frameworks und -Biblioth
 
 ### F5: Gibt es ein Community-Forum oder einen Support-Kanal für Aspose.Tasks-Benutzer?
 
- A5: Ja, Sie können auf das Aspose.Tasks-Community-Forum zugreifen.[Hier](https://forum.aspose.com/c/tasks/15) für Fragen oder Hilfe.
+ A5: Ja, Sie können auf das Aspose.Tasks-Community-Forum zugreifen[Hier](https://forum.aspose.com/c/tasks/15) für Fragen oder Hilfe.

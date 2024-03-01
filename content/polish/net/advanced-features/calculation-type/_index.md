@@ -63,7 +63,7 @@ project.ExtendedAttributes.Add(calculation);
 
 ## Krok 4: Zdefiniuj typ obliczeń dla wierszy podsumowań
 
-Następnie utworzymy kolejną rozszerzoną definicję atrybutu, w której wartości dla zadań sumarycznych będą obliczane przy użyciu typu zestawienia Średnia:
+Następnie utworzymy kolejną rozszerzoną definicję atrybutu, w której wartości zadań sumarycznych będą obliczane przy użyciu typu zestawienia Średnia:
 
 ```csharp
 var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
@@ -74,13 +74,13 @@ project.ExtendedAttributes.Add(lookup);
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak pracować z typem obliczeń w Aspose.Tasks dla .NET. Definiując Typy Obliczeń dla rozszerzonych atrybutów, możemy dostosować sposób obliczania wartości dla zadań i zadań sumarycznych w ramach projektu, zapewniając większą elastyczność i kontrolę.
+W tym samouczku omówiliśmy, jak pracować z typem obliczeń w Aspose.Tasks dla .NET. Definiując typy obliczeń dla atrybutów rozszerzonych, możemy dostosować sposób obliczania wartości dla zadań i zadań sumarycznych w projekcie, zapewniając większą elastyczność i kontrolę.
 
 ## Często zadawane pytania
 
 ### P1: Jaki jest typ obliczeń w Aspose.Tasks?
 
-A1: Typ obliczeń w Aspose.Tasks określa sposób obliczania wartości dla zadań i zadań sumarycznych w projekcie, oferując opcje takie jak Formuła i Zestawienie.
+O1: Typ obliczeń w Aspose.Tasks określa sposób obliczania wartości dla zadań i zadań sumarycznych w projekcie, oferując opcje takie jak Formuła i Zestawienie.
 
 ### P2: Jak ustawić typ obliczeń dla atrybutu rozszerzonego?
 

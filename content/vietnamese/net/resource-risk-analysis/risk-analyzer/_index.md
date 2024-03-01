@@ -58,7 +58,7 @@ var analysisResult = analyzer.Analyze(project);
 var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
 ```
 ## Bước 5: Truy xuất kết quả phân tích
-Truy xuất và hiển thị kết quả phân tích, chẳng hạn như giá trị dự kiến và phần trăm.
+Truy xuất và hiển thị kết quả phân tích, chẳng hạn như giá trị mong đợi và phần trăm.
 ```csharp
 Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
 Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);

@@ -31,7 +31,7 @@ Primeiro, defina o caminho para o diretório que contém o arquivo do MS Project
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- substituir`"Your Document Directory"` com o caminho real para o arquivo do seu projeto.
+ Substituir`"Your Document Directory"` com o caminho real para o arquivo do seu projeto.
 ## Etapa 2: carregar o arquivo do projeto
  Instanciar um novo`Project` objeto carregando o arquivo MS Project.
 ```csharp
@@ -62,7 +62,7 @@ Este trecho de código percorre cada tarefa, verifica se ela possui códigos de 
 Concluindo, Aspose.Tasks for .NET fornece recursos poderosos para gerenciar códigos de estrutura de tópicos do Microsoft Project programaticamente. Seguindo as etapas descritas neste tutorial, você pode ler e manipular códigos de estrutura de forma eficiente em seus arquivos do MS Project usando C#.
 ## Perguntas frequentes
 ### P: Posso modificar códigos de estrutura de tópicos usando Aspose.Tasks?
-R: Sim, você pode modificar códigos de estrutura de forma programática usando Aspose.Tasks for .NET. Basta acessar os códigos de contorno das tarefas e atualizar seus valores conforme necessário.
+R: Sim, você pode modificar códigos de estrutura de forma programática usando Aspose.Tasks for .NET. Basta acessar os códigos gerais das tarefas e atualizar seus valores conforme necessário.
 ### P: O Aspose.Tasks é compatível com todas as versões do Microsoft Project?
 R: Aspose.Tasks oferece suporte a uma ampla variedade de versões do Microsoft Project, incluindo 2003, 2007, 2010, 2013, 2016 e 2019.
 ### P: O Aspose.Tasks requer uma licença para uso comercial?

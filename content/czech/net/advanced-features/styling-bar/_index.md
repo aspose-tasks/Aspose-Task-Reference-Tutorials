@@ -62,7 +62,7 @@ Vytvořte nový styl pruhu a přizpůsobte jeho vlastnosti:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Nastavte typ položky lišty
 style.BarColor = Color.Green; // Nastavit barvu pruhu
-style.BarShape = BarShape.HalfHeight; //Nastavte tvar tyče
+style.BarShape = BarShape.HalfHeight; // Nastavte tvar tyče
 style.StartShape = Shape.LeftBracket; // Nastavte tvar na začátek lišty
 style.StartShapeColor = Color.Aqua; // Nastavte barvu počátečního tvaru
 style.EndShape = Shape.RightBracket; // Nastavte tvar na konci lišty

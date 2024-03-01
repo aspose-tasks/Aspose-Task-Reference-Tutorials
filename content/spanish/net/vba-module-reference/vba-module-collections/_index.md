@@ -27,7 +27,7 @@ Ahora que hemos implementado nuestros requisitos previos, dividamos el tutorial 
 // La ruta al directorio de documentos.
 String DataDir = "Your Document Directory";
 ```
- Asegúrate de reemplazar`"Your Document Directory"` con la ruta real al directorio de documentos de su proyecto.
+ Asegúrate de reemplazar`"Your Document Directory"`con la ruta real al directorio de documentos de su proyecto.
 ## Paso 2: cargue el proyecto y acceda al proyecto VBA
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -65,9 +65,9 @@ En conclusión, dominar los módulos VBA en Aspose.Tasks abre nuevas posibilidad
 ### ¿Puedo usar Aspose.Tasks para .NET con otros lenguajes de programación?
 Aspose.Tasks admite principalmente lenguajes .NET como C#. Sin embargo, hay versiones de Java disponibles para compatibilidad entre idiomas.
 ### ¿Hay una prueba gratuita disponible para Aspose.Tasks para .NET?
-Sí, puedes descargar la versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
+ Sí, puedes descargar la versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte para Aspose.Tasks?
- visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener apoyo de la comunidad o considere comprar un plan de soporte.
+ Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para obtener apoyo de la comunidad o considere comprar un plan de soporte.
 ### ¿Hay licencias temporales disponibles?
  Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo encontrar documentación detallada para Aspose.Tasks?

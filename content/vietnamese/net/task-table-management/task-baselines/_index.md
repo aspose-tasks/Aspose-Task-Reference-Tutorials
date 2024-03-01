@@ -65,9 +65,9 @@ Chúc mừng! Bạn đã học thành công cách xử lý các đường cơ s�
 ### Câu hỏi: Tôi có thể sử dụng Aspose.Tasks với các khung .NET khác không?
 Trả lời: Aspose.Tasks tương thích với nhiều khung .NET, mang lại sự linh hoạt trong môi trường phát triển của bạn.
 ### Câu hỏi: Có diễn đàn cộng đồng nào hỗ trợ Aspose.Tasks không?
-Đáp: Có, bạn có thể tìm sự hỗ trợ và tương tác với cộng đồng tại[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Đáp: Có, bạn có thể tìm sự hỗ trợ và tương tác với cộng đồng tại[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
- Đáp: Ghé thăm[đây](https://purchase.aspose.com/temporary-license/) để có được giấy phép tạm thời cho Aspose.Tasks.
+ Đáp: Ghé thăm[đây](https://purchase.aspose.com/temporary-license/)để có được giấy phép tạm thời cho Aspose.Tasks.
 ### Câu hỏi: Có hướng dẫn nào ngoài các hướng dẫn cơ bản về nhiệm vụ không?
  A: Khám phá[tài liệu](https://reference.aspose.com/tasks/net/) để biết nhiều hướng dẫn về các tính năng của Aspose.Tasks.
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks cho .NET ở đâu?

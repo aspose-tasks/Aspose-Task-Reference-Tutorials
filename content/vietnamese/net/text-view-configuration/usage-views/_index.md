@@ -11,7 +11,7 @@ url: /vi/net/text-view-configuration/usage-views/
 Nếu bạn là nhà phát triển .NET đang tìm cách nâng cao khả năng quản lý dự án của mình thì Aspose.Tasks là một công cụ mạnh mẽ cho phép bạn thao tác các tệp Microsoft Project một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc định cấu hình chế độ xem sử dụng bằng Aspose.Tasks cho .NET. Hãy theo dõi để hiểu rõ hơn về cách hiển thị các chế độ xem sử dụng tác vụ cùng với các chi tiết để trực quan hóa dự án tốt hơn.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-- Thư viện Aspose.Tasks: Đảm bảo bạn đã tích hợp thư viện Aspose.Tasks vào dự án .NET của mình. Nếu không, bạn có thể tải xuống[đây](https://releases.aspose.com/tasks/net/) và làm theo hướng dẫn cài đặt.
+-  Thư viện Aspose.Tasks: Đảm bảo bạn đã tích hợp thư viện Aspose.Tasks vào dự án .NET của mình. Nếu không, bạn có thể tải xuống[đây](https://releases.aspose.com/tasks/net/) và làm theo hướng dẫn cài đặt.
 - Thư mục tài liệu: Thiết lập một thư mục nơi lưu trữ tài liệu dự án của bạn. Thay thế "Thư mục tài liệu của bạn" trong đoạn mã bằng đường dẫn thực tế đến thư mục tài liệu của bạn.
 ## Nhập không gian tên
 Trong đoạn mã được cung cấp, bạn sẽ nhận thấy việc sử dụng các không gian tên nhất định. Đảm bảo đưa những thứ này vào dự án của bạn để tích hợp liền mạch:

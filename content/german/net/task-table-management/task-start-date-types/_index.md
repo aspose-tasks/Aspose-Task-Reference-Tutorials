@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren Sie Aufgabenstartdatumstypen in Aspose.Tasks
-linktitle: Konfigurieren Sie Aufgabenstartdatumstypen in Aspose.Tasks
+title: Konfigurieren von Aufgabenstartdatumstypen in Aspose.Tasks
+linktitle: Konfigurieren von Aufgabenstartdatumstypen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie Aspose.Tasks für .NET, um mühelos Startdatumstypen für Aufgaben zu konfigurieren. Optimieren Sie das Projektmanagement ganz einfach. Laden Sie jetzt Ihre kostenlose Testversion herunter!
 type: docs
@@ -10,7 +10,7 @@ url: /de/net/task-table-management/task-start-date-types/
 In der dynamischen Welt des Projektmanagements ist die Festlegung des richtigen Startdatums für Aufgaben von entscheidender Bedeutung. Aspose.Tasks für .NET bietet eine leistungsstarke Lösung zum mühelosen Konfigurieren von Aufgabenstartdatumstypen. In diesem Tutorial führen wir Sie durch den Prozess und unterteilen ihn in einfache Schritte, um eine nahtlose Integration zu gewährleisten.
 ## Voraussetzungen
 Bevor Sie sich mit der Konfiguration von Aufgabenstartdatumstypen befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
--  Aspose.Tasks für .NET: Stellen Sie sicher, dass Sie die Aspose.Tasks-Bibliothek für .NET installiert haben. Wenn nicht, laden Sie es herunter[Download-Link](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks für .NET: Stellen Sie sicher, dass Sie die Aspose.Tasks-Bibliothek für .NET installiert haben. Wenn nicht, laden Sie es herunter[Download-Link](https://releases.aspose.com/tasks/net/).
 - .NET-Umgebung: In diesem Tutorial wird davon ausgegangen, dass Sie über praktische Kenntnisse der .NET-Umgebung verfügen.
 - Ihr Dokumentenverzeichnis: Ersetzen Sie „Ihr Dokumentenverzeichnis“ im Code-Snippet durch den Pfad zu Ihrem tatsächlichen Dokumentenverzeichnis.
 ## Namespaces importieren
@@ -45,7 +45,7 @@ Das Konfigurieren von Aufgabenstartdatumstypen in Aspose.Tasks für .NET ist ein
 ### F1: Kann ich für einzelne Aufgaben ein bestimmtes Startdatum festlegen?
 Ja, Sie können das Startdatum für jede Aufgabe individuell anpassen, indem Sie Aspose.Tasks für .NET verwenden.
 ### F2: Gibt es eine kostenlose Testversion für Aspose.Tasks für .NET?
-Ja, Sie können die Funktionen von Aspose.Tasks erkunden, indem Sie eine kostenlose Testversion erwerben[Hier](https://releases.aspose.com/).
+ Ja, Sie können die Funktionen von Aspose.Tasks erkunden, indem Sie eine kostenlose Testversion erwerben[Hier](https://releases.aspose.com/).
 ### F3: Wie erhalte ich Unterstützung für Aspose.Tasks?
  Besuchen Sie das Aspose.Tasks-Forum[Hier](https://forum.aspose.com/c/tasks/15) um Community-Unterstützung zu erhalten oder Unterstützung vom Aspose-Team zu suchen.
 ### F4: Wo finde ich eine umfassende Dokumentation für Aspose.Tasks?

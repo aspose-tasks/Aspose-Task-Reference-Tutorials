@@ -133,7 +133,7 @@ Console.WriteLine("The duration as a string: " + duration.ToString());
 
 ## Závěr
 
-V tomto tutoriálu jsme se zabývali různými aspekty zpracování doby trvání v Aspose.Tasks pro .NET. Pochopení a efektivní řízení doby trvání je zásadní pro úspěšné řízení projektu. Aspose.Tasks poskytuje komplexní funkce pro zjednodušení úkolů správy trvání ve vašich aplikacích .NET.
+tomto tutoriálu jsme se zabývali různými aspekty zpracování doby trvání v Aspose.Tasks pro .NET. Pochopení a efektivní řízení doby trvání je zásadní pro úspěšné řízení projektu. Aspose.Tasks poskytuje komplexní funkce pro zjednodušení úkolů správy trvání ve vašich aplikacích .NET.
 
 ## FAQ
 
@@ -155,4 +155,4 @@ Odpověď 4: Ano, Aspose.Tasks podporuje čtení a zápis souborů aplikace Micr
 
 ### Q5: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
 
- A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro .NET od[tady](https://releases.aspose.com/).
+A5: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro .NET od[tady](https://releases.aspose.com/).

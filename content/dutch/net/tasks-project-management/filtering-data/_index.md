@@ -12,7 +12,7 @@ Aspose.Tasks voor .NET biedt robuuste functionaliteit voor het filteren van gege
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 ### 1. Installeer Aspose.Tasks voor .NET
- Download en installeer Aspose.Tasks voor .NET vanaf de[downloadpagina](https://releases.aspose.com/tasks/net/), Volg de meegeleverde installatie-instructies om de bibliotheek in uw ontwikkelomgeving in te stellen.
+ Download en installeer Aspose.Tasks voor .NET vanaf de[downloadpagina](https://releases.aspose.com/tasks/net/). Volg de meegeleverde installatie-instructies om de bibliotheek in uw ontwikkelomgeving in te stellen.
 ### 2. Stel uw ontwikkelomgeving in
 Zorg ervoor dat u over een werkende ontwikkelomgeving voor .NET-programmering beschikt. Dit omvat een compatibele IDE zoals Visual Studio en een basiskennis van de programmeertaal C#.
 ### 3. Open het voorbeeld van een Microsoft Project-bestand
@@ -66,7 +66,7 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
 ```
 Geef details van bronfilters weer, waaronder aantal, filtertype, Weergeven in menu en Toon gerelateerde samenvattingsrijen.
 ## Conclusie
-Het filteren van gegevens in MS Project-bestanden met Aspose.Tasks voor .NET is een eenvoudig proces dat de productiviteit en analysemogelijkheden verbetert. Door de stappen te volgen die in deze tutorial worden beschreven, kunt u projectinformatie efficiënt beheren op basis van specifieke criteria.
+Het filteren van gegevens in MS Project-bestanden met Aspose.Tasks voor .NET is een eenvoudig proces dat de productiviteit en analysemogelijkheden verbetert. Door de stappen in deze tutorial te volgen, kunt u projectinformatie efficiënt beheren op basis van specifieke criteria.
 ## Veelgestelde vragen
 ### Vraag: Kan Aspose.Tasks gegevens filteren op basis van aangepaste criteria?
 A: Ja, met Aspose.Tasks kunt u gegevens filteren op basis van aangepaste criteria die zijn afgestemd op uw projectvereisten.

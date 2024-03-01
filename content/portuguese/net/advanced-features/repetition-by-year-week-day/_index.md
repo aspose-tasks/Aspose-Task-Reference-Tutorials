@@ -21,7 +21,7 @@ Familiarize-se com os conceitos básicos do .NET Framework, incluindo conceitos 
 
 ### 2. Instalação do Aspose.Tasks para .NET
 
- Baixe e instale a biblioteca Aspose.Tasks for .NET do[Link para Download](https://releases.aspose.com/tasks/net/)Siga as instruções de instalação fornecidas para integrar a biblioteca ao seu ambiente de desenvolvimento.
+ Baixe e instale a biblioteca Aspose.Tasks for .NET do[Link para Download](https://releases.aspose.com/tasks/net/). Siga as instruções de instalação fornecidas para integrar a biblioteca ao seu ambiente de desenvolvimento.
 
 ### 3. Acesso à Documentação
 
@@ -125,4 +125,4 @@ R: Sim, Aspose.Tasks for .NET oferece suporte para soluções de gerenciamento d
 
 ### Q5: Existe uma versão de teste disponível para Aspose.Tasks for .NET?
 
- R: Sim, você pode acessar uma avaliação gratuita do Aspose.Tasks for .NET no[local na rede Internet](https://releases.aspose.com/), permitindo que você explore seus recursos antes de tomar uma decisão de compra.
+R: Sim, você pode acessar uma avaliação gratuita do Aspose.Tasks for .NET no[local na rede Internet](https://releases.aspose.com/), permitindo que você explore seus recursos antes de tomar uma decisão de compra.

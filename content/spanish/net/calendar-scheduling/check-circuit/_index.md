@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Paso 1: cargue el archivo del proyecto
 
- Comience cargando el archivo de Microsoft Project (.mpp) que desea verificar en busca de una estructura rota. Utilizar el`Project` clase para cargar el archivo.
+Comience cargando el archivo de Microsoft Project (.mpp) que desea verificar en busca de una estructura rota. Utilizar el`Project` clase para cargar el archivo.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## Paso 2: Verifique la estructura del proyecto
 
- Para detectar cualquier estructura rota dentro del proyecto, usaremos el`CheckCircuit` clase junto con`TaskUtils.Apply` método.
+ Para detectar cualquier estructura rota dentro del proyecto, usaremos el`CheckCircuit` clase junto con el`TaskUtils.Apply` método.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ R1: Sí, Aspose.Tasks para .NET es compatible con varios marcos .NET, incluidos 
 
 ### P3: ¿Cómo puedo obtener soporte para Aspose.Tasks para .NET?
 
-R3: Puede buscar ayuda en el foro de la comunidad Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15).
+ R3: Puede buscar ayuda en el foro de la comunidad Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15).
 
 ### P4: ¿Necesito una licencia temporal para realizar pruebas?
 

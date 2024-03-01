@@ -10,21 +10,21 @@ url: /nl/net/vba-module-reference/
 
 ## VBA-modules beheren in Aspose.Tasks
 
- Ontgrendel het potentieel van Microsoft Project-bestanden met Aspose.Tasks voor .NET. In deze tutorial begeleiden we u door het naadloze beheer van[VBA-modules](./managing-vba-modules/), Verbeter moeiteloos uw ontwikkelingsworkflow met stapsgewijze instructies, zodat u de volledige kracht van Aspose.Tasks kunt benutten.
+ Ontgrendel het potentieel van Microsoft Project-bestanden met Aspose.Tasks voor .NET. In deze tutorial begeleiden we u door het naadloze beheer van[VBA-modules](./managing-vba-modules/). Verbeter moeiteloos uw ontwikkelingsworkflow met stapsgewijze instructies, zodat u de volledige kracht van Aspose.Tasks kunt benutten.
 
 ## Verzameling van VBA-modulekenmerken in Aspose.Tasks
 
- Duik in de diepte van Aspose.Tasks voor .NET terwijl we de ingewikkelde wereld van .NET verkennen[Kenmerken van VBA-module](./vba-module-attribute-collection/), Leer moeiteloos attributen beheren en verbeter uw .NET-projecten. Onze tutorial biedt een duidelijke en gedetailleerde handleiding, zodat u dit cruciale aspect van projectontwikkeling onder de knie krijgt.
+ Duik in de diepte van Aspose.Tasks voor .NET terwijl we de ingewikkelde wereld van .NET verkennen[Kenmerken van VBA-module](./vba-module-attribute-collection/). Leer moeiteloos attributen beheren en verbeter uw .NET-projecten. Onze tutorial biedt een duidelijke en gedetailleerde handleiding, zodat u dit cruciale aspect van projectontwikkeling onder de knie krijgt.
 
 ## VBA-modulecollecties beheren in Aspose.Tasks
 
- efficiënt omgaan[VBA-modulecollecties](./vba-module-collections/)in Aspose.Tasks voor .NET met onze stapsgewijze handleiding. Ontdek de best practices voor naadloze integratie in uw projecten. Of u nu een beginnende of een ervaren ontwikkelaar bent, deze tutorial zorgt voor een soepele leercurve voor het beheersen van VBA-modulecollecties.
+ Efficiënt omgaan[VBA-modulecollecties](./vba-module-collections/)in Aspose.Tasks voor .NET met onze stapsgewijze handleiding. Ontdek de best practices voor naadloze integratie in uw projecten. Of u nu een beginnende of een ervaren ontwikkelaar bent, deze tutorial zorgt voor een soepele leercurve voor het beheersen van VBA-modulecollecties.
 
 ## Werken met VBA-projecten in Aspose.Tasks
 
- Ontketen de kracht van Aspose.Tasks voor .NET bij het beheren[vba-projecten](./vba-projects/) moeiteloos. Onze tutorial leidt u door de essentiële stappen en biedt inzicht in het optimaliseren van uw projectmanagementmogelijkheden. Verbeter uw vaardigheden met een uitgebreide gids op maat voor ontwikkelaars op elk niveau.
+ Ontketen de kracht van Aspose.Tasks voor .NET bij het beheren[VBA-projecten](./vba-projects/) moeiteloos. Onze tutorial leidt u door de essentiële stappen en biedt inzicht in het optimaliseren van uw projectmanagementmogelijkheden. Verbeter uw vaardigheden met een uitgebreide gids op maat voor ontwikkelaars op elk niveau.
 
-## Verwerking van referenties VBA in Aspose.Tasks
+## VBA-referenties verwerken in Aspose.Tasks
 
  Navigeer door de complexiteit van het hanteren[VBA-referenties](./vba-references/) in Aspose.Tasks voor .NET met onze uitgebreide tutorial. Leer naadloos VBA-referenties lezen, vergelijken en ermee werken. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze gids voorziet u van de kennis om VBA-referenties effectief te gebruiken.
 
@@ -38,5 +38,5 @@ Ontdek de kracht van Aspose.Tasks voor .NET bij het beheren van VBA-moduleattrib
 Ontdek hoe u VBA-modulecollecties efficiënt beheert in Aspose.Tasks voor .NET. Stap-voor-stap handleiding voor naadloze integratie in uw projecten.
 ### [Werken met VBA-projecten in Aspose.Tasks](./vba-projects/)
 Ontdek de kracht van Aspose.Tasks voor .NET bij het moeiteloos beheren van VBA-projecten. Verbeter uw projectmanagementmogelijkheden met deze stapsgewijze handleiding.
-### [Verwerking van referenties VBA in Aspose.Tasks](./vba-references/)
+### [VBA-referenties verwerken in Aspose.Tasks](./vba-references/)
 Ontdek de kracht van het omgaan met VBA-referenties in Aspose.Tasks .NET met onze uitgebreide tutorial. Leer naadloos VBA-referenties lezen, vergelijken en ermee werken.

@@ -155,4 +155,4 @@ A4: Sim, Aspose.Tasks oferece suporte à leitura e gravação de arquivos do Mic
 
 ### Q5: Existe uma versão de teste disponível para Aspose.Tasks for .NET?
 
- A5: Sim, você pode obter uma avaliação gratuita do Aspose.Tasks for .NET em[aqui](https://releases.aspose.com/).
+A5: Sim, você pode obter uma avaliação gratuita do Aspose.Tasks for .NET em[aqui](https://releases.aspose.com/).

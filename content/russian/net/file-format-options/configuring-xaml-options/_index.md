@@ -63,7 +63,7 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 
 ### Вопрос: Нужна ли мне временная лицензия для использования Aspose.Tasks для .NET?
 
-О: Вам может потребоваться временная лицензия для определенных расширенных функций, которые можно получить[здесь](https://purchase.aspose.com/temporary-license/).
+ О: Вам может потребоваться временная лицензия для определенных расширенных функций, которые можно получить[здесь](https://purchase.aspose.com/temporary-license/).
 
 ### Вопрос: Где я могу приобрести Aspose.Tasks для .NET?
 

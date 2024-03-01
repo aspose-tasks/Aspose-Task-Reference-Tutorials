@@ -112,4 +112,4 @@ project.Save(DataDir + "PrintProjectPagesToSeparateFiles_out.png", options);
 
 ### Ε5: Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Tasks για .NET;
 
- Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του[Aspose.Tasks για .NET από](https://forum.aspose.com/c/tasks/15), για να εξερευνήσετε τα χαρακτηριστικά του πριν κάνετε μια αγορά.
+ Α: Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης του[Aspose.Tasks για .NET από](https://forum.aspose.com/c/tasks/15). για να εξερευνήσετε τα χαρακτηριστικά του πριν κάνετε μια αγορά.

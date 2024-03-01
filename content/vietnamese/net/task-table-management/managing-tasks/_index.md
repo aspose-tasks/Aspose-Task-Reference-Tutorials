@@ -11,7 +11,7 @@ url: /vi/net/task-table-management/managing-tasks/
 Nếu bạn là nhà phát triển .NET đang tìm cách quản lý hiệu quả các tác vụ trong dự án của mình thì Aspose.Tasks for .NET sẽ cung cấp một giải pháp mạnh mẽ. Hướng dẫn này sẽ hướng dẫn bạn qua các khía cạnh khác nhau của việc quản lý tác vụ bằng Aspose.Tasks, cung cấp hướng dẫn từng bước và ví dụ về mã. Cho dù bạn đang thêm nhiệm vụ, hiển thị các phần được chia nhỏ, di chuyển nhiệm vụ trong cùng một phần gốc, nhận/đặt thuộc tính nhiệm vụ, lặp lại các nhiệm vụ nhiệm vụ, đọc đường cơ sở của nhiệm vụ hoặc xóa nhiệm vụ, hướng dẫn này sẽ giúp bạn.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-1.  Aspose.Tasks for .NET Library: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Tasks for .NET. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET Library: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Tasks for .NET. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
 2. Thư mục tài liệu: Thiết lập một thư mục nơi tài liệu dự án của bạn sẽ được lưu trữ.
 ## Nhập không gian tên
 Trong dự án .NET của bạn, hãy bao gồm các vùng tên cần thiết để hoạt động với Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Tải một dự án với các nhiệm vụ được phân chia
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Truy cập một nhiệm vụ
+// Truy cập một nhiệm vụ
 var task = project.RootTask.Children.GetById(4);
 // Hiển thị các phần được chia
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Thêm nhiệm vụ
 var task = project.RootTask.Children.Add("Task");
-// Hiển thị số lượng tác vụ trước và sau khi xóa
+//Hiển thị số lượng tác vụ trước và sau khi xóa
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Xóa nhiệm vụ
 task.Delete();

@@ -65,4 +65,4 @@ C: Aspose.Tasks, MS Project dosyalarının çeşitli sürümlerini destekleyerek
 ### S: Projelerim için nasıl geçici lisans alabilirim?
  C: Geçici lisanslar şuradan alınabilir:[Burada](https://purchase.aspose.com/temporary-license/) kısa süreli kullanım için.
 ### S: Aspose.Tasks ile ilgili nereden yardım veya destek alabilirim?
- C: Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15) topluluktan veya Aspose destek ekibinden yardım istemek için.
+ C: Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15)topluluktan veya Aspose destek ekibinden yardım istemek için.

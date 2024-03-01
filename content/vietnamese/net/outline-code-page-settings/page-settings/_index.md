@@ -71,7 +71,7 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu cách định cấu hình 
 Đáp: Có, bạn có thể lặp qua nhiều tệp dự án và áp dụng cùng cài đặt trang cho từng tệp.
 ### Hỏi: Có thể hoàn nguyên cài đặt trang về mặc định không?
 Trả lời: Hoàn toàn có thể, bạn chỉ cần bỏ qua các bước cấu hình hoặc đặt lại cài đặt về giá trị mặc định.
-### Câu hỏi: Có bất kỳ hạn chế nào về kích cỡ giấy được hỗ trợ không?
+### Câu hỏi: Có bất kỳ hạn chế nào về kích thước giấy được hỗ trợ không?
 Đáp: Aspose.Tasks hỗ trợ nhiều loại khổ giấy, bao gồm cả khổ tiêu chuẩn và khổ tùy chỉnh.
 ### Hỏi: Tôi có thể tự động hóa quá trình cấu hình cài đặt trang không?
 Trả lời: Chắc chắn, bạn có thể tích hợp chức năng này vào quy trình làm việc của ứng dụng để tự động hóa cấu hình cài đặt trang.

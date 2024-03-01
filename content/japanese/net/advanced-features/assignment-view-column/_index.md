@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## ステップ 3: カスタム列を定義する
 
-次に、のインスタンスを作成してカスタム列を定義します。`AssignmentViewColumn`、このクラスには、列名、幅、および代入データを列テキストに変換するためのデリゲート関数が必要です。
+次に、のインスタンスを作成してカスタム列を定義します。`AssignmentViewColumn`。このクラスには、列名、幅、および代入データを列テキストに変換するためのデリゲート関数が必要です。
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
- Ügyeljen arra, hogy cserélje ki`"Your Document Directory"`, `URL`, `Domain`, `UserName` ,és`Password` a tényleges értékeiddel.
+ Ügyeljen arra, hogy cserélje ki`"Your Document Directory"`, `URL`, `Domain`, `UserName` , és`Password` a tényleges értékeiddel.
 ## 2. lépés: A Project Server Manager létrehozása
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
- Állítsa be a`ProjectGuid`, `ProjectName`, `Timeout` ,és`PollingInterval` az Ön igényei szerint.
+ Állítsa be a`ProjectGuid`, `ProjectName`, `Timeout` , és`PollingInterval` az Ön igényei szerint.
 ## 4. lépés: Projekt mentése a kiszolgálóra
 ```csharp
 manager.CreateNewProject(project, options);

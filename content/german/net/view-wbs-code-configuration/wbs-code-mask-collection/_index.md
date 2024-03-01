@@ -132,7 +132,7 @@ Mit Aspose.Tasks für .NET wird die Verwaltung von WBS-Codes zu einer mühelosen
 ### F: Kann ich Aspose.Tasks für .NET mit anderen Programmiersprachen verwenden?
 A: Aspose.Tasks unterstützt hauptsächlich .NET-Sprachen, Sie können jedoch Interoperabilitätsoptionen mit anderen Sprachen erkunden.
 ### F: Gibt es eine Testversion für Aspose.Tasks für .NET?
- A: Ja, Sie können die Testversion herunterladen.[Hier](https://releases.aspose.com/).
+ A: Ja, Sie können die Testversion herunterladen[Hier](https://releases.aspose.com/).
 ### F: Wie kann ich Hilfe suchen oder Probleme mit Aspose.Tasks für .NET melden?
  A: Besuchen Sie die[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Unterstützung und Diskussionen.
 ### F: Welchen Zweck haben WBS-Codes im Projektmanagement?

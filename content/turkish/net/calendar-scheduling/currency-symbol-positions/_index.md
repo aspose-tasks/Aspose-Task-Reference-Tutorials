@@ -27,7 +27,7 @@ Bu eğitimde tartışılan kavramları kavramak için .NET programlamaya ilişki
 
 Başlamak için gerekli ad alanlarını .NET projenize aktarmanız gerekir. 
 
- Dahil et`Aspose.Tasks` Aspose.Tasks kitaplığı tarafından sağlanan sınıflara ve yöntemlere erişmek için projenizdeki ad alanını kullanın.
+ Dahil et`Aspose.Tasks`Aspose.Tasks kitaplığı tarafından sağlanan sınıflara ve yöntemlere erişmek için projenizdeki ad alanını kullanın.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Başlamak için gerekli ad alanlarını .NET projenize aktarmanız gerekir.
 
 ## Adım 1: Proje Dosyasını Yükleyin
 
- Proje dosyasını kullanarak yükleyerek başlayın.`Project`sınıf yapıcısı.
+ Proje dosyasını kullanarak yükleyerek başlayın.`Project` sınıf yapıcısı.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -53,7 +53,7 @@ project.Set(Prj.CurrencySymbolPosition, CurrencySymbolPositionType.Before);
 
 ## 3. Adım: Projeyle Çalışmak
 
-Para birimi simgesi konumunu ayarladıktan sonra projenizdeki diğer işlemlere gerektiği şekilde devam edebilirsiniz.
+Para birimi simgesi konumunu ayarladıktan sonra projenizdeki diğer işlemlere gerektiği gibi devam edebilirsiniz.
 
 ```csharp
 // Projeyle ilgili diğer işlemleri gerçekleştirin...

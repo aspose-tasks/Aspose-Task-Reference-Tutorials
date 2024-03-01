@@ -17,7 +17,7 @@ Než začneme, ujistěte se, že máte následující:
 
 1. Znalost programovacího jazyka C#: Měli byste mít základní znalosti o syntaxi a konceptech C#.
    
-2. Instalace Aspose.Tasks for .NET: Ujistěte se, že jste ve svém vývojovém prostředí nainstalovali knihovnu Aspose.Tasks. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
+2.  Instalace Aspose.Tasks for .NET: Ujistěte se, že jste ve svém vývojovém prostředí nainstalovali knihovnu Aspose.Tasks. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
 
 3. Nastavení vývojového prostředí: Nastavte preferované IDE pro vývoj .NET, jako je Visual Studio.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## Krok 2: Nakonfigurujte možnosti uložení obrázku
 
- Definovat`ImageSaveOptions` a přizpůsobit chování ukládání stránky nastavením`PageSavingCallback` vlastnictví:
+ Definovat`ImageSaveOptions` přizpůsobit chování ukládání stránky nastavením`PageSavingCallback` vlastnictví:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -98,7 +98,7 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
 ## Závěr:
 
-tomto tutoriálu jsme se naučili implementovat zpětné volání pro ukládání stránky v Aspose.Tasks pro .NET, což nám umožňuje ukládat vícestránkové dokumenty do samostatných proudů. Pomocí těchto kroků můžete vylepšit funkčnost vaší aplikace a dosáhnout přizpůsobeného zpracování výstupu.
+V tomto tutoriálu jsme se naučili implementovat zpětné volání pro ukládání stránky v Aspose.Tasks pro .NET, což nám umožňuje ukládat vícestránkové dokumenty do samostatných proudů. Pomocí těchto kroků můžete vylepšit funkčnost vaší aplikace a dosáhnout přizpůsobeného zpracování výstupu.
 
 ## FAQ
 

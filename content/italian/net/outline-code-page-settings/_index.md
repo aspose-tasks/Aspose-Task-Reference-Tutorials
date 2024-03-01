@@ -28,12 +28,12 @@ Mentre ti addentri nel mondo della gestione dei progetti, padroneggiare i codici
  Migliora la tua produttività imparando a manipolare le maschere di contorno della raccolta di Microsoft Project con Aspose.Tasks per .NET. Questo tutorial completo fornisce gli strumenti per ottimizzare il flusso di lavoro di gestione dei progetti.[Per saperne di più](./outline-mask-collection/)
 
 ## Padroneggiare i valori di struttura di MS Project con Aspose.Tasks per .NET
-Gestisci in modo efficiente i valori di struttura di Microsoft Project con Aspose.Tasks per .NET. Questo tutorial ti consente di personalizzare facilmente le strutture del progetto, fornendo un'esperienza fluida nel tuo percorso di gestione del progetto.[Per saperne di più](./outline-values/)
+Gestisci in modo efficiente i valori della struttura di Microsoft Project con Aspose.Tasks per .NET. Questo tutorial ti consente di personalizzare facilmente le strutture del progetto, fornendo un'esperienza fluida nel tuo percorso di gestione del progetto.[Per saperne di più](./outline-values/)
 
 ## Raccolta di valori di struttura in Aspose.Tasks per .NET
  Scopri come gestire i valori di struttura nei file di Microsoft Project utilizzando Aspose.Tasks per .NET. Questo tutorial passo passo include esempi di codice, assicurandoti di poter implementare queste pratiche senza sforzo.[Per saperne di più](./outline-value-collection/)
 
-## Configura la legenda della pagina in Aspose.Tasks per .NET
+## Configurazione della legenda della pagina in Aspose.Tasks per .NET
  La gestione efficiente dei progetti si estende alla configurazione delle legende delle pagine di MS Project in .NET. Questo tutorial, utilizzando Aspose.Tasks, fornisce una guida passo passo su come personalizzare le legende del progetto per un'efficienza ottimale.[Per saperne di più](./page-legend/)
 
 ## Imposta facilmente i margini della pagina di MS Project con Aspose.Tasks per .NET
@@ -60,10 +60,10 @@ Scopri come lavorare con i file di Microsoft Project a livello di codice utilizz
 ### [Raccolta di maschere di contorno in Aspose.Tasks](./outline-mask-collection/)
 Scopri come manipolare le maschere di contorno della raccolta di MS Project utilizzando Aspose.Tasks per .NET. Migliora la produttività con questo tutorial completo.
 ### [Padroneggiare i valori di struttura del progetto MS con Aspose.Tasks](./outline-values/)
-Scopri come gestire i valori di struttura di MS Project in modo efficiente utilizzando Aspose.Tasks per .NET. Personalizza facilmente i contorni del progetto.
+Scopri come gestire i valori della struttura di MS Project in modo efficiente utilizzando Aspose.Tasks per .NET. Personalizza facilmente i contorni del progetto.
 ### [Raccolta di valori di struttura in Aspose.Tasks](./outline-value-collection/)
 Scopri come gestire i valori di struttura nei file di Microsoft Project utilizzando Aspose.Tasks per .NET. Tutorial passo passo con esempi di codice.
-### [Configura la legenda della pagina in Aspose.Tasks](./page-legend/)
+### [Configurazione della legenda della pagina in Aspose.Tasks](./page-legend/)
 Scopri come configurare le legende delle pagine di MS Project in .NET utilizzando Aspose.Tasks per una gestione efficiente dei progetti. Guida passo passo fornita.
 ### [Imposta facilmente i margini della pagina MS Project con Aspose.Tasks](./page-margins/)
 Scopri come regolare i margini della pagina nei file Microsoft Project utilizzando Aspose.Tasks per .NET. Migliora facilmente il layout e la presentazione dei documenti.

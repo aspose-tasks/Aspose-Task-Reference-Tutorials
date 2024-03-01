@@ -25,7 +25,7 @@ Làm quen với các khái niệm cơ bản về ngôn ngữ lập trình C#, ba
 
 ### 3. Cài đặt Aspose.Tasks cho .NET
 
-Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[trang mạng](https://releases.aspose.com/tasks/net/).
+ Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[trang mạng](https://releases.aspose.com/tasks/net/).
 
 ### 4. Làm quen với các khái niệm quản lý dự án
 
@@ -83,7 +83,7 @@ Bước này liên quan đến việc lặp lại bộ sưu tập thuộc tính 
 
 ## Phần kết luận
 
-Tóm lại, Aspose.Tasks cho .NET cung cấp giải pháp toàn diện để quản lý các thuộc tính meta dự án một cách hiệu quả trong các ứng dụng .NET. Bằng cách làm theo các bước được nêu trong hướng dẫn này, các nhà phát triển có thể tích hợp liền mạch các chức năng quản lý dự án vào các dự án phần mềm của họ, nâng cao năng suất và tổ chức.
+Tóm lại, Aspose.Tasks cho .NET cung cấp một giải pháp toàn diện để quản lý các thuộc tính meta dự án một cách hiệu quả trong các ứng dụng .NET. Bằng cách làm theo các bước được nêu trong hướng dẫn này, các nhà phát triển có thể tích hợp liền mạch các chức năng quản lý dự án vào các dự án phần mềm của họ, nâng cao năng suất và tổ chức.
 
 ## Câu hỏi thường gặp
 

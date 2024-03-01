@@ -64,7 +64,7 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 Selamat! Anda telah berhasil menyimpan templat menggunakan Aspose.Tasks untuk .NET, menyesuaikan propertinya sesuai kebutuhan.
 
 ## Kesimpulan
-Dalam tutorial ini, kita menjelajahi cara menyimpan file Microsoft Project sebagai templat menggunakan Aspose.Tasks untuk .NET. Templat sangat berharga untuk menstandardisasi struktur dan pengaturan proyek, menyederhanakan pembuatan proyek di masa depan.
+Dalam tutorial ini, kita menjelajahi cara menyimpan file Microsoft Project sebagai templat menggunakan Aspose.Tasks untuk .NET. Templat sangat berharga untuk menstandardisasi struktur dan pengaturan proyek, serta menyederhanakan pembuatan proyek di masa depan.
 ## FAQ
 ### T: Bisakah saya menyesuaikan data mana yang akan dihapus dari template?
 J: Ya, Anda dapat mengonfigurasi Opsi Simpan Templat untuk menghapus data tertentu seperti biaya tetap, nilai aktual, tarif sumber daya, dan nilai dasar.
@@ -75,4 +75,4 @@ A: Ya, Anda dapat menerapkan template ke proyek yang sudah ada dengan memuat fil
 ### T: Apakah Aspose.Tasks untuk .NET mendukung pengembangan lintas platform?
 J: Aspose.Tasks untuk .NET terutama dirancang untuk aplikasi kerangka .NET yang berjalan pada platform Windows.
 ### T: Apakah dukungan teknis tersedia untuk Aspose.Tasks untuk .NET?
- J: Ya, Anda dapat mencari bantuan teknis dan bimbingan dari komunitas Aspose.Tasks.[forum](https://forum.aspose.com/c/tasks/15) atau hubungi tim dukungan mereka secara langsung.
+ J: Ya, Anda dapat mencari bantuan teknis dan bimbingan dari komunitas Aspose.Tasks[forum](https://forum.aspose.com/c/tasks/15)atau hubungi tim dukungan mereka secara langsung.

@@ -108,4 +108,4 @@ A4 : Oui, comme démontré dans ce didacticiel, vous pouvez définir différents
 
 ### Q5 : Où puis-je trouver de l'aide pour les requêtes liées à Aspose.Tasks ?
 
- A5 : Vous pouvez trouver de l'aide sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) où les experts et les membres de la communauté participent activement aux discussions.
+A5 : Vous pouvez trouver de l'aide sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) où les experts et les membres de la communauté participent activement aux discussions.

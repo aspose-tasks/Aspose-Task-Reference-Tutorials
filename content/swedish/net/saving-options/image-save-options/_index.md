@@ -9,11 +9,11 @@ url: /sv/net/saving-options/image-save-options/
 ---
 
 ## Introduktion
-en värld av mjukvaruutveckling är hantering av projektuppgifter effektivt avgörande för framgångsrik projektledning. Aspose.Tasks för .NET erbjuder en kraftfull lösning för utvecklare som arbetar med Microsoft Project-filer, som låter dem manipulera, konvertera och hantera projektuppgifter sömlöst i sina .NET-applikationer.
+I en värld av mjukvaruutveckling är hantering av projektuppgifter effektivt avgörande för framgångsrik projektledning. Aspose.Tasks för .NET erbjuder en kraftfull lösning för utvecklare som arbetar med Microsoft Project-filer, som låter dem manipulera, konvertera och hantera projektuppgifter sömlöst i sina .NET-applikationer.
 ## Förutsättningar
 Innan du börjar använda Aspose.Tasks för .NET för att spara MS Project-alternativ som bilder, se till att du har följande förutsättningar:
 ### 1. Installera Aspose.Tasks för .NET
- För att börja måste du ha Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Du kan ladda ner biblioteket från[hemsida](https://releases.aspose.com/tasks/net/) och följ installationsanvisningarna.
+För att börja måste du ha Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Du kan ladda ner biblioteket från[hemsida](https://releases.aspose.com/tasks/net/) och följ installationsanvisningarna.
 ### 2. Skaffa en licens (valfritt)
  Medan Aspose.Tasks för .NET kan användas utan licens i utvärderingsläge, rekommenderas att skaffa en licens för full funktionalitet och för att ta bort utvärderingsbegränsningar. Du kan skaffa en licens från[köpsidan](https://purchase.aspose.com/buy) eller välj en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för teständamål.
 ### 3. Grundläggande kunskaper i C# och .NET-utveckling
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## Steg 3: Definiera bildsparalternativ
- Skapa en instans av`ImageSaveOptions` och ange önskade inställningar:
+ Skapa en instans av`ImageSaveOptions`och ange önskade inställningar:
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {

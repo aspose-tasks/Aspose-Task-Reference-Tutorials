@@ -13,7 +13,7 @@ url: /zh/net/tasks-project-management/gridlines-management/
 在我们开始之前，请确保您已设置以下先决条件：
 ### 1.安装Aspose.Tasks for .NET
 要使用 Aspose.Tasks for .NET，您需要将其安装在您的开发环境中。您可以从以下位置下载该库[网站](https://releases.aspose.com/tasks/net/)或通过 NuGet 等包管理器。
-### 2.开发环境
+### 2. 开发环境
 确保您的计算机上设置了 .NET 开发环境。您可以使用 Visual Studio 或您选择的任何其他 .NET IDE。
 ## 导入命名空间
 在深入研究代码之前，让我们导入必要的命名空间来访问 Aspose.Tasks 功能。

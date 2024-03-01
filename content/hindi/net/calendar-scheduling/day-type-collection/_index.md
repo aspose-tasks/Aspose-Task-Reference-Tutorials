@@ -1,6 +1,6 @@
 ---
-title: Aspose में दिवस प्रकार संग्रह का प्रबंधन। कार्य
-linktitle: Aspose में दिवस प्रकार संग्रह का प्रबंधन। कार्य
+title: Aspose.Tasks में दिवस प्रकार संग्रह का प्रबंधन
+linktitle: Aspose.Tasks में दिवस प्रकार संग्रह का प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks में दिन-प्रकार के संग्रहों को कुशलतापूर्वक प्रबंधित करना सीखें। आसानी से कैलेंडर अपवाद बनाएं, संशोधित करें और हेरफेर करें।
 type: docs

@@ -41,7 +41,7 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 Az alábbi lépések követésével könnyedén konfigurálhatja a szerzett értékű MS Project Method Types-t az Aspose.Tasks for .NET használatával.
 
 ## Következtetés
-Összefoglalva, az Aspose.Tasks for .NET használatával szerzett értékkezelési módszerek elsajátítása jelentősen javíthatja projektkezelési képességeit. A projektteljesítmény pontos mérésével és a tervezett célokkal való összehasonlításával megalapozott döntéseket hozhat a projektek sikere felé irányítása érdekében.
+Összefoglalva, az Earned Value Management módszerek elsajátítása az Aspose.Tasks for .NET használatával jelentősen javíthatja projektkezelési képességeit. A projekt teljesítményének pontos mérésével és a tervezett célokkal való összehasonlításával megalapozott döntéseket hozhat a projektek sikere felé.
 ## GYIK
 ### K: Az Aspose.Tasks for .NET hatékonyan tudja kezelni a nagy projektfájlokat?
 V: Igen, az Aspose.Tasks for .NET úgy van optimalizálva, hogy könnyedén kezelje a nagy projektfájlokat, ami nagy teljesítményt és megbízhatóságot biztosít.

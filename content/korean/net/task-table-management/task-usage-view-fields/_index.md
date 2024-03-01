@@ -57,7 +57,7 @@ foreach (var field in fields)
 ### 다른 프로젝트 관리 도구와 함께 Aspose.Tasks for .NET을 사용할 수 있나요?
 Aspose.Tasks는 주로 .NET 애플리케이션에 중점을 둡니다. 그러나 다른 도구와 호환되는 다양한 형식으로 데이터를 내보낼 수 있습니다.
 ### .NET용 Aspose.Tasks에 대한 무료 평가판을 사용할 수 있습니까?
-예, 무료 평가판을 획득하여 .NET용 Aspose.Tasks의 기능을 경험할 수 있습니다[여기](https://releases.aspose.com/).
+ 예, 무료 평가판을 획득하여 .NET용 Aspose.Tasks의 기능을 경험할 수 있습니다[여기](https://releases.aspose.com/).
 ### .NET용 Aspose.Tasks에 대한 지원을 어떻게 받을 수 있나요?
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티 기반 지원을 원하거나 포괄적인 문서를 살펴보세요.
 ### .NET용 Aspose.Tasks에 임시 라이선스를 사용할 수 있나요?

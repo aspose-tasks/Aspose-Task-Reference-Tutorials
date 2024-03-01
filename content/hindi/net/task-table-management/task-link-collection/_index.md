@@ -50,7 +50,7 @@ project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDurat
 ```csharp
 Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
 Console.WriteLine("Task links count: " + project.TaskLinks.Count);
-// कार्य लिंक के माध्यम से पुनरावृति करें
+//कार्य लिंक के माध्यम से पुनरावृति करें
 foreach (var link in project.TaskLinks)
 {
     Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
@@ -80,8 +80,8 @@ foreach (var link in taskLinks)
 ### क्या मैं Aspose.Tasks का उपयोग करके कस्टम कार्य लिंक प्रकार बना सकता हूँ?
 वर्तमान में, Aspose.Tasks मानक कार्य लिंक प्रकारों का समर्थन करता है, और कस्टम लिंक प्रकार उपलब्ध नहीं हैं।
 ### मैं Aspose.Tasks में कार्यों पर प्रतिबंध कैसे लागू कर सकता हूँ?
- आप का उपयोग करके बाधाएँ लागू कर सकते हैं`ConstraintType` की संपत्ति`Task` Aspose में कक्षा। कार्य।
-### क्या प्रोजेक्ट फ़ाइलों के आकार पर कोई सीमाएँ हैं Aspose. कार्य संभाल सकते हैं?
+ आप का उपयोग करके बाधाएँ लागू कर सकते हैं`ConstraintType` की संपत्ति`Task` Aspose.Tasks में कक्षा।
+### क्या प्रोजेक्ट फ़ाइलों के आकार पर कोई सीमाएँ हैं जिन्हें Aspose.Tasks संभाल सकता है?
 Aspose.Tasks न्यूनतम प्रदर्शन प्रभाव के साथ बड़ी परियोजना फ़ाइलों को कुशलतापूर्वक संभाल सकता है।
 ### क्या Aspose.Tasks समर्थन के लिए कोई सामुदायिक मंच है?
  हां, आप समर्थन पा सकते हैं और समुदाय के साथ जुड़ सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).

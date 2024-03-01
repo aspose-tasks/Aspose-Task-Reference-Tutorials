@@ -8,7 +8,7 @@ weight: 13
 url: /tr/net/outline-code-page-settings/outline-code-definition-collection/
 ---
 ## giriiş
-Aspose.Tasks, Microsoft Project belgelerini kolaylıkla ve etkili bir şekilde yönetmek için tasarlanmış güçlü bir .NET kitaplığıdır. Temel özelliklerinden biri, kullanıcıların proje verilerini etkili bir şekilde organize etmesine ve kategorilere ayırmasına olanak tanıyan anahat kodu tanımlarıyla çalışma yeteneğidir. Bu eğitimde Aspose.Tasks for .NET'i kullanarak taslak kod tanımlarıyla nasıl çalışılacağını inceleyeceğiz.
+Aspose.Tasks, Microsoft Project belgelerini kolaylıkla ve etkili bir şekilde yönetmek için tasarlanmış güçlü bir .NET kitaplığıdır. Temel özelliklerinden biri, kullanıcıların proje verilerini etkili bir şekilde organize etmesine ve kategorilere ayırmasına olanak tanıyan taslak kod tanımlarıyla çalışabilmesidir. Bu eğitimde Aspose.Tasks for .NET'i kullanarak taslak kod tanımlarıyla nasıl çalışılacağını inceleyeceğiz.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 1. Temel C# Anlayışı: C# programlama diline aşina olmak faydalı olacaktır.

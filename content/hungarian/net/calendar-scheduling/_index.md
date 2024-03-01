@@ -55,7 +55,7 @@ Tanulja meg az Aspose.Tasks for .NET használatát a projektfájlok hatékony ke
 
 ## CSV-beállítások az Aspose.Tasks-ban
 
- Használja az Aspose.Tasks-t a .NET-hez a CSV-fájlok hatékony kezeléséhez. Fokozza projektkezelési képességeit könnyedén lépésről lépésre bemutatott oktatóanyagok segítségével.[Olvass tovább](./csv-options/)
+ Használja az Aspose.Tasks for .NET-et a CSV-fájlok hatékony kezeléséhez. Fokozza projektkezelési képességeit könnyedén lépésről lépésre bemutatott oktatóanyagok segítségével.[Olvass tovább](./csv-options/)
 
 ## A valuta szimbólumok pozíciói az Aspose.Tasks-ban
 
@@ -100,13 +100,13 @@ Ismerje meg, hogyan kezelheti hatékonyan a naptárgyűjteményeket az Aspose.Ta
 ### [A naptári kivételek kezelése az Aspose.Tasks-ban](./calendar-exceptions/)
 Ismerje meg, hogyan kezelheti a naptárkivételeket az Aspose.Tasks for .NET programban lépésenkénti oktatóanyagok és példák segítségével.
 ### [Naptári kivételek gyűjteménye az Aspose.Tasks-ban](./calendar-exception-collection/)
-Tanulja meg, hogyan kezelheti hatékonyan a naptárkivételeket a .NET-projektekben az Aspose.Tasks segítségével, így biztosítva a pontos ütemezést és az erőforrás-kezelést.
+Tanulja meg, hogyan kezelheti hatékonyan a naptárkivételeket a .NET-projektekben az Aspose.Tasks segítségével, biztosítva a pontos ütemezést és az erőforrás-kezelést.
 ### [Ellenőrizze az áramkört az Aspose.Tasks-ban](./check-circuit/)
 Tanulja meg az Aspose.Tasks for .NET használatát a projektfájlok hatékony kezelésére és elemzésére C# nyelven.
 ### [Gyermekfeladatok gyűjtése az Aspose.Tasks-ban](./child-tasks-collector/)
 Ismerje meg, hogyan gyűjthet hatékonyan gyermekfeladatokat az Aspose.Tasks for .NET használatával. Javítsa a projektmenedzsmentet .NET-alkalmazásaiban.
 ### [Összetett dokumentumfejléc-kivétel kezelése az Aspose.Tasks-ban](./compound-document-header-exception/)
-Ismerje meg, hogyan kezelheti a CompoundDocumentHeaderException kivételt az Aspose.Tasks for .NET-ben. Részletes útmutatást kaphat kódpéldákkal.
+Ismerje meg, hogyan kezelheti a CompoundDocumentHeaderException kivételt az Aspose.Tasks for .NET-ben. Lépésről lépésre útmutatót kaphat kódpéldákkal.
 ### [Kényszertípusok az Aspose.Tasks-ban](./constraint-types/)
 Ismerje meg, hogyan állíthat be kényszertípusokat az Aspose.Tasks for .NET-ben a projekt ütemezésének hatékony kezeléséhez.
 ### [Az Aspose.Tasks beállításai másolása](./copy-options/)
@@ -116,7 +116,7 @@ Ismerje meg, hogyan kezelheti hatékonyan a projekt költségeit az Aspose.Tasks
 ### [CSS Argumentumok mentése az Aspose.Tasks-ban](./css-saving-arguments/)
 Ismerje meg, hogyan mentheti a CSS-argumentumokat az Aspose.Tasks for .NET-ben a HTML-kimenet testreszabásához. Fokozza a prezentációt személyre szabott CSS-beállításokkal.
 ### [CSV-beállítások az Aspose.Tasks-ban](./csv-options/)
-Tanulja meg, hogyan használhatja az Aspose.Tasks for .NET alkalmazást a CSV-fájlokkal való hatékony munkavégzéshez, így könnyedén fejlesztheti projektkezelési képességeit.
+Tanulja meg, hogyan használhatja az Aspose.Tasks for .NET alkalmazást a CSV-fájlok hatékony kezeléséhez, és könnyedén javíthatja projektkezelési képességeit.
 ### [A valuta szimbólumok pozíciói az Aspose.Tasks-ban](./currency-symbol-positions/)
 Az Aspose.Tasks segítségével megtudhatja, hogyan szabályozhatja könnyedén a valutaszimbólum-pozíciókat .NET-projektekben.
 ### [Egyéni mezőtípusok az Aspose.Tasks-ban](./custom-field-types/)

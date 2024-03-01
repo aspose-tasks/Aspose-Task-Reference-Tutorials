@@ -66,6 +66,6 @@ Neste tutorial, exploramos o processo de configuração de padrões de recorrên
 ### Existem pré-requisitos para usar o Aspose.Tasks for .NET?
  Certifique-se de ter um conhecimento prático de C# e .NET, bem como da biblioteca Aspose.Tasks instalada. Baixe[aqui](https://releases.aspose.com/tasks/net/).
 ### Como posso obter suporte para Aspose.Tasks?
- visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e assistência comunitária.
+ Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e assistência comunitária.
 ### Posso experimentar o Aspose.Tasks gratuitamente antes de comprar?
  Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).

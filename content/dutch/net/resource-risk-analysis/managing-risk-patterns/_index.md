@@ -15,7 +15,7 @@ Bij projectmanagement zijn het begrijpen en beperken van risico's cruciaal voor 
 Voordat we dieper ingaan op het beheren van MS Project-risicopatronen met Aspose.Tasks voor .NET, moet u ervoor zorgen dat u over het volgende beschikt:
 
 1. Microsoft Project-bestand: Zorg voor een Microsoft Project-bestand (.mpp) met taken en relevante projectgegevens.
-2. Aspose.Tasks voor .NET: Download en installeer de Aspose.Tasks-bibliotheek voor .NET vanaf de[website](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks voor .NET: Download en installeer de Aspose.Tasks-bibliotheek voor .NET vanaf de[website](https://releases.aspose.com/tasks/net/).
 3. Basiskennis van C#: Bekendheid met de basisprincipes van de programmeertaal C# wordt aanbevolen.
 
 ## Naamruimten importeren
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- In deze stap definiëren we de directory voor het projectdocument en creëren we instellingen voor risicoanalyse. Pas de .... aan`IterationsCount` indien nodig op basis van de complexiteit van het project.
+In deze stap definiëren we de directory voor het projectdocument en creëren we instellingen voor risicoanalyse. Pas de .... aan`IterationsCount` indien nodig op basis van de complexiteit van het project.
 
 ## Stap 2: Project en taak laden
 

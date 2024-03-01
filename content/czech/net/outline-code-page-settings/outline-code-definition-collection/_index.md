@@ -8,7 +8,7 @@ weight: 13
 url: /cs/net/outline-code-page-settings/outline-code-definition-collection/
 ---
 ## Úvod
-Aspose.Tasks je výkonná knihovna .NET navržená pro snadnou a efektivní manipulaci s dokumenty Microsoft Project. Jednou z jeho klíčových funkcí je schopnost pracovat s obrysovými definicemi kódu, což uživatelům umožňuje efektivně organizovat a kategorizovat projektová data. V tomto tutoriálu prozkoumáme, jak pracovat s definicemi osnovy kódu pomocí Aspose.Tasks for .NET.
+Aspose.Tasks je výkonná knihovna .NET navržená pro snadnou a efektivní manipulaci s dokumenty Microsoft Project. Jednou z jeho klíčových funkcí je schopnost pracovat s obrysovými definicemi kódu, což uživatelům umožňuje efektivně organizovat a kategorizovat data projektu. V tomto tutoriálu prozkoumáme, jak pracovat s definicemi osnovy kódu pomocí Aspose.Tasks for .NET.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte následující:
 1. Základní porozumění C#: Výhodou bude znalost programovacího jazyka C#.

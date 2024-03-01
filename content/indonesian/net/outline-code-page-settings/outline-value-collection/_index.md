@@ -1,6 +1,6 @@
 ---
 title: Kelola Nilai Garis Besar Proyek MS dengan Aspose.Tasks
-linktitle: Kumpulan Nilai Garis Besar di Aspose.Tasks
+linktitle: Kumpulan Nilai Garis Besar di Aspose.Tugas
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengelola nilai kerangka dalam file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tutorial langkah demi langkah dengan contoh kode.
 type: docs
@@ -62,7 +62,7 @@ Perbarui nilai kode kerangka:
 codeDefinition.Values[0].Value = "654321";
 ```
 ## Langkah 5: Ulangi Nilai Garis Besar
-Ulangi nilai garis besar dan cetak detailnya:
+Ulangi nilai kerangka dan cetak detailnya:
 ```csharp
 foreach (var definitionValue in codeDefinition.Values)
 {
@@ -96,15 +96,15 @@ foreach (var outlineValue in outlineValues)
 }
 ```
 ## Kesimpulan
-Dalam tutorial ini, kita mempelajari cara bekerja dengan nilai kerangka dalam file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Dengan mengikuti langkah-langkah yang disediakan, Anda dapat mengelola nilai garis besar dalam proyek Anda secara efisien, memungkinkan kontrol dan fleksibilitas yang lebih besar.
+Dalam tutorial ini, kita mempelajari cara bekerja dengan nilai kerangka dalam file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Dengan mengikuti langkah-langkah yang disediakan, Anda dapat mengelola nilai garis besar secara efisien dalam proyek Anda, sehingga memungkinkan kontrol dan fleksibilitas yang lebih besar.
 ## FAQ
 ### T: Dapatkah saya memanipulasi beberapa kode outline secara bersamaan?
 J: Ya, Anda dapat menentukan dan memanipulasi beberapa kode kerangka dalam suatu proyek menggunakan Aspose.Tasks.
 ### T: Apakah Aspose.Tasks kompatibel dengan versi file Microsoft Project yang berbeda?
 J: Ya, Aspose.Tasks mendukung berbagai versi file Microsoft Project, termasuk format MPP dan XML.
-### T: Bagaimana cara menangani kesalahan saat bekerja dengan nilai kerangka?
+### T: Bagaimana cara menangani kesalahan saat bekerja dengan nilai outline?
 J: Anda dapat menerapkan mekanisme penanganan kesalahan seperti blok coba-tangkap untuk mengelola pengecualian dengan baik.
-### T: Dapatkah saya menyesuaikan tampilan nilai garis besar di proyek saya?
+### T: Bisakah saya mengkustomisasi tampilan nilai outline di proyek saya?
 J: Ya, Aspose.Tasks menyediakan API ekstensif untuk menyesuaikan tampilan dan perilaku nilai kerangka sesuai dengan kebutuhan Anda.
 ### T: Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Tasks?
  A: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan komunitas dan menjelajahi[dokumentasi](https://reference.aspose.com/tasks/net/) untuk informasi mendetail tentang API dan fitur.

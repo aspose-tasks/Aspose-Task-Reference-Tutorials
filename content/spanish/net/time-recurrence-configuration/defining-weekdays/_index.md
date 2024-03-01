@@ -68,7 +68,7 @@ Console.WriteLine("Week Day 2 Hash Code: {0}", weekDay2.GetHashCode());
 var project = new Project();
 // Definir un calendario
 var calendar = project.Calendars.Add("Calendar1");
-// Añadir días laborables y días de excepción
+// Añadir días laborables y día de excepción
 // Agregue declaraciones de salida similares para FromDate y ToDate
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));

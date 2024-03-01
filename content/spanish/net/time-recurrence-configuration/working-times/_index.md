@@ -1,6 +1,6 @@
 ---
-title: Configurar tiempos de trabajo en Aspose.Tasks
-linktitle: Configurar tiempos de trabajo en Aspose.Tasks
+title: Configuración de tiempos de trabajo en Aspose.Tasks
+linktitle: Configuración de tiempos de trabajo en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Mejore la programación de proyectos en .NET con Aspose.Tasks. Configure los tiempos de trabajo sin esfuerzo para una gestión precisa de los recursos. ¡Descarga la biblioteca ahora!
 type: docs
@@ -12,8 +12,8 @@ En la gestión de proyectos, el control preciso de los tiempos de trabajo es cru
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de tener lo siguiente:
 - Conocimientos básicos del lenguaje de programación C#.
-- Aspose.Tasks para la biblioteca .NET instalada. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
-- Configure Visual Studio o cualquier entorno de desarrollo C# preferido.
+-  Aspose.Tasks para la biblioteca .NET instalada. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
+- Visual Studio o cualquier entorno de desarrollo C# preferido configurado.
 ## Importar espacios de nombres
 Comience importando los espacios de nombres necesarios para acceder a las funcionalidades de Aspose.Tasks:
 ```csharp

@@ -70,6 +70,6 @@ R: Sí, Aspose.Tasks para .NET es compatible con plataformas Windows y Linux, lo
 ### P3: ¿Puedo extraer dependencias de tareas usando Aspose.Tasks para .NET?
 R: ¡Absolutamente! Aspose.Tasks para .NET proporciona una funcionalidad sólida para extraer no solo información básica del proyecto sino también dependencias de tareas y otros detalles complejos.
 ### P4: ¿Aspose.Tasks para .NET ofrece soporte técnico?
- R: Sí, puede obtener soporte técnico para Aspose.Tasks para .NET a través del[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15), donde puede hacer preguntas y buscar ayuda de expertos.
+ R: Sí, puede obtener soporte técnico para Aspose.Tasks para .NET a través de[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15), donde puede hacer preguntas y buscar ayuda de expertos.
 ### P5: ¿Puedo probar Aspose.Tasks para .NET antes de comprarlo?
  R: ¡Ciertamente! Puede aprovechar una prueba gratuita de Aspose.Tasks para .NET desde el[página de lanzamientos](https://releases.aspose.com/), permitiéndole explorar sus características antes de tomar una decisión de compra.

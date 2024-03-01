@@ -8,11 +8,11 @@ weight: 22
 url: /ko/net/project-management-integration/project-server-credentials/
 ---
 ## 소개
-프로젝트 관리 영역에서는 효과적인 조정과 원활한 의사소통이 성공적인 프로젝트 실행의 핵심입니다. Aspose.Tasks for .NET은 Microsoft Project Server 자격 증명 관리를 위한 포괄적인 솔루션을 제공하여 사용자가 프로젝트 데이터에 안전하게 액세스하고 조작할 수 있도록 합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS Project Server 자격 증명을 관리하는 프로세스를 자세히 살펴보고 사용자에게 원활한 경험을 보장하기 위한 각 단계를 안내합니다.
+프로젝트 관리 영역에서는 효과적인 조정과 원활한 의사소통이 성공적인 프로젝트 실행의 핵심입니다. Aspose.Tasks for .NET은 Microsoft Project Server 자격 증명을 관리하기 위한 포괄적인 솔루션을 제공하여 사용자가 프로젝트 데이터에 안전하게 액세스하고 조작할 수 있도록 합니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS Project Server 자격 증명을 관리하는 프로세스를 자세히 살펴보고 사용자에게 원활한 경험을 보장하기 위한 각 단계를 안내합니다.
 ## 전제조건
-.NET용 Aspose.Tasks를 사용하여 MS Project Server 자격 증명을 관리하는 여정을 시작하기 전에 다음 전제 조건이 충족되는지 확인하세요.
+.NET용 Aspose.Tasks를 사용하여 MS Project Server 자격 증명을 관리하는 과정을 시작하기 전에 다음 전제 조건이 충족되는지 확인하세요.
 ### 1. .NET용 Aspose.Tasks 설치
- 시작하려면 제공된 Aspose.Tasks for .NET을 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/tasks/net/), 설치 지침에 따라 라이브러리를 .NET 환경에 원활하게 통합하세요.
+ 시작하려면 제공된 Aspose.Tasks for .NET을 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/tasks/net/). 설치 지침에 따라 라이브러리를 .NET 환경에 원활하게 통합하세요.
 ### 2. 액세스 자격 증명
 MS Project Server에 액세스하는 데 필요한 자격 증명을 수집합니다. 여기에는 Project Server와 관련된 SharePoint 도메인 주소, 사용자 이름 및 비밀번호가 포함됩니다.
 

@@ -8,7 +8,7 @@ weight: 25
 url: /cs/net/task-table-management/task-usage-view-fields/
 ---
 ## Úvod
-oblasti projektového řízení představuje Aspose.Tasks for .NET robustní řešení, které poskytuje vývojářům výkonnou sadu nástrojů pro manipulaci a správu projektových dat. Jednou z pozoruhodných funkcí je zobrazení využití úkolů, které nabízí pohledy do různých oblastí, které zvyšují viditelnost projektu. V tomto tutoriálu se ponoříme do spletitosti polí zobrazení využití úkolů pomocí Aspose.Tasks pro .NET a rozebereme každý krok pro komplexní pochopení.
+V oblasti projektového řízení představuje Aspose.Tasks for .NET robustní řešení, které poskytuje vývojářům výkonnou sadu nástrojů pro manipulaci a správu projektových dat. Jednou z pozoruhodných funkcí je zobrazení využití úkolů, které nabízí pohledy do různých oblastí, které zvyšují viditelnost projektu. V tomto tutoriálu se ponoříme do spletitosti polí zobrazení využití úkolů pomocí Aspose.Tasks pro .NET a rozebereme každý krok pro komplexní pochopení.
 ## Předpoklady
 Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
 -  Aspose.Tasks for .NET Library: Stáhněte a nainstalujte knihovnu z[Aspose.Tasks pro dokumentaci .NET](https://reference.aspose.com/tasks/net/).
@@ -57,9 +57,9 @@ V tomto tutoriálu jsme prozkoumali bohatost Aspose.Tasks pro .NET se zaměřen�
 ### Mohu používat Aspose.Tasks for .NET s jinými nástroji pro řízení projektů?
 Aspose.Tasks se primárně zaměřuje na aplikace .NET. Data však můžete exportovat do různých formátů kompatibilních s jinými nástroji.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
-Ano, můžete vyzkoušet funkce Aspose.Tasks pro .NET získáním bezplatné zkušební verze[tady](https://releases.aspose.com/).
+ Ano, můžete vyzkoušet funkce Aspose.Tasks pro .NET získáním bezplatné zkušební verze[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu pro Aspose.Tasks pro .NET?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro komunitní podporu nebo prozkoumejte komplexní dokumentaci.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro komunitní podporu nebo prozkoumejte komplexní dokumentaci.
 ### Jsou pro Aspose.Tasks pro .NET dostupné dočasné licence?
  Ano, můžete získat dočasné licence[tady](https://purchase.aspose.com/temporary-license/) pro krátkodobé použití.
 ### Jaké formáty souborů jsou podporovány pro projektové dokumenty?

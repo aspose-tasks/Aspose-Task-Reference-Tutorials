@@ -61,4 +61,4 @@ project.Save(DataDir + "CreateResources_out.xml", SaveFileFormat.Xml);
 ### س: هل يدعم Aspose.Tasks for .NET تصدير بيانات المشروع إلى تنسيقات أخرى غير XML؟
 ج: نعم، يدعم Aspose.Tasks for .NET تصدير بيانات المشروع إلى مجموعة متنوعة من التنسيقات، بما في ذلك MPP وPDF وXLSX وHTML وغيرها.
 ### س: أين يمكنني العثور على مزيد من المساعدة أو الدعم فيما يتعلق بـ Aspose.Tasks لـ .NET؟
-ج: لمزيد من المساعدة أو الدعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) أو الرجوع إلى[توثيق](https://reference.aspose.com/tasks/net/) المقدمة من Aspose.
+ ج: لمزيد من المساعدة أو الدعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) أو الرجوع إلى[توثيق](https://reference.aspose.com/tasks/net/) المقدمة من Aspose.

@@ -47,7 +47,7 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-Assurez-vous de remplacer les valeurs d'espace réservé par vos informations d'identification réelles de base de données.
+Assurez-vous de remplacer les valeurs d'espace réservé par vos informations d'identification de base de données réelles.
 
 ## Étape 2 : configurer MspDbSettings
 
@@ -86,7 +86,7 @@ A1 : Oui, Aspose.Tasks prend en charge différentes versions de bases de donnée
 
 ### Q2 : Comment puis-je résoudre les problèmes de connexion avec la base de données ?
 
-A2 : Assurez-vous que votre chaîne de connexion est correctement configurée avec les informations d'identification et les détails de la base de données appropriés. Vous pouvez également vous référer à la documentation ou demander de l'aide au[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ A2 : Assurez-vous que votre chaîne de connexion est correctement configurée avec les informations d'identification et les détails de la base de données appropriés. Vous pouvez également vous référer à la documentation ou demander de l'aide au[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### Q3 : Existe-t-il une version d’essai disponible pour Aspose.Tasks ?
 

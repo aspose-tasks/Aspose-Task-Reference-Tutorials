@@ -1,5 +1,5 @@
 ---
-title: قم بتكوين MS Project Legends في Aspose.Tasks
+title: تكوين MS Project Legends في Aspose.Tasks
 linktitle: تكوين وسيلة إيضاح الصفحة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين أساطير صفحة MS Project في .NET باستخدام Aspose.Tasks لإدارة المشروعات بكفاءة. دليل خطوة بخطوة المقدمة.
@@ -11,7 +11,7 @@ url: /ar/net/outline-code-page-settings/page-legend/
 في مجال تطوير .NET، تعد إدارة المهام بكفاءة أمرًا بالغ الأهمية، خاصة عند التعامل مع إدارة المشاريع. يظهر Aspose.Tasks for .NET كأداة قوية تقدم عددًا كبيرًا من الوظائف لتبسيط عمليات إدارة المهام. إحدى هذه الميزات هي القدرة على تكوين وسائل إيضاح صفحة MS Project، مما يوفر للمستخدمين رؤى قيمة حول عرض بيانات المشروع.
 ## المتطلبات الأساسية
 قبل الخوض في تكوين وسائل إيضاح صفحات MS Project باستخدام Aspose.Tasks لـ .NET، تأكد من استيفاء المتطلبات الأساسية التالية:
-1.  التثبيت: قم بتثبيت Aspose.Tasks for .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
+1. التثبيت: قم بتثبيت Aspose.Tasks for .NET في بيئة التطوير الخاصة بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
 2. المعرفة الأساسية بـ .NET: تعرف على أساسيات تطوير .NET، بما في ذلك إعداد المشاريع والعمل مع مساحات الأسماء.
 3. بيئة التطوير: استخدم بيئة تطوير متكاملة (IDE) مثل Visual Studio للحصول على تجربة برمجة سلسة.
 4. ملف المشروع: احصل على ملف Microsoft Project (MPP) جاهزًا للتجربة.

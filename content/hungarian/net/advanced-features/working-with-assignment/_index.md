@@ -16,7 +16,7 @@ Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk feladatokkal az Asp
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 
 1.  Az Aspose.Tasks for .NET telepítése: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési link](https://releases.aspose.com/tasks/net/).
-2. A C# és a .NET-keretrendszer alapvető ismerete: A C# programozási nyelv és a .NET-keretrendszer fogalmainak ismerete szükséges a követéshez.
+2. C# és a .NET-keretrendszer alapvető ismerete: A C# programozási nyelv és a .NET-keretrendszer fogalmainak ismerete szükséges a követéshez.
 
 ## Névterek importálása
 
@@ -108,4 +108,4 @@ Ebben az oktatóanyagban megtanultuk, hogyan dolgozhatunk feladatokkal az Aspose
 
 ### 5. kérdés: Hol találok támogatást az Aspose.Tasks-hoz kapcsolódó lekérdezésekhez?
 
- V5: Támogatást találhat a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) ahol a szakértők és a közösség tagjai aktívan részt vesznek a vitákban.
+V5: Támogatást találhat a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) ahol a szakértők és a közösség tagjai aktívan részt vesznek a vitákban.

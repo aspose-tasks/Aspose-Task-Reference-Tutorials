@@ -12,7 +12,7 @@ Gantt-diagram är kraftfulla verktyg som används i projektledning för att visu
 ## Förutsättningar
 Innan du fortsätter, se till att du har följande förutsättningar:
 ### 1. Installation av Aspose.Tasks för .NET
- Se till att du har installerat Aspose.Tasks för .NET. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/tasks/net/)och följ installationsinstruktionerna i dokumentationen[här](https://reference.aspose.com/tasks/net/).
+ Se till att du har installerat Aspose.Tasks för .NET. Du kan ladda ner biblioteket från[här](https://releases.aspose.com/tasks/net/) och följ installationsinstruktionerna i dokumentationen[här](https://reference.aspose.com/tasks/net/).
 ### 2. Microsoft Project File
 Förbered en Microsoft Project-fil (`Project2.mpp`) som du kommer att använda för att arbeta med Gantt-diagramvyer.
 ### 3. Grundläggande kunskaper i C# och .NET Framework
@@ -56,7 +56,7 @@ Låt oss nu anpassa olika aspekter av Gantt-diagramvyn:
 view.BarRounding = false;
 ```
 Detta ställer in om staplarna på Gantt-diagrammet ska avrundas till närmaste dag.
-### Ställ in barstorlek
+### Ställ in stapelstorlek
 ```csharp
 view.BarSize = GanttBarSize.BarSize24;
 ```
@@ -75,13 +75,13 @@ Definierar färgen för icke-arbetstid på Gantt-diagrammet.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Ange om staplar på Gantt-diagrammet måste rullas upp.
+Anger om staplar på Gantt-diagrammet måste rullas upp.
 ### Visa stapeldelningar
 ```csharp
 view.ShowBarSplits = true;
 ```
 Bestämmer om uppgiftsdelningar på Gantt-diagrammet måste visas.
-### visa ritningar
+### Visa ritningar
 ```csharp
 view.ShowDrawings = true;
 ```
@@ -97,7 +97,7 @@ project.Save(DataDir + "WorkWithGanttChartViews_out.pdf", SaveFileFormat.Pdf);
 ```
 Slutligen sparar vi den anpassade Gantt-diagramvyn som en PDF-fil.
 ## Slutsats
-den här handledningen har vi lärt oss hur man arbetar med Gantt-diagramvyer i Aspose.Tasks för .NET. Genom att följa de angivna stegen kan du effektivt manipulera och anpassa Gantt-diagram enligt dina projektkrav.
+I den här handledningen har vi lärt oss hur man arbetar med Gantt-diagramvyer i Aspose.Tasks för .NET. Genom att följa de angivna stegen kan du effektivt manipulera och anpassa Gantt-diagram enligt dina projektkrav.
 ## FAQ's
 ### F: Kan jag anpassa utseendet på Gantt-diagramstaplar ytterligare?
 S: Ja, Aspose.Tasks erbjuder omfattande alternativ för att anpassa utseendet på Gantt-diagramstaplar, inklusive färger, former och storlekar.

@@ -69,7 +69,7 @@ Wyczyść istniejące kryteria grupy, jeśli nie jest ona przeznaczona tylko do 
 group.GroupCriteria.Clear();
 ```
 
-## Krok 5: Dodaj nowe kryteria
+## Krok 5: Dodaj nowe kryterium
 
 Utwórz nowe kryterium grupy i dodaj je do grupy.
 
@@ -125,4 +125,4 @@ O: Oczywiście możesz dodać wiele kryteriów do grupy, przeglądając każde z
 
 ### P5: Jak mogę uzyskać pomoc, jeśli napotkam jakiekolwiek problemy?
 
- Odp.: Jeśli masz jakieś pytania lub napotkasz jakiekolwiek problemy, możesz zwrócić się o pomoc na forum Aspose.Tasks.[Tutaj](https://forum.aspose.com/c/tasks/15).
+ Odp.: Jeśli masz jakieś pytania lub napotkasz jakiekolwiek problemy, możesz zwrócić się o pomoc na forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).

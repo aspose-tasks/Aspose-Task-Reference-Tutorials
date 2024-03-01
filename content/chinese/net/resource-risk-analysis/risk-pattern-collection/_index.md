@@ -105,4 +105,4 @@ settings.Patterns.Clear();
 ### 问：Aspose.Tasks 有试用版吗？
 答：是的，您可以访问 Aspose.Tasks 的免费试用版：[这里](https://releases.aspose.com/)，使您能够在购买前探索其功能。
 ### 问：在哪里可以找到对 Aspose.Tasks 的支持？
-答：您可以在 Aspose.Tasks 论坛上找到全面的支持和帮助。[这里](https://forum.aspose.com/c/tasks/15)，您可以在其中与专家和其他用户互动以解决疑问和问题。
+答：您可以在 Aspose.Tasks 论坛上找到全面的支持和帮助[这里](https://forum.aspose.com/c/tasks/15)，您可以在其中与专家和其他用户互动以解决疑问和问题。

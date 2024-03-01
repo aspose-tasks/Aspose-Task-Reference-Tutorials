@@ -21,7 +21,7 @@ Làm quen với những kiến thức cơ bản về .NET Framework, bao gồm c
 
 ### 2. Cài đặt Aspose.Tasks cho .NET
 
- Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[Liên kết tải xuống](https://releases.aspose.com/tasks/net/)Làm theo hướng dẫn cài đặt được cung cấp để tích hợp thư viện vào môi trường phát triển của bạn.
+ Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[Liên kết tải xuống](https://releases.aspose.com/tasks/net/). Làm theo hướng dẫn cài đặt được cung cấp để tích hợp thư viện vào môi trường phát triển của bạn.
 
 ### 3. Truy cập tài liệu
 
@@ -117,7 +117,7 @@ Trả lời: Có, Aspose.Tasks cho .NET cung cấp các tùy chọn tùy chỉnh
 
 ### Câu hỏi 3: Làm cách nào tôi có thể xử lý các trường hợp ngoại lệ hoặc sửa đổi đối với các tác vụ định kỳ?
 
-Trả lời: Aspose.Tasks for .NET cung cấp các API để xử lý các trường hợp ngoại lệ và sửa đổi đối với các tác vụ định kỳ, đảm bảo tính linh hoạt trong việc quản lý các yêu cầu ngày càng tăng của dự án.
+Trả lời: Aspose.Tasks for .NET cung cấp API để xử lý các trường hợp ngoại lệ và sửa đổi đối với các tác vụ định kỳ, đảm bảo tính linh hoạt trong việc quản lý các yêu cầu ngày càng tăng của dự án.
 
 ### Câu hỏi 4: Aspose.Tasks dành cho .NET có cung cấp hỗ trợ cho các giải pháp quản lý dự án dựa trên đám mây không?
 
@@ -125,4 +125,4 @@ Trả lời: Có, Aspose.Tasks for .NET cung cấp hỗ trợ cho các giải ph
 
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
 
- Trả lời: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/), cho phép bạn khám phá các tính năng của nó trước khi đưa ra quyết định mua hàng.
+Trả lời: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/), cho phép bạn khám phá các tính năng của nó trước khi đưa ra quyết định mua hàng.

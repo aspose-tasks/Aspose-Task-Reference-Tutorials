@@ -60,8 +60,8 @@ url: /zh-hant/net/outline-code-page-settings/
 ### [Aspose.Tasks 中輪廓遮罩的集合](./outline-mask-collection/)
 了解如何使用 Aspose.Tasks for .NET 操作 MS Project 集合大綱遮罩。透過這個綜合教程提高工作效率。
 ### [使用 Aspose.Tasks 掌握 MS 專案大綱值](./outline-values/)
-了解如何使用 Aspose.Tasks for .NET 高效管理 MS Project 大綱值。輕鬆客製化專案大綱。
-### [Aspose.Tasks中大綱值的集合](./outline-value-collection/)
+了解如何使用 Aspose.Tasks for .NET 有效管理 MS Project 大綱值。輕鬆客製化專案大綱。
+### [Aspose.Tasks 中大綱值的集合](./outline-value-collection/)
 了解如何使用 Aspose.Tasks for .NET 管理 Microsoft Project 檔案中的大綱值。帶有程式碼範例的分步教程。
 ### [在Aspose.Tasks中設定頁面圖例](./page-legend/)
 了解如何使用 Aspose.Tasks 在 .NET 中設定 MS Project 頁面圖例，以實現高效率的專案管理。提供逐步指南。

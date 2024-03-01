@@ -56,7 +56,7 @@ Chargez le projet copié dans un autre objet Project.
 var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
 ```
 
-## Étape 4 : Configurer les options de copie
+## Étape 4 : configurer les options de copie
 
 Configurez l'objet CopyToOptions pour spécifier les options de copie. Par exemple, vous pouvez ignorer la copie des données de vue lors de la copie des données de projet communes.
 

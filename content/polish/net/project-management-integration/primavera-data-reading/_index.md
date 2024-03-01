@@ -55,7 +55,7 @@ Console.WriteLine(project.Get(Prj.Name));
 ```
 
 ## Wniosek
-W tym samouczku nauczyliśmy się czytać dane MS Project Primavera za pomocą Aspose.Tasks dla .NET. Wykonując kroki opisane powyżej, możesz łatwo uzyskać dostęp do plików MS Project i programowo nimi manipulować w aplikacjach .NET.
+tym samouczku nauczyliśmy się czytać dane MS Project Primavera za pomocą Aspose.Tasks dla .NET. Wykonując kroki opisane powyżej, możesz łatwo uzyskać dostęp do plików MS Project i programowo nimi manipulować w aplikacjach .NET.
 ## Często zadawane pytania
 ### P: Czy Aspose.Tasks obsługuje duże pliki MS Project Primavera?
 Odp.: Aspose.Tasks został zaprojektowany do wydajnej obsługi dużych plików MS Project, w tym plików Primavera, zapewniając optymalną wydajność i niezawodność.
@@ -64,6 +64,6 @@ O: Tak, Aspose.Tasks obsługuje różne formaty zarządzania projektami, takie j
 ### P: Czy mogę modyfikować i zapisywać zmiany w plikach MS Project Primavera przy użyciu Aspose.Tasks?
 Odp.: Absolutnie! Aspose.Tasks pozwala nie tylko czytać, ale także modyfikować i zapisywać zmiany w plikach MS Project Primavera bezproblemowo w aplikacjach .NET.
 ### P: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks?
- Odp.: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Tasks z[Tutaj](https://releases.aspose.com/) aby zapoznać się z jego funkcjami i możliwościami przed dokonaniem zakupu.
+ Odp.: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Tasks z[Tutaj](https://releases.aspose.com/)aby zapoznać się z jego funkcjami i możliwościami przed dokonaniem zakupu.
 ### P: Gdzie mogę uzyskać wsparcie dla Aspose.Tasks?
- Odp.: W przypadku jakichkolwiek pytań lub pomocy dotyczącej Aspose.Tasks, możesz odwiedzić stronę[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)gdzie możesz uzyskać pomoc od społeczności lub personelu pomocniczego Aspose.## Kompletny kod źródłowy
+ Odp.: W przypadku jakichkolwiek pytań lub pomocy dotyczącej Aspose.Tasks, możesz odwiedzić stronę[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) gdzie możesz uzyskać pomoc od społeczności lub personelu pomocniczego Aspose.## Kompletny kod źródłowy

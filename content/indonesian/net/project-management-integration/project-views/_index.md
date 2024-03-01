@@ -12,7 +12,7 @@ Microsoft Project adalah alat yang ampuh untuk manajemen proyek, memungkinkan pe
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda telah menyiapkan prasyarat berikut:
 ### 1. Instal Aspose.Tasks untuk .NET
- Anda dapat mengunduh dan menginstal Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/), Ikuti petunjuk instalasi yang disediakan untuk menyiapkan perpustakaan di lingkungan pengembangan Anda.
+ Anda dapat mengunduh dan menginstal Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/). Ikuti petunjuk instalasi yang disediakan untuk menyiapkan perpustakaan di lingkungan pengembangan Anda.
 ### 2. Pengetahuan Dasar C# dan .NET Framework
 Biasakan diri Anda dengan bahasa pemrograman C# dan .NET Framework, karena tutorial ini mengasumsikan pemahaman dasar tentang konsep-konsep ini.
 ### 3. File Proyek Microsoft

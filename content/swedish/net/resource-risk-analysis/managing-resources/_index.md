@@ -32,7 +32,7 @@ För att börja, importera de nödvändiga namnrymden till ditt C#-projekt:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
+ Byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
 ## Steg 2: Skapa en ny projektinstans
 ```csharp
 var project = new Project();
@@ -61,4 +61,4 @@ S: Absolut, Aspose.Tasks för .NET erbjuder omfattande funktionalitet för att a
 ### F: Stöder Aspose.Tasks för .NET export av projektdata till andra format än XML?
 S: Ja, Aspose.Tasks för .NET stöder export av projektdata till en mängd olika format, inklusive MPP, PDF, XLSX och HTML, bland andra.
 ### F: Var kan jag hitta ytterligare hjälp eller support för Aspose.Tasks för .NET?
-S: För ytterligare hjälp eller support kan du besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) eller hänvisa till[dokumentation](https://reference.aspose.com/tasks/net/) tillhandahålls av Aspose.
+ S: För ytterligare hjälp eller support kan du besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) eller hänvisa till[dokumentation](https://reference.aspose.com/tasks/net/) tillhandahålls av Aspose.

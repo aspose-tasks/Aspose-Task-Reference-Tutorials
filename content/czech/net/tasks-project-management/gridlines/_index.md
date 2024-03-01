@@ -112,4 +112,4 @@ Odpověď: Ano, Aspose.Tasks for .NET nabízí rozsáhlou dokumentaci a podporu 
 
 ### Q5: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
 
- Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi[Aspose.Tasks pro .NET od](https://forum.aspose.com/c/tasks/15), k prozkoumání jeho funkcí před nákupem.
+ Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi[Aspose.Tasks pro .NET od](https://forum.aspose.com/c/tasks/15). k prozkoumání jeho funkcí před nákupem.

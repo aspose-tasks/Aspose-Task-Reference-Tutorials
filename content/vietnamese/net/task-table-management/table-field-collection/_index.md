@@ -12,7 +12,7 @@ Aspose.Tasks for .NET là một thư viện mạnh mẽ hỗ trợ quản lý d�
 ## Điều kiện tiên quyết
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn đã thiết lập sau:
 - Kiến thức làm việc về ngôn ngữ lập trình C#.
-- Aspose.Tasks cho thư viện .NET đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks cho thư viện .NET đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
 - Môi trường phát triển tích hợp (IDE) như Visual Studio.
 ## Nhập không gian tên
 Trước tiên, hãy đảm bảo rằng bạn đã nhập các không gian tên cần thiết ở đầu tệp C#:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // lặp qua các trường bảng
+    //lặp qua các trường bảng
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -72,7 +72,7 @@ Chỉnh sửa trường bảng mới được thêm bằng cách sử dụng quy
 table.TableFields[idx].WrapHeader = true;
 ```
 ## Bước 7: Xóa trường
-Xóa từng trường trong bảng hoặc xóa toàn bộ bộ sưu tập.
+Xóa từng trường bảng hoặc xóa toàn bộ bộ sưu tập.
 ```csharp
 Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
 // Xóa trường
@@ -108,6 +108,6 @@ Tuyệt đối! Như được hiển thị trong hướng dẫn, bạn có thể
 ### Có bất kỳ cân nhắc cấp phép nào khi sử dụng Aspose.Tasks cho .NET trong một dự án thương mại không?
  Có, bạn cần có giấy phép hợp lệ để sử dụng Aspose.Tasks cho .NET trong một dự án thương mại. Bạn có thể có được giấy phép[đây](https://purchase.aspose.com/buy).
 ### Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp với Aspose.Tasks cho .NET?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ, đặt câu hỏi và cộng tác với cộng đồng.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15)để được hỗ trợ, đặt câu hỏi và cộng tác với cộng đồng.
 ### Có bản dùng thử miễn phí dành cho Aspose.Tasks cho .NET không?
  Có, bạn có thể khám phá các tính năng của Aspose.Tasks for .NET bằng bản dùng thử miễn phí. Tải xuống[đây](https://releases.aspose.com/).

@@ -84,7 +84,7 @@ Bu eğitimde, Aspose.Tasks for .NET'i kullanarak WBS Kod Maskelerini yapılandı
 ### Aspose.Tasks'ı ücretsiz kullanabilir miyim?
  Aspose.Tasks, indirebileceğiniz ücretsiz bir deneme sürümü sunuyor[Burada](https://releases.aspose.com/).
 ### Ek desteği nerede bulabilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)topluluk desteği için.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için.
 ### Geçici lisansı nasıl alabilirim?
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Ayrıntılı belgeler mevcut mu?

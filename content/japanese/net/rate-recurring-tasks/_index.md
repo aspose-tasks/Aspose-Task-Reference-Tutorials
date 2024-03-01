@@ -19,10 +19,10 @@ MS Project のレート管理を合理化したいと考えていますか?私�
 で[Aspose.Tasks で MS プロジェクトのレートをマスターする](./rate-collection/)では、MS Project ファイルでのレート管理の複雑さを詳しく掘り下げます。このチュートリアルは、料金徴収の微妙な違いを理解し、実践的な洞察を提供し、プロジェクトのリソース管理機能を強化するための頼りになるリソースです。
 
 ## Aspose.Tasks での簡単な MS プロジェクトの定期的な間隔
-定期的な間隔を簡単に管理する技術を発見してください。[Aspose.Tasks での簡単な MS プロジェクトの定期的な間隔](./recurring-intervals/)、このチュートリアルでは、Aspose.Tasks for .NET を使用するプロセスを説明し、MS プロジェクト内で繰り返し発生するタスクをシームレスに処理できるようにします。
+定期的な間隔を簡単に管理する技術を発見してください。[Aspose.Tasks での簡単な MS プロジェクトの定期的な間隔](./recurring-intervals/)。このチュートリアルでは、Aspose.Tasks for .NET を使用するプロセスを説明し、MS プロジェクト内で繰り返し発生するタスクをシームレスに処理できるようにします。
 
 ## Aspose.Tasks での定期的なタスク情報の抽出
-MS Project ファイルから定期的なタスク情報を抽出するコツを学びましょう。[Aspose.Tasks での定期的なタスク情報の抽出](./recurring-task-information/)、このチュートリアルでは、.NET 開発者に簡単な統合を提供し、プロジェクト内で繰り返し発生するタスクを効率的に処理できるようにします。
+MS Project ファイルから定期的なタスク情報を抽出するコツを学びましょう。[Aspose.Tasks での定期的なタスク情報の抽出](./recurring-task-information/)。このチュートリアルでは、.NET 開発者に簡単な統合を提供し、プロジェクト内で繰り返し発生するタスクを効率的に処理できるようにします。
 
 ## Aspose.Tasks での定期的なタスクのパラメーターの設定
 で[Aspose.Tasks での定期的なタスクのパラメーターの設定](./recurring-task-parameters/)では、Aspose.Tasks for .NET を使用して Microsoft Project で定期的なタスクのパラメーターを設定する方法に関する包括的なガイドを提供します。定期的なタスクを簡単に設定するための知識を身につけてください。
@@ -31,13 +31,13 @@ MS Project ファイルから定期的なタスク情報を抽出するコツを
 手動によるタスクの削除に別れを告げましょう。[Aspose.Tasks を使用した MS Project タスクの削除](./removing-tasks/) Aspose.Tasks for .NET を使用してプログラムによってタスクを削除するプロセスについて説明します。ステップバイステップのガイドには、シームレスなエクスペリエンスのためのコード例が含まれています。
 
 ## Aspose.Tasks を使用して MS プロジェクトのレポート作成をマスターする
-MS Project レポートの可能性を最大限に引き出します。[Aspose.Tasks を使用して MS プロジェクトのレポート作成をマスターする](./report-types/)、このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project ファイルを操作し、さまざまな種類のレポートを簡単に生成する方法を説明します。
+MS Project レポートの可能性を最大限に引き出します。[Aspose.Tasks を使用して MS プロジェクトのレポート作成をマスターする](./report-types/)。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project ファイルを操作し、さまざまな種類のレポートを簡単に生成する方法を説明します。
 
 ## MS プロジェクト ファイルを Aspose.Tasks にさまざまな形式で保存する
 効率的なプロジェクト管理には、さまざまなファイル形式が含まれます。[MS プロジェクト ファイルを Aspose.Tasks にさまざまな形式で保存する](./save-file-formats/) Aspose.Tasks for .NET を使用して MS Project ファイルをさまざまな形式で保存する手順を説明します。
 
 ## Aspose.Tasks での MS プロジェクト分割パーツの処理
-MS Project での分割パーツの移動が簡単になります。[Aspose.Tasks での MS プロジェクト分割パーツの処理](./split-parts/)、 Aspose.Tasks for .NET を使用して分割された部分を効率的に処理することで、プロジェクト管理ワークフローを強化します。
+MS Project での分割パーツの移動が簡単になります。[Aspose.Tasks での MS プロジェクト分割パーツの処理](./split-parts/)。 Aspose.Tasks for .NET を使用して分割された部分を効率的に処理することで、プロジェクト管理ワークフローを強化します。
 
 ## Aspose.Tasks で MS プロジェクトの分割パーツを収集する
 私たちのチュートリアル[Aspose.Tasks で MS プロジェクトの分割パーツを収集する](./split-part-collection/)は、プロセスを段階的に説明する包括的なガイドです。 MS Project で分割パーツを収集する方法を学び、プロジェクト管理ワークフローを最適化できるようにします。

@@ -27,7 +27,7 @@ url: /ko/net/calendar-scheduling/currency-symbol-positions/
 
 시작하려면 필요한 네임스페이스를 .NET 프로젝트로 가져와야 합니다. 
 
- 포함`Aspose.Tasks` Aspose.Tasks 라이브러리에서 제공하는 클래스와 메서드에 액세스하려면 프로젝트의 네임스페이스를 사용하세요.
+ 포함`Aspose.Tasks`Aspose.Tasks 라이브러리에서 제공하는 클래스와 메서드에 액세스하려면 프로젝트의 네임스페이스를 사용하세요.
 
 ```csharp
 
@@ -37,7 +37,7 @@ url: /ko/net/calendar-scheduling/currency-symbol-positions/
 
 ## 1단계: 프로젝트 파일 로드
 
- 다음을 사용하여 프로젝트 파일을 로드하는 것으로 시작합니다.`Project`클래스 생성자.
+ 다음을 사용하여 프로젝트 파일을 로드하는 것으로 시작합니다.`Project` 클래스 생성자.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

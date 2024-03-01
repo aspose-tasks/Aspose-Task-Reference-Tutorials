@@ -8,7 +8,7 @@ weight: 12
 url: /pl/net/tasks-project-management/extended-attribute-collection/
 ---
 ## Wstęp
-Czy chcesz efektywnie zarządzać rozszerzonymi atrybutami MS Project za pomocą Aspose.Tasks dla .NET? W tym samouczku przeprowadzimy Cię przez ten proces krok po kroku. Zanurzmy się!
+Czy chcesz efektywnie zarządzać rozszerzonymi atrybutami MS Project za pomocą Aspose.Tasks dla .NET? W tym samouczku przeprowadzimy Cię krok po kroku przez ten proces. Zanurzmy się!
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 1. Visual Studio: Zainstaluj Visual Studio w swoim systemie.

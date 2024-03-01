@@ -75,4 +75,4 @@ S: Ja, du kan justera sidvisningsinställningarna oberoende för varje projektfi
 ### F: Är Aspose.Tasks kompatibel med alla versioner av Microsoft Project?
 S: Aspose.Tasks erbjuder kompatibilitet med Microsoft Project 2003 och senare versioner.
 ### F: Var kan jag hitta ytterligare hjälp eller support för Aspose.Tasks?
- A: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)för eventuella frågor eller problem som du stöter på under användning.
+ A: Du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för eventuella frågor eller problem som du stöter på under användning.

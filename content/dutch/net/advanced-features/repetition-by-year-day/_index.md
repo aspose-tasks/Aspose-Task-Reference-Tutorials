@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- In deze stap definiëren we parameters voor onze terugkerende taak. We specificeren de taaknaam, de duur en het herhalingspatroon. Voor jaarlijkse herhaling gebruiken we de`YearlyRecurrencePattern` en stel de herhaling in op de 1e dag van juli met behulp van`ByYearDayRepetition`, Daarnaast definiëren we het herhalingsbereik van 1 juli 2018 tot 1 juli 2019.
+ In deze stap definiëren we parameters voor onze terugkerende taak. We specificeren de taaknaam, de duur en het herhalingspatroon. Voor jaarlijkse herhaling gebruiken we de`YearlyRecurrencePattern` en stel de herhaling in op de 1e dag van juli met behulp van`ByYearDayRepetition`. Daarnaast definiëren we het herhalingsbereik van 1 juli 2018 tot 1 juli 2019.
 
 ## Stap 3: Taak toevoegen aan project
 

@@ -75,4 +75,4 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 ### 问：Aspose.Tasks for .NET 支持跨平台开发吗？
 答：Aspose.Tasks for .NET 主要是为 Windows 平台上运行的 .NET 框架应用程序设计的。
 ### 问：Aspose.Tasks for .NET 是否提供技术支持？
-答：是的，您可以从 Aspose.Tasks 社区寻求技术帮助和指导。[论坛](https://forum.aspose.com/c/tasks/15)或直接联系他们的支持团队。
+答：是的，您可以向 Aspose.Tasks 社区寻求技术帮助和指导[论坛](https://forum.aspose.com/c/tasks/15)或直接联系他们的支持团队。

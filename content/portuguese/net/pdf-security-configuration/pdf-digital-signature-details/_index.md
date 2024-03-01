@@ -1,6 +1,6 @@
 ---
 title: Configure a assinatura digital do MS Project PDF com Aspose.Tasks
-linktitle: Configure detalhes de assinatura digital de PDF em Aspose.Tasks
+linktitle: Configurando detalhes de assinatura digital de PDF em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como configurar detalhes da assinatura digital do Microsoft Project PDF usando Aspose.Tasks for .NET. Garanta a segurança e a autenticidade dos arquivos do seu projeto.
 type: docs

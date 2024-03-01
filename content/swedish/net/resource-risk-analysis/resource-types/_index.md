@@ -2,7 +2,7 @@
 title: Typer av resurser i Aspose.Tasks
 linktitle: Typer av resurser i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Lär dig hur du arbetar med olika typer av resurser i Aspose.Tasks för .NET, inklusive arbets-, material- och kostnadsresurser, genom en steg-för-steg handledning.
+description: Lär dig hur du arbetar med olika typer av resurser i Aspose.Tasks för .NET, inklusive arbets-, material- och kostnadsresurser, genom en steg-för-steg-handledning.
 type: docs
 weight: 14
 url: /sv/net/resource-risk-analysis/resource-types/
@@ -48,7 +48,7 @@ cost.Set(Rsc.Cost, 59.99m);
 Slutligen lägger vi till en kostnadsresurs som heter "Kostnadsresurs" och anger dess typ som ResourceType.Cost. Dessutom ställer vi in kostnadsvärdet till 59,99, vilket representerar det monetära värdet som är kopplat till denna resurs.
 
 ## Slutsats
-den här handledningen har vi utforskat hur man arbetar med olika typer av resurser i Aspose.Tasks för .NET, inklusive arbets-, material- och kostnadsresurser. Genom att följa steg-för-steg-guiden kan du effektivt hantera resurser inom dina projekt programmatiskt.
+I den här handledningen har vi utforskat hur man arbetar med olika typer av resurser i Aspose.Tasks för .NET, inklusive arbets-, material- och kostnadsresurser. Genom att följa steg-för-steg-guiden kan du effektivt hantera resurser inom dina projekt programmatiskt.
 ## FAQ's
 ### F: Kan jag använda Aspose.Tasks för .NET med andra programvaruformat för projekthantering?
 S: Ja, Aspose.Tasks stöder olika format, inklusive Microsoft Project (MPP), Primavera P6 och mer.

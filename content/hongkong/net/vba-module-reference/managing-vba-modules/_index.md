@@ -69,8 +69,8 @@ foreach (var module in project.VbaProject.Modules)
 ### 我可以使用 Aspose.Tasks 以程式設計方式修改 VBA 模組的原始碼嗎？
 絕對地！ Aspose.Tasks 提供的方法不僅可以讀取而且可以更新 VBA 模組的原始碼。
 ### 在哪裡可以找到 Aspose.Tasks 的其他範例和文件？
-訪問[文件](https://reference.aspose.com/tasks/net/)獲取全面的範例和指導。
+參觀[文件](https://reference.aspose.com/tasks/net/)獲取全面的範例和指導。
 ### Aspose.Tasks 是否有免費試用版？
 是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### 對於與 Aspose.Tasks 相關的任何問題，我該如何獲得支援或尋求協助？
-歡迎前來參觀[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持。
+請隨時訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持。

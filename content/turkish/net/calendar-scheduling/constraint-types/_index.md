@@ -70,7 +70,7 @@ Y1: Proje kısıtlamaları, proje zamanlamasındaki bir görevin başlangıç ve
 
 ### S2: Aspose.Tasks kaç tür kısıtlamayı destekliyor?
 
-Cevap2: Aspose.Tasks, Mümkün Olduğunca Kısa Sürede, Mümkün Olduğu Kadar Geç, Şundan Önce Bitirme, Şundan Daha Geç Bitirme, Başlama Tarihi ve Şu Zamanda Bitirmeli dahil olmak üzere çeşitli kısıtlama türlerini destekler.
+Cevap2: Aspose.Tasks, Mümkün Olduğunca Kısa Sürede, Mümkün Olduğu Kadar Geç, Şundan Önce Bitirme, Şundan Daha Geç Bitirme, Başlama Tarihi ve Şu Zamanda Bitirme dahil olmak üzere çeşitli kısıtlama türlerini destekler.
 
 ### S3: Kısıtlamaları aynı anda birden fazla göreve uygulayabilir miyim?
 

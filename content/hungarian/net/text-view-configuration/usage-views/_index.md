@@ -1,6 +1,6 @@
 ---
-title: Konfigurálja a használati nézeteket az Aspose.Tasks alkalmazásban
-linktitle: Konfigurálja a használati nézeteket az Aspose.Tasks alkalmazásban
+title: Használati nézetek konfigurálása az Aspose.Tasks programban
+linktitle: Használati nézetek konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg a feladathasználati nézetek konfigurálását az Aspose.Tasks for .NET alkalmazásban. Javítsa a projekt vizualizációját részletes lépésekkel. Töltse le a könyvtárat most!
 type: docs
@@ -11,7 +11,7 @@ url: /hu/net/text-view-configuration/usage-views/
 Ha Ön .NET-fejlesztő, és szeretné továbbfejleszteni projektkezelési képességeit, az Aspose.Tasks egy hatékony eszköz, amellyel könnyedén kezelheti a Microsoft Project fájlokat. Ebben az oktatóanyagban a használati nézetek konfigurálására fogunk összpontosítani az Aspose.Tasks for .NET használatával. Kövesse a lépést, hogy betekintést nyerjen a feladathasználati nézetek megjelenítésébe a részletekkel a jobb projektvizualizáció érdekében.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
-- Aspose.Tasks könyvtár: Győződjön meg arról, hogy az Aspose.Tasks könyvtár integrálva van a .NET-projektbe. Ha nem, akkor letöltheti[itt](https://releases.aspose.com/tasks/net/) és kövesse a telepítési utasításokat.
+-  Aspose.Tasks könyvtár: Győződjön meg arról, hogy az Aspose.Tasks könyvtár integrálva van a .NET-projektbe. Ha nem, akkor letöltheti[itt](https://releases.aspose.com/tasks/net/) és kövesse a telepítési utasításokat.
 - Dokumentumkönyvtár: Hozzon létre egy könyvtárat, ahol a projekt dokumentumait tárolja. Cserélje le a „Saját dokumentumkönyvtár” elemet a kódrészletekben a dokumentumkönyvtár tényleges elérési útjával.
 ## Névterek importálása
 A megadott kódrészletben bizonyos névterek használatát fogja észrevenni. A zökkenőmentes integráció érdekében feltétlenül vegye fel ezeket a projektbe:

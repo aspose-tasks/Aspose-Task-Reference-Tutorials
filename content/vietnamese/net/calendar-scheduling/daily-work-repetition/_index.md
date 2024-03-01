@@ -36,7 +36,7 @@ Hãy chia ví dụ được cung cấp thành nhiều bước:
 
 ## Bước 1: Tải tệp dự án
 
- Đầu tiên, tải tệp dự án bằng cách sử dụng`Project` lớp học:
+Đầu tiên, tải tệp dự án bằng cách sử dụng`Project` lớp học:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

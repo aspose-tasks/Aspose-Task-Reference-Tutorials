@@ -12,7 +12,7 @@ Bạn đang muốn khai thác sức mạnh của mặt nạ phác thảo của M
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 ### 1. Cài đặt Aspose.Tasks cho .NET
- Đảm bảo rằng bạn đã cài đặt Aspose.Tasks for .NET trong môi trường phát triển của mình. Bạn có thể tải xuống thư viện từ trang web Aspose[đây](https://releases.aspose.com/tasks/net/).
+Đảm bảo rằng bạn đã cài đặt Aspose.Tasks for .NET trong môi trường phát triển của mình. Bạn có thể tải xuống thư viện từ trang web Aspose[đây](https://releases.aspose.com/tasks/net/).
 ### 2. Kiến thức cơ bản về C# và .NET Framework
 Hãy tự làm quen với ngôn ngữ lập trình C# và .NET Framework vì hướng dẫn này sẽ sử dụng cả hai.
 ### 3. Tệp dự án Microsoft
@@ -108,4 +108,4 @@ Trả lời: Có, Aspose.Tasks for .NET tương thích với .NET Core, cho phé
 ### Câu hỏi 4: Aspose.Tasks dành cho .NET có cung cấp tài liệu và hỗ trợ không?
 Đáp: Có, Aspose.Tasks for .NET cung cấp tài liệu toàn diện và hỗ trợ tận tình thông qua trang web và[diễn đàn](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi 5: Có bản dùng thử miễn phí dành cho Aspose.Tasks dành cho .NET không?
- Đáp: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks dành cho .NET từ trang web của họ.[trang mạng](https://releases.aspose.com/tasks/net/), để khám phá các tính năng và chức năng của nó trước khi mua hàng.
+ Đáp: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks dành cho .NET từ trang web của họ.[trang mạng](https://releases.aspose.com/tasks/net/). để khám phá các tính năng và chức năng của nó trước khi mua hàng.

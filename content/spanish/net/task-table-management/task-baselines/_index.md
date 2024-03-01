@@ -65,10 +65,10 @@ Comprenda los datos de fases temporales asociados con la línea base de la tarea
 ### P: ¿Puedo usar Aspose.Tasks con otros frameworks .NET?
 R: Aspose.Tasks es compatible con múltiples marcos .NET, lo que brinda flexibilidad en su entorno de desarrollo.
 ### P: ¿Existe un foro comunitario para soporte de Aspose.Tasks?
-R: Sí, puede encontrar apoyo e interactuar con la comunidad en[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ R: Sí, puede encontrar apoyo e interactuar con la comunidad en[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### P: ¿Cómo puedo obtener una licencia temporal para Aspose.Tasks?
- Una visita[aquí](https://purchase.aspose.com/temporary-license/) para obtener una licencia temporal para Aspose.Tasks.
+ Una visita[aquí](https://purchase.aspose.com/temporary-license/)para obtener una licencia temporal para Aspose.Tasks.
 ### P: ¿Hay tutoriales disponibles más allá de las líneas base de tareas?
- R:Explora el[documentación](https://reference.aspose.com/tasks/net/) para obtener una amplia gama de tutoriales sobre las funciones de Aspose.Tasks.
+ R: Explora el[documentación](https://reference.aspose.com/tasks/net/) para obtener una amplia gama de tutoriales sobre las funciones de Aspose.Tasks.
 ### P: ¿Dónde puedo comprar Aspose.Tasks para .NET?
  R: Puedes comprar Aspose.Tasks cómodamente[aquí](https://purchase.aspose.com/buy).

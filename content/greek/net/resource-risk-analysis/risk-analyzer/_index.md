@@ -58,7 +58,7 @@ var analysisResult = analyzer.Analyze(project);
 var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
 ```
 ## Βήμα 5: Ανάκτηση αποτελεσμάτων ανάλυσης
-Ανακτήστε και εμφανίστε τα αποτελέσματα της ανάλυσης, όπως οι αναμενόμενες τιμές και τα εκατοστημόρια.
+Ανακτήστε και εμφανίστε τα αποτελέσματα της ανάλυσης, όπως αναμενόμενες τιμές και εκατοστημόρια.
 ```csharp
 Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
 Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);

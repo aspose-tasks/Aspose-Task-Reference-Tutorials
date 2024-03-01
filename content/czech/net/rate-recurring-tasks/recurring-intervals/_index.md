@@ -32,7 +32,7 @@ Nyní si každý příklad rozdělíme do několika kroků a podrobně je vysvě
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Zde inicializujeme novou instanci souboru`Project` třídy poskytnutím cesty k souboru aplikace Microsoft Project.
+ Zde inicializujeme novou instanci souboru`Project` třídy poskytnutím cesty k souboru aplikace Microsoft Project.
 ## Krok 2: Nastavte datum stavu:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

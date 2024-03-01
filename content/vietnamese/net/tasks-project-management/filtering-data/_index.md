@@ -12,7 +12,7 @@ Aspose.Tasks for .NET cung cấp chức năng mạnh mẽ để lọc dữ liệ
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 ### 1. Cài đặt Aspose.Tasks cho .NET
- Tải xuống và cài đặt Aspose.Tasks cho .NET từ[trang tải xuống](https://releases.aspose.com/tasks/net/), Làm theo hướng dẫn cài đặt được cung cấp để thiết lập thư viện trong môi trường phát triển của bạn.
+ Tải xuống và cài đặt Aspose.Tasks cho .NET từ[trang tải xuống](https://releases.aspose.com/tasks/net/). Làm theo hướng dẫn cài đặt được cung cấp để thiết lập thư viện trong môi trường phát triển của bạn.
 ### 2. Thiết lập môi trường phát triển của bạn
 Đảm bảo bạn có môi trường phát triển hoạt động cho lập trình .NET. Điều này bao gồm một IDE tương thích như Visual Studio và hiểu biết cơ bản về ngôn ngữ lập trình C#.
 ### 3. Truy cập tệp Microsoft Project mẫu

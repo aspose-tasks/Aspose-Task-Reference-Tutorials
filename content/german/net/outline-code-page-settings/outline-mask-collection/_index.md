@@ -12,7 +12,7 @@ Möchten Sie die Leistungsfähigkeit der Gliederungsmasken von Microsoft Project
 ## Voraussetzungen
 Bevor Sie mit diesem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 ### 1. Installation von Aspose.Tasks für .NET
- Stellen Sie sicher, dass Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung installiert ist. Sie können die Bibliothek von der Aspose-Website herunterladen[Hier](https://releases.aspose.com/tasks/net/).
+Stellen Sie sicher, dass Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung installiert ist. Sie können die Bibliothek von der Aspose-Website herunterladen[Hier](https://releases.aspose.com/tasks/net/).
 ### 2. Grundkenntnisse in C# und .NET Framework
 Machen Sie sich mit der Programmiersprache C# und dem .NET Framework vertraut, da in diesem Tutorial beide verwendet werden.
 ### 3. Microsoft Project-Datei
@@ -108,4 +108,4 @@ A: Auf jeden Fall! Sie können Umrissmasken anpassen, indem Sie ihre Länge, Ebe
 ### F4: Bietet Aspose.Tasks für .NET Dokumentation und Support?
 A: Ja, Aspose.Tasks für .NET bietet umfassende Dokumentation und engagierten Support über seine Website und[Foren](https://forum.aspose.com/c/tasks/15).
 ### F5: Gibt es eine kostenlose Testversion für Aspose.Tasks für .NET?
- A: Ja, Sie können dort auf eine kostenlose Testversion von Aspose.Tasks für .NET zugreifen[Webseite](https://releases.aspose.com/tasks/net/), um die Merkmale und Funktionalitäten zu erkunden, bevor Sie einen Kauf tätigen.
+ A: Ja, Sie können dort auf eine kostenlose Testversion von Aspose.Tasks für .NET zugreifen[Webseite](https://releases.aspose.com/tasks/net/). um die Merkmale und Funktionalitäten zu erkunden, bevor Sie einen Kauf tätigen.

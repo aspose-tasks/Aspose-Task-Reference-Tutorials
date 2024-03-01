@@ -11,7 +11,7 @@ url: /ko/net/saving-options/primavera-xml-save-options/
 프로젝트 관리 및 작업 처리 영역에서 Aspose.Tasks for .NET은 강력한 동맹으로 등장합니다. 이 라이브러리는 개발자에게 .NET 애플리케이션 내에서 프로젝트 데이터를 손쉽게 조작하는 데 필요한 도구를 제공합니다. 주목할만한 기능 중 하나는 Primavera XML 파일과 상호 작용하여 프로젝트 정보 처리에 있어 원활한 경험을 제공하는 기능입니다.
 ## 전제조건
 .NET용 Aspose.Tasks를 활용하여 MS 프로젝트 옵션을 Primavera XML 형식으로 저장하는 복잡한 과정을 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-1.  설치: 개발 환경에 Aspose.Tasks for .NET 라이브러리를 설치하세요. 그렇지 않은 경우 다음에서 다운로드하십시오.[여기](https://releases.aspose.com/tasks/net/)설명서에 제공된 설치 지침을 따르십시오.[여기](https://reference.aspose.com/tasks/net/).
+1.  설치: 개발 환경에 Aspose.Tasks for .NET 라이브러리를 설치하세요. 그렇지 않은 경우 다음에서 다운로드하십시오.[여기](https://releases.aspose.com/tasks/net/) 설명서에 제공된 설치 지침을 따르십시오.[여기](https://reference.aspose.com/tasks/net/).
 2. .NET Framework에 대한 지식: 이 자습서에서 설명하는 개념을 이해하려면 .NET Framework 및 C# 프로그래밍 언어에 대한 기본적인 이해가 필요합니다.
 3. MS 프로젝트 파일: Microsoft Project 파일을 준비합니다(`project.xml`) Primavera XML 형식으로 저장하려는 파일입니다.
 

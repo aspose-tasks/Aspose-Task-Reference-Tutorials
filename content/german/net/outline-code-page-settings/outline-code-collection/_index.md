@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Bearbeiten Sie die Gliederungscodes nach Bedarf, z. B. Einfügen, Entfernen oder Löschen.
 ```csharp
 // Beispiel einer Manipulation
-// ,
+// ...
 // Geben Sie den Code mit 2 an der rechten Position ein
 task.OutlineCodes.Insert(2, code2);
 // Überprüfen Sie, ob der Code eingegeben wurde

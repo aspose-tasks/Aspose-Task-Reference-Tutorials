@@ -27,7 +27,7 @@ url: /ar/net/vba-module-reference/vba-module-collections/
 // المسار إلى دليل المستندات.
 String DataDir = "Your Document Directory";
 ```
- تأكد من استبدال`"Your Document Directory"` مع المسار الفعلي إلى دليل مستند المشروع الخاص بك.
+ تأكد من استبدال`"Your Document Directory"`مع المسار الفعلي إلى دليل مستند المشروع الخاص بك.
 ## الخطوة 2: تحميل المشروع والوصول إلى مشروع VBA
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -65,7 +65,7 @@ foreach (var unused in modules)
 ### هل يمكنني استخدام Aspose.Tasks لـ .NET مع لغات البرمجة الأخرى؟
 يدعم Aspose.Tasks بشكل أساسي لغات .NET مثل C#. ومع ذلك، هناك إصدارات Java متاحة للتوافق بين اللغات.
 ### هل تتوفر نسخة تجريبية مجانية من Aspose.Tasks لـ .NET؟
-نعم، يمكنك تنزيل النسخة التجريبية المجانية من[هنا](https://releases.aspose.com/).
+ نعم، يمكنك تنزيل النسخة التجريبية المجانية من[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Tasks؟
  قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للحصول على دعم المجتمع أو فكر في شراء خطة دعم.
 ### هل التراخيص المؤقتة متاحة؟

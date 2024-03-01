@@ -155,4 +155,4 @@ R4: Sí, Aspose.Tasks admite la lectura y escritura de archivos de Microsoft Pro
 
 ### P5: ¿Existe una versión de prueba disponible de Aspose.Tasks para .NET?
 
- R5: Sí, puede obtener una prueba gratuita de Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/).
+R5: Sí, puede obtener una prueba gratuita de Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/).

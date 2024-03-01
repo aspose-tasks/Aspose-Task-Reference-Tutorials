@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks を使用して Microsoft Project ビューをマスターする
-linktitle: Aspose.Tasks でビューを構成する
+linktitle: Aspose.Tasks でのビューの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して Microsoft Project ビューをマスターします。プロジェクト管理エクスペリエンスを簡単にカスタマイズおよび合理化します。
 type: docs

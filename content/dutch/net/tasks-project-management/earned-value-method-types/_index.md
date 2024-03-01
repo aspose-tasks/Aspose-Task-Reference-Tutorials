@@ -52,4 +52,4 @@ A: Ja, u kunt gebruikmaken van een gratis proefversie van Aspose.Tasks voor .NET
 ### Vraag: Ondersteunt Aspose.Tasks voor .NET tijdelijke licenties?
  A: Ja, er zijn tijdelijke licenties beschikbaar voor Aspose.Tasks voor .NET. U kunt ze verkrijgen bij:[Tijdelijke licentie](https://purchase.aspose.com/temporary-license/)
 ### Vraag: Waar kan ik Aspose.Tasks voor .NET kopen?
- A: U kunt Aspose.Tasks voor .NET kopen via de website:[aankoop](https://purchase.aspose.com/buy).
+ A: U kunt Aspose.Tasks voor .NET kopen via de website:[Aankoop](https://purchase.aspose.com/buy).

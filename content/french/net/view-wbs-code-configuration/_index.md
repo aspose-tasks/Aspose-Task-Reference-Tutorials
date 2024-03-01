@@ -12,7 +12,7 @@ url: /fr/net/view-wbs-code-configuration/
 
 Bienvenue dans le guide complet sur Aspose.Tasks pour .NET View et WBS Code Configuration. Dans cet article, nous approfondirons les subtilités de la maîtrise des vues Microsoft Project et des codes WBS à l'aide d'Aspose.Tasks, vous fournissant les outils nécessaires pour personnaliser et rationaliser votre expérience de gestion de projet sans effort.
 
-## Configurer les vues dans Aspose.Tasks
+## Configuration des vues dans Aspose.Tasks
 
  Lorsqu’il s’agit de gestion de projet, disposer d’une vue claire et personnalisable est crucial. Avec[Aspose.Tâches](./configuring-views/)vous pouvez maîtriser les vues Microsoft Project sans effort. Ce didacticiel vous guide tout au long du processus de personnalisation et de rationalisation de vos vues de projet, améliorant ainsi votre expérience globale de gestion de projet. Dites adieu à l’approche universelle et adoptez un système personnalisé et efficace.
 
@@ -28,21 +28,21 @@ Bienvenue dans le guide complet sur Aspose.Tasks pour .NET View et WBS Code Conf
 
  Une gestion de projet efficace commence par la maîtrise des codes WBS. Dans[Aspose.Tâches](./wbs-code-definitions/), nous vous proposons un tutoriel complet pour maîtriser sans effort les codes WBS. Rationalisez vos flux de travail dès aujourd'hui en comprenant les concepts fondamentaux des définitions de code WBS, garantissant ainsi une expérience de gestion de projet transparente.
 
-## Configurer les masques de code WBS dans Aspose.Tasks
+## Configuration des masques de code WBS dans Aspose.Tasks
 
  Dans[Configuration des masques de code WBS](./wbs-code-masks/), nous explorons les processus étape par étape dans les projets .NET à l'aide d'Aspose.Tasks. Améliorez facilement vos capacités de gestion de projet en personnalisant les masques de code WBS. Ce didacticiel vous permet de comprendre les nuances de la configuration des masques pour répondre aux exigences uniques de votre projet.
 
 ## Collection de masques de code WBS dans Aspose.Tasks
 
- Faites passer votre gestion de projet au niveau supérieur avec Aspose.Tasks pour .NET. Le[collection de masques de code WBS](./wbs-code-mask-collection/) Le didacticiel fournit des informations sur la création, la gestion et le transfert sans effort de masques de code WBS. Élevez vos compétences en gestion de projet et adaptez les masques de code WBS en fonction de l'évolution des besoins de votre projet.
+ Faites passer votre gestion de projet au niveau supérieur avec Aspose.Tasks pour .NET. Le[collection de masques de code WBS](./wbs-code-mask-collection/) Le didacticiel fournit des informations sur la création, la gestion et le transfert de masques de code WBS sans effort. Élevez vos compétences en gestion de projet et adaptez les masques de code WBS en fonction de l'évolution des besoins de votre projet.
 
 ## Définition de séquences WBS dans Aspose.Tasks
 
- Renforcez la gestion de votre projet avec Aspose.Tasks pour .NET en toute transparence[définition des séquences wbs](./wbs-sequences/), Ce didacticiel vous guide tout au long du processus, améliorant ainsi l'efficacité sans effort. Maîtrisez l'art d'organiser et de structurer vos projets avec des séquences WBS définies, garantissant une expérience de gestion de projet fluide et rationalisée.
+ Renforcez la gestion de votre projet avec Aspose.Tasks pour .NET en toute transparence[définition de séquences WBS](./wbs-sequences/). Ce didacticiel vous guide tout au long du processus, améliorant ainsi l'efficacité sans effort. Maîtrisez l'art d'organiser et de structurer vos projets avec des séquences WBS définies, garantissant une expérience de gestion de projet fluide et rationalisée.
 
 En conclusion, ces didacticiels constituent votre ressource incontournable pour maîtriser Aspose.Tasks pour les vues .NET et les codes WBS. Téléchargez-le maintenant et libérez le potentiel de personnalisation, de rationalisation et d'amélioration de votre expérience de gestion de projet sans effort. Dites bonjour à une nouvelle ère de visualisation et de gestion efficaces de projets !
 ## Tutoriels de configuration de la vue Aspose.Tasks et du code WBS
-### [Configurer les vues dans Aspose.Tasks](./configuring-views/)
+### [Configuration des vues dans Aspose.Tasks](./configuring-views/)
 Maîtrisez les vues Microsoft Project avec Aspose.Tasks pour .NET. Personnalisez et rationalisez votre expérience de gestion de projet sans effort.
 ### [Collection de vues dans Aspose.Tasks](./view-collection/)
 Explorez Aspose.Tasks pour .NET et maîtrisez l'art de gérer les vues MS Project sans effort. Téléchargez-le maintenant pour une expérience de gestion de projet fluide.
@@ -50,7 +50,7 @@ Explorez Aspose.Tasks pour .NET et maîtrisez l'art de gérer les vues MS Projec
 Améliorez la visualisation du projet avec Aspose.Tasks pour .NET. Apprenez à gérer les colonnes de la vue MS Project étape par étape. Boostez l’efficacité et la personnalisation.
 ### [Définition des définitions de code WBS dans Aspose.Tasks](./wbs-code-definitions/)
 Aspose.Tasks pour .NET permet une gestion de projet efficace. Maîtrisez les codes WBS sans effort grâce à notre tutoriel complet. Rationalisez les flux de travail dès aujourd'hui !
-### [Configurer les masques de code WBS dans Aspose.Tasks](./wbs-code-masks/)
+### [Configuration des masques de code WBS dans Aspose.Tasks](./wbs-code-masks/)
 Explorez la configuration étape par étape des masques de code WBS dans les projets .NET à l'aide d'Aspose.Tasks. Améliorez les capacités de gestion de projet sans effort.
 ### [Collection de masques de code WBS dans Aspose.Tasks](./wbs-code-mask-collection/)
 Améliorez la gestion de projet avec Aspose.Tasks pour .NET. Apprenez à créer, gérer et transférer des masques de code WBS sans effort dans ce didacticiel complet.

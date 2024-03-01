@@ -57,9 +57,9 @@ Dalam tutorial ini, kita menjelajahi kekayaan Aspose.Tasks untuk .NET, dengan fo
 ### Bisakah saya menggunakan Aspose.Tasks untuk .NET dengan alat manajemen proyek lainnya?
 Aspose.Tasks terutama berfokus pada aplikasi .NET. Namun, Anda dapat mengekspor data ke berbagai format yang kompatibel dengan alat lain.
 ### Apakah uji coba gratis tersedia untuk Aspose.Tasks untuk .NET?
-Ya, Anda dapat merasakan fungsionalitas Aspose.Tasks untuk .NET dengan mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
+ Ya, Anda dapat merasakan fungsionalitas Aspose.Tasks untuk .NET dengan mendapatkan uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks untuk .NET?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan berbasis komunitas atau jelajahi dokumentasi komprehensif.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan berbasis komunitas atau jelajahi dokumentasi komprehensif.
 ### Apakah lisensi sementara tersedia untuk Aspose.Tasks untuk .NET?
  Ya, Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/) untuk penggunaan jangka pendek.
 ### Format file apa yang didukung untuk dokumen proyek?

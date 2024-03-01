@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## Krok 1: Zdefiniuj katalog dokumentów
-Upewnij się, że masz wyznaczony katalog na swoje dokumenty. zastępować`"Your Document Directory"` ze ścieżką do żądanego katalogu.
+ Upewnij się, że masz wyznaczony katalog na swoje dokumenty. Zastępować`"Your Document Directory"` ze ścieżką do żądanego katalogu.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Krok 2: Załaduj plik projektu
- Załaduj plik Microsoft Project (.mpp) za pomocą`Project` klasa.
+Załaduj plik Microsoft Project (.mpp) za pomocą`Project` klasa.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

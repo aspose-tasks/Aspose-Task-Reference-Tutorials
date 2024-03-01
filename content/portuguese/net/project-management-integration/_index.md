@@ -21,9 +21,9 @@ Aprenda como formatar apresentações do MS Project sem esforço usando Aspose.T
 ## Lendo dados do MS Project Primavera com Aspose.Tasks
  Desbloqueie a capacidade de ler dados do MS Project Primavera usando Aspose.Tasks for .NET. Nosso tutorial[aqui](./primavera-data-reading/) orienta você durante o processo com exemplos de código, facilitando a recuperação de dados.
 
-jornada não termina aqui; Explore uma infinidade de tutoriais que abrangem tudo, desde o tratamento de linhas de progresso e o domínio dos dados do projeto até a configuração de opções de exibição e o gerenciamento contínuo do MS Project Server. Mergulhe nos tutoriais Aspose.Tasks for .NET para desbloquear todo o potencial de seus recursos de gerenciamento de projetos.
+jornada não termina aqui; explore uma infinidade de tutoriais que abrangem tudo, desde o tratamento de linhas de progresso e o domínio dos dados do projeto até a configuração de opções de exibição e o gerenciamento contínuo do MS Project Server. Mergulhe nos tutoriais Aspose.Tasks for .NET para desbloquear todo o potencial de seus recursos de gerenciamento de projetos.
 
- Pronto para personalizar visualizações do MS Project, gerenciar credenciais de servidor e extrair informações do projeto sem esforço? Siga nossos guias em[Personalizando visualizações do MS Project](./project-views/), [Gerenciando credenciais do MS Project Server](./project-server-credentials/) ,e[Extraindo informações do MS Project](./project-information/) para insights aprofundados.
+ Pronto para personalizar visualizações do MS Project, gerenciar credenciais de servidor e extrair informações do projeto sem esforço? Siga nossos guias em[Personalizando visualizações do MS Project](./project-views/), [Gerenciando credenciais do MS Project Server](./project-server-credentials/) , e[Extraindo informações do MS Project](./project-information/) para insights aprofundados.
 
  Lide perfeitamente com exceções do MS Project Online, automatize tarefas de projeto e melhore a eficiência do gerenciamento de projetos com tutoriais sobre[Gerenciando exceções do MS Project Online](./project-online-exceptions/) e[Gerenciando o MS Project Server com Aspose.Tasks](./project-server-management/).
 
@@ -40,13 +40,13 @@ Aprenda como definir as configurações do banco de dados MS Project Primavera n
 Aprenda como ler dados do MS Project Primavera usando Aspose.Tasks for .NET. Guia passo a passo com exemplos de código.
 ### [Usando o MS Project Primavera XML Reader em Aspose.Tasks](./primavera-xml-reader/)
 Aprenda como utilizar o MS Project Primavera XML Reader no Aspose.Tasks for .NET para gerenciar dados do projeto de forma eficaz. Obtenha orientação passo a passo e explore as perguntas frequentes.
-### [Configurar opções de impressão do MS Project em Aspose.Tasks](./print-options/)
+### [Configurando opções de impressão do MS Project em Aspose.Tasks](./print-options/)
 Aprenda como configurar as opções de impressão do MS Project perfeitamente usando Aspose.Tasks for .NET. Aprimore seus recursos de gerenciamento de projetos.
 ### [Lidando com linhas de progresso do MS Project com Aspose.Tasks](./progress-lines/)
 Aprenda como manipular linhas de progresso em arquivos do MS Project usando Aspose.Tasks for .NET, aprimorando a visualização e o gerenciamento do projeto.
 ### [Dominando os dados do projeto com Aspose.Tasks](./project-data/)
 Aprenda como manipular dados do Microsoft Project usando Aspose.Tasks em .NET. Crie tarefas, adicione recursos e salve projetos com facilidade.
-### [Configurar opções de exibição do MS Project em Aspose.Tasks](./project-display-options/)
+### [Configurando opções de exibição do MS Project em Aspose.Tasks](./project-display-options/)
 Aprenda como configurar as opções de exibição do MS Project programaticamente usando Aspose.Tasks for .NET. Personalize a aparência do seu projeto sem esforço.
 ### [Dominando o manuseio de arquivos do MS Project com Aspose.Tasks](./project-file-formats/)
 Desbloqueie o poder da manipulação de arquivos do Microsoft Project com Aspose.Tasks for .NET. Mergulhe na integração e no gerenciamento perfeitos.

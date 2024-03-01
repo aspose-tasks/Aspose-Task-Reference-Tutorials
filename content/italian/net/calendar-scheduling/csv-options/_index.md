@@ -71,7 +71,7 @@ A1: Aspose.Tasks per .NET è progettato per gestire in modo efficiente progetti 
 
 ### Q2: È disponibile una prova gratuita per Aspose.Tasks per .NET?
 
- A2: Sì, puoi ottenere una prova gratuita di Aspose.Tasks per .NET da[sito web](https://releases.aspose.com/tasks/net/)per valutarne le caratteristiche prima di effettuare l'acquisto.
+ A2: Sì, puoi ottenere una prova gratuita di Aspose.Tasks per .NET da[sito web](https://releases.aspose.com/tasks/net/) per valutarne le caratteristiche prima di effettuare l'acquisto.
 
 ### Q3: Aspose.Tasks per .NET supporta più piattaforme?
 

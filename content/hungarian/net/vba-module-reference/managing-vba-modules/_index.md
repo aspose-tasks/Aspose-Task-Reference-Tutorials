@@ -69,8 +69,8 @@ Igen, az Aspose.Tasks támogatja a Microsoft Project fájlok különféle verzi�
 ### Módosíthatom a VBA-modulok forráskódját programozottan az Aspose.Tasks segítségével?
 Teljesen! Az Aspose.Tasks módszereket biztosít a VBA-modulok forráskódjának nemcsak olvasásához, hanem frissítéséhez is.
 ### Hol találhatok további példákat és dokumentációt az Aspose.Tasks-hoz?
- meglátogatni a[dokumentáció](https://reference.aspose.com/tasks/net/) átfogó példákért és útmutatásért.
+ Meglátogatni a[dokumentáció](https://reference.aspose.com/tasks/net/) átfogó példákért és útmutatásért.
 ### Elérhető az Aspose.Tasks ingyenes próbaverziója?
- Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
+Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást vagy kérhetek segítséget az Aspose.Tasks-szal kapcsolatos problémákhoz?
- Látogassa meg bátran[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15)közösségi támogatásért.
+Nyugodtan látogassa meg a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért.

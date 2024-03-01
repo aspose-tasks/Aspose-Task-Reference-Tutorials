@@ -9,7 +9,7 @@ url: /id/
 is_root: true
 ---
 
-Mulailah eksplorasi komprehensif kemampuan manajemen proyek di berbagai bahasa pemrograman dengan Daftar Tutorial Aspose.Tasks kami. Apakah Anda bekerja dengan Aspose.Tasks untuk .NET, Java, C,, atau bahasa lainnya, kumpulan tutorial pilihan ini dirancang untuk memberdayakan pengembang di setiap level. Dari konsep dasar hingga teknik tingkat lanjut, setiap tutorial memberikan panduan langkah demi langkah, memungkinkan Anda memanfaatkan potensi penuh Aspose.Tasks dalam bahasa pilihan Anda. Selami repositori kami yang kaya dan tingkatkan keterampilan manajemen proyek Anda di berbagai platform dan lingkungan pengkodean. Mari menavigasi beragam lanskap tutorial Aspose.Tasks bersama-sama!
+Mulailah eksplorasi komprehensif kemampuan manajemen proyek di berbagai bahasa pemrograman dengan Daftar Tutorial Aspose.Tasks kami. Apakah Anda bekerja dengan Aspose.Tasks untuk .NET, Java, C++, atau bahasa lainnya, kumpulan tutorial pilihan ini dirancang untuk memberdayakan pengembang di setiap level. Dari konsep dasar hingga teknik tingkat lanjut, setiap tutorial memberikan panduan langkah demi langkah, memungkinkan Anda memanfaatkan potensi penuh Aspose.Tasks dalam bahasa pilihan Anda. Selami repositori kami yang kaya dan tingkatkan keterampilan manajemen proyek Anda di berbagai platform dan lingkungan pengkodean. Mari menavigasi beragam lanskap tutorial Aspose.Tasks bersama-sama!
 
 ## Aspose.Tugas untuk Tutorial .NET
 {{% alert color="primary" %}}
@@ -34,3 +34,27 @@ Ini adalah tautan ke beberapa sumber yang bermanfaat:
 - [Opsi Format File Aspose.Tasks](./net/file-format-options/)
 - [Konfigurasi Keamanan PDF Aspose.Tasks](./net/pdf-security-configuration/)
 - [Manajemen Lisensi Aspose.Tasks](./net/license-management/)
+
+## Aspose.Tugas untuk Tutorial Java
+{{% alert color="primary" %}}
+Selamat datang di gerbang manajemen proyek Java yang ditingkatkan! Mulailah perjalanan dengan Aspose.Tasks untuk Java, di mana tutorial dan contoh komprehensif kami mendefinisikan ulang cara Anda menangani alur kerja proyek. Dari menguasai pengecualian kalender hingga integrasi VBA yang lancar, kami telah mengumpulkan banyak sumber daya untuk memberdayakan pengembang di semua tingkatan. Bergabunglah dengan kami saat kami mempelajari seluk-beluk manajemen proyek, menawarkan panduan langkah demi langkah dan membuka potensi penuh Aspose.Tasks untuk Java. Bersiaplah untuk mengoptimalkan proyek Anda, menyederhanakan alur kerja, dan meningkatkan keterampilan pengembangan Java Anda!
+{{% /alert %}}
+
+Ini adalah tautan ke beberapa sumber yang bermanfaat:
+
+- [Pengecualian Kalender](./java/calendar-exceptions/)
+- [Kalender](./java/calendars/)
+- [Mata uang](./java/currency/)
+- [Rumus](./java/formulas/)
+- [Properti Proyek](./java/project-properties/)
+- [Properti Mata Uang](./java/currency-properties/)
+- [Konfigurasi Proyek](./java/project-configuration/)
+- [Manajemen proyek](./java/project-management/)
+- [Pembacaan Data Proyek](./java/project-data-reading/)
+- [Operasi File Proyek](./java/project-file-operations/)
+- [Penugasan Sumber Daya](./java/resource-assignments/)
+- [Pengelolaan sumber daya](./java/resource-management/)
+- [Dasar Tugas](./java/task-baselines/)
+- [Tautan Tugas](./java/task-links/)
+- [Properti Tugas](./java/task-properties/)
+- [Integrasi VBA](./java/vba-integration/)

@@ -71,6 +71,6 @@ Absolument! Aspose.Tasks offre une flexibilité dans la définition des codes WB
 ### Existe-t-il une version d'essai disponible ?
  Oui, vous pouvez[téléchargez un essai gratuit](https://releases.aspose.com/) pour explorer les fonctionnalités avant de faire un achat.
 ### Comment puis-je obtenir le soutien de la communauté pour Aspose.Tasks ?
- visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour entrer en contact avec la communauté et demander de l'aide.
+ Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour entrer en contact avec la communauté et demander de l'aide.
 ### Des licences temporaires sont-elles disponibles ?
  Oui, vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) à des fins de tests.

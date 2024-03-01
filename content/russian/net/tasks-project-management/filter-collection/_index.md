@@ -1,6 +1,6 @@
 ---
 title: Эффективно управляйте фильтрами проектов MS с помощью Aspose.Tasks
-linktitle: Управление коллекцией фильтров в Aspose.Задачи
+linktitle: Управление коллекцией фильтров в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять коллекциями фильтров MS Project с помощью Aspose.Tasks для .NET.
 type: docs
@@ -50,7 +50,7 @@ foreach (var filter in project.ResourceFilters)
     Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + filter.ShowRelatedSummaryRows);
 }
 ```
-## Шаг 4. Очистите и скопируйте фильтры
+## Шаг 4. Очистите и скопируйте фильтры
 ```csharp
 var otherProject = new Project(DataDir + "Blank2010.mpp");
 // Очистить фильтры других проектов
@@ -78,7 +78,7 @@ if (!otherProject.TaskFilters.Contains(customFilter))
     }
 }
 ```
-## Шаг 6. Удалите все фильтры.
+## Шаг 6. Удалите все фильтры
 ```csharp
 // Удалить все фильтры
 List<Filter> filtersToDelete = otherProject.TaskFilters.ToList();

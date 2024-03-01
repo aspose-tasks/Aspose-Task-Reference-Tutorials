@@ -56,7 +56,7 @@ var pattern2 = new RiskPattern(task2)
     ConfidenceLevel = ConfidenceLevel.CL75
 };
 ```
-## Étape 4 : Ajouter des modèles aux paramètres
+## Étape 4 : ajouter des modèles aux paramètres
 Ajoutez les modèles de risque créés aux paramètres :
 ```csharp
 settings.Patterns.Add(pattern1);
@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Étape 8 : Effacer les modèles
 Effacez la collection de motifs individuellement ou complètement :
 ```csharp
-// enlèvement individuel
+// Suppression individuelle
 settings.Patterns.Clear();
 ```
 

@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- قم بتحميل ملف المشروع باستخدام ملف`Project` منشئ الفئة، وتحديد مسار الملف.
+ قم بتحميل ملف المشروع باستخدام ملف`Project`منشئ الفئة، وتحديد مسار الملف.
 
 ## الخطوة 2: جمع كافة مهام المشروع
 
@@ -117,4 +117,4 @@ foreach (var task in collection)
 
 ### س5: هل يوجد منتدى مجتمعي أو قناة دعم متاحة لمستخدمي Aspose.Tasks؟
 
- ج5: نعم، يمكنك الوصول إلى منتدى مجتمع Aspose.Tasks.[هنا](https://forum.aspose.com/c/tasks/15) لأية استفسارات أو مساعدة.
+ ج5: نعم، يمكنك الوصول إلى منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15) لأية استفسارات أو مساعدة.

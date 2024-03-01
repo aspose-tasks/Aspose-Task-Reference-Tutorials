@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Manipulez les codes hiérarchiques selon vos besoins, par exemple en les insérant, en les supprimant ou en les effaçant.
 ```csharp
 // Exemple de manipulation
-// ,
+// ...
 // Insérez le code avec 2 dans la bonne position
 task.OutlineCodes.Insert(2, code2);
 // Vérifiez si le code a été inséré

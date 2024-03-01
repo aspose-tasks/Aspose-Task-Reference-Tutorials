@@ -32,7 +32,7 @@ Ange först sökvägen till din Microsoft Project-fil:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- byta ut`"Your Document Directory"` med sökvägen till din projektfil.
+ Byta ut`"Your Document Directory"` med sökvägen till din projektfil.
 ## Steg 2: Hämta information om uppgiftsgrupper
 Hämta sedan information om uppgiftsgrupper i projektet:
 ```csharp

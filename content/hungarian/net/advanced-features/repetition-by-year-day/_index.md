@@ -9,7 +9,7 @@ url: /hu/net/advanced-features/repetition-by-year-day/
 ---
 ## Bevezetés
 
-A projektmenedzsment területén a hatékony feladatütemezés és az ismétlődés kulcsszerepet játszik az időben történő végrehajtás és a zökkenőmentes munkafolyamat biztosításában. Az Aspose.Tasks for .NET robusztus megoldást kínál a fejlesztők számára az alkalmazásokon belüli ismétlődő feladatok könnyed kezelésére. Ebben az oktatóanyagban az Aspose.Tasks használatával végzett éves napi ismétlésekkel végzett munka bonyolultságába ásunk bele, átfogó útmutatót nyújtva az éves minták alapján ismétlődő feladatok létrehozásához.
+projektmenedzsment területén a hatékony feladatütemezés és az ismétlődés kulcsszerepet játszik az időben történő végrehajtás és a zökkenőmentes munkafolyamat biztosításában. Az Aspose.Tasks for .NET robusztus megoldást kínál a fejlesztők számára az alkalmazásokon belüli ismétlődő feladatok könnyed kezelésére. Ebben az oktatóanyagban elmélyülünk az Aspose.Tasks használatával végzett évnapos ismétlésekkel végzett munka bonyolultságában, amely átfogó útmutatót nyújt az ismétlődő feladatok éves mintákon alapuló létrehozásához.
 
 ## Előfeltételek
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- Ebben a lépésben paramétereket adunk meg ismétlődő feladatunkhoz. Megadjuk a feladat nevét, időtartamát és ismétlődési mintáját. Évenkénti ismétlődés esetén a`YearlyRecurrencePattern` és állítsa be az ismétlést július 1. napjára a használatával`ByYearDayRepetition`, Ezenkívül meghatározzuk az ismétlődési tartományt 2018. július 1. és 2019. július 1. között.
+ Ebben a lépésben paramétereket adunk meg ismétlődő feladatunkhoz. Megadjuk a feladat nevét, időtartamát és ismétlődési mintáját. Évenkénti ismétlődés esetén a`YearlyRecurrencePattern` és állítsa be az ismétlést július 1. napjára a használatával`ByYearDayRepetition`. Ezenkívül meghatározzuk az ismétlődési tartományt 2018. július 1. és 2019. július 1. között.
 
 ## 3. lépés: Feladat hozzáadása a projekthez
 

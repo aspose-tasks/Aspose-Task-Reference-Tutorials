@@ -13,7 +13,7 @@ Quản lý giấy phép là một khía cạnh quan trọng của việc sử d�
 Trước khi chúng tôi đi sâu vào quản lý giấy phép với Aspose.Tasks trong .NET, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
 - Hiểu biết cơ bản về ngôn ngữ lập trình C# và .NET framework.
 - Đã cài đặt Aspose.Tasks cho .NET.
-- Truy cập vào tệp giấy phép Aspose.Tasks hợp lệ (`.lic`,
+- Truy cập vào tệp giấy phép Aspose.Tasks hợp lệ (`.lic`).
 ## Nhập không gian tên
 Trước khi có thể bắt đầu sử dụng Aspose.Tasks trong dự án .NET của mình, bạn cần nhập các vùng tên cần thiết. Các không gian tên này cung cấp quyền truy cập vào các lớp và phương thức cần thiết để quản lý giấy phép.
 

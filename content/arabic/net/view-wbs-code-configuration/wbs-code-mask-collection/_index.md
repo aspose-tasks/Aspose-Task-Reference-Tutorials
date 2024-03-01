@@ -22,7 +22,7 @@ url: /ar/net/view-wbs-code-configuration/wbs-code-mask-collection/
     using System.Collections.Generic;
     
 ```
-## 1. تهيئة المشروع وتعريف كود WBS
+## 1. تهيئة المشروع وتعريف رمز WBS
 ```csharp
 var project = new Project();
 project.WBSCodeDefinition = new WBSCodeDefinition();
@@ -132,7 +132,7 @@ foreach (var childTask in otherChildTasks)
 ### س: هل يمكنني استخدام Aspose.Tasks لـ .NET مع لغات البرمجة الأخرى؟
 ج: يدعم Aspose.Tasks بشكل أساسي لغات .NET، ولكن يمكنك استكشاف خيارات التشغيل التفاعلي مع اللغات الأخرى.
 ### س: هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ .NET؟
- ج: نعم، يمكنك تنزيل النسخة التجريبية.[هنا](https://releases.aspose.com/).
+ ج: نعم، يمكنك تنزيل النسخة التجريبية[هنا](https://releases.aspose.com/).
 ### س: كيف يمكنني طلب المساعدة أو الإبلاغ عن المشكلات المتعلقة بـ Aspose.Tasks لـ .NET؟
  ج: قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) للدعم والمناقشات.
 ### س: ما هو الغرض من رموز WBS في إدارة المشاريع؟

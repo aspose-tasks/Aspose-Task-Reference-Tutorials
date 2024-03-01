@@ -26,7 +26,7 @@ using Aspose.Tasks.Saving;
 // Cesta k adresáři dokumentů.
 String DataDir = "Your Document Directory";
 ```
- nahradit`"Your Document Directory"` s cestou, kde se nachází váš dokument MSP.
+ Nahradit`"Your Document Directory"` s cestou, kde se nachází váš dokument MSP.
 ## Krok 2: Načtěte dokument MSP
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -45,10 +45,10 @@ var options = new XpsOptions
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ```
- Nakonec jsme zavolali`Save` metoda na`Project` objekt, určující cestu k výstupnímu souboru a dříve nakonfigurovaný objekt`XpsOptions`.
+ Nakonec zavoláme`Save` metoda na`Project` objekt, určující cestu k výstupnímu souboru a dříve nakonfigurovaný objekt`XpsOptions`.
 
 ## Závěr
-Závěrem lze říci, že Aspose.Tasks for .NET zjednodušuje proces programového převodu dokumentů Microsoft Project do formátu XPS. Podle kroků uvedených v tomto kurzu mohou vývojáři bez problémů integrovat tuto funkci do svých aplikací .NET a snadno tak zlepšit pracovní postupy řízení projektů.
+Závěrem lze říci, že Aspose.Tasks for .NET zjednodušuje proces programového převodu dokumentů Microsoft Project do formátu XPS. Podle kroků popsaných v tomto tutoriálu mohou vývojáři bez problémů integrovat tuto funkci do svých aplikací .NET a snadno tak zlepšit pracovní postupy řízení projektů.
 ## FAQ
 ### Otázka: Dokáže Aspose.Tasks for .NET zpracovat složité soubory MSP?
 Odpověď: Ano, Aspose.Tasks for .NET dokáže efektivně zpracovávat složité soubory Microsoft Project a zajišťuje přesnou konverzi do různých formátů.

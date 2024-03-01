@@ -68,7 +68,7 @@ options.DigitalSignatureDetails = signatureDetails;
 ```
 ## Шаг 7. Сохраните проект с подробностями шифрования.
 ```csharp
-// Сохраните проект с указанными данными шифрования.
+// сохранить проект с указанными данными шифрования
 project.Save(DataDir + "WorkWithPdfEncryptionDetails_out.pdf", options);
 ```
 ## Заключение

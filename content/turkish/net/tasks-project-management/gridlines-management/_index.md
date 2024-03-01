@@ -13,7 +13,7 @@ Projeleri verimli bir şekilde yönetmek çoğu zaman zaman çizelgelerini ve g�
 Başlamadan önce aşağıdaki önkoşulları oluşturduğunuzdan emin olun:
 ### 1. Aspose.Tasks for .NET'i yükleyin
 Aspose.Tasks for .NET ile çalışmak için geliştirme ortamınızda kurulu olması gerekir. Kütüphaneyi adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/tasks/net/) veya NuGet gibi paket yöneticileri aracılığıyla.
-### 2.Geliştirme Ortamı
+### 2. Geliştirme Ortamı
 Makinenizde bir .NET geliştirme ortamının kurulu olduğundan emin olun. Visual Studio'yu veya seçtiğiniz herhangi bir .NET IDE'yi kullanabilirsiniz.
 ## Ad Alanlarını İçe Aktar
 Koda dalmadan önce Aspose.Tasks işlevlerine erişmek için gerekli ad alanlarını içe aktaralım.

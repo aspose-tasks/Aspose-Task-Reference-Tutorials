@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 var resource = project.Resources.GetById(1);
 ```
 
- Vervolgens hebben we toegang tot de resource waarop we het kostentoerekeningstype willen toepassen. Wij gebruiken de`GetById` methode van`Resources` collection en geef de resource-ID door als argument.
+ Vervolgens hebben we toegang tot de resource waarop we het kostentoerekeningstype willen toepassen. Wij gebruiken de`GetById` werkwijze van de`Resources` collection en geef de resource-ID door als argument.
 
 ## Stap 3: Stel het kostentoerekeningstype in
 
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Hier stellen we het kostentoerekeningstype voor de resource in. In dit voorbeeld stellen we dit in op`CostAccrualType.End`, wat betekent dat de kosten pas worden opgebouwd als het resterende werk nul is.
+Hier stellen we het kostentoerekeningstype voor de resource in. In dit voorbeeld stellen we dit in op`CostAccrualType.End`, wat betekent dat de kosten pas worden opgebouwd als het resterende werk nul is.
 
 ## Stap 4: Werk met het project
 
@@ -73,7 +73,7 @@ A1: Ja, u kunt de resourceverzameling doorlopen en het kostentoerekeningstype vo
 
 ### Vraag 2: Wat zijn naast 'Einde' de andere beschikbare typen kostentoerekening?
 
- A2: Aspose.Tasks voor .NET biedt verschillende andere typen kostentoerekening, zoals`Start`, `Prorated` ,En`Duration`.
+A2: Aspose.Tasks voor .NET biedt verschillende andere typen kostentoerekening, zoals`Start`, `Prorated` , En`Duration`.
 
 ### V3: Hoe kan ik het huidige kostentoerekeningstype voor een resource bepalen?
 

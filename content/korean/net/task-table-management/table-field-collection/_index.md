@@ -12,7 +12,7 @@ Aspose.Tasks for .NET은 Microsoft Project 파일 작업을 위한 광범위한 
 ## 전제조건
 시작하기 전에 다음이 설정되어 있는지 확인하세요.
 - C# 프로그래밍 언어에 대한 실무 지식.
-- .NET 라이브러리용 Aspose.Tasks가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
+-  .NET 라이브러리용 Aspose.Tasks가 설치되었습니다. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
 - Visual Studio와 같은 IDE(통합 개발 환경).
 ## 네임스페이스 가져오기
 먼저 C# 파일 시작 부분에 필요한 네임스페이스를 가져왔는지 확인하세요.
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // 테이블 필드 반복
+    //테이블 필드 반복
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -105,9 +105,9 @@ else
 예, Aspose.Tasks는 다양한 버전의 Microsoft Project 파일을 지원하여 호환성과 유연성을 보장합니다.
 ### 런타임 중에 테이블 필드를 동적으로 생성하고 수정할 수 있습니까?
 전적으로! 튜토리얼에 표시된 대로 필요에 따라 테이블 필드를 동적으로 추가, 삽입, 편집 및 제거할 수 있습니다.
-### 상업용 프로젝트에서 Aspose.Tasks for .NET을 사용하기 위한 라이선스 고려 사항이 있나요?
+### 상업용 프로젝트에서 Aspose.Tasks for .NET을 사용하기 위한 라이선스 고려 사항이 있습니까?
  예, 상업용 프로젝트에서 Aspose.Tasks for .NET을 사용하려면 유효한 라이선스가 필요합니다. 라이센스를 취득하실 수 있습니다[여기](https://purchase.aspose.com/buy).
 ### .NET용 Aspose.Tasks에 대한 지원을 받거나 도움을 받으려면 어떻게 해야 합니까?
- 방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지원을 받고, 질문하고, 커뮤니티와 협력할 수 있습니다.
+ 방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)지원을 받고, 질문하고, 커뮤니티와 협력할 수 있습니다.
 ### .NET용 Aspose.Tasks에 대한 무료 평가판이 있습니까?
  예, 무료 평가판을 통해 Aspose.Tasks for .NET의 기능을 탐색할 수 있습니다. 다운로드 해[여기](https://releases.aspose.com/).

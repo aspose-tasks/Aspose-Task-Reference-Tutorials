@@ -10,7 +10,7 @@ url: /ko/net/task-table-management/task-start-date-types/
 역동적인 프로젝트 관리 세계에서는 작업에 대한 올바른 시작 날짜를 설정하는 것이 중요합니다. Aspose.Tasks for .NET은 작업 시작 날짜 유형을 쉽게 구성할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 원활한 통합을 보장하기 위해 프로세스를 간단한 단계로 나누어 프로세스를 안내합니다.
 ## 전제조건
 작업 시작 날짜 유형 구성을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
--  .NET용 Aspose.Tasks: .NET용 Aspose.Tasks 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드하십시오.[다운로드 링크](https://releases.aspose.com/tasks/net/).
+- .NET용 Aspose.Tasks: .NET용 Aspose.Tasks 라이브러리가 설치되어 있는지 확인하세요. 그렇지 않은 경우 다음에서 다운로드하십시오.[다운로드 링크](https://releases.aspose.com/tasks/net/).
 - .NET 환경: 이 튜토리얼에서는 사용자가 .NET 환경에 대한 실무 지식을 가지고 있다고 가정합니다.
 - 문서 디렉터리: 코드 조각의 "문서 디렉터리"를 실제 문서 디렉터리의 경로로 바꿉니다.
 ## 네임스페이스 가져오기
@@ -45,7 +45,7 @@ Aspose.Tasks for .NET에서 작업 시작 날짜 유형을 구성하는 것은 �
 ### Q1: 개별 작업에 대해 특정 시작 날짜를 설정할 수 있나요?
 예, Aspose.Tasks for .NET을 사용하여 각 작업의 시작 날짜를 개별적으로 사용자 정의할 수 있습니다.
 ### Q2: Aspose.Tasks for .NET에 사용할 수 있는 무료 평가판이 있습니까?
-예, 무료 평가판을 통해 Aspose.Tasks의 기능을 탐색할 수 있습니다[여기](https://releases.aspose.com/).
+ 예, 무료 평가판을 통해 Aspose.Tasks의 기능을 탐색할 수 있습니다[여기](https://releases.aspose.com/).
 ### Q3: Aspose.Tasks에 대한 지원을 받으려면 어떻게 해야 합니까?
  Aspose.Tasks 포럼을 방문하세요[여기](https://forum.aspose.com/c/tasks/15) 커뮤니티 지원을 받거나 Aspose 팀의 도움을 구하세요.
 ### Q4: Aspose.Tasks에 대한 종합 문서는 어디서 찾을 수 있나요?

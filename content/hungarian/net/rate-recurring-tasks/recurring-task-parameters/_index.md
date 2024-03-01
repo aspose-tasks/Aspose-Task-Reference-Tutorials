@@ -26,12 +26,12 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával.
+ Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával.
 ## 2. lépés: Töltse be a projektfájlt
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- Ez a kódsor betölti a Microsoft Project fájlt a`project` változók.
+ Ez a kódsor betölti a Microsoft Project fájlt a`project` változó.
 ## 3. lépés: Határozza meg az ismétlődő feladatparamétereket
 ```csharp
 var parameters = new RecurringTaskParameters

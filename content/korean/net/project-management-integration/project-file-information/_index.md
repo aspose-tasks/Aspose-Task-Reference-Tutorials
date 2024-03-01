@@ -50,7 +50,7 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 ## FAQ
 ### Aspose.Tasks는 다양한 버전의 Microsoft Project 파일을 처리할 수 있나요?
 예, Aspose.Tasks는 MPP 및 XML 형식을 포함하여 다양한 버전의 Microsoft Project 파일을 지원합니다.
-### Aspose.Tasks는 .NET Core와 호환됩니까?
+### Aspose.Tasks는 .NET Core와 호환되나요?
 예, Aspose.Tasks는 .NET Framework 및 .NET Core와 모두 호환됩니다.
 ### Aspose.Tasks를 사용하여 프로젝트 데이터를 조작할 수 있나요?
 물론 Aspose.Tasks는 프로젝트 데이터를 프로그래밍 방식으로 읽고, 쓰고, 조작할 수 있는 광범위한 기능을 제공합니다.

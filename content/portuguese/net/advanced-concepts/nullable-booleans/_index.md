@@ -9,7 +9,7 @@ url: /pt/net/advanced-concepts/nullable-booleans/
 ---
 ## Introdução
 
- Neste tutorial, nos aprofundaremos no trabalho com booleanos anuláveis em Aspose.Tasks for .NET. Booleanos anuláveis oferecem flexibilidade na representação de valores booleanos, permitindo a possibilidade de serem indefinidos. Exploraremos como usar o`NullableBool` classe, seus construtores, propriedades e métodos.
+Neste tutorial, nos aprofundaremos no trabalho com booleanos anuláveis em Aspose.Tasks for .NET. Booleanos anuláveis oferecem flexibilidade na representação de valores booleanos, permitindo a possibilidade de serem indefinidos. Exploraremos como usar o`NullableBool` classe, seus construtores, propriedades e métodos.
 
 ## Pré-requisitos
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Agora, vamos dividir cada exemplo em várias etapas.
 
-##  trabalhando com`NullableBool`
+##  Trabalhando com`NullableBool`
 
 ###  Passo 1: Crie um novo`Project` instance.
 
@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Etapa 4: use o`NullableBool` instance by setting it in the project.
+###  Etapa 4: utilize o`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Etapa 6: exibir a representação de string do`NullableBool` object.
+###  Etapa 6: exibir a representação de string do`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Etapa 2: imprima o código hash para cada`NullableBool` object.
+### Etapa 2: imprima o código hash para cada`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Conclusão
 
- Neste tutorial, exploramos como lidar com booleanos anuláveis em Aspose.Tasks for .NET. Ao usar o`NullableBool` classe e seus métodos, você pode gerenciar valores booleanos com eficiência com a flexibilidade adicional de ser anulável.
+ Neste tutorial, exploramos como lidar com booleanos anuláveis em Aspose.Tasks for .NET. Ao utilizar o`NullableBool` classe e seus métodos, você pode gerenciar valores booleanos com eficiência com a flexibilidade adicional de ser anulável.
 
 ## Perguntas frequentes
 

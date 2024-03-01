@@ -11,7 +11,7 @@ url: /th/net/task-table-management/managing-tasks/
 หากคุณเป็นนักพัฒนา .NET ที่ต้องการจัดการงานภายในโครงการของคุณอย่างมีประสิทธิภาพ Aspose.Tasks สำหรับ .NET มอบโซลูชันที่มีประสิทธิภาพ บทช่วยสอนนี้จะแนะนำคุณเกี่ยวกับแง่มุมต่างๆ ของการจัดการงานโดยใช้ Aspose.Tasks โดยเสนอคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด ไม่ว่าคุณจะเพิ่มงาน แสดงส่วนที่แยก ย้ายงานภายใต้พาเรนต์เดียวกัน รับ/ตั้งค่าคุณสมบัติของงาน วนซ้ำการมอบหมายงาน การอ่านเส้นฐานของงาน หรือลบงาน คู่มือนี้ก็มีครอบคลุมทุกอย่างแล้ว
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
-1.  Aspose.Tasks สำหรับ .NET Library: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Tasks สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks สำหรับ .NET Library: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Tasks สำหรับ .NET แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/tasks/net/).
 2. ไดเร็กทอรีเอกสาร: ตั้งค่าไดเร็กทอรีที่จะจัดเก็บเอกสารโครงการของคุณ
 ## นำเข้าเนมสเปซ
 ในโปรเจ็กต์ .NET ของคุณ ให้รวมเนมสเปซที่จำเป็นเพื่อทำงานกับ Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // โหลดโปรเจ็กต์ที่มีงานแยก
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//เข้าถึงงาน
+// เข้าถึงงาน
 var task = project.RootTask.Children.GetById(4);
 // แสดงการแบ่งส่วน
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // เพิ่มงาน
 var task = project.RootTask.Children.Add("Task");
-// แสดงจำนวนงานก่อนและหลังการลบ
+//แสดงจำนวนงานก่อนและหลังการลบ
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // ลบงาน
 task.Delete();

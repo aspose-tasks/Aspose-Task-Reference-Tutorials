@@ -32,7 +32,7 @@ Tout d'abord, spécifiez le chemin d'accès à votre fichier Microsoft Project 
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- remplacer`"Your Document Directory"` avec le chemin d'accès à votre fichier de projet.
+ Remplacer`"Your Document Directory"` avec le chemin d'accès à votre fichier de projet.
 ## Étape 2 : Récupérer les informations sur les groupes de tâches
 Ensuite, récupérez les informations sur les groupes de tâches du projet :
 ```csharp

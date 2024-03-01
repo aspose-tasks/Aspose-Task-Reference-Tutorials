@@ -1,6 +1,6 @@
 ---
-title: Configureer MS Project Risicoanalyse in Aspose.Tasks
-linktitle: Configureer risicoanalyse-instellingen in Aspose.Tasks
+title: Configureren van MS Project Risicoanalyse in Aspose.Tasks
+linktitle: Risicoanalyse-instellingen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-risicoanalyse-instellingen configureert met Aspose.Tasks voor .NET. Verbeter de efficiëntie van projectmanagement met geavanceerde risicobeoordelingstechnieken.
 type: docs
@@ -80,7 +80,7 @@ Stel het betrouwbaarheidsniveau in om de zekerheid van schattingen te bepalen.
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Initialiseer een`RiskAnalyzer` objectief te zijn en risicoanalyses uit te voeren op het project.
+ Initialiseer een`RiskAnalyzer` bezwaar maken en risicoanalyses uitvoeren op het project.
 ## Stap 12: Analyseresultaten ophalen
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

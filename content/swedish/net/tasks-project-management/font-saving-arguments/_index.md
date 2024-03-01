@@ -60,7 +60,7 @@ args.KeepStreamOpen = false;
 ```
 
 ## Slutsats
-I den här handledningen har vi täckt processen för att spara teckensnitt i MS Project-filer med Aspose.Tasks för .NET. Genom att följa stegen som beskrivs ovan kan du sömlöst integrera funktioner för att spara teckensnitt i dina .NET-applikationer, vilket förbättrar dina arbetsflöden för projektledning.
+I den här handledningen har vi täckt processen för att spara teckensnitt i MS Project-filer med Aspose.Tasks för .NET. Genom att följa stegen som beskrivs ovan kan du sömlöst integrera funktioner för att spara teckensnitt i dina .NET-applikationer, vilket förbättrar dina projektledningsarbetsflöden.
 ## FAQ's
 ### Kan jag använda Aspose.Tasks för .NET utan licens?
 Nej, du behöver en giltig licens för att använda Aspose.Tasks för .NET i dina applikationer. Du kan dock få en tillfällig licens för utvärderingsändamål.

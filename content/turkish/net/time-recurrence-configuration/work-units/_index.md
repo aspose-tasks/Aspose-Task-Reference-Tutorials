@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks'ta İş Birimi Kullanımında Uzmanlaşmak
-linktitle: Aspose.Tasks'ta İş Birimlerinin Yönetimi
+linktitle: Aspose.Tasks'ta İş Birimlerini Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Etkin proje yönetimi için güçlü bir kütüphane olan Aspose.Tasks for .NET'i keşfedin. Optimum kaynak kullanımı için çalışma birimlerini hassasiyetle kullanın.
 type: docs
@@ -50,9 +50,9 @@ Sonuç olarak Aspose.Tasks for .NET, geliştiricilere proje yönetimi kapsamınd
 ### Aspose.Tasks tüm proje yönetimi dosya formatlarıyla uyumlu mu?
  Aspose.Tasks, MPP, XML ve daha fazlası dahil olmak üzere çeşitli proje dosyası formatlarını destekler. Bakın[dokümantasyon](https://reference.aspose.com/tasks/net/) kapsamlı bir liste için.
 ### Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
-Evet, Aspose.Tasks'ı ücretsiz deneme sürümüyle keşfedebilirsiniz. Şu adresten indirin:[yayın sayfası](https://releases.aspose.com/).
+ Evet, Aspose.Tasks'ı ücretsiz deneme sürümüyle keşfedebilirsiniz. Şu adresten indirin:[yayın sayfası](https://releases.aspose.com/).
 ### Aspose.Tasks için ek desteği nerede bulabilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve tartışmalar için.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve tartışmalar için.
 ### Aspose.Tasks için geçici lisansı nasıl edinebilirim?
  adresini ziyaret ederek Aspose.Tasks için geçici bir lisans edinin.[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks iş birimlerinin yönetimi için ne gibi avantajlar sunuyor?

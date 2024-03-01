@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks で MS Project の表示オプションを構成する
-linktitle: Aspose.Tasks でプロジェクト表示オプションを構成する
+title: Aspose.Tasks での MS プロジェクト表示オプションの構成
+linktitle: Aspose.Tasks でのプロジェクト表示オプションの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project の表示オプションをプログラムで構成する方法を学びます。プロジェクトの外観を簡単にカスタマイズできます。
 type: docs

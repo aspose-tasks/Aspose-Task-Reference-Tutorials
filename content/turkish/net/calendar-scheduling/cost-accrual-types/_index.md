@@ -41,7 +41,7 @@ var project = new Project("Project2.mpp");
 
  Öncelikle proje dosyasını uygulamamıza yüklememiz gerekiyor. Yeni bir tane yaratıyoruz`Project` nesnesini oluşturun ve onu proje dosyamızın yolu ile başlatın.
 
-## 2. Adım: Kaynaklara Erişin
+## 2. Adım: Kaynağa Erişin
 
 ```csharp
 var resource = project.Resources.GetById(1);
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Burada kaynağa ait maliyet tahakkuk tipini ayarlıyoruz. Bu örnekte, bunu şu şekilde ayarlıyoruz:`CostAccrualType.End`Bu, kalan çalışma sıfır olana kadar maliyetlerin tahakkuk etmeyeceği anlamına gelir.
+Burada kaynağa ait maliyet tahakkuk tipini ayarlıyoruz. Bu örnekte, bunu şu şekilde ayarlıyoruz:`CostAccrualType.End`Bu, kalan çalışma sıfır olana kadar maliyetlerin tahakkuk etmeyeceği anlamına gelir.
 
 ## Adım 4: Projeyle Çalışmak
 
@@ -73,7 +73,7 @@ Y1: Evet, kaynak koleksiyonunda döngü yapabilir ve her kaynak için maliyet ta
 
 ### S2: 'Son' dışında kullanılabilen diğer maliyet tahakkuk türleri nelerdir?
 
- Cevap2: Aspose.Tasks for .NET, aşağıdakiler gibi başka maliyet tahakkukları türleri de sağlar:`Start`, `Prorated` ,Ve`Duration`.
+Cevap2: Aspose.Tasks for .NET, aşağıdakiler gibi başka maliyet tahakkukları türleri de sağlar:`Start`, `Prorated` , Ve`Duration`.
 
 ### S3: Bir kaynağın geçerli maliyet tahakkuk türünü nasıl belirleyebilirim?
 

@@ -2,7 +2,7 @@
 title: Коллекция определений структурного кода в Aspose.Tasks .NET
 linktitle: Коллекция определений структурного кода в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Узнайте, как манипулировать определениями структурного кода в документах Microsoft Project с помощью Aspose.Tasks для .NET. Категоризация данных вашего проекта без особых усилий.
+description: Узнайте, как манипулировать определениями структурного кода в документах Microsoft Project с помощью Aspose.Tasks для .NET. Классификация данных вашего проекта без особых усилий.
 type: docs
 weight: 13
 url: /ru/net/outline-code-page-settings/outline-code-definition-collection/

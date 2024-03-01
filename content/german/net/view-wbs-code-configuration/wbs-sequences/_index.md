@@ -73,4 +73,4 @@ Absolut! Aspose.Tasks bietet Flexibilität bei der Definition von WBS-Codes ents
 ### Wie kann ich Community-Unterstützung für Aspose.Tasks erhalten?
  Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) um mit der Community in Kontakt zu treten und Hilfe zu suchen.
 ### Sind temporäre Lizenzen verfügbar?
- Ja, Sie können eine bekommen[temporäre Lizenz](https://purchase.aspose.com/temporary-license/) zu Testzwecken.
+ Ja, Sie können eine erhalten[temporäre Lizenz](https://purchase.aspose.com/temporary-license/) zu Testzwecken.

@@ -1,6 +1,6 @@
 ---
-title: Configurare gli orari di lavoro in Aspose.Tasks
-linktitle: Configurare gli orari di lavoro in Aspose.Tasks
+title: Configurazione degli orari di lavoro in Aspose.Tasks
+linktitle: Configurazione degli orari di lavoro in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Migliora la pianificazione dei progetti in .NET con Aspose.Tasks. Configura facilmente gli orari di lavoro per una gestione precisa delle risorse. Scarica subito la libreria!
 type: docs
@@ -12,8 +12,8 @@ Nella gestione dei progetti, un controllo preciso sugli orari di lavoro è fonda
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di avere quanto segue:
 - Conoscenza base del linguaggio di programmazione C#.
-- Aspose.Tasks per la libreria .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
-- Configura Visual Studio o qualsiasi ambiente di sviluppo C# preferito.
+-  Aspose.Tasks per la libreria .NET installata. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
+- Configurazione di Visual Studio o di qualsiasi ambiente di sviluppo C# preferito.
 ## Importa spazi dei nomi
 Inizia importando gli spazi dei nomi necessari per accedere alle funzionalità Aspose.Tasks:
 ```csharp

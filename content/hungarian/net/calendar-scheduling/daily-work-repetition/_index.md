@@ -36,7 +36,7 @@ Bontsuk fel a megadott példát több lépésre:
 
 ## 1. lépés: Töltse be a projektfájlt
 
- Először töltse be a projektfájlt a`Project` osztály:
+Először töltse be a projektfájlt a`Project` osztály:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

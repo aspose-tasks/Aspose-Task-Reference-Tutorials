@@ -75,8 +75,8 @@ A: Aspose.Tasks richt zich voornamelijk op Microsoft Project-bestanden; U kunt e
 ### Vraag: Hoe kan ik problemen oplossen met het aanpassen van weergavekolommen?
  A: Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en hulp bij eventuele uitdagingen die u tegenkomt.
 ### Vraag: Is er een proefversie beschikbaar voordat u Aspose.Tasks aanschaft?
-A: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+ A: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 ###  Vraag: Wat is de betekenis van de`MyTextStyleCallback` class in the tutorial?
- EEN: De`MyTextStyleCallback` De klasse laat zien hoe u tekststijlen kunt aanpassen voor een betere visuele weergave in specifieke weergaven.
+ EEN: De`MyTextStyleCallback` class laat zien hoe u tekststijlen kunt aanpassen voor een betere visuele weergave in specifieke weergaven.
 ### Vraag: Waar kan ik aanvullende bronnen en documentatie voor Aspose.Tasks vinden?
  A: Raadpleeg de[Aspose.Tasks-documentatie](https://reference.aspose.com/tasks/net/) voor diepgaande begeleiding en hulpmiddelen.

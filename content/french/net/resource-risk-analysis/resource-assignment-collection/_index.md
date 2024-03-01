@@ -8,10 +8,10 @@ weight: 12
 url: /fr/net/resource-risk-analysis/resource-assignment-collection/
 ---
 ## Introduction
-Bienvenue dans ce didacticiel complet sur la gestion des affectations de ressources dans Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Dans ce didacticiel, nous aborderons le processus étape par étape, en veillant à ce que vous ayez une solide compréhension de la manière de manipuler efficacement les affectations de ressources. Que vous soyez un développeur chevronné ou un débutant, ce guide vous guidera à travers tout ce que vous devez savoir.
+Bienvenue dans ce didacticiel complet sur la gestion des affectations de ressources dans Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Dans ce didacticiel, nous aborderons le processus étape par étape, en veillant à ce que vous ayez une solide compréhension de la façon de manipuler efficacement les affectations de ressources. Que vous soyez un développeur chevronné ou un débutant, ce guide vous guidera à travers tout ce que vous devez savoir.
 ## Conditions préalables
 Avant de plonger dans le code, assurez-vous d'avoir la configuration suivante :
-1. Aspose.Tasks pour .NET installé : assurez-vous que Aspose.Tasks pour .NET est installé dans votre environnement de développement. Sinon, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks pour .NET installé : assurez-vous que Aspose.Tasks pour .NET est installé dans votre environnement de développement. Sinon, vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/net/).
 2. Connaissance de base de C# : ce didacticiel suppose que vous possédez une compréhension de base du langage de programmation C#.
 3. Fichier Microsoft Project : préparez un fichier Microsoft Project à des fins de test. Si vous n'en avez pas, vous pouvez créer un exemple de fichier.
 
@@ -29,7 +29,7 @@ Commencez par charger le fichier Microsoft Project :
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "TemplateResource2010.mpp");
 ```
-## Étape 2 : ajouter une tâche et une ressource
+## Étape 2 : Ajouter une tâche et une ressource
 Maintenant, ajoutons une tâche et une ressource au projet :
 ```csharp
 var task = project.RootTask.Children.Add("Task 1");

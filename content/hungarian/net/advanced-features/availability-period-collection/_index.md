@@ -109,7 +109,7 @@ foreach (var period in periodsToCopy)
 }
 ```
 
-A rendelkezésre állási időszakokat egyik forrásból a másikba másoljuk.
+A rendelkezésre állási időszakokat egyik erőforrásból a másikba másoljuk.
 
 ## 7. lépés: Frissítse és távolítsa el az elérhetőségi időszakokat
 
@@ -121,7 +121,7 @@ otherResource.AvailabilityPeriods[otherResource.AvailabilityPeriods.Count - 2].A
 otherResource.AvailabilityPeriods.Remove(period2013);
 ```
 
-Frissítjük a rendelkezésre álló egységeket egy adott időszakra vonatkozóan, és bizonyos időszakokat eltávolítunk a gyűjteményből.
+Frissítjük az elérhető egységeket egy adott időszakra, és bizonyos időszakokat eltávolítunk a gyűjteményből.
 
 ## Következtetés
 

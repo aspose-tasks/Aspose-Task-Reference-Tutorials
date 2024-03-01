@@ -58,7 +58,7 @@ var mppProject = new Project(OutDir + "ProjectCopying_out.mpp");
 
 ## Stap 4: Kopieeropties configureren
 
-Configureer het CopyToOptions-object om kopieeropties op te geven. U kunt bijvoorbeeld het kopiëren van weergavegegevens overslaan terwijl u algemene projectgegevens kopieert.
+Configureer het CopyToOptions-object om kopieeropties op te geven. U kunt bijvoorbeeld het kopiëren van weergavegegevens overslaan terwijl u gewone projectgegevens kopieert.
 
 ```csharp
 var copyToOptions = new CopyToOptions();

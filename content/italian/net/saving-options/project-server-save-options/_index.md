@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
- Assicurati di sostituire`"Your Document Directory"`, `URL`, `Domain`, `UserName` ,E`Password` con i tuoi valori reali.
+ Assicurati di sostituire`"Your Document Directory"`, `URL`, `Domain`, `UserName` , E`Password` con i tuoi valori reali.
 ## Passaggio 2: creare Project Server Manager
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
- Aggiusta il`ProjectGuid`, `ProjectName`, `Timeout` ,E`PollingInterval` in base alle vostre esigenze.
+ Aggiusta il`ProjectGuid`, `ProjectName`, `Timeout` , E`PollingInterval` in base alle vostre esigenze.
 ## Passaggio 4: salva il progetto sul server
 ```csharp
 manager.CreateNewProject(project, options);

@@ -14,22 +14,22 @@ Apakah Anda siap untuk meningkatkan keterampilan manajemen proyek Anda dengan As
 
 ## Lanjutan DAN Operasi di Aspose.Tugas
 
- Buka potensi operasi AND tingkat lanjut di Aspose.Tasks untuk .NET. Tutorial kami memandu Anda memfilter tugas proyek secara efisien berdasarkan berbagai kriteria. Dapatkan pemahaman lebih dalam tentang manajemen tugas dengan contoh-contoh praktis.[Baca selengkapnya](./advanced-and-operation/)
+Buka potensi operasi AND tingkat lanjut di Aspose.Tasks untuk .NET. Tutorial kami memandu Anda memfilter tugas proyek secara efisien berdasarkan berbagai kriteria. Dapatkan pemahaman lebih dalam tentang manajemen tugas dengan contoh-contoh praktis.[Baca selengkapnya](./advanced-and-operation/)
 
 ## Menggunakan AND Operator di Semua Kondisi dengan Aspose.Tasks
 
-Jelajahi penggunaan operator AND di semua kondisi dengan Aspose.Tasks untuk .NET. Filter tugas proyek secara efisien berdasarkan beragam kriteria. Tingkatkan keterampilan manajemen proyek Anda dengan panduan langkah demi langkah ini.[Baca selengkapnya](./and-operator-all-conditions/)
+ Jelajahi penggunaan operator AND di semua kondisi dengan Aspose.Tasks untuk .NET. Filter tugas proyek secara efisien berdasarkan beragam kriteria. Tingkatkan keterampilan manajemen proyek Anda dengan panduan langkah demi langkah ini.[Baca selengkapnya](./and-operator-all-conditions/)
 
 ## Menangani Pengecualian Memori dengan Aspose.Tasks Layout Builder
 
  Atasi pengecualian memori di .NET menggunakan Aspose.Tasks Layout Builder. Panduan kami memberikan pendekatan langkah demi langkah dengan contoh kode, memastikan Anda dapat menangani pengecualian dengan lancar. Tingkatkan efisiensi proyek Anda sekarang.[Baca selengkapnya](./layout-builder-out-of-memory/)
 ## Bekerja dengan Tugas di Aspose.Tasks
 
- Kelola tugas proyek secara efisien di .NET menggunakan Aspose.Tasks. Tutorial ini menggali kontur berbeda untuk penjadwalan sumber daya, menawarkan wawasan dan tips praktis. Tingkatkan organisasi proyek Anda dan sederhanakan alur kerja.[Baca selengkapnya](./working-with-assignment/)
+Kelola tugas proyek secara efisien di .NET menggunakan Aspose.Tasks. Tutorial ini menggali kontur berbeda untuk penjadwalan sumber daya, menawarkan wawasan dan tips praktis. Tingkatkan organisasi proyek Anda dan sederhanakan alur kerja.[Baca selengkapnya](./working-with-assignment/)
 
 ## Mengelola Baseline Penugasan di Aspose.Tasks
 
-Pelajari cara mengelola garis dasar penugasan secara efisien dengan Aspose.Tasks untuk .NET. Hal ini memastikan pelacakan kemajuan dan kinerja proyek secara akurat. Selami tutorial kami untuk panduan langkah demi langkah dalam mengoptimalkan strategi manajemen proyek Anda.[Baca selengkapnya](./assignment-baseline/)
+ Pelajari cara mengelola garis dasar penugasan secara efisien dengan Aspose.Tasks untuk .NET. Hal ini memastikan pelacakan kemajuan dan kinerja proyek secara akurat. Selami tutorial kami untuk panduan langkah demi langkah dalam mengoptimalkan strategi manajemen proyek Anda.[Baca selengkapnya](./assignment-baseline/)
 
 ## Kumpulan Garis Dasar Penugasan di Aspose.Tasks
 
@@ -37,11 +37,11 @@ Pelajari cara mengelola garis dasar penugasan secara efisien dengan Aspose.Tasks
 
 ## Kolom Tampilan Tugas Kustom di Aspose.Tasks
 
- Jelajahi cara menambahkan kolom tampilan tugas kustom di Aspose.Tasks untuk .NET, sehingga meningkatkan kemampuan manajemen proyek Anda. Tutorial ini memberikan panduan terperinci, memberdayakan Anda untuk menyesuaikan tampilan proyek Anda untuk memenuhi kebutuhan spesifik.[Baca selengkapnya](./assignment-view-column/)
+Jelajahi cara menambahkan kolom tampilan tugas kustom di Aspose.Tasks untuk .NET, sehingga meningkatkan kemampuan manajemen proyek Anda. Tutorial ini memberikan panduan terperinci, memberdayakan Anda untuk menyesuaikan tampilan proyek Anda untuk memenuhi kebutuhan spesifik.[Baca selengkapnya](./assignment-view-column/)
 
 ## Bekerja dengan Periode Ketersediaan di Aspose.Tasks
 
-Kelola periode ketersediaan sumber daya secara efisien menggunakan Aspose.Tasks untuk .NET. Tutorial ini menawarkan panduan langkah demi langkah, memberikan wawasan praktis untuk bekerja dengan periode ketersediaan di proyek .NET Anda. Meningkatkan perencanaan dan pelaksanaan proyek.[Baca selengkapnya](./working-with-availability-periods/)
+ Kelola periode ketersediaan sumber daya secara efisien menggunakan Aspose.Tasks untuk .NET. Tutorial ini menawarkan panduan langkah demi langkah, memberikan wawasan praktis untuk bekerja dengan periode ketersediaan di proyek .NET Anda. Meningkatkan perencanaan dan pelaksanaan proyek.[Baca selengkapnya](./working-with-availability-periods/)
 
 ## Kumpulan Periode Ketersediaan di Aspose.Tasks
 
@@ -49,7 +49,7 @@ Kelola periode ketersediaan sumber daya secara efisien menggunakan Aspose.Tasks 
 
 ## Styling Bar di Aspose.Tugas
 
- Pelajari cara menata gaya bar di Aspose.Tasks untuk .NET untuk meningkatkan visualisasi proyek. Tutorial kami memberikan wawasan praktis, membantu Anda membuat jadwal proyek yang menarik secara visual. Tingkatkan presentasi dan komunikasi proyek Anda.[Baca selengkapnya](./styling-bar/)
+Pelajari cara menata gaya bar di Aspose.Tasks untuk .NET untuk meningkatkan visualisasi proyek. Tutorial kami memberikan wawasan praktis, membantu Anda membuat jadwal proyek yang menarik secara visual. Tingkatkan presentasi dan komunikasi proyek Anda.[Baca selengkapnya](./styling-bar/)
 
 
 ## Tutorial Fitur Lanjutan Aspose.Tasks

@@ -94,7 +94,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 ### Q2: Aspose.Tasks for .NET에 사용할 수 있는 무료 평가판이 있습니까?
 
- A2: 예, .NET용 Aspose.Tasks 무료 평가판을 얻을 수 있습니다.[여기](https://releases.aspose.com/).
+A2: 예, .NET용 Aspose.Tasks 무료 평가판을 얻을 수 있습니다.[여기](https://releases.aspose.com/).
 
 ### Q3: .NET용 Aspose.Tasks에 대한 설명서는 어디에서 찾을 수 있습니까?
 

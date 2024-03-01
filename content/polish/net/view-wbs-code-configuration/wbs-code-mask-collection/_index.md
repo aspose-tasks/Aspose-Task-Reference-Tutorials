@@ -8,7 +8,7 @@ weight: 15
 url: /pl/net/view-wbs-code-configuration/wbs-code-mask-collection/
 ---
 ## Wstęp
-dynamicznym świecie zarządzania projektami sprawne organizowanie zadań jest kluczowe. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do łatwego zarządzania kodami struktury podziału pracy nad projektem (WBS). W tym samouczku zagłębimy się w kolekcję masek kodu WBS, badając, jak je wdrożyć i manipulować nimi za pomocą Aspose.Tasks dla .NET.
+W dynamicznym świecie zarządzania projektami sprawne organizowanie zadań jest kluczowe. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do łatwego zarządzania kodami struktury podziału pracy nad projektem (WBS). W tym samouczku zagłębimy się w kolekcję masek kodu WBS, badając, jak je wdrożyć i manipulować nimi za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
 Zanim wyruszymy w tę podróż kodowania, upewnij się, że spełniasz następujące wymagania wstępne:
 - Praktyczna znajomość języka programowania C#.
@@ -132,7 +132,7 @@ Dzięki Aspose.Tasks dla .NET zarządzanie kodami WBS staje się zadaniem łatwy
 ### P: Czy mogę używać Aspose.Tasks dla .NET z innymi językami programowania?
 Odp.: Aspose.Tasks obsługuje głównie języki .NET, ale możesz poznać opcje współdziałania z innymi językami.
 ### P: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
- Odp.: Tak, możesz pobrać wersję próbną.[Tutaj](https://releases.aspose.com/).
+ Odp.: Tak, możesz pobrać wersję próbną[Tutaj](https://releases.aspose.com/).
 ### P: Jak szukać pomocy lub zgłaszać problemy z Aspose.Tasks dla .NET?
  O: Odwiedź[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie i dyskusje.
 ### P: Jaki jest cel kodów WBS w zarządzaniu projektami?

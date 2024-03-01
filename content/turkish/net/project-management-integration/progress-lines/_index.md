@@ -93,6 +93,6 @@ C: Evet, Aspose.Tasks, görevler, kaynaklar ve takvimler de dahil olmak üzere M
 ### S: Aspose.Tasks'ı diğer .NET kütüphaneleriyle entegre edebilir miyim?
 C: Kesinlikle, Aspose.Tasks diğer .NET kitaplıklarıyla sorunsuz bir şekilde entegre olacak şekilde tasarlanmıştır ve proje yönetimi uygulamalarınızı daha da geliştirmenize olanak tanır.
 ### S: Aspose.Tasks desteği için bir topluluk forumu var mı?
- C: Evet, Aspose.Tasks forumunda yararlı kaynaklar bulabilir ve yardım alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+ C: Evet, Aspose.Tasks forumunda faydalı kaynaklar bulabilir ve yardım alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks değerlendirme amaçlı geçici lisanslar sunuyor mu?
  C: Evet, değerlendirme için geçici bir lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).

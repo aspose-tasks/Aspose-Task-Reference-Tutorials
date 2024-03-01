@@ -46,7 +46,7 @@ task.Set(Tsk.IsManual, false);
 task.Set(Tsk.Start, new DateTime(2000, 3, 15, 8, 0, 0));
 task.Set(Tsk.Duration, project.GetDuration(3));
 ```
-Stel eigenschappen in, zoals handmatige status, startdatum en duur voor de taak.
+Stel eigenschappen in zoals handmatige status, startdatum en duur voor de taak.
 ## Stap 5: Resourcetoewijzingen toevoegen
 ```csharp
 var assignment = project.ResourceAssignments.Add(task, project.Resources.Add("r1"));

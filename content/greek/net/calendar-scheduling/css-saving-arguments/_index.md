@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Διαμόρφωση επιλογών αποθήκευσης HTML
+        //Διαμόρφωση επιλογών αποθήκευσης HTML
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ A3: Το Aspose.Tasks για .NET υποστηρίζει διάφορες εκδ
 
 ### Ε4: Πού μπορώ να βρω ολοκληρωμένη τεκμηρίωση για το Aspose.Tasks για .NET;
 
- A4: Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://reference.aspose.com/tasks/net/) για λεπτομερείς πληροφορίες και παραδείγματα.
+A4: Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://reference.aspose.com/tasks/net/) για λεπτομερείς πληροφορίες και παραδείγματα.
 
 ### Ε5: Το Aspose.Tasks για .NET προσφέρει υποστήριξη για προγραμματιστές;
 

@@ -41,13 +41,13 @@ var project = new Project("Project2.mpp");
 
  Tout d’abord, nous devons charger le fichier du projet dans notre application. Nous créons un nouveau`Project` objet et initialisez-le avec le chemin d’accès à notre fichier projet.
 
-## Étape 2 : accéder aux ressources
+## Étape 2 : Accéder à la ressource
 
 ```csharp
 var resource = project.Resources.GetById(1);
 ```
 
- Ensuite, nous accédons à la ressource à laquelle nous souhaitons appliquer le type de régularisation des coûts. Nous utilisons le`GetById` méthode de`Resources` collection et transmettez l’ID de ressource comme argument.
+ Ensuite, nous accédons à la ressource à laquelle nous souhaitons appliquer le type de régularisation des coûts. Nous utilisons le`GetById` méthode du`Resources` collection et transmettez l’ID de ressource comme argument.
 
 ## Étape 3 : Définir le type de régularisation des coûts
 
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Ici, nous définissons le type d’accumulation des coûts pour la ressource. Dans cet exemple, nous le définissons sur`CostAccrualType.End`, ce qui signifie que les coûts ne seront pas comptabilisés tant que le travail restant ne sera pas nul.
+Ici, nous définissons le type d’accumulation des coûts pour la ressource. Dans cet exemple, nous le définissons sur`CostAccrualType.End`, ce qui signifie que les coûts ne seront pas comptabilisés tant que le travail restant ne sera pas nul.
 
 ## Étape 4 : Travailler avec le projet
 
@@ -73,7 +73,7 @@ A1 : Oui, vous pouvez parcourir la collection de ressources et définir le typ
 
 ### Q2 : Quels sont les autres types d'accumulation de coûts disponibles en plus de « Fin » ?
 
- A2 : Aspose.Tasks pour .NET fournit plusieurs autres types de cumul de coûts tels que`Start`, `Prorated` ,et`Duration`.
+A2 : Aspose.Tasks pour .NET fournit plusieurs autres types de cumul de coûts tels que`Start`, `Prorated` , et`Duration`.
 
 ### Q3 : Comment puis-je déterminer le type de régularisation des coûts actuel pour une ressource ?
 

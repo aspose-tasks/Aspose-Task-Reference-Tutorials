@@ -61,7 +61,7 @@ Genom att följa dessa enkla steg kan du enkelt hämta sidhuvuds- och sidfotsinf
 den här handledningen undersökte vi hur man extraherar sidhuvuds- och sidfotsinformation från MS Project-filer med Aspose.Tasks för .NET. Detta kraftfulla bibliotek förenklar uppgiften att arbeta med projektfiler i C#-applikationer, vilket ger utvecklare robusta verktyg för manipulation.
 ### Vanliga frågor
 ### Kan jag ändra sidhuvud och sidfotsinformation med Aspose.Tasks?
-Ja, du kan ändra sidhuvuds- och sidfotsinformationen programmatiskt med Aspose.Tasks för .NET.
+Ja, du kan modifiera sidhuvuds- och sidfotsinformationen programmatiskt med Aspose.Tasks för .NET.
 ### Stöder Aspose.Tasks andra projektfilformat förutom MS Project?
 Ja, Aspose.Tasks stöder olika projektfilformat, inklusive MPP, XML och MPX.
 ### Finns det en gratis testversion tillgänglig för Aspose.Tasks?

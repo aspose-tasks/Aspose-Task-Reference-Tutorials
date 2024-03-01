@@ -12,7 +12,7 @@ Seiring berkembangnya manajemen proyek, kebutuhan akan alat canggih yang menyede
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
 - Pengetahuan kerja tentang pengembangan .NET.
-- Aspose.Tasks untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
 - Editor kode (disarankan Visual Studio).
 ## Impor Namespace
 Di proyek .NET Anda, mulailah dengan mengimpor namespace yang diperlukan:

@@ -1,6 +1,6 @@
 ---
 title: Schritt-für-Schritt-PSP-Codekonfiguration in Aspose.Tasks .NET
-linktitle: Konfigurieren Sie WBS-Codemasken in Aspose.Tasks
+linktitle: Konfigurieren von WBS-Codemasken in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie die Schritt-für-Schritt-Konfiguration von WBS-Codemasken in .NET-Projekten mit Aspose.Tasks. Erweitern Sie mühelos Ihre Projektmanagementfunktionen.
 type: docs
@@ -84,7 +84,7 @@ In diesem Tutorial haben wir den schrittweisen Prozess der Konfiguration von WBS
 ### Kann ich Aspose.Tasks kostenlos nutzen?
  Aspose.Tasks bietet eine kostenlose Testversion, die Sie herunterladen können[Hier](https://releases.aspose.com/).
 ### Wo finde ich zusätzliche Unterstützung?
- Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15)für die Unterstützung der Gemeinschaft.
+ Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für die Unterstützung der Gemeinschaft.
 ### Wie kann ich eine temporäre Lizenz erhalten?
  Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 ### Gibt es eine ausführliche Dokumentation?

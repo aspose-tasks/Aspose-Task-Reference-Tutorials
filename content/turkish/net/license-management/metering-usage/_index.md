@@ -11,7 +11,7 @@ url: /tr/net/license-management/metering-usage/
 Aspose.Tasks ile MS Project kullanımınızı etkili bir şekilde yönetmek ve izlemek mi istiyorsunuz? Ölçümün gücüyle kullanımınızı takip edebilir ve proje yönetimi çalışmalarınızı optimize edebilirsiniz. Bu eğitimde, Aspose.Tasks for .NET'i kullanarak MS Project kullanımını adım adım ölçme sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
 MS Project kullanımını ölçmeye başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
-1.  Aspose.Tasks for .NET Kütüphanesi: Aspose.Tasks for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/tasks/net/), Kitaplığı geliştirme ortamınızda kurmak için kurulum talimatlarını izleyin.
+1.  Aspose.Tasks for .NET Kütüphanesi: Aspose.Tasks for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/tasks/net/). Kitaplığı geliştirme ortamınızda kurmak için kurulum talimatlarını izleyin.
 2.  Genel ve Özel Anahtarlar: Genel ve özel anahtarlarınızı Aspose'tan alın. Bu tuşlar ölçüm kullanımı için gereklidir. Henüz anahtarlarınız yoksa, bunları Aspose'tan talep edebilirsiniz.[geçici lisans](https://purchase.aspose.com/temporary-license/) sayfa.
 
 ## Ad Alanlarını İçe Aktar
@@ -30,7 +30,7 @@ String DataDir = "Your Document Directory";
 var metered = new Metered();
 metered.SetMeteredKey("<public key>", "<private key>");
 ```
- yer değiştirmek`"Your Document Directory"` belge dizininizin yolunu belirtin ve yerine`<public key>` Ve`<private key>` Aspose'tan aldığınız gerçek anahtarlarınızla.
+ Yer değiştirmek`"Your Document Directory"` belge dizininizin yolunu belirtin ve yerine`<public key>` Ve`<private key>` Aspose'tan aldığınız gerçek anahtarlarınızla.
 ## Adım 2: MS Proje Dosyasını Yükleyin
 Daha sonra Aspose.Tasks'ı kullanarak MS Project dosyanızı yükleyin:
 ```csharp

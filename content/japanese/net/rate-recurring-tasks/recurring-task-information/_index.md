@@ -26,7 +26,7 @@ Aspose.Tasks for .NET は、開発者が .NET アプリケーションで Micros
 ```csharp
 String DataDir = "Your Document Directory";
 ```
-交換する`"Your Document Directory"`MS Project ファイルへのパスを置き換えます。
+交換する`"Your Document Directory"` MS Project ファイルへのパスを置き換えます。
 ## ステップ 2: MS Project ファイルをロードする
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
@@ -61,4 +61,4 @@ A: はい、Aspose.Tasks は MPP、XML、CSV などのさまざまなプロジ�
 ### Q: Aspose.Tasks for .NET のドキュメントはどこで見つけられますか?
  A: ドキュメントは見つかります。[ここ](https://reference.aspose.com/tasks/net/).
 ### Q: Aspose.Tasks for .NET のテクニカル サポートを受けるにはどうすればよいですか?
-A: Aspose.Tasks フォーラムから技術サポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+ A: Aspose.Tasks フォーラムから技術サポートを受けることができます。[ここ](https://forum.aspose.com/c/tasks/15).

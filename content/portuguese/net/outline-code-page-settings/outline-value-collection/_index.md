@@ -8,7 +8,7 @@ weight: 17
 url: /pt/net/outline-code-page-settings/outline-value-collection/
 ---
 ## Introdução
-Aspose.Tasks for .NET fornece um conjunto abrangente de recursos para interagir com arquivos do Microsoft Project. Um desses recursos é a capacidade de gerenciar valores de contorno dentro de um projeto. Neste tutorial, exploraremos como coletar e manipular valores de contorno usando Aspose.Tasks for .NET.
+Aspose.Tasks for .NET fornece um conjunto abrangente de recursos para interagir com arquivos do Microsoft Project. Um desses recursos é a capacidade de gerenciar valores de estrutura de tópicos dentro de um projeto. Neste tutorial, exploraremos como coletar e manipular valores de contorno usando Aspose.Tasks for .NET.
 ## Pré-requisitos
 Antes de começarmos, certifique-se de ter o seguinte:
 1.  Aspose.Tasks for .NET: Você pode baixar a biblioteca em[aqui](https://releases.aspose.com/tasks/net/).
@@ -23,13 +23,13 @@ using System;
 ```
 Vamos dividir o exemplo fornecido em várias etapas:
 ## Etapa 1: carregar um arquivo de projeto
- Primeiro, inicialize um`Project` objeto carregando um arquivo existente do Microsoft Project:
+ Primeiramente, inicialize um`Project` objeto carregando um arquivo existente do Microsoft Project:
 ```csharp
 string DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineValues2010.mpp");
 ```
 ## Etapa 2: limpar valores de contorno existentes
-Em seguida, limpe todos os valores de contorno existentes no projeto:
+Em seguida, limpe quaisquer valores de estrutura de tópicos existentes no projeto:
 ```csharp
 foreach (var outlineCode in project.OutlineCodes)
 {
@@ -73,7 +73,7 @@ foreach (var definitionValue in codeDefinition.Values)
 }
 ```
 ## Etapa 6: manipular valores de contorno
-Execute operações como remover, inserir e copiar valores de contorno conforme necessário:
+Execute operações como remover, inserir e copiar valores de estrutura conforme necessário:
 ```csharp
 if (codeDefinition.Values.Contains(value))
 {

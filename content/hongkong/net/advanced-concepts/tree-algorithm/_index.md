@@ -88,7 +88,7 @@ summary.Set(Tsk.Work, project.GetWork(summaryWork));
 summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ```
 
-根據收集到的資訊更新任務的工作值。
+根據收集的資訊更新任務的工作值。
 
 ## 結論
 

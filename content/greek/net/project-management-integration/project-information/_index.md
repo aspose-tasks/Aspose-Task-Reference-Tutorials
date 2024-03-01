@@ -26,7 +26,7 @@ url: /el/net/project-management-integration/project-information/
     using System.Collections.Generic;
     
 ```
-Τώρα ας αναλύσουμε τη διαδικασία εξαγωγής πληροφοριών του MS Project σε πολλαπλά βήματα.
+Τώρα ας αναλύσουμε τη διαδικασία εξαγωγής πληροφοριών MS Project σε πολλαπλά βήματα.
 ## Βήμα 1: Παρέχετε διαπιστευτήρια
 Πρώτα, πρέπει να δώσετε τα διαπιστευτήριά σας στο SharePoint για πρόσβαση στον διακομιστή έργου.
 ```csharp

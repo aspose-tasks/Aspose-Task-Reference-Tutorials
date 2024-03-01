@@ -29,7 +29,7 @@ var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 代替`"Your Document Directory"`與您的 MS Project 檔案所在的實際目錄路徑。
 ## 第 2 步：定義儲存選項
-透過建立實例來定義 Spreadsheet 2003 儲存選項`Spreadsheet2003SaveOptions`,
+透過建立實例來定義 Spreadsheet 2003 儲存選項`Spreadsheet2003SaveOptions`：
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```

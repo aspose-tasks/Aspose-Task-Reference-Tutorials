@@ -8,7 +8,7 @@ weight: 16
 url: /es/net/outline-code-page-settings/outline-values/
 ---
 ## Introducción
-En este tutorial, exploraremos cómo administrar los valores de esquema de Microsoft Project utilizando la biblioteca Aspose.Tasks para .NET. Con Aspose.Tasks, puede manipular fácilmente códigos de esquema, crear nuevos valores de esquema y personalizar esquemas de proyecto según sus requisitos.
+En este tutorial, exploraremos cómo administrar los valores de esquema de Microsoft Project usando la biblioteca Aspose.Tasks para .NET. Con Aspose.Tasks, puede manipular fácilmente códigos de esquema, crear nuevos valores de esquema y personalizar esquemas de proyecto según sus requisitos.
 ## Requisitos previos
 Antes de comenzar, asegúrese de tener lo siguiente:
 1.  Instalación de Aspose.Tasks para .NET: Descargue e instale la biblioteca Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/tasks/net/).
@@ -71,8 +71,8 @@ R: Sí, Aspose.Tasks es compatible con varios marcos .NET, lo que garantiza flex
 ### P: ¿Existe una versión de prueba disponible para Aspose.Tasks?
  R: Sí, puede acceder a una versión de prueba gratuita de Aspose.Tasks desde[aquí](https://releases.aspose.com/).
 ### P: ¿Cómo puedo obtener soporte para Aspose.Tasks?
- R: Para obtener soporte y asistencia, puede visitar el foro Aspose.Tasks.[aquí](https://forum.aspose.com/c/tasks/15).
+ R: Para obtener soporte y asistencia, puede visitar el foro de Aspose.Tasks.[aquí](https://forum.aspose.com/c/tasks/15).
 ### P: ¿Puedo comprar una licencia temporal para Aspose.Tasks?
- R: Sí, puede comprar una licencia temporal para Aspose.Tasks en[aquí](https://purchase.aspose.com/temporary-license/).
+R: Sí, puede comprar una licencia temporal para Aspose.Tasks en[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo encontrar documentación detallada para Aspose.Tasks?
  R: Puede consultar la documentación completa disponible[aquí](https://reference.aspose.com/tasks/net/).

@@ -73,4 +73,4 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ### ฉันจะรับการสนับสนุนจากชุมชนสำหรับ Aspose.Tasks ได้อย่างไร
  เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อเชื่อมต่อกับชุมชนและขอความช่วยเหลือ
 ### มีใบอนุญาตชั่วคราวหรือไม่
- ใช่ คุณจะได้รับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบ
+ ใช่ คุณสามารถได้รับ[ใบอนุญาตชั่วคราว](https://purchase.aspose.com/temporary-license/) เพื่อวัตถุประสงค์ในการทดสอบ

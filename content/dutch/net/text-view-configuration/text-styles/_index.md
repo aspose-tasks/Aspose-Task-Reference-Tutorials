@@ -1,6 +1,6 @@
 ---
 title: Beheersing van tekststijlaanpassing in Aspose.Tasks
-linktitle: Configureer tekststijlen in Aspose.Tasks
+linktitle: Tekststijlen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Verbeter de esthetiek van projectdocumenten met Aspose.Tasks voor .NET. Pas tekststijlen moeiteloos aan voor een visueel aantrekkelijke weergave.
 type: docs

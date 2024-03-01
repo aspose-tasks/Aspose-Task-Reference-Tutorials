@@ -47,7 +47,7 @@ if (!project.Views.IsReadOnly)
 }
 ```
 ## 第 4 步：迭代视图
-显示有关项目内现有视图的信息。
+显示有关项目中现有视图的信息。
 ```csharp
 Console.WriteLine("Iterate over views of " + project.Views.ParentProject.Get(Prj.Name) + " project.");
 Console.WriteLine("Project view count: " + project.Views.Count);
@@ -83,7 +83,7 @@ foreach (var v in array)
 }
 ```
 ## 结论
-恭喜！您已成功浏览 Aspose.Tasks for .NET 环境，掌握管理 MS 项目视图的艺术。现在，在您的项目中充分发挥该库的潜力，实现无缝项目管理。
+恭喜！您已成功浏览 Aspose.Tasks for .NET 环境，掌握管理 MS 项目视图的技巧。现在，在您的项目中充分发挥该库的潜力，实现无缝项目管理。
 ## 常见问题解答
 ### Aspose.Tasks 与最新的 .NET Framework 版本兼容吗？
 Aspose.Tasks 旨在与各种 .NET Framework 版本兼容。查看文档了解具体细节。

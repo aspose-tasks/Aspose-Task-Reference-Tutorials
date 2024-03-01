@@ -86,7 +86,7 @@ Trả lời 1: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau củ
 
 ### Câu hỏi 2: Làm cách nào để khắc phục sự cố kết nối với cơ sở dữ liệu?
 
-Câu trả lời 2: Đảm bảo rằng chuỗi kết nối của bạn được đặt cấu hình chính xác với thông tin xác thực và chi tiết cơ sở dữ liệu phù hợp. Bạn cũng có thể tham khảo tài liệu hoặc tìm kiếm sự hỗ trợ từ[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Câu trả lời 2: Đảm bảo rằng chuỗi kết nối của bạn được đặt cấu hình chính xác với thông tin xác thực và chi tiết cơ sở dữ liệu phù hợp. Bạn cũng có thể tham khảo tài liệu hoặc tìm kiếm sự hỗ trợ từ[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### Câu hỏi 3: Có phiên bản dùng thử cho Aspose.Tasks không?
 

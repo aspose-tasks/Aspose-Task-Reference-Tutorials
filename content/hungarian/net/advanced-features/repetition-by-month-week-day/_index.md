@@ -19,7 +19,7 @@ Mielőtt belemerülne a havi, hét és nap szerinti ismétlések beállításán
    
 2.  Az Aspose.Tasks for .NET telepítése: Győződjön meg arról, hogy letöltötte és telepítette az Aspose.Tasks for .NET könyvtárat. A könyvtárat beszerezheti a[letöltési oldal](https://releases.aspose.com/tasks/net/).
 
-3. Hozzáférés egy .mpp projektfájlhoz: legyen készen egy Microsoft Project fájl (.mpp), mivel azt az ismétlések végrehajtásának bemutatására fogjuk használni hónap, hét és nap szerint.
+3. Hozzáférés egy .mpp projektfájlhoz: Készítsen egy Microsoft Project fájlt (.mpp), mivel azt az ismétlések végrehajtásának bemutatására fogjuk használni hónap, hét és nap szerint.
 
 ## Névterek importálása
 

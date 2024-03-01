@@ -70,4 +70,4 @@ project.Save("Output_PDF_File_Path.pdf", options);
 ### س: هل يدعم Aspose.Tasks for .NET تنسيقات الملفات الأخرى للتحويل؟
 ج: نعم، إلى جانب PDF، يمكنك تحويل ملفات Microsoft Project إلى تنسيقات مختلفة بما في ذلك XLSX وHTML والصور.
 ### س: هل يتوفر الدعم الفني لـ Aspose.Tasks لـ .NET؟
- ج: نعم، يمكنك الحصول على الدعم الفني من منتدى Aspose.Tasks.[هنا](https://forum.aspose.com/c/tasks/15).
+ ج: نعم، يمكنك الحصول على الدعم الفني من منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).

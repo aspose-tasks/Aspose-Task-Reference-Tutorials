@@ -14,7 +14,7 @@ Jste připraveni posunout své dovednosti Aspose.Tasks pro .NET na další úrov
 
 ## Manipulace s ukládáním obrázků v Aspose.Tasks
 
-Naučte se umění manipulace s ukládáním obrázků v Aspose.Tasks pro .NET pomocí našich podrobných pokynů. Bezproblémově integrujte do svých aplikací .NET funkce pro ukládání obrázků a vylepšete vizuální reprezentaci dat vašeho projektu.[Přečtěte si více](./image-saving/)
+ Naučte se umění manipulace s ukládáním obrázků v Aspose.Tasks pro .NET pomocí našich podrobných pokynů. Bezproblémově integrujte do svých aplikací .NET funkce pro ukládání obrázků a vylepšete vizuální reprezentaci dat vašeho projektu.[Přečtěte si více](./image-saving/)
 
 ## Řešení výjimky s neplatným heslem v Aspose.Tasks
 
@@ -22,11 +22,11 @@ Naučte se umění manipulace s ukládáním obrázků v Aspose.Tasks pro .NET p
 
 ## Implementace Page Saving Callback v Aspose.Tasks
 
- Odemkněte potenciál přizpůsobeného zpracování pro vícestránkové výstupní toky dokumentů. Naučte se implementovat zpětné volání pro ukládání stránky v Aspose.Tasks pro .NET, které vám poskytne kontrolu nad prezentací dat vašeho projektu.[Přečtěte si více](./page-saving-callback/)
+Odemkněte potenciál přizpůsobeného zpracování pro vícestránkové výstupní toky dokumentů. Naučte se implementovat zpětné volání pro ukládání stránky v Aspose.Tasks pro .NET, které vám poskytne kontrolu nad prezentací dat vašeho projektu.[Přečtěte si více](./page-saving-callback/)
 
 ## Použití stromového algoritmu v Aspose.Tasks
 
-Efektivně manipulujte s hierarchiemi úkolů ve svých projektech .NET pomocí stromového algoritmu Aspose.Tasks. Tento výukový program vám umožňuje optimalizovat struktury projektu a zajistit bezproblémový a organizovaný pracovní postup.[Přečtěte si více](./tree-algorithm/)
+ Efektivně manipulujte s hierarchiemi úkolů ve svých projektech .NET pomocí stromového algoritmu Aspose.Tasks. Tento výukový program vám umožňuje optimalizovat struktury projektu a zajistit bezproblémový a organizovaný pracovní postup.[Přečtěte si více](./tree-algorithm/)
 
 ## Zobrazení štítků v Aspose.Tasks
 
@@ -38,11 +38,11 @@ Efektivně manipulujte s hierarchiemi úkolů ve svých projektech .NET pomocí 
 
 ## Zpracování měsíčních vzorců opakování v Aspose.Tasks
 
- Osvojte si umění zpracování měsíčních vzorců opakování v Aspose.Tasks pro .NET. Tento výukový program poskytuje podrobného průvodce pro efektivní správu opakujících se úloh ve vašich projektech.[Přečtěte si více](./monthly-recurrence-patterns/)
+Osvojte si umění zpracování měsíčních vzorců opakování v Aspose.Tasks pro .NET. Tento výukový program poskytuje podrobného průvodce pro efektivní správu opakujících se úloh ve vašich projektech.[Přečtěte si více](./monthly-recurrence-patterns/)
 
 ## Nastavení pro databázi Microsoft Project v Aspose.Tasks
 
-Bezproblémově konfigurujte nastavení databáze aplikace Microsoft Project pomocí Aspose.Tasks pro .NET. Bez námahy integrujte projektová data do svých aplikací .NET a optimalizujte své schopnosti projektového řízení.[Přečtěte si více](./msp-database-settings/)
+ Bezproblémově konfigurujte nastavení databáze aplikace Microsoft Project pomocí Aspose.Tasks pro .NET. Bez námahy integrujte projektová data do svých aplikací .NET a optimalizujte své schopnosti projektového řízení.[Přečtěte si více](./msp-database-settings/)
 
 ## Práce s operací NOT v Aspose.Tasks
 
@@ -54,11 +54,11 @@ Bezproblémově konfigurujte nastavení databáze aplikace Microsoft Project pom
 
 ## Práce s objekty OLE v Aspose.Tasks
 
- Efektivně pracujte s objekty OLE v aplikacích .NET pomocí Aspose.Tasks. Vylepšete své schopnosti projektového řízení zvládnutím manipulace s objekty OLE a dodejte svým projektovým dokumentům nový rozměr.[Přečtěte si více](./ole-objects/)
+Efektivně pracujte s objekty OLE v aplikacích .NET pomocí Aspose.Tasks. Vylepšete své schopnosti projektového řízení zvládnutím manipulace s objekty OLE a dodejte svým projektovým dokumentům nový rozměr.[Přečtěte si více](./ole-objects/)
 
 ## Kolekce objektů OLE v Aspose.Tasks
 
-Spravujte objekty OLE v Aspose.Tasks for .NET pomocí tohoto komplexního kurzu. Získejte odborné znalosti při manipulaci s vloženými soubory v projektových dokumentech a zajistěte bezproblémovou integraci objektů OLE do vašich projektů.[Přečtěte si více](./ole-object-collection/)
+ Spravujte objekty OLE v Aspose.Tasks for .NET pomocí tohoto komplexního kurzu. Získejte odborné znalosti při manipulaci s vloženými soubory v projektových dokumentech a zajistěte bezproblémovou integraci objektů OLE do vašich projektů.[Přečtěte si více](./ole-object-collection/)
 ## Tutoriály pro pokročilé koncepty
 ### [Manipulace s ukládáním obrázků v Aspose.Tasks](./image-saving/)
 Naučte se, jak zacházet s ukládáním obrázků v Aspose.Tasks pro .NET pomocí podrobných pokynů. Bezproblémově integrujte funkci ukládání obrázků do svých aplikací .NET.

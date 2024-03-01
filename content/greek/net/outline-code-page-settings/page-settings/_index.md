@@ -1,6 +1,6 @@
 ---
 title: Διαμορφώστε τις ρυθμίσεις σελίδας MS Project με το Aspose.Tasks
-linktitle: Διαμορφώστε τις ρυθμίσεις σελίδας στο Aspose.Tasks
+linktitle: Διαμόρφωση ρυθμίσεων σελίδας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις ρυθμίσεις σελίδας MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Προσαρμόστε τον προσανατολισμό, το μέγεθος και πολλά άλλα με απλά βήματα.
 type: docs

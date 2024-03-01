@@ -11,7 +11,7 @@ url: /nl/net/saving-options/mpp-save-options/
 In de wereld van .NET-ontwikkeling is het efficiënt beheren en manipuleren van projectbestanden cruciaal voor succes. Aspose.Tasks voor .NET biedt een krachtige oplossing om Microsoft Project-bestanden (MPP) gemakkelijk te verwerken. Onder de vele functies stelt Aspose.Tasks gebruikers in staat om MS Project-opties naadloos op te slaan, waardoor de workflow wordt gestroomlijnd en de projectintegriteit wordt gewaarborgd. In deze zelfstudie gaan we dieper in op het proces van het opslaan van MS Project-opties met Aspose.Tasks voor .NET.
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
-1. Installatie van Aspose.Tasks voor .NET: Download en installeer de Aspose.Tasks voor .NET-bibliotheek van[hier](https://releases.aspose.com/tasks/net/).
+1.  Installatie van Aspose.Tasks voor .NET: Download en installeer de Aspose.Tasks voor .NET-bibliotheek van[hier](https://releases.aspose.com/tasks/net/).
 2. Ontwikkelomgeving: Zorg dat u een .NET-ontwikkelomgeving hebt opgezet, zoals Visual Studio.
 3. Basiskennis van C#: Bekendheid met de programmeertaal C# is essentieel voor het implementeren van de voorbeelden.
 
@@ -62,7 +62,7 @@ Ja, Aspose.Tasks voor .NET ondersteunt verschillende versies van Microsoft Proje
 ### Kan ik Aspose.Tasks voor .NET uitproberen voordat ik het aanschaf?
  Zeker! U kunt een gratis proefversie van Aspose.Tasks voor .NET downloaden van[hier](https://releases.aspose.com/).
 ### Hoe kan ik technische ondersteuning krijgen voor Aspose.Tasks voor .NET?
- Voor technische assistentie kunt u het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15).
+Voor technische assistentie kunt u het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15).
 ### Wat is een tijdelijke licentie en hoe kan ik deze verkrijgen?
  Met een tijdelijke licentie kunt u Aspose.Tasks voor .NET zonder enige beperking evalueren. U kunt een tijdelijke licentie verkrijgen via[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik een gelicentieerde versie van Aspose.Tasks voor .NET kopen?

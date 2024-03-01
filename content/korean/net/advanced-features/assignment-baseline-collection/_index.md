@@ -81,7 +81,7 @@ foreach (var assignment in project.ResourceAssignments)
 
 ## FAQ
 
-### Q1: Aspose.Tasks는 다양한 프로젝트 파일 형식에 대한 할당 기준선을 처리할 수 있나요?
+### Q1: Aspose.Tasks는 다양한 프로젝트 파일 형식에 대한 할당 기준선을 처리할 수 있습니까?
 
 A1: 예, Aspose.Tasks는 MPP, XML 및 MPX를 포함한 다양한 프로젝트 파일 형식을 지원하므로 다양한 파일 형식의 할당 기준선을 쉽게 관리할 수 있습니다.
 

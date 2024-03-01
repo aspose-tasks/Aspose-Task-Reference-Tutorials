@@ -23,7 +23,7 @@ Aspose.Tasks işlevlerine erişmek için .NET projenize gerekli ad alanlarını 
     using Aspose.Tasks.Visualization;
 ```
 ## 1. Adım: Belge Dizini Yolunu Ayarlayın
- Aspose.Tasks işlevleriyle çalışmaya başlamadan önce belgeler dizininizin yolunu ayarlayın. yer değiştirmek`"Your Document Directory"` gerçek yol ile.
+ Aspose.Tasks işlevleriyle çalışmaya başlamadan önce belgeler dizininizin yolunu ayarlayın. Yer değiştirmek`"Your Document Directory"` gerçek yol ile.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Evet, Aspose.Tasks MPP, XML ve CSV gibi popüler proje dosyası formatlarını d
 ### Belirli görevlere farklı zaman ölçeği ayarları uygulayabilir miyim?
 Kesinlikle, projenizdeki bireysel görevler için zaman ölçeği ayarlarını özelleştirebilirsiniz.
 ### Aspose.Tasks için nasıl destek alabilirim veya yardım isteyebilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve rehberlik için.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve rehberlik için.

@@ -21,7 +21,7 @@ Bevor Sie sich mit Aspose.Tasks für .NET befassen, stellen Sie sicher, dass die
 
 Nachdem wir nun alle Voraussetzungen erfüllt haben, erkunden wir die wesentlichen Namespaces und tauchen in die Schritt-für-Schritt-Anleitung ein.
 
-## Namespaces importieren
+## Namensräume importieren
 
 Importieren Sie in Ihrem C#-Projekt die erforderlichen Namespaces, um auf die Funktionen von Aspose.Tasks zuzugreifen:
 

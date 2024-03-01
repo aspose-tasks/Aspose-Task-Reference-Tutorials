@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Kullanıcı şifresi, sahip şifresi, şifreleme algoritması ve izinler dahil şifreleme ayrıntılarını tanımlayın:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //Kullanıcı şifresi
+    "userPassword",        // Kullanıcı şifresi
     "ownerPassword",       // Sahip Şifresi
     PdfEncryptionAlgorithm.RC4_128);  // Şifreleme algoritması
 // İzinleri belirtin

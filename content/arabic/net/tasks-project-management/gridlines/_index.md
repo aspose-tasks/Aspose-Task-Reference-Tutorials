@@ -112,4 +112,4 @@ project.Save(DataDir + "PrintProjectPagesToSeparateFiles_out.png", options);
 
 ### س5: هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ .NET؟
 
- ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[Aspose.Tasks لـ .NET من](https://forum.aspose.com/c/tasks/15), لاستكشاف ميزاته قبل إجراء عملية الشراء.
+ ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[Aspose.Tasks لـ .NET من](https://forum.aspose.com/c/tasks/15). لاستكشاف ميزاته قبل إجراء عملية الشراء.

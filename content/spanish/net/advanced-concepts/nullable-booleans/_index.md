@@ -9,7 +9,7 @@ url: /es/net/advanced-concepts/nullable-booleans/
 ---
 ## Introducción
 
- En este tutorial, profundizaremos en cómo trabajar con valores booleanos que aceptan valores NULL en Aspose.Tasks para .NET. Los valores booleanos que admiten valores NULL ofrecen flexibilidad a la hora de representar valores booleanos, lo que permite la posibilidad de que no estén definidos. Exploraremos cómo utilizar el`NullableBool` clase, sus constructores, propiedades y métodos.
+En este tutorial, profundizaremos en cómo trabajar con valores booleanos que aceptan valores NULL en Aspose.Tasks para .NET. Los valores booleanos que admiten valores NULL ofrecen flexibilidad a la hora de representar valores booleanos, lo que permite la posibilidad de que no estén definidos. Exploraremos cómo utilizar el`NullableBool` clase, sus constructores, propiedades y métodos.
 
 ## Requisitos previos
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Ahora, dividamos cada ejemplo en varios pasos.
 
-##  trabajando con`NullableBool`
+##  Trabajando con`NullableBool`
 
 ###  Paso 1: crear un nuevo`Project` instance.
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Paso 6: Mostrar la representación de cadena del`NullableBool` object.
+###  Paso 6: Mostrar la representación de cadena del`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Paso 2: Imprima el código hash para cada uno`NullableBool` object.
+### Paso 2: Imprima el código hash para cada uno`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Conclusión
 
- En este tutorial, exploramos cómo manejar valores booleanos que aceptan valores NULL en Aspose.Tasks para .NET. Al utilizar el`NullableBool` class y sus metodos, puede administrar de manera eficiente valores booleanos con la flexibilidad adicional de ser anulables.
+ En este tutorial, exploramos cómo manejar valores booleanos que aceptan valores NULL en Aspose.Tasks para .NET. Al utilizar el`NullableBool` clase y sus métodos, puede administrar eficientemente valores booleanos con la flexibilidad adicional de ser anulables.
 
 ## Preguntas frecuentes
 

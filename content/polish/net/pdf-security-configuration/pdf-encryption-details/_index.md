@@ -8,7 +8,7 @@ weight: 11
 url: /pl/net/pdf-security-configuration/pdf-encryption-details/
 ---
 ## Wstęp
-świecie programowania .NET efektywne zarządzanie zadaniami jest kluczowe. Aspose.Tasks dla .NET upraszcza ten proces, udostępniając kompleksowy zestaw narzędzi do pracy z plikami Microsoft Project. Istotnym aspektem zarządzania zadaniami jest zapewnienie bezpieczeństwa wrażliwych informacji projektowych. W tym samouczku zagłębimy się w konfigurowanie szczegółów szyfrowania plików PDF w programie MS Project za pomocą Aspose.Tasks dla .NET.
+W świecie programowania .NET efektywne zarządzanie zadaniami jest kluczowe. Aspose.Tasks dla .NET upraszcza ten proces, udostępniając kompleksowy zestaw narzędzi do pracy z plikami Microsoft Project. Istotnym aspektem zarządzania zadaniami jest zapewnienie bezpieczeństwa wrażliwych informacji projektowych. W tym samouczku zagłębimy się w konfigurowanie szczegółów szyfrowania plików PDF w programie MS Project za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
 1. Podstawowa znajomość .NET: Znajomość środowiska programistycznego C# i .NET.
@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Zdefiniuj szczegóły szyfrowania, w tym hasło użytkownika, hasło właściciela, algorytm szyfrowania i uprawnienia:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //Hasło użytkownika
+    "userPassword",        // Hasło użytkownika
     "ownerPassword",       // Hasło właściciela
     PdfEncryptionAlgorithm.RC4_128);  // Algorytm szyfrowania
 // Określ uprawnienia
@@ -56,7 +56,7 @@ project.Save(DataDir + "EncryptedProject.pdf", options);
 ```
 
 ## Wniosek
-W tym samouczku omówiliśmy, jak skonfigurować szczegóły szyfrowania plików PDF w programie MS Project przy użyciu Aspose.Tasks dla .NET. Wykonując poniższe kroki, możesz zapewnić bezpieczeństwo plików projektu, szyfrując je hasłami użytkownika i właściciela, określając algorytmy szyfrowania i ustawiając uprawnienia zgodnie z potrzebami.
+tym samouczku omówiliśmy, jak skonfigurować szczegóły szyfrowania plików PDF w programie MS Project przy użyciu Aspose.Tasks dla .NET. Wykonując poniższe kroki, możesz zapewnić bezpieczeństwo plików projektu, szyfrując je hasłami użytkownika i właściciela, określając algorytmy szyfrowania i ustawiając uprawnienia zgodnie z potrzebami.
 ## Często zadawane pytania
 ### P: Czy mogę jednocześnie szyfrować wiele plików MS Project?
 O: Tak, możesz przeglądać wiele plików projektu i indywidualnie stosować szczegóły szyfrowania do każdego z nich.

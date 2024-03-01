@@ -83,7 +83,7 @@ foreach (var weekDay in weekDaysArray)
 }
 ```
 ## 結論
-在本教程中，我們探索了 Aspose.Tasks for .NET 在管理專案行事曆中的工作日方面的強大功能。從客製化工作日到創建專門的 24 小時日曆，Aspose.Tasks 簡化了流程，為專案管理提供了靈活性和控制力。
+在本教程中，我們探索了 Aspose.Tasks for .NET 在專案行事曆中管理工作日的強大功能。從客製化工作日到創建專門的 24 小時日曆，Aspose.Tasks 簡化了流程，為專案管理提供了靈活性和控制力。
 ## 經常問的問題
 ### Q：我可以將 Aspose.Tasks for .NET 與其他程式語言一起使用嗎？
 答：Aspose.Tasks 主要支援 .NET 語言，但也提供 Java 版本。

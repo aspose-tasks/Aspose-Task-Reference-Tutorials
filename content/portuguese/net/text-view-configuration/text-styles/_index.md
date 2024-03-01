@@ -1,6 +1,6 @@
 ---
 title: Dominando a personalização de estilo de texto em Aspose.Tasks
-linktitle: Configurar estilos de texto em Aspose.Tasks
+linktitle: Configurando estilos de texto em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprimore a estética do documento do projeto com Aspose.Tasks for .NET. Personalize estilos de texto sem esforço para obter uma representação visualmente atraente.
 type: docs

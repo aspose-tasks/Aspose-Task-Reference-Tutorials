@@ -1,6 +1,6 @@
 ---
-title: Configureer gebruiksweergaven in Aspose.Tasks
-linktitle: Configureer gebruiksweergaven in Aspose.Tasks
+title: Gebruiksweergaven configureren in Aspose.Tasks
+linktitle: Gebruiksweergaven configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u taakgebruiksweergaven configureert in Aspose.Tasks voor .NET. Verbeter de projectvisualisatie met gedetailleerde stappen. Download de bibliotheek nu!
 type: docs
@@ -11,7 +11,7 @@ url: /nl/net/text-view-configuration/usage-views/
 Als u een .NET-ontwikkelaar bent en uw projectbeheermogelijkheden wilt verbeteren, is Aspose.Tasks een krachtig hulpmiddel waarmee u Microsoft Project-bestanden moeiteloos kunt manipuleren. In deze zelfstudie concentreren we ons op het configureren van gebruiksweergaven met Aspose.Tasks voor .NET. Volg mee om inzicht te krijgen in het weergeven van taakgebruiksweergaven met details voor een betere projectvisualisatie.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-- Aspose.Tasks-bibliotheek: Zorg ervoor dat de Aspose.Tasks-bibliotheek in uw .NET-project is geïntegreerd. Zo niet, dan kunt u deze downloaden[hier](https://releases.aspose.com/tasks/net/) en volg de installatie-instructies.
+-  Aspose.Tasks-bibliotheek: Zorg ervoor dat de Aspose.Tasks-bibliotheek in uw .NET-project is geïntegreerd. Zo niet, dan kunt u deze downloaden[hier](https://releases.aspose.com/tasks/net/) en volg de installatie-instructies.
 - Documentmap: stel een map in waarin uw projectdocumenten worden opgeslagen. Vervang "Uw documentenmap" in de codefragmenten door het daadwerkelijke pad naar uw documentmap.
 ## Naamruimten importeren
 In het verstrekte codefragment ziet u het gebruik van bepaalde naamruimten. Zorg ervoor dat u deze in uw project opneemt voor een naadloze integratie:

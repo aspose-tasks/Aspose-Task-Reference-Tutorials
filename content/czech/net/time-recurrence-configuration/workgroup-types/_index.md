@@ -41,7 +41,7 @@ Ano, Aspose.Tasks podporuje .NET Core spolu s tradičním .NET Framework.
 ### Mohu nastavit více typů pracovních skupin pro jeden zdroj?
 Ano, v různých fázích projektu můžete pro zdroj nastavit různé typy pracovních skupin.
 ### Kde najdu další podporu pro Aspose.Tasks?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a diskuze.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a diskuze.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks?
  Ano, máte přístup k bezplatné zkušební verzi z[tady](https://releases.aspose.com/).
 ### Jak mohu získat dočasnou licenci pro Aspose.Tasks?

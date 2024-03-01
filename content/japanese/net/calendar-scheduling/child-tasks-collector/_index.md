@@ -91,7 +91,7 @@ A3: Aspose.Tasks for .NET は主に .NET 環境向けに設計されています
 
 ### Q4: Aspose.Tasks for .NET のテクニカル サポートは利用できますか?
 
- A4: はい、ユーザーは次の Web サイトを通じてテクニカル サポートにアクセスできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
+A4: はい、ユーザーは次の Web サイトを通じてテクニカル サポートにアクセスできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: 購入する前に Aspose.Tasks for .NET を試すことはできますか?
 

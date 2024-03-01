@@ -2,7 +2,7 @@
 title: คู่มือการรวบรวมตารางการเรียนรู้ใน Aspose.Tasks
 linktitle: คอลเลกชันของตารางใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Master Aspose.Tasks สำหรับ .NET พร้อมคำแนะนำทีละขั้นตอนเกี่ยวกับการจัดการคอลเลกชันตาราง ปรับปรุงแอปพลิเคชันการจัดการโครงการได้อย่างง่ายดาย ดาวน์โหลดเดี๋ยวนี้!
+description: Master Aspose.Tasks สำหรับ .NET พร้อมด้วยคำแนะนำทีละขั้นตอนเกี่ยวกับการจัดการคอลเลกชันตาราง ปรับปรุงแอปพลิเคชันการจัดการโครงการได้อย่างง่ายดาย ดาวน์โหลดเดี๋ยวนี้!
 type: docs
 weight: 11
 url: /th/net/task-table-management/table-collection/

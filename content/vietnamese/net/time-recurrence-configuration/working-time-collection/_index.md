@@ -68,8 +68,8 @@ var sundayWorkingTimes = new List<WorkingTime>
 };
 var sunday = new WeekDay(DayType.Sunday, sundayWorkingTimes);
 ```
-## Bước 6: In Thời gian làm việc Chủ Nhật
-In thời gian làm việc đã định cấu hình cho Chủ nhật:
+## Bước 6: In Thời gian làm việc Chủ nhật
+In thời gian làm việc đã định cấu hình cho Chủ Nhật:
 ```csharp
 List<WorkingTime> workingTimes = sunday.WorkingTimes.ToList();
 Console.WriteLine("Sunday working period number: " + workingTimes.Count);

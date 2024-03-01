@@ -8,7 +8,7 @@ weight: 10
 url: /cs/net/view-wbs-code-configuration/configuring-views/
 ---
 ## Úvod
-dynamickém světě projektového řízení může přizpůsobení pohledů v Microsoft Project výrazně zlepšit váš pracovní postup. Aspose.Tasks for .NET poskytuje výkonnou sadu nástrojů pro bezproblémovou manipulaci a konfiguraci zobrazení projektu. V tomto tutoriálu se ponoříme do kroků konfigurace zobrazení pomocí Aspose.Tasks for .NET, což vám pomůže zefektivnit vizualizaci vašeho projektu.
+V dynamickém světě projektového řízení může přizpůsobení pohledů v Microsoft Project výrazně zlepšit váš pracovní postup. Aspose.Tasks for .NET poskytuje výkonnou sadu nástrojů pro bezproblémovou manipulaci a konfiguraci zobrazení projektu. V tomto tutoriálu se ponoříme do kroků konfigurace zobrazení pomocí Aspose.Tasks for .NET, což vám pomůže zefektivnit vizualizaci vašeho projektu.
 ## Předpoklady
 Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
 -  Aspose.Tasks for .NET Library: Stáhněte a nainstalujte knihovnu z[tady](https://releases.aspose.com/tasks/net/).
@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Zvýrazněte filtr pro jeden pohled
 ## Krok 4: Vylaďte nastavení zobrazení
 ```csharp
 // Upravte některá nastavení zobrazení
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Nastavte počet prvních sloupců, které se mají vytisknout na všech stránkách
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Nastavte počet prvních sloupců, které se mají vytisknout na všech stránkách
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Vytiskněte zadaný počet prvních sloupců na všechny stránky
 ```
 ## Krok 5: Přidejte pohled do projektu
 ```csharp
-//Přidejte pohled do našeho projektu
+// Přidejte pohled do našeho projektu
 project.Views.Add(view);
 ```
 ## Krok 6: Uložte projekt s novým pohledem
@@ -73,8 +73,8 @@ Aspose.Tasks je primárně navržen pro Microsoft Project a zajišťuje bezprobl
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
  Ano, můžete vyzkoušet bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu pro Aspose.Tasks pro .NET?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro podporu komunity nebo zvažte nákup plánů podpory.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pro podporu komunity nebo zvažte nákup plánů podpory.
 ### Mohu si vzhled pohledů dále přizpůsobit?
- Rozhodně se ponořte do dokumentace Aspose.Tasks[tady](https://reference.aspose.com/tasks/net/)pro pokročilé možnosti přizpůsobení.
+ Rozhodně se ponořte do dokumentace Aspose.Tasks[tady](https://reference.aspose.com/tasks/net/) pro pokročilé možnosti přizpůsobení.
 ### Kde mohu zakoupit Aspose.Tasks pro .NET?
  Knihovnu si můžete koupit[tady](https://purchase.aspose.com/buy) pro bezproblémové řízení projektů.

@@ -1,6 +1,6 @@
 ---
-title: Configurer les options d'impression MS Project dans Aspose.Tasks
-linktitle: Configurer les options d'impression dans Aspose.Tasks
+title: Configuration des options d'impression MS Project dans Aspose.Tasks
+linktitle: Configuration des options d'impression dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les options d'impression de MS Project de manière transparente à l'aide d'Aspose.Tasks pour .NET. Améliorez vos capacités de gestion de projet.
 type: docs
@@ -11,7 +11,7 @@ url: /fr/net/project-management-integration/print-options/
 Dans le domaine du développement logiciel, Aspose.Tasks for .NET se distingue comme un outil puissant pour gérer efficacement les tâches et les projets. L'une de ses fonctionnalités clés est la possibilité de configurer les options d'impression de Microsoft Project de manière transparente. Dans ce didacticiel, nous aborderons le processus de configuration des options d'impression de MS Project à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
 Avant de plonger dans les subtilités de la configuration des options d'impression de MS Project, assurez-vous que les conditions préalables suivantes sont en place :
-1.  Installation d'Aspose.Tasks pour .NET : assurez-vous d'avoir installé la bibliothèque Aspose.Tasks pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/net/).
+1. Installation d'Aspose.Tasks pour .NET : assurez-vous d'avoir installé la bibliothèque Aspose.Tasks pour .NET. Vous pouvez le télécharger depuis[ici](https://releases.aspose.com/tasks/net/).
 2. Compréhension de base de C# : Familiarisez-vous avec les bases du langage de programmation C#, car ce didacticiel utilise principalement C# à des fins de démonstration.
 
 ## Importer des espaces de noms
@@ -43,7 +43,7 @@ Avant d'imprimer, il est prudent de vérifier le nombre de pages pour éviter d'
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Procéder à l'impression
+    // Procéder à l'impression
     project.Print(options);
 }
 ```

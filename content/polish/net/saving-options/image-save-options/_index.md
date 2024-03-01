@@ -9,11 +9,11 @@ url: /pl/net/saving-options/image-save-options/
 ---
 
 ## Wstęp
-świecie tworzenia oprogramowania wydajna realizacja zadań projektowych ma kluczowe znaczenie dla skutecznego zarządzania projektami. Aspose.Tasks dla .NET oferuje potężne rozwiązanie dla programistów pracujących z plikami Microsoft Project, umożliwiając im płynne manipulowanie, konwertowanie i zarządzanie zadaniami projektowymi w aplikacjach .NET.
+W świecie tworzenia oprogramowania wydajna realizacja zadań projektowych ma kluczowe znaczenie dla skutecznego zarządzania projektami. Aspose.Tasks dla .NET oferuje potężne rozwiązanie dla programistów pracujących z plikami Microsoft Project, umożliwiając im płynne manipulowanie, konwertowanie i zarządzanie zadaniami projektowymi w aplikacjach .NET.
 ## Warunki wstępne
 Zanim zaczniesz używać Aspose.Tasks dla .NET do zapisywania opcji MS Project jako obrazów, upewnij się, że spełnione są następujące wymagania wstępne:
 ### 1. Zainstaluj Aspose.Tasks dla .NET
- Aby rozpocząć, musisz mieć zainstalowany Aspose.Tasks dla .NET w swoim środowisku programistycznym. Bibliotekę można pobrać ze strony[strona internetowa](https://releases.aspose.com/tasks/net/) i postępuj zgodnie z dostarczonymi instrukcjami instalacji.
+Aby rozpocząć, musisz mieć zainstalowany Aspose.Tasks dla .NET w swoim środowisku programistycznym. Bibliotekę można pobrać ze strony[strona internetowa](https://releases.aspose.com/tasks/net/) i postępuj zgodnie z dostarczonymi instrukcjami instalacji.
 ### 2. Uzyskaj licencję (opcjonalnie)
  Chociaż Aspose.Tasks dla .NET może być używany bez licencji w trybie ewaluacyjnym, zaleca się uzyskanie licencji w celu uzyskania pełnej funkcjonalności i usunięcia ograniczeń ewaluacyjnych. Licencję można nabyć w witrynie[strona zakupu](https://purchase.aspose.com/buy) lub zdecyduj się na[licencja tymczasowa](https://purchase.aspose.com/temporary-license/) do celów testowych.
 ### 3. Podstawowa znajomość programowania w C# i .NET
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## Krok 3: Zdefiniuj opcje zapisywania obrazu
- Utwórz instancję`ImageSaveOptions` i określ żądane ustawienia:
+ Utwórz instancję`ImageSaveOptions` określ żądane ustawienia:
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {

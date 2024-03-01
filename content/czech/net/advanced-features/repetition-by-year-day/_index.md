@@ -9,7 +9,7 @@ url: /cs/net/advanced-features/repetition-by-year-day/
 ---
 ## Úvod
 
-V oblasti projektového řízení hraje efektivní plánování úkolů a opakování klíčovou roli při zajišťování včasného provedení a hladkého průběhu práce. Aspose.Tasks for .NET nabízí robustní řešení pro vývojáře, aby bez námahy zvládli opakující se úkoly v rámci svých aplikací. V tomto tutoriálu se ponoříme do složitosti práce s každoročním denním opakováním pomocí Aspose.Tasks, který poskytuje komplexního průvodce pro vytváření opakujících se úkolů založených na ročních vzorcích.
+oblasti projektového řízení hraje efektivní plánování úkolů a opakování klíčovou roli při zajišťování včasného provedení a hladkého průběhu práce. Aspose.Tasks for .NET nabízí robustní řešení pro vývojáře, aby bez námahy zvládli opakující se úkoly v rámci svých aplikací. V tomto tutoriálu se ponoříme do složitosti práce s ročními denními opakováními pomocí Aspose.Tasks a poskytujeme komplexního průvodce pro vytváření opakujících se úkolů založených na ročních vzorcích.
 
 ## Předpoklady
 
@@ -21,7 +21,7 @@ Než se ponoříte do výukového programu, ujistěte se, že máte splněny ná
 
 3. Základní znalost C#: Seznamte se se základy programovacího jazyka C# a postupujte podle příkladů kódu.
 
-4. Koncepce projektového managementu: Pochopení konceptů projektového managementu a plánování úkolů pomůže efektivně uchopit koncepty výukového programu.
+4. Koncepce projektového řízení: Pochopení konceptů projektového managementu a plánování úkolů pomůže efektivně uchopit koncepty výukového programu.
 
 ## Importovat jmenné prostory
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- V tomto kroku definujeme parametry pro naši opakovanou úlohu. Zadáme název úlohy, dobu trvání a vzor opakování. Pro každoroční opakování používáme`YearlyRecurrencePattern` a nastavte opakování na 1. den července pomocí`ByYearDayRepetition`, Kromě toho definujeme rozsah opakování od 1. července 2018 do 1. července 2019.
+ V tomto kroku definujeme parametry pro naši opakovanou úlohu. Zadáme název úlohy, dobu trvání a vzor opakování. Pro každoroční opakování používáme`YearlyRecurrencePattern` a nastavte opakování na 1. den července pomocí`ByYearDayRepetition`. Kromě toho definujeme rozsah opakování od 1. července 2018 do 1. července 2019.
 
 ## Krok 3: Přidejte úkol do projektu
 
@@ -86,7 +86,7 @@ Nakonec uložíme upravený soubor projektu s přidanou opakovanou úlohou.
 
 ## Závěr
 
-tomto tutoriálu jsme prozkoumali proces práce s ročními denními opakováními v Aspose.Tasks pro .NET. Dodržením poskytnutých kroků mohou vývojáři bezproblémově integrovat funkcionalitu opakujících se úloh do svých aplikací a rozšířit tak možnosti řízení projektů.
+V tomto tutoriálu jsme prozkoumali proces práce s ročními denními opakováními v Aspose.Tasks pro .NET. Dodržením poskytnutých kroků mohou vývojáři bezproblémově integrovat funkcionalitu opakujících se úloh do svých aplikací a rozšířit tak možnosti řízení projektů.
 
 ## FAQ
 
@@ -104,7 +104,7 @@ Odpověď 3: Ano, vývojáři mohou získat přístup k rozsáhlé dokumentaci a
 
 ### Q4: Mohu upravit vlastnosti úkolu, jako je trvání a datum zahájení pomocí Aspose.Tasks?
 
-A4: Jistě, Aspose.Tasks poskytuje robustní rozhraní API pro dynamickou manipulaci s vlastnostmi úloh, což vývojářům umožňuje přizpůsobit trvání, data zahájení, závislosti a další.
+Odpověď 4: Aspose.Tasks samozřejmě poskytuje robustní rozhraní API pro dynamickou manipulaci s vlastnostmi úloh, což umožňuje vývojářům přizpůsobit trvání, data zahájení, závislosti a další.
 
 ### Q5: Je Aspose.Tasks vhodný jak pro malé, tak pro podnikové projekty?
 

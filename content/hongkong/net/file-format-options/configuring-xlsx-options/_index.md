@@ -89,4 +89,4 @@ project.Save("OutputFile.xlsx", options);
 
 ### Q：是否有任何臨時許可證選項可用於測試目的？
 
-答：是的，您可以從以下機構獲得臨時許可證：[Aspose.Tasks臨時許可證頁面](https://purchase.aspose.com/temporary-license/).
+答：是的，您可以從以下機構獲得臨時許可證：[Aspose.Tasks 臨時授權頁面](https://purchase.aspose.com/temporary-license/).

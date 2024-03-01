@@ -57,9 +57,9 @@ Dans ce didacticiel, nous avons exploré la richesse d'Aspose.Tasks pour .NET, e
 ### Puis-je utiliser Aspose.Tasks pour .NET avec d’autres outils de gestion de projet ?
 Aspose.Tasks se concentre principalement sur les applications .NET. Cependant, vous pouvez exporter des données vers différents formats compatibles avec d'autres outils.
 ### Un essai gratuit est-il disponible pour Aspose.Tasks pour .NET ?
-Oui, vous pouvez découvrir les fonctionnalités d'Aspose.Tasks pour .NET en obtenant un essai gratuit[ici](https://releases.aspose.com/).
+ Oui, vous pouvez découvrir les fonctionnalités d'Aspose.Tasks pour .NET en obtenant un essai gratuit[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir de l’assistance pour Aspose.Tasks pour .NET ?
- visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour un soutien communautaire ou explorez la documentation complète.
+ Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour un soutien communautaire ou explorez la documentation complète.
 ### Des licences temporaires sont-elles disponibles pour Aspose.Tasks pour .NET ?
  Oui, vous pouvez acquérir des licences temporaires[ici](https://purchase.aspose.com/temporary-license/) pour une utilisation à court terme.
 ### Quels formats de fichiers sont pris en charge pour les documents de projet ?

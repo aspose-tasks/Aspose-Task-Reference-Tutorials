@@ -9,7 +9,7 @@ url: /de/net/advanced-concepts/tree-algorithm/
 ---
 ## Einführung
 
-Aspose.Tasks für .NET bietet leistungsstarke Funktionen für die Arbeit mit Projektmanagementaufgaben, Ressourcen und Zeitplänen. Eine dieser Funktionen ist der Baumalgorithmus, der es Benutzern ermöglicht, Aufgabenhierarchien effizient zu manipulieren. In diesem Tutorial erfahren Sie, wie Sie den Baumalgorithmus in Aspose.Tasks für .NET verwenden, um allgemeine Arbeiten zu sammeln und Arbeitswerte innerhalb eines Projekts zu aktualisieren.
+Aspose.Tasks für .NET bietet leistungsstarke Funktionen für die Arbeit mit Projektmanagementaufgaben, Ressourcen und Zeitplänen. Eine dieser Funktionen ist der Baumalgorithmus, der es Benutzern ermöglicht, Aufgabenhierarchien effizient zu manipulieren. In diesem Tutorial erfahren Sie, wie Sie den Baumalgorithmus in Aspose.Tasks für .NET verwenden, um allgemeine Arbeit zu sammeln und Arbeitswerte innerhalb eines Projekts zu aktualisieren.
 
 ## Voraussetzungen
 

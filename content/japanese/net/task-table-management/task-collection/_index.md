@@ -90,7 +90,7 @@ foreach (var task in tasks)
 ### プロジェクト タスクを別のファイル形式にエクスポートできますか?
 絶対に！ Aspose.Tasks は、PDF、XLSX、MPP などの多彩なエクスポート オプションを提供します。
 ### タスク間の依存関係を処理するにはどうすればよいですか?
-タスクの依存関係を設定するには、`TaskLink`Aspose.Tasks によって提供されるクラス。
+タスクの依存関係を設定するには、`TaskLink` Aspose.Tasks によって提供されるクラス。
 ### Aspose.Tasks サポートのためのコミュニティ フォーラムはありますか?
 はい、次の場所でサポートを見つけたり、コミュニティに参加したりできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
 ### Aspose.Tasks の一時ライセンスを取得できますか?

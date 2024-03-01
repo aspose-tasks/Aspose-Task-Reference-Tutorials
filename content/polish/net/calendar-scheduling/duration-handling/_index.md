@@ -133,7 +133,7 @@ Console.WriteLine("The duration as a string: " + duration.ToString());
 
 ## Wniosek
 
-W tym samouczku omówiliśmy różne aspekty obsługi czasu trwania w Aspose.Tasks dla .NET. Zrozumienie czasów trwania i skuteczne zarządzanie nimi jest niezbędne do skutecznego zarządzania projektami. Aspose.Tasks zapewnia wszechstronne funkcje upraszczające zadania związane z zarządzaniem czasem trwania w aplikacjach .NET.
+tym samouczku omówiliśmy różne aspekty obsługi czasu trwania w Aspose.Tasks dla .NET. Zrozumienie czasów trwania i skuteczne zarządzanie nimi jest niezbędne do skutecznego zarządzania projektami. Aspose.Tasks zapewnia wszechstronne funkcje upraszczające zadania związane z zarządzaniem czasem trwania w aplikacjach .NET.
 
 ## Często zadawane pytania
 
@@ -155,4 +155,4 @@ O4: Tak, Aspose.Tasks obsługuje odczytywanie i zapisywanie plików Microsoft Pr
 
 ### P5: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
 
- O5: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks dla .NET od[Tutaj](https://releases.aspose.com/).
+O5: Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Tasks dla .NET od[Tutaj](https://releases.aspose.com/).

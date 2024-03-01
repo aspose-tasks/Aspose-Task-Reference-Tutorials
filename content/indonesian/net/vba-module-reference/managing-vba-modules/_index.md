@@ -69,8 +69,8 @@ Ya, Aspose.Tasks mendukung berbagai versi file Microsoft Project, termasuk .mpp 
 ### Bisakah saya mengubah kode sumber modul VBA secara terprogram menggunakan Aspose.Tasks?
 Sangat! Aspose.Tasks menyediakan metode untuk tidak hanya membaca tetapi juga memperbarui kode sumber modul VBA.
 ### Di mana saya dapat menemukan contoh dan dokumentasi tambahan untuk Aspose.Tasks?
- mengunjungi[dokumentasi](https://reference.aspose.com/tasks/net/) untuk contoh dan bimbingan yang komprehensif.
+ Mengunjungi[dokumentasi](https://reference.aspose.com/tasks/net/) untuk contoh dan bimbingan yang komprehensif.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
- Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan untuk masalah apa pun terkait Aspose.Tasks?
- Jangan ragu untuk berkunjung[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)untuk dukungan masyarakat.
+Jangan ragu untuk mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan masyarakat.

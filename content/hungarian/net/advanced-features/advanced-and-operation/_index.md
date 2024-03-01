@@ -84,7 +84,7 @@ foreach (var task in collection)
 
 ## Következtetés
 
- Ebben az oktatóanyagban megtanultuk, hogyan hajthatunk végre speciális ÉS műveleteket az Aspose.Tasks for .NET-ben. A feltételek kombinálásával a`Util.And` osztályba, több szempont alapján is hatékonyan tudjuk szűrni a feladatokat.
+ Ebben az oktatóanyagban megtanultuk, hogyan hajthatunk végre speciális ÉS műveleteket az Aspose.Tasks for .NET-ben. A feltételek kombinálásával a`Util.And`osztályba, több szempont alapján is hatékonyan tudjuk szűrni a feladatokat.
 
 ## GYIK
 
@@ -106,4 +106,4 @@ V: Igen, az Util.And használható tetszőleges számú feltétel kombinálásá
 
 ### 5. kérdés: Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
 
- V: Támogatást kaphat az Aspose.Tasks közösségi fórumon.[itt](https://forum.aspose.com/c/tasks/15).
+V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).

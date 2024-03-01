@@ -108,7 +108,7 @@ Aspose.Tasks'ta çalışma sürelerinin toplanması konusunda uzmanlaşmak, proj
 Evet, Aspose.Tasks, farklı boyutlardaki projelerin üstesinden gelmek üzere tasarlanmış olup verimli proje yönetimi için sağlam özellikler sunar.
 ### Aspose.Tasks'ı diğer .NET kütüphaneleriyle entegre edebilir miyim?
 Kesinlikle! Aspose.Tasks, diğer .NET kitaplıklarıyla sorunsuz bir şekilde bütünleşerek çok yönlülüğünü ve uyumluluğunu artırır.
-### Aspose.Tasks ne sıklıkta güncellenir?
+### Aspose.Tasks ne sıklıkla güncellenir?
  Aspose.Tasks, yeni özellikleri, geliştirmeleri ve uyumluluk iyileştirmelerini içerecek şekilde düzenli olarak güncellenmektedir. Kontrol edin[yayın sayfası](https://releases.aspose.com/tasks/net/) En son güncellemeler için.
 ### Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
  Evet, Aspose.Tasks'ı ziyaret ederek ücretsiz deneme sürümüyle keşfedebilirsiniz.[bu bağlantı](https://releases.aspose.com/).

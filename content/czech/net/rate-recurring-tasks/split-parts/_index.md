@@ -17,7 +17,7 @@ Než se ponoříte do výukového programu, ujistěte se, že máte následujíc
 2. Základní porozumění C#: Výhodou bude znalost programovacího jazyka C#.
 
 ## Importovat jmenné prostory
-kódu C# nezapomeňte importovat potřebné jmenné prostory:
+V kódu C# nezapomeňte importovat potřebné jmenné prostory:
 ```csharp
     using Aspose.Tasks;
     using System;

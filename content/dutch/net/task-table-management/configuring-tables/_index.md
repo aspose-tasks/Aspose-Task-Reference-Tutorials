@@ -1,6 +1,6 @@
 ---
 title: Hoofdtabelconfiguratie in Aspose.Tasks voor .NET
-linktitle: Configureer tabellen in Aspose.Tasks
+linktitle: Tabellen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u tabellen configureert in Aspose.Tasks voor .NET met deze stapsgewijze handleiding. Verbeter moeiteloos uw projectmanagementervaring.
 type: docs
@@ -11,7 +11,7 @@ url: /nl/net/task-table-management/configuring-tables/
 Welkom bij deze uitgebreide handleiding over het configureren van tabellen in Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige bibliotheek waarmee ontwikkelaars naadloos met Microsoft Project-bestanden kunnen werken. In deze zelfstudie leiden we u door het proces van het configureren van tabellen met Aspose.Tasks, waarbij we elke stap opsplitsen voor een duidelijk begrip.
 ## Vereisten
 Voordat we dieper ingaan op de zelfstudie, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
--  Aspose.Tasks voor .NET: Zorg ervoor dat de Aspose.Tasks-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.Tasks .NET-documentatie](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks voor .NET: Zorg ervoor dat de Aspose.Tasks-bibliotheek is geïnstalleerd. Je kunt het downloaden van de[Aspose.Tasks .NET-documentatie](https://reference.aspose.com/tasks/net/).
 - Ontwikkelomgeving: Stel uw ontwikkelomgeving in met Visual Studio of een ander gewenst .NET-ontwikkelprogramma.
 - Voorbeeldprojectbestand: Zorg ervoor dat u een voorbeeld van een Microsoft Project-bestand (MPP) gereed heeft om te testen.
 ## Naamruimten importeren

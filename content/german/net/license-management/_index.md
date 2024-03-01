@@ -10,7 +10,7 @@ url: /de/net/license-management/
 
 ## Einführung
 
-Lernen Sie die Besonderheiten von Aspose.Tasks für .NET mit unseren ausführlichen Tutorials zur Lizenzverwaltung kennen. Unabhängig davon, ob Sie mit dem Framework noch nicht vertraut sind oder Ihre Fähigkeiten erweitern möchten, vermitteln unsere Schritt-für-Schritt-Anleitungen das Wissen, das Sie für eine nahtlose Integration benötigen.
+Lernen Sie die Besonderheiten von Aspose.Tasks für .NET mit unseren ausführlichen Tutorials zur Lizenzverwaltung kennen. Unabhängig davon, ob Sie mit dem Framework noch nicht vertraut sind oder Ihre Kenntnisse erweitern möchten, vermitteln unsere Schritt-für-Schritt-Anleitungen das Wissen, das Sie für eine nahtlose Integration benötigen.
 
 ## Verwalten der Aspose.Tasks-Lizenz in .NET
 

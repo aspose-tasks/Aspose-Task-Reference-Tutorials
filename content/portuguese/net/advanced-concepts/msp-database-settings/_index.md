@@ -86,7 +86,7 @@ A1: Sim, Aspose.Tasks oferece suporte a várias versões de bancos de dados do M
 
 ### P2: Como posso solucionar problemas de conexão com o banco de dados?
 
-A2: Certifique-se de que sua cadeia de conexão esteja configurada corretamente com as credenciais e detalhes do banco de dados apropriados. Você também pode consultar a documentação ou buscar suporte do[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ A2: Certifique-se de que sua cadeia de conexão esteja configurada corretamente com as credenciais e detalhes do banco de dados apropriados. Você também pode consultar a documentação ou buscar suporte do[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### Q3: Existe uma versão de teste disponível para Aspose.Tasks?
 

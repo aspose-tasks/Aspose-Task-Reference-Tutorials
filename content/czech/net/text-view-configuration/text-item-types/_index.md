@@ -11,7 +11,7 @@ url: /cs/net/text-view-configuration/text-item-types/
 Pokud jste vývojář .NET, který se ponoří do projektového řízení pomocí Aspose.Tasks, jste na správném místě! V tomto podrobném průvodci prozkoumáme složitosti manipulace s typy textových položek v Aspose.Tasks a zaměříme se na přizpůsobení pomocí výkonné knihovny .NET.
 ## Předpoklady
 Než začneme, ujistěte se, že máte na svém místě následující:
-1. Aspose.Tasks for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Tasks. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Tasks. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
 2. Adresář dokumentů: Nastavte adresář pro vaše projektové dokumenty.
 Nyní se pojďme ponořit do hrubšího zpracování typů textových položek.
 ## Importovat jmenné prostory
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Použijte definovaný styl textu na svůj projekt a uložte přizpůsobený projekt jako soubor PDF.
 Opakujte tyto kroky pro další potřeby přizpůsobení, experimentujte s různými typy textových položek, styly písem a barvami.
 ## Závěr
- Gratulujeme! Právě jste poškrábali povrch manipulace s typy textových položek v Aspose.Tasks pro .NET. Jak budete pokračovat v průzkumu, podívejte se na[dokumentace](https://reference.aspose.com/tasks/net/) pro hloubkové vhledy.
+Gratulujeme! Právě jste poškrábali povrch manipulace s typy textových položek v Aspose.Tasks pro .NET. Jak budete pokračovat v průzkumu, podívejte se na[dokumentace](https://reference.aspose.com/tasks/net/) pro hloubkové vhledy.
 ### Nejčastější dotazy
 ### Otázka: Mohu používat Aspose.Tasks zdarma?
  Odpověď: Aspose.Tasks nabízí bezplatnou zkušební verzi. Uchopit[tady](https://releases.aspose.com/).

@@ -9,7 +9,7 @@ url: /tr/net/calendar-scheduling/compound-document-header-exception/
 ---
 ## giriiş
 
- .NET geliştirme alanında, proje görevlerini verimli bir şekilde yönetmek en önemli husustur. Aspose.Tasks, .NET geliştiricilerinin proje yönetimi görevlerini sorunsuzca yerine getirmeleri için kapsamlı bir çözüm sunar. Ancak istisnalarla karşılaşmak yazılım geliştirmenin kaçınılmaz bir yönüdür. Geliştiricilerin karşılaşabileceği istisnalardan biri de`CompoundDocumentHeaderException`Bu eğitim, geliştiricilere Aspose.Tasks for .NET'i kullanarak bu istisnayı etkili bir şekilde nasıl ele alacakları konusunda rehberlik etmeyi amaçlamaktadır.
+ .NET geliştirme alanında, proje görevlerini verimli bir şekilde yönetmek en önemli husustur. Aspose.Tasks, .NET geliştiricilerinin proje yönetimi görevlerini sorunsuzca yerine getirmeleri için kapsamlı bir çözüm sunar. Ancak istisnalarla karşılaşmak yazılım geliştirmenin kaçınılmaz bir yönüdür. Geliştiricilerin karşılaşabileceği istisnalardan biri de`CompoundDocumentHeaderException`. Bu eğitim, geliştiricilere Aspose.Tasks for .NET'i kullanarak bu istisnayı etkili bir şekilde nasıl ele alacakları konusunda rehberlik etmeyi amaçlamaktadır.
 
 ## Önkoşullar
 
@@ -78,7 +78,7 @@ Uygun yöntemleri veya özellikleri kullanarak proje adı gibi gerekli proje bil
 
 ## Adım 4: İstisna İşleme
 
- durumunda`CompoundDocumentHeaderException`proje yükleme sırasında meydana gelirse, onu catch bloğu içinde ele alın. Daha fazla analiz için istisna mesajını yazdırın veya günlüğe kaydedin.
+ durumunda`CompoundDocumentHeaderException` proje yükleme sırasında meydana gelirse, onu catch bloğu içinde ele alın. Daha fazla analiz için istisna mesajını yazdırın veya günlüğe kaydedin.
 
 ## Çözüm
 

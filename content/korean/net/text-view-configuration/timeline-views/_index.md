@@ -71,7 +71,7 @@ project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat
 ### 타임라인 보기에서 개별 작업의 모양을 사용자 정의할 수 있나요?
 전적으로! Aspose.Tasks는 타임라인 보기에서 각 작업의 모양을 사용자 정의할 수 있는 유연성을 제공합니다.
 ### Aspose.Tasks에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
- 방문하다[Aspose.Tasks 문서](https://reference.aspose.com/tasks/net/) 포괄적인 가이드와[지원 포럼](https://forum.aspose.com/c/tasks/15) 도움을 위해.
+ 방문하다[Aspose.Tasks 문서](https://reference.aspose.com/tasks/net/)포괄적인 가이드와[지원 포럼](https://forum.aspose.com/c/tasks/15) 도움을 위해.
 ### Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
  예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 임시 라이선스는 어떻게 얻나요?

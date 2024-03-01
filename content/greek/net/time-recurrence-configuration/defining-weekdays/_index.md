@@ -68,7 +68,7 @@ Console.WriteLine("Week Day 2 Hash Code: {0}", weekDay2.GetHashCode());
 var project = new Project();
 // Ορίστε ένα ημερολόγιο
 var calendar = project.Calendars.Add("Calendar1");
-// Προσθέστε εργάσιμες ημέρες και ημέρες εξαίρεσης
+// Προσθέστε εργάσιμες ημέρες και ημέρα εξαίρεσης
 // Προσθέστε παρόμοιες δηλώσεις εξόδου για FromDate και ToDate
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));

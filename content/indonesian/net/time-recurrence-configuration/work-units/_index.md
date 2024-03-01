@@ -50,9 +50,9 @@ Kesimpulannya, Aspose.Tasks untuk .NET memberdayakan pengembang untuk menangani 
 ### Apakah Aspose.Tasks kompatibel dengan semua format file manajemen proyek?
  Aspose.Tasks mendukung berbagai format file proyek, termasuk MPP, XML, dan lainnya. Mengacu kepada[dokumentasi](https://reference.aspose.com/tasks/net/) untuk daftar lengkap.
 ### Bisakah saya mencoba Aspose.Tasks sebelum membeli?
-Ya, Anda dapat menjelajahi Aspose.Tasks dengan uji coba gratis. Unduh dari[halaman rilis](https://releases.aspose.com/).
+ Ya, Anda dapat menjelajahi Aspose.Tasks dengan uji coba gratis. Unduh dari[halaman rilis](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Tasks?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi komunitas.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi komunitas.
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks?
  Dapatkan lisensi sementara untuk Aspose.Tasks dengan mengunjungi[halaman lisensi sementara](https://purchase.aspose.com/temporary-license/).
 ### Apa manfaat yang ditawarkan Aspose.Tasks untuk menangani unit kerja?

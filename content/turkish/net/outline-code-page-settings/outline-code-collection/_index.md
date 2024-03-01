@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Ekleme, çıkarma veya temizleme gibi anahat kodlarını gerektiği gibi değiştirin.
 ```csharp
 // Manipülasyon örneği
-// ,
+// ...
 // Kodu 2 doğru konumda olacak şekilde ekleyin
 task.OutlineCodes.Insert(2, code2);
 // Kodun eklenip eklenmediğini kontrol edin
@@ -86,7 +86,7 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 Bu eğitimde Aspose.Tasks for .NET'i kullanarak Microsoft Project taslak kodlarını nasıl toplayacağımızı öğrendik. Bu adımları izleyerek projelerinizdeki anahat kodlarını etkili bir şekilde yönetebilir, organizasyonu ve netliği geliştirebilirsiniz.
 ## SSS'ler
 ### S: Aspose.Tasks for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
-C: Evet, Aspose.Tasks for .NET öncelikli olarak .NET platformunu hedefler ancak Aspose.Tasks for Cloud aracılığıyla diğer programlama dilleri için de destek sağlar.
+C: Evet, Aspose.Tasks for .NET öncelikli olarak .NET platformunu hedefler ancak aynı zamanda Aspose.Tasks for Cloud aracılığıyla diğer programlama dilleri için de destek sağlar.
 ### S: Aspose.Tasks for .NET'in işleyebileceği Proje dosyalarının boyutunda herhangi bir sınırlama var mı?
 C: Aspose.Tasks for .NET, büyük Proje dosyalarını verimli bir şekilde işleyebilir ancak performans, dosyanın karmaşıklığına ve boyutuna bağlı olarak değişebilir.
 ### S: Aspose.Tasks for .NET, Microsoft Project'in en son sürümleriyle uyumlu mu?

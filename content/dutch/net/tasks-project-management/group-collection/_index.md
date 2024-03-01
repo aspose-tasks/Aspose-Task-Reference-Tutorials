@@ -96,7 +96,7 @@ foreach (var group in groupsToDelete)
 Ten slotte verwijderen we alle groepen uit het andere project.
 
 ## Conclusie
-Het beheren van MS Project-groepscollecties in Aspose.Tasks voor .NET is essentieel voor het efficiënt organiseren en manipuleren van projectgegevens. Door de stappen te volgen die in deze zelfstudie worden beschreven, kunt u taak- en resourcegroepen binnen uw projecten effectief afhandelen, waardoor het algehele projectbeheer wordt verbeterd.
+Het beheren van MS Project-groepscollecties in Aspose.Tasks voor .NET is essentieel voor het efficiënt organiseren en manipuleren van projectgegevens. Door de stappen in deze zelfstudie te volgen, kunt u taak- en resourcegroepen binnen uw projecten effectief afhandelen, waardoor het algehele projectbeheer wordt verbeterd.
 ## Veelgestelde vragen
 ### Is Aspose.Tasks voor .NET compatibel met alle versies van MS Project?
 Aspose.Tasks voor .NET ondersteunt verschillende versies van Microsoft Project, waaronder 2003, 2007, 2010, 2013, 2016 en 2019.

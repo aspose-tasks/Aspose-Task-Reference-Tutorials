@@ -34,7 +34,7 @@ Ora salviamo il progetto in formato CSV.
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## Passaggio 3: esplora altri formati
- Aspose.Tasks supporta vari formati per il salvataggio di file di progetto, come XML, PDF, XLSX e altri. Puoi esplorare questi formati semplicemente modificando il file`SaveFileFormat` parametri nel`Save` metodo.
+ Aspose.Tasks supporta vari formati per il salvataggio di file di progetto, come XML, PDF, XLSX e altri. Puoi esplorare questi formati semplicemente modificando il file`SaveFileFormat` parametro nel`Save` metodo.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,8 +50,8 @@ R: Aspose.Tasks supporta i formati Microsoft Project 2003 XML, Microsoft Project
 ### D: Posso provare Aspose.Tasks prima dell'acquisto?
  R: Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
 ### D: Come posso ottenere supporto per Aspose.Tasks?
- R: Puoi ottenere supporto dal forum della community Aspose.Tasks.[Qui](https://forum.aspose.com/c/tasks/15).
+R: Puoi ottenere supporto dal forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
 ### D: Sono disponibili licenze temporanee per Aspose.Tasks?
- R: Sì, sono disponibili licenze temporanee a scopo di valutazione. Puoi prenderne uno[Qui](https://purchase.aspose.com/temporary-license/).
+ R: Sì, sono disponibili licenze temporanee a scopo di valutazione. Puoi ottenerne uno[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Qual è il prezzo per Aspose.Tasks?
  R: Le informazioni sui prezzi sono disponibili nella pagina di acquisto Aspose.Tasks[Qui](https://purchase.aspose.com/buy).

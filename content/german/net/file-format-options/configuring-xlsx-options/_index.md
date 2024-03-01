@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren Sie MS Project XLSX-Optionen in Aspose.Tasks für .NET
-linktitle: Konfigurieren Sie XLSX-Optionen in Aspose.Tasks
+linktitle: Konfigurieren von XLSX-Optionen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project XLSX-Optionen in Aspose.Tasks für .NET konfigurieren. Passen Sie Spalten, Codierung usw. mühelos an.
 type: docs
@@ -18,7 +18,7 @@ Um diesem Tutorial folgen zu können, sind Kenntnisse der Programmiersprache C# 
 ### 3. Microsoft Project-Datei
 Halten Sie eine Microsoft Project-Datei (MPP) bereit, die Sie konfigurieren und als XLSX-Datei speichern möchten.
 
-## Namespaces importieren
+## Namensräume importieren
 Importieren Sie zunächst die erforderlichen Namespaces:
 ```csharp
     using Aspose.Tasks;

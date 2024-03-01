@@ -15,7 +15,7 @@ Aspose.Tasks dla .NET zapewnia wszechstronną funkcjonalność do pracy z obiekt
 
 Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstępne:
 
-1. Instalacja: Upewnij się, że masz zainstalowany Aspose.Tasks for .NET w swoim środowisku programistycznym. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
+1.  Instalacja: Upewnij się, że masz zainstalowany Aspose.Tasks for .NET w swoim środowisku programistycznym. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
 
 2. Podstawowa wiedza: Zapoznaj się z koncepcjami języka programowania C# i platformy .NET.
 
@@ -125,7 +125,7 @@ else
 
 ## Wniosek
 
-tym samouczku omówiliśmy, jak efektywnie pracować z obiektami OLE w Aspose.Tasks dla .NET. Postępując zgodnie z tymi przykładami krok po kroku, możesz bezproblemowo zintegrować możliwości zarządzania obiektami OLE z aplikacjami .NET, zwiększając ich funkcjonalność i użyteczność.
+W tym samouczku omówiliśmy, jak efektywnie pracować z obiektami OLE w Aspose.Tasks dla .NET. Postępując zgodnie z tymi przykładami krok po kroku, możesz bezproblemowo zintegrować możliwości zarządzania obiektami OLE z aplikacjami .NET, zwiększając ich funkcjonalność i użyteczność.
 
 ## Często zadawane pytania
 

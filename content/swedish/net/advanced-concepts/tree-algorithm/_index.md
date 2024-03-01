@@ -92,7 +92,7 @@ Uppdatera arbetsvärdena för uppgifter baserat på den insamlade informationen.
 
 ## Slutsats
 
-den här handledningen har vi lärt oss hur man använder trädalgoritmen i Aspose.Tasks för .NET för att effektivt manipulera uppgiftshierarkier. Genom att följa steg-för-steg-guiden kan du effektivt hantera uppgifter och resurser inom dina projekt.
+I den här handledningen har vi lärt oss hur man använder trädalgoritmen i Aspose.Tasks för .NET för att effektivt manipulera uppgiftshierarkier. Genom att följa steg-för-steg-guiden kan du effektivt hantera uppgifter och resurser inom dina projekt.
 
 ## FAQ's
 

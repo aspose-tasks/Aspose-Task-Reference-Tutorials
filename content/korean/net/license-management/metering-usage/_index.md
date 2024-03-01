@@ -8,10 +8,10 @@ weight: 17
 url: /ko/net/license-management/metering-usage/
 ---
 ## 소개
-Aspose.Tasks를 사용하여 MS 프로젝트 사용량을 효과적으로 관리하고 모니터링하고 싶으십니까? 측정 기능을 사용하면 사용량을 추적하고 프로젝트 관리 노력을 최적화할 수 있습니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 사용량을 측정하는 과정을 단계별로 안내합니다.
+Aspose.Tasks를 사용하여 MS 프로젝트 사용량을 효과적으로 관리하고 모니터링하고 싶으십니까? 측정 기능을 사용하면 사용량을 추적하고 프로젝트 관리 활동을 최적화할 수 있습니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 사용량을 측정하는 과정을 단계별로 안내합니다.
 ## 전제조건
 MS 프로젝트 사용량 측정을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-1.  .NET 라이브러리용 Aspose.Tasks: 다음에서 .NET 라이브러리용 Aspose.Tasks를 다운로드하고 설치하세요.[다운로드 페이지](https://releases.aspose.com/tasks/net/), 개발 환경에서 라이브러리를 설정하려면 설치 지침을 따르세요.
+1.  .NET 라이브러리용 Aspose.Tasks: 다음에서 .NET 라이브러리용 Aspose.Tasks를 다운로드하고 설치하세요.[다운로드 페이지](https://releases.aspose.com/tasks/net/). 개발 환경에서 라이브러리를 설정하려면 설치 지침을 따르세요.
 2.  공개 및 개인 키: Aspose에서 공개 및 개인 키를 얻습니다. 이러한 키는 사용량 측정에 필수적입니다. 아직 키가 없다면 Aspose에서 다음을 통해 요청할 수 있습니다.[임시면허](https://purchase.aspose.com/temporary-license/) 페이지.
 
 ## 네임스페이스 가져오기

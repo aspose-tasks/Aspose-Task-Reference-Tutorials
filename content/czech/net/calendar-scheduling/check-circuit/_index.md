@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Krok 1: Načtěte soubor projektu
 
- Začněte načtením souboru Microsoft Project (.mpp), u kterého chcete zkontrolovat poškozenou strukturu. Použijte`Project` třídy k načtení souboru.
+Začněte načtením souboru Microsoft Project (.mpp), u kterého chcete zkontrolovat poškozenou strukturu. Použijte`Project` třídy k načtení souboru.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -70,7 +70,7 @@ Odpověď 1: Ano, Aspose.Tasks for .NET je kompatibilní s různými rozhraními
 
 ### Q3: Jak mohu získat podporu pro Aspose.Tasks pro .NET?
 
-A3: Můžete požádat o pomoc z fóra komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+ A3: Můžete požádat o pomoc z fóra komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 
 ### Q4: Potřebuji dočasnou licenci pro testovací účely?
 

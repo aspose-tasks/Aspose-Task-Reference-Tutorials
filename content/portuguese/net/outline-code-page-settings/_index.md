@@ -33,7 +33,7 @@ Gerencie com eficiência os valores de contorno do Microsoft Project com Aspose.
 ## Coleção de valores de contorno em Aspose.Tasks para .NET
  Aprenda como gerenciar valores de estrutura de tópicos em arquivos do Microsoft Project usando Aspose.Tasks for .NET. Este tutorial passo a passo inclui exemplos de código, garantindo que você possa implementar essas práticas sem esforço.[Consulte Mais informação](./outline-value-collection/)
 
-## Configurar a legenda da página em Aspose.Tasks para .NET
+## Configurando a legenda da página em Aspose.Tasks para .NET
  O gerenciamento eficiente de projetos se estende à configuração de legendas de páginas do MS Project no .NET. Este tutorial, usando Aspose.Tasks, fornece um guia passo a passo sobre como personalizar as legendas do seu projeto para obter eficiência ideal.[Consulte Mais informação](./page-legend/)
 
 ## Defina facilmente as margens da página do MS Project com Aspose.Tasks para .NET
@@ -60,10 +60,10 @@ Aprenda como trabalhar com arquivos do Microsoft Project programaticamente usand
 ### [Coleção de máscaras de contorno em Aspose.Tasks](./outline-mask-collection/)
 Aprenda como manipular máscaras de contorno de coleção do MS Project usando Aspose.Tasks for .NET. Aumente a produtividade com este tutorial abrangente.
 ### [Dominando os valores do MS Project Outline com Aspose.Tasks](./outline-values/)
-Aprenda como gerenciar valores de contorno do MS Project de forma eficiente usando Aspose.Tasks for .NET. Personalize os contornos do projeto com facilidade.
+Aprenda como gerenciar valores de contorno do MS Project com eficiência usando Aspose.Tasks for .NET. Personalize os contornos do projeto com facilidade.
 ### [Coleção de valores de contorno em Aspose.Tasks](./outline-value-collection/)
 Aprenda como gerenciar valores de estrutura de tópicos em arquivos do Microsoft Project usando Aspose.Tasks for .NET. Tutorial passo a passo com exemplos de código.
-### [Configurar a legenda da página em Aspose.Tasks](./page-legend/)
+### [Configurando a legenda da página em Aspose.Tasks](./page-legend/)
 Aprenda como configurar legendas de páginas do MS Project em .NET usando Aspose.Tasks para gerenciamento eficiente de projetos. Guia passo a passo fornecido.
 ### [Defina facilmente as margens da página do MS Project com Aspose.Tasks](./page-margins/)
 Aprenda como ajustar as margens da página em arquivos do Microsoft Project usando Aspose.Tasks for .NET. Melhore o layout e a apresentação dos documentos com facilidade.

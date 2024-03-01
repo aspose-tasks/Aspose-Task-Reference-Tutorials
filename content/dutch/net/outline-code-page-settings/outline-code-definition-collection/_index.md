@@ -2,7 +2,7 @@
 title: Verzameling van overzichtscodedefinities in Aspose.Tasks .NET
 linktitle: Verzameling van overzichtscodedefinities in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Leer hoe u overzichtscodedefinities in Microsoft Project-documenten kunt manipuleren met Aspose.Tasks voor .NET. Moeiteloos categoriseren van uw projectgegevens.
+description: Leer hoe u overzichtscodedefinities in Microsoft Project-documenten kunt manipuleren met behulp van Aspose.Tasks voor .NET. Moeiteloos categoriseren van uw projectgegevens.
 type: docs
 weight: 13
 url: /nl/net/outline-code-page-settings/outline-code-definition-collection/

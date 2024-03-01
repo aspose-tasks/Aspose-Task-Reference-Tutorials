@@ -9,7 +9,7 @@ url: /cs/net/advanced-concepts/label-display/
 ---
 ## Úvod
 
-oblasti vývoje softwaru je efektivní řízení úkolů nezbytností pro úspěch projektu. Aspose.Tasks for .NET nabízí robustní řešení pro bezproblémové zpracování úkolů projektového řízení v rámci .NET. Jedním z klíčových aspektů projektového řízení je schopnost přizpůsobit možnosti zobrazení tak, aby vyhovovaly konkrétním požadavkům. V tomto tutoriálu prozkoumáme, jak využít Aspose.Tasks pro .NET k manipulaci se zobrazením minut, hodin, dnů, týdnů, měsíců a let v souborech projektu.
+V oblasti vývoje softwaru je efektivní řízení úkolů nezbytností pro úspěch projektu. Aspose.Tasks for .NET nabízí robustní řešení pro bezproblémové zpracování úkolů projektového řízení v rámci .NET. Jedním z klíčových aspektů projektového řízení je schopnost přizpůsobit možnosti zobrazení tak, aby vyhovovaly konkrétním požadavkům. V tomto tutoriálu prozkoumáme, jak využít Aspose.Tasks pro .NET k manipulaci se zobrazením minut, hodin, dnů, týdnů, měsíců a let v souborech projektu.
 
 ## Předpoklady
 

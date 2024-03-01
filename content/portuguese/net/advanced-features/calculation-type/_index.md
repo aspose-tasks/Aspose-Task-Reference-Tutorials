@@ -80,7 +80,7 @@ Neste tutorial, exploramos como trabalhar com o tipo de cálculo no Aspose.Tasks
 
 ### Q1: Qual é o tipo de cálculo em Aspose.Tasks?
 
-A1: Tipo de cálculo em Aspose.Tasks determina como os valores são calculados para tarefas e tarefas de resumo dentro de um projeto, oferecendo opções como Fórmula e Rollup.
+A1: O tipo de cálculo em Aspose.Tasks determina como os valores são calculados para tarefas e tarefas de resumo dentro de um projeto, oferecendo opções como Fórmula e Rollup.
 
 ### P2: Como defino o tipo de cálculo para um atributo estendido?
 
@@ -92,7 +92,7 @@ A3: Sim, Aspose.Tasks permite especificar o tipo de cálculo para linhas de resu
 
 ### P4: Existem diferentes tipos de rollup disponíveis para cálculos de tarefas de resumo?
 
-A4: Sim, Aspose.Tasks fornece vários tipos de rollup, como média, soma e contagem para calcular valores de tarefas de resumo.
+A4: Sim, Aspose.Tasks fornece vários tipos de rollup, como Média, Soma e Contagem para calcular valores de tarefas de resumo.
 
 ### P5: Onde posso encontrar mais recursos no Aspose.Tasks for .NET?
 

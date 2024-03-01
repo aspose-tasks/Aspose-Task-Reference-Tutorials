@@ -75,7 +75,7 @@ foreach (var childTask in childTasks)
     Console.WriteLine("Task WBS code: " + childTask.Get(Tsk.WBS));
 }
 ```
-## 6. Manipular máscaras de código
+## 6. Manipule máscaras de código
 Remova uma máscara de código e verifique se ela foi removida:
 ```csharp
 project.WBSCodeDefinition.CodeMaskCollection.Remove(mask2);
@@ -132,7 +132,7 @@ Com Aspose.Tasks for .NET, gerenciar códigos WBS torna-se uma tarefa fácil. Es
 ### P: Posso usar Aspose.Tasks for .NET com outras linguagens de programação?
 R: Aspose.Tasks oferece suporte principalmente a linguagens .NET, mas você pode explorar opções de interoperabilidade com outras linguagens.
 ### P: Existe uma versão de teste disponível para Aspose.Tasks for .NET?
- R: Sim, você pode baixar a versão de teste.[aqui](https://releases.aspose.com/).
+ R: Sim, você pode baixar a versão de teste[aqui](https://releases.aspose.com/).
 ### P: Como procuro ajuda ou relato problemas com Aspose.Tasks for .NET?
  R: Visite o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio e discussões.
 ### P: Qual é a finalidade dos códigos EAP no gerenciamento de projetos?

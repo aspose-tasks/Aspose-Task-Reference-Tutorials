@@ -41,7 +41,7 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 通过执行这些步骤，您将能够使用 Aspose.Tasks for .NET 轻松配置挣值 MS 项目方法类型。
 
 ## 结论
-总之，掌握使用 Aspose.Tasks for .NET 的挣值管理方法可以显着增强您的项目管理能力。通过准确衡量项目绩效并将其与计划目标进行比较，您可以做出明智的决策来引导您的项目取得成功。
+总之，掌握使用 Aspose.Tasks for .NET 的挣值管理方法可以显着增强您的项目管理能力。通过准确衡量项目绩效并将其与计划目标进行比较，您可以做出明智的决策，引导您的项目取得成功。
 ## 常见问题解答
 ### 问：Aspose.Tasks for .NET 能否有效处理大型项目文件？
 答：是的，Aspose.Tasks for .NET 经过优化，可轻松处理大型项目文件，确保高性能和可靠性。

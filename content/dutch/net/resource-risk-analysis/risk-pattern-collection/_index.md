@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Stap 8: Duidelijke patronen
 Wis de patrooncollectie afzonderlijk of volledig:
 ```csharp
-// individuele verwijdering
+// Individuele verwijdering
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ A: Zeker, Aspose.Tasks integreert naadloos met andere .NET-frameworks, waardoor 
 ### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks?
  A: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks vanaf[hier](https://releases.aspose.com/)zodat u de functies ervan kunt verkennen voordat u een aankoop doet.
 ### Vraag: Waar kan ik ondersteuning vinden voor Aspose.Tasks?
- A: U kunt uitgebreide ondersteuning en hulp vinden op het Aspose.Tasks-forum.[hier](https://forum.aspose.com/c/tasks/15), waar u kunt communiceren met experts en medegebruikers om vragen en problemen op te lossen.
+ A: U kunt uitgebreide ondersteuning en hulp vinden op het Aspose.Tasks-forum[hier](https://forum.aspose.com/c/tasks/15), waar u kunt communiceren met experts en medegebruikers om vragen en problemen op te lossen.

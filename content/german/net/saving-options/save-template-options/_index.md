@@ -75,4 +75,4 @@ A: Ja, Sie können Vorlagen auf bestehende Projekte anwenden, indem Sie die Vorl
 ### F: Unterstützt Aspose.Tasks für .NET die plattformübergreifende Entwicklung?
 A: Aspose.Tasks für .NET ist in erster Linie für .NET Framework-Anwendungen konzipiert, die auf Windows-Plattformen ausgeführt werden.
 ### F: Ist technischer Support für Aspose.Tasks für .NET verfügbar?
- A: Ja, Sie können technische Unterstützung und Anleitung von der Aspose.Tasks-Community anfordern.[Foren](https://forum.aspose.com/c/tasks/15) oder wenden Sie sich direkt an das Support-Team.
+ A: Ja, Sie können technische Unterstützung und Anleitung von der Aspose.Tasks-Community anfordern[Foren](https://forum.aspose.com/c/tasks/15)oder wenden Sie sich direkt an das Support-Team.

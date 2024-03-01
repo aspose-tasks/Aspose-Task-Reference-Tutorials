@@ -2,7 +2,7 @@
 title: Обработка назначения ресурсов проекта MS в Aspose.Tasks
 linktitle: Обработка назначений ресурсов в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Узнайте, как эффективно обрабатывать назначения ресурсов MS Project с помощью Aspose.Tasks для .NET. Это предоставляет подробное пошаговое руководство для разработчиков.
+description: Узнайте, как эффективно обрабатывать назначения ресурсов MS Project с помощью Aspose.Tasks для .NET. Это комплексное руководство содержит пошаговые инструкции для разработчиков.
 type: docs
 weight: 11
 url: /ru/net/resource-risk-analysis/resource-assignments/
@@ -38,8 +38,8 @@ project.Set(Prj.FinishDate, new DateTime(2000, 4, 21, 17, 0, 0));
 var task = project.RootTask.Children.Add("Task1");
 task.Set(Tsk.Duration, project.GetDuration(3));
 ```
-## Шаг 3. Создайте назначение ресурсов и сгенерируйте поэтапные данные
-Теперь создайте новое назначение ресурсов для задачи и сгенерируйте повременные данные:
+## Шаг 3. Создание назначения ресурсов и создание повременных данных
+Теперь создайте новое назначение ресурса для задачи и сгенерируйте повременные данные:
 ```csharp
 var assignment = project.ResourceAssignments.Add(task, null);
 assignment.TimephasedDataFromTaskDuration(calendar);

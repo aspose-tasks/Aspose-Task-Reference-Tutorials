@@ -18,7 +18,7 @@ Innan vi börjar, se till att du har följande förutsättningar på plats:
 1. Grundläggande förståelse för C#: Bekantskap med programmeringsspråket C# är viktigt.
 2.  Installation av Aspose.Tasks for .NET: Ladda ner och installera Aspose.Tasks for .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/tasks/net/).
 3. Utvecklingsmiljö: Sätt upp en utvecklingsmiljö, som Visual Studio, för att skriva och köra C#-kod.
-4.  Tillgång till dokumentation: Behåll[Aspose.Tasks för .NET-dokumentation](https://reference.aspose.com/tasks/net/) praktiskt för referens.
+4. Tillgång till dokumentation: Behåll[Aspose.Tasks för .NET-dokumentation](https://reference.aspose.com/tasks/net/) praktiskt för referens.
 
 Nu när vi har täckta förutsättningarna, låt oss dyka in i steg-för-steg-guiden för att samla in underordnade uppgifter med Aspose.Tasks för .NET.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Vi tillämpar`ChildTasksCollector`till projektets grunduppgift, initiera insamlingsprocessen rekursivt.
+ Vi tillämpar`ChildTasksCollector` till projektets grunduppgift, initiera insamlingsprocessen rekursivt.
 
 ## Steg 4: Iterera genom insamlade uppgifter
 
@@ -91,7 +91,7 @@ S3: Även om Aspose.Tasks för .NET huvudsakligen är utformad för .NET-miljöe
 
 ### F4: Finns teknisk support tillgänglig för Aspose.Tasks för .NET?
 
- S4: Ja, användare kan få tillgång till teknisk support via[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+S4: Ja, användare kan få tillgång till teknisk support via[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 
 ### F5: Kan jag prova Aspose.Tasks för .NET innan jag köper?
 

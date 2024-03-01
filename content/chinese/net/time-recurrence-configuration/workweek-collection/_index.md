@@ -81,4 +81,4 @@ foreach (var workWeek in calendar.WorkWeeks)
 ### 我可以将具有自定义工作周的项目导出为 Microsoft Project 文件格式吗？
 当然，Aspose.Tasks 允许您以各种格式保存项目，包括 Microsoft Project。
 ### 我在哪里可以寻求 Aspose.Tasks 相关查询的支持？
-访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求任何支持或帮助。
+参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求任何支持或帮助。

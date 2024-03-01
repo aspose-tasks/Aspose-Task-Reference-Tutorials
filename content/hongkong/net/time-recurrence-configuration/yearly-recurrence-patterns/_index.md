@@ -66,6 +66,6 @@ project.Save("Your Document Directory" + "WorkWithYearlyRecurrencePattern_out.mp
 ### 使用 Aspose.Tasks for .NET 有任何先決條件嗎？
 確保您具備 C# 和 .NET 的應用知識，並安裝了 Aspose.Tasks 函式庫。下載它[這裡](https://releases.aspose.com/tasks/net/).
 ### 我如何獲得 Aspose.Tasks 的支援？
-訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區的支持和幫助。
+參觀[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區的支持和幫助。
 ### 我可以在購買前免費試用 Aspose.Tasks 嗎？
 是的，您可以探索免費試用[這裡](https://releases.aspose.com/).

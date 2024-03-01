@@ -1,6 +1,6 @@
 ---
 title: Konfigurace digitálního podpisu MS Project PDF pomocí Aspose.Tasks
-linktitle: Nakonfigurujte podrobnosti digitálního podpisu PDF v Aspose.Tasks
+linktitle: Konfigurace podrobností digitálního podpisu PDF v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat podrobnosti digitálního podpisu Microsoft Project PDF pomocí Aspose.Tasks for .NET. Zajistěte bezpečnost a autenticitu souborů projektu.
 type: docs

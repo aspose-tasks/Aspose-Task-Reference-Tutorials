@@ -32,7 +32,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "SampleProject.mpp");
 ```
 ## Etapa 2: adicionar recurso vazio
-seguir, vamos adicionar um recurso vazio ao projeto:
+A seguir, vamos adicionar um recurso vazio ao projeto:
 ```csharp
 var resource = project.Resources.Add();
 resource.Set(Rsc.Type, ResourceType.Work);
@@ -98,4 +98,4 @@ R: Sim, Aspose.Tasks oferece suporte a multithreading, permitindo operações si
 
 ### P: O suporte técnico está disponível para usuários do Aspose.Tasks?
 
- R: Sim, os usuários do Aspose.Tasks podem acessar o suporte técnico através do fórum.[aqui](https://forum.aspose.com/c/tasks/15).
+ R: Sim, os usuários do Aspose.Tasks podem acessar o suporte técnico através do fórum[aqui](https://forum.aspose.com/c/tasks/15).

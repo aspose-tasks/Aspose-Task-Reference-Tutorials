@@ -11,7 +11,7 @@ url: /ja/net/task-table-management/table-fields/
 Aspose.Tasks for .NET の世界へようこそ。これは、.NET アプリケーションでの Microsoft Project ファイルのシームレスな操作を可能にする強力なライブラリです。このチュートリアルでは、プロジェクト テーブルを効率的に読み取り、管理できるようにする、Aspose.Tasks のテーブル フィールドの複雑な処理について詳しく説明します。経験豊富な開発者であっても、初心者であっても、このステップバイステップのガイドは、Aspose.Tasks の可能性を最大限に活用するのに役立ちます。
 ## 前提条件
 この作業を開始する前に、次の前提条件が満たされていることを確認してください。
--  Aspose.Tasks ライブラリ: Aspose.Tasks for .NET ライブラリをダウンロードしてインストールします。あなたはそれを見つけることができます[ここ](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks ライブラリ: Aspose.Tasks for .NET ライブラリをダウンロードしてインストールします。見つけられますよ[ここ](https://releases.aspose.com/tasks/net/).
 - 開発環境: Visual Studio などの適切な開発環境がマシン上にセットアップされていることを確認します。
 ここで、テーブル フィールドの処理の核心に移りましょう。
 ## 名前空間のインポート

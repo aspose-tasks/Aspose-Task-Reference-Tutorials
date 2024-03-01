@@ -10,7 +10,7 @@ url: /zh/net/task-table-management/task-start-date-types/
 在项目管理的动态世界中，为任务设置正确的开始日期至关重要。 Aspose.Tasks for .NET 提供了一个强大的解决方案来轻松配置任务开始日期类型。在本教程中，我们将指导您完成整个过程，将其分解为简单的步骤，以确保无缝集成。
 ## 先决条件
 在深入了解任务开始日期类型的配置之前，请确保满足以下先决条件：
--  Aspose.Tasks for .NET：确保您已安装 Aspose.Tasks for .NET 库。如果没有，请从以下位置下载[下载链接](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET：确保您已安装 Aspose.Tasks for .NET 库。如果没有，请从以下位置下载[下载链接](https://releases.aspose.com/tasks/net/).
 - .NET 环境：本教程假设您具有 .NET 环境的应用知识。
 - 您的文档目录：将代码片段中的“您的文档目录”替换为您的实际文档目录的路径。
 ## 导入命名空间

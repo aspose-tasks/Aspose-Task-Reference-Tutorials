@@ -13,7 +13,7 @@ Aspose.Tasks voor .NET is een krachtige API waarmee ontwikkelaars Microsoft Proj
 
 ## Vereisten
 
-Voordat we beginnen, zorg ervoor dat u de volgende vereisten hebt geïnstalleerd:
+Voordat we beginnen, moet u ervoor zorgen dat de volgende vereisten zijn geïnstalleerd:
 
 ## Naamruimten importeren
 

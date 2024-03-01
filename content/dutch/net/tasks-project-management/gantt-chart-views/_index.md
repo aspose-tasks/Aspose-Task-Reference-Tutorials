@@ -12,7 +12,7 @@ Gantt-diagrammen zijn krachtige hulpmiddelen die in projectmanagement worden geb
 ## Vereisten
 Voordat u doorgaat, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 ### 1. Installatie van Aspose.Tasks voor .NET
- Zorg ervoor dat u Aspose.Tasks voor .NET hebt geïnstalleerd. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/tasks/net/)en volg de installatie-instructies in de documentatie[hier](https://reference.aspose.com/tasks/net/).
+ Zorg ervoor dat u Aspose.Tasks voor .NET hebt geïnstalleerd. U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/tasks/net/) en volg de installatie-instructies in de documentatie[hier](https://reference.aspose.com/tasks/net/).
 ### 2. Microsoft Project-bestand
 Bereid een Microsoft Project-bestand voor (`Project2.mpp`) die u gaat gebruiken om met Gantt-diagramweergaven te werken.
 ### 3. Basiskennis van C# en .NET Framework
@@ -75,13 +75,13 @@ Definieert de kleur voor niet-werktijd in het Gantt-diagram.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Geef op of staven in het Gantt-diagram moeten worden opgerold.
+Geeft aan of staven in het Gantt-diagram moeten worden opgerold.
 ### Staafsplitsingen weergeven
 ```csharp
 view.ShowBarSplits = true;
 ```
 Bepaalt of taaksplitsingen in het Gantt-diagram moeten worden weergegeven.
-### tekeningen tonen
+### Toon tekeningen
 ```csharp
 view.ShowDrawings = true;
 ```

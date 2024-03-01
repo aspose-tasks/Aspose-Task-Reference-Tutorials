@@ -1,6 +1,6 @@
 ---
 title: Dostosowywanie przewodnika po stylach tekstu tabeli w Aspose.Tasks
-linktitle: Skonfiguruj style tekstu tabeli w Aspose.Tasks
+linktitle: Konfigurowanie stylów tekstu tabeli w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ulepsz wizualizację projektu za pomocą Aspose.Tasks dla .NET. Dowiedz się, jak krok po kroku konfigurować style tekstu tabeli. Zwiększ wydajność i prezentację.
 type: docs
@@ -10,8 +10,8 @@ url: /pl/net/task-table-management/table-text-styles/
 ## Wstęp
 W świecie zarządzania projektami skuteczna wizualizacja zadań jest kluczem do sukcesu. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do dostosowywania stylów tekstu tabeli, umożliwiając dostosowanie wyglądu elementów tekstowych w projekcie. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces konfigurowania stylów tekstu tabeli za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
-Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące informacje:
--  Aspose.Tasks dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
+Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące elementy:
+- Aspose.Tasks dla .NET: Upewnij się, że masz zainstalowaną najnowszą wersję Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
 - Katalog dokumentów: skonfiguruj katalog dla swoich dokumentów. Zastąp „Twój katalog dokumentów” w kodzie rzeczywistą ścieżką.
 -  Ważna licencja Aspose: Ten przykład wymaga ważnej licencji Aspose. Można kupić pełną licencję[Tutaj](https://purchase.aspose.com/buy) lub uzyskaj 30-dniową licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ## Importuj przestrzenie nazw
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.”);
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).”);
 }
 ```
 ## Wniosek

@@ -9,7 +9,7 @@ url: /vi/net/tasks-project-management/
 ---
 ## Giới thiệu
 
-Bạn đã sẵn sàng nâng cao kỹ năng quản lý dự án của mình với Aspose.Tasks cho .NET chưa? Hướng dẫn toàn diện của chúng tôi bao gồm nhiều chủ đề, từ nắm vững các phương pháp MS Project có giá trị kiếm được đến quản lý hiệu quả các thuộc tính dự án và tùy chỉnh biểu đồ Gantt. Hãy cùng đi sâu vào thế giới của Aspose.Tasks và khám phá toàn bộ tiềm năng của quản lý dự án.
+Bạn đã sẵn sàng nâng cao kỹ năng quản lý dự án của mình với Aspose.Tasks cho .NET chưa? Hướng dẫn toàn diện của chúng tôi bao gồm nhiều chủ đề, từ việc nắm vững các phương pháp MS Project có giá trị kiếm được đến quản lý hiệu quả các thuộc tính dự án và tùy chỉnh biểu đồ Gantt. Hãy cùng đi sâu vào thế giới của Aspose.Tasks và khám phá toàn bộ tiềm năng của quản lý dự án.
 
 ## Các loại phương pháp dự án MS có giá trị kiếm được chính với Aspose.Tasks
 

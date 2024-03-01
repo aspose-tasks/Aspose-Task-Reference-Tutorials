@@ -53,7 +53,7 @@ var options = new CsvOptions
 };
 ```
 
-## Шаг 3. Сохраните проект в формате CSV.
+## Шаг 3. Сохраните проект в формате CSV.
 
 ```csharp
 project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
@@ -71,7 +71,7 @@ project.Save(OutDir + "WorkWithCsvOptions_out.csv", options);
 
 ### Вопрос 2. Доступна ли бесплатная пробная версия Aspose.Tasks для .NET?
 
- О2: Да, вы можете получить бесплатную пробную версию Aspose.Tasks для .NET на сайте[Веб-сайт](https://releases.aspose.com/tasks/net/)оценить его возможности перед покупкой.
+ О2: Да, вы можете получить бесплатную пробную версию Aspose.Tasks для .NET на сайте[Веб-сайт](https://releases.aspose.com/tasks/net/) оценить его возможности перед покупкой.
 
 ### Вопрос 3. Поддерживает ли Aspose.Tasks для .NET несколько платформ?
 

@@ -15,7 +15,7 @@ Selamat datang di panduan komprehensif tentang Aspose.Tasks untuk Tutorial .NET,
  Temukan seluk-beluk penyesuaian jenis item teks dengan Aspose.Tasks untuk .NET dalam tutorial mendetail ini. Tingkatkan keterampilan manajemen proyek Anda dengan mudah dengan mengikuti panduan komprehensif kami[Menangani Jenis Item Teks di Aspose.Tasks](./text-item-types/). 
 
 ## Mengonfigurasi Gaya Teks di Aspose.Tasks## 
-Tingkatkan estetika dokumen proyek Anda dengan menyesuaikan gaya teks dengan Aspose.Tasks untuk .NET. Pelajari seni penyesuaian yang mudah untuk representasi proyek yang menarik secara visual. Selami panduan langkah demi langkah kami[Konfigurasikan Gaya Teks di Aspose.Tasks](./text-styles/).
+Tingkatkan estetika dokumen proyek Anda dengan menyesuaikan gaya teks dengan Aspose.Tasks untuk .NET. Pelajari seni penyesuaian yang mudah untuk representasi proyek yang menarik secara visual. Selami panduan langkah demi langkah kami[Mengonfigurasi Gaya Teks di Aspose.Tasks](./text-styles/).
 
 ## Memilih Kompresi Tiff di Aspose.Tugas## 
  Buka kekuatan visualisasi proyek yang efisien dengan menjelajahi kompresi Tiff di Aspose.Tasks untuk .NET. Ikuti panduan terperinci kami tentang[Memilih Kompresi Tiff di Aspose.Tasks](./tiff-compression/) untuk membuat keputusan yang sesuai dengan kebutuhan proyek Anda.
@@ -30,16 +30,16 @@ Kelola data bertahap waktu dengan mudah, tingkatkan perencanaan proyek, dan opti
  Selidiki dunia pengumpulan data bertahap di Aspose.Tasks untuk .NET dengan panduan langkah demi langkah, FAQ, dan banyak lagi. Tingkatkan kemampuan manajemen proyek Anda sekarang dengan menjelajah[Pengumpulan Data Bertahap Waktu di Aspose.Tasks](./timephased-data-collection/).
 
 ## Mengonfigurasi Tingkat Skala Waktu di Aspose.Tasks## 
- Konfigurasikan tingkat skala waktu dalam tampilan Gantt Chart Anda dengan Aspose.Tasks untuk .NET untuk visualisasi garis waktu proyek yang tepat. Jelajahi kemungkinan dalam panduan kami tentang[Konfigurasikan Tingkat Skala Waktu di Aspose.Tasks](./timescale-tiers/).
+ Konfigurasikan tingkat skala waktu dalam tampilan Gantt Chart Anda dengan Aspose.Tasks untuk .NET untuk visualisasi garis waktu proyek yang tepat. Jelajahi kemungkinan dalam panduan kami tentang[Mengonfigurasi Tingkat Skala Waktu di Aspose.Tasks](./timescale-tiers/).
 
 ## Mengonfigurasi Tampilan Penggunaan di Aspose.Tasks## 
-Pelajari seni mengonfigurasi tampilan penggunaan tugas di Aspose.Tasks untuk .NET guna meningkatkan visualisasi proyek. Ikuti langkah-langkah terperinci kami dan unduh perpustakaan sekarang untuk membawa manajemen proyek Anda ke tingkat berikutnya! Mengeksplorasi[Konfigurasikan Tampilan Penggunaan di Aspose.Tasks](./usage-views/) untuk pemahaman yang komprehensif.
+Pelajari seni mengonfigurasi tampilan penggunaan tugas di Aspose.Tasks untuk .NET guna meningkatkan visualisasi proyek. Ikuti langkah-langkah terperinci kami dan unduh perpustakaan sekarang untuk membawa manajemen proyek Anda ke tingkat berikutnya! Mengeksplorasi[Mengonfigurasi Tampilan Penggunaan di Aspose.Tasks](./usage-views/) untuk pemahaman yang komprehensif.
 
 Kesimpulannya, tutorial ini menyediakan sumber daya yang kaya bagi pengguna yang ingin memaksimalkan kemahiran mereka dalam Aspose.Tasks untuk .NET. Baik Anda menyesuaikan gaya teks, mengompresi file Tiff, atau mengonfigurasi tampilan garis waktu, tutorial ini memberdayakan Anda untuk meningkatkan permainan manajemen proyek Anda. Unduh perpustakaan, ikuti panduannya, dan buka potensi penuh Aspose.Tasks untuk .NET dalam upaya proyek Anda.
 ## Teks Aspose.Tasks dan Lihat Tutorial Konfigurasi
 ### [Menangani Jenis Item Teks di Aspose.Tasks](./text-item-types/)
 Kustomisasi jenis item teks utama di Aspose.Tasks untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan permainan manajemen proyek Anda dengan mudah.
-### [Konfigurasikan Gaya Teks di Aspose.Tasks](./text-styles/)
+### [Mengonfigurasi Gaya Teks di Aspose.Tasks](./text-styles/)
 Tingkatkan estetika dokumen proyek dengan Aspose.Tasks untuk .NET. Sesuaikan gaya teks dengan mudah untuk representasi yang menarik secara visual.
 ### [Memilih Kompresi Tiff di Aspose.Tasks](./tiff-compression/)
 Jelajahi kekuatan Aspose.Tasks untuk .NET dalam memilih kompresi Tiff. Ikuti panduan langkah demi langkah kami untuk visualisasi proyek yang efisien.
@@ -49,7 +49,7 @@ Kuasai Aspose.Tasks untuk .NET dalam menyesuaikan tampilan garis waktu. Tingkatk
 Jelajahi Aspose.Tasks untuk .NET untuk dengan mudah menangani data bertahap waktu, meningkatkan perencanaan proyek, dan mengoptimalkan manajemen sumber daya.
 ### [Pengumpulan Data Bertahap Waktu di Aspose.Tasks](./timephased-data-collection/)
 Jelajahi pengumpulan data bertahap di Aspose.Tasks untuk .NET. Panduan langkah demi langkah, FAQ, dan banyak lagi. Tingkatkan kemampuan manajemen proyek Anda hari ini!
-### [Konfigurasikan Tingkat Skala Waktu di Aspose.Tasks](./timescale-tiers/)
+### [Mengonfigurasi Tingkat Skala Waktu di Aspose.Tasks](./timescale-tiers/)
 Jelajahi Aspose.Tasks untuk .NET untuk mengonfigurasi tingkat skala waktu dalam tampilan Gantt Chart Anda untuk visualisasi garis waktu proyek yang tepat.
-### [Konfigurasikan Tampilan Penggunaan di Aspose.Tasks](./usage-views/)
+### [Mengonfigurasi Tampilan Penggunaan di Aspose.Tasks](./usage-views/)
 Pelajari cara mengonfigurasi tampilan penggunaan tugas di Aspose.Tasks untuk .NET. Tingkatkan visualisasi proyek dengan langkah-langkah mendetail. Unduh perpustakaannya sekarang!

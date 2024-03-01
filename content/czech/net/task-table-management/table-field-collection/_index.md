@@ -12,7 +12,7 @@ Aspose.Tasks for .NET je výkonná knihovna, která usnadňuje správu projektů
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující nastavení:
 - Pracovní znalost programovacího jazyka C#.
-- Nainstalovaná knihovna Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
+-  Nainstalovaná knihovna Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
 - Integrované vývojové prostředí (IDE), jako je Visual Studio.
 ## Importovat jmenné prostory
 Nejprve se ujistěte, že máte na začátku souboru C# importovány potřebné jmenné prostory:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // iterovat přes pole tabulky
+    //iterovat přes pole tabulky
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -108,6 +108,6 @@ Absolutně! Jak je znázorněno ve výukovém programu, můžete podle potřeby 
 ### Existují nějaké úvahy o licencování pro použití Aspose.Tasks pro .NET v komerčním projektu?
  Ano, k použití Aspose.Tasks for .NET v komerčním projektu potřebujete platnou licenci. Můžete získat licenci[tady](https://purchase.aspose.com/buy).
 ### Jak mohu získat podporu nebo vyhledat pomoc s Aspose.Tasks pro .NET?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) získat podporu, klást otázky a spolupracovat s komunitou.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)získat podporu, klást otázky a spolupracovat s komunitou.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
  Ano, funkce Aspose.Tasks for .NET můžete prozkoumat pomocí bezplatné zkušební verze. Stáhnout to[tady](https://releases.aspose.com/).

@@ -75,8 +75,8 @@ A: Aspose.Tasks는 주로 Microsoft Project 파일에 중점을 둡니다. 그�
 ### Q: 보기 열 사용자 정의 문제를 해결하려면 어떻게 해야 합니까?
  답: 다음을 방문하세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 귀하가 직면하는 모든 문제에 대한 지역 사회 지원 및 도움을 받으십시오.
 ### Q: Aspose.Tasks를 구매하기 전에 사용할 수 있는 평가판이 있나요?
-A: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+ A: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ###  Q. 의의는 무엇인가요?`MyTextStyleCallback` class in the tutorial?
- 답:`MyTextStyleCallback` 이 클래스에서는 특정 보기에서 향상된 시각적 표현을 위해 텍스트 스타일을 사용자 정의하는 방법을 보여줍니다.
+ 답:`MyTextStyleCallback` 클래스는 특정 뷰에서 향상된 시각적 표현을 위해 텍스트 스타일을 사용자 정의하는 방법을 보여줍니다.
 ### Q: Aspose.Tasks에 대한 추가 리소스와 문서는 어디서 찾을 수 있나요?
  답: 다음을 참조하세요.[Aspose.Tasks 문서](https://reference.aspose.com/tasks/net/) 자세한 지침과 리소스를 확인하세요.

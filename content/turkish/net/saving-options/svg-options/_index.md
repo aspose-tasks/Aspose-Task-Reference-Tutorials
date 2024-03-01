@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## Adım 1: Belge Dizinini Tanımlayın
-Belgeleriniz için belirlenmiş bir dizininiz olduğundan emin olun. yer değiştirmek`"Your Document Directory"` İstediğiniz dizinin yolu ile birlikte.
+ Belgeleriniz için belirlenmiş bir dizininiz olduğundan emin olun. Yer değiştirmek`"Your Document Directory"` İstediğiniz dizinin yolu ile birlikte.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Adım 2: Proje Dosyasını Yükleyin
- Microsoft Project dosyasını (.mpp) kullanarak yükleyin.`Project` sınıf.
+Microsoft Project dosyasını (.mpp) kullanarak yükleyin.`Project` sınıf.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

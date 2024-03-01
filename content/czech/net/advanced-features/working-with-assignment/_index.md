@@ -9,7 +9,7 @@ url: /cs/net/advanced-features/working-with-assignment/
 ---
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak pracovat s úkoly v Aspose.Tasks pro .NET. Úkoly jsou klíčové v projektovém řízení, protože přidělují zdroje úkolům, pomáhají při plánování a sledování pokroku. Zaměříme se na generování časově uspořádaných dat přiřazení zdrojů s různými obrysy pomocí Aspose.Tasks.
+V tomto tutoriálu prozkoumáme, jak pracovat s úkoly v Aspose.Tasks pro .NET. Úkoly jsou klíčové v projektovém řízení, protože přidělují zdroje úkolům, pomáhají při plánování a sledování pokroku. Zaměříme se na generování časově uspořádaných dat přiřazení zdrojů s různými obrysy pomocí Aspose.Tasks.
 
 ## Předpoklady
 
@@ -86,7 +86,7 @@ resourceAssignment.Set(Asn.WorkContour, WorkContourType.Turtle);
 
 ## Závěr
 
-V tomto tutoriálu jsme se naučili pracovat s úkoly v Aspose.Tasks pro .NET. Zkoumali jsme generování časově uspořádaných dat přiřazení zdrojů s různými konturami. Tyto znalosti mohou být nesmírně užitečné ve scénářích projektového řízení.
+tomto tutoriálu jsme se naučili pracovat s úkoly v Aspose.Tasks pro .NET. Zkoumali jsme generování časově uspořádaných dat přiřazení zdrojů s různými konturami. Tyto znalosti mohou být nesmírně užitečné ve scénářích projektového řízení.
 
 ## FAQ
 
@@ -108,4 +108,4 @@ A4: Ano, jak je ukázáno v tomto tutoriálu, můžete nastavit různé obrysy, 
 
 ### Q5: Kde najdu podporu pro dotazy související s Aspose.Tasks?
 
- A5: Podporu najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) kde se odborníci a členové komunity aktivně zapojují do diskusí.
+A5: Podporu najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) kde se odborníci a členové komunity aktivně zapojují do diskusí.

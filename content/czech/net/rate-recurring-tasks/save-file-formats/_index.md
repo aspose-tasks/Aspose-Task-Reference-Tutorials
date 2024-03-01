@@ -34,7 +34,7 @@ Nyní uložíme projekt ve formátu CSV.
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## Krok 3: Prozkoumejte další formáty
- Aspose.Tasks podporuje různé formáty pro ukládání souborů projektu, jako jsou XML, PDF, XLSX a další. Tyto formáty můžete prozkoumat jednoduše změnou`SaveFileFormat` parametry v`Save` metoda.
+ Aspose.Tasks podporuje různé formáty pro ukládání souborů projektu, jako jsou XML, PDF, XLSX a další. Tyto formáty můžete prozkoumat jednoduše změnou`SaveFileFormat` parametr v`Save` metoda.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,7 +50,7 @@ Odpověď: Aspose.Tasks podporuje formáty Microsoft Project 2003 XML, Microsoft
 ### Otázka: Mohu vyzkoušet Aspose.Tasks před nákupem?
  Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 ### Otázka: Jak mohu získat podporu pro Aspose.Tasks?
- Odpověď: Podporu můžete získat na fóru komunity Aspose.Tasks.[tady](https://forum.aspose.com/c/tasks/15).
+Odpověď: Podporu můžete získat na fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Jsou pro Aspose.Tasks dostupné dočasné licence?
  Odpověď: Ano, dočasné licence jsou k dispozici pro účely hodnocení. Můžete získat jeden[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Jaká je cena za Aspose.Tasks?

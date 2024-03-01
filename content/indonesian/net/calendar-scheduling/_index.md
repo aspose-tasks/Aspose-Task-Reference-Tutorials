@@ -55,7 +55,7 @@ Pelajari cara menggunakan Aspose.Tasks untuk .NET guna mengelola dan menganalisi
 
 ## Opsi CSV di Aspose.Tasks
 
- Manfaatkan Aspose.Tasks agar .NET dapat bekerja secara efisien dengan file CSV. Tingkatkan kemampuan manajemen proyek Anda dengan mudah melalui tutorial langkah demi langkah.[Baca selengkapnya](./csv-options/)
+ Manfaatkan Aspose.Tasks untuk .NET agar dapat bekerja secara efisien dengan file CSV. Tingkatkan kemampuan manajemen proyek Anda dengan mudah melalui tutorial langkah demi langkah.[Baca selengkapnya](./csv-options/)
 
 ## Posisi Simbol Mata Uang di Aspose.Tugas
 
@@ -116,7 +116,7 @@ Pelajari cara mengelola biaya proyek secara efektif dengan Aspose.Tasks untuk .N
 ### [Argumen Menyimpan CSS di Aspose.Tasks](./css-saving-arguments/)
 Pelajari cara menyimpan argumen CSS di Aspose.Tasks untuk .NET guna menyesuaikan keluaran HTML. Sempurnakan presentasi dengan pengaturan CSS yang disesuaikan.
 ### [Opsi CSV di Aspose.Tasks](./csv-options/)
-Pelajari cara memanfaatkan Aspose.Tasks agar .NET dapat bekerja secara efisien dengan file CSV, sehingga meningkatkan kemampuan manajemen proyek Anda dengan mudah.
+Pelajari cara memanfaatkan Aspose.Tasks untuk .NET agar dapat bekerja secara efisien dengan file CSV, meningkatkan kemampuan manajemen proyek Anda dengan mudah.
 ### [Posisi Simbol Mata Uang di Aspose.Tugas](./currency-symbol-positions/)
 Pelajari cara mengontrol posisi simbol mata uang di proyek .NET dengan mudah dengan Aspose.Tasks.
 ### [Jenis Bidang Kustom di Aspose.Tasks](./custom-field-types/)

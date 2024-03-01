@@ -15,7 +15,7 @@ Aspose.Tasks för .NET tillhandahåller omfattande funktionalitet för att arbet
 
 Innan vi börjar, se till att du har följande förutsättningar på plats:
 
-1. Installation: Se till att du har Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
+1.  Installation: Se till att du har Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
 
 2. Grundläggande kunskaper: Bekanta dig med programmeringsspråket C# och .NET framework koncept.
 
@@ -125,7 +125,7 @@ else
 
 ## Slutsats
 
-den här handledningen undersökte vi hur man effektivt arbetar med OLE-objekt i Aspose.Tasks för .NET. Genom att följa dessa steg-för-steg-exempel kan du sömlöst integrera OLE-objekthanteringsfunktioner i dina .NET-applikationer, vilket förbättrar deras funktionalitet och användbarhet.
+I den här handledningen undersökte vi hur man effektivt arbetar med OLE-objekt i Aspose.Tasks för .NET. Genom att följa dessa steg-för-steg-exempel kan du sömlöst integrera OLE-objekthanteringsfunktioner i dina .NET-applikationer, vilket förbättrar deras funktionalitet och användbarhet.
 
 ## FAQ's
 

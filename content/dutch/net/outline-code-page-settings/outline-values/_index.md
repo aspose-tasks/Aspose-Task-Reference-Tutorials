@@ -13,7 +13,7 @@ In deze zelfstudie onderzoeken we hoe u de overzichtswaarden van Microsoft Proje
 Zorg ervoor dat u over het volgende beschikt voordat u begint:
 1.  Installatie van Aspose.Tasks voor .NET: Download en installeer de Aspose.Tasks voor .NET-bibliotheek van[hier](https://releases.aspose.com/tasks/net/).
 2. Ontwikkelomgeving: Zorg ervoor dat u een ontwikkelomgeving hebt ingesteld, zoals Visual Studio, met compatibiliteit met het .NET-framework.
-3. Basiskennis van programmeren in C#: maak uzelf vertrouwd met de basisprincipes van de programmeertaal C#, aangezien we C# zullen gebruiken om met de Aspose.Tasks-bibliotheek te werken.
+3. Basiskennis van C#-programmering: Maak uzelf vertrouwd met de basisbeginselen van de programmeertaal C#, aangezien we C# zullen gebruiken om met de Aspose.Tasks-bibliotheek te werken.
 
 ## Naamruimten importeren
 Begin met het importeren van de benodigde naamruimten in uw C#-code:
@@ -71,8 +71,8 @@ A: Ja, Aspose.Tasks is compatibel met verschillende .NET-frameworks, waardoor fl
 ### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks?
  A: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks vanaf[hier](https://releases.aspose.com/).
 ### Vraag: Hoe kan ik ondersteuning krijgen voor Aspose.Tasks?
- A: Voor ondersteuning en assistentie kunt u het Aspose.Tasks-forum bezoeken.[hier](https://forum.aspose.com/c/tasks/15).
+ A: Voor ondersteuning en assistentie kunt u het Aspose.Tasks-forum bezoeken[hier](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Kan ik een tijdelijke licentie kopen voor Aspose.Tasks?
- A: Ja, u kunt een tijdelijke licentie voor Aspose.Tasks kopen bij[hier](https://purchase.aspose.com/temporary-license/).
+A: Ja, u kunt een tijdelijke licentie voor Aspose.Tasks kopen bij[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik gedetailleerde documentatie voor Aspose.Tasks vinden?
  A: U kunt de uitgebreide beschikbare documentatie raadplegen[hier](https://reference.aspose.com/tasks/net/).

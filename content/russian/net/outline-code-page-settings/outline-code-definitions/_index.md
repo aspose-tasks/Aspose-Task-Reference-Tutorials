@@ -43,7 +43,7 @@ var outline = new OutlineCodeDefinition();
 outline.FieldId = ExtendedAttributeTask.OutlineCode7.ToString("D");
 outline.FieldName = "Outline Code1";
 ```
-## Шаг 4. Установите GUID и другие свойства.
+## Шаг 4. Установите GUID и другие свойства
 Задайте GUID и другие свойства структурного кода.
 ```csharp
 outline.Guid = "e6afac06-0d86-4359-a96c-db705e3d2ca8";

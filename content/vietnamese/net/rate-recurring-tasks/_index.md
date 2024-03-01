@@ -19,7 +19,7 @@ Bạn đang gặp khó khăn trong việc nắm vững sự phức tạp của v
  TRONG[Tỷ lệ dự án MS chính với Aspose.Tasks](./rate-collection/), chúng tôi đi sâu vào sự phức tạp của việc quản lý tỷ lệ trong tệp MS Project. Hướng dẫn này là nguồn tài nguyên cần thiết để bạn hiểu rõ các sắc thái của việc thu thập tỷ lệ, cung cấp những hiểu biết thực tế và giúp bạn nâng cao khả năng quản lý tài nguyên của dự án.
 
 ## Khoảng thời gian định kỳ dự án MS dễ dàng trong Aspose.Tasks
- Khám phá nghệ thuật quản lý các khoảng thời gian định kỳ một cách dễ dàng với[Khoảng thời gian định kỳ dự án MS dễ dàng trong Aspose.Tasks](./recurring-intervals/), Hướng dẫn này hướng dẫn bạn qua quy trình sử dụng Aspose.Tasks cho .NET, đảm bảo bạn có thể xử lý liền mạch các tác vụ định kỳ trong MS Project của mình.
+ Khám phá nghệ thuật quản lý các khoảng thời gian định kỳ một cách dễ dàng với[Khoảng thời gian định kỳ dự án MS dễ dàng trong Aspose.Tasks](./recurring-intervals/). Hướng dẫn này hướng dẫn bạn qua quy trình sử dụng Aspose.Tasks cho .NET, đảm bảo bạn có thể xử lý liền mạch các tác vụ định kỳ trong MS Project của mình.
 
 ## Trích xuất thông tin tác vụ định kỳ trong Aspose.Tasks
  Tìm hiểu cách trích xuất thông tin nhiệm vụ định kỳ từ các tệp MS Project với[Trích xuất thông tin tác vụ định kỳ trong Aspose.Tasks](./recurring-task-information/)Hướng dẫn này giúp các nhà phát triển .NET tích hợp dễ dàng, cho phép bạn làm việc hiệu quả với các tác vụ định kỳ trong dự án của mình.
@@ -31,13 +31,13 @@ Bạn đang gặp khó khăn trong việc nắm vững sự phức tạp của v
  Nói lời tạm biệt với việc loại bỏ tác vụ thủ công![Xóa nhiệm vụ dự án MS bằng Aspose.Tasks](./removing-tasks/) hướng dẫn bạn quy trình loại bỏ các tác vụ theo chương trình bằng cách sử dụng Aspose.Tasks cho .NET. Hướng dẫn từng bước bao gồm các ví dụ về mã để có trải nghiệm liền mạch.
 
 ## Báo cáo dự án MS chính với Aspose.Tasks
- Khai phá toàn bộ tiềm năng của báo cáo MS Project với[Báo cáo dự án MS chính với Aspose.Tasks](./report-types/), Hướng dẫn này khám phá cách làm việc với các tệp MS Project bằng Aspose.Tasks cho .NET, cho phép bạn tạo nhiều loại báo cáo khác nhau một cách dễ dàng.
+ Khai phá toàn bộ tiềm năng của báo cáo MS Project với[Báo cáo dự án MS chính với Aspose.Tasks](./report-types/). Hướng dẫn này khám phá cách làm việc với các tệp MS Project bằng Aspose.Tasks cho .NET, cho phép bạn tạo nhiều loại báo cáo khác nhau một cách dễ dàng.
 
 ## Lưu tệp dự án MS ở các định dạng khác nhau trong Aspose.Tasks
 Quản lý dự án hiệu quả bao gồm các định dạng tệp đa dạng.[Lưu tệp dự án MS ở các định dạng khác nhau trong Aspose.Tasks](./save-file-formats/) hướng dẫn bạn các bước lưu tệp MS Project ở các định dạng khác nhau bằng Aspose.Tasks cho .NET.
 
 ## Xử lý các phần phân chia dự án MS trong Aspose.Tasks
- Việc điều hướng các phần được chia nhỏ trong MS Project trở nên dễ dàng với[Xử lý các phần phân chia dự án MS trong Aspose.Tasks](./split-parts/), Nâng cao quy trình quản lý dự án của bạn bằng cách xử lý hiệu quả các phần được phân tách bằng Aspose.Tasks for .NET.
+ Việc điều hướng các phần được chia nhỏ trong MS Project trở nên dễ dàng với[Xử lý các phần phân chia dự án MS trong Aspose.Tasks](./split-parts/). Nâng cao quy trình quản lý dự án của bạn bằng cách xử lý hiệu quả các phần được phân tách bằng Aspose.Tasks for .NET.
 
 ## Thu thập các phần phân chia dự án MS trong Aspose.Tasks
  Hướng dẫn của chúng tôi về[Thu thập các phần phân chia dự án MS trong Aspose.Tasks](./split-part-collection/) là hướng dẫn toàn diện, hướng dẫn bạn thực hiện quy trình theo từng bước. Tìm hiểu cách thu thập các phần tách rời trong MS Project, giúp bạn tối ưu hóa quy trình quản lý dự án của mình.
@@ -60,7 +60,7 @@ Tìm hiểu cách đặt tham số tác vụ định kỳ trong Microsoft Projec
 ### [Xóa nhiệm vụ dự án MS bằng Aspose.Tasks](./removing-tasks/)
 Tìm hiểu cách loại bỏ các tác vụ MS Project theo chương trình bằng cách sử dụng Aspose.Tasks cho .NET. Hướng dẫn từng bước kèm theo các ví dụ về mã.
 ### [Báo cáo dự án MS chính với Aspose.Tasks](./report-types/)
-Tìm hiểu cách làm việc với các tệp MS Project bằng Aspose.Tasks cho .NET. Tạo các loại báo cáo khác nhau một cách dễ dàng.
+Tìm hiểu cách làm việc với các tệp MS Project bằng Aspose.Tasks for .NET. Tạo các loại báo cáo khác nhau một cách dễ dàng.
 ### [Lưu tệp dự án MS ở các định dạng khác nhau trong Aspose.Tasks](./save-file-formats/)
 Tìm hiểu cách lưu tệp MS Project ở nhiều định dạng khác nhau bằng Aspose.Tasks cho .NET. Các bước đơn giản để quản lý dự án hiệu quả
 ### [Xử lý các phần phân chia dự án MS trong Aspose.Tasks](./split-parts/)

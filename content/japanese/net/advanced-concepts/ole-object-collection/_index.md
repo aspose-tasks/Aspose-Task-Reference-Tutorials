@@ -80,7 +80,7 @@ foreach (var oleObject in project.OleObjects)
 
 ### Q1: OLE オブジェクトとは何ですか?
 
-A1: OLE (Object Linking and Embedding) オブジェクトは、ドキュメント内に他のアプリケーションからファイルを埋め込んだりリンクしたりできるようにするテクノロジです。
+A1: OLE (Object Linking and Embedding) オブジェクトは、他のアプリケーションからのファイルをドキュメント内に埋め込んだりリンクしたりできるようにするテクノロジです。
 
 ### Q2: Aspose.Tasks for .NET をインストールするにはどうすればよいですか?
 
@@ -88,7 +88,7 @@ A1: OLE (Object Linking and Embedding) オブジェクトは、ドキュメン�
 
 ### Q3: C# の事前知識がなくても、Aspose.Tasks で OLE オブジェクトを操作できますか?
 
-A3: C# の基本的な知識が推奨されていますが、Aspose.Tasks では、プログラミングの背景に関係なく、ユーザーが使い始めるのに役立つ包括的なドキュメントとチュートリアルが提供されています。
+A3: C# の基本的な知識が推奨されていますが、Aspose.Tasks では、プログラミングの背景に関係なくユーザーが作業を開始できるよう、包括的なドキュメントとチュートリアルが提供されています。
 
 ### Q4: Aspose.Tasks に利用できる無料トライアルはありますか?
 

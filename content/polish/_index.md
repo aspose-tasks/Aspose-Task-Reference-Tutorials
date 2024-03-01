@@ -2,14 +2,14 @@
 title: Opanowanie manipulacji projektami MS za pomocą Aspose.Tasks
 linktitle: Poradniki Aspose.Tasks
 additionalTitle: Aspose Referencje API
-description: Odblokuj umiejętności zarządzania projektami! Zapoznaj się z samouczkami Aspose.Tasks dla .NET, Java, C++ i nie tylko. Bez wysiłku podnoś swoje umiejętności w wielu językach.
+description: Odblokuj umiejętności zarządzania projektami! Zapoznaj się z samouczkami Aspose.Tasks dla .NET, Java, C++ i nie tylko. Bez wysiłku podnieś swoje umiejętności w zakresie wielu języków.
 type: docs
 weight: 11
 url: /pl/
 is_root: true
 ---
 
-Rozpocznij kompleksową eksplorację możliwości zarządzania projektami w różnych językach programowania dzięki naszej liście samouczków Aspose.Tasks. Niezależnie od tego, czy pracujesz z Aspose.Tasks dla .NET, Java, C,lub innych językach, ten wyselekcjonowany zbiór samouczków ma na celu umożliwienie programistom na każdym poziomie. Od podstawowych koncepcji po zaawansowane techniki, każdy samouczek zawiera wskazówki krok po kroku, umożliwiające wykorzystanie pełnego potencjału Aspose.Tasks w preferowanym języku. Zanurz się w naszym bogatym repozytorium i podnieś swoje umiejętności zarządzania projektami na wielu platformach i środowiskach kodowania. Poruszajmy się razem po zróżnicowanym krajobrazie samouczków Aspose.Tasks!
+Rozpocznij kompleksową eksplorację możliwości zarządzania projektami w różnych językach programowania dzięki naszej liście samouczków Aspose.Tasks. Niezależnie od tego, czy pracujesz z Aspose.Tasks dla .NET, Java, C++lub innych językach, ten wyselekcjonowany zbiór samouczków ma na celu umożliwienie programistom na każdym poziomie. Od podstawowych koncepcji po zaawansowane techniki, każdy samouczek zawiera wskazówki krok po kroku, umożliwiające wykorzystanie pełnego potencjału Aspose.Tasks w preferowanym języku. Zanurz się w naszym bogatym repozytorium i podnieś swoje umiejętności zarządzania projektami na wielu platformach i środowiskach kodowania. Poruszajmy się razem po zróżnicowanym krajobrazie samouczków Aspose.Tasks!
 
 ## Aspose.Tasks dla samouczków .NET
 {{% alert color="primary" %}}
@@ -34,3 +34,27 @@ Oto linki do przydatnych zasobów:
 - [Opcje formatu pliku Aspose.Tasks](./net/file-format-options/)
 - [Aspose.Tasks Konfiguracja zabezpieczeń PDF](./net/pdf-security-configuration/)
 - [Aspose.Tasks Zarządzanie licencjami](./net/license-management/)
+
+## Aspose.Tasks dla samouczków Java
+{{% alert color="primary" %}}
+Witamy w bramie usprawnionego zarządzania projektami Java! Wyrusz w podróż z Aspose.Tasks dla Java, gdzie nasze wszechstronne samouczki i przykłady na nowo definiują sposób, w jaki radzisz sobie z przepływami pracy w projektach. Od opanowania wyjątków kalendarza po bezproblemową integrację z VBA – przygotowaliśmy bogactwo zasobów, które zapewnią programistom na wszystkich poziomach możliwości. Dołącz do nas, gdy będziemy zagłębiać się w zawiłości zarządzania projektami, oferując wskazówki krok po kroku i odblokowując pełny potencjał Aspose.Tasks dla Java. Przygotuj się na optymalizację swoich projektów, usprawnienie przepływów pracy i podniesienie swoich umiejętności programowania w języku Java!
+{{% /alert %}}
+
+Oto linki do przydatnych zasobów:
+
+- [Wyjątki kalendarza](./java/calendar-exceptions/)
+- [Kalendarze](./java/calendars/)
+- [Waluta](./java/currency/)
+- [Formuły](./java/formulas/)
+- [Właściwości projektu](./java/project-properties/)
+- [Właściwości waluty](./java/currency-properties/)
+- [Konfiguracja projektu](./java/project-configuration/)
+- [Zarządzanie projektami](./java/project-management/)
+- [Odczyt danych projektu](./java/project-data-reading/)
+- [Operacje na plikach projektu](./java/project-file-operations/)
+- [Przydziały zasobów](./java/resource-assignments/)
+- [Zarządzanie zasobami](./java/resource-management/)
+- [Bazy zadań](./java/task-baselines/)
+- [Linki do zadań](./java/task-links/)
+- [Właściwości zadania](./java/task-properties/)
+- [Integracja z VBA](./java/vba-integration/)

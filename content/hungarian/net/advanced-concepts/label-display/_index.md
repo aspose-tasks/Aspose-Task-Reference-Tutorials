@@ -9,7 +9,7 @@ url: /hu/net/advanced-concepts/label-display/
 ---
 ## Bevezetés
 
-szoftverfejlesztés területén a feladatok hatékony kezelése elengedhetetlen a projekt sikeréhez. Az Aspose.Tasks for .NET robusztus megoldást kínál a projektmenedzsment feladatok zökkenőmentes kezelésére a .NET keretrendszeren belül. A projektmenedzsment egyik kulcsfontosságú szempontja a megjelenítési beállítások testreszabásának képessége az adott követelményeknek megfelelően. Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Tasks for .NET a perc-, óra-, nap-, hét-, hónap- és évcímkék megjelenítésére a projektfájlokban.
+A szoftverfejlesztés területén a feladatok hatékony kezelése elengedhetetlen a projekt sikeréhez. Az Aspose.Tasks for .NET robusztus megoldást kínál a projektmenedzsment feladatok zökkenőmentes kezelésére a .NET keretrendszeren belül. A projektmenedzsment egyik kulcsfontosságú szempontja a megjelenítési beállítások testreszabásának képessége az adott követelményeknek megfelelően. Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Tasks for .NET a perc-, óra-, nap-, hét-, hónap- és évcímkék megjelenítésére a projektfájlokban.
 
 ## Előfeltételek
 

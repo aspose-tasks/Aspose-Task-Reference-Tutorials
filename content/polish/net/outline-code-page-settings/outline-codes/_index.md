@@ -31,7 +31,7 @@ Najpierw ustaw ścieżkę do katalogu zawierającego plik MS Project.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku projektu.
+ Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do pliku projektu.
 ## Krok 2: Załaduj plik projektu
  Utwórz instancję nowego`Project` obiekt poprzez załadowanie pliku MS Project.
 ```csharp

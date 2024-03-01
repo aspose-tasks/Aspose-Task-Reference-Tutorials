@@ -46,7 +46,7 @@ var options = new SaveTemplateOptions
 	RemoveActualValues = true,
 	// إزالة معدلات الموارد من قالب المشروع
 	RemoveResourceRates = true,
-	// قم بإزالة كافة القيم الأساسية من قالب المشروع
+	// إزالة كافة القيم الأساسية من قالب المشروع
 	RemoveBaselineValues = true
 };
 ```
@@ -75,4 +75,4 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 ### س: هل يدعم Aspose.Tasks for .NET التطوير عبر الأنظمة الأساسية؟
 ج: تم تصميم Aspose.Tasks for .NET بشكل أساسي لتطبيقات .NET Framework التي تعمل على أنظمة Windows الأساسية.
 ### س: هل يتوفر الدعم الفني لـ Aspose.Tasks لـ .NET؟
- ج: نعم، يمكنك طلب المساعدة الفنية والتوجيه من مجتمع Aspose.Tasks.[المنتديات](https://forum.aspose.com/c/tasks/15) أو اتصل بفريق الدعم مباشرة.
+ ج: نعم، يمكنك طلب المساعدة الفنية والتوجيه من مجتمع Aspose.Tasks[المنتديات](https://forum.aspose.com/c/tasks/15)أو اتصل بفريق الدعم مباشرة.

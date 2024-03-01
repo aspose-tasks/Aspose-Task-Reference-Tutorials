@@ -12,7 +12,7 @@ Aspose.Tasks for .NET 提供了強大的功能來過濾 Microsoft Project 檔案
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
 ### 1.安裝Aspose.Tasks for .NET
-從下列位置下載並安裝 Aspose.Tasks for .NET[下載頁面](https://releases.aspose.com/tasks/net/),按照提供的安裝說明在您的開發環境中設定該庫。
+從下列位置下載並安裝 Aspose.Tasks for .NET[下載頁面](https://releases.aspose.com/tasks/net/)。按照提供的安裝說明在您的開發環境中設定該庫。
 ### 2. 設定您的開發環境
 確保您擁有適用於 .NET 程式設計的有效開發環境。這包括相容的 IDE（例如 Visual Studio）和對 C# 程式語言的基本了解。
 ### 3. 存取範例 Microsoft Project 文件
@@ -66,9 +66,9 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
 ```
 顯示資源過濾器的詳細信息，包括計數、過濾器類型、在選單中顯示和顯示相關摘要行。
 ## 結論
-使用 Aspose.Tasks for .NET 過濾 MS Project 檔案中的資料是一個簡單的過程，可以提高工作效率和分析能力。透過遵循本教學中概述的步驟，您可以根據特定標準有效管理專案資訊。
+使用 Aspose.Tasks for .NET 過濾 MS Project 檔案中的資料是一個簡單的過程，可以提高工作效率和分析能力。透過遵循本教學中概述的步驟，您可以根據特定條件有效管理專案資訊。
 ## 常見問題解答
-### Q：Aspose.Tasks 可以根據自訂標準過濾資料嗎？
+### Q：Aspose.Tasks 可以根據自訂條件過濾資料嗎？
 答：是的，Aspose.Tasks 允許根據您的專案要求自訂的自訂標準來過濾資料。
 ### Q：Aspose.Tasks 是否與所有版本的 Microsoft Project 檔案相容？
 答：Aspose.Tasks 支援各種版本的 Microsoft Project 文件，確保不同環境下的相容性。

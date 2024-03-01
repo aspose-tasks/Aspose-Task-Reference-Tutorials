@@ -9,7 +9,7 @@ url: /cs/net/advanced-features/availability-period-collection/
 ---
 ## Úvod
 
-V tomto tutoriálu prozkoumáme, jak pracovat s kolekcí období dostupnosti zdroje v Aspose.Tasks for .NET. Správa období dostupnosti je pro projektové řízení zásadní a umožňuje nám definovat, kdy jsou k dispozici zdroje pro úkoly v rámci projektu.
+tomto tutoriálu prozkoumáme, jak pracovat s kolekcí období dostupnosti zdroje v Aspose.Tasks for .NET. Správa období dostupnosti je pro projektové řízení zásadní a umožňuje nám definovat, kdy jsou k dispozici zdroje pro úkoly v rámci projektu.
 
 ## Předpoklady
 
@@ -125,7 +125,7 @@ Aktualizujeme dostupné jednotky pro určité období a konkrétní období odst
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili, jak pracovat s kolekcemi období dostupnosti v Aspose.Tasks pro .NET. Řízení dostupnosti zdrojů je zásadní pro efektivní plánování a realizaci projektu.
+V tomto tutoriálu jsme se naučili, jak pracovat s kolekcemi období dostupnosti v Aspose.Tasks pro .NET. Řízení dostupnosti zdrojů je zásadní pro efektivní plánování a realizaci projektu.
 
 ## FAQ
 

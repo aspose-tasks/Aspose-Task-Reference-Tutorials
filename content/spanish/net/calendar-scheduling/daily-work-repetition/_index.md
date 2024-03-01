@@ -36,7 +36,7 @@ Dividamos el ejemplo proporcionado en varios pasos:
 
 ## Paso 1: cargue el archivo del proyecto
 
- Primero, cargue el archivo del proyecto usando el`Project` clase:
+Primero, cargue el archivo del proyecto usando el`Project` clase:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

@@ -98,4 +98,4 @@ R: Sì, Aspose.Tasks supporta il multi-threading, consentendo operazioni simulta
 
 ### D: Il supporto tecnico è disponibile per gli utenti Aspose.Tasks?
 
- R: Sì, gli utenti di Aspose.Tasks possono accedere al supporto tecnico tramite il forum.[Qui](https://forum.aspose.com/c/tasks/15).
+ R: Sì, gli utenti di Aspose.Tasks possono accedere al supporto tecnico tramite il forum[Qui](https://forum.aspose.com/c/tasks/15).

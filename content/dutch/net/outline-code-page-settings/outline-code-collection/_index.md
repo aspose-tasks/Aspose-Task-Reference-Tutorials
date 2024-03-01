@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Manipuleer de overzichtscodes indien nodig, zoals invoegen, verwijderen of wissen.
 ```csharp
 // Voorbeeld van manipulatie
-// ,
+// ...
 // Voer code in met 2 op de juiste positie
 task.OutlineCodes.Insert(2, code2);
 // Controleer of de code is ingevoerd
@@ -86,7 +86,7 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 In deze zelfstudie hebben we geleerd hoe u Microsoft Project-overzichtscodes kunt verzamelen met Aspose.Tasks voor .NET. Door deze stappen te volgen, kunt u de overzichtscodes binnen uw projecten effectief beheren, waardoor de organisatie en duidelijkheid worden verbeterd.
 ## Veelgestelde vragen
 ### Vraag: Kan ik Aspose.Tasks voor .NET gebruiken met andere programmeertalen?
-A: Ja, Aspose.Tasks for .NET richt zich primair op het .NET-platform, maar biedt ook ondersteuning voor andere programmeertalen via Aspose.Tasks for Cloud.
+A: Ja, Aspose.Tasks voor .NET richt zich primair op het .NET-platform, maar biedt ook ondersteuning voor andere programmeertalen via Aspose.Tasks for Cloud.
 ### Vraag: Zijn er beperkingen op de grootte van de projectbestanden die Aspose.Tasks voor .NET kan verwerken?
 A: Aspose.Tasks voor .NET kan grote projectbestanden efficiënt verwerken, maar de prestaties kunnen variëren afhankelijk van de complexiteit en grootte van het bestand.
 ### Vraag: Is Aspose.Tasks voor .NET compatibel met de nieuwste versies van Microsoft Project?

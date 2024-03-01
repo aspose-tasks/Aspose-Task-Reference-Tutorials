@@ -27,7 +27,7 @@ Antes de mergulhar neste tutorial, certifique-se de ter os seguintes pré-requis
 
 Para começar, você precisa importar os namespaces necessários para o seu projeto .NET. 
 
- Incluir o`Aspose.Tasks` namespace em seu projeto para acessar as classes e métodos fornecidos pela biblioteca Aspose.Tasks.
+ Incluir o`Aspose.Tasks`namespace em seu projeto para acessar as classes e métodos fornecidos pela biblioteca Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Agora, vamos dividir o exemplo fornecido em várias etapas:
 
 ## Etapa 1: carregar o arquivo do projeto
 
- Comece carregando o arquivo do projeto usando o`Project`construtor de classe.
+ Comece carregando o arquivo do projeto usando o`Project` construtor de classe.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

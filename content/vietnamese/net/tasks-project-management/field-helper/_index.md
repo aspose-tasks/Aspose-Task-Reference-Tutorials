@@ -17,7 +17,7 @@ Trước khi đi sâu vào sử dụng Aspose.Tasks cho .NET, bạn cần phải
 
 ### 1. Cài đặt Aspose.Tasks cho .NET
 
- Để bắt đầu, bạn cần tải xuống và cài đặt Aspose.Tasks cho .NET. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/tasks/net/), Làm theo hướng dẫn cài đặt được cung cấp để thiết lập thư viện trong môi trường phát triển của bạn.
+ Để bắt đầu, bạn cần tải xuống và cài đặt Aspose.Tasks cho .NET. Bạn có thể tìm thấy liên kết tải xuống[đây](https://releases.aspose.com/tasks/net/). Làm theo hướng dẫn cài đặt được cung cấp để thiết lập thư viện trong môi trường phát triển của bạn.
 
 ### 2. Nhập không gian tên
 

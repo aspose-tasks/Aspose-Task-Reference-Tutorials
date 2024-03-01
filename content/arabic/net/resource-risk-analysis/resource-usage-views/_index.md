@@ -1,5 +1,5 @@
 ---
-title: قم بتكوين طرق عرض استخدام موارد مشروع MS في Aspose.Tasks
+title: تكوين طرق عرض استخدام موارد مشروع MS في Aspose.Tasks
 linktitle: تكوين طرق عرض استخدام الموارد في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين طرق عرض استخدام موارد MS Project باستخدام Aspose.Tasks لـ .NET. تم تضمين دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.

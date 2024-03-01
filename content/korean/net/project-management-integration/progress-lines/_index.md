@@ -33,7 +33,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
 ```
- 여기서는 MS 프로젝트 파일을 로드합니다.`Project2.mpp` 상태 보고 날짜를 설정합니다.
+ 여기서는 MS 프로젝트 파일을 로드합니다.`Project2.mpp` 상황 보고 날짜를 설정합니다.
 ## 2단계: 간트 차트 보기 정의
 ```csharp
 var view = (GanttChartView)project.Views.ToList()[0];

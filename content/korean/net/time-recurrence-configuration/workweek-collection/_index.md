@@ -75,8 +75,8 @@ foreach (var workWeek in calendar.WorkWeeks)
 ### 단일 프로젝트에서 여러 사용자 지정 작업 주를 가질 수 있나요?
 예, 프로젝트 달력에 여러 개의 맞춤형 작업 주를 추가할 수 있습니다.
 ### 기존 근무 주간을 어떻게 수정할 수 있나요?
- 제공된 것을 사용하십시오`WorkWeek` 기존 작업 주를 수정하는 속성 및 메서드입니다.
-### Aspose.Tasks는 .NET Core와 호환됩니까?
+ 제공된 것을 사용하십시오`WorkWeek`기존 작업 주를 수정하는 속성 및 메서드입니다.
+### Aspose.Tasks는 .NET Core와 호환되나요?
 예, Aspose.Tasks는 .NET Core를 지원합니다.
 ### 사용자 지정 작업 주가 포함된 프로젝트를 Microsoft Project 파일 형식으로 내보낼 수 있나요?
 물론 Aspose.Tasks를 사용하면 Microsoft Project를 포함한 다양한 형식으로 프로젝트를 저장할 수 있습니다.

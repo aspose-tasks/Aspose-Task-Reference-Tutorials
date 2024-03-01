@@ -37,7 +37,7 @@ Ensuite, ajoutons une ressource vide au projet :
 var resource = project.Resources.Add();
 resource.Set(Rsc.Type, ResourceType.Work);
 ```
-## Étape 3 : Ajouter une ressource avec un nom
+## Étape 3 : ajouter une ressource avec un nom
 Maintenant, ajoutez une ressource avec un nom spécifié au projet :
 ```csharp
 var developer = project.Resources.Add("Developer");
@@ -82,7 +82,7 @@ La gestion des collections de ressources Microsoft Project à l'aide d'Aspose.Ta
 ## FAQ
 ### Q : Aspose.Tasks peut-il gérer des fichiers de projet à grande échelle ?
 
-: Oui, Aspose.Tasks est conçu pour gérer efficacement des fichiers de projets à grande échelle, offrant des performances et une fiabilité élevées.
+R : Oui, Aspose.Tasks est conçu pour gérer efficacement des fichiers de projets à grande échelle, offrant des performances et une fiabilité élevées.
 
 ### Q : Aspose.Tasks est-il compatible avec différentes versions de Microsoft Project ?
 
@@ -94,8 +94,8 @@ R : Absolument, Aspose.Tasks offre des fonctionnalités étendues pour personnal
 
 ### Q : Aspose.Tasks prend-il en charge le multithreading pour les opérations simultanées ?
 
-R : Oui, Aspose.Tasks prend en charge le multithreading, permettant des opérations simultanées sur les données du projet pour améliorer les performances.
+: Oui, Aspose.Tasks prend en charge le multithreading, permettant des opérations simultanées sur les données du projet pour améliorer les performances.
 
 ### Q : Le support technique est-il disponible pour les utilisateurs d'Aspose.Tasks ?
 
- R : Oui, les utilisateurs d'Aspose.Tasks peuvent accéder au support technique via le forum.[ici](https://forum.aspose.com/c/tasks/15).
+ R : Oui, les utilisateurs d'Aspose.Tasks peuvent accéder au support technique via le forum.[ici](https://forum.aspose.com/c/tasks/15).

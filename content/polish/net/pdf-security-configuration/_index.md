@@ -11,7 +11,7 @@ url: /pl/net/pdf-security-configuration/
 
 świecie cyfrowym ochrona plików projektu jest najważniejsza. Aspose.Tasks dla .NET zapewnia solidne rozwiązanie wzmacniające bezpieczeństwo plików PDF Microsoft Project. Ta seria samouczków zagłębia się w zawiłości konfiguracji zabezpieczeń plików PDF, zapewniając poufność i autentyczność cennych danych projektu.
 
-## Skonfiguruj podpis cyfrowy PDF MS Project za pomocą Aspose.Tasks
+## Konfigurowanie podpisu cyfrowego PDF w MS Project za pomocą Aspose.Tasks
 
 Jeśli chodzi o sprawdzanie autentyczności dokumentów projektu, podpisy cyfrowe odgrywają kluczową rolę. W tym samouczku przeprowadzimy Cię przez proces konfigurowania szczegółów podpisu cyfrowego w formacie Microsoft Project PDF przy użyciu Aspose.Tasks dla .NET. Na koniec będziesz posiadać wiedzę niezbędną do skutecznego wdrażania podpisów cyfrowych, zapewniając integralność plików projektu.
 
@@ -19,7 +19,7 @@ Podpisy cyfrowe służą jako elektroniczne odciski palców, zapewniając unikal
 
 [Dowiedz się więcej o konfigurowaniu podpisu cyfrowego PDF w MS Project za pomocą Aspose.Tasks](./pdf-digital-signature-details/)
 
-## Skonfiguruj szczegóły szyfrowania plików PDF MS Project w Aspose.Tasks
+## Konfigurowanie szczegółów szyfrowania plików PDF MS Project w Aspose.Tasks
 
 Oprócz podpisów cyfrowych szyfrowanie zapewnia dodatkową warstwę ochrony plików projektu. Ten samouczek koncentruje się na konfigurowaniu szczegółów szyfrowania MS Project PDF przy użyciu Aspose.Tasks dla .NET. Pod koniec tego przewodnika będziesz biegły w zabezpieczaniu plików projektu za pomocą haseł użytkownika i właściciela.
 

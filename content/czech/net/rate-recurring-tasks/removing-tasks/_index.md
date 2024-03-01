@@ -11,7 +11,7 @@ url: /cs/net/rate-recurring-tasks/removing-tasks/
 V tomto tutoriálu prozkoumáme, jak odstranit úlohy ze souboru Microsoft Project pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonné API, které umožňuje vývojářům programově manipulovat se soubory Microsoft Project. Odebrání úkolů ze souboru projektu může být běžným požadavkem ve scénářích projektového řízení a Aspose.Tasks poskytuje přímý způsob, jak toho dosáhnout.
 ## Předpoklady
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
-1. Instalace Aspose.Tasks for .NET: Musíte mít Aspose.Tasks for .NET nainstalované ve svém vývojovém prostředí. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
+1.  Instalace Aspose.Tasks for .NET: Musíte mít Aspose.Tasks for .NET nainstalované ve svém vývojovém prostředí. Pokud jste jej ještě nenainstalovali, můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
 2. Soubor Microsoft Project: Připravte soubor Microsoft Project (`Project1.mpp` v tomto příkladu), ze kterého chcete odebrat úkoly.
 
 ## Importovat jmenné prostory
@@ -46,7 +46,7 @@ Zde přidáváme úkoly do kořenové úlohy projektu. Nahradili byste to svou v
 ```csharp
 // použijte stromový algoritmus k odstranění úkolu1 ze stromu
 var algorithm = new RemoveTask(task1);
-// aplikujte algoritmus na strom úloh
+// použít algoritmus na strom úloh
 TaskUtils.Apply(project.RootTask, algorithm, 0);
 ```
 Tento krok zahrnuje použití stromového algoritmu k odstranění zadané úlohy (`task1` v tomto příkladu) ze souboru projektu.

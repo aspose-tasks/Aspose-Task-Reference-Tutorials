@@ -15,7 +15,7 @@ Innan vi dyker in i handledningen, se till att du har följande förutsättninga
 - Grundläggande kunskaper i C#-programmering
 - En utvecklingsmiljö inrättad för .NET-projekt
 ## Importera namnområden
-din C#-kod, se till att inkludera nödvändiga namnutrymmen för att utnyttja funktionaliteten hos Aspose.Tasks. Lägg till följande i början av ditt skript:
+I din C#-kod, se till att inkludera nödvändiga namnutrymmen för att utnyttja funktionaliteten hos Aspose.Tasks. Lägg till följande i början av ditt skript:
 ```csharp
     
     using Aspose.Tasks.Saving;
@@ -71,6 +71,6 @@ Absolut! Aspose.Tasks ger flexibilitet när det gäller att definiera WBS-koder 
 ### Finns det en testversion tillgänglig?
  Jo det kan du[ladda ner en gratis testversion](https://releases.aspose.com/) att utforska funktionerna innan du gör ett köp.
 ### Hur kan jag få gemenskapsstöd för Aspose.Tasks?
- besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) att få kontakt med samhället och söka hjälp.
+ Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) att få kontakt med samhället och söka hjälp.
 ### Finns tillfälliga licenser tillgängliga?
  Ja, du kan få en[tillfällig licens](https://purchase.aspose.com/temporary-license/) för teständamål.

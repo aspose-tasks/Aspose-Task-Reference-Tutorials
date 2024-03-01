@@ -9,7 +9,7 @@ url: /fr/
 is_root: true
 ---
 
-Embarquez pour une exploration complète des capacités de gestion de projet dans différents langages de programmation avec notre liste de didacticiels Aspose.Tasks. Que vous travailliez avec Aspose.Tasks pour .NET, Java, C,, ou dans d'autres langages, cette collection de didacticiels est conçue pour responsabiliser les développeurs à tous les niveaux. Des concepts fondamentaux aux techniques avancées, chaque didacticiel fournit des conseils étape par étape, vous permettant d'exploiter tout le potentiel d'Aspose.Tasks dans votre langue préférée. Plongez dans notre riche référentiel et améliorez vos compétences en gestion de projet sur plusieurs plates-formes et environnements de codage. Parcourons ensemble le paysage diversifié des didacticiels Aspose.Tasks !
+Embarquez pour une exploration complète des capacités de gestion de projet dans différents langages de programmation avec notre liste de didacticiels Aspose.Tasks. Que vous travailliez avec Aspose.Tasks pour .NET, Java, C++, ou dans d'autres langages, cette collection de didacticiels est conçue pour responsabiliser les développeurs à tous les niveaux. Des concepts fondamentaux aux techniques avancées, chaque didacticiel fournit des conseils étape par étape, vous permettant d'exploiter tout le potentiel d'Aspose.Tasks dans votre langue préférée. Plongez dans notre riche référentiel et améliorez vos compétences en gestion de projet sur plusieurs plates-formes et environnements de codage. Parcourons ensemble le paysage diversifié des didacticiels Aspose.Tasks !
 
 ## Aspose.Tasks pour les didacticiels .NET
 {{% alert color="primary" %}}
@@ -34,3 +34,27 @@ Voici des liens vers quelques ressources utiles :
 - [Options de format de fichier Aspose.Tasks](./net/file-format-options/)
 - [Configuration de la sécurité PDF Aspose.Tasks](./net/pdf-security-configuration/)
 - [Gestion des licences Aspose.Tasks](./net/license-management/)
+
+## Aspose.Tasks pour les didacticiels Java
+{{% alert color="primary" %}}
+Bienvenue sur la passerelle de la gestion de projet Java améliorée ! Embarquez pour un voyage avec Aspose.Tasks pour Java, où nos didacticiels et exemples complets redéfinissent la façon dont vous gérez les flux de travail de projet. De la maîtrise des exceptions de calendrier à l'intégration transparente de VBA, nous avons organisé une multitude de ressources pour responsabiliser les développeurs de tous niveaux. Rejoignez-nous pour explorer les subtilités de la gestion de projet, en offrant des conseils étape par étape et en libérant tout le potentiel d'Aspose.Tasks pour Java. Préparez-vous à optimiser vos projets, à rationaliser les flux de travail et à améliorer vos compétences en développement Java !
+{{% /alert %}}
+
+Voici des liens vers quelques ressources utiles :
+
+- [Exceptions de calendrier](./java/calendar-exceptions/)
+- [Calendriers](./java/calendars/)
+- [Devise](./java/currency/)
+- [Formules](./java/formulas/)
+- [Propriétés du projet](./java/project-properties/)
+- [Propriétés des devises](./java/currency-properties/)
+- [Configuration du projet](./java/project-configuration/)
+- [Gestion de projet](./java/project-management/)
+- [Lecture des données du projet](./java/project-data-reading/)
+- [Opérations sur les fichiers de projet](./java/project-file-operations/)
+- [Affectations de ressources](./java/resource-assignments/)
+- [La gestion des ressources](./java/resource-management/)
+- [Lignes de base des tâches](./java/task-baselines/)
+- [Liens vers les tâches](./java/task-links/)
+- [Propriétés de la tâche](./java/task-properties/)
+- [Intégration VBA](./java/vba-integration/)

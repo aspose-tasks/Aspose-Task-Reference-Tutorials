@@ -1,6 +1,6 @@
 ---
 title: Maîtriser la configuration de la semaine de travail dans Aspose.Tasks
-linktitle: Configurer les semaines de travail dans Aspose.Tasks
+linktitle: Configuration des semaines de travail dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les semaines de travail sans effort dans Aspose.Tasks pour .NET. Améliorez la planification des projets et la gestion des ressources grâce à notre guide étape par étape.
 type: docs
@@ -86,7 +86,7 @@ Oui, vous pouvez configurer plusieurs semaines de travail au sein du même proje
 Absolument. Aspose.Tasks vous permet de définir des horaires de travail uniques pour chaque jour d'une semaine de travail.
 ### Puis-je importer/exporter des semaines de travail entre projets ?
 Bien qu'Aspose.Tasks offre de solides capacités d'importation/exportation, les semaines de travail sont généralement spécifiques au projet et peuvent ne pas être directement transférables.
-### a-t-il une limite au nombre de semaines de travail que je peux créer dans un projet ?
+### Y a-t-il une limite au nombre de semaines de travail que je peux créer dans un projet ?
 Depuis la version actuelle, il n'y a pas de limite prédéfinie sur le nombre de semaines de travail que vous pouvez configurer dans un projet.
 ### Existe-t-il des modèles intégrés pour les semaines de travail courantes ?
 Oui, Aspose.Tasks inclut un modèle de calendrier standard que vous pouvez utiliser comme point de départ pour votre projet.

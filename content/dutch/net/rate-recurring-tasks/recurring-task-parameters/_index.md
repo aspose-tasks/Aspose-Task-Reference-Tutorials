@@ -26,12 +26,12 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- vervangen`"Your Document Directory"` met het pad naar uw documentmap.
+ Vervangen`"Your Document Directory"` met het pad naar uw documentmap.
 ## Stap 2: Laad het projectbestand
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- Deze coderegel laadt het Microsoft Project-bestand in het`project` variabelen.
+ Deze coderegel laadt het Microsoft Project-bestand in het`project` variabel.
 ## Stap 3: Definieer terugkerende taakparameters
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -72,7 +72,7 @@ In deze zelfstudie hebben we gedemonstreerd hoe u terugkerende taakparameters va
 ### Kan ik het herhalingspatroon verder aanpassen?
 Ja, Aspose.Tasks biedt verschillende herhalingspatronen en opties die u kunt aanpassen aan uw projectvereisten.
 ### Is er een proefversie beschikbaar voordat u deze aanschaft?
- Ja, u kunt een gratis proefversie downloaden via Aspose.Tasks[website](https://purchase.aspose.com/buy) om de kenmerken van de bibliotheek te evalueren.
+ Ja, u kunt een gratis proefversie downloaden van Aspose.Tasks[website](https://purchase.aspose.com/buy) om de kenmerken van de bibliotheek te evalueren.
 ### Ondersteunt Aspose.Tasks andere projectbestandsindelingen?
 Ja, Aspose.Tasks ondersteunt verschillende projectbestandsindelingen, waaronder MPP, XML, XLSX en meer.
 ### Kan ik ondersteuning krijgen als ik problemen ondervind tijdens de implementatie?

@@ -98,4 +98,4 @@ O: Tak, Aspose.Tasks obsługuje wielowątkowość, umożliwiając jednoczesne op
 
 ### P: Czy dostępna jest pomoc techniczna dla użytkowników Aspose.Tasks?
 
- O: Tak, użytkownicy Aspose.Tasks mogą uzyskać dostęp do pomocy technicznej za pośrednictwem forum.[Tutaj](https://forum.aspose.com/c/tasks/15).
+ O: Tak, użytkownicy Aspose.Tasks mogą uzyskać dostęp do pomocy technicznej za pośrednictwem forum[Tutaj](https://forum.aspose.com/c/tasks/15).

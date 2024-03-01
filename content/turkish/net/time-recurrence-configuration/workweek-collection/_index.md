@@ -8,7 +8,7 @@ weight: 17
 url: /tr/net/time-recurrence-configuration/workweek-collection/
 ---
 ## giriiş
-Aspose.Tasks for .NET'i kullanarak özel bir çalışma haftası oluşturma eğitimimize hoş geldiniz! Bu adım adım kılavuzda, projenizdeki bir takvim için kişiselleştirilmiş bir çalışma haftası tanımlama sürecinde size yol göstereceğiz. Aspose.Tasks, geliştiricilerin .NET uygulamalarında Microsoft Project belgeleriyle verimli bir şekilde çalışmasını sağlayan güçlü bir kitaplıktır.
+Aspose.Tasks for .NET'i kullanarak özel bir çalışma haftası oluşturma eğitimimize hoş geldiniz! Bu adım adım kılavuzda, projenizdeki bir takvim için kişiselleştirilmiş bir çalışma haftası tanımlama sürecinde size yol göstereceğiz. Aspose.Tasks, geliştiricilerin .NET uygulamalarında Microsoft Project belgeleriyle verimli bir şekilde çalışmasına olanak tanıyan güçlü bir kitaplıktır.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 1. Visual Studio: Makinenizde Visual Studio'nun kurulu olduğundan emin olun.
@@ -75,10 +75,10 @@ Sonuç olarak Aspose.Tasks for .NET, özel çalışma haftaları içeren proje t
 ### Tek bir projede birden fazla özel çalışma haftasına sahip olabilir miyim?
 Evet, bir proje takvimine birden fazla özel çalışma haftası ekleyebilirsiniz.
 ### Mevcut çalışma haftalarını nasıl değiştirebilirim?
- Sağlananları kullanın`WorkWeek` Mevcut çalışma haftalarını değiştirmeye yönelik özellikler ve yöntemler.
+ Sağlananları kullanın`WorkWeek`Mevcut çalışma haftalarını değiştirmeye yönelik özellikler ve yöntemler.
 ### Aspose.Tasks .NET Core ile uyumlu mu?
 Evet, Aspose.Tasks .NET Core'u destekler.
 ### Özel çalışma haftaları içeren projeyi Microsoft Project dosya formatına aktarabilir miyim?
 Kesinlikle Aspose.Tasks, projenizi Microsoft Project dahil olmak üzere çeşitli formatlarda kaydetmenize olanak tanır.
 ### Aspose.Tasks ile ilgili sorgular için nereden destek alabilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) herhangi bir destek veya yardım için.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) herhangi bir destek veya yardım için.

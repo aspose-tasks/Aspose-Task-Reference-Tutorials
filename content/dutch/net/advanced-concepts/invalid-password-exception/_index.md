@@ -9,7 +9,7 @@ url: /nl/net/advanced-concepts/invalid-password-exception/
 ---
 ## Invoering
 
- Bij de ontwikkeling van software is het gebruikelijk dat u met uitzonderingen te maken krijgt. Het is van cruciaal belang dat u weet hoe u hiermee effectief omgaat voor robuuste applicatieprestaties. Bij het werken met Aspose.Tasks voor .NET kunnen ontwikkelaars de`InvalidPasswordException` bij het omgaan met met een wachtwoord beveiligde projectbestanden. Deze tutorial begeleidt u stap voor stap bij het afhandelen van deze uitzondering, zodat een soepele uitvoering van uw code wordt gegarandeerd.
+ Bij de ontwikkeling van software is het gebruikelijk dat u met uitzonderingen te maken krijgt, en weten hoe u hier effectief mee om kunt gaan is van cruciaal belang voor robuuste applicatieprestaties. Bij het werken met Aspose.Tasks voor .NET kunnen ontwikkelaars de`InvalidPasswordException` bij het omgaan met met een wachtwoord beveiligde projectbestanden. Deze tutorial begeleidt u stap voor stap bij het afhandelen van deze uitzondering, zodat een soepele uitvoering van uw code wordt gegarandeerd.
 
 ## Vereisten
 
@@ -47,7 +47,7 @@ Console.WriteLine("Project Name: " + project.Get(Prj.Name));
 ```csharp
 try
 {
-    // Code die InvalidPasswordException kan genereren
+    // Code die InvalidPasswordException kan veroorzaken
 }
 catch (InvalidPasswordException e)
 {

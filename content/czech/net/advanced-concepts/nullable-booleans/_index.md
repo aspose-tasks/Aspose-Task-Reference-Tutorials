@@ -9,7 +9,7 @@ url: /cs/net/advanced-concepts/nullable-booleans/
 ---
 ## Úvod
 
- V tomto tutoriálu se ponoříme do práce s booleany s možností null v Aspose.Tasks pro .NET. Booleovské hodnoty s možností null nabízejí flexibilitu při reprezentaci booleovských hodnot, což umožňuje možnost, že nebudou definovány. Prozkoumáme, jak používat`NullableBool` třída, její konstruktory, vlastnosti a metody.
+ tomto tutoriálu se ponoříme do práce s booleany s možností null v Aspose.Tasks pro .NET. Booleovské hodnoty s možností null nabízejí flexibilitu při reprezentaci booleovských hodnot, což umožňuje možnost, že nebudou definovány. Prozkoumáme, jak používat`NullableBool` třída, její konstruktory, vlastnosti a metody.
 
 ## Předpoklady
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Nyní si každý příklad rozdělíme do několika kroků.
 
-##  pracovat s`NullableBool`
+##  Práce s`NullableBool`
 
 ###  Krok 1: Vytvořte nový`Project` instance.
 
@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Krok 4: Použijte`NullableBool` instance by setting it in the project.
+###  Krok 4: Využijte`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Krok 6: Zobrazte řetězcovou reprezentaci souboru`NullableBool` object.
+###  Krok 6: Zobrazte řetězcovou reprezentaci souboru`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Krok 2: Vytiskněte hash kód pro každou z nich`NullableBool` object.
+### Krok 2: Vytiskněte hash kód pro každou z nich`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Závěr
 
- V tomto tutoriálu jsme prozkoumali, jak zacházet s booleany s možností null v Aspose.Tasks pro .NET. Pomocí`NullableBool` třídy a jejích metod můžete efektivně spravovat booleovské hodnoty s přidanou flexibilitou možnosti null.
+ V tomto tutoriálu jsme prozkoumali, jak zacházet s booleany s možností null v Aspose.Tasks pro .NET. Pomocí`NullableBool` třídy a jejích metod můžete efektivně spravovat booleovské hodnoty s přidanou flexibilitou spočívající v možnosti null.
 
 ## FAQ
 

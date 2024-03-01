@@ -64,7 +64,7 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ## 결론
 WBS 시퀀스 관리는 효과적인 프로젝트 관리에 매우 중요하며 .NET용 Aspose.Tasks는 이 작업을 원활하게 만듭니다. 이러한 간단한 단계를 따르면 프로젝트 관리 애플리케이션에서 WBS 기능을 향상시킬 수 있습니다.
 ## 자주 묻는 질문
-### Aspose.Tasks는 .NET Core와 호환됩니까?
+### Aspose.Tasks는 .NET Core와 호환되나요?
 예, Aspose.Tasks는 .NET Core를 지원하므로 크로스 플랫폼 애플리케이션을 구축할 수 있습니다.
 ### WBS 코드 형식을 추가로 사용자 정의할 수 있나요?
 전적으로! Aspose.Tasks는 프로젝트 요구 사항에 따라 WBS 코드를 정의하는 유연성을 제공합니다.

@@ -102,7 +102,7 @@ A: 예, Aspose.Tasks for .NET을 사용하면 간트 차트, 작업 시트 및 �
 
 A: 예, .NET용 Aspose.Tasks는 MPP 및 XML 형식을 포함하여 다양한 버전의 MS 프로젝트 파일을 지원합니다.
 
-### Q3: .NET용 Aspose.Tasks를 사용하여 눈금선 색상과 두께를 사용자 지정할 수 있습니까?
+### Q3: .NET용 Aspose.Tasks를 사용하여 눈금선 색상과 두께를 사용자 지정할 수 있나요?
 
 A: 물론입니다. 패턴뿐만 아니라 격자선의 색상과 두께도 원하는 대로 맞춤 설정할 수 있습니다.
 
@@ -112,4 +112,4 @@ A: 예, Aspose.Tasks for .NET은 널리 사용되는 프로젝트 관리 도구 
 
 ### Q5: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
 
- A: 예, 무료 평가판을 다운로드할 수 있습니다.[.NET용 Aspose.Tasks](https://forum.aspose.com/c/tasks/15), 구매하기 전에 기능을 살펴보세요.
+ A: 예, 무료 평가판을 다운로드할 수 있습니다.[.NET용 Aspose.Tasks](https://forum.aspose.com/c/tasks/15). 구매하기 전에 기능을 살펴보세요.

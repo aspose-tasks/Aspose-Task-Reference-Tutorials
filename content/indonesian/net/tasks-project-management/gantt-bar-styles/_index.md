@@ -58,7 +58,7 @@ Console.WriteLine("Style1.RightField: {0}", style1.RightField);
 Dalam tutorial ini, kita telah mempelajari cara memanipulasi gaya bilah Gantt di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Dengan menyesuaikan gaya ini, Anda dapat mengomunikasikan jadwal dan pencapaian proyek secara efektif.
 
 ## FAQ
-### T: Dapatkah saya menerapkan beberapa gaya bilah khusus ke berbagai tugas di proyek saya?
+### T: Bisakah saya menerapkan beberapa gaya bilah khusus ke berbagai tugas di proyek saya?
 J: Ya, Anda dapat menerapkan gaya bilah kustom yang berbeda ke tugas individual atau kelompok tugas berdasarkan kebutuhan proyek Anda.
 ### T: Apakah perubahan yang dilakukan pada gaya batang tercermin dalam file MS Project asli?
 J: Tidak, perubahan yang dilakukan secara terprogram menggunakan Aspose.Tasks tidak secara langsung tercermin dalam file MS Project asli kecuali disimpan secara eksplisit.

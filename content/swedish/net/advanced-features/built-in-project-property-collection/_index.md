@@ -25,7 +25,7 @@ Bekanta dig med C#-programmeringsspråkets grunder, inklusive variabler, datatyp
 
 ### 3. Installation av Aspose.Tasks för .NET
 
-Ladda ner och installera Aspose.Tasks för .NET-biblioteket från[hemsida](https://releases.aspose.com/tasks/net/).
+ Ladda ner och installera Aspose.Tasks för .NET-biblioteket från[hemsida](https://releases.aspose.com/tasks/net/).
 
 ### 4. Förtrogenhet med projektledningskoncept
 

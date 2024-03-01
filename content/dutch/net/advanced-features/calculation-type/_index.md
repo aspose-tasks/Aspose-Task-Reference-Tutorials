@@ -74,13 +74,13 @@ project.ExtendedAttributes.Add(lookup);
 
 ## Conclusie
 
-In deze zelfstudie hebben we onderzocht hoe u met het berekeningstype in Aspose.Tasks voor .NET kunt werken. Door berekeningstypen voor uitgebreide attributen te definiëren, kunnen we aanpassen hoe waarden worden berekend voor taken en samenvattingstaken binnen een project, wat voor meer flexibiliteit en controle zorgt.
+In deze zelfstudie hebben we onderzocht hoe u met het berekeningstype in Aspose.Tasks voor .NET kunt werken. Door berekeningstypen voor uitgebreide attributen te definiëren, kunnen we aanpassen hoe waarden worden berekend voor taken en samenvattingstaken binnen een project, waardoor we meer flexibiliteit en controle krijgen.
 
 ## Veelgestelde vragen
 
 ### V1: Wat is het berekeningstype in Aspose.Tasks?
 
-A1: Berekeningstype in Aspose.Tasks bepaalt hoe waarden worden berekend voor taken en overzichtstaken binnen een project, en biedt opties zoals Formule en Rollup.
+A1: Berekeningstype in Aspose.Tasks bepaalt hoe waarden worden berekend voor taken en samenvattingstaken binnen een project, en biedt opties zoals Formule en Samentelling.
 
 ### V2: Hoe stel ik het berekeningstype in voor een uitgebreid attribuut?
 

@@ -14,22 +14,22 @@ Czy jesteś gotowy, aby podnieść swoje umiejętności zarządzania projektami 
 
 ## Zaawansowane operacje AND w Aspose.Tasks
 
- Odblokuj potencjał zaawansowanych operacji AND w Aspose.Tasks dla .NET. Nasz samouczek przeprowadzi Cię przez skuteczne filtrowanie zadań projektowych na podstawie wielu kryteriów. Zdobądź głębsze zrozumienie zarządzania zadaniami dzięki praktycznym przykładom.[Czytaj więcej](./advanced-and-operation/)
+Odblokuj potencjał zaawansowanych operacji AND w Aspose.Tasks dla .NET. Nasz samouczek przeprowadzi Cię przez skuteczne filtrowanie zadań projektowych na podstawie wielu kryteriów. Zdobądź głębsze zrozumienie zarządzania zadaniami dzięki praktycznym przykładom.[Czytaj więcej](./advanced-and-operation/)
 
 ## Używanie operatora AND we wszystkich warunkach w Aspose.Tasks
 
-Poznaj zastosowanie operatora AND we wszystkich warunkach dzięki Aspose.Tasks dla .NET. Efektywnie filtruj zadania projektowe w oparciu o różnorodne kryteria. Podnieś swoje umiejętności zarządzania projektami dzięki temu przewodnikowi krok po kroku.[Czytaj więcej](./and-operator-all-conditions/)
+ Poznaj zastosowanie operatora AND we wszystkich warunkach dzięki Aspose.Tasks dla .NET. Efektywnie filtruj zadania projektowe w oparciu o różnorodne kryteria. Podnieś swoje umiejętności zarządzania projektami dzięki temu przewodnikowi krok po kroku.[Czytaj więcej](./and-operator-all-conditions/)
 
 ## Obsługa wyjątków pamięci za pomocą narzędzia do tworzenia układów Aspose.Tasks
 
  Radź sobie z wyjątkami pamięci w .NET za pomocą Aspose.Tasks Layout Builder. W naszym przewodniku opisano krok po kroku podejście z przykładami kodu, dzięki czemu można bezproblemowo obsługiwać wyjątki. Podnieś efektywność swojego projektu już teraz.[Czytaj więcej](./layout-builder-out-of-memory/)
 ## Praca z przypisaniami w Aspose.Tasks
 
- Efektywnie zarządzaj zadaniami projektowymi w .NET za pomocą Aspose.Tasks. W tym samouczku omówiono różne kontury planowania zasobów, oferując praktyczne spostrzeżenia i wskazówki. Popraw organizację projektu i usprawnij przepływ pracy.[Czytaj więcej](./working-with-assignment/)
+Efektywnie zarządzaj zadaniami projektowymi w .NET za pomocą Aspose.Tasks. W tym samouczku omówiono różne kontury planowania zasobów, oferując praktyczne spostrzeżenia i wskazówki. Popraw organizację projektu i usprawnij przepływ pracy.[Czytaj więcej](./working-with-assignment/)
 
 ## Zarządzanie bazą przydziału w Aspose.Tasks
 
-Dowiedz się, jak efektywnie zarządzać planami bazowymi przydziałów za pomocą Aspose.Tasks dla .NET. Zapewnia to dokładne śledzenie postępu i wydajności projektu. Zapoznaj się z naszym samouczkiem, w którym znajdziesz przewodnik krok po kroku dotyczący optymalizacji strategii zarządzania projektami.[Czytaj więcej](./assignment-baseline/)
+ Dowiedz się, jak efektywnie zarządzać planami bazowymi przydziałów za pomocą Aspose.Tasks dla .NET. Zapewnia to dokładne śledzenie postępu i wydajności projektu. Zapoznaj się z naszym samouczkiem, w którym znajdziesz przewodnik krok po kroku dotyczący optymalizacji strategii zarządzania projektami.[Czytaj więcej](./assignment-baseline/)
 
 ## Zbiór linii bazowych przypisań w Aspose.Tasks
 
@@ -37,11 +37,11 @@ Dowiedz się, jak efektywnie zarządzać planami bazowymi przydziałów za pomoc
 
 ## Niestandardowa kolumna widoku przypisania w Aspose.Tasks
 
- Dowiedz się, jak dodać niestandardowe kolumny widoku przypisań w Aspose.Tasks dla .NET, zwiększając możliwości zarządzania projektami. Ten samouczek zawiera szczegółowy przewodnik, umożliwiający dostosowanie widoków projektu do konkretnych wymagań.[Czytaj więcej](./assignment-view-column/)
+Dowiedz się, jak dodać niestandardowe kolumny widoku przypisań w Aspose.Tasks dla .NET, zwiększając możliwości zarządzania projektami. Ten samouczek zawiera szczegółowy przewodnik, umożliwiający dostosowanie widoków projektu do konkretnych wymagań.[Czytaj więcej](./assignment-view-column/)
 
 ## Praca z okresami dostępności w Aspose.Tasks
 
-Efektywnie zarządzaj okresami dostępności zasobów za pomocą Aspose.Tasks dla .NET. Ten samouczek zawiera przewodnik krok po kroku, zawierający praktyczne informacje dotyczące pracy z okresami dostępności w projektach .NET. Usprawnij planowanie i realizację projektów.[Czytaj więcej](./working-with-availability-periods/)
+ Efektywnie zarządzaj okresami dostępności zasobów za pomocą Aspose.Tasks dla .NET. Ten samouczek zawiera przewodnik krok po kroku, zawierający praktyczne informacje dotyczące pracy z okresami dostępności w projektach .NET. Usprawnij planowanie i realizację projektów.[Czytaj więcej](./working-with-availability-periods/)
 
 ## Zbiór okresów dostępności w Aspose.Tasks
 
@@ -49,7 +49,7 @@ Efektywnie zarządzaj okresami dostępności zasobów za pomocą Aspose.Tasks dl
 
 ## Pasek stylizacji w Aspose.Tasks
 
- Dowiedz się, jak stylizować paski w Aspose.Tasks dla .NET, aby ulepszyć wizualizację projektu. Nasz samouczek zawiera praktyczne informacje, które pomogą Ci stworzyć atrakcyjne wizualnie harmonogramy projektów. Ulepsz prezentację i komunikację swojego projektu.[Czytaj więcej](./styling-bar/)
+Dowiedz się, jak stylizować paski w Aspose.Tasks dla .NET, aby ulepszyć wizualizację projektu. Nasz samouczek zawiera praktyczne informacje, które pomogą Ci stworzyć atrakcyjne wizualnie harmonogramy projektów. Ulepsz prezentację i komunikację swojego projektu.[Czytaj więcej](./styling-bar/)
 
 
 ## Poradniki dotyczące zaawansowanych funkcji Aspose.Tasks

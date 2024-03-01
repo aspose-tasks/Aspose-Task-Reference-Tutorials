@@ -12,7 +12,7 @@ url: /el/net/tasks-project-management/gantt-chart-views/
 ## Προαπαιτούμενα
 Πριν προχωρήσετε, βεβαιωθείτε ότι έχετε τις ακόλουθες προϋποθέσεις:
 ### 1. Εγκατάσταση του Aspose.Tasks για .NET
- Βεβαιωθείτε ότι έχετε εγκαταστήσει το Aspose.Tasks για .NET. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από[εδώ](https://releases.aspose.com/tasks/net/)και ακολουθήστε τις οδηγίες εγκατάστασης που παρέχονται στην τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/net/).
+ Βεβαιωθείτε ότι έχετε εγκαταστήσει το Aspose.Tasks για .NET. Μπορείτε να κατεβάσετε τη βιβλιοθήκη από[εδώ](https://releases.aspose.com/tasks/net/) και ακολουθήστε τις οδηγίες εγκατάστασης που παρέχονται στην τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/net/).
 ### 2. Αρχείο Microsoft Project
 Προετοιμάστε ένα αρχείο Microsoft Project (`Project2.mpp`) που θα χρησιμοποιήσετε για να εργαστείτε με προβολές γραφήματος Gantt.
 ### 3. Βασικές γνώσεις C# και .NET Framework
@@ -75,13 +75,13 @@ view.NonWorkingTimeColor = Color.Azure;
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Καθορίστε εάν οι ράβδοι στο γράφημα Gantt πρέπει να είναι τυλιγμένες.
+Καθορίζει εάν οι ράβδοι στο γράφημα Gantt πρέπει να είναι τυλιγμένες.
 ### Εμφάνιση διαχωρισμών γραμμής
 ```csharp
 view.ShowBarSplits = true;
 ```
 Καθορίζει εάν πρέπει να εμφανίζονται οι διαχωρισμοί εργασιών στο γράφημα Gantt.
-### δείχνουν σχέδια
+### Εμφάνιση σχεδίων
 ```csharp
 view.ShowDrawings = true;
 ```

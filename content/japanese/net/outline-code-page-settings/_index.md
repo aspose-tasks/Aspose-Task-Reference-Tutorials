@@ -27,13 +27,13 @@ Aspose.Tasks for .NET を使用して、Microsoft Project ファイルの可能�
 ## Aspose.Tasks for .NET を使用したアウトライン マスクのコレクション
 Aspose.Tasks for .NET を使用して Microsoft Project コレクションのアウトライン マスクを操作する方法を学び、生産性を向上させます。この包括的なチュートリアルでは、プロジェクト管理ワークフローを最適化するためのツールが提供されます。[続きを読む](./outline-mask-collection/)
 
-## Aspose.Tasks for .NET で MS プロジェクトのアウトライン値をマスターする
-Aspose.Tasks for .NET を使用して、Microsoft Project のアウトライン値を効率的に管理します。このチュートリアルを使用すると、プロジェクトのアウトラインを簡単にカスタマイズできるようになり、プロジェクト管理の過程でシームレスなエクスペリエンスを提供できます。[続きを読む](./outline-values/)
+## Aspose.Tasks for .NET を使用して MS プロジェクトのアウトライン値をマスターする
+Aspose.Tasks for .NET を使用して Microsoft Project のアウトライン値を効率的に管理します。このチュートリアルを使用すると、プロジェクトのアウトラインを簡単にカスタマイズできるようになり、プロジェクト管理の過程でシームレスなエクスペリエンスを提供できます。[続きを読む](./outline-values/)
 
 ## Aspose.Tasks for .NET のアウトライン値のコレクション
-Aspose.Tasks for .NET を使用して Microsoft Project ファイルのアウトライン値を管理する方法を学びます。このステップバイステップのチュートリアルにはコード例が含まれており、これらのプラクティスを簡単に実装できます。[続きを読む](./outline-value-collection/)
+Aspose.Tasks for .NET を使用して Microsoft Project ファイルのアウトライン値を管理する方法を学習します。このステップバイステップのチュートリアルにはコード例が含まれており、これらのプラクティスを簡単に実装できます。[続きを読む](./outline-value-collection/)
 
-## Aspose.Tasks for .NET でページ凡例を構成する
+## Aspose.Tasks for .NET でのページ凡例の構成
 効率的なプロジェクト管理は、.NET での MS Project ページの凡例の構成にまで及びます。このチュートリアルでは、Aspose.Tasks を使用して、効率を最適化するためにプロジェクトの凡例を調整する方法について段階的なガイドを提供します。[続きを読む](./page-legend/)
 
 ## Aspose.Tasks for .NET を使用して MS プロジェクトのページ余白を簡単に設定
@@ -59,11 +59,11 @@ Aspose.Tasks for .NET を使用して Microsoft Project ドキュメント内の
 Aspose.Tasks for .NET を使用してプログラムで Microsoft Project ファイルを操作する方法を学びます。アウトラインマスクを効率的にマスターしましょう。
 ### [Aspose.Tasks のアウトライン マスクのコレクション](./outline-mask-collection/)
 Aspose.Tasks for .NET を使用して MS Project コレクションのアウトライン マスクを操作する方法を学びます。この包括的なチュートリアルで生産性を向上させます。
-### [Aspose.Tasks で MS プロジェクトのアウトライン値をマスターする](./outline-values/)
+### [Aspose.Tasks を使用して MS プロジェクトのアウトライン値をマスターする](./outline-values/)
 Aspose.Tasks for .NET を使用して MS Project のアウトライン値を効率的に管理する方法を学びます。プロジェクトのアウトラインを簡単にカスタマイズします。
 ### [Aspose.Tasks のアウトライン値のコレクション](./outline-value-collection/)
-Aspose.Tasks for .NET を使用して Microsoft Project ファイルのアウトライン値を管理する方法を学びます。コード例を含むステップバイステップのチュートリアル。
-### [Aspose.Tasks でページ凡例を構成する](./page-legend/)
+Aspose.Tasks for .NET を使用して Microsoft Project ファイルのアウトライン値を管理する方法を学習します。コード例を含むステップバイステップのチュートリアル。
+### [Aspose.Tasks でのページ凡例の構成](./page-legend/)
 効率的なプロジェクト管理のために Aspose.Tasks を使用して .NET で MS Project ページの凡例を構成する方法を学びます。ステップバイステップのガイドが提供されます。
 ### [Aspose.Tasks を使用して MS プロジェクトのページ余白を簡単に設定](./page-margins/)
 Aspose.Tasks for .NET を使用して Microsoft Project ファイルのページ余白を調整する方法を学びます。ドキュメントのレイアウトとプレゼンテーションを簡単に強化します。

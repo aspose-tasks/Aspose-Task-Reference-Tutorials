@@ -8,12 +8,12 @@ weight: 13
 url: /cs/net/time-recurrence-configuration/working-times/
 ---
 ## Úvod
-V projektovém řízení je přesná kontrola nad pracovní dobou zásadní pro přesné plánování a alokaci zdrojů. Aspose.Tasks for .NET poskytuje výkonné řešení pro manipulaci s informacemi o pracovní době v rámci vašich projektů. Tento tutoriál vás provede procesem konfigurace pracovní doby pomocí Aspose.Tasks v prostředí .NET.
+projektovém řízení je přesná kontrola nad pracovní dobou zásadní pro přesné plánování a alokaci zdrojů. Aspose.Tasks for .NET poskytuje výkonné řešení pro manipulaci s informacemi o pracovní době v rámci vašich projektů. Tento tutoriál vás provede procesem konfigurace pracovní doby pomocí Aspose.Tasks v prostředí .NET.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte následující:
 - Základní znalost programovacího jazyka C#.
-- Nainstalovaná knihovna Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
-- Nastavte Visual Studio nebo jakékoli preferované vývojové prostředí C#.
+-  Nainstalovaná knihovna Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
+- Nastavení sady Visual Studio nebo jakéhokoli preferovaného vývojového prostředí C#.
 ## Importovat jmenné prostory
 Začněte importem potřebných jmenných prostorů pro přístup k funkcím Aspose.Tasks:
 ```csharp
@@ -70,7 +70,7 @@ foreach (var day in weekDays)
     }
 }
 ```
-V této části iterujeme každý den v týdnu, vytiskneme typ dne a související pracovní doby. Pracovní dobu pro každý všední den si můžete přizpůsobit podle požadavků vašeho projektu.
+této části iterujeme každý den v týdnu, vytiskneme typ dne a související pracovní doby. Pracovní dobu pro každý všední den si můžete přizpůsobit podle požadavků vašeho projektu.
 ## Závěr
 Efektivní konfigurace pracovní doby v Aspose.Tasks pro .NET zajišťuje přesné plánování projektů a správu zdrojů. Podle tohoto podrobného průvodce můžete bez problémů integrovat úpravy pracovní doby do pracovních postupů projektu.
 ## Často kladené otázky

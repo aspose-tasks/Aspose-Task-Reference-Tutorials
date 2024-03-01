@@ -12,7 +12,7 @@ Proje yönetimi alanında Aspose.Tasks for .NET, geliştiricilere proje verileri
 ## Önkoşullar
 Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 -  Aspose.Tasks for .NET Library: Kütüphaneyi şuradan indirip yükleyin:[.NET Belgeleri için Aspose.Tasks](https://reference.aspose.com/tasks/net/).
-- Geliştirme Ortamı: Tercihen Visual Studio'yu veya başka herhangi bir .NET geliştirme aracını kullanarak uygun bir geliştirme ortamı kurun.
+- Geliştirme Ortamı: Tercihen Visual Studio'yu veya başka herhangi bir .NET geliştirme aracını kullanarak uygun bir geliştirme ortamı oluşturun.
 - Temel Anlayış: C#'a aşinalık ve proje yönetimi kavramlarının temelleri faydalı olacaktır.
 ## Ad Alanlarını İçe Aktar
 Aspose.Tasks ile sorunsuz bir şekilde çalışmak için C# projenizde gerekli ad alanlarını içe aktardığınızdan emin olun:
@@ -57,10 +57,10 @@ Bu eğitimde, Görev Kullanımı Görünümü Alanlarına odaklanarak Aspose.Tas
 ### Aspose.Tasks for .NET'i diğer proje yönetimi araçlarıyla birlikte kullanabilir miyim?
 Aspose.Tasks öncelikli olarak .NET uygulamalarına odaklanır. Ancak verileri diğer araçlarla uyumlu çeşitli formatlara aktarabilirsiniz.
 ### Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
-Evet, ücretsiz deneme sürümünü edinerek Aspose.Tasks for .NET'in işlevlerini deneyimleyebilirsiniz.[Burada](https://releases.aspose.com/).
+ Evet, ücretsiz deneme sürümünü edinerek Aspose.Tasks for .NET'in işlevlerini deneyimleyebilirsiniz.[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks for .NET için nasıl destek alabilirim?
- ziyaret edin[Aspose.Tasks Forumu](https://forum.aspose.com/c/tasks/15) topluluk temelli destek için veya kapsamlı belgeleri inceleyin.
+ Ziyaret edin[Aspose.Tasks Forumu](https://forum.aspose.com/c/tasks/15) topluluk temelli destek için veya kapsamlı belgeleri inceleyin.
 ### Aspose.Tasks for .NET için geçici lisanslar mevcut mu?
  Evet, geçici lisanslar alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) kısa süreli kullanım için.
-### Proje belgeleri için hangi dosya formatları destekleniyor?
+### Proje belgeleri için hangi dosya formatları desteklenir?
 Aspose.Tasks for .NET, MPP, XML ve CSV dahil olmak üzere çeşitli formatları destekler.

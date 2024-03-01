@@ -18,7 +18,7 @@ Zanim zaczniemy, upewnij się, że spełnione są następujące wymagania wstęp
 1. Podstawowa znajomość języka C#: Znajomość języka programowania C# jest niezbędna.
 2.  Instalacja Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[link do pobrania](https://releases.aspose.com/tasks/net/).
 3. Środowisko programistyczne: Skonfiguruj środowisko programistyczne, takie jak Visual Studio, do pisania i wykonywania kodu C#.
-4.  Dostęp do dokumentacji: Zachowaj[Aspose.Tasks dla dokumentacji .NET](https://reference.aspose.com/tasks/net/) przydatny w celach informacyjnych.
+4. Dostęp do dokumentacji: Zachowaj[Aspose.Tasks dla dokumentacji .NET](https://reference.aspose.com/tasks/net/) przydatny w celach informacyjnych.
 
 Teraz, gdy mamy już wymagania wstępne, przejdźmy do przewodnika krok po kroku dotyczącego zbierania zadań podrzędnych przy użyciu Aspose.Tasks dla .NET.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Stosujemy`ChildTasksCollector`do głównego zadania projektu, inicjując proces zbierania rekurencyjnie.
+ Stosujemy`ChildTasksCollector` do głównego zadania projektu, inicjując proces zbierania rekurencyjnie.
 
 ## Krok 4: Iteruj po zebranych zadaniach
 
@@ -91,7 +91,7 @@ O3: Chociaż Aspose.Tasks dla .NET jest przeznaczony przede wszystkim dla środo
 
 ### P4: Czy dostępna jest pomoc techniczna dla Aspose.Tasks dla .NET?
 
- Odpowiedź 4: Tak, użytkownicy mogą uzyskać dostęp do pomocy technicznej poprzez[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+Odpowiedź 4: Tak, użytkownicy mogą uzyskać dostęp do pomocy technicznej poprzez[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### P5: Czy przed zakupem mogę wypróbować Aspose.Tasks dla .NET?
 

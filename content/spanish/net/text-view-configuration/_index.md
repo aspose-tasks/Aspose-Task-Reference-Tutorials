@@ -24,13 +24,13 @@ Mejore la estética de los documentos de su proyecto personalizando los estilos 
  Domine el arte de personalizar las vistas de la línea de tiempo con Aspose.Tasks para .NET para mejorar su experiencia de gestión de proyectos. Adapte cronogramas visualmente atractivos para satisfacer las necesidades únicas de su proyecto. Navegue por nuestra guía paso a paso sobre[Personalización de las vistas de la línea de tiempo en Aspose.Tasks](./timeline-views/).
 
 ## Manejo de datos en fases temporales en Aspose.Tasks## 
-Administre sin esfuerzo datos en fases temporales, mejore la planificación de proyectos y optimice la gestión de recursos con Aspose.Tasks para .NET. Descubra las ideas explorando nuestra guía sobre[Manejo de datos en fases temporales en Aspose.Tasks](./timephased-data/).
+Administre sin esfuerzo datos en fases temporales, mejore la planificación de proyectos y optimice la gestión de recursos con Aspose.Tasks para .NET. Descubra los conocimientos explorando nuestra guía sobre[Manejo de datos en fases temporales en Aspose.Tasks](./timephased-data/).
 
 ## Recopilación de datos en fases temporales en Aspose.Tasks## 
  Adéntrese en el mundo de la recopilación de datos en fases temporales en Aspose.Tasks para .NET con nuestra guía paso a paso, preguntas frecuentes y más. Eleve sus capacidades de gestión de proyectos hoy explorando[Recopilación de datos en fases temporales en Aspose.Tasks](./timephased-data-collection/).
 
 ## Configurar niveles de escala de tiempo en Aspose.Tasks## 
- Configure niveles de escala de tiempo en su vista de diagrama de Gantt con Aspose.Tasks para .NET para una visualización precisa de la línea de tiempo del proyecto. Explora las posibilidades en nuestra guía sobre[Configurar niveles de escala de tiempo en Aspose.Tasks](./timescale-tiers/).
+ Configure niveles de escala de tiempo en su vista de diagrama de Gantt con Aspose.Tasks para .NET para una visualización precisa de la línea de tiempo del proyecto. Explora las posibilidades en nuestra guía sobre[Configuración de niveles de escala de tiempo en Aspose.Tasks](./timescale-tiers/).
 
 ## Configurar vistas de uso en Aspose.Tasks## 
 Aprenda el arte de configurar vistas de uso de tareas en Aspose.Tasks para .NET para mejorar la visualización de proyectos. ¡Siga nuestros pasos detallados y descargue la biblioteca ahora para llevar la gestión de su proyecto al siguiente nivel! Explorar[Configurar vistas de uso en Aspose.Tasks](./usage-views/) para una comprensión integral.
@@ -49,7 +49,7 @@ Domine Aspose.Tasks para .NET en la personalización de vistas de línea de tiem
 Explore Aspose.Tasks para .NET para manejar sin esfuerzo datos en fases temporales, mejorar la planificación de proyectos y optimizar la gestión de recursos.
 ### [Recopilación de datos en fases temporales en Aspose.Tasks](./timephased-data-collection/)
 Explore la recopilación de datos en fases temporales en Aspose.Tasks para .NET. Guía paso a paso, preguntas frecuentes y más. ¡Mejore sus capacidades de gestión de proyectos hoy!
-### [Configurar niveles de escala de tiempo en Aspose.Tasks](./timescale-tiers/)
+### [Configuración de niveles de escala de tiempo en Aspose.Tasks](./timescale-tiers/)
 Explore Aspose.Tasks para .NET para configurar niveles de escala de tiempo en su vista de diagrama de Gantt para una visualización precisa de la línea de tiempo del proyecto.
 ### [Configurar vistas de uso en Aspose.Tasks](./usage-views/)
 Aprenda a configurar vistas de uso de tareas en Aspose.Tasks para .NET. Mejore la visualización del proyecto con pasos detallados. ¡Descarga la biblioteca ahora!

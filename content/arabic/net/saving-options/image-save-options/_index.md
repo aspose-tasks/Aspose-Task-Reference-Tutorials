@@ -13,7 +13,7 @@ url: /ar/net/saving-options/image-save-options/
 ## المتطلبات الأساسية
 قبل الغوص في استخدام Aspose.Tasks لـ .NET لحفظ خيارات MS Project كصور، تأكد من توفر المتطلبات الأساسية التالية:
 ### 1. قم بتثبيت Aspose.Tasks لـ .NET
- للبدء، يجب أن يكون لديك Aspose.Tasks for .NET مثبتًا في بيئة التطوير لديك. يمكنك تحميل المكتبة من[موقع إلكتروني](https://releases.aspose.com/tasks/net/) واتبع تعليمات التثبيت المقدمة.
+للبدء، يجب أن يكون لديك Aspose.Tasks for .NET مثبتًا في بيئة التطوير لديك. يمكنك تحميل المكتبة من[موقع إلكتروني](https://releases.aspose.com/tasks/net/) واتبع تعليمات التثبيت المقدمة.
 ### 2. الحصول على ترخيص (اختياري)
  بينما يمكن استخدام Aspose.Tasks لـ .NET بدون ترخيص في وضع التقييم، يوصى بالحصول على ترخيص للحصول على الوظائف الكاملة ولإزالة قيود التقييم. يمكنك الحصول على ترخيص من[صفحة الشراء](https://purchase.aspose.com/buy) أو اختر أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض تجريبية.
 ### 3. المعرفة الأساسية بتطوير C# و.NET
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## الخطوة 3: تحديد خيارات حفظ الصورة
- إنشاء مثيل ل`ImageSaveOptions` وحدد الإعدادات المطلوبة:
+ إنشاء مثيل ل`ImageSaveOptions`وحدد الإعدادات المطلوبة:
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {

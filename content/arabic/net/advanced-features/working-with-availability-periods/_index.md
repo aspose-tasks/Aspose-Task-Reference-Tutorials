@@ -94,7 +94,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 ### س2: هل تتوفر نسخة تجريبية مجانية من Aspose.Tasks لـ .NET؟
 
- ج٢: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Tasks لـ .NET[هنا](https://releases.aspose.com/).
+ج٢: نعم، يمكنك الحصول على نسخة تجريبية مجانية من Aspose.Tasks لـ .NET[هنا](https://releases.aspose.com/).
 
 ### س3: أين يمكنني العثور على وثائق Aspose.Tasks لـ .NET؟
 
@@ -102,7 +102,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 ### س٤: كيف يمكنني الحصول على دعم Aspose.Tasks لـ .NET؟
 
- ج4: يمكنك الحصول على الدعم من منتدى المجتمع.[هنا](https://forum.aspose.com/c/tasks/15).
+ ج4: يمكنك الحصول على الدعم من منتدى المجتمع[هنا](https://forum.aspose.com/c/tasks/15).
 
 ### س5: هل تقدمون تراخيص مؤقتة لـ Aspose.Tasks لـ .NET؟
 

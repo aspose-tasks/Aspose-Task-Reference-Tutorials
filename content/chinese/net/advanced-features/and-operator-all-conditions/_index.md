@@ -117,4 +117,4 @@ A4：是的，您可以将 Aspose.Tasks 与其他 .NET 框架和库无缝集成�
 
 ### Q5：Aspose.Tasks 用户有可用的社区论坛或支持渠道吗？
 
- A5：是的，您可以访问 Aspose.Tasks 社区论坛。[这里](https://forum.aspose.com/c/tasks/15)如有任何疑问或帮助。
+ A5：是的，您可以访问 Aspose.Tasks 社区论坛[这里](https://forum.aspose.com/c/tasks/15)如有任何疑问或帮助。

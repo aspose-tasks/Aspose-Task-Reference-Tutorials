@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks での Workweek 構成をマスターする
-linktitle: Aspose.Tasks で週間労働時間を構成する
+linktitle: Aspose.Tasks での週間労働時間の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET で週の労働時間を簡単に構成する方法を学びます。ステップバイステップのガイドを使用して、プロジェクトのスケジュール設定とリソース管理を強化します。
 type: docs

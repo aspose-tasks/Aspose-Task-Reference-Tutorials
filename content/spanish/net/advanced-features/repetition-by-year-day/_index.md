@@ -9,7 +9,7 @@ url: /es/net/advanced-features/repetition-by-year-day/
 ---
 ## Introducción
 
-En el ámbito de la gestión de proyectos, la programación eficiente de las tareas y la recurrencia desempeñan papeles fundamentales para garantizar una ejecución oportuna y un flujo de trabajo fluido. Aspose.Tasks para .NET ofrece una solución sólida para que los desarrolladores manejen tareas recurrentes sin esfuerzo dentro de sus aplicaciones. En este tutorial, profundizamos en las complejidades de trabajar con repeticiones de días anuales usando Aspose.Tasks, proporcionando una guía completa para crear tareas recurrentes basadas en patrones anuales.
+En el ámbito de la gestión de proyectos, la programación eficiente de las tareas y la recurrencia desempeñan papeles fundamentales para garantizar una ejecución oportuna y un flujo de trabajo fluido. Aspose.Tasks para .NET ofrece una solución sólida para que los desarrolladores manejen tareas recurrentes sin esfuerzo dentro de sus aplicaciones. En este tutorial, profundizamos en las complejidades de trabajar con repeticiones de días del año usando Aspose.Tasks, proporcionando una guía completa para crear tareas recurrentes basadas en patrones anuales.
 
 ## Requisitos previos
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- En este paso, definimos parámetros para nuestra tarea recurrente. Especificamos el nombre de la tarea, la duración y el patrón de recurrencia. Para la recurrencia anual, utilizamos el`YearlyRecurrencePattern` y configure la repetición para que ocurra el 1 de julio usando`ByYearDayRepetition`, Además, definimos el rango de recurrencia desde el 1 de julio de 2018 hasta el 1 de julio de 2019.
+ En este paso, definimos parámetros para nuestra tarea recurrente. Especificamos el nombre de la tarea, la duración y el patrón de recurrencia. Para la recurrencia anual, utilizamos el`YearlyRecurrencePattern` y configure la repetición para que ocurra el 1 de julio usando`ByYearDayRepetition`. Además, definimos el rango de recurrencia desde el 1 de julio de 2018 hasta el 1 de julio de 2019.
 
 ## Paso 3: agregar tarea al proyecto
 

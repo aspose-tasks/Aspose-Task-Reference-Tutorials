@@ -53,7 +53,7 @@ var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```csharp
 var project = new Project(settings);
 ```
-該行創建了一個新的`Project`對象透過傳遞`settings`我們之前創建的物件。它建立與 Primavera 資料庫的連接並讀取具有指定 UID 的項目（`4502`,
+該行創建了一個新的`Project`對象透過傳遞`settings`我們之前創建的物件。它建立與 Primavera 資料庫的連接並讀取具有指定 UID 的項目（`4502`）。
 ## 第4步：顯示項目UID
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);

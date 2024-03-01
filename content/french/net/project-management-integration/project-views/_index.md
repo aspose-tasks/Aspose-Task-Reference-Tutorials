@@ -12,7 +12,7 @@ Microsoft Project est un outil puissant de gestion de projet, permettant aux uti
 ## Conditions préalables
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont configurées :
 ### 1. Installez Aspose.Tasks pour .NET
- Vous pouvez télécharger et installer Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/tasks/net/), Suivez les instructions d'installation fournies pour configurer la bibliothèque dans votre environnement de développement.
+ Vous pouvez télécharger et installer Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/tasks/net/). Suivez les instructions d'installation fournies pour configurer la bibliothèque dans votre environnement de développement.
 ### 2. Connaissance de base de C# et .NET Framework
 Familiarisez-vous avec le langage de programmation C# et le .NET Framework, car ce didacticiel suppose une compréhension de base de ces concepts.
 ### 3. Fichier de projet Microsoft

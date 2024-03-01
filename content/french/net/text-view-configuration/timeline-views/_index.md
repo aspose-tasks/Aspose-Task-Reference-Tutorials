@@ -71,7 +71,7 @@ Oui, Aspose.Tasks prend en charge divers frameworks .NET, garantissant la compat
 ### Puis-je personnaliser l’apparence de tâches individuelles dans la vue chronologique ?
 Absolument! Aspose.Tasks offre la flexibilité de personnaliser l'apparence de chaque tâche dans la vue chronologique.
 ### Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Tasks ?
- visiter le[Documentation Aspose.Tasks](https://reference.aspose.com/tasks/net/) pour des guides complets et le[forum d'entraide](https://forum.aspose.com/c/tasks/15) à l'aide.
+ Visiter le[Documentation Aspose.Tasks](https://reference.aspose.com/tasks/net/)pour des guides complets et le[forum d'entraide](https://forum.aspose.com/c/tasks/15) à l'aide.
 ### Existe-t-il un essai gratuit disponible pour Aspose.Tasks ?
  Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?

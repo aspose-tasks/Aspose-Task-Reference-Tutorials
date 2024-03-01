@@ -11,7 +11,7 @@ url: /zh-hant/net/license-management/metering-usage/
 您是否希望透過 Aspose.Tasks 有效管理和監控您的 MS Project 使用情況？借助計量功能，您可以追蹤您的使用情況並優化您的專案管理工作。在本教學中，我們將指導您使用 Aspose.Tasks for .NET 逐步完成計量 MS Project 使用情況的過程。
 ## 先決條件
 在我們深入了解 MS Project 使用情況之前，請確保您符合以下先決條件：
-1.  Aspose.Tasks for .NET 函式庫：從下列位置下載並安裝 Aspose.Tasks for .NET 函式庫：[下載頁面](https://releases.aspose.com/tasks/net/),按照安裝說明在您的開發環境中設定庫。
+1.  Aspose.Tasks for .NET 函式庫：從下列位置下載並安裝 Aspose.Tasks for .NET 函式庫：[下載頁面](https://releases.aspose.com/tasks/net/)。按照安裝說明在您的開發環境中設定庫。
 2. 公鑰和私鑰：從 Aspose 取得您的公鑰和私鑰。這些鍵對於計量使用至關重要。如果您還沒有金鑰，您可以透過 Aspose 請求金鑰[臨時執照](https://purchase.aspose.com/temporary-license/)頁。
 
 ## 導入命名空間

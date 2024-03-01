@@ -17,7 +17,7 @@ Mielőtt belevágna az Aspose.Tasks for .NET használatába, meg kell felelnie n
 
 ### 1. Az Aspose.Tasks telepítése .NET-hez
 
- A kezdéshez le kell töltenie és telepítenie kell az Aspose.Tasks for .NET programot. A letöltési linket megtalálod[itt](https://releases.aspose.com/tasks/net/), Kövesse a kapott telepítési utasításokat a könyvtár beállításához a fejlesztői környezetben.
+ A kezdéshez le kell töltenie és telepítenie kell az Aspose.Tasks for .NET programot. A letöltési linket megtalálod[itt](https://releases.aspose.com/tasks/net/). Kövesse a kapott telepítési utasításokat a könyvtár beállításához a fejlesztői környezetben.
 
 ### 2. Névterek importálása
 

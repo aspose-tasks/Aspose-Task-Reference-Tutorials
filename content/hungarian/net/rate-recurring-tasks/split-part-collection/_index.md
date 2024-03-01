@@ -65,4 +65,4 @@ V: Az Aspose.Tasks az MS Project fájlok különféle verzióit támogatja, bizt
 ### K: Hogyan szerezhetek ideiglenes licenceket a projektjeimhez?
  V: Ideiglenes engedélyek szerezhetők be[itt](https://purchase.aspose.com/temporary-license/) rövid távú használatra.
 ### K: Hol kérhetek segítséget vagy támogatást az Aspose.Tasks-szal kapcsolatban?
- V: Látogassa meg az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15) hogy segítséget kérjen a közösségtől vagy az Aspose ügyfélszolgálati csapatától.
+ V: Látogassa meg az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15)hogy segítséget kérjen a közösségtől vagy az Aspose ügyfélszolgálati csapatától.

@@ -62,7 +62,7 @@ Buat gaya bar baru dan sesuaikan propertinya:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Tetapkan jenis item bilah
 style.BarColor = Color.Green; // Atur warna batang
-style.BarShape = BarShape.HalfHeight; //Atur bentuk batang
+style.BarShape = BarShape.HalfHeight; // Atur bentuk batang
 style.StartShape = Shape.LeftBracket; // Tetapkan bentuk di awal bar
 style.StartShapeColor = Color.Aqua; // Tetapkan warna bentuk awal
 style.EndShape = Shape.RightBracket; // Tetapkan bentuk di ujung bilah

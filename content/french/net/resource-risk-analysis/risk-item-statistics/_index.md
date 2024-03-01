@@ -11,7 +11,7 @@ url: /fr/net/resource-risk-analysis/risk-item-statistics/
 Cherchez-vous à améliorer vos prouesses en matière de gestion de projet à l’aide d’Aspose.Tasks pour .NET ? Plongez dans le domaine de l'analyse des risques avec notre didacticiel étape par étape sur l'obtention de statistiques sur les éléments de risque dans les fichiers MS Project. En tirant parti des puissantes capacités d'Aspose.Tasks, vous pouvez obtenir des informations inestimables sur les incertitudes du projet et prendre des décisions éclairées pour atténuer efficacement les risques.
 ## Conditions préalables
 Avant de nous lancer dans cette aventure, assurez-vous d’avoir les conditions préalables suivantes en place :
-1.  Aspose.Tasks for .NET Library : téléchargez et installez la bibliothèque à partir du[Aspose.Tasks pour la documentation .NET](https://reference.aspose.com/tasks/net/), Cette bibliothèque vous équipe d'outils robustes pour manipuler les fichiers MS Project par programme.
+1.  Aspose.Tasks for .NET Library : téléchargez et installez la bibliothèque à partir du[Aspose.Tasks pour la documentation .NET](https://reference.aspose.com/tasks/net/). Cette bibliothèque vous équipe d'outils robustes pour manipuler les fichiers MS Project par programme.
 2. Environnement de développement .NET : configurez votre environnement de développement .NET, y compris Visual Studio ou tout autre IDE de votre choix, pour faciliter l'intégration transparente d'Aspose.Tasks dans vos projets.
 
 ## Importer des espaces de noms
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- Assurez-vous de remplacer`"Your Document Directory"`avec le chemin d'accès à votre répertoire de documents où se trouvent vos fichiers MS Project.
+ Assurez-vous de remplacer`"Your Document Directory"` avec le chemin d'accès à votre répertoire de documents où se trouvent vos fichiers MS Project.
 ## Étape 2 : configurer les paramètres d'analyse des risques
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- Ajuste le`IterationsCount` paramètre basé sur les exigences de votre projet pour contrôler la précision de l’analyse des risques.
+ Ajuste le`IterationsCount`paramètre basé sur les exigences de votre projet pour contrôler la précision de l’analyse des risques.
 ## Étape 3 : Charger le fichier MS Project
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

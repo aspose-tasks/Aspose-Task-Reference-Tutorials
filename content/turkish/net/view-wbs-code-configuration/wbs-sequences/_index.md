@@ -71,6 +71,6 @@ Kesinlikle! Aspose.Tasks, proje gereksinimlerinize göre WBS kodlarını tanıml
 ### Deneme sürümü mevcut mu?
  Evet yapabilirsin[ücretsiz deneme sürümünü indirin](https://releases.aspose.com/) Bir satın alma işlemi yapmadan önce özellikleri keşfetmek için.
 ### Aspose.Tasks için topluluk desteğini nasıl alabilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) toplulukla bağlantı kurmak ve yardım istemek.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) toplulukla bağlantı kurmak ve yardım istemek.
 ### Geçici lisanslar mevcut mu?
  Evet, alabilirsiniz[geçici lisans](https://purchase.aspose.com/temporary-license/) test amaçlı.

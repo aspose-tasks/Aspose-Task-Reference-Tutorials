@@ -11,7 +11,7 @@ url: /fr/net/text-view-configuration/text-item-types/
 Si vous êtes un développeur .NET qui se lance dans la gestion de projet à l'aide d'Aspose.Tasks, vous êtes au bon endroit ! Dans ce guide étape par étape, nous explorerons les subtilités de la gestion des types d'éléments de texte dans Aspose.Tasks, en nous concentrant sur la personnalisation à l'aide de la puissante bibliothèque .NET.
 ## Conditions préalables
 Avant de commencer, assurez-vous d'avoir mis en place les éléments suivants :
-1. Aspose.Tasks pour la bibliothèque .NET : assurez-vous que la bibliothèque Aspose.Tasks est installée. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks pour la bibliothèque .NET : assurez-vous que la bibliothèque Aspose.Tasks est installée. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/tasks/net/).
 2. Répertoire de documents : créez un répertoire pour les documents de votre projet.
 Passons maintenant à l'essentiel de la gestion des types d'éléments de texte.
 ## Importer des espaces de noms
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Appliquez le style de texte défini à votre projet et enregistrez le projet personnalisé sous forme de fichier PDF.
 Répétez ces étapes pour d’autres besoins de personnalisation, en expérimentant différents types d’éléments de texte, styles de police et couleurs.
 ## Conclusion
- Toutes nos félicitations! Vous venez d'effleurer la surface de la gestion des types d'éléments de texte dans Aspose.Tasks pour .NET. Pendant que vous continuez votre exploration, reportez-vous au[Documentation](https://reference.aspose.com/tasks/net/) pour des informations approfondies.
+Toutes nos félicitations! Vous venez d'effleurer la surface de la gestion des types d'éléments de texte dans Aspose.Tasks pour .NET. Pendant que vous continuez votre exploration, reportez-vous au[Documentation](https://reference.aspose.com/tasks/net/) pour des informations approfondies.
 ### FAQ
 ### Q : Puis-je utiliser Aspose.Tasks gratuitement ?
  R : Aspose.Tasks propose un essai gratuit. Attrape le[ici](https://releases.aspose.com/).

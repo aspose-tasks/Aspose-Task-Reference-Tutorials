@@ -1,6 +1,6 @@
 ---
-title: Konfigurálja az MS Project megjelenítési beállításait az Aspose.Tasks-ban
-linktitle: Konfigurálja a projekt megjelenítési beállításait az Aspose.Tasks alkalmazásban
+title: Az MS Project megjelenítési beállításainak konfigurálása az Aspose.Tasks-ban
+linktitle: Projektmegjelenítési beállítások konfigurálása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja programozottan az MS Project megjelenítési beállításait az Aspose.Tasks for .NET használatával. Könnyedén testreszabhatja projektje megjelenését.
 type: docs
@@ -32,7 +32,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 ## 2. lépés: Konfigurálja a megjelenítési beállításokat
 Most konfiguráljuk az MS Projectben elérhető különféle megjelenítési lehetőségeket:
 ### Feladatütemezési figyelmeztetések letiltása
-manuálisan ütemezett feladatokkal kapcsolatos ütemezési ütközésekre vonatkozó figyelmeztetések letiltása (Project 2010 és újabb verziókhoz):
+A manuálisan ütemezett feladatokkal kapcsolatos ütemezési ütközésekre vonatkozó figyelmeztetések letiltása (Project 2010 és újabb verziókhoz):
 ```csharp
 project.DisplayOptions.ShowTaskScheduleWarnings = false;
 ```
