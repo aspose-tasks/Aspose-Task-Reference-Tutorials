@@ -35,3 +35,26 @@ These are links to some useful resources:
 - [Aspose.Tasks PDF Security Configuration](./net/pdf-security-configuration/)
 - [Aspose.Tasks License Management](./net/license-management/)
 
+## Aspose.Tasks for Java Tutorials
+{{% alert color="primary" %}}
+Welcome to the gateway of enhanced Java project management! Embark on a journey with Aspose.Tasks for Java, where our comprehensive tutorials and examples redefine the way you handle project workflows. From mastering calendar exceptions to seamless VBA integration, we've curated a wealth of resources to empower developers of all levels. Join us as we delve into the intricacies of project management, offering step-by-step guidance and unlocking the full potential of Aspose.Tasks for Java. Get ready to optimize your projects, streamline workflows, and elevate your Java development skills!
+{{% /alert %}}
+
+These are links to some useful resources:
+
+- [Calendar Exceptions](./calendar-exceptions/)
+- [Calendars](./calendars/)
+- [Currency](./currency/)
+- [Formulas](./formulas/)
+- [Project Properties](./project-properties/)
+- [Currency Properties](./currency-properties/)
+- [Project Configuration](./project-configuration/)
+- [Project Management](./project-management/)
+- [Project Data Reading](./project-data-reading/)
+- [Project File Operations](./project-file-operations/)
+- [Resource Assignments](./resource-assignments/)
+- [Resource Management](./resource-management/)
+- [Task Baselines](./task-baselines/)
+- [Task Links](./task-links/)
+- [Task Properties](./task-properties/)
+- [VBA Integration](./vba-integration/)
