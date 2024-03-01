@@ -50,7 +50,6 @@ By following these steps, you'll successfully define and retrieve link types for
 ## Conclusion
 Congratulations! You've now mastered the art of defining link types in Aspose.Tasks for Java. This powerful tool opens up new possibilities for efficient project management. Experiment with various link types to tailor your project workflows to perfection.
 ## Frequently Asked Questions
- (FAQs)
 ### Q: Is Aspose.Tasks compatible with different Java environments?
 A: Yes, Aspose.Tasks is designed to seamlessly integrate with various Java development environments.
 ### Q: Can I customize link types based on my project requirements?
