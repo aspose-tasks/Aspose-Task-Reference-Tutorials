@@ -35,17 +35,7 @@ In your Java file, import the required classes:
 ```java
 import com.aspose.tasks.*;
 ```
-## Assignment Budget Management
-Let's break down the provided example into multiple steps and explore each one in detail:
-```java
-// The path to the documents directory.
-String dataDir = "Your Data Directory";
-Project prj = new Project(dataDir + "project.mpp");
-for (ResourceAssignment ra : prj.getResourceAssignments()) {
-    System.out.println(ra.get(Asn.BUDGET_COST));
-    System.out.println(ra.get(Asn.BUDGET_WORK).toString());
-}
-```
+
 ## Step 1: Define Data Directory
 Set the path to the directory containing your project file.
 ```java

@@ -20,13 +20,14 @@ First, import the necessary packages to work with Aspose.Tasks:
 import com.aspose.tasks.Asn;
 import com.aspose.tasks.Project;
 import com.aspose.tasks.ResourceAssignment;
-// The path to the documents directory.
-String dataDir = "Your Data Directory";
-Project project = new Project(dataDir + "ResourceAssignmentVariance.mpp");
+
 ```
 ## Step 1: Iterate through Resource Assignments
 To deal with variances, we need to iterate through resource assignments in the project. This is achieved using a simple loop:
 ```java
+// The path to the documents directory.
+String dataDir = "Your Data Directory";
+Project project = new Project(dataDir + "ResourceAssignmentVariance.mpp");
 for (ResourceAssignment ra : project.getResourceAssignments()) {
     // Perform operations on each resource assignment
 }
