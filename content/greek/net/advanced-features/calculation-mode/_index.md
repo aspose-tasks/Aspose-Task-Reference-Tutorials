@@ -13,7 +13,7 @@ url: /el/net/advanced-features/calculation-mode/
 
 ## Προαπαιτούμενα
 
-Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα εξής:
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα ακόλουθα:
 
 1. Visual Studio: Βεβαιωθείτε ότι έχετε εγκαταστήσει το Visual Studio στο σύστημά σας.
 2.  Aspose.Tasks για .NET: Κατεβάστε και εγκαταστήστε τη βιβλιοθήκη Aspose.Tasks για .NET από[εδώ](https://releases.aspose.com/tasks/net/).

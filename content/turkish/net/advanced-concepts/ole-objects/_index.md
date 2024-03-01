@@ -15,7 +15,7 @@ Aspose.Tasks for .NET, proje dosyalarındaki OLE (Nesne Bağlama ve Gömme) nesn
 
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 
-1. Kurulum: Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
+1.  Kurulum: Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olduğundan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
 
 2. Temel Bilgi: C# programlama dili ve .NET çerçeve kavramlarına aşina olun.
 
@@ -125,7 +125,7 @@ else
 
 ## Çözüm
 
-Bu eğitimde Aspose.Tasks for .NET'te OLE nesneleri ile etkili bir şekilde nasıl çalışılacağını araştırdık. Bu adım adım örnekleri izleyerek, OLE nesne yönetimi yeteneklerini .NET uygulamalarınızla sorunsuz bir şekilde bütünleştirerek bunların işlevselliğini ve kullanılabilirliğini artırabilirsiniz.
+Bu eğitimde Aspose.Tasks for .NET'te OLE nesneleri ile etkili bir şekilde nasıl çalışılacağını araştırdık. Bu adım adım örnekleri izleyerek, OLE nesne yönetimi yeteneklerini .NET uygulamalarınıza sorunsuz bir şekilde entegre edebilir, bunların işlevselliğini ve kullanılabilirliğini artırabilirsiniz.
 
 ## SSS'ler
 

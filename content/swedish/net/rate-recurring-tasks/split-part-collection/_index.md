@@ -63,6 +63,6 @@ S: Aspose.Tasks stöder olika versioner av MS Project-filer, vilket säkerställ
 ### F: Finns det en testversion tillgänglig för teständamål?
  S: Ja, du kan få en gratis testversion från[här](https://releases.aspose.com/) för utvärdering.
 ### F: Hur kan jag få tillfälliga licenser för mina projekt?
- S: Tillfälliga licenser kan förvärvas från[här](https://purchase.aspose.com/temporary-license/) för kortvarigt bruk.
+ S: Tillfälliga licenser kan förvärvas från[här](https://purchase.aspose.com/temporary-license/) för kortvarig användning.
 ### F: Var kan jag söka hjälp eller stöd angående Aspose.Tasks?
- S: Du kan besöka Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15) att söka hjälp från samhället eller Asposes supportteam.
+ S: Du kan besöka Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15)att söka hjälp från samhället eller Asposes supportteam.

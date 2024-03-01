@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks for .NET のマスター テーブル構成
-linktitle: Aspose.Tasks でテーブルを構成する
+linktitle: Aspose.Tasks でのテーブルの構成
 second_title: Aspose.Tasks .NET API
 description: このステップバイステップ ガイドを使用して、Aspose.Tasks for .NET でテーブルを構成する方法を学びます。プロジェクト管理エクスペリエンスを簡単に強化します。
 type: docs
@@ -11,7 +11,7 @@ url: /ja/net/task-table-management/configuring-tables/
 Aspose.Tasks for .NET でのテーブルの構成に関するこの包括的なガイドへようこそ。 Aspose.Tasks は、開発者が Microsoft Project ファイルをシームレスに操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Tasks を使用してテーブルを構成するプロセスを、明確に理解できるように各ステップに分けて説明します。
 ## 前提条件
 チュートリアルを詳しく説明する前に、次の前提条件が満たされていることを確認してください。
--  Aspose.Tasks for .NET: Aspose.Tasks ライブラリがインストールされていることを確認してください。からダウンロードできます。[Aspose.Tasks .NET ドキュメント](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Aspose.Tasks ライブラリがインストールされていることを確認してください。からダウンロードできます。[Aspose.Tasks .NET ドキュメント](https://reference.aspose.com/tasks/net/).
 - 開発環境: Visual Studio またはその他の推奨 .NET 開発ツールを使用して開発環境をセットアップします。
 - サンプル プロジェクト ファイル: テスト用にサンプル Microsoft Project ファイル (MPP) を用意します。
 ## 名前空間のインポート
@@ -59,9 +59,9 @@ project.Save(DataDir + "WorkWithTable_out.mpp", SaveFileFormat.Mpp);
 おめでとう！ Aspose.Tasks for .NET でテーブルが正常に構成されました。このチュートリアルでは、テーブルのプロパティを変更し、変更を新しいプロジェクト ファイルに保存するための重要な手順について説明しました。
 ## よくある質問
 ### Q: ライセンスなしで Aspose.Tasks を使用できますか?
-A: はい、ただし一部の機能には有効な Aspose ライセンスが必要です。 30日間の一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/).
+ A: はい、ただし一部の機能には有効な Aspose ライセンスが必要です。 30日間の一時ライセンスを取得できます[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks のサポートを受けるにはどうすればよいですか?
-A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートやご質問がございましたら。
+ A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートやご質問がございましたら。
 ### Q: 他の例やドキュメントはどこで入手できますか?
  A: を参照してください。[Aspose.Tasks .NET ドキュメント](https://reference.aspose.com/tasks/net/)詳細については。
 ### Q: 無料トライアルはありますか?

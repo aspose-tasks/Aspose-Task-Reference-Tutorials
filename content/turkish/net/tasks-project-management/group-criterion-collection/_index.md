@@ -69,7 +69,7 @@ Salt okunur değilse mevcut grup ölçütlerini temizleyin.
 group.GroupCriteria.Clear();
 ```
 
-## 5. Adım: Yeni Kriterler Ekleyin
+## Adım 5: Yeni Kriter Ekle
 
 Yeni bir grup kriteri oluşturun ve bunu gruba ekleyin.
 

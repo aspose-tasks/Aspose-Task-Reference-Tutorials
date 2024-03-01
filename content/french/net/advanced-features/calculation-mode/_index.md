@@ -2,7 +2,7 @@
 title: Mode de calcul dans Aspose.Tasks
 linktitle: Mode de calcul dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
-description: Apprenez à gérer efficacement les modes de calcul dans Aspose.Tasks pour .NET afin de rationaliser la planification des projets et les dépendances des tâches.
+description: Découvrez comment gérer efficacement les modes de calcul dans Aspose.Tasks pour .NET afin de rationaliser la planification des projets et les dépendances des tâches.
 type: docs
 weight: 29
 url: /fr/net/advanced-features/calculation-mode/

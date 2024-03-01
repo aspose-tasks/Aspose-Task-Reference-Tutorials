@@ -21,7 +21,7 @@ Aspose.Tasks'ın gücünden yararlanmak için C# programlama dilini ve .NET çer
 
 ### 2. Aspose.Tasks for .NET'in Kurulumu
 
- Aspose.Tasks for .NET kitaplığını geliştirme ortamınıza yüklediğinizden emin olun. adresinden indirebilirsiniz.[Aspose.Tasks web sitesi](https://releases.aspose.com/tasks/net/) veya NuGet paket yöneticisi aracılığıyla.
+Aspose.Tasks for .NET kitaplığını geliştirme ortamınıza yüklediğinizden emin olun. adresinden indirebilirsiniz.[Aspose.Tasks web sitesi](https://releases.aspose.com/tasks/net/) veya NuGet paket yöneticisi aracılığıyla.
 
 ### 3. Entegre Geliştirme Ortamı (IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Adım 2: Taban Çizgisini Ayarlayın
 
- Proje yüklendikten sonra baseline’ı ayarlamaya geçebiliriz. Temel çizgiler, proje ilerledikçe karşılaştırma için bir referans noktası görevi gören, projenin başlangıç zamanlamasının anlık görüntüsünü sağlar. Kullan`SetBaseline` Temeli ayarlama yöntemi. Örneğin, tüm projenin temel çizgisini ayarlamak için`BaselineType.Baseline` numaralandırma:
+Proje yüklendikten sonra baseline’ı ayarlamaya geçebiliriz. Temel çizgiler, proje ilerledikçe karşılaştırma için bir referans noktası görevi gören, projenin başlangıç zamanlamasının anlık görüntüsünü sağlar. Kullan`SetBaseline` Temeli ayarlama yöntemi. Örneğin, tüm projenin temel çizgisini ayarlamak için`BaselineType.Baseline` numaralandırma:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);

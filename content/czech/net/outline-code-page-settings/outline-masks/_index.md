@@ -75,4 +75,4 @@ A: Opravdu, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c
 ### Otázka: Mohu vyzkoušet Aspose.Tasks pro .NET před nákupem?
  A: Samozřejmě! Máte přístup k bezplatné zkušební verzi Aspose.Tasks[tady](https://releases.aspose.com/).
 ### Otázka: Kde mohu získat dočasnou licenci pro Aspose.Tasks?
- Odpověď: Pokud potřebujete dočasnou licenci pro účely hodnocení nebo testování, můžete si ji pořídit.[tady](https://purchase.aspose.com/temporary-license/).
+ Odpověď: Pokud potřebujete dočasnou licenci pro účely hodnocení nebo testování, můžete si ji pořídit[tady](https://purchase.aspose.com/temporary-license/).

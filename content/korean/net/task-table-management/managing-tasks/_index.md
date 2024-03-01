@@ -11,7 +11,7 @@ url: /ko/net/task-table-management/managing-tasks/
 프로젝트 내의 작업을 효율적으로 관리하려는 .NET 개발자라면 Aspose.Tasks for .NET이 강력한 솔루션을 제공합니다. 이 튜토리얼은 Aspose.Tasks를 사용하여 작업을 관리하는 다양한 측면을 안내하고 단계별 지침과 코드 예제를 제공합니다. 작업 추가, 분할된 부분 표시, 동일한 상위 항목 아래 작업 이동, 작업 속성 가져오기/설정, 작업 할당 반복, 작업 기준 읽기 또는 작업 삭제 등 무엇이든 이 가이드에서 다룹니다.
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
-1.  .NET 라이브러리용 Aspose.Tasks: .NET 라이브러리용 Aspose.Tasks가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
+1. .NET 라이브러리용 Aspose.Tasks: .NET 라이브러리용 Aspose.Tasks가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
 2. 문서 디렉터리: 프로젝트 문서가 저장될 디렉터리를 설정합니다.
 ## 네임스페이스 가져오기
 .NET 프로젝트에서 Aspose.Tasks 작업에 필요한 네임스페이스를 포함합니다.
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // 분할된 작업으로 프로젝트 로드
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//작업에 액세스
+// 작업에 액세스
 var task = project.RootTask.Children.GetById(4);
 // 분할된 부분 표시
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // 작업 추가
 var task = project.RootTask.Children.Add("Task");
-// 삭제 전후의 작업 수 표시
+//삭제 전후의 작업 수 표시
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // 작업 삭제
 task.Delete();

@@ -1,6 +1,6 @@
 ---
 title: VBA 참조 처리 마스터하기 - 단계별 가이드
-linktitle: Aspose.Tasks에서 참조 VBA 처리
+linktitle: Aspose.Tasks에서 VBA 참조 처리
 second_title: Aspose.태스크 .NET API
 description: 포괄적인 튜토리얼을 통해 Aspose.Tasks .NET에서 VBA 참조 처리 기능을 살펴보세요. VBA 참조를 원활하게 읽고, 비교하고, 작업하는 방법을 알아보세요.
 type: docs
@@ -21,7 +21,7 @@ url: /ko/net/vba-module-reference/vba-references/
     using System;
     
 ```
-## 참고자료 읽기 VBA
+## VBA 참조 읽기
 프로젝트 파일에서 VBA 참조를 읽는 것부터 시작해 보겠습니다.
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -72,10 +72,10 @@ foreach (var reference in project.VbaProject.References)
 ### Q: Aspose.Tasks를 다른 프로그래밍 언어와 함께 사용할 수 있나요?
 A: Aspose.Tasks는 주로 .NET 언어를 지원하지만, 다양한 플랫폼과 언어에 맞춰진 다른 Aspose 제품도 있습니다.
 ### Q: Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻나요?
-A: 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A: 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks에 사용할 수 있는 커뮤니티 지원이 있나요?
  A: 네, 다음 사이트에서 지원을 받으실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks에 대한 자세한 문서는 어디서 찾을 수 있나요?
  A: 문서를 사용할 수 있습니다.[여기](https://reference.aspose.com/tasks/net/).
 ### Q: Aspose.Tasks를 구매할 수 있나요?
- A: 네, 구매하실 수 있습니다.[여기](https://purchase.aspose.com/buy).
+ A: 네, 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy).

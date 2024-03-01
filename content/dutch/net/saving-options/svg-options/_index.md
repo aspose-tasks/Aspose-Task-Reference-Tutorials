@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## Stap 1: Definieer de documentmap
-Zorg ervoor dat u een aangewezen map voor uw documenten heeft. vervangen`"Your Document Directory"` met het pad naar de gewenste map.
+ Zorg ervoor dat u een aangewezen map voor uw documenten heeft. Vervangen`"Your Document Directory"` met het pad naar de gewenste map.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Stap 2: Laad het projectbestand
- Laad het Microsoft Project-bestand (.mpp) met behulp van de`Project` klas.
+Laad het Microsoft Project-bestand (.mpp) met behulp van de`Project` klas.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

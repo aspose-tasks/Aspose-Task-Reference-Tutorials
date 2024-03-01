@@ -26,7 +26,7 @@ Maintenant, décomposons l'exemple en plusieurs étapes :
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- remplacer`"Your Document Directory"` avec le chemin d'accès à votre fichier MS Project.
+ Remplacer`"Your Document Directory"` avec le chemin d'accès à votre fichier MS Project.
 ## Étape 2 : Chargez le fichier MS Project
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
@@ -61,4 +61,4 @@ R : Oui, Aspose.Tasks prend en charge divers formats de fichiers de projet tels 
 ### Q : Où puis-je trouver de la documentation pour Aspose.Tasks pour .NET ?
  R : Vous pouvez trouver la documentation[ici](https://reference.aspose.com/tasks/net/).
 ### Q : Comment puis-je obtenir une assistance technique pour Aspose.Tasks pour .NET ?
- : Vous pouvez obtenir une assistance technique sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+ R : Vous pouvez obtenir une assistance technique sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).

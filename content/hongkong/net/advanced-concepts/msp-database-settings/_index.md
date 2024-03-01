@@ -86,7 +86,7 @@ A1：是的，Aspose.Tasks 支援各種版本的 Microsoft Project 資料庫，�
 
 ### Q2：如何解決資料庫連線問題？
 
-A2：確保使用適當的憑證和資料庫詳細資訊正確配置連接字串。您也可以參考文件或尋求支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
+ A2：確保使用適當的憑證和資料庫詳細資訊正確配置連接字串。您也可以參考文件或尋求支持[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15).
 
 ### Q3：Aspose.Tasks 有試用版嗎？
 

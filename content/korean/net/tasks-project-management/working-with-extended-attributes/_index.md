@@ -52,7 +52,7 @@ foreach (var task in project.RootTask.Children)
 {
     foreach (var attribute in task.ExtendedAttributes)
     {
-        // 확장된 속성에 대한 공통 정보 읽기
+        // 확장된 속성에 대한 일반 정보 읽기
         Console.WriteLine("Extended Attribute: " + attribute.ToString());
     }
 }

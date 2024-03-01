@@ -41,13 +41,13 @@ var project = new Project("Project2.mpp");
 
  Zuerst müssen wir die Projektdatei in unsere Anwendung laden. Wir schaffen ein Neues`Project` Objekt und initialisieren Sie es mit dem Pfad zu unserer Projektdatei.
 
-## Schritt 2: Zugriff auf Ressourcen
+## Schritt 2: Zugriff auf die Ressource
 
 ```csharp
 var resource = project.Resources.GetById(1);
 ```
 
- Als nächstes greifen wir auf die Ressource zu, auf die wir den Kostenabgrenzungstyp anwenden möchten. Wir benutzen das`GetById` Methode von`Resources` Sammlung und übergeben Sie die Ressourcen-ID als Argument.
+ Als nächstes greifen wir auf die Ressource zu, auf die wir den Kostenabgrenzungstyp anwenden möchten. Wir benutzen das`GetById` Methode der`Resources` Sammlung und übergeben Sie die Ressourcen-ID als Argument.
 
 ## Schritt 3: Kostenabgrenzungstyp festlegen
 
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Hier legen wir den Kostenabgrenzungstyp für die Ressource fest. In diesem Beispiel stellen wir es auf ein`CostAccrualType.End`, was bedeutet, dass Kosten erst dann anfallen, wenn die verbleibende Arbeit Null ist.
+Hier legen wir den Kostenabgrenzungstyp für die Ressource fest. In diesem Beispiel stellen wir es auf ein`CostAccrualType.End`, was bedeutet, dass Kosten erst dann anfallen, wenn die verbleibende Arbeit Null ist.
 
 ## Schritt 4: Arbeiten Sie mit dem Projekt
 
@@ -73,7 +73,7 @@ A1: Ja, Sie können die Ressourcensammlung durchlaufen und den Kostenabgrenzungs
 
 ### F2: Welche anderen Kostenabgrenzungsarten sind außer „Ende“ verfügbar?
 
- A2: Aspose.Tasks für .NET bietet mehrere andere Kostenabgrenzungstypen, z`Start`, `Prorated` ,Und`Duration`.
+A2: Aspose.Tasks für .NET bietet mehrere andere Kostenabgrenzungstypen, z`Start`, `Prorated` , Und`Duration`.
 
 ### F3: Wie kann ich den aktuellen Kostenabgrenzungstyp für eine Ressource ermitteln?
 

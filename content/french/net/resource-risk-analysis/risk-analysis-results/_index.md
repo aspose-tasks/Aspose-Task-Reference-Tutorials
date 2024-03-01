@@ -80,9 +80,9 @@ using (var stream = new FileStream(OutDir + "AnalysisResult_out1.pdf", FileMode.
 En conclusion, l'utilisation d'Aspose.Tasks pour .NET facilite une analyse solide des risques pour les fichiers MS Project. En suivant les étapes décrites dans ce didacticiel, les chefs de projet peuvent obtenir des informations précieuses sur les incertitudes potentielles, contribuant ainsi à une prise de décision éclairée et garantissant la réussite du projet.
 ## FAQ
 ### Q : Aspose.Tasks peut-il gérer des fichiers MS Project volumineux ?
-: Oui, Aspose.Tasks est capable de gérer efficacement des fichiers de projet volumineux, offrant des performances et une fiabilité élevées.
+R : Oui, Aspose.Tasks est capable de gérer efficacement des fichiers de projet volumineux, offrant des performances et une fiabilité élevées.
 ### Q : Aspose.Tasks est-il compatible avec .NET Core ?
-R : Absolument, Aspose.Tasks s'intègre de manière transparente à .NET Core, offrant une prise en charge multiplateforme.
+: Absolument, Aspose.Tasks s'intègre de manière transparente à .NET Core, offrant une prise en charge multiplateforme.
 ### Q : Aspose.Tasks prend-il en charge différentes distributions de probabilité pour l'analyse des risques ?
 R : Oui, Aspose.Tasks prend en charge diverses distributions de probabilité telles que les distributions normales et uniformes pour l'analyse des risques.
 ### Q : Puis-je personnaliser les paramètres d'analyse des risques en fonction des exigences de mon projet ?

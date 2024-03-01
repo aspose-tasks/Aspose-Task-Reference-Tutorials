@@ -1,6 +1,6 @@
 ---
 title: Master Table Configuration in Aspose.Tasks for .NET
-linktitle: Konfigurálja a táblákat az Aspose.Tasks alkalmazásban
+linktitle: Táblázatok konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konfigurálhatja a táblákat az Aspose.Tasks for .NET-ben. Fokozza a projektmenedzsment tapasztalatait könnyedén.
 type: docs
@@ -11,7 +11,7 @@ url: /hu/net/task-table-management/configuring-tables/
 Üdvözöljük ebben az átfogó útmutatóban az Aspose.Tasks .NET tábláinak konfigurálásáról. Az Aspose.Tasks egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak a Microsoft Project fájlokkal. Ebben az oktatóanyagban végigvezetjük a táblák Aspose.Tasks használatával történő konfigurálásának folyamatán, az egyes lépéseket lebontva a pontos megértés érdekében.
 ## Előfeltételek
 Mielőtt belemerülnénk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
--  Aspose.Tasks for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Tasks könyvtár. Letöltheti a[Aspose.Tasks .NET dokumentáció](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Győződjön meg arról, hogy telepítve van az Aspose.Tasks könyvtár. Letöltheti a[Aspose.Tasks .NET dokumentáció](https://reference.aspose.com/tasks/net/).
 - Fejlesztői környezet: Állítsa be fejlesztői környezetét a Visual Studio vagy bármely más preferált .NET fejlesztőeszköz segítségével.
 - Mintaprojektfájl: Készítsen tesztelésre egy minta Microsoft Project fájlt (MPP).
 ## Névterek importálása

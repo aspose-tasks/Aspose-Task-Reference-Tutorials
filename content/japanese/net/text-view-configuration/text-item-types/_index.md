@@ -11,7 +11,7 @@ url: /ja/net/text-view-configuration/text-item-types/
 Aspose.Tasks を使用したプロジェクト管理に取り組んでいる .NET 開発者なら、ここが正しい場所です。このステップバイステップ ガイドでは、強力な .NET ライブラリを使用したカスタマイズに焦点を当て、Aspose.Tasks でのテキスト項目タイプの処理の複雑さを説明します。
 ## 前提条件
 始める前に、次のものが整っていることを確認してください。
-1. Aspose.Tasks for .NET ライブラリ: Aspose.Tasks ライブラリがインストールされていることを確認します。そうでない場合は、ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET ライブラリ: Aspose.Tasks ライブラリがインストールされていることを確認します。そうでない場合は、ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
 2. ドキュメント ディレクトリ: プロジェクト ドキュメント用のディレクトリを設定します。
 ここで、テキスト項目タイプの処理の核心を見てみましょう。
 ## 名前空間のインポート

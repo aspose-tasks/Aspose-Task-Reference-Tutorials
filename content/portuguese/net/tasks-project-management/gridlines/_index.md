@@ -90,7 +90,7 @@ Por fim, salvamos o projeto com a linha de grade customizada como um arquivo de 
 
 ## Conclusão
 
-A personalização de linhas de grade no MS Project usando Aspose.Tasks for .NET fornece flexibilidade na visualização dos dados do projeto. Seguindo o guia passo a passo, você pode personalizar facilmente as linhas de grade para atender com eficiência às suas necessidades de gerenciamento de projetos.
+personalização de linhas de grade no MS Project usando Aspose.Tasks for .NET fornece flexibilidade na visualização dos dados do projeto. Seguindo o guia passo a passo, você pode personalizar facilmente as linhas de grade para atender com eficiência às suas necessidades de gerenciamento de projetos.
 
 ## Perguntas frequentes
 
@@ -112,4 +112,4 @@ R: Sim, Aspose.Tasks for .NET oferece ampla documentação e suporte para integr
 
 ### Q5: Existe uma versão de teste disponível para Aspose.Tasks for .NET?
 
- R: Sim, você pode baixar uma versão de avaliação gratuita do[Aspose.Tasks para .NET de](https://forum.aspose.com/c/tasks/15), para explorar seus recursos antes de fazer uma compra.
+ R: Sim, você pode baixar uma versão de avaliação gratuita do[Aspose.Tasks para .NET de](https://forum.aspose.com/c/tasks/15). para explorar seus recursos antes de fazer uma compra.

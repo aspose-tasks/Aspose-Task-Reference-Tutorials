@@ -40,7 +40,7 @@ const string Password = "MyPassword";
 ```csharp
 var project = new Project(DataDir + @"Project1.mpp");
 ```
-## 步骤 4：设置 Windows 凭据
+## 第 4 步：设置 Windows 凭据
 使用提供的用户名、密码和域创建网络凭据。
 ```csharp
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
@@ -71,6 +71,6 @@ manager.CreateNewProject(project);
 ### 问：在哪里可以找到 Aspose.Tasks 的文档？
 答：Aspose.Tasks 的详细文档可用[这里](https://reference.aspose.com/tasks/net/).
 ### 问：如何获得 Aspose.Tasks 的支持？
-答：您可以从 Aspose.Tasks 社区论坛获得支持。[这里](https://forum.aspose.com/c/tasks/15).
+答：您可以从 Aspose.Tasks 社区论坛获得支持[这里](https://forum.aspose.com/c/tasks/15).
 ### 问：如何购买 Aspose.Tasks 的许可证？
 答：您可以从以下位置购买 Aspose.Tasks 的许可证：[购买页面](https://purchase.aspose.com/buy).

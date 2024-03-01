@@ -9,7 +9,7 @@ url: /tr/net/advanced-features/and-operator-all-conditions/
 ---
 ## giriiş
 
-Proje yönetimi görevlerinizi verimli bir şekilde kolaylaştırmak mı istiyorsunuz? Aspose.Tasks for .NET ile proje verilerini etkili bir şekilde yönetmek için güçlü işlevlerden yararlanabilirsiniz. Böyle bir özellik, AND operatörünü her koşulda kullanabilme yeteneğidir ve görevleri aynı anda birden fazla kritere göre filtrelemenize olanak tanır. Bu eğitimde, bu işlevselliği adım adım uygulama sürecinde size yol göstereceğiz.
+Proje yönetimi görevlerinizi verimli bir şekilde kolaylaştırmak mı istiyorsunuz? Aspose.Tasks for .NET ile proje verilerini etkili bir şekilde yönetmek için güçlü işlevlerden yararlanabilirsiniz. Bu özelliklerden biri, görevleri aynı anda birden fazla kritere göre filtrelemenize olanak tanıyan AND operatörünü tüm koşullarda kullanma yeteneğidir. Bu eğitimde, bu işlevselliği adım adım uygulama sürecinde size yol göstereceğiz.
 
 ## Önkoşullar
 
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Proje dosyasını kullanarak yükleyin.`Project` dosya yolunu belirten sınıf yapıcısı.
+ Proje dosyasını kullanarak yükleyin.`Project`dosya yolunu belirten sınıf yapıcısı.
 
 ## Adım 2: Tüm Proje Görevlerini Toplayın
 
@@ -109,7 +109,7 @@ C2: Evet, Aspose.Tasks MPP, XML ve CSV gibi çeşitli proje dosyası formatları
 
 ### S3: Aspose.Tasks karmaşık proje planlama algoritmaları için destek sunuyor mu?
 
-Cevap3: Aspose.Tasks kesinlikle proje programlarını yönetmek için kritik yol analizi ve kaynak tahsisi de dahil olmak üzere gelişmiş özellikler sağlar.
+Cevap3: Kesinlikle Aspose.Tasks, proje programlarını yönetmek için kritik yol analizi ve kaynak tahsisi de dahil olmak üzere gelişmiş özellikler sağlar.
 
 ### S4: Aspose.Tasks'ı diğer .NET çerçeveleri veya kitaplıklarıyla entegre edebilir miyim?
 
@@ -117,4 +117,4 @@ Cevap4: Evet, işlevselliği geliştirmek için Aspose.Tasks'ı diğer .NET çer
 
 ### S5: Aspose.Tasks kullanıcıları için bir topluluk forumu veya destek kanalı var mı?
 
- Cevap5: Evet, Aspose.Tasks topluluk forumuna erişebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15) Herhangi bir sorunuz veya yardımınız için.
+ Cevap5: Evet, Aspose.Tasks topluluk forumuna erişebilirsiniz[Burada](https://forum.aspose.com/c/tasks/15) Herhangi bir sorunuz veya yardımınız için.

@@ -12,7 +12,7 @@ Aspose.Tasks for .NET'i kullanarak Microsoft Project'in anahat maskelerinin güc
 ## Önkoşullar
 Bu eğitime dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 ### 1. Aspose.Tasks for .NET'in Kurulumu
- Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olduğundan emin olun. Kütüphaneyi Aspose web sitesinden indirebilirsiniz.[Burada](https://releases.aspose.com/tasks/net/).
+Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olduğundan emin olun. Kütüphaneyi Aspose web sitesinden indirebilirsiniz.[Burada](https://releases.aspose.com/tasks/net/).
 ### 2. Temel C# ve .NET Framework Bilgisi
 Bu eğitimde her ikisinden de yararlanılacağı için C# programlama dili ve .NET Framework hakkında bilgi edinin.
 ### 3. Microsoft Proje Dosyası
@@ -108,4 +108,4 @@ C: Kesinlikle! Uzunluklarını, düzeylerini, ayırıcılarını ve türlerini �
 ### S4: Aspose.Tasks for .NET belge ve destek sağlıyor mu?
 C: Evet, Aspose.Tasks for .NET web siteleri aracılığıyla kapsamlı belgeler ve özel destek sunuyor ve[forumlar](https://forum.aspose.com/c/tasks/15).
 ### S5: Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
- C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümüne kendi sitelerinden erişebilirsiniz.[İnternet sitesi](https://releases.aspose.com/tasks/net/), Bir satın alma işlemi yapmadan önce özelliklerini ve işlevlerini keşfetmek için.
+ C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümüne kendi sitelerinden erişebilirsiniz.[İnternet sitesi](https://releases.aspose.com/tasks/net/). Bir satın alma işlemi yapmadan önce özelliklerini ve işlevlerini keşfetmek için.

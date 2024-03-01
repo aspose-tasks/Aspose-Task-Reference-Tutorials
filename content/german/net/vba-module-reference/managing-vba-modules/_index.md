@@ -71,6 +71,6 @@ Absolut! Aspose.Tasks bietet Methoden, um den Quellcode von VBA-Modulen nicht nu
 ### Wo finde ich zusätzliche Beispiele und Dokumentation für Aspose.Tasks?
  Besuche den[Dokumentation](https://reference.aspose.com/tasks/net/) Ausführliche Beispiele und Anleitungen finden Sie hier.
 ### Gibt es eine kostenlose Testversion für Aspose.Tasks?
- Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 ### Wie kann ich Unterstützung erhalten oder Hilfe bei Problemen im Zusammenhang mit Aspose.Tasks suchen?
- Kommen Sie gerne vorbei[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15)für die Unterstützung der Gemeinschaft.
+Besuchen Sie uns gerne[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für die Unterstützung der Gemeinschaft.

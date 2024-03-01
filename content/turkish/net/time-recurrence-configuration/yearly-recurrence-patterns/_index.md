@@ -66,6 +66,6 @@ Bu eğitimde Aspose.Tasks for .NET'te yıllık yinelenme modellerini yapılandı
 ### Aspose.Tasks for .NET'i kullanmak için herhangi bir önkoşul var mı?
  Aspose.Tasks kütüphanesinin yanı sıra C# ve .NET hakkında da bilgi sahibi olduğunuzdan emin olun. İndir[Burada](https://releases.aspose.com/tasks/net/).
 ### Aspose.Tasks için nasıl destek alabilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Toplumsal destek ve yardım için.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Toplumsal destek ve yardım için.
 ### Satın almadan önce Aspose.Tasks'ı ücretsiz deneyebilir miyim?
  Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).

@@ -9,7 +9,7 @@ url: /cs/net/calendar-scheduling/css-saving-arguments/
 ---
 ## Úvod
 
-V tomto tutoriálu se ponoříme do procesu ukládání argumentů CSS pomocí Aspose.Tasks for .NET. Cascading Style Sheets (CSS) jsou klíčové pro definování prezentace prvků HTML. Aspose.Tasks nám umožňuje efektivně manipulovat a ukládat tyto CSS atributy.
+tomto tutoriálu se ponoříme do procesu ukládání argumentů CSS pomocí Aspose.Tasks for .NET. Cascading Style Sheets (CSS) jsou klíčové pro definování prezentace prvků HTML. Aspose.Tasks nám umožňuje efektivně manipulovat a ukládat tyto CSS atributy.
 
 ## Předpoklady
 
@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Nakonfigurujte možnosti ukládání HTML
+        //Nakonfigurujte možnosti ukládání HTML
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ A3: Aspose.Tasks for .NET podporuje různé verze souborů aplikace Microsoft Pr
 
 ### Q4: Kde najdu komplexní dokumentaci pro Aspose.Tasks pro .NET?
 
- A4: Můžete odkazovat na[dokumentace](https://reference.aspose.com/tasks/net/) pro podrobné informace a příklady.
+A4: Můžete odkazovat na[dokumentace](https://reference.aspose.com/tasks/net/) pro podrobné informace a příklady.
 
 ### Q5: Nabízí Aspose.Tasks for .NET podporu pro vývojáře?
 

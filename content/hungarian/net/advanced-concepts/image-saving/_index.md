@@ -1,6 +1,6 @@
 ---
-title: A képmentés kezelése az Aspose.Tasks programban
-linktitle: A képmentés kezelése az Aspose.Tasks programban
+title: képmentés kezelése az Aspose.Tasks programban
+linktitle: képmentés kezelése az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti a képmentést az Aspose.Tasks for .NET-ben a lépésenkénti útmutatók segítségével. Zökkenőmentesen integrálja a képmentési funkciókat .NET-alkalmazásaiba.
 type: docs

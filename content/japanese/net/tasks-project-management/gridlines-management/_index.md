@@ -13,7 +13,7 @@ url: /ja/net/tasks-project-management/gridlines-management/
 始める前に、次の前提条件が設定されていることを確認してください。
 ### 1. Aspose.Tasks for .NET をインストールする
 Aspose.Tasks for .NET を使用するには、開発環境に Aspose.Tasks をインストールする必要があります。ライブラリはからダウンロードできます。[Webサイト](https://releases.aspose.com/tasks/net/)または、NuGet などのパッケージ マネージャー経由で。
-### 2.開発環境
+### 2. 開発環境
 マシン上に .NET 開発環境がセットアップされていることを確認してください。 Visual Studio またはその他の任意の .NET IDE を使用できます。
 ## 名前空間のインポート
 コードに入る前に、Aspose.Tasks 機能にアクセスするために必要な名前空間をインポートしましょう。
@@ -34,7 +34,7 @@ using Aspose.Tasks.Visualization;
 string dataDir = "Your Document Directory";
 var project = new Project(dataDir + "Project2.mpp");
 ```
-このステップでは、次のコマンドを使用してプロジェクト ファイル「Project2.mpp」をロードします。`Project`Aspose.Tasks によって提供されるクラス。
+このステップでは、次のコマンドを使用してプロジェクト ファイル「Project2.mpp」をロードします。`Project` Aspose.Tasks によって提供されるクラス。
 ## ステップ 2: ガント チャート ビューにアクセスする
 ```csharp
 var view = (GanttChartView)project.Views.ToList()[0];
@@ -68,4 +68,4 @@ A: もちろんです。 Aspose.Tasks には、線の太さ、スタイルなど
 ### Q: プロジェクトのパラメータや条件に基づいてグリッドラインを調整するプロセスを自動化できますか?
 A: 確かに。 Aspose.Tasks を使用すると、プロジェクト データまたはユーザー定義の基準に基づいてグリッドライン設定を動的に調整するロジックを組み込むことができます。
 ### Q: Aspose.Tasks for .NET のその他のリソースとサポートはどこで入手できますか?
- A: を探索できます。[ドキュメンテーション](https://reference.aspose.com/tasks/net/)包括的なガイドについては、次のサイトをご覧ください。[サポートフォーラム](https://forum.aspose.com/c/tasks/15)支援を求めるか、[仮免許証](https://purchase.aspose.com/temporary-license/)拡張評価用。
+ A: を探索できます。[ドキュメンテーション](https://reference.aspose.com/tasks/net/)包括的なガイドについては、次のサイトをご覧ください。[サポートフォーラム](https://forum.aspose.com/c/tasks/15)支援を求めるか、[仮免許](https://purchase.aspose.com/temporary-license/)拡張評価用。

@@ -32,7 +32,7 @@ url: /el/net/rate-recurring-tasks/recurring-intervals/
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Εδώ, αρχικοποιούμε μια νέα παρουσία του`Project` τάξη παρέχοντας τη διαδρομή προς το αρχείο Microsoft Project.
+ Εδώ, αρχικοποιούμε μια νέα παρουσία του`Project` τάξη παρέχοντας τη διαδρομή προς το αρχείο Microsoft Project.
 ## Βήμα 2: Ορισμός ημερομηνίας κατάστασης:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

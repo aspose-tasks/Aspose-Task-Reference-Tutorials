@@ -12,7 +12,7 @@ Ki szeretné használni a Microsoft Project körvonalmaszkjainak erejét az Aspo
 ## Előfeltételek
 Mielőtt belevágna ebbe az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 ### 1. Az Aspose.Tasks telepítése .NET-hez
- Győződjön meg arról, hogy az Aspose.Tasks for .NET telepítve van a fejlesztői környezetében. A könyvtár letölthető az Aspose webhelyéről[itt](https://releases.aspose.com/tasks/net/).
+Győződjön meg arról, hogy az Aspose.Tasks for .NET telepítve van a fejlesztői környezetében. A könyvtár letölthető az Aspose webhelyéről[itt](https://releases.aspose.com/tasks/net/).
 ### 2. C# és .NET Framework alapismeretek
 Ismerkedjen meg a C# programozási nyelvvel és a .NET-keretrendszerrel, mivel ez az oktatóanyag mindkettőt felhasználja.
 ### 3. Microsoft Project File
@@ -36,7 +36,7 @@ var project = new Project(DataDir + "OutlineValues2010.mpp");
 ```csharp
 var outline = project.OutlineCodes[0];
 ```
-A vázlatkódokat a projektből érjük el. A vázlatkódok a Microsoft Project egyéni mezői, amelyek lehetővé teszik a feladatok kategorizálását és rendszerezését.
+vázlatkódokat a projektből érjük el. A vázlatkódok a Microsoft Project egyéni mezői, amelyek lehetővé teszik a feladatok kategorizálását és rendszerezését.
 ## 3. lépés: Tisztítsa meg a körvonalmaszkokat
 ```csharp
 if (outline.Masks.Count > 0)
@@ -97,7 +97,7 @@ foreach (var maskToAdd in masks)
 ```
 Végül átmásoljuk a vázlatmaszkokat egyik projektről a másikra, biztosítva a konzisztenciát a különböző projektek között.
 ## Következtetés
-Gratulálunk! Sikeresen megtanulta az MS Project gyűjteményvázlat-maszkjainak kezelését az Aspose.Tasks for .NET használatával. Ha követi ezt az oktatóanyagot, most már rendelkezik azokkal a készségekkel, amelyekkel hatékonyan kezelheti a vázlatmaszkokat a projektekben, ami végső soron javítja a termelékenységet és a munkafolyamatot.
+Gratulálunk! Sikeresen megtanulta az MS Project gyűjteményvázlat-maszkjainak kezelését az Aspose.Tasks for .NET használatával. Ennek az oktatóanyagnak a követésével most már rendelkezik azokkal a készségekkel, amelyekkel hatékonyan kezelheti a vázlatmaszkokat a projektekben, ami végső soron javítja a termelékenységet és a munkafolyamatot.
 ## GYIK
 ### 1. kérdés: Használhatom az Aspose.Tasks for .NET programot a Microsoft Project fájlok különböző verzióival?
 V: Igen, az Aspose.Tasks for .NET támogatja a Microsoft Project fájlok különféle verzióit, beleértve az MPP, MPT és XML formátumokat.
@@ -108,4 +108,4 @@ V: Abszolút! A vázlatmaszkokat testreszabhatja a hosszuk, szintjük, elválasz
 ### 4. kérdés: Az Aspose.Tasks for .NET biztosít dokumentációt és támogatást?
 V: Igen, az Aspose.Tasks for .NET átfogó dokumentációt és dedikált támogatást kínál webhelyükön és[fórumok](https://forum.aspose.com/c/tasks/15).
 ### 5. kérdés: Elérhető ingyenes próbaverzió az Aspose.Tasks for .NET számára?
- V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez az ő webhelyükről[weboldal](https://releases.aspose.com/tasks/net/), hogy vásárlás előtt felfedezze a szolgáltatásait és funkcióit.
+ V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez az ő webhelyükről[weboldal](https://releases.aspose.com/tasks/net/). hogy vásárlás előtt felfedezze a szolgáltatásait és funkcióit.

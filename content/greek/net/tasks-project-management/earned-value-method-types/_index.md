@@ -52,4 +52,4 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 ### Ε: Το Aspose.Tasks για .NET υποστηρίζει προσωρινές άδειες χρήσης;
  Α: Ναι, είναι διαθέσιμες προσωρινές άδειες χρήσης για το Aspose.Tasks για .NET. Μπορείτε να τα προμηθευτείτε από:[Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/)
 ### Ε: Πού μπορώ να αγοράσω το Aspose.Tasks για .NET;
- Α: Μπορείτε να αγοράσετε το Aspose.Tasks για .NET από τον ιστότοπο:[αγορά](https://purchase.aspose.com/buy).
+ Α: Μπορείτε να αγοράσετε το Aspose.Tasks για .NET από τον ιστότοπο:[Αγορά](https://purchase.aspose.com/buy).

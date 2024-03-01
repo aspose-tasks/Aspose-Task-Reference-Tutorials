@@ -50,9 +50,9 @@ En conclusión, Aspose.Tasks para .NET permite a los desarrolladores manejar sin
 ### ¿Aspose.Tasks es compatible con todos los formatos de archivos de gestión de proyectos?
  Aspose.Tasks admite varios formatos de archivos de proyectos, incluidos MPP, XML y más. Referirse a[documentación](https://reference.aspose.com/tasks/net/) para obtener una lista completa.
 ### ¿Puedo probar Aspose.Tasks antes de comprar?
-Sí, puedes explorar Aspose.Tasks con una prueba gratuita. Descárgalo desde el[página de lanzamiento](https://releases.aspose.com/).
+ Sí, puedes explorar Aspose.Tasks con una prueba gratuita. Descárgalo desde el[página de lanzamiento](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar soporte adicional para Aspose.Tasks?
- visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoyo y debates de la comunidad.
+ Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoyo y debates de la comunidad.
 ### ¿Cómo obtengo una licencia temporal para Aspose.Tasks?
  Adquiera una licencia temporal para Aspose.Tasks visitando el[página de licencia temporal](https://purchase.aspose.com/temporary-license/).
 ### ¿Qué beneficios ofrece Aspose.Tasks para el manejo de unidades de trabajo?

@@ -129,7 +129,7 @@ foreach (var childTask in otherChildTasks)
 ## 결론
 .NET용 Aspose.Tasks를 사용하면 WBS 코드 관리가 손쉬운 작업이 됩니다. 이 튜토리얼에서는 WBS 코드 마스크의 생성, 조작 및 전송을 다루며 프로젝트 관리 경험을 향상시키기 위한 포괄적인 가이드를 제공합니다.
 ## 자주 묻는 질문
-### Q: Aspose.Tasks for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있나요?
+### Q: Aspose.Tasks for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있습니까?
 A: Aspose.Tasks는 주로 .NET 언어를 지원하지만 다른 언어와의 상호 운용성 옵션을 탐색할 수도 있습니다.
 ### Q: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
  A: 예, 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).

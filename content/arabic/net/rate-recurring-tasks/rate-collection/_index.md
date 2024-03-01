@@ -1,5 +1,5 @@
 ---
-title: إتقان أسعار مشروع MS مع Aspose.Tasks
+title: إتقان أسعار مشروع MS باستخدام Aspose.Tasks
 linktitle: جمع الأسعار في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية إدارة الأسعار في ملفات MS Project باستخدام Aspose.Tasks لـ .NET. برنامج تعليمي خطوة بخطوة لإدارة الموارد بشكل فعال.

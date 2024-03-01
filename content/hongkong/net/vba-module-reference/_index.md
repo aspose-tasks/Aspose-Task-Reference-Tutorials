@@ -10,11 +10,11 @@ url: /zh-hant/net/vba-module-reference/
 
 ## 在 Aspose.Tasks 中管理 VBA 模組
 
-使用 Aspose.Tasks for .NET 釋放 Microsoft Project 檔案的潛力。在本教程中，我們將引導您完成無縫管理[VBA模組](./managing-vba-modules/),透過逐步說明輕鬆增強您的開發工作流程，確保您充分利用 Aspose.Tasks 的強大功能。
+使用 Aspose.Tasks for .NET 釋放 Microsoft Project 檔案的潛力。在本教程中，我們將引導您完成無縫管理[VBA模組](./managing-vba-modules/)。透過逐步說明輕鬆增強您的開發工作流程，確保您充分利用 Aspose.Tasks 的強大功能。
 
 ## Aspose.Tasks 中 VBA 模組屬性的集合
 
-當我們探索複雜的世界時，深入研究 Aspose.Tasks for .NET[VBA 模組屬性](./vba-module-attribute-collection/),學習輕鬆管理屬性，增強您的 .NET 專案。我們的教程提供了清晰詳細的指南，確保您掌握專案開發的這一關鍵方面。
+當我們探索複雜的世界時，深入研究 Aspose.Tasks for .NET[VBA 模組屬性](./vba-module-attribute-collection/)。學習輕鬆管理屬性，增強您的 .NET 專案。我們的教程提供了清晰詳細的指南，確保您掌握專案開發的這一關鍵方面。
 
 ## 在 Aspose.Tasks 中管理 VBA 模組集合
 
@@ -24,7 +24,7 @@ url: /zh-hant/net/vba-module-reference/
 
 釋放 Aspose.Tasks for .NET 在管理上的強大功能[VBA專案](./vba-projects/)毫不費力地。我們的教學將引導您完成基本步驟，提供優化專案管理能力的見解。透過為各個級別的開發人員量身定制的綜合指南來提升您的技能。
 
-## 在 Aspose.Tasks 中處理引用 VBA
+## 在 Aspose.Tasks 中處理 VBA 引用
 
 應對處理的複雜性[VBA 參考](./vba-references/)透過我們的綜合教學了解 Aspose.Tasks for .NET。學習無縫閱讀、比較和使用 VBA 參考資料。無論您是經驗豐富的開發人員還是新手，本指南都會為您提供有效利用 VBA 參考的知識。
 
@@ -38,5 +38,5 @@ url: /zh-hant/net/vba-module-reference/
 了解如何在 Aspose.Tasks for .NET 中有效率地管理 VBA 模組集合。無縫整合到您的專案中的逐步指南。
 ### [在 Aspose.Tasks 中使用 VBA 項目](./vba-projects/)
 探索 Aspose.Tasks for .NET 在輕鬆管理 VBA 專案方面的強大功能。透過本逐步指南增強您的專案管理能力。
-### [在 Aspose.Tasks 中處理引用 VBA](./vba-references/)
+### [在 Aspose.Tasks 中處理 VBA 引用](./vba-references/)
 透過我們的綜合教學探索在 Aspose.Tasks .NET 中處理 VBA 參考的強大功能。學習無縫閱讀、比較和使用 VBA 參考資料。

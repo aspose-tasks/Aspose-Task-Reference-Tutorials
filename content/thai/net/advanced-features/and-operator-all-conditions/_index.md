@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- โหลดไฟล์โครงการโดยใช้`Project` ตัวสร้างคลาสระบุเส้นทางของไฟล์
+ โหลดไฟล์โครงการโดยใช้`Project`ตัวสร้างคลาสระบุเส้นทางของไฟล์
 
 ## ขั้นตอนที่ 2: รวบรวมงานโครงการทั้งหมด
 

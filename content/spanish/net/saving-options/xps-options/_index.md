@@ -26,7 +26,7 @@ using Aspose.Tasks.Saving;
 // La ruta al directorio de documentos.
 String DataDir = "Your Document Directory";
 ```
- reemplazar`"Your Document Directory"` con la ruta donde se encuentra su documento MSP.
+ Reemplazar`"Your Document Directory"` con la ruta donde se encuentra su documento MSP.
 ## Paso 2: cargue el documento MSP
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -40,7 +40,7 @@ var options = new XpsOptions
     RenderMetafileAsBitmap = true
 };
 ```
- En este paso, creamos una instancia`XpsOptions` configurar parámetros. Ajustes`RenderMetafileAsBitmap` a`true` Garantiza la representación adecuada de los metarchivos.
+ En este paso, creamos una instancia`XpsOptions` configurar parámetros. Configuración`RenderMetafileAsBitmap` a`true` Garantiza la representación adecuada de los metarchivos.
 ## Paso 4: guarde el documento como XPS
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);

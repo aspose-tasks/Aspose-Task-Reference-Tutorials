@@ -35,7 +35,7 @@ Koda dalmadan önce gerekli ad alanlarını içe aktardığınızdan emin olun:
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## 2. Adım: Kaydetme Seçeneklerini Tanımlayın
- Kaydetme seçeneklerini gereksinimlerinize göre tanımlayın. Bu örnekte, şunu kullanıyoruz,`Spreadsheet2003SaveOptions`:
+ Kaydetme seçeneklerini gereksinimlerinize göre tanımlayın. Bu örnekte, şunu kullanıyoruz:`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -56,15 +56,15 @@ project.Save("Your Document Directory/UsingSpreadsheet2003SaveOptions_out.xml", 
 ```
 
 ## Çözüm
-Aspose.Tasks for .NET ile genel MS Project kaydetme seçeneklerinde uzmanlaşmak, çıktı formatını projenizin ihtiyaçlarına göre verimli bir şekilde özelleştirmenize olanak sağlar.
+Aspose.Tasks for .NET ile genel MS Project kaydetme seçeneklerinde uzmanlaşmak, çıktı formatını projenizin ihtiyaçlarına göre verimli bir şekilde özelleştirmenize olanak tanır.
 ## SSS'ler
 ### S: Aspose.Tasks, MS Project dosyalarının farklı sürümleriyle uyumlu mudur?
 C: Evet, Aspose.Tasks, MS Project dosyalarının çeşitli sürümlerini destekleyerek farklı ortamlar arasında uyumluluk sağlar.
 ### S: Satın almadan önce Aspose.Tasks'ı deneyebilir miyim?
  C: Evet, Aspose.Tasks'ı ücretsiz deneme sürümüyle keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks belgelerini nerede bulabilirim?
-C: Ayrıntılı belgeler bulunabilir[Burada](https://reference.aspose.com/tasks/net/)Aspose.Tasks özelliklerinin kullanımına ilişkin kapsamlı rehberlik sağlar.
+ C: Ayrıntılı belgeler bulunabilir[Burada](https://reference.aspose.com/tasks/net/)Aspose.Tasks özelliklerinin kullanımına ilişkin kapsamlı rehberlik sağlar.
 ### S: Aspose.Tasks için nasıl geçici lisans alabilirim?
- C: Değerlendirme amacıyla geçici lisanslar mevcuttur.[Burada](https://purchase.aspose.com/temporary-license/).
+ C: Değerlendirme amacıyla geçici lisanslar mevcuttur[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks ile ilgili sorgular için nereden destek alabilirim?
- C: Aspose.Tasks topluluk forumuna katılabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15) uzmanlardan ve diğer geliştiricilerden yardım almak.
+ C: Aspose.Tasks topluluk forumuna katılabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15)uzmanlardan ve diğer geliştiricilerden yardım almak.

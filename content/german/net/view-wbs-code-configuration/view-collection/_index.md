@@ -90,8 +90,8 @@ Aspose.Tasks ist so konzipiert, dass es mit verschiedenen .NET Framework-Version
 ### Kann ich das Erscheinungsbild von Gantt-Diagrammansichten anpassen?
 Absolut! Aspose.Tasks bietet umfangreiche Optionen zum Anpassen des Erscheinungsbilds von Gantt-Diagrammansichten an die Anforderungen Ihres Projekts.
 ### Gibt es eine kostenlose Testversion für Aspose.Tasks?
- Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
+Ja, Sie können auf eine kostenlose Testversion zugreifen[Hier](https://releases.aspose.com/).
 ### Wie kann ich Community-Unterstützung für Aspose.Tasks erhalten?
- Treten Sie mit der Aspose.Tasks-Community auf der Website in Kontakt[Forum](https://forum.aspose.com/c/tasks/15) für Fragen oder Hilfe.
+ Nehmen Sie an der Aspose.Tasks-Community teil[Forum](https://forum.aspose.com/c/tasks/15) für Fragen oder Hilfe.
 ### Sind temporäre Lizenzen für Aspose.Tasks verfügbar?
  Ja, entdecken Sie temporäre Lizenzen[Hier](https://purchase.aspose.com/temporary-license/).

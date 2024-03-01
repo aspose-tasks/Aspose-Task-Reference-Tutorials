@@ -74,7 +74,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptions()
         PreserveUids = true
     };
 
-    //设置阅读 Primavera 选项
+    //设置 Primavera 阅读选项
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     //使用指定选项加载 Primavera 项目
@@ -119,7 +119,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
         ProjectUid = 3882 //设置项目 UID
     };
 
-    //设置阅读 Primavera 选项
+    //设置 Primavera 阅读选项
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     //设置自定义错误处理

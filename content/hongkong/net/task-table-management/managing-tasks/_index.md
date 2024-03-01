@@ -11,7 +11,7 @@ url: /zh-hant/net/task-table-management/managing-tasks/
 如果您是 .NET 開發人員，希望有效管理專案中的任務，Aspose.Tasks for .NET 提供了一個強大的解決方案。本教學將指導您完成使用 Aspose.Tasks 管理任務的各個方面，並提供逐步說明和程式碼範例。無論您是新增任務、顯示拆分部分、在同一父級下移動任務、獲取/設定任務屬性、迭代任務分配、讀取任務基線或刪除任務，本指南都能滿足您的要求。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
-1.  Aspose.Tasks for .NET 函式庫：確保您已安裝 Aspose.Tasks for .NET 函式庫。你可以下載它[這裡](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET 函式庫：確保您已安裝 Aspose.Tasks for .NET 函式庫。你可以下載它[這裡](https://releases.aspose.com/tasks/net/).
 2. 文檔目錄：設定儲存項目文檔的目錄。
 ## 導入命名空間
 在您的 .NET 專案中，包含使用 Aspose.Tasks 所需的命名空間：

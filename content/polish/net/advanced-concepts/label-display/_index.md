@@ -9,7 +9,7 @@ url: /pl/net/advanced-concepts/label-display/
 ---
 ## Wstęp
 
-dziedzinie tworzenia oprogramowania efektywne zarządzanie zadaniami jest niezbędne dla powodzenia projektu. Aspose.Tasks dla .NET oferuje solidne rozwiązanie do płynnej obsługi zadań zarządzania projektami w ramach .NET. Jednym z kluczowych aspektów zarządzania projektami jest możliwość dostosowania opcji wyświetlania do konkretnych wymagań. W tym samouczku odkryjemy, jak wykorzystać Aspose.Tasks dla .NET do manipulowania wyświetlaniem etykiet minut, godzin, dni, tygodni, miesięcy i lat w plikach projektu.
+W dziedzinie tworzenia oprogramowania efektywne zarządzanie zadaniami jest niezbędne dla powodzenia projektu. Aspose.Tasks dla .NET oferuje solidne rozwiązanie do płynnej obsługi zadań zarządzania projektami w ramach .NET. Jednym z kluczowych aspektów zarządzania projektami jest możliwość dostosowania opcji wyświetlania do konkretnych wymagań. W tym samouczku odkryjemy, jak wykorzystać Aspose.Tasks dla .NET do manipulowania wyświetlaniem etykiet minut, godzin, dni, tygodni, miesięcy i lat w plikach projektu.
 
 ## Warunki wstępne
 

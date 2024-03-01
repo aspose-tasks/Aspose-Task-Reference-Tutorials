@@ -64,6 +64,6 @@ C: Evet, Aspose.Tasks, MPP, XML ve CSV gibi çeşitli proje yönetimi formatlar�
 ### S: Aspose.Tasks'ı kullanarak MS Project Primavera dosyalarında değişiklik yapabilir ve değişiklikleri kaydedebilir miyim?
 C: Kesinlikle! Aspose.Tasks, .NET uygulamalarınız içerisinde MS Project Primavera dosyalarını yalnızca okumanıza değil, aynı zamanda değiştirmenize ve değişiklikleri kaydetmenize de olanak tanır.
 ### S: Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
- C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/) Bir satın alma işlemi yapmadan önce özelliklerini ve yeteneklerini keşfetmek için.
+ C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünden yararlanabilirsiniz.[Burada](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce özelliklerini ve yeteneklerini keşfetmek için.
 ### S: Aspose.Tasks için nereden destek alabilirim?
- C: Aspose.Tasks ile ilgili sorularınız veya yardım için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)topluluktan veya Aspose destek personelinden yardım alabileceğiniz yer.## Kaynak Kodunu Tamamlayın
+ C: Aspose.Tasks ile ilgili sorularınız veya yardım için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluktan veya Aspose destek personelinden yardım alabileceğiniz yer.## Kaynak Kodunu Tamamlayın

@@ -93,7 +93,7 @@ foreach (var baseline in baselines)
 
 ## Závěr
 
-V tomto tutoriálu jsme prozkoumali, jak pracovat se základními kolekcemi v Aspose.Tasks pro .NET. Podle podrobného průvodce můžete snadno spravovat základní linie ve svých aplikacích .NET, což umožňuje efektivní sledování a analýzu projektů.
+tomto tutoriálu jsme prozkoumali, jak pracovat se základními kolekcemi v Aspose.Tasks pro .NET. Podle tohoto podrobného průvodce můžete snadno spravovat základní linie ve svých aplikacích .NET, což umožňuje efektivní sledování a analýzu projektů.
 
 ## FAQ
 

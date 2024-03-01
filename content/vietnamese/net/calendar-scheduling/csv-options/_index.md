@@ -2,7 +2,7 @@
 title: Tùy chọn CSV trong Aspose.Tasks
 linktitle: Tùy chọn CSV trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách sử dụng Aspose.Tasks để .NET hoạt động hiệu quả với các tệp CSV, nâng cao khả năng quản lý dự án của bạn một cách dễ dàng.
+description: Tìm hiểu cách sử dụng Aspose.Tasks cho .NET để làm việc hiệu quả với các tệp CSV, nâng cao khả năng quản lý dự án của bạn một cách dễ dàng.
 type: docs
 weight: 21
 url: /vi/net/calendar-scheduling/csv-options/
@@ -71,7 +71,7 @@ Câu trả lời 1: Aspose.Tasks for .NET được thiết kế để xử lý h
 
 ### Câu hỏi 2: Có bản dùng thử miễn phí dành cho Aspose.Tasks dành cho .NET không?
 
- Câu trả lời 2: Có, bạn có thể nhận bản dùng thử miễn phí Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/tasks/net/)để đánh giá các tính năng của nó trước khi mua hàng.
+ Câu trả lời 2: Có, bạn có thể nhận bản dùng thử miễn phí Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/tasks/net/) để đánh giá các tính năng của nó trước khi mua hàng.
 
 ### Câu hỏi 3: Aspose.Tasks cho .NET có hỗ trợ nhiều nền tảng không?
 

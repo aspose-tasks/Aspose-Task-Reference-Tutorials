@@ -77,6 +77,6 @@ project.Save(OutDir + "WorkWithViewColumn_out.pdf", options);
 ### Q：購買 Aspose.Tasks 之前是否有試用版？
 答：是的，您可以從以下位置下載免費試用版：[這裡](https://releases.aspose.com/).
 ### 問： 其意義何在？`MyTextStyleCallback` class in the tutorial?
-答： 的`MyTextStyleCallback`此課程示範如何自訂文字樣式以改善特定視圖中的視覺表示。
+答： 的`MyTextStyleCallback`類別示範如何自訂文字樣式以改善特定視圖中的視覺表示。
 ### Q：在哪裡可以找到 Aspose.Tasks 的其他資源和文件？
 答：請參閱[Aspose.Tasks 文檔](https://reference.aspose.com/tasks/net/)以獲得深入的指導和資源。

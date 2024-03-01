@@ -59,7 +59,7 @@ var pattern = new RiskPattern(task);
 ```csharp
 pattern.Distribution = ProbabilityDistributionType.Normal;
 ```
-Rastgele değerler oluşturmak için dağıtım türünü seçin (örneğin, normal veya tekdüze).
+Rastgele değerler oluşturmak için dağıtım türünü seçin (örn. normal veya tekdüze).
 ## Adım 8: İyimser Süreyi Ayarlayın
 ```csharp
 pattern.Optimistic = 70;
@@ -80,7 +80,7 @@ Tahminlerin kesinliğini belirlemek için güven düzeyini ayarlayın.
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Bir başlat`RiskAnalyzer` Projede risk analizini hedefleyin ve gerçekleştirin.
+ Bir başlat`RiskAnalyzer` Proje üzerinde risk analizi yapın ve gerçekleştirin.
 ## Adım 12: Analiz Sonuçlarını Alın
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

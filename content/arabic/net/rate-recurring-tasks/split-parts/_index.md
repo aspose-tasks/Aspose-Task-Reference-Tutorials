@@ -1,6 +1,6 @@
 ---
 title: التعامل مع أجزاء مشروع MS المقسمة في Aspose.Tasks
-linktitle: التعامل مع الأجزاء المقسمة في Aspose.Tasks
+linktitle: التعامل مع الأجزاء المنقسمة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية التعامل مع أجزاء MS Project المقسمة بكفاءة باستخدام Aspose.Tasks لـ .NET. تعزيز سير عمل إدارة المشروع الخاص بك.
 type: docs

@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren Sie die Anzeigeoptionen für MS Project in Aspose.Tasks
-linktitle: Konfigurieren Sie Projektanzeigeoptionen in Aspose.Tasks
+title: Konfigurieren der MS Project-Anzeigeoptionen in Aspose.Tasks
+linktitle: Konfigurieren der Projektanzeigeoptionen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Anzeigeoptionen programmgesteuert mit Aspose.Tasks für .NET konfigurieren. Passen Sie das Erscheinungsbild Ihres Projekts mühelos an.
 type: docs
@@ -15,7 +15,7 @@ Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie über Folgende
 2. Microsoft Project-Datei: Halten Sie eine gültige MS Project-Datei (.mpp) bereit, um die Anzeigeoptionen anzuwenden.
 3. Grundkenntnisse in C#: Vertrautheit mit der Programmiersprache C# ist erforderlich.
 
-## Namespaces importieren
+## Namensräume importieren
 Stellen Sie zunächst sicher, dass Sie die erforderlichen Namespaces in Ihren C#-Code importieren:
 ```csharp
 using Aspose.Tasks;

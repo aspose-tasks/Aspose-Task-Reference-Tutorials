@@ -11,7 +11,7 @@ url: /ja/net/saving-options/mpp-save-options/
 .NET 開発の世界では、プロジェクト ファイルを効率的に管理および操作することが成功に不可欠です。 Aspose.Tasks for .NET は、Microsoft Project ファイル (MPP) を簡単に処理するための強力なソリューションを提供します。その多くの機能の中でも、Aspose.Tasks を使用すると、ユーザーは MS Project のオプションをシームレスに保存でき、ワークフローを合理化し、プロジェクトの整合性を確保できます。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project オプションを保存するプロセスを詳しく説明します。
 ## 前提条件
 始める前に、次の前提条件が満たされていることを確認してください。
-1. Aspose.Tasks for .NET のインストール: Aspose.Tasks for .NET ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET のインストール: Aspose.Tasks for .NET ライブラリをダウンロードしてインストールします。[ここ](https://releases.aspose.com/tasks/net/).
 2. 開発環境: Visual Studio などの .NET 開発環境をセットアップします。
 3. C# の基本的な理解: サンプルを実装するには、C# プログラミング言語に精通していることが不可欠です。
 

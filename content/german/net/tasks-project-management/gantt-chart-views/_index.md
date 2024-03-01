@@ -12,7 +12,7 @@ Gantt-Diagramme sind leistungsstarke Werkzeuge im Projektmanagement zur Visualis
 ## Voraussetzungen
 Bevor Sie fortfahren, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 ### 1. Installation von Aspose.Tasks für .NET
- Stellen Sie sicher, dass Sie Aspose.Tasks für .NET installiert haben. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/tasks/net/)und befolgen Sie die Installationsanweisungen in der Dokumentation[Hier](https://reference.aspose.com/tasks/net/).
+ Stellen Sie sicher, dass Sie Aspose.Tasks für .NET installiert haben. Sie können die Bibliothek herunterladen unter[Hier](https://releases.aspose.com/tasks/net/) und befolgen Sie die Installationsanweisungen in der Dokumentation[Hier](https://reference.aspose.com/tasks/net/).
 ### 2. Microsoft Project-Datei
 Bereiten Sie eine Microsoft Project-Datei vor (`Project2.mpp`), die Sie zum Arbeiten mit Gantt-Diagrammansichten verwenden werden.
 ### 3. Grundkenntnisse in C# und .NET Framework
@@ -75,13 +75,13 @@ Definiert die Farbe für arbeitsfreie Zeit im Gantt-Diagramm.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Geben Sie an, ob Balken im Gantt-Diagramm aufgerollt werden müssen.
+Gibt an, ob Balken im Gantt-Diagramm aufgerollt werden müssen.
 ### Balkenteilungen anzeigen
 ```csharp
 view.ShowBarSplits = true;
 ```
 Legt fest, ob Aufgabenaufteilungen im Gantt-Diagramm angezeigt werden müssen.
-### Zeichnungen zeigen
+### Zeichnungen anzeigen
 ```csharp
 view.ShowDrawings = true;
 ```

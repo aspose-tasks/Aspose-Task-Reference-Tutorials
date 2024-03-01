@@ -41,7 +41,7 @@ var project = new Project("Project2.mpp");
 
  먼저 프로젝트 파일을 애플리케이션에 로드해야 합니다. 우리는 새로운 것을 만듭니다`Project` 개체를 만들고 프로젝트 파일의 경로로 초기화합니다.
 
-## 2단계: 리소스에 액세스
+## 2단계: 리소스 액세스
 
 ```csharp
 var resource = project.Resources.GetById(1);
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- 여기서는 리소스에 대한 비용 발생 유형을 설정합니다. 이 예에서는 다음과 같이 설정합니다.`CostAccrualType.End`즉, 남은 작업 시간이 0이 될 때까지 비용이 발생하지 않는다는 의미입니다.
+여기서는 리소스에 대한 비용 발생 유형을 설정합니다. 이 예에서는 다음과 같이 설정합니다.`CostAccrualType.End`즉, 남은 작업 시간이 0이 될 때까지 비용이 발생하지 않는다는 의미입니다.
 
 ## 4단계: 프로젝트 작업
 
@@ -63,7 +63,7 @@ resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 
 ## 결론
 
-효과적인 프로젝트 비용 관리를 위해서는 비용 발생 유형을 이해하고 구현하는 것이 필수적입니다. Aspose.Tasks for .NET을 사용하면 프로젝트 요구 사항에 따라 비용 발생 유형을 쉽게 정의하고 사용자 정의할 수 있으므로 프로젝트 수명 주기 전반에 걸쳐 정확한 비용 추적 및 예산 관리가 보장됩니다.
+효과적인 프로젝트 비용 관리를 위해서는 비용 발생 유형을 이해하고 구현하는 것이 필수적입니다. Aspose.Tasks for .NET을 사용하면 프로젝트 요구 사항에 따라 비용 발생 유형을 쉽게 정의하고 사용자 정의할 수 있으므로 프로젝트 수명 주기 전반에 걸쳐 정확한 비용 추적 및 예산 제어가 보장됩니다.
 
 ## FAQ
 
@@ -73,7 +73,7 @@ A1: 예, 리소스 수집을 반복하고 각 리소스에 대한 비용 발생 
 
 ### Q2: '종료' 외에 사용 가능한 비용 발생 유형은 무엇입니까?
 
- A2: .NET용 Aspose.Tasks는 다음과 같은 몇 가지 다른 비용 발생 유형을 제공합니다.`Start`, `Prorated` ,그리고`Duration`.
+A2: .NET용 Aspose.Tasks는 다음과 같은 몇 가지 다른 비용 발생 유형을 제공합니다.`Start`, `Prorated` , 그리고`Duration`.
 
 ### Q3: 자원의 현재 비용 발생 유형을 어떻게 확인할 수 있습니까?
 

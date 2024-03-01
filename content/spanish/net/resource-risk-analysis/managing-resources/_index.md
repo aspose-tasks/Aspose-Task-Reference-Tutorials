@@ -12,7 +12,7 @@ Administrar los recursos de manera eficiente es crucial en la gestión de proyec
 ## Requisitos previos
 Antes de comenzar, asegúrese de tener implementados los siguientes requisitos previos:
 ### 1. Instalación de Aspose.Tasks para .NET
- En primer lugar, debe tener Aspose.Tasks para .NET instalado en su entorno de desarrollo. Puedes descargar la biblioteca desde[Sitio web de Aspose.Tasks](https://releases.aspose.com/tasks/net/) y siga las instrucciones de instalación proporcionadas.
+ En primer lugar, debe tener instalado Aspose.Tasks para .NET en su entorno de desarrollo. Puedes descargar la biblioteca desde[Sitio web de Aspose.Tasks](https://releases.aspose.com/tasks/net/) y siga las instrucciones de instalación proporcionadas.
 ### 2. Configurar su entorno de desarrollo
 Asegúrese de tener configurado un entorno de desarrollo compatible, como Visual Studio o cualquier otro IDE que admita el desarrollo .NET.
 ### 3. Comprensión básica del lenguaje de programación C#
@@ -32,7 +32,7 @@ Para comenzar, importe los espacios de nombres necesarios a su proyecto C#:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- reemplazar`"Your Document Directory"` con la ruta real a su directorio de documentos.
+ Reemplazar`"Your Document Directory"` con la ruta real a su directorio de documentos.
 ## Paso 2: crear una nueva instancia de proyecto
 ```csharp
 var project = new Project();
@@ -61,4 +61,4 @@ R: Por supuesto, Aspose.Tasks para .NET ofrece una amplia funcionalidad para per
 ### P: ¿Aspose.Tasks para .NET admite la exportación de datos del proyecto a formatos distintos de XML?
 R: Sí, Aspose.Tasks para .NET admite la exportación de datos del proyecto a una variedad de formatos, incluidos MPP, PDF, XLSX y HTML, entre otros.
 ### P: ¿Dónde puedo encontrar más ayuda o soporte para Aspose.Tasks para .NET?
-R: Para obtener más ayuda o soporte, puede visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o referirse a la[documentación](https://reference.aspose.com/tasks/net/) proporcionado por Aspose.
+ R: Para obtener más ayuda o soporte, puede visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o referirse a la[documentación](https://reference.aspose.com/tasks/net/) proporcionado por Aspose.

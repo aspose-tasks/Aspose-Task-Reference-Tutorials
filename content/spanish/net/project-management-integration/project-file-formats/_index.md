@@ -49,6 +49,6 @@ R: Sí, Aspose.Tasks es compatible tanto con .NET Framework como con .NET Core.
 ### P: ¿Puedo manipular datos del proyecto usando Aspose.Tasks?
 R: Por supuesto, Aspose.Tasks proporciona una amplia funcionalidad para manipular los datos del proyecto, como agregar tareas, recursos y actualizar las propiedades del proyecto.
 ### P: ¿Aspose.Tasks ofrece soporte para campos de proyectos personalizados?
-R: Sí, puede trabajar con campos de proyecto personalizados usando Aspose.Tasks y realizar operaciones como agregar, actualizar o eliminar campos personalizados.
+R: Sí, puede trabajar con campos de proyecto personalizados utilizando Aspose.Tasks y realizar operaciones como agregar, actualizar o eliminar campos personalizados.
 ### P: ¿Puedo generar informes de proyectos usando Aspose.Tasks?
 R: Sí, Aspose.Tasks le permite generar varios tipos de informes de proyectos mediante programación.

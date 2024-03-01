@@ -35,7 +35,7 @@ Aspose.Tasks для .NET предлагает мощные функции для
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## Шаг 2. Определите параметры сохранения
- Определите параметры экономии в соответствии с вашими требованиями. В этом примере мы используем`Spreadsheet2003SaveOptions`:
+ Определите параметры сохранения в соответствии с вашими требованиями. В этом примере мы используем`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -61,10 +61,10 @@ project.Save("Your Document Directory/UsingSpreadsheet2003SaveOptions_out.xml", 
 ### Вопрос: Совместим ли Aspose.Tasks с различными версиями файлов MS Project?
 О: Да, Aspose.Tasks поддерживает различные версии файлов MS Project, обеспечивая совместимость в различных средах.
 ### Вопрос: Могу ли я попробовать Aspose.Tasks перед покупкой?
- О: Да, вы можете изучить Aspose.Tasks с доступной бесплатной пробной версией.[здесь](https://releases.aspose.com/).
+ О: Да, вы можете изучить Aspose.Tasks, воспользовавшись бесплатной пробной версией.[здесь](https://releases.aspose.com/).
 ### Вопрос: Где я могу найти документацию для Aspose.Tasks?
-О: Подробную документацию можно найти[здесь](https://reference.aspose.com/tasks/net/), предоставляющий подробные рекомендации по использованию функций Aspose.Tasks.
+ О: Подробную документацию можно найти[здесь](https://reference.aspose.com/tasks/net/), предоставляющий подробные рекомендации по использованию функций Aspose.Tasks.
 ### Вопрос: Как я могу получить временные лицензии для Aspose.Tasks?
  О: Временные лицензии доступны для ознакомительных целей.[здесь](https://purchase.aspose.com/temporary-license/).
 ### Вопрос: Где я могу получить поддержку по запросам, связанным с Aspose.Tasks?
- О: Вы можете присоединиться к форуму сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15) получить помощь от экспертов и коллег-разработчиков.
+ О: Вы можете присоединиться к форуму сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15)получить помощь от экспертов и коллег-разработчиков.

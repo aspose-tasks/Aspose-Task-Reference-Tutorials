@@ -1,6 +1,6 @@
 ---
 title: Dostosuj ustawienia widoku strony MS Project w Aspose.Tasks
-linktitle: Skonfiguruj ustawienia widoku strony w Aspose.Tasks
+linktitle: Konfigurowanie ustawień widoku strony w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować ustawienia widoku strony w Aspose.Tasks dla .NET, aby dostosować format drukowania dokumentów Microsoft Project.
 type: docs
@@ -8,7 +8,7 @@ weight: 21
 url: /pl/net/outline-code-page-settings/page-view-settings/
 ---
 ## Wstęp
-Microsoft Project to potężne narzędzie do zarządzania projektami, ale czasami trzeba dostosować sposób przeglądania i drukowania projektu. Dzięki Aspose.Tasks dla .NET możesz łatwo skonfigurować ustawienia widoku strony, aby spełnić Twoje specyficzne wymagania. W tym samouczku przeprowadzimy Cię przez ten proces krok po kroku.
+Microsoft Project to potężne narzędzie do zarządzania projektami, ale czasami trzeba dostosować sposób przeglądania i drukowania projektu. Dzięki Aspose.Tasks dla .NET możesz łatwo skonfigurować ustawienia widoku strony, aby spełnić Twoje specyficzne wymagania. W tym samouczku przeprowadzimy Cię krok po kroku przez ten proces.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 1.  Aspose.Tasks dla .NET: Upewnij się, że pobrałeś i zainstalowałeś bibliotekę Aspose.Tasks dla .NET. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
@@ -64,7 +64,7 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 ```
 
 ## Wniosek
-Konfigurowanie ustawień widoku strony Microsoft Project w Aspose.Tasks dla .NET jest proste i pozwala dostosować format wydruku do Twoich potrzeb. Wykonując kroki opisane w tym samouczku, możesz mieć pewność, że dokumenty projektu są prezentowane dokładnie zgodnie z wymaganiami.
+Konfigurowanie ustawień widoku strony Microsoft Project w Aspose.Tasks dla .NET jest proste i pozwala dostosować format wydruku do Twoich dokładnych potrzeb. Wykonując kroki opisane w tym samouczku, możesz mieć pewność, że dokumenty projektu są prezentowane dokładnie zgodnie z wymaganiami.
 ## Często zadawane pytania
 ### P: Czy mogę skonfigurować ustawienia widoku strony dla innych formatów plików oprócz PDF?
 O: Tak, Aspose.Tasks obsługuje różne formaty plików do zapisywania projektów, w tym XLSX, MPP i HTML.
@@ -75,4 +75,4 @@ O: Tak, możesz dostosować ustawienia widoku strony niezależnie dla każdego p
 ### P: Czy Aspose.Tasks jest kompatybilny ze wszystkimi wersjami Microsoft Project?
 Odp.: Aspose.Tasks zapewnia kompatybilność z Microsoft Project 2003 i nowszymi wersjami.
 ### P: Gdzie mogę znaleźć dalszą pomoc lub wsparcie dla Aspose.Tasks?
- O: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) przypadku jakichkolwiek pytań lub problemów napotkanych podczas użytkowania.
+ O: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) w przypadku jakichkolwiek pytań lub problemów napotkanych podczas użytkowania.

@@ -12,7 +12,7 @@ Stai cercando di sfruttare la potenza delle maschere di contorno di Microsoft Pr
 ## Prerequisiti
 Prima di immergerti in questo tutorial, assicurati di avere i seguenti prerequisiti:
 ### 1. Installazione di Aspose.Tasks per .NET
- Assicurati di avere Aspose.Tasks per .NET installato nel tuo ambiente di sviluppo. È possibile scaricare la libreria dal sito Web Aspose[Qui](https://releases.aspose.com/tasks/net/).
+Assicurati di avere Aspose.Tasks per .NET installato nel tuo ambiente di sviluppo. È possibile scaricare la libreria dal sito Web Aspose[Qui](https://releases.aspose.com/tasks/net/).
 ### 2. Conoscenza di base di C# e .NET Framework
 Acquisisci familiarità con il linguaggio di programmazione C# e .NET Framework, poiché questo tutorial utilizzerà entrambi.
 ### 3. File di progetto Microsoft
@@ -108,4 +108,4 @@ R: Assolutamente! Puoi personalizzare le maschere di contorno regolandone la lun
 ### Q4: Aspose.Tasks per .NET fornisce documentazione e supporto?
 R: Sì, Aspose.Tasks per .NET offre documentazione completa e supporto dedicato attraverso il proprio sito Web e[forum](https://forum.aspose.com/c/tasks/15).
 ### Q5: È disponibile una prova gratuita per Aspose.Tasks per .NET?
- R: Sì, puoi accedere a una prova gratuita di Aspose.Tasks per .NET dal loro[sito web](https://releases.aspose.com/tasks/net/), per esplorarne caratteristiche e funzionalità prima di effettuare un acquisto.
+ R: Sì, puoi accedere a una prova gratuita di Aspose.Tasks per .NET dal loro[sito web](https://releases.aspose.com/tasks/net/). per esplorarne caratteristiche e funzionalità prima di effettuare un acquisto.

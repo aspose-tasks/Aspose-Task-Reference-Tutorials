@@ -75,4 +75,4 @@ C: Evet, üzerinde çalıştığınız her proje dosyası için sayfa görüntü
 ### S: Aspose.Tasks Microsoft Project'in tüm sürümleriyle uyumlu mu?
 C: Aspose.Tasks, Microsoft Project 2003 ve sonraki sürümlerle uyumluluk sunar.
 ### S: Aspose.Tasks için nereden daha fazla yardım veya destek bulabilirim?
- C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)Kullanım sırasında karşılaştığınız her türlü soru veya sorun için.
+ C: Ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Kullanım sırasında karşılaştığınız her türlü soru veya sorun için.

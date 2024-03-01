@@ -14,7 +14,7 @@ Készen áll arra, hogy a következő szintre emelje Aspose.Tasks for .NET kész
 
 ## A képmentés kezelése az Aspose.Tasks programban
 
-Ismerje meg a képmentés kezelésének művészetét az Aspose.Tasks for .NET-ben lépésenkénti útmutatóinkkal. Zökkenőmentesen integrálja a képmentő funkciókat .NET-alkalmazásaiba, javítva a projektadatok vizuális megjelenítését.[Olvass tovább](./image-saving/)
+ Ismerje meg a képmentés kezelésének művészetét az Aspose.Tasks for .NET-ben lépésenkénti útmutatóinkkal. Zökkenőmentesen integrálja a képmentő funkciókat .NET-alkalmazásaiba, javítva a projektadatok vizuális megjelenítését.[Olvass tovább](./image-saving/)
 
 ## Érvénytelen jelszó-kivétel kezelése az Aspose.Tasks-ban
 
@@ -22,11 +22,11 @@ Ismerje meg a képmentés kezelésének művészetét az Aspose.Tasks for .NET-b
 
 ## Az oldalmentés visszahívásának megvalósítása az Aspose.Tasks programban
 
- Használja ki a többoldalas dokumentum-kimeneti adatfolyamok testreszabott kezelésében rejlő lehetőségeket. Ismerje meg, hogyan valósíthat meg oldalmentő visszahívást az Aspose.Tasks for .NET-ben, amely lehetővé teszi a projektadatok megjelenítésének ellenőrzését.[Olvass tovább](./page-saving-callback/)
+Használja ki a többoldalas dokumentum-kimeneti adatfolyamok testreszabott kezelésében rejlő lehetőségeket. Ismerje meg, hogyan valósíthat meg oldalmentő visszahívást az Aspose.Tasks for .NET-ben, amely lehetővé teszi a projektadatok megjelenítésének ellenőrzését.[Olvass tovább](./page-saving-callback/)
 
 ## Fa-algoritmus használata az Aspose.Tasks-ban
 
-Az Aspose.Tasks' Tree Algorithm segítségével hatékonyan kezelheti a feladathierarchiákat a .NET-projektekben. Ez az oktatóanyag lehetővé teszi a projektstruktúrák optimalizálását, biztosítva a zökkenőmentes és szervezett munkafolyamatot.[Olvass tovább](./tree-algorithm/)
+ Az Aspose.Tasks' Tree Algorithm segítségével hatékonyan kezelheti a feladathierarchiákat a .NET-projektekben. Ez az oktatóanyag lehetővé teszi a projektstruktúrák optimalizálását, biztosítva a zökkenőmentes és szervezett munkafolyamatot.[Olvass tovább](./tree-algorithm/)
 
 ## Címkék megjelenítése az Aspose.Tasks-ban
 
@@ -38,11 +38,11 @@ Az Aspose.Tasks' Tree Algorithm segítségével hatékonyan kezelheti a feladath
 
 ## A havi ismétlődési minták kezelése az Aspose.Tasks-ban
 
- Sajátítsa el a havi ismétlődési minták kezelésének művészetét az Aspose.Tasks for .NET-ben. Ez az oktatóanyag lépésről lépésre nyújt útmutatót a projektekben ismétlődő feladatok hatékony kezeléséhez.[Olvass tovább](./monthly-recurrence-patterns/)
+Sajátítsa el a havi ismétlődési minták kezelésének művészetét az Aspose.Tasks for .NET-ben. Ez az oktatóanyag lépésről lépésre nyújt útmutatót a projektekben ismétlődő feladatok hatékony kezeléséhez.[Olvass tovább](./monthly-recurrence-patterns/)
 
 ## A Microsoft Project Database beállításai az Aspose.Tasks alkalmazásban
 
- Microsoft Project adatbázis-beállításait zökkenőmentesen konfigurálja az Aspose.Tasks for .NET segítségével. Könnyedén integrálhatja a projektadatokat .NET-alkalmazásaiba, optimalizálva projektkezelési képességeit.[Olvass tovább](./msp-database-settings/)
+ A Microsoft Project adatbázis-beállításait zökkenőmentesen konfigurálja az Aspose.Tasks for .NET segítségével. Könnyedén integrálhatja a projektadatokat .NET-alkalmazásaiba, optimalizálva projektkezelési képességeit.[Olvass tovább](./msp-database-settings/)
 
 ## A NOT művelet használata az Aspose.Tasks-ban
 
@@ -54,11 +54,11 @@ Az Aspose.Tasks' Tree Algorithm segítségével hatékonyan kezelheti a feladath
 
 ## Munka OLE-objektumokkal az Aspose.Tasks-ban
 
- Hatékonyan dolgozhat az OLE objektumokkal .NET-alkalmazásokban az Aspose.Tasks használatával. Növelje projektkezelési képességeit az OLE-objektumok kezelésének elsajátításával, és új dimenziót ad a projektdokumentumokhoz.[Olvass tovább](./ole-objects/)
+Hatékonyan dolgozhat az OLE objektumokkal .NET-alkalmazásokban az Aspose.Tasks használatával. Növelje projektkezelési képességeit az OLE-objektumok kezelésének elsajátításával, és új dimenziót ad a projektdokumentumokhoz.[Olvass tovább](./ole-objects/)
 
 ## OLE-objektumok gyűjteménye az Aspose.Tasks-ban
 
-Ezzel az átfogó oktatóanyaggal kezelheti az OLE objektumokat az Aspose.Tasks for .NET-ben. Szerezzen szakértelmet a projektdokumentumokon belüli beágyazott fájlok kezelésében, biztosítva az OLE objektumok projektekbe való zökkenőmentes integrációját.[Olvass tovább](./ole-object-collection/)
+ Ezzel az átfogó oktatóanyaggal kezelheti az OLE objektumokat az Aspose.Tasks for .NET-ben. Szerezzen szakértelmet a projektdokumentumokon belüli beágyazott fájlok kezelésében, biztosítva az OLE objektumok projektekbe való zökkenőmentes integrációját.[Olvass tovább](./ole-object-collection/)
 ## Speciális fogalmak oktatóanyagok
 ### [A képmentés kezelése az Aspose.Tasks programban](./image-saving/)
 Ismerje meg, hogyan kezelheti a képmentést az Aspose.Tasks for .NET-ben a lépésenkénti útmutatók segítségével. Zökkenőmentesen integrálja a képmentési funkciókat .NET-alkalmazásaiba.

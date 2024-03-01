@@ -9,7 +9,7 @@ url: /sv/net/advanced-features/working-with-assignment/
 ---
 ## Introduktion
 
-den här handledningen kommer vi att utforska hur man arbetar med uppgifter i Aspose.Tasks för .NET. Uppdrag är avgörande i projektledning eftersom de allokerar resurser till uppgifter, hjälper till att schemalägga och spåra framsteg. Vi kommer att fokusera på att generera resurstilldelning tidsfasad data med olika konturer med hjälp av Aspose.Tasks.
+I den här handledningen kommer vi att utforska hur man arbetar med uppgifter i Aspose.Tasks för .NET. Uppdrag är avgörande i projektledning eftersom de allokerar resurser till uppgifter, hjälper till att schemalägga och spåra framsteg. Vi kommer att fokusera på att generera resurstilldelning tidsfasad data med olika konturer med hjälp av Aspose.Tasks.
 
 ## Förutsättningar
 
@@ -86,7 +86,7 @@ resourceAssignment.Set(Asn.WorkContour, WorkContourType.Turtle);
 
 ## Slutsats
 
-I den här handledningen har vi lärt oss hur man arbetar med uppgifter i Aspose.Tasks för .NET. Vi utforskade att generera resurstilldelning tidsfasad data med olika konturer. Denna kunskap kan vara oerhört användbar i scenarier för projektledning.
+den här handledningen har vi lärt oss hur man arbetar med uppgifter i Aspose.Tasks för .NET. Vi utforskade att generera resurstilldelning tidsfasad data med olika konturer. Denna kunskap kan vara oerhört användbar i scenarier för projektledning.
 
 ## FAQ's
 
@@ -108,4 +108,4 @@ S4: Ja, som visas i denna handledning kan du ställa in olika konturer som sköl
 
 ### F5: Var kan jag hitta stöd för Aspose.Tasks-relaterade frågor?
 
- S5: Du kan hitta support på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) där experter och samhällsmedlemmar aktivt engagerar sig i diskussioner.
+S5: Du kan hitta support på[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) där experter och samhällsmedlemmar aktivt engagerar sig i diskussioner.

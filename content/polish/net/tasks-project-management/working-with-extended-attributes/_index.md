@@ -38,7 +38,7 @@ Zdefiniuj ścieżkę do katalogu, w którym znajduje się plik MS Project:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
+ Zastępować`"Your Document Directory"` z rzeczywistą ścieżką do katalogu dokumentów.
 ## Krok 2: Załaduj plik projektu
  Załaduj plik MS Project za pomocą`Project` klasa:
 ```csharp

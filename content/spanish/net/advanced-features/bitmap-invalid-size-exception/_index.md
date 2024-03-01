@@ -9,7 +9,7 @@ url: /es/net/advanced-features/bitmap-invalid-size-exception/
 ---
 ## Introducción
 
-En este tutorial profundizaremos en el manejo del`BitmapInvalidSizeException` cuando se trabaja con Aspose.Tasks para .NET. Aspose.Tasks es una poderosa biblioteca que permite a los desarrolladores manipular archivos de Microsoft Project mediante programación, permitiendo tareas como guardar proyectos como imágenes. Sin embargo, ocasionalmente, al intentar guardar un proyecto como imagen, podemos encontrarnos con un`Invalid Size Exception` relacionado con el mapa de bits. Este tutorial tiene como objetivo guiarlo a través del proceso de detectar y manejar esta excepción de manera efectiva.
+ En este tutorial profundizaremos en el manejo del`BitmapInvalidSizeException` cuando se trabaja con Aspose.Tasks para .NET. Aspose.Tasks es una poderosa biblioteca que permite a los desarrolladores manipular archivos de Microsoft Project mediante programación, permitiendo tareas como guardar proyectos como imágenes. Sin embargo, ocasionalmente, al intentar guardar un proyecto como imagen, podemos encontrarnos con un`Invalid Size Exception`relacionado con el mapa de bits. Este tutorial tiene como objetivo guiarlo a través del proceso de detectar y manejar esta excepción de manera efectiva.
 
 ## Requisitos previos
 
@@ -32,7 +32,7 @@ using Aspose.Tasks.Visualization;
 
 ## Paso 1: inicializar el proyecto y definir la vista
 
- Primero, inicialice un`Project` objeto y definir una vista, como la`GanttChartView`.
+ En primer lugar, inicialice un`Project` objeto y definir una vista, como la`GanttChartView`.
 
 ```csharp
 // La ruta al directorio de documentos.
@@ -43,7 +43,7 @@ GanttChartView view = (GanttChartView) project.Views.ToList()[0];
 
 ## Paso 2: especificar las opciones para guardar imágenes
 
-continuación, especifique las opciones para guardar la imagen, incluido el formato y la escala de tiempo.
+A continuación, especifique las opciones para guardar la imagen, incluido el formato y la escala de tiempo.
 
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Png)

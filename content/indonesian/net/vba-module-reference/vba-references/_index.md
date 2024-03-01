@@ -21,7 +21,7 @@ Pastikan Anda menyertakan namespace yang diperlukan di awal kode Anda:
     using System;
     
 ```
-## Referensi Bacaan VBA
+## Membaca Referensi VBA
 Mari kita mulai dengan membaca referensi VBA dari file proyek:
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -72,10 +72,10 @@ Selamat! Anda telah berhasil menavigasi penanganan referensi VBA di Aspose.Tasks
 ### T: Bisakah saya menggunakan Aspose.Tasks dengan bahasa pemrograman lain?
 J: Aspose.Tasks terutama mendukung bahasa .NET, namun ada produk Aspose lain yang disesuaikan untuk platform dan bahasa berbeda.
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks?
-A: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+ A: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Apakah tersedia dukungan komunitas untuk Aspose.Tasks?
  J: Ya, Anda dapat menemukan dukungan di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
 ### T: Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Tasks?
  J: Dokumentasinya tersedia[Di Sini](https://reference.aspose.com/tasks/net/).
 ### T: Bisakah saya membeli Aspose.Tasks?
- A: Ya, Anda bisa membelinya.[Di Sini](https://purchase.aspose.com/buy).
+ A: Ya, Anda bisa membelinya[Di Sini](https://purchase.aspose.com/buy).

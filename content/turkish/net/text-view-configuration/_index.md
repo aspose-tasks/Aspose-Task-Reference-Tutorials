@@ -24,7 +24,7 @@ Aspose.Tasks for .NET ile metin stillerini özelleştirerek proje belgelerinizin
  Aspose.Tasks for .NET ile zaman çizelgesi görünümlerini özelleştirme sanatında ustalaşarak proje yönetimi deneyiminizi geliştirin. Projenizin benzersiz ihtiyaçlarını karşılamak için görsel olarak çekici zaman çizelgelerini uyarlayın. Adım adım kılavuzumuzda gezinin[Aspose.Tasks'ta Zaman Çizelgesi Görünümlerini Özelleştirme](./timeline-views/).
 
 ## Aspose.Tasks##'ta Zaman Aşamalı Verileri İşleme 
-Aspose.Tasks for .NET ile zaman aşamalı verileri zahmetsizce yönetin, proje planlamasını geliştirin ve kaynak yönetimini optimize edin. Rehberimizi inceleyerek içgörüleri keşfedin[Aspose.Tasks'ta Zaman Aşamalı Verileri İşleme](./timephased-data/).
+Aspose.Tasks for .NET ile zaman aşamalı verileri zahmetsizce yönetin, proje planlamasını geliştirin ve kaynak yönetimini optimize edin. Rehberimizi inceleyerek içgörüleri ortaya çıkarın[Aspose.Tasks'ta Zaman Aşamalı Verileri İşleme](./timephased-data/).
 
 ## Aspose.Tasks##'ta Zaman Aşamalı Verilerin Toplanması 
  Adım adım kılavuzumuz, SSS'lerimiz ve daha fazlasıyla Aspose.Tasks for .NET'te zaman aşamalı veri toplama dünyasına adım atın. Keşfederek proje yönetimi yeteneklerinizi bugün yükseltin[Aspose.Tasks'ta Zaman Aşamalı Verilerin Toplanması](./timephased-data-collection/).

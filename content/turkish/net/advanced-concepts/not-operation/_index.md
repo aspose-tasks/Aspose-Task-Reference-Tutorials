@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Burada bir oluşturuyoruz`ChildTasksCollector` proje içindeki tüm görevleri toplama nesnesi. Daha sonra kullanırız`TaskUtils.Apply`Projenin görev hiyerarşisinde geçiş yapma ve tüm alt görevleri toplama yöntemini kullanın.
+ Burada bir oluşturuyoruz`ChildTasksCollector` proje içindeki tüm görevleri toplama nesnesi. Daha sonra kullanırız`TaskUtils.Apply` Projenin görev hiyerarşisinde geçiş yapma ve tüm alt görevleri toplama yöntemini kullanın.
 
 ## 3. Adım: Filtre Durumunu Tanımlayın
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Adlı özel bir sınıf kullanarak bir filtre koşulu tanımlarız.`NullCondition`, Bu koşul, null değeri olan görevleri seçer.
+ Adlı özel bir sınıf kullanarak bir filtre koşulu tanımlarız.`NullCondition`. Bu koşul, null değeri olan görevleri seçer.
 
 ## Adım 4: NOT İşlemini Uygulayın
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- DEĞİL işlemini filtre koşuluna aşağıdakileri kullanarak uygularız:`Not<T>` Aspose.Tasks tarafından sağlanan sınıf. Bu, boş değere sahip olmayan görevleri seçerek filtre durumunu tersine çevirecektir.
+ DEĞİL işlemini filtre koşuluna aşağıdakileri kullanarak uygularız:`Not<T>`Aspose.Tasks tarafından sağlanan sınıf. Bu, boş değere sahip olmayan görevleri seçerek filtre durumunu tersine çevirecektir.
 
 ## Adım 5: Görevleri Filtrele
 
@@ -91,7 +91,7 @@ Son olarak, filtrelenen görevleri yineliyoruz ve istenen işlemleri gerçekleş
 
 ## Çözüm
 
-Bu eğitimde Aspose.Tasks for .NET'te NOT işlemiyle nasıl çalışılacağını öğrendik. Filtre koşullarını tersine çevirerek, belirli kriterleri karşılamayan öğeleri seçici olarak seçebilir, projeler içindeki görev manipülasyonunda esnekliğimizi artırabiliriz.
+Bu eğitimde Aspose.Tasks for .NET'te NOT işlemiyle nasıl çalışılacağını öğrendik. Filtre koşullarını tersine çevirerek, belirli kriterleri karşılamayan öğeleri seçici olarak seçebilir, böylece projeler içindeki görev manipülasyonunda esnekliğimizi artırabiliriz.
 
 ## SSS'ler
 

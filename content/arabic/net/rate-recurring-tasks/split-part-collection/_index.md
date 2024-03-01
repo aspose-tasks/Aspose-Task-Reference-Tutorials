@@ -65,4 +65,4 @@ Console.WriteLine("Split start: " + split.Start);
 ### س: كيف يمكنني الحصول على تراخيص مؤقتة لمشاريعي؟
  ج: يمكن الحصول على التراخيص المؤقتة من[هنا](https://purchase.aspose.com/temporary-license/) للاستخدام على المدى القصير.
 ### س: أين يمكنني طلب المساعدة أو الدعم فيما يتعلق بـ Aspose.Tasks؟
- ج: يمكنك زيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15) لطلب المساعدة من المجتمع أو فريق دعم Aspose.
+ ج: يمكنك زيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15)لطلب المساعدة من المجتمع أو فريق دعم Aspose.

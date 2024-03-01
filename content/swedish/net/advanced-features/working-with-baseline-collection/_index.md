@@ -93,7 +93,7 @@ foreach (var baseline in baselines)
 
 ## Slutsats
 
-I den här handledningen undersökte vi hur man arbetar med baslinjesamlingar i Aspose.Tasks för .NET. Genom att följa steg-för-steg-guiden kan du enkelt hantera baslinjer i dina .NET-applikationer, vilket möjliggör effektiv projektspårning och analys.
+den här handledningen undersökte vi hur man arbetar med baslinjesamlingar i Aspose.Tasks för .NET. Genom att följa steg-för-steg-guiden kan du enkelt hantera baslinjer i dina .NET-applikationer, vilket möjliggör effektiv projektspårning och analys.
 
 ## FAQ's
 

@@ -85,7 +85,7 @@ Aspose.Tasks est principalement conçu pour le développement .NET. Cependant, s
 ### Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour .NET ?
  Oui, vous pouvez explorer un essai gratuit[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir de l’assistance pour Aspose.Tasks pour .NET ?
- visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)pour le soutien de la communauté.
+ Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour le soutien de la communauté.
 ### Qu'est-ce qu'un permis temporaire et comment puis-je l'obtenir ?
  En savoir plus sur les licences temporaires[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je trouver la documentation d’Aspose.Tasks pour .NET ?

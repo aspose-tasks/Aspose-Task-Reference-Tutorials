@@ -1,6 +1,6 @@
 ---
 title: กำหนดค่าตัวเลือก MS Project XLSX ใน Aspose.Tasks สำหรับ .NET
-linktitle: กำหนดค่าตัวเลือก XLSX ใน Aspose.Tasks
+linktitle: การกำหนดค่าตัวเลือก XLSX ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่าตัวเลือก MS Project XLSX ใน Aspose.Tasks สำหรับ .NET ปรับแต่งคอลัมน์ การเข้ารหัส และอื่นๆ ได้อย่างง่ายดาย
 type: docs

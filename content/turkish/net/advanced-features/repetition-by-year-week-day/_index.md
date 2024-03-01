@@ -21,7 +21,7 @@ Nesne yönelimli programlama kavramları ve C# sözdizimi de dahil olmak üzere 
 
 ### 2. Aspose.Tasks for .NET'in Kurulumu
 
- Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/tasks/net/)Kitaplığı geliştirme ortamınıza entegre etmek için sağlanan kurulum talimatlarını izleyin.
+ Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/tasks/net/). Kitaplığı geliştirme ortamınıza entegre etmek için sağlanan kurulum talimatlarını izleyin.
 
 ### 3. Dokümantasyona Erişim
 
@@ -125,4 +125,4 @@ C: Evet, Aspose.Tasks for .NET, bulut tabanlı proje yönetimi çözümleri içi
 
 ### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
 
- C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/)satın alma kararı vermeden önce özelliklerini keşfetmenize olanak tanır.
+C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/)satın alma kararı vermeden önce özelliklerini keşfetmenize olanak tanır.

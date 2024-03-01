@@ -9,7 +9,7 @@ url: /el/net/advanced-concepts/nullable-booleans/
 ---
 ## Εισαγωγή
 
- Σε αυτό το σεμινάριο, θα εμβαθύνουμε στην εργασία με nullable booleans στο Aspose.Tasks για .NET. Οι μηδενικές δυαδικές τιμές προσφέρουν ευελιξία στην αναπαράσταση των δυαδικών τιμών, επιτρέποντας την πιθανότητα να είναι απροσδιόριστοι. Θα διερευνήσουμε πώς να χρησιμοποιήσουμε το`NullableBool` κλάση, τους κατασκευαστές, τις ιδιότητες και τις μεθόδους της.
+Σε αυτό το σεμινάριο, θα εμβαθύνουμε στην εργασία με nullable booleans στο Aspose.Tasks για .NET. Οι μηδενικές δυαδικές τιμές προσφέρουν ευελιξία στην αναπαράσταση των δυαδικών τιμών, επιτρέποντας την πιθανότητα να είναι απροσδιόριστοι. Θα διερευνήσουμε πώς να χρησιμοποιήσουμε το`NullableBool` κλάση, τους κατασκευαστές, τις ιδιότητες και τις μεθόδους της.
 
 ## Προαπαιτούμενα
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Τώρα, ας αναλύσουμε κάθε παράδειγμα σε πολλά βήματα.
 
-##  δουλεύοντας με`NullableBool`
+##  Δουλεύοντας με`NullableBool`
 
 ###  Βήμα 1: Δημιουργήστε ένα νέο`Project` instance.
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Βήμα 6: Εμφανίστε την παράσταση συμβολοσειράς του`NullableBool` object.
+###  Βήμα 6: Εμφανίστε την παράσταση συμβολοσειράς του`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Βήμα 2: Εκτυπώστε τον κωδικό κατακερματισμού για το καθένα`NullableBool` object.
+### Βήμα 2: Εκτυπώστε τον κωδικό κατακερματισμού για το καθένα`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## συμπέρασμα
 
- Σε αυτό το σεμινάριο, εξερευνήσαμε πώς να χειριζόμαστε μηδενικά booleans στο Aspose.Tasks για .NET. Χρησιμοποιώντας το`NullableBool` κλάσης και των μεθόδων της, μπορείτε να διαχειριστείτε αποτελεσματικά τις τιμές boolean με την πρόσθετη ευελιξία να είναι μηδενικές.
+ Σε αυτό το σεμινάριο, εξερευνήσαμε πώς να χειριζόμαστε μηδενικά booleans στο Aspose.Tasks για .NET. Με τη χρήση του`NullableBool` κλάσης και των μεθόδων της, μπορείτε να διαχειριστείτε αποτελεσματικά τις δυαδικές τιμές με την πρόσθετη ευελιξία του μηδενισμού.
 
 ## Συχνές ερωτήσεις
 

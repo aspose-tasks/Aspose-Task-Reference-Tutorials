@@ -8,7 +8,7 @@ weight: 14
 url: /tr/net/text-view-configuration/timephased-data/
 ---
 ## giriiş
-Proje yönetimi dünyasında, zaman aşamalı verilerin etkili bir şekilde kullanılması kaynak tahsisi, maliyet tahmini ve genel proje planlaması açısından çok önemlidir. Aspose.Tasks for .NET, özel zaman aşamalı verilerle sorunsuz bir şekilde çalışmak için güçlü bir çözüm sunar. Bu eğitim, Aspose.Tasks'ı kullanarak zaman aşamalı verileri işleme sürecinde size rehberlik edecek ve projelerinizde kaynak yönetimini optimize etmenize olanak tanıyacak.
+Proje yönetimi dünyasında, zaman aşamalı verilerin etkili bir şekilde kullanılması, kaynak tahsisi, maliyet tahmini ve genel proje planlaması açısından çok önemlidir. Aspose.Tasks for .NET, özel zaman aşamalı verilerle sorunsuz bir şekilde çalışmak için güçlü bir çözüm sunar. Bu eğitim, Aspose.Tasks'ı kullanarak zaman aşamalı verileri işleme sürecinde size rehberlik edecek ve projelerinizde kaynak yönetimini optimize etmenize olanak tanıyacak.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 - Proje yönetimi kavramlarının temel anlayışı.
@@ -85,7 +85,7 @@ Aspose.Tasks öncelikle .NET geliştirme için tasarlanmıştır. Ancak işlevle
 ### Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks for .NET için nasıl destek alabilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)topluluk desteği için.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için.
 ### Geçici lisans nedir ve nasıl edinebilirim?
  Geçici lisanslar hakkında bilgi edinin[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks for .NET belgelerini nerede bulabilirim?

@@ -125,4 +125,4 @@ foreach (var criterion in criteria)
 
 ### Q5：如果我遇到任何問題，我該如何獲得支援？
 
-答：如果您有任何疑問或遇到任何問題，您可以從 Aspose.Tasks 論壇尋求支援。[這裡](https://forum.aspose.com/c/tasks/15).
+答：如果您有任何疑問或遇到任何問題，您可以從 Aspose.Tasks 論壇尋求支持[這裡](https://forum.aspose.com/c/tasks/15).

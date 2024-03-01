@@ -35,7 +35,7 @@ url: /ar/net/saving-options/general-save-options/
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## الخطوة 2: تحديد خيارات الحفظ
- حدد خيارات الحفظ وفقًا لمتطلباتك. في هذا المثال، نستخدم`Spreadsheet2003SaveOptions`,
+ حدد خيارات الحفظ وفقًا لمتطلباتك. في هذا المثال، نستخدم`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ project.Save("Your Document Directory/UsingSpreadsheet2003SaveOptions_out.xml", 
 ### س: هل يمكنني تجربة Aspose.Tasks قبل الشراء؟
  ج: نعم، يمكنك استكشاف Aspose.Tasks من خلال الإصدار التجريبي المجاني المتاح[هنا](https://releases.aspose.com/).
 ### س: أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Tasks؟
-ج: يمكن الاطلاع على الوثائق التفصيلية[هنا](https://reference.aspose.com/tasks/net/)، وتوفير إرشادات شاملة حول استخدام ميزات Aspose.Tasks.
+ ج: يمكن الاطلاع على الوثائق التفصيلية[هنا](https://reference.aspose.com/tasks/net/)، وتوفير إرشادات شاملة حول استخدام ميزات Aspose.Tasks.
 ### س: كيف يمكنني الحصول على تراخيص مؤقتة لـ Aspose.Tasks؟
- ج: التراخيص المؤقتة متاحة لأغراض التقييم.[هنا](https://purchase.aspose.com/temporary-license/).
+ ج: التراخيص المؤقتة متاحة لأغراض التقييم[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني طلب الدعم للاستفسارات المتعلقة بـ Aspose.Tasks؟
- ج: يمكنك الانضمام إلى منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15) للحصول على المساعدة من الخبراء وزملائهم المطورين.
+ ج: يمكنك الانضمام إلى منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15)للحصول على المساعدة من الخبراء وزملائهم المطورين.

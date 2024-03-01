@@ -35,7 +35,7 @@ Trước tiên, bạn cần tải tệp MS Project bằng Aspose.Tasks:
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## Bước 2: Xác định tùy chọn lưu
- Xác định các tùy chọn lưu theo yêu cầu của bạn. Trong ví dụ này, chúng tôi đang sử dụng`Spreadsheet2003SaveOptions`,
+ Xác định các tùy chọn lưu theo yêu cầu của bạn. Trong ví dụ này, chúng tôi đang sử dụng`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của 
 ### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
  Trả lời: Có, bạn có thể khám phá Aspose.Tasks với bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể tìm tài liệu về Aspose.Tasks ở đâu?
-A: Tài liệu chi tiết có thể được tìm thấy[đây](https://reference.aspose.com/tasks/net/), cung cấp hướng dẫn toàn diện về cách sử dụng các tính năng của Aspose.Tasks.
+ A: Tài liệu chi tiết có thể được tìm thấy[đây](https://reference.aspose.com/tasks/net/), cung cấp hướng dẫn toàn diện về cách sử dụng các tính năng của Aspose.Tasks.
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
- Đáp: Giấy phép tạm thời được cấp cho mục đích đánh giá.[đây](https://purchase.aspose.com/temporary-license/).
+ Đáp: Giấy phép tạm thời có sẵn cho mục đích đánh giá[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm kiếm hỗ trợ cho các truy vấn liên quan đến Aspose.Tasks ở đâu?
- Trả lời: Bạn có thể tham gia diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) để nhận được sự hỗ trợ từ các chuyên gia và các nhà phát triển đồng nghiệp.
+ Trả lời: Bạn có thể tham gia diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15)để nhận được sự hỗ trợ từ các chuyên gia và các nhà phát triển đồng nghiệp.

@@ -11,7 +11,7 @@ url: /zh-hant/net/task-table-management/configuring-tables/
 歡迎閱讀有關在 Aspose.Tasks for .NET 中配置表格的綜合指南。 Aspose.Tasks 是一個功能強大的程式庫，可讓開發人員無縫地處理 Microsoft Project 檔案。在本教程中，我們將引導您完成使用 Aspose.Tasks 配置表的過程，分解每個步驟以便清楚地理解。
 ## 先決條件
 在我們深入研究本教程之前，請確保您具備以下先決條件：
--  Aspose.Tasks for .NET：請確定您已安裝 Aspose.Tasks 函式庫。您可以從[Aspose.Tasks .NET 文檔](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET：請確定您已安裝 Aspose.Tasks 函式庫。您可以從[Aspose.Tasks .NET 文檔](https://reference.aspose.com/tasks/net/).
 - 開發環境：使用 Visual Studio 或任何其他首選 .NET 開發工具設定開發環境。
 - 範例專案文件：準備好範例 Microsoft Project 檔案 (MPP) 以供測試。
 ## 導入命名空間

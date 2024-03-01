@@ -21,7 +21,7 @@ Biasakan diri Anda dengan dasar-dasar .NET Framework, termasuk konsep pemrograma
 
 ### 2. Instalasi Aspose.Tasks untuk .NET
 
- Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[tautan unduhan](https://releases.aspose.com/tasks/net/)Ikuti petunjuk instalasi yang diberikan untuk mengintegrasikan perpustakaan ke dalam lingkungan pengembangan Anda.
+ Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[tautan unduhan](https://releases.aspose.com/tasks/net/). Ikuti petunjuk instalasi yang diberikan untuk mengintegrasikan perpustakaan ke dalam lingkungan pengembangan Anda.
 
 ### 3. Akses terhadap Dokumentasi
 
@@ -125,4 +125,4 @@ J: Ya, Aspose.Tasks untuk .NET menawarkan dukungan untuk solusi manajemen proyek
 
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
 
- J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur-fiturnya sebelum membuat keputusan pembelian.
+J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/), memungkinkan Anda menjelajahi fitur-fiturnya sebelum membuat keputusan pembelian.

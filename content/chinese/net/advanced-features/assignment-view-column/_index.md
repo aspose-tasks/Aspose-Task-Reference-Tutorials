@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## 第 3 步：定义自定义列
 
-现在，通过创建一个实例来定义您的自定义列`AssignmentViewColumn`,该类需要列名、宽度和委托函数来将赋值数据转换为列文本：
+现在，通过创建一个实例来定义您的自定义列`AssignmentViewColumn`。该类需要列名、宽度和委托函数来将赋值数据转换为列文本：
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

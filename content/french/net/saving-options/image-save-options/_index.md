@@ -13,7 +13,7 @@ Dans le monde du développement de logiciels, gérer efficacement les tâches du
 ## Conditions préalables
 Avant de vous lancer dans l'utilisation d'Aspose.Tasks pour .NET pour enregistrer les options de MS Project sous forme d'images, assurez-vous d'avoir les conditions préalables suivantes en place :
 ### 1. Installez Aspose.Tasks pour .NET
- Pour commencer, vous devez avoir Aspose.Tasks pour .NET installé dans votre environnement de développement. Vous pouvez télécharger la bibliothèque à partir du[site web](https://releases.aspose.com/tasks/net/) et suivez les instructions d'installation fournies.
+Pour commencer, vous devez avoir Aspose.Tasks pour .NET installé dans votre environnement de développement. Vous pouvez télécharger la bibliothèque à partir du[site web](https://releases.aspose.com/tasks/net/) et suivez les instructions d'installation fournies.
 ### 2. Obtenez une licence (facultatif)
  Bien qu'Aspose.Tasks pour .NET puisse être utilisé sans licence en mode d'évaluation, l'obtention d'une licence est recommandée pour bénéficier de toutes les fonctionnalités et pour supprimer les limitations d'évaluation. Vous pouvez acquérir une licence auprès du[page d'achat](https://purchase.aspose.com/buy) ou optez pour un[permis temporaire](https://purchase.aspose.com/temporary-license/) à des fins de tests.
 ### 3. Connaissance de base du développement C# et .NET
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## Étape 3 : Définir les options d'enregistrement de l'image
- Créer une instance de`ImageSaveOptions` et précisez les paramètres souhaités :
+ Créer une instance de`ImageSaveOptions`et précisez les paramètres souhaités :
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {
@@ -71,8 +71,8 @@ R : Oui, vous pouvez utiliser Aspose.Tasks pour .NET sans licence en mode évalu
 ### Q2 : Comment puis-je obtenir une licence temporaire pour tester ?
  R : Vous pouvez obtenir une licence temporaire à des fins de test auprès du[page de licence temporaire](https://purchase.aspose.com/temporary-license/).
 ### Q3 : Aspose.Tasks pour .NET est-il compatible avec d'autres frameworks .NET ?
-R : Oui, Aspose.Tasks pour .NET est compatible avec divers frameworks .NET, notamment .NET Core et .NET Standard.
+: Oui, Aspose.Tasks pour .NET est compatible avec divers frameworks .NET, notamment .NET Core et .NET Standard.
 ### Q4 : Puis-je personnaliser davantage les options d’enregistrement des images ?
-: Oui, vous pouvez personnaliser les options d'enregistrement des images en fonction de vos besoins spécifiques, telles que l'ajustement de la taille de la page, de la résolution ou du format de sortie.
+R : Oui, vous pouvez personnaliser les options d'enregistrement des images en fonction de vos besoins spécifiques, telles que l'ajustement de la taille de la page, de la résolution ou du format de sortie.
 ### Q5 : Où puis-je trouver de l'assistance pour Aspose.Tasks pour .NET ?
  R : Vous pouvez trouver du support et de l'assistance pour Aspose.Tasks for .NET sur le[forum](https://forum.aspose.com/c/tasks/15).

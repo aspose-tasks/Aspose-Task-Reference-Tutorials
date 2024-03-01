@@ -64,7 +64,7 @@ catch (InvalidPasswordException e)
 
 ### Q1: Cosa causa un'eccezione InvalidPasswordException in Aspose.Tasks?
 
- A1:An`InvalidPasswordException` viene generato quando si tenta di accedere a un file di progetto protetto da password senza fornire la password corretta o quando la password fornita non è corretta.
+ A1: An`InvalidPasswordException` viene generato quando si tenta di accedere a un file di progetto protetto da password senza fornire la password corretta o quando la password fornita non è corretta.
 
 ### Q2: posso utilizzare Aspose.Tasks per gestire altri tipi di eccezioni?
 

@@ -9,7 +9,7 @@ url: /vi/net/calendar-scheduling/compound-document-header-exception/
 ---
 ## Giới thiệu
 
- Trong lĩnh vực phát triển .NET, việc quản lý các nhiệm vụ dự án một cách hiệu quả là mối quan tâm hàng đầu. Aspose.Tasks cung cấp giải pháp toàn diện cho các nhà phát triển .NET để xử lý các tác vụ quản lý dự án một cách liền mạch. Tuy nhiên, gặp phải ngoại lệ là một khía cạnh tất yếu của quá trình phát triển phần mềm. Một ngoại lệ mà các nhà phát triển có thể gặp phải là`CompoundDocumentHeaderException`Hướng dẫn này nhằm mục đích hướng dẫn các nhà phát triển cách xử lý ngoại lệ này một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho .NET.
+ Trong lĩnh vực phát triển .NET, việc quản lý các nhiệm vụ dự án một cách hiệu quả là mối quan tâm hàng đầu. Aspose.Tasks cung cấp giải pháp toàn diện cho các nhà phát triển .NET để xử lý các tác vụ quản lý dự án một cách liền mạch. Tuy nhiên, gặp phải ngoại lệ là một khía cạnh tất yếu của quá trình phát triển phần mềm. Một ngoại lệ mà các nhà phát triển có thể gặp phải là`CompoundDocumentHeaderException`. Hướng dẫn này nhằm mục đích hướng dẫn các nhà phát triển cách xử lý ngoại lệ này một cách hiệu quả bằng cách sử dụng Aspose.Tasks cho .NET.
 
 ## Điều kiện tiên quyết
 
@@ -78,7 +78,7 @@ Truy cập mọi thông tin dự án cần thiết, chẳng hạn như tên dự
 
 ## Bước 4: Xử lý ngoại lệ
 
- Trong trường hợp`CompoundDocumentHeaderException`xảy ra trong quá trình tải dự án, hãy xử lý nó trong khối bắt. In hoặc ghi thông báo ngoại lệ để phân tích thêm.
+ Trong trường hợp`CompoundDocumentHeaderException` xảy ra trong quá trình tải dự án, hãy xử lý nó trong khối bắt. In hoặc ghi thông báo ngoại lệ để phân tích thêm.
 
 ## Phần kết luận
 
@@ -92,7 +92,7 @@ A1: Ngoại lệ này xảy ra khi cố gắng tải tệp không phải là t�
 
 ### Câu hỏi 2: Có thể ngăn chặn ngoại lệ CompleteDocumentHeaderException không?
 
-A2: Nhà phát triển có thể giảm thiểu ngoại lệ này bằng cách đảm bảo rằng chỉ các tệp Microsoft Project hợp lệ mới được tải bằng các kỹ thuật xác thực tệp thích hợp.
+A2: Nhà phát triển có thể giảm thiểu ngoại lệ này bằng cách đảm bảo rằng chỉ các tệp Microsoft Project hợp lệ mới được tải bằng kỹ thuật xác thực tệp thích hợp.
 
 ### Câu hỏi 3: Có thư viện thay thế nào để xử lý các tác vụ quản lý dự án trong .NET không?
 

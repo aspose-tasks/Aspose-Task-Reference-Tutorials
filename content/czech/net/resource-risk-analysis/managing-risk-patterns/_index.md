@@ -15,7 +15,7 @@ Při řízení projektů je pro úspěšnou realizaci zásadní pochopení a zm�
 Než se ponoříme do správy rizikových vzorů MS Project pomocí Aspose.Tasks pro .NET, ujistěte se, že máte následující:
 
 1. Soubor Microsoft Project: Mějte soubor Microsoft Project (.mpp) obsahující úkoly a relevantní data projektu.
-2. Aspose.Tasks for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[webová stránka](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[webová stránka](https://releases.aspose.com/tasks/net/).
 3. Základní znalost C#: Doporučuje se znalost základů programovacího jazyka C#.
 
 ## Importovat jmenné prostory
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- V tomto kroku definujeme adresář pro projektový dokument a vytvoříme nastavení pro analýzu rizik. Upravte`IterationsCount` podle potřeby na základě složitosti projektu.
+ tomto kroku definujeme adresář pro projektový dokument a vytvoříme nastavení pro analýzu rizik. Upravte`IterationsCount` podle potřeby na základě složitosti projektu.
 
 ## Krok 2: Načtěte projekt a úkol
 

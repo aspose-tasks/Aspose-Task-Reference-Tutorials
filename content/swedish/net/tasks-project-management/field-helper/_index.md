@@ -17,7 +17,7 @@ Innan du börjar använda Aspose.Tasks för .NET finns det några förutsättnin
 
 ### 1. Installera Aspose.Tasks för .NET
 
- För att komma igång måste du ladda ner och installera Aspose.Tasks för .NET. Du hittar nedladdningslänken[här](https://releases.aspose.com/tasks/net/), Följ installationsinstruktionerna för att ställa in biblioteket i din utvecklingsmiljö.
+ För att komma igång måste du ladda ner och installera Aspose.Tasks för .NET. Du hittar nedladdningslänken[här](https://releases.aspose.com/tasks/net/). Följ installationsinstruktionerna för att ställa in biblioteket i din utvecklingsmiljö.
 
 ### 2. Importera namnområden
 

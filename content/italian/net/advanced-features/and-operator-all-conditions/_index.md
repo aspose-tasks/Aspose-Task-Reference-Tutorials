@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Caricare il file di progetto utilizzando il file`Project` costruttore della classe, specificando il percorso del file.
+ Caricare il file di progetto utilizzando il file`Project`costruttore della classe, specificando il percorso del file.
 
 ## Passaggio 2: raccogliere tutte le attività del progetto
 
@@ -117,4 +117,4 @@ A4: Sì, puoi integrare perfettamente Aspose.Tasks con altri framework e libreri
 
 ### Q5: È disponibile un forum della community o un canale di supporto per gli utenti di Aspose.Tasks?
 
- A5: Sì, è possibile accedere al forum della community Aspose.Tasks.[Qui](https://forum.aspose.com/c/tasks/15) per qualsiasi domanda o assistenza.
+ A5: Sì, è possibile accedere al forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15) per qualsiasi domanda o assistenza.

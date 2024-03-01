@@ -151,7 +151,7 @@ A2 : Absolument, Aspose.Tasks prend en charge l'importation de calendriers à pa
 
 ### Q3 : Comment puis-je supprimer un calendrier spécifique d'un projet ?
 
-A3 : Vous pouvez supprimer un calendrier en le récupérant de la collection, puis en appelant le`Remove` méthode.
+ A3 : Vous pouvez supprimer un calendrier en le récupérant de la collection, puis en appelant le`Remove` méthode.
 
 ### Q4 : Aspose.Tasks prend-il en charge l'exportation de calendriers vers différents formats ?
 

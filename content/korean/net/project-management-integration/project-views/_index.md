@@ -12,7 +12,7 @@ Microsoft Project는 프로젝트 관리를 위한 강력한 도구로, 사용�
 ## 전제조건
 시작하기 전에 다음 필수 구성 요소가 설정되어 있는지 확인하세요.
 ### 1. .NET용 Aspose.Tasks 설치
- 다음에서 .NET용 Aspose.Tasks를 다운로드하고 설치할 수 있습니다.[웹사이트](https://releases.aspose.com/tasks/net/), 개발 환경에서 라이브러리를 설정하려면 제공된 설치 지침을 따르십시오.
+ 다음에서 .NET용 Aspose.Tasks를 다운로드하고 설치할 수 있습니다.[웹사이트](https://releases.aspose.com/tasks/net/). 개발 환경에서 라이브러리를 설정하려면 제공된 설치 지침을 따르십시오.
 ### 2. C# 및 .NET Framework에 대한 기본 지식
 이 자습서에서는 이러한 개념에 대한 기본적인 이해를 가정하고 있으므로 C# 프로그래밍 언어 및 .NET Framework를 숙지하세요.
 ### 3. 마이크로소프트 프로젝트 파일
@@ -57,6 +57,6 @@ project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
 ### 3. 사용자 정의된 프로젝트 보기를 .NET 애플리케이션에 어떻게 통합할 수 있습니까?
 Aspose.Tasks for .NET을 .NET 애플리케이션에 통합하고 API를 활용하여 프로젝트 데이터와 뷰를 프로그래밍 방식으로 조작함으로써 사용자 정의된 프로젝트 뷰를 통합할 수 있습니다.
 ### 4. Aspose.Tasks for .NET은 개발자를 위한 지원 및 문서를 제공합니까?
- 예, .NET용 Aspose.Tasks는 다음을 통해 포괄적인 문서와 지원을 제공합니다.[법정](https://forum.aspose.com/c/tasks/15) 그리고[문서화 포털](https://reference.aspose.com/tasks/net/).
+ 예, .NET용 Aspose.Tasks는 다음을 통해 포괄적인 문서와 지원을 제공합니다.[법정](https://forum.aspose.com/c/tasks/15) 그리고[문서 포털](https://reference.aspose.com/tasks/net/).
 ### 5. 구매하기 전에 Aspose.Tasks for .NET을 사용해 볼 수 있나요?
  예, 다음을 이용하실 수 있습니다.[무료 시험판](https://releases.aspose.com/) 구매 결정을 내리기 전에 .NET용 Aspose.Tasks의 기능을 평가해 보세요.

@@ -11,7 +11,7 @@ url: /es/net/text-view-configuration/text-item-types/
 Si eres un desarrollador .NET que se sumerge en la gestión de proyectos utilizando Aspose.Tasks, ¡has venido al lugar correcto! En esta guía paso a paso, exploraremos las complejidades del manejo de tipos de elementos de texto en Aspose.Tasks, enfocándonos en la personalización utilizando la poderosa biblioteca .NET.
 ## Requisitos previos
 Antes de comenzar, asegúrese de tener lo siguiente en su lugar:
-1. Aspose.Tasks para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.Tasks. Si no, puedes descargarlo.[aquí](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.Tasks. Si no, puedes descargarlo.[aquí](https://releases.aspose.com/tasks/net/).
 2. Directorio de documentos: configure un directorio para los documentos de su proyecto.
 Ahora, profundicemos en el meollo de la cuestión del manejo de tipos de elementos de texto.
 ## Importar espacios de nombres
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Aplique el estilo de texto definido a su proyecto y guarde el proyecto personalizado como un archivo PDF.
 Repita estos pasos para otras necesidades de personalización, experimentando con diferentes tipos de elementos de texto, estilos de fuente y colores.
 ## Conclusión
- ¡Felicidades! Acaba de arañar la superficie del manejo de tipos de elementos de texto en Aspose.Tasks para .NET. A medida que continúe explorando, consulte la[documentación](https://reference.aspose.com/tasks/net/) para obtener información detallada.
+¡Felicidades! Acaba de arañar la superficie del manejo de tipos de elementos de texto en Aspose.Tasks para .NET. A medida que continúe explorando, consulte la[documentación](https://reference.aspose.com/tasks/net/) para obtener información detallada.
 ### Preguntas frecuentes
 ### P: ¿Puedo usar Aspose.Tasks gratis?
  R: Aspose.Tasks ofrece una prueba gratuita. Agarrarlo[aquí](https://releases.aspose.com/).

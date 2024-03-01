@@ -151,7 +151,7 @@ A2: Tentu saja, Aspose.Tasks mendukung impor kalender dari file Microsoft Projec
 
 ### Q3: Bagaimana cara menghapus kalender tertentu dari suatu proyek?
 
-A3: Anda dapat menghapus kalender dengan mengambilnya dari koleksi lalu menelepon`Remove` metode.
+ A3: Anda dapat menghapus kalender dengan mengambilnya dari koleksi lalu menelepon`Remove` metode.
 
 ### Q4: Apakah Aspose.Tasks mendukung ekspor kalender ke format berbeda?
 

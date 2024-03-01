@@ -12,7 +12,7 @@ Microsoft Project ist ein leistungsstarkes Tool für das Projektmanagement, mit 
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 ### 1. Installieren Sie Aspose.Tasks für .NET
- Sie können Aspose.Tasks für .NET von herunterladen und installieren[Webseite](https://releases.aspose.com/tasks/net/), Befolgen Sie die bereitgestellten Installationsanweisungen, um die Bibliothek in Ihrer Entwicklungsumgebung einzurichten.
+ Sie können Aspose.Tasks für .NET von herunterladen und installieren[Webseite](https://releases.aspose.com/tasks/net/). Befolgen Sie die bereitgestellten Installationsanweisungen, um die Bibliothek in Ihrer Entwicklungsumgebung einzurichten.
 ### 2. Grundkenntnisse in C# und .NET Framework
 Machen Sie sich mit der Programmiersprache C# und dem .NET Framework vertraut, da dieses Tutorial ein grundlegendes Verständnis dieser Konzepte voraussetzt.
 ### 3. Microsoft Project-Datei

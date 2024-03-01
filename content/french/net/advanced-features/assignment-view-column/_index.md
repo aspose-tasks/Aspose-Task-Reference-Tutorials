@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Étape 3 : Définir une colonne personnalisée
 
- Maintenant, définissez votre colonne personnalisée en créant une instance de`AssignmentViewColumn`Cette classe nécessite le nom de la colonne, sa largeur et une fonction déléguée pour convertir les données d'affectation en texte de colonne :
+ Maintenant, définissez votre colonne personnalisée en créant une instance de`AssignmentViewColumn`. Cette classe nécessite le nom de la colonne, sa largeur et une fonction déléguée pour convertir les données d'affectation en texte de colonne :
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
@@ -115,4 +115,4 @@ A3 : Oui, vous pouvez personnaliser l'apparence des colonnes personnalisées en 
 
 ### Q5 : Aspose.Tasks prend-il en charge l'exportation de projets vers d'autres formats que les feuilles de calcul avec des colonnes personnalisées ?
 
-A5 : Oui, Aspose.Tasks prend en charge l'exportation de projets vers différents formats tels que PDF, HTML et XML, permettant des options de reporting de projet polyvalentes.
+A5 : Oui, Aspose.Tasks prend en charge l'exportation de projets vers divers formats tels que PDF, HTML et XML, permettant des options de reporting de projet polyvalentes.

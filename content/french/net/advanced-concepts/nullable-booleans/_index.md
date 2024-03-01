@@ -9,7 +9,7 @@ url: /fr/net/advanced-concepts/nullable-booleans/
 ---
 ## Introduction
 
- Dans ce didacticiel, nous aborderons l'utilisation de booléens nullables dans Aspose.Tasks pour .NET. Les booléens nullables offrent une flexibilité dans la représentation des valeurs booléennes, permettant la possibilité d'être indéfinis. Nous allons explorer comment utiliser le`NullableBool` classe, ses constructeurs, propriétés et méthodes.
+Dans ce didacticiel, nous aborderons l'utilisation de booléens nullables dans Aspose.Tasks pour .NET. Les booléens nullables offrent une flexibilité dans la représentation des valeurs booléennes, permettant la possibilité d'être indéfinis. Nous allons explorer comment utiliser le`NullableBool` classe, ses constructeurs, propriétés et méthodes.
 
 ## Conditions préalables
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Maintenant, décomposons chaque exemple en plusieurs étapes.
 
-##  travailler avec`NullableBool`
+##  Travailler avec`NullableBool`
 
 ###  Étape 1 : Créer un nouveau`Project` instance.
 
@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Étape 4 : utilisez le`NullableBool` instance by setting it in the project.
+###  Étape 4 : Utilisez le`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Étape 6 : Afficher la représentation sous forme de chaîne du`NullableBool` object.
+###  Étape 6 : Afficher la représentation sous forme de chaîne du`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Étape 2 : Imprimez le code de hachage pour chacun`NullableBool` object.
+### Étape 2 : Imprimez le code de hachage pour chacun`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Conclusion
 
- Dans ce didacticiel, nous avons exploré comment gérer les booléens nullables dans Aspose.Tasks pour .NET. En utilisant le`NullableBool` classe et ses méthodes, vous pouvez gérer efficacement les valeurs booléennes avec la flexibilité supplémentaire d'être nullable.
+ Dans ce didacticiel, nous avons exploré comment gérer les booléens nullables dans Aspose.Tasks pour .NET. En utilisant le`NullableBool` et ses méthodes, vous pouvez gérer efficacement les valeurs booléennes avec la flexibilité supplémentaire d'être nullable.
 
 ## FAQ
 

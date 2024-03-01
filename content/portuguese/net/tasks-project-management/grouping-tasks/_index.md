@@ -76,7 +76,7 @@ Concluindo, Aspose.Tasks for .NET oferece recursos poderosos para agrupar tarefa
 ## Perguntas frequentes
 ### Posso agrupar tarefas com base em critérios personalizados?
 Sim, você pode definir critérios personalizados para agrupar tarefas de acordo com seus requisitos específicos usando Aspose.Tasks for .NET.
-### O Aspose.Tasks oferece suporte a diferentes versões de arquivos do MS Project?
+### Aspose.Tasks oferece suporte a diferentes versões de arquivos do MS Project?
 Sim, Aspose.Tasks suporta várias versões de arquivos do MS Project, garantindo compatibilidade e integração perfeita.
 ### Existe uma versão de teste disponível para Aspose.Tasks for .NET?
  Sim, você pode obter uma versão de avaliação gratuita do Aspose.Tasks for .NET em[aqui](https://releases.aspose.com/).

@@ -53,7 +53,7 @@ Aspose.Tasks for .NET 以其強大的功能徹底改變了專案管理。本文�
 
 ## 在 Aspose.Tasks 中配置任務開始日期類型
 
-使用 Aspose.Tasks for .NET 輕鬆設定任務開始日期類型。透過探索輕鬆優化專案管理[任務開始日期類型教程](./task-start-date-types/),立即下載免費試用版！
+使用 Aspose.Tasks for .NET 輕鬆設定任務開始日期類型。透過探索輕鬆優化專案管理[任務開始日期類型教程](./task-start-date-types/)。立即下載免費試用版！
 
 ## 在 Aspose.Tasks 中配置任務使用視圖
 

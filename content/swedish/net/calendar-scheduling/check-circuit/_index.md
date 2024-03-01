@@ -21,7 +21,7 @@ Innan du dyker in i handledningen, se till att du har följande förutsättninga
 
 ## Importera namnområden
 
-ditt C#-projekt, inkludera följande namnområden för att komma åt de obligatoriska klasserna och metoderna:
+I ditt C#-projekt, inkludera följande namnområden för att komma åt de obligatoriska klasserna och metoderna:
 
 ```csharp
 using Aspose.Tasks;
@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Steg 1: Ladda projektfilen
 
- Börja med att ladda Microsoft Project-filen (.mpp) som du vill kontrollera för en trasig struktur. Använd`Project` klass för att ladda filen.
+Börja med att ladda Microsoft Project-filen (.mpp) som du vill kontrollera för en trasig struktur. Använd`Project` klass för att ladda filen.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -70,7 +70,7 @@ S1: Ja, Aspose.Tasks för .NET är kompatibelt med olika .NET-ramverk, inklusive
 
 ### F3: Hur kan jag få support för Aspose.Tasks för .NET?
 
-S3: Du kan söka hjälp från Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15).
+ S3: Du kan söka hjälp från Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15).
 
 ### F4: Behöver jag en tillfällig licens för teständamål?
 

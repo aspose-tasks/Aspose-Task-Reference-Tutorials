@@ -12,7 +12,7 @@ Aspose.Tasks voor .NET is een krachtige bibliotheek waarmee ontwikkelaars Micros
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 ### 1. Installeer Aspose.Tasks voor .NET
-Zorg ervoor dat u Aspose.Tasks voor .NET hebt geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
+ Zorg ervoor dat u Aspose.Tasks voor .NET hebt geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
 ### 2. Verkrijg een licentie (optioneel)
  Als u Aspose.Tasks in een commercieel project gebruikt, heeft u een licentie nodig. U kunt een licentie kopen bij[hier](https://purchase.aspose.com/buy) , of u kunt een tijdelijke licentie aanvragen[hier](https://purchase.aspose.com/temporary-license/).
 ### 3. Stel uw ontwikkelomgeving in

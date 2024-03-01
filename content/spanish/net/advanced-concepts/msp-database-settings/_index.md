@@ -86,7 +86,7 @@ R1: Sí, Aspose.Tasks admite varias versiones de bases de datos de Microsoft Pro
 
 ### P2: ¿Cómo puedo solucionar problemas de conexión con la base de datos?
 
-R2: Asegúrese de que su cadena de conexión esté configurada correctamente con las credenciales y los detalles de la base de datos adecuados. También puede consultar la documentación o buscar ayuda del[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ R2: Asegúrese de que su cadena de conexión esté configurada correctamente con las credenciales y los detalles de la base de datos adecuados. También puede consultar la documentación o buscar ayuda del[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### P3: ¿Existe una versión de prueba disponible para Aspose.Tasks?
 

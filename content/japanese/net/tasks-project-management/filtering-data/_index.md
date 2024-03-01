@@ -12,7 +12,7 @@ Aspose.Tasks for .NET は、Microsoft Project ファイル内のデータをフ�
 ## 前提条件
 チュートリアルに入る前に、次の前提条件が満たされていることを確認してください。
 ### 1. Aspose.Tasks for .NET をインストールする
- Aspose.Tasks for .NET を次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/tasks/net/)、提供されるインストール手順に従って、開発環境にライブラリをセットアップします。
+ Aspose.Tasks for .NET を次の場所からダウンロードしてインストールします。[ダウンロードページ](https://releases.aspose.com/tasks/net/)。提供されるインストール手順に従って、開発環境にライブラリをセットアップします。
 ### 2. 開発環境をセットアップする
 .NET プログラミング用に動作する開発環境があることを確認してください。これには、Visual Studio などの互換性のある IDE と C# プログラミング言語の基本的な理解が含まれます。
 ### 3. サンプル Microsoft Project ファイルにアクセスする

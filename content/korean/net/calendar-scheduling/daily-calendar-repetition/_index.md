@@ -114,6 +114,6 @@ A3: 예, Aspose.Tasks는 다양한 프로젝트 요구에 맞춰 주간, 월간,
 
 A4: 물론 Aspose.Tasks는 반복 작업을 효과적으로 분석하고 추적하는 데 도움이 되는 시각화 옵션을 제공합니다.
 
-### Q5: Aspose.Tasks에 사용할 수 있는 평가판이 있습니까?
+### Q5: Aspose.Tasks에 사용할 수 있는 평가판이 있나요?
 
  A5: 예, Aspose의 무료 평가판을 이용할 수 있습니다.[여기](https://releases.aspose.com/) 구매하기 전에 기능을 살펴보세요.

@@ -83,7 +83,7 @@ foreach (var task in tasks)
 ```
 Konvertálja a feladatgyűjteményt listává, és hajtson végre műveleteket az egyes feladatokon.
 ## Következtetés
-A feladatgyűjtemények kezelése az Aspose.Tasks for .NET-ben gyerekjáték ezzel a lépésenkénti útmutatóval. Akár feladatokat hoz létre, szerkeszt vagy töröl, az Aspose.Tasks lehetővé teszi a projektmenedzsment zökkenőmentes kezelését.
+feladatgyűjtemények kezelése az Aspose.Tasks for .NET-ben gyerekjáték ezzel a lépésenkénti útmutatóval. Akár feladatokat hoz létre, szerkeszt vagy töröl, az Aspose.Tasks lehetővé teszi a projektmenedzsment zökkenőmentes kezelését.
 ## Gyakran Ismételt Kérdések
 ### Az Aspose.Tasks kompatibilis a .NET Core programmal?
 Igen, az Aspose.Tasks támogatja a .NET Core-t, így többplatformos alkalmazásokban is használható.

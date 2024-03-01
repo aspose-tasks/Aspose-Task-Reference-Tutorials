@@ -2,7 +2,7 @@
 title: การรวบรวมข้อยกเว้นของปฏิทินใน Aspose.Tasks
 linktitle: การรวบรวมข้อยกเว้นของปฏิทินใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: เรียนรู้วิธีจัดการข้อยกเว้นปฏิทินในโปรเจ็กต์ .NET ของคุณอย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks ช่วยให้มั่นใจได้ถึงการจัดกำหนดการและการจัดการทรัพยากรที่แม่นยำ
+description: เรียนรู้วิธีจัดการข้อยกเว้นปฏิทินในโปรเจ็กต์ .NET ของคุณอย่างมีประสิทธิภาพโดยใช้ Aspose.Tasks เพื่อให้มั่นใจถึงการจัดกำหนดการและการจัดการทรัพยากรที่แม่นยำ
 type: docs
 weight: 13
 url: /th/net/calendar-scheduling/calendar-exception-collection/

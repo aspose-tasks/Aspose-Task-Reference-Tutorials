@@ -1,6 +1,6 @@
 ---
 title: การเรียนรู้การกำหนดค่าสัปดาห์ทำงานอย่างเชี่ยวชาญใน Aspose.Tasks
-linktitle: กำหนดค่าสัปดาห์การทำงานใน Aspose.Tasks
+linktitle: การกำหนดค่าสัปดาห์ทำงานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่าสัปดาห์ทำงานอย่างง่ายดายใน Aspose.Tasks for .NET ปรับปรุงการจัดกำหนดการโครงการและการจัดการทรัพยากรด้วยคำแนะนำทีละขั้นตอนของเรา
 type: docs

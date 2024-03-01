@@ -32,7 +32,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "SampleProject.mpp");
 ```
 ## Paso 2: agregar recurso vacío
-continuación, agreguemos un recurso vacío al proyecto:
+A continuación, agreguemos un recurso vacío al proyecto:
 ```csharp
 var resource = project.Resources.Add();
 resource.Set(Rsc.Type, ResourceType.Work);

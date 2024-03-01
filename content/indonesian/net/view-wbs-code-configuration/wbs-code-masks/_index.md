@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi Kode WBS Langkah demi Langkah di Aspose.Tasks .NET
-linktitle: Konfigurasikan Masker Kode WBS di Aspose.Tasks
+linktitle: Mengonfigurasi Masker Kode WBS di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Jelajahi konfigurasi Masker Kode WBS langkah demi langkah di proyek .NET menggunakan Aspose.Tasks. Tingkatkan kemampuan manajemen proyek dengan mudah.
 type: docs
@@ -84,7 +84,7 @@ Dalam tutorial ini, kita telah menjelajahi proses langkah demi langkah mengonfig
 ### Bisakah saya menggunakan Aspose.Tasks secara gratis?
  Aspose.Tasks menawarkan uji coba gratis, yang dapat Anda unduh[Di Sini](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan tambahan?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)untuk dukungan masyarakat.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan masyarakat.
 ### Bagaimana saya bisa mendapatkan lisensi sementara?
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Apakah ada dokumentasi terperinci yang tersedia?

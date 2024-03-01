@@ -59,7 +59,7 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 
 ### Q：如何獲得 Aspose.Tasks for .NET 支援？
 
-答：您可以從社群論壇尋求協助。[這裡](https://forum.aspose.com/c/tasks/15).
+答：您可以從社群論壇尋求協助[這裡](https://forum.aspose.com/c/tasks/15).
 
 ### Q：使用 Aspose.Tasks for .NET 是否需要臨時授權？
 

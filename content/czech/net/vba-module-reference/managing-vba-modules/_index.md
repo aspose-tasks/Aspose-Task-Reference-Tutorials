@@ -69,8 +69,8 @@ Ano, Aspose.Tasks podporuje různé verze souborů Microsoft Project, včetně .
 ### Mohu upravit zdrojový kód modulů VBA programově pomocí Aspose.Tasks?
 Absolutně! Aspose.Tasks poskytuje metody nejen číst, ale také aktualizovat zdrojový kód modulů VBA.
 ### Kde najdu další příklady a dokumentaci pro Aspose.Tasks?
- navštivte[dokumentace](https://reference.aspose.com/tasks/net/) pro komplexní příklady a návody.
+ Navštivte[dokumentace](https://reference.aspose.com/tasks/net/) pro komplexní příklady a návody.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks?
- Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
+Ano, máte přístup k bezplatné zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu nebo vyhledat pomoc pro jakékoli problémy související s Aspose.Tasks?
- Neváhejte a navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)za podporu komunity.
+Neváhejte a navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity.

@@ -65,4 +65,4 @@ A: Aspose.Tasks는 다양한 버전의 MS 프로젝트 파일을 지원하여 �
 ### Q: 내 프로젝트에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
  A: 임시 라이센스는 다음에서 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/) 단기 사용을 위해.
 ### Q: Aspose.Tasks에 관해 도움이나 지원을 어디서 구할 수 있나요?
- A: Aspose.Tasks 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15) 커뮤니티 또는 Aspose 지원팀의 도움을 구하세요.
+ A: Aspose.Tasks 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15)커뮤니티 또는 Aspose 지원팀의 도움을 구하세요.

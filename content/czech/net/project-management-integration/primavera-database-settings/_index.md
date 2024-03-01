@@ -1,6 +1,6 @@
 ---
 title: Konfigurace databáze MS Project Primavera v Aspose.Tasks
-linktitle: Nakonfigurujte nastavení databáze Primavera v Aspose.Tasks
+linktitle: Konfigurace nastavení databáze Primavera v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se, jak snadno konfigurovat nastavení databáze MS Project Primavera v Aspose.Tasks pro .NET. Zjednodušte své úkoly projektového řízení.
 type: docs
@@ -12,7 +12,7 @@ Jste připraveni využít sílu Aspose.Tasks pro .NET k bezproblémové konfigur
 ## Předpoklady
 Než začnete, ujistěte se, že máte následující předpoklady:
 ### 1. Nainstalujte Aspose.Tasks for .NET
- Zamiřte k[Stáhněte si Aspose.Tasks for .NET](https://releases.aspose.com/tasks/net/) a stáhněte si nejnovější verzi knihovny Aspose.Tasks. Postupujte podle pokynů k instalaci a nastavte jej ve vašem prostředí .NET.
+ Zamiřte k[Stáhněte si Aspose.Tasks for .NET](https://releases.aspose.com/tasks/net/) stáhněte si nejnovější verzi knihovny Aspose.Tasks. Postupujte podle pokynů k instalaci a nastavte jej ve vašem prostředí .NET.
 ### 2. Přístup k databázi MS Project Primavera
 Ujistěte se, že máte přístup k databázi MS Project Primavera. Abyste mohli pokračovat, budete potřebovat potřebné přihlašovací údaje a podrobnosti o připojení.
 ### 3. Základní znalost C# a .NET Framework
@@ -43,17 +43,17 @@ sb.UserID = "privuser";
 sb.Password = "***";
 sb.ConnectTimeout = 2; // ExSkip
 ```
- Tento kód vytváří a`SqlConnectionStringBuilder` objektu a nastavuje různé vlastnosti jako např`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`atd. pro konfiguraci připojovacího řetězce pro databázi Primavera.
+ Tento kód vytváří a`SqlConnectionStringBuilder`objektu a nastavuje různé vlastnosti jako např`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`atd. pro konfiguraci připojovacího řetězce pro databázi Primavera.
 ## Krok 2: Inicializujte objekt PrimaveraDbSettings
 ```csharp
 var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```
-Zde inicializujeme novou instanci souboru`PrimaveraDbSettings` třídy předáním připojovacího řetězce a ID projektu (v tomto případě`4502`) jako parametry.
+ Zde inicializujeme novou instanci souboru`PrimaveraDbSettings` třídy předáním připojovacího řetězce a ID projektu (v tomto případě`4502`) jako parametry.
 ## Krok 3: Přečtěte si projekt z databáze
 ```csharp
 var project = new Project(settings);
 ```
- Tento řádek vytvoří nový`Project` objekt procházením`settings` objekt, který jsme vytvořili dříve. Naváže spojení s databází Primavera a načte projekt se zadaným UID (`4502`,
+ Tento řádek vytvoří nový`Project` objekt procházením`settings` objekt, který jsme vytvořili dříve. Naváže spojení s databází Primavera a načte projekt se zadaným UID (`4502`).
 ## Krok 4: Zobrazte UID projektu
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
@@ -72,4 +72,4 @@ Odpověď: Aspose.Tasks for .NET se primárně zaměřuje na místní řešení 
 ### Otázka: Mohu programově manipulovat s daty projektu pomocí Aspose.Tasks for .NET?
 A: Rozhodně! Aspose.Tasks for .NET poskytuje bohatou sadu rozhraní API pro čtení, zápis a manipulaci s daty projektu v různých formátech.
 ### Otázka: Je k dispozici komunitní fórum nebo kanál podpory pro Aspose.Tasks pro uživatele .NET?
- Odpověď: Ano, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a pomoc s jakýmikoli problémy nebo dotazy, které můžete mít. ## Kompletní zdrojový kód
+ Odpověď: Ano, můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)za podporu komunity a pomoc s jakýmikoli problémy nebo dotazy, které můžete mít. ## Kompletní zdrojový kód

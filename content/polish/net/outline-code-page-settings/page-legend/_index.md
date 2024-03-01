@@ -1,6 +1,6 @@
 ---
-title: Skonfiguruj legendy projektu MS w Aspose.Tasks
-linktitle: Skonfiguruj legendę strony w Aspose.Tasks
+title: Konfigurowanie legend projektu MS w Aspose.Tasks
+linktitle: Konfigurowanie legendy strony w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować legendy stron MS Project w .NET przy użyciu Aspose.Tasks w celu wydajnego zarządzania projektami. Dostarczono przewodnik krok po kroku.
 type: docs
@@ -8,16 +8,16 @@ weight: 18
 url: /pl/net/outline-code-page-settings/page-legend/
 ---
 ## Wstęp
-obszarze rozwoju .NET efektywne zarządzanie zadaniami jest kluczowe, szczególnie w przypadku zarządzania projektami. Aspose.Tasks dla .NET okazuje się potężnym narzędziem oferującym mnóstwo funkcjonalności usprawniających procesy zarządzania zadaniami. Jedną z takich funkcji jest możliwość konfiguracji legend stron MS Project, zapewniając użytkownikom cenny wgląd w prezentację danych projektu.
+W obszarze rozwoju .NET efektywne zarządzanie zadaniami jest kluczowe, szczególnie w przypadku zarządzania projektami. Aspose.Tasks dla .NET okazuje się potężnym narzędziem oferującym mnóstwo funkcjonalności usprawniających procesy zarządzania zadaniami. Jedną z takich funkcji jest możliwość konfiguracji legend stron MS Project, zapewniając użytkownikom cenny wgląd w prezentację danych projektu.
 ## Warunki wstępne
 Przed zagłębieniem się w konfigurowanie legend stron MS Project przy użyciu Aspose.Tasks dla .NET upewnij się, że spełnione są następujące wymagania wstępne:
-1.  Instalacja: Zainstaluj Aspose.Tasks for .NET w swoim środowisku programistycznym. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
+1. Instalacja: Zainstaluj Aspose.Tasks for .NET w swoim środowisku programistycznym. Można go pobrać z[Tutaj](https://releases.aspose.com/tasks/net/).
 2. Podstawowa wiedza o .NET: Zapoznaj się z podstawami programowania .NET, w tym konfigurowaniem projektów i pracą z przestrzeniami nazw.
 3. Środowisko programistyczne: użyj zintegrowanego środowiska programistycznego (IDE), takiego jak Visual Studio, aby zapewnić płynne kodowanie.
 4. Plik projektu: Przygotuj plik Microsoft Project (MPP) do eksperymentowania.
 
 ## Importuj przestrzenie nazw
-swoim projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności udostępnianych przez Aspose.Tasks dla .NET.
+W swoim projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp do funkcjonalności udostępnianych przez Aspose.Tasks dla .NET.
 1. Otwórz swój projekt: Uruchom projekt .NET w preferowanym środowisku IDE.
 2. Importuj przestrzenie nazw: Na początku pliku kodu zaimportuj wymagane przestrzenie nazw:
 ```csharp

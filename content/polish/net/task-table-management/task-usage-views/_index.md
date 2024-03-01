@@ -1,8 +1,8 @@
 ---
 title: Opanowanie widoków użycia zadań w Aspose.Tasks dla .NET
-linktitle: Skonfiguruj widoki wykorzystania zadań w Aspose.Tasks
+linktitle: Konfigurowanie widoków wykorzystania zadań w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Poznaj Aspose.Tasks dla .NET i dowiedz się, jak skonfigurować widoki użycia zadań. Dostosuj ustawienia skali czasu i ulepsz wizualizacje zarządzania projektami.
+description: Poznaj Aspose.Tasks dla .NET i dowiedz się, jak skonfigurować widoki wykorzystania zadań. Dostosuj ustawienia skali czasu i ulepsz wizualizacje zarządzania projektami.
 type: docs
 weight: 24
 url: /pl/net/task-table-management/task-usage-views/
@@ -23,7 +23,7 @@ W projekcie .NET zaimportuj niezbędne przestrzenie nazw, aby uzyskać dostęp d
     using Aspose.Tasks.Visualization;
 ```
 ## Krok 1: Ustaw ścieżkę katalogu dokumentów
- Przed rozpoczęciem pracy z funkcjonalnościami Aspose.Tasks ustaw ścieżkę do katalogu dokumentów. zastępować`"Your Document Directory"` z rzeczywistą ścieżką.
+ Przed rozpoczęciem pracy z funkcjonalnościami Aspose.Tasks ustaw ścieżkę do katalogu dokumentów. Zastępować`"Your Document Directory"` z rzeczywistą ścieżką.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Tak, Aspose.Tasks obsługuje popularne formaty plików projektów, takie jak MPP
 ### Czy mogę zastosować różne ustawienia skali czasu do określonych zadań?
 Oczywiście możesz dostosować ustawienia skali czasu dla poszczególnych zadań w ramach swojego projektu.
 ### Jak mogę uzyskać wsparcie lub szukać pomocy dla Aspose.Tasks?
- odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o wsparcie i wskazówki społeczności.
+ Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o wsparcie i wskazówki społeczności.

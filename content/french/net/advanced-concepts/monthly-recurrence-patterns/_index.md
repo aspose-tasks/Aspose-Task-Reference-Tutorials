@@ -55,7 +55,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
-## Étape 3 : ajouter des paramètres au projet
+## Étape 3 : Ajouter des paramètres au projet
 
 ```csharp
 project.RootTask.Children.Add(parameters);

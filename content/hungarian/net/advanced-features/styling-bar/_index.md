@@ -9,7 +9,7 @@ url: /hu/net/advanced-features/styling-bar/
 ---
 ## Bevezetés
 
-stílussávok kialakítása az Aspose.Tasks programban lényeges szempont a látványos projekttervek elkészítésében. Az Aspose.Tasks API által kínált rugalmasság révén a fejlesztők testreszabhatják a sávok különböző aspektusait, például a színt, a formát és a szövegstílust, hogy javítsák a projekt megjelenítését. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet a sávokat stílusozni az Aspose.Tasks for .NET használatával, az egyes példákat kezelhető lépésekre bontva.
+A stílussávok kialakítása az Aspose.Tasks programban lényeges szempont a látványos projekttervek elkészítésében. Az Aspose.Tasks API által kínált rugalmasság révén a fejlesztők testreszabhatják a sávok különböző aspektusait, például a színt, a formát és a szövegstílust, hogy javítsák a projekt megjelenítését. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet a sávokat stílusozni az Aspose.Tasks for .NET használatával, az egyes példákat kezelhető lépésekre bontva.
 
 ## Előfeltételek
 
@@ -35,7 +35,7 @@ using Aspose.Tasks.Visualization;
 
 ## 1. lépés: Töltse be a projektet
 
-A kezdéshez töltse be a projektfájlt az Aspose.Tasks API segítségével:
+kezdéshez töltse be a projektfájlt az Aspose.Tasks API segítségével:
 
 ```csharp
 // A dokumentumok könyvtárának elérési útja.
@@ -62,7 +62,7 @@ Hozzon létre egy új sávstílust, és szabja testre annak tulajdonságait:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Állítsa be a sávelem típusát
 style.BarColor = Color.Green; // Állítsa be a sáv színét
-style.BarShape = BarShape.HalfHeight; //Állítsa be a sáv alakját
+style.BarShape = BarShape.HalfHeight; // Állítsa be a sáv alakját
 style.StartShape = Shape.LeftBracket; // Állítsa be a formát a sáv elején
 style.StartShapeColor = Color.Aqua; // Állítsa be a kezdő alakzat színét
 style.EndShape = Shape.RightBracket; // Állítsa be a formát a rúd végén

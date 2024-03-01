@@ -11,7 +11,7 @@ url: /id/net/rate-recurring-tasks/removing-tasks/
 Dalam tutorial ini, kita akan mempelajari cara menghapus tugas dari file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Aspose.Tasks adalah API canggih yang memungkinkan pengembang memanipulasi file Microsoft Project secara terprogram. Menghapus tugas dari file proyek dapat menjadi persyaratan umum dalam skenario manajemen proyek, dan Aspose.Tasks menyediakan cara mudah untuk mencapai hal ini.
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
-1. Pemasangan Aspose.Tasks untuk .NET: Anda harus menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Jika Anda belum menginstalnya, Anda dapat mendownloadnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
+1.  Pemasangan Aspose.Tasks untuk .NET: Anda harus menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Jika Anda belum menginstalnya, Anda dapat mendownloadnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
 2. File Proyek Microsoft: Siapkan file Microsoft Project (`Project1.mpp` dalam contoh ini) tugas yang ingin Anda hapus.
 
 ## Impor Namespace

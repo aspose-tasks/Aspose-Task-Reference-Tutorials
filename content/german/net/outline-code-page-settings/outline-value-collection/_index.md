@@ -8,7 +8,7 @@ weight: 17
 url: /de/net/outline-code-page-settings/outline-value-collection/
 ---
 ## Einführung
-Aspose.Tasks für .NET bietet umfassende Funktionen für die Interaktion mit Microsoft Project-Dateien. Eine dieser Funktionen ist die Möglichkeit, Gliederungswerte innerhalb eines Projekts zu verwalten. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET Gliederungswerte sammeln und bearbeiten.
+Aspose.Tasks für .NET bietet umfassende Funktionen für die Interaktion mit Microsoft Project-Dateien. Eine dieser Funktionen ist die Möglichkeit, Gliederungswerte innerhalb eines Projekts zu verwalten. In diesem Tutorial erfahren Sie, wie Sie Gliederungswerte mit Aspose.Tasks für .NET sammeln und bearbeiten.
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 1.  Aspose.Tasks für .NET: Sie können die Bibliothek herunterladen von[Hier](https://releases.aspose.com/tasks/net/).

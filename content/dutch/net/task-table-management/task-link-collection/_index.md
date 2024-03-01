@@ -50,7 +50,7 @@ Druk de taaklinks voor het project af:
 ```csharp
 Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
 Console.WriteLine("Task links count: " + project.TaskLinks.Count);
-// Herhaal de taakkoppelingen
+//Herhaal de taakkoppelingen
 foreach (var link in project.TaskLinks)
 {
     Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));

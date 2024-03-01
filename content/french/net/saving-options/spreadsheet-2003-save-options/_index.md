@@ -27,9 +27,9 @@ Tout d'abord, chargez le fichier MS Project à l'aide d'Aspose.Tasks :
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- remplacer`"Your Document Directory"`avec le chemin du répertoire réel où se trouve votre fichier MS Project.
+ Remplacer`"Your Document Directory"`avec le chemin du répertoire réel où se trouve votre fichier MS Project.
 ## Étape 2 : définir les options d'enregistrement
- Définissez les options d'enregistrement de Spreadsheet 2003 en créant une instance de`Spreadsheet2003SaveOptions`,
+ Définissez les options d'enregistrement de Spreadsheet 2003 en créant une instance de`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ L'utilisation d'Aspose.Tasks pour .NET, en particulier les options d'enregistrem
 ### Q : Aspose.Tasks pour .NET peut-il être utilisé à la fois dans des applications Web et de bureau ?
 : Oui, Aspose.Tasks pour .NET peut être intégré de manière transparente aux applications Web et de bureau, offrant ainsi des fonctionnalités cohérentes sur toutes les plates-formes.
 ### Q : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour .NET ?
- R : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/), vous permettant d'explorer ses fonctionnalités avant de faire un achat.
+ : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/), vous permettant d'explorer ses fonctionnalités avant de faire un achat.
 ### Q : Existe-t-il des limites à la personnalisation des colonnes d’affichage à l’aide d’Aspose.Tasks pour .NET ?
 R : Aspose.Tasks pour .NET offre des options de personnalisation étendues pour les colonnes d'affichage, avec des limitations minimes. Cependant, des personnalisations complexes peuvent nécessiter une connaissance avancée de la bibliothèque.
 ### Q : Puis-je demander de l'aide si je rencontre des problèmes lors de l'utilisation d'Aspose.Tasks pour .NET ?

@@ -1,6 +1,6 @@
 ---
 title: Configura le opzioni XAML di MS Project con Aspose.Tasks per .NET
-linktitle: Configurare le opzioni XAML in Aspose.Tasks
+linktitle: Configurazione delle opzioni XAML in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come configurare le opzioni XAML di MS Project in Aspose.Tasks per .NET. Migliora la flessibilità e la personalizzazione della gestione dei progetti con una guida passo passo.
 type: docs
@@ -25,7 +25,7 @@ using Aspose.Tasks.Visualization;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- sostituire`"Your Document Directory"` con il percorso della directory dei documenti in cui si trova il file MS Project.
+ Sostituire`"Your Document Directory"` con il percorso della directory dei documenti in cui si trova il file MS Project.
 ## Passaggio 2: caricare il file MS Project
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -59,11 +59,11 @@ R: Sì, Aspose.Tasks per .NET supporta l'integrazione con vari strumenti di gest
 
 ### D: Come posso ottenere supporto per Aspose.Tasks per .NET?
 
- R: Puoi chiedere assistenza ai forum della community.[Qui](https://forum.aspose.com/c/tasks/15).
+ R: Puoi chiedere assistenza ai forum della community[Qui](https://forum.aspose.com/c/tasks/15).
 
 ### D: Ho bisogno di una licenza temporanea per utilizzare Aspose.Tasks per .NET?
 
-R: Potrebbe essere necessaria una licenza temporanea per alcune funzionalità avanzate, che è possibile ottenere[Qui](https://purchase.aspose.com/temporary-license/).
+ R: Potrebbe essere necessaria una licenza temporanea per alcune funzionalità avanzate, che è possibile ottenere[Qui](https://purchase.aspose.com/temporary-license/).
 
 ### D: Dove posso acquistare Aspose.Tasks per .NET?
 

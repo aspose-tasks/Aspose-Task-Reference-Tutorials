@@ -32,7 +32,7 @@ Először adja meg a Microsoft Project fájl elérési útját:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- cserélje ki`"Your Document Directory"` a projektfájl elérési útjával.
+ Cserélje ki`"Your Document Directory"` a projektfájl elérési útjával.
 ## 2. lépés: A feladatcsoportok információinak lekérése
 Ezután kérjen le információkat a projektben lévő feladatcsoportokról:
 ```csharp

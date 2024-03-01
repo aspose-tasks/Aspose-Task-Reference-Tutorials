@@ -27,9 +27,9 @@ Các không gian tên này cung cấp quyền truy cập vào các chức năng 
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- thay thế`"Your Document Directory"`với đường dẫn thư mục thực nơi chứa tệp MS Project của bạn.
+ Thay thế`"Your Document Directory"`với đường dẫn thư mục thực nơi chứa tệp MS Project của bạn.
 ## Bước 2: Xác định tùy chọn lưu
- Xác định các tùy chọn Lưu Bảng tính 2003 bằng cách tạo một phiên bản của`Spreadsheet2003SaveOptions`,
+ Xác định các tùy chọn Lưu Bảng tính 2003 bằng cách tạo một phiên bản của`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ Việc sử dụng Aspose.Tasks cho .NET, cụ thể là Spreadsheet 2003 Save M
 ### Câu hỏi: Aspose.Tasks cho .NET có thể được sử dụng trong cả ứng dụng web và máy tính để bàn không?
 Trả lời: Có, Aspose.Tasks cho .NET có thể được tích hợp liền mạch vào cả ứng dụng web và máy tính để bàn, cung cấp chức năng nhất quán trên các nền tảng.
 ### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
- Trả lời: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/), cho phép bạn khám phá các tính năng của nó trước khi mua hàng.
+Trả lời: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/), cho phép bạn khám phá các tính năng của nó trước khi mua hàng.
 ### Câu hỏi: Có bất kỳ hạn chế nào đối với việc tùy chỉnh các cột dạng xem bằng Aspose.Tasks cho .NET không?
 Trả lời: Aspose.Tasks dành cho .NET cung cấp các tùy chọn tùy chỉnh mở rộng cho các cột xem với những hạn chế tối thiểu. Tuy nhiên, các tùy chỉnh phức tạp có thể yêu cầu kiến thức nâng cao về thư viện.
 ### Câu hỏi: Tôi có thể yêu cầu hỗ trợ nếu gặp sự cố khi sử dụng Aspose.Tasks cho .NET không?

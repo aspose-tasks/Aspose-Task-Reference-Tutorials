@@ -31,12 +31,12 @@ Laten we nu de voorbeeldcode in meerdere stappen opsplitsen:
 // Het pad naar de documentenmap.
 string dataDir = "Your Document Directory";
 ```
- vervangen`"Your Document Directory"` met het pad naar uw map met het MS Project-bestand.
+ Vervangen`"Your Document Directory"` met het pad naar uw map met het MS Project-bestand.
 ## Stap 3: Projectbestandsinformatie ophalen
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Met deze coderegel wordt informatie opgehaald over het opgegeven projectbestand. vervangen`"Project.xml"` met de naam van uw MS Project-bestand.
+ Met deze coderegel wordt informatie opgehaald over het opgegeven projectbestand. Vervangen`"Project.xml"` met de naam van uw MS Project-bestand.
 ## Stap 4: Projectinformatie weergeven
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);

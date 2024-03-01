@@ -34,7 +34,7 @@ Most mentsük el a projektet CSV formátumban.
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## 3. lépés: Fedezzen fel más formátumokat
- Az Aspose.Tasks különféle formátumokat támogat a projektfájlok mentéséhez, például XML, PDF, XLSX stb. Ezeket a formátumokat egyszerűen módosíthatja a`SaveFileFormat` paramétereket a`Save` módszer.
+ Az Aspose.Tasks különféle formátumokat támogat a projektfájlok mentéséhez, például XML, PDF, XLSX stb. Ezeket a formátumokat egyszerűen módosíthatja a`SaveFileFormat` paraméter a`Save` módszer.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,8 +50,8 @@ V: Az Aspose.Tasks támogatja a Microsoft Project 2003 XML, a Microsoft Project 
 ### K: Kipróbálhatom az Aspose.Tasks-t vásárlás előtt?
  V: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### K: Hogyan kaphatok támogatást az Aspose.Tasks-hoz?
- V: Támogatást kaphat az Aspose.Tasks közösségi fórumon.[itt](https://forum.aspose.com/c/tasks/15).
+V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Rendelkezésre állnak ideiglenes licencek az Aspose.Tasks számára?
- V: Igen, ideiglenes licencek állnak rendelkezésre értékelési célokra. Kaphatsz egyet[itt](https://purchase.aspose.com/temporary-license/).
+ V: Igen, ideiglenes licencek állnak rendelkezésre értékelési célokra. Beszerezhetsz egyet[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Mi az Aspose.Tasks ára?
  V: Az árakkal kapcsolatos információk az Aspose.Tasks vásárlási oldalán találhatók[itt](https://purchase.aspose.com/buy).

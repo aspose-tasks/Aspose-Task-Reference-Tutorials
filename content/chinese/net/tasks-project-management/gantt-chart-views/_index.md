@@ -81,7 +81,7 @@ view.RollUpGanttBars = true;
 view.ShowBarSplits = true;
 ```
 确定是否必须在甘特图上显示任务拆分。
-### 展示图纸
+### 显示图纸
 ```csharp
 view.ShowDrawings = true;
 ```

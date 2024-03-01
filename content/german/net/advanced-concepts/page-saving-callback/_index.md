@@ -17,7 +17,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 1. Kenntnisse der Programmiersprache C#: Sie sollten über grundlegende Kenntnisse der Syntax und Konzepte von C# verfügen.
    
-2. Installation von Aspose.Tasks für .NET: Stellen Sie sicher, dass Sie die Aspose.Tasks-Bibliothek in Ihrer Entwicklungsumgebung installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
+2.  Installation von Aspose.Tasks für .NET: Stellen Sie sicher, dass Sie die Aspose.Tasks-Bibliothek in Ihrer Entwicklungsumgebung installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
 
 3. Einrichtung der Entwicklungsumgebung: Richten Sie Ihre bevorzugte IDE für die .NET-Entwicklung ein, z. B. Visual Studio.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## Schritt 2: Konfigurieren Sie die Bildspeicheroptionen
 
- Definieren`ImageSaveOptions` und passen Sie das Verhalten beim Speichern von Seiten an, indem Sie Folgendes festlegen`PageSavingCallback` Eigentum:
+ Definieren`ImageSaveOptions`und passen Sie das Verhalten beim Speichern von Seiten an, indem Sie Folgendes festlegen`PageSavingCallback` Eigentum:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);

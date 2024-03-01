@@ -58,7 +58,7 @@ var analysisResult = analyzer.Analyze(project);
 var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
 ```
 ## الخطوة 5: استرجاع نتائج التحليل
-استرجاع وعرض نتائج التحليل مثل القيم المتوقعة والنسب المئوية.
+استرداد وعرض نتائج التحليل، مثل القيم المتوقعة والنسب المئوية.
 ```csharp
 Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
 Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);

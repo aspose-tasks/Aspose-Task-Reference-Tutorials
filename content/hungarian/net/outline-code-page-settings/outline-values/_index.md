@@ -1,6 +1,6 @@
 ---
 title: Az MS Project Outline értékek elsajátítása az Aspose.Tasks segítségével
-linktitle: Az Aspose.Tasks körvonalértékeinek kezelése
+linktitle: Vázlatértékek kezelése az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan kezelheti hatékonyan az MS Project vázlatértékeit az Aspose.Tasks for .NET használatával. Könnyedén testreszabhatja a projekt körvonalait.
 type: docs
@@ -71,8 +71,8 @@ V: Igen, az Aspose.Tasks kompatibilis a különböző .NET-keretrendszerekkel, r
 ### K: Elérhető az Aspose.Tasks próbaverziója?
  V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
 ### K: Hogyan kaphatok támogatást az Aspose.Tasks-hoz?
- V: Támogatásért és segítségért keresse fel az Aspose.Tasks fórumot.[itt](https://forum.aspose.com/c/tasks/15).
+ V: Támogatásért és segítségért keresse fel az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Vásárolhatok ideiglenes licencet az Aspose.Tasks számára?
- V: Igen, vásárolhat ideiglenes licencet az Aspose.Tasks számára a következőtől:[itt](https://purchase.aspose.com/temporary-license/).
+V: Igen, vásárolhat ideiglenes licencet az Aspose.Tasks számára a következőtől:[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol találom az Aspose.Tasks részletes dokumentációját?
  V: Tekintse meg a rendelkezésre álló átfogó dokumentációt[itt](https://reference.aspose.com/tasks/net/).

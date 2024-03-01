@@ -12,7 +12,7 @@ Khi quản lý dự án phát triển, nhu cầu về các công cụ mạnh m�
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 - Kiến thức làm việc về phát triển .NET.
-- Aspose.Tasks cho thư viện .NET đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks cho thư viện .NET đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
 - Trình chỉnh sửa mã (khuyên dùng Visual Studio).
 ## Nhập không gian tên
 Trong dự án .NET của bạn, hãy bắt đầu bằng cách nhập các vùng tên cần thiết:
@@ -76,6 +76,6 @@ Tuyệt đối. Aspose.Tasks cung cấp tính linh hoạt cao, cho phép bạn �
 ### Có bất kỳ hạn chế nào về số lượng mã WBS mà tôi có thể xác định không?
 Aspose.Tasks cung cấp khả năng mở rộng và bạn có thể xác định một số lượng đáng kể mã WBS dựa trên độ phức tạp của dự án.
 ### Làm cách nào để khắc phục sự cố liên quan đến mã WBS trong dự án của tôi?
- Diễn đàn Aspose.Tasks (liên kết tới[ủng hộ](https://forum.aspose.com/c/tasks/15)) là một nguồn tài nguyên có giá trị để tìm kiếm sự hỗ trợ và khắc phục sự cố.
+ Diễn đàn Aspose.Tasks (liên kết đến[ủng hộ](https://forum.aspose.com/c/tasks/15)) là một nguồn tài nguyên có giá trị để tìm kiếm sự hỗ trợ và khắc phục sự cố.
 ### Có phiên bản dùng thử nào trước khi mua Aspose.Tasks không?
  Có, bạn có thể khám phá các tính năng và khả năng của Aspose.Tasks bằng cách truy cập[dùng thử miễn phí](https://releases.aspose.com/) phiên bản.

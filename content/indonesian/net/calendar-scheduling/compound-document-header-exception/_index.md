@@ -9,7 +9,7 @@ url: /id/net/calendar-scheduling/compound-document-header-exception/
 ---
 ## Perkenalan
 
- Dalam bidang pengembangan .NET, mengelola tugas proyek secara efisien adalah hal yang sangat penting. Aspose.Tasks memberikan solusi komprehensif bagi pengembang .NET untuk menangani tugas manajemen proyek dengan lancar. Namun, menghadapi pengecualian merupakan aspek yang tidak dapat dihindari dalam pengembangan perangkat lunak. Salah satu pengecualian yang mungkin ditemui pengembang adalah`CompoundDocumentHeaderException`Tutorial ini bertujuan untuk memandu pengembang tentang cara menangani pengecualian ini secara efektif menggunakan Aspose.Tasks untuk .NET.
+ Dalam bidang pengembangan .NET, mengelola tugas proyek secara efisien adalah hal yang sangat penting. Aspose.Tasks memberikan solusi komprehensif bagi pengembang .NET untuk menangani tugas manajemen proyek dengan lancar. Namun, menghadapi pengecualian merupakan aspek yang tidak dapat dihindari dalam pengembangan perangkat lunak. Salah satu pengecualian yang mungkin ditemui pengembang adalah`CompoundDocumentHeaderException`. Tutorial ini bertujuan untuk memandu pengembang tentang cara menangani pengecualian ini secara efektif menggunakan Aspose.Tasks untuk .NET.
 
 ## Prasyarat
 
@@ -78,7 +78,7 @@ Akses informasi proyek apa pun yang diperlukan, seperti nama proyek, menggunakan
 
 ## Langkah 4: Penanganan Pengecualian
 
- Jika`CompoundDocumentHeaderException`terjadi selama pemuatan proyek, tangani dalam blok tangkapan. Cetak atau catat pesan pengecualian untuk analisis lebih lanjut.
+ Jika`CompoundDocumentHeaderException` terjadi selama pemuatan proyek, tangani dalam blok tangkapan. Cetak atau catat pesan pengecualian untuk analisis lebih lanjut.
 
 ## Kesimpulan
 

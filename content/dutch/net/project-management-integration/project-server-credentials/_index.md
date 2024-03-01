@@ -12,7 +12,7 @@ Op het gebied van projectmanagement zijn effectieve coördinatie en naadloze com
 ## Vereisten
 Voordat u aan de slag gaat met het beheren van MS Project Server-referenties met Aspose.Tasks voor .NET, moet u ervoor zorgen dat aan de volgende vereisten wordt voldaan:
 ### 1. Aspose.Tasks voor .NET installeren
- Download en installeer om te beginnen Aspose.Tasks voor .NET vanaf het meegeleverde bestand[download link](https://releases.aspose.com/tasks/net/), Volg de installatie-instructies om de bibliotheek naadloos in uw .NET-omgeving te integreren.
+ Download en installeer om te beginnen Aspose.Tasks voor .NET vanaf het meegeleverde bestand[download link](https://releases.aspose.com/tasks/net/). Volg de installatie-instructies om de bibliotheek naadloos in uw .NET-omgeving te integreren.
 ### 2. Toegang tot referenties
 Verzamel de benodigde inloggegevens die nodig zijn voor toegang tot de MS Project Server. Dit omvat het SharePoint-domeinadres, de gebruikersnaam en het wachtwoord dat aan de Project Server is gekoppeld.
 

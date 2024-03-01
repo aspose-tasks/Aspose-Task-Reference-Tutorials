@@ -8,14 +8,14 @@ weight: 12
 url: /hu/net/vba-module-reference/vba-module-attribute-collection/
 ---
 ## Bevezetés
-Üdvözöljük az Aspose.Tasks for .NET világában! Ha Ön fejlesztő, aki az Aspose.Tasks for .NET erejét szeretné kiaknázni projektjeiben, akkor jó helyen jár. Ebben az oktatóanyagban a VBA-modul attribútumaival való munka bonyolultságaiba fogunk beleásni, és lépésről lépésre nyújtunk útmutatót arról, hogyan használhatja őket hatékonyan .NET-alkalmazásaiban.
+Üdvözöljük az Aspose.Tasks for .NET világában! Ha Ön fejlesztő, aki az Aspose.Tasks for .NET erejét szeretné kiaknázni projektjeiben, akkor jó helyen jár. Ebben az oktatóanyagban a VBA-modul attribútumaival való munka bonyolultságába fogunk beleásni, és lépésről lépésre nyújtunk útmutatót arról, hogyan használhatja őket hatékonyan .NET-alkalmazásaiban.
 ## Előfeltételek
 Mielőtt nekivágnánk ennek az útnak, győződjön meg arról, hogy a következő előfeltételeket teljesíti:
 -  Aspose.Tasks for .NET Library: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési oldal](https://releases.aspose.com/tasks/net/).
 - Integrált fejlesztői környezet (IDE): Telepítse a gépére .NET-kompatibilis IDE-t, például a Visual Studio-t.
 - Dokumentumkönyvtár: A fájlok hatékony kezeléséhez hozzon létre egy dokumentumkönyvtárat a projektben.
 ## Névterek importálása
-A folyamat elindításához importálja a szükséges névtereket a projektbe. Ez a lépés biztosítja, hogy hozzáférjen az Aspose.Tasks for .NET szolgáltatásaihoz. Íme egy részlet, amely eligazítja:
+folyamat elindításához importálja a szükséges névtereket a projektbe. Ez a lépés biztosítja, hogy hozzáférjen az Aspose.Tasks for .NET szolgáltatásaihoz. Íme egy részlet, amely eligazítja:
 ```csharp
     using Aspose.Tasks;
     using System;

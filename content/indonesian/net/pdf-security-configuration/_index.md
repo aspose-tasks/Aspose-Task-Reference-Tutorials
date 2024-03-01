@@ -11,15 +11,15 @@ url: /id/net/pdf-security-configuration/
 
 Di dunia digital, menjaga file proyek Anda adalah hal yang terpenting. Aspose.Tasks untuk .NET memberikan solusi tangguh untuk memperkuat keamanan Microsoft Project PDF Anda. Seri tutorial ini menggali seluk-beluk konfigurasi keamanan PDF, memastikan kerahasiaan dan keaslian data proyek berharga Anda.
 
-## Konfigurasikan Tanda Tangan Digital MS Project PDF dengan Aspose.Tasks
+## Mengonfigurasi Tanda Tangan Digital MS Project PDF dengan Aspose.Tasks
 
 Dalam hal memvalidasi keaslian dokumen proyek Anda, tanda tangan digital memainkan peran penting. Dalam tutorial ini, kami memandu Anda melalui proses mengonfigurasi detail tanda tangan digital Microsoft Project PDF menggunakan Aspose.Tasks untuk .NET. Pada akhirnya, Anda akan memiliki pengetahuan untuk menerapkan tanda tangan digital secara efektif, menjamin integritas file proyek Anda.
 
-Tanda tangan digital berfungsi sebagai sidik jari elektronik, memberikan pengenal unik untuk file Anda. Dengan Aspose.Tasks, Anda dapat dengan mudah mengintegrasikan fitur keamanan ini ke dalam alur kerja Anda. Dari memahami dasar-dasar hingga menerapkan konfigurasi tingkat lanjut, tutorial ini mencakup semuanya. File proyek Anda tidak hanya akan aman tetapi juga anti kerusakan, sehingga menanamkan kepercayaan pada Anda dan pemangku kepentingan Anda.
+Tanda tangan digital berfungsi sebagai sidik jari elektronik, memberikan pengenal unik untuk file Anda. Dengan Aspose.Tasks, Anda dapat dengan mudah mengintegrasikan fitur keamanan ini ke dalam alur kerja Anda. Dari memahami dasar-dasar hingga menerapkan konfigurasi tingkat lanjut, tutorial ini mencakup semuanya. File proyek Anda tidak hanya akan aman tetapi juga anti-rusak, sehingga menanamkan kepercayaan pada Anda dan pemangku kepentingan Anda.
 
 [Pelajari lebih lanjut tentang mengonfigurasi Tanda Tangan Digital MS Project PDF dengan Aspose.Tasks](./pdf-digital-signature-details/)
 
-## Konfigurasikan Detail Enkripsi PDF Proyek MS di Aspose.Tasks
+## Mengonfigurasi Detail Enkripsi PDF Proyek MS di Aspose.Tasks
 
 Selain tanda tangan digital, enkripsi menambahkan lapisan perlindungan ekstra pada file proyek Anda. Tutorial ini berfokus pada mengonfigurasi detail enkripsi MS Project PDF menggunakan Aspose.Tasks untuk .NET. Di akhir panduan ini, Anda akan mahir mengamankan file proyek Anda dengan kata sandi pengguna dan pemilik.
 

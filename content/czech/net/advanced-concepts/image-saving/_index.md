@@ -9,7 +9,7 @@ url: /cs/net/advanced-concepts/image-saving/
 ---
 ## Úvod
 
-tomto tutoriálu se ponoříme do procesu zpracování ukládání obrázků v Aspose.Tasks pro .NET. Aspose.Tasks je výkonné rozhraní API, které umožňuje vývojářům programově manipulovat se soubory aplikace Microsoft Project. Jedním z běžných úkolů při práci s projektovými soubory je potřeba ukládat obrázky, které mohou obsahovat tabulky, grafy nebo jiné vizuální prvky. Proces rozebereme krok za krokem, zajistíme srozumitelnost a pochopení.
+V tomto tutoriálu se ponoříme do procesu zpracování ukládání obrázků v Aspose.Tasks pro .NET. Aspose.Tasks je výkonné rozhraní API, které umožňuje vývojářům programově manipulovat se soubory aplikace Microsoft Project. Jedním z běžných úkolů při práci s projektovými soubory je potřeba ukládat obrázky, které mohou obsahovat tabulky, grafy nebo jiné vizuální prvky. Proces rozebereme krok za krokem, zajistíme srozumitelnost a pochopení.
 
 ## Předpoklady
 

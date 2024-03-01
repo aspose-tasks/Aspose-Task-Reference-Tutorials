@@ -138,7 +138,7 @@ A3 : Oui, vous pouvez lire les exceptions de calendrier à partir de sources ext
 
 ### Q4 : Que se passe-t-il s'il y a des exceptions qui se chevauchent dans le calendrier ?
 
-A4 : Aspose.Tasks pour .NET vous permet de gérer les exceptions qui se chevauchent en définissant des priorités ou en résolvant les conflits en fonction des exigences de votre projet.
+A4 : Aspose.Tasks for .NET vous permet de gérer les exceptions qui se chevauchent en définissant des priorités ou en résolvant les conflits en fonction des exigences de votre projet.
 
 ### Q5 : Puis-je personnaliser les horaires de travail pour chaque jour dans le cadre d'une exception ?
 

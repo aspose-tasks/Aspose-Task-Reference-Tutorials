@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Langkah 1: Muat File Proyek
 
- Mulailah dengan memuat file Microsoft Project (.mpp) yang ingin Anda periksa apakah ada struktur yang rusak. Menggunakan`Project` kelas untuk memuat file.
+Mulailah dengan memuat file Microsoft Project (.mpp) yang ingin Anda periksa apakah ada struktur yang rusak. Menggunakan`Project` kelas untuk memuat file.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -70,7 +70,7 @@ A1: Ya, Aspose.Tasks untuk .NET kompatibel dengan berbagai kerangka .NET, termas
 
 ### Q3: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks untuk .NET?
 
-A3: Anda dapat mencari bantuan dari forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
+ A3: Anda dapat mencari bantuan dari forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 
 ### Q4: Apakah saya memerlukan lisensi sementara untuk tujuan pengujian?
 

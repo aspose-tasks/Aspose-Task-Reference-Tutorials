@@ -2,7 +2,7 @@
 title: Aspose.Tasks を使用して MS プロジェクトのアウトライン値を管理する
 linktitle: Aspose.Tasks のアウトライン値のコレクション
 second_title: Aspose.Tasks .NET API
-description: Aspose.Tasks for .NET を使用して Microsoft Project ファイルのアウトライン値を管理する方法を学びます。コード例を含むステップバイステップのチュートリアル。
+description: Aspose.Tasks for .NET を使用して Microsoft Project ファイルのアウトライン値を管理する方法を学習します。コード例を含むステップバイステップのチュートリアル。
 type: docs
 weight: 17
 url: /ja/net/outline-code-page-settings/outline-value-collection/
@@ -96,7 +96,7 @@ foreach (var outlineValue in outlineValues)
 }
 ```
 ## 結論
-このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project ファイルのアウトライン値を操作する方法を学びました。提供された手順に従うことで、プロジェクト内のアウトライン値を効率的に管理でき、より優れた制御と柔軟性が可能になります。
+このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project ファイル内のアウトライン値を操作する方法を学びました。提供された手順に従うことで、プロジェクト内のアウトライン値を効率的に管理でき、より優れた制御と柔軟性が可能になります。
 ## よくある質問
 ### Q: 複数のアウトライン コードを同時に操作できますか?
 A: はい、Aspose.Tasks を使用して、プロジェクト内で複数のアウトライン コードを定義および操作できます。

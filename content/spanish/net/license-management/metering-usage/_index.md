@@ -11,7 +11,7 @@ url: /es/net/license-management/metering-usage/
 ¿Está buscando administrar y monitorear de manera efectiva el uso de MS Project con Aspose.Tasks? Con el poder de la medición, puede realizar un seguimiento de su uso y optimizar sus esfuerzos de gestión de proyectos. En este tutorial, lo guiaremos a través del proceso de medir el uso de MS Project paso a paso usando Aspose.Tasks para .NET.
 ## Requisitos previos
 Antes de sumergirnos en la medición del uso de MS Project, asegúrese de tener los siguientes requisitos previos:
-1.  Biblioteca Aspose.Tasks para .NET: descargue e instale la biblioteca Aspose.Tasks para .NET desde[pagina de descarga](https://releases.aspose.com/tasks/net/), Siga las instrucciones de instalación para configurar la biblioteca en su entorno de desarrollo.
+1.  Biblioteca Aspose.Tasks para .NET: descargue e instale la biblioteca Aspose.Tasks para .NET desde[pagina de descarga](https://releases.aspose.com/tasks/net/). Siga las instrucciones de instalación para configurar la biblioteca en su entorno de desarrollo.
 2.  Claves públicas y privadas: obtenga sus claves públicas y privadas de Aspose. Estas claves son esenciales para el uso de la medición. Si aún no tienes claves, puedes solicitarlas a Aspose a través del[licencia temporal](https://purchase.aspose.com/temporary-license/) página.
 
 ## Importar espacios de nombres
@@ -30,7 +30,7 @@ String DataDir = "Your Document Directory";
 var metered = new Metered();
 metered.SetMeteredKey("<public key>", "<private key>");
 ```
- reemplazar`"Your Document Directory"` con la ruta a su directorio de documentos y sustitúyalo`<public key>` y`<private key>` con sus claves reales obtenidas de Aspose.
+ Reemplazar`"Your Document Directory"` con la ruta a su directorio de documentos y sustitúyalo`<public key>` y`<private key>` con sus claves reales obtenidas de Aspose.
 ## Paso 2: cargar el archivo de MS Project
 A continuación, cargue su archivo de MS Project usando Aspose.Tasks:
 ```csharp

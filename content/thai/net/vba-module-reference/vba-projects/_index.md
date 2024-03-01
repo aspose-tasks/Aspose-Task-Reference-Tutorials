@@ -76,6 +76,6 @@ foreach (var reference in project.VbaProject.References)
 ### ถาม: มีการทดลองใช้ฟรีหรือไม่?
  ตอบ: ได้ คุณสามารถเข้าถึงรุ่นทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้อย่างไร
-ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: ฉันจะซื้อ Aspose.Tasks ได้ที่ไหน
  ตอบ: ซื้อ Aspose.Tasks[ที่นี่](https://purchase.aspose.com/buy).

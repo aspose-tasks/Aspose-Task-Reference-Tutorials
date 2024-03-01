@@ -11,7 +11,7 @@ url: /hu/net/rate-recurring-tasks/removing-tasks/
 Ebben az oktatóanyagban megvizsgáljuk, hogyan távolíthat el feladatokat egy Microsoft Project fájlból az Aspose.Tasks for .NET segítségével. Az Aspose.Tasks egy hatékony API, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a Microsoft Project fájlokat. A feladatok projektfájlból való eltávolítása gyakori követelmény lehet a projektmenedzsment forgatókönyveiben, és az Aspose.Tasks egyszerű módszert kínál ennek elérésére.
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
-1. Az Aspose.Tasks for .NET telepítése: A fejlesztői környezetében telepítenie kell az Aspose.Tasks for .NET programot. Ha még nem telepítette, letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
+1.  Az Aspose.Tasks for .NET telepítése: A fejlesztői környezetében telepítenie kell az Aspose.Tasks for .NET programot. Ha még nem telepítette, letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
 2. Microsoft Project fájl: készítsen elő egy Microsoft Project fájlt (`Project1.mpp` ebben a példában), amelyből el szeretne távolítani feladatokat.
 
 ## Névterek importálása

@@ -9,7 +9,7 @@ url: /zh-hant/net/advanced-features/calculation-type/
 ---
 ## 介紹
 
-在本教程中，我們將探索 Aspose.Tasks for .NET 中的計算類型功能。 Aspose.Tasks 是一個功能強大的程式庫，可讓 .NET 開發人員使用 Microsoft Project 文件，而無需在其係統上安裝 Microsoft Project。計算類型可讓我們定義如何計算項目中的任務和摘要任務的值。
+在本教程中，我們將探索 Aspose.Tasks for .NET 中的計算類型功能。 Aspose.Tasks 是一個功能強大的程式庫，可讓 .NET 開發人員使用 Microsoft Project 文件，而無需在其係統上安裝 Microsoft Project。計算類型可讓我們定義如何計算專案中任務和摘要任務的值。
 
 ## 先決條件
 
@@ -74,13 +74,13 @@ project.ExtendedAttributes.Add(lookup);
 
 ## 結論
 
-在本教程中，我們探討如何在 Aspose.Tasks for .NET 中使用計算類型。透過定義擴展屬性的計算類型，我們可以自訂項目內任務和摘要任務的值計算方式，提供更大的靈活性和控制力。
+在本教程中，我們探討如何在 Aspose.Tasks for .NET 中使用計算類型。透過定義擴展屬性的計算類型，我們可以自訂專案中任務和摘要任務的值計算方式，從而提供更大的靈活性和控制力。
 
 ## 常見問題解答
 
 ### Q1：Aspose.Tasks 中的計算類型是什麼？
 
-A1：Aspose.Tasks 中的計算類型決定如何計算項目內的任務和摘要任務的值，提供公式和總和等選項。
+A1：Aspose.Tasks 中的計算類型決定如何計算專案中的任務和摘要任務的值，提供公式和總和等選項。
 
 ### Q2：如何設定擴充屬性的計算類型？
 
@@ -92,7 +92,7 @@ A3：是的，Aspose.Tasks 可讓您指定總計行的計算類型，使您能�
 
 ### Q4：是否有不同的 Rollup Type 可用來摘要任務計算？
 
-A4：是的，Aspose.Tasks 提供了 Average、Sum 和 Count 等各種 Rollup Type 來計算摘要任務的值。
+A4：是的，Aspose.Tasks 提供了各種 Rollup 類型，例如 Average、Sum 和 Count 來計算摘要任務的值。
 
 ### Q5：在哪裡可以找到更多關於 Aspose.Tasks for .NET 的資源？
 

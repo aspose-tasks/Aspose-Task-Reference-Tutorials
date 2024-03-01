@@ -72,10 +72,10 @@ Aspose.Tasks で VBA プロジェクトをマスターすると、.NET Framework
 ### Q: Aspose.Tasks を .NET プロジェクトで使用できますか?
 A: はい、Aspose.Tasks はあらゆる .NET プロジェクトとシームレスに統合し、強化されたプロジェクト管理機能を提供します。
 ### Q: Aspose.Tasks の追加サポートはどこで見つけられますか?
-A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティのサポートとディスカッションのために。
+ A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)コミュニティのサポートとディスカッションのために。
 ### Q: 無料トライアルはありますか?
  A: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
 ### Q: Aspose.Tasks の一時ライセンスを取得するにはどうすればよいですか?
-A: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
+ A: 仮免許を取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks はどこで購入できますか?
  A: Aspose.Tasks を購入する[ここ](https://purchase.aspose.com/buy).

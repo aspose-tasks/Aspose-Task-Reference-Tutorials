@@ -12,7 +12,7 @@ zarządzaniu projektami skuteczna koordynacja i płynna komunikacja mają kluczo
 ## Warunki wstępne
 Przed wyruszeniem w podróż zarządzania poświadczeniami MS Project Server za pomocą Aspose.Tasks dla .NET upewnij się, że spełnione są następujące wymagania wstępne:
 ### 1. Instalacja Aspose.Tasks dla .NET
- Aby rozpocząć, pobierz i zainstaluj Aspose.Tasks dla .NET z dostarczonego oprogramowania[link do pobrania](https://releases.aspose.com/tasks/net/), Postępuj zgodnie z instrukcjami instalacji, aby bezproblemowo zintegrować bibliotekę ze środowiskiem .NET.
+ Aby rozpocząć, pobierz i zainstaluj Aspose.Tasks dla .NET z dostarczonego oprogramowania[link do pobrania](https://releases.aspose.com/tasks/net/). Postępuj zgodnie z instrukcjami instalacji, aby bezproblemowo zintegrować bibliotekę ze środowiskiem .NET.
 ### 2. Dane dostępowe
 Zbierz niezbędne dane uwierzytelniające wymagane do uzyskania dostępu do serwera MS Project. Obejmuje to adres domeny SharePoint, nazwę użytkownika i hasło powiązane z serwerem Project Server.
 

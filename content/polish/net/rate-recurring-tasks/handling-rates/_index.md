@@ -67,7 +67,7 @@ Gratulacje! Pomyślnie poradziłeś sobie ze stawkami MS Project przy użyciu As
 ## Wniosek
 Programowe zarządzanie stawkami MS Project może znacznie usprawnić przepływ pracy w zarządzaniu projektami. Dzięki Aspose.Tasks dla .NET masz możliwość wydajnej automatyzacji zadań obsługi stawek, oszczędzając czas i zasoby.
 ## Często zadawane pytania
-### P: Czy Aspose.Tasks obsługuje złożone struktury projektów?
+### P: Czy Aspose.Tasks obsługuje złożone struktury projektu?
 Odp.: Tak, Aspose.Tasks zapewnia solidne funkcje umożliwiające łatwą obsługę złożonych struktur projektów.
 ### P: Czy Aspose.Tasks jest kompatybilny ze wszystkimi wersjami plików MS Project?
 Odp.: Aspose.Tasks obsługuje różne wersje plików MS Project, zapewniając kompatybilność na różnych platformach.

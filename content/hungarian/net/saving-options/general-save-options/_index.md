@@ -12,7 +12,7 @@ Az Aspose.Tasks for .NET hatékony szolgáltatásokat kínál a Microsoft Projec
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 1.  Az Aspose.Tasks for .NET telepítése: Töltse le és telepítse az Aspose.Tasks for .NET webhelyről[letöltési link](https://releases.aspose.com/tasks/net/).
-2. .NET-keretrendszer alapvető ismerete: A .NET programozási koncepciók ismerete előnyös.
+2. A .NET-keretrendszer alapvető ismerete: A .NET programozási koncepciók ismerete előnyös.
 
 ## Névterek importálása
 Mielőtt belemerülne a kódba, feltétlenül importálja a szükséges névtereket:
@@ -35,7 +35,7 @@ Először is be kell töltenie az MS Project fájlt az Aspose.Tasks segítségé
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## 2. lépés: Adja meg a mentési beállításokat
- Határozza meg a mentési lehetőségeket igényei szerint. Ebben a példában azt használjuk`Spreadsheet2003SaveOptions`,
+ Határozza meg a mentési lehetőségeket igényei szerint. Ebben a példában azt használjuk`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ V: Igen, az Aspose.Tasks támogatja az MS Project fájlok különféle verzióit
 ### K: Kipróbálhatom az Aspose.Tasks-t vásárlás előtt?
  V: Igen, az Aspose.Tasks szolgáltatást ingyenes próbaverzióval fedezheti fel[itt](https://releases.aspose.com/).
 ### K: Hol találom az Aspose.Tasks dokumentációját?
-V: A részletes dokumentáció megtalálható[itt](https://reference.aspose.com/tasks/net/), amely átfogó útmutatást nyújt az Aspose.Tasks funkciók használatához.
+ V: A részletes dokumentáció megtalálható[itt](https://reference.aspose.com/tasks/net/), amely átfogó útmutatást nyújt az Aspose.Tasks funkciók használatához.
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
- V: Ideiglenes licencek állnak rendelkezésre értékelési célokra.[itt](https://purchase.aspose.com/temporary-license/).
+ V: Ideiglenes licencek állnak rendelkezésre értékelési célokra[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol kérhetek támogatást az Aspose.Tasks-hoz kapcsolódó lekérdezésekhez?
- V: Csatlakozhat az Aspose.Tasks közösségi fórumhoz[itt](https://forum.aspose.com/c/tasks/15) szakértőktől és fejlesztőtársaktól kérhet segítséget.
+ V: Csatlakozhat az Aspose.Tasks közösségi fórumhoz[itt](https://forum.aspose.com/c/tasks/15)szakértőktől és fejlesztőtársaktól kérhet segítséget.

@@ -50,6 +50,6 @@ url: /th/net/saving-options/
 ### [โครงการ MS พร้อมตัวเลือก Spreadsheet 2003 สำหรับ Aspose.Tasks](./spreadsheet-2003-save-options/)
 Master Spreadsheet 2003 บันทึกตัวเลือกโครงการ MS ด้วย Aspose.Tasks สำหรับ .NET ปรับแต่งและบันทึกไฟล์ MS Project ได้อย่างราบรื่นโดยทางโปรแกรม
 ### [การสร้าง SVG ได้อย่างง่ายดายสำหรับ Aspose.Tasks](./svg-options/)
-เรียนรู้วิธีใช้ Aspose.Tasks สำหรับ .NET เพื่อสร้างการนำเสนอ SVG ของไฟล์ Microsoft Project ได้อย่างง่ายดายเพื่อการแสดงภาพโครงการที่ได้รับการปรับปรุง
+เรียนรู้วิธีใช้ Aspose.Tasks สำหรับ .NET เพื่อสร้างการแสดงภาพ SVG ของไฟล์ Microsoft Project ได้อย่างง่ายดายเพื่อการแสดงภาพโครงการที่ได้รับการปรับปรุง
 ### [แปลง MSP เป็นตัวเลือก XPS ด้วย Aspose.Tasks](./xps-options/)
 เรียนรู้วิธีแปลงไฟล์ Microsoft Project เป็นรูปแบบ XPS โดยใช้ Aspose.Tasks สำหรับ .NET บูรณาการได้ง่าย มีฟังก์ชันการทำงานที่แข็งแกร่ง

@@ -74,7 +74,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptions()
         PreserveUids = true
     };
 
-    // ضبط خيارات قراءة بريمافيرا
+    // ضبط خيارات القراءة لبرنامج بريمافيرا
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     // قم بتحميل مشروع بريمافيرا بالخيارات المحددة
@@ -119,7 +119,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
         ProjectUid = 3882 // قم بتعيين معرف المشروع
     };
 
-    // ضبط خيارات قراءة بريمافيرا
+    // ضبط خيارات القراءة لبرنامج بريمافيرا
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     //قم بتعيين معالجة الأخطاء المخصصة

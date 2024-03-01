@@ -11,7 +11,7 @@ url: /de/net/text-view-configuration/text-item-types/
 Wenn Sie als .NET-Entwickler mit Aspose.Tasks in das Projektmanagement eintauchen, sind Sie bei uns genau richtig! In dieser Schritt-für-Schritt-Anleitung erkunden wir die Feinheiten der Handhabung von Textelementtypen in Aspose.Tasks und konzentrieren uns dabei auf die Anpassung mithilfe der leistungsstarken .NET-Bibliothek.
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass Sie Folgendes eingerichtet haben:
-1. Aspose.Tasks für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Tasks-Bibliothek installiert haben. Wenn nicht, können Sie es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks für .NET-Bibliothek: Stellen Sie sicher, dass Sie die Aspose.Tasks-Bibliothek installiert haben. Wenn nicht, können Sie es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
 2. Dokumentenverzeichnis: Richten Sie ein Verzeichnis für Ihre Projektdokumente ein.
 Lassen Sie uns nun in die Einzelheiten der Handhabung von Textelementtypen eintauchen.
 ## Namespaces importieren
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Wenden Sie den definierten Textstil auf Ihr Projekt an und speichern Sie das angepasste Projekt als PDF-Datei.
 Wiederholen Sie diese Schritte für andere Anpassungsanforderungen und experimentieren Sie mit verschiedenen Textelementtypen, Schriftarten und Farben.
 ## Abschluss
- Glückwunsch! Sie haben gerade erst an der Oberfläche der Handhabung von Textelementtypen in Aspose.Tasks für .NET gekratzt. Beachten Sie bei Ihrer weiteren Erkundung die[Dokumentation](https://reference.aspose.com/tasks/net/) für vertiefte Einblicke.
+Glückwunsch! Sie haben gerade erst an der Oberfläche der Handhabung von Textelementtypen in Aspose.Tasks für .NET gekratzt. Beachten Sie bei Ihrer weiteren Erkundung die[Dokumentation](https://reference.aspose.com/tasks/net/) für vertiefte Einblicke.
 ### FAQs
 ### F: Kann ich Aspose.Tasks kostenlos nutzen?
  A: Aspose.Tasks bietet eine kostenlose Testversion an. Nimm es[Hier](https://releases.aspose.com/).

@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
-必ず交換してください`"Your Document Directory"`, `URL`, `Domain`, `UserName`、そして`Password`実際の価値観に合わせて。
+必ず交換してください`"Your Document Directory"`, `URL`, `Domain`, `UserName`、 そして`Password`実際の価値観に合わせて。
 ## ステップ 2: Project Server Manager を作成する
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
-を調整します。`ProjectGuid`, `ProjectName`, `Timeout`、そして`PollingInterval`あなたの要件に従って。
+を調整します。`ProjectGuid`, `ProjectName`, `Timeout`、 そして`PollingInterval`あなたの要件に従って。
 ## ステップ 4: プロジェクトをサーバーに保存する
 ```csharp
 manager.CreateNewProject(project, options);

@@ -151,7 +151,7 @@ A2: Hoàn toàn có thể, Aspose.Tasks hỗ trợ nhập lịch từ các tệp
 
 ### Câu hỏi 3: Làm cách nào để xóa lịch cụ thể khỏi dự án?
 
-A3: Bạn có thể xóa lịch bằng cách lấy nó từ bộ sưu tập rồi gọi`Remove` phương pháp.
+ A3: Bạn có thể xóa lịch bằng cách lấy nó từ bộ sưu tập rồi gọi`Remove` phương pháp.
 
 ### Câu hỏi 4: Aspose.Tasks có hỗ trợ xuất lịch sang các định dạng khác nhau không?
 

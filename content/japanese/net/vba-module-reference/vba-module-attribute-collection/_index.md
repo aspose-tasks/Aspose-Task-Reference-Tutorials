@@ -56,10 +56,10 @@ foreach (var attribute in module.Attributes)
 ### Q: Aspose.Tasks for .NET のドキュメントはどこで見つけられますか?
  A: ドキュメントは入手可能です[ここ](https://reference.aspose.com/tasks/net/).
 ### Q: Aspose.Tasks for .NET をダウンロードするにはどうすればよいですか?
-A: 以下からダウンロードできます。[リリースページ](https://releases.aspose.com/tasks/net/).
+ A: 以下からダウンロードできます。[リリースページ](https://releases.aspose.com/tasks/net/).
 ### Q: Aspose.Tasks for .NET のライセンスはどこで購入できますか?
  A: ライセンスを購入できます[ここ](https://purchase.aspose.com/buy).
 ### Q: 無料トライアルはありますか?
 A: はい、無料トライアルにアクセスできます。[ここ](https://releases.aspose.com/).
 ### Q: Aspose.Tasks for .NET のサポートはどこに問い合わせればよいですか?
-A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートのための。
+ A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートのための。

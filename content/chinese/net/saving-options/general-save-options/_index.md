@@ -35,7 +35,7 @@ Aspose.Tasks for .NET 提供了以编程方式操作 Microsoft Project 文件的
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## 第 2 步：定义保存选项
-根据您的要求定义保存选项。在此示例中，我们使用`Spreadsheet2003SaveOptions`,
+根据您的要求定义保存选项。在此示例中，我们使用`Spreadsheet2003SaveOptions`：
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -65,6 +65,6 @@ project.Save("Your Document Directory/UsingSpreadsheet2003SaveOptions_out.xml", 
 ### 问：在哪里可以找到 Aspose.Tasks 的文档？
 答：详细的文档可以找到[这里](https://reference.aspose.com/tasks/net/)，提供有关使用 Aspose.Tasks 功能的全面指导。
 ### 问：如何获得 Aspose.Tasks 的临时许可证？
-答：临时许可证可用于评估目的。[这里](https://purchase.aspose.com/temporary-license/).
+答：临时许可证可用于评估目的[这里](https://purchase.aspose.com/temporary-license/).
 ### 问：我在哪里可以寻求 Aspose.Tasks 相关查询的支持？
 答：您可以加入Aspose.Tasks社区论坛[这里](https://forum.aspose.com/c/tasks/15)获得专家和其他开发人员的帮助。

@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## Etapa 1: definir o diretório de documentos
-Certifique-se de ter um diretório designado para seus documentos. substituir`"Your Document Directory"` com o caminho para o diretório desejado.
+ Certifique-se de ter um diretório designado para seus documentos. Substituir`"Your Document Directory"` com o caminho para o diretório desejado.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Etapa 2: carregar o arquivo do projeto
- Carregue o arquivo do Microsoft Project (.mpp) usando o`Project` aula.
+Carregue o arquivo do Microsoft Project (.mpp) usando o`Project` aula.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

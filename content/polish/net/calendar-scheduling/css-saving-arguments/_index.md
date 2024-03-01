@@ -9,7 +9,7 @@ url: /pl/net/calendar-scheduling/css-saving-arguments/
 ---
 ## Wstęp
 
-W tym samouczku zagłębimy się w proces zapisywania argumentów CSS przy użyciu Aspose.Tasks dla .NET. Kaskadowe arkusze stylów (CSS) mają kluczowe znaczenie przy definiowaniu prezentacji elementów HTML. Aspose.Tasks pozwala nam efektywnie manipulować i zapisywać te atrybuty CSS.
+tym samouczku zagłębimy się w proces zapisywania argumentów CSS przy użyciu Aspose.Tasks dla .NET. Kaskadowe arkusze stylów (CSS) mają kluczowe znaczenie przy definiowaniu prezentacji elementów HTML. Aspose.Tasks pozwala nam efektywnie manipulować i zapisywać te atrybuty CSS.
 
 ## Warunki wstępne
 
@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Skonfiguruj opcje zapisywania HTML
+        //Skonfiguruj opcje zapisywania HTML
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ O3: Aspose.Tasks dla .NET obsługuje różne wersje plików Microsoft Project, z
 
 ### P4: Gdzie mogę znaleźć obszerną dokumentację Aspose.Tasks dla .NET?
 
- A4: Możesz odwołać się do[dokumentacja](https://reference.aspose.com/tasks/net/) szczegółowe informacje i przykłady.
+A4: Możesz odwołać się do[dokumentacja](https://reference.aspose.com/tasks/net/) szczegółowe informacje i przykłady.
 
 ### P5: Czy Aspose.Tasks dla .NET oferuje wsparcie dla programistów?
 

@@ -29,7 +29,7 @@ using System;
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
-このステップでは、「Project1.mpp」という名前の既存の MS Project ファイルをロードします。`Project`Aspose.Tasks によって提供されるクラス。
+このステップでは、「Project1.mpp」という名前の既存の MS Project ファイルをロードします。`Project` Aspose.Tasks によって提供されるクラス。
 ## ステップ 2: リソースを追加して作業を設定する
 ```csharp
 var resource = project.Resources.Add("Resource 1");

@@ -9,7 +9,7 @@ url: /sv/
 is_root: true
 ---
 
-Ge dig ut på en omfattande utforskning av projektledningsfunktioner över olika programmeringsspråk med vår lista över Aspose.Tasks Tutorials. Oavsett om du arbetar med Aspose.Tasks för .NET, Java, C,, eller andra språk, den här utvalda samlingen av självstudiekurser är utformad för att ge utvecklare på alla nivåer. Från grundläggande koncept till avancerade tekniker, varje handledning ger steg-för-steg-vägledning, vilket gör att du kan utnyttja den fulla potentialen hos Aspose.Tasks på ditt föredragna språk. Dyk in i vårt rika arkiv och lyft dina projektledningsfärdigheter över flera plattformar och kodningsmiljöer. Låt oss navigera i det mångsidiga landskapet i Aspose.Tasks-tutorials tillsammans!
+Ge dig ut på en omfattande utforskning av projektledningskapacitet över olika programmeringsspråk med vår Aspose.Tasks Tutorials Lista. Oavsett om du arbetar med Aspose.Tasks för .NET, Java, C++, eller andra språk, den här utvalda samlingen av självstudiekurser är utformad för att ge utvecklare på alla nivåer. Från grundläggande koncept till avancerade tekniker, varje handledning ger steg-för-steg-vägledning, vilket gör att du kan utnyttja den fulla potentialen hos Aspose.Tasks på ditt föredragna språk. Dyk in i vårt rika arkiv och lyft dina projektledningsfärdigheter över flera plattformar och kodningsmiljöer. Låt oss navigera i det mångsidiga landskapet i Aspose.Tasks-tutorials tillsammans!
 
 ## Aspose.Tasks för .NET Tutorials
 {{% alert color="primary" %}}
@@ -34,3 +34,27 @@ Det här är länkar till några användbara resurser:
 - [Filformatsalternativ för Aspose.Tasks](./net/file-format-options/)
 - [Aspose.Tasks PDF-säkerhetskonfiguration](./net/pdf-security-configuration/)
 - [Aspose.Tasks Licenshantering](./net/license-management/)
+
+## Aspose.Tasks för Java Tutorials
+{{% alert color="primary" %}}
+Välkommen till porten för förbättrad Java-projekthantering! Ge dig ut på en resa med Aspose.Tasks för Java, där våra omfattande handledningar och exempel omdefinierar hur du hanterar projektarbetsflöden. Från att bemästra kalenderundantag till sömlös VBA-integration, vi har samlat en mängd resurser för att ge utvecklare på alla nivåer. Följ med oss när vi fördjupar oss i projektledningens krångligheter, erbjuder steg-för-steg-vägledning och låser upp den fulla potentialen hos Aspose.Tasks för Java. Gör dig redo att optimera dina projekt, effektivisera arbetsflöden och höja dina Java-utvecklingsfärdigheter!
+{{% /alert %}}
+
+Det här är länkar till några användbara resurser:
+
+- [Kalenderundantag](./java/calendar-exceptions/)
+- [Kalendrar](./java/calendars/)
+- [Valuta](./java/currency/)
+- [Formler](./java/formulas/)
+- [Projektegenskaper](./java/project-properties/)
+- [Valutaegenskaper](./java/currency-properties/)
+- [Projektkonfiguration](./java/project-configuration/)
+- [Projektledning](./java/project-management/)
+- [Projektdataläsning](./java/project-data-reading/)
+- [Projektfiloperationer](./java/project-file-operations/)
+- [Resursuppdrag](./java/resource-assignments/)
+- [Resurshantering](./java/resource-management/)
+- [Uppgiftens grundlinjer](./java/task-baselines/)
+- [Uppgiftslänkar](./java/task-links/)
+- [Uppgiftsegenskaper](./java/task-properties/)
+- [VBA-integration](./java/vba-integration/)

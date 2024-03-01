@@ -94,7 +94,7 @@ Neste tutorial, aprendemos como trabalhar com períodos de disponibilidade no As
 
 ### Q2: Existe uma avaliação gratuita disponível para Aspose.Tasks for .NET?
 
- A2: Sim, você pode obter uma avaliação gratuita do Aspose.Tasks for .NET[aqui](https://releases.aspose.com/).
+A2: Sim, você pode obter uma avaliação gratuita do Aspose.Tasks for .NET[aqui](https://releases.aspose.com/).
 
 ### Q3: Onde posso encontrar documentação para Aspose.Tasks for .NET?
 
@@ -102,7 +102,7 @@ Neste tutorial, aprendemos como trabalhar com períodos de disponibilidade no As
 
 ### Q4: Como posso obter suporte para Aspose.Tasks for .NET?
 
- A4: Você pode obter suporte no fórum da comunidade.[aqui](https://forum.aspose.com/c/tasks/15).
+ A4: Você pode obter suporte no fórum da comunidade[aqui](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: Vocês oferecem licenças temporárias para Aspose.Tasks for .NET?
 

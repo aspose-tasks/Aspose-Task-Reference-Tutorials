@@ -11,7 +11,7 @@ url: /ar/net/resource-risk-analysis/risk-item-statistics/
 هل تتطلع إلى تعزيز براعتك في إدارة المشاريع باستخدام Aspose.Tasks لـ .NET؟ انغمس في عالم تحليل المخاطر من خلال برنامجنا التعليمي خطوة بخطوة حول الحصول على إحصائيات لعناصر المخاطر في ملفات MS Project. من خلال الاستفادة من القدرات القوية لـ Aspose.Tasks، يمكنك الحصول على رؤى لا تقدر بثمن حول أوجه عدم اليقين في المشروع واتخاذ قرارات مستنيرة للتخفيف من المخاطر بشكل فعال.
 ## المتطلبات الأساسية
 قبل أن نبدأ هذه الرحلة، تأكد من توفر المتطلبات الأساسية التالية:
-1.  Aspose.Tasks لـ .NET Library: قم بتنزيل المكتبة وتثبيتها من[Aspose.Tasks لوثائق .NET](https://reference.aspose.com/tasks/net/), تزودك هذه المكتبة بأدوات قوية لمعالجة ملفات MS Project برمجياً.
+1.  Aspose.Tasks لـ .NET Library: قم بتنزيل المكتبة وتثبيتها من[Aspose.Tasks لوثائق .NET](https://reference.aspose.com/tasks/net/). تزودك هذه المكتبة بأدوات قوية لمعالجة ملفات MS Project برمجياً.
 2. بيئة تطوير .NET: قم بإعداد بيئة تطوير .NET الخاصة بك، بما في ذلك Visual Studio أو أي بيئة تطوير متكاملة أخرى من اختيارك، لتسهيل التكامل السلس لـ Aspose.Tasks في مشاريعك.
 
 ## استيراد مساحات الأسماء
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- تأكد من الاستبدال`"Your Document Directory"`مع المسار إلى دليل المستند الخاص بك حيث توجد ملفات MS Project الخاصة بك.
+ تأكد من الاستبدال`"Your Document Directory"` مع المسار إلى دليل المستند الخاص بك حيث توجد ملفات MS Project الخاصة بك.
 ## الخطوة 2: تكوين إعدادات تحليل المخاطر
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- أضبط ال`IterationsCount` المعلمة بناءً على متطلبات مشروعك للتحكم في دقة تحليل المخاطر.
+ أضبط ال`IterationsCount`المعلمة بناءً على متطلبات مشروعك للتحكم في دقة تحليل المخاطر.
 ## الخطوة 3: تحميل ملف مشروع MS
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

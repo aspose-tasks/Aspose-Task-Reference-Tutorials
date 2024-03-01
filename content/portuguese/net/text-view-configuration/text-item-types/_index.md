@@ -11,7 +11,7 @@ url: /pt/net/text-view-configuration/text-item-types/
 Se você é um desenvolvedor .NET que está mergulhando no gerenciamento de projetos usando Aspose.Tasks, você veio ao lugar certo! Neste guia passo a passo, exploraremos os meandros do manuseio de tipos de itens de texto no Aspose.Tasks, com foco na personalização usando a poderosa biblioteca .NET.
 ## Pré-requisitos
 Antes de começarmos, certifique-se de ter o seguinte em vigor:
-1. Biblioteca Aspose.Tasks para .NET: certifique-se de ter a biblioteca Aspose.Tasks instalada. Se não, você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/).
+1.  Biblioteca Aspose.Tasks para .NET: certifique-se de ter a biblioteca Aspose.Tasks instalada. Se não, você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/).
 2. Diretório de documentos: configure um diretório para os documentos do seu projeto.
 Agora, vamos mergulhar nos detalhes do tratamento de tipos de itens de texto.
 ## Importar namespaces
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Aplique o estilo de texto definido ao seu projeto e salve o projeto personalizado como um arquivo PDF.
 Repita essas etapas para outras necessidades de personalização, experimentando diferentes tipos de itens de texto, estilos de fonte e cores.
 ## Conclusão
- Parabéns! Você acabou de arranhar a superfície do tratamento de tipos de itens de texto no Aspose.Tasks for .NET. À medida que você continua explorando, consulte o[documentação](https://reference.aspose.com/tasks/net/) para insights aprofundados.
+Parabéns! Você acabou de arranhar a superfície do tratamento de tipos de itens de texto no Aspose.Tasks for .NET. À medida que você continua explorando, consulte o[documentação](https://reference.aspose.com/tasks/net/) para insights aprofundados.
 ### Perguntas frequentes
 ### P: Posso usar o Aspose.Tasks gratuitamente?
  R: Aspose.Tasks oferece um teste gratuito. Pegue isso[aqui](https://releases.aspose.com/).

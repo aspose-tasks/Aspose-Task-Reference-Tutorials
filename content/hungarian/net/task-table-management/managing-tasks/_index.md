@@ -11,7 +11,7 @@ url: /hu/net/task-table-management/managing-tasks/
 Ha Ön .NET-fejlesztő, aki hatékonyan szeretné kezelni a projektjein belüli feladatokat, az Aspose.Tasks for .NET robusztus megoldást kínál. Ez az oktatóanyag végigvezeti Önt az Aspose.Tasks használatával végzett feladatok kezelésének különböző aspektusain, lépésről lépésre és kódpéldákat kínál. Függetlenül attól, hogy feladatokat ad hozzá, felosztott részeket jelenít meg, feladatokat ugyanazon szülő alá helyez át, feladattulajdonságokat kér/beállít, feladat-hozzárendeléseket iterál, a feladatok alapvonalait olvassa be vagy töröljön, ez az útmutató mindenre kiterjed.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
-1.  Aspose.Tasks for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.Tasks for .NET könyvtár. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET Library: Győződjön meg arról, hogy telepítve van az Aspose.Tasks for .NET könyvtár. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
 2. Dokumentumkönyvtár: Állítson be egy könyvtárat, ahol a projekt dokumentumait tárolni fogja.
 ## Névterek importálása
 A .NET-projektben adja meg az Aspose.Tasks használatához szükséges névtereket:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Töltsön be egy projektet osztott feladatokkal
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Hozzáférés egy feladathoz
+// Hozzáférés egy feladathoz
 var task = project.RootTask.Children.GetById(4);
 // Az osztott részek megjelenítése
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Adjon hozzá egy feladatot
 var task = project.RootTask.Children.Add("Task");
-// A törlés előtti és utáni feladatok számának megjelenítése
+// törlés előtti és utáni feladatok számának megjelenítése
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Törölje a feladatot
 task.Delete();

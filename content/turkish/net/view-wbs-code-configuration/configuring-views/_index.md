@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Tek bir görünüm için filtreyi vurgulayın
 ## Adım 4: Görünüm Ayarlarını Ayarlayın
 ```csharp
 // Bazı görünüm ayarlarını yapın
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Tüm sayfalara yazdırılacak ilk sütunların sayısını ayarlayın
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Tüm sayfalara yazdırılacak ilk sütunların sayısını ayarlayın
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Tüm sayfalara belirli sayıda ilk sütunu yazdır
 ```
 ## Adım 5: Projeye Görünüm Ekleme
 ```csharp
-//Görünümü projemize ekleyin
+// Görünümü projemize ekleyin
 project.Views.Add(view);
 ```
 ## Adım 6: Projeyi Yeni Görünümle Kaydedin
@@ -73,8 +73,8 @@ Aspose.Tasks öncelikli olarak Microsoft Project için tasarlanmış olup kusurs
 ### Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
  Evet, ücretsiz deneme sürümünü keşfedebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks for .NET için nasıl destek alabilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için veya destek planları satın almayı düşünün.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği için veya destek planları satın almayı düşünün.
 ### Görünümlerin görünümünü daha da özelleştirebilir miyim?
- Kesinlikle Aspose.Tasks belgelerini inceleyin[Burada](https://reference.aspose.com/tasks/net/)Gelişmiş özelleştirme seçenekleri için.
+ Kesinlikle Aspose.Tasks belgelerini inceleyin[Burada](https://reference.aspose.com/tasks/net/) Gelişmiş özelleştirme seçenekleri için.
 ### Aspose.Tasks for .NET'i nereden satın alabilirim?
  Kütüphaneyi satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) Kusursuz bir proje yönetimi deneyimi için.

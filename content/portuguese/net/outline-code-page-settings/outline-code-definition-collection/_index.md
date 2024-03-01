@@ -71,7 +71,7 @@ project.Save(DataDir + "ModifiedOutlineCodes.mpp", SaveFileFormat.MPP);
 ```
 
 ## Conclusão
-Concluindo, Aspose.Tasks for .NET fornece funcionalidade abrangente para gerenciar definições de código de estrutura em documentos do Microsoft Project. Seguindo as etapas descritas neste tutorial, você pode manipular com eficiência as definições de código de estrutura para organizar e categorizar os dados do projeto de maneira eficaz.
+Concluindo, Aspose.Tasks for .NET fornece funcionalidade abrangente para gerenciar definições de código de estrutura em documentos do Microsoft Project. Seguindo as etapas descritas neste tutorial, você pode manipular com eficiência as definições de código de estrutura para organizar e categorizar os dados do seu projeto de maneira eficaz.
 ## Perguntas frequentes
 ### P: Posso adicionar diversas definições de código de estrutura a um único projeto?
  R: Sim, você pode adicionar diversas definições de código de estrutura a um projeto com base em seus requisitos. Basta usar o`Add` método para cada definição que você deseja incluir.

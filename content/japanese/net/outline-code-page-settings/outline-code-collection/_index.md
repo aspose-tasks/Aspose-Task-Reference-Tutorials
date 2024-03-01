@@ -75,8 +75,8 @@ task.OutlineCodes.Add(codeOne);
 必要に応じて、アウトライン コードを挿入、削除、クリアなど操作します。
 ```csharp
 //操作例
-//、
-// 2 を含むコードを正しい位置に挿入します
+//...
+// を含むコードを正しい位置に挿入します
 task.OutlineCodes.Insert(2, code2);
 //コードが挿入されたかどうかを確認する
 Console.WriteLine("Is outline codes contains the inserted value: " + task.OutlineCodes.Contains(code2));

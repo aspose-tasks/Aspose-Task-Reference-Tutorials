@@ -27,9 +27,9 @@ Najpierw załaduj plik MS Project za pomocą Aspose.Tasks:
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- zastępować`"Your Document Directory"` rzeczywistą ścieżką katalogu, w którym znajduje się plik MS Project.
+ Zastępować`"Your Document Directory"` rzeczywistą ścieżką katalogu, w którym znajduje się plik MS Project.
 ## Krok 2: Zdefiniuj opcje zapisywania
- Zdefiniuj opcje zapisu arkusza kalkulacyjnego 2003, tworząc instancję`Spreadsheet2003SaveOptions`,
+ Zdefiniuj opcje zapisu arkusza kalkulacyjnego 2003, tworząc instancję`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -52,13 +52,13 @@ project.Save(DataDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 To polecenie zapisuje zmodyfikowany projekt w formacie Arkusz kalkulacyjny 2003 i dostosowane kolumny widoku.
 
 ## Wniosek
-Korzystanie z Aspose.Tasks dla .NET, w szczególności z arkusza kalkulacyjnego 2003 Zapisz opcje MS Project, umożliwia programistom efektywne zarządzanie i programowe dostosowywanie plików MS Project. Postępując zgodnie ze szczegółowym przewodnikiem opisanym w tym samouczku, możesz bezproblemowo zintegrować te możliwości z aplikacjami .NET, zwiększając produktywność i elastyczność.
+Korzystanie z Aspose.Tasks dla .NET, w szczególności z arkusza kalkulacyjnego 2003 Save MS Project Options, umożliwia programistom efektywne zarządzanie i programowe dostosowywanie plików MS Project. Postępując zgodnie ze szczegółowym przewodnikiem opisanym w tym samouczku, możesz bezproblemowo zintegrować te możliwości z aplikacjami .NET, zwiększając produktywność i elastyczność.
 
 ## Często zadawane pytania
 ### P: Czy Aspose.Tasks for .NET może być używany zarówno w aplikacjach internetowych, jak i stacjonarnych?
 Odp.: Tak, Aspose.Tasks dla .NET można bezproblemowo zintegrować zarówno z aplikacjami internetowymi, jak i stacjonarnymi, zapewniając spójną funkcjonalność na różnych platformach.
 ### P: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?
- Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla .NET z poziomu[strona internetowa](https://releases.aspose.com/), dzięki czemu możesz zapoznać się z jego funkcjami przed dokonaniem zakupu.
+Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla .NET z poziomu[strona internetowa](https://releases.aspose.com/), dzięki czemu możesz zapoznać się z jego funkcjami przed dokonaniem zakupu.
 ### P: Czy istnieją jakieś ograniczenia w dostosowywaniu kolumn widoku przy użyciu Aspose.Tasks dla .NET?
 Odp.: Aspose.Tasks dla .NET oferuje szerokie możliwości dostosowywania kolumn widoku, przy minimalnych ograniczeniach. Jednak złożone dostosowania mogą wymagać zaawansowanej wiedzy o bibliotece.
 ### P: Czy mogę zwrócić się o pomoc, jeśli napotkam problemy podczas korzystania z Aspose.Tasks dla .NET?

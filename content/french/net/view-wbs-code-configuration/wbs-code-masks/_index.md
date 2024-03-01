@@ -1,6 +1,6 @@
 ---
 title: Configuration du code WBS étape par étape dans Aspose.Tasks .NET
-linktitle: Configurer les masques de code WBS dans Aspose.Tasks
+linktitle: Configuration des masques de code WBS dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explorez la configuration étape par étape des masques de code WBS dans les projets .NET à l'aide d'Aspose.Tasks. Améliorez les capacités de gestion de projet sans effort.
 type: docs
@@ -36,7 +36,7 @@ project.WBSCodeDefinition.GenerateWBSCode = true;
 project.WBSCodeDefinition.VerifyUniqueness = true;
 project.WBSCodeDefinition.CodePrefix = "CRS-";
 ```
-## Étape 3 : Ajouter des masques de code WBS
+## Étape 3 : ajouter des masques de code WBS
 Définissez les masques de code WBS et ajoutez-les au projet :
 ```csharp
 var mask = new WBSCodeMask();
@@ -84,7 +84,7 @@ Dans ce didacticiel, nous avons exploré le processus étape par étape de confi
 ### Puis-je utiliser Aspose.Tasks gratuitement ?
  Aspose.Tasks propose un essai gratuit, que vous pouvez télécharger[ici](https://releases.aspose.com/).
 ### Où puis-je trouver une assistance supplémentaire ?
- visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)pour le soutien de la communauté.
+ Visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour le soutien de la communauté.
 ### Comment puis-je obtenir un permis temporaire ?
  Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Existe-t-il une documentation détaillée disponible ?

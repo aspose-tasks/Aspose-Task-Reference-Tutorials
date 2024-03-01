@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## Steg 1: Konfigurera dokumentkatalog
- Se till att du har en angiven katalog för att arbeta med dina projektfiler. byta ut`"Your Document Directory"` med sökvägen till din dokumentkatalog.
+ Se till att du har en angiven katalog för att arbeta med dina projektfiler. Byta ut`"Your Document Directory"` med sökvägen till din dokumentkatalog.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ S: Ja, Aspose.Tasks ger omfattande stöd för att arbeta med olika filformat fö
 ### F: Var kan jag hitta dokumentation för Aspose.Tasks?
  S: Detaljerad dokumentation för Aspose.Tasks finns tillgänglig[här](https://reference.aspose.com/tasks/net/).
 ### F: Hur kan jag få support för Aspose.Tasks?
- S: Du kan få stöd från Aspose.Tasks communityforum.[här](https://forum.aspose.com/c/tasks/15).
+S: Du kan få stöd från Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15).
 ### F: Hur köper jag en licens för Aspose.Tasks?
  S: Du kan köpa en licens för Aspose.Tasks från[köpsidan](https://purchase.aspose.com/buy).

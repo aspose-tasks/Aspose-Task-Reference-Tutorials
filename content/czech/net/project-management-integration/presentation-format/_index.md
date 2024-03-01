@@ -17,7 +17,7 @@ Než začneme, ujistěte se, že máte následující předpoklady:
 
 ### 1. Nainstalujte Aspose.Tasks for .NET
 
- Pokud jste tak ještě neučinili, stáhněte si a nainstalujte Aspose.Tasks for .NET z[stránka ke stažení](https://releases.aspose.com/tasks/net/), Pro správné nastavení postupujte podle dodaných pokynů k instalaci.
+ Pokud jste tak ještě neučinili, stáhněte si a nainstalujte Aspose.Tasks for .NET z[stránka ke stažení](https://releases.aspose.com/tasks/net/). Pro správné nastavení postupujte podle dodaných pokynů k instalaci.
 
 ### 2. Importujte potřebné jmenné prostory
 
@@ -39,7 +39,7 @@ Nejprve se ujistěte, že máte nastavený adresář pro ukládání souborů pr
 String DataDir = "Your Document Directory";
 ```
 
- nahradit`"Your Document Directory"` s cestou k požadovanému adresáři.
+ Nahradit`"Your Document Directory"` s cestou k požadovanému adresáři.
 
 ## Krok 2: Načtěte soubor MS Project
 
@@ -49,7 +49,7 @@ Dále musíte načíst soubor MS Project pomocí Aspose.Tasks:
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- nahradit`"ResourceSheetView.mpp"` s názvem vašeho souboru MS Project.
+ Nahradit`"ResourceSheetView.mpp"` s názvem vašeho souboru MS Project.
 
 ## Krok 3: Definujte možnosti uložení
 

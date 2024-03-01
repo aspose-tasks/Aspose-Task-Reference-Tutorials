@@ -15,7 +15,7 @@ Proje yönetiminde, risklerin anlaşılması ve azaltılması başarılı uygula
 Aspose.Tasks for .NET'i kullanarak MS Project risk modellerini yönetmeye başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 
 1. Microsoft Project Dosyası: Görevleri ve ilgili proje verilerini içeren bir Microsoft Project dosyasına (.mpp) sahip olun.
-2. Aspose.Tasks for .NET: Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET: Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/tasks/net/).
 3. Temel C# Anlayışı: C# programlama dilinin temellerine aşinalık önerilir.
 
 ## Ad Alanlarını İçe Aktar
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- Bu adımda proje dokümanı için dizini tanımlıyoruz ve risk analizi için ayarları oluşturuyoruz. Ayarlayın`IterationsCount` Proje karmaşıklığına bağlı olarak gerektiği gibi.
+Bu adımda proje dokümanı için dizini tanımlıyoruz ve risk analizi için ayarları oluşturuyoruz. Ayarlayın`IterationsCount` Proje karmaşıklığına bağlı olarak gerektiği gibi.
 
 ## Adım 2: Projeyi ve Görevi Yükleyin
 

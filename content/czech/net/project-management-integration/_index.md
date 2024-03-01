@@ -21,9 +21,9 @@ Naučte se bez námahy formátovat prezentace MS Project pomocí Aspose.Tasks fo
 ## Čtení dat MS Project Primavera pomocí Aspose.Tasks
  Odemkněte schopnost číst data MS Project Primavera pomocí Aspose.Tasks pro .NET. Náš tutoriál[tady](./primavera-data-reading/) vás provede procesem s příklady kódu, díky čemuž je získávání dat hračkou.
 
-Cesta zde nekončí; Prozkoumejte nesčetné množství výukových programů, které pokrývají vše od zpracování řádků průběhu a zvládnutí projektových dat až po konfiguraci možností zobrazení a bezproblémovou správu MS Project Server. Ponořte se do výukových programů Aspose.Tasks for .NET, abyste odemkli plný potenciál svých možností řízení projektů.
+Cesta zde nekončí; prozkoumejte nesčetné množství výukových programů, které pokrývají vše od zpracování řádků průběhu a zvládnutí projektových dat až po konfiguraci možností zobrazení a bezproblémovou správu MS Project Server. Ponořte se do výukových programů Aspose.Tasks for .NET, abyste odemkli plný potenciál svých možností řízení projektů.
 
- Jste připraveni přizpůsobit zobrazení MS Project, spravovat přihlašovací údaje serveru a extrahovat informace o projektu bez námahy? Postupujte podle našich průvodců[Přizpůsobení zobrazení MS Project](./project-views/), [Správa přihlašovacích údajů k serveru MS Project](./project-server-credentials/) ,a[Extrahování informací o projektu MS](./project-information/) pro hloubkové vhledy.
+ Jste připraveni přizpůsobit zobrazení MS Project, spravovat přihlašovací údaje serveru a extrahovat informace o projektu bez námahy? Postupujte podle našich průvodců[Přizpůsobení zobrazení MS Project](./project-views/), [Správa přihlašovacích údajů k serveru MS Project](./project-server-credentials/) , a[Extrahování informací o projektu MS](./project-information/) pro hloubkové vhledy.
 
  Bezproblémově zvládejte výjimky MS Project Online, automatizujte projektové úlohy a zvyšte efektivitu projektového řízení pomocí výukových programů[Správa výjimek MS Project Online](./project-online-exceptions/) a[Správa MS Project Server pomocí Aspose.Tasks](./project-server-management/).
 
@@ -40,13 +40,13 @@ Naučte se, jak snadno konfigurovat nastavení databáze MS Project Primavera v 
 Naučte se číst data MS Project Primavera pomocí Aspose.Tasks for .NET. Podrobný průvodce s příklady kódu.
 ### [Použití MS Project Primavera XML Reader v Aspose.Tasks](./primavera-xml-reader/)
 Naučte se používat MS Project Primavera XML Reader v Aspose.Tasks pro .NET k efektivní správě projektových dat. Získejte podrobné pokyny a prozkoumejte často kladené otázky.
-### [Nakonfigurujte možnosti tisku MS Project v Aspose.Tasks](./print-options/)
+### [Konfigurace možností tisku MS Project v Aspose.Tasks](./print-options/)
 Naučte se, jak plynule nakonfigurovat možnosti tisku MS Project pomocí Aspose.Tasks pro .NET. Vylepšete své schopnosti projektového řízení.
 ### [Manipulace s MS Project Progress Lines pomocí Aspose.Tasks](./progress-lines/)
 Naučte se, jak manipulovat s řádky průběhu v souborech MS Project pomocí Aspose.Tasks pro .NET, což zlepšuje vizualizaci a správu projektů.
 ### [Zvládnutí projektových dat pomocí Aspose.Tasks](./project-data/)
 Naučte se manipulovat s daty Microsoft Project pomocí Aspose.Tasks v .NET. Snadno vytvářejte úkoly, přidávejte zdroje a ukládejte projekty.
-### [Nakonfigurujte možnosti zobrazení MS Project v Aspose.Tasks](./project-display-options/)
+### [Konfigurace možností zobrazení MS Project v Aspose.Tasks](./project-display-options/)
 Naučte se konfigurovat možnosti zobrazení MS Project programově pomocí Aspose.Tasks pro .NET. Přizpůsobte si vzhled svého projektu bez námahy.
 ### [Zvládnutí práce se soubory MS Project pomocí Aspose.Tasks](./project-file-formats/)
 Odemkněte sílu manipulace se soubory Microsoft Project pomocí Aspose.Tasks for .NET. Ponořte se do bezproblémové integrace a správy.

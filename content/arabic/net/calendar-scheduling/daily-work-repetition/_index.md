@@ -36,7 +36,7 @@ using System.Diagnostics.CodeAnalysis;
 
 ## الخطوة 1: تحميل ملف المشروع
 
- أولاً، قم بتحميل ملف المشروع باستخدام ملف`Project` فصل:
+أولاً، قم بتحميل ملف المشروع باستخدام ملف`Project` فصل:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

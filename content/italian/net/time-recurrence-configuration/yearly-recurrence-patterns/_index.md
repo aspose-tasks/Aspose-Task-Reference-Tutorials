@@ -66,6 +66,6 @@ In questo tutorial, abbiamo esplorato il processo di configurazione dei modelli 
 ### Esistono prerequisiti per l'utilizzo di Aspose.Tasks per .NET?
  Assicurati di avere una conoscenza pratica di C# e .NET, nonché della libreria Aspose.Tasks installata. Scaricalo[Qui](https://releases.aspose.com/tasks/net/).
 ### Come posso ottenere supporto per Aspose.Tasks?
- visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il sostegno e l'assistenza della comunità.
+ Visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il sostegno e l'assistenza della comunità.
 ### Posso provare Aspose.Tasks gratuitamente prima dell'acquisto?
  Sì, puoi esplorare una prova gratuita[Qui](https://releases.aspose.com/).

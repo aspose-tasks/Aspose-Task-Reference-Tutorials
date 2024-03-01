@@ -17,7 +17,7 @@ Aspose.Tasks for .NET은 개발자가 .NET 애플리케이션에서 Microsoft Pr
 
 ### 1. .NET용 Aspose.Tasks 설치
 
- 시작하려면 .NET용 Aspose.Tasks를 다운로드하여 설치해야 합니다. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/tasks/net/), 개발 환경에서 라이브러리를 설정하려면 제공된 설치 지침을 따르십시오.
+ 시작하려면 .NET용 Aspose.Tasks를 다운로드하여 설치해야 합니다. 다운로드 링크를 찾을 수 있습니다[여기](https://releases.aspose.com/tasks/net/). 개발 환경에서 라이브러리를 설정하려면 제공된 설치 지침을 따르십시오.
 
 ### 2. 네임스페이스 가져오기
 

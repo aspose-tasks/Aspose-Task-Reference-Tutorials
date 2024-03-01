@@ -13,7 +13,7 @@ url: /ko/net/tasks-project-management/gridlines-management/
 시작하기 전에 다음 전제 조건이 설정되어 있는지 확인하세요.
 ### 1. .NET용 Aspose.Tasks 설치
 .NET용 Aspose.Tasks를 사용하려면 개발 환경에 Aspose.Tasks를 설치해야 합니다. 라이브러리는 다음에서 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/tasks/net/) 또는 NuGet과 같은 패키지 관리자를 통해.
-### 2.개발환경
+### 2. 개발 환경
 컴퓨터에 .NET 개발 환경이 설정되어 있는지 확인하세요. Visual Studio 또는 원하는 다른 .NET IDE를 사용할 수 있습니다.
 ## 네임스페이스 가져오기
 코드를 살펴보기 전에 Aspose.Tasks 기능에 액세스하는 데 필요한 네임스페이스를 가져와 보겠습니다.
@@ -60,7 +60,7 @@ project.Save(dataDir + "WorkWithGridlines_out.mpp", SaveFileFormat.Mpp);
 효율적인 프로젝트 관리를 위해서는 일정과 작업의 명확한 시각화가 필요합니다. .NET용 Aspose.Tasks를 사용하면 개발자가 Microsoft Project 파일의 눈금선을 쉽게 조작할 수 있습니다. 프로젝트 관리자는 눈금선 설정을 프로그래밍 방식으로 사용자 정의함으로써 프로젝트 시각화를 향상하여 더 나은 의사 결정을 내릴 수 있습니다.
 ## FAQ
 ### Q: 간트 차트 외에 다른 보기의 눈금선 설정을 조정할 수 있나요?
-답변: 예, 가능합니다. 원하는 보기에 액세스하고 이에 따라 눈금선 속성을 조정하면 됩니다.
+A: 네, 가능합니다. 원하는 보기에 액세스하고 이에 따라 눈금선 속성을 조정하면 됩니다.
 ### Q: Aspose.Tasks는 다양한 형식의 프로젝트 파일 로드 및 저장을 지원합니까?
 A: 예, Aspose.Tasks는 MPP, XML, XLSX, CSV 등 다양한 파일 형식을 지원합니다.
 ### Q: 선 두께나 스타일 등 눈금선 모양을 추가로 사용자 정의할 수 있습니까?

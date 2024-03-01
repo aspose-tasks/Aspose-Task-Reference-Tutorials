@@ -1,5 +1,5 @@
 ---
-title: تكوين طبقات الجدول الزمني لمخطط جانت في Aspose.Tasks
+title: تكوين طبقات النطاق الزمني لمخطط جانت في Aspose.Tasks
 linktitle: تكوين طبقات الجدول الزمني في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف Aspose.Tasks لـ .NET لتكوين طبقات الجدول الزمني في طريقة عرض Gantt Chart للحصول على تصور دقيق للمخطط الزمني للمشروع. #Aspose.Tasks #MS Project
@@ -12,7 +12,7 @@ url: /ar/net/text-view-configuration/timescale-tiers/
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك ما يلي:
 - المعرفة الأساسية بـ C# و.NET.
-- تم تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
+-  تم تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
 - بيئة تطوير تم إعدادها لتطوير تطبيقات .NET.
 ## استيراد مساحات الأسماء
 ```csharp

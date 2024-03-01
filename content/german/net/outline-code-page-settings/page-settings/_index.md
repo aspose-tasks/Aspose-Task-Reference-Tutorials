@@ -1,6 +1,6 @@
 ---
 title: Konfigurieren Sie die MS Project-Seiteneinstellungen mit Aspose.Tasks
-linktitle: Konfigurieren Sie Seiteneinstellungen in Aspose.Tasks
+linktitle: Konfigurieren von Seiteneinstellungen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Seiteneinstellungen mit Aspose.Tasks für .NET konfigurieren. Passen Sie Ausrichtung, Größe und mehr mit einfachen Schritten an.
 type: docs
@@ -14,7 +14,7 @@ Bevor wir beginnen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen e
 1.  Aspose.Tasks für .NET: Stellen Sie sicher, dass Sie Aspose.Tasks für .NET installiert haben. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
 2. Entwicklungsumgebung: Richten Sie eine Entwicklungsumgebung mit Visual Studio oder einer anderen bevorzugten IDE für die .NET-Entwicklung ein.
 
-## Namespaces importieren
+## Namensräume importieren
 Um zu beginnen, müssen Sie die erforderlichen Namespaces in Ihr Projekt importieren. Diese Namespaces bieten Zugriff auf die Aspose.Tasks-Klassen und -Methoden, die zum Bearbeiten von MS Project-Dateien erforderlich sind.
 ```csharp
 using Aspose.Tasks;

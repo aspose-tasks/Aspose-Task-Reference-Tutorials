@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- 여기서는`ChildTasksCollector` 프로젝트 내의 모든 작업을 수집하는 개체입니다. 그런 다음 우리는`TaskUtils.Apply`프로젝트의 작업 계층 구조를 탐색하고 모든 하위 작업을 수집하는 방법입니다.
+ 여기서는`ChildTasksCollector` 프로젝트 내의 모든 작업을 수집하는 개체입니다. 그런 다음 우리는`TaskUtils.Apply` 프로젝트의 작업 계층 구조를 탐색하고 모든 하위 작업을 수집하는 방법입니다.
 
 ## 3단계: 필터 조건 정의
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- 이름이 지정된 사용자 정의 클래스를 사용하여 필터 조건을 정의합니다.`NullCondition`, 이 조건은 null 값이 있는 작업을 선택합니다.
+ 이름이 지정된 사용자 정의 클래스를 사용하여 필터 조건을 정의합니다.`NullCondition`. 이 조건은 null 값이 있는 작업을 선택합니다.
 
 ## 4단계: NOT 연산 적용
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- 다음을 사용하여 필터 조건에 NOT 연산을 적용합니다.`Not<T>` Aspose.Tasks에서 제공하는 클래스입니다. 그러면 필터 조건이 반전되어 null 값이 없는 작업이 선택됩니다.
+ 다음을 사용하여 필터 조건에 NOT 연산을 적용합니다.`Not<T>`Aspose.Tasks에서 제공하는 클래스입니다. 그러면 필터 조건이 반전되어 null 값이 없는 작업이 선택됩니다.
 
 ## 5단계: 작업 필터링
 

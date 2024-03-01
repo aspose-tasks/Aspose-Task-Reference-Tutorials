@@ -8,7 +8,7 @@ weight: 17
 url: /cs/net/outline-code-page-settings/outline-value-collection/
 ---
 ## Úvod
-Aspose.Tasks for .NET poskytuje komplexní sadu funkcí pro interakci se soubory Microsoft Project. Jednou z takových funkcí je schopnost spravovat obrysové hodnoty v rámci projektu. V tomto tutoriálu prozkoumáme, jak shromažďovat a manipulovat s hodnotami osnovy pomocí Aspose.Tasks for .NET.
+Aspose.Tasks for .NET poskytuje komplexní sadu funkcí pro interakci se soubory Microsoft Project. Jednou z takových funkcí je schopnost spravovat hodnoty osnovy v rámci projektu. V tomto tutoriálu prozkoumáme, jak shromažďovat a manipulovat s hodnotami osnovy pomocí Aspose.Tasks for .NET.
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující:
 1.  Aspose.Tasks for .NET: Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/tasks/net/).
@@ -29,7 +29,7 @@ string DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineValues2010.mpp");
 ```
 ## Krok 2: Vymažte existující obrysové hodnoty
-Dále z projektu vymažte všechny existující obrysové hodnoty:
+Dále z projektu vymažte všechny existující hodnoty osnovy:
 ```csharp
 foreach (var outlineCode in project.OutlineCodes)
 {
@@ -62,7 +62,7 @@ Aktualizujte hodnotu kódu osnovy:
 codeDefinition.Values[0].Value = "654321";
 ```
 ## Krok 5: Iterujte přes obrysové hodnoty
-Iterujte hodnoty obrysu a vytiskněte jejich podrobnosti:
+Iterujte hodnoty osnovy a vytiskněte jejich podrobnosti:
 ```csharp
 foreach (var definitionValue in codeDefinition.Values)
 {
@@ -73,7 +73,7 @@ foreach (var definitionValue in codeDefinition.Values)
 }
 ```
 ## Krok 6: Manipulujte s hodnotami osnovy
-Podle potřeby proveďte operace, jako je odebrání, vložení a kopírování hodnot osnovy:
+Podle potřeby proveďte operace, jako je odebírání, vkládání a kopírování hodnot osnovy:
 ```csharp
 if (codeDefinition.Values.Contains(value))
 {
@@ -96,7 +96,7 @@ foreach (var outlineValue in outlineValues)
 }
 ```
 ## Závěr
-tomto tutoriálu jsme se naučili pracovat s hodnotami osnovy v souborech Microsoft Project pomocí Aspose.Tasks for .NET. Dodržováním uvedených kroků můžete efektivně spravovat obrysové hodnoty ve svých projektech, což umožňuje větší kontrolu a flexibilitu.
+tomto tutoriálu jsme se naučili pracovat s hodnotami osnovy v souborech Microsoft Project pomocí Aspose.Tasks for .NET. Dodržováním uvedených kroků můžete efektivně spravovat hodnoty osnovy ve svých projektech, což umožňuje větší kontrolu a flexibilitu.
 ## FAQ
 ### Otázka: Mohu současně manipulovat s více kódy osnovy?
 Odpověď: Ano, můžete definovat a manipulovat s více kódy osnovy v rámci projektu pomocí Aspose.Tasks.
@@ -104,7 +104,7 @@ Odpověď: Ano, můžete definovat a manipulovat s více kódy osnovy v rámci p
 Odpověď: Ano, Aspose.Tasks podporuje různé verze souborů Microsoft Project, včetně formátů MPP a XML.
 ### Otázka: Jak mohu řešit chyby při práci s hodnotami osnovy?
 Odpověď: Můžete implementovat mechanismy zpracování chyb, jako jsou bloky try-catch, abyste mohli ladně spravovat výjimky.
-### Otázka: Mohu přizpůsobit vzhled hodnot osnovy v mém projektu?
+### Otázka: Mohu upravit vzhled hodnot osnovy v mém projektu?
 Odpověď: Ano, Aspose.Tasks poskytuje rozsáhlá rozhraní API pro přizpůsobení vzhledu a chování hodnot osnovy podle vašich požadavků.
 ### Otázka: Kde najdu další zdroje a podporu pro Aspose.Tasks?
  A: Můžete navštívit[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a prozkoumejte[dokumentace](https://reference.aspose.com/tasks/net/) pro podrobné informace o API a funkcích.

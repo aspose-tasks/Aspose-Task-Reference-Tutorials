@@ -1,6 +1,6 @@
 ---
-title: Skonfiguruj opcje wyświetlania MS Project w Aspose.Tasks
-linktitle: Skonfiguruj opcje wyświetlania projektu w Aspose.Tasks
+title: Konfigurowanie opcji wyświetlania MS Project w Aspose.Tasks
+linktitle: Konfigurowanie opcji wyświetlania projektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak programowo skonfigurować opcje wyświetlania MS Project przy użyciu Aspose.Tasks dla .NET. Dostosuj wygląd swojego projektu bez wysiłku.
 type: docs

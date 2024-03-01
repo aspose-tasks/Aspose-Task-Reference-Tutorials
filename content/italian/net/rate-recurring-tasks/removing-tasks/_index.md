@@ -11,7 +11,7 @@ url: /it/net/rate-recurring-tasks/removing-tasks/
 In questo tutorial esploreremo come rimuovere attività da un file Microsoft Project utilizzando Aspose.Tasks per .NET. Aspose.Tasks è una potente API che consente agli sviluppatori di manipolare i file di Microsoft Project a livello di codice. La rimozione di attività da un file di progetto può essere un requisito comune negli scenari di gestione dei progetti e Aspose.Tasks fornisce un modo semplice per raggiungere questo obiettivo.
 ## Prerequisiti
 Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
-1. Installazione di Aspose.Tasks per .NET: è necessario avere Aspose.Tasks per .NET installato nel proprio ambiente di sviluppo. Se non lo hai ancora installato, puoi scaricarlo da[Qui](https://releases.aspose.com/tasks/net/).
+1.  Installazione di Aspose.Tasks per .NET: è necessario avere Aspose.Tasks per .NET installato nel proprio ambiente di sviluppo. Se non lo hai ancora installato, puoi scaricarlo da[Qui](https://releases.aspose.com/tasks/net/).
 2. File Microsoft Project: preparare un file Microsoft Project (`Project1.mpp` in questo esempio) da cui desideri rimuovere le attività.
 
 ## Importa spazi dei nomi

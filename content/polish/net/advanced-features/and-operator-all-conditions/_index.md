@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Załaduj plik projektu za pomocą`Project` konstruktor klasy, określający ścieżkę pliku.
+ Załaduj plik projektu za pomocą`Project`konstruktor klasy, określający ścieżkę pliku.
 
 ## Krok 2: Zbierz wszystkie zadania projektu
 
@@ -117,4 +117,4 @@ O4: Tak, możesz bezproblemowo zintegrować Aspose.Tasks z innymi frameworkami i
 
 ### P5: Czy dostępne jest forum społecznościowe lub kanał wsparcia dla użytkowników Aspose.Tasks?
 
- O5: Tak, możesz uzyskać dostęp do forum społeczności Aspose.Tasks.[Tutaj](https://forum.aspose.com/c/tasks/15) w przypadku jakichkolwiek pytań lub pomocy.
+ O5: Tak, możesz uzyskać dostęp do forum społeczności Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15) w przypadku jakichkolwiek pytań lub pomocy.

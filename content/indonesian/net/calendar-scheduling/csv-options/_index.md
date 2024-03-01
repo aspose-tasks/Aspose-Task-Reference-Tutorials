@@ -2,7 +2,7 @@
 title: Opsi CSV di Aspose.Tasks
 linktitle: Opsi CSV di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
-description: Pelajari cara memanfaatkan Aspose.Tasks agar .NET dapat bekerja secara efisien dengan file CSV, sehingga meningkatkan kemampuan manajemen proyek Anda dengan mudah.
+description: Pelajari cara memanfaatkan Aspose.Tasks untuk .NET agar dapat bekerja secara efisien dengan file CSV, meningkatkan kemampuan manajemen proyek Anda dengan mudah.
 type: docs
 weight: 21
 url: /id/net/calendar-scheduling/csv-options/
@@ -71,7 +71,7 @@ A1: Aspose.Tasks untuk .NET dirancang untuk menangani proyek dengan ukuran berap
 
 ### Q2: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk .NET?
 
- A2: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/)untuk mengevaluasi fitur-fiturnya sebelum melakukan pembelian.
+ A2: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/) untuk mengevaluasi fitur-fiturnya sebelum melakukan pembelian.
 
 ### Q3: Apakah Aspose.Tasks untuk .NET mendukung banyak platform?
 

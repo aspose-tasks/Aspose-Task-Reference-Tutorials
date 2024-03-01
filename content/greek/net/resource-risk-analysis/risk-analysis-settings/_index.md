@@ -1,6 +1,6 @@
 ---
-title: Ρύθμιση παραμέτρων ανάλυσης κινδύνου έργου MS στο Aspose.Tasks
-linktitle: Διαμορφώστε τις ρυθμίσεις ανάλυσης κινδύνου στο Aspose.Tasks
+title: Διαμόρφωση ανάλυσης κινδύνου έργου MS στο Aspose.Tasks
+linktitle: Διαμόρφωση ρυθμίσεων ανάλυσης κινδύνου στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις ρυθμίσεις ανάλυσης κινδύνου MS Project χρησιμοποιώντας το Aspose.Tasks για .NET. Βελτιώστε την αποτελεσματικότητα διαχείρισης έργου με προηγμένες τεχνικές αξιολόγησης κινδύνου.
 type: docs
@@ -80,7 +80,7 @@ pattern.ConfidenceLevel = ConfidenceLevel.CL75;
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Αρχικοποίηση α`RiskAnalyzer` στόχος και να εκτελέσει ανάλυση κινδύνου για το έργο.
+ Αρχικοποίηση α`RiskAnalyzer` αντικείμενο και να πραγματοποιήσει ανάλυση κινδύνου στο έργο.
 ## Βήμα 12: Ανάκτηση αποτελεσμάτων ανάλυσης
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

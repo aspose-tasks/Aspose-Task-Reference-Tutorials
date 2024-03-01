@@ -26,7 +26,7 @@ Nyní si příklad rozdělíme do několika kroků:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- nahradit`"Your Document Directory"` s cestou k vašemu souboru MS Project.
+ Nahradit`"Your Document Directory"` s cestou k vašemu souboru MS Project.
 ## Krok 2: Načtěte soubor MS Project
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
@@ -50,7 +50,7 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 ```
 Tato smyčka prochází všemi úkoly v projektu a kontroluje, zda má každý úkol přidružené opakující se informace. Pokud ano, načte a zobrazí různé vlastnosti opakované úlohy, jako je datum zahájení, trvání, datum ukončení atd.
 ## Závěr
-V tomto tutoriálu jsme se naučili, jak extrahovat informace o opakujících se úkolech ze souborů MS Project pomocí Aspose.Tasks for .NET. S těmito znalostmi nyní můžete tuto funkcionalitu integrovat do svých aplikací .NET a pracovat s opakujícími se úkoly efektivněji.
+tomto tutoriálu jsme se naučili, jak extrahovat informace o opakujících se úkolech ze souborů MS Project pomocí Aspose.Tasks for .NET. S těmito znalostmi nyní můžete tuto funkcionalitu integrovat do svých aplikací .NET a pracovat s opakujícími se úkoly efektivněji.
 ## FAQ
 ### Otázka: Mohu upravit informace o opakujících se úlohách pomocí Aspose.Tasks for .NET?
 Odpověď: Ano, informace o opakujících se úlohách můžete upravit programově pomocí poskytnutých rozhraní API.
@@ -61,4 +61,4 @@ Odpověď: Ano, Aspose.Tasks podporuje různé formáty projektových souborů, 
 ### Otázka: Kde najdu dokumentaci k Aspose.Tasks pro .NET?
  Odpověď: Můžete najít dokumentaci[tady](https://reference.aspose.com/tasks/net/).
 ### Otázka: Jak mohu získat technickou podporu pro Aspose.Tasks pro .NET?
-Odpověď: Technickou podporu můžete získat na fóru Aspose.Tasks.[tady](https://forum.aspose.com/c/tasks/15).
+ Odpověď: Technickou podporu můžete získat na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).

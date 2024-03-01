@@ -84,7 +84,7 @@ foreach (var task in collection)
 
 ## 결론
 
- 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 고급 AND 연산을 수행하는 방법을 배웠습니다. 다음을 사용하여 조건을 결합하여`Util.And` 수업을 통해 여러 기준에 따라 작업을 효율적으로 필터링할 수 있습니다.
+ 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 고급 AND 연산을 수행하는 방법을 배웠습니다. 다음을 사용하여 조건을 결합하여`Util.And`수업을 통해 여러 기준에 따라 작업을 효율적으로 필터링할 수 있습니다.
 
 ## FAQ
 
@@ -106,4 +106,4 @@ A: 예, Util.And를 사용하면 원하는 수의 조건을 결합하여 복잡�
 
 ### Q5: .NET용 Aspose.Tasks에 대한 지원을 어떻게 받을 수 있나요?
 
- A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).

@@ -12,7 +12,7 @@ Aspose.Tasks for .NET poskytuje robustní funkce pro filtrování dat v souborec
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 ### 1. Nainstalujte Aspose.Tasks for .NET
- Stáhněte a nainstalujte Aspose.Tasks for .NET z[stránka ke stažení](https://releases.aspose.com/tasks/net/), Postupujte podle pokynů k instalaci a nastavte knihovnu ve svém vývojovém prostředí.
+ Stáhněte a nainstalujte Aspose.Tasks for .NET z[stránka ke stažení](https://releases.aspose.com/tasks/net/). Postupujte podle pokynů k instalaci a nastavte knihovnu ve svém vývojovém prostředí.
 ### 2. Nastavte své vývojové prostředí
 Ujistěte se, že máte funkční vývojové prostředí pro programování .NET. To zahrnuje kompatibilní IDE, jako je Visual Studio, a základní znalost programovacího jazyka C#.
 ### 3. Otevřete ukázkový soubor Microsoft Project
@@ -66,7 +66,7 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
 ```
 Zobrazit podrobnosti o filtrech zdrojů včetně počtu, typu filtru, Zobrazit v nabídce a Zobrazit související řádky souhrnu.
 ## Závěr
-Filtrování dat v souborech MS Project pomocí Aspose.Tasks for .NET je přímočarý proces, který zvyšuje produktivitu a možnosti analýzy. Podle kroků uvedených v tomto kurzu můžete efektivně spravovat informace o projektu podle specifických kritérií.
+Filtrování dat v souborech MS Project pomocí Aspose.Tasks for .NET je přímočarý proces, který zvyšuje produktivitu a možnosti analýzy. Podle kroků uvedených v tomto kurzu můžete efektivně spravovat informace o projektu podle konkrétních kritérií.
 ## FAQ
 ### Otázka: Může Aspose.Tasks filtrovat data na základě vlastních kritérií?
 Odpověď: Ano, Aspose.Tasks umožňuje filtrování dat na základě vlastních kritérií přizpůsobených požadavkům vašeho projektu.

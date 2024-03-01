@@ -11,7 +11,7 @@ url: /de/net/rate-recurring-tasks/removing-tasks/
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Tasks für .NET Aufgaben aus einer Microsoft Project-Datei entfernen. Aspose.Tasks ist eine leistungsstarke API, die es Entwicklern ermöglicht, Microsoft Project-Dateien programmgesteuert zu bearbeiten. Das Entfernen von Aufgaben aus einer Projektdatei kann in Projektmanagementszenarien eine häufige Anforderung sein, und Aspose.Tasks bietet eine einfache Möglichkeit, dies zu erreichen.
 ## Voraussetzungen
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-1. Installation von Aspose.Tasks für .NET: Sie müssen Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung installiert haben. Wenn Sie es noch nicht installiert haben, können Sie es hier herunterladen[Hier](https://releases.aspose.com/tasks/net/).
+1.  Installation von Aspose.Tasks für .NET: Sie müssen Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung installiert haben. Wenn Sie es noch nicht installiert haben, können Sie es hier herunterladen[Hier](https://releases.aspose.com/tasks/net/).
 2. Microsoft Project-Datei: Bereiten Sie eine Microsoft Project-Datei vor (`Project1.mpp` (in diesem Beispiel), aus dem Sie Aufgaben entfernen möchten.
 
 ## Namespaces importieren

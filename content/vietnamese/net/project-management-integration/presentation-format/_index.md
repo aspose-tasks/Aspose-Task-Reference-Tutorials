@@ -17,7 +17,7 @@ Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn có các điều 
 
 ### 1. Cài đặt Aspose.Tasks cho .NET
 
- Nếu bạn chưa có, hãy tải xuống và cài đặt Aspose.Tasks for .NET từ[trang tải xuống](https://releases.aspose.com/tasks/net/), Thực hiện theo các hướng dẫn cài đặt được cung cấp để thiết lập nó đúng cách.
+ Nếu bạn chưa có, hãy tải xuống và cài đặt Aspose.Tasks for .NET từ[trang tải xuống](https://releases.aspose.com/tasks/net/). Thực hiện theo các hướng dẫn cài đặt được cung cấp để thiết lập nó đúng cách.
 
 ### 2. Nhập các không gian tên cần thiết
 
@@ -39,7 +39,7 @@ Trước tiên, hãy đảm bảo bạn đã thiết lập một thư mục đ�
 String DataDir = "Your Document Directory";
 ```
 
- thay thế`"Your Document Directory"` với đường dẫn đến thư mục mong muốn của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn đến thư mục mong muốn của bạn.
 
 ## Bước 2: Tải tệp dự án MS của bạn
 
@@ -49,7 +49,7 @@ Tiếp theo, bạn cần tải tệp MS Project của mình bằng Aspose.Tasks:
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- thay thế`"ResourceSheetView.mpp"` với tên tệp MS Project của bạn.
+ Thay thế`"ResourceSheetView.mpp"` với tên tệp MS Project của bạn.
 
 ## Bước 3: Xác định tùy chọn lưu
 

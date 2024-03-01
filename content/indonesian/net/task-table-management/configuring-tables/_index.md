@@ -1,6 +1,6 @@
 ---
 title: Konfigurasi Tabel Master di Aspose.Tasks untuk .NET
-linktitle: Konfigurasikan Tabel di Aspose.Tasks
+linktitle: Mengonfigurasi Tabel di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi tabel di Aspose.Tasks untuk .NET dengan panduan langkah demi langkah ini. Tingkatkan pengalaman manajemen proyek Anda dengan mudah.
 type: docs
@@ -11,7 +11,7 @@ url: /id/net/task-table-management/configuring-tables/
 Selamat datang di panduan komprehensif tentang mengonfigurasi tabel di Aspose.Tasks untuk .NET. Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang bekerja dengan file Microsoft Project dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses mengonfigurasi tabel menggunakan Aspose.Tasks, menguraikan setiap langkah untuk pemahaman yang jelas.
 ## Prasyarat
 Sebelum kita mempelajari tutorialnya, pastikan Anda memiliki prasyarat berikut:
--  Aspose.Tasks untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks. Anda dapat mengunduhnya dari[Dokumentasi Aspose.Tasks .NET](https://reference.aspose.com/tasks/net/).
+- Aspose.Tasks untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks. Anda dapat mengunduhnya dari[Dokumentasi Aspose.Tasks .NET](https://reference.aspose.com/tasks/net/).
 - Lingkungan Pengembangan: Siapkan lingkungan pengembangan Anda dengan Visual Studio atau alat pengembangan .NET pilihan lainnya.
 - Contoh File Proyek: Siapkan contoh file Microsoft Project (MPP) untuk pengujian.
 ## Impor Namespace

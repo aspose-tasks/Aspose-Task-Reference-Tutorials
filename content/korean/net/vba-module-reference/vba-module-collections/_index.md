@@ -27,7 +27,7 @@ url: /ko/net/vba-module-reference/vba-module-collections/
 // 문서 디렉터리의 경로입니다.
 String DataDir = "Your Document Directory";
 ```
- 꼭 교체하세요`"Your Document Directory"` 프로젝트 문서 디렉터리의 실제 경로를 사용하세요.
+ 꼭 교체하세요`"Your Document Directory"`프로젝트 문서 디렉터리의 실제 경로를 사용하세요.
 ## 2단계: 프로젝트 로드 및 VBA 프로젝트 액세스
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -65,7 +65,7 @@ foreach (var unused in modules)
 ### 다른 프로그래밍 언어와 함께 .NET용 Aspose.Tasks를 사용할 수 있나요?
 Aspose.Tasks는 주로 C#과 같은 .NET 언어를 지원합니다. 그러나 언어 간 호환성을 위해 사용할 수 있는 Java 버전이 있습니다.
 ### .NET용 Aspose.Tasks에 대한 무료 평가판이 있습니까?
-예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+ 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 지원은 어떻게 받을 수 있나요?
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역 사회 지원을 원하거나 지원 계획 구입을 고려하십시오.
 ### 임시 라이센스를 사용할 수 있나요?

@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Επισημάνετε το φίλτρο για
 ## Βήμα 4: Συντονίστε τις ρυθμίσεις προβολής
 ```csharp
 // Συντονίστε ορισμένες ρυθμίσεις προβολής
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Ορίστε τον αριθμό των πρώτων στηλών που θα εκτυπωθούν σε όλες τις σελίδες
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Ορίστε τον αριθμό των πρώτων στηλών που θα εκτυπωθούν σε όλες τις σελίδες
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Εκτυπώστε έναν καθορισμένο αριθμό πρώτων στηλών σε όλες τις σελίδες
 ```
 ## Βήμα 5: Προσθήκη προβολής στο έργο
 ```csharp
-//Προσθέστε την προβολή στο έργο μας
+// Προσθέστε την προβολή στο έργο μας
 project.Views.Add(view);
 ```
 ## Βήμα 6: Αποθηκεύστε το έργο με τη Νέα προβολή
@@ -75,6 +75,6 @@ Console.WriteLine("Parent Project of the view: " + view.ParentProject.Get(Prj.Na
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Tasks για .NET;
  Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για κοινοτική υποστήριξη ή σκεφτείτε να αγοράσετε σχέδια υποστήριξης.
 ### Μπορώ να προσαρμόσω περαιτέρω την εμφάνιση των προβολών;
- Οπωσδήποτε, εμβαθύνετε στην τεκμηρίωση του Aspose.Tasks[εδώ](https://reference.aspose.com/tasks/net/)για προηγμένες επιλογές προσαρμογής.
+ Οπωσδήποτε, εμβαθύνετε στην τεκμηρίωση του Aspose.Tasks[εδώ](https://reference.aspose.com/tasks/net/) για προηγμένες επιλογές προσαρμογής.
 ### Πού μπορώ να αγοράσω το Aspose.Tasks για .NET;
  Μπορείτε να αγοράσετε τη βιβλιοθήκη[εδώ](https://purchase.aspose.com/buy) για μια απρόσκοπτη εμπειρία διαχείρισης έργου.

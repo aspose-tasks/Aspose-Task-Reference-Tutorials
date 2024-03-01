@@ -10,19 +10,19 @@ url: /pl/net/vba-module-reference/
 
 ## Zarządzanie modułami VBA w Aspose.Tasks
 
- Odblokuj potencjał plików Microsoft Project za pomocą Aspose.Tasks dla .NET. W tym samouczku przeprowadzimy Cię przez proces bezproblemowego zarządzania[Moduły VBA](./managing-vba-modules/), Bez wysiłku usprawnij swój przepływ pracy programistycznej dzięki instrukcjom krok po kroku, dzięki czemu wykorzystasz pełną moc Aspose.Tasks.
+ Odblokuj potencjał plików Microsoft Project za pomocą Aspose.Tasks dla .NET. W tym samouczku przeprowadzimy Cię przez proces bezproblemowego zarządzania[Moduły VBA](./managing-vba-modules/). Bez wysiłku usprawnij swój przepływ pracy programistycznej dzięki instrukcjom krok po kroku, dzięki czemu wykorzystasz pełną moc Aspose.Tasks.
 
 ## Zbiór atrybutów modułu VBA w Aspose.Tasks
 
- Zagłęb się w głębię Aspose.Tasks dla .NET, odkrywając skomplikowany świat[Atrybuty modułu VBA](./vba-module-attribute-collection/), Naucz się bez wysiłku zarządzać atrybutami, ulepszając swoje projekty .NET. Nasz samouczek zawiera przejrzysty i szczegółowy przewodnik, dzięki któremu opanujesz ten kluczowy aspekt tworzenia projektu.
+ Zagłęb się w głębię Aspose.Tasks dla .NET, odkrywając skomplikowany świat[Atrybuty modułu VBA](./vba-module-attribute-collection/). Naucz się bez wysiłku zarządzać atrybutami, ulepszając swoje projekty .NET. Nasz samouczek zawiera przejrzysty i szczegółowy przewodnik, dzięki któremu opanujesz ten kluczowy aspekt tworzenia projektu.
 
 ## Zarządzanie kolekcjami modułów VBA w Aspose.Tasks
 
- radzić sobie skutecznie[Kolekcje modułów VBA](./vba-module-collections/) Aspose.Tasks dla .NET z naszym przewodnikiem krok po kroku. Odkryj najlepsze praktyki umożliwiające bezproblemową integrację ze swoimi projektami. Niezależnie od tego, czy jesteś nowicjuszem, czy doświadczonym programistą, ten samouczek zapewni płynną naukę opanowania kolekcji modułów VBA.
+ Skutecznie obsługiwać[Kolekcje modułów VBA](./vba-module-collections/) Aspose.Tasks dla .NET z naszym przewodnikiem krok po kroku. Odkryj najlepsze praktyki umożliwiające bezproblemową integrację ze swoimi projektami. Niezależnie od tego, czy jesteś nowicjuszem, czy doświadczonym programistą, ten samouczek zapewni płynną naukę opanowania kolekcji modułów VBA.
 
 ## Praca z projektami VBA w Aspose.Tasks
 
- Uwolnij moc Aspose.Tasks for .NET w zarządzaniu[projekty vba](./vba-projects/) bez wysiłku. Nasz samouczek przeprowadzi Cię przez najważniejsze kroki i zapewni wgląd w optymalizację możliwości zarządzania projektami. Podnieś swoje umiejętności dzięki obszernemu przewodnikowi dostosowanemu do programistów na każdym poziomie.
+ Uwolnij moc Aspose.Tasks for .NET w zarządzaniu[Projekty VBA](./vba-projects/) bez wysiłku. Nasz samouczek przeprowadzi Cię przez najważniejsze kroki i zapewni wgląd w optymalizację możliwości zarządzania projektami. Podnieś swoje umiejętności dzięki obszernemu przewodnikowi dostosowanemu do programistów na każdym poziomie.
 
 ## Obsługa odwołań VBA w Aspose.Tasks
 

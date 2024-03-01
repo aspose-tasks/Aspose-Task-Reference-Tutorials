@@ -64,6 +64,6 @@ A: Ja, Aspose.Tasks ondersteunt verschillende projectmanagementformaten zoals MP
 ### Vraag: Kan ik wijzigingen in MS Project Primavera-bestanden wijzigen en opslaan met Aspose.Tasks?
 EEN: Absoluut! Met Aspose.Tasks kunt u niet alleen wijzigingen in MS Project Primavera-bestanden lezen, maar ook wijzigen en opslaan binnen uw .NET-toepassingen.
 ### Vraag: Is er een gratis proefversie beschikbaar voor Aspose.Tasks?
- A: Ja, u kunt profiteren van een gratis proefperiode van Aspose.Tasks vanaf[hier](https://releases.aspose.com/) om de functies en mogelijkheden ervan te verkennen voordat u een aankoop doet.
+ A: Ja, u kunt profiteren van een gratis proefperiode van Aspose.Tasks vanaf[hier](https://releases.aspose.com/)om de functies en mogelijkheden ervan te verkennen voordat u een aankoop doet.
 ### Vraag: Waar kan ik ondersteuning krijgen voor Aspose.Tasks?
- A: Voor vragen of hulp met betrekking tot Aspose.Tasks kunt u terecht op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15)waar u hulp kunt krijgen van de community of het ondersteunend personeel van Aspose.## Volledige broncode
+ A: Voor vragen of hulp met betrekking tot Aspose.Tasks kunt u terecht op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) waar u hulp kunt krijgen van de community of het ondersteunend personeel van Aspose.## Volledige broncode

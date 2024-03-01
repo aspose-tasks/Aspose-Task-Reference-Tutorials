@@ -75,4 +75,4 @@ A: Memang benar, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose
 ### T: Dapatkah saya mencoba Aspose.Tasks untuk .NET sebelum membeli?
  J: Tentu saja! Anda dapat mengakses uji coba gratis Aspose.Tasks[Di Sini](https://releases.aspose.com/).
 ### T: Di mana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks?
- J: Jika Anda memerlukan lisensi sementara untuk tujuan evaluasi atau pengujian, Anda bisa mendapatkannya.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ J: Jika Anda memerlukan lisensi sementara untuk tujuan evaluasi atau pengujian, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).

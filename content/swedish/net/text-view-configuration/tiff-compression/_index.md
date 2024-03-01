@@ -53,6 +53,6 @@ Aspose.Tasks fokuserar främst på .NET-integration. Du kan dock utforska API-fu
 ### Finns det en gratis testversion av Aspose.Tasks för .NET?
  Säkert! Du kan komma åt den kostnadsfria testversionen[här](https://releases.aspose.com/).
 ### Var kan jag hitta stöd för Aspose.Tasks-relaterade frågor?
- För frågor eller diskussioner, besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
+ För eventuella frågor eller diskussioner, besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15).
 ### Hur kan jag få en tillfällig licens för Aspose.Tasks?
  För att få en tillfällig licens, besök[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).

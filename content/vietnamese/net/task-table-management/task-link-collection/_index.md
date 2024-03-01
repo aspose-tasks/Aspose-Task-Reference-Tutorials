@@ -35,7 +35,7 @@ var task3 = project.RootTask.Children.GetById(3);
 var task4 = project.RootTask.Children.GetById(4);
 var task5 = project.RootTask.Children.GetById(5);
 ```
-## Bước 2: Tạo liên kết nhiệm vụ
+## Bước 2: Tạo liên kết tác vụ
 Liên kết các nhiệm vụ với nhau để thiết lập sự phụ thuộc:
 ```csharp
 // Liên kết các tác vụ bằng cách sử dụng phụ thuộc FinishToStart
@@ -50,7 +50,7 @@ In các liên kết nhiệm vụ cho dự án:
 ```csharp
 Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
 Console.WriteLine("Task links count: " + project.TaskLinks.Count);
-// Lặp lại thông qua các liên kết nhiệm vụ
+//Lặp lại thông qua các liên kết nhiệm vụ
 foreach (var link in project.TaskLinks)
 {
     Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));

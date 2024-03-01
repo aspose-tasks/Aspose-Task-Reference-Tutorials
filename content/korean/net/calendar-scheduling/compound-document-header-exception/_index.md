@@ -9,7 +9,7 @@ url: /ko/net/calendar-scheduling/compound-document-header-exception/
 ---
 ## 소개
 
- .NET 개발 영역에서는 프로젝트 작업을 효율적으로 관리하는 것이 가장 중요한 관심사입니다. Aspose.Tasks는 .NET 개발자가 프로젝트 관리 작업을 원활하게 처리할 수 있는 포괄적인 솔루션을 제공합니다. 그러나 예외 발생은 소프트웨어 개발에서 피할 수 없는 측면입니다. 개발자가 직면할 수 있는 예외 중 하나는`CompoundDocumentHeaderException`이 튜토리얼의 목표는 개발자에게 .NET용 Aspose.Tasks를 사용하여 이 예외를 효과적으로 처리하는 방법을 안내하는 것입니다.
+ .NET 개발 영역에서는 프로젝트 작업을 효율적으로 관리하는 것이 가장 중요한 관심사입니다. Aspose.Tasks는 .NET 개발자가 프로젝트 관리 작업을 원활하게 처리할 수 있는 포괄적인 솔루션을 제공합니다. 그러나 예외 발생은 소프트웨어 개발에서 피할 수 없는 측면입니다. 개발자가 직면할 수 있는 예외 중 하나는`CompoundDocumentHeaderException`. 이 튜토리얼의 목표는 개발자에게 .NET용 Aspose.Tasks를 사용하여 이 예외를 효과적으로 처리하는 방법을 안내하는 것입니다.
 
 ## 전제조건
 
@@ -78,7 +78,7 @@ catch (CompoundDocumentHeaderException e)
 
 ## 4단계: 예외 처리
 
- 경우에`CompoundDocumentHeaderException`프로젝트 로딩 중에 발생하는 경우 catch 블록 내에서 처리합니다. 추가 분석을 위해 예외 메시지를 인쇄하거나 기록합니다.
+ 경우에`CompoundDocumentHeaderException` 프로젝트 로딩 중에 발생하는 경우 catch 블록 내에서 처리합니다. 추가 분석을 위해 예외 메시지를 인쇄하거나 기록합니다.
 
 ## 결론
 

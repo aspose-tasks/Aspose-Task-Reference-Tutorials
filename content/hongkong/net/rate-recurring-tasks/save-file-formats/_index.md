@@ -34,7 +34,7 @@ var project = new Project(DataDir + "CreateProject1.mpp");
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## 第 3 步：探索其他格式
-Aspose.Tasks支援保存專案檔案的各種格式，例如XML、PDF、XLSX等。您只需更改以下內容即可探索這些格式`SaveFileFormat`中的參數`Save`方法。
+Aspose.Tasks 支援保存專案檔案的各種格式，例如 XML、PDF、XLSX 等。您只需更改以下內容即可探索這些格式`SaveFileFormat`中的參數`Save`方法。
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,8 +50,8 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
 ### Q：我可以在購買前試用 Aspose.Tasks 嗎？
 答：是的，您可以從以下位置下載免費試用版：[這裡](https://releases.aspose.com/).
 ### Q：如何獲得 Aspose.Tasks 的支援？
-答：您可以從 Aspose.Tasks 社群論壇獲得支援。[這裡](https://forum.aspose.com/c/tasks/15).
+答：您可以從 Aspose.Tasks 社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
 ### Q：Aspose.Tasks 是否可以獲得臨時許可證？
-答：是的，臨時許可證可用於評估目的。你可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
+答：是的，臨時許可證可用於評估目的。您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：Aspose.Tasks 的定價是多少？
 答：定價資訊可以在 Aspose.Tasks 購買頁面找到[這裡](https://purchase.aspose.com/buy).

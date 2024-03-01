@@ -1,6 +1,6 @@
 ---
 title: Configurar los ajustes de la página de MS Project con Aspose.Tasks
-linktitle: Configurar los ajustes de la página en Aspose.Tasks
+linktitle: Configuración de ajustes de página en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar los ajustes de la página de MS Project usando Aspose.Tasks para .NET. Personalice la orientación, el tamaño y más con sencillos pasos.
 type: docs
@@ -15,7 +15,7 @@ Antes de comenzar, asegúrese de tener los siguientes requisitos previos:
 2. Entorno de desarrollo: tenga un entorno de desarrollo configurado con Visual Studio o cualquier otro IDE preferido para el desarrollo .NET.
 
 ## Importando espacios de nombres
-Para comenzar, necesita importar los espacios de nombres necesarios a su proyecto. Estos espacios de nombres brindan acceso a las clases y métodos de Aspose.Tasks necesarios para manipular archivos de MS Project.
+Para comenzar, necesita importar los espacios de nombres necesarios en su proyecto. Estos espacios de nombres brindan acceso a las clases y métodos de Aspose.Tasks necesarios para manipular archivos de MS Project.
 ```csharp
 using Aspose.Tasks;
 using System.Linq;

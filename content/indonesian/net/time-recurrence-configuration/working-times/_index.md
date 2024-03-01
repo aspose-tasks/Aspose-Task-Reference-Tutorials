@@ -1,6 +1,6 @@
 ---
-title: Konfigurasikan Waktu Kerja di Aspose.Tasks
-linktitle: Konfigurasikan Waktu Kerja di Aspose.Tasks
+title: Mengonfigurasi Waktu Kerja di Aspose.Tasks
+linktitle: Mengonfigurasi Waktu Kerja di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Tingkatkan penjadwalan proyek di .NET dengan Aspose.Tasks. Konfigurasikan waktu kerja dengan mudah untuk pengelolaan sumber daya yang tepat. Unduh perpustakaannya sekarang!
 type: docs
@@ -12,8 +12,8 @@ Dalam manajemen proyek, pengendalian waktu kerja yang tepat sangat penting untuk
 ## Prasyarat
 Sebelum mendalami tutorial, pastikan Anda memiliki hal berikut:
 - Pemahaman dasar bahasa pemrograman C#.
-- Aspose.Tasks untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
-- Siapkan Visual Studio atau lingkungan pengembangan C# pilihan lainnya.
+-  Aspose.Tasks untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
+- Visual Studio atau pengaturan lingkungan pengembangan C# pilihan apa pun.
 ## Impor Namespace
 Mulailah dengan mengimpor namespace yang diperlukan untuk mengakses fungsionalitas Aspose.Tasks:
 ```csharp

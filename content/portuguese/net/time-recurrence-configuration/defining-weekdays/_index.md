@@ -68,7 +68,7 @@ Console.WriteLine("Week Day 2 Hash Code: {0}", weekDay2.GetHashCode());
 var project = new Project();
 // Defina um calendário
 var calendar = project.Calendars.Add("Calendar1");
-// Adicione dias úteis e dias de exceção
+// Adicionar dias úteis e dia de exceção
 // Adicione instruções de saída semelhantes para FromDate e ToDate
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));
@@ -88,7 +88,7 @@ calendar.WeekDays.Add(weekDay);
 var project = new Project();
 var calendar = project.Calendars.Add("Calendar1");
 calendar.WeekDays.Clear();
-// Adicione horários de trabalho padrão de segunda a sexta
+// Adicione horários de trabalho padrão de segunda a sexta-feira
 // Adicione instruções de saída semelhantes para DayWorking, FromDate, ToDate e WorkingTimes
 var monday = new WeekDay(DayType.Monday);
 WeekDay.SetDefaultWorkingTime(monday);

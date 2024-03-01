@@ -15,7 +15,7 @@ Welkom bij de uitgebreide handleiding over Aspose.Tasks voor .NET Tutorials, waa
  Ontdek de fijne kneepjes van het aanpassen van tekstitemtypes met Aspose.Tasks voor .NET in deze gedetailleerde tutorial. Verbeter uw projectmanagementvaardigheden moeiteloos door onze uitgebreide gids te volgen[Omgaan met tekstitemtypen in Aspose.Tasks](./text-item-types/). 
 
 ## Tekststijlen configureren in Aspose.Tasks## 
-Verbeter de esthetiek van uw projectdocumenten door tekststijlen aan te passen met Aspose.Tasks voor .NET. Leer de kunst van moeiteloos maatwerk voor visueel aantrekkelijke projectrepresentaties. Duik in onze stapsgewijze handleiding op[Configureer tekststijlen in Aspose.Tasks](./text-styles/).
+Verbeter de esthetiek van uw projectdocumenten door tekststijlen aan te passen met Aspose.Tasks voor .NET. Leer de kunst van moeiteloos maatwerk voor visueel aantrekkelijke projectrepresentaties. Duik in onze stapsgewijze handleiding op[Tekststijlen configureren in Aspose.Tasks](./text-styles/).
 
 ## Tiff-compressie kiezen in Aspose.Tasks## 
  Ontgrendel de kracht van efficiënte projectvisualisatie door Tiff-compressie te verkennen in Aspose.Tasks voor .NET. Volg onze gedetailleerde gids op[Tiff-compressie kiezen in Aspose.Tasks](./tiff-compression/) om weloverwogen beslissingen te nemen die aansluiten bij de vereisten van uw project.
@@ -30,16 +30,16 @@ Beheer tijdgebonden gegevens moeiteloos, verbeter de projectplanning en optimali
  Duik in de wereld van tijdgebonden gegevensverzameling in Aspose.Tasks voor .NET met onze stapsgewijze handleiding, veelgestelde vragen en meer. Verbeter vandaag nog uw projectmanagementcapaciteiten door te verkennen[Verzameling van tijdgebonden gegevens in Aspose.Tasks](./timephased-data-collection/).
 
 ## Tijdschaallagen configureren in Aspose.Tasks## 
- Configureer tijdschaallagen in uw Gantt-diagramweergave met Aspose.Tasks voor .NET voor nauwkeurige projecttijdlijnvisualisatie. Ontdek de mogelijkheden in onze gids op[Configureer tijdschaallagen in Aspose.Tasks](./timescale-tiers/).
+ Configureer tijdschaallagen in uw Gantt-diagramweergave met Aspose.Tasks voor .NET voor nauwkeurige projecttijdlijnvisualisatie. Ontdek de mogelijkheden in onze gids op[Tijdschaallagen configureren in Aspose.Tasks](./timescale-tiers/).
 
 ## Gebruiksweergaven configureren in Aspose.Tasks## 
-Leer de kunst van het configureren van taakgebruiksweergaven in Aspose.Tasks voor .NET om de projectvisualisatie te verbeteren. Volg onze gedetailleerde stappen en download de bibliotheek nu om uw projectmanagement naar een hoger niveau te tillen! Ontdekken[Configureer gebruiksweergaven in Aspose.Tasks](./usage-views/) voor een alomvattend begrip.
+Leer de kunst van het configureren van taakgebruiksweergaven in Aspose.Tasks voor .NET om de projectvisualisatie te verbeteren. Volg onze gedetailleerde stappen en download de bibliotheek nu om uw projectmanagement naar een hoger niveau te tillen! Ontdekken[Gebruiksweergaven configureren in Aspose.Tasks](./usage-views/) voor een alomvattend begrip.
 
 Kortom, deze tutorials bieden een rijke bron voor gebruikers die hun vaardigheid in Aspose.Tasks voor .NET willen maximaliseren. Of u nu tekststijlen aanpast, TIFF-bestanden comprimeert of tijdlijnweergaven configureert, met deze tutorials kunt u uw projectmanagementspel naar een hoger niveau tillen. Download de bibliotheek, volg de handleidingen en ontgrendel het volledige potentieel van Aspose.Tasks voor .NET in uw projectactiviteiten.
 ## Aspose.Tasks Tekst- en configuratie-tutorials bekijken
 ### [Omgaan met tekstitemtypen in Aspose.Tasks](./text-item-types/)
 Beheer de aanpassing van het tekstitemtype in Aspose.Tasks voor .NET met deze stapsgewijze handleiding. Breng uw projectmanagementgame moeiteloos naar een hoger niveau.
-### [Configureer tekststijlen in Aspose.Tasks](./text-styles/)
+### [Tekststijlen configureren in Aspose.Tasks](./text-styles/)
 Verbeter de esthetiek van projectdocumenten met Aspose.Tasks voor .NET. Pas tekststijlen moeiteloos aan voor een visueel aantrekkelijke weergave.
 ### [Tiff-compressie kiezen in Aspose.Tasks](./tiff-compression/)
 Ontdek de kracht van Aspose.Tasks voor .NET bij het kiezen van Tiff-compressie. Volg onze stapsgewijze handleiding voor een efficiënte projectvisualisatie.
@@ -49,7 +49,7 @@ Beheers Aspose.Tasks voor .NET bij het aanpassen van tijdlijnweergaven. Verbeter
 Ontdek Aspose.Tasks voor .NET om moeiteloos tijdgebonden gegevens te verwerken, de projectplanning te verbeteren en het resourcebeheer te optimaliseren.
 ### [Verzameling van tijdgebonden gegevens in Aspose.Tasks](./timephased-data-collection/)
 Ontdek tijdgebonden gegevensverzameling in Aspose.Tasks voor .NET. Stapsgewijze handleiding, veelgestelde vragen en meer. Verbeter vandaag nog uw projectmanagementmogelijkheden!
-### [Configureer tijdschaallagen in Aspose.Tasks](./timescale-tiers/)
+### [Tijdschaallagen configureren in Aspose.Tasks](./timescale-tiers/)
 Verken Aspose.Tasks voor .NET om tijdschaallagen in uw Gantt-diagramweergave te configureren voor nauwkeurige visualisatie van de projecttijdlijn.
-### [Configureer gebruiksweergaven in Aspose.Tasks](./usage-views/)
+### [Gebruiksweergaven configureren in Aspose.Tasks](./usage-views/)
 Leer hoe u taakgebruiksweergaven configureert in Aspose.Tasks voor .NET. Verbeter de projectvisualisatie met gedetailleerde stappen. Download de bibliotheek nu!

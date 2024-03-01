@@ -58,7 +58,7 @@ var analysisResult = analyzer.Analyze(project);
 var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
 ```
 ## Stap 5: Analyseresultaten ophalen
-Haal de analyseresultaten op en toon ze, zoals verwachte waarden en percentielen.
+Haal de analyseresultaten op en geef deze weer, zoals verwachte waarden en percentielen.
 ```csharp
 Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
 Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);

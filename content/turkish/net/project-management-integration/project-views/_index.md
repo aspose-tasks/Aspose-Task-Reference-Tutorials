@@ -12,7 +12,7 @@ Microsoft Project, kullanıcıların görevleri organize etmesine, kaynakları y
 ## Önkoşullar
 Başlamadan önce aşağıdaki önkoşulları oluşturduğunuzdan emin olun:
 ### 1. Aspose.Tasks for .NET'i yükleyin
- Aspose.Tasks for .NET'i şu adresten indirip yükleyebilirsiniz:[İnternet sitesi](https://releases.aspose.com/tasks/net/), Kitaplığı geliştirme ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
+ Aspose.Tasks for .NET'i şu adresten indirip yükleyebilirsiniz:[İnternet sitesi](https://releases.aspose.com/tasks/net/). Kitaplığı geliştirme ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
 ### 2. Temel C# ve .NET Framework Bilgisi
 Bu eğitimde bu kavramların temel olarak anlaşıldığı varsayıldığından, C# programlama dili ve .NET Framework hakkında bilgi edinin.
 ### 3. Microsoft Proje Dosyası

@@ -34,11 +34,11 @@ url: /zh-hant/net/view-wbs-code-configuration/
 
 ## Aspose.Tasks 中 WBS 代碼遮罩的集合
 
-使用 Aspose.Tasks for .NET 將您的專案管理提升到新的水平。這[WBS 程式碼遮罩集合](./wbs-code-mask-collection/)本教學提供如何輕鬆建立、管理和傳輸 WBS 程式碼遮罩的見解。提高您的專案管理技能並調整 WBS 程式碼遮罩以滿足您專案不斷變化的需求。
+使用 Aspose.Tasks for .NET 將您的專案管理提升到新的水平。這[WBS 程式碼遮罩集合](./wbs-code-mask-collection/)教學課程提供如何輕鬆建立、管理和傳輸 WBS 程式碼遮罩的見解。提高您的專案管理技能並調整 WBS 程式碼遮罩以滿足您專案不斷變化的需求。
 
 ## 在 Aspose.Tasks 中定義 WBS 序列
 
-透過 Aspose.Tasks for .NET 無縫地增強您的專案管理能力[定義 wbs 序列](./wbs-sequences/),本教學將引導您完成整個過程，輕鬆提高效率。掌握使用定義的 WBS 序列組織和建構專案的藝術，確保流暢、精簡的專案管理體驗。
+透過 Aspose.Tasks for .NET 無縫地增強您的專案管理能力[定義 WBS 序列](./wbs-sequences/)。本教學將引導您完成整個過程，輕鬆提高效率。掌握使用定義的 WBS 序列組織和建構專案的藝術，確保流暢、精簡的專案管理體驗。
 
 總之，這些教學課程可作為您掌握 .NET 視圖和 WBS 程式碼的 Aspose.Tasks 的首選資源。立即下載並釋放輕鬆自訂、簡化和增強專案管理體驗的潛力。迎接高效能專案視覺化和管理的新時代！
 ## Aspose.Tasks 視圖和 WBS 程式碼配置教學

@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks で MS プロジェクトの凡例を構成する
-linktitle: Aspose.Tasks でページ凡例を構成する
+title: Aspose.Tasks での MS プロジェクトの凡例の構成
+linktitle: Aspose.Tasks でのページ凡例の構成
 second_title: Aspose.Tasks .NET API
 description: 効率的なプロジェクト管理のために Aspose.Tasks を使用して .NET で MS Project ページの凡例を構成する方法を学びます。ステップバイステップのガイドが提供されます。
 type: docs

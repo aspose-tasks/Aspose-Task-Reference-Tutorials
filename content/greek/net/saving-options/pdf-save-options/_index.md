@@ -70,4 +70,4 @@ project.Save("Output_PDF_File_Path.pdf", options);
 ### Ε: Το Aspose.Tasks για .NET υποστηρίζει άλλες μορφές αρχείων για μετατροπή;
 Α: Ναι, εκτός από το PDF, μπορείτε να μετατρέψετε αρχεία Microsoft Project σε διάφορες μορφές, όπως XLSX, HTML και εικόνες.
 ### Ε: Είναι διαθέσιμη τεχνική υποστήριξη για το Aspose.Tasks για .NET;
- Α: Ναι, μπορείτε να λάβετε τεχνική υποστήριξη από το φόρουμ Aspose.Tasks.[εδώ](https://forum.aspose.com/c/tasks/15).
+ Α: Ναι, μπορείτε να λάβετε τεχνική υποστήριξη από το φόρουμ Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).

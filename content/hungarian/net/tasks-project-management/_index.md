@@ -119,7 +119,7 @@ Ismerje meg, hogyan testreszabhatja a Gantt-diagram nézeteit a Microsoft Projec
 ### [Testreszabhatja a rácsvonalakat az MS Projectben az Aspose.Tasks számára](./gridlines/)
 Ismerje meg, hogyan testreszabhatja a rácsvonalakat az MS Projectben az Aspose.Tasks for .NET használatával. Egyszerűen követhető lépésekkel javíthatja projektjeit és kezelését.
 ### [ A projekt rácsvonalainak testreszabása az Aspose.Tasks segítségével .NET-hez](./gridlines-management/)
-Ismerje meg, hogyan módosíthatja programozottan a rácsvonal-beállításokat a Microsoft Project-fájlokban az Aspose.Tasks for .NET használatával, valamint a projektek vizualizálásával és kezelésének hatékonyságával.
+Ismerje meg, hogyan módosíthatja programozottan a rácsvonal-beállításokat a Microsoft Project-fájlokban az Aspose.Tasks for .NET segítségével, valamint a projektek megjelenítése és a kezelés hatékonysága.
 ### [Hatékony MS Project Task Csoportosítás az Aspose.Tasks segítségével](./grouping-tasks/)
 Ismerje meg, hogyan csoportosíthatja hatékonyan a Microsoft Project feladatait az Aspose.Tasks for .NET segítségével.
 ### [Projektgyűjtemények kezelése az Aspose.Tasks-ban](./group-collection/)

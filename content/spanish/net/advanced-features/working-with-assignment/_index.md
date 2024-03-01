@@ -108,4 +108,4 @@ R4: Sí, como se demuestra en este tutorial, puede configurar varios contornos, 
 
 ### P5: ¿Dónde puedo encontrar soporte para consultas relacionadas con Aspose.Tasks?
 
- R5: Puede encontrar soporte en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) donde expertos y miembros de la comunidad participan activamente en debates.
+R5: Puede encontrar soporte en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) donde expertos y miembros de la comunidad participan activamente en debates.

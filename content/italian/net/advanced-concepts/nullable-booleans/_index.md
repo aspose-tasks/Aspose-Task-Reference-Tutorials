@@ -9,7 +9,7 @@ url: /it/net/advanced-concepts/nullable-booleans/
 ---
 ## introduzione
 
- In questo tutorial, approfondiremo il lavoro con i valori booleani nullable in Aspose.Tasks per .NET. I booleani nullable offrono flessibilità nella rappresentazione dei valori booleani, consentendo la possibilità di essere indefiniti. Esploreremo come utilizzare il file`NullableBool` classe, i suoi costruttori, proprietà e metodi.
+In questo tutorial, approfondiremo il lavoro con i valori booleani nullable in Aspose.Tasks per .NET. I booleani nullable offrono flessibilità nella rappresentazione dei valori booleani, consentendo la possibilità di essere indefiniti. Esploreremo come utilizzare il file`NullableBool` classe, i suoi costruttori, proprietà e metodi.
 
 ## Prerequisiti
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Ora suddividiamo ciascun esempio in più passaggi.
 
-##  lavorando con`NullableBool`
+##  Lavorando con`NullableBool`
 
 ###  Passaggio 1: creane uno nuovo`Project` instance.
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Passaggio 6: visualizzare la rappresentazione della stringa di`NullableBool` object.
+###  Passaggio 6: visualizzare la rappresentazione della stringa di`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Passaggio 2: stampa il codice hash per ciascuno`NullableBool` object.
+### Passaggio 2: stampa il codice hash per ciascuno`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());

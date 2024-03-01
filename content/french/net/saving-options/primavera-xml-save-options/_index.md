@@ -11,7 +11,7 @@ url: /fr/net/saving-options/primavera-xml-save-options/
 Dans le domaine de la gestion de projet et de la gestion des tâches, Aspose.Tasks for .NET apparaît comme un puissant allié. Cette bibliothèque fournit aux développeurs les outils nécessaires pour manipuler les données du projet sans effort dans les applications .NET. Une caractéristique notable est sa capacité à interagir avec les fichiers XML Primavera, offrant une expérience transparente dans la gestion des informations sur le projet.
 ## Conditions préalables
 Avant de plonger dans les subtilités de l'utilisation d'Aspose.Tasks pour .NET pour enregistrer les options MS Project au format Primavera XML, assurez-vous d'avoir les conditions préalables suivantes en place :
-1.  Installation : installez la bibliothèque Aspose.Tasks pour .NET dans votre environnement de développement. Sinon, téléchargez-le depuis[ici](https://releases.aspose.com/tasks/net/)et suivez les instructions d'installation fournies dans la documentation[ici](https://reference.aspose.com/tasks/net/).
+1.  Installation : installez la bibliothèque Aspose.Tasks pour .NET dans votre environnement de développement. Sinon, téléchargez-le depuis[ici](https://releases.aspose.com/tasks/net/) et suivez les instructions d'installation fournies dans la documentation[ici](https://reference.aspose.com/tasks/net/).
 2. Familiarité avec .NET Framework : une compréhension de base du .NET Framework et du langage de programmation C# est essentielle pour comprendre les concepts abordés dans ce didacticiel.
 3. Fichier MS Project : préparez un fichier Microsoft Project (`project.xml`) que vous comptez enregistrer au format Primavera XML.
 

@@ -72,7 +72,7 @@ foreach (var reference in project.VbaProject.References)
 ### ถาม: ฉันสามารถใช้ Aspose.Tasks กับภาษาการเขียนโปรแกรมอื่นได้หรือไม่
 ตอบ: Aspose.Tasks รองรับภาษา .NET เป็นหลัก แต่มีผลิตภัณฑ์ Aspose อื่นๆ ที่ปรับแต่งมาสำหรับแพลตฟอร์มและภาษาที่แตกต่างกัน
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้อย่างไร
-ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ ตอบ: คุณสามารถขอรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: มีการสนับสนุนจากชุมชนสำหรับ Aspose.Tasks หรือไม่
  ตอบ: ได้ คุณสามารถขอรับการสนับสนุนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### ถาม: ฉันจะหาเอกสารโดยละเอียดสำหรับ Aspose.Tasks ได้ที่ไหน

@@ -75,4 +75,4 @@ R: Sí, puede aplicar plantillas a proyectos existentes cargando el archivo de p
 ### P: ¿Aspose.Tasks para .NET admite el desarrollo multiplataforma?
 R: Aspose.Tasks para .NET está diseñado principalmente para aplicaciones de .NET framework que se ejecutan en plataformas Windows.
 ### P: ¿Hay soporte técnico disponible para Aspose.Tasks para .NET?
- R: Sí, puede buscar asistencia técnica y orientación de la comunidad Aspose.Tasks.[foros](https://forum.aspose.com/c/tasks/15) o comuníquese con su equipo de soporte directamente.
+ R: Sí, puede buscar asistencia técnica y orientación de la comunidad Aspose.Tasks[foros](https://forum.aspose.com/c/tasks/15) comuníquese con su equipo de soporte directamente.

@@ -1,6 +1,6 @@
 ---
 title: Definir as configurações da página do MS Project com Aspose.Tasks
-linktitle: Definir configurações de página em Aspose.Tasks
+linktitle: Definindo configurações de página em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como definir as configurações da página do MS Project usando Aspose.Tasks for .NET. Personalize a orientação, o tamanho e muito mais com etapas simples.
 type: docs

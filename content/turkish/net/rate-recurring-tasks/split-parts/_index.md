@@ -87,7 +87,7 @@ Aspose.Tasks for .NET'te MS Project bölünmüş parçalarının etkili bir şek
 ### S: Aspose.Tasks for .NET'i diğer .NET çerçeveleriyle birlikte kullanabilir miyim?
 C: Evet, Aspose.Tasks for .NET, .NET Core ve .NET Standard dahil çeşitli .NET çerçeveleriyle uyumludur.
 ### S: Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
- C: Evet, adresinden ücretsiz deneme sürümü alabilirsiniz.[Burada](https://releases.aspose.com/).
+ C: Evet, şu adresten ücretsiz deneme sürümü alabilirsiniz:[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks for .NET kaynak yönetimini destekliyor mu?
 C: Evet, Aspose.Tasks for .NET proje kaynaklarını verimli bir şekilde yönetmenize olanak tanır.
 ### S: Aspose.Tasks for .NET'i kullanarak proje takvimlerini özelleştirebilir miyim?

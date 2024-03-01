@@ -12,7 +12,7 @@ Az Aspose.Tasks for .NET egy hatékony könyvtár, amely lehetővé teszi a fejl
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 ### 1. Telepítse az Aspose.Tasks programot .NET-hez
-Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET-et. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
+ Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET-et. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
 ### 2. Szerezzen engedélyt (opcionális)
  Ha az Aspose.Tasks-t kereskedelmi projektben használja, akkor licencre lesz szüksége. Engedélyt vásárolhat innen[itt](https://purchase.aspose.com/buy) , vagy kérhet ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### 3. Állítsa be fejlesztői környezetét

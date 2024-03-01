@@ -56,7 +56,7 @@ Console.WriteLine("VbaProject.HelpFile" + project.VbaProject.HelpFile);
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
 ```
-## Étape 2 : compter et afficher les références
+## Étape 2 : Compter et afficher les références
 ```csharp
 Console.WriteLine("Reference count " + project.VbaProject.References.Count);
 foreach (var reference in project.VbaProject.References)
@@ -76,6 +76,6 @@ R : Oui, Aspose.Tasks s'intègre de manière transparente à n'importe quel proj
 ### Q : Existe-t-il un essai gratuit ?
  R : Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 ### Q : Comment puis-je obtenir une licence temporaire pour Aspose.Tasks ?
-R : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+ R : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je acheter Aspose.Tasks ?
  R : Achetez Aspose.Tasks[ici](https://purchase.aspose.com/buy).

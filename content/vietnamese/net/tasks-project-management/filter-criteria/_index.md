@@ -8,7 +8,7 @@ weight: 18
 url: /vi/net/tasks-project-management/filter-criteria/
 ---
 ## Giới thiệu
-Trong lĩnh vực quản lý dự án, Microsoft Project là một công cụ vững chắc, cung cấp rất nhiều tính năng để hỗ trợ người lập kế hoạch và quản lý dự án. Trong số nhiều chức năng của nó có khả năng lọc dữ liệu dự án, cho phép người dùng tập trung vào các khía cạnh cụ thể trong nhiệm vụ dự án của họ. Tuy nhiên, việc thành thạo các khả năng lọc này có thể là một nhiệm vụ khó khăn nếu không có hướng dẫn phù hợp. Hướng dẫn này nhằm mục đích làm sáng tỏ quy trình bằng cách cung cấp hướng dẫn từng bước về cách triển khai bộ lọc tiêu chí trong MS Project bằng Aspose.Tasks cho .NET.
+Trong lĩnh vực quản lý dự án, Microsoft Project là một công cụ vững chắc, cung cấp rất nhiều tính năng để hỗ trợ người lập kế hoạch và quản lý dự án. Trong số nhiều chức năng của nó có khả năng lọc dữ liệu dự án, cho phép người dùng tập trung vào các khía cạnh cụ thể trong nhiệm vụ dự án của họ. Tuy nhiên, việc thành thạo các khả năng lọc này có thể là một nhiệm vụ khó khăn nếu không có hướng dẫn phù hợp. Hướng dẫn này nhằm mục đích làm sáng tỏ quy trình bằng cách cung cấp hướng dẫn từng bước về cách triển khai tiêu chí lọc trong MS Project bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 1. Hiểu biết cơ bản về C#: Cần phải làm quen với ngôn ngữ lập trình C# để nắm bắt các khái niệm được đề cập trong hướng dẫn này.
@@ -51,7 +51,7 @@ foreach (var row in filter.Criteria.CriteriaRows)
     Console.WriteLine("Value{0}: {1}", values.Length == 1 ? "" : "s", string.Join(", ", values));
 }
 ```
-Giải thích: Phần này lặp qua từng hàng tiêu chí của bộ lọc và hiển thị trường, hoạt động, kiểm tra và các giá trị của nó (nếu có).
+Giải thích: Phần này lặp qua từng hàng tiêu chí của bộ lọc và hiển thị trường, thao tác, kiểm tra và giá trị của nó (nếu có).
 ## Bước 4: In tiêu chí bộ lọc
 ```csharp
 Console.WriteLine(filter.Criteria.Operation.ToString());

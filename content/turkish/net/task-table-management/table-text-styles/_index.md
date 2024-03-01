@@ -11,7 +11,7 @@ url: /tr/net/task-table-management/table-text-styles/
 Proje yönetimi dünyasında görevlerin etkili bir şekilde görselleştirilmesi başarı için çok önemlidir. Aspose.Tasks for .NET, tablo metin stillerini özelleştirmek için güçlü bir çözüm sağlayarak projenizdeki metin öğelerinin görünümünü uyarlamanıza olanak tanır. Bu adım adım kılavuzda, Aspose.Tasks for .NET'i kullanarak tablo metin stillerini yapılandırma sürecinde size yol göstereceğiz.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
--  Aspose.Tasks for .NET: Aspose.Tasks for .NET'in en son sürümünün kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Aspose.Tasks for .NET'in en son sürümünün kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
 - Belge Dizini: Belgeleriniz için bir dizin ayarlayın. Koddaki "Belge Dizininiz"i gerçek yolla değiştirin.
 -  Geçerli Aspose Lisansı: Bu örnek, geçerli bir Aspose lisansı gerektirir. Tam lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy) veya 30 günlük geçici lisans edinin[Burada](https://purchase.aspose.com/temporary-license/).
 ## Ad Alanlarını İçe Aktar
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## Çözüm

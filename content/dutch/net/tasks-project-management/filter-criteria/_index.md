@@ -8,7 +8,7 @@ weight: 18
 url: /nl/net/tasks-project-management/filter-criteria/
 ---
 ## Invoering
-Op het gebied van projectmanagement is Microsoft Project een krachtig hulpmiddel dat een overvloed aan functies biedt om projectplanners en -managers te helpen. Een van de vele functionaliteiten is de mogelijkheid om projectgegevens te filteren, waardoor gebruikers zich kunnen concentreren op specifieke aspecten van de taken van hun project. Zonder de juiste begeleiding kan het echter een lastige opgave zijn om deze filtermogelijkheden onder de knie te krijgen. Deze tutorial heeft tot doel het proces te demystificeren door een stapsgewijze handleiding te bieden voor het implementeren van criteriafiltera in MS Project met behulp van Aspose.Tasks voor .NET.
+Op het gebied van projectmanagement is Microsoft Project een krachtig hulpmiddel dat een overvloed aan functies biedt om projectplanners en -managers te helpen. Een van de vele functionaliteiten is de mogelijkheid om projectgegevens te filteren, waardoor gebruikers zich kunnen concentreren op specifieke aspecten van de taken van hun project. Zonder de juiste begeleiding kan het echter een lastige opgave zijn om deze filtermogelijkheden onder de knie te krijgen. Deze tutorial heeft tot doel het proces te demystificeren door een stapsgewijze handleiding te bieden voor het implementeren van filtercriteria in MS Project met behulp van Aspose.Tasks voor .NET.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 1. Basiskennis van C#: Bekendheid met de programmeertaal C# is noodzakelijk om de concepten die in deze tutorial worden behandeld te begrijpen.
@@ -51,7 +51,7 @@ foreach (var row in filter.Criteria.CriteriaRows)
     Console.WriteLine("Value{0}: {1}", values.Length == 1 ? "" : "s", string.Join(", ", values));
 }
 ```
-Uitleg: Deze sectie doorloopt elke criteriarij van het filter en geeft het veld, de werking, de test en de waarden ervan (indien aanwezig) weer.
+Uitleg: In deze sectie wordt elke criteriarij van het filter doorlopen en het veld, de werking, de test en de waarden ervan (indien aanwezig) weergegeven.
 ## Stap 4: Filtercriteria afdrukken
 ```csharp
 Console.WriteLine(filter.Criteria.Operation.ToString());

@@ -1,6 +1,6 @@
 ---
 title: กำหนดค่าฐานข้อมูล MS Project Primavera ใน Aspose.Tasks
-linktitle: กำหนดการตั้งค่าฐานข้อมูล Primavera ใน Aspose.Tasks
+linktitle: การกำหนดการตั้งค่าฐานข้อมูล Primavera ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดการตั้งค่าฐานข้อมูล MS Project Primavera ใน Aspose.Tasks สำหรับ .NET ได้อย่างง่ายดาย ปรับปรุงงานการจัดการโครงการของคุณ
 type: docs
@@ -12,7 +12,7 @@ url: /th/net/project-management-integration/primavera-database-settings/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่คุณจะเริ่มต้น ตรวจสอบให้แน่ใจว่าคุณมีข้อกำหนดเบื้องต้นต่อไปนี้:
 ### 1. ติดตั้ง Aspose.Tasks สำหรับ .NET
- มุ่งหน้าไปที่[ดาวน์โหลด Aspose.Tasks สำหรับ .NET](https://releases.aspose.com/tasks/net/) และคว้าไลบรารี่ Aspose.Tasks เวอร์ชันล่าสุด ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้มาเพื่อตั้งค่าในสภาพแวดล้อม .NET ของคุณ
+ มุ่งหน้าไปที่[ดาวน์โหลด Aspose.Tasks สำหรับ .NET](https://releases.aspose.com/tasks/net/)และคว้าไลบรารี่ Aspose.Tasks เวอร์ชันล่าสุด ปฏิบัติตามคำแนะนำในการติดตั้งที่ให้มาเพื่อตั้งค่าในสภาพแวดล้อม .NET ของคุณ
 ### 2. เข้าถึงฐานข้อมูล MS Project Primavera
 ตรวจสอบให้แน่ใจว่าคุณมีสิทธิ์เข้าถึงฐานข้อมูล MS Project Primavera คุณจะต้องมีข้อมูลประจำตัวที่จำเป็นและรายละเอียดการเชื่อมต่อเพื่อดำเนินการต่อ
 ### 3. ความรู้พื้นฐานเกี่ยวกับ C# และ .NET Framework
@@ -43,17 +43,17 @@ sb.UserID = "privuser";
 sb.Password = "***";
 sb.ConnectTimeout = 2; // ข้าม
 ```
- รหัสนี้จะสร้าง`SqlConnectionStringBuilder` object และกำหนดคุณสมบัติต่างๆ เช่น`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`ฯลฯ เพื่อกำหนดค่าสตริงการเชื่อมต่อสำหรับฐานข้อมูล Primavera
+ รหัสนี้จะสร้าง`SqlConnectionStringBuilder`object และกำหนดคุณสมบัติต่างๆ เช่น`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`ฯลฯ เพื่อกำหนดค่าสตริงการเชื่อมต่อสำหรับฐานข้อมูล Primavera
 ## ขั้นตอนที่ 2: เริ่มต้นวัตถุ PrimaveraDbSettings
 ```csharp
 var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```
-ที่นี่เราเริ่มต้นอินสแตนซ์ใหม่ของ`PrimaveraDbSettings` คลาสโดยส่งสตริงการเชื่อมต่อและรหัสโปรเจ็กต์ (ในกรณีนี้`4502`) เป็นพารามิเตอร์
+ ที่นี่เราเริ่มต้นอินสแตนซ์ใหม่ของ`PrimaveraDbSettings` คลาสโดยส่งสตริงการเชื่อมต่อและรหัสโปรเจ็กต์ (ในกรณีนี้`4502`) เป็นพารามิเตอร์
 ## ขั้นตอนที่ 3: อ่านโครงการจากฐานข้อมูล
 ```csharp
 var project = new Project(settings);
 ```
- บรรทัดนี้สร้างใหม่`Project` คัดค้านโดยผ่าน`settings` วัตถุที่เราสร้างไว้ก่อนหน้านี้ สร้างการเชื่อมต่อกับฐานข้อมูล Primavera และอ่านโครงการด้วย UID ที่ระบุ (`4502`,
+ บรรทัดนี้สร้างใหม่`Project` คัดค้านโดยผ่าน`settings` วัตถุที่เราสร้างไว้ก่อนหน้านี้ สร้างการเชื่อมต่อกับฐานข้อมูล Primavera และอ่านโครงการด้วย UID ที่ระบุ (`4502`).
 ## ขั้นตอนที่ 4: แสดง UID ของโครงการ
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
@@ -72,4 +72,4 @@ Console.WriteLine("Project UID to read: " + settings.ProjectId);
 ### ถาม: ฉันสามารถจัดการข้อมูลโปรเจ็กต์โดยทางโปรแกรมโดยใช้ Aspose.Tasks สำหรับ .NET ได้หรือไม่
 ตอบ: แน่นอน! Aspose.Tasks สำหรับ .NET มีชุด API มากมายสำหรับการอ่าน เขียน และจัดการข้อมูลโครงการในรูปแบบต่างๆ
 ### ถาม: มีฟอรัมชุมชนหรือช่องทางการสนับสนุนสำหรับผู้ใช้ Aspose.Tasks สำหรับผู้ใช้ .NET หรือไม่
- ตอบ: ได้ คุณสามารถเยี่ยมชมได้[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) สำหรับการสนับสนุนและความช่วยเหลือจากชุมชนในประเด็นหรือข้อสงสัยใด ๆ ที่คุณอาจมี ## ซอร์สโค้ดที่สมบูรณ์
+ ตอบ: ได้ คุณสามารถเยี่ยมชมได้[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)สำหรับการสนับสนุนและความช่วยเหลือจากชุมชนในประเด็นหรือข้อสงสัยใด ๆ ที่คุณอาจมี ## ซอร์สโค้ดที่สมบูรณ์

@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## 8. lépés: Tisztítsa meg a mintákat
 Egyenként vagy teljesen törölje a mintagyűjteményt:
 ```csharp
-// egyéni eltávolítás
+// Egyéni eltávolítás
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ V: Természetesen az Aspose.Tasks zökkenőmentesen integrálható más .NET-ker
 ### K: Elérhető az Aspose.Tasks próbaverziója?
  V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját innen[itt](https://releases.aspose.com/)amely lehetővé teszi, hogy vásárlás előtt felfedezze szolgáltatásait.
 ### K: Hol találok támogatást az Aspose.Tasks számára?
- V: Az Aspose.Tasks fórumon átfogó támogatást és segítséget találhat.[itt](https://forum.aspose.com/c/tasks/15), ahol szakértőkkel és más felhasználókkal léphet kapcsolatba a kérdések és problémák megoldása érdekében.
+ V: Az Aspose.Tasks fórumon átfogó támogatást és segítséget találhat[itt](https://forum.aspose.com/c/tasks/15), ahol szakértőkkel és más felhasználókkal léphet kapcsolatba a kérdések és problémák megoldása érdekében.

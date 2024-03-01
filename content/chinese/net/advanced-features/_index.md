@@ -45,7 +45,7 @@ url: /zh/net/advanced-features/
 
 ## Aspose.Tasks 中可用时段的集合
 
-掌握在 Aspose.Tasks for .NET 中管理资源可用期的艺术。本教程将指导您添加、更新和删除可用期，确保有效的项目资源规划。提高您的项目管理技能。[阅读更多](./availability-period-collection/)
+掌握在 Aspose.Tasks for .NET 中管理资源可用期的技巧。本教程将指导您添加、更新和删除可用期，确保有效的项目资源规划。提高您的项目管理技能。[阅读更多](./availability-period-collection/)
 
 ## Aspose.Tasks 中的样式栏
 

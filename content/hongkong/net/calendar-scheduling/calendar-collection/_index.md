@@ -151,7 +151,7 @@ A2：當然，Aspose.Tasks 支援從 Microsoft Project 檔案匯入日曆。
 
 ### 問題 3：如何從專案中刪除特定日曆？
 
-A3：您可以透過從集合中取得日曆然後調用`Remove`方法。
+ A3：您可以透過從集合中取得日曆然後調用`Remove`方法。
 
 ### Q4：Aspose.Tasks 支援將日曆匯出為不同格式嗎？
 

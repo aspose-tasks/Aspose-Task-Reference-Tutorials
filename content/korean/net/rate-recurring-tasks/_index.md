@@ -19,7 +19,7 @@ MS 프로젝트 요율 관리 및 반복 작업의 복잡성을 마스터하는 
  ~ 안에[Aspose.Tasks를 사용한 마스터 MS 프로젝트 요금](./rate-collection/), 우리는 MS 프로젝트 파일의 요율 관리의 복잡성을 탐구합니다. 이 튜토리얼은 요율 수집의 미묘한 차이를 이해하고 실용적인 통찰력을 제공하며 프로젝트의 리소스 관리 기능을 향상시킬 수 있는 리소스입니다.
 
 ## Aspose.Tasks의 간편한 MS 프로젝트 반복 간격
- 반복되는 간격을 손쉽게 관리하는 방법을 알아보세요.[Aspose.Tasks의 간편한 MS 프로젝트 반복 간격](./recurring-intervals/), 이 튜토리얼은 .NET용 Aspose.Tasks를 사용하는 프로세스를 안내하여 MS 프로젝트 내에서 반복되는 작업을 원활하게 처리할 수 있도록 합니다.
+ 반복되는 간격을 손쉽게 관리하는 방법을 알아보세요.[Aspose.Tasks의 간편한 MS 프로젝트 반복 간격](./recurring-intervals/). 이 튜토리얼은 .NET용 Aspose.Tasks를 사용하는 프로세스를 안내하여 MS 프로젝트 내에서 반복되는 작업을 원활하게 처리할 수 있도록 합니다.
 
 ## Aspose.Tasks에서 반복 작업 정보 추출
  다음을 사용하여 MS 프로젝트 파일에서 반복 작업 정보를 추출하는 방법을 알아보세요.[Aspose.Tasks에서 반복 작업 정보 추출](./recurring-task-information/)이 튜토리얼은 .NET 개발자를 위한 간편한 통합을 제공하므로 프로젝트에서 반복되는 작업을 효율적으로 처리할 수 있습니다.
@@ -31,13 +31,13 @@ MS 프로젝트 요율 관리 및 반복 작업의 복잡성을 마스터하는 
  수동 작업 제거에 작별 인사를 하세요![Aspose.Tasks를 사용하여 MS 프로젝트 작업 제거](./removing-tasks/) .NET용 Aspose.Tasks를 사용하여 프로그래밍 방식으로 작업을 제거하는 과정을 안내합니다. 단계별 가이드에는 원활한 경험을 위한 코드 예제가 포함되어 있습니다.
 
 ## Aspose.Tasks를 사용한 마스터 MS 프로젝트 보고
- 다음을 통해 MS 프로젝트 보고의 잠재력을 최대한 활용하세요.[Aspose.Tasks를 사용한 마스터 MS 프로젝트 보고](./report-types/), 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일로 작업하는 방법을 살펴보고 다양한 보고서 유형을 쉽게 생성할 수 있습니다.
+ 다음을 통해 MS 프로젝트 보고의 잠재력을 최대한 활용하세요.[Aspose.Tasks를 사용한 마스터 MS 프로젝트 보고](./report-types/). 이 튜토리얼에서는 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일로 작업하는 방법을 살펴보고 다양한 보고서 유형을 쉽게 생성할 수 있습니다.
 
 ## Aspose.Tasks에서 다양한 형식으로 MS 프로젝트 파일 저장
 효율적인 프로젝트 관리에는 다양한 파일 형식이 포함됩니다.[Aspose.Tasks에서 다양한 형식으로 MS 프로젝트 파일 저장](./save-file-formats/) .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일을 다양한 형식으로 저장하는 단계를 안내합니다.
 
 ## Aspose.Tasks에서 MS 프로젝트 분할 부분 처리
- MS Project에서 분할된 부분을 탐색하는 것은 매우 쉽습니다.[Aspose.Tasks에서 MS 프로젝트 분할 부분 처리](./split-parts/), Aspose.Tasks for .NET을 사용하여 분할 부분을 효율적으로 처리하여 프로젝트 관리 워크플로를 향상하세요.
+ MS Project에서 분할된 부분을 탐색하는 것은 매우 쉽습니다.[Aspose.Tasks에서 MS 프로젝트 분할 부분 처리](./split-parts/). Aspose.Tasks for .NET을 사용하여 분할 부분을 효율적으로 처리하여 프로젝트 관리 워크플로를 향상하세요.
 
 ## Aspose.Tasks에서 MS 프로젝트 분할 부품 수집
  우리의 튜토리얼[Aspose.Tasks에서 MS 프로젝트 분할 부품 수집](./split-part-collection/) 프로세스를 단계별로 안내하는 포괄적인 가이드입니다. MS Project에서 분할된 부분을 수집하여 프로젝트 관리 워크플로를 최적화하는 방법을 알아보세요.

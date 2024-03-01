@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // 단일 보기에 대한 필터 강조 표시
 ## 4단계: 보기 설정 조정
 ```csharp
 // 일부 보기 설정 조정
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // 모든 페이지에 인쇄할 첫 번째 열 수를 설정합니다.
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //모든 페이지에 인쇄할 첫 번째 열 수를 설정합니다.
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // 모든 페이지에서 지정된 수의 첫 번째 열을 인쇄합니다.
 ```
 ## 5단계: 프로젝트에 보기 추가
 ```csharp
-//프로젝트에 뷰 추가
+// 프로젝트에 뷰 추가
 project.Views.Add(view);
 ```
 ## 6단계: 새 보기로 프로젝트 저장
@@ -75,6 +75,6 @@ Aspose.Tasks는 주로 Microsoft Project용으로 설계되어 원활한 통합�
 ### .NET용 Aspose.Tasks에 대한 지원을 어떻게 받을 수 있나요?
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역 사회 지원을 원하거나 지원 계획 구매를 고려하십시오.
 ### 뷰의 모양을 추가로 사용자 정의할 수 있나요?
- 물론 Aspose.Tasks 문서를 자세히 살펴보세요.[여기](https://reference.aspose.com/tasks/net/)고급 사용자 정의 옵션.
+ 물론 Aspose.Tasks 문서를 자세히 살펴보세요.[여기](https://reference.aspose.com/tasks/net/) 고급 사용자 정의 옵션.
 ### .NET용 Aspose.Tasks는 어디서 구매할 수 있나요?
  도서관을 구매하시면 됩니다[여기](https://purchase.aspose.com/buy) 원활한 프로젝트 관리 경험을 위해.

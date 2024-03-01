@@ -36,7 +36,7 @@ resource.Set(Rsc.Workgroup, WorkGroupType.Web);
 ## 결론
 성공적인 프로젝트 관리를 위해서는 작업 그룹 유형을 효과적으로 처리하는 것이 중요합니다. Aspose.Tasks for .NET은 이 프로세스를 단순화하여 리소스 할당 및 작업 관리를 위한 안정적인 솔루션을 제공합니다.
 ## 자주 묻는 질문
-### Aspose.Tasks는 .NET Core와 호환됩니까?
+### Aspose.Tasks는 .NET Core와 호환되나요?
 예, Aspose.Tasks는 기존 .NET Framework와 함께 .NET Core를 지원합니다.
 ### 단일 리소스에 대해 여러 작업 그룹 유형을 설정할 수 있나요?
 예, 프로젝트의 다양한 단계에서 리소스에 대해 다양한 작업 그룹 유형을 설정할 수 있습니다.

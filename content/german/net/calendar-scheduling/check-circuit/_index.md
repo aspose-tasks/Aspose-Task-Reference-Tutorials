@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Schritt 1: Laden Sie die Projektdatei
 
- Laden Sie zunächst die Microsoft Project-Datei (.mpp), die Sie auf eine fehlerhafte Struktur überprüfen möchten. Benutzen Sie die`Project` Klasse zum Laden der Datei.
+Laden Sie zunächst die Microsoft Project-Datei (.mpp), die Sie auf eine fehlerhafte Struktur überprüfen möchten. Benutzen Sie die`Project` Klasse zum Laden der Datei.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## Schritt 2: Überprüfen Sie die Projektstruktur
 
- Um eine fehlerhafte Struktur innerhalb des Projekts zu erkennen, verwenden wir die`CheckCircuit` Klasse zusammen mit`TaskUtils.Apply` Methode.
+ Um eine fehlerhafte Struktur innerhalb des Projekts zu erkennen, verwenden wir die`CheckCircuit` Klasse zusammen mit der`TaskUtils.Apply` Methode.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ A1: Ja, Aspose.Tasks für .NET ist mit verschiedenen .NET-Frameworks kompatibel,
 
 ### F3: Wie erhalte ich Unterstützung für Aspose.Tasks für .NET?
 
-A3: Sie können Hilfe im Aspose.Tasks-Community-Forum suchen[Hier](https://forum.aspose.com/c/tasks/15).
+ A3: Sie können Hilfe im Aspose.Tasks-Community-Forum suchen[Hier](https://forum.aspose.com/c/tasks/15).
 
 ### F4: Benötige ich zu Testzwecken eine temporäre Lizenz?
 

@@ -45,7 +45,7 @@ var options = new XpsOptions
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ```
-最後に、私たちは`Save`のメソッド`Project`オブジェクト、出力ファイルのパスと以前に構成されたパスを指定します。`XpsOptions`.
+最後に、`Save`のメソッド`Project`オブジェクト、出力ファイルのパスと以前に構成されたパスを指定します。`XpsOptions`.
 
 ## 結論
 結論として、Aspose.Tasks for .NET は、Microsoft Project ドキュメントをプログラムによって XPS 形式に変換するプロセスを簡素化します。このチュートリアルで概説されている手順に従うことで、開発者はこの機能を .NET アプリケーションにシームレスに統合し、プロジェクト管理ワークフローを簡単に強化できます。

@@ -21,7 +21,7 @@ Explore cómo administrar calendarios de proyectos, calcular duraciones y maneja
 
 ## Manejo de excepciones de calendario en Aspose.Tasks
 
- Domine el arte de gestionar excepciones de calendario en Aspose.Tasks para .NET con tutoriales y ejemplos detallados paso a paso. Asegure una programación precisa en sus proyectos.[Leer más](./calendar-exceptions/)
+ Domine el arte de administrar excepciones de calendario en Aspose.Tasks para .NET con tutoriales y ejemplos detallados paso a paso. Asegure una programación precisa en sus proyectos.[Leer más](./calendar-exceptions/)
 
  Maneje eficientemente las excepciones de calendario en sus proyectos .NET usando Aspose.Tasks. Obtenga tutoriales paso a paso y ejemplos para una programación y gestión de recursos precisas.[Leer más](./calendar-exception-collection/)
 

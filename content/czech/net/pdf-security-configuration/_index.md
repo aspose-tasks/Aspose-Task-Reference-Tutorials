@@ -19,7 +19,7 @@ Digitální podpisy slouží jako elektronické otisky prstů, které poskytují
 
 [Zjistěte více o konfiguraci digitálního podpisu MS Project PDF pomocí Aspose.Tasks](./pdf-digital-signature-details/)
 
-## Nakonfigurujte podrobnosti o šifrování PDF MS Project v Aspose.Tasks
+## Konfigurace podrobností o šifrování PDF MS Project v Aspose.Tasks
 
 Kromě digitálních podpisů přidává šifrování do vašich projektových souborů další vrstvu ochrany. Tento tutoriál se zaměřuje na konfiguraci podrobností šifrování MS Project PDF pomocí Aspose.Tasks pro .NET. Na konci této příručky budete zběhlí v zabezpečení souborů projektu pomocí hesla uživatele i vlastníka.
 

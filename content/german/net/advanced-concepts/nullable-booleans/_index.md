@@ -9,7 +9,7 @@ url: /de/net/advanced-concepts/nullable-booleans/
 ---
 ## Einführung
 
- In diesem Tutorial befassen wir uns intensiv mit der Arbeit mit nullbaren booleschen Werten in Aspose.Tasks für .NET. Nullable-Boolesche Werte bieten Flexibilität bei der Darstellung boolescher Werte und ermöglichen die Möglichkeit, undefiniert zu sein. Wir werden untersuchen, wie man das verwendet`NullableBool` Klasse, ihre Konstruktoren, Eigenschaften und Methoden.
+In diesem Tutorial befassen wir uns intensiv mit der Arbeit mit nullbaren booleschen Werten in Aspose.Tasks für .NET. Nullable-Boolesche Werte bieten Flexibilität bei der Darstellung boolescher Werte und ermöglichen die Möglichkeit, undefiniert zu sein. Wir werden untersuchen, wie man das verwendet`NullableBool` Klasse, ihre Konstruktoren, Eigenschaften und Methoden.
 
 ## Voraussetzungen
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Lassen Sie uns nun jedes Beispiel in mehrere Schritte unterteilen.
 
-##  arbeiten mit`NullableBool`
+##  Arbeiten mit`NullableBool`
 
 ###  Schritt 1: Erstellen Sie ein neues`Project` instance.
 
@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Schritt 4: Verwenden Sie die`NullableBool` instance by setting it in the project.
+###  Schritt 4: Nutzen Sie die`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Schritt 6: Zeigen Sie die Zeichenfolgendarstellung an`NullableBool` object.
+###  Schritt 6: Zeigen Sie die Zeichenfolgendarstellung an`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Schritt 2: Drucken Sie jeweils den Hash-Code aus`NullableBool` object.
+### Schritt 2: Drucken Sie jeweils den Hash-Code aus`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Abschluss
 
- In diesem Tutorial haben wir untersucht, wie mit nullbaren booleschen Werten in Aspose.Tasks für .NET umgegangen wird. Durch die Verwendung der`NullableBool` Mit der Klasse und ihren Methoden können Sie boolesche Werte effizient verwalten und dabei die Flexibilität genießen, Nullwerte zuzulassen.
+ In diesem Tutorial haben wir untersucht, wie mit nullbaren booleschen Werten in Aspose.Tasks für .NET umgegangen wird. Durch die Nutzung der`NullableBool` Mit der Klasse und ihren Methoden können Sie boolesche Werte effizient verwalten und dabei die Flexibilität genießen, Nullwerte zuzulassen.
 
 ## FAQs
 

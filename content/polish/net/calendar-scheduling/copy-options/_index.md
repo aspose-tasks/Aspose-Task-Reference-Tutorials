@@ -9,7 +9,7 @@ url: /pl/net/calendar-scheduling/copy-options/
 ---
 ## Wstęp
 
-świecie programowania .NET efektywne zarządzanie zadaniami ma kluczowe znaczenie dla powodzenia projektu. Aspose.Tasks dla .NET zapewnia kompleksowe rozwiązanie dla programistów, umożliwiające bezproblemową realizację zadań związanych z zarządzaniem projektami. Istotną cechą jest możliwość kopiowania danych projektu z różnymi opcjami dostosowanymi do konkretnych potrzeb. W tym samouczku omówimy opcje kopiowania w Aspose.Tasks, dzieląc każdy przykład na wiele kroków, które poprowadzą Cię przez proces.
+W świecie programowania .NET efektywne zarządzanie zadaniami ma kluczowe znaczenie dla powodzenia projektu. Aspose.Tasks dla .NET zapewnia kompleksowe rozwiązanie dla programistów, umożliwiające bezproblemową realizację zadań związanych z zarządzaniem projektami. Istotną cechą jest możliwość kopiowania danych projektu z różnymi opcjami dostosowanymi do konkretnych potrzeb. W tym samouczku omówimy opcje kopiowania w Aspose.Tasks, dzieląc każdy przykład na wiele kroków, aby poprowadzić Cię przez proces.
 
 ## Warunki wstępne
 
@@ -75,7 +75,7 @@ project.CopyTo(mppProject, copyToOptions);
 
 ## Wniosek
 
-W tym samouczku zbadaliśmy opcje kopiowania w Aspose.Tasks dla .NET, umożliwiając programistom efektywne zarządzanie zadaniami kopiowania danych projektu. Postępując zgodnie z przewodnikiem krok po kroku, można bezproblemowo zintegrować funkcję kopiowania projektów z aplikacjami .NET, zwiększając produktywność i możliwości zarządzania projektami.
+tym samouczku zbadaliśmy opcje kopiowania w Aspose.Tasks dla .NET, umożliwiając programistom efektywne zarządzanie zadaniami kopiowania danych projektu. Postępując zgodnie z przewodnikiem krok po kroku, można bezproblemowo zintegrować funkcję kopiowania projektów z aplikacjami .NET, zwiększając produktywność i możliwości zarządzania projektami.
 
 ## Często zadawane pytania
 

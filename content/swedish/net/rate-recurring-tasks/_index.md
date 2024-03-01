@@ -19,10 +19,10 @@ Kämpar du för att bemästra krångligheterna med MS Project rate management oc
  I[Master MS Project Rates med Aspose.Tasks](./rate-collection/), fördjupar vi oss i krångligheterna med att hantera priser i MS Project-filer. Den här handledningen är din bästa resurs för att förstå nyanserna i prisinsamling, erbjuda praktiska insikter och ge dig möjlighet att förbättra ditt projekts resurshanteringskapacitet.
 
 ## Enkel MS-projekt återkommande intervaller i Aspose.Tasks
- Upptäck konsten att hantera återkommande intervaller utan ansträngning med[Enkel MS-projekt återkommande intervaller i Aspose.Tasks](./recurring-intervals/), Denna handledning guidar dig genom processen med Aspose.Tasks för .NET, vilket säkerställer att du sömlöst kan hantera återkommande uppgifter inom ditt MS Project.
+ Upptäck konsten att hantera återkommande intervaller utan ansträngning med[Enkel MS-projekt återkommande intervaller i Aspose.Tasks](./recurring-intervals/). Denna handledning guidar dig genom processen med Aspose.Tasks för .NET, vilket säkerställer att du sömlöst kan hantera återkommande uppgifter inom ditt MS Project.
 
 ## Extrahera information om återkommande uppgifter i Aspose.Tasks
- Lär dig hur du kan extrahera information om återkommande uppgifter från MS Project-filer med[Extrahera information om återkommande uppgifter i Aspose.Tasks](./recurring-task-information/)Denna handledning erbjuder enkel integrering för .NET-utvecklare, så att du kan arbeta effektivt med återkommande uppgifter i dina projekt.
+ Lär dig hur du kan extrahera information om återkommande uppgifter från MS Project-filer med[Extrahera information om återkommande uppgifter i Aspose.Tasks](./recurring-task-information/)Denna handledning erbjuder enkel integrering för .NET-utvecklare, så att du effektivt kan arbeta med återkommande uppgifter i dina projekt.
 
 ## Ställa in parametrar för återkommande uppgifter i Aspose.Tasks
  I[Ställa in parametrar för återkommande uppgifter i Aspose.Tasks](./recurring-task-parameters/), tillhandahåller vi en omfattande guide om hur man ställer in återkommande uppgiftsparametrar i Microsoft Project med Aspose.Tasks för .NET. Utrusta dig själv med kunskapen för att enkelt konfigurera återkommande uppgifter.
@@ -31,13 +31,13 @@ Kämpar du för att bemästra krångligheterna med MS Project rate management oc
  Säg adjö till manuell borttagning av uppgifter![Ta bort MS Project Tasks med Aspose.Tasks](./removing-tasks/) vägleder dig genom processen att programmässigt ta bort uppgifter med Aspose.Tasks för .NET. Steg-för-steg-guiden innehåller kodexempel för en sömlös upplevelse.
 
 ## Master MS Project Reporting med Aspose.Tasks
- Lås upp den fulla potentialen av MS Project-rapportering med[Master MS Project Reporting med Aspose.Tasks](./report-types/), Denna handledning utforskar hur man arbetar med MS Project-filer med Aspose.Tasks för .NET, vilket gör att du enkelt kan generera olika rapporttyper.
+ Lås upp den fulla potentialen av MS Project-rapportering med[Master MS Project Reporting med Aspose.Tasks](./report-types/). Denna handledning utforskar hur man arbetar med MS Project-filer med Aspose.Tasks för .NET, vilket gör att du enkelt kan generera olika rapporttyper.
 
 ## Spara MS Project-filer i olika format i Aspose.Tasks
 Effektiv projektledning inkluderar olika filformat.[Spara MS Project-filer i olika format i Aspose.Tasks](./save-file-formats/) guidar dig genom stegen för att spara MS Project-filer i olika format med Aspose.Tasks för .NET.
 
 ## Hantering av MS Project Split Parts i Aspose.Tasks
- Att navigera delade delar i MS Project blir en bris med[Hantering av MS Project Split Parts i Aspose.Tasks](./split-parts/), Förbättra ditt arbetsflöde för projektledning genom att effektivt hantera delade delar med Aspose.Tasks för .NET.
+ Att navigera delade delar i MS Project blir en bris med[Hantering av MS Project Split Parts i Aspose.Tasks](./split-parts/). Förbättra ditt arbetsflöde för projektledning genom att effektivt hantera delade delar med Aspose.Tasks för .NET.
 
 ## Samla MS Project Split Parts i Aspose.Tasks
  Vår handledning om[Samla MS Project Split Parts i Aspose.Tasks](./split-part-collection/) är en omfattande guide som leder dig genom processen steg för steg. Lär dig hur du samlar delade delar i MS Project, vilket ger dig möjlighet att optimera ditt arbetsflöde för projektledning.

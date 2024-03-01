@@ -86,7 +86,7 @@ A1：是的，Aspose.Tasks 支持各种版本的 Microsoft Project 数据库，�
 
 ### Q2：如何解决数据库连接问题？
 
-A2：确保使用适当的凭据和数据库详细信息正确配置连接字符串。您也可以参考文档或寻求支持[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
+ A2：确保使用适当的凭据和数据库详细信息正确配置连接字符串。您也可以参考文档或寻求支持[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15).
 
 ### Q3：Aspose.Tasks 有试用版吗？
 

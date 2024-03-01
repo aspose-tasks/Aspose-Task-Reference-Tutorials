@@ -11,7 +11,7 @@ url: /cs/net/saving-options/primavera-xml-save-options/
 V oblasti projektového řízení a zpracování úkolů se Aspose.Tasks for .NET ukazuje jako mocný spojenec. Tato knihovna vybavuje vývojáře nástroji nezbytnými pro snadnou manipulaci s projektovými daty v aplikacích .NET. Jednou z pozoruhodných funkcí je jeho schopnost interakce se soubory XML Primavera, která nabízí bezproblémovou práci s informacemi o projektu.
 ## Předpoklady
 Než se ponoříte do složitosti používání Aspose.Tasks for .NET k uložení možností MS Project ve formátu Primavera XML, ujistěte se, že máte splněny následující předpoklady:
-1.  Instalace: Nechte si ve vývojovém prostředí nainstalovat knihovnu Aspose.Tasks for .NET. Pokud ne, stáhněte si jej z[tady](https://releases.aspose.com/tasks/net/) postupujte podle pokynů k instalaci uvedených v dokumentaci[tady](https://reference.aspose.com/tasks/net/).
+1.  Instalace: Nechte si ve vývojovém prostředí nainstalovat knihovnu Aspose.Tasks for .NET. Pokud ne, stáhněte si jej z[tady](https://releases.aspose.com/tasks/net/) a postupujte podle pokynů k instalaci uvedených v dokumentaci[tady](https://reference.aspose.com/tasks/net/).
 2. Znalost .NET Framework: Základní znalost .NET Framework a programovacího jazyka C# je nezbytná pro pochopení konceptů probíraných v tomto kurzu.
 3. Soubor MS Project: Připravte soubor Microsoft Project (`project.xml`), který hodláte uložit ve formátu Primavera XML.
 
@@ -51,7 +51,7 @@ Odpověď: Ano, Aspose.Tasks for .NET podporuje integraci s různými nástroji 
 ### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
  Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks pro .NET[tady](https://releases.aspose.com/).
 ### Otázka: Jak mohu získat technickou podporu pro Aspose.Tasks pro .NET?
- Odpověď: Můžete vyhledat technickou pomoc a zapojit se do komunity na fóru Aspose.Tasks.[tady](https://forum.aspose.com/c/tasks/15).
+ Odpověď: Můžete vyhledat technickou pomoc a zapojit se do komunity na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Jaké jsou možnosti licencování pro Aspose.Tasks pro .NET?
  A: Pro Aspose.Tasks pro .NET jsou k dispozici různé možnosti licencování, včetně dočasných licencí. Prozkoumejte podrobnosti o licencích[tady](https://purchase.aspose.com/buy).
 ### Otázka: Mohu přizpůsobit možnosti ukládání pro formát XML Primavera?

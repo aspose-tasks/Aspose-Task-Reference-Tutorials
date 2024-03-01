@@ -27,7 +27,7 @@ Per comprendere i concetti discussi in questa esercitazione è necessaria una co
 
 Per iniziare, devi importare gli spazi dei nomi richiesti nel tuo progetto .NET. 
 
- Includi il`Aspose.Tasks` spazio dei nomi nel progetto per accedere alle classi e ai metodi forniti dalla libreria Aspose.Tasks.
+ Includi il`Aspose.Tasks`spazio dei nomi nel progetto per accedere alle classi e ai metodi forniti dalla libreria Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Ora suddividiamo l'esempio fornito in più passaggi:
 
 ## Passaggio 1: caricare il file di progetto
 
- Inizia caricando il file di progetto utilizzando il file`Project`costruttore di classi.
+ Inizia caricando il file di progetto utilizzando il file`Project` costruttore di classi.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

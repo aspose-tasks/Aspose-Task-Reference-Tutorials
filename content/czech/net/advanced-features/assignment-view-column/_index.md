@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Krok 3: Definujte vlastní sloupec
 
- Nyní definujte svůj vlastní sloupec vytvořením instance`AssignmentViewColumn`Tato třída vyžaduje název sloupce, šířku a funkci delegáta pro převod dat přiřazení na text sloupce:
+ Nyní definujte svůj vlastní sloupec vytvořením instance`AssignmentViewColumn`. Tato třída vyžaduje název sloupce, šířku a funkci delegáta pro převod dat přiřazení na text sloupce:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

@@ -1,6 +1,6 @@
 ---
-title: Wiederholung nach Jahr und Tag in Aspose.Tasks
-linktitle: Wiederholung nach Jahr und Tag in Aspose.Tasks
+title: Wiederholung nach Jahrestag in Aspose.Tasks
+linktitle: Wiederholung nach Jahrestag in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie in Aspose.Tasks für .NET mit Jahrestagswiederholungen umgehen, um die Verwaltung wiederkehrender Aufgaben effizient zu optimieren.
 type: docs
@@ -9,7 +9,7 @@ url: /de/net/advanced-features/repetition-by-year-day/
 ---
 ## Einführung
 
-Im Bereich des Projektmanagements spielen eine effiziente Aufgabenplanung und -wiederholung eine entscheidende Rolle, um eine pünktliche Ausführung und einen reibungslosen Arbeitsablauf sicherzustellen. Aspose.Tasks für .NET bietet Entwicklern eine robuste Lösung, mit der sie wiederkehrende Aufgaben in ihren Anwendungen mühelos erledigen können. In diesem Tutorial befassen wir uns mit den Feinheiten der Arbeit mit jährlichen Tageswiederholungen mithilfe von Aspose.Tasks und bieten eine umfassende Anleitung zum Erstellen wiederkehrender Aufgaben auf der Grundlage jährlicher Muster.
+Im Bereich des Projektmanagements spielen eine effiziente Aufgabenplanung und -wiederholung eine entscheidende Rolle, um eine pünktliche Ausführung und einen reibungslosen Arbeitsablauf sicherzustellen. Aspose.Tasks für .NET bietet Entwicklern eine robuste Lösung, mit der sie wiederkehrende Aufgaben in ihren Anwendungen mühelos erledigen können. In diesem Tutorial befassen wir uns mit den Feinheiten der Arbeit mit Jahreswiederholungen mithilfe von Aspose.Tasks und bieten eine umfassende Anleitung zum Erstellen wiederkehrender Aufgaben auf der Grundlage jährlicher Muster.
 
 ## Voraussetzungen
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- In diesem Schritt definieren wir Parameter für unsere wiederkehrende Aufgabe. Wir geben den Aufgabennamen, die Dauer und das Wiederholungsmuster an. Für die jährliche Wiederholung verwenden wir die`YearlyRecurrencePattern` und stellen Sie mit ein, dass die Wiederholung am 1. Juli stattfinden soll`ByYearDayRepetition`, Darüber hinaus definieren wir den Wiederholungsbereich vom 1. Juli 2018 bis zum 1. Juli 2019.
+ In diesem Schritt definieren wir Parameter für unsere wiederkehrende Aufgabe. Wir geben den Aufgabennamen, die Dauer und das Wiederholungsmuster an. Für die jährliche Wiederholung verwenden wir die`YearlyRecurrencePattern` und stellen Sie mit ein, dass die Wiederholung am 1. Juli stattfinden soll`ByYearDayRepetition`. Darüber hinaus definieren wir den Wiederholungsbereich vom 1. Juli 2018 bis zum 1. Juli 2019.
 
 ## Schritt 3: Aufgabe zum Projekt hinzufügen
 

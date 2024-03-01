@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## Étape 1 : configurer le répertoire de documents
- Assurez-vous de disposer d'un répertoire désigné pour travailler avec vos fichiers de projet. remplacer`"Your Document Directory"` avec le chemin d'accès à votre répertoire de documents.
+ Assurez-vous de disposer d'un répertoire désigné pour travailler avec vos fichiers de projet. Remplacer`"Your Document Directory"` avec le chemin d'accès à votre répertoire de documents.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ Toutes nos félicitations! Vous avez appris avec succès à utiliser les excepti
 ### Q : Où puis-je trouver de la documentation pour Aspose.Tasks ?
  R : Une documentation détaillée pour Aspose.Tasks est disponible[ici](https://reference.aspose.com/tasks/net/).
 ### Q : Comment puis-je obtenir de l'aide pour Aspose.Tasks ?
- R : Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+R : Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
 ### Q : Comment puis-je acheter une licence pour Aspose.Tasks ?
  R : Vous pouvez acheter une licence pour Aspose.Tasks auprès du[page d'achat](https://purchase.aspose.com/buy).

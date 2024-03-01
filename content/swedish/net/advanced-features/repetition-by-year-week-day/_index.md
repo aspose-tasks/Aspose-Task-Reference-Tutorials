@@ -21,7 +21,7 @@ Bekanta dig med grunderna i .NET Framework, inklusive objektorienterade programm
 
 ### 2. Installation av Aspose.Tasks för .NET
 
- Ladda ner och installera Aspose.Tasks för .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/tasks/net/)Följ installationsinstruktionerna för att integrera biblioteket i din utvecklingsmiljö.
+ Ladda ner och installera Aspose.Tasks för .NET-biblioteket från[nedladdningslänk](https://releases.aspose.com/tasks/net/). Följ installationsinstruktionerna för att integrera biblioteket i din utvecklingsmiljö.
 
 ### 3. Tillgång till dokumentation
 
@@ -117,7 +117,7 @@ S: Aspose.Tasks för .NET stöder interoperabilitet med olika projekthanteringsf
 
 ### F3: Hur kan jag hantera undantag eller ändringar av återkommande uppgifter?
 
-S: Aspose.Tasks för .NET tillhandahåller API:er för att hantera undantag och modifieringar av återkommande uppgifter, vilket säkerställer flexibilitet vid hantering av nya projektkrav.
+S: Aspose.Tasks för .NET tillhandahåller API:er för att hantera undantag och ändringar av återkommande uppgifter, vilket säkerställer flexibilitet vid hantering av nya projektkrav.
 
 ### F4: Erbjuder Aspose.Tasks för .NET stöd för molnbaserade projektledningslösningar?
 
@@ -125,4 +125,4 @@ S: Ja, Aspose.Tasks för .NET erbjuder stöd för molnbaserade projekthanterings
 
 ### F5: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
 
- S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks för .NET från[hemsida](https://releases.aspose.com/), så att du kan utforska dess funktioner innan du fattar ett köpbeslut.
+S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks för .NET från[hemsida](https://releases.aspose.com/), så att du kan utforska dess funktioner innan du fattar ett köpbeslut.

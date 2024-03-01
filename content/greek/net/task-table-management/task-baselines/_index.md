@@ -1,6 +1,6 @@
 ---
 title: Mastering Task Baselines στο Aspose.Tasks για .NET
-linktitle: Χειρισμός γραμμών βάσης εργασιών στο Aspose.Tasks
+linktitle: Χειρισμός βασικών γραμμών εργασιών στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να χειρίζεστε τις βασικές γραμμές εργασιών στο Aspose.Tasks για .NET με αυτόν τον περιεκτικό οδηγό. Βελτιώστε τις δεξιότητές σας στη διαχείριση έργων σήμερα!
 type: docs
@@ -65,9 +65,9 @@ foreach (var data in baseline.TimephasedData)
 ### Ε: Μπορώ να χρησιμοποιήσω το Aspose.Tasks με άλλα πλαίσια .NET;
 Α: Το Aspose.Tasks είναι συμβατό με πολλαπλά πλαίσια .NET, παρέχοντας ευελιξία στο περιβάλλον ανάπτυξής σας.
 ### Ε: Υπάρχει κάποιο φόρουμ κοινότητας για υποστήριξη Aspose.Tasks;
-Α: Ναι, μπορείτε να βρείτε υποστήριξη και να αλληλεπιδράσετε με την κοινότητα στο[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).
+ Α: Ναι, μπορείτε να βρείτε υποστήριξη και να αλληλεπιδράσετε με την κοινότητα στο[Aspose.Tasks Forum](https://forum.aspose.com/c/tasks/15).
 ### Ε: Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;
- Μία επίσκεψη[εδώ](https://purchase.aspose.com/temporary-license/) για να αποκτήσετε μια προσωρινή άδεια για το Aspose.Tasks.
+ Μία επίσκεψη[εδώ](https://purchase.aspose.com/temporary-license/)για να αποκτήσετε μια προσωρινή άδεια για το Aspose.Tasks.
 ### Ε: Υπάρχουν διαθέσιμα μαθήματα πέρα από τις βασικές γραμμές εργασιών;
  Α: Εξερευνήστε το[τεκμηρίωση](https://reference.aspose.com/tasks/net/) για ένα ευρύ φάσμα εκμάθησης σχετικά με τις δυνατότητες Aspose.Tasks.
 ### Ε: Πού μπορώ να αγοράσω το Aspose.Tasks για .NET;

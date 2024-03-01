@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Tải tệp dự án bằng cách sử dụng`Project` hàm tạo lớp, chỉ định đường dẫn tệp.
+ Tải tệp dự án bằng cách sử dụng`Project`hàm tạo lớp, chỉ định đường dẫn tệp.
 
 ## Bước 2: Thu thập tất cả nhiệm vụ dự án
 
@@ -117,4 +117,4 @@ Câu trả lời 4: Có, bạn có thể tích hợp liền mạch Aspose.Tasks 
 
 ### Câu hỏi 5: Có diễn đàn cộng đồng hoặc kênh hỗ trợ nào dành cho người dùng Aspose.Tasks không?
 
- Câu trả lời 5: Có, bạn có thể truy cập diễn đàn cộng đồng Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15) cho bất kỳ thắc mắc hoặc hỗ trợ.
+ Câu trả lời 5: Có, bạn có thể truy cập diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) cho bất kỳ thắc mắc hoặc hỗ trợ.

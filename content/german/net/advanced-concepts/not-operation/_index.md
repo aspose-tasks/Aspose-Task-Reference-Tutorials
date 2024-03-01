@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Hier erstellen wir eine`ChildTasksCollector` Objekt, um alle Aufgaben innerhalb des Projekts zu sammeln. Wir verwenden dann`TaskUtils.Apply`Methode, um die Aufgabenhierarchie des Projekts zu durchlaufen und alle untergeordneten Aufgaben zu sammeln.
+ Hier erstellen wir eine`ChildTasksCollector` Objekt, um alle Aufgaben innerhalb des Projekts zu sammeln. Wir verwenden dann`TaskUtils.Apply` Methode, um die Aufgabenhierarchie des Projekts zu durchlaufen und alle untergeordneten Aufgaben zu sammeln.
 
 ## Schritt 3: Filterbedingung definieren
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Wir definieren eine Filterbedingung mithilfe einer benutzerdefinierten Klasse namens`NullCondition`, Diese Bedingung wählt Aufgaben aus, die einen Nullwert haben.
+ Wir definieren eine Filterbedingung mithilfe einer benutzerdefinierten Klasse namens`NullCondition`. Diese Bedingung wählt Aufgaben aus, die einen Nullwert haben.
 
 ## Schritt 4: Wenden Sie die NOT-Operation an
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- Wir wenden die NOT-Operation auf die Filterbedingung an, indem wir verwenden`Not<T>` Klasse, bereitgestellt von Aspose.Tasks. Dadurch wird die Filterbedingung umgekehrt und Aufgaben ausgewählt, die keinen Nullwert haben.
+ Wir wenden die NOT-Operation auf die Filterbedingung an, indem wir verwenden`Not<T>`Klasse, bereitgestellt von Aspose.Tasks. Dadurch wird die Filterbedingung umgekehrt und Aufgaben ausgewählt, die keinen Nullwert haben.
 
 ## Schritt 5: Aufgaben filtern
 
@@ -74,7 +74,7 @@ var condition = new Not<Task>(filter);
 List<Task> collection = Filter(coll.Tasks, condition);
 ```
 
- Wir filtern die gesammelten Aufgaben basierend auf der angewendeten Bedingung mithilfe einer benutzerdefinierten Methode`Filter` Methode. Diese Methode verwendet eine aufzählbare Sammlung von Aufgaben und eine Filterbedingung als Eingabeparameter und gibt eine Liste von Aufgaben zurück, die die Bedingung erfüllen.
+ Wir filtern die gesammelten Aufgaben basierend auf der angewendeten Bedingung mithilfe einer benutzerdefinierten Funktion`Filter` Methode. Diese Methode verwendet eine aufzählbare Sammlung von Aufgaben und eine Filterbedingung als Eingabeparameter und gibt eine Liste von Aufgaben zurück, die die Bedingung erfüllen.
 
 ## Schritt 6: Gefilterte Aufgaben verarbeiten
 

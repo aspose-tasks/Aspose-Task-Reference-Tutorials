@@ -2,7 +2,7 @@
 title: Dominando os valores do MS Project Outline com Aspose.Tasks
 linktitle: Gerenciando valores de contorno em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
-description: Aprenda como gerenciar valores de contorno do MS Project de forma eficiente usando Aspose.Tasks for .NET. Personalize os contornos do projeto com facilidade.
+description: Aprenda como gerenciar valores de contorno do MS Project com eficiência usando Aspose.Tasks for .NET. Personalize os contornos do projeto com facilidade.
 type: docs
 weight: 16
 url: /pt/net/outline-code-page-settings/outline-values/
@@ -64,15 +64,15 @@ outline2.Values.Add(value2);
 Nesta etapa, criamos dois objetos OutlineValue e definimos suas propriedades como valor, ID do valor, tipo, descrição e status de recolhimento.
 
 ## Conclusão
-Gerenciar valores de contorno do MS Project usando Aspose.Tasks for .NET é simples com as funcionalidades fornecidas. Seguindo as etapas descritas neste tutorial, você pode manipular códigos e valores de contorno com eficiência para personalizar os contornos do projeto de acordo com suas necessidades.
+Gerenciar valores de contorno do MS Project usando Aspose.Tasks for .NET é simples com as funcionalidades fornecidas. Seguindo as etapas descritas neste tutorial, você pode manipular com eficiência códigos e valores de estrutura de tópicos para personalizar os contornos do projeto de acordo com suas necessidades.
 ## Perguntas frequentes
 ### P: Posso usar Aspose.Tasks com outras estruturas .NET?
 R: Sim, Aspose.Tasks é compatível com vários frameworks .NET, garantindo flexibilidade em seu ambiente de desenvolvimento.
 ### P: Existe uma versão de teste disponível para Aspose.Tasks?
  R: Sim, você pode acessar uma versão de avaliação gratuita do Aspose.Tasks em[aqui](https://releases.aspose.com/).
 ### P: Como posso obter suporte para Aspose.Tasks?
- R: Para suporte e assistência, você pode visitar o fórum Aspose.Tasks.[aqui](https://forum.aspose.com/c/tasks/15).
+ R: Para suporte e assistência, você pode visitar o fórum Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
 ### P: Posso comprar uma licença temporária para Aspose.Tasks?
- R: Sim, você pode adquirir uma licença temporária para Aspose.Tasks em[aqui](https://purchase.aspose.com/temporary-license/).
+R: Sim, você pode adquirir uma licença temporária para Aspose.Tasks em[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso encontrar documentação detalhada para Aspose.Tasks?
  R: Você pode consultar a documentação abrangente disponível[aqui](https://reference.aspose.com/tasks/net/).

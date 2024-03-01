@@ -21,7 +21,7 @@ Untuk memanfaatkan kekuatan Aspose.Tasks, pemahaman dasar tentang bahasa pemrogr
 
 ### 2. Instalasi Aspose.Tasks untuk .NET
 
- Pastikan Anda telah menginstal perpustakaan Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Situs web Aspose.Tasks](https://releases.aspose.com/tasks/net/) atau melalui manajer paket NuGet.
+Pastikan Anda telah menginstal perpustakaan Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduhnya dari[Situs web Aspose.Tasks](https://releases.aspose.com/tasks/net/) atau melalui manajer paket NuGet.
 
 ### 3. Lingkungan Pengembangan Terpadu (IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Langkah 2: Tetapkan Garis Dasar
 
- Setelah proyek dimuat, kita dapat melanjutkan untuk menetapkan garis dasar. Baseline memberikan gambaran jadwal awal proyek, yang berfungsi sebagai titik referensi untuk perbandingan seiring berjalannya proyek. Menggunakan`SetBaseline` metode untuk menetapkan garis dasar. Misalnya, untuk menetapkan garis dasar keseluruhan proyek, gunakan`BaselineType.Baseline` pencacahan:
+Setelah proyek dimuat, kita dapat melanjutkan untuk menetapkan garis dasar. Baseline memberikan gambaran jadwal awal proyek, yang berfungsi sebagai titik referensi untuk perbandingan seiring berjalannya proyek. Menggunakan`SetBaseline` metode untuk menetapkan garis dasar. Misalnya, untuk menetapkan garis dasar keseluruhan proyek, gunakan`BaselineType.Baseline` pencacahan:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);

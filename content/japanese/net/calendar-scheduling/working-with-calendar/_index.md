@@ -9,7 +9,7 @@ url: /ja/net/calendar-scheduling/working-with-calendar/
 ---
 ## 導入
 
-Aspose.Tasks for .NET は、カレンダーを操作するための強力な機能を提供し、開発者がプロジェクトのスケジュールとリソースの割り当てを効率的に管理できるようにします。このチュートリアルでは、Aspose.Tasks を利用してカレンダーを操作する方法を検討し、カレンダー情報の取得、週労働時間の定義、労働時間の計算などの重要な操作を取り上げます。
+Aspose.Tasks for .NET は、カレンダーを操作するための強力な機能を提供し、開発者がプロジェクトのスケジュールとリソースの割り当てを効率的に管理できるようにします。このチュートリアルでは、Aspose.Tasks を利用してカレンダーを操作する方法を検討し、カレンダー情報の取得、週労働時間の定義、労働時間の計算などの重要な操作をカバーします。
 
 ## 前提条件
 
@@ -244,7 +244,7 @@ public void WriteUpdatedCalendarDataToMpp()
     }
     catch (NotSupportedException ex)
     {
-        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://Purchase.aspose.com/temporary-license/.");
+        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://Purchase.aspose.com/temporary-license/).");
     }
 }
 ```
@@ -372,7 +372,7 @@ public void GetFinishDateByStartAndWork()
 
 ## ステップ 12: 次の勤務日の開始を取得する
 
-カレンダーを使用して次の営業日を開始するには、次の手順に従います。
+カレンダーを使用して次の営業日の開始を確認するには、次の手順に従います。
 
 ```csharp
 public void GetNextWorking

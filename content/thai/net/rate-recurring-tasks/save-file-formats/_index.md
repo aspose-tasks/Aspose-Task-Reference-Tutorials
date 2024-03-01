@@ -50,8 +50,8 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
 ### ถาม: ฉันสามารถลองใช้ Aspose.Tasks ก่อนซื้อได้หรือไม่
  ตอบ: ได้ คุณสามารถดาวน์โหลดรุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะรับการสนับสนุนสำหรับ Aspose.Tasks ได้อย่างไร
- ตอบ: คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
+ตอบ: คุณสามารถรับการสนับสนุนจากฟอรัมชุมชน Aspose.Tasks[ที่นี่](https://forum.aspose.com/c/tasks/15).
 ### ถาม: Aspose.Tasks มีใบอนุญาตชั่วคราวหรือไม่
- ตอบ: ใช่ ใบอนุญาตชั่วคราวมีไว้เพื่อวัตถุประสงค์ในการประเมิน คุณสามารถรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ ตอบ: ใช่ ใบอนุญาตชั่วคราวมีไว้เพื่อวัตถุประสงค์ในการประเมิน คุณสามารถได้รับอย่างใดอย่างหนึ่ง[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### ถาม: Aspose.Tasks มีราคาเท่าใด
  ตอบ: สามารถดูข้อมูลราคาได้ที่หน้าการซื้อ Aspose.Tasks[ที่นี่](https://purchase.aspose.com/buy).

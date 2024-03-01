@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## Étape 1 : Définir le répertoire des documents
-Assurez-vous d'avoir un répertoire désigné pour vos documents. remplacer`"Your Document Directory"` avec le chemin d'accès au répertoire souhaité.
+ Assurez-vous d'avoir un répertoire désigné pour vos documents. Remplacer`"Your Document Directory"` avec le chemin d'accès au répertoire souhaité.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Étape 2 : charger le fichier de projet
- Chargez le fichier Microsoft Project (.mpp) à l'aide du`Project` classe.
+Chargez le fichier Microsoft Project (.mpp) à l'aide du`Project` classe.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
@@ -56,7 +56,7 @@ La maîtrise des options SVG MS Project avec Aspose.Tasks pour .NET permet aux c
 R : Oui, Aspose.Tasks est conçu pour gérer efficacement les gros fichiers Microsoft Project, garantissant ainsi des performances optimales.
 
 ### Q : Aspose.Tasks est-il compatible avec différentes versions de .NET ?
-: Absolument, Aspose.Tasks prend en charge différentes versions de .NET, offrant flexibilité et compatibilité entre différents environnements.
+R : Absolument, Aspose.Tasks prend en charge différentes versions de .NET, offrant flexibilité et compatibilité entre différents environnements.
 
 ### Q : Existe-t-il des limitations aux options de sortie SVG ?
 R : Bien qu'Aspose.Tasks offre des options de sortie SVG robustes, certaines fonctionnalités telles que les pinceaux dégradés peuvent avoir des limites. Reportez-vous à la documentation pour des informations détaillées.

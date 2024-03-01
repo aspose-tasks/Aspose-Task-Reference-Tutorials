@@ -8,7 +8,7 @@ weight: 16
 url: /hu/net/resource-risk-analysis/resource-usage-view-fields/
 ---
 ## Bevezetés
-projektmenedzsment területén kulcsfontosságú a Microsoft Project fájlok hatékony kezelése. Az Aspose.Tasks for .NET átfogó megoldást kínál az MS Project fájlokkal való zökkenőmentes munkavégzéshez. Ebben az oktatóanyagban az Aspose.Tasks for .NET segítségével történő Erőforrás-használati nézetmezők elérésének és használatának folyamatát mutatjuk be.
+A projektmenedzsment területén kulcsfontosságú a Microsoft Project fájlok hatékony kezelése. Az Aspose.Tasks for .NET átfogó megoldást kínál az MS Project fájlokkal való zökkenőmentes munkavégzéshez. Ebben az oktatóanyagban az Aspose.Tasks for .NET segítségével történő Erőforrás-használati nézetmezők elérésének és használatának folyamatát mutatjuk be.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 1.  Az Aspose.Tasks telepítése .NET-hez: Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET könyvtárat. Ha nem, akkor letöltheti a[weboldal](https://releases.aspose.com/tasks/net/).

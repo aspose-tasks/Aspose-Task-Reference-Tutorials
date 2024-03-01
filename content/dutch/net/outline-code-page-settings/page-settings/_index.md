@@ -1,6 +1,6 @@
 ---
 title: Configureer MS Project-pagina-instellingen met Aspose.Tasks
-linktitle: Configureer pagina-instellingen in Aspose.Tasks
+linktitle: Pagina-instellingen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-pagina-instellingen configureert met Aspose.Tasks voor .NET. Pas de richting, grootte en meer aan met eenvoudige stappen.
 type: docs

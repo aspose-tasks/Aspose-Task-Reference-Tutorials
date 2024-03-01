@@ -11,7 +11,7 @@ url: /tr/net/saving-options/mpp-save-options/
 .NET geliştirme dünyasında, proje dosyalarını verimli bir şekilde yönetmek ve değiştirmek başarı için çok önemlidir. Aspose.Tasks for .NET, Microsoft Project dosyalarını (MPP) kolaylıkla yönetmek için güçlü bir çözüm sunar. Pek çok özelliği arasında Aspose.Tasks, kullanıcıların MS Project seçeneklerini sorunsuz bir şekilde kaydetmesine olanak tanıyarak iş akışını kolaylaştırır ve proje bütünlüğünü sağlar. Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project seçeneklerini kaydetme sürecini ele alacağız.
 ## Önkoşullar
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-1. Aspose.Tasks for .NET kurulumu: Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET kurulumu: Aspose.Tasks for .NET kütüphanesini şu adresten indirip yükleyin:[Burada](https://releases.aspose.com/tasks/net/).
 2. Geliştirme Ortamı: Visual Studio gibi bir .NET geliştirme ortamı kurun.
 3. C#'ın Temel Anlaşılması: Örneklerin uygulanması için C# programlama diline aşinalık esastır.
 
@@ -62,7 +62,7 @@ Evet, Aspose.Tasks for .NET, MPP, MPT, XML ve daha fazlasını içeren Microsoft
 ### Satın almadan önce Aspose.Tasks for .NET'i deneyebilir miyim?
  Kesinlikle! Aspose.Tasks for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks for .NET için nasıl teknik destek alabilirim?
- Teknik yardım için Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+Teknik yardım için Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
 ### Geçici lisans nedir ve nasıl edinebilirim?
  Geçici bir lisans, Aspose.Tasks for .NET'i herhangi bir sınırlama olmadan değerlendirmenize olanak tanır. adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Tasks for .NET'in lisanslı sürümünü nereden satın alabilirim?

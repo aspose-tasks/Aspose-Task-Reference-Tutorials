@@ -1,6 +1,6 @@
 ---
 title: Bemästra uppgiftsanvändningsvyer i Aspose.Tasks för .NET
-linktitle: Konfigurera Task Usage Views i Aspose.Tasks
+linktitle: Konfigurera uppgiftsanvändningsvyer i Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Utforska Aspose.Tasks för .NET och lär dig hur du konfigurerar uppgiftsanvändningsvyer. Anpassa tidsskalainställningar och förbättra dina projektledningsbilder.
 type: docs
@@ -23,7 +23,7 @@ I ditt .NET-projekt, importera de nödvändiga namnområdena för att komma åt 
     using Aspose.Tasks.Visualization;
 ```
 ## Steg 1: Ställ in dokumentkatalogsökvägen
- Innan du arbetar med Aspose.Tasks-funktionerna, ställ in sökvägen till din dokumentkatalog. byta ut`"Your Document Directory"` med den faktiska vägen.
+ Innan du arbetar med Aspose.Tasks-funktionerna, ställ in sökvägen till din dokumentkatalog. Byta ut`"Your Document Directory"` med den faktiska vägen.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Ja, Aspose.Tasks stöder populära projektfilformat som MPP, XML och CSV.
 ### Kan jag tillämpa olika tidsskalainställningar för specifika uppgifter?
 Absolut, du kan anpassa tidsskalainställningar för individuella uppgifter inom ditt projekt.
 ### Hur kan jag få stöd eller söka hjälp för Aspose.Tasks?
- besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och vägledning.
+ Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och vägledning.

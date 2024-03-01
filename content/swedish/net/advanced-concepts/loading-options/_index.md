@@ -74,7 +74,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptions()
         PreserveUids = true
     };
 
-    // Ställ in läsalternativ för Primavera
+    // Ställ in Primavera läsalternativ
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     // Ladda Primavera-projektet med specificerade alternativ
@@ -119,7 +119,7 @@ public void WorkWithLoadOptionsAndPrimaveraOptionsAndErrorHandler()
         ProjectUid = 3882 // Ställ in Project UID
     };
 
-    // Ställ in läsalternativ för Primavera
+    // Ställ in Primavera läsalternativ
     loadOptions.PrimaveraReadOptions = primaveraOptions;
 
     //Ställ in anpassad felhantering

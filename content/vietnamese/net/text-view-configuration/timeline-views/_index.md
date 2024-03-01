@@ -71,7 +71,7 @@ Có, Aspose.Tasks hỗ trợ nhiều khung .NET khác nhau, đảm bảo khả n
 ### Tôi có thể tùy chỉnh giao diện của từng nhiệm vụ trong chế độ xem dòng thời gian không?
 Tuyệt đối! Aspose.Tasks cung cấp tính linh hoạt để tùy chỉnh giao diện của từng nhiệm vụ trong chế độ xem dòng thời gian.
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Tasks ở đâu?
- tham quan[Tài liệu Aspose.Tasks](https://reference.aspose.com/tasks/net/) để được hướng dẫn toàn diện và[diễn đàn hỗ trợ](https://forum.aspose.com/c/tasks/15) để được hỗ trợ.
+ Tham quan[Tài liệu Aspose.Tasks](https://reference.aspose.com/tasks/net/)để được hướng dẫn toàn diện và[diễn đàn hỗ trợ](https://forum.aspose.com/c/tasks/15) để được hỗ trợ.
 ### Có bản dùng thử miễn phí cho Aspose.Tasks không?
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào để có được giấy phép tạm thời cho Aspose.Tasks?

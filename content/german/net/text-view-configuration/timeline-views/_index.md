@@ -71,7 +71,7 @@ Ja, Aspose.Tasks unterstützt verschiedene .NET-Frameworks und gewährleistet so
 ### Kann ich das Erscheinungsbild einzelner Aufgaben in der Zeitleistenansicht anpassen?
 Absolut! Aspose.Tasks bietet die Flexibilität, das Erscheinungsbild jeder Aufgabe in der Zeitleistenansicht anzupassen.
 ### Wo finde ich zusätzliche Ressourcen und Unterstützung für Aspose.Tasks?
- Besuche den[Aspose.Tasks-Dokumentation](https://reference.aspose.com/tasks/net/) für umfassende Leitfäden und die[Hilfeforum](https://forum.aspose.com/c/tasks/15) zur Hilfe.
+ Besuche den[Aspose.Tasks-Dokumentation](https://reference.aspose.com/tasks/net/)für umfassende Leitfäden und die[Hilfeforum](https://forum.aspose.com/c/tasks/15) zur Hilfe.
 ### Gibt es eine kostenlose Testversion für Aspose.Tasks?
  Ja, Sie können eine kostenlose Testversion ausprobieren[Hier](https://releases.aspose.com/).
 ### Wie erhalte ich eine temporäre Lizenz für Aspose.Tasks?

@@ -11,7 +11,7 @@ url: /zh-hant/net/task-table-management/table-text-styles/
 在專案管理領域，任務的有效視覺化對於成功至關重要。 Aspose.Tasks for .NET 提供了一個強大的解決方案來自訂表格文字樣式，讓您可以自訂專案中文字項目的外觀。在本逐步指南中，我們將引導您完成使用 Aspose.Tasks for .NET 設定表格文字樣式的過程。
 ## 先決條件
 在深入學習本教學之前，請確保您具備以下條件：
--  Aspose.Tasks for .NET：請確定您已安裝了最新版本的 Aspose.Tasks for .NET。你可以下載它[這裡](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET：請確定您已安裝了最新版本的 Aspose.Tasks for .NET。你可以下載它[這裡](https://releases.aspose.com/tasks/net/).
 - 文檔目錄：為您的文件設定目錄。將程式碼中的「您的文件目錄」替換為實際路徑。
 - 有效的 Aspose 許可證：此範例需要有效的 Aspose 許可證。您可以購買完整許可證[這裡](https://purchase.aspose.com/buy)或取得 30 天的臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ## 導入命名空間
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.」）；
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## 結論

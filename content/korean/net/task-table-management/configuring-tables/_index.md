@@ -11,7 +11,7 @@ url: /ko/net/task-table-management/configuring-tables/
 .NET용 Aspose.Tasks의 테이블 구성에 대한 포괄적인 가이드에 오신 것을 환영합니다. Aspose.Tasks는 개발자가 Microsoft Project 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Tasks를 사용하여 테이블을 구성하는 과정을 안내하고, 명확한 이해를 위해 각 단계를 세분화합니다.
 ## 전제조건
 튜토리얼을 자세히 살펴보기 전에 다음 전제 조건이 충족되었는지 확인하세요.
--  .NET용 Aspose.Tasks: Aspose.Tasks 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose.Tasks .NET 문서](https://reference.aspose.com/tasks/net/).
+- .NET용 Aspose.Tasks: Aspose.Tasks 라이브러리가 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[Aspose.Tasks .NET 문서](https://reference.aspose.com/tasks/net/).
 - 개발 환경: Visual Studio 또는 기타 선호하는 .NET 개발 도구를 사용하여 개발 환경을 설정합니다.
 - 샘플 프로젝트 파일: 테스트용 샘플 Microsoft Project 파일(MPP)을 준비합니다.
 ## 네임스페이스 가져오기

@@ -11,7 +11,7 @@ url: /ko/net/outline-code-page-settings/page-legend/
 .NET 개발 영역에서는 특히 프로젝트 관리를 다룰 때 작업을 효율적으로 관리하는 것이 중요합니다. Aspose.Tasks for .NET은 작업 관리 프로세스를 간소화하기 위한 다양한 기능을 제공하는 강력한 도구로 등장합니다. 그러한 기능 중 하나는 MS 프로젝트 페이지 범례를 구성하여 사용자에게 프로젝트 데이터 프레젠테이션에 대한 귀중한 통찰력을 제공하는 기능입니다.
 ## 전제조건
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 페이지 범례를 구성하기 전에 다음 전제 조건이 충족되는지 확인하세요.
-1.  설치: 개발 환경에 Aspose.Tasks for .NET을 설치하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
+1. 설치: 개발 환경에 Aspose.Tasks for .NET을 설치하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
 2. .NET 기본 지식: 프로젝트 설정 및 네임스페이스 작업을 포함하여 .NET 개발의 기본 사항을 숙지합니다.
 3. 개발 환경: 원활한 코딩 경험을 위해 Visual Studio와 같은 통합 개발 환경(IDE)을 사용합니다.
 4. 프로젝트 파일: 실험을 위해 Microsoft Project 파일(MPP)을 준비합니다.

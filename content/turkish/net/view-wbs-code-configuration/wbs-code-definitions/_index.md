@@ -2,7 +2,7 @@
 title: Aspose.Tasks'ta WBS Kodu Tanımlarını Tanımlama
 linktitle: Aspose.Tasks'ta WBS Kodu Tanımlarını Tanımlama
 second_title: Aspose.Tasks .NET API'si
-description: Aspose.Tasks for .NET, verimli proje yönetimini güçlendirir. Kapsamlı eğitimimizle WBS kodlarında zahmetsizce uzmanlaşın. İş akışlarını bugün kolaylaştırın!
+description: Aspose.Tasks for .NET, verimli proje yönetimini güçlendirir. Kapsamlı eğitimimizle WBS kodlarında zahmetsizce ustalaşın. İş akışlarını bugün kolaylaştırın!
 type: docs
 weight: 13
 url: /tr/net/view-wbs-code-configuration/wbs-code-definitions/
@@ -12,7 +12,7 @@ Proje yönetimi geliştikçe süreçleri kolaylaştıran güçlü araçlara olan
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 - .NET geliştirme konusunda çalışma bilgisi.
-- Aspose.Tasks for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
 - Bir kod düzenleyici (Visual Studio önerilir).
 ## Ad Alanlarını İçe Aktar
 .NET projenizde gerekli ad alanlarını içe aktararak başlayın:

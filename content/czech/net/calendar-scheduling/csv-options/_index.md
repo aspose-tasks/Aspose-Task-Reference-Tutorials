@@ -2,7 +2,7 @@
 title: Možnosti CSV v Aspose.Tasks
 linktitle: Možnosti CSV v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Naučte se, jak využít Aspose.Tasks pro .NET k efektivní práci se soubory CSV a bez námahy vylepšit možnosti řízení projektů.
+description: Naučte se, jak využít Aspose.Tasks pro .NET k efektivní práci se soubory CSV a bez námahy rozšiřovat možnosti řízení projektů.
 type: docs
 weight: 21
 url: /cs/net/calendar-scheduling/csv-options/
@@ -71,7 +71,7 @@ Odpověď 1: Aspose.Tasks for .NET je navržena tak, aby efektivně zvládala pr
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
 
- A2: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro .NET z[webová stránka](https://releases.aspose.com/tasks/net/)před nákupem vyhodnotit jeho vlastnosti.
+ A2: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro .NET z[webová stránka](https://releases.aspose.com/tasks/net/) před nákupem vyhodnotit jeho vlastnosti.
 
 ### Q3: Podporuje Aspose.Tasks for .NET více platforem?
 

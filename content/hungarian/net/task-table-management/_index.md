@@ -11,7 +11,7 @@ url: /hu/net/task-table-management/
 
 Az Aspose.Tasks for .NET robusztus szolgáltatásaival forradalmasítja a projektmenedzsmentet. Ez a cikk különféle oktatóanyagokat tár fel a feladatkezelésről és a táblázat formázásáról, és átfogó útmutatót kínál a hatékonyság maximalizálásához. Vágjunk bele a legfontosabb témákba:
 
-## Konfigurálja a táblákat az Aspose.Tasks alkalmazásban
+## Táblázatok konfigurálása az Aspose.Tasks programban
 
 Ismerje meg a táblák konfigurálásának művészetét az Aspose.Tasks for .NET-ben lépésenkénti útmutatónkkal. Ez az oktatóanyag feljogosítja Önt arra, hogy erőfeszítés nélkül javítsa a projektmenedzsment tapasztalatait. Fedezze fel a[A táblázatok konfigurálása oktatóanyag](./configuring-tables/) hogy elsajátítsa ezt a képességet.
 
@@ -27,7 +27,7 @@ Ismerje meg a táblák konfigurálásának művészetét az Aspose.Tasks for .NE
 
 Merüljön el a projektmenedzsment dinamikus világában az Aspose.Tasks for .NET segítségével. Ez az oktatóanyag végigvezeti Önt a táblázatmező-gyűjtemények kezelésében a projektélmény testreszabása érdekében. Fedezze fel a[Table Field Collection oktatóanyag](./table-field-collection/) hogy gyarapítsa készségeit.
 
-## Állítsa be a táblázat szövegstílusait az Aspose.Tasks alkalmazásban
+## Táblázat szövegstílusainak konfigurálása az Aspose.Tasks programban
 
  Javítsa a projekt vizualizációját az Aspose.Tasks for .NET tábla szövegstílusainak konfigurálásával. Ez a lépésenkénti útmutató biztosítja, hogy növelje a hatékonyságot és a prezentációt a projektben. Fedje fel a titkokat a[Táblázat szövegstílusok bemutatója](./table-text-styles/).
 
@@ -51,21 +51,21 @@ Az Aspose.Tasks for .NET segítségével könnyedén kezelheti az alapfeladatoka
 
  Engedje szabadjára az Aspose.Tasks for .NET erejét a projektfeladat-hivatkozások hatékony kezelésében. Kövesse lépésről lépésre útmutatónkat, hogy javítsa a projektmenedzsment tapasztalatait a[Feladathivatkozás-gyűjtemény oktatóanyaga](./task-link-collection/).
 
-## Konfigurálja a feladat kezdő dátumának típusait az Aspose.Tasks alkalmazásban
+## Feladat kezdési dátum típusok konfigurálása az Aspose.Tasks programban
 
- Könnyedén konfigurálhatja a feladatok kezdő dátumának típusait az Aspose.Tasks for .NET segítségével. Könnyedén optimalizálhatja a projektmenedzsmentet a[Feladat kezdési dátumtípusok oktatóanyaga](./task-start-date-types/), Töltse le ingyenes próbaverzióját most!
+ Könnyedén konfigurálhatja a feladatok kezdő dátumának típusait az Aspose.Tasks for .NET segítségével. Könnyedén optimalizálhatja a projektmenedzsmentet a[Feladat kezdési dátumtípusok oktatóanyaga](./task-start-date-types/). Töltse le ingyenes próbaverzióját most!
 
-## Konfigurálja a Feladathasználati nézeteket az Aspose.Tasks alkalmazásban
+## Feladathasználati nézetek konfigurálása az Aspose.Tasks programban
 
  A projektadatok hatékony kezelése és megjelenítése az Aspose.Tasks for .NET segítségével. Merüljön el a Feladathasználati nézetmezőkben, hogy továbbfejlesztett projektbetekintést kapjon a[Feladat használati nézetek oktatóanyaga](./task-usage-views/).
 
 ## Feladathasználati nézetmezők gyűjteménye az Aspose.Tasks-ban
 
- Fedezze fel az Aspose.Tasks for .NET webhelyet, és tanulja meg, hogyan konfigurálhatja a feladathasználati nézeteket. Testreszabhatja az időbeosztás beállításait, és javíthatja projektmenedzsment látványvilágát a[Feladathasználati mezők oktatóanyaga](./task-usage-view-fields/).
+ Fedezze fel az Aspose.Tasks for .NET webhelyet, és tanulja meg, hogyan konfigurálhatja a feladathasználati nézeteket. Testreszabhatja az időbeosztás beállításait, és javíthatja a projektmenedzsment látványvilágát a[Feladathasználati mezők oktatóanyaga](./task-usage-view-fields/).
 
 Ezekkel az oktatóanyagokkal az Aspose.Tasks .NET-hez való elsajátítása felé vezető úton halad, és fejlett projektkezelési képességekkel ruházza fel magát. Merüljön el, fedezze fel és fejlessze tudását még ma!
 ## Aspose.Tasks Feladatkezelési és táblázatformázási oktatóanyagok
-### [Konfigurálja a táblákat az Aspose.Tasks alkalmazásban](./configuring-tables/)
+### [Táblázatok konfigurálása az Aspose.Tasks programban](./configuring-tables/)
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan konfigurálhatja a táblákat az Aspose.Tasks for .NET-ben. Fokozza a projektmenedzsment tapasztalatait könnyedén.
 ### [Aspose.Tasks táblázatok gyűjteménye](./table-collection/)
 Master Aspose.Tasks for .NET a táblázatos gyűjtemények kezeléséről szóló lépésről lépésre szóló útmutatónkkal. A projektmenedzsment alkalmazások könnyed fejlesztése. Letöltés most!
@@ -73,7 +73,7 @@ Master Aspose.Tasks for .NET a táblázatos gyűjtemények kezeléséről szól�
 Az Aspose.Tasks for .NET táblamezőinek kezelése ezzel az átfogó oktatóanyaggal. Tanulja meg könnyedén olvasni, megjeleníteni és módosítani a projekttáblázatokat.
 ### [Táblázatmezők gyűjteménye az Aspose.Tasks-ban](./table-field-collection/)
 Fedezze fel a projektmenedzsment dinamikus világát az Aspose.Tasks for .NET segítségével. Ismerje meg, hogyan kezelheti a táblázatmező-gyűjteményeket a testreszabott projektélmény érdekében.
-### [Állítsa be a táblázat szövegstílusait az Aspose.Tasks alkalmazásban](./table-text-styles/)
+### [Táblázat szövegstílusainak konfigurálása az Aspose.Tasks programban](./table-text-styles/)
 Javítsa a projektek megjelenítését az Aspose.Tasks for .NET segítségével. Ismerje meg lépésről lépésre a táblázat szövegstílusainak konfigurálását. Növelje a hatékonyságot és a prezentációt.
 ### [Feladatok kezelése az Aspose.Tasks-ban](./managing-tasks/)
 Fedezze fel az átfogó útmutatót az Aspose.Tasks for .NET segítségével történő feladatok kezeléséről. Tanuljon meg hozzáadni, megjeleníteni felosztott részeket, mozgatni, tulajdonságokat szerezni/beállítani stb.
@@ -85,9 +85,9 @@ Fedezze fel a feladatok alapvonalait könnyedén az Aspose.Tasks for .NET segít
 Fedezze fel a hatékony feladatgyűjtemény-kezelést az Aspose.Tasks for .NET-ben. A létrehozástól a szerkesztésig könnyedén sajátíthatja el a projektmenedzsmentet.
 ### [Feladathivatkozások kezelése az Aspose.Tasks-ban](./task-link-collection/)
 Fedezze fel az Aspose.Tasks for .NET erejét a projektfeladat-hivatkozások hatékony kezelésében. Kövesse lépésről lépésre útmutatónkat, hogy javítsa projektmenedzsment-élményét.
-### [Konfigurálja a feladat kezdő dátumának típusait az Aspose.Tasks alkalmazásban](./task-start-date-types/)
+### [Feladat kezdési dátum típusok konfigurálása az Aspose.Tasks programban](./task-start-date-types/)
 Fedezze fel az Aspose.Tasks for .NET-et a feladatok kezdő dátumának egyszerű konfigurálásához. Könnyedén optimalizálhatja a projektmenedzsmentet. Töltse le ingyenes próbaverzióját most!
-### [Konfigurálja a Feladathasználati nézeteket az Aspose.Tasks alkalmazásban](./task-usage-views/)
+### [Feladathasználati nézetek konfigurálása az Aspose.Tasks programban](./task-usage-views/)
 Fedezze fel az Aspose.Tasks for .NET alkalmazást, amellyel könnyedén kezelheti és megjelenítheti a projektadatokat. Merüljön el a Task Usage View Fieldsben a jobb projektbetekintés érdekében.
 ### [Feladathasználati nézetmezők gyűjteménye az Aspose.Tasks-ban](./task-usage-view-fields/)
 Fedezze fel az Aspose.Tasks for .NET webhelyet, és tanulja meg, hogyan konfigurálhatja a feladathasználati nézeteket. Testreszabhatja az időbeosztás beállításait, és javíthatja projektmenedzsment látványvilágát.

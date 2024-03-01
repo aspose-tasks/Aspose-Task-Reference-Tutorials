@@ -75,7 +75,7 @@ view.NonWorkingTimeColor = Color.Azure;
 ```csharp
 view.RollUpGanttBars = true;
 ```
-ガント チャートのバーをロールアップするかどうかを指定します。
+ガント チャートのバーをロールアップする必要があるかどうかを指定します。
 ### バーの分割を表示
 ```csharp
 view.ShowBarSplits = true;

@@ -88,7 +88,7 @@ analysisResult.SaveReport(DataDir + "AnalysisReport_out.pdf");
 ## Kesimpulan
 Kesimpulannya, Aspose.Tasks untuk .NET menawarkan kemampuan yang kuat untuk menganalisis risiko Proyek MS, memungkinkan manajer proyek membuat keputusan yang tepat dan memitigasi potensi masalah. Dengan mengikuti langkah-langkah yang diuraikan dalam tutorial ini, Anda dapat memanfaatkan Aspose.Tasks secara efektif untuk mengelola risiko proyek dengan percaya diri.
 ## FAQ
-### T: Dapatkah saya menggunakan Aspose.Tasks dengan alat manajemen proyek lainnya?
+### T: Bisakah saya menggunakan Aspose.Tasks dengan alat manajemen proyek lainnya?
 J: Ya, Aspose.Tasks mendukung integrasi dengan berbagai platform dan alat manajemen proyek.
 ### T: Apakah Aspose.Tasks cocok untuk proyek tingkat perusahaan?
 J: Tentu saja, Aspose.Tasks dirancang untuk memenuhi kebutuhan proyek skala kecil dan tingkat perusahaan.

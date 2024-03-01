@@ -76,6 +76,6 @@ S: Ja, Aspose.Tasks integreras sömlöst med alla .NET-projekt, vilket ger förb
 ### F: Finns det en gratis provperiod?
  S: Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 ### F: Hur kan jag få en tillfällig licens för Aspose.Tasks?
-S: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+ S: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag köpa Aspose.Tasks?
  A: Köp Aspose.Tasks[här](https://purchase.aspose.com/buy).

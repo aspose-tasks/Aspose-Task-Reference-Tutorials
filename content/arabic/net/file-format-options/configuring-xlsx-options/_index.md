@@ -1,6 +1,6 @@
 ---
 title: قم بتكوين خيارات MS Project XLSX في Aspose.Tasks لـ .NET
-linktitle: قم بتكوين خيارات XLSX في Aspose.Tasks
+linktitle: تكوين خيارات XLSX في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين خيارات MS Project XLSX في Aspose.Tasks لـ .NET. قم بتخصيص الأعمدة والتشفير وغير ذلك الكثير بسهولة.
 type: docs

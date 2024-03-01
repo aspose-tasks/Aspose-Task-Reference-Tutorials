@@ -1,6 +1,6 @@
 ---
 title: Βήμα προς βήμα Ρύθμιση κώδικα WBS στο Aspose.Tasks .NET
-linktitle: Διαμορφώστε τις μάσκες κώδικα WBS στο Aspose.Tasks
+linktitle: Διαμόρφωση μάσκας κώδικα WBS στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Εξερευνήστε βήμα προς βήμα τη διαμόρφωση WBS Code Masks σε έργα .NET χρησιμοποιώντας Aspose.Tasks. Βελτιώστε τις δυνατότητες διαχείρισης έργου χωρίς κόπο.
 type: docs
@@ -56,7 +56,7 @@ project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
 var task = project.RootTask.Children.Add("Task 1");
 task.Children.Add("Task 2");
 ```
-## Βήμα 5: Υπολογισμός εκ νέου
+## Βήμα 5: Υπολογίστε ξανά
 Υπολογίστε ξανά το έργο για να διασφαλίσετε ότι οι κωδικοί WBS εφαρμόζονται σωστά:
 ```csharp
 project.Recalculate();
@@ -84,7 +84,7 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ### Μπορώ να χρησιμοποιήσω το Aspose.Tasks δωρεάν;
  Το Aspose.Tasks προσφέρει μια δωρεάν δοκιμή, την οποία μπορείτε να κατεβάσετε[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να βρω επιπλέον υποστήριξη;
- Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15)για κοινοτική υποστήριξη.
+ Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για κοινοτική υποστήριξη.
 ### Πώς μπορώ να αποκτήσω προσωρινή άδεια;
  Μπορείτε να πάρετε μια προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Υπάρχει αναλυτική τεκμηρίωση διαθέσιμη;

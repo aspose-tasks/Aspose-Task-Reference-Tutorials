@@ -9,7 +9,7 @@ url: /pl/net/advanced-concepts/not-operation/
 ---
 ## Wstęp
 
-tym samouczku omówimy, jak wykorzystać operację NOT w Aspose.Tasks dla .NET. Operacja NOT umożliwia odwrócenie warunku filtru, dzięki czemu możemy wybrać elementy, które nie spełniają określonych kryteriów.
+W tym samouczku omówimy, jak wykorzystać operację NOT w Aspose.Tasks dla .NET. Operacja NOT umożliwia odwrócenie warunku filtru, dzięki czemu możemy wybrać elementy, które nie spełniają określonych kryteriów.
 
 ## Warunki wstępne
 
@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Tutaj tworzymy`ChildTasksCollector` obiekt, aby zebrać wszystkie zadania w ramach projektu. Następnie używamy`TaskUtils.Apply`metoda przeglądania hierarchii zadań projektu i zbierania wszystkich zadań podrzędnych.
+ Tutaj tworzymy`ChildTasksCollector` obiekt, aby zebrać wszystkie zadania w ramach projektu. Następnie używamy`TaskUtils.Apply` metoda przeglądania hierarchii zadań projektu i zbierania wszystkich zadań podrzędnych.
 
 ## Krok 3: Zdefiniuj stan filtra
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Definiujemy warunek filtra za pomocą niestandardowej klasy o nazwie`NullCondition`, Ten warunek wybiera zadania, które mają wartość null.
+ Definiujemy warunek filtra za pomocą niestandardowej klasy o nazwie`NullCondition`. Ten warunek wybiera zadania, które mają wartość null.
 
 ## Krok 4: Zastosuj operację NIE
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- Stosujemy operację NOT do warunku filtra za pomocą`Not<T>` klasa dostarczona przez Aspose.Tasks. Spowoduje to odwrócenie warunku filtru i wybranie zadań, które nie mają wartości null.
+ Stosujemy operację NOT do warunku filtra za pomocą`Not<T>`klasa dostarczona przez Aspose.Tasks. Spowoduje to odwrócenie warunku filtru i wybranie zadań, które nie mają wartości null.
 
 ## Krok 5: Filtruj zadania
 
@@ -91,7 +91,7 @@ Na koniec iterujemy po przefiltrowanych zadaniach i wykonujemy dowolne operacje.
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak pracować z operacją NOT w Aspose.Tasks dla .NET. Odwracając warunki filtrowania, możemy selektywnie wybierać elementy, które nie spełniają określonych kryteriów, zwiększając naszą elastyczność w manipulacji zadaniami w projektach.
+W tym samouczku nauczyliśmy się, jak pracować z operacją NOT w Aspose.Tasks dla .NET. Odwracając warunki filtrowania, możemy selektywnie wybierać elementy, które nie spełniają określonych kryteriów, zwiększając naszą elastyczność w manipulacji zadaniami w projektach.
 
 ## Często zadawane pytania
 

@@ -1,6 +1,6 @@
 ---
-title: Configureer de tijdschaallagen van Gantt-diagrammen in Aspose.Tasks
-linktitle: Configureer tijdschaallagen in Aspose.Tasks
+title: Tijdschaallagen van Gantt-diagrammen configureren in Aspose.Tasks
+linktitle: Tijdschaallagen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Verken Aspose.Tasks voor .NET om tijdschaallagen in uw Gantt-diagramweergave te configureren voor nauwkeurige visualisatie van de projecttijdlijn. #Aspose.Tasks #MS-project
 type: docs
@@ -12,7 +12,7 @@ In het dynamische landschap van projectmanagement is effectieve visualisatie cru
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u over het volgende beschikt:
 - Basiskennis van C# en .NET.
-- Aspose.Tasks voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
 - Een ontwikkelomgeving die is opgezet voor de ontwikkeling van .NET-applicaties.
 ## Naamruimten importeren
 ```csharp

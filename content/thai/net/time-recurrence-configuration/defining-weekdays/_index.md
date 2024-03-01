@@ -21,7 +21,7 @@ url: /th/net/time-recurrence-configuration/defining-weekdays/
     using System.Collections.Generic;
     
 ```
-## 1. ตรวจสอบความเท่าเทียมกันในวันธรรมดา
+## 1. ตรวจสอบความเท่าเทียมกันในวันทำงาน
 ```csharp
 // ไดเรกทอรีเอกสารของคุณ
 String DataDir = "Your Document Directory";

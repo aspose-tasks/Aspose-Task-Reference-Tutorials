@@ -94,7 +94,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 ### Q2: Aspose.Tasks for .NET に利用できる無料トライアルはありますか?
 
- A2: はい、Aspose.Tasks for .NET の無料トライアルを入手できます。[ここ](https://releases.aspose.com/).
+A2: はい、Aspose.Tasks for .NET の無料トライアルを入手できます。[ここ](https://releases.aspose.com/).
 
 ### Q3: Aspose.Tasks for .NET のドキュメントはどこで見つけられますか?
 

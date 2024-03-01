@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Hier creëren we een`ChildTasksCollector` object om alle taken binnen het project te verzamelen. Wij gebruiken dan`TaskUtils.Apply`methode om de takenhiërarchie van het project te doorlopen en alle onderliggende taken te verzamelen.
+ Hier creëren we een`ChildTasksCollector` object om alle taken binnen het project te verzamelen. Wij gebruiken dan`TaskUtils.Apply` methode om de takenhiërarchie van het project te doorlopen en alle onderliggende taken te verzamelen.
 
 ## Stap 3: Definieer de filtervoorwaarde
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- We definiëren een filtervoorwaarde met behulp van een aangepaste klasse met de naam`NullCondition`, Met deze voorwaarde worden taken geselecteerd die een nulwaarde hebben.
+ We definiëren een filtervoorwaarde met behulp van een aangepaste klasse met de naam`NullCondition`. Met deze voorwaarde worden taken geselecteerd die een nulwaarde hebben.
 
 ## Stap 4: Pas NOT-bewerking toe
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- We passen de NOT-bewerking toe op de filtervoorwaarde met behulp van de`Not<T>` klasse aangeboden door Aspose.Tasks. Hierdoor wordt de filtervoorwaarde omgekeerd en worden taken geselecteerd die geen nulwaarde hebben.
+ We passen de NOT-bewerking toe op de filtervoorwaarde met behulp van de`Not<T>`klasse aangeboden door Aspose.Tasks. Hierdoor wordt de filtervoorwaarde omgekeerd en worden taken geselecteerd die geen nulwaarde hebben.
 
 ## Stap 5: Taken filteren
 

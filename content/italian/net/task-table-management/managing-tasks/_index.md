@@ -11,7 +11,7 @@ url: /it/net/task-table-management/managing-tasks/
 Se sei uno sviluppatore .NET che desidera gestire in modo efficiente le attività all'interno dei tuoi progetti, Aspose.Tasks per .NET fornisce una soluzione solida. Questo tutorial ti guiderà attraverso vari aspetti della gestione delle attività utilizzando Aspose.Tasks, offrendo istruzioni dettagliate ed esempi di codice. Che tu stia aggiungendo attività, visualizzando parti divise, spostando attività sotto lo stesso genitore, ottenendo/impostando proprietà di attività, ripetendo assegnazioni di attività, leggendo linee di base di attività o eliminando attività, questa guida ti copre.
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
-1.  Aspose.Tasks per .NET Library: assicurarsi di avere installato la libreria Aspose.Tasks per .NET. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks per .NET Library: assicurarsi di avere installato la libreria Aspose.Tasks per .NET. Puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/).
 2. Directory dei documenti: imposta una directory in cui verranno archiviati i documenti del progetto.
 ## Importa spazi dei nomi
 Nel tuo progetto .NET, includi gli spazi dei nomi necessari per lavorare con Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Carica un progetto con attività divise
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Accedi a un'attività
+// Accedi a un'attività
 var task = project.RootTask.Children.GetById(4);
 // Visualizza le parti divise
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Aggiungi un'attività
 var task = project.RootTask.Children.Add("Task");
-// Visualizza il numero di attività prima e dopo l'eliminazione
+//Visualizza il numero di attività prima e dopo l'eliminazione
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Elimina l'attività
 task.Delete();

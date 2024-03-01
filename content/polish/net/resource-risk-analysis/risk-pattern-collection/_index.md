@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Krok 8: Wyczyść wzory
 Wyczyść kolekcję wzorów indywidualnie lub całkowicie:
 ```csharp
-// indywidualne usuwanie
+// Indywidualne usuwanie
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ Odp.: Z pewnością Aspose.Tasks bezproblemowo integruje się z innymi framework
 ### P: Czy dostępna jest wersja próbna Aspose.Tasks?
  Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks z[Tutaj](https://releases.aspose.com/)umożliwiając zapoznanie się z jego funkcjami przed dokonaniem zakupu.
 ### P: Gdzie mogę znaleźć wsparcie dla Aspose.Tasks?
- Odp.: Możesz znaleźć kompleksowe wsparcie i pomoc na forum Aspose.Tasks.[Tutaj](https://forum.aspose.com/c/tasks/15), gdzie możesz kontaktować się z ekspertami i innymi użytkownikami w celu rozwiązywania zapytań i problemów.
+ Odp.: Możesz znaleźć kompleksowe wsparcie i pomoc na forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15), gdzie możesz kontaktować się z ekspertami i innymi użytkownikami w celu rozwiązywania zapytań i problemów.

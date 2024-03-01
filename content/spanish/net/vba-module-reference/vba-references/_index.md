@@ -1,6 +1,6 @@
 ---
 title: Dominar el manejo de referencias de VBA una guía paso a paso
-linktitle: Manejo de referencias VBA en Aspose.Tasks
+linktitle: Manejo de referencias de VBA en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore el poder de manejar referencias de VBA en Aspose.Tasks .NET con nuestro tutorial completo. Aprenda a leer, comparar y trabajar con referencias de VBA sin problemas.
 type: docs
@@ -21,7 +21,7 @@ Asegúrese de tener los espacios de nombres necesarios incluidos al principio de
     using System;
     
 ```
-## Lectura de referencias VBA
+## Lectura de referencias de VBA
 Comencemos leyendo las referencias de VBA de un archivo de proyecto:
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -72,7 +72,7 @@ Este último ejemplo demuestra cómo iterar a través de toda la colección de r
 ### P: ¿Puedo utilizar Aspose.Tasks con otros lenguajes de programación?
 R: Aspose.Tasks admite principalmente lenguajes .NET, pero existen otros productos Aspose diseñados para diferentes plataformas e idiomas.
 ### P: ¿Cómo obtengo una licencia temporal para Aspose.Tasks?
-R: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
+ R: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Hay soporte comunitario disponible para Aspose.Tasks?
  R: Sí, puedes encontrar soporte en el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### P: ¿Dónde puedo encontrar documentación detallada para Aspose.Tasks?

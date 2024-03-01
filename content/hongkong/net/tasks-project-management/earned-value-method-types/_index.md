@@ -41,7 +41,7 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 透過執行這些步驟，您將能夠使用 Aspose.Tasks for .NET 輕鬆配置掙值 MS 專案方法類型。
 
 ## 結論
-總之，掌握使用 Aspose.Tasks for .NET 的掙值管理方法可以顯著增強您的專案管理能力。透過準確衡量專案績效並將其與計劃目標進行比較，您可以做出明智的決策來引導您的專案取得成功。
+總之，掌握使用 Aspose.Tasks for .NET 的掙值管理方法可以顯著增強您的專案管理能力。透過準確衡量專案績效並與計劃目標進行比較，您可以做出明智的決策，引導您的專案取得成功。
 ## 常見問題解答
 ### Q：Aspose.Tasks for .NET 能否有效處理大型專案文件？
 答：是的，Aspose.Tasks for .NET 經過最佳化，可輕鬆處理大型專案文件，確保高效能和可靠性。

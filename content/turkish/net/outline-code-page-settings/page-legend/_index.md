@@ -11,7 +11,7 @@ url: /tr/net/outline-code-page-settings/page-legend/
 .NET geliştirme alanında, özellikle proje yönetimiyle uğraşırken görevleri verimli bir şekilde yönetmek çok önemlidir. Aspose.Tasks for .NET, görev yönetimi süreçlerini kolaylaştırmak için çok sayıda işlevsellik sunan güçlü bir araç olarak ortaya çıkıyor. Bu özelliklerden biri, kullanıcılara proje verileri sunumuna ilişkin değerli bilgiler sağlayan MS Project sayfa göstergelerini yapılandırma yeteneğidir.
 ## Önkoşullar
 Aspose.Tasks for .NET kullanarak MS Project sayfa açıklamalarını yapılandırmaya başlamadan önce aşağıdaki önkoşulların karşılandığından emin olun:
-1.  Kurulum: Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olmasını sağlayın. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
+1. Kurulum: Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olmasını sağlayın. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
 2. Temel .NET Bilgisi: Proje oluşturma ve ad alanlarıyla çalışma da dahil olmak üzere .NET geliştirmenin temellerine aşina olun.
 3. Geliştirme Ortamı: Sorunsuz kodlama deneyimi için Visual Studio gibi entegre bir geliştirme ortamı (IDE) kullanın.
 4. Proje Dosyası: Denemeye hazır bir Microsoft Project dosyası (MPP) bulundurun.
@@ -26,7 +26,7 @@ using System;
 
 using Aspose.Tasks.Saving;
 ```
-Aspose.Tasks for .NET kullanarak MS Project sayfa açıklamalarını kapsamlı bir şekilde yapılandırmayı anlamak için verilen örneği adım adım kılavuz formatına ayıralım.
+Aspose.Tasks for .NET kullanarak MS Project sayfa göstergelerini yapılandırmayı kapsamlı bir şekilde anlamak için sağlanan örneği adım adım kılavuz formatına ayıralım.
 
 ## 1. Adım: Belge Dizinini Belirleyin
 Microsoft Project dosyanızın bulunduğu belge dizininizin yolunu ayarlayın.

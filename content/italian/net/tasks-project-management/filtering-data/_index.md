@@ -12,7 +12,7 @@ Aspose.Tasks per .NET fornisce funzionalità robuste per filtrare i dati nei fil
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di disporre dei seguenti prerequisiti:
 ### 1. Installare Aspose.Tasks per .NET
- Scarica e installa Aspose.Tasks per .NET da[pagina di download](https://releases.aspose.com/tasks/net/), Seguire le istruzioni di installazione fornite per configurare la libreria nel proprio ambiente di sviluppo.
+ Scarica e installa Aspose.Tasks per .NET da[pagina di download](https://releases.aspose.com/tasks/net/). Seguire le istruzioni di installazione fornite per configurare la libreria nel proprio ambiente di sviluppo.
 ### 2. Configura il tuo ambiente di sviluppo
 Assicurati di disporre di un ambiente di sviluppo funzionante per la programmazione .NET. Ciò include un IDE compatibile come Visual Studio e una conoscenza di base del linguaggio di programmazione C#.
 ### 3. Accedere al file Microsoft Project di esempio
@@ -66,7 +66,7 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
 ```
 Visualizza i dettagli dei filtri delle risorse tra cui conteggio, tipo di filtro, Mostra nel menu e Mostra righe di riepilogo correlate.
 ## Conclusione
-Filtrare i dati nei file MS Project utilizzando Aspose.Tasks per .NET è un processo semplice che migliora la produttività e le capacità di analisi. Seguendo i passaggi delineati in questo tutorial, puoi gestire in modo efficiente le informazioni sul progetto secondo criteri specifici.
+Filtrare i dati nei file MS Project utilizzando Aspose.Tasks per .NET è un processo semplice che migliora la produttività e le capacità di analisi. Seguendo i passaggi descritti in questo tutorial, puoi gestire in modo efficiente le informazioni sul progetto in base a criteri specifici.
 ## Domande frequenti
 ### D: Aspose.Tasks può filtrare i dati in base a criteri personalizzati?
 R: Sì, Aspose.Tasks consente di filtrare i dati in base a criteri personalizzati su misura per i requisiti del progetto.

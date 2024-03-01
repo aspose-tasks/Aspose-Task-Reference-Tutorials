@@ -8,7 +8,7 @@ weight: 17
 url: /nl/net/outline-code-page-settings/outline-value-collection/
 ---
 ## Invoering
-Aspose.Tasks voor .NET biedt een uitgebreide reeks functies voor interactie met Microsoft Project-bestanden. Een van deze functies is de mogelijkheid om overzichtswaarden binnen een project te beheren. In deze zelfstudie onderzoeken we hoe u overzichtswaarden kunt verzamelen en manipuleren met Aspose.Tasks voor .NET.
+Aspose.Tasks voor .NET biedt een uitgebreide reeks functies voor interactie met Microsoft Project-bestanden. Eén zo'n functie is de mogelijkheid om overzichtswaarden binnen een project te beheren. In deze zelfstudie onderzoeken we hoe u overzichtswaarden kunt verzamelen en manipuleren met Aspose.Tasks voor .NET.
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
 1.  Aspose.Tasks voor .NET: U kunt de bibliotheek downloaden van[hier](https://releases.aspose.com/tasks/net/).
@@ -96,7 +96,7 @@ foreach (var outlineValue in outlineValues)
 }
 ```
 ## Conclusie
-In deze tutorial hebben we geleerd hoe we met overzichtswaarden in Microsoft Project-bestanden kunnen werken met behulp van Aspose.Tasks voor .NET. Door de aangegeven stappen te volgen, kunt u de hoofdlijnen binnen uw projecten efficiënt beheren, waardoor u meer controle en flexibiliteit krijgt.
+In deze zelfstudie hebben we geleerd hoe we met overzichtswaarden in Microsoft Project-bestanden kunnen werken met behulp van Aspose.Tasks voor .NET. Door de aangegeven stappen te volgen, kunt u de hoofdlijnen binnen uw projecten efficiënt beheren, waardoor u meer controle en flexibiliteit krijgt.
 ## Veelgestelde vragen
 ### Vraag: Kan ik meerdere overzichtscodes tegelijkertijd manipuleren?
 A: Ja, u kunt binnen een project meerdere overzichtscodes definiëren en manipuleren met behulp van Aspose.Tasks.

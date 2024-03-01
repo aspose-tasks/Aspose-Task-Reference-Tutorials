@@ -8,7 +8,7 @@ weight: 23
 url: /tr/net/project-management-integration/project-server-management/
 ---
 ## giriiş
-Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project Server'ı yönetmeyi derinlemesine inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan, proje verilerinin sorunsuz entegrasyonuna ve manipülasyonuna olanak tanıyan güçlü bir kütüphanedir.
+Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project Server'ı yönetmeyi derinlemesine inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarıyla programlı olarak çalışmasına olanak tanıyan, proje verilerinin kusursuz entegrasyonuna ve manipülasyonuna olanak tanıyan güçlü bir kütüphanedir.
 ## Önkoşullar
 Aspose.Tasks ile MS Project Server'ı yönetmeye başlamadan önce aşağıdaki önkoşulların ayarlandığından emin olun:
 1. Microsoft Project Server: Yönetici ayrıcalıklarına veya en azından proje oluşturma ve yönetme izinlerine sahip olduğunuz bir Microsoft Project Server örneğine erişmeniz gerekir.
@@ -26,7 +26,7 @@ Başlamadan önce gerekli ad alanlarını C# kodunuza aktardığınızdan emin o
     
 ```
 ## 1. Adım: Kimlik Doğrulama Kimlik Bilgilerini Ayarlayın
-Öncelikle MS Project Server örneğinize bağlanmak için kimlik doğrulama bilgilerini ayarlamanız gerekir. Buna alan adı adresi, kullanıcı adı ve şifre dahildir.
+Öncelikle MS Project Server örneğinize bağlanmak için kimlik doğrulama bilgilerini ayarlamanız gerekir. Buna etki alanı adresi, kullanıcı adı ve şifre dahildir.
 ```csharp
 const string sharepointDomainAddress = "https://contoso.sharepoint.com/sites/pwa";
 const string UserName = "admin@contoso.onmicrosoft.com";

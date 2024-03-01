@@ -9,7 +9,7 @@ url: /ko/net/advanced-concepts/tree-algorithm/
 ---
 ## 소개
 
-Aspose.Tasks for .NET은 프로젝트 관리 작업, 리소스 및 일정 작업을 위한 강력한 기능을 제공합니다. 그러한 기능 중 하나는 사용자가 작업 계층을 효율적으로 조작할 수 있게 해주는 트리 알고리즘입니다. 이 튜토리얼에서는 Aspose.Tasks for .NET의 트리 알고리즘을 활용하여 프로젝트 내에서 일반적인 작업을 수집하고 작업 값을 업데이트하는 방법을 살펴보겠습니다.
+Aspose.Tasks for .NET은 프로젝트 관리 작업, 리소스 및 일정 작업을 위한 강력한 기능을 제공합니다. 그러한 기능 중 하나는 사용자가 작업 계층을 효율적으로 조작할 수 있게 해주는 트리 알고리즘입니다. 이 튜토리얼에서는 .NET용 Aspose.Tasks의 트리 알고리즘을 활용하여 프로젝트 내에서 일반적인 작업을 수집하고 작업 값을 업데이트하는 방법을 살펴보겠습니다.
 
 ## 전제조건
 
@@ -88,7 +88,7 @@ summary.Set(Tsk.Work, project.GetWork(summaryWork));
 summary.Set(Tsk.RemainingWork, project.GetWork(summaryWork));
 ```
 
-수집된 정보를 바탕으로 업무에 대한 업무 가치를 업데이트합니다.
+수집된 정보를 기반으로 작업에 대한 작업 값을 업데이트합니다.
 
 ## 결론
 

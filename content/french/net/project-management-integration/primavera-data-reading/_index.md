@@ -64,6 +64,6 @@ R : Oui, Aspose.Tasks prend en charge divers formats de gestion de projet tels q
 ### Q : Puis-je modifier et enregistrer les modifications apportées aux fichiers MS Project Primavera à l'aide d'Aspose.Tasks ?
 R : Absolument ! Aspose.Tasks vous permet non seulement de lire, mais également de modifier et d'enregistrer les modifications apportées aux fichiers MS Project Primavera de manière transparente dans vos applications .NET.
 ### Q : Existe-t-il un essai gratuit disponible pour Aspose.Tasks ?
- R : Oui, vous pouvez bénéficier d’un essai gratuit d’Aspose.Tasks depuis[ici](https://releases.aspose.com/) pour explorer ses fonctionnalités et capacités avant de faire un achat.
+ R : Oui, vous pouvez bénéficier d’un essai gratuit d’Aspose.Tasks depuis[ici](https://releases.aspose.com/)pour explorer ses fonctionnalités et capacités avant de faire un achat.
 ### Q : Où puis-je obtenir de l'aide pour Aspose.Tasks ?
- R : Pour toute question ou assistance concernant Aspose.Tasks, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)où vous pouvez obtenir de l'aide de la communauté ou du personnel d'assistance d'Aspose.## Code source complet
+ R : Pour toute question ou assistance concernant Aspose.Tasks, vous pouvez visiter le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) où vous pouvez obtenir de l'aide de la communauté ou du personnel d'assistance d'Aspose.## Code source complet

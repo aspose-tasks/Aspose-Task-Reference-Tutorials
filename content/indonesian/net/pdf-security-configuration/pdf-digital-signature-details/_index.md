@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan Tanda Tangan Digital MS Project PDF dengan Aspose.Tasks
-linktitle: Konfigurasikan Detail Tanda Tangan Digital PDF di Aspose.Tasks
+linktitle: Mengonfigurasi Detail Tanda Tangan Digital PDF di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi detail tanda tangan digital Microsoft Project PDF menggunakan Aspose.Tasks untuk .NET. Pastikan keamanan dan keaslian file proyek Anda.
 type: docs

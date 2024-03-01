@@ -18,37 +18,37 @@ Apakah Anda mencari cara yang efisien untuk mengelola sumber daya Microsoft Proj
  Tangani penetapan sumber daya Proyek MS secara efisien dengan Aspose.Tasks untuk .NET. Panduan langkah demi langkah kami memberi pengembang alat untuk menyederhanakan proses dan meningkatkan efisiensi proyek. Menyelam ke dalam[Tutorial Penugasan Sumber Daya](./resource-assignments/) untuk tutorial komprehensif.
 
 ## Kumpulan Penugasan Sumber Daya di Aspose.Tasks 
-Jelajahi cara mengelola penetapan sumber daya di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tutorial ini memberikan contoh kode dan panduan langkah demi langkah, memastikan pengalaman belajar yang lancar. mengunjungi[Pengumpulan Penugasan Sumber Daya](./resource-assignment-collection/) untuk wawasan terperinci.
+Jelajahi cara mengelola penetapan sumber daya di Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tutorial ini memberikan contoh kode dan panduan langkah demi langkah, memastikan pengalaman belajar yang lancar. Mengunjungi[Pengumpulan Penugasan Sumber Daya](./resource-assignment-collection/) untuk wawasan terperinci.
 
 ## Mengelola Koleksi Sumber Daya Proyek di Aspose.Tasks 
- Temukan cara efisien untuk mengelola koleksi sumber daya Microsoft Project di .NET menggunakan Aspose.Tasks API. Meningkatkan produktivitas dan fleksibilitas dalam manajemen proyek. Temukan rahasia dalam diri kami[Tutorial Mengelola Pengumpulan Sumber Daya](./managing-resource-collection/).
+ Temukan cara efisien untuk mengelola koleksi sumber daya Microsoft Project di .NET menggunakan Aspose.Tasks API. Meningkatkan produktivitas dan fleksibilitas dalam manajemen proyek. Temukan rahasianya di kami[Tutorial Mengelola Pengumpulan Sumber Daya](./managing-resource-collection/).
 
 ## Jenis Sumber Daya di Aspose.Tugas 
  Bekerja secara lancar dengan berbagai jenis sumber daya di Aspose.Tasks untuk .NET. Tutorial ini mencakup sumber daya pekerjaan, material, dan biaya, memberikan panduan langkah demi langkah. Tingkatkan keterampilan Anda dengan mengunjungi[Tutorial Jenis Sumber Daya](./resource-types/).
 
-## Konfigurasikan Tampilan Penggunaan Sumber Daya dengan Aspose.Tasks 
+## Mengonfigurasi Tampilan Penggunaan Sumber Daya dengan Aspose.Tasks 
 Pelajari cara mengonfigurasi tampilan penggunaan sumber daya MS Project menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah kami, lengkap dengan contoh kode, membuat prosesnya lancar. Menyelami[Konfigurasi Tampilan Penggunaan Sumber Daya](./resource-usage-views/) untuk mengoptimalkan tampilan proyek Anda.
 
 ## Kumpulan Bidang Tampilan Penggunaan Sumber Daya di Aspose.Tasks 
  Akses dan manipulasi Bidang Tampilan Penggunaan Sumber Daya secara efektif di file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Temukan rahasia manajemen tampilan sumber daya yang efisien di[Tutorial Bidang Tampilan Penggunaan Sumber Daya](./resource-usage-view-fields/).
 
 ## Sesuaikan Kolom Tampilan Sumber Daya di Aspose.Tasks 
- Sesuaikan kolom tampilan sumber daya Proyek MS secara efisien menggunakan Aspose.Tasks untuk .NET. Buat tampilan yang dipersonalisasi untuk manajemen proyek yang lebih baik. Mulailah bersama kami[Tutorial Kustomisasi Kolom Tampilan Sumber Daya](./resource-view-columns/).
+ Sesuaikan kolom tampilan sumber daya Proyek MS secara efisien menggunakan Aspose.Tasks untuk .NET. Buat tampilan yang dipersonalisasi untuk manajemen proyek yang lebih baik. Mulailah dengan kami[Tutorial Kustomisasi Kolom Tampilan Sumber Daya](./resource-view-columns/).
 
 ## Analisis Risiko yang Efisien dengan Aspose.Tasks 
  Lakukan analisis risiko pada file MS Project menggunakan Aspose.Tasks untuk .NET. Sederhanakan manajemen proyek dan mitigasi ketidakpastian dengan kami[Tutorial Analisis Risiko](./risk-analysis-results/).
 
-## Konfigurasikan Analisis Risiko Proyek MS di Aspose.Tasks 
+## Mengonfigurasi Analisis Risiko Proyek MS di Aspose.Tasks 
  Tingkatkan efisiensi manajemen proyek dengan teknik penilaian risiko tingkat lanjut. Pelajari cara mengonfigurasi pengaturan analisis risiko MS Project menggunakan Aspose.Tasks untuk .NET. Mengeksplorasi[Tutorial Pengaturan Analisis Risiko](./risk-analysis-settings/).
 
 ## Menganalisis Risiko Proyek MS dengan Aspose.Tasks 
- Analisis risiko Proyek MS secara efisien dengan Aspose.Tasks untuk .NET. Ikuti panduan langkah demi langkah kami untuk manajemen risiko komprehensif di[Tutorial Analis Risiko](./risk-analyzer/).
+ Analisis risiko Proyek MS secara efisien dengan Aspose.Tasks untuk .NET. Ikuti panduan langkah demi langkah kami untuk manajemen risiko komprehensif di[Tutorial Penganalisis Risiko](./risk-analyzer/).
 
 ## Statistik untuk Item Risiko di Aspose.Tasks 
  Buka kekuatan analisis risiko dalam file MS Project. Dapatkan wawasan, mitigasi ketidakpastian, dan dorong kesuksesan proyek dengan mudah menggunakan Aspose.Tasks untuk .NET. Menyelami[Tutorial Statistik Item Risiko](./risk-item-statistics/).
 
 ## Kumpulan Statistik Item Risiko di Aspose.Tugas 
- Pelajari cara mengumpulkan statistik item risiko dari file MS Project. Tingkatkan kemampuan manajemen proyek Anda dengan Aspose.Tasks untuk .NET. mengunjungi[Tutorial Pengumpulan Statistik Item Risiko](./risk-item-statistics-collection/) untuk wawasan terperinci.
+ Pelajari cara mengumpulkan statistik item risiko dari file MS Project. Tingkatkan kemampuan manajemen proyek Anda dengan Aspose.Tasks untuk .NET. Mengunjungi[Tutorial Pengumpulan Statistik Item Risiko](./risk-item-statistics-collection/) untuk wawasan terperinci.
 
 ## Mengelola Pola Risiko Proyek MS di Aspose.Tasks 
  Kelola pola risiko secara efektif dalam file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan hasil proyek dengan alat analisis risiko yang canggih. Jelajahi kami[Tutorial Mengelola Pola Risiko](./managing-risk-patterns/).
@@ -70,7 +70,7 @@ Pelajari cara mengelola penetapan sumber daya di Microsoft Project menggunakan A
 Pelajari cara mengelola koleksi sumber daya Microsoft Project secara efisien di .NET menggunakan Aspose.Tasks API. Meningkatkan produktivitas dan fleksibilitas.
 ### [Jenis Sumber Daya di Aspose.Tugas](./resource-types/)
 Pelajari cara bekerja dengan berbagai jenis sumber daya di Aspose.Tasks untuk .NET, termasuk sumber daya pekerjaan, material, dan biaya, melalui tutorial langkah demi langkah.
-### [Konfigurasikan Tampilan Penggunaan Sumber Daya Proyek MS di Aspose.Tasks](./resource-usage-views/)
+### [Mengonfigurasi Tampilan Penggunaan Sumber Daya Proyek MS di Aspose.Tasks](./resource-usage-views/)
 Pelajari cara mengonfigurasi tampilan penggunaan sumber daya MS Project menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
 ### [Kumpulan Bidang Tampilan Penggunaan Sumber Daya di Aspose.Tasks](./resource-usage-view-fields/)
 Pelajari cara mengakses dan memanipulasi Bidang Tampilan Penggunaan Sumber Daya secara efektif di file Microsoft Project menggunakan Aspose.Tasks untuk .NET.
@@ -78,7 +78,7 @@ Pelajari cara mengakses dan memanipulasi Bidang Tampilan Penggunaan Sumber Daya 
 Pelajari cara mengkustomisasi kolom tampilan sumber daya MS Project secara efisien menggunakan Aspose.Tasks untuk .NET. Buat tampilan yang disesuaikan untuk manajemen proyek yang lebih baik.
 ### [Analisis Risiko yang Efisien dengan Aspose.Tasks](./risk-analysis-results/)
 Pelajari cara melakukan analisis risiko pada file MS Project menggunakan Aspose.Tasks untuk .NET. Menyederhanakan manajemen proyek dan memitigasi ketidakpastian secara efisien.
-### [Konfigurasikan Analisis Risiko Proyek MS di Aspose.Tasks](./risk-analysis-settings/)
+### [Mengonfigurasi Analisis Risiko Proyek MS di Aspose.Tasks](./risk-analysis-settings/)
 Pelajari cara mengonfigurasi pengaturan analisis risiko MS Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan efisiensi manajemen proyek dengan teknik penilaian risiko tingkat lanjut.
 ### [Menganalisis Risiko Proyek MS dengan Aspose.Tasks](./risk-analyzer/)
 Pelajari cara menganalisis risiko MS Project secara efisien dengan Aspose.Tasks untuk .NET. Ikuti panduan langkah demi langkah kami untuk manajemen risiko yang komprehensif.

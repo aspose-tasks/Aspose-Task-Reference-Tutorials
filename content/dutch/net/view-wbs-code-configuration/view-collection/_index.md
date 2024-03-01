@@ -90,7 +90,7 @@ Aspose.Tasks is ontworpen om compatibel te zijn met verschillende .NET Framework
 ### Kan ik de weergave van Gantt-diagramweergaven aanpassen?
 Absoluut! Aspose.Tasks biedt uitgebreide opties om het uiterlijk van Gantt-diagramweergaven aan te passen aan de behoeften van uw project.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks?
- Ja, u krijgt toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
+Ja, u krijgt toegang tot een gratis proefperiode[hier](https://releases.aspose.com/).
 ### Hoe kan ik community-ondersteuning krijgen voor Aspose.Tasks?
  Neem contact op met de Aspose.Tasks-community op de[forum](https://forum.aspose.com/c/tasks/15) voor eventuele vragen of hulp.
 ### Zijn er tijdelijke licenties beschikbaar voor Aspose.Tasks?

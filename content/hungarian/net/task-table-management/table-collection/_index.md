@@ -36,7 +36,7 @@ Határozza meg, hogy a táblázatok gyűjteménye csak olvasható-e:
 Console.WriteLine("Is the collection of tables read-only?: " + project.Tables.IsReadOnly);
 ```
 ## 3. Ismételje meg a táblázatokat
-Fedezze fel a projekt meglévő tábláit:
+Fedezze fel a projektben meglévő táblákat:
 ```csharp
 Console.WriteLine("Print tables of " + project.Get(Prj.Name) + " project.");
 Console.WriteLine("Table count: " + project.Tables.Count);
@@ -59,7 +59,7 @@ Console.WriteLine("Does the collection contain the new table?: " + project.Table
 ```
 ## 5. Törölje a gyűjteményt
 Fedezze fel a táblázatgyűjtemény törlésének két módját:
-- Táblázatok egyenkénti törlése:
+- Táblázatok törlése egyesével:
 ```csharp
 var tables = new Table[project.Tables.Count];
 project.Tables.CopyTo(tables, 0);

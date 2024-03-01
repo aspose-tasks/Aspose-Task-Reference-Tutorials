@@ -30,7 +30,7 @@ url: /ar/net/resource-risk-analysis/resource-usage-view-fields/
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ResourceUsageView.mpp");
 ```
-## الخطوة 2: الوصول إلى طريقة عرض استخدام الموارد
+## الخطوة 2: الوصول إلى عرض استخدام الموارد
 بعد ذلك، ستصل إلى طريقة عرض استخدام الموارد. وإليك كيف يتم ذلك:
 ```csharp
 var view = (ResourceUsageView)project.Views.ToList()[2];

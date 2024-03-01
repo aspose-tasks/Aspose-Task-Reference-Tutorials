@@ -1,6 +1,6 @@
 ---
 title: تكوين قاعدة بيانات MS Project Primavera في Aspose.Tasks
-linktitle: قم بتكوين إعدادات قاعدة بيانات Primavera في Aspose.Tasks
+linktitle: تكوين إعدادات قاعدة بيانات بريمافيرا في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين إعدادات قاعدة بيانات MS Project Primavera في Aspose.Tasks لـ .NET دون عناء. تبسيط مهام إدارة المشروع الخاص بك.
 type: docs
@@ -12,7 +12,7 @@ url: /ar/net/project-management-integration/primavera-database-settings/
 ## المتطلبات الأساسية
 قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
 ### 1. قم بتثبيت Aspose.Tasks لـ .NET
- رئيس لأكثر من[قم بتنزيل Aspose.Tasks لـ .NET](https://releases.aspose.com/tasks/net/) واحصل على أحدث إصدار من مكتبة Aspose.Tasks. اتبع تعليمات التثبيت المتوفرة لإعداده في بيئة .NET الخاصة بك.
+ رئيس لأكثر من[قم بتنزيل Aspose.Tasks لـ .NET](https://releases.aspose.com/tasks/net/)واحصل على أحدث إصدار من مكتبة Aspose.Tasks. اتبع تعليمات التثبيت المتوفرة لإعداده في بيئة .NET الخاصة بك.
 ### 2. الوصول إلى قاعدة بيانات مشروع MS Primavera
 تأكد من أن لديك حق الوصول إلى قاعدة بيانات MS Project Primavera. ستحتاج إلى بيانات الاعتماد وتفاصيل الاتصال اللازمة للمتابعة.
 ### 3. المعرفة الأساسية بـ C# و.NET Framework
@@ -43,17 +43,17 @@ sb.UserID = "privuser";
 sb.Password = "***";
 sb.ConnectTimeout = 2; // ExSkip
 ```
- يقوم هذا الكود بإنشاء`SqlConnectionStringBuilder` كائن ويحدد خصائص مختلفة مثل`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`وما إلى ذلك، لتكوين سلسلة الاتصال لقاعدة بيانات Primavera.
+ يقوم هذا الكود بإنشاء`SqlConnectionStringBuilder`كائن ويحدد خصائص مختلفة مثل`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`وما إلى ذلك، لتكوين سلسلة الاتصال لقاعدة بيانات Primavera.
 ## الخطوة 2: تهيئة كائن PrimaveraDbSettings
 ```csharp
 var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```
-هنا، نقوم بتهيئة نسخة جديدة من`PrimaveraDbSettings` فئة عن طريق تمرير سلسلة الاتصال ومعرف المشروع (في هذه الحالة،`4502`) كمعلمات.
+ هنا، نقوم بتهيئة نسخة جديدة من`PrimaveraDbSettings` فئة عن طريق تمرير سلسلة الاتصال ومعرف المشروع (في هذه الحالة،`4502`) كمعلمات.
 ## الخطوة 3: قراءة المشروع من قاعدة البيانات
 ```csharp
 var project = new Project(settings);
 ```
- هذا الخط يخلق جديد`Project` الكائن عن طريق تمرير`settings` الكائن الذي أنشأناه سابقًا. يقوم بإنشاء اتصال بقاعدة بيانات Primavera ويقرأ المشروع باستخدام UID المحدد (`4502`,
+ هذا الخط يخلق جديد`Project` الكائن عن طريق تمرير`settings` الكائن الذي أنشأناه سابقًا. يقوم بإنشاء اتصال بقاعدة بيانات Primavera ويقرأ المشروع باستخدام UID المحدد (`4502`).
 ## الخطوة 4: عرض UID المشروع
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
@@ -72,4 +72,4 @@ Console.WriteLine("Project UID to read: " + settings.ProjectId);
 ### س: هل يمكنني معالجة بيانات المشروع برمجيًا باستخدام Aspose.Tasks لـ .NET؟
 ج: بالتأكيد! يوفر Aspose.Tasks for .NET مجموعة غنية من واجهات برمجة التطبيقات لقراءة بيانات المشروع وكتابتها ومعالجتها بتنسيقات مختلفة.
 ### س: هل يوجد منتدى مجتمعي أو قناة دعم متاحة لـ Aspose.Tasks لمستخدمي .NET؟
- ج: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع ومساعدته في أي مشكلات أو استفسارات قد تكون لديك.## أكمل كود المصدر
+ ج: نعم، يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)لدعم المجتمع ومساعدته في أي مشكلات أو استفسارات قد تكون لديك.## أكمل كود المصدر

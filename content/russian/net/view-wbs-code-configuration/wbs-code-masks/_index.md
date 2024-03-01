@@ -84,10 +84,10 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ### Могу ли я использовать Aspose.Tasks бесплатно?
  Aspose.Tasks предлагает бесплатную пробную версию, которую вы можете скачать.[здесь](https://releases.aspose.com/).
 ### Где я могу найти дополнительную поддержку?
- Посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15)для поддержки сообщества.
+ Посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для поддержки сообщества.
 ### Как получить временную лицензию?
  Вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Есть ли подробная документация?
  Да, полная документация доступна[здесь](https://reference.aspose.com/tasks/net/).
 ### Где я могу приобрести Aspose.Tasks?
- Купить Aspose.Задачи[здесь](https://purchase.aspose.com/buy).
+ Купить Aspose.Tasks[здесь](https://purchase.aspose.com/buy).

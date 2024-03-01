@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // تعيين خصائص المهمة...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// تعيين خصائص المهمة 2...
+//تعيين خصائص المهمة 2...
 ```
 ## 4. العمل مع البيانات الموزعة على الوقت
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. التعامل مع البيانات الموزعة على الوقت
 ```csharp
-//قم بإضافة عنصر بيانات خاطئ موزع على الوقت ثم قم بحذفه
+// قم بإضافة عنصر بيانات خاطئ موزع على الوقت ثم قم بحذفه
 var td4 = new TimephasedData
 {
     // تعيين خصائص بيانات خاطئة موزعة على الوقت...
@@ -120,4 +120,4 @@ foreach (var timephasedData in tds)
 ### هل يمكنني تجربة Aspose.Tasks لـ .NET قبل شرائه؟
  نعم، يمكنك استكشاف ميزات Aspose.Tasks لـ .NET عن طريق الوصول إلى[تجربة مجانية](https://releases.aspose.com/).
 ### أين يمكنني شراء ترخيص Aspose.Tasks لـ .NET؟
- يمكنك شراء ترخيص Aspose.Tasks لـ .NET[هنا](https://purchase.aspose.com/buy).
+يمكنك شراء ترخيص Aspose.Tasks لـ .NET[هنا](https://purchase.aspose.com/buy).

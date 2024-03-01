@@ -10,21 +10,21 @@ url: /cs/net/vba-module-reference/
 
 ## Správa modulů VBA v Aspose.Tasks
 
- Odemkněte potenciál souborů Microsoft Project pomocí Aspose.Tasks for .NET. V tomto tutoriálu vás provedeme bezproblémovou správou[moduly VBA](./managing-vba-modules/), Vylepšete svůj pracovní postup vývoje bez námahy pomocí podrobných pokynů, které zajistí, že využijete plný výkon Aspose.Tasks.
+ Odemkněte potenciál souborů Microsoft Project pomocí Aspose.Tasks for .NET. V tomto tutoriálu vás provedeme bezproblémovou správou[moduly VBA](./managing-vba-modules/). Vylepšete svůj pracovní postup vývoje bez námahy pomocí podrobných pokynů, které zajistí, že využijete plný výkon Aspose.Tasks.
 
 ## Kolekce atributů modulu VBA v Aspose.Tasks
 
- Ponořte se do hloubky Aspose.Tasks pro .NET a prozkoumejte složitý svět[Atributy modulu VBA](./vba-module-attribute-collection/), Naučte se spravovat atributy bez námahy a vylepšete své projekty .NET. Náš tutoriál poskytuje jasného a podrobného průvodce, který zajistí, že zvládnete tento zásadní aspekt vývoje projektu.
+ Ponořte se do hloubky Aspose.Tasks pro .NET a prozkoumejte složitý svět[Atributy modulu VBA](./vba-module-attribute-collection/). Naučte se spravovat atributy bez námahy a vylepšete své projekty .NET. Náš tutoriál poskytuje jasného a podrobného průvodce, který zajistí, že zvládnete tento zásadní aspekt vývoje projektu.
 
 ## Správa kolekcí modulů VBA v Aspose.Tasks
 
- zvládnout efektivně[Kolekce modulů VBA](./vba-module-collections/) Aspose.Tasks for .NET s naším podrobným průvodcem. Objevte osvědčené postupy pro bezproblémovou integraci do vašich projektů. Ať už jste začátečník nebo zkušený vývojář, tento výukový program zajišťuje plynulou křivku učení pro zvládnutí kolekcí modulů VBA.
+ Efektivně manipulujte[Kolekce modulů VBA](./vba-module-collections/) Aspose.Tasks for .NET s naším podrobným průvodcem. Objevte osvědčené postupy pro bezproblémovou integraci do vašich projektů. Ať už jste začátečník nebo zkušený vývojář, tento výukový program zajišťuje plynulou křivku učení pro zvládnutí kolekcí modulů VBA.
 
 ## Práce s projekty VBA v Aspose.Tasks
 
- Uvolněte sílu Aspose.Tasks pro .NET při správě[projekty vba](./vba-projects/) bez námahy. Náš výukový program vás provede základními kroky a poskytne přehled o optimalizaci možností řízení vašeho projektu. Zvyšte své dovednosti pomocí komplexního průvodce přizpůsobeného pro vývojáře na všech úrovních.
+ Uvolněte sílu Aspose.Tasks pro .NET při správě[projekty VBA](./vba-projects/) bez námahy. Náš výukový program vás provede základními kroky a poskytne přehled o optimalizaci možností řízení vašeho projektu. Zvyšte své dovednosti pomocí komplexního průvodce přizpůsobeného pro vývojáře na všech úrovních.
 
-## Zpracování referencí VBA v Aspose.Tasks
+## Práce s odkazy VBA v Aspose.Tasks
 
  Orientujte se ve složitosti manipulace[Reference VBA](./vba-references/) v Aspose.Tasks for .NET s naším komplexním výukovým programem. Naučte se bezproblémově číst, porovnávat a pracovat s referencemi VBA. Ať už jste zkušený vývojář nebo teprve začínáte, tato příručka vás vybaví znalostmi pro efektivní využití referencí VBA.
 
@@ -38,5 +38,5 @@ Prozkoumejte sílu Aspose.Tasks pro .NET při správě atributů modulu VBA. Vyl
 Objevte, jak efektivně spravovat kolekce modulů VBA v Aspose.Tasks pro .NET. Průvodce krok za krokem pro bezproblémovou integraci do vašich projektů.
 ### [Práce s projekty VBA v Aspose.Tasks](./vba-projects/)
 Prozkoumejte sílu Aspose.Tasks pro .NET při správě projektů VBA bez námahy. Vylepšete své schopnosti projektového řízení pomocí tohoto podrobného průvodce.
-### [Zpracování referencí VBA v Aspose.Tasks](./vba-references/)
+### [Práce s odkazy VBA v Aspose.Tasks](./vba-references/)
 Prozkoumejte sílu zpracování referencí VBA v Aspose.Tasks .NET s naším komplexním výukovým programem. Naučte se bezproblémově číst, porovnávat a pracovat s referencemi VBA.

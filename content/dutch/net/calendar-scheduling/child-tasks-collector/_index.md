@@ -18,7 +18,7 @@ Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 1. Basiskennis van C#: Bekendheid met de programmeertaal C# is essentieel.
 2.  Installatie van Aspose.Tasks voor .NET: Download en installeer de Aspose.Tasks voor .NET-bibliotheek van de[download link](https://releases.aspose.com/tasks/net/).
 3. Ontwikkelomgeving: Zet een ontwikkelomgeving op, zoals Visual Studio, om C#-code te schrijven en uit te voeren.
-4.  Toegang tot documentatie: Bewaar de[Aspose.Tasks voor .NET-documentatie](https://reference.aspose.com/tasks/net/) handig ter referentie.
+4. Toegang tot documentatie: Bewaar de[Aspose.Tasks voor .NET-documentatie](https://reference.aspose.com/tasks/net/) handig ter referentie.
 
 Nu we aan de vereisten hebben voldaan, gaan we dieper in op de stapsgewijze handleiding voor het verzamelen van onderliggende taken met Aspose.Tasks voor .NET.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Wij passen de`ChildTasksCollector`naar de hoofdtaak van het project, waarbij het verzamelproces recursief wordt gestart.
+ Wij passen de`ChildTasksCollector` naar de hoofdtaak van het project, waarbij het verzamelproces recursief wordt gestart.
 
 ## Stap 4: Herhaal de verzamelde taken
 
@@ -91,7 +91,7 @@ A3: Hoewel Aspose.Tasks voor .NET primair is ontworpen voor .NET-omgevingen, kan
 
 ### V4: Is er technische ondersteuning beschikbaar voor Aspose.Tasks voor .NET?
 
- A4: Ja, gebruikers hebben toegang tot technische ondersteuning via de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
+A4: Ja, gebruikers hebben toegang tot technische ondersteuning via de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
 
 ### V5: Kan ik Aspose.Tasks voor .NET uitproberen voordat ik een aankoop doe?
 

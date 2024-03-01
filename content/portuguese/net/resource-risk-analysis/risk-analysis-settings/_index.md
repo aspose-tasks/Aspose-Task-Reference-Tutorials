@@ -1,6 +1,6 @@
 ---
-title: Configurar a análise de risco do MS Project em Aspose.Tasks
-linktitle: Definir configurações de análise de risco em Aspose.Tasks
+title: Configurando a análise de risco do MS Project em Aspose.Tasks
+linktitle: Definindo configurações de análise de risco em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como definir as configurações de análise de risco do MS Project usando Aspose.Tasks for .NET. Aumente a eficiência do gerenciamento de projetos com técnicas avançadas de avaliação de riscos.
 type: docs
@@ -80,7 +80,7 @@ Defina o nível de confiança para determinar a certeza das estimativas.
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Inicialize um`RiskAnalyzer` objetivo e realizar análises de risco no projeto.
+ Inicialize um`RiskAnalyzer` objeto e realizar análise de risco no projeto.
 ## Etapa 12: recuperar resultados da análise
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

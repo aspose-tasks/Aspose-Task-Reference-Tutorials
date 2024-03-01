@@ -40,12 +40,12 @@ var options = new XpsOptions
     RenderMetafileAsBitmap = true
 };
 ```
-在这一步中，我们实例化`XpsOptions`并配置参数。设置`RenderMetafileAsBitmap`到`true`确保图元文件的正确呈现。
+在这一步中，我们实例化`XpsOptions`并配置参数。环境`RenderMetafileAsBitmap`到`true`确保图元文件的正确呈现。
 ## 步骤 4：将文档另存为 XPS
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ```
-最后，我们打电话给`Save`方法上的`Project`对象，指定输出文件路径和之前配置的`XpsOptions`.
+最后，我们调用`Save`方法上的`Project`对象，指定输出文件路径和之前配置的`XpsOptions`.
 
 ## 结论
 总之，Aspose.Tasks for .NET 简化了以编程方式将 Microsoft Project 文档转换为 XPS 格式的过程。通过遵循本教程中概述的步骤，开发人员可以将此功能无缝集成到他们的 .NET 应用程序中，从而轻松增强项目管理工作流程。

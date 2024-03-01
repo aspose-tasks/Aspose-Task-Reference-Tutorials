@@ -79,7 +79,7 @@ value.Description = "Text value descr 1";
 outline.Values.Add(value);
 ```
 ## Conclusión
-En este tutorial, hemos aprendido cómo manejar las definiciones de código de esquema de MS Project usando Aspose.Tasks para .NET. Si sigue la guía paso a paso, puede manipular de manera eficiente los códigos de esquema en los archivos de su proyecto mediante programación.
+En este tutorial, hemos aprendido cómo manejar las definiciones de código de esquema de MS Project usando Aspose.Tasks para .NET. Si sigue la guía paso a paso, podrá manipular de manera eficiente los códigos de esquema en los archivos de su proyecto mediante programación.
 ## Preguntas frecuentes
 ### P1: ¿Puedo usar Aspose.Tasks para .NET con diferentes versiones de archivos de MS Project?
 R: Sí, Aspose.Tasks para .NET admite varias versiones de archivos de MS Project, incluidos los formatos MPP y XML.

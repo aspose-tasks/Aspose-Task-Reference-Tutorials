@@ -1,6 +1,6 @@
 ---
-title: Обработка сохранения изображений в Aspose.
-linktitle: Обработка сохранения изображений в Aspose.
+title: Обработка сохранения изображений в Aspose.Tasks
+linktitle: Обработка сохранения изображений в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как сохранять изображения в Aspose.Tasks для .NET, используя пошаговые инструкции. Легко интегрируйте функцию сохранения изображений в свои приложения .NET.
 type: docs

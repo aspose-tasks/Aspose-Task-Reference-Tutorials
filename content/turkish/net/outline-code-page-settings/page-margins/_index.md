@@ -19,7 +19,7 @@ Aspose.Tasks for .NET ile çalışmaya başlamadan önce onu geliştirme ortamı
 ### 2. C# Programlama Diline aşinalık
 Aspose.Tasks for .NET bir .NET kütüphanesi olduğundan, C# programlama dili sözdizimi ve kavramları hakkında temel bilgiye sahip olmanız gerekir.
 ### 3. Microsoft Proje Dosyası
-Bir Microsoft Project dosyanız olduğundan emin olun (`Project2.mpp`) belirlenen belge dizininizde mevcuttur (`DataDir`, Bu dosya sayfa kenar boşluklarını ayarlamak için hedef görevi görecektir.
+Bir Microsoft Project dosyanız olduğundan emin olun (`Project2.mpp`) belirlenen belge dizininizde mevcuttur (`DataDir`). Bu dosya sayfa kenar boşluklarını ayarlamak için hedef görevi görecektir.
 
 ## Ad Alanlarını İçe Aktar
 Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarını değiştirmeye başlamak için gerekli ad alanlarını C# kodunuza aktarmanız gerekir. Bu adım, Aspose.Tasks kütüphanesi tarafından sağlanan sınıflara ve yöntemlere erişiminizi sağlar.
@@ -42,7 +42,7 @@ Sayfa kenar boşluklarıyla ilgili değişiklikler yapmak için proje dosyasın�
 var margins = project.DefaultView.PageInfo.Margins;
 ```
 ## 3. Adım: Kenar Boşluklarını Ayarlayın
-Sayfanın sol, üst, sağ ve alt kenarları için istediğiniz kenar boşluğu değerlerini belirtin.
+Sayfanın sol, üst, sağ ve alt tarafları için istediğiniz kenar boşluğu değerlerini belirtin.
 ```csharp
 margins.Left = 10d;
 margins.Top = 10d;
@@ -61,15 +61,15 @@ project.Save(DataDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
 ```
 
 ## Çözüm
-Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project sayfa kenar boşluklarını ayarlama sürecini inceledik. Adım adım kılavuzu takip ederek ve Aspose.Tasks kütüphanesinin özelliklerinden yararlanarak proje dosyalarını özel gereksinimlerinizi karşılayacak şekilde verimli bir şekilde değiştirebilirsiniz. İster daha iyi belge düzeni için kenar boşluklarını ayarlıyor ister estetik sunumları geliştiriyor olun, Aspose.Tasks, hedeflerinize kolaylıkla ulaşmanızı sağlar.
+Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project sayfa kenar boşluklarını ayarlama sürecini inceledik. Adım adım kılavuzu takip ederek ve Aspose.Tasks kütüphanesinin özelliklerinden yararlanarak proje dosyalarını özel gereksinimlerinizi karşılayacak şekilde verimli bir şekilde değiştirebilirsiniz. İster daha iyi belge düzeni için kenar boşluklarını ayarlıyor olun, ister sunum estetiğini geliştiriyor olun, Aspose.Tasks, hedeflerinize kolaylıkla ulaşmanızı sağlar.
 ## SSS'ler
 ### S: Aspose.Tasks, Microsoft Project dosyalarının tüm sürümleriyle uyumlu mudur?
 C: Aspose.Tasks, Microsoft Project dosyalarının çeşitli sürümlerini destekleyerek farklı ortamlar arasında uyumluluk sağlar.
 ### S: Bir proje dosyasındaki belirli bölümler için sayfa kenar boşluklarını özelleştirebilir miyim?
 C: Evet, Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyasındaki belirli bölümler veya sayfalar için sayfa kenar boşluklarını özelleştirebilirsiniz.
-### S: Belirlenebilecek teminat değerlerinde herhangi bir sınırlama var mı?
+### S: Belirlenebilecek marjin değerlerinde herhangi bir sınırlama var mı?
 C: Aspose.Tasks, marj değerlerinin ayarlanmasında esneklik sağlayarak gereksinimlerinize göre hassas ölçümler belirlemenize olanak tanır.
 ### S: Aspose.Tasks diğer proje yönetimi işlevleri için destek sunuyor mu?
-C: Evet, Aspose.Tasks, proje yönetimi için görev planlama, kaynak tahsisi ve raporlama dahil olmak üzere kapsamlı bir özellikler paketi sunuyor.
+C: Evet, Aspose.Tasks proje yönetimi için görev planlama, kaynak tahsisi ve raporlama dahil olmak üzere kapsamlı bir özellikler paketi sunuyor.
 ### S: Aspose.Tasks'i web uygulamalarına entegre edebilir miyim?
 C: Kesinlikle! Aspose.Tasks for .NET, proje yönetimi yeteneklerini geliştirmek için web uygulamalarına sorunsuz bir şekilde entegre edilebilir.

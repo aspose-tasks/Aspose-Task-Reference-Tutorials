@@ -36,7 +36,7 @@ using System.Diagnostics.CodeAnalysis;
 
 ## 1단계: 프로젝트 파일 로드
 
- 먼저, 다음을 사용하여 프로젝트 파일을 로드합니다.`Project` 수업:
+먼저, 다음을 사용하여 프로젝트 파일을 로드합니다.`Project` 수업:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");
@@ -97,4 +97,4 @@ A4: 물론입니다. Aspose.Tasks는 PDF, HTML, XML 등을 포함한 다양한 �
 
 ### Q5: Aspose.Tasks는 기술 지원을 제공합니까?
 
-A5: 예, Aspose.Tasks는 포럼을 통해 포괄적인 기술 지원을 제공합니다. 포럼에서 도움을 구하고, 경험을 공유하고, 동료 사용자와 교류할 수 있습니다.
+A5: 예, Aspose.Tasks는 포럼을 통해 포괄적인 기술 지원을 제공합니다. 포럼에서 도움을 구하고, 경험을 공유하고, 동료 사용자와 소통할 수 있습니다.

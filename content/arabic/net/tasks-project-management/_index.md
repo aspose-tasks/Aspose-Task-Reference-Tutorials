@@ -17,7 +17,7 @@ url: /ar/net/tasks-project-management/
 
 ## التعامل مع السمات الموسعة لـ MS Project باستخدام Aspose.Tasks
 
-أطلق العنان لقوة التعامل مع سمات MS Project الموسعة برمجيًا. تعرف على خصوصيات وعموميات العمل باستخدام السمات الموسعة باستخدام Aspose.Tasks لـ .NET.[التعامل مع السمات الموسعة لـ MS Project باستخدام Aspose.Tasks](./working-with-extended-attributes/)
+أطلق العنان لقوة التعامل مع سمات MS Project الموسعة برمجياً. تعرف على خصوصيات وعموميات العمل باستخدام السمات الموسعة باستخدام Aspose.Tasks لـ .NET.[التعامل مع السمات الموسعة لـ MS Project باستخدام Aspose.Tasks](./working-with-extended-attributes/)
 
 ## إدارة مجموعة سمات مشروع MS في Aspose.Tasks
 

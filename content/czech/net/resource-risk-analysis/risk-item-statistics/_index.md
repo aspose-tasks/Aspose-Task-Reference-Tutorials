@@ -11,7 +11,7 @@ url: /cs/net/resource-risk-analysis/risk-item-statistics/
 Hledáte vylepšit své schopnosti projektového řízení pomocí Aspose.Tasks pro .NET? Ponořte se do oblasti analýzy rizik s naším podrobným návodem na získávání statistik pro rizikové položky v souborech MS Project. Využitím výkonných schopností Aspose.Tasks můžete získat neocenitelný přehled o nejistotách projektu a činit informovaná rozhodnutí pro účinné zmírnění rizik.
 ## Předpoklady
 Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
-1.  Aspose.Tasks for .NET Library: Stáhněte a nainstalujte knihovnu z[Aspose.Tasks pro dokumentaci .NET](https://reference.aspose.com/tasks/net/), Tato knihovna vás vybaví robustními nástroji pro programovou manipulaci se soubory MS Project.
+1.  Aspose.Tasks for .NET Library: Stáhněte a nainstalujte knihovnu z[Aspose.Tasks pro dokumentaci .NET](https://reference.aspose.com/tasks/net/). Tato knihovna vás vybaví robustními nástroji pro programovou manipulaci se soubory MS Project.
 2. Vývojové prostředí .NET: Nastavte své vývojové prostředí .NET, včetně Visual Studia nebo jakéhokoli jiného IDE dle vašeho výběru, abyste usnadnili bezproblémovou integraci Aspose.Tasks do vašich projektů.
 
 ## Importovat jmenné prostory
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- Zajistěte výměnu`"Your Document Directory"` cestou k adresáři dokumentů, kde jsou umístěny soubory MS Project.
+ Zajistěte výměnu`"Your Document Directory"` s cestou k adresáři dokumentů, kde jsou umístěny soubory MS Project.
 ## Krok 2: Konfigurace nastavení analýzy rizik
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- Upravte`IterationsCount` parametr založený na požadavcích vašeho projektu pro kontrolu přesnosti analýzy rizik.
+ Upravte`IterationsCount`parametr založený na požadavcích vašeho projektu pro kontrolu přesnosti analýzy rizik.
 ## Krok 3: Načtěte soubor MS Project
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

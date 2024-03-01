@@ -84,7 +84,7 @@ foreach (var task in collection)
 
 ## Conclusione
 
- In questo tutorial, abbiamo imparato come eseguire operazioni AND avanzate in Aspose.Tasks per .NET. Combinando le condizioni utilizzando il metodo`Util.And` classe, possiamo filtrare le attività in modo efficiente in base a più criteri.
+ In questo tutorial, abbiamo imparato come eseguire operazioni AND avanzate in Aspose.Tasks per .NET. Combinando le condizioni utilizzando il metodo`Util.And`classe, possiamo filtrare le attività in modo efficiente in base a più criteri.
 
 ## Domande frequenti
 
@@ -106,4 +106,4 @@ R: Sì, Util.And può essere utilizzato per combinare un numero qualsiasi di con
 
 ### Q5: Come posso ottenere supporto per Aspose.Tasks per .NET?
 
- R: Puoi ottenere supporto dal forum della community Aspose.Tasks.[Qui](https://forum.aspose.com/c/tasks/15).
+R: Puoi ottenere supporto dal forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).

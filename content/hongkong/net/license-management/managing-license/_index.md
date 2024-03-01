@@ -13,7 +13,7 @@ url: /zh-hant/net/license-management/managing-license/
 在我們深入使用 .NET 中的 Aspose.Tasks 管理授權之前，請確保您符合以下先決條件：
 - 對 C# 程式語言和 .NET 架構有基本了解。
 - 安裝了 .NET 的 Aspose.Tasks。
-- 存取有效的 Aspose.Tasks 許可證文件（`.lic`,
+- 存取有效的 Aspose.Tasks 許可證文件（`.lic`）。
 ## 導入命名空間
 在您開始在 .NET 專案中使用 Aspose.Tasks 之前，您需要匯入必要的命名空間。這些命名空間提供對許可證管理所需的類別和方法的存取。
 

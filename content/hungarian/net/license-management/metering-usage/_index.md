@@ -11,7 +11,7 @@ url: /hu/net/license-management/metering-usage/
 Hatékonyan szeretné kezelni és nyomon követni az MS Project használatát az Aspose.Tasks segítségével? A mérés erejével nyomon követheti a felhasználást, és optimalizálhatja projektmenedzsment erőfeszítéseit. Ebben az oktatóanyagban lépésről lépésre végigvezetjük az MS Project használatának mérésén az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
 Mielőtt belevágnánk az MS Project használatába, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
-1.  Aspose.Tasks for .NET Library: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési oldal](https://releases.aspose.com/tasks/net/), Kövesse a telepítési utasításokat a könyvtár beállításához a fejlesztői környezetben.
+1.  Aspose.Tasks for .NET Library: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési oldal](https://releases.aspose.com/tasks/net/). Kövesse a telepítési utasításokat a könyvtár beállításához a fejlesztői környezetben.
 2.  Nyilvános és privát kulcsok: Szerezze be nyilvános és privát kulcsait az Aspose-tól. Ezek a gombok elengedhetetlenek a méréshez. Ha még nem rendelkezik kulcsokkal, kérheti azokat az Aspose-tól a következő címen keresztül[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) oldalon.
 
 ## Névterek importálása
@@ -30,7 +30,7 @@ String DataDir = "Your Document Directory";
 var metered = new Metered();
 metered.SetMeteredKey("<public key>", "<private key>");
 ```
- cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával, és helyettesítse`<public key>` és`<private key>` az Aspose-tól kapott valódi kulcsaival.
+ Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával, és helyettesítse`<public key>` és`<private key>` az Aspose-tól kapott valódi kulcsaival.
 ## 2. lépés: Töltse be az MS Project fájlt
 Ezután töltse be az MS Project fájlt az Aspose.Tasks segítségével:
 ```csharp

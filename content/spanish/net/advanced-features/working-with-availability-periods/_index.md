@@ -94,7 +94,7 @@ En este tutorial, aprendimos cómo trabajar con períodos de disponibilidad en A
 
 ### P2: ¿Hay una prueba gratuita disponible para Aspose.Tasks para .NET?
 
- R2: Sí, puede obtener una prueba gratuita de Aspose.Tasks para .NET[aquí](https://releases.aspose.com/).
+R2: Sí, puede obtener una prueba gratuita de Aspose.Tasks para .NET[aquí](https://releases.aspose.com/).
 
 ### P3: ¿Dónde puedo encontrar documentación para Aspose.Tasks para .NET?
 

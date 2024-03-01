@@ -125,4 +125,4 @@ Trả lời: Có, Aspose.Tasks hỗ trợ các tệp Microsoft Project thuộc n
 
 ### Câu hỏi 5: Làm cách nào tôi có thể nhận được hỗ trợ nếu gặp bất kỳ vấn đề nào?
 
- Trả lời: Nếu bạn có bất kỳ câu hỏi nào hoặc gặp phải bất kỳ vấn đề nào, bạn có thể tìm kiếm sự hỗ trợ từ diễn đàn Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15).
+ Trả lời: Nếu bạn có bất kỳ câu hỏi nào hoặc gặp phải bất kỳ vấn đề nào, bạn có thể tìm kiếm sự hỗ trợ từ diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).

@@ -73,4 +73,4 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ### Πώς μπορώ να λάβω υποστήριξη κοινότητας για το Aspose.Tasks;
  Επισκέψου το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) να συνδεθείτε με την κοινότητα και να αναζητήσετε βοήθεια.
 ### Διατίθενται προσωρινές άδειες;
- Ναι, μπορείτε να πάρετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.
+ Ναι, μπορείτε να αποκτήσετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για δοκιμαστικούς σκοπούς.

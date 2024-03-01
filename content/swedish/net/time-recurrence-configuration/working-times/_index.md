@@ -12,8 +12,8 @@ Inom projektledning är exakt kontroll över arbetstider avgörande för korrekt
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande:
 - Grundläggande förståelse för programmeringsspråket C#.
-- Aspose.Tasks för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
-- Konfigurera Visual Studio eller valfri C#-utvecklingsmiljö.
+-  Aspose.Tasks för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
+- Visual Studio eller valfri C#-utvecklingsmiljö som ställs in.
 ## Importera namnområden
 Börja med att importera de nödvändiga namnområdena för att komma åt Aspose.Tasks-funktionerna:
 ```csharp
@@ -70,7 +70,7 @@ foreach (var day in weekDays)
     }
 }
 ```
-I den här delen itererar vi igenom varje veckodag, skriver ut dagtyp och tillhörande arbetstider. Du kan anpassa arbetstiderna för varje veckodag efter dina projektkrav.
+den här delen itererar vi igenom varje veckodag, skriver ut dagtyp och tillhörande arbetstider. Du kan anpassa arbetstiderna för varje veckodag efter dina projektkrav.
 ## Slutsats
 Effektiv konfiguration av arbetstider i Aspose.Tasks för .NET säkerställer korrekt projektplanering och resurshantering. Genom att följa denna steg-för-steg-guide kan du sömlöst integrera arbetstidsjusteringar i dina projektarbetsflöden.
 ## Vanliga frågor

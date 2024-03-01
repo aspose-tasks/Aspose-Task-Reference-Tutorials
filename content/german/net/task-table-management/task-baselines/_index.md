@@ -65,9 +65,9 @@ Glückwunsch! Sie haben erfolgreich gelernt, wie Sie Aufgabenbaselines in Aspose
 ### F: Kann ich Aspose.Tasks mit anderen .NET-Frameworks verwenden?
 A: Aspose.Tasks ist mit mehreren .NET-Frameworks kompatibel und bietet so Flexibilität in Ihrer Entwicklungsumgebung.
 ### F: Gibt es ein Community-Forum für den Aspose.Tasks-Support?
-A: Ja, Sie können Unterstützung finden und mit der Community interagieren unter[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+ A: Ja, Sie können Unterstützung finden und mit der Community interagieren unter[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
 ### F: Wie kann ich eine temporäre Lizenz für Aspose.Tasks erhalten?
- Ein Besuch[Hier](https://purchase.aspose.com/temporary-license/) um eine temporäre Lizenz für Aspose.Tasks zu erhalten.
+ Ein Besuch[Hier](https://purchase.aspose.com/temporary-license/)um eine temporäre Lizenz für Aspose.Tasks zu erhalten.
 ### F: Gibt es Tutorials, die über die Aufgabenbasislinien hinausgehen?
  A: Entdecken Sie die[Dokumentation](https://reference.aspose.com/tasks/net/) für eine breite Palette von Tutorials zu Aspose.Tasks-Funktionen.
 ### F: Wo kann ich Aspose.Tasks für .NET kaufen?

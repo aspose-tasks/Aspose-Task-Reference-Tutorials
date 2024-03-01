@@ -13,7 +13,7 @@ url: /it/net/calendar-scheduling/day-type-collection/
 
 ## Prerequisiti
 
-Prima di procedere con il tutorial, assicurati di possedere i seguenti prerequisiti:
+Prima di procedere con il tutorial, assicurati di avere i seguenti prerequisiti:
 
 1. Visual Studio: assicurati di avere Visual Studio installato sul tuo sistema.
 2.  Aspose.Tasks per .NET: scaricare e installare la libreria Aspose.Tasks per .NET da[Qui](https://releases.aspose.com/tasks/net/).

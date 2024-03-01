@@ -22,7 +22,7 @@ Eğitimlerimiz aracılığıyla Aspose.Tasks for .NET'in gelişmiş özellikleri
 [Gelişmiş Özellikleri Keşfedin](./advanced-features/)
 
 ##  Takvim ve Planlama: Zahmetsiz Yönetim ve İstisna İşleme 
-Aspose.Tasks for .NET'teki takvim ve planlama görevleri hakkındaki eğitimlerimizle proje takvimlerini verimli bir şekilde yönetin, süreleri hesaplayın ve istisnaları yönetin. Projenin kusursuz bir şekilde yürütülmesini sağlamak için zamanı etkili bir şekilde yönetmenin tüm ayrıntılarını öğrenin.
+Aspose.Tasks for .NET'teki takvim ve planlama görevleri hakkındaki eğitimlerimizle proje takvimlerini verimli bir şekilde yönetin, süreleri hesaplayın ve istisnaları ele alın. Projenin kusursuz bir şekilde yürütülmesini sağlamak için zamanı etkili bir şekilde yönetmenin tüm ayrıntılarını öğrenin.
 
 [Takvim ve Planlama hakkında bilgi edinin](./calendar-scheduling/)
 

@@ -25,7 +25,7 @@ Việc làm quen với ngôn ngữ lập trình C# và .NET framework sẽ có �
 
 ## Nhập không gian tên
 
-Trước khi triển khai tùy chỉnh đường lưới trong MS Project, hãy đảm bảo nhập các vùng tên cần thiết trong mã C# của bạn. Các không gian tên này cung cấp quyền truy cập vào các lớp và phương thức được yêu cầu.
+Trước khi triển khai tùy chỉnh đường lưới trong MS Project, hãy đảm bảo nhập các vùng tên cần thiết trong mã C# của bạn. Các không gian tên này cung cấp quyền truy cập vào các lớp và phương thức cần thiết.
 
 ```csharp
 using Aspose.Tasks;
@@ -112,4 +112,4 @@ Trả lời: Có, Aspose.Tasks for .NET cung cấp tài liệu phong phú và h�
 
 ### Câu hỏi 5: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
 
- Đ: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của[Aspose.Tasks cho .NET từ](https://forum.aspose.com/c/tasks/15), để khám phá các tính năng của nó trước khi mua hàng.
+ Đ: Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của[Aspose.Tasks cho .NET từ](https://forum.aspose.com/c/tasks/15). để khám phá các tính năng của nó trước khi mua hàng.

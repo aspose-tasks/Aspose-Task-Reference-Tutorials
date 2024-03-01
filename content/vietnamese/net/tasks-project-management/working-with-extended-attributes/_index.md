@@ -38,7 +38,7 @@ Xác định đường dẫn đến thư mục chứa tệp MS Project của b�
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 ## Bước 2: Tải tệp dự án
  Tải tệp MS Project bằng cách sử dụng`Project` lớp học:
 ```csharp

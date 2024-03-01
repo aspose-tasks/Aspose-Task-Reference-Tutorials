@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 S obrysovými kódy manipulujte podle potřeby, jako je vkládání, odebírání nebo mazání.
 ```csharp
 // Příklad manipulace
-// ,
+// ...
 // Vložte kód s 2 na správné místo
 task.OutlineCodes.Insert(2, code2);
 // Zkontrolujte, zda byl kód vložen

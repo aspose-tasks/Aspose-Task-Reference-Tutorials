@@ -76,6 +76,6 @@ A: 예, Aspose.Tasks는 모든 .NET 프로젝트와 원활하게 통합되어 �
 ### Q: 무료 평가판이 제공됩니까?
  A: 예, 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
-A: 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A: 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks는 어디서 구매할 수 있나요?
  A: Aspose.Tasks를 구매하세요.[여기](https://purchase.aspose.com/buy).

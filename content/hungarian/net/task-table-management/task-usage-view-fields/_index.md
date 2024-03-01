@@ -8,7 +8,7 @@ weight: 25
 url: /hu/net/task-table-management/task-usage-view-fields/
 ---
 ## Bevezetés
-projektmenedzsment területén az Aspose.Tasks for .NET robusztus megoldás, amely hatékony eszközkészletet biztosít a fejlesztőknek a projektadatok manipulálásához és kezeléséhez. Az egyik figyelemre méltó funkció a Task Usage View, amely betekintést nyújt a projekt láthatóságát javító különféle területekbe. Ebben az oktatóanyagban az Aspose.Tasks for .NET használatával elmélyülünk a Feladathasználati nézetmezők bonyolultságában, az egyes lépéseket lebontva az átfogó megértés érdekében.
+A projektmenedzsment területén az Aspose.Tasks for .NET robusztus megoldás, amely hatékony eszközkészletet biztosít a fejlesztőknek a projektadatok manipulálásához és kezeléséhez. Az egyik figyelemre méltó funkció a Task Usage View, amely betekintést nyújt a projekt láthatóságát javító különféle területekbe. Ebben az oktatóanyagban az Aspose.Tasks for .NET használatával elmélyülünk a Feladathasználati nézetmezők bonyolultságában, az egyes lépéseket lebontva az átfogó megértés érdekében.
 ## Előfeltételek
 Mielőtt nekivágnánk ennek az útnak, győződjön meg arról, hogy a következő előfeltételeket teljesíti:
 -  Aspose.Tasks for .NET Library: Töltse le és telepítse a könyvtárat a[Aspose.Tasks .NET-dokumentációhoz](https://reference.aspose.com/tasks/net/).
@@ -57,9 +57,9 @@ Ebben az oktatóanyagban megvizsgáltuk az Aspose.Tasks for .NET gazdagságát, 
 ### Használhatom az Aspose.Tasks for .NET-et más projektmenedzsment eszközökkel?
 Az Aspose.Tasks elsősorban a .NET-alkalmazásokra összpontosít. Azonban exportálhat adatokat különböző formátumokba, amelyek kompatibilisek más eszközökkel.
 ### Elérhető az Aspose.Tasks for .NET ingyenes próbaverziója?
-Igen, kipróbálhatja az Aspose.Tasks for .NET funkcióit, ha ingyenes próbaverziót szerez[itt](https://releases.aspose.com/).
+ Igen, kipróbálhatja az Aspose.Tasks for .NET funkcióit, ha ingyenes próbaverziót szerez[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi alapú támogatásért, vagy fedezze fel az átfogó dokumentációt.
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi alapú támogatásért, vagy fedezze fel az átfogó dokumentációt.
 ### Rendelkezésre állnak ideiglenes licencek az Aspose.Tasks for .NET számára?
  Igen, beszerezhet ideiglenes engedélyeket[itt](https://purchase.aspose.com/temporary-license/) rövid távú használatra.
 ### Milyen fájlformátumok támogatottak a projektdokumentumokhoz?

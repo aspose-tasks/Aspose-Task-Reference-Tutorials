@@ -27,7 +27,7 @@ Nu we aan alle vereisten hebben voldaan, gaan we de tutorial opsplitsen in eenvo
 // Het pad naar de documentenmap.
 String DataDir = "Your Document Directory";
 ```
- Zorg ervoor dat u vervangt`"Your Document Directory"` met het daadwerkelijke pad naar uw projectdocumentmap.
+ Zorg ervoor dat u vervangt`"Your Document Directory"`met het daadwerkelijke pad naar uw projectdocumentmap.
 ## Stap 2: Laad het project en krijg toegang tot het VBA-project
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -65,9 +65,9 @@ Kortom, het beheersen van VBA-modules in Aspose.Tasks opent nieuwe mogelijkheden
 ### Kan ik Aspose.Tasks voor .NET gebruiken met andere programmeertalen?
 Aspose.Tasks ondersteunt voornamelijk .NET-talen zoals C#. Er zijn echter Java-versies beschikbaar voor compatibiliteit tussen talen.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
-Ja, u kunt de gratis proefversie downloaden van[hier](https://releases.aspose.com/).
+ Ja, u kunt de gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Tasks?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning of overweeg een ondersteuningsplan aan te schaffen.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning of overweeg een ondersteuningsplan aan te schaffen.
 ### Zijn er tijdelijke licenties beschikbaar?
  Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik gedetailleerde documentatie voor Aspose.Tasks vinden?

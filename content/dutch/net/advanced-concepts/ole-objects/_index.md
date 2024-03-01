@@ -15,7 +15,7 @@ Aspose.Tasks voor .NET biedt uitgebreide functionaliteit voor het werken met OLE
 
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 
-1. Installatie: Zorg ervoor dat Aspose.Tasks voor .NET in uw ontwikkelomgeving is geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
+1.  Installatie: Zorg ervoor dat Aspose.Tasks voor .NET in uw ontwikkelomgeving is geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
 
 2. Basiskennis: maak uzelf vertrouwd met de programmeertaal C# en .NET Framework-concepten.
 

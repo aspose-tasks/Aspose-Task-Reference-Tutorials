@@ -12,7 +12,7 @@ Gantt şemaları proje yönetiminde görevleri, zaman çizelgelerini ve bağıml
 ## Önkoşullar
 Devam etmeden önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 ### 1. Aspose.Tasks for .NET'in Kurulumu
- Aspose.Tasks for .NET'i yüklediğinizden emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/tasks/net/)ve belgelerde verilen kurulum talimatlarını izleyin[Burada](https://reference.aspose.com/tasks/net/).
+ Aspose.Tasks for .NET'i yüklediğinizden emin olun. Kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/tasks/net/) ve belgelerde verilen kurulum talimatlarını izleyin[Burada](https://reference.aspose.com/tasks/net/).
 ### 2. Microsoft Proje Dosyası
 Bir Microsoft Project dosyası hazırlayın (`Project2.mpp`) Gantt şeması görünümleriyle çalışmak için kullanacağınız.
 ### 3. Temel C# ve .NET Framework Bilgisi
@@ -75,13 +75,13 @@ Gantt şemasında çalışma dışı zamanın rengini tanımlar.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Gantt grafiğindeki çubukların toplanması gerekip gerekmediğini belirtin.
+Gantt grafiğindeki çubukların toplanması gerekip gerekmediğini belirtir.
 ### Çubuk Bölmelerini Göster
 ```csharp
 view.ShowBarSplits = true;
 ```
 Gantt grafiğindeki görev bölmelerinin gösterilmesinin gerekip gerekmediğini belirler.
-### çizimleri göster
+### Çizimleri Göster
 ```csharp
 view.ShowDrawings = true;
 ```

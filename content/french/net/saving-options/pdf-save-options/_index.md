@@ -66,8 +66,8 @@ R : Oui, vous pouvez personnaliser divers aspects tels que les polices, les coul
 ### Q : Aspose.Tasks pour .NET est-il compatible avec toutes les versions des fichiers Microsoft Project ?
 R : Aspose.Tasks pour .NET prend en charge les fichiers Microsoft Project à partir des versions 2003.
 ### Q : Puis-je convertir plusieurs fichiers de projet au format PDF dans un processus par lots ?
-R : Absolument, vous pouvez automatiser le processus de conversion de plusieurs fichiers de projet en PDF à l'aide d'Aspose.Tasks pour .NET.
+: Absolument, vous pouvez automatiser le processus de conversion de plusieurs fichiers de projet en PDF à l'aide d'Aspose.Tasks pour .NET.
 ### Q : Aspose.Tasks pour .NET prend-il en charge d'autres formats de fichiers pour la conversion ?
 R : Oui, outre le PDF, vous pouvez convertir des fichiers Microsoft Project en différents formats, notamment XLSX, HTML et images.
 ### Q : Le support technique est-il disponible pour Aspose.Tasks pour .NET ?
- R : Oui, vous pouvez obtenir une assistance technique sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+ R : Oui, vous pouvez obtenir une assistance technique sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).

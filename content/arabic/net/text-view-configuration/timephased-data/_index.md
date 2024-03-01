@@ -85,7 +85,7 @@ foreach (var assignment in project.ResourceAssignments)
 ### هل تتوفر نسخة تجريبية مجانية من Aspose.Tasks لـ .NET؟
  نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على دعم Aspose.Tasks لـ .NET؟
- قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)لدعم المجتمع.
+ قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع.
 ### ما هو الترخيص المؤقت وكيف يمكنني الحصول عليه؟
  تعرف على التراخيص المؤقتة[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Tasks لـ .NET؟

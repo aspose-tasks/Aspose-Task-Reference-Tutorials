@@ -1,6 +1,6 @@
 ---
-title: Configureer werktijden in Aspose.Tasks
-linktitle: Configureer werktijden in Aspose.Tasks
+title: Werktijden configureren in Aspose.Tasks
+linktitle: Werktijden configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Verbeter de projectplanning in .NET met Aspose.Tasks. Configureer moeiteloos werktijden voor nauwkeurig resourcebeheer. Download de bibliotheek nu!
 type: docs
@@ -12,8 +12,8 @@ Bij projectmanagement is nauwkeurige controle over de werktijden cruciaal voor e
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u over het volgende beschikt:
 - Basiskennis van de programmeertaal C#.
-- Aspose.Tasks voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
-- Stel Visual Studio of een andere C#-ontwikkelomgeving van uw voorkeur in.
+-  Aspose.Tasks voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
+- Visual Studio of een andere C#-ontwikkelomgeving van uw voorkeur.
 ## Naamruimten importeren
 Begin met het importeren van de benodigde naamruimten om toegang te krijgen tot de Aspose.Tasks-functionaliteiten:
 ```csharp

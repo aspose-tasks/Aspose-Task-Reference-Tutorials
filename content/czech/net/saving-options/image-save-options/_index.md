@@ -13,7 +13,7 @@ Ve světě vývoje softwaru je efektivní zvládnutí projektových úkolů zás
 ## Předpoklady
 Než se pustíte do používání Aspose.Tasks for .NET k uložení možností MS Project jako obrázků, ujistěte se, že máte splněny následující předpoklady:
 ### 1. Nainstalujte Aspose.Tasks for .NET
- Chcete-li začít, musíte mít ve svém vývojovém prostředí nainstalované Aspose.Tasks for .NET. Knihovnu si můžete stáhnout z[webová stránka](https://releases.aspose.com/tasks/net/) a postupujte podle dodaných pokynů k instalaci.
+Chcete-li začít, musíte mít ve svém vývojovém prostředí nainstalované Aspose.Tasks for .NET. Knihovnu si můžete stáhnout z[webová stránka](https://releases.aspose.com/tasks/net/) a postupujte podle dodaných pokynů k instalaci.
 ### 2. Získejte licenci (volitelné)
  Zatímco Aspose.Tasks for .NET lze používat bez licence ve zkušebním režimu, získání licence se doporučuje pro plnou funkčnost a odstranění omezení hodnocení. Licenci můžete získat od[nákupní stránku](https://purchase.aspose.com/buy) nebo se rozhodnout pro a[dočasná licence](https://purchase.aspose.com/temporary-license/) pro testovací účely.
 ### 3. Základní znalost C# a .NET Development
@@ -31,7 +31,7 @@ using Aspose.Tasks.Saving;
 using Aspose.Tasks.Visualization;
 ```
 
-## Krok 1: Nastavte cestu adresáře dokumentu
+## Krok 1: Nastavte cestu k adresáři dokumentů
 Ujistěte se, že máte určený adresář pro vaše dokumenty, a podle toho nastavte cestu:
 ```csharp
 String DataDir = "Your Document Directory";
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## Krok 3: Definujte možnosti uložení obrázku
- Vytvořte instanci`ImageSaveOptions` a zadejte požadovaná nastavení:
+ Vytvořte instanci`ImageSaveOptions` zadejte požadovaná nastavení:
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {

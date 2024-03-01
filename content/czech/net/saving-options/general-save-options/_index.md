@@ -35,7 +35,7 @@ Nejprve musíte načíst soubor MS Project pomocí Aspose.Tasks:
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## Krok 2: Definujte možnosti uložení
- Definujte možnosti uložení podle svých požadavků. V tomto příkladu používáme`Spreadsheet2003SaveOptions`,
+ Definujte možnosti uložení podle svých požadavků. V tomto příkladu používáme`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -49,7 +49,7 @@ options.ResourceView.Columns.Add(resourceViewColumn);
 var assignmentViewColumn = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });
 options.AssignmentView.Columns.Add(assignmentViewColumn);
 ```
-## Krok 4: Uložte projekt pomocí možností
+## Krok 4: Uložte projekt s možnostmi
 Nakonec uložte projekt se zadanými možnostmi:
 ```csharp
 project.Save("Your Document Directory/UsingSpreadsheet2003SaveOptions_out.xml", options);
@@ -63,8 +63,8 @@ Odpověď: Ano, Aspose.Tasks podporuje různé verze souborů MS Project, což z
 ### Otázka: Mohu vyzkoušet Aspose.Tasks před nákupem?
  Odpověď: Ano, můžete prozkoumat Aspose.Tasks s bezplatnou zkušební verzí[tady](https://releases.aspose.com/).
 ### Otázka: Kde najdu dokumentaci k Aspose.Tasks?
-Odpověď: Podrobnou dokumentaci lze nalézt[tady](https://reference.aspose.com/tasks/net/), poskytující komplexní návod k používání funkcí Aspose.Tasks.
+ Odpověď: Podrobnou dokumentaci lze nalézt[tady](https://reference.aspose.com/tasks/net/), poskytující komplexní návod k používání funkcí Aspose.Tasks.
 ### Otázka: Jak mohu získat dočasné licence pro Aspose.Tasks?
- Odpověď: Pro účely hodnocení jsou k dispozici dočasné licence.[tady](https://purchase.aspose.com/temporary-license/).
+ Odpověď: Pro účely hodnocení jsou k dispozici dočasné licence[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde mohu hledat podporu pro dotazy související s Aspose.Tasks?
- Odpověď: Můžete se připojit do fóra komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15) získat pomoc od odborníků a kolegů vývojářů.
+ Odpověď: Můžete se připojit do fóra komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15)získat pomoc od odborníků a kolegů vývojářů.

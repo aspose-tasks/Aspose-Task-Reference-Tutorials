@@ -11,7 +11,7 @@ url: /sv/net/task-table-management/table-text-styles/
 I en värld av projektledning är effektiv visualisering av uppgifter avgörande för framgång. Aspose.Tasks för .NET tillhandahåller en kraftfull lösning för att anpassa tabelltextstilar, så att du kan skräddarsy utseendet på textobjekt i ditt projekt. I den här steg-för-steg-guiden går vi igenom processen för att konfigurera tabelltextstilar med Aspose.Tasks för .NET.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande:
--  Aspose.Tasks för .NET: Se till att du har den senaste versionen av Aspose.Tasks för .NET installerad. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks för .NET: Se till att du har den senaste versionen av Aspose.Tasks för .NET installerad. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
 - Dokumentkatalog: Skapa en katalog för dina dokument. Ersätt "Din dokumentkatalog" i koden med den faktiska sökvägen.
 -  Giltig Aspose-licens: Detta exempel kräver en giltig Aspose-licens. Du kan köpa en fullständig licens[här](https://purchase.aspose.com/buy) eller skaffa en 30-dagars tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ## Importera namnområden
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## Slutsats

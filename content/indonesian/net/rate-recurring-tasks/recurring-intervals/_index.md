@@ -32,7 +32,7 @@ Sekarang, mari kita bagi setiap contoh menjadi beberapa langkah dan menjelaskann
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Di sini, kami menginisialisasi instance baru dari`Project` kelas dengan menyediakan jalur ke file Microsoft Project.
+ Di sini, kami menginisialisasi instance baru dari`Project` kelas dengan menyediakan jalur ke file Microsoft Project.
 ## Langkah 2: Tetapkan Tanggal Status:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

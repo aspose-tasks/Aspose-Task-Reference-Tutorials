@@ -67,7 +67,7 @@ Aspose.Tasks for .NET을 사용하여 C#에서 프로젝트 파일을 효율적�
 
 ## Aspose.Tasks에서 사용자 정의 프로젝트 속성 컬렉션 관리
 
- .NET용 Aspose.Tasks에서 사용자 정의 프로젝트 속성을 효과적으로 관리하세요. 단계별 튜토리얼을 통해 프로젝트 관리 경험을 향상하세요.[더 읽어보세요](./custom-project-property-collection/)
+ .NET용 Aspose.Tasks에서 사용자 정의 프로젝트 속성을 효과적으로 관리합니다. 단계별 튜토리얼을 통해 프로젝트 관리 경험을 향상하세요.[더 읽어보세요](./custom-project-property-collection/)
 
 ## Aspose.Tasks의 일일 달력 반복
 
@@ -116,7 +116,7 @@ Aspose.Tasks for .NET을 사용하여 프로젝트 비용을 효과적으로 관
 ### [Aspose.Tasks에 CSS 저장 인수](./css-saving-arguments/)
 HTML 출력을 사용자 정의하기 위해 .NET용 Aspose.Tasks에 CSS 인수를 저장하는 방법을 알아보세요. 맞춤형 CSS 설정으로 프레젠테이션을 향상하세요.
 ### [Aspose.Tasks의 CSV 옵션](./csv-options/)
-Aspose.Tasks for .NET을 활용하여 CSV 파일을 효율적으로 사용하여 프로젝트 관리 기능을 손쉽게 향상시키는 방법을 알아보세요.
+Aspose.Tasks for .NET을 활용하여 CSV 파일을 효율적으로 작업하고 프로젝트 관리 기능을 손쉽게 향상시키는 방법을 알아보세요.
 ### [Aspose.Tasks의 통화 기호 위치](./currency-symbol-positions/)
 Aspose.Tasks를 사용하여 .NET 프로젝트에서 통화 기호 위치를 쉽게 제어하는 방법을 알아보세요.
 ### [Aspose.Tasks의 사용자 정의 필드 유형](./custom-field-types/)

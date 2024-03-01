@@ -14,22 +14,22 @@ Bent u klaar om uw projectmanagementvaardigheden te verbeteren met Aspose.Tasks 
 
 ## Geavanceerde AND-bewerking in Aspose.Tasks
 
- Ontgrendel het potentieel van geavanceerde AND-bewerkingen in Aspose.Tasks voor .NET. Onze tutorial begeleidt u bij het efficiënt filteren van projecttaken op basis van meerdere criteria. Krijg een dieper inzicht in taakbeheer met praktische voorbeelden.[Lees verder](./advanced-and-operation/)
+Ontgrendel het potentieel van geavanceerde AND-bewerkingen in Aspose.Tasks voor .NET. Onze tutorial begeleidt u bij het efficiënt filteren van projecttaken op basis van meerdere criteria. Krijg een dieper inzicht in taakbeheer met praktische voorbeelden.[Lees verder](./advanced-and-operation/)
 
 ## AND-operator gebruiken onder alle omstandigheden met Aspose.Tasks
 
-Ontdek het gebruik van de AND-operator onder alle omstandigheden met Aspose.Tasks voor .NET. Filter projecttaken efficiënt op basis van diverse criteria. Verbeter uw projectmanagementvaardigheden met deze stapsgewijze handleiding.[Lees verder](./and-operator-all-conditions/)
+ Ontdek het gebruik van de AND-operator onder alle omstandigheden met Aspose.Tasks voor .NET. Filter projecttaken efficiënt op basis van diverse criteria. Verbeter uw projectmanagementvaardigheden met deze stapsgewijze handleiding.[Lees verder](./and-operator-all-conditions/)
 
 ## Geheugenuitzondering verwerken met Aspose.Tasks Layout Builder
 
  Pak geheugenuitzonderingen in .NET aan met Aspose.Tasks Layout Builder. Onze handleiding biedt een stapsgewijze aanpak met codevoorbeelden, zodat u naadloos met uitzonderingen kunt omgaan. Verhoog nu uw projectefficiëntie.[Lees verder](./layout-builder-out-of-memory/)
 ## Werken met toewijzingen in Aspose.Tasks
 
- Beheer projecttoewijzingen in .NET efficiënt met Aspose.Tasks. Deze tutorial gaat dieper in op verschillende contouren van resourceplanning en biedt praktische inzichten en tips. Verbeter uw projectorganisatie en stroomlijn workflows.[Lees verder](./working-with-assignment/)
+Beheer projecttoewijzingen in .NET efficiënt met Aspose.Tasks. Deze tutorial gaat dieper in op verschillende contouren van resourceplanning en biedt praktische inzichten en tips. Verbeter uw projectorganisatie en stroomlijn workflows.[Lees verder](./working-with-assignment/)
 
 ## Toewijzingsbasislijn beheren in Aspose.Tasks
 
-Leer hoe u toewijzingsbasislijnen efficiënt beheert met Aspose.Tasks voor .NET. Dit zorgt voor een nauwkeurige opvolging van de voortgang en prestaties van het project. Duik in onze tutorial voor een stapsgewijze handleiding voor het optimaliseren van uw projectmanagementstrategieën.[Lees verder](./assignment-baseline/)
+ Leer hoe u toewijzingsbasislijnen efficiënt beheert met Aspose.Tasks voor .NET. Dit zorgt voor een nauwkeurige opvolging van de voortgang en prestaties van het project. Duik in onze tutorial voor een stapsgewijze handleiding voor het optimaliseren van uw projectmanagementstrategieën.[Lees verder](./assignment-baseline/)
 
 ## Verzameling van toewijzingsbasislijnen in Aspose.Tasks
 
@@ -37,11 +37,11 @@ Leer hoe u toewijzingsbasislijnen efficiënt beheert met Aspose.Tasks voor .NET.
 
 ## Aangepaste toewijzingsweergavekolom in Aspose.Tasks
 
- Ontdek hoe u aangepaste kolommen voor toewijzingsweergaven kunt toevoegen in Aspose.Tasks voor .NET, waardoor uw projectbeheermogelijkheden worden vergroot. Deze tutorial biedt een gedetailleerde handleiding waarmee u uw projectweergaven kunt afstemmen op specifieke vereisten.[Lees verder](./assignment-view-column/)
+Ontdek hoe u aangepaste kolommen voor toewijzingsweergaven kunt toevoegen in Aspose.Tasks voor .NET, waardoor uw projectbeheermogelijkheden worden vergroot. Deze tutorial biedt een gedetailleerde handleiding waarmee u uw projectweergaven kunt afstemmen op specifieke vereisten.[Lees verder](./assignment-view-column/)
 
 ## Werken met beschikbaarheidsperioden in Aspose.Tasks
 
-Beheer de beschikbaarheidsperioden van bronnen efficiënt met Aspose.Tasks voor .NET. Deze tutorial biedt een stapsgewijze handleiding en biedt praktische inzichten voor het werken met beschikbaarheidsperioden in uw .NET-projecten. Verbeter de projectplanning en -uitvoering.[Lees verder](./working-with-availability-periods/)
+ Beheer de beschikbaarheidsperioden van bronnen efficiënt met Aspose.Tasks voor .NET. Deze tutorial biedt een stapsgewijze handleiding en biedt praktische inzichten voor het werken met beschikbaarheidsperioden in uw .NET-projecten. Verbeter de projectplanning en -uitvoering.[Lees verder](./working-with-availability-periods/)
 
 ## Verzameling van beschikbaarheidsperioden in Aspose.Tasks
 
@@ -49,7 +49,7 @@ Beheer de beschikbaarheidsperioden van bronnen efficiënt met Aspose.Tasks voor 
 
 ## Stylingbalk in Aspose.Tasks
 
- Leer hoe u balken kunt opmaken in Aspose.Tasks voor .NET om de projectvisualisatie te verbeteren. Onze tutorial biedt praktische inzichten, waarmee u visueel aantrekkelijke projecttijdlijnen kunt creëren. Verbeter uw projectpresentatie en communicatie.[Lees verder](./styling-bar/)
+Leer hoe u balken kunt opmaken in Aspose.Tasks voor .NET om de projectvisualisatie te verbeteren. Onze tutorial biedt praktische inzichten, waarmee u visueel aantrekkelijke projecttijdlijnen kunt creëren. Verbeter uw projectpresentatie en communicatie.[Lees verder](./styling-bar/)
 
 
 ## Aspose.Tasks Tutorials voor geavanceerde functies

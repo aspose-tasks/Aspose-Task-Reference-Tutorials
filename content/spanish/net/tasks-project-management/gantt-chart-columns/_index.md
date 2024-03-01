@@ -63,7 +63,7 @@ var columns = new List<ViewColumn>
         Field.TaskActualCost)
 };
 ```
-## Paso 3: iterar sobre las columnas
+## Paso 3: iterar sobre columnas
 Itere sobre las columnas definidas para acceder a sus propiedades y mostrar información:
 ```csharp
 foreach (var column in columns)

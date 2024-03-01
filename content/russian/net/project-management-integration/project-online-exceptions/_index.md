@@ -71,6 +71,6 @@ manager.CreateNewProject(project);
 ### Вопрос: Где я могу найти документацию для Aspose.Tasks?
  О: Подробная документация по Aspose.Tasks доступна.[здесь](https://reference.aspose.com/tasks/net/).
 ### Вопрос: Как я могу получить поддержку Aspose.Tasks?
- О: Вы можете получить поддержку на форуме сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
+О: Вы можете получить поддержку на форуме сообщества Aspose.Tasks.[здесь](https://forum.aspose.com/c/tasks/15).
 ### Вопрос: Как приобрести лицензию на Aspose.Tasks?
  О: Вы можете приобрести лицензию на Aspose.Tasks на сайте[страница покупки](https://purchase.aspose.com/buy).

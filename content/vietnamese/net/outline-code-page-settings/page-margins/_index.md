@@ -19,7 +19,7 @@ Trước khi có thể bắt đầu làm việc với Aspose.Tasks cho .NET, b�
 ### 2. Làm quen với ngôn ngữ lập trình C#
 Vì Aspose.Tasks for .NET là một thư viện .NET nên bạn cần có hiểu biết cơ bản về cú pháp và khái niệm ngôn ngữ lập trình C#.
 ### 3. Tệp dự án Microsoft
-Đảm bảo rằng bạn có tệp Microsoft Project (`Project2.mpp`) có sẵn trong thư mục tài liệu được chỉ định của bạn (`DataDir`, Tệp này sẽ đóng vai trò là mục tiêu để thiết lập lề trang.
+Đảm bảo rằng bạn có tệp Microsoft Project (`Project2.mpp`) có sẵn trong thư mục tài liệu được chỉ định của bạn (`DataDir`). Tệp này sẽ đóng vai trò là mục tiêu để thiết lập lề trang.
 
 ## Nhập không gian tên
 Để bắt đầu thao tác với các tệp Microsoft Project bằng Aspose.Tasks cho .NET, bạn cần nhập các vùng tên cần thiết vào mã C# của mình. Bước này đảm bảo rằng bạn có quyền truy cập vào các lớp và phương thức do thư viện Aspose.Tasks cung cấp.
@@ -42,7 +42,7 @@ Truy cập chế độ xem mặc định của tệp dự án để thực hiệ
 var margins = project.DefaultView.PageInfo.Margins;
 ```
 ## Bước 3: Điều chỉnh lề
-Chỉ định các giá trị lề mong muốn cho các cạnh trái, trên, phải và dưới cùng của trang.
+Chỉ định các giá trị lề mong muốn cho các cạnh bên trái, trên, phải và dưới cùng của trang.
 ```csharp
 margins.Left = 10d;
 margins.Top = 10d;

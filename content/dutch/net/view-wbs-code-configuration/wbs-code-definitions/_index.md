@@ -12,7 +12,7 @@ Naarmate projectmanagement evolueert, groeit ook de behoefte aan krachtige tools
 ## Vereisten
 Voordat we in de tutorial duiken, moet je ervoor zorgen dat je aan de volgende vereisten voldoet:
 - Een praktische kennis van .NET-ontwikkeling.
-- Aspose.Tasks voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
 - Een code-editor (Visual Studio wordt aanbevolen).
 ## Naamruimten importeren
 Begin in uw .NET-project met het importeren van de benodigde naamruimten:

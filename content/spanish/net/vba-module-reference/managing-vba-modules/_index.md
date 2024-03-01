@@ -59,7 +59,7 @@ foreach (var module in project.VbaProject.Modules)
     }
 }
 ```
-Si sigue estos pasos, podrá administrar y recuperar información de los módulos VBA de manera efectiva utilizando Aspose.Tasks para .NET.
+Si sigue estos pasos, podrá administrar y recuperar información de manera efectiva de los módulos VBA usando Aspose.Tasks para .NET.
 ## Conclusión
 En este tutorial, exploramos las capacidades de Aspose.Tasks para .NET en la administración de módulos VBA dentro de archivos de Microsoft Project. Aprovechando los fragmentos de código proporcionados, los desarrolladores pueden integrar fácilmente estas funciones en sus aplicaciones, mejorando la manipulación de los archivos de Project.
 
@@ -69,8 +69,8 @@ Sí, Aspose.Tasks admite varias versiones de archivos de Microsoft Project, incl
 ### ¿Puedo modificar el código fuente de los módulos VBA mediante programación usando Aspose.Tasks?
 ¡Absolutamente! Aspose.Tasks proporciona métodos no solo para leer sino también para actualizar el código fuente de los módulos VBA.
 ### ¿Dónde puedo encontrar ejemplos y documentación adicionales para Aspose.Tasks?
- visita el[documentación](https://reference.aspose.com/tasks/net/) para obtener ejemplos y orientación completos.
+ Visita el[documentación](https://reference.aspose.com/tasks/net/) para obtener ejemplos y orientación completos.
 ### ¿Hay una prueba gratuita disponible para Aspose.Tasks?
- Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
+Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte o buscar asistencia para cualquier problema relacionado con Aspose.Tasks?
- No dudes en visitar[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15)para el apoyo de la comunidad.
+No dudes en visitar el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para el apoyo de la comunidad.

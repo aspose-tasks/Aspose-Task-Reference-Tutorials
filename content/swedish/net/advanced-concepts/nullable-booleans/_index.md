@@ -9,7 +9,7 @@ url: /sv/net/advanced-concepts/nullable-booleans/
 ---
 ## Introduktion
 
- I den här handledningen kommer vi att fördjupa oss i att arbeta med nollbara booleaner i Aspose.Tasks för .NET. Nullbara booleaner erbjuder flexibilitet när det gäller att representera booleska värden, vilket möjliggör möjligheten att vara odefinierade. Vi ska utforska hur man använder`NullableBool` klass, dess konstruktörer, egenskaper och metoder.
+ den här handledningen kommer vi att fördjupa oss i att arbeta med nollbara booleaner i Aspose.Tasks för .NET. Nullbara booleaner erbjuder flexibilitet när det gäller att representera booleska värden, vilket möjliggör möjligheten att vara odefinierade. Vi ska utforska hur man använder`NullableBool` klass, dess konstruktörer, egenskaper och metoder.
 
 ## Förutsättningar
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Låt oss nu dela upp varje exempel i flera steg.
 
-##  arbetar med`NullableBool`
+##  Arbetar med`NullableBool`
 
 ###  Steg 1: Skapa en ny`Project` instance.
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Steg 6: Visa strängrepresentationen av`NullableBool` object.
+###  Steg 6: Visa strängrepresentationen av`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Steg 2: Skriv ut hashkoden för varje`NullableBool` object.
+### Steg 2: Skriv ut hashkoden för varje`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());

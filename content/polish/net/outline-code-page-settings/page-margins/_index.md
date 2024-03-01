@@ -19,7 +19,7 @@ Zanim zaczniesz pracować z Aspose.Tasks dla .NET, musisz go zainstalować w swo
 ### 2. Znajomość języka programowania C#
 Ponieważ Aspose.Tasks dla .NET jest biblioteką .NET, powinieneś posiadać podstawową wiedzę na temat składni i pojęć języka programowania C#.
 ### 3. Plik projektu Microsoft
-Upewnij się, że masz plik Microsoft Project (`Project2.mpp`) dostępne w wyznaczonym katalogu dokumentów (`DataDir`, Plik ten będzie służył jako docelowy do ustawiania marginesów strony.
+Upewnij się, że masz plik Microsoft Project (`Project2.mpp`) dostępne w wyznaczonym katalogu dokumentów (`DataDir`). Plik ten będzie służył jako docelowy do ustawiania marginesów strony.
 
 ## Importuj przestrzenie nazw
 Aby rozpocząć manipulowanie plikami Microsoft Project przy użyciu Aspose.Tasks dla .NET, musisz zaimportować niezbędne przestrzenie nazw do swojego kodu C#. Ten krok zapewnia dostęp do klas i metod udostępnianych przez bibliotekę Aspose.Tasks.

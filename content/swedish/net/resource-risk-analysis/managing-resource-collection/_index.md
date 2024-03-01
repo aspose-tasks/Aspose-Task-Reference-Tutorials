@@ -98,4 +98,4 @@ S: Ja, Aspose.Tasks stöder multi-threading, vilket möjliggör samtidiga operat
 
 ### F: Finns teknisk support tillgänglig för Aspose.Tasks-användare?
 
- S: Ja, Aspose.Tasks-användare kan få tillgång till teknisk support via forumet.[här](https://forum.aspose.com/c/tasks/15).
+ S: Ja, Aspose.Tasks-användare kan få tillgång till teknisk support via forumet[här](https://forum.aspose.com/c/tasks/15).

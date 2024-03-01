@@ -32,7 +32,7 @@ Podzielmy teraz każdy przykład na wiele kroków i szczegółowo je wyjaśnijmy
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Tutaj inicjujemy nową instancję klasy`Project` class, podając ścieżkę do pliku Microsoft Project.
+ Tutaj inicjujemy nową instancję klasy`Project` class, podając ścieżkę do pliku Microsoft Project.
 ## Krok 2: Ustaw datę statusu:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
@@ -91,7 +91,7 @@ project.Save(DataDir + "WorkWithRecurringInterval_out.pdf", SaveFileFormat.Pdf);
 Na koniec zapisujemy projekt ze zaktualizowanym interwałem cyklicznym jako plik PDF.
 
 ## Wniosek
-Podsumowując, zarządzanie powtarzającymi się interwałami w plikach Microsoft Project za pomocą Aspose.Tasks dla .NET stało się proste dzięki kompleksowym funkcjom zapewnianym przez bibliotekę. Postępując zgodnie ze szczegółowym przewodnikiem opisanym w tym samouczku, możesz skutecznie radzić sobie z powtarzającymi się interwałami w swoich projektach, zwiększając produktywność i organizację.
+Podsumowując, zarządzanie powtarzającymi się interwałami w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET stało się proste dzięki kompleksowym funkcjom zapewnianym przez bibliotekę. Postępując zgodnie ze szczegółowym przewodnikiem opisanym w tym samouczku, możesz skutecznie radzić sobie z powtarzającymi się interwałami w swoich projektach, zwiększając produktywność i organizację.
 ### Często zadawane pytania
 ### Czy mogę używać Aspose.Tasks dla .NET z innymi językami programowania?
 Tak, Aspose.Tasks dla .NET może być używany z dowolnym językiem obsługiwanym przez .NET, takim jak C# i VB.NET.

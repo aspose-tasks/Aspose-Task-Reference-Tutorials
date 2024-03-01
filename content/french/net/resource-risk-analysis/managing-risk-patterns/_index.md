@@ -15,7 +15,7 @@ En gestion de projet, la compréhension et l’atténuation des risques sont ess
 Avant de nous plonger dans la gestion des modèles de risque MS Project à l'aide d'Aspose.Tasks pour .NET, assurez-vous de disposer des éléments suivants :
 
 1. Fichier Microsoft Project : disposez d'un fichier Microsoft Project (.mpp) contenant les tâches et les données de projet pertinentes.
-2. Aspose.Tasks pour .NET : téléchargez et installez la bibliothèque Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks pour .NET : téléchargez et installez la bibliothèque Aspose.Tasks pour .NET à partir du[site web](https://releases.aspose.com/tasks/net/).
 3. Compréhension de base de C# : Une connaissance des bases du langage de programmation C# est recommandée.
 
 ## Importer des espaces de noms
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- Dans cette étape, nous définissons le répertoire du document de projet et créons des paramètres pour l'analyse des risques. Ajuste le`IterationsCount` selon les besoins en fonction de la complexité du projet.
+Dans cette étape, nous définissons le répertoire du document de projet et créons des paramètres pour l'analyse des risques. Ajuste le`IterationsCount` selon les besoins en fonction de la complexité du projet.
 
 ## Étape 2 : Charger le projet et la tâche
 

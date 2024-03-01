@@ -1,6 +1,6 @@
 ---
 title: Beheersing van VBA-referentiebeheer - een stapsgewijze handleiding
-linktitle: Verwerking van referenties VBA in Aspose.Tasks
+linktitle: VBA-referenties verwerken in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van het omgaan met VBA-referenties in Aspose.Tasks .NET met onze uitgebreide tutorial. Leer naadloos VBA-referenties lezen, vergelijken en ermee werken.
 type: docs
@@ -21,7 +21,7 @@ Zorg ervoor dat u de benodigde naamruimten aan het begin van uw code hebt opgeno
     using System;
     
 ```
-## Referenties lezen VBA
+## VBA-referenties lezen
 Laten we beginnen met het lezen van VBA-referenties uit een projectbestand:
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -43,7 +43,7 @@ Console.WriteLine("VBA reference 1 Name: " + reference1.Name);
 Console.WriteLine("VBA reference 2 Name: " + reference2.Name);
 Console.WriteLine("Are references equal: " + reference1.Equals(reference2));
 ```
-Dit codefragment laat zien hoe u twee VBA-referenties op gelijkheid kunt vergelijken op basis van hun naam.
+Dit codefragment laat zien hoe u twee VBA-referenties op gelijkheid kunt vergelijken op basis van hun namen.
 ## Hashcodes van VBA-referenties verkrijgen
 Laten we vervolgens de hashcodes van twee VBA-referenties verkrijgen:
 ```csharp
@@ -72,10 +72,10 @@ Gefeliciteerd! U hebt met succes door de afhandeling van VBA-referenties in Aspo
 ### Vraag: Kan ik Aspose.Tasks met andere programmeertalen gebruiken?
 A: Aspose.Tasks ondersteunt voornamelijk .NET-talen, maar er zijn andere Aspose-producten die zijn afgestemd op verschillende platforms en talen.
 ### Vraag: Hoe verkrijg ik een tijdelijke licentie voor Aspose.Tasks?
-A: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Is er community-ondersteuning beschikbaar voor Aspose.Tasks?
  A: Ja, u kunt ondersteuning vinden op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Waar kan ik gedetailleerde documentatie voor Aspose.Tasks vinden?
  A: De documentatie is beschikbaar[hier](https://reference.aspose.com/tasks/net/).
 ### Vraag: Kan ik Aspose.Tasks kopen?
- A: Ja, u kunt het kopen.[hier](https://purchase.aspose.com/buy).
+ A: Ja, u kunt het kopen[hier](https://purchase.aspose.com/buy).

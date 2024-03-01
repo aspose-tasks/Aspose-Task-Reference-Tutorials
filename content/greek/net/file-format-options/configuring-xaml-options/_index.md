@@ -1,6 +1,6 @@
 ---
 title: Διαμορφώστε τις επιλογές XAML του MS Project με το Aspose.Tasks για .NET
-linktitle: Διαμορφώστε τις επιλογές XAML στο Aspose.Tasks
+linktitle: Διαμόρφωση επιλογών XAML στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις επιλογές του MS Project XAML στο Aspose.Tasks για .NET. Βελτιώστε την ευελιξία διαχείρισης έργου και την προσαρμογή με καθοδήγηση βήμα προς βήμα.
 type: docs
@@ -25,7 +25,7 @@ using Aspose.Tasks.Visualization;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον κατάλογο εγγράφων σας όπου βρίσκεται το αρχείο MS Project.
+ Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον κατάλογο εγγράφων σας όπου βρίσκεται το αρχείο MS Project.
 ## Βήμα 2: Φορτώστε το αρχείο MS Project
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -59,11 +59,11 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 
 ### Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Tasks για .NET;
 
- Α: Μπορείτε να ζητήσετε βοήθεια από τα φόρουμ της κοινότητας.[εδώ](https://forum.aspose.com/c/tasks/15).
+ Α: Μπορείτε να ζητήσετε βοήθεια από τα φόρουμ της κοινότητας[εδώ](https://forum.aspose.com/c/tasks/15).
 
 ### Ε: Χρειάζομαι μια προσωρινή άδεια χρήσης για τη χρήση του Aspose.Tasks για .NET;
 
-Α: Μπορεί να χρειαστείτε μια προσωρινή άδεια χρήσης για ορισμένες προηγμένες λειτουργίες, τις οποίες μπορείτε να αποκτήσετε[εδώ](https://purchase.aspose.com/temporary-license/).
+ Α: Μπορεί να χρειαστείτε μια προσωρινή άδεια χρήσης για ορισμένες προηγμένες λειτουργίες, τις οποίες μπορείτε να αποκτήσετε[εδώ](https://purchase.aspose.com/temporary-license/).
 
 ### Ε: Πού μπορώ να αγοράσω το Aspose.Tasks για .NET;
 

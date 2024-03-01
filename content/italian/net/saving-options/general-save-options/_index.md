@@ -35,7 +35,7 @@ Innanzitutto, devi caricare il file MS Project utilizzando Aspose.Tasks:
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## Passaggio 2: definire le opzioni di salvataggio
- Definisci le opzioni di salvataggio in base alle tue esigenze. In questo esempio, stiamo utilizzando`Spreadsheet2003SaveOptions`,
+ Definisci le opzioni di salvataggio in base alle tue esigenze. In questo esempio, stiamo utilizzando`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ R: Sì, Aspose.Tasks supporta varie versioni dei file MS Project, garantendo la 
 ### D: Posso provare Aspose.Tasks prima dell'acquisto?
  R: Sì, puoi esplorare Aspose.Tasks con una prova gratuita disponibile[Qui](https://releases.aspose.com/).
 ### D: Dove posso trovare la documentazione per Aspose.Tasks?
-R: È possibile trovare la documentazione dettagliata[Qui](https://reference.aspose.com/tasks/net/), fornendo indicazioni complete sull'utilizzo delle funzionalità Aspose.Tasks.
+ R: È possibile trovare la documentazione dettagliata[Qui](https://reference.aspose.com/tasks/net/), fornendo indicazioni complete sull'utilizzo delle funzionalità Aspose.Tasks.
 ### D: Come posso ottenere licenze temporanee per Aspose.Tasks?
- R: Le licenze temporanee sono disponibili a scopo di valutazione.[Qui](https://purchase.aspose.com/temporary-license/).
+ R: Le licenze temporanee sono disponibili a scopo di valutazione[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso chiedere supporto per le query relative ad Aspose.Tasks?
- R: Puoi iscriverti al forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15) per ottenere assistenza da esperti e colleghi sviluppatori.
+ R: Puoi iscriverti al forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15)per ottenere assistenza da esperti e colleghi sviluppatori.

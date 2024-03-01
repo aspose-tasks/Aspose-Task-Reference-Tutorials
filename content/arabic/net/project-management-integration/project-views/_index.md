@@ -12,7 +12,7 @@ url: /ar/net/project-management-integration/project-views/
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من إعداد المتطلبات الأساسية التالية:
 ### 1. قم بتثبيت Aspose.Tasks لـ .NET
- يمكنك تنزيل وتثبيت Aspose.Tasks لـ .NET من[موقع إلكتروني](https://releases.aspose.com/tasks/net/), اتبع تعليمات التثبيت المتوفرة لإعداد المكتبة في بيئة التطوير الخاصة بك.
+ يمكنك تنزيل وتثبيت Aspose.Tasks لـ .NET من[موقع إلكتروني](https://releases.aspose.com/tasks/net/). اتبع تعليمات التثبيت المتوفرة لإعداد المكتبة في بيئة التطوير الخاصة بك.
 ### 2. المعرفة الأساسية بـ C# و.NET Framework
 تعرف على لغة البرمجة C# و.NET Framework، حيث يفترض هذا البرنامج التعليمي فهمًا أساسيًا لهذه المفاهيم.
 ### 3. ملف مشروع مايكروسوفت
@@ -52,7 +52,7 @@ project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
 ## الأسئلة الشائعة
 ### 1. هل يمكنني تخصيص طرق عرض بخلاف طريقة عرض المهمة؟
 نعم، يوفر Aspose.Tasks for .NET خيارات لتخصيص طرق عرض متنوعة، بما في ذلك طرق عرض Gantt Chart، واستخدام الموارد، واستخدام المهام.
-### 2. هل يتوافق Aspose.Tasks for .NET مع الإصدارات المختلفة من ملفات Microsoft Project؟
+### 2. هل يتوافق Aspose.Tasks for .NET مع إصدارات مختلفة من ملفات Microsoft Project؟
 نعم، يدعم Aspose.Tasks for .NET نطاقًا واسعًا من تنسيقات ملفات Microsoft Project، بما في ذلك MPP وMPT وXML.
 ### 3. كيف يمكنني دمج طرق عرض المشروع المخصصة في تطبيق .NET الخاص بي؟
 يمكنك دمج طرق عرض المشروع المخصصة من خلال دمج Aspose.Tasks for .NET في تطبيق .NET الخاص بك واستخدام واجهة برمجة التطبيقات (API) الخاصة به لمعالجة بيانات المشروع وطرق العرض برمجيًا.

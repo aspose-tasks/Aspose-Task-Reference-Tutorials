@@ -84,7 +84,7 @@ Trong hướng dẫn này, chúng tôi đã khám phá quy trình từng bước
 ### Tôi có thể sử dụng Aspose.Tasks miễn phí không?
  Aspose.Tasks cung cấp bản dùng thử miễn phí mà bạn có thể tải xuống[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm thêm hỗ trợ ở đâu?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15)để hỗ trợ cộng đồng.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để hỗ trợ cộng đồng.
 ### Làm thế nào tôi có thể có được giấy phép tạm thời?
  Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Có tài liệu chi tiết có sẵn?

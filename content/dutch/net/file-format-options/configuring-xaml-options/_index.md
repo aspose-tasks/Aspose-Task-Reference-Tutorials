@@ -1,6 +1,6 @@
 ---
 title: Configureer MS Project XAML-opties met Aspose.Tasks voor .NET
-linktitle: Configureer XAML-opties in Aspose.Tasks
+linktitle: XAML-opties configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project XAML-opties configureert in Aspose.Tasks voor .NET. Verbeter de flexibiliteit en het maatwerk van projectbeheer met stapsgewijze begeleiding.
 type: docs
@@ -25,7 +25,7 @@ using Aspose.Tasks.Visualization;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- vervangen`"Your Document Directory"` met het pad naar uw documentmap waar het MS Project-bestand zich bevindt.
+ Vervangen`"Your Document Directory"` met het pad naar uw documentmap waar het MS Project-bestand zich bevindt.
 ## Stap 2: Laad het MS Project-bestand
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -59,11 +59,11 @@ A: Ja, Aspose.Tasks voor .NET ondersteunt integratie met verschillende projectma
 
 ### Vraag: Hoe kan ik ondersteuning krijgen voor Aspose.Tasks voor .NET?
 
- A: U kunt hulp zoeken op de communityforums.[hier](https://forum.aspose.com/c/tasks/15).
+ A: U kunt hulp zoeken op de communityforums[hier](https://forum.aspose.com/c/tasks/15).
 
 ### Vraag: Heb ik een tijdelijke licentie nodig voor het gebruik van Aspose.Tasks voor .NET?
 
-A: Mogelijk hebt u voor bepaalde geavanceerde functies een tijdelijke licentie nodig. Deze kunt u verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A: Mogelijk hebt u voor bepaalde geavanceerde functies een tijdelijke licentie nodig. Deze kunt u verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
 
 ### Vraag: Waar kan ik Aspose.Tasks voor .NET kopen?
 

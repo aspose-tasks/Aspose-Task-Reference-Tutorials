@@ -87,7 +87,7 @@ project.Save(DataDir + "WorkWithGanttChartColumn_out.csv", options);
 Az alábbi lépések követésével hatékonyan dolgozhat a Gantt-diagram oszlopaival az Aspose.Tasks for .NET-ben, így szükség szerint testreszabhatja és megjelenítheti a feladatadatokat.
 
 ## Következtetés
-Ha elsajátítja a Gantt-diagram oszlopainak kezelését az Aspose.Tasks for .NET-ben, végtelen lehetőségek nyílnak meg a projektmenedzsment-vizualizációk egyedi igényeire szabására. Az oktatóanyagban ismertetett lépések követésével hatékonyan kezelheti a feladatinformációkat, és javíthatja a projekt átláthatóságát és szervezettségét.
+Ha elsajátítja a Gantt-diagram oszlopainak kezelését az Aspose.Tasks for .NET-ben, végtelen lehetőségek nyílnak meg a projektmenedzsment-vizuálok egyedi igényeire szabására. Az oktatóanyagban ismertetett lépések követésével hatékonyan kezelheti a feladatinformációkat, és javíthatja a projekt átláthatóságát és szervezettségét.
 ## GYIK
 ### K: Létrehozhatok egyéni oszlopokat az Aspose.Tasks for .NET-ben?
 V: Igen, egyedi oszlopokat definiálhat konkrét feladatattribútumok megjelenítéséhez a projekt követelményei szerint.

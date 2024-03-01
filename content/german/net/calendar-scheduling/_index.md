@@ -116,7 +116,7 @@ Erfahren Sie, wie Sie Projektkosten mit Aspose.Tasks für .NET effektiv verwalte
 ### [CSS-Speicherargumente in Aspose.Tasks](./css-saving-arguments/)
 Erfahren Sie, wie Sie CSS-Argumente in Aspose.Tasks für .NET speichern, um die HTML-Ausgabe anzupassen. Verbessern Sie die Präsentation mit maßgeschneiderten CSS-Einstellungen.
 ### [CSV-Optionen in Aspose.Tasks](./csv-options/)
-Erfahren Sie, wie Sie Aspose.Tasks für .NET nutzen, um effizient mit CSV-Dateien zu arbeiten und Ihre Projektmanagementfunktionen mühelos zu verbessern.
+Erfahren Sie, wie Sie Aspose.Tasks für .NET nutzen, um effizient mit CSV-Dateien zu arbeiten und so Ihre Projektmanagementfunktionen mühelos zu verbessern.
 ### [Währungssymbolpositionen in Aspose.Tasks](./currency-symbol-positions/)
 Erfahren Sie, wie Sie mit Aspose.Tasks mühelos die Positionen von Währungssymbolen in .NET-Projekten steuern.
 ### [Benutzerdefinierte Feldtypen in Aspose.Tasks](./custom-field-types/)

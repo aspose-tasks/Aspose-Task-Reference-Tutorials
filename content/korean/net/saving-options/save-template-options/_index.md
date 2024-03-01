@@ -42,7 +42,7 @@ var options = new SaveTemplateOptions
 {
 	// 프로젝트 템플릿에서 모든 고정 비용 제거
 	RemoveFixedCosts = true,
-	// 프로젝트 템플릿에서 실제 값을 모두 제거합니다.
+	// 프로젝트 템플릿에서 모든 실제 값을 제거합니다.
 	RemoveActualValues = true,
 	// 프로젝트 템플릿에서 자원 요율 제거
 	RemoveResourceRates = true,
@@ -75,4 +75,4 @@ A: 예, 필요에 따라 템플릿 파일을 로드하고 현재 프로젝트와
 ### Q: .NET용 Aspose.Tasks는 크로스 플랫폼 개발을 지원합니까?
 A: Aspose.Tasks for .NET은 주로 Windows 플랫폼에서 실행되는 .NET 프레임워크 애플리케이션용으로 설계되었습니다.
 ### Q: Aspose.Tasks for .NET에 대한 기술 지원이 제공됩니까?
- A: 예, Aspose.Tasks 커뮤니티에서 기술 지원과 지침을 구할 수 있습니다.[포럼](https://forum.aspose.com/c/tasks/15) 또는 지원팀에 직접 문의하세요.
+ A: 예, Aspose.Tasks 커뮤니티에서 기술 지원과 지침을 구할 수 있습니다.[포럼](https://forum.aspose.com/c/tasks/15)또는 지원팀에 직접 문의하세요.

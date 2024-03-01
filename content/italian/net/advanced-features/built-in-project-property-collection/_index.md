@@ -25,7 +25,7 @@ Acquisisci familiarità con le nozioni di base del linguaggio di programmazione 
 
 ### 3. Installazione di Aspose.Tasks per .NET
 
-Scarica e installa Aspose.Tasks per la libreria .NET da[sito web](https://releases.aspose.com/tasks/net/).
+ Scarica e installa Aspose.Tasks per la libreria .NET da[sito web](https://releases.aspose.com/tasks/net/).
 
 ### 4. Familiarità con i concetti di Project Management
 

@@ -1,5 +1,5 @@
 ---
-title: Tiff-compressiehandleiding in Aspose.Tasks
+title: Tiff-compressiegids in Aspose.Tasks
 linktitle: Tiff-compressie kiezen in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Ontdek de kracht van Aspose.Tasks voor .NET bij het kiezen van Tiff-compressie. Volg onze stapsgewijze handleiding voor een efficiënte projectvisualisatie.

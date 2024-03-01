@@ -52,4 +52,4 @@ J: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Tasks untuk .NET dari situ
 ### T: Apakah Aspose.Tasks untuk .NET mendukung lisensi sementara?
  J: Ya, lisensi sementara tersedia untuk Aspose.Tasks untuk .NET. Anda dapat memperolehnya dari:[Lisensi Sementara](https://purchase.aspose.com/temporary-license/)
 ### T: Di mana saya dapat membeli Aspose.Tasks untuk .NET?
- J: Anda dapat membeli Aspose.Tasks untuk .NET dari situs web:[pembelian](https://purchase.aspose.com/buy).
+ J: Anda dapat membeli Aspose.Tasks untuk .NET dari situs web:[Pembelian](https://purchase.aspose.com/buy).

@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Imposta proprietà dell'assegnazione...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Imposta proprietà assegnazione2...
+//Imposta proprietà assegnazione2...
 ```
 ## 4. Lavorare con dati rapportati alla scala cronologica
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Manipolare i dati rapportati alla scala cronologica
 ```csharp
-//Aggiungere un elemento dati rapportato alla scala cronologica errato ed eliminarlo
+// Aggiungere un elemento dati rapportato alla scala cronologica errato ed eliminarlo
 var td4 = new TimephasedData
 {
     // Imposta proprietà dei dati rapportati alla scala cronologica errati...
@@ -120,4 +120,4 @@ Aspose.Tasks gestisce progetti di varie dimensioni e non esiste un limite rigido
 ### Posso provare Aspose.Tasks per .NET prima di acquistarlo?
  Sì, puoi esplorare le funzionalità di Aspose.Tasks per .NET accedendo a[prova gratuita](https://releases.aspose.com/).
 ### Dove posso acquistare una licenza per Aspose.Tasks per .NET?
- È possibile acquistare una licenza per Aspose.Tasks per .NET[Qui](https://purchase.aspose.com/buy).
+È possibile acquistare una licenza per Aspose.Tasks per .NET[Qui](https://purchase.aspose.com/buy).

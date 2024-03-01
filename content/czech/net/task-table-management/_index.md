@@ -51,9 +51,9 @@ Odemkněte dovednosti, abyste mohli bez námahy zvládnout základní úkoly v A
 
  Uvolněte sílu Aspose.Tasks pro .NET při efektivní správě odkazů projektových úkolů. Postupujte podle našeho podrobného průvodce, abyste zlepšili své zkušenosti s řízením projektů pomocí[Výukový program Task Link Collection](./task-link-collection/).
 
-## Nakonfigurujte typy dat zahájení úlohy v Aspose.Tasks
+## Konfigurace typů dat zahájení úlohy v Aspose.Tasks
 
- Snadno konfigurujte typy dat zahájení úloh pomocí Aspose.Tasks pro .NET. Optimalizujte řízení projektů s lehkostí prozkoumáním[Výukový program Typy data zahájení úlohy](./task-start-date-types/), Stáhněte si bezplatnou zkušební verzi nyní!
+ Snadno konfigurujte typy dat zahájení úloh pomocí Aspose.Tasks pro .NET. Optimalizujte řízení projektů s lehkostí prozkoumáním[Výukový program Typy data zahájení úlohy](./task-start-date-types/). Stáhněte si bezplatnou zkušební verzi nyní!
 
 ## Konfigurace zobrazení využití úkolů v Aspose.Tasks
 
@@ -85,7 +85,7 @@ Prozkoumejte základní linie úkolů bez námahy s Aspose.Tasks pro .NET. Jedno
 Prozkoumejte efektivní správu kolekce úkolů v Aspose.Tasks pro .NET. Od vytvoření po úpravy, ovládněte snadno správu projektů.
 ### [Manipulace s odkazy na úkoly v Aspose.Tasks](./task-link-collection/)
 Prozkoumejte sílu Aspose.Tasks pro .NET při efektivní správě odkazů projektových úkolů. Postupujte podle našeho podrobného průvodce, abyste zlepšili své zkušenosti s řízením projektů.
-### [Nakonfigurujte typy dat zahájení úlohy v Aspose.Tasks](./task-start-date-types/)
+### [Konfigurace typů dat zahájení úlohy v Aspose.Tasks](./task-start-date-types/)
 Prozkoumejte Aspose.Tasks for .NET a snadno nakonfigurujte typy dat zahájení úloh. Snadno optimalizujte řízení projektů. Stáhněte si bezplatnou zkušební verzi nyní!
 ### [Konfigurace zobrazení využití úkolů v Aspose.Tasks](./task-usage-views/)
 Prozkoumejte Aspose.Tasks for .NET, abyste mohli bez námahy spravovat a vizualizovat data projektu. Ponořte se do polí zobrazení využití úkolů pro lepší přehled o projektu.

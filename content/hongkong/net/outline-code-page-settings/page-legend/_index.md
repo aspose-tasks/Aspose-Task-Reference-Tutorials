@@ -1,5 +1,5 @@
 ---
-title: 在 Aspose.Tasks 中配置 MS Project 圖例
+title: 在 Aspose.Tasks 中配置 MS 專案圖例
 linktitle: 在Aspose.Tasks中設定頁面圖例
 second_title: Aspose.Tasks .NET API
 description: 了解如何使用 Aspose.Tasks 在 .NET 中設定 MS Project 頁面圖例，以實現高效率的專案管理。提供逐步指南。
@@ -26,7 +26,7 @@ using System;
 
 using Aspose.Tasks.Saving;
 ```
-讓我們將提供的範例分解為逐步指南格式，以全面了解如何使用 Aspose.Tasks for .NET 設定 MS Project 頁面圖例。
+讓我們將提供的範例分解為逐步指南格式，以全面了解使用 Aspose.Tasks for .NET 設定 MS Project 頁面圖例。
 
 ## 步驟1：指定文檔目錄
 設定 Microsoft Project 檔案所在文件目錄的路徑。

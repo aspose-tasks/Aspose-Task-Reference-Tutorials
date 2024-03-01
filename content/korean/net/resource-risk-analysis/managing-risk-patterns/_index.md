@@ -15,7 +15,7 @@ url: /ko/net/resource-risk-analysis/managing-risk-patterns/
 .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 위험 패턴을 관리하기 전에 다음 사항이 있는지 확인하세요.
 
 1. Microsoft Project 파일: 작업 및 관련 프로젝트 데이터가 포함된 Microsoft Project 파일(.mpp)이 있습니다.
-2. .NET용 Aspose.Tasks: 다음에서 .NET용 Aspose.Tasks 라이브러리를 다운로드하고 설치하세요.[웹사이트](https://releases.aspose.com/tasks/net/).
+2.  .NET용 Aspose.Tasks: 다음에서 .NET용 Aspose.Tasks 라이브러리를 다운로드하고 설치하세요.[웹사이트](https://releases.aspose.com/tasks/net/).
 3. C#에 대한 기본 이해: C# 프로그래밍 언어 기본 사항에 익숙해지는 것이 좋습니다.
 
 ## 네임스페이스 가져오기
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- 이 단계에서는 프로젝트 문서의 디렉터리를 정의하고 위험 분석을 위한 설정을 생성합니다. 조정하다`IterationsCount` 프로젝트 복잡성에 따라 필요에 따라.
+이 단계에서는 프로젝트 문서의 디렉터리를 정의하고 위험 분석을 위한 설정을 생성합니다. 조정하다`IterationsCount` 프로젝트 복잡성에 따라 필요에 따라.
 
 ## 2단계: 프로젝트 및 작업 로드
 
@@ -117,6 +117,6 @@ A: 물론 Aspose.Tasks를 사용하면 각 프로젝트의 고유한 요구 사�
 
  A: 예, 개발자는 다음을 통해 포괄적인 지원을 받을 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 문의사항이나 문제가 발생하면
 
-### Q5: Aspose.Tasks에 사용할 수 있는 평가판이 있습니까?
+### Q5: Aspose.Tasks에 사용할 수 있는 평가판이 있나요?
 
  A: 예, Aspose.Tasks의 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/) 구매하기 전에 기능을 살펴보세요.

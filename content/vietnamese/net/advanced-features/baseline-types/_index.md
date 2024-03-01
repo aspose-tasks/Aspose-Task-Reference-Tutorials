@@ -21,7 +21,7 @@ Trước khi đi sâu vào thế giới đường cơ sở với Aspose.Tasks ch
 
 ### 2. Cài đặt Aspose.Tasks cho .NET
 
- Đảm bảo bạn đã cài đặt thư viện Aspose.Tasks for .NET trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[Trang web Aspose.Tasks](https://releases.aspose.com/tasks/net/) hoặc thông qua trình quản lý gói NuGet.
+Đảm bảo bạn đã cài đặt thư viện Aspose.Tasks for .NET trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[Trang web Aspose.Tasks](https://releases.aspose.com/tasks/net/) hoặc thông qua trình quản lý gói NuGet.
 
 ### 3. Môi trường phát triển tích hợp (IDE)
 
@@ -35,7 +35,7 @@ Trước khi bắt đầu làm việc với Aspose.Tasks trong dự án C# của
 
 ```
 
-Bây giờ chúng ta đã thiết lập các điều kiện tiên quyết và nhập các không gian tên cần thiết, hãy đi sâu vào việc thiết lập các loại đường cơ sở khác nhau bằng cách sử dụng Aspose.Tasks cho .NET. Chúng tôi sẽ chia mỗi ví dụ thành nhiều bước để rõ ràng và dễ hiểu.
+Bây giờ chúng ta đã thiết lập các điều kiện tiên quyết và nhập các vùng tên cần thiết, hãy đi sâu vào việc thiết lập các loại đường cơ sở khác nhau bằng cách sử dụng Aspose.Tasks cho .NET. Chúng tôi sẽ chia mỗi ví dụ thành nhiều bước để rõ ràng và dễ hiểu.
 
 ## Bước 1: Tải tệp dự án
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Bước 2: Đặt đường cơ sở
 
- Sau khi dự án được tải, chúng ta có thể tiến hành thiết lập đường cơ sở. Đường cơ sở cung cấp ảnh chụp nhanh về lịch trình ban đầu của dự án, đóng vai trò là điểm tham chiếu để so sánh khi dự án tiến triển. Sử dụng`SetBaseline` phương pháp thiết lập đường cơ sở. Ví dụ: để đặt đường cơ sở cho toàn bộ dự án, hãy sử dụng`BaselineType.Baseline` liệt kê:
+Sau khi dự án được tải, chúng ta có thể tiến hành thiết lập đường cơ sở. Đường cơ sở cung cấp ảnh chụp nhanh về lịch trình ban đầu của dự án, đóng vai trò là điểm tham chiếu để so sánh khi dự án tiến triển. Sử dụng`SetBaseline` phương pháp thiết lập đường cơ sở. Ví dụ: để đặt đường cơ sở cho toàn bộ dự án, hãy sử dụng`BaselineType.Baseline` liệt kê:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);

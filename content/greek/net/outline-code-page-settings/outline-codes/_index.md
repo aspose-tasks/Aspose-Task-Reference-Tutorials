@@ -31,7 +31,7 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς το αρχείο του έργου σας.
+ Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς το αρχείο του έργου σας.
 ## Βήμα 2: Φορτώστε το Αρχείο Έργου
  Δημιουργήστε ένα νέο`Project` αντικείμενο φορτώνοντας το αρχείο MS Project.
 ```csharp

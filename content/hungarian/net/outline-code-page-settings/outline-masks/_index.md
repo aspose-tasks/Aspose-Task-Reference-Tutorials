@@ -75,4 +75,4 @@ V: Valóban, meglátogathatja a[Aspose.Tasks fórum](https://forum.aspose.com/c/
 ### K: Kipróbálhatom az Aspose.Tasks-t .NET-hez a vásárlás előtt?
  V: Természetesen! Hozzáférhet az Aspose.Tasks ingyenes próbaverziójához[itt](https://releases.aspose.com/).
 ### K: Hol szerezhetek ideiglenes licencet az Aspose.Tasks számára?
- V: Ha ideiglenes licencre van szüksége értékelési vagy tesztelési célokra, szerezhet egyet.[itt](https://purchase.aspose.com/temporary-license/).
+ V: Ha ideiglenes licencre van szüksége értékelési vagy tesztelési célokra, szerezhet egyet[itt](https://purchase.aspose.com/temporary-license/).

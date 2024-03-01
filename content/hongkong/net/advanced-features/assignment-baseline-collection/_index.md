@@ -87,7 +87,7 @@ A1：是的，Aspose.Tasks 支援各種專案檔案格式，包括 MPP、XML 和
 
 ### Q2：Aspose.Tasks 是否與所有版本的.NET Framework 相容？
 
-A2：Aspose.Tasks for .NET 與.NET Framework 的多個版本相容，確保開發人員跨不同環境的兼容性和靈活性。
+A2：Aspose.Tasks for .NET 相容於多個版本的.NET Framework，確保開發人員跨不同環境的相容性和彈性。
 
 ### Q3：我可以使用 Aspose.Tasks 以程式設計方式操作分配基線嗎？
 

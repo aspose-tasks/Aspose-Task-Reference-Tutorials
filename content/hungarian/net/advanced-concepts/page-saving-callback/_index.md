@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 
 1. C# programozási nyelv ismerete: Alapvető ismeretekkel kell rendelkeznie a C# szintaxisáról és fogalmairól.
    
-2. Az Aspose.Tasks telepítése .NET-hez: Győződjön meg arról, hogy telepítette az Aspose.Tasks könyvtárat a fejlesztői környezetben. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
+2.  Az Aspose.Tasks telepítése .NET-hez: Győződjön meg arról, hogy telepítette az Aspose.Tasks könyvtárat a fejlesztői környezetben. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
 
 3. Fejlesztői környezet beállítása: Állítsa be a kívánt IDE-t a .NET-fejlesztéshez, például a Visual Studio-t.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## 2. lépés: Konfigurálja a képmentési beállításokat
 
- Határozza meg`ImageSaveOptions` és testreszabhatja az oldalmentési viselkedést a beállításával`PageSavingCallback` ingatlan:
+ Határozza meg`ImageSaveOptions`és testreszabhatja az oldalmentési viselkedést a beállításával`PageSavingCallback` ingatlan:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);

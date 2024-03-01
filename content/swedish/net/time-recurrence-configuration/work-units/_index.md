@@ -50,9 +50,9 @@ Sammanfattningsvis ger Aspose.Tasks för .NET utvecklare möjlighet att sömlös
 ### Är Aspose.Tasks kompatibel med alla filformat för projektledning?
  Aspose.Tasks stöder olika projektfilformat, inklusive MPP, XML och mer. Referera till[dokumentation](https://reference.aspose.com/tasks/net/) för en omfattande lista.
 ### Kan jag prova Aspose.Tasks innan jag köper?
-Ja, du kan utforska Aspose.Tasks med en gratis provperiod. Ladda ner den från[släpp sida](https://releases.aspose.com/).
+ Ja, du kan utforska Aspose.Tasks med en gratis provperiod. Ladda ner den från[släpp sida](https://releases.aspose.com/).
 ### Var kan jag hitta ytterligare support för Aspose.Tasks?
- besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och diskussioner.
+ Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd och diskussioner.
 ### Hur får jag en tillfällig licens för Aspose.Tasks?
  Skaffa en tillfällig licens för Aspose.Tasks genom att besöka[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).
 ### Vilka fördelar erbjuder Aspose.Tasks för hantering av arbetsenheter?

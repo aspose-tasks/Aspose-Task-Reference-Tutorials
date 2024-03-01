@@ -13,7 +13,7 @@ Die Verwaltung von Lizenzen ist ein entscheidender Aspekt für die effektive Nut
 Bevor wir uns mit der Verwaltung von Lizenzen mit Aspose.Tasks in .NET befassen, stellen Sie sicher, dass Sie die folgenden Voraussetzungen erfüllen:
 - Grundlegende Kenntnisse der Programmiersprache C# und des .NET Frameworks.
 - Installierte Aspose.Tasks für .NET.
-- Zugriff auf eine gültige Aspose.Tasks-Lizenzdatei (`.lic`,
+- Zugriff auf eine gültige Aspose.Tasks-Lizenzdatei (`.lic`).
 ## Namespaces importieren
 Bevor Sie Aspose.Tasks in Ihrem .NET-Projekt verwenden können, müssen Sie die erforderlichen Namespaces importieren. Diese Namespaces bieten Zugriff auf die für die Lizenzverwaltung erforderlichen Klassen und Methoden.
 

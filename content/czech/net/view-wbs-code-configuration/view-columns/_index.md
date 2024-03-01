@@ -75,8 +75,8 @@ A: Aspose.Tasks se primárně zaměřuje na soubory Microsoft Project; můžete 
 ### Otázka: Jak mohu řešit problémy s přizpůsobením sloupce zobrazení?
  A: Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity a pomoc s jakýmikoli problémy, se kterými se setkáte.
 ### Otázka: Je před zakoupením Aspose.Tasks k dispozici zkušební verze?
-Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+ Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 ###  Otázka: Jaký je význam`MyTextStyleCallback` class in the tutorial?
- A:`MyTextStyleCallback` Kurz ukazuje, jak přizpůsobit styly textu pro lepší vizuální reprezentaci v konkrétních pohledech.
+ A:`MyTextStyleCallback` třída ukazuje, jak přizpůsobit styly textu pro lepší vizuální reprezentaci v konkrétních pohledech.
 ### Otázka: Kde najdu další zdroje a dokumentaci pro Aspose.Tasks?
  A: Viz[Dokumentace Aspose.Tasks](https://reference.aspose.com/tasks/net/) za hloubkové vedení a zdroje.

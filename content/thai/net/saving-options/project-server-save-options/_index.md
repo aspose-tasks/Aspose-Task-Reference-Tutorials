@@ -25,7 +25,7 @@ url: /th/net/saving-options/project-server-save-options/
     using System.Net;
     
 ```
-## ขั้นตอนที่ 1: เริ่มต้นโครงการและข้อมูลรับรอง
+## ขั้นตอนที่ 1: เริ่มต้นโครงการและข้อมูลประจำตัว
 ```csharp
 String DataDir = "Your Document Directory";
 const string URL = "https://project_server.local/sites/pwa";
@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
- ให้แน่ใจว่าคุณเปลี่ยน`"Your Document Directory"`, `URL`, `Domain`, `UserName` ,และ`Password` ด้วยคุณค่าที่แท้จริงของคุณ
+ ให้แน่ใจว่าคุณเปลี่ยน`"Your Document Directory"`, `URL`, `Domain`, `UserName` , และ`Password` ด้วยคุณค่าที่แท้จริงของคุณ
 ## ขั้นตอนที่ 2: สร้างตัวจัดการเซิร์ฟเวอร์โครงการ
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
- ปรับ`ProjectGuid`, `ProjectName`, `Timeout` ,และ`PollingInterval` ตามความต้องการของคุณ
+ ปรับ`ProjectGuid`, `ProjectName`, `Timeout` , และ`PollingInterval` ตามความต้องการของคุณ
 ## ขั้นตอนที่ 4: บันทึกโครงการไปยังเซิร์ฟเวอร์
 ```csharp
 manager.CreateNewProject(project, options);

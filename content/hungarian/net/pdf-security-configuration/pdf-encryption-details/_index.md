@@ -8,7 +8,7 @@ weight: 11
 url: /hu/net/pdf-security-configuration/pdf-encryption-details/
 ---
 ## Bevezetés
-.NET fejlesztés világában a feladatok hatékony kezelése kulcsfontosságú. Az Aspose.Tasks for .NET leegyszerűsíti ezt a folyamatot azáltal, hogy átfogó eszközkészletet biztosít a Microsoft Project fájlokkal való munkához. A feladatkezelés egyik lényeges szempontja az érzékeny projektinformációk biztonságának biztosítása. Ebben az oktatóanyagban az MS Project PDF-titkosítási részleteinek konfigurálásával foglalkozunk az Aspose.Tasks for .NET használatával.
+A .NET fejlesztés világában a feladatok hatékony kezelése kulcsfontosságú. Az Aspose.Tasks for .NET leegyszerűsíti ezt a folyamatot azáltal, hogy átfogó eszközkészletet biztosít a Microsoft Project fájlokkal való munkához. A feladatkezelés egyik lényeges szempontja az érzékeny projektinformációk biztonságának biztosítása. Ebben az oktatóanyagban az MS Project PDF-titkosítási részleteinek konfigurálásával foglalkozunk az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 1. A .NET alapjai: C# és .NET fejlesztői környezet ismerete.
@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Határozza meg a titkosítás részleteit, beleértve a felhasználói jelszót, a tulajdonos jelszavát, a titkosítási algoritmust és az engedélyeket:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //Felhasználói jelszó
+    "userPassword",        // Felhasználói jelszó
     "ownerPassword",       // Tulajdonos jelszó
     PdfEncryptionAlgorithm.RC4_128);  // Titkosítási algoritmus
 // Adja meg az engedélyeket
@@ -56,7 +56,7 @@ project.Save(DataDir + "EncryptedProject.pdf", options);
 ```
 
 ## Következtetés
-Ebben az oktatóanyagban megvizsgáltuk, hogyan konfigurálhatjuk az MS Project PDF titkosítási részleteit az Aspose.Tasks for .NET használatával. Ezen lépések követésével biztosíthatja projektfájljainak biztonságát, ha titkosítja azokat felhasználói és tulajdonosi jelszavakkal, megadja a titkosítási algoritmusokat, és szükség szerint beállítja az engedélyeket.
+Ebben az oktatóanyagban megvizsgáltuk, hogyan konfigurálhatjuk az MS Project PDF titkosítási részleteit az Aspose.Tasks for .NET használatával. Az alábbi lépések követésével biztosíthatja projektfájljainak biztonságát, ha titkosítja azokat felhasználói és tulajdonosi jelszavakkal, megadja a titkosítási algoritmusokat, és szükség szerint beállítja az engedélyeket.
 ## GYIK
 ### K: Titkosíthatok több MS Project fájlt egyidejűleg?
 V: Igen, végignézhet több projektfájlon, és mindegyikre külön-külön alkalmazhat titkosítási adatokat.

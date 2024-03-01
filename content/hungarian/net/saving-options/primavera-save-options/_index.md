@@ -24,7 +24,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## 1. lépés: Töltse be az MS Project fájlt
-Kezdje azzal, hogy betölti a dolgozni kívánt MS Project fájlt a C# alkalmazásba. Ezt megteheti a`Project` osztály által biztosított Aspose.Tasks.
+ Kezdje azzal, hogy betölti a dolgozni kívánt MS Project fájlt a C# alkalmazásba. Ezt megteheti a`Project` osztály által biztosított Aspose.Tasks.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -58,4 +58,4 @@ V: Az Aspose.Tasks minden méretű projekten dolgozó fejlesztők igényeinek me
 ### K: Kipróbálhatom ingyenesen az Aspose.Tasks-t vásárlás előtt?
  V: Igen, letöltheti az Aspose.Tasks ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/) jellemzőinek és képességeinek feltárására.
 ### K: Hol kaphatok támogatást, ha problémákba ütközöm vagy kérdéseim vannak az Aspose.Tasks használata során?
-V: Kérhet segítséget az Aspose.Tasks közösségtől és a támogató csapattól a webhelyen[fórum](https://forum.aspose.com/c/tasks/15).
+ V: Kérhet segítséget az Aspose.Tasks közösségtől és a támogató csapattól a webhelyen[fórum](https://forum.aspose.com/c/tasks/15).

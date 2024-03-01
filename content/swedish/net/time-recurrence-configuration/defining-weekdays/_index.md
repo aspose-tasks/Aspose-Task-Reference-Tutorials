@@ -68,7 +68,7 @@ Console.WriteLine("Week Day 2 Hash Code: {0}", weekDay2.GetHashCode());
 var project = new Project();
 // Definiera en kalender
 var calendar = project.Calendars.Add("Calendar1");
-// Lägg till arbetsdagar och undantagsdagar
+// Lägg till arbetsdagar och undantagsdag
 // Lägg till liknande utdatasatser för FromDate och ToDate
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));

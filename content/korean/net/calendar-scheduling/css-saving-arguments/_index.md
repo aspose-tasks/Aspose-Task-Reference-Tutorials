@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // HTML 저장 옵션 구성
+        //HTML 저장 옵션 구성
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ A3: Aspose.Tasks for .NET은 다양한 버전의 Microsoft Project 파일을 지
 
 ### Q4: .NET용 Aspose.Tasks에 대한 포괄적인 문서는 어디에서 찾을 수 있습니까?
 
- A4: 다음을 참조할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/tasks/net/) 자세한 정보와 예시를 확인하세요.
+A4: 다음을 참조할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/tasks/net/) 자세한 정보와 예시를 확인하세요.
 
 ### Q5: Aspose.Tasks for .NET은 개발자를 지원합니까?
 

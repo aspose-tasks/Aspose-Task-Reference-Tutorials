@@ -11,7 +11,7 @@ url: /ja/net/pdf-security-configuration/
 
 デジタル領域では、プロジェクト ファイルを保護することが最も重要です。 Aspose.Tasks for .NET は、Microsoft Project PDF のセキュリティを強化する堅牢なソリューションを提供します。このチュートリアル シリーズでは、PDF セキュリティ構成の複雑さを掘り下げて、貴重なプロジェクト データの機密性と信頼性を確保します。
 
-## Aspose.Tasks を使用して MS Project PDF デジタル署名を構成する
+## Aspose.Tasks を使用した MS Project PDF デジタル署名の構成
 
 プロジェクト文書の信頼性を検証する場合、デジタル署名は極めて重要な役割を果たします。このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project PDF デジタル署名の詳細を構成するプロセスについて説明します。最終的には、デジタル署名を効果的に実装し、プロジェクト ファイルの整合性を保証するための知識を習得できるようになります。
 
@@ -19,7 +19,7 @@ url: /ja/net/pdf-security-configuration/
 
 [Aspose.Tasks を使用した MS Project PDF デジタル署名の構成の詳細については、こちらをご覧ください。](./pdf-digital-signature-details/)
 
-## Aspose.Tasks で MS Project PDF 暗号化の詳細を構成する
+## Aspose.Tasks での MS Project PDF 暗号化の詳細の構成
 
 デジタル署名を超えて、暗号化によりプロジェクト ファイルに追加の保護層が追加されます。このチュートリアルでは、Aspose.Tasks for .NET を使用した MS Project PDF 暗号化の詳細の構成に焦点を当てています。このガイドを終えると、ユーザー パスワードと所有者パスワードの両方を使用してプロジェクト ファイルを保護できるようになります。
 

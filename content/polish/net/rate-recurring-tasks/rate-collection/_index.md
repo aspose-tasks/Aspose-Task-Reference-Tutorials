@@ -16,7 +16,7 @@ Upewnij się, że masz zainstalowany program Visual Studio w swoim systemie. Mo�
 ### 2. Aspose.Tasks dla .NET
  Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[strona internetowa](https://releases.aspose.com/tasks/net/).
 ### 3. Podstawowa znajomość C# i .NET
-Zapoznaj się z językiem programowania C# i podstawami platformy .NET Framework, aby lepiej zrozumieć przykłady kodu podane w tym samouczku.
+Zapoznaj się z językiem programowania C# i podstawami platformy .NET, aby lepiej zrozumieć przykłady kodu podane w tym samouczku.
 ## Importuj przestrzenie nazw
 swoim projekcie C# zaimportuj niezbędne przestrzenie nazw, aby móc korzystać z funkcjonalności Aspose.Tasks:
 ```csharp

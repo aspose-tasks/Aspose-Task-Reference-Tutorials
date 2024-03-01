@@ -1,6 +1,6 @@
 ---
-title: Skonfiguruj poziomy skali czasowej wykresu Gantta w Aspose.Tasks
-linktitle: Skonfiguruj poziomy skali czasu w Aspose.Tasks
+title: Konfigurowanie warstw skali czasowej wykresu Gantta w Aspose.Tasks
+linktitle: Konfigurowanie warstw skali czasu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Przeglądaj Aspose.Tasks dla .NET, aby skonfigurować poziomy skali czasu w widoku Wykresu Gantta w celu precyzyjnej wizualizacji osi czasu projektu. #Aspose.Tasks #MS Project
 type: docs
@@ -8,11 +8,11 @@ weight: 16
 url: /pl/net/text-view-configuration/timescale-tiers/
 ---
 ## Wstęp
-dynamicznym krajobrazie zarządzania projektami skuteczna wizualizacja ma kluczowe znaczenie dla zrozumienia harmonogramów i terminów. Aspose.Tasks dla .NET zapewnia potężny zestaw narzędzi, a w tym samouczku przyjrzymy się, jak skonfigurować warstwy skali czasu w celu uzyskania optymalnej reprezentacji w widoku Wykres Gantta. Postępuj zgodnie z poniższymi instrukcjami krok po kroku, aby ulepszyć wizualizację projektu.
+W dynamicznym krajobrazie zarządzania projektami skuteczna wizualizacja ma kluczowe znaczenie dla zrozumienia harmonogramów i terminów. Aspose.Tasks dla .NET zapewnia potężny zestaw narzędzi, a w tym samouczku przyjrzymy się, jak skonfigurować warstwy skali czasu w celu uzyskania optymalnej reprezentacji w widoku Wykres Gantta. Postępuj zgodnie z poniższymi instrukcjami krok po kroku, aby ulepszyć wizualizację projektu.
 ## Warunki wstępne
 Zanim zagłębisz się w samouczek, upewnij się, że posiadasz następujące elementy:
 - Podstawowa znajomość C# i .NET.
-- Zainstalowana biblioteka Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
+-  Zainstalowana biblioteka Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
 - Środowisko programistyczne skonfigurowane do tworzenia aplikacji .NET.
 ## Importuj przestrzenie nazw
 ```csharp

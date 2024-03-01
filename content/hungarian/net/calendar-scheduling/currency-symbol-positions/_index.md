@@ -1,6 +1,6 @@
 ---
-title: A valuta szimbólumok pozíciói az Aspose.Tasks-ban
-linktitle: A valuta szimbólumok pozíciói az Aspose.Tasks-ban
+title: valuta szimbólumok pozíciói az Aspose.Tasks-ban
+linktitle: valuta szimbólumok pozíciói az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Az Aspose.Tasks segítségével megtudhatja, hogyan szabályozhatja könnyedén a valutaszimbólum-pozíciókat .NET-projektekben.
 type: docs
@@ -9,7 +9,7 @@ url: /hu/net/calendar-scheduling/currency-symbol-positions/
 ---
 ## Bevezetés
 
-szoftverfejlesztésben kulcsfontosságú a különféle szempontok, például a projektmenedzsment hatékony kezelése. Az Aspose.Tasks for .NET robusztus megoldásokat kínál a feladatok, projektek és erőforrások zökkenőmentes kezelésére a .NET-alkalmazásokon belül. Számos funkciója mellett a pénznemszimbólumok helyzetének szabályozása elengedhetetlen a pénzügyi nyomon követéshez és jelentésekhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet manipulálni a pénznemszimbólum-pozíciókat az Aspose.Tasks for .NET segítségével.
+A szoftverfejlesztésben kulcsfontosságú a különféle szempontok, például a projektmenedzsment hatékony kezelése. Az Aspose.Tasks for .NET robusztus megoldásokat kínál a feladatok, projektek és erőforrások zökkenőmentes kezelésére a .NET-alkalmazásokon belül. Számos funkciója mellett a pénznemszimbólumok helyzetének szabályozása elengedhetetlen a pénzügyi nyomon követéshez és jelentésekhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet manipulálni a pénznemszimbólum-pozíciókat az Aspose.Tasks for .NET segítségével.
 
 ## Előfeltételek
 
@@ -27,7 +27,7 @@ A .NET programozás alapvető ismerete szükséges az oktatóanyagban tárgyalt 
 
 A kezdéshez importálnia kell a szükséges névtereket a .NET-projektbe. 
 
- Tartalmazza a`Aspose.Tasks` névteret a projektben az Aspose.Tasks könyvtár által biztosított osztályok és metódusok eléréséhez.
+ Tartalmazza a`Aspose.Tasks`névteret a projektben az Aspose.Tasks könyvtár által biztosított osztályok és metódusok eléréséhez.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Most bontsuk fel a példát több lépésre:
 
 ## 1. lépés: Töltse be a projektfájlt
 
- Kezdje a projektfájl betöltésével a`Project`osztályú konstruktőr.
+ Kezdje a projektfájl betöltésével a`Project` osztályú konstruktőr.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

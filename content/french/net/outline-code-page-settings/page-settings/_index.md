@@ -1,6 +1,6 @@
 ---
 title: Configurer les paramètres de la page MS Project avec Aspose.Tasks
-linktitle: Configurer les paramètres de page dans Aspose.Tasks
+linktitle: Configuration des paramètres de page dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Découvrez comment configurer les paramètres de la page MS Project à l'aide d'Aspose.Tasks pour .NET. Personnalisez l'orientation, la taille et bien plus encore en quelques étapes simples.
 type: docs

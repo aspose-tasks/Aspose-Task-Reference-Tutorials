@@ -70,4 +70,4 @@ project.Save("Output_PDF_File_Path.pdf", options);
 ### 问：Aspose.Tasks for .NET 支持其他文件格式转换吗？
 答：是的，除了 PDF 之外，您还可以将 Microsoft Project 文件转换为各种格式，包括 XLSX、HTML 和图像。
 ### 问：Aspose.Tasks for .NET 是否提供技术支持？
-答：是的，您可以从 Aspose.Tasks 论坛获得技术支持。[这里](https://forum.aspose.com/c/tasks/15).
+ A：是的，您可以从Aspose.Tasks论坛获得技术支持[这里](https://forum.aspose.com/c/tasks/15).

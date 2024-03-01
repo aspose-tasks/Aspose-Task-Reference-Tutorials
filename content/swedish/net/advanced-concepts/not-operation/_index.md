@@ -9,7 +9,7 @@ url: /sv/net/advanced-concepts/not-operation/
 ---
 ## Introduktion
 
-den här handledningen kommer vi att utforska hur man använder NOT-operationen i Aspose.Tasks för .NET. NOT-operationen tillåter oss att vända ett filtervillkor, vilket gör det möjligt för oss att välja element som inte uppfyller ett specificerat kriterium.
+I den här handledningen kommer vi att utforska hur man använder NOT-operationen i Aspose.Tasks för .NET. NOT-operationen tillåter oss att vända ett filtervillkor, vilket gör det möjligt för oss att välja element som inte uppfyller ett specificerat kriterium.
 
 ## Förutsättningar
 
@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Här skapar vi en`ChildTasksCollector` objekt att samla alla uppgifter inom projektet. Vi använder då`TaskUtils.Apply`metod för att gå igenom projektets uppgiftshierarki och samla alla underordnade uppgifter.
+ Här skapar vi en`ChildTasksCollector` objekt att samla alla uppgifter inom projektet. Vi använder då`TaskUtils.Apply` metod för att gå igenom projektets uppgiftshierarki och samla alla underordnade uppgifter.
 
 ## Steg 3: Definiera filtervillkor
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Vi definierar ett filtervillkor med hjälp av en anpassad klass med namnet`NullCondition`, Detta villkor väljer uppgifter som har ett nollvärde.
+ Vi definierar ett filtervillkor med hjälp av en anpassad klass med namnet`NullCondition`. Detta villkor väljer uppgifter som har ett nollvärde.
 
 ## Steg 4: Använd NOT Operation
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- Vi tillämpar NOT-operationen på filtertillståndet med hjälp av`Not<T>` klass som tillhandahålls av Aspose.Tasks. Detta kommer att vända på filtervillkoret och välja uppgifter som inte har ett nullvärde.
+ Vi tillämpar NOT-operationen på filtertillståndet med hjälp av`Not<T>`klass som tillhandahålls av Aspose.Tasks. Detta kommer att vända på filtervillkoret och välja uppgifter som inte har ett nullvärde.
 
 ## Steg 5: Filtrera uppgifter
 
@@ -91,7 +91,7 @@ Slutligen itererar vi genom de filtrerade uppgifterna och utför alla önskade o
 
 ## Slutsats
 
-den här handledningen lärde vi oss hur man arbetar med NOT-operationen i Aspose.Tasks för .NET. Genom att vända filtervillkoren kan vi selektivt välja element som inte uppfyller specificerade kriterier, vilket ökar vår flexibilitet i uppgiftsmanipulation inom projekt.
+I den här handledningen lärde vi oss hur man arbetar med NOT-operationen i Aspose.Tasks för .NET. Genom att vända filtervillkoren kan vi selektivt välja element som inte uppfyller specificerade kriterier, vilket ökar vår flexibilitet i uppgiftsmanipulation inom projekt.
 
 ## FAQ's
 
@@ -101,7 +101,7 @@ S: Ja, Aspose.Tasks stöder olika .NET-ramverk inklusive .NET Core, .NET Standar
 
 ### F2: Finns det en gratis testversion tillgänglig för Aspose.Tasks?
 
- S: Ja, du kan ladda ner en gratis provversion från[hemsida](https://releases.aspose.com/).
+ S: Ja, du kan ladda ner en gratis testversion från[hemsida](https://releases.aspose.com/).
 
 ### F3: Hur kan jag få support för Aspose.Tasks?
 

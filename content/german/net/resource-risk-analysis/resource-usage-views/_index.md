@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren Sie MS Project-Ressourcennutzungsansichten in Aspose.Tasks
-linktitle: Konfigurieren Sie Ressourcennutzungsansichten in Aspose.Tasks
+title: Konfigurieren von MS Project-Ressourcennutzungsansichten in Aspose.Tasks
+linktitle: Konfigurieren von Ressourcennutzungsansichten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Ressourcennutzungsansichten mit Aspose.Tasks für .NET konfigurieren. Schritt-für-Schritt-Anleitung mit Codebeispielen im Lieferumfang enthalten.
 type: docs

@@ -244,7 +244,7 @@ public void WriteUpdatedCalendarDataToMpp()
     }
     catch (NotSupportedException ex)
     {
-        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://mua.aspose.com/temporary-license/.");
+        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://mua.aspose.com/temporary-license/).");
     }
 }
 ```
@@ -372,7 +372,7 @@ Giải trình:
 
 ## Bước 12: Bắt đầu ngày làm việc tiếp theo
 
-Để bắt đầu ngày làm việc tiếp theo bằng lịch, hãy làm theo các bước sau:
+Để bắt đầu ngày làm việc tiếp theo bằng cách sử dụng lịch, hãy làm theo các bước sau:
 
 ```csharp
 public void GetNextWorking

@@ -11,7 +11,7 @@ url: /pt/net/saving-options/primavera-xml-save-options/
 No domínio do gerenciamento de projetos e tratamento de tarefas, Aspose.Tasks for .NET surge como um aliado poderoso. Esta biblioteca equipa os desenvolvedores com as ferramentas necessárias para manipular dados de projetos sem esforço em aplicativos .NET. Um recurso notável é a capacidade de interagir com arquivos XML do Primavera, oferecendo uma experiência perfeita no manuseio de informações do projeto.
 ## Pré-requisitos
 Antes de mergulhar nas complexidades da utilização do Aspose.Tasks for .NET para salvar opções do MS Project no formato Primavera XML, certifique-se de ter os seguintes pré-requisitos em vigor:
-1.  Instalação: Tenha a biblioteca Aspose.Tasks for .NET instalada em seu ambiente de desenvolvimento. Se não, baixe-o em[aqui](https://releases.aspose.com/tasks/net/) siga as instruções de instalação fornecidas na documentação[aqui](https://reference.aspose.com/tasks/net/).
+1.  Instalação: Tenha a biblioteca Aspose.Tasks for .NET instalada em seu ambiente de desenvolvimento. Se não, baixe-o em[aqui](https://releases.aspose.com/tasks/net/) e siga as instruções de instalação fornecidas na documentação[aqui](https://reference.aspose.com/tasks/net/).
 2. Familiaridade com o .NET Framework: o conhecimento básico do .NET Framework e da linguagem de programação C# é essencial para compreender os conceitos discutidos neste tutorial.
 3. Arquivo MS Project: Prepare um arquivo Microsoft Project (`project.xml`) que você pretende salvar no formato Primavera XML.
 
@@ -51,7 +51,7 @@ R: Sim, Aspose.Tasks for .NET oferece suporte à integração com várias ferram
 ### P: Existe uma avaliação gratuita disponível para Aspose.Tasks for .NET?
  R: Sim, você pode acessar uma avaliação gratuita do Aspose.Tasks for .NET[aqui](https://releases.aspose.com/).
 ### P: Como posso obter suporte técnico para Aspose.Tasks for .NET?
- R: Você pode buscar assistência técnica e interagir com a comunidade no fórum Aspose.Tasks.[aqui](https://forum.aspose.com/c/tasks/15).
+ R: Você pode procurar assistência técnica e interagir com a comunidade no fórum Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
 ### P: Quais são as opções de licenciamento do Aspose.Tasks for .NET?
  R: Várias opções de licenciamento, incluindo licenças temporárias, estão disponíveis para Aspose.Tasks for .NET. Explore detalhes de licenciamento[aqui](https://purchase.aspose.com/buy).
 ### P: Posso personalizar as opções de salvamento para o formato Primavera XML?

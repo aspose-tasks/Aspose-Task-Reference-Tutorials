@@ -13,7 +13,7 @@ Att hantera licenser är en avgörande aspekt av att använda Aspose.Tasks i .NE
 Innan vi går in på att hantera licenser med Aspose.Tasks i .NET, se till att du har följande förutsättningar:
 - Grundläggande förståelse för C# programmeringsspråk och .NET framework.
 - Installerade Aspose.Tasks för .NET.
-- Tillgång till en giltig Aspose.Tasks-licensfil (`.lic`,
+- Tillgång till en giltig Aspose.Tasks-licensfil (`.lic`).
 ## Importera namnområden
 Innan du kan börja använda Aspose.Tasks i ditt .NET-projekt måste du importera de nödvändiga namnrymden. Dessa namnområden ger åtkomst till de klasser och metoder som krävs för licenshantering.
 

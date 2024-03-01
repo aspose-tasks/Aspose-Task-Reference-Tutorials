@@ -49,7 +49,7 @@ task.Set(Tsk.ConstraintType, ConstraintType.AsSoonAsPossible);
 
 ## 3. lépés: Mentse el a projektet
 
-A kényszer beállítása után elmentheti a projektfájlt. Mentsük el PDF fájlként:
+kényszer beállítása után elmentheti a projektfájlt. Mentsük el PDF fájlként:
 
 ```csharp
 SaveOptions options = new PdfSaveOptions();
@@ -70,7 +70,7 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan állíthatunk be kényszertípus
 
 ### 2. kérdés: Hányféle megszorítást támogat az Aspose.Tasks?
 
-2. válasz: Az Aspose.Tasks többféle korlátozást támogat, köztük a lehető leghamarabb, a lehető legkésőbb, a legkorábbi befejezés, a legkésőbbi befejezés, a be kell kezdődnie és a be kell fejeződni.
+2. válasz: Az Aspose.Tasks többféle megszorítást támogat, köztük a lehető leghamarabb, a lehető legkésőbb, a legkorábbi befejezés, a legkésőbbi befejezés, a be kell kezdődnie és a be kell fejezni.
 
 ### 3. kérdés: Alkalmazhatok megkötéseket egyszerre több feladatra?
 

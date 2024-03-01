@@ -32,7 +32,7 @@ Hãy cài đặt một IDE như Visual Studio trên hệ thống của bạn đ�
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- thay thế`"Your Document Directory"` với đường dẫn đến tệp dự án của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn đến tệp dự án của bạn.
 ## Bước 2: Truy xuất thông tin nhóm nhiệm vụ
 Tiếp theo, lấy thông tin về các nhóm nhiệm vụ trong dự án:
 ```csharp

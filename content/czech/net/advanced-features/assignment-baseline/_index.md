@@ -9,7 +9,7 @@ url: /cs/net/advanced-features/assignment-baseline/
 ---
 ## Úvod
 
-Při práci na úkolech projektového managementu je pro přesné sledování postupu řízení základních linií přiřazení zásadní. Aspose.Tasks for .NET poskytuje komplexní sadu nástrojů pro efektivní zpracování základních linií přiřazení. V tomto tutoriálu se krok za krokem ponoříme do procesu správy základních linií přiřazení.
+Při práci na úkolech projektového řízení je pro přesné sledování pokroku zásadní řízení výchozích linií přiřazení. Aspose.Tasks for .NET poskytuje komplexní sadu nástrojů pro efektivní zpracování základních linií přiřazení. V tomto tutoriálu se krok za krokem ponoříme do procesu správy základních linií přiřazení.
 
 ## Předpoklady
 

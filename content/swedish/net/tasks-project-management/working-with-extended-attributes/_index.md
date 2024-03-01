@@ -38,7 +38,7 @@ Definiera sökvägen till katalogen där din MS Project-fil finns:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
+ Byta ut`"Your Document Directory"` med den faktiska sökvägen till din dokumentkatalog.
 ## Steg 2: Ladda projektfilen
  Ladda MS Project-filen med hjälp av`Project` klass:
 ```csharp

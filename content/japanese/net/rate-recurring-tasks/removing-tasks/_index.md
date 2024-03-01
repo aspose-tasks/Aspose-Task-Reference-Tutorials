@@ -11,7 +11,7 @@ url: /ja/net/rate-recurring-tasks/removing-tasks/
 このチュートリアルでは、Aspose.Tasks for .NET を使用して Microsoft Project ファイルからタスクを削除する方法を説明します。 Aspose.Tasks は、開発者が Microsoft Project ファイルをプログラムで操作できるようにする強力な API です。プロジェクト ファイルからタスクを削除することは、プロジェクト管理シナリオで一般的な要件となる場合があり、Aspose.Tasks はこれを実現する簡単な方法を提供します。
 ## 前提条件
 始める前に、次の前提条件が満たされていることを確認してください。
-1. Aspose.Tasks for .NET のインストール: 開発環境に Aspose.Tasks for .NET がインストールされている必要があります。まだインストールしていない場合は、からダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET のインストール: 開発環境に Aspose.Tasks for .NET がインストールされている必要があります。まだインストールしていない場合は、からダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
 2. Microsoft Project ファイル: Microsoft Project ファイルを準備します (`Project1.mpp`この例では)、そこからタスクを削除します。
 
 ## 名前空間のインポート
@@ -33,7 +33,7 @@ Console.WriteLine("Number of tasks after using the algorithm: " + tasks.Count);
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
-このステップでは、Microsoft Project ファイルを`Project`Aspose.Tasks によって提供されるクラス。
+このステップでは、Microsoft Project ファイルを`Project` Aspose.Tasks によって提供されるクラス。
 ## ステップ 2: 削除するタスクを特定する
 ```csharp
 var task1 = project.RootTask.Children.Add("1");

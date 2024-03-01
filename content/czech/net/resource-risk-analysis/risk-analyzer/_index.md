@@ -58,7 +58,7 @@ var analysisResult = analyzer.Analyze(project);
 var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
 ```
 ## Krok 5: Načtení výsledků analýzy
-Načtěte a zobrazte výsledky analýzy, jako jsou očekávané hodnoty a percentily.
+Načíst a zobrazit výsledky analýzy, jako jsou očekávané hodnoty a percentily.
 ```csharp
 Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
 Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);

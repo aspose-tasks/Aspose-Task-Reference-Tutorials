@@ -21,9 +21,9 @@ Tìm hiểu cách dễ dàng định dạng bản trình bày MS Project bằng 
 ## Đọc dữ liệu MS Project Primavera với Aspose.Tasks
  Mở khóa khả năng đọc dữ liệu MS Project Primavera bằng Aspose.Tasks for .NET. Hướng dẫn của chúng tôi[đây](./primavera-data-reading/) hướng dẫn bạn thực hiện quy trình bằng các ví dụ về mã, giúp việc truy xuất dữ liệu trở nên dễ dàng.
 
-Cuộc hành trình không kết thúc ở đây; Khám phá vô số hướng dẫn bao gồm mọi thứ từ xử lý dòng tiến độ và làm chủ dữ liệu dự án đến định cấu hình các tùy chọn hiển thị và quản lý MS Project Server một cách liền mạch. Đi sâu vào các hướng dẫn Aspose.Tasks for .NET để khai thác toàn bộ tiềm năng về khả năng quản lý dự án của bạn.
+Cuộc hành trình không kết thúc ở đây; khám phá vô số hướng dẫn bao gồm mọi thứ từ xử lý dòng tiến độ và làm chủ dữ liệu dự án đến định cấu hình các tùy chọn hiển thị và quản lý MS Project Server một cách liền mạch. Đi sâu vào các hướng dẫn Aspose.Tasks for .NET để khai thác toàn bộ tiềm năng về khả năng quản lý dự án của bạn.
 
- Bạn đã sẵn sàng tùy chỉnh chế độ xem MS Project, quản lý thông tin xác thực máy chủ và trích xuất thông tin dự án một cách dễ dàng chưa? Làm theo hướng dẫn của chúng tôi trên[Tùy chỉnh chế độ xem dự án MS](./project-views/), [Quản lý thông tin xác thực máy chủ MS Project](./project-server-credentials/) ,Và[Trích xuất thông tin dự án MS](./project-information/) để có những hiểu biết sâu sắc.
+ Bạn đã sẵn sàng tùy chỉnh chế độ xem MS Project, quản lý thông tin xác thực máy chủ và trích xuất thông tin dự án một cách dễ dàng chưa? Làm theo hướng dẫn của chúng tôi trên[Tùy chỉnh chế độ xem dự án MS](./project-views/), [Quản lý thông tin xác thực máy chủ MS Project](./project-server-credentials/) , Và[Trích xuất thông tin dự án MS](./project-information/) để có những hiểu biết sâu sắc.
 
  Xử lý liền mạch các trường hợp ngoại lệ của MS Project Online, tự động hóa các nhiệm vụ dự án và nâng cao hiệu quả quản lý dự án bằng các hướng dẫn về[Quản lý ngoại lệ trực tuyến của MS Project](./project-online-exceptions/) Và[Quản lý MS Project Server với Aspose.Tasks](./project-server-management/).
 
@@ -46,7 +46,7 @@ Tìm hiểu cách định cấu hình các tùy chọn in MS Project một cách
 Tìm hiểu cách thao tác các dòng tiến trình trong tệp MS Project bằng Aspose.Tasks cho .NET, nâng cao khả năng quản lý và trực quan hóa dự án.
 ### [Làm chủ dữ liệu dự án với Aspose.Tasks](./project-data/)
 Tìm hiểu cách thao tác dữ liệu Microsoft Project bằng Aspose.Tasks trong .NET. Tạo nhiệm vụ, thêm tài nguyên và lưu dự án một cách dễ dàng.
-### [Định cấu hình Tùy chọn hiển thị dự án MS trong Aspose.Tasks](./project-display-options/)
+### [Định cấu hình tùy chọn hiển thị dự án MS trong Aspose.Tasks](./project-display-options/)
 Tìm hiểu cách định cấu hình các tùy chọn hiển thị MS Project theo chương trình bằng cách sử dụng Aspose.Tasks cho .NET. Tùy chỉnh giao diện dự án của bạn một cách dễ dàng.
 ### [Nắm vững cách xử lý tệp dự án MS với Aspose.Tasks](./project-file-formats/)
 Khai phá sức mạnh của thao tác tệp Microsoft Project với Aspose.Tasks for .NET. Đi sâu vào việc tích hợp và quản lý liền mạch.

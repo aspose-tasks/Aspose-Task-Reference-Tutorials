@@ -1,6 +1,6 @@
 ---
-title: Aspose.Параметры сохранения задач
-linktitle: Aspose.Параметры сохранения задач
+title: Параметры сохранения Aspose.Tasks
+linktitle: Параметры сохранения Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Сохраняйте, конвертируйте и управляйте файлами MS Project с помощью Aspose.Tasks для .NET. Изучите пошаговые руководства по HTML, изображениям, PDF-файлам, Primavera, шаблонам и многому другому.
 type: docs

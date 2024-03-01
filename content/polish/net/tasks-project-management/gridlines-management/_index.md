@@ -2,7 +2,7 @@
 title: Dostosuj linie siatki projektu za pomocą Aspose.Tasks dla .NET
 linktitle: Zarządzanie liniami siatki w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak programowo dostosować ustawienia linii siatki w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET, wizualizacji projektu i efektywności zarządzania.
+description: Dowiedz się, jak programowo dostosować ustawienia linii siatki w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET, wizualizacji projektu i wydajności zarządzania.
 type: docs
 weight: 24
 url: /pl/net/tasks-project-management/gridlines-management/

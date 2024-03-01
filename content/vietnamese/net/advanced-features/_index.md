@@ -14,22 +14,22 @@ Bạn đã sẵn sàng nâng cao kỹ năng quản lý dự án của mình vớ
 
 ## Hoạt động VÀ nâng cao trong Aspose.Tasks
 
- Mở khóa tiềm năng của các thao tác AND nâng cao trong Aspose.Tasks cho .NET. Hướng dẫn của chúng tôi hướng dẫn bạn lọc các nhiệm vụ dự án một cách hiệu quả dựa trên nhiều tiêu chí. Đạt được sự hiểu biết sâu sắc hơn về quản lý công việc với các ví dụ thực tế.[Đọc thêm](./advanced-and-operation/)
+Mở khóa tiềm năng của các thao tác AND nâng cao trong Aspose.Tasks cho .NET. Hướng dẫn của chúng tôi hướng dẫn bạn lọc các nhiệm vụ dự án một cách hiệu quả dựa trên nhiều tiêu chí. Đạt được sự hiểu biết sâu sắc hơn về quản lý công việc với các ví dụ thực tế.[Đọc thêm](./advanced-and-operation/)
 
 ## Sử dụng toán tử AND trong mọi điều kiện với Aspose.Tasks
 
-Khám phá cách sử dụng toán tử AND trong mọi điều kiện với Aspose.Tasks for .NET. Lọc hiệu quả các nhiệm vụ dự án dựa trên các tiêu chí đa dạng. Nâng cao kỹ năng quản lý dự án của bạn với hướng dẫn từng bước này.[Đọc thêm](./and-operator-all-conditions/)
+ Khám phá cách sử dụng toán tử AND trong mọi điều kiện với Aspose.Tasks for .NET. Lọc hiệu quả các nhiệm vụ dự án dựa trên các tiêu chí đa dạng. Nâng cao kỹ năng quản lý dự án của bạn với hướng dẫn từng bước này.[Đọc thêm](./and-operator-all-conditions/)
 
 ## Xử lý ngoại lệ bộ nhớ với Trình tạo bố cục Aspose.Tasks
 
  Xử lý các ngoại lệ về bộ nhớ trong .NET bằng cách sử dụng Aspose.Tasks Layout Builder. Hướng dẫn của chúng tôi cung cấp cách tiếp cận từng bước với các ví dụ về mã, đảm bảo bạn có thể xử lý các trường hợp ngoại lệ một cách liền mạch. Nâng cao hiệu quả dự án của bạn ngay bây giờ.[Đọc thêm](./layout-builder-out-of-memory/)
 ## Làm việc với Bài tập trong Aspose.Tasks
 
- Quản lý hiệu quả các nhiệm vụ dự án trong .NET bằng Aspose.Tasks. Hướng dẫn này đi sâu vào các nội dung khác nhau để lập kế hoạch nguồn lực, cung cấp những hiểu biết và mẹo thực tế. Tăng cường tổ chức dự án của bạn và hợp lý hóa quy trình công việc.[Đọc thêm](./working-with-assignment/)
+Quản lý hiệu quả các nhiệm vụ dự án trong .NET bằng Aspose.Tasks. Hướng dẫn này đi sâu vào các nội dung khác nhau để lập kế hoạch nguồn lực, cung cấp những hiểu biết và mẹo thực tế. Tăng cường tổ chức dự án của bạn và hợp lý hóa quy trình công việc.[Đọc thêm](./working-with-assignment/)
 
 ## Quản lý đường cơ sở của bài tập trong Aspose.Tasks
 
-Tìm hiểu cách quản lý đường cơ sở của bài tập một cách hiệu quả với Aspose.Tasks for .NET. Điều này đảm bảo theo dõi chính xác tiến độ và hiệu suất của dự án. Đi sâu vào hướng dẫn của chúng tôi để biết hướng dẫn từng bước về cách tối ưu hóa chiến lược quản lý dự án của bạn.[Đọc thêm](./assignment-baseline/)
+ Tìm hiểu cách quản lý đường cơ sở của bài tập một cách hiệu quả với Aspose.Tasks for .NET. Điều này đảm bảo theo dõi chính xác tiến độ và hiệu suất của dự án. Đi sâu vào hướng dẫn của chúng tôi để biết hướng dẫn từng bước về cách tối ưu hóa chiến lược quản lý dự án của bạn.[Đọc thêm](./assignment-baseline/)
 
 ## Bộ sưu tập các đường cơ sở của bài tập trong Aspose.Tasks
 
@@ -37,11 +37,11 @@ Tìm hiểu cách quản lý đường cơ sở của bài tập một cách hi�
 
 ## Cột Xem bài tập tùy chỉnh trong Aspose.Tasks
 
- Khám phá cách thêm các cột chế độ xem bài tập tùy chỉnh trong Aspose.Tasks cho .NET, nâng cao khả năng quản lý dự án của bạn. Hướng dẫn này cung cấp hướng dẫn chi tiết, cho phép bạn điều chỉnh các chế độ xem dự án của mình để đáp ứng các yêu cầu cụ thể.[Đọc thêm](./assignment-view-column/)
+Khám phá cách thêm các cột chế độ xem bài tập tùy chỉnh trong Aspose.Tasks cho .NET, nâng cao khả năng quản lý dự án của bạn. Hướng dẫn này cung cấp hướng dẫn chi tiết, cho phép bạn điều chỉnh các chế độ xem dự án của mình để đáp ứng các yêu cầu cụ thể.[Đọc thêm](./assignment-view-column/)
 
 ## Làm việc với Khoảng thời gian sẵn có trong Aspose.Tasks
 
-Quản lý hiệu quả thời gian sẵn có của tài nguyên bằng Aspose.Tasks cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước, cung cấp những hiểu biết thực tế để làm việc với các khoảng thời gian sẵn sàng trong dự án .NET của bạn. Tăng cường lập kế hoạch và thực hiện dự án.[Đọc thêm](./working-with-availability-periods/)
+ Quản lý hiệu quả thời gian sẵn có của tài nguyên bằng Aspose.Tasks cho .NET. Hướng dẫn này cung cấp hướng dẫn từng bước, cung cấp những hiểu biết thực tế để làm việc với các khoảng thời gian sẵn sàng trong dự án .NET của bạn. Tăng cường lập kế hoạch và thực hiện dự án.[Đọc thêm](./working-with-availability-periods/)
 
 ## Bộ sưu tập các khoảng thời gian khả dụng trong Aspose.Tasks
 
@@ -49,7 +49,7 @@ Quản lý hiệu quả thời gian sẵn có của tài nguyên bằng Aspose.T
 
 ## Thanh tạo kiểu trong Aspose.Tasks
 
- Tìm hiểu cách tạo kiểu cho các thanh trong Aspose.Tasks cho .NET để nâng cao khả năng trực quan hóa dự án. Hướng dẫn của chúng tôi cung cấp những hiểu biết thực tế, giúp bạn tạo ra các mốc thời gian dự án hấp dẫn một cách trực quan. Nâng cao khả năng trình bày và giao tiếp dự án của bạn.[Đọc thêm](./styling-bar/)
+Tìm hiểu cách tạo kiểu cho các thanh trong Aspose.Tasks cho .NET để nâng cao khả năng trực quan hóa dự án. Hướng dẫn của chúng tôi cung cấp những hiểu biết thực tế, giúp bạn tạo ra các mốc thời gian dự án hấp dẫn một cách trực quan. Nâng cao khả năng trình bày và giao tiếp dự án của bạn.[Đọc thêm](./styling-bar/)
 
 
 ## Hướng dẫn về tính năng nâng cao của Aspose.Tasks

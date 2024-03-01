@@ -15,7 +15,7 @@ Im Projektmanagement sind das Verständnis und die Minderung von Risiken entsche
 Bevor wir uns mit der Verwaltung von MS Project-Risikomustern mithilfe von Aspose.Tasks für .NET befassen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 1. Microsoft Project-Datei: Sie verfügen über eine Microsoft Project-Datei (.mpp), die Aufgaben und relevante Projektdaten enthält.
-2. Aspose.Tasks für .NET: Laden Sie die Aspose.Tasks-Bibliothek für .NET von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks für .NET: Laden Sie die Aspose.Tasks-Bibliothek für .NET von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/tasks/net/).
 3. Grundlegendes Verständnis von C#: Vertrautheit mit den Grundlagen der Programmiersprache C# wird empfohlen.
 
 ## Namespaces importieren
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- In diesem Schritt definieren wir das Verzeichnis für das Projektdokument und erstellen Einstellungen für die Risikoanalyse. Verstelle die`IterationsCount` je nach Projektkomplexität nach Bedarf.
+In diesem Schritt definieren wir das Verzeichnis für das Projektdokument und erstellen Einstellungen für die Risikoanalyse. Verstelle die`IterationsCount` je nach Projektkomplexität nach Bedarf.
 
 ## Schritt 2: Projekt und Aufgabe laden
 

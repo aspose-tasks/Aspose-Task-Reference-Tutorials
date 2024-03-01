@@ -93,4 +93,4 @@ A2: हां, Aspose.Tasks दैनिक, साप्ताहिक, मा
 
 ### Q5: मैं Aspose.Tasks के लिए लाइसेंस कहां से खरीद सकता हूं?
 
- A5: आप Aspose के लिए लाइसेंस खरीद सकते हैं। वेबसाइट से कार्य[यहाँ](https://purchase.aspose.com/buy)
+ A5: आप वेबसाइट से Aspose.Tasks के लिए लाइसेंस खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy)

@@ -69,7 +69,7 @@ foreach (var criterion in group.GroupCriteria)
 group.GroupCriteria.Clear();
 ```
 
-## الخطوة 5: إضافة معايير جديدة
+## الخطوة 5: إضافة معيار جديد
 
 أنشئ معيارًا جديدًا للمجموعة وأضفه إلى المجموعة.
 
@@ -125,4 +125,4 @@ foreach (var criterion in criteria)
 
 ### س5: كيف يمكنني الحصول على الدعم إذا واجهت أية مشكلات؟
 
- ج: إذا كانت لديك أية أسئلة أو واجهت أي مشكلات، يمكنك طلب الدعم من منتدى Aspose.Tasks.[هنا](https://forum.aspose.com/c/tasks/15).
+ ج: إذا كانت لديك أية أسئلة أو واجهت أي مشكلات، يمكنك طلب الدعم من منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).

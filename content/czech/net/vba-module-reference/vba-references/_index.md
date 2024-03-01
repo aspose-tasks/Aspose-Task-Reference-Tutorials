@@ -1,6 +1,6 @@
 ---
 title: Zvládnutí zpracování referencí VBA – průvodce krok za krokem
-linktitle: Zpracování referencí VBA v Aspose.Tasks
+linktitle: Práce s odkazy VBA v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte sílu zpracování referencí VBA v Aspose.Tasks .NET s naším komplexním výukovým programem. Naučte se bezproblémově číst, porovnávat a pracovat s referencemi VBA.
 type: docs
@@ -72,10 +72,10 @@ Gratulujeme! Úspěšně jste prošli zpracováním referencí VBA v Aspose.Task
 ### Otázka: Mohu používat Aspose.Tasks s jinými programovacími jazyky?
 Odpověď: Aspose.Tasks primárně podporuje jazyky .NET, ale existují další produkty Aspose přizpůsobené pro různé platformy a jazyky.
 ### Otázka: Jak získám dočasnou licenci pro Aspose.Tasks?
-Odpověď: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
+ Odpověď: Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Je pro Aspose.Tasks k dispozici podpora komunity?
  Odpověď: Ano, podporu najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Kde najdu podrobnou dokumentaci k Aspose.Tasks?
  Odpověď: Dokumentace je k dispozici[tady](https://reference.aspose.com/tasks/net/).
 ### Otázka: Mohu si Aspose.Tasks zakoupit?
- Odpověď: Ano, můžete si to koupit.[tady](https://purchase.aspose.com/buy).
+ Odpověď: Ano, můžete si to koupit[tady](https://purchase.aspose.com/buy).

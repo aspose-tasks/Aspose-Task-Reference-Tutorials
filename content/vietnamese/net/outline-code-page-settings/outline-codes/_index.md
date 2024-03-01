@@ -31,7 +31,7 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp dự án của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn thực tế đến tệp dự án của bạn.
 ## Bước 2: Tải tệp dự án
  Khởi tạo một cái mới`Project` đối tượng bằng cách tải tệp MS Project.
 ```csharp

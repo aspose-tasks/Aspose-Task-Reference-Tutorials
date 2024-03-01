@@ -15,7 +15,7 @@ Aspose.Tasks für .NET bietet umfassende Funktionalität für die Arbeit mit OLE
 
 Bevor wir beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
 
-1. Installation: Stellen Sie sicher, dass Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
+1.  Installation: Stellen Sie sicher, dass Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung installiert ist. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
 
 2. Grundkenntnisse: Machen Sie sich mit der Programmiersprache C# und den .NET Framework-Konzepten vertraut.
 

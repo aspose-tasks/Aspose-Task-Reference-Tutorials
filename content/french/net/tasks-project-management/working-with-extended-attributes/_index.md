@@ -38,7 +38,7 @@ Définissez le chemin d'accès au répertoire où se trouve votre fichier MS Pro
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- remplacer`"Your Document Directory"` avec le chemin réel vers votre répertoire de documents.
+ Remplacer`"Your Document Directory"` avec le chemin réel vers votre répertoire de documents.
 ## Étape 2 : charger le fichier de projet
  Chargez le fichier MS Project à l'aide du`Project` classe:
 ```csharp

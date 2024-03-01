@@ -25,7 +25,7 @@ using Aspose.Tasks.Visualization;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- yer değiştirmek`"Your Document Directory"` MS Project dosyasının bulunduğu belge dizininizin yolu ile birlikte.
+ Yer değiştirmek`"Your Document Directory"` MS Project dosyasının bulunduğu belge dizininizin yolu ile birlikte.
 ## Adım 2: MS Proje Dosyasını Yükleyin
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -59,11 +59,11 @@ C: Evet, Aspose.Tasks for .NET, kesintisiz veri alışverişi için çeşitli pr
 
 ### S: Aspose.Tasks for .NET için nasıl destek alabilirim?
 
- C: Topluluk forumlarından yardım isteyebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+ C: Topluluk forumlarından yardım isteyebilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 
 ### S: Aspose.Tasks for .NET'i kullanmak için geçici bir lisansa ihtiyacım var mı?
 
-C: Edinebileceğiniz belirli gelişmiş özellikler için geçici bir lisansa ihtiyacınız olabilir.[Burada](https://purchase.aspose.com/temporary-license/).
+ C: Edinebileceğiniz belirli gelişmiş özellikler için geçici bir lisansa ihtiyacınız olabilir.[Burada](https://purchase.aspose.com/temporary-license/).
 
 ### S: Aspose.Tasks for .NET'i nereden satın alabilirim?
 

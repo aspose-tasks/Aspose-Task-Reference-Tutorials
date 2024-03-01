@@ -12,7 +12,7 @@ url: /ko/net/project-management-integration/primavera-database-settings/
 ## 전제조건
 시작하기 전에 다음 필수 구성 요소가 있는지 확인하세요.
 ### 1. .NET용 Aspose.Tasks 설치
- 다음으로 향하세요[.NET용 Aspose.Tasks 다운로드](https://releases.aspose.com/tasks/net/) 최신 버전의 Aspose.Tasks 라이브러리를 다운로드하세요. .NET 환경에서 설정하려면 제공된 설치 지침을 따르세요.
+ 다음으로 향하세요[.NET용 Aspose.Tasks 다운로드](https://releases.aspose.com/tasks/net/)최신 버전의 Aspose.Tasks 라이브러리를 다운로드하세요. .NET 환경에서 설정하려면 제공된 설치 지침을 따르세요.
 ### 2. MS Project Primavera 데이터베이스에 액세스
 MS Project Primavera 데이터베이스에 대한 액세스 권한이 있는지 확인하십시오. 계속하려면 필요한 자격 증명과 연결 세부 정보가 필요합니다.
 ### 3. C# 및 .NET Framework에 대한 기본 지식
@@ -43,17 +43,17 @@ sb.UserID = "privuser";
 sb.Password = "***";
 sb.ConnectTimeout = 2; // ExSkip
 ```
- 이 코드는`SqlConnectionStringBuilder` 객체를 생성하고 다음과 같은 다양한 속성을 설정합니다.`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`등을 사용하여 Primavera 데이터베이스에 대한 연결 문자열을 구성합니다.
+ 이 코드는`SqlConnectionStringBuilder`객체를 생성하고 다음과 같은 다양한 속성을 설정합니다.`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`등을 사용하여 Primavera 데이터베이스에 대한 연결 문자열을 구성합니다.
 ## 2단계: PrimaveraDbSettings 개체 초기화
 ```csharp
 var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```
-여기서는 새 인스턴스를 초기화합니다.`PrimaveraDbSettings` 연결 문자열과 프로젝트 ID(이 경우`4502`)를 매개변수로 사용합니다.
+ 여기서는 새 인스턴스를 초기화합니다.`PrimaveraDbSettings` 연결 문자열과 프로젝트 ID(이 경우`4502`)를 매개변수로 사용합니다.
 ## 3단계: 데이터베이스에서 프로젝트 읽기
 ```csharp
 var project = new Project(settings);
 ```
- 이 줄은 새로운`Project` 통과하여 객체`settings` 이전에 생성한 객체입니다. Primavera 데이터베이스에 대한 연결을 설정하고 지정된 UID(`4502`,
+ 이 줄은 새로운`Project` 통과하여 객체`settings` 이전에 생성한 객체입니다. Primavera 데이터베이스에 대한 연결을 설정하고 지정된 UID(`4502`).
 ## 4단계: 프로젝트 UID 표시
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
@@ -72,4 +72,4 @@ A: Aspose.Tasks for .NET은 주로 온프레미스 프로젝트 관리 솔루션
 ### Q: .NET용 Aspose.Tasks를 사용하여 프로그래밍 방식으로 프로젝트 데이터를 조작할 수 있습니까?
 답: 물론이죠! Aspose.Tasks for .NET은 다양한 형식의 프로젝트 데이터를 읽고, 쓰고, 조작하기 위한 풍부한 API 세트를 제공합니다.
 ### Q: .NET 사용자를 위한 Aspose.Tasks에 사용할 수 있는 커뮤니티 포럼이나 지원 채널이 있습니까?
- A: 네, 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 문제나 문의 사항이 있을 경우 커뮤니티 지원 및 도움을 받으십시오.## 완전한 소스 코드
+ A: 네, 방문하실 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)문제나 문의 사항이 있을 경우 커뮤니티 지원 및 도움을 받으십시오.## 완전한 소스 코드

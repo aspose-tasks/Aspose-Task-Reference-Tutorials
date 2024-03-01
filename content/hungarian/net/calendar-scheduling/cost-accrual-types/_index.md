@@ -41,13 +41,13 @@ var project = new Project("Project2.mpp");
 
  Először is be kell töltenünk a projektfájlt az alkalmazásunkba. Létrehozunk egy újat`Project` objektumot, és inicializálja a projektfájlunk elérési útjával.
 
-## 2. lépés: Hozzáférés az erőforrásokhoz
+## 2. lépés: Hozzáférés az erőforráshoz
 
 ```csharp
 var resource = project.Resources.GetById(1);
 ```
 
- Ezután elérjük azt az erőforrást, amelyre a költségfelhalmozási típust alkalmazni szeretnénk. Használjuk a`GetById` a metódusa`Resources` összegyűjti és argumentumként adja át az erőforrás-azonosítót.
+ Ezután elérjük azt az erőforrást, amelyre a költségfelhalmozási típust alkalmazni szeretnénk. Használjuk a`GetById` módszere a`Resources` összegyűjti és argumentumként adja át az erőforrás-azonosítót.
 
 ## 3. lépés: Állítsa be a költségfelhalmozási típust
 
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Itt beállítjuk az erőforrás költségelhatárolási típusát. Ebben a példában azt állítjuk be`CostAccrualType.End`, ami azt jelenti, hogy a költségek addig nem halmozódnak fel, amíg a hátralévő munka nulla lesz.
+Itt beállítjuk az erőforrás költségelhatárolási típusát. Ebben a példában azt állítjuk be`CostAccrualType.End`, ami azt jelenti, hogy a költségek addig nem halmozódnak fel, amíg a hátralévő munka nulla lesz.
 
 ## 4. lépés: Dolgozzon a projekttel
 
@@ -63,7 +63,7 @@ A költségelhatárolás típusának beállítása után szükség szerint folyt
 
 ## Következtetés
 
-költségfelhalmozási típusok megértése és alkalmazása elengedhetetlen a hatékony projektköltség-kezeléshez. Az Aspose.Tasks for .NET segítségével könnyedén meghatározhatja és testreszabhatja a költségfelhalmozási típusokat a projekt követelményeinek megfelelően, így biztosítva a pontos költségkövetést és a költségvetés ellenőrzését a projekt teljes életciklusa során.
+A költségfelhalmozási típusok megértése és alkalmazása elengedhetetlen a hatékony projektköltség-kezeléshez. Az Aspose.Tasks for .NET segítségével könnyedén meghatározhatja és testreszabhatja a költségfelhalmozási típusokat a projekt követelményeinek megfelelően, így biztosítva a pontos költségkövetést és a költségvetés ellenőrzését a projekt teljes életciklusa során.
 
 ## GYIK
 
@@ -73,7 +73,7 @@ költségfelhalmozási típusok megértése és alkalmazása elengedhetetlen a h
 
 ### 2. kérdés: Melyek a további költségelhatárolási típusok a „Vége” mellett?
 
- 2. válasz: Az Aspose.Tasks for .NET számos más költségelhatárolási típust biztosít, mint pl`Start`, `Prorated` ,és`Duration`.
+2. válasz: Az Aspose.Tasks for .NET számos más költségelhatárolási típust biztosít, mint pl`Start`, `Prorated` , és`Duration`.
 
 ### 3. kérdés: Hogyan határozhatom meg egy erőforrás aktuális költségelhatárolási típusát?
 

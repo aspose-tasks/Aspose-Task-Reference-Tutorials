@@ -34,7 +34,7 @@ Bây giờ, hãy lưu dự án ở định dạng CSV.
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## Bước 3: Khám phá các định dạng khác
- Aspose.Tasks hỗ trợ nhiều định dạng khác nhau để lưu tệp dự án, chẳng hạn như XML, PDF, XLSX, v.v. Bạn có thể khám phá các định dạng này bằng cách thay đổi`SaveFileFormat` các thông số trong`Save` phương pháp.
+ Aspose.Tasks hỗ trợ nhiều định dạng khác nhau để lưu tệp dự án, chẳng hạn như XML, PDF, XLSX, v.v. Bạn có thể khám phá các định dạng này bằng cách thay đổi`SaveFileFormat` tham số trong`Save` phương pháp.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,7 +50,7 @@ Trả lời: Aspose.Tasks hỗ trợ các định dạng Microsoft Project 2003 
 ### Câu hỏi: Tôi có thể dùng thử Aspose.Tasks trước khi mua không?
  Đ: Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks?
- Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15).
+Trả lời: Bạn có thể nhận hỗ trợ từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Có giấy phép tạm thời cho Aspose.Tasks không?
  Đáp: Có, giấy phép tạm thời được cấp cho mục đích đánh giá. Bạn có thể có được một[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Giá của Aspose.Tasks là bao nhiêu?

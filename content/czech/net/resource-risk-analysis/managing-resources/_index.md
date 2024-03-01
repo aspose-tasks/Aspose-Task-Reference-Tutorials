@@ -32,7 +32,7 @@ Chcete-li začít, importujte potřebné jmenné prostory do svého projektu C#:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
+ Nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
 ## Krok 2: Vytvořte novou instanci projektu
 ```csharp
 var project = new Project();
@@ -50,7 +50,7 @@ project.Save(DataDir + "CreateResources_out.xml", SaveFileFormat.Xml);
 Tento krok uloží projekt s přidanými prostředky do souboru XML. Název a formát souboru můžete změnit podle svých požadavků.
 
 ## Závěr
-S Aspose.Tasks for .NET je správa kolekcí zdrojů Microsoft Project snadná. Dodržováním kroků popsaných v tomto kurzu můžete efektivně zacházet se zdroji v rámci svého projektu a zajistit hladké provádění a optimální alokaci zdrojů.
+Aspose.Tasks for .NET je správa kolekcí zdrojů Microsoft Project snadná. Dodržováním kroků popsaných v tomto kurzu můžete efektivně zacházet se zdroji v rámci svého projektu a zajistit hladké provádění a optimální alokaci zdrojů.
 ## FAQ
 ### Otázka: Mohu přidat více zdrojů najednou pomocí Aspose.Tasks pro .NET?
 Odpověď: Ano, můžete přidat více zdrojů procházením seznamu nebo pole názvů zdrojů a jejich přidáním jednotlivě do projektu.
@@ -61,4 +61,4 @@ Odpověď: Aspose.Tasks for .NET nabízí rozsáhlé funkce pro přizpůsobení 
 ### Otázka: Podporuje Aspose.Tasks for .NET export dat projektu do jiných formátů než XML?
 Odpověď: Ano, Aspose.Tasks for .NET podporuje export projektových dat do různých formátů, mimo jiné včetně MPP, PDF, XLSX a HTML.
 ### Otázka: Kde najdu další pomoc nebo podporu pro Aspose.Tasks pro .NET?
-Odpověď: Pro další pomoc nebo podporu můžete navštívit stránku[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nebo odkazovat na[dokumentace](https://reference.aspose.com/tasks/net/) poskytuje Aspose.
+ Odpověď: Pro další pomoc nebo podporu můžete navštívit stránku[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nebo odkazovat na[dokumentace](https://reference.aspose.com/tasks/net/) poskytuje Aspose.

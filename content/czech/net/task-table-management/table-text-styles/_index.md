@@ -11,7 +11,7 @@ url: /cs/net/task-table-management/table-text-styles/
 Ve světě projektového řízení je efektivní vizualizace úkolů zásadní pro úspěch. Aspose.Tasks for .NET poskytuje výkonné řešení pro přizpůsobení stylů textu tabulek, což vám umožní přizpůsobit vzhled textových položek ve vašem projektu. V tomto podrobném průvodci vás provedeme procesem konfigurace stylů textu tabulek pomocí Aspose.Tasks for .NET.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte následující:
--  Aspose.Tasks for .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Ujistěte se, že máte nainstalovanou nejnovější verzi Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
 - Adresář dokumentů: Nastavte adresář pro vaše dokumenty. Nahraďte "Your Document Directory" v kódu skutečnou cestou.
 -  Platná licence Aspose: Tento příklad vyžaduje platnou licenci Aspose. Můžete si zakoupit plnou licenci[tady](https://purchase.aspose.com/buy) nebo získat 30denní dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ## Importovat jmenné prostory
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## Závěr

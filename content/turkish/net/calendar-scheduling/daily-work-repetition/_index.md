@@ -36,7 +36,7 @@ Sağlanan örneği birden çok adıma ayıralım:
 
 ## Adım 1: Proje Dosyasını Yükleyin
 
- İlk önce proje dosyasını kullanarak yükleyin.`Project` sınıf:
+İlk önce proje dosyasını kullanarak yükleyin.`Project` sınıf:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");
@@ -97,4 +97,4 @@ Cevap4: Kesinlikle Aspose.Tasks, projeleri PDF, HTML, XML ve daha fazlasını i�
 
 ### S5: Aspose.Tasks teknik destek sunuyor mu?
 
-C5: Evet, Aspose.Tasks, yardım arayabileceğiniz, deneyimlerinizi paylaşabileceğiniz ve diğer kullanıcılarla iletişim kurabileceğiniz forum aracılığıyla kapsamlı teknik destek sağlıyor.
+C5: Evet, Aspose.Tasks, yardım arayabileceğiniz, deneyimlerinizi paylaşabileceğiniz ve diğer kullanıcılarla iletişim kurabileceğiniz forum aracılığıyla kapsamlı teknik destek sağlar.

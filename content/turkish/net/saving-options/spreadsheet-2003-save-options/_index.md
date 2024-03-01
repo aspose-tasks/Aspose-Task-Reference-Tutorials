@@ -27,9 +27,9 @@ Bu ad alanları, MS Project dosyalarını Elektronik Tablo 2003 biçimini kullan
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- yer değiştirmek`"Your Document Directory"`MS Project dosyanızın bulunduğu gerçek dizin yolu ile.
+ Yer değiştirmek`"Your Document Directory"`MS Project dosyanızın bulunduğu gerçek dizin yolu ile.
 ## 2. Adım: Kaydetme Seçeneklerini Tanımlayın
- Bir örneğini oluşturarak Elektronik Tablo 2003 Kaydetme seçeneklerini tanımlayın.`Spreadsheet2003SaveOptions`,
+ Bir örneğini oluşturarak Elektronik Tablo 2003 Kaydetme seçeneklerini tanımlayın.`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -52,13 +52,13 @@ project.Save(DataDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 Bu komut, değiştirilen projeyi Elektronik Tablo 2003 formatında ve özelleştirilmiş görünüm sütunlarıyla kaydeder.
 
 ## Çözüm
-Aspose.Tasks for .NET'in, özellikle de Elektronik Tablo 2003 MS Proje Kaydetme Seçenekleri'nin kullanılması, geliştiricilerin MS Project dosyalarını programlı olarak verimli bir şekilde yönetmesine ve özelleştirmesine olanak tanır. Bu eğitimde özetlenen adım adım kılavuzu takip ederek, bu yetenekleri .NET uygulamalarınıza sorunsuz bir şekilde entegre ederek üretkenliği ve esnekliği artırabilirsiniz.
+Aspose.Tasks for .NET'in, özellikle de Elektronik Tablo 2003 MS Proje Kaydetme Seçenekleri'nin kullanılması, geliştiricilerin MS Project dosyalarını programlı olarak verimli bir şekilde yönetmesine ve özelleştirmesine olanak sağlar. Bu eğitimde özetlenen adım adım kılavuzu takip ederek, bu yetenekleri .NET uygulamalarınıza sorunsuz bir şekilde entegre ederek üretkenliği ve esnekliği artırabilirsiniz.
 
 ## SSS'ler
 ### S: Aspose.Tasks for .NET hem web hem de masaüstü uygulamalarında kullanılabilir mi?
 C: Evet, Aspose.Tasks for .NET, hem web hem de masaüstü uygulamalarına sorunsuz bir şekilde entegre edilebilir ve platformlar arasında tutarlı işlevsellik sağlar.
 ### S: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
- C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce özelliklerini keşfetmenize olanak tanır.
+C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[İnternet sitesi](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce özelliklerini keşfetmenize olanak tanır.
 ### S: Aspose.Tasks for .NET'i kullanarak görünüm sütunlarını özelleştirmede herhangi bir sınırlama var mı?
 C: Aspose.Tasks for .NET, görünüm sütunları için minimum sınırlamalarla kapsamlı özelleştirme seçenekleri sunar. Ancak karmaşık özelleştirmeler, kitaplık hakkında ileri düzeyde bilgi gerektirebilir.
 ### S: Aspose.Tasks for .NET'i kullanırken sorunlarla karşılaşırsam yardım isteyebilir miyim?

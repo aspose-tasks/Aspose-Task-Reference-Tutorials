@@ -36,7 +36,7 @@ Lassen Sie uns das bereitgestellte Beispiel in mehrere Schritte unterteilen:
 
 ## Schritt 1: Laden Sie die Projektdatei
 
- Laden Sie zunächst die Projektdatei mit`Project` Klasse:
+Laden Sie zunächst die Projektdatei mit`Project` Klasse:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");
@@ -81,7 +81,7 @@ In diesem Tutorial haben wir untersucht, wie Sie Aspose.Tasks für .NET verwende
 
 ### F1: Kann ich das Wiederholungsmuster weiter anpassen?
 
-A1: Ja, Sie können Parameter wie Startdatum, Vorkommensnummer und Wiederholungsintervall anpassen, um das Wiederholungsmuster entsprechend Ihren Anforderungen anzupassen.
+A1: Ja, Sie können Parameter wie Startdatum, Vorkommensnummer und Wiederholungsintervall anpassen, um das Wiederholungsmuster an Ihre Anforderungen anzupassen.
 
 ### F2: Ist Aspose.Tasks mit verschiedenen Versionen von Microsoft Project kompatibel?
 

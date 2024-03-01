@@ -19,7 +19,7 @@ Küszködik, hogy elsajátítsa az MS Project díjszabás kezelésének és az i
  Ban ben[Master MS Project Rates az Aspose.Tasks segítségével](./rate-collection/), elmélyülünk az MS Project fájlokban történő tarifák kezelésének bonyolultságában. Ez az oktatóanyag a legjobb forrás a díjgyűjtés árnyalatainak megértéséhez, gyakorlati betekintést nyújt, és lehetővé teszi projektje erőforrás-kezelési képességeinek fejlesztését.
 
 ## Könnyű MS Project ismétlődő időközök az Aspose.Tasks-ban
- Fedezze fel az ismétlődő intervallumok könnyű kezelésének művészetét[Könnyű MS Project ismétlődő időközök az Aspose.Tasks-ban](./recurring-intervals/), Ez az oktatóanyag végigvezeti a folyamaton az Aspose.Tasks for .NET használatával, így biztosítva, hogy zökkenőmentesen kezelje az MS Projecten belül ismétlődő feladatokat.
+ Fedezze fel az ismétlődő intervallumok könnyű kezelésének művészetét[Könnyű MS Project ismétlődő időközök az Aspose.Tasks-ban](./recurring-intervals/). Ez az oktatóanyag végigvezeti a folyamaton az Aspose.Tasks for .NET használatával, így biztosítva, hogy zökkenőmentesen kezelje az MS Projecten belül ismétlődő feladatokat.
 
 ## Ismétlődő feladatok információinak kinyerése az Aspose.Tasks programból
  Tanulja meg az ismétlődő feladatok információinak MS Project fájlokból való kinyerésének köteleit[Ismétlődő feladatok információinak kinyerése az Aspose.Tasks programból](./recurring-task-information/)Ez az oktatóanyag egyszerű integrációt kínál a .NET-fejlesztők számára, lehetővé téve a projektekben ismétlődő feladatok hatékony kezelését.
@@ -31,18 +31,18 @@ Küszködik, hogy elsajátítsa az MS Project díjszabás kezelésének és az i
  Mondjon búcsút a kézi feladateltávolításnak![MS Project Tasks eltávolítása az Aspose.Tasks segítségével](./removing-tasks/) végigvezeti a feladatok programozott eltávolításának folyamatán az Aspose.Tasks for .NET használatával. A lépésenkénti útmutató kódpéldákat tartalmaz a zökkenőmentes élmény érdekében.
 
 ## Mester MS Project Reporting az Aspose.Tasks segítségével
- Használja ki az MS Project jelentéskészítésben rejlő teljes potenciált[Mester MS Project Reporting az Aspose.Tasks segítségével](./report-types/), Ez az oktatóanyag azt mutatja be, hogyan dolgozhat az MS Project fájlokkal az Aspose.Tasks for .NET használatával, amely lehetővé teszi a különféle jelentéstípusok egyszerű létrehozását.
+ Használja ki az MS Project jelentéskészítésben rejlő teljes potenciált[Mester MS Project Reporting az Aspose.Tasks segítségével](./report-types/). Ez az oktatóanyag azt mutatja be, hogyan dolgozhat az MS Project fájlokkal az Aspose.Tasks for .NET használatával, amely lehetővé teszi a különféle jelentéstípusok könnyű létrehozását.
 
 ## MS Project fájlok mentése különböző formátumokban az Aspose.Tasks programban
  hatékony projektmenedzsment különféle fájlformátumokat foglal magában.[MS Project fájlok mentése különböző formátumokban az Aspose.Tasks programban](./save-file-formats/) végigvezeti Önt az MS Project fájlok különböző formátumokban történő mentésének lépésein az Aspose.Tasks for .NET használatával.
 
 ## MS Project Split Parts kezelése az Aspose.Tasks-ban
- Az MS Projectben az osztott részeken való navigálás gyerekjáték lesz[MS Project Split Parts kezelése az Aspose.Tasks-ban](./split-parts/), Az Aspose.Tasks for .NET segítségével hatékonyan kezeli a felosztott részeket, és javíthatja projektkezelési munkafolyamatát.
+ Az MS Projectben az osztott részeken való navigálás gyerekjáték lesz[MS Project Split Parts kezelése az Aspose.Tasks-ban](./split-parts/). Az Aspose.Tasks for .NET segítségével hatékonyan kezeli a felosztott részeket, és javíthatja projektkezelési munkafolyamatát.
 
 ## Gyűjtse össze az MS Project Split részeit az Aspose.Tasks-ban
  Oktatóanyagunk a[Gyűjtse össze az MS Project Split részeit az Aspose.Tasks-ban](./split-part-collection/) egy átfogó útmutató, amely lépésről lépésre végigvezeti a folyamaton. Ismerje meg, hogyan gyűjthet osztott részeket az MS Projectben, így optimalizálhatja projektmenedzsment munkafolyamatait.
 
-Fedezze fel ezeket az oktatóanyagokat, és szerezzen jártasságot az Aspose.Tasks for .NET-ben, a díjszabás kezelésében, az ismétlődő feladatokban és az MS Project különböző aspektusaiban a hatékonyabb és egyszerűbb projektmenedzsment tapasztalatok érdekében.
+Fedezze fel ezeket az oktatóanyagokat, és szerezzen jártasságot az Aspose.Tasks for .NET programban, a díjszabás kezelésében, az ismétlődő feladatokban és az MS Project különféle aspektusaiban a hatékonyabb és egyszerűbb projektmenedzsment tapasztalatok érdekében.
 
  További információkért tekintse meg az API referenciadokumentációját[Aspose.Tasks API dokumentáció](https://reference.aspose.com/tasks/net/).
 

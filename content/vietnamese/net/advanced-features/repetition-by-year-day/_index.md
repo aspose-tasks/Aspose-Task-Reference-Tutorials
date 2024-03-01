@@ -9,7 +9,7 @@ url: /vi/net/advanced-features/repetition-by-year-day/
 ---
 ## Giới thiệu
 
-Trong lĩnh vực quản lý dự án, việc lập lịch và lặp lại nhiệm vụ hiệu quả đóng vai trò then chốt trong việc đảm bảo thực hiện kịp thời và quy trình làm việc suôn sẻ. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ cho các nhà phát triển để xử lý các tác vụ định kỳ một cách dễ dàng trong ứng dụng của họ. Trong hướng dẫn này, chúng tôi đi sâu vào sự phức tạp khi làm việc với các lần lặp lại hàng ngày bằng Aspose.Tasks, cung cấp hướng dẫn toàn diện để tạo các nhiệm vụ định kỳ dựa trên các mẫu hàng năm.
+Trong lĩnh vực quản lý dự án, việc lập lịch và lặp lại nhiệm vụ hiệu quả đóng vai trò then chốt trong việc đảm bảo thực hiện kịp thời và quy trình làm việc suôn sẻ. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ cho các nhà phát triển để xử lý các tác vụ định kỳ một cách dễ dàng trong ứng dụng của họ. Trong hướng dẫn này, chúng tôi đi sâu vào sự phức tạp khi làm việc với các lần lặp lại ngày trong năm bằng Aspose.Tasks, cung cấp hướng dẫn toàn diện để tạo các nhiệm vụ định kỳ dựa trên các mẫu hàng năm.
 
 ## Điều kiện tiên quyết
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- Trong bước này, chúng tôi xác định các tham số cho tác vụ định kỳ của mình. Chúng tôi chỉ định tên nhiệm vụ, thời lượng và kiểu lặp lại. Để tái phát hàng năm, chúng tôi sử dụng`YearlyRecurrencePattern` và đặt sự lặp lại xảy ra vào ngày 1 tháng 7 bằng cách sử dụng`ByYearDayRepetition`, Ngoài ra, chúng tôi xác định phạm vi lặp lại từ ngày 1 tháng 7 năm 2018 đến ngày 1 tháng 7 năm 2019.
+ Trong bước này, chúng tôi xác định các tham số cho tác vụ định kỳ của mình. Chúng tôi chỉ định tên nhiệm vụ, thời lượng và kiểu lặp lại. Để tái phát hàng năm, chúng tôi sử dụng`YearlyRecurrencePattern` và đặt sự lặp lại xảy ra vào ngày 1 tháng 7 bằng cách sử dụng`ByYearDayRepetition`. Ngoài ra, chúng tôi xác định phạm vi lặp lại từ ngày 1 tháng 7 năm 2018 đến ngày 1 tháng 7 năm 2019.
 
 ## Bước 3: Thêm tác vụ vào dự án
 

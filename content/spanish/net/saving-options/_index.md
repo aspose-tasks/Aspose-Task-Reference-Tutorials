@@ -14,7 +14,7 @@ url: /es/net/saving-options/
 
 ## Guarde MS Project como HTML con Aspose.Tasks
 
- Libere el potencial de sus archivos de Microsoft Project aprendiendo cómo guardarlos como HTML usando Aspose.Tasks para .NET. Nuestra guía paso a paso garantiza un proceso de conversión perfecto, permitiéndole utilizar sin esfuerzo los datos del proyecto en formato HTML. Si usted es un administrador de proyectos experimentado o un principiante, este tutorial está diseñado para usted.[Leer más](./html-save-options/)
+ Libere el potencial de sus archivos de Microsoft Project aprendiendo cómo guardarlos como HTML usando Aspose.Tasks para .NET. Nuestra guía paso a paso garantiza un proceso de conversión perfecto, permitiéndole utilizar sin esfuerzo los datos del proyecto en formato HTML. Si usted es un gerente de proyectos experimentado o un principiante, este tutorial está diseñado para usted.[Leer más](./html-save-options/)
 
 ## Opciones para guardar imágenes de MS Project para Aspose.Tasks
 

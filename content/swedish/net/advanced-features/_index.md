@@ -14,22 +14,22 @@ url: /sv/net/advanced-features/
 
 ## Advanced AND Operation i Aspose.Tasks
 
- Lås upp potentialen för avancerade OCH-operationer i Aspose.Tasks för .NET. Vår handledning guidar dig genom att effektivt filtrera projektuppgifter baserat på flera kriterier. Få en djupare förståelse för uppgiftshantering med praktiska exempel.[Läs mer](./advanced-and-operation/)
+Lås upp potentialen för avancerade OCH-operationer i Aspose.Tasks för .NET. Vår handledning guidar dig genom att effektivt filtrera projektuppgifter baserat på flera kriterier. Få en djupare förståelse för uppgiftshantering med praktiska exempel.[Läs mer](./advanced-and-operation/)
 
 ## Använda AND Operator under alla förhållanden med Aspose.Tasks
 
-Utforska användningen av AND-operatören under alla förhållanden med Aspose.Tasks för .NET. Filtrera effektivt projektuppgifter baserat på olika kriterier. Lyft dina färdigheter i projektledning med denna steg-för-steg-guide.[Läs mer](./and-operator-all-conditions/)
+ Utforska användningen av AND-operatören under alla förhållanden med Aspose.Tasks för .NET. Filtrera effektivt projektuppgifter baserat på olika kriterier. Lyft dina färdigheter i projektledning med denna steg-för-steg-guide.[Läs mer](./and-operator-all-conditions/)
 
 ## Hantera minnesundantag med Aspose.Tasks Layout Builder
 
  Ta itu med minnesundantag i .NET med Aspose.Tasks Layout Builder. Vår guide ger ett steg-för-steg tillvägagångssätt med kodexempel, vilket säkerställer att du kan hantera undantag sömlöst. Öka din projekteffektivitet nu.[Läs mer](./layout-builder-out-of-memory/)
 ## Arbeta med uppdrag i Aspose.Tasks
 
- Hantera projektuppdrag effektivt i .NET med Aspose.Tasks. Denna handledning går in i olika konturer för resursschemaläggning och ger praktiska insikter och tips. Förbättra din projektorganisation och effektivisera arbetsflöden.[Läs mer](./working-with-assignment/)
+Hantera projektuppdrag effektivt i .NET med Aspose.Tasks. Denna handledning går in i olika konturer för resursschemaläggning och ger praktiska insikter och tips. Förbättra din projektorganisation och effektivisera arbetsflöden.[Läs mer](./working-with-assignment/)
 
 ## Hantera Assignment Baseline i Aspose.Tasks
 
-Lär dig hur du hanterar uppdragsbaslinjer effektivt med Aspose.Tasks för .NET. Detta säkerställer korrekt spårning av projektets framsteg och prestanda. Dyk in i vår handledning för en steg-för-steg-guide om hur du optimerar dina projektledningsstrategier.[Läs mer](./assignment-baseline/)
+ Lär dig hur du hanterar uppdragsbaslinjer effektivt med Aspose.Tasks för .NET. Detta säkerställer korrekt spårning av projektets framsteg och prestanda. Dyk in i vår handledning för en steg-för-steg-guide om hur du optimerar dina projektledningsstrategier.[Läs mer](./assignment-baseline/)
 
 ## Samling av uppdragsbaslinjer i Aspose.Tasks
 
@@ -37,11 +37,11 @@ Lär dig hur du hanterar uppdragsbaslinjer effektivt med Aspose.Tasks för .NET.
 
 ## Anpassad tilldelning Visa kolumn i Aspose.Tasks
 
- Utforska hur du lägger till anpassade uppdragsvykolumner i Aspose.Tasks för .NET, vilket ökar dina projektledningsmöjligheter. Den här handledningen ger en detaljerad guide som ger dig möjlighet att skräddarsy dina projektvyer för att möta specifika krav.[Läs mer](./assignment-view-column/)
+Utforska hur du lägger till anpassade uppdragsvykolumner i Aspose.Tasks för .NET, vilket ökar dina projektledningsmöjligheter. Den här handledningen ger en detaljerad guide som ger dig möjlighet att skräddarsy dina projektvyer för att möta specifika krav.[Läs mer](./assignment-view-column/)
 
 ## Arbeta med tillgänglighetsperioder i Aspose.Tasks
 
-Hantera effektivt resurstillgänglighetsperioder med Aspose.Tasks för .NET. Den här handledningen erbjuder en steg-för-steg-guide, som ger praktiska insikter för att arbeta med tillgänglighetsperioder i dina .NET-projekt. Förbättra projektplanering och genomförande.[Läs mer](./working-with-availability-periods/)
+ Hantera effektivt resurstillgänglighetsperioder med Aspose.Tasks för .NET. Den här handledningen erbjuder en steg-för-steg-guide, som ger praktiska insikter för att arbeta med tillgänglighetsperioder i dina .NET-projekt. Förbättra projektplanering och genomförande.[Läs mer](./working-with-availability-periods/)
 
 ## Samling av tillgänglighetsperioder i Aspose.Tasks
 
@@ -49,7 +49,7 @@ Hantera effektivt resurstillgänglighetsperioder med Aspose.Tasks för .NET. Den
 
 ## Styling Bar i Aspose.Tasks
 
- Lär dig hur du stilar staplar i Aspose.Tasks för .NET för att förbättra projektvisualiseringen. Vår handledning ger praktiska insikter som hjälper dig att skapa visuellt tilltalande projekttidslinjer. Lyft din projektpresentation och kommunikation.[Läs mer](./styling-bar/)
+Lär dig hur du stilar staplar i Aspose.Tasks för .NET för att förbättra projektvisualiseringen. Vår handledning ger praktiska insikter som hjälper dig att skapa visuellt tilltalande projekttidslinjer. Lyft din projektpresentation och kommunikation.[Läs mer](./styling-bar/)
 
 
 ## Aspose.Tasks Avancerade funktioner Handledning

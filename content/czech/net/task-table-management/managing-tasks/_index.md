@@ -11,7 +11,7 @@ url: /cs/net/task-table-management/managing-tasks/
 Pokud jste vývojář .NET a chcete efektivně spravovat úkoly ve svých projektech, Aspose.Tasks for .NET poskytuje robustní řešení. Tento tutoriál vás provede různými aspekty správy úloh pomocí Aspose.Tasks a nabídne vám podrobné pokyny a příklady kódu. Ať už přidáváte úkoly, zobrazujete rozdělené části, přesouváte úkoly pod stejného rodiče, získáváte/nastavujete vlastnosti úkolu, iterujete přes přiřazení úkolů, čtete osnovy úkolů nebo odstraňujete úkoly, tato příručka vám pomůže.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-1.  Aspose.Tasks for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET Library: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Tasks for .NET. Můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/).
 2. Adresář dokumentů: Nastavte adresář, kde budou uloženy vaše projektové dokumenty.
 ## Importovat jmenné prostory
 Ve svém projektu .NET zahrňte potřebné jmenné prostory pro práci s Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Načtěte projekt s rozdělenými úkoly
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Přístup k úkolu
+// Přístup k úkolu
 var task = project.RootTask.Children.GetById(4);
 // Zobrazit rozdělené části
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Přidejte úkol
 var task = project.RootTask.Children.Add("Task");
-// Zobrazení počtu úkolů před a po smazání
+//Zobrazení počtu úkolů před a po smazání
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Smazat úkol
 task.Delete();

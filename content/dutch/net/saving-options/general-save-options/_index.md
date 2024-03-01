@@ -35,7 +35,7 @@ Eerst moet u het MS Project-bestand laden met Aspose.Tasks:
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## Stap 2: Definieer de opslagopties
- Definieer de opslagopties volgens uw vereisten. In dit voorbeeld gebruiken we`Spreadsheet2003SaveOptions`,
+ Definieer de opslagopties volgens uw vereisten. In dit voorbeeld gebruiken we`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ A: Ja, Aspose.Tasks ondersteunt verschillende versies van MS Project-bestanden, 
 ### Vraag: Kan ik Aspose.Tasks uitproberen voordat ik een aankoop doe?
  A: Ja, u kunt Aspose.Tasks verkennen met een gratis proefversie[hier](https://releases.aspose.com/).
 ### Vraag: Waar kan ik documentatie vinden voor Aspose.Tasks?
-A: Er is gedetailleerde documentatie beschikbaar[hier](https://reference.aspose.com/tasks/net/), met uitgebreide richtlijnen voor het gebruik van Aspose.Tasks-functies.
+ A: Er is gedetailleerde documentatie beschikbaar[hier](https://reference.aspose.com/tasks/net/), met uitgebreide richtlijnen voor het gebruik van Aspose.Tasks-functies.
 ### Vraag: Hoe kan ik tijdelijke licenties verkrijgen voor Aspose.Tasks?
- A: Er zijn tijdelijke licenties beschikbaar voor evaluatiedoeleinden.[hier](https://purchase.aspose.com/temporary-license/).
+ A: Er zijn tijdelijke licenties beschikbaar voor evaluatiedoeleinden[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik ondersteuning zoeken voor Aspose.Tasks-gerelateerde vragen?
- A: U kunt lid worden van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15) om hulp te krijgen van experts en collega-ontwikkelaars.
+ A: U kunt lid worden van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15)om hulp te krijgen van experts en collega-ontwikkelaars.

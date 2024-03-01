@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Ladda projektfilen med hjälp av`Project` klasskonstruktor, som anger filsökvägen.
+ Ladda projektfilen med hjälp av`Project`klasskonstruktor, som anger filsökvägen.
 
 ## Steg 2: Samla alla projektuppgifter
 
@@ -117,4 +117,4 @@ S4: Ja, du kan sömlöst integrera Aspose.Tasks med andra .NET-ramverk och bibli
 
 ### F5: Finns det ett communityforum eller supportkanal tillgängligt för Aspose.Tasks-användare?
 
- S5: Ja, du kan komma åt Aspose.Tasks community-forum.[här](https://forum.aspose.com/c/tasks/15) för eventuella frågor eller hjälp.
+ S5: Ja, du kan komma åt Aspose.Tasks community-forum[här](https://forum.aspose.com/c/tasks/15) för eventuella frågor eller hjälp.

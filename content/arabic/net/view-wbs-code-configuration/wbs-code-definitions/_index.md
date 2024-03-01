@@ -12,7 +12,7 @@ url: /ar/net/view-wbs-code-configuration/wbs-code-definitions/
 ## المتطلبات الأساسية
 قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 - معرفة عملية بتطوير .NET.
-- تم تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
+-  تم تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/tasks/net/).
 - محرر التعليمات البرمجية (يوصى باستخدام Visual Studio).
 ## استيراد مساحات الأسماء
 في مشروع .NET الخاص بك، ابدأ باستيراد مساحات الأسماء الضرورية:

@@ -1,6 +1,6 @@
 ---
 title: การปรับแต่งคำแนะนำสไตล์ข้อความตารางใน Aspose.Tasks
-linktitle: กำหนดค่าลักษณะข้อความตารางใน Aspose.Tasks
+linktitle: การกำหนดค่าลักษณะข้อความตารางใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: ปรับปรุงการแสดงภาพโครงการด้วย Aspose.Tasks สำหรับ .NET เรียนรู้วิธีกำหนดค่ารูปแบบข้อความตารางทีละขั้นตอน เพิ่มประสิทธิภาพและการนำเสนอ
 type: docs
@@ -11,7 +11,7 @@ url: /th/net/task-table-management/table-text-styles/
 ในโลกของการจัดการโครงการ การแสดงภาพงานอย่างมีประสิทธิผลถือเป็นสิ่งสำคัญต่อความสำเร็จ Aspose.Tasks for .NET มอบโซลูชันอันทรงพลังในการปรับแต่งสไตล์ข้อความตาราง ซึ่งช่วยให้คุณปรับแต่งรูปลักษณ์ของรายการข้อความในโครงการของคุณได้ ในคำแนะนำทีละขั้นตอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการกำหนดค่าลักษณะข้อความตารางโดยใช้ Aspose.Tasks สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
--  Aspose.Tasks for .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Tasks for .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้ง Aspose.Tasks for .NET เวอร์ชันล่าสุดแล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/tasks/net/).
 - ไดเร็กทอรีเอกสาร: ตั้งค่าไดเร็กทอรีสำหรับเอกสารของคุณ แทนที่ "Your Document Directory" ในโค้ดด้วยเส้นทางจริง
 -  ใบอนุญาต Aspose ที่ถูกต้อง: ตัวอย่างนี้ต้องการใบอนุญาต Aspose ที่ถูกต้อง คุณสามารถซื้อใบอนุญาตแบบเต็มได้[ที่นี่](https://purchase.aspose.com/buy) หรือได้รับใบอนุญาตชั่วคราว 30 วัน[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ## นำเข้าเนมสเปซ
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx)");
 }
 ```
 ## บทสรุป

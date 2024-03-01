@@ -1,6 +1,6 @@
 ---
-title: Konfigurálja az MS Project erőforrás-használati nézeteit az Aspose.Tasks alkalmazásban
-linktitle: Konfigurálja az erőforrás-használati nézeteket az Aspose.Tasks alkalmazásban
+title: MS Project Resource Usage Views konfigurálása az Aspose.Tasks programban
+linktitle: Erőforrás-használati nézetek konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja az MS Project erőforráshasználati nézeteit az Aspose.Tasks for .NET használatával. Lépésről lépésre útmutató kódpéldákkal.
 type: docs
@@ -8,7 +8,7 @@ weight: 15
 url: /hu/net/resource-risk-analysis/resource-usage-views/
 ---
 ## Bevezetés
-Microsoft Project (MS Project) egy hatékony eszköz a projektmenedzsmenthez, amely lehetővé teszi a felhasználók számára projektjeik hatékony tervezését, végrehajtását és nyomon követését. Az Aspose.Tasks for .NET zökkenőmentes integrációt biztosít az MS Project fájlokkal, lehetővé téve a fejlesztők számára a projektadatok programozott kezelését. Ebben az oktatóanyagban megvizsgáljuk, hogyan konfigurálhatjuk az MS Project erőforrás-használati nézeteit az Aspose.Tasks for .NET használatával.
+A Microsoft Project (MS Project) egy hatékony eszköz a projektmenedzsmenthez, amely lehetővé teszi a felhasználók számára projektjeik hatékony tervezését, végrehajtását és nyomon követését. Az Aspose.Tasks for .NET zökkenőmentes integrációt biztosít az MS Project fájlokkal, lehetővé téve a fejlesztők számára a projektadatok programozott kezelését. Ebben az oktatóanyagban megvizsgáljuk, hogyan konfigurálhatjuk az MS Project erőforrás-használati nézeteit az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 1.  Aspose.Tasks for .NET: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési link](https://releases.aspose.com/tasks/net/).

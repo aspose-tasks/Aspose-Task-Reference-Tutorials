@@ -72,4 +72,4 @@ foreach (var info in list)
 ### Q4：Aspose.Tasks for .NET 提供技术支持吗？
 答：是的，您可以通过 Aspose.Tasks for .NET 获得技术支持[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)，您可以在这里提出问题并寻求专家的帮助。
 ### Q5：我可以在购买之前试用 Aspose.Tasks for .NET 吗？
-答：当然可以！您可以从以下位置免费试用 Aspose.Tasks for .NET[发布页面](https://releases.aspose.com/)，让您在做出购买决定之前探索其功能。
+答：当然可以！您可以从以下网站免费试用 Aspose.Tasks for .NET[发布页面](https://releases.aspose.com/)，让您在做出购买决定之前探索其功能。

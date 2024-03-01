@@ -19,10 +19,10 @@ Avez-vous du mal à maîtriser les subtilités de la gestion des tarifs et des t
  Dans[Maîtrisez les tarifs MS Project avec Aspose.Tasks](./rate-collection/), nous approfondissons les subtilités de la gestion des tarifs dans les fichiers MS Project. Ce didacticiel est votre ressource incontournable pour comprendre les nuances de la collecte des tarifs, offrant des informations pratiques et vous permettant d'améliorer les capacités de gestion des ressources de votre projet.
 
 ## Intervalles récurrents MS Project sans effort dans Aspose.Tasks
- Découvrez l'art de gérer les intervalles récurrents sans effort avec[Intervalles récurrents MS Project sans effort dans Aspose.Tasks](./recurring-intervals/), Ce didacticiel vous guide tout au long du processus d'utilisation d'Aspose.Tasks pour .NET, vous garantissant ainsi de gérer de manière transparente les tâches récurrentes au sein de votre MS Project.
+ Découvrez l'art de gérer les intervalles récurrents sans effort avec[Intervalles récurrents MS Project sans effort dans Aspose.Tasks](./recurring-intervals/). Ce didacticiel vous guide tout au long du processus d'utilisation d'Aspose.Tasks pour .NET, vous garantissant ainsi de gérer de manière transparente les tâches récurrentes au sein de votre MS Project.
 
 ## Extraction des informations sur les tâches récurrentes dans Aspose.Tasks
- Apprenez à extraire des informations sur les tâches récurrentes à partir de fichiers MS Project avec[Extraction des informations sur les tâches récurrentes dans Aspose.Tasks](./recurring-task-information/)Ce didacticiel offre une intégration facile aux développeurs .NET, vous permettant de travailler efficacement avec les tâches récurrentes dans vos projets.
+ Apprenez à extraire des informations sur les tâches récurrentes à partir de fichiers MS Project avec[Extraction des informations sur les tâches récurrentes dans Aspose.Tasks](./recurring-task-information/)Ce didacticiel offre une intégration facile aux développeurs .NET, vous permettant de travailler efficacement avec des tâches récurrentes dans vos projets.
 
 ## Définition des paramètres de tâches récurrentes dans Aspose.Tasks
  Dans[Définition des paramètres de tâches récurrentes dans Aspose.Tasks](./recurring-task-parameters/), nous fournissons un guide complet sur la façon de définir les paramètres de tâches récurrentes dans Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Équipez-vous des connaissances nécessaires pour configurer facilement des tâches récurrentes.
@@ -31,13 +31,13 @@ Avez-vous du mal à maîtriser les subtilités de la gestion des tarifs et des t
  Dites adieu à la suppression manuelle des tâches ![Suppression des tâches MS Project avec Aspose.Tasks](./removing-tasks/) vous guide tout au long du processus de suppression de tâches par programme à l’aide d’Aspose.Tasks pour .NET. Le guide étape par étape comprend des exemples de code pour une expérience transparente.
 
 ## Maîtrisez les rapports MS Project avec Aspose.Tasks
- Libérez tout le potentiel des rapports MS Project avec[Maîtrisez les rapports MS Project avec Aspose.Tasks](./report-types/), Ce didacticiel explique comment travailler avec des fichiers MS Project à l'aide d'Aspose.Tasks pour .NET, vous permettant de générer facilement différents types de rapports.
+ Libérez tout le potentiel des rapports MS Project avec[Maîtrisez les rapports MS Project avec Aspose.Tasks](./report-types/). Ce didacticiel explique comment travailler avec des fichiers MS Project à l'aide d'Aspose.Tasks pour .NET, vous permettant de générer facilement différents types de rapports.
 
 ## Enregistrement de fichiers MS Project dans différents formats dans Aspose.Tasks
 Une gestion de projet efficace comprend divers formats de fichiers.[Enregistrement de fichiers MS Project dans différents formats dans Aspose.Tasks](./save-file-formats/) vous guide à travers les étapes d'enregistrement des fichiers MS Project dans différents formats à l'aide d'Aspose.Tasks pour .NET.
 
 ## Gestion des parties fractionnées MS Project dans Aspose.Tasks
- Naviguer dans les pièces divisées dans MS Project devient un jeu d'enfant avec[Gestion des parties fractionnées MS Project dans Aspose.Tasks](./split-parts/), Améliorez votre flux de travail de gestion de projet en gérant efficacement les parties fractionnées à l'aide d'Aspose.Tasks pour .NET.
+ Naviguer dans les pièces divisées dans MS Project devient un jeu d'enfant avec[Gestion des parties fractionnées MS Project dans Aspose.Tasks](./split-parts/). Améliorez votre flux de travail de gestion de projet en gérant efficacement les parties fractionnées à l'aide d'Aspose.Tasks pour .NET.
 
 ## Collecter les parties fractionnées de MS Project dans Aspose.Tasks
  Notre tutoriel sur[Collecter les parties fractionnées de MS Project dans Aspose.Tasks](./split-part-collection/) est un guide complet qui vous guide pas à pas tout au long du processus. Apprenez à collecter des parties fractionnées dans MS Project, vous permettant ainsi d'optimiser votre flux de travail de gestion de projet.

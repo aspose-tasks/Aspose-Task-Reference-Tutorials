@@ -9,7 +9,7 @@ url: /hu/net/advanced-concepts/tree-algorithm/
 ---
 ## Bevezetés
 
-Az Aspose.Tasks for .NET hatékony funkciókat kínál a projektmenedzsment feladatokkal, erőforrásokkal és ütemezésekkel való munkához. Az egyik ilyen funkció a Tree Algorithm, amely lehetővé teszi a felhasználók számára a feladathierarchiák hatékony kezelését. Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatjuk az Aspose.Tasks for .NET fa algoritmusát a közös munka összegyűjtésére és a munkaértékek frissítésére egy projekten belül.
+Az Aspose.Tasks for .NET hatékony funkciókat kínál a projektmenedzsment feladatokkal, erőforrásokkal és ütemezésekkel való munkához. Az egyik ilyen funkció a Tree Algorithm, amely lehetővé teszi a felhasználók számára a feladathierarchiák hatékony kezelését. Ebben az oktatóanyagban megvizsgáljuk, hogyan használható az Aspose.Tasks for .NET fa algoritmusa a közös munka összegyűjtésére és a munkaértékek frissítésére egy projekten belül.
 
 ## Előfeltételek
 
@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 
 1. Visual Studio: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren.
 2.  Aspose.Tasks for .NET: Töltse le és telepítse az Aspose.Tasks for .NET webhelyet innen[itt](https://releases.aspose.com/tasks/net/).
-3. C# alapvető ismerete: A példák követéséhez a C# programozási nyelv ismerete szükséges.
+3. A C# alapvető ismerete: A példák követéséhez a C# programozási nyelv ismerete szükséges.
 
 ## Névterek importálása
 

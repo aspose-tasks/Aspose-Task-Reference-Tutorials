@@ -1,6 +1,6 @@
 ---
 title: Konfigurace MS Project Legends v Aspose.Tasks
-linktitle: Nakonfigurujte legendu stránky v Aspose.Tasks
+linktitle: Konfigurace legendy stránky v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat legendy stránek MS Project v .NET pomocí Aspose.Tasks pro efektivní řízení projektů. Poskytován průvodce krok za krokem.
 type: docs
@@ -8,10 +8,10 @@ weight: 18
 url: /cs/net/outline-code-page-settings/page-legend/
 ---
 ## Úvod
-oblasti vývoje .NET je efektivní řízení úkolů zásadní, zejména při řízení projektů. Aspose.Tasks for .NET se ukazuje jako výkonný nástroj, který nabízí nepřeberné množství funkcí pro zefektivnění procesů správy úloh. Jednou z takových funkcí je možnost konfigurovat legendy stránek MS Project, které uživatelům poskytují cenné informace o prezentaci dat projektu.
+V oblasti vývoje .NET je efektivní řízení úkolů zásadní, zejména při řízení projektů. Aspose.Tasks for .NET se ukazuje jako výkonný nástroj, který nabízí nepřeberné množství funkcí pro zefektivnění procesů správy úloh. Jednou z takových funkcí je možnost konfigurovat legendy stránek MS Project, které uživatelům poskytují cenné informace o prezentaci dat projektu.
 ## Předpoklady
 Než se ponoříte do konfigurace legend stránek MS Project pomocí Aspose.Tasks pro .NET, ujistěte se, že jsou splněny následující předpoklady:
-1.  Instalace: Nechte si ve vývojovém prostředí nainstalovat Aspose.Tasks for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
+1. Instalace: Nechte si ve vývojovém prostředí nainstalovat Aspose.Tasks for .NET. Můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
 2. Základní znalosti .NET: Seznamte se se základy vývoje .NET, včetně nastavování projektů a práce s jmennými prostory.
 3. Vývojové prostředí: Pro bezproblémové kódování použijte integrované vývojové prostředí (IDE), jako je Visual Studio.
 4. Soubor projektu: Připravte si soubor Microsoft Project (MPP) pro experimentování.

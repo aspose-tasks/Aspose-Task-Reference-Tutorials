@@ -32,7 +32,7 @@ Başlamak için gerekli ad alanlarını C# projenize aktarın:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
+ Yer değiştirmek`"Your Document Directory"` belge dizininizin gerçek yolu ile.
 ## 2. Adım: Yeni Bir Proje Örneği Oluşturun
 ```csharp
 var project = new Project();
@@ -61,4 +61,4 @@ C: Kesinlikle, Aspose.Tasks for .NET, kullanılabilirlik, maliyet ve daha fazlas
 ### S: Aspose.Tasks for .NET, proje verilerinin XML dışındaki formatlara aktarılmasını destekliyor mu?
 C: Evet, Aspose.Tasks for .NET, proje verilerinin MPP, PDF, XLSX ve HTML gibi çeşitli formatlara aktarılmasını destekler.
 ### S: Aspose.Tasks for .NET için nereden daha fazla yardım veya destek bulabilirim?
-C: Daha fazla yardım veya destek için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) veya şuraya bakın:[dokümantasyon](https://reference.aspose.com/tasks/net/) Aspose tarafından sağlanmıştır.
+ C: Daha fazla yardım veya destek için şu adresi ziyaret edebilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) veya şuraya bakın:[dokümantasyon](https://reference.aspose.com/tasks/net/) Aspose tarafından sağlanmıştır.

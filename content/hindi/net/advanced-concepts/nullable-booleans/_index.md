@@ -9,7 +9,7 @@ url: /hi/net/advanced-concepts/nullable-booleans/
 ---
 ## परिचय
 
- इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks में निरर्थक बूलियन के साथ काम करने के बारे में विस्तार से जानेंगे। निरर्थक बूलियन, बूलियन मूल्यों का प्रतिनिधित्व करने में लचीलापन प्रदान करते हैं, जिससे अपरिभाषित होने की संभावना बनी रहती है। हम इसका उपयोग कैसे करें इसका पता लगाएंगे`NullableBool` वर्ग, इसके निर्माता, गुण और विधियाँ।
+इस ट्यूटोरियल में, हम .NET के लिए Aspose.Tasks में निरर्थक बूलियन के साथ काम करने के बारे में विस्तार से जानेंगे। निरर्थक बूलियन, बूलियन मूल्यों का प्रतिनिधित्व करने में लचीलापन प्रदान करते हैं, जिससे अपरिभाषित होने की संभावना बनी रहती है। हम इसका उपयोग कैसे करें इसका पता लगाएंगे`NullableBool` वर्ग, इसके निर्माता, गुण और विधियाँ।
 
 ## आवश्यक शर्तें
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### चरण 6: का स्ट्रिंग प्रतिनिधित्व प्रदर्शित करें`NullableBool` object.
+###  चरण 6: का स्ट्रिंग प्रतिनिधित्व प्रदर्शित करें`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  चरण 2: प्रत्येक के लिए हैश कोड प्रिंट करें`NullableBool` object.
+### चरण 2: प्रत्येक के लिए हैश कोड प्रिंट करें`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());

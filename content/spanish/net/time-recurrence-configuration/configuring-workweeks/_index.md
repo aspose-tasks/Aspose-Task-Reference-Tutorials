@@ -1,6 +1,6 @@
 ---
 title: Dominar la configuración de la semana laboral en Aspose.Tasks
-linktitle: Configurar semanas laborales en Aspose.Tasks
+linktitle: Configuración de semanas laborales en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar semanas laborales sin esfuerzo en Aspose.Tasks para .NET. Mejore la programación de proyectos y la gestión de recursos con nuestra guía paso a paso.
 type: docs

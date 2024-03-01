@@ -94,7 +94,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 ### 問題 2：Aspose.Tasks for .NET 有沒有免費試用版？
 
- A2：是的，您可以獲得 Aspose.Tasks for .NET 的免費試用版[這裡](https://releases.aspose.com/).
+A2：是的，您可以獲得 Aspose.Tasks for .NET 的免費試用版[這裡](https://releases.aspose.com/).
 
 ### Q3：在哪裡可以找到 Aspose.Tasks for .NET 的文件？
 
@@ -102,7 +102,7 @@ A3：你可以找到文檔[這裡](https://reference.aspose.com/tasks/net/).
 
 ### Q4：如何獲得 Aspose.Tasks for .NET 支援？
 
-A4：您可以從社區論壇獲得支援。[這裡](https://forum.aspose.com/c/tasks/15).
+A4：您可以從社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).
 
 ### Q5：你們有提供 Aspose.Tasks for .NET 的臨時授權嗎？
 

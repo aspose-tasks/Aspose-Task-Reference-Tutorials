@@ -51,9 +51,9 @@ I den här handledningen har vi lärt oss hur man använder MS Project Primavera
 ### F: Kan Aspose.Tasks hantera komplexa projektstrukturer?
 S: Ja, Aspose.Tasks tillhandahåller robusta funktioner för att effektivt hantera olika projektstrukturer och komplexitet.
 ### F: Finns det en gratis testversion tillgänglig för Aspose.Tasks?
-S: Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
+ S: Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
 ### F: Hur kan jag få support för Aspose.Tasks?
- S: Du kan få support från Aspose.Tasks-forumet.[här](https://forum.aspose.com/c/tasks/15).
+ S: Du kan få support från Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).
 ### F: Kan jag köpa en tillfällig licens för Aspose.Tasks?
  S: Ja, tillfälliga licenser finns att köpa[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag hitta omfattande dokumentation för Aspose.Tasks?

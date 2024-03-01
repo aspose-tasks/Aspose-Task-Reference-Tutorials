@@ -8,7 +8,7 @@ weight: 25
 url: /pl/net/task-table-management/task-usage-view-fields/
 ---
 ## Wstęp
-dziedzinie zarządzania projektami Aspose.Tasks dla .NET jest solidnym rozwiązaniem, zapewniającym programistom potężny zestaw narzędzi do manipulowania danymi projektu i zarządzania nimi. Jedną z godnych uwagi funkcji jest widok wykorzystania zadań, oferujący wgląd w różne pola, które zwiększają widoczność projektu. W tym samouczku zagłębimy się w zawiłości pól widoku użycia zadań przy użyciu Aspose.Tasks dla .NET, dzieląc każdy krok w celu pełnego zrozumienia.
+W dziedzinie zarządzania projektami Aspose.Tasks dla .NET jest solidnym rozwiązaniem, zapewniającym programistom potężny zestaw narzędzi do manipulowania danymi projektu i zarządzania nimi. Jedną z godnych uwagi funkcji jest widok wykorzystania zadań, oferujący wgląd w różne pola, które zwiększają widoczność projektu. W tym samouczku zagłębimy się w zawiłości pól widoku użycia zadań przy użyciu Aspose.Tasks dla .NET, dzieląc każdy krok w celu pełnego zrozumienia.
 ## Warunki wstępne
 Zanim wyruszymy w tę podróż, upewnijmy się, że spełniliśmy następujące wymagania wstępne:
 -  Aspose.Tasks dla biblioteki .NET: Pobierz i zainstaluj bibliotekę z[Aspose.Tasks dla dokumentacji .NET](https://reference.aspose.com/tasks/net/).
@@ -57,10 +57,10 @@ W tym samouczku zbadaliśmy bogactwo Aspose.Tasks dla .NET, koncentrując się n
 ### Czy mogę używać Aspose.Tasks dla .NET z innymi narzędziami do zarządzania projektami?
 Aspose.Tasks skupia się przede wszystkim na aplikacjach .NET. Można jednak eksportować dane do różnych formatów kompatybilnych z innymi narzędziami.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla .NET?
-Tak, możesz doświadczyć funkcjonalności Aspose.Tasks dla .NET, uzyskując bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+ Tak, możesz doświadczyć funkcjonalności Aspose.Tasks dla .NET, uzyskując bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać wsparcie dla Aspose.Tasks dla .NET?
- odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) uzyskać wsparcie społecznościowe lub zapoznać się z obszerną dokumentacją.
+ Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) uzyskać wsparcie społecznościowe lub zapoznać się z obszerną dokumentacją.
 ### Czy dostępne są licencje tymczasowe dla Aspose.Tasks dla .NET?
- Tak, możesz nabyć licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/) do krótkotrwałego stosowania.
+ Tak, możesz nabyć licencje tymczasowe[Tutaj](https://purchase.aspose.com/temporary-license/) do krótkotrwałego użytkowania.
 ### Jakie formaty plików są obsługiwane dla dokumentów projektu?
 Aspose.Tasks dla .NET obsługuje różne formaty, w tym MPP, XML i CSV.

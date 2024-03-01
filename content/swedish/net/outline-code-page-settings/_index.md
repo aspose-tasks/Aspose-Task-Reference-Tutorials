@@ -27,7 +27,7 @@ När du fördjupar dig i projektledningsvärlden blir det avgörande att behärs
 ## Samling av konturmasker med Aspose.Tasks för .NET
  Förbättra din produktivitet genom att lära dig hur du manipulerar Microsoft Projects samlingskonturmasker med Aspose.Tasks för .NET. Den här omfattande handledningen ger dig verktygen för att optimera ditt arbetsflöde för projektledning.[Läs mer](./outline-mask-collection/)
 
-## Bemästra MS Project Outline Values med Aspose.Tasks för .NET
+## Bemästra MS Project Outline-värden med Aspose.Tasks för .NET
 Hantera Microsoft Projects dispositionsvärden effektivt med Aspose.Tasks för .NET. Denna handledning ger dig möjlighet att enkelt anpassa projektkonturer, vilket ger en sömlös upplevelse i din projektledningsresa.[Läs mer](./outline-values/)
 
 ## Samling av dispositionsvärden i Aspose.Tasks för .NET

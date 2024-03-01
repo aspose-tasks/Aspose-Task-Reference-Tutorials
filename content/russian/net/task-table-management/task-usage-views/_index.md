@@ -23,12 +23,12 @@ url: /ru/net/task-table-management/task-usage-views/
     using Aspose.Tasks.Visualization;
 ```
 ## Шаг 1. Установите путь к каталогу документов
- Прежде чем работать с функционалом Aspose.Tasks, укажите путь к каталогу ваших документов. Заменять`"Your Document Directory"` с реальным путем.
+ Прежде чем работать с функциями Aspose.Tasks, укажите путь к каталогу ваших документов. Заменять`"Your Document Directory"` с реальным путем.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Шаг 2. Загрузите проект
- Инициализируйте задачи Aspose.`Project` объект, загрузив файл проекта (например, TaskUsageView.mpp).
+ Инициализируйте Aspose.Tasks`Project` объект, загрузив файл проекта (например, TaskUsageView.mpp).
 ```csharp
 var project = new Project(DataDir + "TaskUsageView.mpp");
 ```

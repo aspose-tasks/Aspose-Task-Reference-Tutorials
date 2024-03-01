@@ -1,6 +1,6 @@
 ---
 title: Освоение представлений Microsoft Project с помощью Aspose.Tasks
-linktitle: Настройка представлений в Aspose.Задачи
+linktitle: Настройка представлений в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Освойте представления Microsoft Project с помощью Aspose.Tasks для .NET. Настраивайте и оптимизируйте свой опыт управления проектами без особых усилий.
 type: docs
@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Выделите фильтр для одног
 ## Шаг 4. Настройте параметры просмотра
 ```csharp
 // Настройте некоторые параметры просмотра
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Установите количество первых столбцов, которые будут напечатаны на всех страницах.
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Установите количество первых столбцов, которые будут напечатаны на всех страницах.
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Распечатать указанное количество первых столбцов на всех страницах.
 ```
 ## Шаг 5. Добавьте представление в проект
 ```csharp
-//Добавьте вид в наш проект
+// Добавьте вид в наш проект
 project.Views.Add(view);
 ```
 ## Шаг 6. Сохраните проект с новым видом.
@@ -75,6 +75,6 @@ Aspose.Tasks в первую очередь разработан для Microsof
 ### Как я могу получить поддержку Aspose.Tasks для .NET?
  Посетить[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15) для поддержки сообщества или рассмотрите возможность приобретения планов поддержки.
 ### Могу ли я дополнительно настроить внешний вид представлений?
- Обязательно покопайтесь в документации Aspose.Tasks.[здесь](https://reference.aspose.com/tasks/net/)для расширенных возможностей настройки.
+ Обязательно покопайтесь в документации Aspose.Tasks.[здесь](https://reference.aspose.com/tasks/net/) для расширенных возможностей настройки.
 ### Где я могу приобрести Aspose.Tasks для .NET?
  Вы можете купить библиотеку[здесь](https://purchase.aspose.com/buy) для беспрепятственного управления проектами.

@@ -4,7 +4,7 @@ linktitle: Aspose.Tasks para tutoriales de .NET
 type: docs
 weight: 10
 url: /es/net/
-description: Explore los tutoriales de Aspose.Tasks para .NET que cubren opciones de ahorro, calendario y programación, gestión de proyectos y más. Eleve sus habilidades de gestión de proyectos.
+description: Explore los tutoriales de Aspose.Tasks para .NET que cubren opciones de guardado, calendario y programación, gestión de proyectos y más. Eleve sus habilidades de gestión de proyectos.
 is_root: true
 ---
 ## Introducción

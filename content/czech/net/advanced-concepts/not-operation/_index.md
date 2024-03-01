@@ -9,7 +9,7 @@ url: /cs/net/advanced-concepts/not-operation/
 ---
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak využít operaci NOT v Aspose.Tasks pro .NET. Operace NOT nám umožňuje obrátit podmínku filtru, což nám umožňuje vybrat prvky, které nesplňují zadaná kritéria.
+V tomto tutoriálu prozkoumáme, jak využít operaci NOT v Aspose.Tasks pro .NET. Operace NOT nám umožňuje obrátit podmínku filtru, což nám umožňuje vybrat prvky, které nesplňují zadaná kritéria.
 
 ## Předpoklady
 
@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Zde vytvoříme a`ChildTasksCollector` objekt shromáždit všechny úkoly v rámci projektu. Poté používáme`TaskUtils.Apply`procházet hierarchií úkolů projektu a shromažďovat všechny podřízené úkoly.
+ Zde vytvoříme a`ChildTasksCollector` objekt shromáždit všechny úkoly v rámci projektu. Poté používáme`TaskUtils.Apply` procházet hierarchií úkolů projektu a shromažďovat všechny podřízené úkoly.
 
 ## Krok 3: Definujte podmínku filtru
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Definujeme podmínku filtru pomocí vlastní třídy s názvem`NullCondition`, Tato podmínka vybere úlohy, které mají hodnotu null.
+ Definujeme podmínku filtru pomocí vlastní třídy s názvem`NullCondition`. Tato podmínka vybere úlohy, které mají hodnotu null.
 
 ## Krok 4: Použijte operaci NOT
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- Operaci NOT aplikujeme na podmínku filtru pomocí`Not<T>` třídy poskytuje Aspose.Tasks. Tím se obrátí podmínka filtru a vyberou se úlohy, které nemají hodnotu null.
+ Operaci NOT aplikujeme na podmínku filtru pomocí`Not<T>`třídy poskytuje Aspose.Tasks. Tím se obrátí podmínka filtru a vyberou se úlohy, které nemají hodnotu null.
 
 ## Krok 5: Filtrování úkolů
 
@@ -91,7 +91,7 @@ Nakonec projdeme filtrované úkoly a provedeme libovolné požadované operace.
 
 ## Závěr
 
-tomto tutoriálu jsme se naučili pracovat s operací NOT v Aspose.Tasks pro .NET. Obrácením podmínek filtru můžeme selektivně vybrat prvky, které nesplňují zadaná kritéria, což zvyšuje naši flexibilitu při manipulaci s úkoly v rámci projektů.
+V tomto tutoriálu jsme se naučili pracovat s operací NOT v Aspose.Tasks pro .NET. Obrácením podmínek filtru můžeme selektivně vybrat prvky, které nesplňují zadaná kritéria, což zvyšuje naši flexibilitu při manipulaci s úkoly v rámci projektů.
 
 ## FAQ
 

@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Etapa 1: carregar o arquivo do projeto
 
- Comece carregando o arquivo do Microsoft Project (.mpp) que você deseja verificar se há uma estrutura quebrada. Use o`Project` classe para carregar o arquivo.
+Comece carregando o arquivo do Microsoft Project (.mpp) que você deseja verificar se há uma estrutura quebrada. Use o`Project` classe para carregar o arquivo.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## Passo 2: Verifique a Estrutura do Projeto
 
- Para detectar qualquer estrutura quebrada dentro do projeto, usaremos o`CheckCircuit` aula junto com`TaskUtils.Apply` método.
+ Para detectar qualquer estrutura quebrada dentro do projeto, usaremos o`CheckCircuit` aula junto com o`TaskUtils.Apply` método.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ A1: Sim, Aspose.Tasks for .NET é compatível com vários frameworks .NET, inclu
 
 ### Q3: Como posso obter suporte para Aspose.Tasks for .NET?
 
-A3: Você pode buscar ajuda no fórum da comunidade Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
+ A3: Você pode buscar ajuda no fórum da comunidade Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).
 
 ### P4: Preciso de uma licença temporária para fins de teste?
 

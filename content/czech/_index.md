@@ -9,7 +9,7 @@ url: /cs/
 is_root: true
 ---
 
-Pusťte se do komplexního zkoumání možností projektového řízení napříč různými programovacími jazyky s naším seznamem výukových programů Aspose.Tasks. Ať už pracujete s Aspose.Tasks pro .NET, Java, C,, nebo jiných jazycích, je tato vybraná kolekce výukových programů navržena tak, aby umožnila vývojářům na všech úrovních. Od základních pojmů až po pokročilé techniky, každý tutoriál poskytuje návod krok za krokem, který vám umožní využít plný potenciál Aspose.Tasks ve vašem preferovaném jazyce. Ponořte se do našeho bohatého úložiště a zdokonalte své dovednosti projektového řízení napříč různými platformami a prostředími kódování. Pojďme společně procházet rozmanitou krajinou výukových programů Aspose.Tasks!
+Pusťte se do komplexního průzkumu možností projektového řízení v různých programovacích jazycích s naším seznamem výukových programů Aspose.Tasks. Ať už pracujete s Aspose.Tasks pro .NET, Java, C++, nebo jiných jazycích, je tato vybraná kolekce výukových programů navržena tak, aby umožnila vývojářům na všech úrovních. Od základních pojmů až po pokročilé techniky, každý tutoriál poskytuje návod krok za krokem, který vám umožní využít plný potenciál Aspose.Tasks ve vašem preferovaném jazyce. Ponořte se do našeho bohatého úložiště a zdokonalte své dovednosti projektového řízení napříč různými platformami a prostředími kódování. Pojďme společně procházet rozmanitou krajinou výukových programů Aspose.Tasks!
 
 ## Aspose.Tasks for .NET Tutoriály
 {{% alert color="primary" %}}
@@ -34,3 +34,27 @@ Zde jsou odkazy na některé užitečné zdroje:
 - [Možnosti formátu souboru Aspose.Tasks](./net/file-format-options/)
 - [Konfigurace zabezpečení PDF Aspose.Tasks](./net/pdf-security-configuration/)
 - [Správa licencí Aspose.Tasks](./net/license-management/)
+
+## Aspose.Tasks pro Java tutoriály
+{{% alert color="primary" %}}
+Vítejte v bráně vylepšeného řízení projektů Java! Vydejte se na cestu s Aspose.Tasks for Java, kde naše komplexní výukové programy a příklady nově definují způsob, jakým zpracováváte projektové pracovní postupy. Od zvládnutí výjimek kalendáře až po bezproblémovou integraci VBA jsme vytvořili velké množství zdrojů, které umožňují vývojářům na všech úrovních. Připojte se k nám, když se ponoříme do složitosti projektového řízení, nabídneme vám podrobné pokyny a odemkneme plný potenciál Aspose.Tasks for Java. Připravte se na optimalizaci svých projektů, zefektivněte pracovní postupy a zdokonalte své vývojové dovednosti v Javě!
+{{% /alert %}}
+
+Zde jsou odkazy na některé užitečné zdroje:
+
+- [Výjimky kalendáře](./java/calendar-exceptions/)
+- [Kalendáře](./java/calendars/)
+- [Měna](./java/currency/)
+- [Vzorce](./java/formulas/)
+- [Vlastnosti projektu](./java/project-properties/)
+- [Vlastnosti měny](./java/currency-properties/)
+- [Konfigurace projektu](./java/project-configuration/)
+- [Projektový management](./java/project-management/)
+- [Čtení dat projektu](./java/project-data-reading/)
+- [Operace souborů projektu](./java/project-file-operations/)
+- [Přiřazení zdrojů](./java/resource-assignments/)
+- [Správa zdrojů](./java/resource-management/)
+- [Základní linie úkolů](./java/task-baselines/)
+- [Odkazy na úkoly](./java/task-links/)
+- [Vlastnosti úlohy](./java/task-properties/)
+- [Integrace VBA](./java/vba-integration/)

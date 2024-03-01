@@ -12,7 +12,7 @@ Aspose.Tasks voor .NET is een krachtige bibliotheek die projectbeheer vergemakke
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u het volgende hebt ingesteld:
 - Een praktische kennis van de programmeertaal C#.
-- Aspose.Tasks voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks voor .NET-bibliotheek geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
 - Een Integrated Development Environment (IDE), zoals Visual Studio.
 ## Naamruimten importeren
 Zorg er eerst voor dat u de benodigde naamruimten aan het begin van uw C#-bestand importeert:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // herhaal de tabelvelden
+    //herhaal de tabelvelden
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -72,7 +72,7 @@ Bewerk het nieuw toegevoegde tabelveld met indextoegang.
 table.TableFields[idx].WrapHeader = true;
 ```
 ## Stap 7: Verwijder het veld
-Verwijder de tabelvelden één voor één of wis de hele verzameling.
+Verwijder het tabelveld één voor één of wis de hele verzameling.
 ```csharp
 Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
 // Verwijder het veld
@@ -108,6 +108,6 @@ Absoluut! Zoals u in de zelfstudie ziet, kunt u indien nodig tabelvelden dynamis
 ### Zijn er licentieoverwegingen voor het gebruik van Aspose.Tasks voor .NET in een commercieel project?
  Ja, u heeft een geldige licentie nodig om Aspose.Tasks voor .NET in een commercieel project te gebruiken. U kunt een licentie verkrijgen[hier](https://purchase.aspose.com/buy).
 ### Hoe kan ik ondersteuning krijgen of hulp zoeken bij Aspose.Tasks voor .NET?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) om ondersteuning te krijgen, vragen te stellen en samen te werken met de gemeenschap.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15)om ondersteuning te krijgen, vragen te stellen en samen te werken met de gemeenschap.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
  Ja, u kunt de functies van Aspose.Tasks voor .NET verkennen met een gratis proefperiode. Download het[hier](https://releases.aspose.com/).

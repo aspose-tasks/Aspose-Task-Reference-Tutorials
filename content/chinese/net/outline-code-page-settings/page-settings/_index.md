@@ -15,7 +15,7 @@ url: /zh/net/outline-code-page-settings/page-settings/
 2. 开发环境：使用 Visual Studio 或任何其他用于 .NET 开发的首选 IDE 设置开发环境。
 
 ## 导入命名空间
-首先，您需要将必要的命名空间导入到您的项目中。这些命名空间提供对操作 MS Project 文件所需的 Aspose.Tasks 类和方法的访问。
+首先，您需要在项目中导入必要的命名空间。这些命名空间提供对操作 MS Project 文件所需的 Aspose.Tasks 类和方法的访问。
 ```csharp
 using Aspose.Tasks;
 using System.Linq;

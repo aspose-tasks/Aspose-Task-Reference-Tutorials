@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Szükség szerint módosítsa a vázlatkódokat, például beillesztheti, eltávolíthatja vagy törölheti.
 ```csharp
 // Példa a manipulációra
-// ,
+// ...
 // Helyezze be a kódot a 2-vel a megfelelő helyre
 task.OutlineCodes.Insert(2, code2);
 // Ellenőrizze, hogy a kód be lett-e helyezve

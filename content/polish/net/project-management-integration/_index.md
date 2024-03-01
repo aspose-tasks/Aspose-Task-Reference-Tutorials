@@ -21,9 +21,9 @@ Dowiedz się, jak bez wysiłku formatować prezentacje MS Project przy użyciu A
 ## Odczyt danych MS Project Primavera za pomocą Aspose.Tasks
  Odblokuj możliwość odczytu danych MS Project Primavera za pomocą Aspose.Tasks dla .NET. Nasz poradnik[Tutaj](./primavera-data-reading/) poprowadzi Cię przez proces za pomocą przykładów kodu, dzięki czemu wyszukiwanie danych stanie się dziecinnie proste.
 
-Podróż nie kończy się tutaj; Zapoznaj się z niezliczoną liczbą samouczków obejmujących wszystko, od obsługi linii postępu i opracowywania danych projektu po konfigurowanie opcji wyświetlania i płynne zarządzanie MS Project Server. Zapoznaj się z samouczkami Aspose.Tasks for .NET, aby odblokować pełny potencjał możliwości zarządzania projektami.
+Podróż nie kończy się tutaj; zapoznaj się z niezliczoną liczbą samouczków obejmujących wszystko, od obsługi linii postępu i opracowywania danych projektu po konfigurowanie opcji wyświetlania i płynne zarządzanie MS Project Server. Zapoznaj się z samouczkami Aspose.Tasks for .NET, aby odblokować pełny potencjał możliwości zarządzania projektami.
 
- Gotowy do dostosowywania widoków MS Project, zarządzania danymi uwierzytelniającymi serwera i bezproblemowego wydobywania informacji o projekcie? Postępuj zgodnie z naszymi przewodnikami[Dostosowywanie widoków MS Project](./project-views/), [Zarządzanie poświadczeniami serwera MS Project](./project-server-credentials/) ,I[Wyodrębnianie informacji o projekcie MS](./project-information/) dla dogłębnych spostrzeżeń.
+ Gotowy do dostosowywania widoków MS Project, zarządzania danymi uwierzytelniającymi serwera i bezproblemowego wydobywania informacji o projekcie? Postępuj zgodnie z naszymi przewodnikami[Dostosowywanie widoków MS Project](./project-views/), [Zarządzanie poświadczeniami serwera MS Project](./project-server-credentials/) , I[Wyodrębnianie informacji o projekcie MS](./project-information/) dla dogłębnych spostrzeżeń.
 
  Bezproblemowo obsługuj wyjątki MS Project Online, automatyzuj zadania projektowe i zwiększ efektywność zarządzania projektami dzięki włączonym samouczkom[Zarządzanie wyjątkami online MS Project](./project-online-exceptions/) I[Zarządzanie serwerem MS Project Server za pomocą Aspose.Tasks](./project-server-management/).
 
@@ -40,13 +40,13 @@ Dowiedz się, jak bez wysiłku skonfigurować ustawienia bazy danych MS Project 
 Dowiedz się, jak czytać dane MS Project Primavera przy użyciu Aspose.Tasks dla .NET. Przewodnik krok po kroku z przykładami kodu.
 ### [Korzystanie z czytnika XML MS Project Primavera w Aspose.Tasks](./primavera-xml-reader/)
 Dowiedz się, jak wykorzystać czytnik XML MS Project Primavera w Aspose.Tasks dla .NET do efektywnego zarządzania danymi projektu. Uzyskaj wskazówki krok po kroku i zapoznaj się z często zadawanymi pytaniami.
-### [Skonfiguruj opcje drukowania MS Project w Aspose.Tasks](./print-options/)
+### [Konfigurowanie opcji drukowania MS Project w Aspose.Tasks](./print-options/)
 Dowiedz się, jak bezproblemowo skonfigurować opcje drukowania MS Project za pomocą Aspose.Tasks dla .NET. Zwiększ swoje możliwości zarządzania projektami.
 ### [Obsługa linii postępu projektu MS za pomocą Aspose.Tasks](./progress-lines/)
 Dowiedz się, jak manipulować liniami postępu w plikach MS Project przy użyciu Aspose.Tasks dla .NET, usprawniając wizualizację projektu i zarządzanie nim.
 ### [Opanowywanie danych projektu za pomocą Aspose.Tasks](./project-data/)
 Dowiedz się, jak manipulować danymi programu Microsoft Project za pomocą Aspose.Tasks w .NET. Z łatwością twórz zadania, dodawaj zasoby i zapisuj projekty.
-### [Skonfiguruj opcje wyświetlania MS Project w Aspose.Tasks](./project-display-options/)
+### [Konfigurowanie opcji wyświetlania MS Project w Aspose.Tasks](./project-display-options/)
 Dowiedz się, jak programowo skonfigurować opcje wyświetlania MS Project przy użyciu Aspose.Tasks dla .NET. Dostosuj wygląd swojego projektu bez wysiłku.
 ### [Opanowanie obsługi plików projektów MS za pomocą Aspose.Tasks](./project-file-formats/)
 Odblokuj moc manipulacji plikami Microsoft Project za pomocą Aspose.Tasks dla .NET. Zanurz się w bezproblemową integrację i zarządzanie.

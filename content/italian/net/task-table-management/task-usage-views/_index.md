@@ -1,6 +1,6 @@
 ---
 title: Padroneggiare le visualizzazioni di utilizzo delle attività in Aspose.Tasks per .NET
-linktitle: Configurare le visualizzazioni di utilizzo delle attività in Aspose.Tasks
+linktitle: Configurazione delle visualizzazioni di utilizzo delle attività in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Esplora Aspose.Tasks per .NET e scopri come configurare le visualizzazioni di utilizzo delle attività. Personalizza le impostazioni della scala temporale e migliora gli elementi visivi della gestione del progetto.
 type: docs
@@ -23,7 +23,7 @@ Nel tuo progetto .NET, importa gli spazi dei nomi necessari per accedere alle fu
     using Aspose.Tasks.Visualization;
 ```
 ## Passaggio 1: impostare il percorso della directory dei documenti
- Prima di lavorare con le funzionalità Aspose.Tasks, imposta il percorso della directory dei tuoi documenti. sostituire`"Your Document Directory"` con il percorso vero e proprio.
+ Prima di lavorare con le funzionalità Aspose.Tasks, imposta il percorso della directory dei tuoi documenti. Sostituire`"Your Document Directory"` con il percorso vero e proprio.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Sì, Aspose.Tasks supporta i formati di file di progetto più diffusi come MPP, 
 ### Posso applicare diverse impostazioni di scala temporale ad attività specifiche?
 Assolutamente, puoi personalizzare le impostazioni della scala temporale per le singole attività all'interno del tuo progetto.
 ### Come posso ottenere supporto o chiedere assistenza per Aspose.Tasks?
- visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto e l’orientamento della comunità.
+ Visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per il supporto e l’orientamento della comunità.

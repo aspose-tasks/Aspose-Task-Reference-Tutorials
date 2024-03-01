@@ -17,7 +17,7 @@ url: /ko/net/advanced-concepts/page-saving-callback/
 
 1. C# 프로그래밍 언어에 대한 지식: C# 구문과 개념에 대한 기본적인 이해가 있어야 합니다.
    
-2. .NET용 Aspose.Tasks 설치: 개발 환경에 Aspose.Tasks 라이브러리를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
+2.  .NET용 Aspose.Tasks 설치: 개발 환경에 Aspose.Tasks 라이브러리를 설치했는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
 
 3. 개발 환경 설정: Visual Studio와 같은 .NET 개발을 위해 선호하는 IDE를 설정합니다.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## 2단계: 이미지 저장 옵션 구성
 
- 정의하다`ImageSaveOptions` 다음을 설정하여 페이지 저장 동작을 사용자 정의합니다.`PageSavingCallback` 재산:
+ 정의하다`ImageSaveOptions`다음을 설정하여 페이지 저장 동작을 사용자 정의합니다.`PageSavingCallback` 재산:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);

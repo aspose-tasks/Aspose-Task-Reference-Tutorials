@@ -41,7 +41,7 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 Bu adımları izleyerek, Aspose.Tasks for .NET'i kullanarak Kazanılan Değer MS Project Yöntem Türlerini zahmetsizce yapılandırabileceksiniz.
 
 ## Çözüm
-Sonuç olarak, Aspose.Tasks for .NET'i kullanarak Kazanılan Değer Yönetimi yöntemlerinde uzmanlaşmak, proje yönetimi becerilerinizi önemli ölçüde geliştirebilir. Proje performansını doğru bir şekilde ölçerek ve bunu planlanan hedeflerle karşılaştırarak projelerinizi başarıya doğru yönlendirmek için bilinçli kararlar alabilirsiniz.
+Sonuç olarak, Aspose.Tasks for .NET'i kullanarak Kazanılan Değer Yönetimi yöntemlerinde uzmanlaşmak, proje yönetimi becerilerinizi önemli ölçüde geliştirebilir. Proje performansını doğru bir şekilde ölçerek ve planlanan hedeflerle karşılaştırarak projelerinizi başarıya doğru yönlendirmek için bilinçli kararlar alabilirsiniz.
 ## SSS'ler
 ### S: Aspose.Tasks for .NET büyük proje dosyalarını verimli bir şekilde yönetebilir mi?
 C: Evet, Aspose.Tasks for .NET, büyük proje dosyalarını kolaylıkla yönetecek şekilde optimize edilmiştir ve yüksek performans ve güvenilirlik sağlar.
@@ -52,4 +52,4 @@ C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünden şu web sitesin
 ### S: Aspose.Tasks for .NET geçici lisansları destekliyor mu?
  C: Evet, Aspose.Tasks for .NET için geçici lisanslar mevcuttur. Bunları şu adresten alabilirsiniz:[Geçici Lisans](https://purchase.aspose.com/temporary-license/)
 ### S: Aspose.Tasks for .NET'i nereden satın alabilirim?
- C: Aspose.Tasks for .NET'i web sitesinden satın alabilirsiniz:[satın almak](https://purchase.aspose.com/buy).
+ C: Aspose.Tasks for .NET'i web sitesinden satın alabilirsiniz:[Satın almak](https://purchase.aspose.com/buy).

@@ -94,7 +94,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 ### Ε2: Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Tasks για .NET;
 
- A2: Ναι, μπορείτε να αποκτήσετε μια δωρεάν δοκιμή του Aspose.Tasks για .NET[εδώ](https://releases.aspose.com/).
+A2: Ναι, μπορείτε να αποκτήσετε μια δωρεάν δοκιμή του Aspose.Tasks για .NET[εδώ](https://releases.aspose.com/).
 
 ### Ε3: Πού μπορώ να βρω τεκμηρίωση για το Aspose.Tasks για .NET;
 
@@ -102,7 +102,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 ### Ε4: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Tasks για .NET;
 
- A4: Μπορείτε να λάβετε υποστήριξη από το φόρουμ της κοινότητας.[εδώ](https://forum.aspose.com/c/tasks/15).
+ A4: Μπορείτε να λάβετε υποστήριξη από το φόρουμ της κοινότητας[εδώ](https://forum.aspose.com/c/tasks/15).
 
 ### Ε5: Προσφέρετε προσωρινές άδειες χρήσης για το Aspose.Tasks για .NET;
 

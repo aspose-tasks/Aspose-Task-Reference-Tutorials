@@ -9,7 +9,7 @@ url: /ko/net/pdf-security-configuration/
 ---
 ## 소개
 
-디지털 영역에서는 프로젝트 파일을 보호하는 것이 가장 중요합니다. Aspose.Tasks for .NET은 Microsoft Project PDF의 보안을 강화하는 강력한 솔루션을 제공합니다. 이 튜토리얼 시리즈는 PDF 보안 구성의 복잡성을 자세히 알아보고 귀중한 프로젝트 데이터의 기밀성과 신뢰성을 보장합니다.
+디지털 영역에서는 프로젝트 파일을 보호하는 것이 가장 중요합니다. Aspose.Tasks for .NET은 Microsoft Project PDF의 보안을 강화하는 강력한 솔루션을 제공합니다. 이 튜토리얼 시리즈는 PDF 보안 구성의 복잡성을 자세히 살펴보고 귀중한 프로젝트 데이터의 기밀성과 신뢰성을 보장합니다.
 
 ## Aspose.Tasks를 사용하여 MS Project PDF 디지털 서명 구성
 

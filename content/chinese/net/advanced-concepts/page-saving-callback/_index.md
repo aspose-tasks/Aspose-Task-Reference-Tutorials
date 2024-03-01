@@ -17,7 +17,7 @@ url: /zh/net/advanced-concepts/page-saving-callback/
 
 1. C# 编程语言知识：您应该对 C# 语法和概念有基本的了解。
    
-2. Aspose.Tasks for .NET 的安装：确保您已在开发环境中安装了 Aspose.Tasks 库。您可以从以下位置下载：[这里](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET 的安装：确保您已在开发环境中安装了 Aspose.Tasks 库。您可以从以下位置下载：[这里](https://releases.aspose.com/tasks/net/).
 
 3. 开发环境设置：设置您首选的 .NET 开发 IDE，例如 Visual Studio。
 

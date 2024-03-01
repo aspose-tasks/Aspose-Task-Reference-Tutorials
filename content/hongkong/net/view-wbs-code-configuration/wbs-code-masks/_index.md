@@ -72,7 +72,7 @@ foreach (var cm in project.WBSCodeDefinition.CodeMaskCollection)
 }
 ```
 ## 第 7 步：儲存項目
-使用新增的 WBS 程式碼儲存項目：
+使用新增的 WBS 代碼儲存項目：
 ```csharp
 project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ```
@@ -84,7 +84,7 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ### 我可以免費使用 Aspose.Tasks 嗎？
  Aspose.Tasks 提供免費試用版，您可以下載[這裡](https://releases.aspose.com/).
 ### 我可以在哪裡找到額外的支援？
-訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持。
+參觀[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區支持。
 ### 我怎麼才能獲得臨時許可證？
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 有詳細的文件嗎？

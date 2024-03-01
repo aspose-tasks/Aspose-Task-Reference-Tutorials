@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
- Ujistěte se, že vyměníte`"Your Document Directory"`, `URL`, `Domain`, `UserName` ,a`Password` s vašimi skutečnými hodnotami.
+ Ujistěte se, že vyměníte`"Your Document Directory"`, `URL`, `Domain`, `UserName` , a`Password` s vašimi skutečnými hodnotami.
 ## Krok 2: Vytvořte Project Server Manager
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
- Upravte`ProjectGuid`, `ProjectName`, `Timeout` ,a`PollingInterval` dle vašich požadavků.
+ Upravte`ProjectGuid`, `ProjectName`, `Timeout` , a`PollingInterval` dle vašich požadavků.
 ## Krok 4: Uložte projekt na server
 ```csharp
 manager.CreateNewProject(project, options);
@@ -59,7 +59,7 @@ manager.CreateNewProject(project, options);
 Tím se projekt uloží na Project Server se zadanými možnostmi.
 
 ## Závěr
-V tomto tutoriálu jsme se naučili, jak uložit možnosti aplikace Microsoft Project pro Aspose.Tasks pomocí integrace Project Server. Dodržováním těchto kroků můžete bez problémů začlenit Aspose.Tasks do svých pracovních postupů projektového řízení, čímž zvýšíte efektivitu a produktivitu.
+V tomto tutoriálu jsme se naučili, jak uložit možnosti aplikace Microsoft Project pro Aspose.Tasks pomocí integrace Project Server. Dodržováním těchto kroků můžete bez problémů začlenit Aspose.Tasks do pracovních postupů projektového řízení, čímž zvýšíte efektivitu a produktivitu.
 ## FAQ
 ### Otázka: Mohu používat Aspose.Tasks s různými verzemi aplikace Microsoft Project?
 Odpověď: Ano, Aspose.Tasks podporuje různé verze Microsoft Project a zajišťuje kompatibilitu v různých prostředích.

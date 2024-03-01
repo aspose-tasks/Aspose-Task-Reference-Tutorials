@@ -25,7 +25,7 @@ Familiarícese con los conceptos básicos del lenguaje de programación C#, incl
 
 ### 3. Instalación de Aspose.Tasks para .NET
 
-Descargue e instale la biblioteca Aspose.Tasks para .NET desde[sitio web](https://releases.aspose.com/tasks/net/).
+ Descargue e instale la biblioteca Aspose.Tasks para .NET desde[sitio web](https://releases.aspose.com/tasks/net/).
 
 ### 4. Familiaridad con los conceptos de gestión de proyectos.
 

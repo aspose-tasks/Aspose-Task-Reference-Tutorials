@@ -84,7 +84,7 @@ if (project.WBSCodeDefinition.CodeMaskCollection.Contains(mask2))
     throw new InvalidOperationException("WBS code mask wasn't removed.");
 }
 ```
-## 7. Скопируйте маски кода в другой проект.
+## 7. Скопируйте маски кода в другой проект
 ```csharp
 var otherProject = new Project();
 otherProject.WBSCodeDefinition = new WBSCodeDefinition();

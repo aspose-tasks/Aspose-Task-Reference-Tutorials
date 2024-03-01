@@ -112,4 +112,4 @@ A: Ja, Aspose.Tasks voor .NET biedt uitgebreide documentatie en ondersteuning vo
 
 ### V5: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
 
- A: Ja, u kunt een gratis proefversie downloaden van[Aspose.Tasks voor .NET van](https://forum.aspose.com/c/tasks/15), om de functies ervan te verkennen voordat u een aankoop doet.
+ A: Ja, u kunt een gratis proefversie downloaden van[Aspose.Tasks voor .NET van](https://forum.aspose.com/c/tasks/15). om de functies ervan te verkennen voordat u een aankoop doet.

@@ -155,4 +155,4 @@ A4: Ja, Aspose.Tasks unterstützt das Lesen und Schreiben von Microsoft Project-
 
 ### F5: Gibt es eine Testversion für Aspose.Tasks für .NET?
 
- A5: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für .NET unter erhalten[Hier](https://releases.aspose.com/).
+A5: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für .NET unter erhalten[Hier](https://releases.aspose.com/).

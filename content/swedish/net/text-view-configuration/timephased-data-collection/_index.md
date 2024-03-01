@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Ange tilldelningsegenskaper...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Ange egenskaper för uppdrag 2...
+//Ange egenskaper för uppdrag 2...
 ```
 ## 4. Arbeta med tidsfasad data
 ```csharp
@@ -55,7 +55,7 @@ assignment.TimephasedData.Clear();
 // Skapa och lägg till tidsfasdata
 var td = new TimephasedData
 {
-    // Ställ in tidsfasdataegenskaper...
+    // Ställ in tidsfasade dataegenskaper...
 };
 assignment.TimephasedData.Add(td);
 // Lägg till en lista med tidsfasdata
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Manipulera tidsfasdata
 ```csharp
-//Lägg till en felaktig tidsinställd datapost och radera den sedan
+// Lägg till en felaktig tidsinställd datapost och radera den sedan
 var td4 = new TimephasedData
 {
     // Ange fel tidsfasade dataegenskaper...
@@ -120,4 +120,4 @@ Aspose.Tasks hanterar projekt av varierande storlek och det finns ingen strikt g
 ### Kan jag prova Aspose.Tasks för .NET innan jag köper det?
  Ja, du kan utforska funktionerna i Aspose.Tasks för .NET genom att gå till[gratis provperiod](https://releases.aspose.com/).
 ### Var kan jag köpa en licens för Aspose.Tasks för .NET?
- Du kan köpa en licens för Aspose.Tasks för .NET[här](https://purchase.aspose.com/buy).
+Du kan köpa en licens för Aspose.Tasks för .NET[här](https://purchase.aspose.com/buy).

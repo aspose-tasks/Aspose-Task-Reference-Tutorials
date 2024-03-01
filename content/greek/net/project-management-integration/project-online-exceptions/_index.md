@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## Βήμα 1: Ρύθμιση καταλόγου εγγράφων
- Βεβαιωθείτε ότι έχετε έναν καθορισμένο κατάλογο για να εργαστείτε με τα αρχεία του Project σας. αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον κατάλογο εγγράφων σας.
+ Βεβαιωθείτε ότι έχετε έναν καθορισμένο κατάλογο για να εργαστείτε με τα αρχεία του Project σας. Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον κατάλογο εγγράφων σας.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ manager.CreateNewProject(project);
 ### Ε: Πού μπορώ να βρω τεκμηρίωση για το Aspose.Tasks;
  Α: Διατίθεται αναλυτική τεκμηρίωση για το Aspose.Tasks[εδώ](https://reference.aspose.com/tasks/net/).
 ### Ε: Πώς μπορώ να λάβω υποστήριξη για το Aspose.Tasks;
- Α: Μπορείτε να λάβετε υποστήριξη από το φόρουμ κοινότητας Aspose.Tasks.[εδώ](https://forum.aspose.com/c/tasks/15).
+Α: Μπορείτε να λάβετε υποστήριξη από το φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15).
 ### Ε: Πώς μπορώ να αγοράσω μια άδεια χρήσης για το Aspose.Tasks;
  Α: Μπορείτε να αγοράσετε μια άδεια χρήσης για το Aspose.Tasks από το[σελίδα αγοράς](https://purchase.aspose.com/buy).

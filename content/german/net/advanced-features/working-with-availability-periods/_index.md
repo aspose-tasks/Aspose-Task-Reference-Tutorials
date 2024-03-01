@@ -94,7 +94,7 @@ In diesem Tutorial haben wir gelernt, wie man mit Verfügbarkeitszeiträumen in 
 
 ### F2: Gibt es eine kostenlose Testversion für Aspose.Tasks für .NET?
 
- A2: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für .NET erhalten[Hier](https://releases.aspose.com/).
+A2: Ja, Sie können eine kostenlose Testversion von Aspose.Tasks für .NET erhalten[Hier](https://releases.aspose.com/).
 
 ### F3: Wo finde ich Dokumentation für Aspose.Tasks für .NET?
 
@@ -102,7 +102,7 @@ In diesem Tutorial haben wir gelernt, wie man mit Verfügbarkeitszeiträumen in 
 
 ### F4: Wie erhalte ich Unterstützung für Aspose.Tasks für .NET?
 
- A4: Sie können Unterstützung vom Community-Forum erhalten.[Hier](https://forum.aspose.com/c/tasks/15).
+ A4: Sie können Unterstützung vom Community-Forum erhalten[Hier](https://forum.aspose.com/c/tasks/15).
 
 ### F5: Bieten Sie temporäre Lizenzen für Aspose.Tasks für .NET an?
 

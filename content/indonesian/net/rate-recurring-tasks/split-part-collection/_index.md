@@ -65,4 +65,4 @@ J: Aspose.Tasks mendukung berbagai versi file MS Project, memastikan kompatibili
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk proyek saya?
  J: Lisensi sementara dapat diperoleh dari[Di Sini](https://purchase.aspose.com/temporary-license/) untuk penggunaan jangka pendek.
 ### T: Di mana saya dapat mencari bantuan atau dukungan mengenai Aspose.Tasks?
- J: Anda dapat mengunjungi forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15) untuk mencari bantuan dari komunitas atau tim dukungan Aspose.
+ J: Anda dapat mengunjungi forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15)untuk mencari bantuan dari komunitas atau tim dukungan Aspose.

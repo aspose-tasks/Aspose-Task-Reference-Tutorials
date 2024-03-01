@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks で MS Project の印刷オプションを構成する
-linktitle: Aspose.Tasks で印刷オプションを構成する
+title: Aspose.Tasks での MS プロジェクトの印刷オプションの構成
+linktitle: Aspose.Tasks での印刷オプションの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project の印刷オプションをシームレスに構成する方法を学びます。プロジェクト管理能力を強化します。
 type: docs
@@ -11,7 +11,7 @@ url: /ja/net/project-management-integration/print-options/
 ソフトウェア開発の分野では、Aspose.Tasks for .NET はタスクとプロジェクトを効率的に管理するための強力なツールとして際立っています。その重要な機能の 1 つは、Microsoft Project の印刷オプションをシームレスに構成できることです。このチュートリアルでは、Aspose.Tasks for .NET を使用して MS Project の印刷オプションを構成するプロセスを詳しく説明します。
 ## 前提条件
 MS Project の印刷オプションの構成の複雑な説明に入る前に、次の前提条件が満たされていることを確認してください。
-1.  Aspose.Tasks for .NET のインストール: Aspose.Tasks for .NET ライブラリがインストールされていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET のインストール: Aspose.Tasks for .NET ライブラリがインストールされていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
 2. C# の基本的な理解: このチュートリアルでは主にデモンストレーションに C# を使用するため、C# プログラミング言語の基本を理解してください。
 
 ## 名前空間のインポート

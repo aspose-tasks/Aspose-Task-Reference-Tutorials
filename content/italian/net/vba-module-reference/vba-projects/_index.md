@@ -76,6 +76,6 @@ R: Sì, Aspose.Tasks si integra perfettamente con qualsiasi progetto .NET, forne
 ### D: È disponibile una prova gratuita?
  R: Sì, puoi accedere alla prova gratuita[Qui](https://releases.aspose.com/).
 ### D: Come posso ottenere una licenza temporanea per Aspose.Tasks?
-R: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
+ R: Puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso acquistare Aspose.Tasks?
  R: Acquista Aspose.Tasks[Qui](https://purchase.aspose.com/buy).

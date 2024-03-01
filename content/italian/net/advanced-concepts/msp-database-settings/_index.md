@@ -47,7 +47,7 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-Assicurati di sostituire i valori segnaposto con le credenziali effettive del database.
+Assicurati di sostituire i valori del segnaposto con le credenziali effettive del database.
 
 ## Passaggio 2: configurare MspDbSettings
 
@@ -86,7 +86,7 @@ A1: Sì, Aspose.Tasks supporta varie versioni dei database di Microsoft Project,
 
 ### Q2: Come posso risolvere i problemi di connessione con il database?
 
-A2: assicurarsi che la stringa di connessione sia configurata correttamente con le credenziali e i dettagli del database appropriati. È inoltre possibile fare riferimento alla documentazione o chiedere supporto al[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ A2: assicurarsi che la stringa di connessione sia configurata correttamente con le credenziali e i dettagli del database appropriati. È inoltre possibile fare riferimento alla documentazione o chiedere supporto al[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### Q3: È disponibile una versione di prova per Aspose.Tasks?
 

@@ -11,7 +11,7 @@ url: /nl/net/text-view-configuration/text-item-types/
 Als je een .NET-ontwikkelaar bent die zich bezighoudt met projectbeheer met behulp van Aspose.Tasks, dan ben je hier aan het juiste adres! In deze stapsgewijze handleiding onderzoeken we de fijne kneepjes van het omgaan met tekstitemtypen in Aspose.Tasks, waarbij we ons concentreren op maatwerk met behulp van de krachtige .NET-bibliotheek.
 ## Vereisten
 Voordat we aan de slag gaan, zorg ervoor dat u over het volgende beschikt:
-1. Aspose.Tasks voor .NET-bibliotheek: Zorg ervoor dat de Aspose.Tasks-bibliotheek is geïnstalleerd. Zo niet, dan kunt u deze downloaden[hier](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks voor .NET-bibliotheek: Zorg ervoor dat de Aspose.Tasks-bibliotheek is geïnstalleerd. Zo niet, dan kunt u deze downloaden[hier](https://releases.aspose.com/tasks/net/).
 2. Documentmap: Stel een map in voor uw projectdocumenten.
 Laten we nu eens kijken naar de kern van het omgaan met tekstitemtypen.
 ## Naamruimten importeren
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Pas de gedefinieerde tekststijl toe op uw project en sla het aangepaste project op als PDF-bestand.
 Herhaal deze stappen voor andere aanpassingsbehoeften, waarbij u experimenteert met verschillende typen tekstitems, lettertypestijlen en kleuren.
 ## Conclusie
- Gefeliciteerd! U heeft zojuist de oppervlakte bereikt van het omgaan met tekstitemtypen in Aspose.Tasks voor .NET. Terwijl u verdergaat met verkennen, raadpleegt u de[documentatie](https://reference.aspose.com/tasks/net/) voor diepgaande inzichten.
+Gefeliciteerd! U heeft zojuist de oppervlakte bereikt van het omgaan met tekstitemtypen in Aspose.Tasks voor .NET. Terwijl u verdergaat met verkennen, raadpleegt u de[documentatie](https://reference.aspose.com/tasks/net/) voor diepgaande inzichten.
 ### Veelgestelde vragen
 ### Vraag: Kan ik Aspose.Tasks gratis gebruiken?
  A: Aspose.Tasks biedt een gratis proefperiode. Pak het[hier](https://releases.aspose.com/).

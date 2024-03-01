@@ -26,7 +26,7 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- mengganti`"Your Document Directory"` dengan jalur ke direktori dokumen Anda.
+ Mengganti`"Your Document Directory"` dengan jalur ke direktori dokumen Anda.
 ## Langkah 2: Muat File Proyek
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks में Microsoft प्रोजेक्ट आउटलाइन मास्क में महारत हासिल करना
-linktitle: Aspose में आउटलाइन मास्क के साथ कार्य करना। कार्य
+linktitle: Aspose.Tasks में आउटलाइन मास्क के साथ कार्य करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके प्रोग्रामेटिक रूप से Microsoft प्रोजेक्ट फ़ाइलों के साथ काम करना सीखें। कुशलतापूर्वक मुखौटों की रूपरेखा तैयार करने में महारत हासिल करें।
 type: docs

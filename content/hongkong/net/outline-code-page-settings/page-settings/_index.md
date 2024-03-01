@@ -15,7 +15,7 @@ url: /zh-hant/net/outline-code-page-settings/page-settings/
 2. 開發環境：使用 Visual Studio 或任何其他用於 .NET 開發的首選 IDE 設定開發環境。
 
 ## 導入命名空間
-首先，您需要將必要的命名空間匯入到您的專案中。這些命名空間提供對操作 MS Project 檔案所需的 Aspose.Tasks 類別和方法的存取。
+首先，您需要在專案中匯入必要的命名空間。這些命名空間提供對操作 MS Project 檔案所需的 Aspose.Tasks 類別和方法的存取。
 ```csharp
 using Aspose.Tasks;
 using System.Linq;

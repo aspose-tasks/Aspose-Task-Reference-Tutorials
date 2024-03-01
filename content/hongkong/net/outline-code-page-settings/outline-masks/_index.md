@@ -75,4 +75,4 @@ outline.Values.Add(value);
 ### Q：我可以在購買前試用 Aspose.Tasks for .NET 嗎？
 答：當然！您可以免費試用 Aspose.Tasks[這裡](https://releases.aspose.com/).
 ### Q：我可以在哪裡獲得 Aspose.Tasks 的臨時許可證？
-答：如果您需要臨時許可證用於評估或測試目的，您可以獲得一個。[這裡](https://purchase.aspose.com/temporary-license/).
+答：如果您需要臨時許可證用於評估或測試目的，您可以獲得一個[這裡](https://purchase.aspose.com/temporary-license/).

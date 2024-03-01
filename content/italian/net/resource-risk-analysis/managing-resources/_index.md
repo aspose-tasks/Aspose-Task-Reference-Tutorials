@@ -32,7 +32,7 @@ Per iniziare, importa gli spazi dei nomi necessari nel tuo progetto C#:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- sostituire`"Your Document Directory"` con il percorso effettivo della directory dei documenti.
+ Sostituire`"Your Document Directory"` con il percorso effettivo della directory dei documenti.
 ## Passaggio 2: crea una nuova istanza del progetto
 ```csharp
 var project = new Project();
@@ -61,4 +61,4 @@ R: Assolutamente, Aspose.Tasks per .NET offre funzionalità estese per personali
 ### D: Aspose.Tasks per .NET supporta l'esportazione dei dati del progetto in formati diversi da XML?
 R: Sì, Aspose.Tasks per .NET supporta l'esportazione dei dati di progetto in una varietà di formati, tra cui MPP, PDF, XLSX e HTML, tra gli altri.
 ### D: Dove posso trovare ulteriore assistenza o supporto per Aspose.Tasks per .NET?
-R: Per ulteriore assistenza o supporto, è possibile visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o fare riferimento a[documentazione](https://reference.aspose.com/tasks/net/) fornito da Aspose.
+ R: Per ulteriore assistenza o supporto, è possibile visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o fare riferimento a[documentazione](https://reference.aspose.com/tasks/net/) fornito da Aspose.

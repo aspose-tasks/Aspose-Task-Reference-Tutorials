@@ -1,6 +1,6 @@
 ---
 title: Konfigurasikan Pengaturan Halaman Proyek MS dengan Aspose.Tasks
-linktitle: Konfigurasikan Pengaturan Halaman di Aspose.Tasks
+linktitle: Mengonfigurasi Pengaturan Halaman di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi pengaturan halaman MS Project menggunakan Aspose.Tasks untuk .NET. Sesuaikan orientasi, ukuran, dan lainnya dengan langkah sederhana.
 type: docs
@@ -15,7 +15,7 @@ Sebelum kita mulai, pastikan Anda memiliki prasyarat berikut:
 2. Lingkungan Pengembangan: Siapkan lingkungan pengembangan dengan Visual Studio atau IDE pilihan lainnya untuk pengembangan .NET.
 
 ## Mengimpor Namespace
-Untuk memulai, Anda perlu mengimpor namespace yang diperlukan ke dalam proyek Anda. Namespace ini menyediakan akses ke kelas Aspose.Tasks dan metode yang diperlukan untuk memanipulasi file MS Project.
+Untuk memulai, Anda perlu mengimpor namespace yang diperlukan dalam proyek Anda. Namespace ini menyediakan akses ke kelas Aspose.Tasks dan metode yang diperlukan untuk memanipulasi file MS Project.
 ```csharp
 using Aspose.Tasks;
 using System.Linq;

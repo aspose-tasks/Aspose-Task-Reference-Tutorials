@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 사용자 비밀번호, 소유자 비밀번호, 암호화 알고리즘, 권한을 포함한 암호화 세부정보를 정의합니다.
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //사용자 암호
+    "userPassword",        // 사용자 암호
     "ownerPassword",       // 소유자 비밀번호
     PdfEncryptionAlgorithm.RC4_128);  // 암호화 알고리즘
 // 권한 지정

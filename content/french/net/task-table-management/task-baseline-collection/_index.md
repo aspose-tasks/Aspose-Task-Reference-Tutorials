@@ -63,7 +63,7 @@ R : Oui, Aspose.Tasks pour .NET vous permet de définir et de gérer plusieurs l
 ### Q : Comment gérer les exceptions lorsque je travaille avec des références de tâches ?
 R : Vous pouvez utiliser des blocs try-catch pour gérer les exceptions avec élégance et garantir une exécution fluide de votre code.
 ### Q : Y a-t-il une limite au nombre de tâches que je peux inclure dans un projet ?
-: Aspose.Tasks pour .NET n'impose pas de limites strictes sur le nombre de tâches, offrant ainsi une flexibilité pour différentes tailles de projets.
+R : Aspose.Tasks pour .NET n'impose pas de limites strictes sur le nombre de tâches, offrant ainsi une flexibilité pour différentes tailles de projets.
 ### Q : Puis-je personnaliser le format des informations de base imprimées ?
 R : Absolument ! Vous avez un contrôle total sur le formatage lors de l’impression des détails de base, ce qui vous permet de l’adapter à vos besoins spécifiques.
 ### Q : Où puis-je demander de l'aide si je rencontre des problèmes ou si j'ai des questions supplémentaires ?

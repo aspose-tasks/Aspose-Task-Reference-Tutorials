@@ -94,7 +94,7 @@ Dalam tutorial ini, kita mempelajari cara bekerja dengan periode ketersediaan di
 
 ### Q2: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk .NET?
 
- A2: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Tasks untuk .NET[Di Sini](https://releases.aspose.com/).
+A2: Ya, Anda bisa mendapatkan uji coba gratis Aspose.Tasks untuk .NET[Di Sini](https://releases.aspose.com/).
 
 ### Q3: Di mana saya dapat menemukan dokumentasi Aspose.Tasks untuk .NET?
 
@@ -102,7 +102,7 @@ Dalam tutorial ini, kita mempelajari cara bekerja dengan periode ketersediaan di
 
 ### Q4: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks untuk .NET?
 
- A4: Anda bisa mendapatkan dukungan dari forum komunitas.[Di Sini](https://forum.aspose.com/c/tasks/15).
+ A4: Anda bisa mendapatkan dukungan dari forum komunitas[Di Sini](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: Apakah Anda menawarkan lisensi sementara untuk Aspose.Tasks untuk .NET?
 

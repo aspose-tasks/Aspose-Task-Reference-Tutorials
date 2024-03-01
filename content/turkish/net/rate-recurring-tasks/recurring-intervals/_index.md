@@ -32,7 +32,7 @@ Aspose.Tasks for .NET kütüphanesinin sağladığı işlevlere erişmek için g
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-Burada yeni bir örneğini başlatıyoruz.`Project` Microsoft Project dosyasının yolunu sağlayarak sınıf.
+ Burada yeni bir örneğini başlatıyoruz.`Project` Microsoft Project dosyasının yolunu sağlayarak sınıf.
 ## Adım 2: Durum Tarihini Ayarlayın:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

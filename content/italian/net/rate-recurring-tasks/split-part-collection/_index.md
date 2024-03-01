@@ -63,6 +63,6 @@ R: Aspose.Tasks supporta varie versioni dei file MS Project, garantendo la compa
 ### D: È disponibile una versione di prova a scopo di test?
  R: Sì, puoi ottenere una versione di prova gratuita da[Qui](https://releases.aspose.com/) Per la valutazione.
 ### D: Come posso ottenere licenze temporanee per i miei progetti?
- R: È possibile acquistare licenze temporanee da[Qui](https://purchase.aspose.com/temporary-license/) per uso a breve termine.
+ R: È possibile acquistare licenze temporanee da[Qui](https://purchase.aspose.com/temporary-license/) per un utilizzo a breve termine.
 ### D: Dove posso cercare aiuto o supporto per quanto riguarda Aspose.Tasks?
- R: È possibile visitare il forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15) per chiedere assistenza alla comunità o al team di supporto Aspose.
+ R: È possibile visitare il forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15)per chiedere assistenza alla comunità o al team di supporto Aspose.

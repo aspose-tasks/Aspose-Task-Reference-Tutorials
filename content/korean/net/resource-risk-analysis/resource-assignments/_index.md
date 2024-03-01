@@ -67,7 +67,7 @@ project.Save(DataDir + "CreateSplitTasks_out.xml", SaveFileFormat.Xml);
 예, Aspose.Tasks는 복잡한 프로젝트 구조를 효율적으로 처리할 수 있는 포괄적인 기능을 제공합니다.
 ### Aspose.Tasks는 다른 버전의 Microsoft Project와 호환됩니까?
 예, Aspose.Tasks는 다양한 버전의 Microsoft Project를 지원하여 다양한 환경에서의 호환성을 보장합니다.
-### 특정 요구 사항에 따라 리소스 할당을 사용자 정의할 수 있습니까?
+### 특정 요구 사항에 따라 리소스 할당을 사용자 정의할 수 있나요?
 물론 Aspose.Tasks는 특정 프로젝트 요구 사항을 충족하기 위해 리소스 할당을 위한 광범위한 사용자 정의 옵션을 제공합니다.
 ### Aspose.Tasks는 프로젝트 데이터를 다른 형식으로 내보내는 것을 지원합니까?
 예, Aspose.Tasks를 사용하면 프로젝트 데이터를 XML, PDF, HTML 등 다양한 형식으로 내보낼 수 있습니다.

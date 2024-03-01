@@ -14,7 +14,7 @@ url: /zh/net/advanced-concepts/
 
 ## 在 Aspose.Tasks 中处理图像保存
 
-通过我们的分步指南，了解在 Aspose.Tasks for .NET 中处理图像保存的技巧。将图像保存功能无缝集成到您的 .NET 应用程序中，增强项目数据的可视化表示。[阅读更多](./image-saving/)
+通过我们的分步指南，了解在 Aspose.Tasks for .NET 中处理图像保存的艺术。将图像保存功能无缝集成到您的 .NET 应用程序中，增强项目数据的可视化表示。[阅读更多](./image-saving/)
 
 ## 处理 Aspose.Tasks 中的无效密码异常
 

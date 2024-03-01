@@ -63,7 +63,7 @@ project.ExtendedAttributes.Add(calculation);
 
 ## Étape 4 : Définir le type de calcul pour les lignes récapitulatives
 
-Ensuite, nous allons créer une autre définition d'attribut étendue dans laquelle les valeurs des tâches récapitulatives sont calculées à l'aide du type de cumul Moyenne :
+Ensuite, nous allons créer une autre définition d'attribut étendu dans laquelle les valeurs des tâches récapitulatives sont calculées à l'aide du type de cumul Moyenne :
 
 ```csharp
 var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
@@ -74,7 +74,7 @@ project.ExtendedAttributes.Add(lookup);
 
 ## Conclusion
 
-Dans ce didacticiel, nous avons expliqué comment utiliser le type de calcul dans Aspose.Tasks pour .NET. En définissant des types de calcul pour les attributs étendus, nous pouvons personnaliser la façon dont les valeurs sont calculées pour les tâches et les tâches récapitulatives au sein d'un projet, offrant ainsi une plus grande flexibilité et un plus grand contrôle.
+Dans ce didacticiel, nous avons expliqué comment utiliser le type de calcul dans Aspose.Tasks pour .NET. En définissant des types de calcul pour les attributs étendus, nous pouvons personnaliser la manière dont les valeurs sont calculées pour les tâches et les tâches récapitulatives au sein d'un projet, offrant ainsi une plus grande flexibilité et un meilleur contrôle.
 
 ## FAQ
 
@@ -92,7 +92,7 @@ A3 : Oui, Aspose.Tasks vous permet de spécifier le type de calcul pour les lign
 
 ### Q4 : Existe-t-il différents types de cumul disponibles pour les calculs de tâches récapitulatives ?
 
-A4 : Oui, Aspose.Tasks propose différents types de cumul tels que Moyenne, Somme et Nombre pour calculer les valeurs des tâches récapitulatives.
+A4 : Oui, Aspose.Tasks fournit différents types de cumul tels que Moyenne, Somme et Nombre pour calculer les valeurs des tâches récapitulatives.
 
 ### Q5 : Où puis-je trouver plus de ressources sur Aspose.Tasks pour .NET ?
 

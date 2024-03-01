@@ -27,9 +27,9 @@ Először töltse be az MS Project fájlt az Aspose.Tasks segítségével:
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- cserélje ki`"Your Document Directory"` tényleges könyvtár elérési útjával, ahol az MS Project fájl található.
+ Cserélje ki`"Your Document Directory"` tényleges könyvtár elérési útjával, ahol az MS Project fájl található.
 ## 2. lépés: Adja meg a mentési beállításokat
- Adja meg a Spreadsheet 2003 mentési beállításait a példány létrehozásával`Spreadsheet2003SaveOptions`,
+ Adja meg a Spreadsheet 2003 mentési beállításait a példány létrehozásával`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ Az Aspose.Tasks for .NET, különösen a Spreadsheet 2003 Save MS Project Option
 ### K: Az Aspose.Tasks for .NET használható webes és asztali alkalmazásokban is?
 V: Igen, az Aspose.Tasks for .NET zökkenőmentesen integrálható webes és asztali alkalmazásokba is, így egységes funkcionalitást biztosít a platformok között.
 ### K: Elérhető az Aspose.Tasks próbaverziója .NET-hez?
- V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez a következőről:[weboldal](https://releases.aspose.com/), amely lehetővé teszi, hogy vásárlás előtt felfedezze szolgáltatásait.
+V: Igen, elérheti az Aspose.Tasks ingyenes próbaverzióját a .NET-hez a következőről:[weboldal](https://releases.aspose.com/), amely lehetővé teszi, hogy vásárlás előtt felfedezze szolgáltatásait.
 ### K: Vannak korlátai a nézetoszlopok testreszabásának az Aspose.Tasks for .NET használatával?
 V: Az Aspose.Tasks for .NET kiterjedt testreszabási lehetőségeket kínál a nézetoszlopokhoz, minimális korlátozásokkal. Az összetett testreszabások azonban magasabb szintű könyvtári ismereteket igényelhetnek.
 ### K: Kérhetek segítséget, ha problémákat tapasztalok az Aspose.Tasks for .NET használata során?

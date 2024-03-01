@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## Passaggio 1: impostare la directory dei documenti
- Assicurati di avere una directory designata per lavorare con i file di progetto. sostituire`"Your Document Directory"` con il percorso della directory dei documenti.
+ Assicurati di avere una directory designata per lavorare con i file di progetto. Sostituire`"Your Document Directory"` con il percorso della directory dei documenti.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ R: Sì, Aspose.Tasks fornisce ampio supporto per lavorare con vari formati di fi
 ### D: Dove posso trovare la documentazione per Aspose.Tasks?
  R: È disponibile la documentazione dettagliata per Aspose.Tasks[Qui](https://reference.aspose.com/tasks/net/).
 ### D: Come posso ottenere supporto per Aspose.Tasks?
- R: Puoi ottenere supporto dal forum della community Aspose.Tasks.[Qui](https://forum.aspose.com/c/tasks/15).
+R: Puoi ottenere supporto dal forum della community Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
 ### D: Come posso acquistare una licenza per Aspose.Tasks?
  R: È possibile acquistare una licenza per Aspose.Tasks da[pagina di acquisto](https://purchase.aspose.com/buy).

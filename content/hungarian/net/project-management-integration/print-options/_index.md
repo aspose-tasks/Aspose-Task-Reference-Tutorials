@@ -1,6 +1,6 @@
 ---
-title: Konfigurálja az MS Project nyomtatási beállításait az Aspose.Tasks-ban
-linktitle: Konfigurálja a nyomtatási beállításokat az Aspose.Tasks alkalmazásban
+title: Az MS Project nyomtatási beállításainak konfigurálása az Aspose.Tasks-ban
+linktitle: Nyomtatási beállítások konfigurálása az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja zökkenőmentesen az MS Project nyomtatási beállításait az Aspose.Tasks for .NET segítségével. Növelje projektmenedzsment képességeit.
 type: docs
@@ -11,7 +11,7 @@ url: /hu/net/project-management-integration/print-options/
 A szoftverfejlesztés területén az Aspose.Tasks for .NET kiemelkedik a feladatok és projektek hatékony kezelésének hatékony eszközeként. Az egyik legfontosabb funkciója a Microsoft Project nyomtatási beállításainak zökkenőmentes konfigurálása. Ebben az oktatóanyagban az Aspose.Tasks for .NET használatával történő MS Project nyomtatási beállításainak konfigurálási folyamatát mutatjuk be.
 ## Előfeltételek
 Mielőtt belemerülnénk az MS Project nyomtatási opcióinak konfigurálásának bonyolultságába, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-1.  Az Aspose.Tasks telepítése .NET-hez: Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
+1. Az Aspose.Tasks telepítése .NET-hez: Győződjön meg arról, hogy telepítette az Aspose.Tasks for .NET könyvtárat. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
 2. A C# alapvető ismerete: Ismerkedjen meg a C# programozási nyelv alapjaival, mivel ez az oktatóanyag elsősorban a C#-t használja a demonstrációhoz.
 
 ## Névterek importálása
@@ -43,7 +43,7 @@ Nyomtatás előtt célszerű ellenőrizni az oldalak számát, hogy elkerülje a
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Folytassa a nyomtatással
+    // Folytassa a nyomtatással
     project.Print(options);
 }
 ```

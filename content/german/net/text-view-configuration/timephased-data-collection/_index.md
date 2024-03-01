@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Aufgabeneigenschaften festlegen...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Eigenschaften für Zuweisung2 festlegen...
+//Eigenschaften für Zuweisung2 festlegen...
 ```
 ## 4. Arbeiten Sie mit Zeitphasendaten
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Manipulieren Sie Zeitphasendaten
 ```csharp
-//Fügen Sie ein falsches Zeitphasendatenelement hinzu und löschen Sie es dann
+// Fügen Sie ein falsches Zeitphasendatenelement hinzu und löschen Sie es dann
 var td4 = new TimephasedData
 {
     // Stellen Sie falsche Zeitphasendateneigenschaften ein...
@@ -120,4 +120,4 @@ Aspose.Tasks verwaltet Projekte unterschiedlicher Größe und es gibt keine stre
 ### Kann ich Aspose.Tasks für .NET testen, bevor ich es kaufe?
  Ja, Sie können die Funktionen von Aspose.Tasks für .NET erkunden, indem Sie auf zugreifen[Kostenlose Testphase](https://releases.aspose.com/).
 ### Wo kann ich eine Lizenz für Aspose.Tasks für .NET erwerben?
- Sie können eine Lizenz für Aspose.Tasks für .NET erwerben[Hier](https://purchase.aspose.com/buy).
+Sie können eine Lizenz für Aspose.Tasks für .NET erwerben[Hier](https://purchase.aspose.com/buy).

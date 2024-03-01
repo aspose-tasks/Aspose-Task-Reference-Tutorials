@@ -11,7 +11,7 @@ url: /vi/net/resource-risk-analysis/resource-assignment-collection/
 Chào mừng bạn đến với hướng dẫn toàn diện này về cách quản lý phân công tài nguyên trong Microsoft Project bằng Aspose.Tasks for .NET. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình từng bước một, đảm bảo bạn hiểu rõ về cách thao tác các nhiệm vụ tài nguyên một cách hiệu quả. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn này sẽ hướng dẫn bạn mọi thứ bạn cần biết.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào mã, hãy đảm bảo bạn đã thiết lập như sau:
-1. Aspose.Tasks for .NET Installed: Đảm bảo bạn đã cài đặt Aspose.Tasks for .NET trong môi trường phát triển của mình. Nếu không, bạn có thể tải nó từ[đây](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Installed: Đảm bảo bạn đã cài đặt Aspose.Tasks for .NET trong môi trường phát triển của mình. Nếu không, bạn có thể tải nó từ[đây](https://releases.aspose.com/tasks/net/).
 2. Kiến thức cơ bản về C#: Hướng dẫn này giả sử bạn có hiểu biết cơ bản về ngôn ngữ lập trình C#.
 3. Tệp dự án Microsoft: Chuẩn bị sẵn tệp Microsoft Project cho mục đích thử nghiệm. Nếu chưa có, bạn có thể tạo một tệp mẫu.
 
@@ -35,7 +35,7 @@ Bây giờ, hãy thêm một nhiệm vụ và tài nguyên vào dự án:
 var task = project.RootTask.Children.Add("Task 1");
 var resource = project.Resources.Add("Resource 1");
 ```
-## Bước 3: Gán tài nguyên cho nhiệm vụ
+## Bước 3: Gán tài nguyên cho tác vụ
 Tiếp theo, chúng ta sẽ gán tài nguyên cho tác vụ:
 ```csharp
 var assignment = project.ResourceAssignments.Add(task, resource);

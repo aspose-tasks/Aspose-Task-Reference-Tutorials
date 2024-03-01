@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
- Βεβαιωθείτε ότι έχετε αντικαταστήσει`"Your Document Directory"`, `URL`, `Domain`, `UserName` ,και`Password` με τις πραγματικές σας αξίες.
+ Βεβαιωθείτε ότι έχετε αντικαταστήσει`"Your Document Directory"`, `URL`, `Domain`, `UserName` , και`Password` με τις πραγματικές σας αξίες.
 ## Βήμα 2: Δημιουργήστε Project Server Manager
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
- Ρυθμίστε το`ProjectGuid`, `ProjectName`, `Timeout` ,και`PollingInterval` σύμφωνα με τις απαιτήσεις σας.
+ Ρυθμίστε το`ProjectGuid`, `ProjectName`, `Timeout` , και`PollingInterval` σύμφωνα με τις απαιτήσεις σας.
 ## Βήμα 4: Αποθήκευση έργου στον διακομιστή
 ```csharp
 manager.CreateNewProject(project, options);

@@ -27,9 +27,9 @@ Laden Sie zunächst die MS Project-Datei mit Aspose.Tasks:
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- ersetzen`"Your Document Directory"`mit dem tatsächlichen Verzeichnispfad, in dem sich Ihre MS Project-Datei befindet.
+ Ersetzen`"Your Document Directory"`mit dem tatsächlichen Verzeichnispfad, in dem sich Ihre MS Project-Datei befindet.
 ## Schritt 2: Speicheroptionen definieren
- Definieren Sie die Speicheroptionen für Spreadsheet 2003, indem Sie eine Instanz von erstellen`Spreadsheet2003SaveOptions`,
+ Definieren Sie die Speicheroptionen für Spreadsheet 2003, indem Sie eine Instanz von erstellen`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ Durch die Verwendung von Aspose.Tasks für .NET, insbesondere der Spreadsheet 20
 ### F: Kann Aspose.Tasks für .NET sowohl in Web- als auch in Desktop-Anwendungen verwendet werden?
 A: Ja, Aspose.Tasks für .NET kann nahtlos sowohl in Web- als auch in Desktop-Anwendungen integriert werden und bietet konsistente Funktionalität auf allen Plattformen.
 ### F: Gibt es eine Testversion für Aspose.Tasks für .NET?
- A: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Tasks für .NET zugreifen[Webseite](https://releases.aspose.com/), sodass Sie die Funktionen vor dem Kauf erkunden können.
+A: Ja, Sie können über die auf eine kostenlose Testversion von Aspose.Tasks für .NET zugreifen[Webseite](https://releases.aspose.com/), sodass Sie die Funktionen vor dem Kauf erkunden können.
 ### F: Gibt es Einschränkungen beim Anpassen von Ansichtsspalten mit Aspose.Tasks für .NET?
 A: Aspose.Tasks für .NET bietet umfangreiche Anpassungsoptionen für Ansichtsspalten mit minimalen Einschränkungen. Komplexe Anpassungen erfordern jedoch möglicherweise fortgeschrittene Kenntnisse der Bibliothek.
 ### F: Kann ich Hilfe suchen, wenn bei der Verwendung von Aspose.Tasks für .NET Probleme auftreten?

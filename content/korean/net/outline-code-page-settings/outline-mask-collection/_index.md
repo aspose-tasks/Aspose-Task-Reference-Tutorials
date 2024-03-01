@@ -12,7 +12,7 @@ url: /ko/net/outline-code-page-settings/outline-mask-collection/
 ## 전제조건
 이 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 ### 1. .NET용 Aspose.Tasks 설치
- 개발 환경에 Aspose.Tasks for .NET이 설치되어 있는지 확인하세요. Aspose 웹사이트에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
+개발 환경에 Aspose.Tasks for .NET이 설치되어 있는지 확인하세요. Aspose 웹사이트에서 라이브러리를 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
 ### 2. C# 및 .NET Framework에 대한 기본 지식
 이 튜토리얼에서는 C# 프로그래밍 언어와 .NET Framework를 모두 활용하므로 숙지하세요.
 ### 3. 마이크로소프트 프로젝트 파일
@@ -108,4 +108,4 @@ A: 예, .NET용 Aspose.Tasks는 .NET Core와 호환되므로 크로스 플랫폼
 ### Q4: .NET용 Aspose.Tasks는 문서와 지원을 제공합니까?
 A: 예, Aspose.Tasks for .NET은 웹사이트와 웹사이트를 통해 포괄적인 문서와 전담 지원을 제공합니다.[포럼](https://forum.aspose.com/c/tasks/15).
 ### Q5: Aspose.Tasks for .NET에 사용할 수 있는 무료 평가판이 있습니까?
- A: 예, Aspose.Tasks for .NET의 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/tasks/net/), 구매하기 전에 특징과 기능을 살펴보세요.
+ A: 예, Aspose.Tasks for .NET의 무료 평가판에 액세스할 수 있습니다.[웹사이트](https://releases.aspose.com/tasks/net/). 구매하기 전에 특징과 기능을 살펴보세요.

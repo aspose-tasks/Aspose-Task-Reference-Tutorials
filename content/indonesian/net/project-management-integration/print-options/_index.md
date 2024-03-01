@@ -1,6 +1,6 @@
 ---
-title: Konfigurasikan Opsi Pencetakan Proyek MS di Aspose.Tasks
-linktitle: Konfigurasikan Opsi Pencetakan di Aspose.Tasks
+title: Mengonfigurasi Opsi Pencetakan Proyek MS di Aspose.Tasks
+linktitle: Mengonfigurasi Opsi Pencetakan di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi opsi pencetakan MS Project dengan lancar menggunakan Aspose.Tasks untuk .NET. Tingkatkan kemampuan manajemen proyek Anda.
 type: docs
@@ -10,8 +10,8 @@ url: /id/net/project-management-integration/print-options/
 ## Perkenalan
 Dalam bidang pengembangan perangkat lunak, Aspose.Tasks untuk .NET menonjol sebagai alat yang ampuh untuk mengelola tugas dan proyek secara efisien. Salah satu fitur utamanya adalah kemampuan untuk mengkonfigurasi opsi pencetakan Microsoft Project dengan mulus. Dalam tutorial ini, kita akan mempelajari proses mengonfigurasi opsi pencetakan MS Project menggunakan Aspose.Tasks untuk .NET.
 ## Prasyarat
-Sebelum kita mendalami seluk-beluk mengonfigurasi opsi pencetakan MS Project, pastikan Anda memiliki prasyarat berikut:
-1.  Instalasi Aspose.Tasks untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
+Sebelum kita menyelami seluk-beluk mengonfigurasi opsi pencetakan MS Project, pastikan Anda memiliki prasyarat berikut:
+1. Instalasi Aspose.Tasks untuk .NET: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks untuk .NET. Anda dapat mengunduhnya dari[Di Sini](https://releases.aspose.com/tasks/net/).
 2. Pemahaman Dasar C#: Biasakan diri Anda dengan dasar-dasar bahasa pemrograman C# karena tutorial ini terutama menggunakan C# untuk demonstrasi.
 
 ## Impor Namespace
@@ -39,11 +39,11 @@ var options = new PrintOptions
 };
 ```
 ## Langkah 3: Periksa Jumlah Halaman
-Sebelum mencetak, sebaiknya periksa jumlah halaman untuk menghindari pencetakan halaman yang tidak perlu. Inilah cara Anda melakukannya:
+Sebelum mencetak, sebaiknya periksa jumlah halaman untuk menghindari pencetakan halaman yang tidak diperlukan. Inilah cara Anda melakukannya:
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Lanjutkan dengan pencetakan
+    // Lanjutkan dengan pencetakan
     project.Print(options);
 }
 ```

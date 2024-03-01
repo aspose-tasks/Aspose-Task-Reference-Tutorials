@@ -1,6 +1,6 @@
 ---
-title: Configurare le visualizzazioni di utilizzo in Aspose.Tasks
-linktitle: Configurare le visualizzazioni di utilizzo in Aspose.Tasks
+title: Configurazione delle visualizzazioni di utilizzo in Aspose.Tasks
+linktitle: Configurazione delle visualizzazioni di utilizzo in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Impara a configurare le visualizzazioni di utilizzo delle attività in Aspose.Tasks per .NET. Migliora la visualizzazione del progetto con passaggi dettagliati. Scarica subito la libreria!
 type: docs
@@ -11,7 +11,7 @@ url: /it/net/text-view-configuration/usage-views/
 Se sei uno sviluppatore .NET che desidera migliorare le tue capacità di gestione dei progetti, Aspose.Tasks è un potente strumento che ti consente di manipolare i file di Microsoft Project senza sforzo. In questo tutorial, ci concentreremo sulla configurazione delle visualizzazioni di utilizzo utilizzando Aspose.Tasks per .NET. Segui per ottenere informazioni dettagliate sulle visualizzazioni dell'utilizzo delle attività di rendering con dettagli per una migliore visualizzazione del progetto.
 ## Prerequisiti
 Prima di immergerti nel tutorial, assicurati di avere i seguenti prerequisiti:
-- Libreria Aspose.Tasks: assicurati di avere la libreria Aspose.Tasks integrata nel tuo progetto .NET. In caso contrario, puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/) e seguire le istruzioni di installazione.
+-  Libreria Aspose.Tasks: assicurati di avere la libreria Aspose.Tasks integrata nel tuo progetto .NET. In caso contrario, puoi scaricarlo[Qui](https://releases.aspose.com/tasks/net/) e seguire le istruzioni di installazione.
 - Directory dei documenti: imposta una directory in cui sono archiviati i documenti del progetto. Sostituisci "La tua directory dei documenti" negli snippet di codice con il percorso effettivo della directory dei documenti.
 ## Importa spazi dei nomi
 Nello snippet di codice fornito noterai l'utilizzo di determinati spazi dei nomi. Assicurati di includerli nel tuo progetto per una perfetta integrazione:

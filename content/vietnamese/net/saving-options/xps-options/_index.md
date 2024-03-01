@@ -26,7 +26,7 @@ using Aspose.Tasks.Saving;
 // Đường dẫn đến thư mục tài liệu.
 String DataDir = "Your Document Directory";
 ```
- thay thế`"Your Document Directory"` với đường dẫn chứa tài liệu MSP của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn chứa tài liệu MSP của bạn.
 ## Bước 2: Tải tài liệu MSP
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -45,7 +45,7 @@ var options = new XpsOptions
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ```
- Cuối cùng, chúng tôi đã gọi`Save` phương pháp trên`Project` đối tượng, chỉ định đường dẫn tệp đầu ra và cấu hình trước đó`XpsOptions`.
+ Cuối cùng, chúng tôi gọi`Save` phương pháp trên`Project` đối tượng, chỉ định đường dẫn tệp đầu ra và cấu hình trước đó`XpsOptions`.
 
 ## Phần kết luận
 Tóm lại, Aspose.Tasks for .NET đơn giản hóa quá trình chuyển đổi tài liệu Microsoft Project sang định dạng XPS theo chương trình. Bằng cách làm theo các bước được nêu trong hướng dẫn này, các nhà phát triển có thể tích hợp liền mạch chức năng này vào các ứng dụng .NET của họ, nâng cao quy trình quản lý dự án một cách dễ dàng.

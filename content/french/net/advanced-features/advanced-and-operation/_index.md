@@ -84,7 +84,7 @@ foreach (var task in collection)
 
 ## Conclusion
 
- Dans ce didacticiel, nous avons appris à effectuer des opérations ET avancées dans Aspose.Tasks pour .NET. En combinant les conditions à l'aide du`Util.And` classe, nous pouvons filtrer efficacement les tâches en fonction de plusieurs critères.
+ Dans ce didacticiel, nous avons appris à effectuer des opérations ET avancées dans Aspose.Tasks pour .NET. En combinant les conditions à l'aide du`Util.And`classe, nous pouvons filtrer efficacement les tâches en fonction de plusieurs critères.
 
 ## FAQ
 
@@ -106,4 +106,4 @@ R : Oui, Util.And peut être utilisé pour combiner un certain nombre de condit
 
 ### Q5 : Comment puis-je obtenir de l'assistance pour Aspose.Tasks pour .NET ?
 
- R : Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+R : Vous pouvez obtenir de l'aide sur le forum de la communauté Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).

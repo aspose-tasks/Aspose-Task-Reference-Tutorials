@@ -9,7 +9,7 @@ url: /cs/net/advanced-features/bitmap-invalid-size-exception/
 ---
 ## Úvod
 
- tomto tutoriálu se ponoříme do manipulace s`BitmapInvalidSizeException` při práci s Aspose.Tasks pro .NET. Aspose.Tasks je výkonná knihovna, která vývojářům umožňuje programově manipulovat se soubory aplikace Microsoft Project a umožňuje úkoly, jako je ukládání projektů jako obrázků. Občas se však při pokusu o uložení projektu jako obrázku můžeme setkat s`Invalid Size Exception` související s bitmapou. Tento tutoriál vás provede procesem efektivního zachycení a zpracování této výjimky.
+ V tomto tutoriálu se ponoříme do manipulace s`BitmapInvalidSizeException` při práci s Aspose.Tasks pro .NET. Aspose.Tasks je výkonná knihovna, která vývojářům umožňuje programově manipulovat se soubory aplikace Microsoft Project, což umožňuje úkoly, jako je ukládání projektů jako obrázků. Občas se však při pokusu o uložení projektu jako obrázku můžeme setkat s`Invalid Size Exception`související s bitmapou. Tento tutoriál vás provede procesem efektivního zachycení a zpracování této výjimky.
 
 ## Předpoklady
 

@@ -55,7 +55,7 @@ Console.WriteLine(project.Get(Prj.Name));
 ```
 
 ## Závěr
-V tomto tutoriálu jsme se naučili číst data MS Project Primavera pomocí Aspose.Tasks for .NET. Podle výše uvedených kroků můžete snadno přistupovat k souborům MS Project a manipulovat s nimi programově v aplikacích .NET.
+tomto tutoriálu jsme se naučili číst data MS Project Primavera pomocí Aspose.Tasks for .NET. Podle výše uvedených kroků můžete snadno přistupovat k souborům MS Project a manipulovat s nimi programově v aplikacích .NET.
 ## FAQ
 ### Otázka: Dokáže Aspose.Tasks zpracovat velké soubory MS Project Primavera?
 Odpověď: Aspose.Tasks je navržen tak, aby efektivně zpracovával velké soubory MS Project, včetně souborů Primavera, a zajistil tak optimální výkon a spolehlivost.
@@ -64,6 +64,6 @@ Odpověď: Ano, Aspose.Tasks podporuje různé formáty projektového management
 ### Otázka: Mohu upravit a uložit změny v souborech MS Project Primavera pomocí Aspose.Tasks?
 A: Rozhodně! Aspose.Tasks vám umožňuje nejen číst, ale také upravovat a ukládat změny v souborech MS Project Primavera hladce v rámci vašich aplikací .NET.
 ### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks?
- Odpověď: Ano, můžete využít bezplatnou zkušební verzi Aspose.Tasks od[tady](https://releases.aspose.com/) prozkoumat jeho funkce a možnosti před nákupem.
+ Odpověď: Ano, můžete využít bezplatnou zkušební verzi Aspose.Tasks od[tady](https://releases.aspose.com/)prozkoumat jeho funkce a možnosti před nákupem.
 ### Otázka: Kde mohu získat podporu pro Aspose.Tasks?
- Odpověď: Máte-li jakékoli dotazy nebo pomoc týkající se Aspose.Tasks, můžete navštívit stránku[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)kde můžete získat pomoc od komunity nebo pracovníků podpory Aspose.## Kompletní zdrojový kód
+ Odpověď: Máte-li jakékoli dotazy nebo pomoc týkající se Aspose.Tasks, můžete navštívit stránku[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) kde můžete získat pomoc od komunity nebo pracovníků podpory Aspose.## Kompletní zdrojový kód

@@ -27,7 +27,7 @@ using Aspose.Tasks.Saving;
 ```
 Maintenant, décomposons l'exemple fourni en plusieurs étapes pour une compréhension claire.
 ## Étape 1 : Charger le fichier de projet
-Tout d’abord, nous devons charger le fichier MS Project dans notre application.
+Tout d'abord, nous devons charger le fichier MS Project dans notre application.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineValues2010.mpp");

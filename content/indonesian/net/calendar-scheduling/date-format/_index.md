@@ -17,7 +17,7 @@ Sebelum masuk ke tutorial, pastikan Anda memiliki prasyarat berikut:
 
 ### 1. Instalasi Aspose.Tasks untuk .NET
 
- Pastikan Anda telah menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari[Aspose.Tasks untuk halaman unduh .NET](https://releases.aspose.com/tasks/net/) dan ikuti petunjuk instalasi yang diberikan.
+ Pastikan Anda telah menginstal Aspose.Tasks untuk .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari[Aspose.Tasks untuk halaman unduhan .NET](https://releases.aspose.com/tasks/net/) dan ikuti petunjuk instalasi yang diberikan.
 
 ### 2. Pengetahuan Dasar Bahasa Pemrograman C#
 

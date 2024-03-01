@@ -21,7 +21,7 @@ För att utnyttja kraften i Aspose.Tasks är en grundläggande förståelse för
 
 ### 2. Installation av Aspose.Tasks för .NET
 
- Se till att du har installerat Aspose.Tasks för .NET-biblioteket i din utvecklingsmiljö. Du kan ladda ner den från[Aspose.Tasks webbplats](https://releases.aspose.com/tasks/net/) eller via NuGet-pakethanteraren.
+Se till att du har installerat Aspose.Tasks för .NET-biblioteket i din utvecklingsmiljö. Du kan ladda ner den från[Aspose.Tasks webbplats](https://releases.aspose.com/tasks/net/) eller via NuGet-pakethanteraren.
 
 ### 3. Integrated Development Environment (IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Steg 2: Ställ in baslinje
 
- När projektet har laddats kan vi fortsätta att ställa in baslinjen. Baslinjer ger en ögonblicksbild av projektets initiala schema, som fungerar som referenspunkt för jämförelse när projektet fortskrider. Använd`SetBaseline` metod för att ställa in baslinjen. Till exempel, för att ställa in baslinjen för hela projektet, använd`BaselineType.Baseline` uppräkning:
+När projektet har laddats kan vi fortsätta att ställa in baslinjen. Baslinjer ger en ögonblicksbild av projektets initiala schema, som fungerar som referenspunkt för jämförelse när projektet fortskrider. Använd`SetBaseline` metod för att ställa in baslinjen. Till exempel, för att ställa in baslinjen för hela projektet, använd`BaselineType.Baseline` uppräkning:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);

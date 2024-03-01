@@ -25,7 +25,7 @@ Biasakan diri Anda dengan dasar-dasar bahasa pemrograman C#, termasuk variabel, 
 
 ### 3. Instalasi Aspose.Tasks untuk .NET
 
-Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/).
+ Unduh dan instal perpustakaan Aspose.Tasks untuk .NET dari[situs web](https://releases.aspose.com/tasks/net/).
 
 ### 4. Keakraban dengan Konsep Manajemen Proyek
 

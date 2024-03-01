@@ -10,7 +10,7 @@ url: /el/net/rate-recurring-tasks/recurring-task-parameters/
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία ρύθμισης των παραμέτρων επαναλαμβανόμενων εργασιών του Microsoft Project χρησιμοποιώντας το Aspose.Tasks για .NET.
 ## Προαπαιτούμενα
-Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα εξής:
+Πριν ξεκινήσετε, βεβαιωθείτε ότι έχετε τα ακόλουθα:
 1. Βασική κατανόηση της γλώσσας προγραμματισμού C#.
 2. Εγκατεστημένο Visual Studio ή οποιοδήποτε άλλο C# IDE.
 3. Το Aspose.Tasks για τη βιβλιοθήκη .NET είναι εγκατεστημένο και αναφέρεται στο έργο σας.
@@ -26,12 +26,12 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον κατάλογο εγγράφων σας.
+ Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον κατάλογο εγγράφων σας.
 ## Βήμα 2: Φορτώστε το Αρχείο Έργου
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- Αυτή η γραμμή κώδικα φορτώνει το αρχείο Microsoft Project στο`project` μεταβλητές.
+ Αυτή η γραμμή κώδικα φορτώνει το αρχείο Microsoft Project στο`project` μεταβλητός.
 ## Βήμα 3: Καθορίστε τις επαναλαμβανόμενες παραμέτρους εργασιών
 ```csharp
 var parameters = new RecurringTaskParameters

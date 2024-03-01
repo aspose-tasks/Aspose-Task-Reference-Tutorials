@@ -9,7 +9,7 @@ url: /hu/net/calendar-scheduling/custom-project-property-collection/
 ---
 ## Bevezetés
 
-Készen áll arra, hogy bővítse projektmenedzsment-élményét az Aspose.Tasks for .NET segítségével? Az egyéni projekttulajdonságok kezelése a projektmenedzsment kulcsfontosságú aspektusa, amely lehetővé teszi a projekt követelményeihez szabott metaadatok hozzáadását. Ebben az oktatóanyagban bemutatjuk, hogyan dolgozhat hatékonyan egyéni projekttulajdon-gyűjteményekkel az Aspose.Tasks for .NET használatával.
+Készen áll arra, hogy bővítse projektmenedzsment-élményét az Aspose.Tasks for .NET segítségével? Az egyéni projekttulajdonságok kezelése a projektmenedzsment kulcsfontosságú eleme, amely lehetővé teszi a projekt követelményeihez szabott metaadatok hozzáadását. Ebben az oktatóanyagban bemutatjuk, hogyan dolgozhat hatékonyan egyéni projekttulajdon-gyűjteményekkel az Aspose.Tasks for .NET használatával.
 
 ## Előfeltételek
 

@@ -11,7 +11,7 @@ url: /cs/net/saving-options/mpp-save-options/
 Ve světě vývoje .NET je efektivní správa a manipulace s projektovými soubory zásadní pro úspěch. Aspose.Tasks for .NET nabízí výkonné řešení pro snadnou manipulaci se soubory Microsoft Project (MPP). Mezi mnoha funkcemi Aspose.Tasks umožňuje uživatelům bezproblémově ukládat možnosti MS Project, zjednodušuje pracovní postup a zajišťuje integritu projektu. V tomto tutoriálu se ponoříme do procesu ukládání možností MS Project pomocí Aspose.Tasks pro .NET.
 ## Předpoklady
 Než začneme, ujistěte se, že máte splněny následující předpoklady:
-1. Instalace Aspose.Tasks for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[tady](https://releases.aspose.com/tasks/net/).
+1.  Instalace Aspose.Tasks for .NET: Stáhněte si a nainstalujte knihovnu Aspose.Tasks for .NET z[tady](https://releases.aspose.com/tasks/net/).
 2. Vývojové prostředí: Mějte nastavené vývojové prostředí .NET, jako je Visual Studio.
 3. Základní porozumění C#: Pro implementaci příkladů je nezbytná znalost programovacího jazyka C#.
 
@@ -62,7 +62,7 @@ Ano, Aspose.Tasks for .NET podporuje různé verze souborů Microsoft Project, v
 ### Mohu vyzkoušet Aspose.Tasks pro .NET před nákupem?
  Rozhodně! Můžete si stáhnout bezplatnou zkušební verzi Aspose.Tasks for .NET z[tady](https://releases.aspose.com/).
 ### Jak mohu získat technickou podporu pro Aspose.Tasks pro .NET?
- Pro technickou pomoc můžete navštívit fórum Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
+Pro technickou pomoc můžete navštívit fórum Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Co je to dočasná licence a jak ji mohu získat?
  Dočasná licence vám umožňuje hodnotit Aspose.Tasks for .NET bez jakýchkoli omezení. Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde si mohu zakoupit licencovanou verzi Aspose.Tasks pro .NET?

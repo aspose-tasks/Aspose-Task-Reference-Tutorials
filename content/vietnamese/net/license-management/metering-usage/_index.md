@@ -8,10 +8,10 @@ weight: 17
 url: /vi/net/license-management/metering-usage/
 ---
 ## Giới thiệu
-Bạn đang muốn quản lý và giám sát việc sử dụng MS Project của mình một cách hiệu quả với Aspose.Tasks? Với sức mạnh của việc đo lường, bạn có thể theo dõi việc sử dụng và tối ưu hóa nỗ lực quản lý dự án của mình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước quy trình đo lường mức sử dụng MS Project bằng cách sử dụng Aspose.Tasks for .NET.
+Bạn đang tìm cách quản lý và giám sát hiệu quả việc sử dụng MS Project của mình với Aspose.Tasks? Với sức mạnh của việc đo lường, bạn có thể theo dõi việc sử dụng và tối ưu hóa nỗ lực quản lý dự án của mình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước quy trình đo lường mức sử dụng MS Project bằng cách sử dụng Aspose.Tasks for .NET.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào việc đo lường mức sử dụng MS Project, hãy đảm bảo bạn có các điều kiện tiên quyết sau:
-1.  Aspose.Tasks for .NET Library: Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[trang tải xuống](https://releases.aspose.com/tasks/net/), Làm theo hướng dẫn cài đặt để thiết lập thư viện trong môi trường phát triển của bạn.
+1.  Aspose.Tasks for .NET Library: Tải xuống và cài đặt thư viện Aspose.Tasks for .NET từ[trang tải xuống](https://releases.aspose.com/tasks/net/). Làm theo hướng dẫn cài đặt để thiết lập thư viện trong môi trường phát triển của bạn.
 2.  Khóa công khai và riêng tư: Lấy khóa công khai và riêng tư của bạn từ Aspose. Những phím này rất cần thiết cho việc sử dụng đo sáng. Nếu bạn chưa có chìa khóa, bạn có thể yêu cầu chúng từ Aspose thông qua[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) trang.
 
 ## Nhập không gian tên
@@ -30,7 +30,7 @@ String DataDir = "Your Document Directory";
 var metered = new Metered();
 metered.SetMeteredKey("<public key>", "<private key>");
 ```
- thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn và thay thế`<public key>` Và`<private key>` với các khóa thực tế của bạn thu được từ Aspose.
+ Thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn và thay thế`<public key>` Và`<private key>` với các khóa thực tế của bạn thu được từ Aspose.
 ## Bước 2: Tải tệp dự án MS
 Tiếp theo, tải tệp MS Project của bạn bằng Aspose.Tasks:
 ```csharp
@@ -53,7 +53,7 @@ try
 }
 catch (WebException)
 {
-    // Xử lý ngoại lệ tại đây
+    // Xử lý ngoại lệ ở đây
 }
 ```
 Bước này truy xuất và hiển thị các khoản tín dụng đã chi tiêu và số byte mà hoạt động của bạn đã tiêu thụ. Xử lý mọi trường hợp ngoại lệ có thể xảy ra trong quá trình này.

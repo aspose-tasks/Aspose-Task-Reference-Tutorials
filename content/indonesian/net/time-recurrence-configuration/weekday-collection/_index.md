@@ -11,7 +11,7 @@ url: /id/net/time-recurrence-configuration/weekday-collection/
 Aspose.Tasks untuk .NET adalah perpustakaan canggih yang memfasilitasi manipulasi data manajemen proyek secara efisien. Dalam tutorial ini, kita akan menjelajahi kumpulan hari kerja di Aspose.Tasks, memungkinkan Anda menyesuaikan hari kerja, menghapus akhir pekan, dan membuat kalender khusus untuk memenuhi kebutuhan proyek Anda. Baik Anda pengembang berpengalaman atau pendatang baru, panduan langkah demi langkah ini akan memandu Anda melalui proses bekerja dengan hari kerja di Aspose.Tasks untuk .NET.
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
--  Instal perpustakaan Aspose.Tasks untuk .NET. Anda dapat mengunduhnya dari[Aspose.Tasks untuk halaman unduh .NET](https://releases.aspose.com/tasks/net/).
+-  Instal perpustakaan Aspose.Tasks untuk .NET. Anda dapat mengunduhnya dari[Aspose.Tasks untuk halaman unduhan .NET](https://releases.aspose.com/tasks/net/).
 - Familiar dengan bahasa pemrograman C#.
 - Lingkungan pengembangan terintegrasi (IDE) seperti Visual Studio.
 ## Impor Namespace

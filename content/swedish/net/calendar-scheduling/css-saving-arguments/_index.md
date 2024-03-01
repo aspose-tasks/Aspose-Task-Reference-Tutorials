@@ -9,7 +9,7 @@ url: /sv/net/calendar-scheduling/css-saving-arguments/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att fördjupa oss i processen att spara CSS-argument med Aspose.Tasks för .NET. Cascading Style Sheets (CSS) är avgörande för att definiera presentationen av HTML-element. Aspose.Tasks tillåter oss att manipulera och spara dessa CSS-attribut effektivt.
+den här handledningen kommer vi att fördjupa oss i processen att spara CSS-argument med Aspose.Tasks för .NET. Cascading Style Sheets (CSS) är avgörande för att definiera presentationen av HTML-element. Aspose.Tasks tillåter oss att manipulera och spara dessa CSS-attribut effektivt.
 
 ## Förutsättningar
 
@@ -53,12 +53,12 @@ Implementera sedan återuppringningsmetoderna för teckensnitt och bildsparande 
 ```csharp
 public void FontSaving(FontSavingArgs args)
 {
-    // Implementera din logik för att spara teckensnitt här
+    // Implementera logiken för att spara teckensnitt här
 }
 
 public void ImageSaving(ImageSavingArgs args)
 {
-    // Implementera din logik för att spara bilder här
+    // Implementera din bildsparlogik här
 }
 ```
 
@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Konfigurera HTML-sparalternativ
+        //Konfigurera HTML-sparalternativ
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ S3: Aspose.Tasks för .NET stöder olika versioner av Microsoft Project-filer, v
 
 ### F4: Var kan jag hitta omfattande dokumentation för Aspose.Tasks för .NET?
 
- A4: Du kan hänvisa till[dokumentation](https://reference.aspose.com/tasks/net/) för detaljerad information och exempel.
+A4: Du kan hänvisa till[dokumentation](https://reference.aspose.com/tasks/net/) för detaljerad information och exempel.
 
 ### F5: Erbjuder Aspose.Tasks för .NET stöd för utvecklare?
 

@@ -48,7 +48,7 @@ Console.WriteLine("Is custom properties collection read-only?: " + project.Custo
 
 Ce code vérifie si la collection de propriétés personnalisées est en lecture seule.
 
-## Étape 3 : Ajouter des propriétés personnalisées
+## Étape 3 : ajouter des propriétés personnalisées
 
 ```csharp
 project.CustomProps.Add("IsEnterprise", true);

@@ -46,7 +46,7 @@ var options = new SaveTemplateOptions
 	RemoveActualValues = true,
 	// Remover taxas de recursos do modelo de projeto
 	RemoveResourceRates = true,
-	// Remova todos os valores básicos do modelo de projeto
+	// Remova todos os valores de linha de base do modelo de projeto
 	RemoveBaselineValues = true
 };
 ```
@@ -75,4 +75,4 @@ R: Sim, você pode aplicar modelos a projetos existentes carregando o arquivo de
 ### P: O Aspose.Tasks for .NET oferece suporte ao desenvolvimento de plataforma cruzada?
 R: Aspose.Tasks for .NET foi projetado principalmente para aplicativos de estrutura .NET executados em plataformas Windows.
 ### P: O suporte técnico está disponível para Aspose.Tasks for .NET?
- R: Sim, você pode buscar assistência técnica e orientação da comunidade Aspose.Tasks.[fóruns](https://forum.aspose.com/c/tasks/15) ou entre em contato diretamente com a equipe de suporte.
+ R: Sim, você pode buscar assistência técnica e orientação da comunidade Aspose.Tasks[fóruns](https://forum.aspose.com/c/tasks/15)ou entre em contato diretamente com a equipe de suporte.

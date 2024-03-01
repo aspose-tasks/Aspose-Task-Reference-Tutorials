@@ -38,7 +38,7 @@ var settings = new RiskAnalysisSettings
 };
 ```
 ## Passaggio 3: caricare il file di progetto
-Carica il file MS Project per l'analisi.
+Caricare il file MS Project per l'analisi.
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");
 ```

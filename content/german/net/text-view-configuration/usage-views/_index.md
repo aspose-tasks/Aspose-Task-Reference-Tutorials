@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren Sie Nutzungsansichten in Aspose.Tasks
-linktitle: Konfigurieren Sie Nutzungsansichten in Aspose.Tasks
+title: Konfigurieren von Nutzungsansichten in Aspose.Tasks
+linktitle: Konfigurieren von Nutzungsansichten in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie Aufgabennutzungsansichten in Aspose.Tasks für .NET konfigurieren. Verbessern Sie die Projektvisualisierung mit detaillierten Schritten. Laden Sie die Bibliothek jetzt herunter!
 type: docs
@@ -11,7 +11,7 @@ url: /de/net/text-view-configuration/usage-views/
 Wenn Sie als .NET-Entwickler Ihre Projektmanagementfunktionen erweitern möchten, ist Aspose.Tasks ein leistungsstarkes Tool, mit dem Sie Microsoft Project-Dateien mühelos bearbeiten können. In diesem Tutorial konzentrieren wir uns auf die Konfiguration von Nutzungsansichten mit Aspose.Tasks für .NET. Folgen Sie uns, um Einblicke in das Rendern von Aufgabennutzungsansichten mit Details für eine bessere Projektvisualisierung zu erhalten.
 ## Voraussetzungen
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-- Aspose.Tasks-Bibliothek: Stellen Sie sicher, dass die Aspose.Tasks-Bibliothek in Ihr .NET-Projekt integriert ist. Wenn nicht, können Sie es herunterladen[Hier](https://releases.aspose.com/tasks/net/) und befolgen Sie die Installationsanweisungen.
+-  Aspose.Tasks-Bibliothek: Stellen Sie sicher, dass die Aspose.Tasks-Bibliothek in Ihr .NET-Projekt integriert ist. Wenn nicht, können Sie es herunterladen[Hier](https://releases.aspose.com/tasks/net/) und befolgen Sie die Installationsanweisungen.
 - Dokumentenverzeichnis: Richten Sie ein Verzeichnis ein, in dem Ihre Projektdokumente gespeichert werden. Ersetzen Sie „Ihr Dokumentverzeichnis“ in den Codefragmenten durch den tatsächlichen Pfad zu Ihrem Dokumentverzeichnis.
 ## Namespaces importieren
 Im bereitgestellten Codeausschnitt werden Sie die Verwendung bestimmter Namespaces bemerken. Stellen Sie sicher, dass Sie diese für eine nahtlose Integration in Ihr Projekt einbeziehen:

@@ -82,4 +82,4 @@ R : Si une définition de code hiérarchique est en lecture seule, vous ne pour
 ### Q : Existe-t-il des limites quant au nombre de définitions de code hiérarchique que je peux ajouter à un projet ?
 R : Aspose.Tasks pour .NET n'impose aucune limitation spécifique sur le nombre de définitions de code hiérarchique que vous pouvez ajouter à un projet. Cependant, tenez compte des implications en termes de performances lorsque vous travaillez avec un grand nombre de définitions.
 ### Q : Puis-je utiliser des définitions de code hiérarchique pour regrouper des tâches en fonction de critères personnalisés ?
-R : Oui, les définitions de code hiérarchique vous permettent de catégoriser les tâches en fonction de critères personnalisés, offrant ainsi une flexibilité dans l'organisation des données du projet.## Code source complet
+R : Oui, les définitions de code hiérarchique vous permettent de catégoriser les tâches en fonction de critères personnalisés, offrant ainsi une flexibilité dans l'organisation des données du projet.## Code source complet

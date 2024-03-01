@@ -1,6 +1,6 @@
 ---
-title: Konfigurasikan Analisis Risiko Proyek MS di Aspose.Tasks
-linktitle: Konfigurasikan Pengaturan Analisis Risiko di Aspose.Tasks
+title: Mengonfigurasi Analisis Risiko Proyek MS di Aspose.Tasks
+linktitle: Mengonfigurasi Pengaturan Analisis Risiko di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi pengaturan analisis risiko MS Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan efisiensi manajemen proyek dengan teknik penilaian risiko tingkat lanjut.
 type: docs
@@ -80,7 +80,7 @@ Menetapkan tingkat kepercayaan untuk menentukan kepastian perkiraan.
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Inisialisasi a`RiskAnalyzer` obyektif dan melakukan analisis risiko pada proyek.
+ Inisialisasi a`RiskAnalyzer` mengajukan keberatan dan melakukan analisis risiko pada proyek.
 ## Langkah 12: Ambil Hasil Analisis
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

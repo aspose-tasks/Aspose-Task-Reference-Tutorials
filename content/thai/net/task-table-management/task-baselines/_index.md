@@ -65,9 +65,9 @@ foreach (var data in baseline.TimephasedData)
 ### ถาม: ฉันสามารถใช้ Aspose.Tasks กับเฟรมเวิร์ก .NET อื่นๆ ได้หรือไม่
 ตอบ: Aspose.Tasks เข้ากันได้กับเฟรมเวิร์ก .NET หลายเฟรม ซึ่งให้ความยืดหยุ่นในสภาพแวดล้อมการพัฒนาของคุณ
 ### ถาม: มีฟอรัมชุมชนสำหรับการสนับสนุน Aspose.Tasks หรือไม่
-ตอบ: ได้ คุณสามารถรับการสนับสนุนและมีส่วนร่วมกับชุมชนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ ตอบ: ได้ คุณสามารถรับการสนับสนุนและมีส่วนร่วมกับชุมชนได้ที่[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### ถาม: ฉันจะขอรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks ได้อย่างไร
- ตอบ: เยี่ยมชม[ที่นี่](https://purchase.aspose.com/temporary-license/) เพื่อรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks
+ ตอบ: เยี่ยมชม[ที่นี่](https://purchase.aspose.com/temporary-license/)เพื่อรับใบอนุญาตชั่วคราวสำหรับ Aspose.Tasks
 ### ถาม: มีบทช่วยสอนใดๆ นอกเหนือจากพื้นฐานงานหรือไม่
  ตอบ: สำรวจ[เอกสารประกอบ](https://reference.aspose.com/tasks/net/) สำหรับบทช่วยสอนที่หลากหลายเกี่ยวกับคุณสมบัติ Aspose.Tasks
 ### ถาม: ฉันจะซื้อ Aspose.Tasks สำหรับ .NET ได้ที่ไหน

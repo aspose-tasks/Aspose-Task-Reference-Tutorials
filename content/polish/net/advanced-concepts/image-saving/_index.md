@@ -9,7 +9,7 @@ url: /pl/net/advanced-concepts/image-saving/
 ---
 ## Wstęp
 
-tym samouczku zagłębimy się w proces obsługi zapisywania obrazów w Aspose.Tasks dla .NET. Aspose.Tasks to potężny interfejs API, który umożliwia programistom programowe manipulowanie plikami Microsoft Project. Jednym z typowych zadań podczas pracy z plikami projektu jest konieczność zapisywania obrazów, które mogą zawierać wykresy, wykresy lub inne elementy wizualne. Podzielimy proces krok po kroku, zapewniając przejrzystość i zrozumienie całego procesu.
+W tym samouczku zagłębimy się w proces obsługi zapisywania obrazów w Aspose.Tasks dla .NET. Aspose.Tasks to potężny interfejs API, który umożliwia programistom programowe manipulowanie plikami Microsoft Project. Jednym z typowych zadań podczas pracy z plikami projektu jest konieczność zapisywania obrazów, które mogą zawierać wykresy, wykresy lub inne elementy wizualne. Podzielimy proces krok po kroku, zapewniając przejrzystość i zrozumienie całego procesu.
 
 ## Warunki wstępne
 
@@ -114,7 +114,7 @@ Podsumowując, obsługa zapisywania obrazów w Aspose.Tasks dla .NET obejmuje de
 
 ### P1: Czy mogę używać Aspose.Tasks do manipulowania plikami projektu w innych formatach niż HTML?
 
-Odpowiedź 1: Tak, Aspose.Tasks obsługuje różne formaty, takie jak PDF, XLSX i MPP.
+O1: Tak, Aspose.Tasks obsługuje różne formaty, takie jak PDF, XLSX i MPP.
 
 ### P2: Czy Aspose.Tasks zapewnia obsługę integracji pamięci masowej w chmurze?
 

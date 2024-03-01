@@ -17,7 +17,7 @@ url: /ja/net/advanced-concepts/page-saving-callback/
 
 1. C# プログラミング言語の知識: C# の構文と概念の基本を理解している必要があります。
    
-2. Aspose.Tasks for .NET のインストール: 開発環境に Aspose.Tasks ライブラリがインストールされていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET のインストール: 開発環境に Aspose.Tasks ライブラリがインストールされていることを確認してください。からダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
 
 3. 開発環境のセットアップ: Visual Studio などの .NET 開発用の優先 IDE をセットアップします。
 

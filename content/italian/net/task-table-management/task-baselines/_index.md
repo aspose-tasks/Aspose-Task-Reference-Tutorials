@@ -48,7 +48,7 @@ Console.WriteLine("Interim: {0}", baseline.Interim);
 Console.WriteLine("Fixed Cost: {0}", baseline.FixedCost);
 ```
 Esplora ulteriori dettagli, incluso se la previsione è una previsione provvisoria e il costo fisso ad essa associato.
-## Passaggio 5: stampare i dati rapportati alla scala cronologica
+## Passaggio 5: stampa dei dati rapportati alla scala cronologica
 ```csharp
 Console.WriteLine("Number of timephased items: " + baseline.TimephasedData.Count);
 foreach (var data in baseline.TimephasedData)
@@ -65,9 +65,9 @@ Congratulazioni! Hai imparato con successo come gestire le basi di attività in 
 ### D: Posso utilizzare Aspose.Tasks con altri framework .NET?
 R: Aspose.Tasks è compatibile con più framework .NET, fornendo flessibilità nel tuo ambiente di sviluppo.
 ### D: Esiste un forum della community per il supporto di Aspose.Tasks?
-R: Sì, puoi trovare supporto e interagire con la community su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ R: Sì, puoi trovare supporto e interagire con la community su[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### D: Come posso ottenere una licenza temporanea per Aspose.Tasks?
- Una visita[Qui](https://purchase.aspose.com/temporary-license/) per ottenere una licenza temporanea per Aspose.Tasks.
+ Una visita[Qui](https://purchase.aspose.com/temporary-license/)per ottenere una licenza temporanea per Aspose.Tasks.
 ### D: Sono disponibili esercitazioni oltre alle attività di base?
  R: Esplora il[documentazione](https://reference.aspose.com/tasks/net/) per una vasta gamma di tutorial sulle funzionalità di Aspose.Tasks.
 ### D: Dove posso acquistare Aspose.Tasks per .NET?

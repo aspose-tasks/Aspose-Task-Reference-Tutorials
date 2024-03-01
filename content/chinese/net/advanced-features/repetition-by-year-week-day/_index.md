@@ -21,7 +21,7 @@ url: /zh/net/advanced-features/repetition-by-year-week-day/
 
 ### 2.安装Aspose.Tasks for .NET
 
-从以下位置下载并安装 Aspose.Tasks for .NET 库[下载链接](https://releases.aspose.com/tasks/net/),按照提供的安装说明将库集成到您的开发环境中。
+从以下位置下载并安装 Aspose.Tasks for .NET 库[下载链接](https://releases.aspose.com/tasks/net/)。按照提供的安装说明将库集成到您的开发环境中。
 
 ### 3. 获取文档
 

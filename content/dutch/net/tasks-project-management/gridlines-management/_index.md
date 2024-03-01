@@ -13,7 +13,7 @@ Het efficiënt beheren van projecten houdt vaak in dat tijdlijnen en taken duide
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 ### 1. Installeer Aspose.Tasks voor .NET
 Om met Aspose.Tasks voor .NET te kunnen werken, moet het in uw ontwikkelomgeving zijn geïnstalleerd. U kunt de bibliotheek downloaden via de[website](https://releases.aspose.com/tasks/net/) of via pakketbeheerders zoals NuGet.
-### 2.Ontwikkelingsomgeving
+### 2. Ontwikkelomgeving
 Zorg ervoor dat er een .NET-ontwikkelomgeving op uw computer is geïnstalleerd. U kunt Visual Studio of een andere .NET IDE van uw keuze gebruiken.
 ## Naamruimten importeren
 Voordat we in de code duiken, importeren we eerst de benodigde naamruimten om toegang te krijgen tot de Aspose.Tasks-functionaliteiten.

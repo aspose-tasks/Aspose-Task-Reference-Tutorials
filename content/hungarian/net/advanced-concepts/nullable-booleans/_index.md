@@ -1,6 +1,6 @@
 ---
-title: Nullable Boolean-ok kezelése az Aspose.Tasks-ban
-linktitle: Nullable Boolean-ok kezelése az Aspose.Tasks-ban
+title: Nullable Booleanok kezelése az Aspose.Tasks-ban
+linktitle: Nullable Booleanok kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan kezelheti hatékonyan a nullálható logikai értékeket az Aspose.Tasks for .NET programban. Sajátítsa el a "NullableBool" osztály használatát, és fokozza a .NET fejlesztését.
 type: docs
@@ -9,7 +9,7 @@ url: /hu/net/advanced-concepts/nullable-booleans/
 ---
 ## Bevezetés
 
- Ebben az oktatóanyagban az Aspose.Tasks for .NET-ben való nullálható logikai értékekkel való munkával foglalkozunk. A nullázható logikai értékek rugalmasságot kínálnak a logikai értékek megjelenítésében, lehetővé téve a definiálatlanság lehetőségét. Megvizsgáljuk, hogyan kell használni a`NullableBool` osztályt, konstruktorait, tulajdonságait és metódusait.
+Ebben az oktatóanyagban az Aspose.Tasks for .NET-ben való nullálható logikai értékekkel való munkával foglalkozunk. A nullázható logikai értékek rugalmasságot kínálnak a logikai értékek megjelenítésében, lehetővé téve a definiálatlanság lehetőségét. Megvizsgáljuk, hogyan kell használni a`NullableBool` osztályt, konstruktorait, tulajdonságait és metódusait.
 
 ## Előfeltételek
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Most bontsuk le az egyes példákat több lépésre.
 
-##  dolgozni vele`NullableBool`
+##  Dolgozni vele`NullableBool`
 
 ###  1. lépés: Hozzon létre egy újat`Project` instance.
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### 6. lépés: Jelenítse meg a karakterlánc reprezentációját`NullableBool` object.
+###  6. lépés: Jelenítse meg a karakterlánc reprezentációját`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  2. lépés: Nyomtassa ki mindegyikhez a hash kódot`NullableBool` object.
+### 2. lépés: Nyomtassa ki mindegyikhez a hash kódot`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Következtetés
 
- Ebben az oktatóanyagban megvizsgáltuk, hogyan kezelhetjük a nullálható logikai értékeket az Aspose.Tasks for .NET-ben. Használatával a`NullableBool` osztályt és annak metódusait, hatékonyan kezelheti a logikai értékeket azzal a rugalmassággal, hogy nullázható.
+ Ebben az oktatóanyagban megvizsgáltuk, hogyan kezelhetjük a nullálható logikai értékeket az Aspose.Tasks for .NET-ben. Kihasználva a`NullableBool` osztályt és annak metódusait, hatékonyan kezelheti a logikai értékeket azzal a rugalmassággal, hogy nullálható.
 
 ## GYIK
 
@@ -140,7 +140,7 @@ V1: A nullálható logikai érték olyan típus, amely igaz, hamis vagy meghatá
 
 ### 2. kérdés: Miért használjunk nullálható logikai értékeket?
 
-2. válasz: A nullázható logikai értékek rugalmasságot kínálnak olyan forgatókönyvekben, ahol a logikai érték nem mindig definiálható.
+2. válasz: A nullázható logikai értékek rugalmasságot kínálnak olyan esetekben, amikor a logikai érték nem mindig definiálható.
 
 ### 3. kérdés: Hogyan hasonlíthatók össze a nullálható logikai értékek egyenlőséghez?
 

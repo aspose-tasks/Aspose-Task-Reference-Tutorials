@@ -12,7 +12,7 @@ MS Project Primavera Veritabanı ayarlarını sorunsuz bir şekilde yapılandır
 ## Önkoşullar
 Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 ### 1. Aspose.Tasks for .NET'i yükleyin
- Başını aşmak[.NET için Aspose.Tasks'ı indirin](https://releases.aspose.com/tasks/net/) ve Aspose.Tasks kütüphanesinin en son sürümünü edinin. .NET ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
+ Başını aşmak[.NET için Aspose.Tasks'ı indirin](https://releases.aspose.com/tasks/net/)ve Aspose.Tasks kütüphanesinin en son sürümünü edinin. .NET ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
 ### 2. MS Project Primavera Veritabanına Erişin
 MS Project Primavera Veritabanına erişiminiz olduğundan emin olun. Devam etmek için gerekli kimlik bilgilerine ve bağlantı ayrıntılarına ihtiyacınız olacak.
 ### 3. Temel C# ve .NET Framework Bilgisi
@@ -30,7 +30,7 @@ using Aspose.Tasks.Connectivity;
 ```
  Bu satır şunları içe aktarır:`System.Data.SqlClient` .NET uygulamalarında SQL Server veritabanlarıyla çalışmaya yönelik sınıfları içeren ad alanı.
 
-Artık önkoşulları ayarladığınıza ve gerekli ad alanlarını içe aktardığınıza göre, Aspose.Tasks for .NET'i kullanarak MS Project Primavera Veritabanı ayarlarını yapılandırmak için sağlanan örnek kodu inceleyelim.
+Artık ön koşulları ayarladığınıza ve gerekli ad alanlarını içe aktardığınıza göre, Aspose.Tasks for .NET'i kullanarak MS Project Primavera Veritabanı ayarlarını yapılandırmak için sağlanan örnek kodu inceleyelim.
 ## Adım 1: SqlConnectionStringBuilder Nesnesi Oluşturun
 ```csharp
 var sb = new SqlConnectionStringBuilder();
@@ -43,17 +43,17 @@ sb.UserID = "privuser";
 sb.Password = "***";
 sb.ConnectTimeout = 2; // ExSkip
 ```
- Bu kod bir oluşturur`SqlConnectionStringBuilder` nesne gibi çeşitli özellikleri ayarlar ve`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`Primavera veritabanının bağlantı dizesini yapılandırmak için vb.
+ Bu kod bir oluşturur`SqlConnectionStringBuilder`nesne gibi çeşitli özellikleri ayarlar ve`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`Primavera veritabanının bağlantı dizesini yapılandırmak için vb.
 ## Adım 2: PrimaveraDbSettings Nesnesini Başlatın
 ```csharp
 var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```
-Burada yeni bir örneğini başlatıyoruz.`PrimaveraDbSettings` bağlantı dizesini ve proje kimliğini ileterek sınıf (bu durumda,`4502`) parametre olarak.
+ Burada yeni bir örneğini başlatıyoruz.`PrimaveraDbSettings` bağlantı dizesini ve proje kimliğini ileterek sınıf (bu durumda,`4502`) parametre olarak.
 ## Adım 3: Veritabanından Projeyi Okuyun
 ```csharp
 var project = new Project(settings);
 ```
- Bu hat yeni bir hat oluşturuyor`Project` geçerek nesneyi`settings` daha önce oluşturduğumuz nesne. Primavera veritabanına bağlantı kurar ve projeyi belirtilen UID ile okur (`4502`,
+ Bu hat yeni bir hat oluşturuyor`Project` geçerek nesneyi`settings` daha önce oluşturduğumuz nesne. Primavera veritabanına bağlantı kurar ve projeyi belirtilen UID ile okur (`4502`).
 ## Adım 4: Proje UID'sini görüntüleyin
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
@@ -72,4 +72,4 @@ C: Aspose.Tasks for .NET öncelikle şirket içi proje yönetimi çözümlerine 
 ### S: Aspose.Tasks for .NET'i kullanarak proje verilerini programlı olarak değiştirebilir miyim?
 C: Kesinlikle! Aspose.Tasks for .NET, proje verilerini çeşitli formatlarda okumak, yazmak ve değiştirmek için zengin bir API seti sağlar.
 ### S: Aspose.Tasks for .NET kullanıcılarına yönelik bir topluluk forumu veya destek kanalı var mı?
- C: Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) topluluk desteği ve karşılaşabileceğiniz sorunlar veya sorularınız için yardım için.## Kaynak Kodunu Tamamlayın
+ C: Evet, ziyaret edebilirsiniz[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)topluluk desteği ve karşılaşabileceğiniz sorunlar veya sorularınız için yardım için.## Kaynak Kodunu Tamamlayın

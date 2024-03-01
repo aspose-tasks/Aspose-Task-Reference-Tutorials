@@ -1,5 +1,5 @@
 ---
-title: قم بتكوين تحليل مخاطر مشروع MS في Aspose.Tasks
+title: تكوين تحليل مخاطر مشروع MS في Aspose.Tasks
 linktitle: تكوين إعدادات تحليل المخاطر في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين إعدادات تحليل مخاطر MS Project باستخدام Aspose.Tasks لـ .NET. تعزيز كفاءة إدارة المشاريع باستخدام تقنيات تقييم المخاطر المتقدمة.
@@ -59,7 +59,7 @@ var pattern = new RiskPattern(task);
 ```csharp
 pattern.Distribution = ProbabilityDistributionType.Normal;
 ```
-اختر نوع التوزيع لتوليد قيم عشوائية (على سبيل المثال، عادي أو موحد).
+اختر نوع التوزيع لإنشاء قيم عشوائية (على سبيل المثال، عادي أو منتظم).
 ## الخطوة 8: تحديد المدة المتفائلة
 ```csharp
 pattern.Optimistic = 70;
@@ -80,7 +80,7 @@ pattern.ConfidenceLevel = ConfidenceLevel.CL75;
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- تهيئة أ`RiskAnalyzer` الهدف وإجراء تحليل المخاطر في المشروع.
+ تهيئة أ`RiskAnalyzer` الكائن وإجراء تحليل المخاطر في المشروع.
 ## الخطوة 12: استرجاع نتائج التحليل
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

@@ -71,7 +71,7 @@ project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat
 ### هل يمكنني تخصيص مظهر المهام الفردية في عرض المخطط الزمني؟
 قطعاً! يوفر Aspose.Tasks المرونة لتخصيص مظهر كل مهمة في عرض المخطط الزمني.
 ### أين يمكنني العثور على موارد ودعم إضافيين لـ Aspose.Tasks؟
- قم بزيارة[Aspose.Tasks الوثائق](https://reference.aspose.com/tasks/net/) للحصول على أدلة شاملة و[منتدى الدعم](https://forum.aspose.com/c/tasks/15) للمساعدة.
+ قم بزيارة[Aspose.Tasks الوثائق](https://reference.aspose.com/tasks/net/)للحصول على أدلة شاملة و[منتدى الدعم](https://forum.aspose.com/c/tasks/15) للمساعدة.
 ### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Tasks؟
  نعم، يمكنك استكشاف النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟

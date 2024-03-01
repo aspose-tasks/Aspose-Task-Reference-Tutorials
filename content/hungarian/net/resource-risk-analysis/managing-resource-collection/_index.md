@@ -98,4 +98,4 @@ V: Igen, az Aspose.Tasks támogatja a többszálú feldolgozást, amely lehetőv
 
 ### K: Elérhető technikai támogatás az Aspose.Tasks felhasználók számára?
 
- V: Igen, az Aspose.Tasks felhasználói a fórumon keresztül érhetik el a technikai támogatást.[itt](https://forum.aspose.com/c/tasks/15).
+ V: Igen, az Aspose.Tasks felhasználói a fórumon keresztül érhetik el a technikai támogatást[itt](https://forum.aspose.com/c/tasks/15).

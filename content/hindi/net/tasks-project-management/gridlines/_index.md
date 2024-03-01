@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks के लिए MS प्रोजेक्ट में ग्रिडलाइन्स को कस्टमाइज़ करें
-linktitle: Aspose में ग्रिडलाइन्स। कार्य
+linktitle: Aspose.Tasks में ग्रिडलाइन्स
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट में ग्रिडलाइन्स को अनुकूलित करना सीखें। पालन करने में आसान चरणों के साथ अपने प्रोजेक्ट विज़ुअलाइज़ेशन और प्रबंधन को बेहतर बनाएं।
 type: docs

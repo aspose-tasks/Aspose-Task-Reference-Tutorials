@@ -155,4 +155,4 @@ A4: 예, Aspose.Tasks는 MPP, XML 및 MPX를 포함한 다양한 형식의 Micro
 
 ### Q5: Aspose.Tasks for .NET에 사용할 수 있는 평가판이 있습니까?
 
- A5: 예, 다음 사이트에서 Aspose.Tasks for .NET 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).
+A5: 예, 다음 사이트에서 Aspose.Tasks for .NET 무료 평가판을 받을 수 있습니다.[여기](https://releases.aspose.com/).

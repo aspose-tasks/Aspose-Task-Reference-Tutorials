@@ -90,7 +90,7 @@ Aspose.Tasks dirancang agar kompatibel dengan berbagai versi .NET Framework. Per
 ### Bisakah saya menyesuaikan tampilan tampilan Gantt Chart?
 Sangat! Aspose.Tasks menyediakan opsi ekstensif untuk menyesuaikan tampilan tampilan Gantt Chart agar sesuai dengan kebutuhan proyek Anda.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
- Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
+Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan komunitas untuk Aspose.Tasks?
  Terlibat dengan komunitas Aspose.Tasks di[forum](https://forum.aspose.com/c/tasks/15) untuk pertanyaan atau bantuan apa pun.
 ### Apakah lisensi sementara tersedia untuk Aspose.Tasks?

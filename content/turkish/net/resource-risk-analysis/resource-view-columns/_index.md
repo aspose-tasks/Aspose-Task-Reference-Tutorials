@@ -88,7 +88,7 @@ MS Project kaynak görünümü sütunlarının özelleştirilmesi, projenizin ih
 Evet, Aspose.Tasks görevler, atamalar ve diğer proje öğeleri için de özelleştirmeye olanak tanır.
 ### Aspose.Tasks, görünümlerin PDF dışındaki formatlarda kaydedilmesini destekliyor mu?
 Evet, görünümleri XLSX, HTML ve resimler gibi çeşitli formatlarda kaydedebilirsiniz.
-### Özel görünüme biçimlendirme uygulamak mümkün mü?
+### Özel görünüme biçimlendirme uygulamak mümkün müdür?
 Aspose.Tasks, kişiselleştirilmiş görünümlerinizin görünümünü geliştirmek için kesinlikle kapsamlı biçimlendirme seçenekleri sunar.
 ### Özel görünümü değişen proje verilerine göre dinamik olarak güncelleyebilir miyim?
 Evet, temeldeki proje verileri değiştiğinde özel görünümü güncelleyebilir ve yeniden oluşturabilirsiniz.

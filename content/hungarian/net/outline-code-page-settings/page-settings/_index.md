@@ -1,6 +1,6 @@
 ---
 title: Konfigurálja az MS Project oldalbeállításait az Aspose.Tasks segítségével
-linktitle: Konfigurálja az oldalbeállításokat az Aspose.Tasks alkalmazásban
+linktitle: Oldalbeállítások konfigurálása az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja az MS Project oldalbeállításait az Aspose.Tasks for .NET használatával. Egyszerű lépésekkel testreszabhatja a tájolást, a méretet és egyebeket.
 type: docs
@@ -15,7 +15,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő el�
 2. Fejlesztői környezet: A .NET fejlesztéshez be kell állítani egy fejlesztői környezetet a Visual Studio vagy bármely más preferált IDE segítségével.
 
 ## Névterek importálása
-kezdéshez importálnia kell a szükséges névtereket a projektbe. Ezek a névterek hozzáférést biztosítanak az MS Project fájlok kezeléséhez szükséges Aspose.Tasks osztályokhoz és metódusokhoz.
+A kezdéshez importálnia kell a szükséges névtereket a projektbe. Ezek a névterek hozzáférést biztosítanak az MS Project fájlok kezeléséhez szükséges Aspose.Tasks osztályokhoz és metódusokhoz.
 ```csharp
 using Aspose.Tasks;
 using System.Linq;
@@ -37,7 +37,7 @@ Ezután elérheti a projektfájl oldalbeállításait.
 // Szerezd meg a beállításokat
 var settings = project.DefaultView.PageInfo.PageSettings;
 ```
-## 3. lépés: Az oldalbeállítások konfigurálása
+## 3. lépés: Konfigurálja az oldalbeállításokat
 Most állítsuk be az oldalbeállítások különféle tulajdonságait az Ön igényei szerint.
 ```csharp
 // Állítsa az oldal tájolását állóra

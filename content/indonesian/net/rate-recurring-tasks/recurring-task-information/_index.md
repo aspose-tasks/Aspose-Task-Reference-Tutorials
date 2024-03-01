@@ -26,7 +26,7 @@ Sekarang, mari kita bagi contoh ini menjadi beberapa langkah:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- mengganti`"Your Document Directory"` dengan path ke file MS Project Anda.
+ Mengganti`"Your Document Directory"` dengan path ke file MS Project Anda.
 ## Langkah 2: Muat file Proyek MS
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
@@ -52,7 +52,7 @@ Perulangan ini mengulangi semua tugas dalam proyek dan memeriksa apakah setiap t
 ## Kesimpulan
 Dalam tutorial ini, kita telah mempelajari cara mengekstrak informasi tugas berulang dari file MS Project menggunakan Aspose.Tasks untuk .NET. Dengan pengetahuan ini, kini Anda dapat mengintegrasikan fungsi ini ke dalam aplikasi .NET Anda untuk bekerja dengan tugas berulang dengan lebih efisien.
 ## FAQ
-### T: Dapatkah saya mengubah informasi tugas berulang menggunakan Aspose.Tasks untuk .NET?
+### T: Bisakah saya mengubah informasi tugas berulang menggunakan Aspose.Tasks untuk .NET?
 J: Ya, Anda dapat mengubah informasi tugas berulang secara terprogram menggunakan API yang disediakan.
 ### T: Apakah Aspose.Tasks mendukung format file proyek lain selain MS Project?
 A: Ya, Aspose.Tasks mendukung berbagai format file proyek seperti MPP, XML, dan CSV.
@@ -61,4 +61,4 @@ A: Ya, Aspose.Tasks mendukung berbagai format file proyek seperti MPP, XML, dan 
 ### T: Di mana saya dapat menemukan dokumentasi Aspose.Tasks untuk .NET?
  A: Anda dapat menemukan dokumentasinya[Di Sini](https://reference.aspose.com/tasks/net/).
 ### T: Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Tasks untuk .NET?
-J: Anda bisa mendapatkan dukungan teknis dari forum Aspose.Tasks.[Di Sini](https://forum.aspose.com/c/tasks/15).
+ J: Anda bisa mendapatkan dukungan teknis dari forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).

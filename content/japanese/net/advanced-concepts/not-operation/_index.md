@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
-という名前のカスタム クラスを使用してフィルター条件を定義します。`NullCondition`、この条件では、NULL 値を持つタスクが選択されます。
+という名前のカスタム クラスを使用してフィルター条件を定義します。`NullCondition`。この条件では、NULL 値を持つタスクが選択されます。
 
 ## ステップ 4: NOT 操作を適用する
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
-次を使用してフィルター条件に NOT 演算を適用します。`Not<T>` Aspose.Tasks によって提供されるクラス。これにより、フィルター条件が逆になり、null 値を持たないタスクが選択されます。
+次を使用してフィルター条件に NOT 演算を適用します。`Not<T>`Aspose.Tasks によって提供されるクラス。これにより、フィルター条件が逆になり、null 値を持たないタスクが選択されます。
 
 ## ステップ 5: タスクをフィルタリングする
 

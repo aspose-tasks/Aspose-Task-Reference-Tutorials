@@ -26,4 +26,4 @@ Tóm lại, hướng dẫn tùy chọn định dạng tệp Aspose.Tasks của c
 ### [Định cấu hình tùy chọn XAML trong Aspose.Tasks](./configuring-xaml-options/)
 Tìm hiểu cách định cấu hình các tùy chọn MS Project XAML trong Aspose.Tasks cho .NET. Nâng cao tính linh hoạt và tùy chỉnh trong quản lý dự án với hướng dẫn từng bước.
 ### [Định cấu hình tùy chọn XLSX trong Aspose.Tasks](./configuring-xlsx-options/)
-Tìm hiểu cách định cấu hình các tùy chọn MS Project XLSX trong Aspose.Tasks cho .NET. Tùy chỉnh cột, mã hóa và dễ dàng hơn.
+Tìm hiểu cách định cấu hình các tùy chọn MS Project XLSX trong Aspose.Tasks cho .NET. Tùy chỉnh các cột, mã hóa và dễ dàng hơn.

@@ -86,7 +86,7 @@ A1: Ya, Aspose.Tasks mendukung berbagai versi database Microsoft Project, memung
 
 ### Q2: Bagaimana cara memecahkan masalah koneksi dengan database?
 
-A2: Pastikan string koneksi Anda dikonfigurasi dengan benar dengan kredensial dan detail database yang sesuai. Anda juga dapat merujuk ke dokumentasi atau mencari dukungan dari[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+ A2: Pastikan string koneksi Anda dikonfigurasi dengan benar dengan kredensial dan detail database yang sesuai. Anda juga dapat merujuk ke dokumentasi atau mencari dukungan dari[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
 
 ### Q3: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks?
 

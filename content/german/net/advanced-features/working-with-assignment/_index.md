@@ -108,4 +108,4 @@ A4: Ja, wie in diesem Tutorial gezeigt, können Sie je nach Projektanforderungen
 
 ### F5: Wo finde ich Unterstützung für Aspose.Tasks-bezogene Abfragen?
 
- A5: Unterstützung finden Sie auf der[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) wo Experten und Community-Mitglieder aktiv an Diskussionen teilnehmen.
+A5: Unterstützung finden Sie auf der[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) wo Experten und Community-Mitglieder aktiv an Diskussionen teilnehmen.

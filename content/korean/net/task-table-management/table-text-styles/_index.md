@@ -11,7 +11,7 @@ url: /ko/net/task-table-management/table-text-styles/
 프로젝트 관리의 세계에서는 작업의 효과적인 시각화가 성공에 매우 중요합니다. Aspose.Tasks for .NET은 테이블 텍스트 스타일을 사용자 정의할 수 있는 강력한 솔루션을 제공하여 프로젝트에서 텍스트 항목의 모양을 맞춤화할 수 있습니다. 이 단계별 가이드에서는 Aspose.Tasks for .NET을 사용하여 테이블 텍스트 스타일을 구성하는 과정을 안내합니다.
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 사항을 확인하세요.
--  .NET용 Aspose.Tasks: 최신 버전의 .NET용 Aspose.Tasks가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
+- .NET용 Aspose.Tasks: 최신 버전의 .NET용 Aspose.Tasks가 설치되어 있는지 확인하세요. 당신은 그것을 다운로드 할 수 있습니다[여기](https://releases.aspose.com/tasks/net/).
 - 문서 디렉터리: 문서 디렉터리를 설정합니다. 코드의 "문서 디렉토리"를 실제 경로로 바꾸십시오.
 -  유효한 Aspose 라이센스: 이 예에는 유효한 Aspose 라이센스가 필요합니다. 정식 라이센스를 구매하실 수 있습니다[여기](https://purchase.aspose.com/buy) 또는 30일 임시 라이센스 취득[여기](https://purchase.aspose.com/temporary-license/).
 ## 네임스페이스 가져오기
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## 결론

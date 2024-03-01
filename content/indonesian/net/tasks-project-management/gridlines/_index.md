@@ -17,7 +17,7 @@ Sebelum kita mendalami penyesuaian garis kisi di MS Project menggunakan Aspose.T
 
 ### 1. Instalasi Aspose.Tasks untuk .NET
 
- Untuk memulai, Anda perlu menginstal Aspose.Tasks for .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari[Aspose.Tasks untuk halaman unduh .NET](https://releases.aspose.com/tasks/net/).
+ Untuk memulai, Anda perlu menginstal Aspose.Tasks for .NET di lingkungan pengembangan Anda. Anda dapat mengunduh perpustakaan dari[Aspose.Tasks untuk halaman unduhan .NET](https://releases.aspose.com/tasks/net/).
 
 ### 2. Pengetahuan Dasar C# dan .NET Framework
 
@@ -112,4 +112,4 @@ J: Ya, Aspose.Tasks untuk .NET menawarkan dokumentasi dan dukungan ekstensif unt
 
 ### Q5: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks untuk .NET?
 
- A: Ya, Anda dapat mengunduh versi uji coba gratis[Aspose.Tugas untuk .NET dari](https://forum.aspose.com/c/tasks/15), untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian.
+ A: Ya, Anda dapat mengunduh versi uji coba gratis[Aspose.Tugas untuk .NET dari](https://forum.aspose.com/c/tasks/15). untuk menjelajahi fitur-fiturnya sebelum melakukan pembelian.

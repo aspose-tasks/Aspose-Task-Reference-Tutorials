@@ -35,7 +35,7 @@ Pertama, Anda perlu memuat file MS Project menggunakan Aspose.Tasks:
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## Langkah 2: Tentukan Opsi Simpan
- Tentukan opsi penyimpanan sesuai dengan kebutuhan Anda. Dalam contoh ini, kami menggunakan`Spreadsheet2003SaveOptions`,
+ Tentukan opsi penyimpanan sesuai dengan kebutuhan Anda. Dalam contoh ini, kami menggunakan`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ J: Ya, Aspose.Tasks mendukung berbagai versi file MS Project, memastikan kompati
 ### T: Dapatkah saya mencoba Aspose.Tasks sebelum membeli?
  J: Ya, Anda dapat menjelajahi Aspose.Tasks dengan uji coba gratis yang tersedia[Di Sini](https://releases.aspose.com/).
 ### T: Di mana saya dapat menemukan dokumentasi untuk Aspose.Tasks?
-J: Dokumentasi terperinci dapat ditemukan[Di Sini](https://reference.aspose.com/tasks/net/), memberikan panduan komprehensif tentang penggunaan fitur Aspose.Tasks.
+ J: Dokumentasi terperinci dapat ditemukan[Di Sini](https://reference.aspose.com/tasks/net/), memberikan panduan komprehensif tentang penggunaan fitur Aspose.Tasks.
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks?
- J: Lisensi sementara tersedia untuk tujuan evaluasi.[Di Sini](https://purchase.aspose.com/temporary-license/).
+ J: Lisensi sementara tersedia untuk tujuan evaluasi[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.Tasks?
- A: Anda dapat bergabung dengan forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15) untuk mendapatkan bantuan dari para ahli dan sesama pengembang.
+ A: Anda dapat bergabung dengan forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15)untuk mendapatkan bantuan dari para ahli dan sesama pengembang.

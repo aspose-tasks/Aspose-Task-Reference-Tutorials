@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Steg 8: Rensa mönster
 Rensa mönstersamlingen antingen individuellt eller helt:
 ```csharp
-// individuellt avlägsnande
+// Individuellt avlägsnande
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ S: Visst, Aspose.Tasks integreras sömlöst med andra .NET-ramverk, vilket gör 
 ### F: Finns det en testversion tillgänglig för Aspose.Tasks?
  S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks från[här](https://releases.aspose.com/)så att du kan utforska dess funktioner innan du gör ett köp.
 ### F: Var kan jag hitta support för Aspose.Tasks?
- S: Du kan hitta omfattande support och hjälp på Aspose.Tasks-forumet.[här](https://forum.aspose.com/c/tasks/15), där du kan interagera med experter och andra användare för att lösa frågor och problem.
+ S: Du kan hitta omfattande support och hjälp på Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15), där du kan interagera med experter och andra användare för att lösa frågor och problem.

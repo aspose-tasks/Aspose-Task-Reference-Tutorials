@@ -88,7 +88,7 @@ Câu trả lời 1: Đối tượng OLE (Liên kết và Nhúng Đối tượng)
 
 ### Câu hỏi 3: Tôi có thể làm việc với các đối tượng OLE trong Aspose.Tasks mà không cần có kiến thức trước về C# không?
 
-Câu trả lời 3: Mặc dù kiến thức cơ bản về C# được khuyến nghị nhưng Aspose.Tasks vẫn cung cấp tài liệu và hướng dẫn toàn diện để giúp người dùng bắt đầu bất kể nền tảng lập trình của họ.
+Câu trả lời 3: Mặc dù kiến thức cơ bản về C# được khuyến nghị nhưng Aspose.Tasks cung cấp tài liệu và hướng dẫn toàn diện để giúp người dùng bắt đầu bất kể nền tảng lập trình của họ.
 
 ### Câu hỏi 4: Aspose.Tasks có bản dùng thử miễn phí không?
 

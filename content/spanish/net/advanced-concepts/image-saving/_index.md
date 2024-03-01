@@ -108,7 +108,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 
 ## Conclusión
 
-En conclusión, manejar el guardado de imágenes en Aspose.Tasks para .NET implica definir opciones de guardado e implementar devoluciones de llamada para administrar el proceso de guardado de manera efectiva. Si sigue los pasos descritos en este tutorial, podrá integrar perfectamente la funcionalidad de guardar imágenes en sus aplicaciones .NET.
+En conclusión, manejar el guardado de imágenes en Aspose.Tasks para .NET implica definir opciones de guardado e implementar devoluciones de llamadas para administrar el proceso de guardado de manera efectiva. Si sigue los pasos descritos en este tutorial, podrá integrar perfectamente la funcionalidad de guardar imágenes en sus aplicaciones .NET.
 
 ## Preguntas frecuentes
 

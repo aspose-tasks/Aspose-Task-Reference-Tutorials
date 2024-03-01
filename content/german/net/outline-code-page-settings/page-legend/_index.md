@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren Sie MS Project-Legenden in Aspose.Tasks
-linktitle: Konfigurieren Sie die Seitenlegende in Aspose.Tasks
+title: Konfigurieren von MS Project-Legenden in Aspose.Tasks
+linktitle: Konfigurieren der Seitenlegende in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Erfahren Sie, wie Sie MS Project-Seitenlegenden in .NET mithilfe von Aspose.Tasks für eine effiziente Projektverwaltung konfigurieren. Schritt-für-Schritt-Anleitung bereitgestellt.
 type: docs
@@ -11,7 +11,7 @@ url: /de/net/outline-code-page-settings/page-legend/
 Im Bereich der .NET-Entwicklung ist die effiziente Verwaltung von Aufgaben von entscheidender Bedeutung, insbesondere im Projektmanagement. Aspose.Tasks für .NET erweist sich als leistungsstarkes Tool, das eine Fülle von Funktionen zur Optimierung von Aufgabenverwaltungsprozessen bietet. Eine dieser Funktionen ist die Möglichkeit, MS Project-Seitenlegenden zu konfigurieren, wodurch Benutzer wertvolle Einblicke in die Präsentation von Projektdaten erhalten.
 ## Voraussetzungen
 Bevor Sie sich mit der Konfiguration von MS Project-Seitenlegenden mithilfe von Aspose.Tasks für .NET befassen, stellen Sie sicher, dass die folgenden Voraussetzungen erfüllt sind:
-1.  Installation: Installieren Sie Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
+1. Installation: Installieren Sie Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung. Sie können es herunterladen unter[Hier](https://releases.aspose.com/tasks/net/).
 2. Grundkenntnisse von .NET: Machen Sie sich mit den Grundlagen der .NET-Entwicklung vertraut, einschließlich der Einrichtung von Projekten und der Arbeit mit Namespaces.
 3. Entwicklungsumgebung: Verwenden Sie eine integrierte Entwicklungsumgebung (IDE) wie Visual Studio für ein nahtloses Codierungserlebnis.
 4. Projektdatei: Halten Sie eine Microsoft Project-Datei (MPP) zum Experimentieren bereit.

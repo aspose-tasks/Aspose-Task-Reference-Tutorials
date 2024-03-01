@@ -1,6 +1,6 @@
 ---
-title: Configurare le opzioni di stampa di MS Project in Aspose.Tasks
-linktitle: Configurare le opzioni di stampa in Aspose.Tasks
+title: Configurazione delle opzioni di stampa di MS Project in Aspose.Tasks
+linktitle: Configurazione delle opzioni di stampa in Aspose.Tasks
 second_title: Aspose.Tasks API .NET
 description: Scopri come configurare le opzioni di stampa di MS Project senza problemi utilizzando Aspose.Tasks per .NET. Migliora le tue capacità di gestione dei progetti.
 type: docs
@@ -11,7 +11,7 @@ url: /it/net/project-management-integration/print-options/
 Nel campo dello sviluppo software, Aspose.Tasks per .NET si distingue come un potente strumento per gestire attività e progetti in modo efficiente. Una delle sue caratteristiche principali è la possibilità di configurare facilmente le opzioni di stampa di Microsoft Project. In questo tutorial, approfondiremo il processo di configurazione delle opzioni di stampa di MS Project utilizzando Aspose.Tasks per .NET.
 ## Prerequisiti
 Prima di addentrarci nella complessità della configurazione delle opzioni di stampa di MS Project, assicurati di avere i seguenti prerequisiti:
-1.  Installazione di Aspose.Tasks per .NET: assicurati di aver installato la libreria Aspose.Tasks per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/tasks/net/).
+1. Installazione di Aspose.Tasks per .NET: assicurati di aver installato la libreria Aspose.Tasks per .NET. Puoi scaricarlo da[Qui](https://releases.aspose.com/tasks/net/).
 2. Comprensione di base di C#: acquisisci familiarità con le nozioni di base del linguaggio di programmazione C# poiché questo tutorial utilizza principalmente C# a scopo dimostrativo.
 
 ## Importa spazi dei nomi
@@ -43,7 +43,7 @@ Prima di stampare, è prudente controllare il conteggio delle pagine per evitare
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Procedere con la stampa
+    // Procedere con la stampa
     project.Print(options);
 }
 ```

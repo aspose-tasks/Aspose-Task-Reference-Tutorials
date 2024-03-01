@@ -9,7 +9,7 @@ url: /zh/net/calendar-scheduling/daily-calendar-repetition/
 ---
 ## 介绍
 
- Aspose.Tasks for .NET 提供了一组强大的工具，用于以编程方式管理任务和项目。其显着功能之一是能够有效处理日常日历重复。在本教程中，我们将探讨如何利用`DailyCalendarRepetition`类与其他相关类一起创建基于指定日历每天重复的重复任务。
+ Aspose.Tasks for .NET 提供了一组强大的工具，用于以编程方式管理任务和项目。其显着功能之一是能够有效处理日常日历重复。在本教程中，我们将探讨如何利用`DailyCalendarRepetition`类以及其他相关类，根据指定的日历创建每日重复的重复任务。
 
 ## 先决条件
 
@@ -108,7 +108,7 @@ A2：当然，Aspose.Tasks 允许您将特定的日历分配给各个任务，�
 
 ### Q3：Aspose.Tasks 是否支持除每日之外的其他重复模式？
 
-A3：是的，Aspose.Tasks 提供了每周、每月、每年等多种重复模式，满足不同的项目需求。
+A3：是的，Aspose.Tasks 提供了周、月、年等多种重复模式，满足不同的项目需求。
 
 ### Q4：我可以可视化使用 Aspose.Tasks 创建的重复任务吗？
 

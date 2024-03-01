@@ -75,4 +75,4 @@ A: Tatsächlich können Sie die besuchen[Aspose.Tasks-Forum](https://forum.aspos
 ### F: Kann ich Aspose.Tasks für .NET vor dem Kauf testen?
  A: Natürlich! Sie können auf eine kostenlose Testversion von Aspose.Tasks zugreifen[Hier](https://releases.aspose.com/).
 ### F: Wo kann ich eine temporäre Lizenz für Aspose.Tasks erhalten?
- A: Wenn Sie zu Evaluierungs- oder Testzwecken eine temporäre Lizenz benötigen, können Sie eine erwerben.[Hier](https://purchase.aspose.com/temporary-license/).
+ A: Wenn Sie zu Evaluierungs- oder Testzwecken eine temporäre Lizenz benötigen, können Sie eine erwerben[Hier](https://purchase.aspose.com/temporary-license/).

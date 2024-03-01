@@ -11,7 +11,7 @@ url: /tr/net/project-management-integration/print-options/
 Yazılım geliştirme alanında Aspose.Tasks for .NET, görevleri ve projeleri verimli bir şekilde yönetmek için güçlü bir araç olarak öne çıkıyor. Temel özelliklerinden biri, Microsoft Project yazdırma seçeneklerini sorunsuz bir şekilde yapılandırma yeteneğidir. Bu eğitimde Aspose.Tasks for .NET'i kullanarak MS Project yazdırma seçeneklerini yapılandırma sürecini ayrıntılı olarak ele alacağız.
 ## Önkoşullar
 MS Project yazdırma seçeneklerini yapılandırmanın inceliklerine dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-1.  Aspose.Tasks for .NET Kurulumu: Aspose.Tasks for .NET kütüphanesini kurduğunuzdan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET Kurulumu: Aspose.Tasks for .NET kütüphanesini kurduğunuzdan emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
 2. Temel C# Anlayışı: Bu eğitimde öncelikle gösterim amacıyla C# kullanıldığı için C# programlama dilinin temellerine aşina olun.
 
 ## Ad Alanlarını İçe Aktar
@@ -43,7 +43,7 @@ Gereksiz sayfaların yazdırılmasını önlemek için yazdırmadan önce sayfa 
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Yazdırmaya devam edin
+    // Yazdırmaya devam edin
     project.Print(options);
 }
 ```

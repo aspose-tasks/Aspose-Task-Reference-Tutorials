@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## 1. lépés: Állítsa be a dokumentumkönyvtárat
- Győződjön meg arról, hogy rendelkezik egy kijelölt könyvtárral a Project fájljainak kezelésére. cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával.
+ Győződjön meg arról, hogy rendelkezik egy kijelölt könyvtárral a Project fájljainak kezelésére. Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ V: Igen, az Aspose.Tasks széleskörű támogatást nyújt a különféle projek
 ### K: Hol találom az Aspose.Tasks dokumentációját?
  V: Az Aspose.Tasks részletes dokumentációja elérhető[itt](https://reference.aspose.com/tasks/net/).
 ### K: Hogyan kaphatok támogatást az Aspose.Tasks-hoz?
- V: Támogatást kaphat az Aspose.Tasks közösségi fórumon.[itt](https://forum.aspose.com/c/tasks/15).
+V: Támogatást kaphat az Aspose.Tasks közösségi fórumon[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Hogyan vásárolhatok licencet az Aspose.Tasks számára?
  V: Az Aspose.Tasks licencet a webhelyről vásárolhatja meg[vásárlási oldal](https://purchase.aspose.com/buy).

@@ -34,7 +34,7 @@ Laten we nu het project opslaan in CSV-formaat.
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## Stap 3: Ontdek andere formaten
- Aspose.Tasks ondersteunt verschillende formaten voor het opslaan van projectbestanden, zoals XML, PDF, XLSX en meer. U kunt deze formaten verkennen door simpelweg de`SaveFileFormat` parameters in de`Save` methode.
+ Aspose.Tasks ondersteunt verschillende formaten voor het opslaan van projectbestanden, zoals XML, PDF, XLSX en meer. U kunt deze formaten verkennen door simpelweg de`SaveFileFormat` parameter in de`Save` methode.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,8 +50,8 @@ A: Aspose.Tasks ondersteunt de formaten Microsoft Project 2003 XML, Microsoft Pr
 ### Vraag: Kan ik Aspose.Tasks uitproberen voordat ik een aankoop doe?
  A: Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 ### Vraag: Hoe kan ik ondersteuning krijgen voor Aspose.Tasks?
- A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum.[hier](https://forum.aspose.com/c/tasks/15).
+A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Zijn er tijdelijke licenties beschikbaar voor Aspose.Tasks?
- A: Ja, er zijn tijdelijke licenties beschikbaar voor evaluatiedoeleinden. Je kunt er een krijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A: Ja, er zijn tijdelijke licenties beschikbaar voor evaluatiedoeleinden. Je kunt er een verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Wat zijn de prijzen voor Aspose.Tasks?
  A: Prijsinformatie is te vinden op de aankooppagina van Aspose.Tasks[hier](https://purchase.aspose.com/buy).

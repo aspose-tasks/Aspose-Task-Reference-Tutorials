@@ -47,7 +47,7 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-Pamiętaj, aby zastąpić wartości zastępcze rzeczywistymi danymi uwierzytelniającymi bazę danych.
+Pamiętaj, aby zastąpić wartości zastępcze rzeczywistymi poświadczeniami bazy danych.
 
 ## Krok 2: Skonfiguruj ustawienia MspDb
 
@@ -86,7 +86,7 @@ Odpowiedź 1: Tak, Aspose.Tasks obsługuje różne wersje baz danych Microsoft P
 
 ### P2: Jak mogę rozwiązać problemy z połączeniem z bazą danych?
 
-Odpowiedź 2: Upewnij się, że parametry połączenia są poprawnie skonfigurowane z odpowiednimi poświadczeniami i szczegółami bazy danych. Możesz także zapoznać się z dokumentacją lub zwrócić się o pomoc do[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Odpowiedź 2: Upewnij się, że parametry połączenia są poprawnie skonfigurowane z odpowiednimi poświadczeniami i szczegółami bazy danych. Możesz także zapoznać się z dokumentacją lub zwrócić się o pomoc do[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### P3: Czy dostępna jest wersja próbna Aspose.Tasks?
 

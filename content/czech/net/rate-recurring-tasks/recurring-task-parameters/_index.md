@@ -8,7 +8,7 @@ weight: 14
 url: /cs/net/rate-recurring-tasks/recurring-task-parameters/
 ---
 ## Úvod
-V tomto tutoriálu vás provedeme procesem nastavení parametrů opakujících se úloh Microsoft Project pomocí Aspose.Tasks for .NET.
+tomto tutoriálu vás provedeme procesem nastavení parametrů opakujících se úloh Microsoft Project pomocí Aspose.Tasks for .NET.
 ## Předpoklady
 Než začnete, ujistěte se, že máte následující:
 1. Základní znalost programovacího jazyka C#.
@@ -26,12 +26,12 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- nahradit`"Your Document Directory"` s cestou k adresáři s dokumenty.
+ Nahradit`"Your Document Directory"` s cestou k adresáři s dokumenty.
 ## Krok 2: Načtěte soubor projektu
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- Tento řádek kódu načte soubor Microsoft Project do`project` proměnné.
+ Tento řádek kódu načte soubor Microsoft Project do`project` variabilní.
 ## Krok 3: Definujte parametry opakujících se úloh
 ```csharp
 var parameters = new RecurringTaskParameters
@@ -67,7 +67,7 @@ project.RootTask.Children.Add(parameters);
 Nakonec přidejte parametry do kořenové úlohy projektu.
 
 ## Závěr
-V tomto tutoriálu jsme si ukázali, jak nastavit parametry opakujících se úloh aplikace Microsoft Project pomocí Aspose.Tasks for .NET. Pomocí těchto kroků můžete efektivně spravovat opakující se úkoly ve svých projektech.
+tomto tutoriálu jsme si ukázali, jak nastavit parametry opakujících se úloh aplikace Microsoft Project pomocí Aspose.Tasks for .NET. Pomocí těchto kroků můžete efektivně spravovat opakující se úkoly ve svých projektech.
 ## Nejčastější dotazy
 ### Mohu si vzor opakování dále přizpůsobit?
 Ano, Aspose.Tasks poskytuje různé vzory opakování a možnosti přizpůsobení podle požadavků vašeho projektu.

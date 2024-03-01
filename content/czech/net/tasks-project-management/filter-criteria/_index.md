@@ -8,7 +8,7 @@ weight: 18
 url: /cs/net/tasks-project-management/filter-criteria/
 ---
 ## Úvod
-V oblasti projektového řízení je Microsoft Project spolehlivým nástrojem, který nabízí nepřeberné množství funkcí, které pomáhají projektantům a manažerům. Mezi jeho mnoha funkcemi patří schopnost filtrovat data projektu, což uživatelům umožňuje soustředit se na konkrétní aspekty úkolů jejich projektu. Zvládnutí těchto možností filtrování však může být bez správného vedení skličujícím úkolem. Tento tutoriál si klade za cíl demystifikovat proces poskytnutím podrobného průvodce implementací filtru kritérií v MS Project pomocí Aspose.Tasks for .NET.
+V oblasti projektového řízení je Microsoft Project spolehlivým nástrojem, který nabízí nepřeberné množství funkcí, které pomáhají projektantům a manažerům. Mezi jeho mnoha funkcemi patří schopnost filtrovat data projektu, což uživatelům umožňuje soustředit se na konkrétní aspekty úkolů jejich projektu. Zvládnutí těchto možností filtrování však může být bez správného vedení skličujícím úkolem. Tento tutoriál si klade za cíl demystifikovat proces poskytnutím podrobného průvodce implementací kritérií filtru v MS Project pomocí Aspose.Tasks for .NET.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 1. Základní porozumění C#: Pro pochopení pojmů obsažených v tomto tutoriálu je nezbytná znalost programovacího jazyka C#.

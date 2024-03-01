@@ -9,7 +9,7 @@ url: /de/net/advanced-features/assignment-baseline/
 ---
 ## Einführung
 
-Bei der Arbeit an Projektmanagementaufgaben ist die Verwaltung der Zuweisungsbasislinien von entscheidender Bedeutung, um den genauen Fortschritt zu verfolgen. Aspose.Tasks für .NET bietet einen umfassenden Satz an Tools zur effizienten Handhabung von Zuweisungsbasislinien. In diesem Tutorial befassen wir uns Schritt für Schritt mit dem Prozess der Verwaltung von Zuweisungsbasislinien.
+Bei der Arbeit an Projektmanagementaufgaben ist die Verwaltung der Zuweisungsbasislinien von entscheidender Bedeutung, um den Fortschritt genau verfolgen zu können. Aspose.Tasks für .NET bietet einen umfassenden Satz an Tools zur effizienten Handhabung von Zuweisungsbasislinien. In diesem Tutorial befassen wir uns Schritt für Schritt mit dem Prozess der Verwaltung von Zuweisungsbasislinien.
 
 ## Voraussetzungen
 

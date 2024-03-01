@@ -12,7 +12,7 @@ url: /ar/net/project-management-integration/project-server-credentials/
 ## المتطلبات الأساسية
 قبل الشروع في رحلة إدارة بيانات اعتماد MS Project Server باستخدام Aspose.Tasks لـ .NET، تأكد من استيفاء المتطلبات الأساسية التالية:
 ### 1. تثبيت Aspose.Tasks لـ .NET
- للبدء، قم بتنزيل وتثبيت Aspose.Tasks لـ .NET من الملف المتوفر[رابط التحميل](https://releases.aspose.com/tasks/net/), اتبع تعليمات التثبيت لدمج المكتبة في بيئة .NET الخاصة بك بسلاسة.
+ للبدء، قم بتنزيل وتثبيت Aspose.Tasks لـ .NET من الملف المتوفر[رابط التحميل](https://releases.aspose.com/tasks/net/). اتبع تعليمات التثبيت لدمج المكتبة في بيئة .NET الخاصة بك بسلاسة.
 ### 2. الوصول إلى بيانات الاعتماد
 اجمع بيانات الاعتماد اللازمة للوصول إلى خادم MS Project. يتضمن ذلك عنوان مجال SharePoint واسم المستخدم وكلمة المرور المرتبطة بخادم Project.
 

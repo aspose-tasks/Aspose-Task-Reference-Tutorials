@@ -108,4 +108,4 @@ resourceAssignment.Set(Asn.WorkContour, WorkContourType.Turtle);
 
 ### س5: أين يمكنني العثور على دعم للاستعلامات المتعلقة بـ Aspose.Tasks؟
 
- ج5: يمكنك العثور على الدعم على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) حيث يشارك الخبراء وأفراد المجتمع بنشاط في المناقشات.
+ج5: يمكنك العثور على الدعم على[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) حيث يشارك الخبراء وأفراد المجتمع بنشاط في المناقشات.

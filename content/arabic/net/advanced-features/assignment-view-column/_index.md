@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## الخطوة 3: تحديد العمود المخصص
 
- الآن، قم بتعريف العمود المخصص الخاص بك عن طريق إنشاء مثيل لـ`AssignmentViewColumn`تتطلب هذه الفئة اسم العمود وعرضه ووظيفة المفوض لتحويل بيانات المهمة إلى نص العمود:
+ الآن، قم بتعريف العمود المخصص الخاص بك عن طريق إنشاء مثيل لـ`AssignmentViewColumn`. تتطلب هذه الفئة اسم العمود وعرضه ووظيفة المفوض لتحويل بيانات المهمة إلى نص العمود:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

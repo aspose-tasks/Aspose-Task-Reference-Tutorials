@@ -8,7 +8,7 @@ weight: 20
 url: /pl/net/project-management-integration/project-information/
 ---
 ## Wstęp
-Czy chcesz efektywnie wyodrębniać informacje z plików Microsoft Project za pomocą Aspose.Tasks dla .NET? W tym samouczku przeprowadzimy Cię przez ten proces krok po kroku. Zanim jednak zagłębimy się w szczegóły implementacji, upewnijmy się najpierw, że masz wszystko, czego potrzebujesz.
+Czy chcesz efektywnie wyodrębniać informacje z plików Microsoft Project za pomocą Aspose.Tasks dla .NET? W tym samouczku przeprowadzimy Cię krok po kroku przez ten proces. Zanim jednak zagłębimy się w szczegóły implementacji, upewnijmy się najpierw, że masz wszystko, czego potrzebujesz.
 ## Warunki wstępne
 Zanim zaczniesz, upewnij się, że masz następujące elementy:
 ### 1. Aspose.Tasks dla .NET

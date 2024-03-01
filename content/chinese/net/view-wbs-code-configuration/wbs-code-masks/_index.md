@@ -84,7 +84,7 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ### 我可以免费使用 Aspose.Tasks 吗？
  Aspose.Tasks 提供免费试用版，您可以下载[这里](https://releases.aspose.com/).
 ### 我在哪里可以找到额外的支持？
-访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区支持。
+参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)以获得社区支持。
 ### 我怎样才能获得临时许可证？
 您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 有详细的文档吗？

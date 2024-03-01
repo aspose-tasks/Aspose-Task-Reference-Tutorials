@@ -17,7 +17,7 @@ Avant de commencer, assurez-vous de disposer des prérequis suivants :
 
 ### 1. Installez Aspose.Tasks pour .NET
 
- Si vous ne l'avez pas déjà fait, téléchargez et installez Aspose.Tasks for .NET à partir du[page de téléchargement](https://releases.aspose.com/tasks/net/), Suivez les instructions d'installation fournies pour le configurer correctement.
+ Si vous ne l'avez pas déjà fait, téléchargez et installez Aspose.Tasks for .NET à partir du[page de téléchargement](https://releases.aspose.com/tasks/net/). Suivez les instructions d'installation fournies pour le configurer correctement.
 
 ### 2. Importer les espaces de noms nécessaires
 
@@ -39,7 +39,7 @@ Tout d’abord, assurez-vous d’avoir un répertoire configuré pour stocker vo
 String DataDir = "Your Document Directory";
 ```
 
- remplacer`"Your Document Directory"` avec le chemin d'accès au répertoire souhaité.
+ Remplacer`"Your Document Directory"` avec le chemin d'accès au répertoire souhaité.
 
 ## Étape 2 : Chargez votre fichier MS Project
 
@@ -49,7 +49,7 @@ Ensuite, vous devez charger votre fichier MS Project à l'aide d'Aspose.Tasks :
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- remplacer`"ResourceSheetView.mpp"` avec le nom de votre fichier MS Project.
+ Remplacer`"ResourceSheetView.mpp"` avec le nom de votre fichier MS Project.
 
 ## Étape 3 : Définir les options d'enregistrement
 
@@ -80,7 +80,7 @@ En suivant ce didacticiel, vous avez appris à formater des présentations de pr
 R : Oui, Aspose.Tasks pour .NET est conçu pour gérer efficacement des fichiers MS Project complexes, vous permettant de travailler avec des projets de différentes tailles et complexités.
 
 ### Q2 : Aspose.Tasks est-il compatible avec les dernières versions de MS Project ?
-: Absolument, Aspose.Tasks reste à jour pour garantir la compatibilité avec les dernières versions de MS Project, garantissant ainsi une intégration transparente dans votre flux de travail.
+R : Absolument, Aspose.Tasks reste à jour pour garantir la compatibilité avec les dernières versions de MS Project, garantissant ainsi une intégration transparente dans votre flux de travail.
 
 ### Q3 : Puis-je essayer Aspose.Tasks avant d'acheter ?
  R : Oui, vous pouvez explorer Aspose.Tasks en téléchargeant un essai gratuit à partir du[site web](https://releases.aspose.com/), vous permettant d'évaluer ses fonctionnalités avant de prendre une décision d'achat.

@@ -24,7 +24,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## Etapa 1: carregar o arquivo do MS Project
-Comece carregando o arquivo MS Project com o qual você pretende trabalhar em seu aplicativo C#. Você pode fazer isso usando o`Project` classe fornecida por Aspose.Tasks.
+ Comece carregando o arquivo MS Project com o qual você pretende trabalhar em seu aplicativo C#. Você pode fazer isso usando o`Project` classe fornecida por Aspose.Tasks.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -58,4 +58,4 @@ R: Com certeza, o Aspose.Tasks foi projetado para atender às necessidades dos d
 ### P: Posso experimentar o Aspose.Tasks gratuitamente antes de fazer uma compra?
  R: Sim, você pode baixar uma avaliação gratuita do Aspose.Tasks em[aqui](https://releases.aspose.com/) para explorar seus recursos e capacidades.
 ### P: Onde posso obter suporte se encontrar problemas ou dúvidas ao usar o Aspose.Tasks?
-R: Você pode buscar ajuda da comunidade Aspose.Tasks e da equipe de suporte no site.[fórum](https://forum.aspose.com/c/tasks/15).
+ R: Você pode buscar ajuda da comunidade Aspose.Tasks e da equipe de suporte no site.[fórum](https://forum.aspose.com/c/tasks/15).

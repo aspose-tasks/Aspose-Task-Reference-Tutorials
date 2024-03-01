@@ -8,14 +8,14 @@ weight: 14
 url: /pl/net/text-view-configuration/timephased-data/
 ---
 ## Wstęp
-świecie zarządzania projektami efektywne przetwarzanie danych okresowych ma kluczowe znaczenie dla alokacji zasobów, szacowania kosztów i ogólnego planowania projektu. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do płynnej pracy z niestandardowymi danymi okresowymi. Ten samouczek poprowadzi Cię przez proces obsługi danych okresowych za pomocą Aspose.Tasks, umożliwiając optymalizację zarządzania zasobami w Twoich projektach.
+W świecie zarządzania projektami efektywne przetwarzanie danych okresowych ma kluczowe znaczenie dla alokacji zasobów, szacowania kosztów i ogólnego planowania projektu. Aspose.Tasks dla .NET zapewnia potężne rozwiązanie do płynnej pracy z niestandardowymi danymi okresowymi. Ten samouczek poprowadzi Cię przez proces obsługi danych okresowych za pomocą Aspose.Tasks, umożliwiając optymalizację zarządzania zasobami w Twoich projektach.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 - Podstawowa znajomość koncepcji zarządzania projektami.
 -  Zainstalowano Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
 - Edytor kodu, taki jak Visual Studio, do implementacji dostarczonych przykładów.
 ## Importuj przestrzenie nazw
-W projekcie .NET pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw, aby wykorzystać funkcje Aspose.Tasks. Dodaj następujące wiersze na początku pliku kodu:
+projekcie .NET pamiętaj o zaimportowaniu niezbędnych przestrzeni nazw, aby wykorzystać funkcje Aspose.Tasks. Dodaj następujące wiersze na początku pliku kodu:
 ```csharp
     using Aspose.Tasks;
     using System;
@@ -85,7 +85,7 @@ Aspose.Tasks jest przeznaczony przede wszystkim do programowania .NET. Jednak je
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla .NET?
  Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać wsparcie dla Aspose.Tasks dla .NET?
- odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)za wsparcie społeczne.
+ Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie społeczności.
 ### Co to jest licencja tymczasowa i jak mogę ją uzyskać?
  Dowiedz się o licencjach tymczasowych[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć dokumentację Aspose.Tasks dla .NET?

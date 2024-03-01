@@ -108,4 +108,4 @@ A4: Sim, conforme demonstrado neste tutorial, você pode definir vários contorn
 
 ### P5: Onde posso encontrar suporte para consultas relacionadas ao Aspose.Tasks?
 
- A5: Você pode encontrar suporte no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) onde especialistas e membros da comunidade se envolvem ativamente em discussões.
+A5: Você pode encontrar suporte no[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) onde especialistas e membros da comunidade se envolvem ativamente em discussões.

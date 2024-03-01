@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks के साथ MS प्रोजेक्ट संसाधनों को सहजता से प्रबंधित करें
-linktitle: Aspose में संसाधनों का प्रबंधन। कार्य
+linktitle: Aspose.Tasks में संसाधनों का प्रबंधन
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट संसाधन संग्रह को सहजता से प्रबंधित करना सीखें। उत्पादकता बढ़ाएँ और प्रोजेक्ट वर्कफ़्लो को सुव्यवस्थित करें।
 type: docs
@@ -12,7 +12,7 @@ url: /hi/net/resource-risk-analysis/managing-resources/
 ## आवश्यक शर्तें
 शुरू करने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित आवश्यक शर्तें हैं:
 ### 1. .NET के लिए Aspose.Tasks की स्थापना
- सबसे पहले, आपको अपने विकास परिवेश में .NET के लिए Aspose.Tasks स्थापित करना होगा। आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं[Aspose. कार्य वेबसाइट](https://releases.aspose.com/tasks/net/) और दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
+ सबसे पहले, आपको अपने विकास परिवेश में .NET के लिए Aspose.Tasks स्थापित करना होगा। आप लाइब्रेरी को यहां से डाउनलोड कर सकते हैं[Aspose.कार्य वेबसाइट](https://releases.aspose.com/tasks/net/) और दिए गए इंस्टॉलेशन निर्देशों का पालन करें।
 ### 2. अपना विकास परिवेश स्थापित करना
 सुनिश्चित करें कि आपके पास एक संगत विकास वातावरण सेट अप है, जैसे विज़ुअल स्टूडियो या कोई अन्य आईडीई जो .NET विकास का समर्थन करता है।
 ### 3. C# प्रोग्रामिंग भाषा की बुनियादी समझ
@@ -37,7 +37,7 @@ String DataDir = "Your Document Directory";
 ```csharp
 var project = new Project();
 ```
- यह पंक्ति एक नए उदाहरण को आरंभ करती है`Project` Aspose द्वारा प्रदान की गई कक्षा। कार्य।
+ यह पंक्ति एक नए उदाहरण को आरंभ करती है`Project` Aspose.Tasks द्वारा प्रदान की गई कक्षा।
 ## चरण 3: परियोजना में संसाधन जोड़ें
 ```csharp
 project.Resources.Add("Resource");
@@ -61,4 +61,4 @@ project.Save(DataDir + "CreateResources_out.xml", SaveFileFormat.Xml);
 ### प्रश्न: क्या .NET के लिए Aspose.Tasks प्रोजेक्ट डेटा को XML के अलावा अन्य प्रारूपों में निर्यात करने का समर्थन करता है?
 उत्तर: हाँ, .NET के लिए Aspose.Tasks प्रोजेक्ट डेटा को MPP, PDF, XLSX और HTML सहित विभिन्न प्रारूपों में निर्यात करने का समर्थन करता है।
 ### प्रश्न: मुझे .NET के लिए Aspose.Tasks के लिए और सहायता या समर्थन कहां मिल सकता है?
-उत्तर: अधिक सहायता या समर्थन के लिए, आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) या देखें[प्रलेखन](https://reference.aspose.com/tasks/net/) Aspose द्वारा प्रदान किया गया.
+ उत्तर: अधिक सहायता या समर्थन के लिए, आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) या देखें[प्रलेखन](https://reference.aspose.com/tasks/net/) Aspose द्वारा प्रदान किया गया।

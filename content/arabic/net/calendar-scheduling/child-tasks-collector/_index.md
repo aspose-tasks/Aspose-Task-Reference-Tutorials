@@ -18,7 +18,7 @@ url: /ar/net/calendar-scheduling/child-tasks-collector/
 1. الفهم الأساسي لـ C#: الإلمام بلغة البرمجة C# أمر ضروري.
 2.  تثبيت Aspose.Tasks لـ .NET: قم بتنزيل وتثبيت Aspose.Tasks لمكتبة .NET من[رابط التحميل](https://releases.aspose.com/tasks/net/).
 3. بيئة التطوير: قم بإعداد بيئة تطوير، مثل Visual Studio، لكتابة كود C# وتنفيذه.
-4.  الوصول إلى الوثائق: احتفظ بال[Aspose.Tasks لوثائق .NET](https://reference.aspose.com/tasks/net/) مفيد للرجوع إليها.
+4. الوصول إلى الوثائق: احتفظ بال[Aspose.Tasks لوثائق .NET](https://reference.aspose.com/tasks/net/) مفيد للرجوع إليها.
 
 الآن بعد أن قمنا بتغطية المتطلبات الأساسية، دعنا نتعمق في الدليل خطوة بخطوة لتجميع المهام الفرعية باستخدام Aspose.Tasks لـ .NET.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- نحن نطبق`ChildTasksCollector`إلى المهمة الجذرية للمشروع، وبدء عملية التجميع بشكل متكرر.
+ نحن نطبق`ChildTasksCollector` إلى المهمة الجذرية للمشروع، وبدء عملية التجميع بشكل متكرر.
 
 ## الخطوة 4: التكرار من خلال المهام المجمعة
 
@@ -91,7 +91,7 @@ foreach (var task in collector.Tasks)
 
 ### س4: هل يتوفر الدعم الفني لـ Aspose.Tasks لـ .NET؟
 
- ج4: نعم، يمكن للمستخدمين الوصول إلى الدعم الفني من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
+ج4: نعم، يمكن للمستخدمين الوصول إلى الدعم الفني من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).
 
 ### س5: هل يمكنني تجربة Aspose.Tasks لـ .NET قبل الشراء؟
 

@@ -21,7 +21,7 @@ Maak uzelf vertrouwd met de basisprincipes van .NET Framework, inclusief objectg
 
 ### 2. Installatie van Aspose.Tasks voor .NET
 
- Download en installeer de Aspose.Tasks voor .NET-bibliotheek vanuit de[download link](https://releases.aspose.com/tasks/net/)Volg de meegeleverde installatie-instructies om de bibliotheek in uw ontwikkelomgeving te integreren.
+ Download en installeer de Aspose.Tasks voor .NET-bibliotheek vanuit de[download link](https://releases.aspose.com/tasks/net/). Volg de meegeleverde installatie-instructies om de bibliotheek in uw ontwikkelomgeving te integreren.
 
 ### 3. Toegang tot documentatie
 
@@ -125,4 +125,4 @@ A: Ja, Aspose.Tasks voor .NET biedt ondersteuning voor cloudgebaseerde projectbe
 
 ### V5: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
 
- A: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks voor .NET via de[website](https://releases.aspose.com/), zodat u de functies ervan kunt verkennen voordat u een aankoopbeslissing neemt.
+A: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks voor .NET via de[website](https://releases.aspose.com/), zodat u de functies ervan kunt verkennen voordat u een aankoopbeslissing neemt.

@@ -12,7 +12,7 @@ Os gráficos de Gantt são ferramentas poderosas usadas no gerenciamento de proj
 ## Pré-requisitos
 Antes de prosseguir, certifique-se de ter os seguintes pré-requisitos em vigor:
 ### 1. Instalação do Aspose.Tasks para .NET
- Certifique-se de ter instalado o Aspose.Tasks para .NET. Você pode baixar a biblioteca em[aqui](https://releases.aspose.com/tasks/net/) siga as instruções de instalação fornecidas na documentação[aqui](https://reference.aspose.com/tasks/net/).
+ Certifique-se de ter instalado o Aspose.Tasks para .NET. Você pode baixar a biblioteca em[aqui](https://releases.aspose.com/tasks/net/) e siga as instruções de instalação fornecidas na documentação[aqui](https://reference.aspose.com/tasks/net/).
 ### 2. Arquivo do Microsoft Project
 Prepare um arquivo do Microsoft Project (`Project2.mpp`) que você usará para trabalhar com visualizações de gráfico de Gantt.
 ### 3. Conhecimento básico de C# e .NET Framework
@@ -75,13 +75,13 @@ Define a cor do horário de folga no gráfico de Gantt.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Especifique se as barras do gráfico de Gantt devem ser acumuladas.
+Especifica se as barras do gráfico de Gantt devem ser acumuladas.
 ### Mostrar divisões de barra
 ```csharp
 view.ShowBarSplits = true;
 ```
 Determina se as divisões de tarefas no gráfico de Gantt devem ser mostradas.
-### mostrar desenhos
+### Mostrar desenhos
 ```csharp
 view.ShowDrawings = true;
 ```

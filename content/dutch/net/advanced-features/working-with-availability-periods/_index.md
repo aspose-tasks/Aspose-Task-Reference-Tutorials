@@ -94,7 +94,7 @@ In deze tutorial hebben we geleerd hoe we met beschikbaarheidsperioden kunnen we
 
 ### V2: Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
 
- A2: Ja, u kunt een gratis proefversie van Aspose.Tasks voor .NET verkrijgen[hier](https://releases.aspose.com/).
+A2: Ja, u kunt een gratis proefversie van Aspose.Tasks voor .NET verkrijgen[hier](https://releases.aspose.com/).
 
 ### V3: Waar kan ik documentatie vinden voor Aspose.Tasks voor .NET?
 
@@ -102,7 +102,7 @@ In deze tutorial hebben we geleerd hoe we met beschikbaarheidsperioden kunnen we
 
 ### V4: Hoe kan ik ondersteuning krijgen voor Aspose.Tasks voor .NET?
 
- A4: U kunt ondersteuning krijgen van het communityforum.[hier](https://forum.aspose.com/c/tasks/15).
+ A4: U kunt ondersteuning krijgen van het communityforum[hier](https://forum.aspose.com/c/tasks/15).
 
 ### V5: Bieden jullie tijdelijke licenties aan voor Aspose.Tasks voor .NET?
 

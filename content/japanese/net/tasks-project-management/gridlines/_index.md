@@ -112,4 +112,4 @@ A: はい、Aspose.Tasks for .NET は、一般的なプロジェクト管理ツ�
 
 ### Q5: Aspose.Tasks for .NET の試用版はありますか?
 
- A: はい、無料試用版をダウンロードできます。[Aspose.Tasks for .NET から](https://forum.aspose.com/c/tasks/15)、購入する前にその機能を調べてください。
+ A: はい、無料試用版をダウンロードできます。[Aspose.Tasks for .NET から](https://forum.aspose.com/c/tasks/15)。購入する前にその機能を調べてください。

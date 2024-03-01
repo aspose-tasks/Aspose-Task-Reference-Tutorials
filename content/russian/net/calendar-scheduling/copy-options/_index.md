@@ -40,7 +40,7 @@ using System.IO;
 var project = new Project(DataDir + "CopyToProjectEmpty.xml");
 ```
 
-## Шаг 2. Создайте копию проекта.
+## Шаг 2. Создайте копию проекта
 
 Затем создайте копию проекта и сохраните ее в новом месте.
 

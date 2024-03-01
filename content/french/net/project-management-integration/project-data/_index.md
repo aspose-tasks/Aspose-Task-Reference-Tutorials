@@ -85,7 +85,7 @@ Dans ce didacticiel, nous avons appris à utiliser les données Microsoft Projec
 ### Q : Aspose.Tasks peut-il gérer des structures de projet complexes ?
 R : Oui, Aspose.Tasks fournit une prise en charge complète des structures de projets complexes, vous permettant de gérer efficacement les tâches, les ressources et les affectations.
 ### Q : Aspose.Tasks est-il compatible avec différentes versions de Microsoft Project ?
-R : Aspose.Tasks prend en charge une large gamme de versions de Microsoft Project, garantissant ainsi la compatibilité entre différents environnements.
+: Aspose.Tasks prend en charge une large gamme de versions de Microsoft Project, garantissant ainsi la compatibilité entre différents environnements.
 ### Q : Puis-je intégrer Aspose.Tasks à d’autres bibliothèques .NET ?
 R : Absolument, Aspose.Tasks s'intègre de manière transparente à d'autres bibliothèques .NET, offrant ainsi une flexibilité dans vos projets de développement.
 ### Q : Aspose.Tasks offre-t-il une prise en charge des algorithmes de planification de projet ?

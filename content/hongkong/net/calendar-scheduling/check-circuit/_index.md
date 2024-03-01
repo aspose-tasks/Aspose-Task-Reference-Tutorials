@@ -70,7 +70,7 @@ A1：是的，Aspose.Tasks for .NET 與各種 .NET 框架相容，包括 .NET Co
 
 ### Q3：如何獲得 Aspose.Tasks for .NET 支援？
 
-A3：您可以從 Aspose.Tasks 社群論壇尋求協助[這裡](https://forum.aspose.com/c/tasks/15).
+ A3：您可以從 Aspose.Tasks 社群論壇尋求協助[這裡](https://forum.aspose.com/c/tasks/15).
 
 ### Q4：我需要臨時許可證才能進行測試嗎？
 

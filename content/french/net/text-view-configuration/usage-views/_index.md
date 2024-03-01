@@ -1,6 +1,6 @@
 ---
-title: Configurer les vues d'utilisation dans Aspose.Tasks
-linktitle: Configurer les vues d'utilisation dans Aspose.Tasks
+title: Configuration des vues d'utilisation dans Aspose.Tasks
+linktitle: Configuration des vues d'utilisation dans Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Apprenez à configurer les vues d'utilisation des tâches dans Aspose.Tasks pour .NET. Améliorez la visualisation du projet avec des étapes détaillées. Téléchargez la bibliothèque maintenant !
 type: docs
@@ -11,7 +11,7 @@ url: /fr/net/text-view-configuration/usage-views/
 Si vous êtes un développeur .NET cherchant à améliorer vos capacités de gestion de projet, Aspose.Tasks est un outil puissant qui vous permet de manipuler les fichiers Microsoft Project sans effort. Dans ce didacticiel, nous nous concentrerons sur la configuration des vues d'utilisation à l'aide d'Aspose.Tasks pour .NET. Suivez-nous pour obtenir des informations sur le rendu des vues d'utilisation des tâches avec des détails pour une meilleure visualisation du projet.
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
-- Bibliothèque Aspose.Tasks : assurez-vous que la bibliothèque Aspose.Tasks est intégrée à votre projet .NET. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/tasks/net/) et suivez les instructions d'installation.
+-  Bibliothèque Aspose.Tasks : assurez-vous que la bibliothèque Aspose.Tasks est intégrée à votre projet .NET. Sinon, vous pouvez le télécharger[ici](https://releases.aspose.com/tasks/net/) et suivez les instructions d'installation.
 - Répertoire de documents : configurez un répertoire dans lequel les documents de votre projet sont stockés. Remplacez « Votre répertoire de documents » dans les extraits de code par le chemin réel d'accès à votre répertoire de documents.
 ## Importer des espaces de noms
 Dans l'extrait de code fourni, vous remarquerez l'utilisation de certains espaces de noms. Assurez-vous de les inclure dans votre projet pour une intégration transparente :

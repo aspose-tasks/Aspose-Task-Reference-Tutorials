@@ -13,7 +13,7 @@ url: /zh-hant/net/calendar-scheduling/currency-symbol-positions/
 
 ## 先決條件
 
-在深入學習本教程之前，請確保您具備以下先決條件：
+在深入學習本教程之前，請確保您符合以下先決條件：
 
 ### 1.安裝Aspose.Tasks for .NET
 

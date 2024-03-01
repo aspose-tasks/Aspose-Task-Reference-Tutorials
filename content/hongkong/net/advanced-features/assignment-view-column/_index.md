@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## 第 3 步：定義自訂列
 
-現在，透過建立一個實例來定義您的自訂列`AssignmentViewColumn`,此類別需要列名、寬度和委託函數來將賦值資料轉換為列文字：
+現在，透過建立一個實例來定義您的自訂列`AssignmentViewColumn`。此類別需要列名、寬度和委託函數來將賦值資料轉換為列文字：
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

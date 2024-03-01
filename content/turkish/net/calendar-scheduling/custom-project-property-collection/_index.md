@@ -108,7 +108,7 @@ Belirli bir özel özelliği adına göre kaldırabilir veya koleksiyonun tamam�
 
 ## Çözüm
 
-Aspose.Tasks for .NET'te özel proje mülk koleksiyonlarında uzmanlaşmak, proje meta verilerini verimli bir şekilde yönetmenizi sağlar. Bu adım adım kılavuzu izleyerek, özel özellikleri proje yönetimi iş akışınıza sorunsuz bir şekilde entegre ederek organizasyonu ve verimliliği artırabilirsiniz.
+Aspose.Tasks for .NET'te özel proje mülk koleksiyonlarında uzmanlaşmak, proje meta verilerini verimli bir şekilde yönetmenizi sağlar. Bu adım adım kılavuzu takip ederek özel özellikleri proje yönetimi iş akışınıza sorunsuz bir şekilde entegre edebilir, organizasyonu ve verimliliği artırabilirsiniz.
 
 ## SSS'ler
 

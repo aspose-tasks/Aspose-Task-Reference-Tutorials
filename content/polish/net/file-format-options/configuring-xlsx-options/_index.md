@@ -1,6 +1,6 @@
 ---
 title: Skonfiguruj opcje MS Project XLSX w Aspose.Tasks dla .NET
-linktitle: Skonfiguruj opcje XLSX w Aspose.Tasks
+linktitle: Konfigurowanie opcji XLSX w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak skonfigurować opcje MS Project XLSX w Aspose.Tasks dla .NET. Dostosuj kolumny, kodowanie i wiele więcej bez wysiłku.
 type: docs

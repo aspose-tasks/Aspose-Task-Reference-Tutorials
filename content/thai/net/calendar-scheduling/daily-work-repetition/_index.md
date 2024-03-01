@@ -36,7 +36,7 @@ using System.Diagnostics.CodeAnalysis;
 
 ## ขั้นตอนที่ 1: โหลดไฟล์โครงการ
 
- ขั้นแรก ให้โหลดไฟล์โครงการโดยใช้นามสกุล`Project` ระดับ:
+ขั้นแรก ให้โหลดไฟล์โครงการโดยใช้นามสกุล`Project` ระดับ:
 
 ```csharp
 var project = new Project(DataDir + "Project1.mpp");

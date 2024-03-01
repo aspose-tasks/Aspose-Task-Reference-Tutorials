@@ -12,7 +12,7 @@ url: /ar/net/tasks-project-management/gantt-chart-views/
 ## المتطلبات الأساسية
 قبل المتابعة، تأكد من توفر المتطلبات الأساسية التالية:
 ### 1. تثبيت Aspose.Tasks لـ .NET
- تأكد من تثبيت Aspose.Tasks لـ .NET. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/tasks/net/)واتبع تعليمات التثبيت المتوفرة في الوثائق[هنا](https://reference.aspose.com/tasks/net/).
+ تأكد من تثبيت Aspose.Tasks لـ .NET. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/tasks/net/) واتبع تعليمات التثبيت المتوفرة في الوثائق[هنا](https://reference.aspose.com/tasks/net/).
 ### 2. ملف مشروع مايكروسوفت
 تحضير ملف Microsoft Project (`Project2.mpp`) الذي ستستخدمه للتعامل مع طرق عرض مخطط جانت.
 ### 3. المعرفة الأساسية بـ C# و.NET Framework
@@ -75,13 +75,13 @@ view.NonWorkingTimeColor = Color.Azure;
 ```csharp
 view.RollUpGanttBars = true;
 ```
-حدد ما إذا كان يجب إظهار الأشرطة الموجودة في مخطط جانت أم لا.
+يحدد ما إذا كان يجب إظهار الأشرطة الموجودة في مخطط جانت أم لا.
 ### عرض انقسامات الشريط
 ```csharp
 view.ShowBarSplits = true;
 ```
 تحديد ما إذا كان يجب إظهار تقسيمات المهام في مخطط جانت.
-### إظهار الرسومات
+### عرض الرسومات
 ```csharp
 view.ShowDrawings = true;
 ```

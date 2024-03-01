@@ -59,7 +59,7 @@ manager.CreateNewProject(project, options);
 Gratulujeme! Úspěšně jste spravovali MS Project Server pomocí Aspose.Tasks for .NET.
 
 ## Závěr
-tomto tutoriálu jsme prozkoumali, jak spravovat MS Project Server programově pomocí Aspose.Tasks for .NET. S poskytnutými kroky můžete bezproblémově integrovat Aspose.Tasks do vašich aplikací .NET pro automatizaci úloh řízení projektů na MS Project Server.
+V tomto tutoriálu jsme prozkoumali, jak spravovat MS Project Server programově pomocí Aspose.Tasks for .NET. S poskytnutými kroky můžete bezproblémově integrovat Aspose.Tasks do vašich aplikací .NET pro automatizaci úloh řízení projektů na MS Project Server.
 ## FAQ
 ### Otázka: Je Aspose.Tasks kompatibilní se všemi verzemi Microsoft Project Server?
 Odpověď: Aspose.Tasks podporuje integraci s různými verzemi serveru Microsoft Project Server a zajišťuje kompatibilitu v různých prostředích.

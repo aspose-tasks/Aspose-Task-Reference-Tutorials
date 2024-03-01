@@ -90,7 +90,7 @@ Aspose.Tasks está diseñado para ser compatible con varias versiones de .NET Fr
 ### ¿Puedo personalizar la apariencia de las vistas del diagrama de Gantt?
 ¡Absolutamente! Aspose.Tasks ofrece amplias opciones para personalizar la apariencia de las vistas del diagrama de Gantt para satisfacer las necesidades de su proyecto.
 ### ¿Hay una prueba gratuita disponible para Aspose.Tasks?
- Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
+Sí, puedes acceder a una prueba gratuita[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener apoyo de la comunidad para Aspose.Tasks?
  Interactúe con la comunidad Aspose.Tasks en el[foro](https://forum.aspose.com/c/tasks/15) para cualquier consulta o ayuda.
 ### ¿Hay licencias temporales disponibles para Aspose.Tasks?

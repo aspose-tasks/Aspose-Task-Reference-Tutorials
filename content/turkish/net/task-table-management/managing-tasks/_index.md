@@ -11,7 +11,7 @@ url: /tr/net/task-table-management/managing-tasks/
 Projelerinizdeki görevleri verimli bir şekilde yönetmek isteyen bir .NET geliştiricisiyseniz Aspose.Tasks for .NET güçlü bir çözüm sunar. Bu eğitim, Aspose.Tasks kullanarak görevleri yönetmenin çeşitli yönleri konusunda size rehberlik edecek, adım adım talimatlar ve kod örnekleri sunacaktır. Görev ekleme, bölünmüş parçaları görüntüleme, görevleri aynı üst öğe altında taşıma, görev özelliklerini alma/ayarlama, görev atamaları üzerinde yineleme yapma, görev taban çizgilerini okuma veya görevleri silme gibi işlemler yapıyorsanız, bu kılavuz size her konuda yardımcı olacaktır.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
-1.  Aspose.Tasks for .NET Library: Aspose.Tasks for .NET kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET Library: Aspose.Tasks for .NET kütüphanesinin kurulu olduğundan emin olun. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
 2. Belge Dizini: Proje belgelerinizin saklanacağı bir dizin ayarlayın.
 ## Ad Alanlarını İçe Aktar
 .NET projenize Aspose.Tasks ile çalışmak için gerekli ad alanlarını ekleyin:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Bölünmüş görevlere sahip bir proje yükleme
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Bir göreve erişme
+// Bir göreve erişme
 var task = project.RootTask.Children.GetById(4);
 // Bölünmüş parçaları göster
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Görev ekle
 var task = project.RootTask.Children.Add("Task");
-// Silme işleminden önceki ve sonraki görev sayısını görüntüleme
+//Silme işleminden önceki ve sonraki görev sayısını görüntüleme
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Görevi sil
 task.Delete();

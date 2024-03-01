@@ -11,7 +11,7 @@ url: /zh/net/task-table-management/table-text-styles/
 在项目管理领域，任务的有效可视化对于成功至关重要。 Aspose.Tasks for .NET 提供了一个强大的解决方案来自定义表格文本样式，允许您定制项目中文本项的外观。在本分步指南中，我们将引导您完成使用 Aspose.Tasks for .NET 配置表格文本样式的过程。
 ## 先决条件
 在深入学习本教程之前，请确保您具备以下条件：
--  Aspose.Tasks for .NET：确保您安装了最新版本的 Aspose.Tasks for .NET。你可以下载它[这里](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET：确保您安装了最新版本的 Aspose.Tasks for .NET。你可以下载它[这里](https://releases.aspose.com/tasks/net/).
 - 文档目录：为您的文档设置目录。将代码中的“您的文档目录”替换为实际路径。
 - 有效的 Aspose 许可证：此示例需要有效的 Aspose 许可证。您可以购买完整许可证[这里](https://purchase.aspose.com/buy)或获得 30 天的临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ## 导入命名空间
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx。”）；
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## 结论

@@ -63,7 +63,7 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 
 ### प्रश्न: क्या मुझे .NET के लिए Aspose.Tasks का उपयोग करने के लिए अस्थायी लाइसेंस की आवश्यकता है?
 
-उत्तर: आपको कुछ उन्नत सुविधाओं के लिए अस्थायी लाइसेंस की आवश्यकता हो सकती है, जिसे प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
+ उत्तर: आपको कुछ उन्नत सुविधाओं के लिए अस्थायी लाइसेंस की आवश्यकता हो सकती है, जिसे प्राप्त किया जा सकता है[यहाँ](https://purchase.aspose.com/temporary-license/).
 
 ### प्रश्न: मैं .NET के लिए Aspose.Tasks कहां से खरीद सकता हूं?
 

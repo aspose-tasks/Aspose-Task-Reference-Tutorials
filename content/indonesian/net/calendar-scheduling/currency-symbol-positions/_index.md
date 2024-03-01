@@ -27,7 +27,7 @@ Pemahaman mendasar tentang pemrograman .NET diperlukan untuk memahami konsep yan
 
 Untuk memulai, Anda perlu mengimpor namespace yang diperlukan ke proyek .NET Anda. 
 
- Sertakan`Aspose.Tasks` namespace di proyek Anda untuk mengakses kelas dan metode yang disediakan oleh perpustakaan Aspose.Tasks.
+ Sertakan`Aspose.Tasks`namespace di proyek Anda untuk mengakses kelas dan metode yang disediakan oleh perpustakaan Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Sekarang, mari kita bagi contoh yang diberikan menjadi beberapa langkah:
 
 ## Langkah 1: Muat File Proyek
 
- Mulailah dengan memuat file proyek menggunakan`Project`konstruktor kelas.
+ Mulailah dengan memuat file proyek menggunakan`Project` konstruktor kelas.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

@@ -9,7 +9,7 @@ url: /ko/net/advanced-concepts/nullable-booleans/
 ---
 ## 소개
 
- 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 null 허용 부울 작업을 자세히 살펴보겠습니다. Nullable 부울은 부울 값을 나타내는 유연성을 제공하여 정의되지 않을 가능성을 허용합니다. 사용법을 알아보겠습니다.`NullableBool` 클래스, 해당 생성자, 속성 및 메서드.
+이 튜토리얼에서는 .NET용 Aspose.Tasks에서 null 허용 부울 작업을 자세히 살펴보겠습니다. Nullable 부울은 부울 값을 나타내는 유연성을 제공하여 정의되지 않을 가능성을 허용합니다. 사용법을 알아보겠습니다.`NullableBool` 클래스, 해당 생성자, 속성 및 메서드.
 
 ## 전제조건
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 이제 각 예를 여러 단계로 나누어 보겠습니다.
 
-##  함께 일하다`NullableBool`
+##  함께 일하기`NullableBool`
 
 ###  1단계: 새로 만들기`Project` instance.
 
@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  4단계:`NullableBool` instance by setting it in the project.
+###  4단계: 활용`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### 6단계: 문자열 표현을 표시합니다.`NullableBool` object.
+###  6단계: 문자열 표현을 표시합니다.`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  2단계: 각각의 해시 코드를 인쇄하세요.`NullableBool` object.
+### 2단계: 각각의 해시 코드를 인쇄하세요.`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## 결론
 
- 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 null 허용 부울을 처리하는 방법을 살펴보았습니다. 을 사용하여`NullableBool` 클래스와 해당 메서드를 사용하면 null을 허용하는 유연성이 추가되어 부울 값을 효율적으로 관리할 수 있습니다.
+ 이 튜토리얼에서는 .NET용 Aspose.Tasks에서 null 허용 부울을 처리하는 방법을 살펴보았습니다. 활용하여`NullableBool` 클래스와 해당 메서드를 사용하면 null 허용이라는 유연성이 추가되어 부울 값을 효율적으로 관리할 수 있습니다.
 
 ## FAQ
 
@@ -138,7 +138,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 대답 1: 널 입력 가능 부울은 true, false 또는 정의되지 않음을 나타낼 수 있는 유형입니다.
 
-### Q2: nullable 부울을 사용하는 이유는 무엇입니까?
+### 질문 2: null 허용 부울을 사용하는 이유는 무엇입니까?
 
 A2: Nullable 부울은 부울 값이 항상 정의되지 않는 시나리오에서 유연성을 제공합니다.
 

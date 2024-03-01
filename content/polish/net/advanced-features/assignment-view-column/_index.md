@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Krok 3: Zdefiniuj kolumnę niestandardową
 
- Teraz zdefiniuj kolumnę niestandardową, tworząc instancję`AssignmentViewColumn`Ta klasa wymaga nazwy kolumny, szerokości i funkcji delegowania, aby przekonwertować dane przypisania na tekst kolumny:
+ Teraz zdefiniuj kolumnę niestandardową, tworząc instancję`AssignmentViewColumn`. Ta klasa wymaga nazwy kolumny, szerokości i funkcji delegowania, aby przekonwertować dane przypisania na tekst kolumny:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

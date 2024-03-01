@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Schritt 3: Benutzerdefinierte Spalte definieren
 
- Definieren Sie nun Ihre benutzerdefinierte Spalte, indem Sie eine Instanz von erstellen`AssignmentViewColumn`Diese Klasse benötigt den Spaltennamen, die Breite und eine Delegate-Funktion, um Zuweisungsdaten in Spaltentext umzuwandeln:
+ Definieren Sie nun Ihre benutzerdefinierte Spalte, indem Sie eine Instanz von erstellen`AssignmentViewColumn`. Diese Klasse benötigt den Spaltennamen, die Breite und eine Delegate-Funktion, um Zuweisungsdaten in Spaltentext umzuwandeln:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

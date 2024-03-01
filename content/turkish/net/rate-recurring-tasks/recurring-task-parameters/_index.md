@@ -26,12 +26,12 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- yer değiştirmek`"Your Document Directory"` belge dizininizin yolu ile.
+ Yer değiştirmek`"Your Document Directory"` belge dizininizin yolu ile.
 ## Adım 2: Proje Dosyasını Yükleyin
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- Bu kod satırı Microsoft Project dosyasını`project` değişkenler.
+ Bu kod satırı Microsoft Project dosyasını`project` değişken.
 ## Adım 3: Yinelenen Görev Parametrelerini Tanımlayın
 ```csharp
 var parameters = new RecurringTaskParameters

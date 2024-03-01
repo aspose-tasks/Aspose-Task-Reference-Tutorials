@@ -11,7 +11,7 @@ url: /tr/net/rate-recurring-tasks/removing-tasks/
 Bu eğitimde Aspose.Tasks for .NET'i kullanarak bir Microsoft Project dosyasından görevlerin nasıl kaldırılacağını inceleyeceğiz. Aspose.Tasks, geliştiricilerin Microsoft Project dosyalarını programlı olarak değiştirmesine olanak tanıyan güçlü bir API'dir. Görevleri bir proje dosyasından kaldırmak, proje yönetimi senaryolarında yaygın bir gereklilik olabilir ve Aspose.Tasks, bunu başarmanın basit bir yolunu sunar.
 ## Önkoşullar
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
-1. Aspose.Tasks for .NET Kurulumu: Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olması gerekir. Henüz yüklemediyseniz adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Kurulumu: Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olması gerekir. Henüz yüklemediyseniz adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/tasks/net/).
 2. Microsoft Project Dosyası: Bir Microsoft Project dosyası hazırlayın (`Project1.mpp` bu örnekte) görevleri kaldırmak istediğiniz yer.
 
 ## Ad Alanlarını İçe Aktar

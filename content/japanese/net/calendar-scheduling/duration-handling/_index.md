@@ -155,4 +155,4 @@ A4: はい、Aspose.Tasks は、MPP、XML、MPX などのさまざまな形式�
 
 ### Q5: Aspose.Tasks for .NET の試用版はありますか?
 
- A5: はい、Aspose.Tasks for .NET の無料トライアルを次のサイトから入手できます。[ここ](https://releases.aspose.com/).
+A5: はい、Aspose.Tasks for .NET の無料トライアルを次のサイトから入手できます。[ここ](https://releases.aspose.com/).

@@ -71,7 +71,7 @@ Ano, Aspose.Tasks podporuje různé .NET frameworky, což zajišťuje kompatibil
 ### Mohu upravit vzhled jednotlivých úkolů v zobrazení časové osy?
 Absolutně! Aspose.Tasks poskytuje flexibilitu pro přizpůsobení vzhledu každého úkolu v zobrazení časové osy.
 ### Kde najdu další zdroje a podporu pro Aspose.Tasks?
- navštivte[Dokumentace Aspose.Tasks](https://reference.aspose.com/tasks/net/) pro komplexní průvodce a[Fórum podpory](https://forum.aspose.com/c/tasks/15) pro pomoc.
+ Navštivte[Dokumentace Aspose.Tasks](https://reference.aspose.com/tasks/net/)pro komplexní průvodce a[Fórum podpory](https://forum.aspose.com/c/tasks/15) pro pomoc.
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks?
  Ano, můžete vyzkoušet bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak získám dočasnou licenci pro Aspose.Tasks?

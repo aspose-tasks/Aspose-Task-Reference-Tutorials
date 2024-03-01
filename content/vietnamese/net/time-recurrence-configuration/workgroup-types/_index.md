@@ -29,7 +29,7 @@ Khởi tạo một phiên bản dự án mới để làm việc.
 var resource = project.Resources.Add("Resource");
 resource.Set(Rsc.Workgroup, WorkGroupType.Web);
 ```
- Thêm tài nguyên vào dự án của bạn và đặt loại nhóm làm việc. Trong ví dụ này, loại nhóm làm việc được đặt thành`Web`, nhưng bạn có thể điều chỉnh nó dựa trên yêu cầu dự án của bạn.
+ Thêm tài nguyên vào dự án của bạn và đặt loại nhóm làm việc. Trong ví dụ này, loại nhóm làm việc được đặt thành`Web`, nhưng bạn có thể điều chỉnh nó dựa trên yêu cầu dự án của mình.
 ## Bước 5: Cấu hình thêm (Tùy chọn)
 Tùy chỉnh thêm cài đặt dự án và tài nguyên dựa trên nhu cầu dự án cụ thể của bạn. Điều này có thể bao gồm việc thiết lập các phần phụ thuộc của nhiệm vụ, xác định giờ làm việc, v.v.
 Lặp lại các bước này nếu cần thiết để xử lý nhiều loại nhóm làm việc trong dự án của bạn.
@@ -41,7 +41,7 @@ Có, Aspose.Tasks hỗ trợ .NET Core cùng với .NET Framework truyền thố
 ### Tôi có thể đặt nhiều loại nhóm làm việc cho một tài nguyên không?
 Có, bạn có thể đặt các loại nhóm làm việc khác nhau cho một tài nguyên ở các giai đoạn khác nhau của dự án.
 ### Tôi có thể tìm hỗ trợ bổ sung cho Aspose.Tasks ở đâu?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được cộng đồng hỗ trợ và thảo luận.
 ### Có bản dùng thử miễn phí cho Aspose.Tasks không?
  Có, bạn có thể truy cập bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?

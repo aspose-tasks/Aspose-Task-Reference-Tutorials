@@ -83,7 +83,7 @@ Bu eğitimde Aspose.Tasks for .NET'i kullanarak Primavera veritabanından projel
 
 ### S1: Aspose.Tasks for .NET'i kullanarak farklı veritabanı sağlayıcılarından projeleri içe aktarabilir miyim?
 
-C1: Evet, bağlantı dizesini ve sağlayıcının değişmez adını uygun şekilde ayarlayarak çeşitli veritabanı sağlayıcılarından projeleri içe aktarabilirsiniz.
+C1: Evet, bağlantı dizesini ve sağlayıcının değişmez adını buna göre ayarlayarak çeşitli veritabanı sağlayıcılarından projeleri içe aktarabilirsiniz.
 
 ### S2: Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
 

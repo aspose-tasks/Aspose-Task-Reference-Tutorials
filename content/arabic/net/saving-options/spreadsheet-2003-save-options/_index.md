@@ -29,7 +29,7 @@ var project = new Project(DataDir + "CreateProject2.mpp");
 ```
  يستبدل`"Your Document Directory"`باستخدام مسار الدليل الفعلي حيث يوجد ملف MS Project الخاص بك.
 ## الخطوة 2: تحديد خيارات الحفظ
- حدد خيارات حفظ جدول البيانات 2003 عن طريق إنشاء مثيل لـ`Spreadsheet2003SaveOptions`,
+ حدد خيارات حفظ جدول البيانات 2003 عن طريق إنشاء مثيل لـ`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,10 +58,10 @@ project.Save(DataDir + "UsingSpreadsheet2003SaveOptions_out.xml", options);
 ### س: هل يمكن استخدام Aspose.Tasks لـ .NET في كل من تطبيقات الويب وسطح المكتب؟
 ج: نعم، يمكن دمج Aspose.Tasks for .NET بسلاسة في كل من تطبيقات الويب وسطح المكتب، مما يوفر وظائف متسقة عبر الأنظمة الأساسية.
 ### س: هل هناك إصدار تجريبي متاح لـ Aspose.Tasks لـ .NET؟
- ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks لـ .NET من[موقع إلكتروني](https://releases.aspose.com/)مما يسمح لك باستكشاف ميزاته قبل إجراء عملية الشراء.
+ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks لـ .NET من[موقع إلكتروني](https://releases.aspose.com/)مما يسمح لك باستكشاف ميزاته قبل إجراء عملية الشراء.
 ### س: هل هناك أي قيود على تخصيص أعمدة العرض باستخدام Aspose.Tasks لـ .NET؟
 ج: يوفر Aspose.Tasks for .NET خيارات تخصيص واسعة النطاق لأعمدة العرض، مع الحد الأدنى من القيود. ومع ذلك، قد تتطلب التخصيصات المعقدة معرفة متقدمة بالمكتبة.
 ### س: هل يمكنني طلب المساعدة إذا واجهت مشكلات أثناء استخدام Aspose.Tasks لـ .NET؟
  ج: بالتأكيد! يمكنك العثور على دعم وموارد شاملة في منتدى Aspose.Tasks على[https://forum.aspose.com/c/tasks/15](https://forum.aspose.com/c/tasks/15)، حيث يتوفر الخبراء وأعضاء المجتمع للمساعدة في حل أي استفسارات أو تحديات قد تواجهها.
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ .NET؟
- ج: يمكنك الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ .NET من[صفحة الشراء](https://purchase.aspose.com/temporary-license/)مما يتيح لك تقييم الإمكانيات الكاملة للمكتبة.
+ ج: يمكنك الحصول على ترخيص مؤقت لـ Aspose.Tasks لـ .NET من[صفحة الشراء](https://purchase.aspose.com/temporary-license/)مما يتيح لك تقييم الإمكانات الكاملة للمكتبة.

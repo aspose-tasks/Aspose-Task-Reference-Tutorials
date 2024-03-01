@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Configurar opções de salvamento de HTML
+        //Configurar opções de salvamento de HTML
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ A3: Aspose.Tasks for .NET oferece suporte a várias versões de arquivos do Micr
 
 ### Q4: Onde posso encontrar documentação abrangente para Aspose.Tasks for .NET?
 
- A4: Você pode consultar o[documentação](https://reference.aspose.com/tasks/net/) para obter informações detalhadas e exemplos.
+A4: Você pode consultar o[documentação](https://reference.aspose.com/tasks/net/) para obter informações detalhadas e exemplos.
 
 ### P5: O Aspose.Tasks for .NET oferece suporte para desenvolvedores?
 

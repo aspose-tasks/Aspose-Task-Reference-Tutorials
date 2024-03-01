@@ -1,6 +1,6 @@
 ---
-title: Configureer MS Project-weergaveopties in Aspose.Tasks
-linktitle: Configureer projectweergaveopties in Aspose.Tasks
+title: Weergaveopties voor MS Project configureren in Aspose.Tasks
+linktitle: Projectweergaveopties configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project-weergaveopties programmatisch configureert met Aspose.Tasks voor .NET. Pas het uiterlijk van uw project moeiteloos aan.
 type: docs

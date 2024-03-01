@@ -38,7 +38,7 @@ Definujte cestu k adresáři, kde se nachází váš soubor MS Project:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
+ Nahradit`"Your Document Directory"` se skutečnou cestou k vašemu adresáři dokumentů.
 ## Krok 2: Načtěte soubor projektu
  Načtěte soubor MS Project pomocí`Project` třída:
 ```csharp

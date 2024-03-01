@@ -26,7 +26,7 @@ Bây giờ, hãy chia ví dụ thành nhiều bước:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- thay thế`"Your Document Directory"` với đường dẫn đến tệp MS Project của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn đến tệp MS Project của bạn.
 ## Bước 2: Tải tệp MS Project
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
@@ -59,6 +59,6 @@ Trả lời: Có, Aspose.Tasks hỗ trợ nhiều định dạng tệp dự án 
 ### Câu hỏi: Có bản dùng thử miễn phí Aspose.Tasks cho .NET không?
  Đ: Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Câu hỏi: Tôi có thể tìm tài liệu về Aspose.Tasks cho .NET ở đâu?
- A: Bạn có thể tìm thấy tài liệu[đây](https://reference.aspose.com/tasks/net/).
+ A: Bạn có thể tìm tài liệu[đây](https://reference.aspose.com/tasks/net/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Tasks cho .NET?
-Trả lời: Bạn có thể nhận hỗ trợ kỹ thuật từ diễn đàn Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15).
+ Trả lời: Bạn có thể nhận hỗ trợ kỹ thuật từ diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).

@@ -12,7 +12,7 @@ Aspose.Tasks for .NET, Microsoft Project dosyalarıyla çalışmak için kapsaml
 ## Önkoşullar
 Başlamadan önce aşağıdaki kurulumlara sahip olduğunuzdan emin olun:
 - C# programlama dili hakkında çalışma bilgisi.
-- Aspose.Tasks for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
 - Visual Studio gibi bir Entegre Geliştirme Ortamı (IDE).
 ## Ad Alanlarını İçe Aktar
 Öncelikle, C# dosyanızın başında gerekli ad alanlarının içe aktarıldığından emin olun:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // tablo alanları üzerinde yineleme
+    //tablo alanları üzerinde yineleme
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -72,7 +72,7 @@ Dizin erişimini kullanarak yeni eklenen tablo alanını düzenleyin.
 table.TableFields[idx].WrapHeader = true;
 ```
 ## Adım 7: Alanı Kaldır
-Tablo alanlarını tek tek kaldırın veya koleksiyonun tamamını temizleyin.
+Tablo alanını tek tek kaldırın veya koleksiyonun tamamını temizleyin.
 ```csharp
 Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
 // Alanı kaldır
@@ -108,6 +108,6 @@ Kesinlikle! Öğreticide gösterildiği gibi tablo alanlarını dinamik olarak g
 ### Aspose.Tasks for .NET'i ticari bir projede kullanmak için herhangi bir lisanslama hususu var mı?
  Evet, Aspose.Tasks for .NET'i ticari bir projede kullanmak için geçerli bir lisansa ihtiyacınız var. Lisans alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 ### Aspose.Tasks for .NET ile ilgili nasıl destek alabilirim veya yardım isteyebilirim?
- ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) destek almak, sorular sormak ve toplulukla işbirliği yapmak için.
+ Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15)destek almak, sorular sormak ve toplulukla işbirliği yapmak için.
 ### Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
  Evet, Aspose.Tasks for .NET'in özelliklerini ücretsiz deneme sürümüyle keşfedebilirsiniz. İndir[Burada](https://releases.aspose.com/).

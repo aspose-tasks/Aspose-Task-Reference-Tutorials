@@ -63,7 +63,7 @@ project.ExtendedAttributes.Add(calculation);
 
 ## Steg 4: Definiera beräkningstyp för sammanfattningsrader
 
-Därefter skapar vi en annan utökad attributdefinition där värden för sammanfattningsuppgifter beräknas med hjälp av den genomsnittliga sammanställningstypen:
+Därefter skapar vi en annan utökad attributdefinition där värden för sammanfattningsuppgifter beräknas med hjälp av typen Genomsnittlig sammanställning:
 
 ```csharp
 var lookup = ExtendedAttributeDefinition.CreateTaskDefinition(ExtendedAttributeTask.Cost1, null);
@@ -80,7 +80,7 @@ I den här handledningen har vi utforskat hur man arbetar med beräkningstyp i A
 
 ### F1: Vad är beräkningstyp i Aspose.Tasks?
 
-A1: Beräkningstyp i Aspose.Tasks bestämmer hur värden beräknas för uppgifter och sammanfattningsuppgifter inom ett projekt, och erbjuder alternativ som Formula och Rollup.
+S1: Beräkningstyp i Aspose.Tasks bestämmer hur värden beräknas för uppgifter och sammanfattningsuppgifter inom ett projekt, och erbjuder alternativ som formel och sammanställning.
 
 ### F2: Hur ställer jag in beräkningstyp för ett utökat attribut?
 

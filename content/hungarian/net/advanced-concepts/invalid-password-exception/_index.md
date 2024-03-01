@@ -21,7 +21,7 @@ Mielőtt folytatná ezt az oktatóanyagot, győződjön meg arról, hogy rendelk
 
 ## Névterek importálása
 
-megvalósítás megkezdése előtt feltétlenül importálja a szükséges névtereket a szükséges osztályok és metódusok eléréséhez:
+A megvalósítás megkezdése előtt feltétlenül importálja a szükséges névtereket a szükséges osztályok és metódusok eléréséhez:
 
 ```csharp
 using Aspose.Tasks;

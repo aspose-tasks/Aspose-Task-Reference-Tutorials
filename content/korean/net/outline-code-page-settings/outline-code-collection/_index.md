@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 필요에 따라 삽입, 제거, 삭제 등 개요 코드를 조작합니다.
 ```csharp
 // 조작의 예
-// ,
+// ...
 // 2가 포함된 코드를 올바른 위치에 삽입하세요.
 task.OutlineCodes.Insert(2, code2);
 // 코드가 삽입되었는지 확인하세요
@@ -85,7 +85,7 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 ## 결론
 이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 Microsoft Project 개요 코드를 수집하는 방법을 배웠습니다. 다음 단계를 수행하면 프로젝트 내에서 개요 코드를 효과적으로 관리하여 구성과 명확성을 높일 수 있습니다.
 ## FAQ
-### Q: Aspose.Tasks for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있나요?
+### Q: Aspose.Tasks for .NET을 다른 프로그래밍 언어와 함께 사용할 수 있습니까?
 A: 예, Aspose.Tasks for .NET은 주로 .NET 플랫폼을 대상으로 하지만 Aspose.Tasks for Cloud를 통해 다른 프로그래밍 언어에 대한 지원도 제공합니다.
 ### Q: Aspose.Tasks for .NET이 처리할 수 있는 프로젝트 파일의 크기에 제한이 있나요?
 A: .NET용 Aspose.Tasks는 대규모 프로젝트 파일을 효율적으로 처리할 수 있지만 성능은 파일의 복잡성과 크기에 따라 달라질 수 있습니다.

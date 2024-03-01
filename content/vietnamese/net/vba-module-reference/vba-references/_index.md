@@ -1,6 +1,6 @@
 ---
 title: Nắm vững cách xử lý tham chiếu VBA - Hướng dẫn từng bước
-linktitle: Xử lý tham chiếu VBA trong Aspose.Tasks
+linktitle: Xử lý các tham chiếu VBA trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Khám phá sức mạnh của việc xử lý các tham chiếu VBA trong Aspose.Tasks .NET với hướng dẫn toàn diện của chúng tôi. Tìm hiểu cách đọc, so sánh và làm việc với các tài liệu tham khảo VBA một cách liền mạch.
 type: docs
@@ -72,10 +72,10 @@ Chúc mừng! Bạn đã điều hướng thành công thông qua việc xử l�
 ### Câu hỏi: Tôi có thể sử dụng Aspose.Tasks với các ngôn ngữ lập trình khác không?
 Trả lời: Aspose.Tasks chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng có những sản phẩm Aspose khác được điều chỉnh cho các nền tảng và ngôn ngữ khác nhau.
 ### Câu hỏi: Làm cách nào để có được giấy phép tạm thời cho Aspose.Tasks?
-A: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ A: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Aspose.Tasks có hỗ trợ cộng đồng không?
  Đ: Có, bạn có thể tìm thấy sự hỗ trợ trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Tôi có thể tìm tài liệu chi tiết về Aspose.Tasks ở đâu?
  A: Tài liệu có sẵn[đây](https://reference.aspose.com/tasks/net/).
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks không?
- A: Có, bạn có thể mua nó.[đây](https://purchase.aspose.com/buy).
+ A: Có, bạn có thể mua nó[đây](https://purchase.aspose.com/buy).

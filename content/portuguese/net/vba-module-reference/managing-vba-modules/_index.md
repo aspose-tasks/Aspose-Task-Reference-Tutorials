@@ -69,8 +69,8 @@ Sim, Aspose.Tasks oferece suporte a várias versões de arquivos do Microsoft Pr
 ### Posso modificar o código-fonte dos módulos VBA programaticamente usando Aspose.Tasks?
 Absolutamente! Aspose.Tasks fornece métodos não apenas para ler, mas também atualizar o código-fonte dos módulos VBA.
 ### Onde posso encontrar exemplos e documentação adicionais para Aspose.Tasks?
- visite a[documentação](https://reference.aspose.com/tasks/net/) para obter exemplos e orientações abrangentes.
+ Visite a[documentação](https://reference.aspose.com/tasks/net/) para obter exemplos e orientações abrangentes.
 ### Existe um teste gratuito disponível para Aspose.Tasks?
- Sim, você pode acessar um teste gratuito[aqui](https://releases.aspose.com/).
+Sim, você pode acessar um teste gratuito[aqui](https://releases.aspose.com/).
 ### Como posso obter suporte ou procurar assistência para quaisquer problemas relacionados ao Aspose.Tasks?
- Fique à vontade para visitar[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)para apoio comunitário.
+Sinta-se à vontade para visitar o[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio comunitário.

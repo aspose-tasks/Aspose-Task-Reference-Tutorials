@@ -25,7 +25,7 @@ using Aspose.Tasks.Util;
 ```
 Most bontsuk le a példát több lépésre, hogy átfogó képet kapjunk arról, hogyan kell kezelni az MS Project erőforrás-hozzárendeléseit az Aspose.Tasks használatával.
 ## 1. lépés: Állítsa be a projekt- és naptárbeállításokat
-A kezdéshez hozzon létre egy új projektpéldányt, és állítsa be a projekt naptárbeállításait:
+kezdéshez hozzon létre egy új projektpéldányt, és állítsa be a projekt naptárbeállításait:
 ```csharp
 var project = new Project();
 var calendar = project.Get(Prj.Calendar);

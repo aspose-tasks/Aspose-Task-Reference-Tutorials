@@ -32,7 +32,7 @@ url: /el/net/tasks-project-management/group-criteria/
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς το αρχείο του έργου σας.
+ Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς το αρχείο του έργου σας.
 ## Βήμα 2: Ανάκτηση πληροφοριών ομάδων εργασιών
 Στη συνέχεια, ανακτήστε πληροφορίες σχετικά με τις ομάδες εργασιών στο έργο:
 ```csharp

@@ -34,7 +34,7 @@ var project = new Project(DataDir + "CreateProject1.mpp");
 project.Save(DataDir + "SaveProjectAsCSV_out.csv", SaveFileFormat.Csv);
 ```
 ## الخطوة 3: استكشاف التنسيقات الأخرى
- يدعم Aspose.Tasks تنسيقات مختلفة لحفظ ملفات المشروع، مثل XML وPDF وXLSX والمزيد. يمكنك استكشاف هذه التنسيقات ببساطة عن طريق تغيير ملف`SaveFileFormat` المعلمات في`Save` طريقة.
+ يدعم Aspose.Tasks تنسيقات مختلفة لحفظ ملفات المشروع، مثل XML وPDF وXLSX والمزيد. يمكنك استكشاف هذه التنسيقات ببساطة عن طريق تغيير ملف`SaveFileFormat` المعلمة في`Save` طريقة.
 ```csharp
 project.Save(DataDir + "SaveProjectAsXML_out.xml", SaveFileFormat.XML);
 project.Save(DataDir + "SaveProjectAsPDF_out.pdf", SaveFileFormat.PDF);
@@ -50,7 +50,7 @@ project.Save(DataDir + "SaveProjectAsXLSX_out.xlsx", SaveFileFormat.XLSX);
 ### س: هل يمكنني تجربة Aspose.Tasks قبل الشراء؟
  ج: نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### س: كيف يمكنني الحصول على الدعم لـ Aspose.Tasks؟
- ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks.[هنا](https://forum.aspose.com/c/tasks/15).
+ج: يمكنك الحصول على الدعم من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: هل التراخيص المؤقتة متاحة لـ Aspose.Tasks؟
  ج: نعم، التراخيص المؤقتة متاحة لأغراض التقييم. يمكنك الحصول على واحدة[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: ما هو سعر Aspose.Tasks؟

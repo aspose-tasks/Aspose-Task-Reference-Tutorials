@@ -28,17 +28,17 @@ Vítejte v obsáhlém průvodci Aspose.Tasks pro .NET View a konfiguraci kódu W
 
  Efektivní projektové řízení začíná zvládnutím WBS kódů. v[Aspose.Tasks](./wbs-code-definitions/), poskytujeme vám komplexní výukový program, jak bez námahy zvládnout kódy WBS. Zefektivněte své pracovní postupy ještě dnes pochopením základních konceptů definic kódu WBS a zajistěte bezproblémové řízení projektů.
 
-## Nakonfigurujte masky kódu WBS v Aspose.Tasks
+## Konfigurace masek kódu WBS v Aspose.Tasks
 
  v[Konfigurace masky kódu WBS](./wbs-code-masks/), zkoumáme postupné procesy v projektech .NET pomocí Aspose.Tasks. Vylepšete své možnosti řízení projektů bez námahy přizpůsobením masky kódu WBS. Tento tutoriál zajišťuje, že pochopíte nuance konfigurace masek tak, aby odpovídaly jedinečným požadavkům vašeho projektu.
 
 ## Kolekce kódových masek WBS v Aspose.Tasks
 
- Posuňte své projektové řízení na další úroveň s Aspose.Tasks pro .NET. The[sbírka kódových masek WBS](./wbs-code-mask-collection/) Výukový program poskytuje přehled o vytváření, správě a přenosu masek kódu WBS bez námahy. Zvyšte své dovednosti projektového řízení a přizpůsobte masky kódu WBS tak, aby vyhovovaly vyvíjejícím se potřebám vašeho projektu.
+ Posuňte své projektové řízení na další úroveň s Aspose.Tasks pro .NET. The[sbírka kódových masek WBS](./wbs-code-mask-collection/) tutoriál poskytuje přehled o vytváření, správě a přenosu kódových masek WBS bez námahy. Zvyšte své dovednosti projektového řízení a přizpůsobte masky kódu WBS tak, aby vyhovovaly vyvíjejícím se potřebám vašeho projektu.
 
 ## Definování sekvencí WBS v Aspose.Tasks
 
- Vylepšete své projektové řízení pomocí Aspose.Tasks pro .NET bezproblémově[definování sekvencí wbs](./wbs-sequences/), Tento tutoriál vás provede celým procesem a bez námahy zvýší efektivitu. Ovládněte umění organizovat a strukturovat své projekty pomocí definovaných sekvencí WBS, které zajistí hladký a efektivní zážitek z řízení projektů.
+ Vylepšete své projektové řízení pomocí Aspose.Tasks pro .NET bezproblémově[definování sekvencí WBS](./wbs-sequences/). Tento tutoriál vás provede celým procesem a bez námahy zvýší efektivitu. Ovládněte umění organizovat a strukturovat své projekty pomocí definovaných sekvencí WBS, které zajistí hladký a efektivní zážitek z řízení projektů.
 
 Závěrem lze říci, že tyto výukové programy slouží jako váš zdroj pro zvládnutí Aspose.Tasks pro zobrazení .NET a kódy WBS. Stáhněte si nyní a odemkněte potenciál pro snadné přizpůsobení, zefektivnění a vylepšení vašich zkušeností s řízením projektů. Pozdravte novou éru efektivní vizualizace a řízení projektů!
 ## Aspose.Tasks View a kurzy konfigurace kódu WBS
@@ -50,7 +50,7 @@ Prozkoumejte Aspose.Tasks for .NET a ovládněte umění správy MS Project View
 Vylepšete vizualizaci projektu pomocí Aspose.Tasks pro .NET. Naučte se zacházet se sloupci zobrazení MS Project krok za krokem. Zvyšte efektivitu a přizpůsobení.
 ### [Definování definic kódu WBS v Aspose.Tasks](./wbs-code-definitions/)
 Aspose.Tasks for .NET umožňuje efektivní řízení projektů. Ovládněte WBS kódy bez námahy pomocí našeho komplexního tutoriálu. Zefektivněte pracovní postupy ještě dnes!
-### [Nakonfigurujte masky kódu WBS v Aspose.Tasks](./wbs-code-masks/)
+### [Konfigurace masek kódu WBS v Aspose.Tasks](./wbs-code-masks/)
 Prozkoumejte krok za krokem konfiguraci WBS Code Masks v projektech .NET pomocí Aspose.Tasks. Vylepšete možnosti řízení projektů bez námahy.
 ### [Kolekce kódových masek WBS v Aspose.Tasks](./wbs-code-mask-collection/)
 Vylepšete řízení projektů pomocí Aspose.Tasks pro .NET. Naučte se snadno vytvářet, spravovat a přenášet masky kódu WBS v tomto komplexním kurzu.

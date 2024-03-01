@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Schritt 8: Muster löschen
 Löschen Sie die Mustersammlung entweder einzeln oder vollständig:
 ```csharp
-// individuelle Entfernung
+// Individuelle Entfernung
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ A: Natürlich lässt sich Aspose.Tasks nahtlos in andere .NET-Frameworks integri
 ### F: Gibt es eine Testversion für Aspose.Tasks?
  A: Ja, Sie können auf eine kostenlose Testversion von Aspose.Tasks zugreifen[Hier](https://releases.aspose.com/)sodass Sie die Funktionen erkunden können, bevor Sie einen Kauf tätigen.
 ### F: Wo finde ich Unterstützung für Aspose.Tasks?
- A: Umfassende Unterstützung und Unterstützung finden Sie im Aspose.Tasks-Forum.[Hier](https://forum.aspose.com/c/tasks/15), wo Sie mit Experten und anderen Benutzern interagieren können, um Fragen und Probleme zu lösen.
+ A: Umfassende Unterstützung und Unterstützung finden Sie im Aspose.Tasks-Forum[Hier](https://forum.aspose.com/c/tasks/15), wo Sie mit Experten und anderen Benutzern interagieren können, um Fragen und Probleme zu lösen.

@@ -1,6 +1,6 @@
 ---
-title: Aspose में बेसलाइन संग्रह के साथ कार्य करना। कार्य
-linktitle: Aspose में बेसलाइन संग्रह के साथ कार्य करना। कार्य
+title: Aspose.Tasks में बेसलाइन संग्रह के साथ कार्य करना
+linktitle: Aspose.Tasks में बेसलाइन संग्रह के साथ कार्य करना
 second_title: Aspose.Tasks .NET API
 description: जानें कि .NET के लिए Aspose.Tasks में बेसलाइन को कुशलतापूर्वक कैसे प्रबंधित किया जाए। चरण-दर-चरण मार्गदर्शन के लिए हमारे व्यापक ट्यूटोरियल का अनुसरण करें।
 type: docs
@@ -39,7 +39,7 @@ using System.Collections.Generic;
 सबसे पहले, Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट फ़ाइल लोड करें:
 
 ```csharp
-// दस्तावेज़ निर्देशिका का पथ.
+// वें दस्तावेज़ निर्देशिका का पथ.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "WorkWithBaselineCollection.mpp");
 ```
@@ -99,7 +99,7 @@ foreach (var baseline in baselines)
 
 ### Q1: क्या Aspose.Tasks बड़ी परियोजना फ़ाइलों को संभाल सकता है?
 
-A1: हाँ, Aspose। सुचारू प्रदर्शन सुनिश्चित करते हुए, बड़ी परियोजना फ़ाइलों को कुशलतापूर्वक संभालने के लिए कार्यों को अनुकूलित किया गया है।
+A1: हाँ, Aspose.Tasks को सुचारू प्रदर्शन सुनिश्चित करते हुए बड़ी प्रोजेक्ट फ़ाइलों को कुशलतापूर्वक संभालने के लिए अनुकूलित किया गया है।
 
 ### Q2: क्या Aspose.Tasks Microsoft प्रोजेक्ट के सभी संस्करणों के साथ संगत है?
 

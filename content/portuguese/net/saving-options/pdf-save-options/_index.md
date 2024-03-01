@@ -70,4 +70,4 @@ R: Com certeza, você pode automatizar o processo de conversão de vários arqui
 ### P: O Aspose.Tasks for .NET oferece suporte a outros formatos de arquivo para conversão?
 R: Sim, além de PDF, você pode converter arquivos do Microsoft Project em vários formatos, incluindo XLSX, HTML e imagens.
 ### P: O suporte técnico está disponível para Aspose.Tasks for .NET?
- R: Sim, você pode obter suporte técnico no fórum Aspose.Tasks.[aqui](https://forum.aspose.com/c/tasks/15).
+ R: Sim, você pode obter suporte técnico no fórum Aspose.Tasks[aqui](https://forum.aspose.com/c/tasks/15).

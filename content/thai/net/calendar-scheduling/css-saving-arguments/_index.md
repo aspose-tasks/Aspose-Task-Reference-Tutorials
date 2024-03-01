@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // กำหนดค่าตัวเลือกการบันทึก HTML
+        //กำหนดค่าตัวเลือกการบันทึก HTML
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ A3: Aspose.Tasks สำหรับ .NET รองรับไฟล์ Microsof
 
 ### คำถามที่ 4: ฉันจะหาเอกสารที่ครอบคลุมสำหรับ Aspose.Tasks for .NET ได้ที่ไหน
 
- A4: คุณสามารถอ้างถึง[เอกสารประกอบ](https://reference.aspose.com/tasks/net/) สำหรับข้อมูลโดยละเอียดและตัวอย่าง
+A4: คุณสามารถอ้างถึง[เอกสารประกอบ](https://reference.aspose.com/tasks/net/) สำหรับข้อมูลโดยละเอียดและตัวอย่าง
 
 ### คำถามที่ 5: Aspose.Tasks สำหรับ .NET ให้การสนับสนุนสำหรับนักพัฒนาหรือไม่
 

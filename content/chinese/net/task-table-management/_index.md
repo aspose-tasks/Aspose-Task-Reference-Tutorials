@@ -53,9 +53,9 @@ Aspose.Tasks for .NET 以其强大的功能彻底改变了项目管理。本文�
 
 ## 在 Aspose.Tasks 中配置任务开始日期类型
 
-使用 Aspose.Tasks for .NET 轻松配置任务开始日期类型。通过探索轻松优化项目管理[任务开始日期类型教程](./task-start-date-types/),立即下载免费试用版！
+使用 Aspose.Tasks for .NET 轻松配置任务开始日期类型。通过探索轻松优化项目管理[任务开始日期类型教程](./task-start-date-types/)。立即下载免费试用版！
 
-## 在 Aspose.Tasks 中配置任务使用视图
+## 在 Aspose.Tasks 中配置任务使用情况视图
 
 使用 Aspose.Tasks for .NET 高效管理和可视化项目数据。深入了解任务使用情况视图字段，以增强项目洞察力[任务使用视图教程](./task-usage-views/).
 
@@ -87,7 +87,7 @@ Aspose.Tasks for .NET 以其强大的功能彻底改变了项目管理。本文�
 探索 Aspose.Tasks for .NET 在高效管理项目任务链接方面的强大功能。请遵循我们的分步指南来增强您的项目管理体验。
 ### [在 Aspose.Tasks 中配置任务开始日期类型](./task-start-date-types/)
 探索 Aspose.Tasks for .NET 以轻松配置任务开始日期类型。轻松优化项目管理。立即下载免费试用版！
-### [在 Aspose.Tasks 中配置任务使用视图](./task-usage-views/)
+### [在 Aspose.Tasks 中配置任务使用情况视图](./task-usage-views/)
 探索 Aspose.Tasks for .NET 轻松管理和可视化项目数据。深入研究任务使用情况视图字段以增强项目洞察力。
 ### [Aspose.Tasks 中任务使用视图字段的集合](./task-usage-view-fields/)
 探索 Aspose.Tasks for .NET 并了解如何配置任务使用视图。自定义时间刻度设置并增强您的项目管理视觉效果。

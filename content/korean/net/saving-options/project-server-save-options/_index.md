@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
- 꼭 교체하세요`"Your Document Directory"`, `URL`, `Domain`, `UserName` ,그리고`Password` 실제 값으로.
+ 반드시 교체하세요`"Your Document Directory"`, `URL`, `Domain`, `UserName` , 그리고`Password` 실제 값으로.
 ## 2단계: 프로젝트 서버 관리자 만들기
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
- 조정하다`ProjectGuid`, `ProjectName`, `Timeout` ,그리고`PollingInterval` 귀하의 요구 사항에 따라.
+ 조정하다`ProjectGuid`, `ProjectName`, `Timeout` , 그리고`PollingInterval` 귀하의 요구 사항에 따라.
 ## 4단계: 서버에 프로젝트 저장
 ```csharp
 manager.CreateNewProject(project, options);

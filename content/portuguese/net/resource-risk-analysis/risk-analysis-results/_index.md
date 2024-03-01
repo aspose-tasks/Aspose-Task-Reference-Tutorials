@@ -8,7 +8,7 @@ weight: 18
 url: /pt/net/resource-risk-analysis/risk-analysis-results/
 ---
 ## Introdução
-A análise de riscos é um aspecto crítico do gerenciamento de projetos, fornecendo insights sobre possíveis incertezas e seus impactos nos cronogramas dos projetos. Com Aspose.Tasks for .NET, a realização de análises de risco torna-se simplificada e eficiente. Neste tutorial, nos aprofundaremos em como realizar a análise do MS Project e interpretar os resultados usando Aspose.Tasks.
+análise de riscos é um aspecto crítico do gerenciamento de projetos, fornecendo insights sobre possíveis incertezas e seus impactos nos cronogramas dos projetos. Com Aspose.Tasks for .NET, a realização de análises de risco torna-se simplificada e eficiente. Neste tutorial, nos aprofundaremos em como realizar a análise do MS Project e interpretar os resultados usando Aspose.Tasks.
 ## Pré-requisitos
 Antes de começarmos, certifique-se de ter o seguinte:
 1.  Instalação: Baixe e instale Aspose.Tasks for .NET em[aqui](https://releases.aspose.com/tasks/net/).

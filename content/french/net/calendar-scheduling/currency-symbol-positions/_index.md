@@ -27,7 +27,7 @@ Une compréhension fondamentale de la programmation .NET est nécessaire pour co
 
 Pour commencer, vous devez importer les espaces de noms requis dans votre projet .NET. 
 
- Inclure le`Aspose.Tasks` espace de noms dans votre projet pour accéder aux classes et méthodes fournies par la bibliothèque Aspose.Tasks.
+ Inclure le`Aspose.Tasks`espace de noms dans votre projet pour accéder aux classes et méthodes fournies par la bibliothèque Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Maintenant, décomposons l'exemple fourni en plusieurs étapes :
 
 ## Étape 1 : Charger le fichier de projet
 
- Commencez par charger le fichier du projet à l'aide du`Project`constructeur de classe.
+ Commencez par charger le fichier du projet à l'aide du`Project` constructeur de classe.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

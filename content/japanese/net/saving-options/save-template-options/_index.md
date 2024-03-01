@@ -75,4 +75,4 @@ A: はい、テンプレート ファイルをロードし、必要に応じて�
 ### Q: Aspose.Tasks for .NET はクロスプラットフォーム開発をサポートしていますか?
 A: Aspose.Tasks for .NET は主に、Windows プラットフォーム上で実行される .NET Framework アプリケーション用に設計されています。
 ### Q: Aspose.Tasks for .NET のテクニカル サポートは利用できますか?
- A: はい、Aspose.Tasks コミュニティから技術的な支援や指導を求めることができます。[フォーラム](https://forum.aspose.com/c/tasks/15)または、サポート チームに直接お問い合わせください。
+ A: はい、Aspose.Tasks コミュニティから技術的なサポートとガイダンスを求めることができます。[フォーラム](https://forum.aspose.com/c/tasks/15)または、サポート チームに直接お問い合わせください。

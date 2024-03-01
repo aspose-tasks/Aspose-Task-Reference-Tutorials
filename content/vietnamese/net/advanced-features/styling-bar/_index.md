@@ -62,7 +62,7 @@ Tạo kiểu thanh mới và tùy chỉnh các thuộc tính của nó:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Đặt loại mục thanh
 style.BarColor = Color.Green; // Đặt màu thanh
-style.BarShape = BarShape.HalfHeight; //Đặt hình dạng thanh
+style.BarShape = BarShape.HalfHeight; // Đặt hình dạng thanh
 style.StartShape = Shape.LeftBracket; // Đặt hình ở đầu thanh
 style.StartShapeColor = Color.Aqua; // Đặt màu của hình bắt đầu
 style.EndShape = Shape.RightBracket; // Đặt hình ở cuối thanh

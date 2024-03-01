@@ -1,5 +1,5 @@
 ---
-title: قم بتكوين خيارات طباعة MS Project في Aspose.Tasks
+title: تكوين خيارات طباعة MS Project في Aspose.Tasks
 linktitle: تكوين خيارات الطباعة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين خيارات طباعة MS Project بسلاسة باستخدام Aspose.Tasks لـ .NET. تعزيز قدرات إدارة المشروع الخاص بك.
@@ -11,7 +11,7 @@ url: /ar/net/project-management-integration/print-options/
 في مجال تطوير البرمجيات، تبرز Aspose.Tasks for .NET كأداة قوية لإدارة المهام والمشاريع بكفاءة. إحدى ميزاته الرئيسية هي القدرة على تكوين خيارات طباعة Microsoft Project بسلاسة. في هذا البرنامج التعليمي، سوف نتعمق في عملية تكوين خيارات طباعة MS Project باستخدام Aspose.Tasks لـ .NET.
 ## المتطلبات الأساسية
 قبل أن نتعمق في تعقيدات تكوين خيارات طباعة MS Project، تأكد من توفر المتطلبات الأساسية التالية:
-1.  تثبيت Aspose.Tasks لـ .NET: تأكد من تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
+1. تثبيت Aspose.Tasks لـ .NET: تأكد من تثبيت Aspose.Tasks لمكتبة .NET. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
 2. الفهم الأساسي لـ C#: تعرف على أساسيات لغة البرمجة C# حيث يستخدم هذا البرنامج التعليمي بشكل أساسي لغة C# للتوضيح.
 
 ## استيراد مساحات الأسماء
@@ -43,7 +43,7 @@ var options = new PrintOptions
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //المضي قدما في الطباعة
+    // المضي قدما في الطباعة
     project.Print(options);
 }
 ```

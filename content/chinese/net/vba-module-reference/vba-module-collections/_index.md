@@ -63,11 +63,11 @@ foreach (var unused in modules)
 总之，掌握 Aspose.Tasks 中的 VBA 模块为高效项目管理开辟了新的可能性。有了这些知识，您就可以定制和增强您的项目以满足特定要求。
 ## 常见问题解答
 ### 我可以将 Aspose.Tasks for .NET 与其他编程语言一起使用吗？
-Aspose.Tasks主要支持C#等.NET语言。但是，有一些 Java 版本可用于跨语言兼容性。
+Aspose.Tasks 主要支持 .NET 语言，例如 C#。但是，有一些 Java 版本可用于跨语言兼容性。
 ### Aspose.Tasks for .NET 是否有免费试用版？
 是的，您可以从以下位置下载免费试用版[这里](https://releases.aspose.com/).
 ### 我如何获得 Aspose.Tasks 的支持？
-访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区支持或考虑购买支持计划。
+参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区支持或考虑购买支持计划。
 ### 可以使用临时许可证吗？
 是的，您可以获得临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到 Aspose.Tasks 的详细文档？

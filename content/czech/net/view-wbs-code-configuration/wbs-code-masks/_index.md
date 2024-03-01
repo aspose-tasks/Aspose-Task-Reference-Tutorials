@@ -1,6 +1,6 @@
 ---
 title: Konfigurace kódu WBS krok za krokem v Aspose.Tasks .NET
-linktitle: Nakonfigurujte masky kódu WBS v Aspose.Tasks
+linktitle: Konfigurace masek kódu WBS v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Prozkoumejte krok za krokem konfiguraci WBS Code Masks v projektech .NET pomocí Aspose.Tasks. Vylepšete možnosti řízení projektů bez námahy.
 type: docs
@@ -84,7 +84,7 @@ V tomto tutoriálu jsme prozkoumali krok za krokem proces konfigurace masky kód
 ### Mohu používat Aspose.Tasks zdarma?
  Aspose.Tasks nabízí bezplatnou zkušební verzi, kterou si můžete stáhnout[tady](https://releases.aspose.com/).
 ### Kde najdu další podporu?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)za podporu komunity.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity.
 ### Jak mohu získat dočasnou licenci?
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Je k dispozici podrobná dokumentace?

@@ -50,8 +50,8 @@ A: Aspose.Tasks는 Microsoft Project 2003 XML, Microsoft Project 2007 MPP 및 Mi
 ### Q: 구매하기 전에 Aspose.Tasks를 사용해 볼 수 있나요?
  A: 예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 대한 지원은 어떻게 받을 수 있나요?
- A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+A: Aspose.Tasks 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks에 임시 라이선스를 사용할 수 있나요?
- A: 예, 평가 목적으로 임시 라이선스를 사용할 수 있습니다. 당신은 하나를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+ A: 예, 평가 목적으로 임시 라이선스를 사용할 수 있습니다. 하나를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: Aspose.Tasks의 가격은 얼마입니까?
  A: 가격 정보는 Aspose.Tasks 구매 페이지에서 확인할 수 있습니다.[여기](https://purchase.aspose.com/buy).

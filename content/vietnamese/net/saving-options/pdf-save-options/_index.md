@@ -70,4 +70,4 @@ Trả lời: Hoàn toàn có thể, bạn có thể tự động hóa quá trìn
 ### Câu hỏi: Aspose.Tasks for .NET có hỗ trợ các định dạng tệp khác để chuyển đổi không?
 Trả lời: Có, ngoài PDF, bạn có thể chuyển đổi các tệp Microsoft Project sang nhiều định dạng khác nhau bao gồm XLSX, HTML và hình ảnh.
 ### Câu hỏi: Aspose.Tasks dành cho .NET có hỗ trợ kỹ thuật không?
- Đáp: Có, bạn có thể nhận hỗ trợ kỹ thuật từ diễn đàn Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15).
+ Trả lời: Có, bạn có thể nhận hỗ trợ kỹ thuật từ diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).

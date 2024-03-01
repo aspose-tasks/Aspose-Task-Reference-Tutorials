@@ -73,7 +73,7 @@ Aspose.Tasks 主要是为 Microsoft Project 设计的，确保无缝集成和操
 ### Aspose.Tasks for .NET 是否有免费试用版？
 是的，您可以探索免费试用[这里](https://releases.aspose.com/).
 ### 如何获得 Aspose.Tasks for .NET 支持？
-访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区支持或考虑购买支持计划。
+参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)寻求社区支持或考虑购买支持计划。
 ### 我可以进一步自定义视图的外观吗？
 当然，深入研究 Aspose.Tasks 文档[这里](https://reference.aspose.com/tasks/net/)用于高级定制选项。
 ### 在哪里可以购买 Aspose.Tasks for .NET？

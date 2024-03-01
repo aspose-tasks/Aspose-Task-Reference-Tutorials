@@ -11,7 +11,7 @@ url: /vi/net/task-table-management/table-fields/
 Chào mừng bạn đến với thế giới của Aspose.Tasks dành cho .NET, một thư viện mạnh mẽ cho phép thao tác liền mạch các tệp Microsoft Project trong các ứng dụng .NET của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc xử lý các trường bảng trong Aspose.Tasks, cho phép bạn đọc và quản lý các bảng dự án một cách hiệu quả. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới, hướng dẫn từng bước này sẽ giúp bạn khai thác toàn bộ tiềm năng của Aspose.Tasks.
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu cuộc hành trình này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Thư viện Aspose.Tasks: Tải xuống và cài đặt thư viện Aspose.Tasks cho .NET. bạn có thể tìm nó[đây](https://releases.aspose.com/tasks/net/).
+- Thư viện Aspose.Tasks: Tải xuống và cài đặt thư viện Aspose.Tasks cho .NET. Bạn có thể tìm nó[đây](https://releases.aspose.com/tasks/net/).
 - Môi trường phát triển: Đảm bảo bạn có môi trường phát triển phù hợp, chẳng hạn như Visual Studio, được thiết lập trên máy của bạn.
 Bây giờ, hãy chuyển sang phần xử lý chi tiết các trường của bảng.
 ## Nhập không gian tên
@@ -71,4 +71,4 @@ Kể từ phiên bản mới nhất, không có giới hạn nghiêm ngặt nào
 ### Tần suất phát hành các bản cập nhật cho Aspose.Tasks như thế nào?
 Các bản cập nhật cho Aspose.Tasks được phát hành thường xuyên để đảm bảo khả năng tương thích và giới thiệu các tính năng mới.
 ### Có diễn đàn cộng đồng nào hỗ trợ Aspose.Tasks không?
-Có, bạn có thể tìm trợ giúp và thảo luận trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Có, bạn có thể tìm trợ giúp và thảo luận trên[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).

@@ -19,10 +19,10 @@ url: /zh-hant/net/rate-recurring-tasks/
 在[使用 Aspose.Tasks 掌握 MS 專案費率](./rate-collection/)，我們深入研究了管理 MS Project 文件中費率的複雜性。本教學是您了解費率收集的細微差別、提供實用見解並幫助您增強專案資源管理能力的首選資源。
 
 ## Aspose.Tasks 中輕鬆的 MS 項目重複間隔
-發現輕鬆管理重複間隔的藝術[Aspose.Tasks 中輕鬆的 MS 項目重複間隔](./recurring-intervals/),本教學將指導您使用 Aspose.Tasks for .NET 完成整個過程，確保您可以無縫處理 MS 專案中的重複任務。
+發現輕鬆管理重複間隔的藝術[Aspose.Tasks 中輕鬆的 MS 項目重複間隔](./recurring-intervals/)。本教學將指導您使用 Aspose.Tasks for .NET 完成整個過程，確保您可以無縫處理 MS 專案中的重複任務。
 
 ## 在 Aspose.Tasks 中提取重複任務訊息
-了解從 MS Project 檔案中提取重複任務資訊的訣竅[在 Aspose.Tasks 中提取重複任務訊息](./recurring-task-information/),本教學為 .NET 開發人員提供了輕鬆的集成，使您能夠有效率地處理專案中的重複任務。
+了解從 MS Project 檔案中提取重複任務資訊的訣竅[在 Aspose.Tasks 中提取重複任務訊息](./recurring-task-information/)。本教學為 .NET 開發人員提供了輕鬆的集成，使您能夠有效率地處理專案中的重複任務。
 
 ## 在 Aspose.Tasks 中設定重複任務參數
 在[在 Aspose.Tasks 中設定重複任務參數](./recurring-task-parameters/)，我們提供瞭如何使用 Aspose.Tasks for .NET 在 Microsoft Project 中設定重複任務參數的全面指南。掌握輕鬆配置重複任務的知識。
@@ -31,13 +31,13 @@ url: /zh-hant/net/rate-recurring-tasks/
 告別手動任務刪除！[使用 Aspose.Tasks 刪除 MS Project 任務](./removing-tasks/)引導您完成使用 Aspose.Tasks for .NET 以程式設計方式刪除任務的過程。逐步指南包含可實現無縫體驗的程式碼範例。
 
 ## 使用 Aspose.Tasks 掌握 MS 專案報告
-釋放 MS Project 報告的全部潛力[使用 Aspose.Tasks 掌握 MS 專案報告](./report-types/),本教學課程探討如何使用 Aspose.Tasks for .NET 處理 MS Project 文件，讓您輕鬆產生各種報告類型。
+釋放 MS Project 報告的全部潛力[使用 Aspose.Tasks 掌握 MS 專案報告](./report-types/)。本教學課程探討如何使用 Aspose.Tasks for .NET 處理 MS Project 文件，讓您輕鬆產生各種報告類型。
 
 ## 在 Aspose.Tasks 中以各種格式儲存 MS 專案文件
 高效率的專案管理包括多種文件格式。[在 Aspose.Tasks 中以各種格式儲存 MS 專案文件](./save-file-formats/)引導您完成使用 Aspose.Tasks for .NET 以不同格式儲存 MS Project 檔案的步驟。
 
 ## 在 Aspose.Tasks 中處理 MS Project 分割部分
-在 MS Project 中導航分割元件變得輕而易舉[在 Aspose.Tasks 中處理 MS Project 分割部分](./split-parts/),使用 Aspose.Tasks for .NET 有效率地處理分割部分，增強您的專案管理工作流程。
+在 MS Project 中導航分割元件變得輕而易舉[在 Aspose.Tasks 中處理 MS Project 分割部分](./split-parts/)。使用 Aspose.Tasks for .NET 有效率地處理分割部分，增強您的專案管理工作流程。
 
 ## 在 Aspose.Tasks 中收集 MS 項目分割部分
 我們的教程[在 Aspose.Tasks 中收集 MS 項目分割部分](./split-part-collection/)是一本全面的指南，將逐步引導您完成整個過程。了解如何在 MS Project 中收集分割元件，使您能夠最佳化專案管理工作流程。

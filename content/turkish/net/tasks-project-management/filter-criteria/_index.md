@@ -8,7 +8,7 @@ weight: 18
 url: /tr/net/tasks-project-management/filter-criteria/
 ---
 ## giriiş
-Proje yönetimi alanında Microsoft Project, proje planlayıcılarına ve yöneticilerine yardımcı olacak çok sayıda özellik sunan güçlü bir araç olarak duruyor. Pek çok işlevselliği arasında proje verilerini filtreleme yeteneği de yer alıyor ve bu sayede kullanıcılar proje görevlerinin belirli yönlerine odaklanabiliyor. Ancak bu filtreleme yeteneklerine hakim olmak, doğru rehberlik olmadan göz korkutucu bir görev olabilir. Bu eğitim, Aspose.Tasks for .NET kullanarak MS Project'te filtrea kriterlerini uygulamaya yönelik adım adım bir kılavuz sağlayarak sürecin gizemini aydınlatmayı amaçlamaktadır.
+Proje yönetimi alanında Microsoft Project, proje planlayıcılarına ve yöneticilerine yardımcı olacak çok sayıda özellik sunan güçlü bir araç olarak duruyor. Pek çok işlevselliği arasında proje verilerini filtreleme yeteneği de yer alıyor ve bu sayede kullanıcılar proje görevlerinin belirli yönlerine odaklanabiliyor. Ancak bu filtreleme yeteneklerine hakim olmak, doğru rehberlik olmadan göz korkutucu bir görev olabilir. Bu eğitim, Aspose.Tasks for .NET kullanılarak MS Project'te filtre kriterlerinin uygulanmasına ilişkin adım adım bir kılavuz sağlayarak sürecin gizemini aydınlatmayı amaçlamaktadır.
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 1. Temel C# Anlayışı: Bu eğitimde ele alınan kavramları kavramak için C# programlama diline aşinalık gereklidir.
@@ -51,7 +51,7 @@ foreach (var row in filter.Criteria.CriteriaRows)
     Console.WriteLine("Value{0}: {1}", values.Length == 1 ? "" : "s", string.Join(", ", values));
 }
 ```
-Açıklama: Bu bölüm, filtrenin her kriter satırında yinelenir ve alanını, çalışmasını, testini ve (varsa) değerlerini görüntüler.
+Açıklama: Bu bölüm, filtrenin her ölçüt satırında yinelenir ve alanını, çalışmasını, testini ve değerlerini (varsa) görüntüler.
 ## Adım 4: Filtre Kriterlerini Yazdır
 ```csharp
 Console.WriteLine(filter.Criteria.Operation.ToString());

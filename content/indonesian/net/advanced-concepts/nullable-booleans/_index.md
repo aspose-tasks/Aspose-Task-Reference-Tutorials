@@ -9,7 +9,7 @@ url: /id/net/advanced-concepts/nullable-booleans/
 ---
 ## Perkenalan
 
- Dalam tutorial ini, kita akan mempelajari cara menggunakan boolean nullable di Aspose.Tasks untuk .NET. Boolean yang dapat dibatalkan menawarkan fleksibilitas dalam merepresentasikan nilai boolean, memungkinkan adanya kemungkinan untuk tidak terdefinisi. Kami akan menjelajahi cara menggunakan`NullableBool` kelas, konstruktor, properti, dan metodenya.
+Dalam tutorial ini, kita akan mempelajari cara menggunakan boolean nullable di Aspose.Tasks untuk .NET. Boolean yang dapat dibatalkan menawarkan fleksibilitas dalam merepresentasikan nilai boolean, memungkinkan adanya kemungkinan untuk tidak terdefinisi. Kami akan menjelajahi cara menggunakan`NullableBool` kelas, konstruktor, properti, dan metodenya.
 
 ## Prasyarat
 
@@ -32,7 +32,7 @@ using System.Diagnostics.CodeAnalysis;
 
 Sekarang, mari kita bagi setiap contoh menjadi beberapa langkah.
 
-##  bekerja dengan`NullableBool`
+##  Bekerja dengan`NullableBool`
 
 ###  Langkah 1: Buat yang baru`Project` instance.
 
@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Langkah 4: Gunakan`NullableBool` instance by setting it in the project.
+###  Langkah 4: Manfaatkan`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Langkah 6: Tampilkan representasi string dari`NullableBool` object.
+###  Langkah 6: Tampilkan representasi string dari`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Langkah 2: Cetak kode hash untuk masing-masingnya`NullableBool` object.
+### Langkah 2: Cetak kode hash untuk masing-masingnya`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Kesimpulan
 
- Dalam tutorial ini, kita telah menjelajahi cara menangani boolean yang dapat dibatalkan di Aspose.Tasks untuk .NET. Dengan menggunakan`NullableBool` kelas dan metodenya, Anda dapat mengelola nilai boolean secara efisien dengan fleksibilitas tambahan karena dapat dibatalkan.
+ Dalam tutorial ini, kita telah menjelajahi cara menangani boolean yang dapat dibatalkan di Aspose.Tasks untuk .NET. Dengan memanfaatkan`NullableBool` kelas dan metodenya, Anda dapat mengelola nilai boolean secara efisien dengan fleksibilitas tambahan karena dapat dibatalkan.
 
 ## FAQ
 

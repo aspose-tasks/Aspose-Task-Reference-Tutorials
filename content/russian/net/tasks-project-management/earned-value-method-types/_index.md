@@ -48,7 +48,7 @@ project.Set(Prj.DefaultTaskEVMethod, EarnedValueMethodType.PercentComplete);
 ### Вопрос: Существует ли бесплатная пробная версия Aspose.Tasks для .NET?
 О: Да, вы можете воспользоваться бесплатной пробной версией Aspose.Tasks для .NET на веб-сайте:[Бесплатная пробная версия](https://releases.aspose.com/)
 ### Вопрос: Как я могу получить поддержку Aspose.Tasks для .NET?
- О: Вы можете получить поддержку на форумах сообщества Aspose.Tasks:[Форум Aspose.Задачи](https://forum.aspose.com/c/tasks/15)
+ О: Вы можете получить поддержку на форумах сообщества Aspose.Tasks:[Форум Aspose.Tasks](https://forum.aspose.com/c/tasks/15)
 ### Вопрос: Поддерживает ли Aspose.Tasks для .NET временные лицензии?
  О: Да, для Aspose.Tasks for .NET доступны временные лицензии. Вы можете получить их:[Временная лицензия](https://purchase.aspose.com/temporary-license/)
 ### Вопрос: Где я могу приобрести Aspose.Tasks для .NET?

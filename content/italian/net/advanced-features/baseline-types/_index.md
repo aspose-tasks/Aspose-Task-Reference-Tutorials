@@ -21,7 +21,7 @@ Per sfruttare la potenza di Aspose.Tasks, è essenziale una conoscenza di base d
 
 ### 2. Installazione di Aspose.Tasks per .NET
 
- Assicurati di aver installato la libreria Aspose.Tasks per .NET nel tuo ambiente di sviluppo. Puoi scaricarlo da[Sito web Aspose.Tasks](https://releases.aspose.com/tasks/net/) o tramite Gestione pacchetti NuGet.
+Assicurati di aver installato la libreria Aspose.Tasks per .NET nel tuo ambiente di sviluppo. Puoi scaricarlo da[Sito web Aspose.Tasks](https://releases.aspose.com/tasks/net/) o tramite Gestione pacchetti NuGet.
 
 ### 3. Ambiente di sviluppo integrato (IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Passaggio 2: impostare la linea di base
 
- Una volta caricato il progetto, possiamo procedere con l'impostazione della baseline. Le linee di base forniscono un'istantanea della pianificazione iniziale del progetto, che funge da punto di riferimento per il confronto man mano che il progetto avanza. Usa il`SetBaseline` metodo per impostare la linea di base. Ad esempio, per impostare la linea di base per l'intero progetto, utilizzare il file`BaselineType.Baseline` enumerazione:
+Una volta caricato il progetto, possiamo procedere con l'impostazione della baseline. Le linee di base forniscono un'istantanea della pianificazione iniziale del progetto, che funge da punto di riferimento per il confronto man mano che il progetto avanza. Usa il`SetBaseline` metodo per impostare la linea di base. Ad esempio, per impostare la linea di base per l'intero progetto, utilizzare il file`BaselineType.Baseline` enumerazione:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);

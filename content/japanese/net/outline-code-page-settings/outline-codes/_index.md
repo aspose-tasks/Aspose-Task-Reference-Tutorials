@@ -33,7 +33,7 @@ String DataDir = "Your Document Directory";
 ```
 交換する`"Your Document Directory"`プロジェクト ファイルへの実際のパスを置き換えます。
 ## ステップ 2: プロジェクト ファイルをロードする
-新しいインスタンスを作成する`Project`MS Project ファイルをロードしてオブジェクトを作成します。
+新しいインスタンスを作成する`Project` MS Project ファイルをロードしてオブジェクトを作成します。
 ```csharp
 var project = new Project(DataDir + "OutlineValues2010.mpp");
 ```
@@ -56,7 +56,7 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
     }
 }
 ```
-このコード スニペットは、各タスクをループし、アウトライン コードがあるかどうかを確認し、タスクに関連付けられた各アウトライン コードのフィールド ID、値 GUID、値 ID などの詳細を出力します。
+このコード スニペットは各タスクをループし、アウトライン コードがあるかどうかを確認し、タスクに関連付けられた各アウトライン コードのフィールド ID、値 GUID、値 ID などの詳細を出力します。
 
 ## 結論
 結論として、Aspose.Tasks for .NET は、Microsoft Project のアウトライン コードをプログラムで管理するための強力な機能を提供します。このチュートリアルで概説されている手順に従うと、C# を使用して MS Project ファイル内のアウトライン コードを効率的に読み取り、操作できます。

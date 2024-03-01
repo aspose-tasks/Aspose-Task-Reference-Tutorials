@@ -21,11 +21,11 @@ Om de kracht van Aspose.Tasks te benutten, is een basiskennis van de programmeer
 
 ### 2. Installatie van Aspose.Tasks voor .NET
 
- Zorg ervoor dat u de Aspose.Tasks voor .NET-bibliotheek in uw ontwikkelomgeving hebt geïnstalleerd. Je kunt het downloaden van de[Aspose.Tasks-website](https://releases.aspose.com/tasks/net/) of via NuGet-pakketbeheerder.
+Zorg ervoor dat u de Aspose.Tasks voor .NET-bibliotheek in uw ontwikkelomgeving hebt geïnstalleerd. Je kunt het downloaden van de[Aspose.Tasks-website](https://releases.aspose.com/tasks/net/) of via NuGet-pakketbeheerder.
 
 ### 3. Geïntegreerde ontwikkelomgeving (IDE)
 
-Zorg ervoor dat een IDE zoals Visual Studio op uw systeem is geïnstalleerd, zodat u naadloos C#-code kunt schrijven, compileren en debuggen.
+Zorg ervoor dat een IDE zoals Visual Studio op uw systeem is geïnstalleerd, zodat u C#-code naadloos kunt schrijven, compileren en debuggen.
 
 ## Naamruimten importeren
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Stap 2: Basislijn instellen
 
- Zodra het project is geladen, kunnen we doorgaan met het instellen van de basislijn. Basislijnen bieden een momentopname van de oorspronkelijke planning van het project, die als referentiepunt voor vergelijking dient naarmate het project vordert. Gebruik de`SetBaseline` methode om de basislijn vast te stellen. Als u bijvoorbeeld de basislijn voor het hele project wilt instellen, gebruikt u de`BaselineType.Baseline` opsomming:
+Zodra het project is geladen, kunnen we doorgaan met het instellen van de basislijn. Basislijnen bieden een momentopname van de oorspronkelijke planning van het project, die als referentiepunt voor vergelijking dient naarmate het project vordert. Gebruik de`SetBaseline` methode om de basislijn vast te stellen. Als u bijvoorbeeld de basislijn voor het hele project wilt instellen, gebruikt u de`BaselineType.Baseline` opsomming:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);

@@ -35,8 +35,8 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Definieer de coderingsdetails, inclusief gebruikerswachtwoord, eigenaarswachtwoord, coderingsalgoritme en machtigingen:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //gebruikerswachtwoord
-    "ownerPassword",       // Eigenaar Wachtwoord
+    "userPassword",        // gebruikerswachtwoord
+    "ownerPassword",       // Wachtwoord eigenaar
     PdfEncryptionAlgorithm.RC4_128);  // Encryptie algoritme
 // Geef machtigingen op
 encryptionDetails.Permissions = PdfPermissions.ModifyContents | PdfPermissions.ModifyAnnotations;

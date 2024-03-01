@@ -87,4 +87,4 @@ A: もちろん、Aspose.Tasks はエンタープライズ レベルのプロジ
 ### Q: Aspose.Tasks のリスク分析設定をカスタマイズできますか?
 A: はい、Aspose.Tasks では、特定のプロジェクト要件やシナリオに合わせてリスク分析設定を柔軟に構成できます。
 ### Q: Aspose.Tasks ユーザーはテクニカル サポートを利用できますか?
- A: はい、Aspose.Tasks ユーザーは Aspose を通じてテクニカル サポートにアクセスできます。[フォーラム](https://forum.aspose.com/c/tasks/15)、質問したり、問題を報告したり、コミュニティと交流したりできます。
+ A: はい、Aspose.Tasks ユーザーは、Aspose を通じてテクニカル サポートにアクセスできます。[フォーラム](https://forum.aspose.com/c/tasks/15)、質問したり、問題を報告したり、コミュニティと交流したりできます。

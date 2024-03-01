@@ -25,7 +25,7 @@ Machen Sie sich mit den Grundlagen der Programmiersprache C# vertraut, einschlie
 
 ### 3. Installation von Aspose.Tasks für .NET
 
-Laden Sie die Aspose.Tasks für .NET-Bibliothek von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/tasks/net/).
+ Laden Sie die Aspose.Tasks für .NET-Bibliothek von herunter und installieren Sie sie[Webseite](https://releases.aspose.com/tasks/net/).
 
 ### 4. Vertrautheit mit Projektmanagementkonzepten
 

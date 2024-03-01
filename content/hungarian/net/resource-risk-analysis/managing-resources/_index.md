@@ -16,7 +16,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 ### 2. Fejlesztői környezet beállítása
 Győződjön meg arról, hogy be van állítva egy kompatibilis fejlesztői környezet, például a Visual Studio vagy bármely más IDE, amely támogatja a .NET fejlesztést.
 ### 3. A C# programozási nyelv alapjai
-C# programozási nyelv alapvető megértése szükséges az oktatóanyagban található példák követéséhez.
+A C# programozási nyelv alapvető megértése szükséges az oktatóanyagban található példák követéséhez.
 
 ## Névterek importálása
 Kezdésként importálja a szükséges névtereket a C# projektbe:
@@ -32,7 +32,7 @@ Kezdésként importálja a szükséges névtereket a C# projektbe:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
+ Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár tényleges elérési útjával.
 ## 2. lépés: Hozzon létre egy új projektpéldányt
 ```csharp
 var project = new Project();
@@ -50,7 +50,7 @@ project.Save(DataDir + "CreateResources_out.xml", SaveFileFormat.Xml);
 Ez a lépés XML-fájlba menti a projektet a hozzáadott erőforrásokkal. Igényeinek megfelelően módosíthatja a fájl nevét és formátumát.
 
 ## Következtetés
-A Microsoft Project erőforrásgyűjteményének kezelése egyszerűvé válik az Aspose.Tasks for .NET segítségével. Az oktatóanyagban ismertetett lépések követésével hatékonyan kezelheti az erőforrásokat a projekten belül, biztosítva a zökkenőmentes végrehajtást és az erőforrások optimális elosztását.
+Microsoft Project erőforrásgyűjteményének kezelése egyszerűvé válik az Aspose.Tasks for .NET segítségével. Az oktatóanyagban ismertetett lépések követésével hatékonyan kezelheti az erőforrásokat a projekten belül, biztosítva a zökkenőmentes végrehajtást és az erőforrások optimális elosztását.
 ## GYIK
 ### K: Hozzáadhatok egyszerre több erőforrást az Aspose.Tasks for .NET használatával?
 V: Igen, több erőforrást is hozzáadhat az erőforrásnevek listáján vagy tömbjén való iterációval, és egyenként hozzáadhatja őket a projekthez.
@@ -61,4 +61,4 @@ V: Természetesen az Aspose.Tasks for .NET kiterjedt funkcionalitást kínál az
 ### K: Az Aspose.Tasks for .NET támogatja a projektadatok exportálását az XML-től eltérő formátumokba?
 V: Igen, az Aspose.Tasks for .NET támogatja a projektadatok exportálását különféle formátumokba, többek között MPP, PDF, XLSX és HTML formátumokba.
 ### K: Hol találhatok további segítséget vagy támogatást az Aspose.Tasks for .NET-hez?
-V: További segítségért vagy támogatásért keresse fel a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) vagy hivatkozzon a[dokumentáció](https://reference.aspose.com/tasks/net/) az Aspose.
+ V: További segítségért vagy támogatásért keresse fel a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) vagy hivatkozzon a[dokumentáció](https://reference.aspose.com/tasks/net/) az Aspose.

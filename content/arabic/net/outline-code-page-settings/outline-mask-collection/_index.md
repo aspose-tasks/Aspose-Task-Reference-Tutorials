@@ -12,7 +12,7 @@ url: /ar/net/outline-code-page-settings/outline-mask-collection/
 ## المتطلبات الأساسية
 قبل الغوص في هذا البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
 ### 1. تثبيت Aspose.Tasks لـ .NET
- تأكد من تثبيت Aspose.Tasks for .NET في بيئة التطوير الخاصة بك. يمكنك تحميل المكتبة من موقع Aspose[هنا](https://releases.aspose.com/tasks/net/).
+تأكد من تثبيت Aspose.Tasks for .NET في بيئة التطوير الخاصة بك. يمكنك تحميل المكتبة من موقع Aspose[هنا](https://releases.aspose.com/tasks/net/).
 ### 2. المعرفة الأساسية بـ C# و.NET Framework
 تعرف على لغة البرمجة C# و.NET Framework، حيث سيستخدم هذا البرنامج التعليمي كليهما.
 ### 3. ملف مشروع مايكروسوفت
@@ -108,4 +108,4 @@ foreach (var maskToAdd in masks)
 ### س 4: هل يوفر Aspose.Tasks لـ .NET الوثائق والدعم؟
 ج: نعم، يقدم Aspose.Tasks for .NET وثائق شاملة ودعمًا مخصصًا من خلال موقعه على الويب و[المنتديات](https://forum.aspose.com/c/tasks/15).
 ### س5: هل تتوفر نسخة تجريبية مجانية من Aspose.Tasks لـ .NET؟
- ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks لـ .NET من موقعهم[موقع إلكتروني](https://releases.aspose.com/tasks/net/), لاستكشاف ميزاته ووظائفه قبل إجراء عملية الشراء.
+ ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks لـ .NET من موقعهم[موقع إلكتروني](https://releases.aspose.com/tasks/net/). لاستكشاف ميزاته ووظائفه قبل إجراء عملية الشراء.

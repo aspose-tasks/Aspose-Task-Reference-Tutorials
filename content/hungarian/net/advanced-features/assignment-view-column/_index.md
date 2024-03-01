@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## 3. lépés: Egyéni oszlop meghatározása
 
- Most határozza meg az egyéni oszlopot a példány létrehozásával`AssignmentViewColumn`Ez az osztály megköveteli az oszlop nevét, szélességét és egy delegálási függvényt a hozzárendelési adatok oszlopszöveggé alakításához:
+ Most határozza meg az egyéni oszlopot a példány létrehozásával`AssignmentViewColumn`. Ez az osztály megköveteli az oszlop nevét, szélességét és egy delegálási függvényt a hozzárendelési adatok oszlopszöveggé alakításához:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

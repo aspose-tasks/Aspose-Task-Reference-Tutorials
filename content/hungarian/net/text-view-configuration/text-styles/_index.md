@@ -1,6 +1,6 @@
 ---
 title: A szövegstílus testreszabásának elsajátítása az Aspose.Tasks programban
-linktitle: Szövegstílusok konfigurálása az Aspose.Tasks alkalmazásban
+linktitle: Szövegstílusok konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Növelje a projektdokumentum esztétikáját az Aspose.Tasks for .NET segítségével. Könnyedén testreszabhatja a szövegstílusokat a tetszetős megjelenítés érdekében.
 type: docs

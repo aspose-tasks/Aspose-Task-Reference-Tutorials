@@ -132,7 +132,7 @@ Với Aspose.Tasks cho .NET, việc quản lý mã WBS trở thành một nhiệ
 ### Câu hỏi: Tôi có thể sử dụng Aspose.Tasks cho .NET với các ngôn ngữ lập trình khác không?
 Trả lời: Aspose.Tasks chủ yếu hỗ trợ các ngôn ngữ .NET, nhưng bạn có thể khám phá các tùy chọn khả năng tương tác với các ngôn ngữ khác.
 ### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks cho .NET không?
- A: Có, bạn có thể tải xuống phiên bản dùng thử.[đây](https://releases.aspose.com/).
+ A: Có, bạn có thể tải xuống phiên bản dùng thử[đây](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào để tìm kiếm trợ giúp hoặc báo cáo sự cố với Aspose.Tasks cho .NET?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ và thảo luận.
 ### Hỏi: Mục đích của mã WBS trong quản lý dự án là gì?

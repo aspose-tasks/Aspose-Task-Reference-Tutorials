@@ -52,4 +52,4 @@ R: Sim, você pode aproveitar uma avaliação gratuita do Aspose.Tasks for .NET 
 ### P: O Aspose.Tasks for .NET oferece suporte a licenças temporárias?
  R: Sim, licenças temporárias estão disponíveis para Aspose.Tasks for .NET. Você pode obtê-los em:[Licença Temporária](https://purchase.aspose.com/temporary-license/)
 ### P: Onde posso comprar o Aspose.Tasks para .NET?
- R: Você pode adquirir o Aspose.Tasks for .NET no site:[comprar](https://purchase.aspose.com/buy).
+ R: Você pode adquirir o Aspose.Tasks for .NET no site:[Comprar](https://purchase.aspose.com/buy).

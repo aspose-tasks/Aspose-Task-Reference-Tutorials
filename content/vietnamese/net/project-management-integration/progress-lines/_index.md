@@ -93,6 +93,6 @@ Trả lời: Có, Aspose.Tasks cung cấp hỗ trợ rộng rãi để thao tác
 ### Câu hỏi: Tôi có thể tích hợp Aspose.Tasks với các thư viện .NET khác không?
 Trả lời: Hoàn toàn có thể, Aspose.Tasks được thiết kế để tích hợp liền mạch với các thư viện .NET khác, cho phép bạn nâng cao hơn nữa các ứng dụng quản lý dự án của mình.
 ### Câu hỏi: Có diễn đàn cộng đồng nào hỗ trợ Aspose.Tasks không?
- Trả lời: Có, bạn có thể tìm thấy các tài nguyên hữu ích và tìm kiếm sự trợ giúp trên diễn đàn Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15).
+ Trả lời: Có, bạn có thể tìm thấy các tài nguyên hữu ích và tìm kiếm sự trợ giúp trên diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 ### Câu hỏi: Aspose.Tasks có cung cấp giấy phép tạm thời cho mục đích đánh giá không?
  Đáp: Có, bạn có thể xin giấy phép tạm thời để đánh giá từ[đây](https://purchase.aspose.com/temporary-license/).

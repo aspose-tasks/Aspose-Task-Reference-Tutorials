@@ -71,7 +71,7 @@ A1: Aspose.Tasks voor .NET is ontworpen om projecten van elke omvang efficiënt 
 
 ### V2: Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
 
- A2: Ja, u kunt een gratis proefversie van Aspose.Tasks voor .NET verkrijgen via de[website](https://releases.aspose.com/tasks/net/)om de kenmerken ervan te evalueren voordat u een aankoop doet.
+ A2: Ja, u kunt een gratis proefversie van Aspose.Tasks voor .NET verkrijgen via de[website](https://releases.aspose.com/tasks/net/) om de kenmerken ervan te evalueren voordat u een aankoop doet.
 
 ### V3: Ondersteunt Aspose.Tasks voor .NET meerdere platforms?
 

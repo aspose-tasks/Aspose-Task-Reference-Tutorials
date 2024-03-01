@@ -9,7 +9,7 @@ url: /pl/net/advanced-features/baseline-types/
 ---
 ## Wstęp
 
-W zarządzaniu projektami najważniejsza jest precyzja i przewidywanie. Aspose.Tasks dla .NET zapewnia solidny zestaw narzędzi do efektywnego zarządzania danymi projektu, umożliwiając użytkownikom zagłębianie się w różne aspekty planowania, śledzenia i realizacji projektu. Jedną z kluczowych funkcji oferowanych przez Aspose.Tasks jest możliwość ustalenia linii bazowych, które służą jako punkty odniesienia do pomiaru postępu projektu w stosunku do początkowych planów.
+W zarządzaniu projektami najważniejsza jest precyzja i przewidywanie. Aspose.Tasks dla .NET zapewnia solidny zestaw narzędzi do efektywnego zarządzania danymi projektu, umożliwiając użytkownikom zagłębianie się w różne aspekty planowania, śledzenia i realizacji projektów. Jedną z kluczowych funkcji oferowanych przez Aspose.Tasks jest możliwość ustalenia linii bazowych, które służą jako punkty odniesienia do pomiaru postępu projektu w stosunku do początkowych planów.
 
 ## Warunki wstępne
 
@@ -21,7 +21,7 @@ Aby wykorzystać moc Aspose.Tasks, niezbędna jest podstawowa znajomość język
 
 ### 2. Instalacja Aspose.Tasks dla .NET
 
- Upewnij się, że w środowisku programistycznym zainstalowałeś bibliotekę Aspose.Tasks for .NET. Można go pobrać z[Witryna Aspose.Tasks](https://releases.aspose.com/tasks/net/) lub za pośrednictwem menedżera pakietów NuGet.
+Upewnij się, że w środowisku programistycznym zainstalowałeś bibliotekę Aspose.Tasks for .NET. Można go pobrać z[Witryna Aspose.Tasks](https://releases.aspose.com/tasks/net/) lub za pośrednictwem menedżera pakietów NuGet.
 
 ### 3. Zintegrowane środowisko programistyczne (IDE)
 
@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 
 ## Krok 2: Ustaw linię bazową
 
- Po załadowaniu projektu możemy przystąpić do ustalania wartości bazowej. Linie bazowe zapewniają migawkę początkowego harmonogramu projektu, który służy jako punkt odniesienia do porównań w miarę postępu projektu. Użyj`SetBaseline` metoda ustalenia linii bazowej. Na przykład, aby ustawić linię bazową dla całego projektu, użyj opcji`BaselineType.Baseline` wyliczenie:
+Po załadowaniu projektu możemy przystąpić do ustalania wartości bazowej. Linie bazowe zapewniają migawkę początkowego harmonogramu projektu, który służy jako punkt odniesienia do porównań w miarę postępu projektu. Użyj`SetBaseline` metoda ustalenia linii bazowej. Na przykład, aby ustawić linię bazową dla całego projektu, użyj opcji`BaselineType.Baseline` wyliczenie:
 
 ```csharp
 project.SetBaseline(BaselineType.Baseline);

@@ -24,13 +24,13 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## Paso 1: cargar el archivo de MS Project
-Comience cargando el archivo de MS Project con el que desea trabajar en su aplicación C#. Puedes hacer esto usando el`Project` clase proporcionada por Aspose.Tasks.
+ Comience cargando el archivo de MS Project con el que desea trabajar en su aplicación C#. Puedes hacer esto usando el`Project` clase proporcionada por Aspose.Tasks.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## Paso 2: Definir las opciones de guardado de Primavera
-A continuación, cree opciones de guardado de Primavera y personalícelas según sus requisitos. Este paso implica especificar parámetros como el prefijo, el sufijo, el incremento y si se renumeran los ID de actividad.
+continuación, cree opciones de guardado de Primavera y personalícelas según sus requisitos. Este paso implica especificar parámetros como el prefijo, el sufijo, el incremento y si se renumeran los ID de actividad.
 ```csharp
 var options = new PrimaveraSaveOptions
 {
@@ -58,4 +58,4 @@ R: Por supuesto, Aspose.Tasks está diseñado para satisfacer las necesidades de
 ### P: ¿Puedo probar Aspose.Tasks gratis antes de realizar una compra?
  R: Sí, puedes descargar una prueba gratuita de Aspose.Tasks desde[aquí](https://releases.aspose.com/) para explorar sus características y capacidades.
 ### P: ¿Dónde puedo obtener asistencia si tengo problemas o tengo preguntas mientras uso Aspose.Tasks?
-R: Puede buscar ayuda de la comunidad de Aspose.Tasks y del equipo de soporte en el[foro](https://forum.aspose.com/c/tasks/15).
+ R: Puede buscar ayuda de la comunidad de Aspose.Tasks y del equipo de soporte en el[foro](https://forum.aspose.com/c/tasks/15).

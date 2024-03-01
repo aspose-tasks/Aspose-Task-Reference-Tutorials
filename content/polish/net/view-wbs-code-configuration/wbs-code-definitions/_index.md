@@ -12,7 +12,7 @@ Wraz z ewolucją zarządzania projektami rośnie zapotrzebowanie na potężne na
 ## Warunki wstępne
 Zanim przejdziemy do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 - Praktyczna wiedza na temat programowania .NET.
-- Zainstalowana biblioteka Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
+-  Zainstalowana biblioteka Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
 - Edytor kodu (zalecany jest Visual Studio).
 ## Importuj przestrzenie nazw
 W projekcie .NET rozpocznij od zaimportowania niezbędnych przestrzeni nazw:

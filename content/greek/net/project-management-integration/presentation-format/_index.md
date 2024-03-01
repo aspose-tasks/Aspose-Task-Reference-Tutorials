@@ -17,7 +17,7 @@ url: /el/net/project-management-integration/presentation-format/
 
 ### 1. Εγκαταστήστε το Aspose.Tasks για .NET
 
- Εάν δεν το έχετε κάνει ήδη, κατεβάστε και εγκαταστήστε το Aspose.Tasks για .NET από το[σελίδα λήψης](https://releases.aspose.com/tasks/net/), Ακολουθήστε τις οδηγίες εγκατάστασης που παρέχονται για να το ρυθμίσετε σωστά.
+ Εάν δεν το έχετε κάνει ήδη, κατεβάστε και εγκαταστήστε το Aspose.Tasks για .NET από το[σελίδα λήψης](https://releases.aspose.com/tasks/net/). Ακολουθήστε τις οδηγίες εγκατάστασης που παρέχονται για να το ρυθμίσετε σωστά.
 
 ### 2. Εισαγάγετε τους απαραίτητους χώρους ονομάτων
 
@@ -39,7 +39,7 @@ using Aspose.Tasks.Visualization;
 String DataDir = "Your Document Directory";
 ```
 
- αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον επιθυμητό κατάλογο.
+ Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον επιθυμητό κατάλογο.
 
 ## Βήμα 2: Φορτώστε το αρχείο MS Project
 
@@ -49,7 +49,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- αντικαθιστώ`"ResourceSheetView.mpp"` με το όνομα του αρχείου MS Project.
+ Αντικαθιστώ`"ResourceSheetView.mpp"` με το όνομα του αρχείου MS Project.
 
 ## Βήμα 3: Καθορίστε τις επιλογές αποθήκευσης
 

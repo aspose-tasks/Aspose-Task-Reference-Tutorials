@@ -1,6 +1,6 @@
 ---
 title: VBA Referans İşleme konusunda Uzmanlaşma - Adım Adım Kılavuz
-linktitle: Aspose.Tasks'ta Referans VBA'yı Yönetme
+linktitle: Aspose.Tasks'ta VBA Referanslarını Yönetme
 second_title: Aspose.Tasks .NET API'si
 description: Kapsamlı eğitimimizle Aspose.Tasks .NET'te VBA referanslarını işlemenin gücünü keşfedin. VBA referanslarını sorunsuz bir şekilde okumayı, karşılaştırmayı ve bunlarla çalışmayı öğrenin.
 type: docs
@@ -21,7 +21,7 @@ Kodunuzun başında gerekli ad alanlarının bulunduğundan emin olun:
     using System;
     
 ```
-## Referansları Okuma VBA
+## VBA Referanslarını Okuma
 Bir proje dosyasından VBA referanslarını okuyarak başlayalım:
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -72,10 +72,10 @@ Tebrikler! Aspose.Tasks for .NET'te VBA referanslarını işleme konusunda başa
 ### S: Aspose.Tasks'ı diğer programlama dilleriyle kullanabilir miyim?
 C: Aspose.Tasks öncelikli olarak .NET dillerini destekler ancak farklı platformlar ve diller için özel olarak tasarlanmış başka Aspose ürünleri de vardır.
 ### S: Aspose.Tasks için nasıl geçici lisans edinebilirim?
-C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+ C: Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks için topluluk desteği mevcut mu?
  C: Evet, şu adreste destek bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks için ayrıntılı belgeleri nerede bulabilirim?
  C: Belgeler mevcut[Burada](https://reference.aspose.com/tasks/net/).
 ### S: Aspose.Tasks'ı satın alabilir miyim?
- C: Evet, satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
+ C: Evet, satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

@@ -98,4 +98,4 @@ foreach (var rsc in list)
 
 ### 问：Aspose.Tasks 用户可以获得技术支持吗？
 
-答：是的，Aspose.Tasks 用户可以通过论坛获得技术支持。[这里](https://forum.aspose.com/c/tasks/15).
+答：是的，Aspose.Tasks 用户可以通过论坛获得技术支持[这里](https://forum.aspose.com/c/tasks/15).

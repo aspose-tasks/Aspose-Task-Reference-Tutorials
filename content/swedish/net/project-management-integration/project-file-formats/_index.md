@@ -8,7 +8,7 @@ weight: 18
 url: /sv/net/project-management-integration/project-file-formats/
 ---
 ## Introduktion
-I den här handledningen kommer vi att utforska hur du hanterar Microsoft Project-filformat med Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt bibliotek som tillåter utvecklare att manipulera och hantera projektfiler programmatiskt. Oavsett om du arbetar med .mpp-, .xml- eller .csv-filer, tillhandahåller Aspose.Tasks en omfattande uppsättning funktioner för att hantera olika aspekter av projektledning.
+den här handledningen kommer vi att utforska hur du hanterar Microsoft Project-filformat med Aspose.Tasks för .NET. Aspose.Tasks är ett kraftfullt bibliotek som tillåter utvecklare att manipulera och hantera projektfiler programmatiskt. Oavsett om du arbetar med .mpp-, .xml- eller .csv-filer, tillhandahåller Aspose.Tasks en omfattande uppsättning funktioner för att hantera olika aspekter av projektledning.
 ## Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar:
 1. Visual Studio: Installera Visual Studio eller någon annan föredragen .NET IDE.

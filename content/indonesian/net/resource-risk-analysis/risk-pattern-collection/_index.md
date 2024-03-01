@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Langkah 8: Hapus Pola
 Hapus koleksi pola baik satu per satu atau seluruhnya:
 ```csharp
-// penghapusan individu
+// Penghapusan individu
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ J: Tentu saja, Aspose.Tasks terintegrasi secara mulus dengan kerangka kerja .NET
 ### T: Apakah ada versi uji coba yang tersedia untuk Aspose.Tasks?
  J: Ya, Anda dapat mengakses uji coba gratis Aspose.Tasks dari[Di Sini](https://releases.aspose.com/)memungkinkan Anda menjelajahi fitur-fiturnya sebelum melakukan pembelian.
 ### T: Di mana saya dapat menemukan dukungan untuk Aspose.Tasks?
- J: Anda dapat menemukan dukungan dan bantuan komprehensif di forum Aspose.Tasks.[Di Sini](https://forum.aspose.com/c/tasks/15), tempat Anda dapat berinteraksi dengan pakar dan sesama pengguna untuk menyelesaikan pertanyaan dan masalah.
+ J: Anda dapat menemukan dukungan dan bantuan komprehensif di forum Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15), tempat Anda dapat berinteraksi dengan pakar dan sesama pengguna untuk menyelesaikan pertanyaan dan masalah.

@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-### 第 4 步：使用`NullableBool` instance by setting it in the project.
+### 第 4 步：利用`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## 結論
 
-在本教程中，我們探討如何在 Aspose.Tasks for .NET 中處理可為 null 的布林值。透過使用`NullableBool`類別及其方法，您可以有效地管理布林值，並具有可為空的靈活性。
+在本教程中，我們探討如何在 Aspose.Tasks for .NET 中處理可為 null 的布林值。透過利用`NullableBool`類別及其方法，您可以有效地管理布林值，並具有可為空的靈活性。
 
 ## 常見問題解答
 

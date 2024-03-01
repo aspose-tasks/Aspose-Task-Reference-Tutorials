@@ -1,6 +1,6 @@
 ---
 title: กำหนดค่าตัวเลือก MS Project XAML ด้วย Aspose.Tasks สำหรับ .NET
-linktitle: กำหนดค่าตัวเลือก XAML ใน Aspose.Tasks
+linktitle: การกำหนดค่าตัวเลือก XAML ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดค่าตัวเลือก MS Project XAML ใน Aspose.Tasks สำหรับ .NET เพิ่มความยืดหยุ่นในการจัดการโครงการและการปรับแต่งด้วยคำแนะนำทีละขั้นตอน
 type: docs
@@ -38,7 +38,7 @@ options.FitContent = true;
 options.LegendOnEachPage = false;
 options.Timescale = Timescale.ThirdsOfMonths;
 ```
-ที่นี่ เราสร้างอินสแตนซ์ของ XamlOptions และกำหนดค่าตัวเลือกต่างๆ เช่น การปรับเนื้อหาให้เหมาะสม การปิดใช้งานคำอธิบายในแต่ละหน้า และการตั้งค่ามาตราส่วนเวลาเป็นสามของเดือน
+ที่นี่ เราสร้างอินสแตนซ์ของ XamlOptions และกำหนดค่าตัวเลือกต่างๆ เช่น เนื้อหาที่เหมาะสม การปิดใช้งานคำอธิบายในแต่ละหน้า และการตั้งค่ามาตราส่วนเวลาเป็นสามของเดือน
 ## ขั้นตอนที่ 4: บันทึกโครงการด้วยตัวเลือกที่กำหนดค่าไว้
 ```csharp
 project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
@@ -63,7 +63,7 @@ project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
 
 ### ถาม: ฉันจำเป็นต้องมีใบอนุญาตชั่วคราวเพื่อใช้ Aspose.Tasks สำหรับ .NET หรือไม่
 
-ตอบ: คุณอาจจำเป็นต้องมีใบอนุญาตชั่วคราวสำหรับคุณสมบัติขั้นสูงบางอย่างซึ่งสามารถรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
+ ตอบ: คุณอาจจำเป็นต้องมีใบอนุญาตชั่วคราวสำหรับคุณสมบัติขั้นสูงบางอย่างซึ่งสามารถรับได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 
 ### ถาม: ฉันจะซื้อ Aspose.Tasks สำหรับ .NET ได้ที่ไหน
 

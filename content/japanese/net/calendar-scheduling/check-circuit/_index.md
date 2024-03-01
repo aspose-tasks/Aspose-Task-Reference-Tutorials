@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## ステップ 2: プロジェクト構造を確認する
 
-プロジェクト内の壊れた構造を検出するには、`CheckCircuit`一緒にクラス`TaskUtils.Apply`方法。
+プロジェクト内の壊れた構造を検出するには、`CheckCircuit`クラスと一緒に`TaskUtils.Apply`方法。
 
 ```csharp
 try
@@ -70,7 +70,7 @@ A1: はい、Aspose.Tasks for .NET は、.NET Core や .NET Framework などの�
 
 ### Q3: Aspose.Tasks for .NET のサポートを受けるにはどうすればよいですか?
 
-A3: Aspose.Tasks コミュニティ フォーラムから支援を求めることができます。[ここ](https://forum.aspose.com/c/tasks/15).
+ A3: Aspose.Tasks コミュニティ フォーラムから支援を求めることができます。[ここ](https://forum.aspose.com/c/tasks/15).
 
 ### Q4: テスト目的には一時ライセンスが必要ですか?
 

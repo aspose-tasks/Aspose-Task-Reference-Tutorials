@@ -8,7 +8,7 @@ weight: 16
 url: /ar/net/outline-code-page-settings/outline-values/
 ---
 ## مقدمة
-في هذا البرنامج التعليمي، سنستكشف كيفية إدارة القيم التفصيلية لـ Microsoft Project باستخدام مكتبة Aspose.Tasks لـ .NET. باستخدام Aspose.Tasks، يمكنك بسهولة التعامل مع رموز المخطط التفصيلي وإنشاء قيم مخطط تفصيلي جديدة وتخصيص مخططات المشروع وفقًا لمتطلباتك.
+في هذا البرنامج التعليمي، سوف نستكشف كيفية إدارة القيم التفصيلية لـ Microsoft Project باستخدام مكتبة Aspose.Tasks لـ .NET. باستخدام Aspose.Tasks، يمكنك بسهولة التعامل مع رموز المخطط التفصيلي وإنشاء قيم مخطط تفصيلي جديدة وتخصيص مخططات المشروع وفقًا لمتطلباتك.
 ## المتطلبات الأساسية
 قبل أن تبدأ، تأكد من أن لديك ما يلي:
 1.  تثبيت Aspose.Tasks لـ .NET: قم بتنزيل وتثبيت Aspose.Tasks لمكتبة .NET من[هنا](https://releases.aspose.com/tasks/net/).
@@ -71,8 +71,8 @@ outline2.Values.Add(value2);
 ### س: هل هناك نسخة تجريبية متاحة لـ Aspose.Tasks؟
  ج: نعم، يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.Tasks من[هنا](https://releases.aspose.com/).
 ### س: كيف يمكنني الحصول على الدعم لـ Aspose.Tasks؟
- ج: للحصول على الدعم والمساعدة، يمكنك زيارة منتدى Aspose.Tasks.[هنا](https://forum.aspose.com/c/tasks/15).
+ ج: للحصول على الدعم والمساعدة، يمكنك زيارة منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: هل يمكنني شراء ترخيص مؤقت لـ Aspose.Tasks؟
- ج: نعم، يمكنك شراء ترخيص مؤقت لـ Aspose.Tasks من[هنا](https://purchase.aspose.com/temporary-license/).
+ج: نعم، يمكنك شراء ترخيص مؤقت لـ Aspose.Tasks من[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني العثور على الوثائق التفصيلية الخاصة بـ Aspose.Tasks؟
  ج: يمكنك الرجوع إلى الوثائق الشاملة المتاحة[هنا](https://reference.aspose.com/tasks/net/).

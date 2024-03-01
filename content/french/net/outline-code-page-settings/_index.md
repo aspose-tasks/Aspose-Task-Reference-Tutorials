@@ -27,13 +27,13 @@ Bienvenue dans le monde de la gestion de projet transparente avec Aspose.Tasks p
 ## Collection de masques de contour utilisant Aspose.Tasks pour .NET
  Améliorez votre productivité en apprenant à manipuler les masques de collection Microsoft Project avec Aspose.Tasks pour .NET. Ce didacticiel complet vous fournit les outils nécessaires pour optimiser votre flux de travail de gestion de projet.[En savoir plus](./outline-mask-collection/)
 
-## Maîtriser les valeurs globales de MS Project avec Aspose.Tasks pour .NET
-Gérez efficacement les valeurs de plan de Microsoft Project avec Aspose.Tasks pour .NET. Ce didacticiel vous permet de personnaliser facilement les grandes lignes du projet, offrant ainsi une expérience transparente dans votre parcours de gestion de projet.[En savoir plus](./outline-values/)
+## Maîtriser les valeurs générales de MS Project avec Aspose.Tasks pour .NET
+Gérez efficacement les valeurs hiérarchiques de Microsoft Project avec Aspose.Tasks pour .NET. Ce didacticiel vous permet de personnaliser facilement les grandes lignes du projet, offrant ainsi une expérience transparente dans votre parcours de gestion de projet.[En savoir plus](./outline-values/)
 
 ## Collection de valeurs de plan dans Aspose.Tasks pour .NET
  Découvrez comment gérer les valeurs hiérarchiques dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Ce didacticiel étape par étape comprend des exemples de code, garantissant que vous pouvez mettre en œuvre ces pratiques sans effort.[En savoir plus](./outline-value-collection/)
 
-## Configurer la légende de la page dans Aspose.Tasks pour .NET
+## Configuration de la légende de page dans Aspose.Tasks pour .NET
  Une gestion de projet efficace s'étend à la configuration des légendes des pages MS Project dans .NET. Ce didacticiel, utilisant Aspose.Tasks, fournit un guide étape par étape sur la façon d'adapter les légendes de votre projet pour une efficacité optimale.[En savoir plus](./page-legend/)
 
 ## Définissez sans effort les marges des pages MS Project avec Aspose.Tasks pour .NET
@@ -60,10 +60,10 @@ Apprenez à travailler avec des fichiers Microsoft Project par programmation à 
 ### [Collection de masques de contour dans Aspose.Tasks](./outline-mask-collection/)
 Apprenez à manipuler les masques de plan de collection MS Project à l'aide d'Aspose.Tasks pour .NET. Améliorez la productivité avec ce didacticiel complet.
 ### [Maîtriser les valeurs générales de MS Project avec Aspose.Tasks](./outline-values/)
-Apprenez à gérer efficacement les valeurs de plan MS Project à l'aide d'Aspose.Tasks pour .NET. Personnalisez facilement les grandes lignes du projet.
+Découvrez comment gérer efficacement les valeurs de plan MS Project à l'aide d'Aspose.Tasks pour .NET. Personnalisez facilement les grandes lignes du projet.
 ### [Collection de valeurs de plan dans Aspose.Tasks](./outline-value-collection/)
 Découvrez comment gérer les valeurs hiérarchiques dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Tutoriel étape par étape avec des exemples de code.
-### [Configurer la légende de la page dans Aspose.Tasks](./page-legend/)
+### [Configuration de la légende de la page dans Aspose.Tasks](./page-legend/)
 Découvrez comment configurer les légendes des pages MS Project dans .NET à l'aide d'Aspose.Tasks pour une gestion de projet efficace. Guide étape par étape fourni.
 ### [Définissez sans effort les marges des pages MS Project avec Aspose.Tasks](./page-margins/)
 Découvrez comment ajuster les marges des pages dans les fichiers Microsoft Project à l'aide d'Aspose.Tasks pour .NET. Améliorez facilement la mise en page et la présentation des documents.

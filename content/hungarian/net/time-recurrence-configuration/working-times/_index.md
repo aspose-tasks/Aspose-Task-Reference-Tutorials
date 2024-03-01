@@ -1,6 +1,6 @@
 ---
-title: Konfigurálja a munkaidőket az Aspose.Tasks-ban
-linktitle: Konfigurálja a munkaidőket az Aspose.Tasks-ban
+title: Munkaidő konfigurálása az Aspose.Tasks-ban
+linktitle: Munkaidő konfigurálása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Javítsa a projekt ütemezését .NET-ben az Aspose.Tasks segítségével. A munkaidőt könnyedén konfigurálhatja a pontos erőforrás-kezelés érdekében. Töltse le a könyvtárat most!
 type: docs
@@ -8,12 +8,12 @@ weight: 13
 url: /hu/net/time-recurrence-configuration/working-times/
 ---
 ## Bevezetés
-A projektmenedzsmentben a munkaidő pontos ellenőrzése kulcsfontosságú a pontos ütemezés és az erőforrás-elosztás szempontjából. Az Aspose.Tasks for .NET hatékony megoldást kínál a munkaidő-információk kezelésére a projekteken belül. Ez az oktatóanyag végigvezeti a munkaidő .NET-környezetben történő Aspose.Tasks használatával történő konfigurálásán.
+projektmenedzsmentben a munkaidő pontos ellenőrzése kulcsfontosságú a pontos ütemezés és az erőforrás-elosztás szempontjából. Az Aspose.Tasks for .NET hatékony megoldást kínál a munkaidő-információk kezelésére a projekteken belül. Ez az oktatóanyag végigvezeti a munkaidő .NET-környezetben történő Aspose.Tasks használatával történő konfigurálásán.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy rendelkezik az alábbiakkal:
 - A C# programozási nyelv alapvető ismerete.
-- Aspose.Tasks for .NET könyvtár telepítve. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
-- Állítsa be a Visual Studio vagy bármely preferált C# fejlesztői környezetet.
+-  Aspose.Tasks for .NET könyvtár telepítve. Letöltheti[itt](https://releases.aspose.com/tasks/net/).
+- Visual Studio vagy bármely preferált C# fejlesztői környezet beállítása.
 ## Névterek importálása
 Kezdje a szükséges névterek importálásával az Aspose.Tasks funkciók eléréséhez:
 ```csharp

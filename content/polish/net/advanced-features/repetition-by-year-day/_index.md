@@ -9,7 +9,7 @@ url: /pl/net/advanced-features/repetition-by-year-day/
 ---
 ## Wstęp
 
-W dziedzinie zarządzania projektami efektywne planowanie zadań i ich powtarzalność odgrywają kluczową rolę w zapewnieniu terminowej realizacji i płynnego przepływu pracy. Aspose.Tasks dla .NET oferuje programistom solidne rozwiązanie umożliwiające bezproblemową obsługę powtarzających się zadań w ich aplikacjach. W tym samouczku zagłębiamy się w zawiłości pracy z powtórzeniami dni rocznych przy użyciu Aspose.Tasks, zapewniając kompleksowy przewodnik dotyczący tworzenia powtarzających się zadań w oparciu o roczne wzorce.
+dziedzinie zarządzania projektami efektywne planowanie zadań i ich powtarzalność odgrywają kluczową rolę w zapewnieniu terminowej realizacji i płynnego przepływu pracy. Aspose.Tasks dla .NET oferuje programistom solidne rozwiązanie umożliwiające bezproblemową obsługę powtarzających się zadań w ich aplikacjach. W tym samouczku zagłębiamy się w zawiłości pracy z powtórzeniami dni w roku przy użyciu Aspose.Tasks, zapewniając kompleksowy przewodnik dotyczący tworzenia powtarzających się zadań w oparciu o roczne wzorce.
 
 ## Warunki wstępne
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- Na tym etapie definiujemy parametry naszego zadania cyklicznego. Określamy nazwę zadania, czas trwania i wzór powtarzalności. W przypadku corocznej powtarzalności używamy`YearlyRecurrencePattern` i ustaw powtórkę na 1 dzień lipca za pomocą`ByYearDayRepetition`, Dodatkowo definiujemy zakres powtarzalności od 1 lipca 2018 r. do 1 lipca 2019 r.
+ Na tym etapie definiujemy parametry naszego zadania cyklicznego. Określamy nazwę zadania, czas trwania i wzór powtarzalności. W przypadku corocznej powtarzalności używamy`YearlyRecurrencePattern` i ustaw powtórkę na 1 dzień lipca za pomocą`ByYearDayRepetition`. Dodatkowo definiujemy zakres powtarzalności od 1 lipca 2018 r. do 1 lipca 2019 r.
 
 ## Krok 3: Dodaj zadanie do projektu
 
@@ -86,7 +86,7 @@ Na koniec zapisujemy zmodyfikowany plik projektu z dodanym zadaniem cyklicznym.
 
 ## Wniosek
 
-tym samouczku omówiliśmy proces pracy z powtórzeniami dni roku w Aspose.Tasks dla .NET. Postępując zgodnie z podanymi krokami, programiści mogą bezproblemowo zintegrować funkcjonalność zadań cyklicznych ze swoimi aplikacjami, zwiększając możliwości zarządzania projektami.
+W tym samouczku omówiliśmy proces pracy z powtórzeniami dni roku w Aspose.Tasks dla .NET. Postępując zgodnie z podanymi krokami, programiści mogą bezproblemowo zintegrować funkcjonalność zadań cyklicznych ze swoimi aplikacjami, zwiększając możliwości zarządzania projektami.
 
 ## Często zadawane pytania
 

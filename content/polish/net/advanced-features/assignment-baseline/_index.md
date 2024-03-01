@@ -9,7 +9,7 @@ url: /pl/net/advanced-features/assignment-baseline/
 ---
 ## Wstęp
 
-Podczas pracy nad zadaniami związanymi z zarządzaniem projektami zarządzanie punktami odniesienia przydziałów ma kluczowe znaczenie dla dokładnego śledzenia postępu. Aspose.Tasks dla .NET zapewnia kompleksowy zestaw narzędzi do efektywnej obsługi linii bazowych przypisań. W tym samouczku krok po kroku omówimy proces zarządzania planami bazowymi przypisań.
+Podczas pracy nad zadaniami związanymi z zarządzaniem projektami zarządzanie punktami odniesienia przydziałów ma kluczowe znaczenie dla dokładnego śledzenia postępów. Aspose.Tasks dla .NET zapewnia kompleksowy zestaw narzędzi do efektywnej obsługi linii bazowych przypisań. W tym samouczku krok po kroku omówimy proces zarządzania planami bazowymi przypisań.
 
 ## Warunki wstępne
 

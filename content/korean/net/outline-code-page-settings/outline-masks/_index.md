@@ -66,7 +66,7 @@ outline.Values.Add(value);
 ## 결론
 프로그래밍 방식으로 Microsoft Project 파일 조작을 마스터하면 프로젝트 관리 자동화의 가능성이 넓어집니다. .NET용 Aspose.Tasks를 사용하면 윤곽선 마스크 처리가 간소화되고 효율적이 되어 개발자가 프로젝트 추적 및 관리를 위한 맞춤형 솔루션을 만들 수 있습니다.
 ## FAQ
-### Q: Aspose.Tasks for .NET을 다른 프로젝트 관리 도구와 함께 사용할 수 있습니까?
+### Q: Aspose.Tasks for .NET을 다른 프로젝트 관리 도구와 함께 사용할 수 있나요?
 답: 물론이죠! Aspose.Tasks는 주로 Microsoft Project 파일에 중점을 두지만 다양한 프로젝트 관리 형식과의 상호 운용성을 제공합니다.
 ### Q: Aspose.Tasks는 Microsoft Project 파일 읽기 및 쓰기를 모두 지원합니까?
 A: 예, Aspose.Tasks를 사용하면 개발자는 Microsoft Project 파일을 읽고 쓸 수 있어 포괄적인 조작이 가능합니다.
@@ -75,4 +75,4 @@ A: 실제로, 다음을 방문하실 수 있습니다.[Aspose.Tasks 포럼](http
 ### Q: 구매하기 전에 .NET용 Aspose.Tasks를 사용해 볼 수 있나요?
  답: 물론이죠! Aspose.Tasks의 무료 평가판에 액세스할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Q: Aspose.Tasks에 대한 임시 라이선스는 어디서 얻을 수 있나요?
- A: 평가 또는 테스트 목적으로 임시 라이선스가 필요한 경우 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
+ A: 평가 또는 테스트 목적으로 임시 라이선스가 필요한 경우 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).

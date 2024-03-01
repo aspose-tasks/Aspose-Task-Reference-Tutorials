@@ -12,8 +12,8 @@ Proje yönetiminde, doğru planlama ve kaynak tahsisi için çalışma süreleri
 ## Önkoşullar
 Eğiticiye dalmadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 - C# programlama dilinin temel anlayışı.
-- Aspose.Tasks for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
-- Visual Studio'yu veya tercih edilen herhangi bir C# geliştirme ortamını kurun.
+-  Aspose.Tasks for .NET kütüphanesi kuruldu. İndirebilirsin[Burada](https://releases.aspose.com/tasks/net/).
+- Visual Studio veya tercih edilen herhangi bir C# geliştirme ortamı kurulumu.
 ## Ad Alanlarını İçe Aktar
 Aspose.Tasks işlevlerine erişmek için gerekli ad alanlarını içe aktararak başlayın:
 ```csharp

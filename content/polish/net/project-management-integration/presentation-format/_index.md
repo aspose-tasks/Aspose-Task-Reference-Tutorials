@@ -17,11 +17,11 @@ Zanim zaczniemy, upewnij się, że masz następujące wymagania wstępne:
 
 ### 1. Zainstaluj Aspose.Tasks dla .NET
 
- Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Tasks dla .NET z[strona pobierania](https://releases.aspose.com/tasks/net/), Aby prawidłowo skonfigurować urządzenie, postępuj zgodnie z dostarczonymi instrukcjami instalacji.
+ Jeśli jeszcze tego nie zrobiłeś, pobierz i zainstaluj Aspose.Tasks dla .NET z[strona pobierania](https://releases.aspose.com/tasks/net/). Aby prawidłowo skonfigurować urządzenie, postępuj zgodnie z dostarczonymi instrukcjami instalacji.
 
 ### 2. Zaimportuj niezbędne przestrzenie nazw
 
-W projekcie .NET pamiętaj o zaimportowaniu wymaganych przestrzeni nazw dla Aspose.Tasks:
+projekcie .NET pamiętaj o zaimportowaniu wymaganych przestrzeni nazw dla Aspose.Tasks:
 
 ```csharp
 
@@ -39,7 +39,7 @@ Po pierwsze, upewnij się, że masz skonfigurowany katalog do przechowywania pli
 String DataDir = "Your Document Directory";
 ```
 
- zastępować`"Your Document Directory"` ze ścieżką do żądanego katalogu.
+ Zastępować`"Your Document Directory"` ze ścieżką do żądanego katalogu.
 
 ## Krok 2: Załaduj plik projektu MS
 
@@ -49,7 +49,7 @@ Następnie musisz załadować plik MS Project za pomocą Aspose.Tasks:
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- zastępować`"ResourceSheetView.mpp"` z nazwą pliku MS Project.
+ Zastępować`"ResourceSheetView.mpp"` z nazwą pliku MS Project.
 
 ## Krok 3: Zdefiniuj opcje zapisywania
 

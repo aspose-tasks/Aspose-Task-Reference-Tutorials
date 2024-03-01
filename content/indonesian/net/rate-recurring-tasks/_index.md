@@ -19,7 +19,7 @@ Apakah Anda kesulitan untuk menguasai seluk-beluk manajemen laju Proyek MS dan t
  Di dalam[Kuasai Tarif Proyek MS dengan Aspose.Tasks](./rate-collection/), kami mempelajari seluk-beluk pengelolaan tarif dalam file MS Project. Tutorial ini adalah sumber daya yang dapat Anda gunakan untuk memahami nuansa pengumpulan tarif, menawarkan wawasan praktis, dan memberdayakan Anda untuk meningkatkan kemampuan pengelolaan sumber daya proyek Anda.
 
 ## Interval Berulang Proyek MS yang Mudah di Aspose.Tasks
- Temukan seni mengelola interval berulang dengan mudah[Interval Berulang Proyek MS yang Mudah di Aspose.Tasks](./recurring-intervals/), Tutorial ini memandu Anda melalui proses menggunakan Aspose.Tasks untuk .NET, memastikan Anda dapat menangani tugas berulang dengan lancar dalam Proyek MS Anda.
+ Temukan seni mengelola interval berulang dengan mudah[Interval Berulang Proyek MS yang Mudah di Aspose.Tasks](./recurring-intervals/). Tutorial ini memandu Anda melalui proses menggunakan Aspose.Tasks untuk .NET, memastikan Anda dapat menangani tugas berulang dengan lancar dalam Proyek MS Anda.
 
 ## Mengekstrak Informasi Tugas Berulang di Aspose.Tasks
  Pelajari cara mengekstrak informasi tugas berulang dari file MS Project dengan[Mengekstrak Informasi Tugas Berulang di Aspose.Tasks](./recurring-task-information/)Tutorial ini menawarkan integrasi yang mudah untuk pengembang .NET, memungkinkan Anda bekerja secara efisien dengan tugas berulang di proyek Anda.
@@ -31,13 +31,13 @@ Apakah Anda kesulitan untuk menguasai seluk-beluk manajemen laju Proyek MS dan t
  Ucapkan selamat tinggal pada penghapusan tugas manual![Menghapus Tugas Proyek MS dengan Aspose.Tasks](./removing-tasks/) memandu Anda melalui proses menghapus tugas secara terprogram menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah mencakup contoh kode untuk pengalaman yang lancar.
 
 ## Kuasai Pelaporan Proyek MS dengan Aspose.Tasks
- Buka potensi penuh pelaporan MS Project dengan[Kuasai Pelaporan Proyek MS dengan Aspose.Tasks](./report-types/), Tutorial ini mengeksplorasi cara bekerja dengan file MS Project menggunakan Aspose.Tasks untuk .NET, memungkinkan Anda membuat berbagai jenis laporan dengan mudah.
+ Buka potensi penuh pelaporan MS Project dengan[Kuasai Pelaporan Proyek MS dengan Aspose.Tasks](./report-types/). Tutorial ini mengeksplorasi cara bekerja dengan file MS Project menggunakan Aspose.Tasks untuk .NET, memungkinkan Anda membuat berbagai jenis laporan dengan mudah.
 
 ## Menyimpan File Proyek MS dalam Berbagai Format di Aspose.Tasks
 Manajemen proyek yang efisien mencakup beragam format file.[Menyimpan File Proyek MS dalam Berbagai Format di Aspose.Tasks](./save-file-formats/) memandu Anda melalui langkah-langkah menyimpan file MS Project dalam format berbeda menggunakan Aspose.Tasks untuk .NET.
 
 ## Menangani Bagian Split Proyek MS di Aspose.Tasks
- Menavigasi bagian yang terpisah di MS Project menjadi sangat mudah[Menangani Bagian Split Proyek MS di Aspose.Tasks](./split-parts/), Tingkatkan alur kerja manajemen proyek Anda dengan menangani bagian terpisah secara efisien menggunakan Aspose.Tasks untuk .NET.
+ Menavigasi bagian yang terpisah di MS Project menjadi sangat mudah[Menangani Bagian Split Proyek MS di Aspose.Tasks](./split-parts/). Tingkatkan alur kerja manajemen proyek Anda dengan menangani bagian terpisah secara efisien menggunakan Aspose.Tasks untuk .NET.
 
 ## Kumpulkan Bagian Split Proyek MS di Aspose.Tasks
  Tutorial kami tentang[Kumpulkan Bagian Split Proyek MS di Aspose.Tasks](./split-part-collection/) adalah panduan komprehensif yang memandu Anda melalui proses langkah demi langkah. Pelajari cara mengumpulkan bagian-bagian terpisah di MS Project, memberdayakan Anda untuk mengoptimalkan alur kerja manajemen proyek Anda.

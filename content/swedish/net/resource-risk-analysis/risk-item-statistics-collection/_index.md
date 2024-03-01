@@ -87,4 +87,4 @@ S: Absolut, Aspose.Tasks är designat för att möta kraven från projektledning
 ### F: Kan jag anpassa riskanalysinställningarna i Aspose.Tasks?
 S: Ja, Aspose.Tasks erbjuder flexibilitet när det gäller att konfigurera riskanalysinställningar för att passa dina specifika projektkrav och scenarier.
 ### F: Finns teknisk support tillgänglig för Aspose.Tasks-användare?
- S: Ja, Aspose.Tasks-användare kan få tillgång till teknisk support via Aspose.[forum](https://forum.aspose.com/c/tasks/15), där de kan ställa frågor, rapportera problem och interagera med samhället.
+ S: Ja, Aspose.Tasks-användare kan få tillgång till teknisk support via Aspose[forum](https://forum.aspose.com/c/tasks/15), där de kan ställa frågor, rapportera problem och interagera med samhället.

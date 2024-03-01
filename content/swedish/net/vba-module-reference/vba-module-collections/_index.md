@@ -27,7 +27,7 @@ Nu när vi har våra förutsättningar på plats, låt oss dela upp handledninge
 // Sökvägen till dokumentkatalogen.
 String DataDir = "Your Document Directory";
 ```
- Se till att byta ut`"Your Document Directory"` med den faktiska sökvägen till din projektdokumentkatalog.
+ Se till att byta ut`"Your Document Directory"`med den faktiska sökvägen till din projektdokumentkatalog.
 ## Steg 2: Ladda Project and Access VBA Project
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -65,9 +65,9 @@ Sammanfattningsvis, att behärska VBA-moduler i Aspose.Tasks öppnar nya möjlig
 ### Kan jag använda Aspose.Tasks för .NET med andra programmeringsspråk?
 Aspose.Tasks stöder främst .NET-språk som C#. Det finns dock Java-versioner tillgängliga för kompatibilitet över flera språk.
 ### Finns det en gratis testversion tillgänglig för Aspose.Tasks för .NET?
-Ja, du kan ladda ner den kostnadsfria testversionen från[här](https://releases.aspose.com/).
+ Ja, du kan ladda ner den kostnadsfria testversionen från[här](https://releases.aspose.com/).
 ### Hur kan jag få support för Aspose.Tasks?
- besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd eller överväg att köpa en supportplan.
+ Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd eller överväg att köpa en supportplan.
 ### Finns tillfälliga licenser tillgängliga?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag hitta detaljerad dokumentation för Aspose.Tasks?

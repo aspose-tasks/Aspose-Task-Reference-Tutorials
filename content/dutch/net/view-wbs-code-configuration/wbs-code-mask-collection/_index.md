@@ -132,7 +132,7 @@ Met Aspose.Tasks voor .NET wordt het beheren van WBS-codes een moeiteloze taak. 
 ### Vraag: Kan ik Aspose.Tasks voor .NET gebruiken met andere programmeertalen?
 A: Aspose.Tasks ondersteunt voornamelijk .NET-talen, maar u kunt interoperabiliteitsopties met andere talen verkennen.
 ### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
- A: Ja, u kunt de proefversie downloaden.[hier](https://releases.aspose.com/).
+ A: Ja, u kunt de proefversie downloaden[hier](https://releases.aspose.com/).
 ### Vraag: Hoe zoek ik hulp of meld ik problemen met Aspose.Tasks voor .NET?
  A: Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor ondersteuning en discussies.
 ### Vraag: Wat is het doel van WBS-codes in projectmanagement?

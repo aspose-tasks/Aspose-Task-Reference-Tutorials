@@ -25,7 +25,7 @@ Değişkenler, veri türleri, döngüler ve koşullu ifadeler dahil olmak üzere
 
 ### 3. Aspose.Tasks for .NET'in Kurulumu
 
-Aspose.Tasks for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/tasks/net/).
+ Aspose.Tasks for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İnternet sitesi](https://releases.aspose.com/tasks/net/).
 
 ### 4. Proje Yönetimi Kavramlarına Aşinalık
 

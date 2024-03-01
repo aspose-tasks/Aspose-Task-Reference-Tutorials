@@ -14,7 +14,7 @@ url: /zh-hant/net/advanced-concepts/
 
 ## 在 Aspose.Tasks 中處理影像保存
 
-透過我們的逐步指南，了解在 Aspose.Tasks for .NET 中處理影像保存的技巧。將影像保存功能無縫整合到您的 .NET 應用程式中，增強專案資料的視覺化表示。[閱讀更多](./image-saving/)
+透過我們的逐步指南，了解在 Aspose.Tasks for .NET 中處理影像保存的藝術。將影像保存功能無縫整合到您的 .NET 應用程式中，增強專案資料的視覺化表示。[閱讀更多](./image-saving/)
 
 ## 處理 Aspose.Tasks 中的無效密碼異常
 

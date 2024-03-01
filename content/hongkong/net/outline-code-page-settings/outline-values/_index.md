@@ -1,14 +1,14 @@
 ---
 title: 使用 Aspose.Tasks 掌握 MS 專案大綱值
-linktitle: 在Aspose.Tasks中管理大綱值
+linktitle: 管理 Aspose.Tasks 中的大綱值
 second_title: Aspose.Tasks .NET API
-description: 了解如何使用 Aspose.Tasks for .NET 高效管理 MS Project 大綱值。輕鬆客製化專案大綱。
+description: 了解如何使用 Aspose.Tasks for .NET 有效管理 MS Project 大綱值。輕鬆客製化專案大綱。
 type: docs
 weight: 16
 url: /zh-hant/net/outline-code-page-settings/outline-values/
 ---
 ## 介紹
-在本教學中，我們將探索如何使用 .NET 的 Aspose.Tasks 函式庫管理 Microsoft Project 大綱值。使用Aspose.Tasks，您可以輕鬆操作大綱程式碼，建立新的大綱值，並根據您的要求自訂專案大綱。
+在本教學中，我們將探討如何使用 .NET 的 Aspose.Tasks 函式庫管理 Microsoft Project 大綱值。使用Aspose.Tasks，您可以輕鬆操作大綱程式碼，建立新的大綱值，並根據您的要求自訂專案大綱。
 ## 先決條件
 在開始之前，請確保您具備以下條件：
 1. 安裝 Aspose.Tasks for .NET：從下列位置下載並安裝 Aspose.Tasks for .NET 函式庫[這裡](https://releases.aspose.com/tasks/net/).
@@ -64,14 +64,14 @@ outline2.Values.Add(value2);
 在此步驟中，我們建立兩個 OutlineValue 物件並設定它們的屬性，例如值、值 ID、類型、描述和折疊狀態。
 
 ## 結論
-透過提供的功能，使用 Aspose.Tasks for .NET 管理 MS Project 大綱值非常簡單。透過遵循本教學中概述的步驟，您可以有效地操作大綱程式碼和值，以根據您的需求自訂專案大綱。
+透過所提供的功能，使用 Aspose.Tasks for .NET 管理 MS Project 大綱值非常簡單。透過遵循本教學中概述的步驟，您可以有效地操作大綱程式碼和值，以根據您的需求自訂專案大綱。
 ## 常見問題解答
 ### Q：我可以將 Aspose.Tasks 與其他 .NET 框架一起使用嗎？
 答：是的，Aspose.Tasks 與各種.NET 框架相容，確保您的開發環境的靈活性。
 ### Q：Aspose.Tasks 有試用版嗎？
 答：是的，您可以從以下位置存取 Aspose.Tasks 的免費試用版：[這裡](https://releases.aspose.com/).
 ### Q：如何獲得 Aspose.Tasks 的支援？
-答：如需支援和協助，您可以造訪 Aspose.Tasks 論壇。[這裡](https://forum.aspose.com/c/tasks/15).
+答： 如需支援和協助，您可以造訪 Aspose.Tasks 論壇[這裡](https://forum.aspose.com/c/tasks/15).
 ### Q：我可以購買 Aspose.Tasks 的臨時授權嗎？
 答：是的，您可以從以下位置購買 Aspose.Tasks 的臨時許可證：[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：在哪裡可以找到 Aspose.Tasks 的詳細文件？

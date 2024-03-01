@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Tetapkan properti tugas...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Setel properti penugasan2...
+//Setel properti penugasan2...
 ```
 ## 4. Bekerja dengan Data Bertahap Waktu
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Memanipulasi Data Bertahap Waktu
 ```csharp
-//Tambahkan item data berfase waktu yang salah lalu hapus
+// Tambahkan item data berfase waktu yang salah lalu hapus
 var td4 = new TimephasedData
 {
     // Menyetel properti data fase waktu yang salah...
@@ -120,4 +120,4 @@ Aspose.Tasks menangani proyek dengan berbagai ukuran, dan tidak ada batasan keta
 ### Bisakah saya mencoba Aspose.Tasks untuk .NET sebelum membelinya?
  Ya, Anda dapat menjelajahi fitur Aspose.Tasks untuk .NET dengan mengakses[uji coba gratis](https://releases.aspose.com/).
 ### Di mana saya dapat membeli lisensi Aspose.Tasks untuk .NET?
- Anda dapat membeli lisensi Aspose.Tasks untuk .NET[Di Sini](https://purchase.aspose.com/buy).
+Anda dapat membeli lisensi Aspose.Tasks untuk .NET[Di Sini](https://purchase.aspose.com/buy).

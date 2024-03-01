@@ -26,7 +26,7 @@ Başlamak için gerekli ad alanlarını C# kodunuza aktarın:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- yer değiştirmek`"Your Document Directory"` MS Project dosyanızın yolu ile.
+ Yer değiştirmek`"Your Document Directory"` MS Project dosyanızın yolu ile.
 ## Adım 2: MS Project dosyasını yükleyin
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
@@ -61,4 +61,4 @@ C: Evet, Aspose.Tasks MPP, XML ve CSV gibi çeşitli proje dosyası formatların
 ### S: Aspose.Tasks for .NET belgelerini nerede bulabilirim?
  C: Belgeleri bulabilirsiniz[Burada](https://reference.aspose.com/tasks/net/).
 ### S: Aspose.Tasks for .NET için nasıl teknik destek alabilirim?
-C: Aspose.Tasks forumundan teknik destek alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+ C: Aspose.Tasks forumundan teknik destek alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).

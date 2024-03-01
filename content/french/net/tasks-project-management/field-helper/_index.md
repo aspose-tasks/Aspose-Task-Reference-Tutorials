@@ -17,7 +17,7 @@ Avant de vous lancer dans l'utilisation d'Aspose.Tasks pour .NET, vous devez rem
 
 ### 1. Installation d'Aspose.Tasks pour .NET
 
- Pour commencer, vous devrez télécharger et installer Aspose.Tasks pour .NET. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/tasks/net/), Suivez les instructions d'installation fournies pour configurer la bibliothèque dans votre environnement de développement.
+ Pour commencer, vous devrez télécharger et installer Aspose.Tasks pour .NET. Vous pouvez trouver le lien de téléchargement[ici](https://releases.aspose.com/tasks/net/). Suivez les instructions d'installation fournies pour configurer la bibliothèque dans votre environnement de développement.
 
 ### 2. Importation d'espaces de noms
 

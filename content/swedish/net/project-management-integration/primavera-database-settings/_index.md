@@ -12,7 +12,7 @@ url: /sv/net/project-management-integration/primavera-database-settings/
 ## Förutsättningar
 Innan du börjar, se till att du har följande förutsättningar:
 ### 1. Installera Aspose.Tasks för .NET
- Gå över till[Ladda ner Aspose.Tasks för .NET](https://releases.aspose.com/tasks/net/) och ta den senaste versionen av Aspose.Tasks-biblioteket. Följ installationsinstruktionerna för att ställa in den i din .NET-miljö.
+ Gå över till[Ladda ner Aspose.Tasks för .NET](https://releases.aspose.com/tasks/net/)och ta den senaste versionen av Aspose.Tasks-biblioteket. Följ installationsinstruktionerna för att ställa in den i din .NET-miljö.
 ### 2. Öppna MS Project Primavera-databasen
 Se till att du har tillgång till MS Project Primavera-databasen. Du behöver nödvändiga autentiseringsuppgifter och anslutningsuppgifter för att fortsätta.
 ### 3. Grundläggande kunskaper i C# och .NET Framework
@@ -43,17 +43,17 @@ sb.UserID = "privuser";
 sb.Password = "***";
 sb.ConnectTimeout = 2; // ExSkip
 ```
- Denna kod skapar en`SqlConnectionStringBuilder` objekt och ställer in olika egenskaper som t.ex`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`, etc., för att konfigurera anslutningssträngen för Primavera-databasen.
+ Denna kod skapar en`SqlConnectionStringBuilder`objekt och ställer in olika egenskaper som t.ex`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`, etc., för att konfigurera anslutningssträngen för Primavera-databasen.
 ## Steg 2: Initiera PrimaveraDbSettings Object
 ```csharp
 var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```
-Här initierar vi en ny instans av`PrimaveraDbSettings` klass genom att skicka anslutningssträngen och projekt-ID:t (i det här fallet,`4502`) som parametrar.
+ Här initierar vi en ny instans av`PrimaveraDbSettings` klass genom att skicka anslutningssträngen och projekt-ID:t (i det här fallet,`4502`) som parametrar.
 ## Steg 3: Läs projekt från databasen
 ```csharp
 var project = new Project(settings);
 ```
- Denna rad skapar en ny`Project` objekt genom att passera`settings` objekt vi skapade tidigare. Den upprättar en anslutning till Primavera-databasen och läser projektet med det angivna UID (`4502`,
+ Denna rad skapar en ny`Project` objekt genom att passera`settings` objekt vi skapade tidigare. Den upprättar en anslutning till Primavera-databasen och läser projektet med det angivna UID (`4502`).
 ## Steg 4: Visa projekt-UID
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
@@ -72,4 +72,4 @@ S: Aspose.Tasks för .NET fokuserar främst på lokala projektledningslösningar
 ### F: Kan jag manipulera projektdata programmatiskt med Aspose.Tasks för .NET?
 A: Absolut! Aspose.Tasks för .NET tillhandahåller en rik uppsättning API:er för att läsa, skriva och manipulera projektdata i olika format.
 ### F: Finns det ett communityforum eller supportkanal tillgängligt för Aspose.Tasks för .NET-användare?
- A: Ja, du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för communitysupport och hjälp med alla problem eller frågor du kan ha.## Komplett källkod
+ A: Ja, du kan besöka[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15)för communitysupport och hjälp med alla problem eller frågor du kan ha.## Komplett källkod

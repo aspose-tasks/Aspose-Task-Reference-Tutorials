@@ -2,7 +2,7 @@
 title: Управление шаблонами рисков MS Project в Aspose.Tasks
 linktitle: Управление шаблонами рисков в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Узнайте, как эффективно управлять шаблонами рисков в файлах Microsoft Project с помощью Aspose.Tasks для .NET. Улучшайте результаты проекта с помощью мощных инструментов анализа рисков.
+description: Узнайте, как эффективно управлять шаблонами рисков в файлах Microsoft Project с помощью Aspose.Tasks для .NET. Улучшайте результаты проектов с помощью мощных инструментов анализа рисков.
 type: docs
 weight: 23
 url: /ru/net/resource-risk-analysis/managing-risk-patterns/
@@ -12,10 +12,10 @@ url: /ru/net/resource-risk-analysis/managing-risk-patterns/
 
 ## Предварительные условия
 
-Прежде чем мы углубимся в управление шаблонами рисков MS Project с помощью Aspose.Tasks для .NET, у вас есть следующее:
+Прежде чем мы углубимся в управление шаблонами рисков MS Project с помощью Aspose.Tasks для .NET, убедитесь, что у вас есть следующее:
 
 1. Файл Microsoft Project. Создайте файл Microsoft Project (.mpp), содержащий задачи и соответствующие данные проекта.
-2. Aspose.Tasks для .NET: Загрузите и установите библиотеку Aspose.Tasks для .NET с сайта[Веб-сайт](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks для .NET: Загрузите и установите библиотеку Aspose.Tasks для .NET с сайта[Веб-сайт](https://releases.aspose.com/tasks/net/).
 3. Базовое понимание C#: рекомендуется знание основ языка программирования C#.
 
 ## Импортировать пространства имен
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- На этом этапе мы определяем каталог для документа проекта и создаем настройки для анализа рисков. Настроить`IterationsCount` по мере необходимости в зависимости от сложности проекта.
+На этом этапе мы определяем каталог для документа проекта и создаем настройки для анализа рисков. Настроить`IterationsCount` по мере необходимости в зависимости от сложности проекта.
 
 ## Шаг 2. Загрузите проект и задачу
 

@@ -11,7 +11,7 @@ url: /tr/net/task-table-management/table-fields/
 .NET uygulamalarınızda Microsoft Project dosyalarının kusursuz şekilde işlenmesini sağlayan güçlü bir kütüphane olan Aspose.Tasks for .NET dünyasına hoş geldiniz. Bu eğitimde Aspose.Tasks'ta tablo alanlarının işlenmesinin inceliklerini inceleyerek proje tablolarını verimli bir şekilde okumanıza ve yönetmenize olanak sağlayacağız. İster deneyimli bir geliştirici olun ister yeni başlayan biri olun, bu adım adım kılavuz Aspose.Tasks'ın tüm potansiyelinden yararlanmanız için size güç verecektir.
 ## Önkoşullar
 Bu yolculuğa çıkmadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
--  Aspose.Tasks Kitaplığı: Aspose.Tasks for .NET kitaplığını indirip yükleyin. Bulabilirsin[Burada](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks Kitaplığı: Aspose.Tasks for .NET kitaplığını indirip yükleyin. Bulabilirsin[Burada](https://releases.aspose.com/tasks/net/).
 - Geliştirme Ortamı: Makinenizde Visual Studio gibi uygun bir geliştirme ortamının kurulu olduğundan emin olun.
 Şimdi masa alanlarıyla ilgilenmenin en ince ayrıntılarına geçelim.
 ## Ad Alanlarını İçe Aktar
@@ -71,4 +71,4 @@ En son sürümden itibaren tablo alanlarının sayısında katı bir sınırlama
 ### Aspose.Tasks için güncellemeler ne sıklıkta yayınlanıyor?
 Uyumluluğu sağlamak ve yeni özellikler sunmak için Aspose.Tasks güncellemeleri düzenli olarak yayınlanmaktadır.
 ### Aspose.Tasks desteği için bir topluluk forumu var mı?
-Evet, şu konuda yardım ve tartışmalar bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+ Evet, şu konuda yardım ve tartışmalar bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).

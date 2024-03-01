@@ -8,7 +8,7 @@ weight: 17
 url: /it/net/outline-code-page-settings/outline-value-collection/
 ---
 ## introduzione
-Aspose.Tasks per .NET fornisce un set completo di funzionalità per interagire con i file di Microsoft Project. Una di queste funzionalità è la capacità di gestire i valori di contorno all'interno di un progetto. In questo tutorial esploreremo come raccogliere e manipolare i valori di struttura utilizzando Aspose.Tasks per .NET.
+Aspose.Tasks per .NET fornisce un set completo di funzionalità per interagire con i file di Microsoft Project. Una di queste funzionalità è la capacità di gestire i valori di struttura all'interno di un progetto. In questo tutorial esploreremo come raccogliere e manipolare i valori di struttura utilizzando Aspose.Tasks per .NET.
 ## Prerequisiti
 Prima di iniziare, assicurati di avere quanto segue:
 1.  Aspose.Tasks per .NET: è possibile scaricare la libreria da[Qui](https://releases.aspose.com/tasks/net/).
@@ -62,7 +62,7 @@ Aggiorna il valore del codice di struttura:
 codeDefinition.Values[0].Value = "654321";
 ```
 ## Passaggio 5: ripetere i valori del contorno
-Scorri i valori del contorno e stampa i loro dettagli:
+Scorrere i valori del contorno e stamparne i dettagli:
 ```csharp
 foreach (var definitionValue in codeDefinition.Values)
 {
@@ -73,7 +73,7 @@ foreach (var definitionValue in codeDefinition.Values)
 }
 ```
 ## Passaggio 6: manipolare i valori del contorno
-Esegui operazioni come rimuovere, inserire e copiare i valori del contorno secondo necessità:
+Eseguire operazioni come rimuovere, inserire e copiare i valori del contorno secondo necessità:
 ```csharp
 if (codeDefinition.Values.Contains(value))
 {
@@ -96,7 +96,7 @@ foreach (var outlineValue in outlineValues)
 }
 ```
 ## Conclusione
-In questo tutorial, abbiamo imparato come lavorare con i valori di struttura nei file Microsoft Project utilizzando Aspose.Tasks per .NET. Seguendo i passaggi forniti, puoi gestire in modo efficiente i valori di contorno all'interno dei tuoi progetti, consentendo maggiore controllo e flessibilità.
+In questo tutorial, abbiamo imparato come lavorare con i valori di struttura nei file di Microsoft Project utilizzando Aspose.Tasks per .NET. Seguendo i passaggi forniti, puoi gestire in modo efficiente i valori di struttura all'interno dei tuoi progetti, consentendo maggiore controllo e flessibilità.
 ## Domande frequenti
 ### D: Posso manipolare più codici di struttura contemporaneamente?
 R: Sì, puoi definire e manipolare più codici di struttura all'interno di un progetto utilizzando Aspose.Tasks.

@@ -21,13 +21,13 @@ url: /zh-hant/net/project-management-integration/
 ## 使用 Aspose.Tasks 讀取 MS Project Primavera 數據
 解鎖使用 Aspose.Tasks for .NET 讀取 MS Project Primavera 資料的能力。我們的教程[這裡](./primavera-data-reading/)透過程式碼範例引導您完成整個過程，使資料檢索變得輕而易舉。
 
-旅程並未在此結束；探索大量教程，涵蓋從處理進度線和掌握專案資料到配置顯示選項和無縫管理 MS Project Server 等各個方面。深入研究 Aspose.Tasks for .NET 教程，釋放專案管理功能的全部潛力。
+旅程並未在此結束；探索大量教學課程，涵蓋從處理進度線和掌握專案資料到配置顯示選項和無縫管理 MS Project Server 的所有內容。深入研究 Aspose.Tasks for .NET 教程，釋放專案管理功能的全部潛力。
 
-準備好自訂 MS Project 視圖、管理伺服器憑證並輕鬆提取專案資訊了嗎？請遵循我們的指南[自訂 MS 專案視圖](./project-views/), [管理 MS Project Server 憑證](./project-server-credentials/)，和[提取 MS 項目信息](./project-information/)以獲得深入的見解。
+準備好自訂 MS Project 視圖、管理伺服器憑證並輕鬆提取專案資訊了嗎？請遵循我們的指南[自訂 MS 專案視圖](./project-views/), [管理 MS Project Server 憑證](./project-server-credentials/)， 和[提取 MS 項目信息](./project-information/)以獲得深入的見解。
 
 透過以下教學課程無縫處理 MS Project Online 異常、自動化專案任務並提高專案管理效率[管理 MS Project Online 異常](./project-online-exceptions/)和[使用 Aspose.Tasks 管理 MS Project Server](./project-server-management/).
 
-不要錯過釋放 Microsoft Project 檔案操作能力的機會[掌握 MS 專案文件處理](./project-file-formats/),此外，還可以使用以下方式輕鬆檢索 Microsoft Project 文件信息[檢索 MS 專案文件信息](./project-file-information/).
+不要錯過釋放 Microsoft Project 檔案操作能力的機會[掌握 MS 專案文件處理](./project-file-formats/)。此外，還可以使用以下方式輕鬆檢索 Microsoft Project 文件信息[檢索 MS 專案文件信息](./project-file-information/).
 
 準備好將您的專案管理技能提升到新的水平了嗎？探索這些教程，並精通 Aspose.Tasks for .NET。您掌握專案管理的旅程從這裡開始！
 

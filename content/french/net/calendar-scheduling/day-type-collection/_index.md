@@ -79,7 +79,7 @@ exc2.DaysOfWeek.RemoveAt(0);
 
 Cette étape montre comment modifier les exceptions du calendrier en ajoutant, supprimant ou mettant à jour des types de jours.
 
-## Étape 4 : Créer et manipuler de nouvelles exceptions de calendrier
+## Étape 4 : Créer et gérer de nouvelles exceptions de calendrier
 
 ```csharp
 var exc4 = new CalendarException

@@ -11,7 +11,7 @@ url: /nl/net/resource-risk-analysis/risk-item-statistics/
 Wilt u uw projectmanagementvaardigheden verbeteren met Aspose.Tasks voor .NET? Duik in de wereld van risicoanalyse met onze stapsgewijze zelfstudie over het verkrijgen van statistieken voor risico-items in MS Project-bestanden. Door gebruik te maken van de krachtige mogelijkheden van Aspose.Tasks kunt u waardevolle inzichten verkrijgen in projectonzekerheden en weloverwogen beslissingen nemen om risico's effectief te beperken.
 ## Vereisten
 Voordat we aan deze reis beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-1.  Aspose.Tasks voor .NET-bibliotheek: Download en installeer de bibliotheek van de .NET-bibliotheek[Aspose.Tasks voor .NET-documentatie](https://reference.aspose.com/tasks/net/), Deze bibliotheek voorziet u van robuuste tools voor het programmatisch manipuleren van MS Project-bestanden.
+1.  Aspose.Tasks voor .NET-bibliotheek: Download en installeer de bibliotheek van de .NET-bibliotheek[Aspose.Tasks voor .NET-documentatie](https://reference.aspose.com/tasks/net/). Deze bibliotheek voorziet u van robuuste tools voor het programmatisch manipuleren van MS Project-bestanden.
 2. .NET-ontwikkelomgeving: Stel uw .NET-ontwikkelomgeving in, inclusief Visual Studio of een andere IDE van uw keuze, om een naadloze integratie van Aspose.Tasks in uw projecten te vergemakkelijken.
 
 ## Naamruimten importeren
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- Zorg ervoor dat u deze vervangt`"Your Document Directory"`met het pad naar uw documentmap waar uw MS Project-bestanden zich bevinden.
+ Zorg ervoor dat u deze vervangt`"Your Document Directory"` met het pad naar uw documentmap waar uw MS Project-bestanden zich bevinden.
 ## Stap 2: Configureer de risicoanalyse-instellingen
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- Pas de .... aan`IterationsCount` parameter gebaseerd op uw projectvereisten om de nauwkeurigheid van de risicoanalyse te controleren.
+ Pas de .... aan`IterationsCount`parameter gebaseerd op uw projectvereisten om de nauwkeurigheid van de risicoanalyse te controleren.
 ## Stap 3: MS-projectbestand laden
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

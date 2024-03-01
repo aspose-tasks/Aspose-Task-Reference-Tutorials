@@ -14,22 +14,22 @@ Készen áll arra, hogy javítsa projektmenedzsment-készségeit az Aspose.Tasks
 
 ## Haladó ÉS művelet az Aspose.Tasks-ban
 
- Használja ki a fejlett ÉS műveletekben rejlő lehetőségeket az Aspose.Tasks for .NET-ben. Oktatóanyagunk végigvezeti Önt a projektfeladatok hatékony szűrésén több kritérium alapján. Gyakorlati példák segítségével ismerje meg mélyebben a feladatkezelést.[Olvass tovább](./advanced-and-operation/)
+Használja ki a fejlett ÉS műveletekben rejlő lehetőségeket az Aspose.Tasks for .NET-ben. Oktatóanyagunk végigvezeti Önt a projektfeladatok hatékony szűrésén több kritérium alapján. Gyakorlati példák segítségével ismerje meg mélyebben a feladatkezelést.[Olvass tovább](./advanced-and-operation/)
 
 ## Az AND operátor használata minden körülmények között az Aspose.Tasks segítségével
 
-Fedezze fel az ÉS operátor használatát minden körülmények között az Aspose.Tasks for .NET segítségével. A projektfeladatok hatékony szűrése különböző kritériumok alapján. Növelje projektmenedzsment-készségeit ezzel a lépésről lépésre bemutatott útmutatóval.[Olvass tovább](./and-operator-all-conditions/)
+ Fedezze fel az ÉS operátor használatát minden körülmények között az Aspose.Tasks for .NET segítségével. A projektfeladatok hatékony szűrése különböző kritériumok alapján. Növelje projektmenedzsment-készségeit ezzel a lépésről lépésre bemutatott útmutatóval.[Olvass tovább](./and-operator-all-conditions/)
 
 ## Memóriakivételek kezelése az Aspose.Tasks Layout Builder segítségével
 
  A .NET memóriakivételeinek kezelése az Aspose.Tasks Layout Builder segítségével. Útmutatónk lépésről lépésre bemutatja a kódpéldákat, így biztosítva, hogy zökkenőmentesen kezelje a kivételeket. Növelje projektje hatékonyságát most.[Olvass tovább](./layout-builder-out-of-memory/)
 ## Munka a hozzárendeléssel az Aspose.Tasks programban
 
- Hatékonyan kezelheti a projekt-hozzárendeléseket .NET-ben az Aspose.Tasks segítségével. Ez az oktatóanyag az erőforrás-ütemezés különböző kontúrjaiba nyúlik bele, gyakorlati betekintést és tippeket kínálva. Javítsa projektszervezését és egyszerűsítse a munkafolyamatokat.[Olvass tovább](./working-with-assignment/)
+Hatékonyan kezelheti a projekt-hozzárendeléseket .NET-ben az Aspose.Tasks segítségével. Ez az oktatóanyag az erőforrás-ütemezés különböző kontúrjaiba nyúlik bele, gyakorlati betekintést és tippeket kínálva. Javítsa projektszervezését és egyszerűsítse a munkafolyamatokat.[Olvass tovább](./working-with-assignment/)
 
 ## A hozzárendelés alapvonalának kezelése az Aspose.Tasks programban
 
-Ismerje meg, hogyan kezelheti hatékonyan a hozzárendelési alapokat az Aspose.Tasks for .NET segítségével. Ez biztosítja a projekt előrehaladásának és teljesítményének pontos nyomon követését. Merüljön el oktatóanyagunkban, ahol lépésről lépésre kaphat útmutatót projektmenedzsmenti stratégiáinak optimalizálásához.[Olvass tovább](./assignment-baseline/)
+ Ismerje meg, hogyan kezelheti hatékonyan a hozzárendelési alapokat az Aspose.Tasks for .NET segítségével. Ez biztosítja a projekt előrehaladásának és teljesítményének pontos nyomon követését. Merüljön el oktatóanyagunkban, ahol lépésről lépésre kaphat útmutatót projektmenedzsmenti stratégiáinak optimalizálásához.[Olvass tovább](./assignment-baseline/)
 
 ## Hozzárendelési alapvonalak gyűjteménye az Aspose.Tasks-ban
 
@@ -37,11 +37,11 @@ Ismerje meg, hogyan kezelheti hatékonyan a hozzárendelési alapokat az Aspose.
 
 ## Egyéni hozzárendelés nézet oszlopa az Aspose.Tasks-ban
 
- Fedezze fel, hogyan adhat hozzá egyéni hozzárendelési nézetoszlopokat az Aspose.Tasks for .NET-hez, és ezzel növelheti projektkezelési képességeit. Ez az oktatóanyag egy részletes útmutatót ad, amely lehetővé teszi, hogy projektnézeteit egyedi követelményeknek megfelelően alakítsa.[Olvass tovább](./assignment-view-column/)
+Fedezze fel, hogyan adhat hozzá egyéni hozzárendelési nézetoszlopokat az Aspose.Tasks for .NET-hez, és ezzel növelheti projektkezelési képességeit. Ez az oktatóanyag egy részletes útmutatót ad, amely lehetővé teszi, hogy projektnézeteit egyedi követelményeknek megfelelően alakítsa.[Olvass tovább](./assignment-view-column/)
 
 ## A rendelkezésre állási időszakok kezelése az Aspose.Tasks-ban
 
-Az Aspose.Tasks for .NET segítségével hatékonyan kezelheti az erőforrások rendelkezésre állási időszakait. Ez az oktatóanyag lépésenkénti útmutatót kínál, amely gyakorlati betekintést nyújt a .NET-projektek rendelkezésre állási időszakainak kezeléséhez. A projekt tervezésének és végrehajtásának javítása.[Olvass tovább](./working-with-availability-periods/)
+ Az Aspose.Tasks for .NET segítségével hatékonyan kezelheti az erőforrások rendelkezésre állási időszakait. Ez az oktatóanyag lépésenkénti útmutatót kínál, amely gyakorlati betekintést nyújt a .NET-projektek rendelkezésre állási időszakainak kezeléséhez. A projekt tervezésének és végrehajtásának javítása.[Olvass tovább](./working-with-availability-periods/)
 
 ## Az Aspose.Tasks elérhetőségi időszakainak gyűjteménye
 
@@ -49,7 +49,7 @@ Az Aspose.Tasks for .NET segítségével hatékonyan kezelheti az erőforrások 
 
 ## Styling Bar az Aspose.Tasks-ban
 
- Tanulja meg, hogyan lehet sávokat stílusozni az Aspose.Tasks for .NET-ben a projektek megjelenítésének javítása érdekében. Oktatóanyagunk gyakorlati betekintést nyújt, és segít látványos projektidővonalak létrehozásában. Emelje fel projektbemutatóját és kommunikációját.[Olvass tovább](./styling-bar/)
+Tanulja meg, hogyan lehet sávokat stílusozni az Aspose.Tasks for .NET-ben a projektek megjelenítésének javítása érdekében. Oktatóanyagunk gyakorlati betekintést nyújt, és segít látványos projektidővonalak létrehozásában. Emelje fel projektbemutatóját és kommunikációját.[Olvass tovább](./styling-bar/)
 
 
 ## Aspose.Tasks Speciális funkciók oktatóanyagok

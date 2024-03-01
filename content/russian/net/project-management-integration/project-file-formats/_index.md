@@ -1,5 +1,5 @@
 ---
-title: Освоение работы с файлами MS Project с помощью Aspose.Tasks
+title: Освоение обработки файлов MS Project с помощью Aspose.Tasks
 linktitle: Обработка форматов файлов проекта в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Раскройте возможности манипулирования файлами Microsoft Project с помощью Aspose.Tasks для .NET. Погрузитесь в бесшовную интеграцию и управление.
@@ -25,7 +25,7 @@ using System;
 ## Шаг 1. Настройте свой проект
 Начните с создания нового проекта C# в Visual Studio. Убедитесь, что Aspose.Tasks для .NET установлен и указан в вашем проекте.
 ## Шаг 2. Доступ к информации о файле проекта
- Для доступа к информации о файле проекта используйте команду`Project.GetProjectFileInfo` метод.
+ Чтобы получить доступ к информации о файле проекта, используйте команду`Project.GetProjectFileInfo` метод.
 ```csharp
 // Путь к каталогу документов.
 string dataDir = "Your Document Directory";
@@ -40,7 +40,7 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 ```
 
 ## Заключение
-Программная обработка форматов файлов Microsoft Project упрощается с помощью Aspose.Tasks для .NET. Следуя этому руководству, вы узнали, как получить доступ к информации о файлах проекта и отобразить ее с помощью библиотеки Aspose.Tasks на C#.
+Программная обработка форматов файлов Microsoft Project упрощается с помощью Aspose.Tasks для .NET. Следуя этому руководству, вы научились получать доступ и отображать информацию о файлах проекта с помощью библиотеки Aspose.Tasks на C#.
 ## Часто задаваемые вопросы
 ### Вопрос: Может ли Aspose.Tasks обрабатывать разные версии файлов Microsoft Project?
 О: Да, Aspose.Tasks поддерживает различные версии файлов Microsoft Project, включая форматы .mpp, .xml и .csv.

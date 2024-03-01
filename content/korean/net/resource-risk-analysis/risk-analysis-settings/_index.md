@@ -59,7 +59,7 @@ var pattern = new RiskPattern(task);
 ```csharp
 pattern.Distribution = ProbabilityDistributionType.Normal;
 ```
-무작위 값을 생성하기 위한 분포 유형을 선택합니다(예: 정규 또는 균일).
+임의의 값을 생성하기 위한 분포 유형(예: 정규 또는 균일)을 선택합니다.
 ## 8단계: 낙관적 기간 설정
 ```csharp
 pattern.Optimistic = 70;
@@ -80,7 +80,7 @@ pattern.ConfidenceLevel = ConfidenceLevel.CL75;
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- 초기화`RiskAnalyzer` 목표를 설정하고 프로젝트에 대한 위험 분석을 수행합니다.
+ 초기화`RiskAnalyzer` 프로젝트에 대해 반대하고 위험 분석을 수행합니다.
 ## 12단계: 분석 결과 검색
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

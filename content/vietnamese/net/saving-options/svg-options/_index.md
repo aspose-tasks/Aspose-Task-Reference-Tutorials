@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## Bước 1: Xác định thư mục tài liệu
-Đảm bảo bạn có một thư mục được chỉ định cho tài liệu của bạn. thay thế`"Your Document Directory"` với đường dẫn đến thư mục mong muốn của bạn.
+ Đảm bảo bạn có một thư mục được chỉ định cho tài liệu của bạn. Thay thế`"Your Document Directory"` với đường dẫn đến thư mục mong muốn của bạn.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Bước 2: Tải tệp dự án
- Tải tệp Microsoft Project (.mpp) bằng cách sử dụng`Project` lớp học.
+Tải tệp Microsoft Project (.mpp) bằng cách sử dụng`Project` lớp học.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

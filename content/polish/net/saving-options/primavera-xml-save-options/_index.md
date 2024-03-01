@@ -11,7 +11,7 @@ url: /pl/net/saving-options/primavera-xml-save-options/
 W dziedzinie zarządzania projektami i obsługi zadań Aspose.Tasks dla .NET okazuje się potężnym sojusznikiem. Ta biblioteka zapewnia programistom narzędzia niezbędne do łatwego manipulowania danymi projektu w aplikacjach .NET. Godną uwagi cechą jest możliwość interakcji z plikami XML Primavera, oferująca płynną obsługę informacji o projekcie.
 ## Warunki wstępne
 Zanim zagłębisz się w zawiłości wykorzystania Aspose.Tasks dla .NET do zapisywania opcji MS Project w formacie Primavera XML, upewnij się, że spełnione są następujące wymagania wstępne:
-1.  Instalacja: Zainstaluj bibliotekę Aspose.Tasks for .NET w swoim środowisku programistycznym. Jeśli nie, pobierz go z[Tutaj](https://releases.aspose.com/tasks/net/) postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji[Tutaj](https://reference.aspose.com/tasks/net/).
+1.  Instalacja: Zainstaluj bibliotekę Aspose.Tasks for .NET w swoim środowisku programistycznym. Jeśli nie, pobierz go z[Tutaj](https://releases.aspose.com/tasks/net/) i postępuj zgodnie z instrukcjami instalacji zawartymi w dokumentacji[Tutaj](https://reference.aspose.com/tasks/net/).
 2. Znajomość .NET Framework: Podstawowa znajomość .NET Framework i języka programowania C# jest niezbędna do zrozumienia koncepcji omówionych w tym samouczku.
 3. Plik MS Project: Przygotuj plik Microsoft Project (`project.xml`), który chcesz zapisać w formacie Primavera XML.
 
@@ -38,7 +38,7 @@ Utwórz instancję obiektu PrimaveraXmlSaveOptions, aby określić opcje zapisyw
 var options = new PrimaveraXmlSaveOptions();
 options.SaveRootTask = false;
 ```
-## Krok 4: Zapisz projekt w formacie XML Primavera
+## Krok 4: Zapisz projekt w formacie Primavera XML
 ```csharp
 project.Save(DataDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
 ```
@@ -51,7 +51,7 @@ Odp.: Tak, Aspose.Tasks dla .NET obsługuje integrację z różnymi narzędziami
 ### P: Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla .NET?
  Odp.: Tak, możesz uzyskać dostęp do bezpłatnej wersji próbnej Aspose.Tasks dla .NET[Tutaj](https://releases.aspose.com/).
 ### P: Jak mogę uzyskać pomoc techniczną dla Aspose.Tasks dla .NET?
- Odp.: Możesz szukać pomocy technicznej i kontaktować się ze społecznością na forum Aspose.Tasks.[Tutaj](https://forum.aspose.com/c/tasks/15).
+ Odp.: Możesz szukać pomocy technicznej i kontaktować się ze społecznością na forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).
 ### P: Jakie są opcje licencjonowania Aspose.Tasks dla .NET?
  Odp.: Dla Aspose.Tasks dla .NET dostępne są różne opcje licencjonowania, w tym licencje tymczasowe. Zapoznaj się ze szczegółami licencji[Tutaj](https://purchase.aspose.com/buy).
 ### P: Czy mogę dostosować opcje zapisywania w formacie Primavera XML?

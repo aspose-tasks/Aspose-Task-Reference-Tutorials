@@ -127,6 +127,6 @@ Aprenda como gerenciar coleções do MS Project com eficiência usando Aspose.Ta
 ### [Manipulação de critérios de grupo do MS Project em Aspose.Tasks](./group-criteria/)
 Explore como manipular arquivos do MS Project programaticamente em .NET usando Aspose.Tasks. Recupere exemplos passo a passo de informações sobre grupos de tarefas e critérios.
 ### [Gerenciar critérios de grupo do MS Project com Aspose.Tasks](./group-criterion-collection/)
-Aprenda como gerenciar a coleção do Group Criterion MS Project usando Aspose.Tasks for .NET. Guia passo a passo para desenvolvedores.
+Aprenda como gerenciar a coleção Group Criterion MS Project usando Aspose.Tasks for .NET. Guia passo a passo para desenvolvedores.
 ### [Extraia informações de cabeçalho e rodapé com Aspose.Tasks](./header-footer-information/)
 Aprenda a extrair informações de cabeçalho e rodapé de arquivos do MS Project usando Aspose.Tasks for .NET. Solução fácil, eficiente e amigável ao desenvolvedor.

@@ -1,6 +1,6 @@
 ---
 title: Configureer MS Project Primavera-database in Aspose.Tasks
-linktitle: Configureer Primavera Database-instellingen in Aspose.Tasks
+linktitle: Primavera-database-instellingen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u MS Project Primavera Database-instellingen moeiteloos kunt configureren in Aspose.Tasks voor .NET. Stroomlijn uw projectmanagementtaken.
 type: docs
@@ -12,7 +12,7 @@ Bent u klaar om de kracht van Aspose.Tasks voor .NET te benutten om MS Project P
 ## Vereisten
 Voordat u begint, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 ### 1. Installeer Aspose.Tasks voor .NET
- Ga naar[Download Aspose.Tasks voor .NET](https://releases.aspose.com/tasks/net/) en pak de nieuwste versie van de Aspose.Tasks-bibliotheek. Volg de meegeleverde installatie-instructies om het in uw .NET-omgeving in te stellen.
+ Ga naar[Download Aspose.Tasks voor .NET](https://releases.aspose.com/tasks/net/)en pak de nieuwste versie van de Aspose.Tasks-bibliotheek. Volg de meegeleverde installatie-instructies om het in uw .NET-omgeving in te stellen.
 ### 2. Toegang tot de MS Project Primavera-database
 Zorg ervoor dat u toegang heeft tot de MS Project Primavera-database. U heeft de benodigde inloggegevens en verbindingsgegevens nodig om door te gaan.
 ### 3. Basiskennis van C# en .NET Framework
@@ -43,17 +43,17 @@ sb.UserID = "privuser";
 sb.Password = "***";
 sb.ConnectTimeout = 2; // ExOverslaan
 ```
- Deze code maakt een`SqlConnectionStringBuilder` object en stelt verschillende eigenschappen in, zoals`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`, enz., om de verbindingsreeks voor de Primavera-database te configureren.
+ Deze code maakt een`SqlConnectionStringBuilder`object en stelt verschillende eigenschappen in, zoals`DataSource`, `Encrypt`, `InitialCatalog`, `UserID`, `Password`, enz., om de verbindingsreeks voor de Primavera-database te configureren.
 ## Stap 2: Initialiseer het PrimaveraDbSettings-object
 ```csharp
 var settings = new PrimaveraDbSettings(sb.ConnectionString, 4502);
 ```
-Hier initialiseren we een nieuw exemplaar van de`PrimaveraDbSettings` klasse door de verbindingsreeks en de project-ID door te geven (in dit geval`4502`) als parameters.
+ Hier initialiseren we een nieuw exemplaar van de`PrimaveraDbSettings` klasse door de verbindingsreeks en de project-ID door te geven (in dit geval`4502`) als parameters.
 ## Stap 3: Lees het project uit de database
 ```csharp
 var project = new Project(settings);
 ```
- Deze regel creëert een nieuwe`Project` object door het passeren van de`settings` object dat we eerder hebben gemaakt. Het brengt een verbinding tot stand met de Primavera-database en leest het project met de opgegeven UID (`4502`,
+ Deze regel creëert een nieuwe`Project` object door het passeren van de`settings` object dat we eerder hebben gemaakt. Het brengt een verbinding tot stand met de Primavera-database en leest het project met de opgegeven UID (`4502`).
 ## Stap 4: Geef de project-UID weer
 ```csharp
 Console.WriteLine("Project UID to read: " + settings.ProjectId);
@@ -72,4 +72,4 @@ A: Aspose.Tasks voor .NET richt zich primair op lokale projectbeheeroplossingen,
 ### Vraag: Kan ik projectgegevens programmatisch manipuleren met Aspose.Tasks voor .NET?
 EEN: Absoluut! Aspose.Tasks voor .NET biedt een uitgebreide set API's voor het lezen, schrijven en manipuleren van projectgegevens in verschillende formaten.
 ### Vraag: Is er een communityforum of ondersteuningskanaal beschikbaar voor Aspose.Tasks voor .NET-gebruikers?
- A: Ja, u kunt de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en hulp bij eventuele problemen of vragen die u heeft.## Volledige broncode
+ A: Ja, u kunt de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15)voor gemeenschapsondersteuning en hulp bij eventuele problemen of vragen die u heeft.## Volledige broncode

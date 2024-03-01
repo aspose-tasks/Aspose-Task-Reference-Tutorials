@@ -94,7 +94,7 @@ Bu eğitimde Aspose.Tasks for .NET'te kullanılabilirlik dönemleriyle nasıl ç
 
 ### S2: Aspose.Tasks for .NET'in ücretsiz deneme sürümü mevcut mu?
 
- C2: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
+C2: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünü edinebilirsiniz[Burada](https://releases.aspose.com/).
 
 ### S3: Aspose.Tasks for .NET belgelerini nerede bulabilirim?
 
@@ -102,7 +102,7 @@ Bu eğitimde Aspose.Tasks for .NET'te kullanılabilirlik dönemleriyle nasıl ç
 
 ### S4: Aspose.Tasks for .NET için nasıl destek alabilirim?
 
- Cevap4: Topluluk forumundan destek alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+ Cevap4: Topluluk forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 
 ### S5: Aspose.Tasks for .NET için geçici lisanslar sunuyor musunuz?
 

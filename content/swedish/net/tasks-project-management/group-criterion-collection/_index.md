@@ -69,7 +69,7 @@ Rensa befintliga gruppkriterier om det inte är skrivskyddat.
 group.GroupCriteria.Clear();
 ```
 
-## Steg 5: Lägg till nya kriterier
+## Steg 5: Lägg till nytt kriterium
 
 Skapa ett nytt gruppkriterium och lägg till det i gruppen.
 
@@ -125,4 +125,4 @@ S: Absolut, du kan lägga till flera kriterier till en grupp genom att iterera i
 
 ### F5: Hur kan jag få support om jag stöter på några problem?
 
- S: Om du har några frågor eller stöter på några problem kan du söka support från Aspose.Tasks-forumet.[här](https://forum.aspose.com/c/tasks/15).
+ S: Om du har några frågor eller stöter på några problem kan du söka support från Aspose.Tasks-forumet[här](https://forum.aspose.com/c/tasks/15).

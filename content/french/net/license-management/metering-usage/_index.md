@@ -11,7 +11,7 @@ url: /fr/net/license-management/metering-usage/
 Cherchez-vous à gérer et surveiller efficacement votre utilisation de MS Project avec Aspose.Tasks ? Grâce à la puissance du comptage, vous pouvez suivre votre utilisation et optimiser vos efforts de gestion de projet. Dans ce didacticiel, nous vous guiderons étape par étape tout au long du processus de mesure de l'utilisation de MS Project à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
 Avant de nous lancer dans la mesure de l'utilisation de MS Project, assurez-vous de disposer des conditions préalables suivantes :
-1.  Bibliothèque Aspose.Tasks for .NET : téléchargez et installez la bibliothèque Aspose.Tasks for .NET à partir du[page de téléchargement](https://releases.aspose.com/tasks/net/), Suivez les instructions d'installation pour configurer la bibliothèque dans votre environnement de développement.
+1.  Bibliothèque Aspose.Tasks for .NET : téléchargez et installez la bibliothèque Aspose.Tasks for .NET à partir du[page de téléchargement](https://releases.aspose.com/tasks/net/). Suivez les instructions d'installation pour configurer la bibliothèque dans votre environnement de développement.
 2.  Clés publiques et privées : obtenez vos clés publiques et privées auprès d'Aspose. Ces touches sont essentielles à l'utilisation du comptage. Si vous n'avez pas encore de clés, vous pouvez les demander à Aspose via le[permis temporaire](https://purchase.aspose.com/temporary-license/) page.
 
 ## Importer des espaces de noms
@@ -30,7 +30,7 @@ String DataDir = "Your Document Directory";
 var metered = new Metered();
 metered.SetMeteredKey("<public key>", "<private key>");
 ```
- remplacer`"Your Document Directory"` avec le chemin d'accès à votre répertoire de documents et remplacez-le`<public key>` et`<private key>` avec vos clés réelles obtenues auprès d'Aspose.
+ Remplacer`"Your Document Directory"` avec le chemin d'accès à votre répertoire de documents et remplacez-le`<public key>` et`<private key>` avec vos clés réelles obtenues auprès d'Aspose.
 ## Étape 2 : Charger le fichier MS Project
 Ensuite, chargez votre fichier MS Project à l'aide d'Aspose.Tasks :
 ```csharp

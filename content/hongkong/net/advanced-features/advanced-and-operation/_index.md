@@ -106,4 +106,4 @@ foreach (var task in collection)
 
 ### Q5：如何獲得 Aspose.Tasks for .NET 支援？
 
-答：您可以從 Aspose.Tasks 社群論壇獲得支援。[這裡](https://forum.aspose.com/c/tasks/15).
+答：您可以從 Aspose.Tasks 社群論壇獲得支持[這裡](https://forum.aspose.com/c/tasks/15).

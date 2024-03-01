@@ -69,8 +69,8 @@ Có, Aspose.Tasks hỗ trợ nhiều phiên bản khác nhau của tệp Microso
 ### Tôi có thể sửa đổi mã nguồn của mô-đun VBA theo chương trình bằng Aspose.Tasks không?
 Tuyệt đối! Aspose.Tasks cung cấp các phương thức không chỉ đọc mà còn cập nhật mã nguồn của các mô-đun VBA.
 ### Tôi có thể tìm thêm ví dụ và tài liệu cho Aspose.Tasks ở đâu?
- tham quan[tài liệu](https://reference.aspose.com/tasks/net/) để có ví dụ và hướng dẫn toàn diện.
+ Tham quan[tài liệu](https://reference.aspose.com/tasks/net/) để có ví dụ và hướng dẫn toàn diện.
 ### Có bản dùng thử miễn phí cho Aspose.Tasks không?
- Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ hoặc tìm kiếm trợ giúp cho bất kỳ vấn đề nào liên quan đến Aspose.Tasks?
- Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15)để hỗ trợ cộng đồng.
+Hãy ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để hỗ trợ cộng đồng.

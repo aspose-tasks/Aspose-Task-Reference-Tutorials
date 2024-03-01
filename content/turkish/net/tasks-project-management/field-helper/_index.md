@@ -17,7 +17,7 @@ Aspose.Tasks for .NET'i kullanmaya başlamadan önce, yerine getirmeniz gereken 
 
 ### 1. Aspose.Tasks for .NET'i yükleme
 
- Başlamak için Aspose.Tasks for .NET'i indirip yüklemeniz gerekecek. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/tasks/net/), Kitaplığı geliştirme ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
+ Başlamak için Aspose.Tasks for .NET'i indirip yüklemeniz gerekecek. İndirme linkini bulabilirsiniz[Burada](https://releases.aspose.com/tasks/net/). Kitaplığı geliştirme ortamınıza kurmak için sağlanan kurulum talimatlarını izleyin.
 
 ### 2. Ad Alanlarını İçe Aktarma
 

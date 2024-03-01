@@ -75,10 +75,10 @@ Concluderend biedt Aspose.Tasks voor .NET een robuuste oplossing voor het verwer
 ### Kan ik meerdere maatwerkweken in één project hebben?
 Ja, u kunt meerdere maatwerkwerkweken toevoegen aan een projectkalender.
 ### Hoe kan ik bestaande werkweken wijzigen?
- Gebruik de meegeleverde`WorkWeek` eigenschappen en methoden om bestaande werkweken aan te passen.
+ Gebruik de meegeleverde`WorkWeek`eigenschappen en methoden om bestaande werkweken aan te passen.
 ### Is Aspose.Tasks compatibel met .NET Core?
 Ja, Aspose.Tasks ondersteunt .NET Core.
 ### Kan ik het project met aangepaste werkweken exporteren naar het Microsoft Project-bestandsformaat?
 Absoluut, met Aspose.Tasks kunt u uw project in verschillende formaten opslaan, waaronder Microsoft Project.
 ### Waar kan ik ondersteuning zoeken voor Aspose.Tasks-gerelateerde vragen?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor elke steun of hulp.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor elke steun of hulp.

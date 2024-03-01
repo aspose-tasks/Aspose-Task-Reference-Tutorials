@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Ορισμός ιδιοτήτων ανάθεσης...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Ορισμός ιδιοτήτων ανάθεσης2...
+//Ορισμός ιδιοτήτων ανάθεσης2...
 ```
 ## 4. Εργαστείτε με δεδομένα χρονικής φάσης
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Χειριστείτε τα δεδομένα χρονικής φάσης
 ```csharp
-//Προσθέστε ένα λάθος στοιχείο δεδομένων χρονικής φάσης και, στη συνέχεια, διαγράψτε το
+// Προσθέστε ένα λάθος στοιχείο δεδομένων χρονικής φάσης και, στη συνέχεια, διαγράψτε το
 var td4 = new TimephasedData
 {
     // Ορισμός λανθασμένων ιδιοτήτων δεδομένων χρονικής φάσης...
@@ -120,4 +120,4 @@ foreach (var timephasedData in tds)
 ### Μπορώ να δοκιμάσω το Aspose.Tasks για .NET πριν το αγοράσω;
  Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες του Aspose.Tasks για .NET μεταβαίνοντας στο[δωρεάν δοκιμή](https://releases.aspose.com/).
 ### Πού μπορώ να αγοράσω άδεια χρήσης για το Aspose.Tasks για .NET;
- Μπορείτε να αγοράσετε μια άδεια χρήσης για το Aspose.Tasks για .NET[εδώ](https://purchase.aspose.com/buy).
+Μπορείτε να αγοράσετε μια άδεια χρήσης για το Aspose.Tasks για .NET[εδώ](https://purchase.aspose.com/buy).

@@ -12,7 +12,7 @@ Aspose.Tasks for .NET fournit des fonctionnalités robustes pour filtrer les don
 ## Conditions préalables
 Avant de plonger dans le didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 ### 1. Installez Aspose.Tasks pour .NET
- Téléchargez et installez Aspose.Tasks pour .NET à partir du[page de téléchargement](https://releases.aspose.com/tasks/net/), Suivez les instructions d'installation fournies pour configurer la bibliothèque dans votre environnement de développement.
+ Téléchargez et installez Aspose.Tasks pour .NET à partir du[page de téléchargement](https://releases.aspose.com/tasks/net/). Suivez les instructions d'installation fournies pour configurer la bibliothèque dans votre environnement de développement.
 ### 2. Configurez votre environnement de développement
 Assurez-vous de disposer d'un environnement de développement fonctionnel pour la programmation .NET. Cela inclut un IDE compatible tel que Visual Studio et une compréhension de base du langage de programmation C#.
 ### 3. Accédez à un exemple de fichier de projet Microsoft
@@ -71,7 +71,7 @@ Le filtrage des données dans les fichiers MS Project à l'aide d'Aspose.Tasks p
 ### Q : Aspose.Tasks peut-il filtrer les données en fonction de critères personnalisés ?
 : Oui, Aspose.Tasks permet de filtrer les données en fonction de critères personnalisés adaptés aux exigences de votre projet.
 ### Q : Aspose.Tasks est-il compatible avec toutes les versions des fichiers Microsoft Project ?
-R : Aspose.Tasks prend en charge différentes versions de fichiers Microsoft Project, garantissant ainsi la compatibilité entre différents environnements.
+: Aspose.Tasks prend en charge différentes versions de fichiers Microsoft Project, garantissant ainsi la compatibilité entre différents environnements.
 ### Q : Puis-je combiner plusieurs filtres dans Aspose.Tasks ?
 R : Absolument, vous pouvez combiner plusieurs filtres pour affiner l'extraction et l'analyse des données dans Aspose.Tasks.
 ### Q : Aspose.Tasks fournit-il de la documentation pour une assistance supplémentaire ?

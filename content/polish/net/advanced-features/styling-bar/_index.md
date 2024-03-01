@@ -62,7 +62,7 @@ Utwórz nowy styl paska i dostosuj jego właściwości:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Ustaw typ elementu paska
 style.BarColor = Color.Green; // Ustaw kolor paska
-style.BarShape = BarShape.HalfHeight; //Ustaw kształt paska
+style.BarShape = BarShape.HalfHeight; // Ustaw kształt paska
 style.StartShape = Shape.LeftBracket; // Ustaw kształt na początku paska
 style.StartShapeColor = Color.Aqua; // Ustaw kolor kształtu początkowego
 style.EndShape = Shape.RightBracket; // Ustaw kształt na końcu paska

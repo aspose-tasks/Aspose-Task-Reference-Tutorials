@@ -2,7 +2,7 @@
 title: Aspose.Tasks में गैंट चार्ट टाइमस्केल टियर को कॉन्फ़िगर करना
 linktitle: Aspose.Tasks में टाइमस्केल टियर को कॉन्फ़िगर करना
 second_title: Aspose.Tasks .NET API
-description: सटीक प्रोजेक्ट टाइमलाइन विज़ुअलाइज़ेशन के लिए अपने गैंट चार्ट दृश्य में टाइमस्केल स्तरों को कॉन्फ़िगर करने के लिए .NET के लिए Aspose.Tasks का अन्वेषण करें। #Aspose.कार्य #MSProject
+description: सटीक प्रोजेक्ट टाइमलाइन विज़ुअलाइज़ेशन के लिए अपने गैंट चार्ट दृश्य में टाइमस्केल स्तरों को कॉन्फ़िगर करने के लिए .NET के लिए Aspose.Tasks का अन्वेषण करें। #Aspose.Tasks #MS प्रोजेक्ट
 type: docs
 weight: 16
 url: /hi/net/text-view-configuration/timescale-tiers/
@@ -12,7 +12,7 @@ url: /hi/net/text-view-configuration/timescale-tiers/
 ## आवश्यक शर्तें
 ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - C# और .NET का बुनियादी ज्ञान।
-- .NET लाइब्रेरी के लिए Aspose.Tasks स्थापित। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/).
+-  .NET लाइब्रेरी के लिए Aspose.Tasks स्थापित। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/).
 - .NET अनुप्रयोग विकास के लिए एक विकास वातावरण स्थापित किया गया।
 ## नामस्थान आयात करें
 ```csharp
@@ -23,9 +23,9 @@ url: /hi/net/text-view-configuration/timescale-tiers/
     using Aspose.Tasks.Visualization;
 ```
 अब, आइए दिए गए उदाहरण के प्रत्येक चरण का विश्लेषण करें।
-## चरण 1: प्रोजेक्ट प्रारंभ करें और कार्य लिंक जोड़ें
+## चरण 1: प्रोजेक्ट आरंभ करें और कार्य लिंक जोड़ें
 ```csharp
-// दस्तावेज़ निर्देशिका का पथ.
+// वें दस्तावेज़ निर्देशिका का पथ.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject1.mpp");
 project.TaskLinks.Add(project.RootTask.Children.Add("Task 1"), project.RootTask.Children.Add("Task 2"));

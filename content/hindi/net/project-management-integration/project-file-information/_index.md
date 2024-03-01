@@ -18,7 +18,7 @@ url: /hi/net/project-management-integration/project-file-information/
 
 ## नामस्थान आयात करें
 सबसे पहले, आपको Aspose.Tasks के साथ काम करने के लिए अपने C# प्रोजेक्ट में आवश्यक नेमस्पेस आयात करना होगा:
-## चरण 1: Aspose आयात करें। कार्य नामस्थान
+## चरण 1: Aspose.Tasks नेमस्पेस आयात करें
 ```csharp
 using Aspose.Tasks;
 using System;
@@ -57,4 +57,4 @@ Console.WriteLine("ProjectFileFormat: " + info.ProjectFileFormat);
 ### क्या Aspose.Tasks के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
  हां, आप Aspose.Tasks के निःशुल्क परीक्षण तक पहुंच सकते हैं[यहाँ](https://releases.aspose.com/).
 ### मुझे Aspose.Tasks के लिए सहायता कहाँ से मिल सकती है?
- आप Aspose.कार्यों के लिए समर्थन प्राप्त कर सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).## संपूर्ण स्रोत कोड
+ आप Aspose.Tasks के लिए समर्थन प्राप्त कर सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).## संपूर्ण स्रोत कोड

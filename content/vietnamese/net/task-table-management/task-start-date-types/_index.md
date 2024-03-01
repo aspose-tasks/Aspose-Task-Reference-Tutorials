@@ -2,7 +2,7 @@
 title: Định cấu hình các loại ngày bắt đầu nhiệm vụ trong Aspose.Tasks
 linktitle: Định cấu hình các loại ngày bắt đầu nhiệm vụ trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Khám phá Aspose.Tasks for .NET để dễ dàng định cấu hình các loại ngày bắt đầu tác vụ. Tối ưu hóa quản lý dự án một cách dễ dàng. Tải về dùng thử ngay!
+description: Khám phá Aspose.Tasks for .NET để dễ dàng định cấu hình các loại ngày bắt đầu nhiệm vụ. Tối ưu hóa quản lý dự án một cách dễ dàng. Tải về dùng thử ngay!
 type: docs
 weight: 23
 url: /vi/net/task-table-management/task-start-date-types/
@@ -10,7 +10,7 @@ url: /vi/net/task-table-management/task-start-date-types/
 Trong thế giới năng động của quản lý dự án, việc thiết lập ngày bắt đầu phù hợp cho các nhiệm vụ là rất quan trọng. Aspose.Tasks for .NET cung cấp một giải pháp mạnh mẽ để định cấu hình các loại ngày bắt đầu tác vụ một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ quy trình thành các bước đơn giản để đảm bảo tích hợp liền mạch.
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào cấu hình các loại ngày bắt đầu nhiệm vụ, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
--  Aspose.Tasks for .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Tasks cho .NET. Nếu không, hãy tải xuống từ[Liên kết tải xuống](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: Đảm bảo rằng bạn đã cài đặt thư viện Aspose.Tasks cho .NET. Nếu không, hãy tải xuống từ[Liên kết tải xuống](https://releases.aspose.com/tasks/net/).
 - Môi trường .NET: Hướng dẫn này giả sử bạn có kiến thức làm việc về môi trường .NET.
 - Thư mục tài liệu của bạn: Thay thế "Thư mục tài liệu của bạn" trong đoạn mã bằng đường dẫn đến thư mục tài liệu thực tế của bạn.
 ## Nhập không gian tên
@@ -45,7 +45,7 @@ Lưu dự án với các cấu hình mới. Bước này đảm bảo rằng nh�
 ### Câu hỏi 1: Tôi có thể đặt ngày bắt đầu cụ thể cho từng nhiệm vụ không?
 Có, bạn có thể tùy chỉnh ngày bắt đầu cho từng tác vụ riêng lẻ bằng Aspose.Tasks for .NET.
 ### Câu hỏi 2: Có bản dùng thử miễn phí dành cho Aspose.Tasks dành cho .NET không?
-Có, bạn có thể khám phá các tính năng của Aspose.Tasks bằng cách dùng thử miễn phí[đây](https://releases.aspose.com/).
+ Có, bạn có thể khám phá các tính năng của Aspose.Tasks bằng cách dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu 3: Làm cách nào để tôi nhận được hỗ trợ cho Aspose.Tasks?
  Truy cập diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15) để nhận được sự hỗ trợ của cộng đồng hoặc tìm kiếm sự trợ giúp từ nhóm Aspose.
 ### Câu hỏi 4: Tôi có thể tìm tài liệu toàn diện về Aspose.Tasks ở đâu?

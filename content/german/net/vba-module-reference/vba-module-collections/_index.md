@@ -27,7 +27,7 @@ Nachdem wir nun alle Voraussetzungen geschaffen haben, unterteilen wir das Tutor
 // Der Pfad zum Dokumentenverzeichnis.
 String DataDir = "Your Document Directory";
 ```
- Unbedingt austauschen`"Your Document Directory"` mit dem tatsächlichen Pfad zu Ihrem Projektdokumentverzeichnis.
+ Unbedingt austauschen`"Your Document Directory"`mit dem tatsächlichen Pfad zu Ihrem Projektdokumentverzeichnis.
 ## Schritt 2: Laden Sie das Projekt und greifen Sie auf das VBA-Projekt zu
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -65,7 +65,7 @@ Zusammenfassend lässt sich sagen, dass die Beherrschung der VBA-Module in Aspos
 ### Kann ich Aspose.Tasks für .NET mit anderen Programmiersprachen verwenden?
 Aspose.Tasks unterstützt hauptsächlich .NET-Sprachen wie C#. Für die sprachübergreifende Kompatibilität stehen jedoch Java-Versionen zur Verfügung.
 ### Gibt es eine kostenlose Testversion für Aspose.Tasks für .NET?
-Ja, Sie können die kostenlose Testversion unter herunterladen[Hier](https://releases.aspose.com/).
+ Ja, Sie können die kostenlose Testversion unter herunterladen[Hier](https://releases.aspose.com/).
 ### Wie kann ich Unterstützung für Aspose.Tasks erhalten?
  Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Community-Unterstützung oder erwägen Sie den Kauf eines Support-Plans.
 ### Sind temporäre Lizenzen verfügbar?

@@ -12,7 +12,7 @@ Microsoft Project är ett kraftfullt verktyg för projektledning, som gör det m
 ## Förutsättningar
 Innan vi börjar, se till att du har följande förutsättningar:
 ### 1. Installera Aspose.Tasks för .NET
- Du kan ladda ner och installera Aspose.Tasks för .NET från[hemsida](https://releases.aspose.com/tasks/net/), Följ installationsinstruktionerna för att ställa in biblioteket i din utvecklingsmiljö.
+ Du kan ladda ner och installera Aspose.Tasks för .NET från[hemsida](https://releases.aspose.com/tasks/net/). Följ installationsinstruktionerna för att ställa in biblioteket i din utvecklingsmiljö.
 ### 2. Grundläggande kunskaper i C# och .NET Framework
 Bekanta dig med programmeringsspråket C# och .NET Framework, eftersom denna handledning förutsätter en grundläggande förståelse för dessa begrepp.
 ### 3. Microsoft Project File

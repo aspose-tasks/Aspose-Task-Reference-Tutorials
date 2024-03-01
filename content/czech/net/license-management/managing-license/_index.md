@@ -13,7 +13,7 @@ Správa licencí je zásadním aspektem efektivního využití Aspose.Tasks v ap
 Než se pustíme do správy licencí pomocí Aspose.Tasks v .NET, ujistěte se, že máte následující předpoklady:
 - Základní znalost programovacího jazyka C# a .NET frameworku.
 - Nainstalované Aspose.Tasks pro .NET.
-- Přístup k platnému licenčnímu souboru Aspose.Tasks (`.lic`,
+- Přístup k platnému licenčnímu souboru Aspose.Tasks (`.lic`).
 ## Importovat jmenné prostory
 Než budete moci začít používat Aspose.Tasks ve svém .NET projektu, musíte importovat potřebné jmenné prostory. Tyto jmenné prostory poskytují přístup ke třídám a metodám požadovaným pro správu licencí.
 
@@ -81,7 +81,7 @@ public void ApplyLicenseUsingStream()
 ```
 2.  Využijte`ApplyLicenseUsingStream()` v kódu aplikace, kde je to nutné.
 ## Závěr
-Efektivní správa licencí Aspose.Tasks v aplikacích .NET zajišťuje plynulou funkčnost a soulad s licenčními podmínkami. Podle podrobných pokynů uvedených v tomto tutoriálu můžete bez problémů aplikovat licence pomocí přístupů založených na souborech i streamech. Nezapomeňte si vždy udržovat platnou licenci, abyste odemkli plný potenciál Aspose.Tasks ve svých projektech .NET.
+Efektivní správa licencí Aspose.Tasks v aplikacích .NET zajišťuje plynulou funkčnost a soulad s licenčními podmínkami. Podle podrobných pokynů uvedených v tomto kurzu můžete bez problémů aplikovat licence pomocí přístupů založených na souborech i streamech. Nezapomeňte si vždy udržovat platnou licenci, abyste odemkli plný potenciál Aspose.Tasks ve svých projektech .NET.
 ## FAQ
 ### Otázka: Kde najdu svůj licenční soubor Aspose.Tasks?
 
@@ -89,7 +89,7 @@ Odpověď: Licenční soubor Aspose.Tasks můžete získat z webu Aspose po zako
 
 ### Otázka: Mohu používat Aspose.Tasks bez licence?
 
-Odpověď: I když můžete Aspose.Tasks hodnotit bez licence pomocí dočasné licence nebo během zkušebního období, pro produkční použití je vyžadována platná licence, abyste se vyhnuli omezením a vodoznakům.
+Odpověď: I když můžete Aspose.Tasks hodnotit bez licence pomocí dočasné licence nebo během zkušebního období, pro produkční použití je vyžadována platná licence, aby se předešlo omezením a vodoznakům.
 
 ### Otázka: Co se stane, když ve své žádosti neuplatním licenci?
 

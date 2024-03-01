@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- Bu adımda yinelenen görevimizin parametrelerini tanımlıyoruz. Görev adını, süresini ve yinelenme modelini belirtiyoruz. Yıllık yineleme için şunu kullanırız:`YearlyRecurrencePattern` ve tekrarı kullanarak Temmuz ayının 1. gününde gerçekleşecek şekilde ayarlayın.`ByYearDayRepetition`, Ayrıca yinelenme aralığını 1 Temmuz 2018'den 1 Temmuz 2019'a kadar tanımlıyoruz.
+ Bu adımda yinelenen görevimizin parametrelerini tanımlıyoruz. Görev adını, süresini ve yinelenme modelini belirtiyoruz. Yıllık yineleme için şunu kullanırız:`YearlyRecurrencePattern` ve tekrarı kullanarak Temmuz ayının 1. gününde gerçekleşecek şekilde ayarlayın.`ByYearDayRepetition`. Ayrıca yinelenme aralığını 1 Temmuz 2018'den 1 Temmuz 2019'a kadar tanımlıyoruz.
 
 ## 3. Adım: Projeye Görev Ekleme
 

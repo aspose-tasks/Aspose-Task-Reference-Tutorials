@@ -55,7 +55,7 @@ Naučte se používat Aspose.Tasks for .NET k efektivní správě a analýze pro
 
 ## Možnosti CSV v Aspose.Tasks
 
- Využijte Aspose.Tasks pro .NET k efektivní práci se soubory CSV. Vylepšete své možnosti projektového řízení bez námahy pomocí výukových programů krok za krokem.[Přečtěte si více](./csv-options/)
+ Pro efektivní práci se soubory CSV využijte Aspose.Tasks for .NET. Vylepšete své možnosti projektového řízení bez námahy pomocí výukových programů krok za krokem.[Přečtěte si více](./csv-options/)
 
 ## Pozice symbolu měny v Aspose.Tasks
 
@@ -116,7 +116,7 @@ Naučte se efektivně řídit náklady na projekt pomocí Aspose.Tasks for .NET.
 ### [CSS ukládání argumentů v Aspose.Tasks](./css-saving-arguments/)
 Zjistěte, jak uložit argumenty CSS v Aspose.Tasks pro .NET a přizpůsobit tak výstup HTML. Vylepšete prezentaci pomocí přizpůsobených nastavení CSS.
 ### [Možnosti CSV v Aspose.Tasks](./csv-options/)
-Naučte se, jak využít Aspose.Tasks pro .NET k efektivní práci se soubory CSV a bez námahy vylepšit možnosti řízení projektů.
+Naučte se, jak využít Aspose.Tasks pro .NET k efektivní práci se soubory CSV a bez námahy rozšiřovat možnosti řízení projektů.
 ### [Pozice symbolu měny v Aspose.Tasks](./currency-symbol-positions/)
 Naučte se, jak snadno ovládat pozice symbolů měny v projektech .NET pomocí Aspose.Tasks.
 ### [Vlastní typy polí v Aspose.Tasks](./custom-field-types/)

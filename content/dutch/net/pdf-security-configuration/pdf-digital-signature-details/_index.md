@@ -1,6 +1,6 @@
 ---
 title: Configureer MS Project PDF digitale handtekening met Aspose.Tasks
-linktitle: Configureer details van digitale PDF-handtekeningen in Aspose.Tasks
+linktitle: Details van digitale PDF-handtekeningen configureren in Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Leer hoe u de details van de digitale handtekening van Microsoft Project PDF kunt configureren met Aspose.Tasks voor .NET. Garandeer de veiligheid en authenticiteit van uw projectbestanden.
 type: docs
@@ -63,7 +63,7 @@ Console.WriteLine("Hash Algorithm: " + signatureDetails.HashAlgorithm);
 ```
 ## Stap 6: Stel de details van de digitale handtekening in
 ```csharp
-// digitale handtekeningdetails instellen
+// digitale handtekeninggegevens instellen
 options.DigitalSignatureDetails = signatureDetails;
 ```
 ## Stap 7: Sla het project op met coderingsdetails

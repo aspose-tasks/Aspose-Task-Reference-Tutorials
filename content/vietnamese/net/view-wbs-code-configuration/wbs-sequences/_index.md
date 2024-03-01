@@ -15,7 +15,7 @@ Trước khi chúng ta đi sâu vào hướng dẫn, hãy đảm bảo bạn có
 - Kiến thức cơ bản về lập trình C#
 - Môi trường phát triển được thiết lập cho các dự án .NET
 ## Nhập không gian tên
-Trong mã C# của bạn, hãy đảm bảo bao gồm các không gian tên cần thiết để tận dụng chức năng của Aspose.Tasks. Thêm phần sau vào đầu tập lệnh của bạn:
+Trong mã C# của bạn, hãy đảm bảo bao gồm các vùng tên cần thiết để tận dụng chức năng của Aspose.Tasks. Thêm phần sau vào đầu tập lệnh của bạn:
 ```csharp
     
     using Aspose.Tasks.Saving;
@@ -71,6 +71,6 @@ Tuyệt đối! Aspose.Tasks cung cấp tính linh hoạt trong việc xác đ�
 ### Có sẵn phiên bản dùng thử không?
  Vâng, bạn có thể[tải về dùng thử miễn phí](https://releases.aspose.com/) để khám phá các tính năng trước khi mua hàng.
 ### Làm cách nào tôi có thể nhận được sự hỗ trợ của cộng đồng cho Aspose.Tasks?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để kết nối với cộng đồng và tìm kiếm sự giúp đỡ.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để kết nối với cộng đồng và tìm kiếm sự giúp đỡ.
 ### Giấy phép tạm thời có sẵn không?
- Vâng, bạn có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
+ Có, bạn có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.

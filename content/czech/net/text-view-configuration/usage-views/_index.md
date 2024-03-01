@@ -11,7 +11,7 @@ url: /cs/net/text-view-configuration/usage-views/
 Pokud jste vývojář .NET a chcete vylepšit své schopnosti projektového řízení, Aspose.Tasks je výkonný nástroj, který vám umožní snadno manipulovat se soubory Microsoft Project. V tomto tutoriálu se zaměříme na konfiguraci zobrazení použití pomocí Aspose.Tasks for .NET. Postupujte podle pokynů a získejte přehled o vykreslování zobrazení využití úloh s podrobnostmi pro lepší vizualizaci projektu.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
-- Knihovna Aspose.Tasks: Ujistěte se, že máte knihovnu Aspose.Tasks integrovanou do vašeho projektu .NET. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/) a postupujte podle pokynů k instalaci.
+-  Knihovna Aspose.Tasks: Ujistěte se, že máte knihovnu Aspose.Tasks integrovanou do vašeho projektu .NET. Pokud ne, můžete si jej stáhnout[tady](https://releases.aspose.com/tasks/net/) a postupujte podle pokynů k instalaci.
 - Adresář dokumentů: Nastavte adresář, kde jsou uloženy vaše projektové dokumenty. Nahraďte "Your Document Directory" ve fragmentech kódu skutečnou cestou k vašemu adresáři dokumentů.
 ## Importovat jmenné prostory
 V poskytnutém fragmentu kódu si všimnete použití určitých jmenných prostorů. Pro bezproblémovou integraci nezapomeňte do svého projektu zahrnout tyto položky:

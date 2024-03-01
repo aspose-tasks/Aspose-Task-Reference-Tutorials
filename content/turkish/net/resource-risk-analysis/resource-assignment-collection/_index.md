@@ -11,7 +11,7 @@ url: /tr/net/resource-risk-analysis/resource-assignment-collection/
 Aspose.Tasks for .NET'i kullanarak Microsoft Project'te kaynak atamalarını yönetmeye ilişkin bu kapsamlı eğitime hoş geldiniz. Bu öğreticide, kaynak atamalarını verimli bir şekilde nasıl yöneteceğiniz konusunda sağlam bir anlayışa sahip olmanızı sağlamak için süreci adım adım inceleyeceğiz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuz bilmeniz gereken her şeyde size yol gösterecektir.
 ## Önkoşullar
 Koda dalmadan önce aşağıdaki ayarlara sahip olduğunuzdan emin olun:
-1. Aspose.Tasks for .NET Kurulu: Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Kurulu: Geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olduğundan emin olun. Değilse, adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/tasks/net/).
 2. Temel C# Bilgisi: Bu eğitimde, C# programlama dili hakkında temel bilgiye sahip olduğunuz varsayılmaktadır.
 3. Microsoft Project Dosyası: Test amaçlı bir Microsoft Project dosyasını hazır bulundurun. Eğer elinizde yoksa örnek bir dosya oluşturabilirsiniz.
 
@@ -90,7 +90,7 @@ C: Evet, Aspose.Tasks for .NET, MPP, MPT ve XML formatları da dahil olmak üzer
  C: Evet, Aspose.Tasks for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks for .NET'i kullanırken herhangi bir sorunla karşılaşırsam nasıl destek alabilirim?
  C: Aspose.Tasks forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
-### S: Aspose.Tasks for .NET için geçici lisanslar kullanabilir miyim?
+### S: Aspose.Tasks for .NET için geçici lisansları kullanabilir miyim?
  C: Evet, değerlendirme amaçlı olarak geçici lisanslar mevcuttur. Şuradan bir tane alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks for .NET'in tam lisansını nereden satın alabilirim?
  C: Aspose çevrimiçi mağazasından tam lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).

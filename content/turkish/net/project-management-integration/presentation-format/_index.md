@@ -17,7 +17,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 
 ### 1. Aspose.Tasks for .NET'i yükleyin
 
- Henüz yapmadıysanız Aspose.Tasks for .NET'i şu adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/tasks/net/), Doğru şekilde kurmak için verilen kurulum talimatlarını izleyin.
+ Henüz yapmadıysanız Aspose.Tasks for .NET'i şu adresten indirip yükleyin:[indirme sayfası](https://releases.aspose.com/tasks/net/). Doğru şekilde kurmak için verilen kurulum talimatlarını izleyin.
 
 ### 2. Gerekli Ad Alanlarını İçe Aktarın
 
@@ -39,7 +39,7 @@ Bu önkoşullar yerine getirildikten sonra, MS Project proje sunumlarını Aspos
 String DataDir = "Your Document Directory";
 ```
 
- yer değiştirmek`"Your Document Directory"` İstediğiniz dizinin yolu ile birlikte.
+ Yer değiştirmek`"Your Document Directory"` İstediğiniz dizinin yolu ile birlikte.
 
 ## Adım 2: MS Proje Dosyanızı Yükleyin
 
@@ -49,7 +49,7 @@ Daha sonra Aspose.Tasks'ı kullanarak MS Project dosyanızı yüklemeniz gerekir
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- yer değiştirmek`"ResourceSheetView.mpp"` MS Project dosyanızın adıyla.
+ Yer değiştirmek`"ResourceSheetView.mpp"` MS Project dosyanızın adıyla.
 
 ## 3. Adım: Kaydetme Seçeneklerini Tanımlayın
 

@@ -37,7 +37,7 @@ public void WorkWithMinuteLabelDisplay()
 {
     var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 
-    // Ορίστε πώς θα εμφανίζεται η ετικέτα λεπτών
+    // Ρυθμίστε πώς θα εμφανίζεται η ετικέτα λεπτών
     project.DisplayOptions.MinuteLabel = MinuteLabelDisplay.M;
 }
 ```
@@ -72,7 +72,7 @@ public void WorkWithDayLabelDisplay()
 
 ## 4. Εμφάνιση ετικετών εβδομάδας
 
-Για να εμφανίσετε ετικέτες εβδομάδας σε αρχεία έργου:
+Για να εμφανίσετε ετικέτες εβδομάδας στα αρχεία έργου:
 
 ```csharp
 public void WorkWithWeekLabelDisplay()

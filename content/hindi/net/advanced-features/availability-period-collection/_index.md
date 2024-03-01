@@ -36,7 +36,7 @@ using System.Collections.Generic;
 ## चरण 1: परियोजना और संसाधन को प्रारंभ करें
 
 ```csharp
-// दस्तावेज़ निर्देशिका का पथ.
+// वें दस्तावेज़ निर्देशिका का पथ.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "UpdateResourceData.mpp");
 var resource = project.Resources.GetById(1);

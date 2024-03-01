@@ -27,9 +27,9 @@ Först laddar du MS Project-filen med Aspose.Tasks:
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- byta ut`"Your Document Directory"`med den faktiska katalogsökvägen där din MS Project-fil finns.
+ Byta ut`"Your Document Directory"`med den faktiska katalogsökvägen där din MS Project-fil finns.
 ## Steg 2: Definiera sparalternativ
- Definiera Spreadsheet 2003 Spara alternativ genom att skapa en instans av`Spreadsheet2003SaveOptions`,
+ Definiera Spreadsheet 2003 Spara alternativ genom att skapa en instans av`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ Genom att använda Aspose.Tasks för .NET, särskilt Spreadsheet 2003 Save MS Pr
 ### F: Kan Aspose.Tasks för .NET användas i både webb- och skrivbordsapplikationer?
 S: Ja, Aspose.Tasks för .NET kan sömlöst integreras i både webb- och stationära applikationer, vilket ger konsekvent funktionalitet på alla plattformar.
 ### F: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
- S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks för .NET från[hemsida](https://releases.aspose.com/), så att du kan utforska dess funktioner innan du gör ett köp.
+S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks för .NET från[hemsida](https://releases.aspose.com/), så att du kan utforska dess funktioner innan du gör ett köp.
 ### F: Finns det några begränsningar för att anpassa vykolumner med Aspose.Tasks för .NET?
 S: Aspose.Tasks för .NET erbjuder omfattande anpassningsalternativ för vykolumner, med minimala begränsningar. Komplexa anpassningar kan dock kräva avancerad kunskap om biblioteket.
 ### F: Kan jag söka hjälp om jag stöter på problem när jag använder Aspose.Tasks för .NET?

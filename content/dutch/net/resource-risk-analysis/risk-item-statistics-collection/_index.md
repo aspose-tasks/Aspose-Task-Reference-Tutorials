@@ -87,4 +87,4 @@ A: Absoluut, Aspose.Tasks is ontworpen om te voldoen aan de eisen van projectbeh
 ### Vraag: Kan ik de risicoanalyse-instellingen aanpassen in Aspose.Tasks?
 A: Ja, Aspose.Tasks biedt flexibiliteit bij het configureren van risicoanalyse-instellingen om aan uw specifieke projectvereisten en scenario's te voldoen.
 ### Vraag: Is er technische ondersteuning beschikbaar voor Aspose.Tasks-gebruikers?
- A: Ja, Aspose.Tasks-gebruikers hebben toegang tot technische ondersteuning via Aspose.[forums](https://forum.aspose.com/c/tasks/15), waar ze vragen kunnen stellen, problemen kunnen melden en met de community kunnen communiceren.
+ A: Ja, Aspose.Tasks-gebruikers hebben toegang tot technische ondersteuning via Aspose[forums](https://forum.aspose.com/c/tasks/15), waar ze vragen kunnen stellen, problemen kunnen melden en met de community kunnen communiceren.

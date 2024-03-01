@@ -9,7 +9,7 @@ url: /fr/net/advanced-features/bitmap-invalid-size-exception/
 ---
 ## Introduction
 
-Dans ce didacticiel, nous aborderons la gestion des`BitmapInvalidSizeException` lorsque vous travaillez avec Aspose.Tasks pour .NET. Aspose.Tasks est une bibliothèque puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme, permettant ainsi des tâches telles que l'enregistrement de projets sous forme d'images. Cependant, parfois, lorsque nous essayons de sauvegarder un projet sous forme d'image, nous pouvons rencontrer un message`Invalid Size Exception` liés au bitmap. Ce didacticiel vise à vous guider tout au long du processus de détection et de gestion efficace de cette exception.
+ Dans ce didacticiel, nous aborderons la gestion des`BitmapInvalidSizeException` lorsque vous travaillez avec Aspose.Tasks pour .NET. Aspose.Tasks est une bibliothèque puissante qui permet aux développeurs de manipuler les fichiers Microsoft Project par programme, permettant ainsi des tâches telles que l'enregistrement de projets sous forme d'images. Cependant, parfois, lorsque nous essayons de sauvegarder un projet sous forme d'image, nous pouvons rencontrer un message`Invalid Size Exception`liés au bitmap. Ce didacticiel vise à vous guider tout au long du processus de détection et de gestion efficace de cette exception.
 
 ## Conditions préalables
 

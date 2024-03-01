@@ -17,7 +17,7 @@ url: /th/net/advanced-concepts/page-saving-callback/
 
 1. ความรู้เกี่ยวกับภาษาการเขียนโปรแกรม C#: คุณควรมีความเข้าใจพื้นฐานเกี่ยวกับไวยากรณ์และแนวคิดของ C#
    
-2. การติดตั้ง Aspose.Tasks สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Tasks ในสภาพแวดล้อมการพัฒนาของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/tasks/net/).
+2.  การติดตั้ง Aspose.Tasks สำหรับ .NET: ตรวจสอบให้แน่ใจว่าคุณได้ติดตั้งไลบรารี Aspose.Tasks ในสภาพแวดล้อมการพัฒนาของคุณ คุณสามารถดาวน์โหลดได้จาก[ที่นี่](https://releases.aspose.com/tasks/net/).
 
 3. การตั้งค่าสภาพแวดล้อมการพัฒนา: ตั้งค่า IDE ที่คุณต้องการสำหรับการพัฒนา .NET เช่น Visual Studio
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## ขั้นตอนที่ 2: กำหนดค่าตัวเลือกการบันทึกรูปภาพ
 
- กำหนด`ImageSaveOptions` และปรับแต่งพฤติกรรมการบันทึกหน้าโดยการตั้งค่า`PageSavingCallback` คุณสมบัติ:
+ กำหนด`ImageSaveOptions`และปรับแต่งพฤติกรรมการบันทึกหน้าโดยการตั้งค่า`PageSavingCallback` คุณสมบัติ:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);

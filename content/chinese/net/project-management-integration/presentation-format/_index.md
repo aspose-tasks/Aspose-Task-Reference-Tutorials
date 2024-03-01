@@ -17,7 +17,7 @@ url: /zh/net/project-management-integration/presentation-format/
 
 ### 1.安装Aspose.Tasks for .NET
 
-如果您还没有安装 Aspose.Tasks for .NET，请从[下载页面](https://releases.aspose.com/tasks/net/),请按照提供的安装说明进行正确设置。
+如果您还没有安装 Aspose.Tasks for .NET，请从[下载页面](https://releases.aspose.com/tasks/net/)。请按照提供的安装说明进行正确设置。
 
 ### 2. 导入必要的命名空间
 

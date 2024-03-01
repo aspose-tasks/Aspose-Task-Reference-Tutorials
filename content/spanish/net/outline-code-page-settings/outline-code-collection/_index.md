@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Manipule los códigos de esquema según sea necesario, como insertarlos, eliminarlos o borrarlos.
 ```csharp
 // Ejemplo de manipulación
-// ,
+// ...
 // Insertar código con 2 en la posición correcta
 task.OutlineCodes.Insert(2, code2);
 // Compruebe si se insertó el código

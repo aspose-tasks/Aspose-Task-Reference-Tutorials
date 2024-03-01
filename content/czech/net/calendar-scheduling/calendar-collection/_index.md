@@ -9,7 +9,7 @@ url: /cs/net/calendar-scheduling/calendar-collection/
 ---
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak spravovat kolekce kalendářů v Aspose.Tasks pro .NET. Kalendáře hrají klíčovou roli v řízení projektů, definují pracovní dny, svátky a výjimky. Aspose.Tasks poskytuje robustní funkce pro manipulaci s kalendáři ve vašich projektech.
+V tomto tutoriálu prozkoumáme, jak spravovat kolekce kalendářů v Aspose.Tasks pro .NET. Kalendáře hrají klíčovou roli v řízení projektů, definují pracovní dny, svátky a výjimky. Aspose.Tasks poskytuje robustní funkce pro manipulaci s kalendáři ve vašich projektech.
 
 ## Předpoklady
 
@@ -151,7 +151,7 @@ Odpověď 2: Aspose.Tasks rozhodně podporuje import kalendářů ze souborů ap
 
 ### Q3: Jak mohu odebrat konkrétní kalendář z projektu?
 
-A3: Kalendář můžete odebrat tak, že jej získáte z kolekce a poté zavoláte na`Remove` metoda.
+ A3: Kalendář můžete odebrat tak, že jej získáte z kolekce a poté zavoláte na`Remove` metoda.
 
 ### Q4: Podporuje Aspose.Tasks export kalendářů do různých formátů?
 

@@ -244,7 +244,7 @@ public void WriteUpdatedCalendarDataToMpp()
     }
     catch (NotSupportedException ex)
     {
-        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://compra.aspose.com/temporary-license/.");
+        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://compra.aspose.com/temporary-license/).");
     }
 }
 ```
@@ -372,7 +372,7 @@ Explicación:
 
 ## Paso 12: comience el siguiente día laborable
 
-Para comenzar el siguiente día hábil utilizando un calendario, siga estos pasos:
+Para comenzar el siguiente día laborable utilizando un calendario, siga estos pasos:
 
 ```csharp
 public void GetNextWorking

@@ -12,7 +12,7 @@ Dans le domaine de la gestion de projet, une coordination efficace et une commun
 ## Conditions préalables
 Avant de vous lancer dans la gestion des informations d'identification MS Project Server avec Aspose.Tasks pour .NET, assurez-vous que les conditions préalables suivantes sont remplies :
 ### 1. Installation d'Aspose.Tasks pour .NET
- Pour commencer, téléchargez et installez Aspose.Tasks for .NET à partir du[lien de téléchargement](https://releases.aspose.com/tasks/net/), Suivez les instructions d'installation pour intégrer la bibliothèque dans votre environnement .NET de manière transparente.
+ Pour commencer, téléchargez et installez Aspose.Tasks for .NET à partir du[lien de téléchargement](https://releases.aspose.com/tasks/net/). Suivez les instructions d'installation pour intégrer la bibliothèque dans votre environnement .NET de manière transparente.
 ### 2. Accéder aux informations d'identification
 Rassemblez les informations d'identification nécessaires pour accéder au serveur MS Project. Cela inclut l'adresse de domaine SharePoint, le nom d'utilisateur et le mot de passe associés au serveur Project.
 

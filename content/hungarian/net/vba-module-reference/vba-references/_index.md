@@ -1,6 +1,6 @@
 ---
 title: VBA-referenciakezelés elsajátítása – lépésről lépésre
-linktitle: Referenciák kezelése VBA az Aspose.Tasks-ban
+linktitle: VBA-referenciák kezelése az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel a VBA-referenciák kezelésének erejét az Aspose.Tasks .NET-ben átfogó oktatóanyagunk segítségével. Tanuljon meg zökkenőmentesen olvasni, összehasonlítani és dolgozni VBA-referenciákkal.
 type: docs
@@ -21,7 +21,7 @@ Győződjön meg arról, hogy a kód elején szerepelnek a szükséges névterek
     using System;
     
 ```
-## Referenciák olvasása VBA
+## VBA referenciák olvasása
 Kezdjük a VBA hivatkozások kiolvasásával egy projektfájlból:
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -72,10 +72,10 @@ Gratulálunk! Sikeresen navigált a VBA-hivatkozások kezelésében az Aspose.Ta
 ### K: Használhatom az Aspose.Tasks-t más programozási nyelvekkel?
 V: Az Aspose.Tasks elsősorban a .NET nyelveket támogatja, de vannak más Aspose-termékek is, amelyek különböző platformokra és nyelvekre lettek szabva.
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
-V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Elérhető közösségi támogatás az Aspose.Tasks számára?
  V: Igen, támogatást találhat a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
 ### K: Hol találom az Aspose.Tasks részletes dokumentációját?
  V: A dokumentáció elérhető[itt](https://reference.aspose.com/tasks/net/).
 ### K: Megvásárolhatom az Aspose.Tasks-t?
- V: Igen, megvásárolhatja.[itt](https://purchase.aspose.com/buy).
+ V: Igen, megvásárolhatja[itt](https://purchase.aspose.com/buy).

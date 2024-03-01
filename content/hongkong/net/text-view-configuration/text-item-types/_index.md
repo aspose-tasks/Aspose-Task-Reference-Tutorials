@@ -11,7 +11,7 @@ url: /zh-hant/net/text-view-configuration/text-item-types/
 如果您是 .NET 開發人員，正在使用 Aspose.Tasks 進行專案管理，那麼您來對地方了！在本逐步指南中，我們將探討在 Aspose.Tasks 中處理文字項目類型的複雜性，重點是使用強大的 .NET 程式庫進行自訂。
 ## 先決條件
 在我們開始之前，請確保您已準備好以下內容：
-1. Aspose.Tasks for .NET Library：請確保您已安裝 Aspose.Tasks 函式庫。如果沒有的話可以下載[這裡](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Library：請確保您已安裝 Aspose.Tasks 函式庫。如果沒有的話可以下載[這裡](https://releases.aspose.com/tasks/net/).
 2. 文檔目錄：為您的專案文檔設定目錄。
 現在，讓我們深入了解處理文字項類型的實質內容。
 ## 導入命名空間

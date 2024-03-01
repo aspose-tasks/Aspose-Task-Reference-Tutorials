@@ -9,7 +9,7 @@ url: /it/net/advanced-features/assignment-baseline/
 ---
 ## introduzione
 
-Quando si lavora su attività di gestione del progetto, la gestione delle basi di assegnazione è fondamentale per monitorare i progressi accurati. Aspose.Tasks per .NET fornisce un set completo di strumenti per gestire in modo efficiente le linee di base delle assegnazioni. In questo tutorial approfondiremo passo dopo passo il processo di gestione delle basi di assegnazione.
+Quando si lavora su attività di gestione del progetto, la gestione delle basi di assegnazione è fondamentale per monitorare accuratamente i progressi. Aspose.Tasks per .NET fornisce un set completo di strumenti per gestire in modo efficiente le linee di base delle assegnazioni. In questo tutorial approfondiremo passo dopo passo il processo di gestione delle basi di assegnazione.
 
 ## Prerequisiti
 

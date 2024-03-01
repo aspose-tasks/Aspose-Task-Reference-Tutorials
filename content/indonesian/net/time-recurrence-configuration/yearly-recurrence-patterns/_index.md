@@ -66,6 +66,6 @@ Dalam tutorial ini, kami telah menjelajahi proses mengonfigurasi pola pengulanga
 ### Apakah ada prasyarat untuk menggunakan Aspose.Tasks untuk .NET?
  Pastikan Anda memiliki pengetahuan tentang C# dan .NET, serta perpustakaan Aspose.Tasks yang diinstal. Unduh itu[Di Sini](https://releases.aspose.com/tasks/net/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan bantuan masyarakat.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan bantuan masyarakat.
 ### Bisakah saya mencoba Aspose.Tasks secara gratis sebelum membeli?
  Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).

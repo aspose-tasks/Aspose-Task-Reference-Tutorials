@@ -12,7 +12,7 @@ Microsoft Project is een krachtig hulpmiddel voor projectbeheer, waarmee gebruik
 ## Vereisten
 Voordat we beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 ### 1. Installeer Aspose.Tasks voor .NET
- U kunt Aspose.Tasks voor .NET downloaden en installeren vanaf de[website](https://releases.aspose.com/tasks/net/), Volg de meegeleverde installatie-instructies om de bibliotheek in uw ontwikkelomgeving in te stellen.
+ U kunt Aspose.Tasks voor .NET downloaden en installeren vanaf de[website](https://releases.aspose.com/tasks/net/). Volg de meegeleverde installatie-instructies om de bibliotheek in uw ontwikkelomgeving in te stellen.
 ### 2. Basiskennis van C# en .NET Framework
 Maak uzelf vertrouwd met de programmeertaal C# en het .NET Framework, aangezien deze tutorial uitgaat van een basiskennis van deze concepten.
 ### 3. Microsoft Project-bestand
@@ -55,7 +55,7 @@ Ja, Aspose.Tasks voor .NET biedt opties om verschillende weergaven aan te passen
 ### 2. Is Aspose.Tasks voor .NET compatibel met verschillende versies van Microsoft Project-bestanden?
 Ja, Aspose.Tasks voor .NET ondersteunt een breed scala aan Microsoft Project-bestandsindelingen, waaronder MPP, MPT en XML.
 ### 3. Hoe kan ik op maat gemaakte projectweergaven integreren in mijn .NET-applicatie?
-kunt aangepaste projectweergaven integreren door Aspose.Tasks voor .NET in uw .NET-toepassing op te nemen en de bijbehorende API te gebruiken om projectgegevens en weergaven programmatisch te manipuleren.
+U kunt aangepaste projectweergaven integreren door Aspose.Tasks voor .NET in uw .NET-toepassing op te nemen en de bijbehorende API te gebruiken om projectgegevens en weergaven programmatisch te manipuleren.
 ### 4. Biedt Aspose.Tasks voor .NET ondersteuning en documentatie voor ontwikkelaars?
  Ja, Aspose.Tasks voor .NET biedt uitgebreide documentatie en ondersteuning via zijn[forum](https://forum.aspose.com/c/tasks/15) En[documentatieportaal](https://reference.aspose.com/tasks/net/).
 ### 5. Kan ik Aspose.Tasks voor .NET uitproberen voordat ik een aankoop doe?

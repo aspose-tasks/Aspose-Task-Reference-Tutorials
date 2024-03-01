@@ -11,7 +11,7 @@ url: /fr/net/saving-options/mpp-save-options/
 Dans le monde du développement .NET, la gestion et la manipulation efficaces des fichiers de projet sont essentielles au succès. Aspose.Tasks for .NET offre une solution puissante pour gérer facilement les fichiers Microsoft Project (MPP). Parmi ses nombreuses fonctionnalités, Aspose.Tasks permet aux utilisateurs d'enregistrer les options de MS Project de manière transparente, rationalisant ainsi le flux de travail et garantissant l'intégrité du projet. Dans ce didacticiel, nous approfondirons le processus d'enregistrement des options de MS Project à l'aide d'Aspose.Tasks pour .NET.
 ## Conditions préalables
 Avant de commencer, assurez-vous que les conditions préalables suivantes sont remplies :
-1. Installation d'Aspose.Tasks pour .NET : Téléchargez et installez la bibliothèque Aspose.Tasks pour .NET à partir de[ici](https://releases.aspose.com/tasks/net/).
+1.  Installation d'Aspose.Tasks pour .NET : Téléchargez et installez la bibliothèque Aspose.Tasks pour .NET à partir de[ici](https://releases.aspose.com/tasks/net/).
 2. Environnement de développement : disposez d'un environnement de développement .NET, tel que Visual Studio.
 3. Compréhension de base de C# : La connaissance du langage de programmation C# est essentielle pour la mise en œuvre des exemples.
 
@@ -62,7 +62,7 @@ Oui, Aspose.Tasks for .NET prend en charge différentes versions de fichiers Mic
 ### Puis-je essayer Aspose.Tasks pour .NET avant d'acheter ?
  Certainement! Vous pouvez télécharger un essai gratuit d'Aspose.Tasks pour .NET à partir de[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir une assistance technique pour Aspose.Tasks pour .NET ?
- Pour une assistance technique, vous pouvez visiter le forum Aspose.Tasks[ici](https://forum.aspose.com/c/tasks/15).
+Pour une assistance technique, vous pouvez visiter le forum Aspose.Tasks[ici](https://forum.aspose.com/c/tasks/15).
 ### Qu'est-ce qu'un permis temporaire et comment puis-je l'obtenir ?
  Une licence temporaire vous permet d'évaluer Aspose.Tasks pour .NET sans aucune limitation. Vous pouvez acquérir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je acheter une version sous licence d'Aspose.Tasks pour .NET ?

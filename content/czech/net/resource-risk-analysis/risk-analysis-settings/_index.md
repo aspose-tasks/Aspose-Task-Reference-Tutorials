@@ -50,7 +50,7 @@ var project = new Project(DataDir + "Software Development Plan-1.mpp");
 var task = project.RootTask.Children.GetById(17);
 ```
 Vyberte konkrétní úkol v rámci projektu pro analýzu rizik na základě jeho ID.
-## Krok 6: Inicializujte rizikový vzor
+## Krok 6: Inicializujte vzor rizika
 ```csharp
 var pattern = new RiskPattern(task);
 ```
@@ -80,7 +80,7 @@ Nastavením úrovně spolehlivosti určíte jistotu odhadů.
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Inicializovat a`RiskAnalyzer` a provést analýzu rizik na projektu.
+ Inicializovat a`RiskAnalyzer` objekt a provést analýzu rizik na projektu.
 ## Krok 12: Načtení výsledků analýzy
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

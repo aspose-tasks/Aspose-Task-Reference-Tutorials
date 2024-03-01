@@ -13,7 +13,7 @@ Lisansları yönetmek, Aspose.Tasks'ı .NET uygulamalarında etkili bir şekilde
 .NET'te Aspose.Tasks ile lisans yönetimine geçmeden önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 - C# programlama dili ve .NET çerçevesi hakkında temel bilgi.
 - .NET için Aspose.Tasks'ı yükledim.
-- Geçerli bir Aspose.Tasks lisans dosyasına erişim (`.lic`,
+- Geçerli bir Aspose.Tasks lisans dosyasına erişim (`.lic`).
 ## Ad Alanlarını İçe Aktar
 .NET projenizde Aspose.Tasks'ı kullanmaya başlamadan önce gerekli ad alanlarını içe aktarmanız gerekir. Bu ad alanları, lisans yönetimi için gereken sınıflara ve yöntemlere erişim sağlar.
 
@@ -89,7 +89,7 @@ C: Lisans satın aldıktan sonra Aspose.Tasks lisans dosyanızı Aspose web site
 
 ### S: Aspose.Tasks'i lisans olmadan kullanabilir miyim?
 
-C: Aspose.Tasks'i lisans olmadan, geçici bir lisans kullanarak veya deneme süresi boyunca değerlendirebilirsiniz, ancak üretim kullanımında sınırlamalardan ve filigranlardan kaçınmak için geçerli bir lisans gereklidir.
+C: Aspose.Tasks'i lisans olmadan, geçici bir lisans kullanarak veya deneme süresi boyunca değerlendirebilirsiniz, ancak sınırlamalardan ve filigranlardan kaçınmak için üretim kullanımında geçerli bir lisans gereklidir.
 
 ### S: Başvurumda lisans başvurusunda bulunmazsam ne olur?
 

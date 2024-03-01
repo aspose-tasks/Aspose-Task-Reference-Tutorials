@@ -12,8 +12,8 @@ oblasti projektového řízení je pro úspěšnou realizaci projektu klíčová
 ## Předpoklady
 Než se pustíte do správy přihlašovacích údajů MS Project Server pomocí Aspose.Tasks pro .NET, ujistěte se, že jsou splněny následující předpoklady:
 ### 1. Instalace Aspose.Tasks pro .NET
- Pro začátek si stáhněte a nainstalujte Aspose.Tasks for .NET z poskytnutého[odkaz ke stažení](https://releases.aspose.com/tasks/net/), Pro bezproblémovou integraci knihovny do vašeho prostředí .NET postupujte podle pokynů k instalaci.
-### 2. Přístupové přihlašovací údaje
+ Pro začátek si stáhněte a nainstalujte Aspose.Tasks for .NET z poskytnutého[odkaz ke stažení](https://releases.aspose.com/tasks/net/). Postupujte podle pokynů k instalaci a hladce integrujte knihovnu do prostředí .NET.
+### 2. Přístupové údaje
 Shromážděte potřebné přihlašovací údaje potřebné pro přístup k MS Project Server. To zahrnuje adresu domény SharePoint, uživatelské jméno a heslo přidružené k serveru Project Server.
 
 ## Importovat jmenné prostory

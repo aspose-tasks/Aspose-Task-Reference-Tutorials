@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks for .NET のタスク使用状況ビューをマスターする
-linktitle: Aspose.Tasks でタスク使用状況ビューを構成する
+linktitle: Aspose.Tasks でのタスク使用状況ビューの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を調べて、タスクの使用状況ビューを構成する方法を学びます。タイムスケール設定をカスタマイズし、プロジェクト管理のビジュアルを強化します。
 type: docs
@@ -28,7 +28,7 @@ url: /ja/net/task-table-management/task-usage-views/
 String DataDir = "Your Document Directory";
 ```
 ## ステップ 2: プロジェクトをロードする
- Aspose.Tasks を初期化する`Project`プロジェクト ファイル (TaskUsageView.mpp など) をロードしてオブジェクトを作成します。
+Aspose.Tasks を初期化する`Project`プロジェクト ファイル (TaskUsageView.mpp など) をロードしてオブジェクトを作成します。
 ```csharp
 var project = new Project(DataDir + "TaskUsageView.mpp");
 ```

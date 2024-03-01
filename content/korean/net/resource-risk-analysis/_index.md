@@ -21,7 +21,7 @@ Aspose.Tasks for .NET을 사용하여 Microsoft Project 리소스를 관리하�
 .NET용 Aspose.Tasks를 사용하여 Microsoft Project에서 자원 할당을 관리하는 방법을 알아보세요. 이 튜토리얼에서는 코드 예제와 단계별 지침을 제공하여 원활한 학습 경험을 보장합니다. 방문하다[자원 배정 수집](./resource-assignment-collection/) 자세한 통찰력을 얻으려면.
 
 ## Aspose.Tasks에서 프로젝트 자원 컬렉션 관리 
- Aspose.Tasks API를 사용하여 .NET에서 Microsoft Project 리소스 컬렉션을 관리하는 효율적인 방법을 알아보세요. 프로젝트 관리의 생산성과 유연성을 높입니다. 우리 안의 비밀을 찾아보세요[리소스 수집 관리 튜토리얼](./managing-resource-collection/).
+ Aspose.Tasks API를 사용하여 .NET에서 Microsoft Project 리소스 컬렉션을 관리하는 효율적인 방법을 알아보세요. 프로젝트 관리의 생산성과 유연성을 높입니다. 우리의 비밀을 밝혀내세요[리소스 수집 관리 튜토리얼](./managing-resource-collection/).
 
 ## Aspose.Tasks의 리소스 유형 
  Aspose.Tasks for .NET에서 다양한 유형의 리소스를 원활하게 사용하세요. 이 튜토리얼에서는 작업, 자재 및 비용 리소스를 다루며 단계별 가이드를 제공합니다. 방문하셔서 실력을 키워보세요[리소스 유형 튜토리얼](./resource-types/).
@@ -33,7 +33,7 @@ Aspose.Tasks for .NET을 사용하여 Microsoft Project 리소스를 관리하�
  .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일의 자원 사용량 보기 필드에 효과적으로 액세스하고 조작합니다. 효율적인 리소스 뷰 관리의 비밀을 알아보세요.[리소스 사용량 보기 필드 튜토리얼](./resource-usage-view-fields/).
 
 ## Aspose.Tasks에서 리소스 보기 열 사용자 정의 
- .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 리소스 보기 열을 효율적으로 조정하세요. 더 나은 프로젝트 관리를 위해 개인화된 보기를 만듭니다. 우리와 함께 시작하세요[리소스 보기 열 사용자 정의 튜토리얼](./resource-view-columns/).
+ .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 리소스 보기 열을 효율적으로 조정하세요. 더 나은 프로젝트 관리를 위해 개인화된 보기를 만듭니다. 우리의 시작하기[리소스 보기 열 사용자 정의 튜토리얼](./resource-view-columns/).
 
 ## Aspose.Tasks를 통한 효율적인 위험 분석 
  .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 파일에 대한 위험 분석을 수행합니다. 프로젝트 관리를 간소화하고 불확실성을 완화합니다.[위험 분석 튜토리얼](./risk-analysis-results/).
@@ -42,7 +42,7 @@ Aspose.Tasks for .NET을 사용하여 Microsoft Project 리소스를 관리하�
  고급 위험 평가 기술로 프로젝트 관리 효율성을 향상시킵니다. .NET용 Aspose.Tasks를 사용하여 MS 프로젝트 위험 분석 설정을 구성하는 방법을 알아보세요. 탐구하다[위험 분석 설정 튜토리얼](./risk-analysis-settings/).
 
 ## Aspose.Tasks를 사용하여 MS 프로젝트 위험 분석 
- Aspose.Tasks for .NET을 사용하여 MS 프로젝트 위험을 효율적으로 분석하세요. 포괄적인 위험 관리를 위한 단계별 가이드를 따르세요.[위험 분석가 튜토리얼](./risk-analyzer/).
+ Aspose.Tasks for .NET을 사용하여 MS 프로젝트 위험을 효율적으로 분석하세요. 포괄적인 위험 관리를 위한 단계별 가이드를 따르세요.[위험 분석기 튜토리얼](./risk-analyzer/).
 
 ## Aspose.Tasks의 위험 항목에 대한 통계 
  MS 프로젝트 파일에서 위험 분석의 힘을 활용해 보세요. .NET용 Aspose.Tasks를 사용하여 통찰력을 얻고, 불확실성을 완화하고, 프로젝트 성공을 쉽게 추진하세요. 로 뛰어 들어라[위험 항목 통계 튜토리얼](./risk-item-statistics/).

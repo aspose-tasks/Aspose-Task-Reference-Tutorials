@@ -47,7 +47,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 
- I det här steget initierar vi en`Project` objekt genom att ange sökvägen till MS Project-filen.
+ I detta steg initierar vi en`Project` objekt genom att ange sökvägen till MS Project-filen.
 
 ## Steg 2: Definiera ImageSaveOptions
 
@@ -112,4 +112,4 @@ S: Ja, Aspose.Tasks för .NET erbjuder omfattande dokumentation och stöd för i
 
 ### F5: Finns det en testversion tillgänglig för Aspose.Tasks för .NET?
 
- S: Ja, du kan ladda ner en gratis testversion av[Aspose.Tasks för .NET från](https://forum.aspose.com/c/tasks/15), att utforska dess funktioner innan du gör ett köp.
+ S: Ja, du kan ladda ner en gratis testversion av[Aspose.Tasks för .NET från](https://forum.aspose.com/c/tasks/15). att utforska dess funktioner innan du gör ett köp.

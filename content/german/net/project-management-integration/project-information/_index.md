@@ -18,7 +18,7 @@ Sie benötigen die Anmeldeinformationen, um auf SharePoint zuzugreifen, wo Ihre 
 - SharePoint-Domänenadresse
 - Nutzername
 - Passwort
-## Namespaces importieren
+## Namensräume importieren
 Sobald Sie alle Voraussetzungen geklärt haben, ist es an der Zeit, die erforderlichen Namespaces in Ihr Projekt zu importieren.
 ```csharp
     using Aspose.Tasks;

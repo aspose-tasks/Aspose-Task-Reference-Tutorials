@@ -11,7 +11,7 @@ url: /es/net/task-table-management/table-fields/
 Bienvenido al mundo de Aspose.Tasks para .NET, una poderosa biblioteca que permite la manipulación perfecta de archivos de Microsoft Project en sus aplicaciones .NET. En este tutorial, profundizaremos en las complejidades del manejo de campos de tablas en Aspose.Tasks, lo que le permitirá leer y administrar tablas de proyectos de manera eficiente. Ya sea que sea un desarrollador experimentado o un recién llegado, esta guía paso a paso le permitirá aprovechar todo el potencial de Aspose.Tasks.
 ## Requisitos previos
 Antes de embarcarnos en este viaje, asegúrese de cumplir con los siguientes requisitos previos:
--  Biblioteca Aspose.Tasks: descargue e instale la biblioteca Aspose.Tasks para .NET. Puedes encontrarlo[aquí](https://releases.aspose.com/tasks/net/).
+- Biblioteca Aspose.Tasks: descargue e instale la biblioteca Aspose.Tasks para .NET. Puedes encontrarlo[aquí](https://releases.aspose.com/tasks/net/).
 - Entorno de desarrollo: asegúrese de tener un entorno de desarrollo adecuado, como Visual Studio, configurado en su máquina.
 Ahora, vayamos al meollo de la cuestión del manejo de los campos de la tabla.
 ## Importar espacios de nombres
@@ -67,8 +67,8 @@ Aspose.Tasks admite varios formatos de archivo de Microsoft Project, incluidos M
 ### ¿Puedo modificar los campos de la tabla usando Aspose.Tasks?
 ¡Absolutamente! No solo puede leer sino también modificar los campos de la tabla usando Aspose.Tasks.
 ### ¿Existe alguna limitación en la cantidad de campos de tabla en un proyecto?
-A partir de la última versión, no existen limitaciones estrictas en la cantidad de campos de la tabla.
+partir de la última versión, no existen limitaciones estrictas en la cantidad de campos de la tabla.
 ### ¿Con qué frecuencia se publican actualizaciones para Aspose.Tasks?
 Las actualizaciones de Aspose.Tasks se publican periódicamente para garantizar la compatibilidad e introducir nuevas funciones.
 ### ¿Existe un foro comunitario para soporte de Aspose.Tasks?
-Sí, puede encontrar ayuda y debates sobre el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Sí, puede encontrar ayuda y debates sobre el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15).

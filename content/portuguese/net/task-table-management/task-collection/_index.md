@@ -85,7 +85,7 @@ Converta a coleção de tarefas em uma lista e execute operações em cada taref
 ## Conclusão
 Gerenciar coleções de tarefas no Aspose.Tasks for .NET é muito fácil com este guia passo a passo. Esteja você criando, editando ou excluindo tarefas, Aspose.Tasks permite que você lide com o gerenciamento de projetos de maneira integrada.
 ## perguntas frequentes
-### Aspose.Tasks é compatível com .NET Core?
+### O Aspose.Tasks é compatível com .NET Core?
 Sim, Aspose.Tasks suporta .NET Core, permitindo que você o use em aplicativos de plataforma cruzada.
 ### Posso exportar tarefas do projeto para diferentes formatos de arquivo?
 Absolutamente! Aspose.Tasks oferece opções versáteis de exportação, incluindo PDF, XLSX e MPP.

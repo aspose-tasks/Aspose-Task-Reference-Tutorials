@@ -1,6 +1,6 @@
 ---
-title: قم بتكوين خيارات عرض MS Project في Aspose.Tasks
-linktitle: قم بتكوين خيارات عرض المشروع في Aspose.Tasks
+title: تكوين خيارات عرض MS Project في Aspose.Tasks
+linktitle: تكوين خيارات عرض المشروع في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين خيارات عرض MS Project برمجياً باستخدام Aspose.Tasks لـ .NET. قم بتخصيص مظهر مشروعك دون عناء.
 type: docs

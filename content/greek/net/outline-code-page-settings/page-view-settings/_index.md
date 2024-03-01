@@ -1,6 +1,6 @@
 ---
 title: Προσαρμόστε τις ρυθμίσεις προβολής σελίδας MS Project στο Aspose.Tasks
-linktitle: Διαμορφώστε τις ρυθμίσεις προβολής σελίδας στο Aspose.Tasks
+linktitle: Διαμόρφωση ρυθμίσεων προβολής σελίδας στο Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Μάθετε πώς να διαμορφώνετε τις ρυθμίσεις προβολής σελίδας στο Aspose.Tasks για .NET για να προσαρμόσετε τη μορφή εκτύπωσης των εγγράφων του Microsoft Project.
 type: docs
@@ -75,4 +75,4 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 ### Ε: Είναι το Aspose.Tasks συμβατό με όλες τις εκδόσεις του Microsoft Project;
 Α: Το Aspose.Tasks προσφέρει συμβατότητα με το Microsoft Project 2003 και νεότερες εκδόσεις.
 ### Ε: Πού μπορώ να βρω περαιτέρω βοήθεια ή υποστήριξη για το Aspose.Tasks;
- Α: Μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15)για τυχόν απορίες ή προβλήματα που αντιμετωπίζετε κατά τη χρήση.
+ Α: Μπορείτε να επισκεφθείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) για τυχόν απορίες ή προβλήματα που αντιμετωπίζετε κατά τη χρήση.

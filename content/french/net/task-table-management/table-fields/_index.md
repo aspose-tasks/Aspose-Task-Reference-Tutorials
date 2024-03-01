@@ -11,7 +11,7 @@ url: /fr/net/task-table-management/table-fields/
 Bienvenue dans le monde d'Aspose.Tasks pour .NET, une bibliothèque puissante qui permet une manipulation transparente des fichiers Microsoft Project dans vos applications .NET. Dans ce didacticiel, nous approfondirons les subtilités de la gestion des champs de table dans Aspose.Tasks, vous permettant de lire et de gérer efficacement les tables de projet. Que vous soyez un développeur chevronné ou un nouveau venu, ce guide étape par étape vous permettra d'exploiter tout le potentiel d'Aspose.Tasks.
 ## Conditions préalables
 Avant de nous lancer dans ce voyage, assurez-vous d’avoir les conditions préalables suivantes en place :
--  Bibliothèque Aspose.Tasks : téléchargez et installez la bibliothèque Aspose.Tasks pour .NET. Tu peux le trouver[ici](https://releases.aspose.com/tasks/net/).
+- Bibliothèque Aspose.Tasks : téléchargez et installez la bibliothèque Aspose.Tasks pour .NET. Tu peux le trouver[ici](https://releases.aspose.com/tasks/net/).
 - Environnement de développement : assurez-vous de disposer d'un environnement de développement approprié, tel que Visual Studio, configuré sur votre ordinateur.
 Passons maintenant au vif du sujet de la gestion des champs de table.
 ## Importer des espaces de noms
@@ -71,4 +71,4 @@ Depuis la dernière version, il n’existe aucune limitation stricte sur le nomb
 ### À quelle fréquence les mises à jour sont-elles publiées pour Aspose.Tasks ?
 Des mises à jour pour Aspose.Tasks sont publiées régulièrement pour garantir la compatibilité et introduire de nouvelles fonctionnalités.
 ### Existe-t-il un forum communautaire pour le support d'Aspose.Tasks ?
-Oui, vous pouvez trouver de l'aide et des discussions sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Oui, vous pouvez trouver de l'aide et des discussions sur le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).

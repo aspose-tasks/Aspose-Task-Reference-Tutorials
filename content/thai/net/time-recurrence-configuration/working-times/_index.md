@@ -1,6 +1,6 @@
 ---
-title: กำหนดค่าเวลาทำงานใน Aspose.Tasks
-linktitle: กำหนดค่าเวลาทำงานใน Aspose.Tasks
+title: การกำหนดค่าเวลาทำงานใน Aspose.Tasks
+linktitle: การกำหนดค่าเวลาทำงานใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: ปรับปรุงการกำหนดเวลาโครงการใน .NET ด้วย Aspose.Tasks กำหนดเวลาทำงานได้อย่างง่ายดายเพื่อการจัดการทรัพยากรที่แม่นยำ ดาวน์โหลดห้องสมุดทันที!
 type: docs
@@ -12,8 +12,8 @@ url: /th/net/time-recurrence-configuration/working-times/
 ## ข้อกำหนดเบื้องต้น
 ก่อนที่จะเข้าสู่บทช่วยสอน ตรวจสอบให้แน่ใจว่าคุณมีสิ่งต่อไปนี้:
 - ความเข้าใจพื้นฐานเกี่ยวกับภาษาการเขียนโปรแกรม C#
-- ติดตั้ง Aspose.Tasks สำหรับไลบรารี .NET แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/tasks/net/).
-- ตั้งค่า Visual Studio หรือสภาพแวดล้อมการพัฒนา C# ที่ต้องการ
+-  ติดตั้ง Aspose.Tasks สำหรับไลบรารี .NET แล้ว คุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/tasks/net/).
+- Visual Studio หรือสภาพแวดล้อมการพัฒนา C# ที่ต้องการ
 ## นำเข้าเนมสเปซ
 เริ่มต้นด้วยการนำเข้าเนมสเปซที่จำเป็นเพื่อเข้าถึงฟังก์ชัน Aspose.Tasks:
 ```csharp

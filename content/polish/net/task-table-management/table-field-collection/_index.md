@@ -12,7 +12,7 @@ Aspose.Tasks dla .NET to potężna biblioteka ułatwiająca zarządzanie projekt
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następującą konfigurację:
 - Praktyczna znajomość języka programowania C#.
-- Zainstalowana biblioteka Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
+-  Zainstalowana biblioteka Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
 - Zintegrowane środowisko programistyczne (IDE), takie jak Visual Studio.
 ## Importuj przestrzenie nazw
 Po pierwsze, upewnij się, że na początku pliku C# zaimportowano niezbędne przestrzenie nazw:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // iteruj po polach tabeli
+    //iteruj po polach tabeli
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -72,7 +72,7 @@ Edytuj nowo dodane pole tabeli, korzystając z dostępu do indeksu.
 table.TableFields[idx].WrapHeader = true;
 ```
 ## Krok 7: Usuń pole
-Usuń pola tabeli pojedynczo lub wyczyść całą kolekcję.
+Usuń pole tabeli pojedynczo lub wyczyść całą kolekcję.
 ```csharp
 Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
 // Usuń pole
@@ -108,6 +108,6 @@ Absolutnie! Jak pokazano w samouczku, możesz dynamicznie dodawać, wstawiać, e
 ### Czy istnieją jakieś uwagi licencyjne dotyczące używania Aspose.Tasks dla .NET w projekcie komercyjnym?
  Tak, potrzebujesz ważnej licencji, aby używać Aspose.Tasks dla .NET w projekcie komercyjnym. Można uzyskać licencję[Tutaj](https://purchase.aspose.com/buy).
 ### Jak mogę uzyskać wsparcie lub szukać pomocy w Aspose.Tasks dla .NET?
- odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) aby uzyskać wsparcie, zadawać pytania i współpracować ze społecznością.
+ Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)aby uzyskać wsparcie, zadawać pytania i współpracować ze społecznością.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks dla .NET?
  Tak, możesz poznać funkcje Aspose.Tasks dla .NET w ramach bezpłatnej wersji próbnej. Pobierz to[Tutaj](https://releases.aspose.com/).

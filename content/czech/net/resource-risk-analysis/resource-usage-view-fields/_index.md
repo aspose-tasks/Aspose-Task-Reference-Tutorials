@@ -8,7 +8,7 @@ weight: 16
 url: /cs/net/resource-risk-analysis/resource-usage-view-fields/
 ---
 ## Úvod
-oblasti projektového řízení je efektivní nakládání se soubory Microsoft Project zásadní. Aspose.Tasks for .NET poskytuje komplexní řešení pro bezproblémovou práci se soubory MS Project. V tomto tutoriálu se ponoříme do procesu přístupu a využití Resource Usage View Fields pomocí Aspose.Tasks for .NET.
+V oblasti projektového řízení je efektivní nakládání se soubory Microsoft Project zásadní. Aspose.Tasks for .NET poskytuje komplexní řešení pro bezproblémovou práci se soubory MS Project. V tomto tutoriálu se ponoříme do procesu přístupu a využití Resource Usage View Fields pomocí Aspose.Tasks for .NET.
 ## Předpoklady
 Než se pustíte do výukového programu, ujistěte se, že máte splněny následující předpoklady:
 1.  Instalace Aspose.Tasks for .NET: Ujistěte se, že máte nainstalovanou knihovnu Aspose.Tasks for .NET. Pokud ne, můžete si jej stáhnout z[webová stránka](https://releases.aspose.com/tasks/net/).

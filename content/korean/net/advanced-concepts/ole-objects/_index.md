@@ -15,7 +15,7 @@ Aspose.Tasks for .NET은 프로젝트 파일 내의 OLE(Object Linking and Embed
 
 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 
-1. 설치: 개발 환경에 Aspose.Tasks for .NET이 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
+1.  설치: 개발 환경에 Aspose.Tasks for .NET이 설치되어 있는지 확인하세요. 다음에서 다운로드할 수 있습니다.[여기](https://releases.aspose.com/tasks/net/).
 
 2. 기본 지식: C# 프로그래밍 언어 및 .NET 프레임워크 개념을 숙지하세요.
 

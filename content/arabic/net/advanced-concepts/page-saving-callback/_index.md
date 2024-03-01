@@ -17,7 +17,7 @@ url: /ar/net/advanced-concepts/page-saving-callback/
 
 1. معرفة لغة البرمجة C#: يجب أن يكون لديك فهم أساسي لبناء جملة C# ومفاهيمها.
    
-2. تثبيت Aspose.Tasks لـ .NET: تأكد من تثبيت مكتبة Aspose.Tasks في بيئة التطوير الخاصة بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
+2.  تثبيت Aspose.Tasks لـ .NET: تأكد من تثبيت مكتبة Aspose.Tasks في بيئة التطوير الخاصة بك. يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
 
 3. إعداد بيئة التطوير: قم بإعداد IDE المفضل لديك لتطوير .NET، مثل Visual Studio.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## الخطوة 2: تكوين خيارات حفظ الصورة
 
- يُعرِّف`ImageSaveOptions` وتخصيص سلوك حفظ الصفحة عن طريق تعيين`PageSavingCallback` ملكية:
+ يُعرِّف`ImageSaveOptions`وتخصيص سلوك حفظ الصفحة عن طريق تعيين`PageSavingCallback` ملكية:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);

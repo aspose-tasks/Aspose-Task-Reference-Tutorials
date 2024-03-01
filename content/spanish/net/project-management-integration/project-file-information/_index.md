@@ -31,12 +31,12 @@ Ahora, dividamos el código de ejemplo proporcionado en varios pasos:
 // La ruta al directorio de documentos.
 string dataDir = "Your Document Directory";
 ```
- reemplazar`"Your Document Directory"` con la ruta a su directorio que contiene el archivo de MS Project.
+ Reemplazar`"Your Document Directory"` con la ruta a su directorio que contiene el archivo de MS Project.
 ## Paso 3: recuperar la información del archivo del proyecto
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Esta línea de código recupera información sobre el archivo de proyecto especificado. reemplazar`"Project.xml"` con el nombre de su archivo de MS Project.
+ Esta línea de código recupera información sobre el archivo de proyecto especificado. Reemplazar`"Project.xml"` con el nombre de su archivo de MS Project.
 ## Paso 4: Mostrar información del proyecto
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);

@@ -42,11 +42,11 @@ var options = new SaveTemplateOptions
 {
 	// Odstraňte všechny fixní náklady ze šablony projektu
 	RemoveFixedCosts = true,
-	// Odstraňte všechny skutečné hodnoty ze šablony projektu
+	// Odeberte všechny skutečné hodnoty ze šablony projektu
 	RemoveActualValues = true,
-	// Odeberte sazby zdrojů ze šablony projektu
+	// Odstraňte sazby zdrojů ze šablony projektu
 	RemoveResourceRates = true,
-	// Odstraňte všechny základní hodnoty ze šablony projektu
+	// Odeberte všechny hodnoty směrného plánu ze šablony projektu
 	RemoveBaselineValues = true
 };
 ```
@@ -75,4 +75,4 @@ Odpověď: Ano, šablony můžete aplikovat na existující projekty načtením 
 ### Otázka: Podporuje Aspose.Tasks for .NET vývoj napříč platformami?
 A: Aspose.Tasks for .NET je primárně navržen pro aplikace .NET framework běžící na platformách Windows.
 ### Otázka: Je k dispozici technická podpora pro Aspose.Tasks pro .NET?
- Odpověď: Ano, technickou pomoc a pokyny můžete vyhledat od komunity Aspose.Tasks.[fórech](https://forum.aspose.com/c/tasks/15) nebo kontaktujte přímo jejich tým podpory.
+ Odpověď: Ano, technickou pomoc a pokyny můžete vyhledat od komunity Aspose.Tasks[fórech](https://forum.aspose.com/c/tasks/15)nebo kontaktujte přímo jejich tým podpory.

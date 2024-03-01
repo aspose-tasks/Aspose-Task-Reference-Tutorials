@@ -27,9 +27,9 @@ Laad eerst het MS Project-bestand met Aspose.Tasks:
 ```csharp
 var project = new Project(DataDir + "CreateProject2.mpp");
 ```
- vervangen`"Your Document Directory"`met het daadwerkelijke mappad waar uw MS Project-bestand zich bevindt.
+ Vervangen`"Your Document Directory"`met het daadwerkelijke mappad waar uw MS Project-bestand zich bevindt.
 ## Stap 2: Definieer de opslagopties
- Definieer de opties voor het opslaan van Spreadsheet 2003 door een exemplaar te maken van`Spreadsheet2003SaveOptions`,
+ Definieer de opties voor het opslaan van Spreadsheet 2003 door een exemplaar te maken van`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ Door gebruik te maken van Aspose.Tasks voor .NET, met name de Spreadsheet 2003 S
 ### Vraag: Kan Aspose.Tasks voor .NET worden gebruikt in zowel web- als desktoptoepassingen?
 A: Ja, Aspose.Tasks voor .NET kan naadloos worden geïntegreerd in zowel web- als desktopapplicaties, waardoor consistente functionaliteit op alle platforms wordt geboden.
 ### Vraag: Is er een proefversie beschikbaar voor Aspose.Tasks voor .NET?
- A: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks voor .NET via de[website](https://releases.aspose.com/), zodat u de functies ervan kunt verkennen voordat u een aankoop doet.
+A: Ja, u kunt toegang krijgen tot een gratis proefversie van Aspose.Tasks voor .NET via de[website](https://releases.aspose.com/), zodat u de functies ervan kunt verkennen voordat u een aankoop doet.
 ### Vraag: Zijn er beperkingen voor het aanpassen van weergavekolommen met Aspose.Tasks voor .NET?
 A: Aspose.Tasks voor .NET biedt uitgebreide aanpassingsopties voor weergavekolommen, met minimale beperkingen. Voor complexe aanpassingen kan echter geavanceerde kennis van de bibliotheek nodig zijn.
 ### Vraag: Kan ik hulp zoeken als ik problemen ondervind tijdens het gebruik van Aspose.Tasks voor .NET?

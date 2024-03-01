@@ -11,7 +11,7 @@ url: /es/net/task-table-management/managing-tasks/
 Si es un desarrollador de .NET y busca administrar de manera eficiente las tareas dentro de sus proyectos, Aspose.Tasks para .NET proporciona una solución sólida. Este tutorial lo guiará a través de varios aspectos de la gestión de tareas utilizando Aspose.Tasks, ofreciendo instrucciones paso a paso y ejemplos de código. Ya sea que esté agregando tareas, mostrando partes divididas, moviendo tareas bajo el mismo padre, obteniendo/configurando propiedades de tareas, iterando sobre asignaciones de tareas, leyendo líneas base de tareas o eliminando tareas, esta guía lo tiene cubierto.
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
-1.  Aspose.Tasks para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.Tasks para .NET. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks para la biblioteca .NET: asegúrese de tener instalada la biblioteca Aspose.Tasks para .NET. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
 2. Directorio de documentos: configure un directorio donde se almacenarán los documentos de su proyecto.
 ## Importar espacios de nombres
 En su proyecto .NET, incluya los espacios de nombres necesarios para trabajar con Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Cargar un proyecto con tareas divididas
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Acceder a una tarea
+// Acceder a una tarea
 var task = project.RootTask.Children.GetById(4);
 // Mostrar partes divididas
 var collection = task.SplitParts;
@@ -57,7 +57,7 @@ try
 {
     // Cargar un proyecto
     var project = new Project(DataDir + "MoveTask.mpp");
-    // Mover tareas con id 5 antes de tarea con id 3
+    // Mover tareas con id 5 antes de la tarea con id 3
     var task = project.RootTask.Children.GetById(5);
     task.MoveToSibling(3);
     // Guardar el proyecto modificado
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Agregar una tarea
 var task = project.RootTask.Children.Add("Task");
-// Mostrar el número de tareas antes y después de la eliminación
+//Mostrar el número de tareas antes y después de la eliminación
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Eliminar la tarea
 task.Delete();

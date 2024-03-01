@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## 3. Adım: Özel Sütunu Tanımlayın
 
- Şimdi özel sütununuzu bir örneğini oluşturarak tanımlayın.`AssignmentViewColumn`Bu sınıf, atama verilerini sütun metnine dönüştürmek için sütun adını, genişliğini ve bir temsilci işlevini gerektirir:
+ Şimdi özel sütununuzu bir örneğini oluşturarak tanımlayın.`AssignmentViewColumn`. Bu sınıf, atama verilerini sütun metnine dönüştürmek için sütun adını, genişliğini ve bir temsilci işlevini gerektirir:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

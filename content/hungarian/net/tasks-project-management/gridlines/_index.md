@@ -112,4 +112,4 @@ V: Igen, az Aspose.Tasks for .NET kiterjedt dokumentációt és támogatást kí
 
 ### 5. kérdés: Elérhető-e próbaverzió az Aspose.Tasks .NET-hez?
 
- V: Igen, letöltheti a program ingyenes próbaverzióját[Aspose.Tasks for .NET from](https://forum.aspose.com/c/tasks/15), hogy vásárlás előtt ismerkedjen meg funkcióival.
+ V: Igen, letöltheti a program ingyenes próbaverzióját[Aspose.Tasks for .NET from](https://forum.aspose.com/c/tasks/15). hogy vásárlás előtt ismerkedjen meg funkcióival.

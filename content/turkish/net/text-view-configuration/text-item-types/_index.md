@@ -11,7 +11,7 @@ url: /tr/net/text-view-configuration/text-item-types/
 Aspose.Tasks kullanarak proje yönetimine başlayan bir .NET geliştiricisiyseniz, doğru yere geldiniz! Bu adım adım kılavuzda, güçlü .NET kitaplığını kullanarak özelleştirmeye odaklanarak Aspose.Tasks'ta metin öğesi türlerini işlemenin inceliklerini keşfedeceğiz.
 ## Önkoşullar
 Başlamadan önce aşağıdakilerin yerinde olduğundan emin olun:
-1. Aspose.Tasks for .NET Library: Aspose.Tasks kütüphanesinin kurulu olduğundan emin olun. Değilse indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET Library: Aspose.Tasks kütüphanesinin kurulu olduğundan emin olun. Değilse indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
 2. Belge Dizini: Proje belgeleriniz için bir dizin oluşturun.
 Şimdi metin öğesi türlerini ele almanın en ince ayrıntılarına dalalım.
 ## Ad Alanlarını İçe Aktar
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Tanımlanan metin stilini projenize uygulayın ve özelleştirilmiş projeyi PDF dosyası olarak kaydedin.
 Farklı metin öğesi türlerini, yazı tipi stillerini ve renkleri deneyerek diğer özelleştirme ihtiyaçları için bu adımları tekrarlayın.
 ## Çözüm
- Tebrikler! Aspose.Tasks for .NET'te metin öğesi türlerinin işlenmesine yeni başladınız. Keşfetmeye devam ederken, bkz.[dokümantasyon](https://reference.aspose.com/tasks/net/) derinlemesine bilgiler için.
+Tebrikler! Aspose.Tasks for .NET'te metin öğesi türlerinin işlenmesine yeni başladınız. Keşfetmeye devam ederken, bkz.[dokümantasyon](https://reference.aspose.com/tasks/net/) derinlemesine bilgiler için.
 ### SSS
 ### S: Aspose.Tasks'ı ücretsiz kullanabilir miyim?
  C: Aspose.Tasks ücretsiz deneme olanağı sunuyor. Yakala[Burada](https://releases.aspose.com/).

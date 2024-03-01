@@ -11,7 +11,7 @@ url: /hu/net/resource-risk-analysis/resource-assignment-collection/
 Üdvözöljük ebben az átfogó oktatóanyagban a Microsoft Project erőforrás-hozzárendeléseinek kezeléséről az Aspose.Tasks for .NET használatával. Ebben az oktatóanyagban lépésről lépésre elmélyülünk a folyamatban, biztosítva, hogy alaposan megértse az erőforrás-hozzárendelések hatékony kezelését. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató végigvezeti Önt mindenen, amit tudnia kell.
 ## Előfeltételek
 Mielőtt belemerülnénk a kódba, győződjön meg arról, hogy beállította a következőket:
-1. Aspose.Tasks for .NET telepítve: Győződjön meg arról, hogy az Aspose.Tasks for .NET telepítve van a fejlesztői környezetében. Ha nem, letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET telepítve: Győződjön meg arról, hogy az Aspose.Tasks for .NET telepítve van a fejlesztői környezetében. Ha nem, letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
 2. Alapvető C# ismerete: Ez az oktatóanyag feltételezi, hogy rendelkezik a C# programozási nyelv alapvető ismereteivel.
 3. Microsoft Project File: Készítsen egy Microsoft Project fájlt tesztelési célokra. Ha nem rendelkezik ilyennel, létrehozhat egy mintafájlt.
 

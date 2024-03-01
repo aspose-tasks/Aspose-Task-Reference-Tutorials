@@ -31,7 +31,7 @@ Pertama, atur path ke direktori yang berisi file MS Project Anda.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file proyek Anda.
+ Mengganti`"Your Document Directory"` dengan jalur sebenarnya ke file proyek Anda.
 ## Langkah 2: Muat File Proyek
  Buat instance yang baru`Project` objek dengan memuat file MS Project.
 ```csharp

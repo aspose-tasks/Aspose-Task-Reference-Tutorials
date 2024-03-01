@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
- Değiştirdiğinizden emin olun`"Your Document Directory"`, `URL`, `Domain`, `UserName` ,Ve`Password` gerçek değerlerinizle.
+ Değiştirdiğinizden emin olun`"Your Document Directory"`, `URL`, `Domain`, `UserName` , Ve`Password` gerçek değerlerinizle.
 ## Adım 2: Proje Sunucu Yöneticisi Oluşturun
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
- Ayarlayın`ProjectGuid`, `ProjectName`, `Timeout` ,Ve`PollingInterval` gereksinimlerinize göre.
+ Ayarlayın`ProjectGuid`, `ProjectName`, `Timeout` , Ve`PollingInterval` gereksinimlerinize göre.
 ## Adım 4: Projeyi Sunucuya Kaydetme
 ```csharp
 manager.CreateNewProject(project, options);

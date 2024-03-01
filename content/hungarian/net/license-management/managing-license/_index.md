@@ -13,7 +13,7 @@ A licencek kezelése az Aspose.Tasks .NET-alkalmazásokban való hatékony felha
 Mielőtt belevágnánk az Aspose.Tasks licencek kezelésébe a .NET-ben, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
 - A C# programozási nyelv és a .NET keretrendszer alapvető ismerete.
 - Aspose.Tasks telepítve a .NET-hez.
-- Hozzáférés egy érvényes Aspose.Tasks licencfájlhoz (`.lic`,
+- Hozzáférés egy érvényes Aspose.Tasks licencfájlhoz (`.lic`).
 ## Névterek importálása
 Az Aspose.Tasks használatának megkezdése előtt a .NET-projektben importálnia kell a szükséges névtereket. Ezek a névterek hozzáférést biztosítanak a licenckezeléshez szükséges osztályokhoz és metódusokhoz.
 
@@ -81,7 +81,7 @@ public void ApplyLicenseUsingStream()
 ```
 2.  Használja ki a`ApplyLicenseUsingStream()` módszert az alkalmazás kódjában, ahol szükséges.
 ## Következtetés
-Az Aspose.Tasks licencek hatékony kezelése .NET alkalmazásokban biztosítja a zavartalan működést és a licencfeltételek betartását. Az oktatóanyagban található lépésenkénti utasítások követésével zökkenőmentesen alkalmazhatja a licenceket mind fájl-, mind adatfolyam-alapú megközelítéssel. Ne felejtsen el mindig érvényes licencet fenntartani az Aspose.Tasks teljes potenciáljának kiaknázásához .NET-projektjeiben.
+Az Aspose.Tasks licencek hatékony kezelése .NET alkalmazásokban biztosítja a zavartalan működést és a licencfeltételek betartását. Az ebben az oktatóanyagban található lépésenkénti utasítások követésével zökkenőmentesen alkalmazhatja a licenceket mind fájl-, mind adatfolyam-alapú megközelítéssel. Ne felejtsen el mindig érvényes licencet fenntartani az Aspose.Tasks teljes potenciáljának kiaknázásához .NET-projektjeiben.
 ## GYIK
 ### K: Hol találom az Aspose.Tasks licencfájlt?
 

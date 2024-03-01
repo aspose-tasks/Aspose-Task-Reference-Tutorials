@@ -1,6 +1,6 @@
 ---
-title: Configurar opções de impressão do MS Project em Aspose.Tasks
-linktitle: Configurar opções de impressão em Aspose.Tasks
+title: Configurando opções de impressão do MS Project em Aspose.Tasks
+linktitle: Configurando opções de impressão em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda como configurar as opções de impressão do MS Project perfeitamente usando Aspose.Tasks for .NET. Aprimore seus recursos de gerenciamento de projetos.
 type: docs
@@ -11,7 +11,7 @@ url: /pt/net/project-management-integration/print-options/
 No domínio do desenvolvimento de software, Aspose.Tasks for .NET se destaca como uma ferramenta poderosa para gerenciar tarefas e projetos com eficiência. Um de seus principais recursos é a capacidade de configurar perfeitamente as opções de impressão do Microsoft Project. Neste tutorial, nos aprofundaremos no processo de configuração das opções de impressão do MS Project usando Aspose.Tasks for .NET.
 ## Pré-requisitos
 Antes de nos aprofundarmos nas complexidades da configuração das opções de impressão do MS Project, certifique-se de ter os seguintes pré-requisitos em vigor:
-1.  Instalação do Aspose.Tasks for .NET: Certifique-se de ter instalado a biblioteca Aspose.Tasks for .NET. Você pode baixá-lo em[aqui](https://releases.aspose.com/tasks/net/).
+1. Instalação do Aspose.Tasks for .NET: Certifique-se de ter instalado a biblioteca Aspose.Tasks for .NET. Você pode baixá-lo em[aqui](https://releases.aspose.com/tasks/net/).
 2. Compreensão básica de C#: familiarize-se com os fundamentos da linguagem de programação C#, pois este tutorial emprega principalmente C# para demonstração.
 
 ## Importar namespaces
@@ -43,7 +43,7 @@ Antes de imprimir, é prudente verificar a contagem de páginas para evitar a im
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Prossiga com a impressão
+    // Prossiga com a impressão
     project.Print(options);
 }
 ```

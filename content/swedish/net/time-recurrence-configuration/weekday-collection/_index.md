@@ -88,7 +88,7 @@ I den här handledningen utforskade vi de kraftfulla funktionerna i Aspose.Tasks
 ### F: Kan jag använda Aspose.Tasks för .NET med andra programmeringsspråk?
 S: Aspose.Tasks stöder i första hand .NET-språk, men det erbjuder även versioner för Java.
 ### F: Finns det en gratis testversion tillgänglig för Aspose.Tasks för .NET?
- S: Ja, du kan ladda ner en gratis provversion från[Aspose.Tasks släpper sida](https://releases.aspose.com/).
+ S: Ja, du kan ladda ner en gratis testversion från[Aspose.Tasks släpper sida](https://releases.aspose.com/).
 ### F: Hur kan jag få support för Aspose.Tasks för .NET?
  A: Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för samhällsstöd eller överväg att köpa en supportplan.
 ### F: Var kan jag hitta omfattande dokumentation för Aspose.Tasks för .NET?

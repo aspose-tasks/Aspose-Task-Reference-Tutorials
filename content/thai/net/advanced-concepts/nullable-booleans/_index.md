@@ -9,7 +9,7 @@ url: /th/net/advanced-concepts/nullable-booleans/
 ---
 ## การแนะนำ
 
- ในบทช่วยสอนนี้ เราจะเจาะลึกการทำงานกับบูลีนที่เป็นโมฆะใน Aspose.Tasks สำหรับ .NET บูลีนแบบ Nullable มีความยืดหยุ่นในการแสดงค่าบูลีน ซึ่งทำให้ไม่สามารถกำหนดความเป็นไปได้ได้ เราจะสำรวจวิธีการใช้`NullableBool` คลาส ตัวสร้าง คุณสมบัติ และวิธีการ
+ในบทช่วยสอนนี้ เราจะเจาะลึกการทำงานกับบูลีนที่เป็นโมฆะใน Aspose.Tasks สำหรับ .NET บูลีนแบบ Nullable มีความยืดหยุ่นในการแสดงค่าบูลีน ซึ่งทำให้ไม่สามารถกำหนดความเป็นไปได้ได้ เราจะสำรวจวิธีการใช้`NullableBool` คลาส ตัวสร้าง คุณสมบัติ และวิธีการ
 
 ## ข้อกำหนดเบื้องต้น
 
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### ขั้นตอนที่ 6: แสดงการแสดงสตริงของ`NullableBool` object.
+###  ขั้นตอนที่ 6: แสดงการแสดงสตริงของ`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  ขั้นตอนที่ 2: พิมพ์รหัสแฮชสำหรับแต่ละรายการ`NullableBool` object.
+### ขั้นตอนที่ 2: พิมพ์รหัสแฮชสำหรับแต่ละรายการ`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## บทสรุป
 
- ในบทช่วยสอนนี้ เราได้สำรวจวิธีจัดการบูลีนที่เป็นโมฆะใน Aspose.Tasks สำหรับ .NET โดยใช้`NullableBool` คลาสและวิธีการของมัน คุณสามารถจัดการค่าบูลีนได้อย่างมีประสิทธิภาพโดยมีความยืดหยุ่นเพิ่มเติมในการเป็นโมฆะ
+ ในบทช่วยสอนนี้ เราได้สำรวจวิธีจัดการบูลีนที่เป็นโมฆะใน Aspose.Tasks สำหรับ .NET โดยการใช้`NullableBool` คลาสและวิธีการของมัน คุณสามารถจัดการค่าบูลีนได้อย่างมีประสิทธิภาพโดยมีความยืดหยุ่นเพิ่มเติมในการเป็นโมฆะ
 
 ## คำถามที่พบบ่อย
 

@@ -65,10 +65,10 @@ Tebrikler! Aspose.Tasks for .NET'te görev temellerini nasıl yöneteceğinizi b
 ### S: Aspose.Tasks'ı diğer .NET çerçeveleriyle kullanabilir miyim?
 C: Aspose.Tasks birden fazla .NET çerçevesiyle uyumludur ve geliştirme ortamınıza esneklik sağlar.
 ### S: Aspose.Tasks desteği için bir topluluk forumu var mı?
-C: Evet, şu adresten destek bulabilir ve toplulukla etkileşime geçebilirsiniz:[Aspose.Tasks Forumu](https://forum.aspose.com/c/tasks/15).
+ C: Evet, şu adresten destek bulabilir ve toplulukla etkileşime geçebilirsiniz:[Aspose.Tasks Forumu](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks için nasıl geçici lisans alabilirim?
- Ziyaret[Burada](https://purchase.aspose.com/temporary-license/) Aspose.Tasks için geçici bir lisans almak için.
+ Ziyaret[Burada](https://purchase.aspose.com/temporary-license/)Aspose.Tasks için geçici bir lisans almak için.
 ### S: Görev temellerinin ötesinde herhangi bir eğitim mevcut mu?
- C:Keşfet[dokümantasyon](https://reference.aspose.com/tasks/net/) Aspose.Tasks özellikleriyle ilgili çok çeşitli eğitimler için.
+ C: Keşfedin[dokümantasyon](https://reference.aspose.com/tasks/net/) Aspose.Tasks özellikleriyle ilgili çok çeşitli eğitimler için.
 ### S: Aspose.Tasks for .NET'i nereden satın alabilirim?
  C: Aspose.Tasks'ı rahatlıkla satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).

@@ -55,7 +55,7 @@ Dowiedz się, jak używać Aspose.Tasks dla .NET do wydajnego zarządzania i ana
 
 ## Opcje CSV w Aspose.Tasks
 
- Wykorzystaj Aspose.Tasks for .NET do wydajnej pracy z plikami CSV. Zwiększ swoje możliwości zarządzania projektami bez wysiłku dzięki samouczkom krok po kroku.[Czytaj więcej](./csv-options/)
+ Wykorzystaj Aspose.Tasks dla .NET do wydajnej pracy z plikami CSV. Zwiększ swoje możliwości zarządzania projektami bez wysiłku dzięki samouczkom krok po kroku.[Czytaj więcej](./csv-options/)
 
 ## Pozycje symboli walut w Aspose.Tasks
 
@@ -100,7 +100,7 @@ Dowiedz się, jak efektywnie zarządzać kolekcjami kalendarzy w Aspose.Tasks dl
 ### [Obsługa wyjątków kalendarza w Aspose.Tasks](./calendar-exceptions/)
 Dowiedz się, jak zarządzać wyjątkami kalendarza w Aspose.Tasks dla .NET, korzystając ze szczegółowych samouczków i przykładów.
 ### [Zbiór wyjątków kalendarza w Aspose.Tasks](./calendar-exception-collection/)
-Dowiedz się, jak efektywnie obsługiwać wyjątki kalendarza w projektach .NET przy użyciu Aspose.Tasks, zapewniając dokładne planowanie i zarządzanie zasobami.
+Dowiedz się, jak efektywnie obsługiwać wyjątki kalendarza w projektach .NET za pomocą Aspose.Tasks, zapewniając dokładne planowanie i zarządzanie zasobami.
 ### [Sprawdź obwód w Aspose.Tasks](./check-circuit/)
 Dowiedz się, jak używać Aspose.Tasks dla .NET do wydajnego zarządzania i analizowania plików projektów w języku C#.
 ### [Zbieranie zadań podrzędnych w Aspose.Tasks](./child-tasks-collector/)

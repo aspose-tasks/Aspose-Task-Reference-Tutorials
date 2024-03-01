@@ -71,7 +71,7 @@ Igen, az Aspose.Tasks támogatja a különféle .NET-keretrendszereket, biztosí
 ### Testreszabhatom az egyes feladatok megjelenését az idővonal nézetben?
 Teljesen! Az Aspose.Tasks rugalmasságot biztosít az egyes feladatok megjelenésének testreszabásához az idővonal nézetben.
 ### Hol találhatok további forrásokat és támogatást az Aspose.Tasks számára?
- meglátogatni a[Aspose.Tasks dokumentáció](https://reference.aspose.com/tasks/net/) átfogó útmutatókért és a[támogatói fórum](https://forum.aspose.com/c/tasks/15) segítségért.
+ Meglátogatni a[Aspose.Tasks dokumentáció](https://reference.aspose.com/tasks/net/)átfogó útmutatókért és a[támogatói fórum](https://forum.aspose.com/c/tasks/15) segítségért.
 ### Elérhető az Aspose.Tasks ingyenes próbaverziója?
  Igen, felfedezheti az ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?

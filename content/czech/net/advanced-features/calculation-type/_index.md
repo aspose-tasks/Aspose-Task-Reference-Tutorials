@@ -9,7 +9,7 @@ url: /cs/net/advanced-features/calculation-type/
 ---
 ## Úvod
 
-V tomto tutoriálu prozkoumáme funkci Typ výpočtu v Aspose.Tasks pro .NET. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům .NET pracovat se soubory aplikace Microsoft Project bez nutnosti instalace aplikace Microsoft Project na jejich systémy. Typ výpočtu nám umožňuje definovat, jak se počítají hodnoty pro úkoly a souhrnné úkoly v rámci projektu.
+V tomto tutoriálu prozkoumáme funkci Typ výpočtu v Aspose.Tasks pro .NET. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům .NET pracovat se soubory aplikace Microsoft Project bez nutnosti instalace aplikace Microsoft Project na jejich systémy. Typ výpočtu nám umožňuje definovat způsob výpočtu hodnot pro úkoly a souhrnné úkoly v rámci projektu.
 
 ## Předpoklady
 
@@ -80,7 +80,7 @@ V tomto tutoriálu jsme prozkoumali, jak pracovat s typem výpočtu v Aspose.Tas
 
 ### Q1: Co je typ výpočtu v Aspose.Tasks?
 
-A1: Typ výpočtu v Aspose.Tasks určuje, jak se počítají hodnoty pro úkoly a souhrnné úkoly v rámci projektu, a nabízí možnosti, jako je vzorec a souhrn.
+A1: Typ výpočtu v Aspose.Tasks určuje způsob výpočtu hodnot pro úkoly a souhrnné úkoly v rámci projektu a nabízí možnosti, jako je vzorec a souhrn.
 
 ### Q2: Jak nastavím typ výpočtu pro rozšířený atribut?
 
@@ -92,7 +92,7 @@ Odpověď 3: Ano, Aspose.Tasks vám umožňuje určit typ výpočtu pro souhrnn�
 
 ### Q4: Jsou pro výpočty souhrnných úkolů k dispozici různé typy kumulativních úloh?
 
-Odpověď 4: Ano, Aspose.Tasks poskytuje různé typy souhrnů, jako je průměr, součet a počet pro výpočet hodnot souhrnných úkolů.
+A4: Ano, Aspose.Tasks poskytuje různé typy kumulativních úloh, jako je průměr, součet a počet pro výpočet hodnot souhrnných úkolů.
 
 ### Q5: Kde najdu další zdroje na Aspose.Tasks pro .NET?
 

@@ -76,6 +76,6 @@ foreach (var reference in project.VbaProject.References)
 ### س: هل هناك نسخة تجريبية مجانية متاحة؟
  ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية[هنا](https://releases.aspose.com/).
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟
-ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+ ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني شراء Aspose.Tasks؟
  ج: شراء Aspose.Tasks[هنا](https://purchase.aspose.com/buy).

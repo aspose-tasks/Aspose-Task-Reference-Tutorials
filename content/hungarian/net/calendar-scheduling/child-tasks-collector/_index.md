@@ -18,7 +18,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek
 1. A C# alapjai: A C# programozási nyelv ismerete elengedhetetlen.
 2.  Az Aspose.Tasks for .NET telepítése: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat a[letöltési link](https://releases.aspose.com/tasks/net/).
 3. Fejlesztői környezet: Állítson be egy fejlesztői környezetet, például a Visual Studio-t a C# kód írására és végrehajtására.
-4.  Hozzáférés a dokumentációhoz: Őrizze meg a[Aspose.Tasks .NET dokumentációhoz](https://reference.aspose.com/tasks/net/) referenciaként használható.
+4. Hozzáférés a dokumentációhoz: Őrizze meg a[Aspose.Tasks .NET dokumentációhoz](https://reference.aspose.com/tasks/net/) referenciaként használható.
 
 Most, hogy megvannak az előfeltételek, nézzük meg az Aspose.Tasks for .NET segítségével történő gyermekfeladatok összegyűjtésének lépésenkénti útmutatóját.
 
@@ -58,9 +58,9 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Alkalmazzuk a`ChildTasksCollector` projekt gyökérfeladatához, rekurzív módon elindítva a gyűjtési folyamatot.
+ Alkalmazzuk a`ChildTasksCollector` a projekt gyökérfeladatához, rekurzív módon elindítva a gyűjtési folyamatot.
 
-## 4. lépés: Ismételje meg az összegyűjtött feladatokat
+## 4. lépés: Ismétlés az összegyűjtött feladatokon keresztül
 
 ```csharp
 foreach (var task in collector.Tasks)
@@ -91,7 +91,7 @@ A2: Abszolút! Az Aspose.Tasks for .NET olyan funkciókat biztosít, amelyek seg
 
 ### 4. kérdés: Rendelkezésre áll technikai támogatás az Aspose.Tasks for .NET számára?
 
- 4. válasz: Igen, a felhasználók hozzáférhetnek a technikai támogatáshoz a következőn keresztül[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
+4. válasz: Igen, a felhasználók hozzáférhetnek a technikai támogatáshoz a következőn keresztül[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15).
 
 ### 5. kérdés: Kipróbálhatom az Aspose.Tasks-t .NET-hez a vásárlás előtt?
 

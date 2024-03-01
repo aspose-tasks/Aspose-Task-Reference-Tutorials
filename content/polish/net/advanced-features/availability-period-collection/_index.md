@@ -9,7 +9,7 @@ url: /pl/net/advanced-features/availability-period-collection/
 ---
 ## Wstęp
 
-W tym samouczku omówimy, jak pracować z kolekcją okresów dostępności zasobu w Aspose.Tasks dla .NET. Zarządzanie okresami dostępności ma kluczowe znaczenie w zarządzaniu projektami, ponieważ pozwala nam określić, kiedy zasoby są dostępne dla zadań w ramach projektu.
+tym samouczku omówimy, jak pracować z kolekcją okresów dostępności zasobu w Aspose.Tasks dla .NET. Zarządzanie okresami dostępności ma kluczowe znaczenie w zarządzaniu projektami, ponieważ pozwala nam określić, kiedy zasoby są dostępne dla zadań w ramach projektu.
 
 ## Warunki wstępne
 
@@ -125,7 +125,7 @@ Aktualizujemy dostępne jednostki dla okresu i usuwamy określone okresy z kolek
 
 ## Wniosek
 
-tym samouczku nauczyliśmy się, jak pracować z kolekcjami okresów dostępności w Aspose.Tasks dla .NET. Zarządzanie dostępnością zasobów jest niezbędne do skutecznego planowania i realizacji projektów.
+W tym samouczku nauczyliśmy się, jak pracować z kolekcjami okresów dostępności w Aspose.Tasks dla .NET. Zarządzanie dostępnością zasobów jest niezbędne do skutecznego planowania i realizacji projektów.
 
 ## Często zadawane pytania
 

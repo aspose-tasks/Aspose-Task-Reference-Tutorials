@@ -76,6 +76,6 @@ Trả lời: Có, Aspose.Tasks tích hợp liền mạch với bất kỳ dự �
 ### Hỏi: Có bản dùng thử miễn phí không?
  Đ: Có, bạn có thể truy cập bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Tasks?
-A: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
+ A: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể mua Aspose.Tasks ở đâu?
  A: Mua Aspose.Tasks[đây](https://purchase.aspose.com/buy).

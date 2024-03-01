@@ -1,6 +1,6 @@
 ---
 title: Sesuaikan Pengaturan Tampilan Halaman Proyek MS di Aspose.Tasks
-linktitle: Konfigurasikan Pengaturan Tampilan Halaman di Aspose.Tasks
+linktitle: Mengonfigurasi Pengaturan Tampilan Halaman di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi pengaturan tampilan halaman di Aspose.Tasks untuk .NET untuk menyesuaikan format pencetakan dokumen Microsoft Project Anda.
 type: docs
@@ -75,4 +75,4 @@ J: Ya, Anda dapat menyesuaikan pengaturan tampilan halaman secara independen unt
 ### T: Apakah Aspose.Tasks kompatibel dengan semua versi Microsoft Project?
 J: Aspose.Tasks menawarkan kompatibilitas dengan Microsoft Project 2003 dan versi yang lebih baru.
 ### T: Di mana saya dapat menemukan bantuan atau dukungan lebih lanjut untuk Aspose.Tasks?
- A: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)untuk pertanyaan atau masalah apa pun yang Anda temui selama penggunaan.
+ A: Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk pertanyaan atau masalah apa pun yang Anda temui selama penggunaan.

@@ -12,7 +12,7 @@ Aspose.Tasks for .NET adalah perpustakaan canggih yang memfasilitasi manajemen p
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda telah menyiapkan yang berikut:
 - Pengetahuan tentang bahasa pemrograman C#.
-- Aspose.Tasks untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks untuk perpustakaan .NET diinstal. Anda dapat mengunduhnya[Di Sini](https://releases.aspose.com/tasks/net/).
 - Lingkungan Pengembangan Terpadu (IDE) seperti Visual Studio.
 ## Impor Namespace
 Pertama, pastikan Anda telah mengimpor namespace yang diperlukan di awal file C# Anda:
@@ -39,7 +39,7 @@ foreach (var tbl in project.Tables)
 {
     Console.WriteLine("Table name: " + tbl.Name);
     Console.WriteLine("Is collection of table fields read-only?: " + tbl.TableFields.IsReadOnly);
-    // ulangi bidang tabel
+    //ulangi bidang tabel
     Console.WriteLine("Print table fields of " + project.Get(Prj.Name) + " project.");
     Console.WriteLine("Table count: " + tbl.TableFields.Count);
     foreach (var fld in tbl.TableFields)
@@ -108,6 +108,6 @@ Sangat! Seperti yang diperlihatkan dalam tutorial, Anda dapat menambah, menyisip
 ### Apakah ada pertimbangan lisensi untuk menggunakan Aspose.Tasks untuk .NET dalam proyek komersial?
  Ya, Anda memerlukan lisensi yang valid untuk menggunakan Aspose.Tasks untuk .NET dalam proyek komersial. Anda bisa mendapatkan lisensi[Di Sini](https://purchase.aspose.com/buy).
 ### Bagaimana saya bisa mendapatkan dukungan atau mencari bantuan dengan Aspose.Tasks untuk .NET?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk mendapatkan dukungan, mengajukan pertanyaan, dan berkolaborasi dengan komunitas.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)untuk mendapatkan dukungan, mengajukan pertanyaan, dan berkolaborasi dengan komunitas.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks untuk .NET?
  Ya, Anda dapat menjelajahi fitur Aspose.Tasks untuk .NET dengan uji coba gratis. Unduh itu[Di Sini](https://releases.aspose.com/).

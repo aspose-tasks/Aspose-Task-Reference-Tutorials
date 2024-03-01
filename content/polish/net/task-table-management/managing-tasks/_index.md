@@ -11,7 +11,7 @@ url: /pl/net/task-table-management/managing-tasks/
 Jeśli jesteś programistą .NET i chcesz efektywnie zarządzać zadaniami w swoich projektach, Aspose.Tasks dla .NET zapewnia solidne rozwiązanie. Ten samouczek poprowadzi Cię przez różne aspekty zarządzania zadaniami przy użyciu Aspose.Tasks, oferując instrukcje krok po kroku i przykłady kodu. Niezależnie od tego, czy dodajesz zadania, wyświetlasz podzielone części, przenosisz zadania pod tym samym elementem nadrzędnym, pobierasz/ustawiasz właściwości zadania, przeglądasz przypisania zadań, czytasz plany bazowe zadań czy usuwasz zadania, ten przewodnik pomoże Ci.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
-1.  Biblioteka Aspose.Tasks dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
+1. Biblioteka Aspose.Tasks dla .NET: Upewnij się, że masz zainstalowaną bibliotekę Aspose.Tasks dla .NET. Możesz go pobrać[Tutaj](https://releases.aspose.com/tasks/net/).
 2. Katalog dokumentów: skonfiguruj katalog, w którym będą przechowywane dokumenty projektu.
 ## Importuj przestrzenie nazw
 W swoim projekcie .NET uwzględnij niezbędne przestrzenie nazw do pracy z Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Załaduj projekt z podzielonymi zadaniami
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Uzyskaj dostęp do zadania
+// Uzyskaj dostęp do zadania
 var task = project.RootTask.Children.GetById(4);
 // Wyświetl podzielone części
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Dodaj zadanie
 var task = project.RootTask.Children.Add("Task");
-// Wyświetl liczbę zadań przed i po usunięciu
+//Wyświetl liczbę zadań przed i po usunięciu
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Usuń zadanie
 task.Delete();

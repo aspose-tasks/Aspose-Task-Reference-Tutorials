@@ -40,7 +40,7 @@ var project = new Project("PathToYourProjectFile");
 
 ## Schritt 2: Einschränkungstyp festlegen
 
-Geben Sie als Nächstes den Einschränkungstyp an, den Sie auf eine bestimmte Aufgabe anwenden möchten. In diesem Beispiel legen wir den Einschränkungstyp auf „So schnell wie möglich“ fest:
+Geben Sie als Nächstes den Einschränkungstyp an, den Sie auf eine bestimmte Aufgabe anwenden möchten. In diesem Beispiel legen wir den Einschränkungstyp auf „So bald wie möglich“ fest:
 
 ```csharp
 var task = project.RootTask.Children.GetById(11);

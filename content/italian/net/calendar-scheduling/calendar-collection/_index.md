@@ -151,7 +151,7 @@ A2: Assolutamente, Aspose.Tasks supporta l'importazione di calendari da file Mic
 
 ### Q3: Come posso rimuovere un calendario specifico da un progetto?
 
-R3: Puoi rimuovere un calendario recuperandolo dalla raccolta e quindi chiamando il`Remove` metodo.
+ R3: Puoi rimuovere un calendario recuperandolo dalla raccolta e quindi chiamando il`Remove` metodo.
 
 ### Q4: Aspose.Tasks supporta l'esportazione di calendari in diversi formati?
 

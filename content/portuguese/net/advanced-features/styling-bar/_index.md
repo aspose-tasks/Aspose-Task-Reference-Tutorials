@@ -62,7 +62,7 @@ Crie um novo estilo de barra e personalize suas propriedades:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Definir tipo de item da barra
 style.BarColor = Color.Green; // Definir cor da barra
-style.BarShape = BarShape.HalfHeight; //Definir formato da barra
+style.BarShape = BarShape.HalfHeight; // Definir formato da barra
 style.StartShape = Shape.LeftBracket; // Defina a forma no início da barra
 style.StartShapeColor = Color.Aqua; // Definir a cor da forma inicial
 style.EndShape = Shape.RightBracket; // Defina a forma no final da barra
@@ -104,7 +104,7 @@ project.Save(DataDir + "WorkWithBarStyle_out.mpp", options);
 
 ## Conclusão
 
-A personalização de estilos de barra no Aspose.Tasks for .NET fornece aos desenvolvedores a capacidade de criar planos de projeto visualmente atraentes. Seguindo as etapas descritas neste tutorial, você pode estilizar barras com eficiência para atender aos requisitos específicos de visualização do projeto.
+personalização de estilos de barra no Aspose.Tasks for .NET fornece aos desenvolvedores a capacidade de criar planos de projeto visualmente atraentes. Seguindo as etapas descritas neste tutorial, você pode estilizar barras com eficiência para atender aos requisitos específicos de visualização do projeto.
 
 ## Perguntas frequentes
 

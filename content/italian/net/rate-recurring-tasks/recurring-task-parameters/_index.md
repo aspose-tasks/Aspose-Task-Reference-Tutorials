@@ -26,12 +26,12 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- sostituire`"Your Document Directory"` con il percorso della directory dei documenti.
+ Sostituire`"Your Document Directory"` con il percorso della directory dei documenti.
 ## Passaggio 2: caricare il file di progetto
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- Questa riga di codice carica il file Microsoft Project nel file`project` variabili.
+ Questa riga di codice carica il file Microsoft Project nel file`project` variabile.
 ## Passaggio 3: definire i parametri delle attività ricorrenti
 ```csharp
 var parameters = new RecurringTaskParameters

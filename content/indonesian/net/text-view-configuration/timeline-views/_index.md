@@ -71,7 +71,7 @@ Ya, Aspose.Tasks mendukung berbagai kerangka .NET, memastikan kompatibilitas den
 ### Bisakah saya menyesuaikan tampilan masing-masing tugas dalam tampilan garis waktu?
 Sangat! Aspose.Tasks memberikan fleksibilitas untuk menyesuaikan tampilan setiap tugas dalam tampilan timeline.
 ### Di mana saya dapat menemukan sumber daya tambahan dan dukungan untuk Aspose.Tasks?
- mengunjungi[Dokumentasi Aspose.Tasks](https://reference.aspose.com/tasks/net/) untuk panduan komprehensif dan[forum dukungan](https://forum.aspose.com/c/tasks/15) untuk bantuan.
+ Mengunjungi[Dokumentasi Aspose.Tasks](https://reference.aspose.com/tasks/net/)untuk panduan komprehensif dan[forum dukungan](https://forum.aspose.com/c/tasks/15) untuk bantuan.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
  Ya, Anda dapat menjelajahi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks?

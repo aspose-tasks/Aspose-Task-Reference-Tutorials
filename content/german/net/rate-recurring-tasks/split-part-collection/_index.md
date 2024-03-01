@@ -44,7 +44,7 @@ foreach (var splitPart in task.SplitParts)
     Console.WriteLine("Finish: " + splitPart.Finish);
 }
 ```
-Rufen Sie die Aufgabe aus dem Projekt ab, durchlaufen Sie ihre aufgeteilten Teile und drucken Sie deren Start- und Enddatum aus.
+Rufen Sie die Aufgabe aus dem Projekt ab, durchlaufen Sie die einzelnen Teile und drucken Sie deren Start- und Enddatum aus.
 ## Schritt 4: Teil nach Index aufteilen
 ```csharp
 // Holen Sie sich das Teil nach Index
@@ -65,4 +65,4 @@ A: Aspose.Tasks unterstützt verschiedene Versionen von MS Project-Dateien und g
 ### F: Wie kann ich temporäre Lizenzen für meine Projekte erhalten?
  A: Temporäre Lizenzen können bei erworben werden[Hier](https://purchase.aspose.com/temporary-license/) für den kurzfristigen Einsatz.
 ### F: Wo kann ich Hilfe oder Unterstützung zu Aspose.Tasks suchen?
- A: Sie können das Aspose.Tasks-Forum besuchen[Hier](https://forum.aspose.com/c/tasks/15) um Hilfe von der Community oder dem Aspose-Supportteam zu erhalten.
+ A: Sie können das Aspose.Tasks-Forum besuchen[Hier](https://forum.aspose.com/c/tasks/15)um Hilfe von der Community oder dem Aspose-Supportteam zu erhalten.

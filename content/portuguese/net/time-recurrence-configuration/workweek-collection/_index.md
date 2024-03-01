@@ -75,10 +75,10 @@ Concluindo, Aspose.Tasks for .NET fornece uma solução robusta para lidar com c
 ### Posso ter várias semanas de trabalho personalizadas em um único projeto?
 Sim, você pode adicionar várias semanas de trabalho personalizadas a um calendário de projeto.
 ### Como posso modificar semanas de trabalho existentes?
- Use o fornecido`WorkWeek` propriedades e métodos para modificar semanas de trabalho existentes.
-### Aspose.Tasks é compatível com .NET Core?
+ Use o fornecido`WorkWeek`propriedades e métodos para modificar semanas de trabalho existentes.
+### O Aspose.Tasks é compatível com .NET Core?
 Sim, Aspose.Tasks suporta .NET Core.
 ### Posso exportar o projeto com semanas de trabalho personalizadas para o formato de arquivo do Microsoft Project?
 Com certeza, Aspose.Tasks permite salvar seu projeto em vários formatos, incluindo Microsoft Project.
 ### Onde posso buscar suporte para consultas relacionadas ao Aspose.Tasks?
- visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para qualquer apoio ou assistência.
+ Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para qualquer apoio ou assistência.

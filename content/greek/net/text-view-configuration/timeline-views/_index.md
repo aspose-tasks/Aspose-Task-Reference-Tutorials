@@ -71,7 +71,7 @@ project.Save("Your Document Directory/SetTimeScaleCount_out.pdf", SaveFileFormat
 ### Μπορώ να προσαρμόσω την εμφάνιση μεμονωμένων εργασιών στην προβολή γραμμής χρόνου;
 Απολύτως! Το Aspose.Tasks παρέχει ευελιξία για την προσαρμογή της εμφάνισης κάθε εργασίας στην προβολή γραμμής χρόνου.
 ### Πού μπορώ να βρω πρόσθετους πόρους και υποστήριξη για το Aspose.Tasks;
- Επισκέψου το[Τεκμηρίωση Aspose.Tasks](https://reference.aspose.com/tasks/net/) για ολοκληρωμένους οδηγούς και το[φόρουμ υποστήριξης](https://forum.aspose.com/c/tasks/15) για βοήθεια.
+ Επισκέψου το[Τεκμηρίωση Aspose.Tasks](https://reference.aspose.com/tasks/net/)για ολοκληρωμένους οδηγούς και το[φόρουμ υποστήριξης](https://forum.aspose.com/c/tasks/15) για βοήθεια.
 ### Υπάρχει διαθέσιμη δωρεάν δοκιμή για το Aspose.Tasks;
  Ναι, μπορείτε να εξερευνήσετε μια δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Tasks;

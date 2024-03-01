@@ -11,7 +11,7 @@ url: /ja/net/resource-risk-analysis/resource-assignment-collection/
 Aspose.Tasks for .NET を使用して Microsoft Project でリソース割り当てを管理するためのこの包括的なチュートリアルへようこそ。このチュートリアルでは、リソースの割り当てを効率的に操作する方法を確実に理解できるように、プロセスを段階的に詳しく説明します。経験豊富な開発者であっても、初心者であっても、このガイドでは、知っておくべきことをすべて説明します。
 ## 前提条件
 コードに入る前に、次の設定がされていることを確認してください。
-1. Aspose.Tasks for .NET がインストールされている: Aspose.Tasks for .NET が開発環境にインストールされていることを確認します。そうでない場合は、からダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks for .NET がインストールされている: Aspose.Tasks for .NET が開発環境にインストールされていることを確認します。そうでない場合は、からダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
 2. C# の基本知識: このチュートリアルは、C# プログラミング言語の基本を理解していることを前提としています。
 3. Microsoft Project ファイル: テスト目的で Microsoft Project ファイルを用意します。お持ちでない場合は、サンプル ファイルを作成できます。
 

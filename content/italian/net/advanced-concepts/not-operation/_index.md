@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Qui creiamo un file`ChildTasksCollector` oggetto per raccogliere tutte le attività all'interno del progetto. Usiamo quindi`TaskUtils.Apply`metodo per attraversare la gerarchia delle attività del progetto e raccogliere tutte le attività figlio.
+ Qui creiamo un file`ChildTasksCollector` oggetto per raccogliere tutte le attività all'interno del progetto. Usiamo quindi`TaskUtils.Apply` metodo per attraversare la gerarchia delle attività del progetto e raccogliere tutte le attività figlio.
 
 ## Passaggio 3: definire la condizione del filtro
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Definiamo una condizione di filtro utilizzando una classe personalizzata denominata`NullCondition`, Questa condizione seleziona le attività che hanno un valore nullo.
+ Definiamo una condizione di filtro utilizzando una classe personalizzata denominata`NullCondition`. Questa condizione seleziona le attività che hanno un valore nullo.
 
 ## Passaggio 4: applicare l'operazione NOT
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- Applichiamo l'operazione NOT alla condizione del filtro utilizzando il`Not<T>` classe fornita da Aspose.Tasks. Ciò invertirà la condizione del filtro, selezionando le attività che non hanno un valore nullo.
+ Applichiamo l'operazione NOT alla condizione del filtro utilizzando il`Not<T>`classe fornita da Aspose.Tasks. Ciò invertirà la condizione del filtro, selezionando le attività che non hanno un valore nullo.
 
 ## Passaggio 5: filtra le attività
 
@@ -105,7 +105,7 @@ R: Sì, Aspose.Tasks supporta vari framework .NET tra cui .NET Core, .NET Standa
 
 ### Q3: Come posso ottenere supporto per Aspose.Tasks?
 
- R: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per qualsiasi domanda di supporto o assistenza tecnica.
+ R: Puoi visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) per qualsiasi richiesta di supporto o assistenza tecnica.
 
 ### Q4: Posso acquistare una licenza temporanea per Aspose.Tasks?
 

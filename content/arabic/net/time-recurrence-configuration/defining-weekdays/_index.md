@@ -68,7 +68,7 @@ Console.WriteLine("Week Day 2 Hash Code: {0}", weekDay2.GetHashCode());
 var project = new Project();
 // تحديد التقويم
 var calendar = project.Calendars.Add("Calendar1");
-// أضف أيام العمل وأيام الاستثناء
+// أضف أيام العمل ويوم الاستثناء
 // قم بإضافة عبارات إخراج مشابهة لـ FromDate وToDate
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Monday));
 calendar.WeekDays.Add(WeekDay.CreateDefaultWorkingDay(DayType.Tuesday));

@@ -11,7 +11,7 @@ url: /es/net/task-table-management/table-text-styles/
 En el mundo de la gestión de proyectos, la visualización eficaz de las tareas es crucial para el éxito. Aspose.Tasks para .NET proporciona una poderosa solución para personalizar los estilos de texto de las tablas, lo que le permite personalizar la apariencia de los elementos de texto en su proyecto. En esta guía paso a paso, lo guiaremos a través del proceso de configuración de estilos de texto de tabla usando Aspose.Tasks para .NET.
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de tener lo siguiente:
--  Aspose.Tasks para .NET: asegúrese de tener instalada la última versión de Aspose.Tasks para .NET. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks para .NET: asegúrese de tener instalada la última versión de Aspose.Tasks para .NET. Puedes descargarlo[aquí](https://releases.aspose.com/tasks/net/).
 - Directorio de documentos: configure un directorio para sus documentos. Reemplace "Su directorio de documentos" en el código con la ruta real.
 -  Licencia Aspose válida: este ejemplo requiere una licencia Aspose válida. Puedes comprar una licencia completa.[aquí](https://purchase.aspose.com/buy) u obtener una licencia temporal de 30 días[aquí](https://purchase.aspose.com/temporary-license/).
 ## Importar espacios de nombres
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## Conclusión

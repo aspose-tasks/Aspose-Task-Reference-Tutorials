@@ -71,6 +71,6 @@ Sí, Aspose.Tasks es compatible con .NET Core, lo que le permite crear aplicacio
 ### ¿Hay una versión de prueba disponible?
  Sí tu puedes[descargar una prueba gratuita](https://releases.aspose.com/) para explorar las funciones antes de realizar una compra.
 ### ¿Cómo puedo obtener apoyo de la comunidad para Aspose.Tasks?
- visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para conectarse con la comunidad y buscar ayuda.
+ Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para conectarse con la comunidad y buscar ayuda.
 ### ¿Hay licencias temporales disponibles?
- Sí, puedes conseguir un[licencia temporal](https://purchase.aspose.com/temporary-license/) con fines de prueba.
+ Sí, puedes obtener un[licencia temporal](https://purchase.aspose.com/temporary-license/) con fines de prueba.

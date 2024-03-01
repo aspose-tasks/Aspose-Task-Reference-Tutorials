@@ -9,7 +9,7 @@ url: /cs/net/advanced-features/working-with-availability-periods/
 ---
 ## Úvod
 
-tomto tutoriálu prozkoumáme, jak pracovat s obdobími dostupnosti v Aspose.Tasks pro .NET. Období dostupnosti jsou zásadní pro efektivní řízení zdrojů ve scénářích projektového řízení. Provedeme vás procesem krok za krokem.
+V tomto tutoriálu prozkoumáme, jak pracovat s obdobími dostupnosti v Aspose.Tasks pro .NET. Období dostupnosti jsou zásadní pro efektivní řízení zdrojů ve scénářích projektového řízení. Provedeme vás procesem krok za krokem.
 
 ## Předpoklady
 
@@ -94,7 +94,7 @@ V tomto tutoriálu jsme se naučili pracovat s obdobími dostupnosti v Aspose.Ta
 
 ### Q2: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
 
- A2: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro .NET[tady](https://releases.aspose.com/).
+A2: Ano, můžete získat bezplatnou zkušební verzi Aspose.Tasks pro .NET[tady](https://releases.aspose.com/).
 
 ### Q3: Kde najdu dokumentaci pro Aspose.Tasks pro .NET?
 
@@ -102,7 +102,7 @@ V tomto tutoriálu jsme se naučili pracovat s obdobími dostupnosti v Aspose.Ta
 
 ### Q4: Jak mohu získat podporu pro Aspose.Tasks pro .NET?
 
- Odpověď 4: Podporu můžete získat na fóru komunity.[tady](https://forum.aspose.com/c/tasks/15).
+ Odpověď 4: Podporu můžete získat na fóru komunity[tady](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: Nabízíte dočasné licence pro Aspose.Tasks pro .NET?
 

@@ -53,7 +53,7 @@ Aspose.Tasks for .NET'te görev temellerini zahmetsizce yönetme becerilerinin k
 
 ## Aspose.Tasks'ta Görev Başlangıç Tarihi Türlerini Yapılandırma
 
- Aspose.Tasks for .NET ile görev başlangıç tarihi türlerini zahmetsizce yapılandırın. Keşfederek proje yönetimini kolaylıkla optimize edin[Görev Başlangıç Tarihi Türleri öğreticisi](./task-start-date-types/), Şimdi ücretsiz deneme sürümünü indirin!
+ Aspose.Tasks for .NET ile görev başlangıç tarihi türlerini zahmetsizce yapılandırın. Keşfederek proje yönetimini kolaylıkla optimize edin[Görev Başlangıç Tarihi Türleri öğreticisi](./task-start-date-types/). Şimdi ücretsiz deneme sürümünü indirin!
 
 ## Aspose.Tasks'ta Görev Kullanımı Görünümlerini Yapılandırma
 

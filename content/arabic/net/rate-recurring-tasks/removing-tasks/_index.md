@@ -11,7 +11,7 @@ url: /ar/net/rate-recurring-tasks/removing-tasks/
 في هذا البرنامج التعليمي، سنستكشف كيفية إزالة المهام من ملف Microsoft Project باستخدام Aspose.Tasks لـ .NET. Aspose.Tasks عبارة عن واجهة برمجة تطبيقات قوية تسمح للمطورين بمعالجة ملفات Microsoft Project برمجياً. يمكن أن تكون إزالة المهام من ملف مشروع متطلبًا شائعًا في سيناريوهات إدارة المشروع، ويوفر Aspose.Tasks طريقة مباشرة لتحقيق ذلك.
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من توفر المتطلبات الأساسية التالية:
-1. تثبيت Aspose.Tasks لـ .NET: أنت بحاجة إلى تثبيت Aspose.Tasks لـ .NET في بيئة التطوير الخاصة بك. إذا لم تكن قد قمت بتثبيته بعد، يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
+1.  تثبيت Aspose.Tasks لـ .NET: أنت بحاجة إلى تثبيت Aspose.Tasks لـ .NET في بيئة التطوير الخاصة بك. إذا لم تكن قد قمت بتثبيته بعد، يمكنك تنزيله من[هنا](https://releases.aspose.com/tasks/net/).
 2. ملف Microsoft Project: قم بإعداد ملف Microsoft Project (`Project1.mpp` في هذا المثال) الذي تريد إزالة المهام منه.
 
 ## استيراد مساحات الأسماء

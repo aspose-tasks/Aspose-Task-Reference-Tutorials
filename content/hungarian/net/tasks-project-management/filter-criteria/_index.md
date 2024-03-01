@@ -8,7 +8,7 @@ weight: 18
 url: /hu/net/tasks-project-management/filter-criteria/
 ---
 ## Bevezetés
-A projektmenedzsment területén a Microsoft Project megbízható eszköz, amely számos funkciót kínál a projekttervezőknek és -menedzsereknek. Számos funkciója között rejlik a projektadatok szűrésének képessége, amely lehetővé teszi a felhasználók számára, hogy projektfeladataik bizonyos szempontjaira összpontosítsanak. E szűrési képességek elsajátítása azonban megfelelő útmutatás nélkül ijesztő feladat lehet. Ennek az oktatóanyagnak a célja, hogy tisztázza a folyamatot azáltal, hogy lépésről lépésre bemutatja a kritériumszűrők megvalósítását az MS Projectben az Aspose.Tasks for .NET használatával.
+A projektmenedzsment területén a Microsoft Project megbízható eszköz, amely számos funkciót kínál a projekttervezőknek és -menedzsereknek. Számos funkciója között rejlik a projektadatok szűrésének képessége, amely lehetővé teszi a felhasználók számára, hogy projektfeladataik bizonyos szempontjaira összpontosítsanak. E szűrési képességek elsajátítása azonban megfelelő útmutatás nélkül ijesztő feladat lehet. Ennek az oktatóanyagnak a célja, hogy tisztázza a folyamatot azáltal, hogy lépésről lépésre ismerteti a szűrőkritériumok megvalósítását az MS Projectben az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
 Mielőtt belevágna az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 1. C# alapvető ismerete: A C# programozási nyelv ismerete szükséges az oktatóanyagban tárgyalt fogalmak megértéséhez.
@@ -51,7 +51,7 @@ foreach (var row in filter.Criteria.CriteriaRows)
     Console.WriteLine("Value{0}: {1}", values.Length == 1 ? "" : "s", string.Join(", ", values));
 }
 ```
-Magyarázat: Ez a szakasz a szűrő minden feltételsorán keresztül ismétlődik, és megjeleníti annak mezőjét, működését, tesztjét és értékeit (ha vannak).
+Magyarázat: Ez a szakasz a szűrő minden feltételsorán keresztül halad, és megjeleníti annak mezőjét, műveletét, tesztjét és értékeit (ha vannak).
 ## 4. lépés: Nyomtatási szűrő kritériumai
 ```csharp
 Console.WriteLine(filter.Criteria.Operation.ToString());
@@ -77,7 +77,7 @@ Console.WriteLine(criteria22.ToString());
 Magyarázat: Ez a rész részletes információkat kér le és jelenít meg az egyes feltételsorokról, így betekintést nyújt a szűrő konfigurációjába.
 
 ## Következtetés
-A szűrőkritériumok elsajátítása az MS Projectben az Aspose.Tasks for .NET használatával értékes készség, amely jelentősen növelheti a projektmenedzsment hatékonyságát. Az oktatóanyag követésével megtanulta, hogyan lehet programozottan módosítani a szűrési feltételeket, lehetővé téve a projektnézetek testreszabását az egyedi igényekhez.
+A szűrőkritériumok elsajátítása az MS Projectben az Aspose.Tasks for .NET használatával értékes készség, amely jelentősen növelheti a projektmenedzsment hatékonyságát. Az oktatóanyag követésével megtanulta, hogyan lehet programozottan módosítani a szűrési feltételeket, lehetővé téve a projektnézetek testreszabását az Ön egyedi igényeihez.
 ## GYIK
 ### K: Alkalmazhatok több szűrőt egyidejűleg az MS Projectben?
 V: Igen, több szűrőt kombinálhat a projektadatok további finomításához.

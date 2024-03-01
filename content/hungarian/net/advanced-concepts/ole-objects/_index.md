@@ -15,7 +15,7 @@ Az Aspose.Tasks for .NET átfogó funkcionalitást biztosít a projektfájlokon 
 
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételeket teljesítette:
 
-1. Telepítés: Győződjön meg arról, hogy az Aspose.Tasks for .NET telepítve van a fejlesztői környezetében. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
+1.  Telepítés: Győződjön meg arról, hogy az Aspose.Tasks for .NET telepítve van a fejlesztői környezetében. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
 
 2. Alapvető ismeretek: Ismerkedjen meg a C# programozási nyelvvel és a .NET keretrendszer fogalmaival.
 

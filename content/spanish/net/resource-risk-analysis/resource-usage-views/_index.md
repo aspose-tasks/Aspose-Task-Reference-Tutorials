@@ -1,5 +1,5 @@
 ---
-title: Configurar vistas de uso de recursos de MS Project en Aspose.Tasks
+title: Configuración de vistas de uso de recursos de MS Project en Aspose.Tasks
 linktitle: Configurar vistas de uso de recursos en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar vistas de uso de recursos de MS Project usando Aspose.Tasks para .NET. Guía paso a paso con ejemplos de código incluidos.
@@ -45,7 +45,7 @@ project.Save(DataDir + "ResourceUsage_days_out.pdf", options);
 ```
 
 ## Conclusión
-En este tutorial, aprendimos cómo configurar las vistas de uso de recursos de MS Project usando Aspose.Tasks para .NET. Siguiendo los pasos proporcionados, los desarrolladores pueden integrar perfectamente Aspose.Tasks en sus aplicaciones .NET para manipular los datos del proyecto de manera eficiente.
+En este tutorial, aprendimos cómo configurar vistas de uso de recursos de MS Project usando Aspose.Tasks para .NET. Siguiendo los pasos proporcionados, los desarrolladores pueden integrar perfectamente Aspose.Tasks en sus aplicaciones .NET para manipular los datos del proyecto de manera eficiente.
 
 ## Preguntas frecuentes
 ### P: ¿Aspose.Tasks es compatible con diferentes versiones de archivos de Microsoft Project?

@@ -18,7 +18,7 @@ Prima di iniziare, assicurati di disporre dei seguenti prerequisiti:
 1. Comprensione di base di C#: la familiarità con il linguaggio di programmazione C# è essenziale.
 2.  Installazione di Aspose.Tasks per .NET: scaricare e installare la libreria Aspose.Tasks per .NET dal[Link per scaricare](https://releases.aspose.com/tasks/net/).
 3. Ambiente di sviluppo: configura un ambiente di sviluppo, come Visual Studio, per scrivere ed eseguire codice C#.
-4.  Accesso alla documentazione: conservare il[Aspose.Tasks per la documentazione .NET](https://reference.aspose.com/tasks/net/) utile per riferimento.
+4. Accesso alla documentazione: conservare il[Aspose.Tasks per la documentazione .NET](https://reference.aspose.com/tasks/net/) utile per riferimento.
 
 Ora che abbiamo coperto i prerequisiti, tuffiamoci nella guida passo passo per raccogliere attività figlio utilizzando Aspose.Tasks per .NET.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Applichiamo il`ChildTasksCollector`all'attività root del progetto, avviando ricorsivamente il processo di raccolta.
+ Applichiamo il`ChildTasksCollector` all'attività root del progetto, avviando ricorsivamente il processo di raccolta.
 
 ## Passaggio 4: scorrere le attività raccolte
 
@@ -91,7 +91,7 @@ A3: Sebbene progettato principalmente per ambienti .NET, Aspose.Tasks per .NET p
 
 ### Q4: è disponibile il supporto tecnico per Aspose.Tasks per .NET?
 
- R4: Sì, gli utenti possono accedere al supporto tecnico tramite[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+R4: Sì, gli utenti possono accedere al supporto tecnico tramite[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: Posso provare Aspose.Tasks per .NET prima dell'acquisto?
 

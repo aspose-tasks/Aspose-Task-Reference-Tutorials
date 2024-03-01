@@ -18,7 +18,7 @@ url: /ko/net/calendar-scheduling/child-tasks-collector/
 1. C#에 대한 기본 이해: C# 프로그래밍 언어에 대한 지식이 필수적입니다.
 2.  .NET용 Aspose.Tasks 설치: 다음에서 Aspose.Tasks for .NET 라이브러리를 다운로드하여 설치하세요.[다운로드 링크](https://releases.aspose.com/tasks/net/).
 3. 개발 환경: C# 코드를 작성하고 실행할 수 있도록 Visual Studio 등의 개발 환경을 설정합니다.
-4.  문서에 대한 접근:[.NET 문서용 Aspose.Tasks](https://reference.aspose.com/tasks/net/) 참고용으로 편리합니다.
+4. 문서에 대한 접근:[.NET 문서용 Aspose.Tasks](https://reference.aspose.com/tasks/net/) 참고용으로 편리합니다.
 
 이제 전제 조건을 다루었으므로 .NET용 Aspose.Tasks를 사용하여 하위 작업을 수집하는 단계별 가이드를 살펴보겠습니다.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- 우리는`ChildTasksCollector`프로젝트의 루트 작업으로 이동하여 수집 프로세스를 재귀적으로 시작합니다.
+ 우리는`ChildTasksCollector` 프로젝트의 루트 작업으로 이동하여 수집 프로세스를 재귀적으로 시작합니다.
 
 ## 4단계: 수집된 작업을 통해 반복
 
@@ -69,11 +69,11 @@ foreach (var task in collector.Tasks)
 }
 ```
 
-마지막으로 수집된 작업을 반복하고 해당 작업의 이름을 콘솔에 출력합니다.
+마지막으로 수집된 작업을 반복하고 해당 작업의 이름을 콘솔에 인쇄합니다.
 
 ## 결론
 
-이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 하위 작업을 수집하는 방법을 살펴보았습니다. 위에 설명된 단계를 따르면 프로젝트 내의 작업을 효율적으로 관리 및 조작하여 생산성과 구성을 향상시킬 수 있습니다.
+이 튜토리얼에서는 Aspose.Tasks for .NET을 사용하여 하위 작업을 수집하는 방법을 살펴보았습니다. 위에 설명된 단계를 수행하면 프로젝트 내의 작업을 효율적으로 관리 및 조작하여 생산성과 구성을 향상시킬 수 있습니다.
 
 ## FAQ
 
@@ -91,7 +91,7 @@ A3: 기본적으로 .NET 환경용으로 설계되었지만 Aspose.Tasks for .NE
 
 ### Q4: Aspose.Tasks for .NET에 대한 기술 지원이 제공됩니까?
 
- A4: 예, 사용자는 다음을 통해 기술 지원에 액세스할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+A4: 예, 사용자는 다음을 통해 기술 지원에 액세스할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: 구매하기 전에 .NET용 Aspose.Tasks를 사용해 볼 수 있나요?
 

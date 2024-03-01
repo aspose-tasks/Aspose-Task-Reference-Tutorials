@@ -1,6 +1,6 @@
 ---
 title: Nakonfigurujte možnosti MS Project XLSX v Aspose.Tasks pro .NET
-linktitle: Nakonfigurujte možnosti XLSX v Aspose.Tasks
+linktitle: Konfigurace možností XLSX v Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Naučte se konfigurovat možnosti MS Project XLSX v Aspose.Tasks pro .NET. Přizpůsobte si sloupce, kódování a ještě více bez námahy.
 type: docs

@@ -11,7 +11,7 @@ url: /ko/net/resource-risk-analysis/risk-item-statistics/
 .NET용 Aspose.Tasks를 사용하여 프로젝트 관리 능력을 향상시키고 싶으십니까? MS 프로젝트 파일의 위험 항목에 대한 통계를 얻는 방법에 대한 단계별 튜토리얼을 통해 위험 분석 영역을 탐구해 보세요. Aspose.Tasks의 강력한 기능을 활용하면 프로젝트 불확실성에 대한 귀중한 통찰력을 얻고 정보에 입각한 결정을 내려 위험을 효과적으로 완화할 수 있습니다.
 ## 전제조건
 이 여정을 시작하기 전에 다음과 같은 전제 조건이 갖추어져 있는지 확인하세요.
-1.  .NET 라이브러리용 Aspose.Tasks: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.Tasks](https://reference.aspose.com/tasks/net/), 이 라이브러리는 MS 프로젝트 파일을 프로그래밍 방식으로 조작하기 위한 강력한 도구를 제공합니다.
+1.  .NET 라이브러리용 Aspose.Tasks: 다음에서 라이브러리를 다운로드하고 설치하세요.[.NET 문서용 Aspose.Tasks](https://reference.aspose.com/tasks/net/). 이 라이브러리는 MS 프로젝트 파일을 프로그래밍 방식으로 조작하기 위한 강력한 도구를 제공합니다.
 2. .NET 개발 환경: Aspose.Tasks를 프로젝트에 원활하게 통합할 수 있도록 Visual Studio 또는 원하는 다른 IDE를 포함한 .NET 개발 환경을 설정하세요.
 
 ## 네임스페이스 가져오기
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- 교체를 확인하세요`"Your Document Directory"`MS 프로젝트 파일이 있는 문서 디렉토리의 경로를 사용하세요.
+ 반드시 교체하세요`"Your Document Directory"` MS 프로젝트 파일이 있는 문서 디렉토리의 경로를 사용하세요.
 ## 2단계: 위험 분석 설정 구성
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- 조정하다`IterationsCount` 위험 분석의 정확성을 제어하기 위해 프로젝트 요구 사항을 기반으로 매개변수를 설정합니다.
+ 조정하다`IterationsCount`위험 분석의 정확성을 제어하기 위해 프로젝트 요구 사항을 기반으로 매개변수를 설정합니다.
 ## 3단계: MS 프로젝트 파일 로드
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

@@ -1,6 +1,6 @@
 ---
-title: Konfigurasikan Tampilan Penggunaan Sumber Daya Proyek MS di Aspose.Tasks
-linktitle: Konfigurasikan Tampilan Penggunaan Sumber Daya di Aspose.Tasks
+title: Mengonfigurasi Tampilan Penggunaan Sumber Daya Proyek MS di Aspose.Tasks
+linktitle: Mengonfigurasi Tampilan Penggunaan Sumber Daya di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi tampilan penggunaan sumber daya MS Project menggunakan Aspose.Tasks untuk .NET. Panduan langkah demi langkah dengan contoh kode disertakan.
 type: docs

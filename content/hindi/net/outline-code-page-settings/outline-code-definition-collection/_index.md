@@ -2,7 +2,7 @@
 title: Aspose.Tasks .NET में रूपरेखा कोड परिभाषाओं का संग्रह
 linktitle: Aspose.Tasks में रूपरेखा कोड परिभाषाओं का संग्रह
 second_title: Aspose.Tasks .NET API
-description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट दस्तावेज़ों में आउटलाइन कोड परिभाषाओं में हेरफेर करना सीखें। आपके प्रोजेक्ट डेटा का आसानी से वर्गीकरण।
+description: .NET के लिए Aspose.Tasks का उपयोग करके Microsoft प्रोजेक्ट दस्तावेज़ों में आउटलाइन कोड परिभाषाओं में हेरफेर करना सीखें। आपके प्रोजेक्ट डेटा का सहजता से वर्गीकरण।
 type: docs
 weight: 13
 url: /hi/net/outline-code-page-settings/outline-code-definition-collection/

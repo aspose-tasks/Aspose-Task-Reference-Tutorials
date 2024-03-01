@@ -8,7 +8,7 @@ weight: 18
 url: /cs/net/task-table-management/task-collection/
 ---
 ## Úvod
-Pokud se ponoříte do světa projektového řízení pomocí .NET, Aspose.Tasks je vaším řešením pro bezproblémové zpracování kolekcí úkolů. Tento výukový program vás provede procesem efektivní správy kolekcí úloh a zajistí vám, abyste z této výkonné knihovny vytěžili maximum.
+Pokud se ponoříte do světa projektového řízení pomocí .NET, Aspose.Tasks je vaším řešením pro bezproblémové zpracování kolekcí úkolů. Tento výukový program vás provede procesem efektivní správy kolekcí úloh a zajistí, že tuto výkonnou knihovnu využijete na maximum.
 ## Předpoklady
 Než se pustíme do výukového programu, ujistěte se, že máte následující předpoklady:
 - Základní znalost programovacího jazyka C#.
@@ -28,7 +28,7 @@ Nyní si tutoriál rozdělíme na řadu kroků, abychom zajistili srozumitelnost
 ```csharp
 var project = new Project();
 ```
- Vytvořte instanci nového projektu pomocí`Project` třída.
+ Vytvořte nový projekt pomocí`Project` třída.
 ## Krok 2: Kontrola připravenosti shromažďování úkolů
 ```csharp
 Console.WriteLine("Is task collection read-only: " + project.RootTask.Children.IsReadOnly);
@@ -39,7 +39,7 @@ Ověřte, zda je kolekce úloh pouze pro čtení.
 var task1 = project.RootTask.Children.Add();
 task1.Set(Tsk.Name, "Task 1");
 // Nastavte další vlastnosti úkolu, jako je začátek, trvání a konec
-// Podobné kroky pro úkol 2 a úkol 3
+// Podobné kroky pro Úkol 2 a Úkol 3
 ```
 Vytvořte úkoly v rámci projektu a nastavte jejich vlastnosti.
 ## Krok 4: Tisk úloh projektu

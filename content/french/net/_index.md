@@ -65,7 +65,7 @@ Explorez les didacticiels Aspose.Tasks pour .NET sur la configuration du texte e
 ### [Vue Aspose.Tasks et configuration du code WBS](./view-wbs-code-configuration/)
 Maîtrisez Aspose.Tasks pour les vues .NET et les codes WBS. Personnalisez la gestion de projet avec nos didacticiels étape par étape. Téléchargez-le maintenant pour une visualisation transparente du projet.
 ### [Configuration du temps Aspose.Tasks et modèles de récurrence](./time-recurrence-configuration/)
-Explorez les didacticiels Aspose.Tasks pour .NET sur la configuration du temps et les modèles de récurrence. Gérez sans effort les calendriers, personnalisez les temps de travail et optimisez la planification des projets.
+Explorez les didacticiels Aspose.Tasks pour .NET sur la configuration temporelle et les modèles de récurrence. Gérez sans effort les calendriers, personnalisez les temps de travail et optimisez la planification des projets.
 ### [Options de format de fichier Aspose.Tasks](./file-format-options/)
 Explorez les options de format de fichier Aspose.Tasks et maîtrisez la configuration des options XAML et XLSX dans Aspose.Tasks .NET. Améliorez la gestion de projet grâce à des conseils de personnalisation.
 ### [Configuration de la sécurité PDF Aspose.Tasks](./pdf-security-configuration/)

@@ -33,7 +33,7 @@ Kelola nilai kerangka Microsoft Project secara efisien dengan Aspose.Tasks untuk
 ## Kumpulan Nilai Garis Besar di Aspose.Tasks untuk .NET
  Pelajari cara mengelola nilai kerangka dalam file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tutorial langkah demi langkah ini mencakup contoh kode, memastikan Anda dapat menerapkan praktik ini dengan mudah.[Baca selengkapnya](./outline-value-collection/)
 
-## Konfigurasikan Legenda Halaman di Aspose.Tasks untuk .NET
+## Mengonfigurasi Legenda Halaman di Aspose.Tasks untuk .NET
  Manajemen proyek yang efisien mencakup konfigurasi legenda halaman Proyek MS di .NET. Tutorial ini, menggunakan Aspose.Tasks, memberikan panduan langkah demi langkah tentang cara menyesuaikan legenda proyek Anda untuk efisiensi optimal.[Baca selengkapnya](./page-legend/)
 
 ## Atur Margin Halaman Proyek MS dengan mudah dengan Aspose.Tasks untuk .NET
@@ -61,9 +61,9 @@ Pelajari cara bekerja dengan file Microsoft Project secara terprogram menggunaka
 Pelajari cara memanipulasi masker kerangka koleksi MS Project menggunakan Aspose.Tasks untuk .NET. Tingkatkan produktivitas dengan tutorial komprehensif ini.
 ### [Menguasai Nilai Garis Besar Proyek MS dengan Aspose.Tasks](./outline-values/)
 Pelajari cara mengelola nilai kerangka Proyek MS secara efisien menggunakan Aspose.Tasks untuk .NET. Sesuaikan garis besar proyek dengan mudah.
-### [Kumpulan Nilai Garis Besar di Aspose.Tasks](./outline-value-collection/)
+### [Kumpulan Nilai Garis Besar di Aspose.Tugas](./outline-value-collection/)
 Pelajari cara mengelola nilai kerangka dalam file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Tutorial langkah demi langkah dengan contoh kode.
-### [Konfigurasikan Legenda Halaman di Aspose.Tasks](./page-legend/)
+### [Mengonfigurasi Legenda Halaman di Aspose.Tasks](./page-legend/)
 Pelajari cara mengonfigurasi legenda halaman Proyek MS di .NET menggunakan Aspose.Tasks untuk manajemen proyek yang efisien. Panduan langkah demi langkah disediakan.
 ### [Atur Margin Halaman Proyek MS dengan mudah dengan Aspose.Tasks](./page-margins/)
 Pelajari cara menyesuaikan margin halaman di file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Sempurnakan tata letak dan presentasi dokumen dengan mudah.

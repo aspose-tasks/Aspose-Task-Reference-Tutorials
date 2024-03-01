@@ -11,7 +11,7 @@ url: /sv/net/task-table-management/managing-tasks/
 Om du är en .NET-utvecklare som vill hantera uppgifter inom dina projekt effektivt, erbjuder Aspose.Tasks för .NET en robust lösning. Denna handledning guidar dig genom olika aspekter av att hantera uppgifter med Aspose.Tasks, och erbjuder steg-för-steg-instruktioner och kodexempel. Oavsett om du lägger till uppgifter, visar delade delar, flyttar uppgifter under samma förälder, hämtar/ställer in uppgiftsegenskaper, itererar över uppgiftstilldelningar, läser uppgiftens baslinjer eller tar bort uppgifter, har den här guiden täckt dig.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar på plats:
-1.  Aspose.Tasks for .NET Library: Se till att du har Aspose.Tasks for .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks for .NET Library: Se till att du har Aspose.Tasks for .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
 2. Dokumentkatalog: Skapa en katalog där dina projektdokument kommer att lagras.
 ## Importera namnområden
 I ditt .NET-projekt, inkludera de nödvändiga namnområdena för att arbeta med Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Ladda ett projekt med delade uppgifter
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Få åtkomst till en uppgift
+// Få åtkomst till en uppgift
 var task = project.RootTask.Children.GetById(4);
 // Visa delade delar
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Lägg till en uppgift
 var task = project.RootTask.Children.Add("Task");
-// Visa antalet uppgifter före och efter borttagning
+//Visa antalet uppgifter före och efter borttagning
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Ta bort uppgiften
 task.Delete();

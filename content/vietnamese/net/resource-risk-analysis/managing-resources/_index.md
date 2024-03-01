@@ -32,7 +32,7 @@ Cần phải có hiểu biết cơ bản về ngôn ngữ lập trình C# để 
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu của bạn.
 ## Bước 2: Tạo một phiên bản dự án mới
 ```csharp
 var project = new Project();
@@ -61,4 +61,4 @@ Trả lời: Hoàn toàn có thể, Aspose.Tasks for .NET cung cấp chức năn
 ### Câu hỏi: Aspose.Tasks cho .NET có hỗ trợ xuất dữ liệu dự án sang các định dạng khác ngoài XML không?
 Trả lời: Có, Aspose.Tasks for .NET hỗ trợ xuất dữ liệu dự án sang nhiều định dạng khác nhau, bao gồm MPP, PDF, XLSX và HTML, cùng nhiều định dạng khác.
 ### Câu hỏi: Tôi có thể tìm thêm trợ giúp hoặc hỗ trợ cho Aspose.Tasks cho .NET ở đâu?
-Đáp: Để được trợ giúp hoặc hỗ trợ thêm, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) hoặc tham khảo[tài liệu](https://reference.aspose.com/tasks/net/) được cung cấp bởi Aspose.
+ Đáp: Để được trợ giúp hoặc hỗ trợ thêm, bạn có thể truy cập[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) hoặc tham khảo[tài liệu](https://reference.aspose.com/tasks/net/) được cung cấp bởi Aspose.

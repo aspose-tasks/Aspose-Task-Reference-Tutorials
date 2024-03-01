@@ -72,7 +72,7 @@ table.TableFields.Insert(idx, field2);
 table.TableFields[idx].WrapHeader = true;
 ```
 ## 第 7 步：删除字段
-一一删除表字段或清除整个集合。
+可以一一删除表字段，也可以清除整个集合。
 ```csharp
 Console.WriteLine("The collection contains the new table field?: " + table.TableFields.Contains(field));
 //删除该字段
@@ -108,6 +108,6 @@ else
 ### 在商业项目中使用 Aspose.Tasks for .NET 是否有任何许可注意事项？
 是的，您需要有效的许可证才能在商业项目中使用 Aspose.Tasks for .NET。您可以获得许可证[这里](https://purchase.aspose.com/buy).
 ### 我如何获得 Aspose.Tasks for .NET 的支持或寻求帮助？
-访问[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)获得支持、提出问题以及与社区合作。
+参观[Aspose.Tasks 论坛](https://forum.aspose.com/c/tasks/15)获得支持、提出问题以及与社区合作。
 ### Aspose.Tasks for .NET 是否有免费试用版？
 是的，您可以通过免费试用来探索 Aspose.Tasks for .NET 的功能。下载它[这里](https://releases.aspose.com/).

@@ -8,14 +8,14 @@ weight: 23
 url: /ja/net/resource-risk-analysis/managing-risk-patterns/
 ---
 ## 導入
-プロジェクト管理では、リスクを理解し、軽減することが、実行を成功させるために非常に重要です。 Aspose.Tasks for .NET は、Microsoft Project ファイル内のリスク パターンを管理するための強力なツールを提供し、プロジェクトのワークフローと結果をよりスムーズにします。このチュートリアルでは、Aspose.Tasks を利用してリスク パターンを効果的に管理するプロセスについて説明します。
+プロジェクト管理では、リスクを理解し、軽減することが、実行を成功させるために非常に重要です。 Aspose.Tasks for .NET は、Microsoft Project ファイル内のリスク パターンを管理する強力なツールを提供し、プロジェクトのワークフローと結果をよりスムーズにします。このチュートリアルでは、Aspose.Tasks を利用してリスク パターンを効果的に管理するプロセスについて説明します。
 
 ## 前提条件
 
 Aspose.Tasks for .NET を使用した MS Project のリスク パターンの管理に入る前に、次のことを確認してください。
 
 1. Microsoft Project ファイル: タスクと関連プロジェクト データを含む Microsoft Project ファイル (.mpp) を用意します。
-2. Aspose.Tasks for .NET: .NET 用の Aspose.Tasks ライブラリをダウンロードしてインストールします。[Webサイト](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET: .NET 用の Aspose.Tasks ライブラリをダウンロードしてインストールします。[Webサイト](https://releases.aspose.com/tasks/net/).
 3. C# の基本的な理解: C# プログラミング言語の基本を理解していることが推奨されます。
 
 ## 名前空間のインポート

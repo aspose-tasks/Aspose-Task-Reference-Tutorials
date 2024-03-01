@@ -86,7 +86,7 @@ Cevap1: Evet, Aspose.Tasks, Microsoft Project veritabanlarının çeşitli sür�
 
 ### S2: Veritabanıyla bağlantı sorunlarını nasıl giderebilirim?
 
-Y2: Bağlantı dizenizin uygun kimlik bilgileri ve veritabanı ayrıntılarıyla doğru şekilde yapılandırıldığından emin olun. Ayrıca belgelere başvurabilir veya destek talebinde bulunabilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+ Y2: Bağlantı dizenizin uygun kimlik bilgileri ve veritabanı ayrıntılarıyla doğru şekilde yapılandırıldığından emin olun. Ayrıca belgelere başvurabilir veya destek talebinde bulunabilirsiniz.[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
 
 ### S3: Aspose.Tasks'ın deneme sürümü mevcut mu?
 

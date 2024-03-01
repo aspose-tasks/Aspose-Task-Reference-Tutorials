@@ -1,6 +1,6 @@
 ---
 title: การกำหนดค่ารหัส WBS ทีละขั้นตอนใน Aspose.Tasks .NET
-linktitle: กำหนดค่ามาสก์รหัส WBS ใน Aspose.Tasks
+linktitle: การกำหนดค่ามาสก์รหัส WBS ใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: สำรวจการกำหนดค่า WBS Code Masks ทีละขั้นตอนในโครงการ .NET โดยใช้ Aspose.Tasks ปรับปรุงความสามารถในการจัดการโครงการได้อย่างง่ายดาย
 type: docs
@@ -84,7 +84,7 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ### ฉันสามารถใช้ Aspose.Tasks ได้ฟรีหรือไม่
  Aspose.Tasks ให้ทดลองใช้ฟรีซึ่งคุณสามารถดาวน์โหลดได้[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะหาการสนับสนุนเพิ่มเติมได้จากที่ไหน?
- เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15)เพื่อสนับสนุนชุมชน
+ เยี่ยมชม[ฟอรั่ม Aspose.Tasks](https://forum.aspose.com/c/tasks/15) เพื่อสนับสนุนชุมชน
 ### ฉันจะขอรับใบอนุญาตชั่วคราวได้อย่างไร
  คุณสามารถรับใบอนุญาตชั่วคราวได้[ที่นี่](https://purchase.aspose.com/temporary-license/).
 ### มีเอกสารรายละเอียดไหม?

@@ -58,12 +58,12 @@ Console.WriteLine(project.Get(Prj.Name));
 Dalam tutorial ini, kita telah mempelajari cara membaca data MS Project Primavera menggunakan Aspose.Tasks untuk .NET. Dengan mengikuti langkah-langkah yang diuraikan di atas, Anda dapat dengan mudah mengakses dan memanipulasi file MS Project secara terprogram di aplikasi .NET Anda.
 ## FAQ
 ### T: Bisakah Aspose.Tasks menangani file MS Project Primavera yang besar?
-J: Aspose.Tasks dirancang untuk menangani file MS Project besar secara efisien, termasuk file Primavera, memastikan kinerja dan keandalan yang optimal.
+J: Aspose.Tasks dirancang untuk menangani file MS Project berukuran besar secara efisien, termasuk file Primavera, memastikan kinerja dan keandalan yang optimal.
 ### T: Apakah Aspose.Tasks mendukung format manajemen proyek lain selain MS Project dan Primavera?
 J: Ya, Aspose.Tasks mendukung berbagai format manajemen proyek seperti MPP, XML, dan CSV, memberikan pengembang opsi serbaguna untuk bekerja dengan data proyek.
 ### T: Dapatkah saya mengubah dan menyimpan perubahan pada file MS Project Primavera menggunakan Aspose.Tasks?
 J: Tentu saja! Aspose.Tasks memungkinkan Anda tidak hanya membaca tetapi juga memodifikasi dan menyimpan perubahan pada file MS Project Primavera dengan lancar dalam aplikasi .NET Anda.
 ### T: Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
- J: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Tasks dari[Di Sini](https://releases.aspose.com/) untuk menjelajahi fitur dan kemampuannya sebelum melakukan pembelian.
+ J: Ya, Anda dapat memanfaatkan uji coba gratis Aspose.Tasks dari[Di Sini](https://releases.aspose.com/)untuk menjelajahi fitur dan kemampuannya sebelum melakukan pembelian.
 ### T: Di mana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
- J: Untuk pertanyaan atau bantuan apa pun mengenai Aspose.Tasks, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15)dimana anda bisa mendapatkan bantuan dari komunitas atau staf pendukung Aspose.## Source Code Lengkap
+ J: Untuk pertanyaan atau bantuan apa pun mengenai Aspose.Tasks, Anda dapat mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) dimana anda bisa mendapatkan bantuan dari komunitas atau staf pendukung Aspose.## Source Code Lengkap

@@ -11,7 +11,7 @@ url: /ar/net/saving-options/primavera-xml-save-options/
 في مجال إدارة المشاريع ومعالجة المهام، يظهر Aspose.Tasks for .NET كحليف قوي. تزود هذه المكتبة المطورين بالأدوات اللازمة لمعالجة بيانات المشروع بسهولة داخل تطبيقات .NET. إحدى الميزات البارزة هي قدرته على التفاعل مع ملفات Primavera XML، مما يوفر تجربة سلسة في التعامل مع معلومات المشروع.
 ## المتطلبات الأساسية
 قبل التعمق في تعقيدات استخدام Aspose.Tasks لـ .NET لحفظ خيارات MS Project بتنسيق Primavera XML، تأكد من توفر المتطلبات الأساسية التالية:
-1.  التثبيت: قم بتثبيت Aspose.Tasks لمكتبة .NET في بيئة التطوير الخاصة بك. إذا لم يكن الأمر كذلك، قم بتنزيله من[هنا](https://releases.aspose.com/tasks/net/)واتبع تعليمات التثبيت المتوفرة في الوثائق[هنا](https://reference.aspose.com/tasks/net/).
+1.  التثبيت: قم بتثبيت Aspose.Tasks لمكتبة .NET في بيئة التطوير الخاصة بك. إذا لم يكن الأمر كذلك، قم بتنزيله من[هنا](https://releases.aspose.com/tasks/net/) واتبع تعليمات التثبيت المتوفرة في الوثائق[هنا](https://reference.aspose.com/tasks/net/).
 2. الإلمام بـ .NET Framework: يعد الفهم الأساسي لـ .NET Framework ولغة البرمجة C# أمرًا ضروريًا لفهم المفاهيم التي تمت مناقشتها في هذا البرنامج التعليمي.
 3. ملف MS Project: قم بإعداد ملف Microsoft Project (`project.xml`) الذي تنوي حفظه بتنسيق Primavera XML.
 
@@ -51,7 +51,7 @@ project.Save(DataDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
 ### س: هل تتوفر نسخة تجريبية مجانية من Aspose.Tasks لـ .NET؟
  ج: نعم، يمكنك الوصول إلى النسخة التجريبية المجانية من Aspose.Tasks لـ .NET[هنا](https://releases.aspose.com/).
 ### س: كيف يمكنني الحصول على الدعم الفني لـ Aspose.Tasks لـ .NET؟
- ج: يمكنك طلب المساعدة الفنية والتفاعل مع المجتمع في منتدى Aspose.Tasks.[هنا](https://forum.aspose.com/c/tasks/15).
+ ج: يمكنك طلب المساعدة الفنية والتفاعل مع المجتمع في منتدى Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 ### س: ما هي خيارات الترخيص لـ Aspose.Tasks لـ .NET؟
  ج: تتوفر خيارات ترخيص متنوعة، بما في ذلك التراخيص المؤقتة، لـ Aspose.Tasks لـ .NET. استكشاف تفاصيل الترخيص[هنا](https://purchase.aspose.com/buy).
 ### س: هل يمكنني تخصيص خيارات الحفظ لتنسيق Primavera XML؟

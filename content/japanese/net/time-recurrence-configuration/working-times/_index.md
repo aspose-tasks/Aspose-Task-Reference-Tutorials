@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks で作業時間を構成する
-linktitle: Aspose.Tasks で作業時間を構成する
+title: Aspose.Tasks での作業時間の構成
+linktitle: Aspose.Tasks での作業時間の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks を使用して .NET でのプロジェクトのスケジュール設定を強化します。正確なリソース管理のために作業時間を簡単に設定します。今すぐライブラリをダウンロードしてください!
 type: docs
@@ -12,8 +12,8 @@ url: /ja/net/time-recurrence-configuration/working-times/
 ## 前提条件
 チュートリアルに入る前に、次のものが揃っていることを確認してください。
 - C# プログラミング言語の基本的な理解。
-- Aspose.Tasks for .NET ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
-- Visual Studio または任意の C# 開発環境をセットアップします。
+-  Aspose.Tasks for .NET ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+- Visual Studio または任意の優先 C# 開発環境のセットアップ。
 ## 名前空間のインポート
 まず、Aspose.Tasks 機能にアクセスするために必要な名前空間をインポートします。
 ```csharp

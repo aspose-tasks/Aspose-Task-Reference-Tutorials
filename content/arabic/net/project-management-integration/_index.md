@@ -23,7 +23,7 @@ url: /ar/net/project-management-integration/
 
 الرحلة لا تنتهي هنا؛ استكشف عددًا لا يحصى من البرامج التعليمية التي تغطي كل شيء بدءًا من التعامل مع خطوط التقدم وإتقان بيانات المشروع وحتى تكوين خيارات العرض وإدارة MS Project Server بسلاسة. انغمس في دروس Aspose.Tasks for .NET لفتح الإمكانات الكاملة لقدرات إدارة مشروعك.
 
- هل أنت مستعد لتخصيص طرق عرض MS Project وإدارة بيانات اعتماد الخادم واستخراج معلومات المشروع دون عناء؟ اتبع أدلةنا على[تخصيص طرق عرض مشروع MS](./project-views/), [إدارة بيانات اعتماد خادم MS Project](./project-server-credentials/) ،و[استخراج معلومات مشروع MS](./project-information/) للحصول على رؤى متعمقة.
+ هل أنت مستعد لتخصيص طرق عرض MS Project وإدارة بيانات اعتماد الخادم واستخراج معلومات المشروع دون عناء؟ اتبع أدلةنا على[تخصيص طرق عرض مشروع MS](./project-views/), [إدارة بيانات اعتماد خادم MS Project](./project-server-credentials/) ، و[استخراج معلومات مشروع MS](./project-information/) للحصول على رؤى متعمقة.
 
  يمكنك التعامل بسلاسة مع استثناءات MS Project Online، وأتمتة مهام المشروع، وتعزيز كفاءة إدارة المشروع من خلال تشغيل البرامج التعليمية[إدارة استثناءات MS Project عبر الإنترنت](./project-online-exceptions/) و[إدارة خادم MS Project باستخدام Aspose.Tasks](./project-server-management/).
 
@@ -40,13 +40,13 @@ url: /ar/net/project-management-integration/
 تعرف على كيفية قراءة بيانات MS Project Primavera باستخدام Aspose.Tasks لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
 ### [استخدام MS Project Primavera XML Reader في Aspose.Tasks](./primavera-xml-reader/)
 تعرف على كيفية استخدام MS Project Primavera XML Reader في Aspose.Tasks لـ .NET لإدارة بيانات المشروع بفعالية. احصل على إرشادات خطوة بخطوة واستكشف الأسئلة الشائعة.
-### [قم بتكوين خيارات طباعة MS Project في Aspose.Tasks](./print-options/)
+### [تكوين خيارات طباعة MS Project في Aspose.Tasks](./print-options/)
 تعرف على كيفية تكوين خيارات طباعة MS Project بسلاسة باستخدام Aspose.Tasks لـ .NET. تعزيز قدرات إدارة المشروع الخاص بك.
 ### [التعامل مع خطوط تقدم مشروع MS باستخدام Aspose.Tasks](./progress-lines/)
 تعرف على كيفية التعامل مع خطوط التقدم في ملفات MS Project باستخدام Aspose.Tasks لـ .NET، مما يعزز تصور المشروع وإدارته.
 ### [إتقان بيانات المشروع باستخدام Aspose.Tasks](./project-data/)
 تعرف على كيفية التعامل مع بيانات Microsoft Project باستخدام Aspose.Tasks في .NET. قم بإنشاء المهام وإضافة الموارد وحفظ المشاريع بسهولة.
-### [قم بتكوين خيارات عرض MS Project في Aspose.Tasks](./project-display-options/)
+### [تكوين خيارات عرض MS Project في Aspose.Tasks](./project-display-options/)
 تعرف على كيفية تكوين خيارات عرض MS Project برمجياً باستخدام Aspose.Tasks لـ .NET. قم بتخصيص مظهر مشروعك دون عناء.
 ### [إتقان التعامل مع ملفات مشروع MS باستخدام Aspose.Tasks](./project-file-formats/)
 أطلق العنان لقوة معالجة ملفات Microsoft Project باستخدام Aspose.Tasks لـ .NET. انغمس في التكامل والإدارة السلسة.

@@ -60,8 +60,8 @@ url: /zh/net/outline-code-page-settings/
 ### [Aspose.Tasks 中轮廓蒙版的集合](./outline-mask-collection/)
 了解如何使用 Aspose.Tasks for .NET 操作 MS Project 集合大纲蒙版。通过这个综合教程提高工作效率。
 ### [使用 Aspose.Tasks 掌握 MS 项目大纲值](./outline-values/)
-了解如何使用 Aspose.Tasks for .NET 高效管理 MS Project 大纲值。轻松定制项目大纲。
-### [Aspose.Tasks中大纲值的集合](./outline-value-collection/)
+了解如何使用 Aspose.Tasks for .NET 有效管理 MS Project 大纲值。轻松定制项目大纲。
+### [Aspose.Tasks 中大纲值的集合](./outline-value-collection/)
 了解如何使用 Aspose.Tasks for .NET 管理 Microsoft Project 文件中的大纲值。带有代码示例的分步教程。
 ### [在Aspose.Tasks中配置页面图例](./page-legend/)
 了解如何使用 Aspose.Tasks 在 .NET 中配置 MS Project 页面图例，以实现高效的项目管理。提供分步指南。

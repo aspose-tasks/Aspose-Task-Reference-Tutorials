@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## 1단계: 프로젝트 파일 로드
 
- 손상된 구조를 확인하려는 Microsoft Project 파일(.mpp)을 로드하는 것부터 시작합니다. 사용`Project` 파일을 로드하는 클래스입니다.
+손상된 구조를 확인하려는 Microsoft Project 파일(.mpp)을 로드하는 것부터 시작합니다. 사용`Project` 파일을 로드하는 클래스입니다.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## 2단계: 프로젝트 구조 확인
 
- 프로젝트 내의 손상된 구조를 감지하기 위해 다음을 사용합니다.`CheckCircuit` 함께 수업`TaskUtils.Apply` 방법.
+ 프로젝트 내의 손상된 구조를 감지하기 위해 다음을 사용합니다.`CheckCircuit` 수업과 함께`TaskUtils.Apply` 방법.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ A1: 예, Aspose.Tasks for .NET은 .NET Core 및 .NET Framework를 포함한 다�
 
 ### Q3: .NET용 Aspose.Tasks에 대한 지원을 어떻게 받을 수 있나요?
 
-A3: Aspose.Tasks 커뮤니티 포럼에서 도움을 구할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
+ A3: Aspose.Tasks 커뮤니티 포럼에서 도움을 구할 수 있습니다.[여기](https://forum.aspose.com/c/tasks/15).
 
 ### Q4: 테스트 목적으로 임시 라이센스가 필요합니까?
 

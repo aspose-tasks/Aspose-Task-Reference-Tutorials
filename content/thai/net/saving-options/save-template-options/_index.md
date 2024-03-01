@@ -75,4 +75,4 @@ Console.WriteLine("Project File Format: " + templateFileInfo.ProjectFileFormat);
 ### ถาม: Aspose.Tasks สำหรับ .NET รองรับการพัฒนาข้ามแพลตฟอร์มหรือไม่
 ตอบ: Aspose.Tasks สำหรับ .NET ได้รับการออกแบบมาเพื่อแอปพลิเคชันเฟรมเวิร์ก .NET ที่ทำงานบนแพลตฟอร์ม Windows เป็นหลัก
 ### ถาม: Aspose.Tasks สำหรับ .NET มีการสนับสนุนด้านเทคนิคหรือไม่
- ตอบ: ได้ คุณสามารถขอความช่วยเหลือด้านเทคนิคและคำแนะนำจากชุมชน Aspose.Tasks ได้[ฟอรั่ม](https://forum.aspose.com/c/tasks/15) หรือติดต่อทีมสนับสนุนโดยตรง
+ ตอบ: ได้ คุณสามารถขอความช่วยเหลือด้านเทคนิคและคำแนะนำจากชุมชน Aspose.Tasks ได้[ฟอรั่ม](https://forum.aspose.com/c/tasks/15)หรือติดต่อทีมสนับสนุนโดยตรง

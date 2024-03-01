@@ -1,6 +1,6 @@
 ---
-title: กำหนดค่าการวิเคราะห์ความเสี่ยงของโครงการ MS ใน Aspose.Tasks
-linktitle: กำหนดการตั้งค่าการวิเคราะห์ความเสี่ยงใน Aspose.Tasks
+title: การกำหนดค่าการวิเคราะห์ความเสี่ยงของโครงการ MS ใน Aspose.Tasks
+linktitle: การกำหนดการตั้งค่าการวิเคราะห์ความเสี่ยงใน Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: เรียนรู้วิธีกำหนดการตั้งค่าการวิเคราะห์ความเสี่ยงของ MS Project โดยใช้ Aspose.Tasks สำหรับ .NET เพิ่มประสิทธิภาพการจัดการโครงการด้วยเทคนิคการประเมินความเสี่ยงขั้นสูง
 type: docs
@@ -80,7 +80,7 @@ pattern.ConfidenceLevel = ConfidenceLevel.CL75;
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- เริ่มต้นก`RiskAnalyzer` วัตถุประสงค์และดำเนินการวิเคราะห์ความเสี่ยงในโครงการ
+ เริ่มต้นก`RiskAnalyzer` คัดค้านและดำเนินการวิเคราะห์ความเสี่ยงในโครงการ
 ## ขั้นตอนที่ 12: ดึงผลการวิเคราะห์
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

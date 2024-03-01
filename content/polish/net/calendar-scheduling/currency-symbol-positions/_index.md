@@ -9,7 +9,7 @@ url: /pl/net/calendar-scheduling/currency-symbol-positions/
 ---
 ## Wstęp
 
-tworzeniu oprogramowania kluczowe znaczenie ma sprawna obsługa różnych aspektów, takich jak zarządzanie projektami. Aspose.Tasks dla .NET oferuje solidne rozwiązania do płynnego zarządzania zadaniami, projektami i zasobami w aplikacjach .NET. Wśród wielu jego funkcji, kontrolowanie pozycji symboli walut jest niezbędne do śledzenia finansów i raportowania. W tym samouczku przyjrzymy się, jak manipulować pozycjami symboli waluty za pomocą Aspose.Tasks dla .NET.
+W tworzeniu oprogramowania kluczowe znaczenie ma sprawna obsługa różnych aspektów, takich jak zarządzanie projektami. Aspose.Tasks dla .NET oferuje solidne rozwiązania do płynnego zarządzania zadaniami, projektami i zasobami w aplikacjach .NET. Wśród wielu jego funkcji, kontrolowanie pozycji symboli walut jest niezbędne do śledzenia finansów i raportowania. W tym samouczku przyjrzymy się, jak manipulować pozycjami symboli waluty za pomocą Aspose.Tasks dla .NET.
 
 ## Warunki wstępne
 
@@ -27,7 +27,7 @@ Aby zrozumieć koncepcje omówione w tym samouczku, konieczna jest podstawowa zn
 
 Aby rozpocząć, musisz zaimportować wymagane przestrzenie nazw do swojego projektu .NET. 
 
- Zawierać`Aspose.Tasks` przestrzeni nazw w projekcie, aby uzyskać dostęp do klas i metod udostępnianych przez bibliotekę Aspose.Tasks.
+ Zawierać`Aspose.Tasks`przestrzeni nazw w projekcie, aby uzyskać dostęp do klas i metod udostępnianych przez bibliotekę Aspose.Tasks.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Podzielmy teraz podany przykład na kilka kroków:
 
 ## Krok 1: Załaduj plik projektu
 
- Rozpocznij od załadowania pliku projektu za pomocą`Project`konstruktor klasy.
+ Rozpocznij od załadowania pliku projektu za pomocą`Project` konstruktor klasy.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

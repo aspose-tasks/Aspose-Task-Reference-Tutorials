@@ -48,7 +48,7 @@ cost.Set(Rsc.Cost, 59.99m);
 Nakonec přidáme nákladový zdroj s názvem "Cost resource" a nastavíme jeho typ jako ResourceType.Cost. Navíc jsme nastavili hodnotu nákladů na 59,99, což představuje peněžní hodnotu spojenou s tímto zdrojem.
 
 ## Závěr
-tomto tutoriálu jsme prozkoumali, jak pracovat s různými typy zdrojů v Aspose.Tasks pro .NET, včetně zdrojů práce, materiálu a nákladů. Dodržováním tohoto podrobného průvodce můžete efektivně spravovat zdroje ve svých projektech programově.
+V tomto tutoriálu jsme prozkoumali, jak pracovat s různými typy zdrojů v Aspose.Tasks pro .NET, včetně zdrojů práce, materiálu a nákladů. Dodržováním tohoto podrobného průvodce můžete efektivně spravovat zdroje ve svých projektech programově.
 ## FAQ
 ### Otázka: Mohu používat Aspose.Tasks pro .NET s jinými formáty softwaru pro správu projektů?
 Odpověď: Ano, Aspose.Tasks podporuje různé formáty, včetně Microsoft Project (MPP), Primavera P6 a dalších.

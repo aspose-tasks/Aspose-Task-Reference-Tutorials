@@ -9,7 +9,7 @@ url: /pt/net/advanced-features/repetition-by-year-day/
 ---
 ## Introdução
 
-No domínio do gerenciamento de projetos, o agendamento eficiente e a recorrência de tarefas desempenham papéis essenciais para garantir a execução oportuna e o fluxo de trabalho tranquilo. Aspose.Tasks for .NET oferece uma solução robusta para os desenvolvedores lidarem com tarefas recorrentes sem esforço em seus aplicativos. Neste tutorial, nos aprofundamos nas complexidades de trabalhar com repetições diárias anuais usando Aspose.Tasks, fornecendo um guia completo para a criação de tarefas recorrentes com base em padrões anuais.
+No domínio do gerenciamento de projetos, o agendamento eficiente e a recorrência de tarefas desempenham papéis essenciais para garantir a execução oportuna e o fluxo de trabalho tranquilo. Aspose.Tasks for .NET oferece uma solução robusta para os desenvolvedores lidarem com tarefas recorrentes sem esforço em seus aplicativos. Neste tutorial, nos aprofundamos nas complexidades de trabalhar com repetições de dias do ano usando Aspose.Tasks, fornecendo um guia completo para a criação de tarefas recorrentes com base em padrões anuais.
 
 ## Pré-requisitos
 
@@ -66,7 +66,7 @@ var parameters = new RecurringTaskParameters
 };
 ```
 
- Nesta etapa, definimos parâmetros para nossa tarefa recorrente. Especificamos o nome da tarefa, a duração e o padrão de recorrência. Para recorrência anual, usamos o`YearlyRecurrencePattern` e defina a repetição para ocorrer no dia 1º de julho usando`ByYearDayRepetition`, Além disso, definimos o intervalo de recorrência de 1º de julho de 2018 a 1º de julho de 2019.
+ Nesta etapa, definimos parâmetros para nossa tarefa recorrente. Especificamos o nome da tarefa, a duração e o padrão de recorrência. Para recorrência anual, usamos o`YearlyRecurrencePattern` e defina a repetição para ocorrer no dia 1º de julho usando`ByYearDayRepetition`. Além disso, definimos o intervalo de recorrência de 1º de julho de 2018 a 1º de julho de 2019.
 
 ## Etapa 3: adicionar tarefa ao projeto
 

@@ -54,7 +54,7 @@ outline.AllLevelsRequired = true;
 outline.Enterprise = false;
 outline.EnterpriseOutlineCodeAlias = 0;
 ```
-## ステップ 5: アウトライン マスクを追加する
+## ステップ 5: アウトラインマスクを追加する
 アウトラインマスクをアウトラインコードに追加します。
 ```csharp
 var mask = new OutlineMask();

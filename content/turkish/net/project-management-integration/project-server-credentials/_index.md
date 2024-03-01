@@ -12,7 +12,7 @@ Proje yönetimi alanında, etkili koordinasyon ve kesintisiz iletişim, projenin
 ## Önkoşullar
 Aspose.Tasks for .NET ile MS Project Server kimlik bilgilerini yönetme yolculuğuna çıkmadan önce aşağıdaki ön koşulların karşılandığından emin olun:
 ### 1. Aspose.Tasks for .NET'i yükleme
- Başlamak için Aspose.Tasks for .NET'i sağlanan kaynaktan indirip yükleyin.[İndirme: {link](https://releases.aspose.com/tasks/net/), Kitaplığı .NET ortamınıza sorunsuz bir şekilde entegre etmek için kurulum talimatlarını izleyin.
+ Başlamak için Aspose.Tasks for .NET'i sağlanan kaynaktan indirip yükleyin.[İndirme: {link](https://releases.aspose.com/tasks/net/). Kitaplığı .NET ortamınıza sorunsuz bir şekilde entegre etmek için kurulum talimatlarını izleyin.
 ### 2. Kimlik Bilgilerine Erişim
 MS Project Server'a erişim için gereken gerekli kimlik bilgilerini toplayın. Buna Project Server ile ilişkili SharePoint etki alanı adresi, kullanıcı adı ve parola da dahildir.
 

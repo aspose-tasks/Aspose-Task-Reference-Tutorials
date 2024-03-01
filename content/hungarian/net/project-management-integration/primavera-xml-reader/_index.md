@@ -1,6 +1,6 @@
 ---
 title: Az MS Project Primavera XML Reader használata az Aspose.Tasks programban
-linktitle: Primavera XML Reader használata az Aspose.Tasks programban
+linktitle: A Primavera XML Reader használata az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan használhatja az Aspose.Tasks for .NET MS Project Primavera XML Reader-jét a projektadatok hatékony kezelésére. Kapjon részletes útmutatást, és fedezze fel a GYIK-et.
 type: docs
@@ -51,9 +51,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan használhatjuk az MS Project Primav
 ### K: Az Aspose.Tasks kezelni tudja az összetett projektstruktúrákat?
 V: Igen, az Aspose.Tasks robusztus szolgáltatásokat nyújt a különböző projektstruktúrák és összetettségek hatékony kezeléséhez.
 ### K: Elérhető az Aspose.Tasks ingyenes próbaverziója?
-V: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+ V: Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### K: Hogyan kaphatok támogatást az Aspose.Tasks-hoz?
- V: Támogatást kaphat az Aspose.Tasks fórumon.[itt](https://forum.aspose.com/c/tasks/15).
+ V: Támogatást kaphat az Aspose.Tasks fórumon[itt](https://forum.aspose.com/c/tasks/15).
 ### K: Vásárolhatok ideiglenes licencet az Aspose.Tasks számára?
  V: Igen, ideiglenes licencek megvásárolhatók[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol találom az Aspose.Tasks átfogó dokumentációját?

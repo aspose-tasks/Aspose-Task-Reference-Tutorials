@@ -37,7 +37,7 @@ String DataDir = "Your Document Directory";
 ```csharp
 var project = new Project();
 ```
-この行は、`Project`Aspose.Tasks によって提供されるクラス。
+この行は、`Project` Aspose.Tasks によって提供されるクラス。
 ## ステップ 3: プロジェクトにリソースを追加する
 ```csharp
 project.Resources.Add("Resource");
@@ -57,8 +57,8 @@ A: はい、リソース名のリストまたは配列を反復処理し、そ�
 ### Q: Aspose.Tasks for .NET は Microsoft Project の最新バージョンと互換性がありますか?
 A: Aspose.Tasks for .NET は、さまざまなバージョンの Microsoft Project との互換性を提供し、プロジェクト管理ワークフローとのシームレスな統合を保証します。
 ### Q: Aspose.Tasks for .NET を使用して、可用性やコストなどのリソース プロパティをカスタマイズできますか?
-A: もちろん、Aspose.Tasks for .NET は、可用性、コストなどを含むプロジェクトの要件に応じてリソースのプロパティをカスタマイズする広範な機能を提供します。
+A: もちろん、Aspose.Tasks for .NET は、可用性、コストなどを含むプロジェクトの要件に応じてリソース プロパティをカスタマイズする広範な機能を提供します。
 ### Q: Aspose.Tasks for .NET は、XML 以外の形式へのプロジェクト データのエクスポートをサポートしていますか?
 A: はい、Aspose.Tasks for .NET は、MPP、PDF、XLSX、HTML などのさまざまな形式へのプロジェクト データのエクスポートをサポートしています。
 ### Q: Aspose.Tasks for .NET に関するさらなるサポートやサポートはどこで入手できますか?
-A: さらに支援やサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)または、を参照してください。[ドキュメンテーション](https://reference.aspose.com/tasks/net/) Aspose によって提供されます。
+ A: さらに支援やサポートが必要な場合は、次のサイトにアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)または、を参照してください。[ドキュメンテーション](https://reference.aspose.com/tasks/net/) Aspose によって提供されます。

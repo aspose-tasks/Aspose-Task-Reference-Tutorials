@@ -13,7 +13,7 @@ Het beheren van licenties is een cruciaal aspect van het effectief gebruik van A
 Voordat we dieper ingaan op het beheer van licenties met Aspose.Tasks in .NET, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 - Basiskennis van de programmeertaal C# en het .NET-framework.
 - Aspose.Tasks voor .NET geïnstalleerd.
-- Toegang tot een geldig Aspose.Tasks-licentiebestand (`.lic`,
+- Toegang tot een geldig Aspose.Tasks-licentiebestand (`.lic`).
 ## Naamruimten importeren
 Voordat u Aspose.Tasks in uw .NET-project kunt gaan gebruiken, moet u de benodigde naamruimten importeren. Deze naamruimten bieden toegang tot de klassen en methoden die nodig zijn voor licentiebeheer.
 
@@ -93,7 +93,7 @@ A: Hoewel u Aspose.Tasks zonder licentie kunt evalueren door een tijdelijke lice
 
 ### Vraag: Wat gebeurt er als ik geen licentie toepas in mijn aanvraag?
 
-A: Zonder een geldige licentie werkt Aspose.Tasks in de evaluatiemodus, die bepaalde beperkingen oplegt, zoals beperkingen op de documentgrootte en evaluatiewatermerken op uitvoerbestanden.
+A: Zonder een geldige licentie werkt Aspose.Tasks in de evaluatiemodus, die bepaalde beperkingen oplegt, zoals beperkingen voor de documentgrootte en evaluatiewatermerken op uitvoerbestanden.
 
 ### Vraag: Kan ik hetzelfde licentiebestand voor meerdere toepassingen gebruiken?
 

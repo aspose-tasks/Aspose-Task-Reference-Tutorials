@@ -9,7 +9,7 @@ url: /tr/net/calendar-scheduling/check-circuit/
 ---
 ## giriiş
 
-.NET geliştirme dünyasında görevleri ve projeleri verimli bir şekilde yönetmek çok önemlidir. Aspose.Tasks for .NET, geliştiricilere proje yönetimi süreçlerini kolaylaştırmak için ihtiyaç duydukları araçları sağlayan güçlü bir kitaplıktır. Microsoft Project dosyalarını oluşturuyor, okuyor veya değiştiriyor olun, Aspose.Tasks, sezgisel API'leri ve kapsamlı özellikleriyle görevi basitleştirir.
+.NET geliştirme dünyasında görevleri ve projeleri verimli bir şekilde yönetmek çok önemlidir. Aspose.Tasks for .NET, geliştiricilere proje yönetimi süreçlerini kolaylaştırmak için ihtiyaç duydukları araçları sağlayan güçlü bir kitaplıktır. Microsoft Project dosyalarını oluştururken, okurken veya değiştirirken Aspose.Tasks, sezgisel API'leri ve kapsamlı özellikleriyle görevi basitleştirir.
 
 ## Önkoşullar
 
@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Adım 1: Proje Dosyasını Yükleyin
 
- Bozuk bir yapı olup olmadığını kontrol etmek istediğiniz Microsoft Project dosyasını (.mpp) yükleyerek başlayın. Kullan`Project` Dosyayı yüklemek için sınıf.
+Bozuk bir yapı olup olmadığını kontrol etmek istediğiniz Microsoft Project dosyasını (.mpp) yükleyerek başlayın. Kullan`Project` Dosyayı yüklemek için sınıf.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## Adım 2: Proje Yapısını Kontrol Edin
 
- Proje içindeki herhangi bir bozuk yapıyı tespit etmek için`CheckCircuit` birlikte sınıf`TaskUtils.Apply` yöntem.
+ Proje içindeki herhangi bir bozuk yapıyı tespit etmek için`CheckCircuit` sınıfla birlikte`TaskUtils.Apply` yöntem.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ Cevap1: Evet, Aspose.Tasks for .NET, .NET Core ve .NET Framework dahil olmak üz
 
 ### S3: Aspose.Tasks for .NET için nasıl destek alabilirim?
 
-Cevap3: Aspose.Tasks topluluk forumundan yardım isteyebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+ Cevap3: Aspose.Tasks topluluk forumundan yardım isteyebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
 
 ### S4: Test amacıyla geçici bir lisansa ihtiyacım var mı?
 

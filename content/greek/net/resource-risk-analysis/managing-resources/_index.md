@@ -32,7 +32,7 @@ url: /el/net/resource-risk-analysis/managing-resources/
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
+ Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
 ## Βήμα 2: Δημιουργήστε μια νέα παρουσία έργου
 ```csharp
 var project = new Project();
@@ -61,4 +61,4 @@ project.Save(DataDir + "CreateResources_out.xml", SaveFileFormat.Xml);
 ### Ε: Το Aspose.Tasks για .NET υποστηρίζει την εξαγωγή δεδομένων έργου σε μορφές άλλες από την XML;
 Α: Ναι, το Aspose.Tasks για .NET υποστηρίζει την εξαγωγή δεδομένων έργου σε διάφορες μορφές, όπως MPP, PDF, XLSX και HTML, μεταξύ άλλων.
 ### Ε: Πού μπορώ να βρω περαιτέρω βοήθεια ή υποστήριξη για το Aspose.Tasks για .NET;
-Α: Για περαιτέρω βοήθεια ή υποστήριξη, μπορείτε να επισκεφτείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) ή ανατρέξτε στο[τεκμηρίωση](https://reference.aspose.com/tasks/net/) παρέχεται από την Aspose.
+ Α: Για περαιτέρω βοήθεια ή υποστήριξη, μπορείτε να επισκεφτείτε το[Aspose.Tasks φόρουμ](https://forum.aspose.com/c/tasks/15) ή ανατρέξτε στο[τεκμηρίωση](https://reference.aspose.com/tasks/net/) παρέχεται από την Aspose.

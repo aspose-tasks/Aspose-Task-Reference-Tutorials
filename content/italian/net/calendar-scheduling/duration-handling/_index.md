@@ -155,4 +155,4 @@ R4: Sì, Aspose.Tasks supporta la lettura e la scrittura di file Microsoft Proje
 
 ### Q5: È disponibile una versione di prova per Aspose.Tasks per .NET?
 
- A5: Sì, puoi ottenere una prova gratuita di Aspose.Tasks per .NET da[Qui](https://releases.aspose.com/).
+A5: Sì, puoi ottenere una prova gratuita di Aspose.Tasks per .NET da[Qui](https://releases.aspose.com/).

@@ -1,6 +1,6 @@
 ---
 title: Konfigurálja az MS Project XAML-beállításait az Aspose.Tasks segítségével .NET-hez
-linktitle: Konfigurálja az XAML-beállításokat az Aspose.Tasks-ban
+linktitle: XAML-beállítások konfigurálása az Aspose.Tasks-ban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja az MS Project XAML beállításait az Aspose.Tasks for .NET-ben. Növelje a projektmenedzsment rugalmasságát és testreszabását lépésenkénti útmutatásokkal.
 type: docs
@@ -25,7 +25,7 @@ using Aspose.Tasks.Visualization;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával, ahol az MS Project fájl található.
+ Cserélje ki`"Your Document Directory"` a dokumentumkönyvtár elérési útjával, ahol az MS Project fájl található.
 ## 2. lépés: Töltse be az MS Project fájlt
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");
@@ -38,7 +38,7 @@ options.FitContent = true;
 options.LegendOnEachPage = false;
 options.Timescale = Timescale.ThirdsOfMonths;
 ```
-Itt létrehozzuk a XamlOptions egy példányát, és különféle beállításokat konfigurálunk, mint például a tartalom illesztése, a jelmagyarázat letiltása az egyes oldalakon, és az időskála beállítása hónapok harmadára.
+Itt létrehozzuk a XamlOptions egy példányát, és különféle beállításokat konfigurálunk, például a tartalom illesztését, az egyes oldalak jelmagyarázatának letiltását és az időskálát hónapok harmadára.
 ## 4. lépés: Mentse el a projektet a konfigurált opciókkal
 ```csharp
 project.Save(DataDir + "RenderXAMLWithOptions_out.xaml", options);
@@ -59,11 +59,11 @@ V: Igen, az Aspose.Tasks for .NET támogatja a különféle projektmenedzsment e
 
 ### K: Hogyan kaphatok támogatást az Aspose.Tasks for .NET-hez?
 
- V: Kérhet segítséget a közösségi fórumokon.[itt](https://forum.aspose.com/c/tasks/15).
+ V: Kérhet segítséget a közösségi fórumokon[itt](https://forum.aspose.com/c/tasks/15).
 
 ### K: Szükségem van ideiglenes licencre az Aspose.Tasks for .NET használatához?
 
-V: Előfordulhat, hogy bizonyos speciális funkciókhoz ideiglenes licencre van szükség, amelyet beszerezhet[itt](https://purchase.aspose.com/temporary-license/).
+ V: Előfordulhat, hogy bizonyos speciális funkciókhoz ideiglenes licencre van szükség, amelyet beszerezhet[itt](https://purchase.aspose.com/temporary-license/).
 
 ### K: Hol vásárolhatom meg az Aspose.Tasks-t .NET-hez?
 

@@ -94,7 +94,7 @@ In questo tutorial, abbiamo imparato come lavorare con i periodi di disponibilit
 
 ### Q2: È disponibile una prova gratuita per Aspose.Tasks per .NET?
 
- A2: Sì, puoi ottenere una prova gratuita di Aspose.Tasks per .NET[Qui](https://releases.aspose.com/).
+A2: Sì, puoi ottenere una prova gratuita di Aspose.Tasks per .NET[Qui](https://releases.aspose.com/).
 
 ### Q3: Dove posso trovare la documentazione per Aspose.Tasks per .NET?
 
@@ -102,7 +102,7 @@ In questo tutorial, abbiamo imparato come lavorare con i periodi di disponibilit
 
 ### Q4: Come posso ottenere supporto per Aspose.Tasks per .NET?
 
- R4: Puoi ottenere supporto dal forum della community.[Qui](https://forum.aspose.com/c/tasks/15).
+ R4: Puoi ottenere supporto dal forum della community[Qui](https://forum.aspose.com/c/tasks/15).
 
 ### Q5: Offrite licenze temporanee per Aspose.Tasks per .NET?
 

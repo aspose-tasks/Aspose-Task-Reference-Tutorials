@@ -17,7 +17,7 @@ Mielőtt elkezdené, győződjön meg arról, hogy beállította a következő e
 
 - A C# programozási nyelv alapvető ismerete.
 -  Az Aspose.Tasks telepítése .NET-hez. Ha nincs telepítve, töltse le innen[itt](https://releases.aspose.com/tasks/net/).
-- Visual Studio vagy bármely más preferált .NET fejlesztői környezet ismerete.
+- A Visual Studio vagy bármely más preferált .NET fejlesztői környezet ismerete.
 
 ## Névterek importálása
 
@@ -244,7 +244,7 @@ public void WriteUpdatedCalendarDataToMpp()
     }
     catch (NotSupportedException ex)
     {
-        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://buy.aspose.com/temporary-license/.");
+        Console.WriteLine(ex.Message + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [here](https://buy.aspose.com/temporary-license/).");
     }
 }
 ```
@@ -278,7 +278,7 @@ Magyarázat:
 
 ## 8. lépés: A naptári kivételek lekérése
 
-A naptárkivételekkel kapcsolatos információk lekéréséhez kövesse az alábbi lépéseket:
+naptárkivételekkel kapcsolatos információk lekéréséhez kövesse az alábbi lépéseket:
 
 ```csharp
 public void RetrieveCalendarExceptions()

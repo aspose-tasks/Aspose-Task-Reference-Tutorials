@@ -14,7 +14,7 @@ Bạn đã sẵn sàng nâng cao kỹ năng Aspose.Tasks for .NET của mình l�
 
 ## Xử lý việc lưu hình ảnh trong Aspose.Tasks
 
-Tìm hiểu nghệ thuật xử lý việc lưu hình ảnh trong Aspose.Tasks for .NET với hướng dẫn từng bước của chúng tôi. Tích hợp liền mạch chức năng lưu hình ảnh vào các ứng dụng .NET của bạn, nâng cao khả năng thể hiện trực quan dữ liệu dự án của bạn.[Đọc thêm](./image-saving/)
+ Tìm hiểu nghệ thuật xử lý việc lưu hình ảnh trong Aspose.Tasks for .NET với hướng dẫn từng bước của chúng tôi. Tích hợp liền mạch chức năng lưu hình ảnh vào các ứng dụng .NET của bạn, nâng cao khả năng thể hiện trực quan dữ liệu dự án của bạn.[Đọc thêm](./image-saving/)
 
 ## Xử lý ngoại lệ mật khẩu không hợp lệ trong Aspose.Tasks
 
@@ -22,11 +22,11 @@ Tìm hiểu nghệ thuật xử lý việc lưu hình ảnh trong Aspose.Tasks f
 
 ## Triển khai tính năng gọi lại lưu trang trong Aspose.Tasks
 
- Mở khóa tiềm năng xử lý tùy chỉnh cho luồng đầu ra tài liệu nhiều trang. Tìm hiểu cách triển khai lệnh gọi lại lưu trang trong Aspose.Tasks cho .NET, cung cấp cho bạn quyền kiểm soát việc trình bày dữ liệu dự án của bạn.[Đọc thêm](./page-saving-callback/)
+Mở khóa tiềm năng xử lý tùy chỉnh cho luồng đầu ra tài liệu nhiều trang. Tìm hiểu cách triển khai lệnh gọi lại lưu trang trong Aspose.Tasks cho .NET, cung cấp cho bạn quyền kiểm soát việc trình bày dữ liệu dự án của bạn.[Đọc thêm](./page-saving-callback/)
 
 ## Sử dụng thuật toán cây trong Aspose.Tasks
 
-Thao tác hiệu quả hệ thống phân cấp nhiệm vụ trong các dự án .NET của bạn bằng Thuật toán cây của Aspose.Tasks. Hướng dẫn này trao quyền cho bạn để tối ưu hóa cấu trúc dự án, đảm bảo quy trình làm việc liền mạch và có tổ chức.[Đọc thêm](./tree-algorithm/)
+ Thao tác hiệu quả hệ thống phân cấp nhiệm vụ trong các dự án .NET của bạn bằng Thuật toán cây của Aspose.Tasks. Hướng dẫn này trao quyền cho bạn để tối ưu hóa cấu trúc dự án, đảm bảo quy trình làm việc liền mạch và có tổ chức.[Đọc thêm](./tree-algorithm/)
 
 ## Hiển thị nhãn trong Aspose.Tasks
 
@@ -38,11 +38,11 @@ Thao tác hiệu quả hệ thống phân cấp nhiệm vụ trong các dự án
 
 ## Xử lý các mẫu lặp lại hàng tháng trong Aspose.Tasks
 
- Nắm vững nghệ thuật xử lý các mẫu lặp lại hàng tháng trong Aspose.Tasks for .NET. Hướng dẫn này cung cấp hướng dẫn từng bước để quản lý hiệu quả các tác vụ định kỳ trong dự án của bạn.[Đọc thêm](./monthly-recurrence-patterns/)
+Nắm vững nghệ thuật xử lý các mẫu lặp lại hàng tháng trong Aspose.Tasks for .NET. Hướng dẫn này cung cấp hướng dẫn từng bước để quản lý hiệu quả các tác vụ định kỳ trong dự án của bạn.[Đọc thêm](./monthly-recurrence-patterns/)
 
 ## Cài đặt cho Cơ sở dữ liệu Microsoft Project trong Aspose.Tasks
 
-Định cấu hình liền mạch các cài đặt cơ sở dữ liệu Microsoft Project với Aspose.Tasks cho .NET. Tích hợp dữ liệu dự án vào các ứng dụng .NET của bạn một cách dễ dàng, tối ưu hóa khả năng quản lý dự án của bạn.[Đọc thêm](./msp-database-settings/)
+ Định cấu hình liền mạch các cài đặt cơ sở dữ liệu Microsoft Project với Aspose.Tasks cho .NET. Tích hợp dữ liệu dự án vào các ứng dụng .NET của bạn một cách dễ dàng, tối ưu hóa khả năng quản lý dự án của bạn.[Đọc thêm](./msp-database-settings/)
 
 ## Làm việc với thao tác KHÔNG trong Aspose.Tasks
 
@@ -54,11 +54,11 @@ Thao tác hiệu quả hệ thống phân cấp nhiệm vụ trong các dự án
 
 ## Làm việc với các đối tượng OLE trong Aspose.Tasks
 
- Làm việc hiệu quả với các đối tượng OLE trong ứng dụng .NET bằng Aspose.Tasks. Nâng cao khả năng quản lý dự án của bạn bằng cách nắm vững cách xử lý các đối tượng OLE, thêm chiều hướng mới vào tài liệu dự án của bạn.[Đọc thêm](./ole-objects/)
+Làm việc hiệu quả với các đối tượng OLE trong ứng dụng .NET bằng Aspose.Tasks. Nâng cao khả năng quản lý dự án của bạn bằng cách nắm vững cách xử lý các đối tượng OLE, thêm chiều hướng mới vào tài liệu dự án của bạn.[Đọc thêm](./ole-objects/)
 
 ## Bộ sưu tập các đối tượng OLE trong Aspose.Tasks
 
-Quản lý các đối tượng OLE trong Aspose.Tasks cho .NET bằng hướng dẫn toàn diện này. Đạt được kiến thức chuyên môn trong việc xử lý các tệp nhúng trong tài liệu dự án, đảm bảo tích hợp liền mạch các đối tượng OLE vào dự án của bạn.[Đọc thêm](./ole-object-collection/)
+ Quản lý các đối tượng OLE trong Aspose.Tasks cho .NET bằng hướng dẫn toàn diện này. Đạt được kiến thức chuyên môn trong việc xử lý các tệp nhúng trong tài liệu dự án, đảm bảo tích hợp liền mạch các đối tượng OLE vào dự án của bạn.[Đọc thêm](./ole-object-collection/)
 ## Hướng dẫn khái niệm nâng cao
 ### [Xử lý việc lưu hình ảnh trong Aspose.Tasks](./image-saving/)
 Tìm hiểu cách xử lý việc lưu hình ảnh trong Aspose.Tasks cho .NET bằng cách sử dụng hướng dẫn từng bước. Tích hợp liền mạch chức năng lưu hình ảnh vào các ứng dụng .NET của bạn.

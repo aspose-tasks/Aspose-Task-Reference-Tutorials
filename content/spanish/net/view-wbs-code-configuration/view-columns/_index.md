@@ -75,7 +75,7 @@ R: Aspose.Tasks se centra principalmente en archivos de Microsoft Project; sin e
 ### P: ¿Cómo puedo solucionar problemas con la personalización de la columna de vista?
  R: Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoyo de la comunidad y asistencia con cualquier desafío que encuentre.
 ### P: ¿Hay una versión de prueba disponible antes de comprar Aspose.Tasks?
-R: Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
+ R: Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
 ###  P: ¿Cuál es el significado de la`MyTextStyleCallback` class in the tutorial?
  R: El`MyTextStyleCallback` La clase demuestra cómo personalizar estilos de texto para mejorar la representación visual en vistas específicas.
 ### P: ¿Dónde puedo encontrar recursos y documentación adicionales para Aspose.Tasks?

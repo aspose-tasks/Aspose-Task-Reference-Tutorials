@@ -132,7 +132,7 @@ Aspose.Tasks for .NET ile WBS kodlarını yönetmek zahmetsiz bir iş haline gel
 ### S: Aspose.Tasks for .NET'i diğer programlama dilleriyle birlikte kullanabilir miyim?
 C: Aspose.Tasks öncelikli olarak .NET dillerini destekler ancak diğer dillerle birlikte çalışabilirlik seçeneklerini de keşfedebilirsiniz.
 ### S: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
- C: Evet, deneme sürümünü indirebilirsiniz.[Burada](https://releases.aspose.com/).
+ C: Evet, deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks for .NET ile ilgili nasıl yardım alabilirim veya sorunları nasıl bildirebilirim?
  C: Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) Destek ve tartışmalar için.
 ### S: Proje yönetiminde WBS kodlarının amacı nedir?

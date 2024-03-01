@@ -11,7 +11,7 @@ url: /ja/net/resource-risk-analysis/risk-item-statistics/
 Aspose.Tasks for .NET を使用してプロジェクト管理能力を強化したいと考えていますか? MS Project ファイル内のリスク項目の統計を取得するためのステップバイステップのチュートリアルで、リスク分析の領域を掘り下げてください。 Aspose.Tasks の強力な機能を活用することで、プロジェクトの不確実性に関する貴重な洞察を取得し、情報に基づいた意思決定を行ってリスクを効果的に軽減できます。
 ## 前提条件
 この作業を開始する前に、次の前提条件が満たされていることを確認してください。
-1.  Aspose.Tasks for .NET ライブラリ: からライブラリをダウンロードしてインストールします。[Aspose.Tasks for .NET ドキュメント](https://reference.aspose.com/tasks/net/)、このライブラリには、MS Project ファイルをプログラムで操作するための強力なツールが備わっています。
+1.  Aspose.Tasks for .NET ライブラリ: からライブラリをダウンロードしてインストールします。[Aspose.Tasks for .NET ドキュメント](https://reference.aspose.com/tasks/net/)。このライブラリには、MS Project ファイルをプログラムで操作するための強力なツールが備わっています。
 2. .NET 開発環境: Visual Studio またはその他の任意の IDE を含む .NET 開発環境をセットアップして、Aspose.Tasks のプロジェクトへのシームレスな統合を促進します。
 
 ## 名前空間のインポート
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
-必ず交換してください`"Your Document Directory"`MS Project ファイルが配置されているドキュメント ディレクトリへのパスを置き換えます。
+必ず交換してください`"Your Document Directory"` MS Project ファイルが配置されているドキュメント ディレクトリへのパスを置き換えます。
 ## ステップ 2: リスク分析設定を構成する
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -89,4 +89,4 @@ MS Project ファイル内のリスク項目に関連するさまざまな統計
 ### Aspose.Tasks のテクニカル サポートを受けることはできますか?
 確かに！当社の専任サポート チームは、[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)導入の過程で遭遇する可能性のある質問や課題へのサポートを提供します。
 ### 短期プロジェクト向けに一時ライセンスを提供していますか?
-はい、短期プロジェクトで Aspose.Tasks が必要な場合は、便利なツールをご利用いただけます。[仮免許証](https://purchase.aspose.com/temporary-license/)長期契約なしでライセンスのニーズを満たすオプションです。
+はい、短期プロジェクトで Aspose.Tasks が必要な場合は、便利なツールをご利用いただけます。[仮免許](https://purchase.aspose.com/temporary-license/)長期契約なしでライセンスのニーズを満たすオプションです。

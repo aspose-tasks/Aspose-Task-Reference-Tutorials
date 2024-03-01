@@ -12,7 +12,7 @@ Microsoft Project 是一个强大的项目管理工具，允许用户有效地�
 ## 先决条件
 在开始之前，请确保您已设置以下先决条件：
 ### 1.安装Aspose.Tasks for .NET
-您可以从以下位置下载并安装 Aspose.Tasks for .NET[网站](https://releases.aspose.com/tasks/net/),按照提供的安装说明在您的开发环境中设置该库。
+您可以从以下位置下载并安装 Aspose.Tasks for .NET[网站](https://releases.aspose.com/tasks/net/)。按照提供的安装说明在您的开发环境中设置该库。
 ### 2. C#和.NET Framework基础知识
 熟悉 C# 编程语言和 .NET Framework，因为本教程假设您对这些概念有基本的了解。
 ### 3.微软项目文件

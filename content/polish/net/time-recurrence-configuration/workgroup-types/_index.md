@@ -41,7 +41,7 @@ Tak, Aspose.Tasks obsługuje .NET Core wraz z tradycyjnym .NET Framework.
 ### Czy mogę ustawić wiele typów grup roboczych dla jednego zasobu?
 Tak, możesz ustawić różne typy grup roboczych dla zasobu na różnych etapach projektu.
 ### Gdzie mogę znaleźć dodatkowe wsparcie dla Aspose.Tasks?
- odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie społeczności i dyskusje.
+ Odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za wsparcie społeczności i dyskusje.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks?
  Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego z[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Tasks?

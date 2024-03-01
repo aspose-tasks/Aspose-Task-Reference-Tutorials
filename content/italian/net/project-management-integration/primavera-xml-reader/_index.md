@@ -51,9 +51,9 @@ In questo tutorial, abbiamo imparato come utilizzare il lettore XML di MS Projec
 ### D: Aspose.Tasks può gestire strutture di progetto complesse?
 R: Sì, Aspose.Tasks fornisce funzionalità robuste per gestire in modo efficace varie strutture e complessità del progetto.
 ### D: È disponibile una prova gratuita per Aspose.Tasks?
-R: Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
+ R: Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
 ### D: Come posso ottenere supporto per Aspose.Tasks?
- R: Puoi ottenere supporto dal forum Aspose.Tasks.[Qui](https://forum.aspose.com/c/tasks/15).
+ R: Puoi ottenere supporto dal forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15).
 ### D: Posso acquistare una licenza temporanea per Aspose.Tasks?
  R: Sì, è possibile acquistare licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
 ### D: Dove posso trovare la documentazione completa per Aspose.Tasks?

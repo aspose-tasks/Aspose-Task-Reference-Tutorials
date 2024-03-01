@@ -11,7 +11,7 @@ url: /pt/net/task-table-management/managing-tasks/
 Se você é um desenvolvedor .NET que deseja gerenciar tarefas em seus projetos com eficiência, o Aspose.Tasks for .NET oferece uma solução robusta. Este tutorial irá guiá-lo através de vários aspectos do gerenciamento de tarefas usando Aspose.Tasks, oferecendo instruções passo a passo e exemplos de código. Esteja você adicionando tarefas, exibindo partes divididas, movendo tarefas sob o mesmo pai, obtendo/definindo propriedades de tarefas, iterando atribuições de tarefas, lendo linhas de base de tarefas ou excluindo tarefas, este guia tem o que você precisa.
 ## Pré-requisitos
 Antes de mergulhar no tutorial, certifique-se de ter os seguintes pré-requisitos em vigor:
-1.  Biblioteca Aspose.Tasks for .NET: certifique-se de ter a biblioteca Aspose.Tasks for .NET instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/).
+1. Biblioteca Aspose.Tasks for .NET: certifique-se de ter a biblioteca Aspose.Tasks for .NET instalada. Você pode baixá-lo[aqui](https://releases.aspose.com/tasks/net/).
 2. Diretório de documentos: Configure um diretório onde os documentos do seu projeto serão armazenados.
 ## Importar namespaces
 Em seu projeto .NET, inclua os namespaces necessários para trabalhar com Aspose.Tasks:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Carregar um projeto com tarefas divididas
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Acessar uma tarefa
+// Acessar uma tarefa
 var task = project.RootTask.Children.GetById(4);
 // Exibir peças divididas
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Adicionar uma tarefa
 var task = project.RootTask.Children.Add("Task");
-// Exibir o número de tarefas antes e depois da exclusão
+//Exibir o número de tarefas antes e depois da exclusão
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Exclua a tarefa
 task.Delete();

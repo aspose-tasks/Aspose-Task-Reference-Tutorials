@@ -17,7 +17,7 @@ Než se pustíte do používání Aspose.Tasks pro .NET, musíte mít splněno n
 
 ### 1. Instalace Aspose.Tasks pro .NET
 
- Chcete-li začít, budete si muset stáhnout a nainstalovat Aspose.Tasks for .NET. Odkaz ke stažení najdete[tady](https://releases.aspose.com/tasks/net/), Postupujte podle pokynů k instalaci a nastavte knihovnu ve svém vývojovém prostředí.
+ Chcete-li začít, budete si muset stáhnout a nainstalovat Aspose.Tasks for .NET. Odkaz ke stažení najdete[tady](https://releases.aspose.com/tasks/net/). Postupujte podle pokynů k instalaci a nastavte knihovnu ve svém vývojovém prostředí.
 
 ### 2. Import jmenných prostorů
 

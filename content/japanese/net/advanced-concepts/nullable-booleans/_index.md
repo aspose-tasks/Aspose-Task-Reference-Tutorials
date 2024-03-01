@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## 結論
 
-このチュートリアルでは、Aspose.Tasks for .NET で null 許容のブール値を処理する方法を検討しました。を使用することで、`NullableBool`クラスとそのメソッドを使用すると、null 許容の柔軟性が加わり、ブール値を効率的に管理できます。
+このチュートリアルでは、Aspose.Tasks for .NET で null 許容のブール値を処理する方法を検討しました。を活用することで、`NullableBool`クラスとそのメソッドを使用すると、null 許容の柔軟性が加わり、ブール値を効率的に管理できます。
 
 ## よくある質問
 
@@ -138,7 +138,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 A1: Null 許容ブール値は、true、false、または未定義を表すことができる型です。
 
-### Q2: NULL 許容のブール値を使用する理由は何ですか?
+### Q2: なぜ null 許容のブール値を使用するのですか?
 
 A2: Null 許容ブール値は、ブール値が常に定義されているとは限らないシナリオに柔軟性をもたらします。
 

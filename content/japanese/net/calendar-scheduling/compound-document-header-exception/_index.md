@@ -9,7 +9,7 @@ url: /ja/net/calendar-scheduling/compound-document-header-exception/
 ---
 ## 導入
 
- .NET 開発の分野では、プロジェクト タスクを効率的に管理することが最も重要な課題です。 Aspose.Tasks は、.NET 開発者がプロジェクト管理タスクをシームレスに処理するための包括的なソリューションを提供します。ただし、ソフトウェア開発では例外に遭遇することは避けられません。開発者が遭遇する可能性のある例外の 1 つは、`CompoundDocumentHeaderException`、このチュートリアルは、Aspose.Tasks for .NET を使用してこの例外を効果的に処理する方法を開発者にガイドすることを目的としています。
+ .NET 開発の分野では、プロジェクト タスクを効率的に管理することが最も重要な課題です。 Aspose.Tasks は、.NET 開発者がプロジェクト管理タスクをシームレスに処理するための包括的なソリューションを提供します。ただし、ソフトウェア開発では例外に遭遇することは避けられません。開発者が遭遇する可能性のある例外の 1 つは、`CompoundDocumentHeaderException`。このチュートリアルは、Aspose.Tasks for .NET を使用してこの例外を効果的に処理する方法を開発者にガイドすることを目的としています。
 
 ## 前提条件
 
@@ -70,7 +70,7 @@ catch (CompoundDocumentHeaderException e)
 
 ## ステップ 2: プロジェクト ファイルをロードする
 
-を使用してプロジェクト ファイルをロードします。`Project`Aspose.Tasks によって提供されるクラス。
+を使用してプロジェクト ファイルをロードします。`Project` Aspose.Tasks によって提供されるクラス。
 
 ## ステップ 3: プロジェクト情報の表示
 

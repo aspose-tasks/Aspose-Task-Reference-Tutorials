@@ -112,4 +112,4 @@ A: Ja, Aspose.Tasks für .NET bietet umfangreiche Dokumentation und Unterstützu
 
 ### F5: Gibt es eine Testversion für Aspose.Tasks für .NET?
 
- A: Ja, Sie können eine kostenlose Testversion von herunterladen[Aspose.Tasks für .NET von](https://forum.aspose.com/c/tasks/15), um die Funktionen zu erkunden, bevor Sie einen Kauf tätigen.
+ A: Ja, Sie können eine kostenlose Testversion von herunterladen[Aspose.Tasks für .NET von](https://forum.aspose.com/c/tasks/15). um die Funktionen zu erkunden, bevor Sie einen Kauf tätigen.

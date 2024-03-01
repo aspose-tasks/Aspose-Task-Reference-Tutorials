@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Muat file proyek menggunakan`Project` konstruktor kelas, menentukan jalur file.
+ Muat file proyek menggunakan`Project`konstruktor kelas, menentukan jalur file.
 
 ## Langkah 2: Kumpulkan Semua Tugas Proyek
 
@@ -117,4 +117,4 @@ A4: Ya, Anda dapat mengintegrasikan Aspose.Tasks dengan kerangka kerja dan pusta
 
 ### Q5: Apakah ada forum komunitas atau saluran dukungan yang tersedia untuk pengguna Aspose.Tasks?
 
- A5: Ya, Anda dapat mengakses forum komunitas Aspose.Tasks.[Di Sini](https://forum.aspose.com/c/tasks/15) untuk pertanyaan atau bantuan apa pun.
+ A5: Ya, Anda dapat mengakses forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15) untuk pertanyaan atau bantuan apa pun.

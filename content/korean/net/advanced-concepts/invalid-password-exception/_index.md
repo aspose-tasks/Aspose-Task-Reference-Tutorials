@@ -9,7 +9,7 @@ url: /ko/net/advanced-concepts/invalid-password-exception/
 ---
 ## 소개
 
- 소프트웨어 개발에서는 예외가 발생하는 것이 일반적이며 이를 효과적으로 처리하는 방법을 아는 것은 강력한 애플리케이션 성능을 위해 매우 중요합니다. .NET용 Aspose.Tasks로 작업할 때 개발자는 다음과 같은 문제를 겪을 수 있습니다.`InvalidPasswordException` 비밀번호로 보호된 프로젝트 파일을 다룰 때. 이 튜토리얼에서는 이 예외를 처리하는 과정을 단계별로 안내하여 코드가 원활하게 실행되도록 합니다.
+ 소프트웨어 개발에서는 예외가 발생하는 것이 일반적이며 이를 효과적으로 처리하는 방법을 아는 것은 강력한 애플리케이션 성능을 위해 중요합니다. .NET용 Aspose.Tasks로 작업할 때 개발자는 다음과 같은 문제를 겪을 수 있습니다.`InvalidPasswordException` 비밀번호로 보호된 프로젝트 파일을 다룰 때. 이 튜토리얼에서는 이 예외를 처리하는 과정을 단계별로 안내하여 코드가 원활하게 실행되도록 합니다.
 
 ## 전제조건
 
@@ -64,7 +64,7 @@ catch (InvalidPasswordException e)
 
 ### Q1: Aspose.Tasks에서 InvalidPasswordException이 발생하는 원인은 무엇입니까?
 
- A1:안`InvalidPasswordException` 올바른 비밀번호를 제공하지 않고 비밀번호로 보호된 프로젝트 파일에 액세스하려고 시도하거나 제공된 비밀번호가 올바르지 않은 경우 발생합니다.
+ A1: 안`InvalidPasswordException` 올바른 비밀번호를 제공하지 않고 비밀번호로 보호된 프로젝트 파일에 액세스하려고 시도하거나 제공된 비밀번호가 올바르지 않은 경우 발생합니다.
 
 ### Q2: Aspose.Tasks를 사용하여 다른 유형의 예외를 처리할 수 있나요?
 
@@ -72,7 +72,7 @@ catch (InvalidPasswordException e)
 
 ### Q3: Aspose.Tasks는 대규모 프로젝트 관리 작업을 처리하는 데 적합합니까?
 
-A3: 물론이죠! Aspose.Tasks는 강력한 기능과 탁월한 성능을 제공하므로 모든 규모와 복잡성의 프로젝트를 처리하는 데 적합합니다.
+A3: 물론이죠! Aspose.Tasks는 강력한 기능과 뛰어난 성능을 제공하므로 모든 규모와 복잡성의 프로젝트를 처리하는 데 적합합니다.
 
 ### Q4: Aspose.Tasks에 대한 추가 지원과 리소스는 어디서 찾을 수 있나요?
 

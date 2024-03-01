@@ -11,7 +11,7 @@ url: /sv/net/text-view-configuration/text-item-types/
 Om du är en .NET-utvecklare som dyker in i projektledning med Aspose.Tasks, har du kommit till rätt plats! I den här steg-för-steg-guiden kommer vi att utforska svårigheterna med att hantera textobjekttyper i Aspose.Tasks, med fokus på anpassning med det kraftfulla .NET-biblioteket.
 ## Förutsättningar
 Innan vi börjar, se till att du har följande på plats:
-1. Aspose.Tasks för .NET Library: Se till att du har Aspose.Tasks-biblioteket installerat. Om inte kan du ladda ner den[här](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks för .NET Library: Se till att du har Aspose.Tasks-biblioteket installerat. Om inte kan du ladda ner den[här](https://releases.aspose.com/tasks/net/).
 2. Dokumentkatalog: Skapa en katalog för dina projektdokument.
 Nu, låt oss dyka in i det finurliga med att hantera textobjekttyper.
 ## Importera namnområden
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Tillämpa den definierade textstilen på ditt projekt och spara det anpassade projektet som en PDF-fil.
 Upprepa dessa steg för andra anpassningsbehov, experimentera med olika textobjekttyper, teckensnittsstilar och färger.
 ## Slutsats
- Grattis! Du har precis skrapat på ytan för att hantera textobjekttyper i Aspose.Tasks för .NET. När du fortsätter att utforska, se[dokumentation](https://reference.aspose.com/tasks/net/) för djupgående insikter.
+Grattis! Du har precis skrapat på ytan för att hantera textobjekttyper i Aspose.Tasks för .NET. När du fortsätter att utforska, se[dokumentation](https://reference.aspose.com/tasks/net/) för djupgående insikter.
 ### Vanliga frågor
 ### F: Kan jag använda Aspose.Tasks gratis?
  S: Aspose.Tasks erbjuder en gratis provperiod. Ta den[här](https://releases.aspose.com/).

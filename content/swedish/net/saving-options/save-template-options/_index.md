@@ -75,4 +75,4 @@ S: Ja, du kan tillämpa mallar på befintliga projekt genom att ladda mallfilen 
 ### F: Stöder Aspose.Tasks för .NET utveckling över plattformar?
 S: Aspose.Tasks för .NET är i första hand utformad för .NET framework-applikationer som körs på Windows-plattformar.
 ### F: Finns teknisk support tillgänglig för Aspose.Tasks för .NET?
- S: Ja, du kan söka teknisk hjälp och vägledning från Aspose.Tasks-communityt.[forum](https://forum.aspose.com/c/tasks/15) eller kontakta deras supportteam direkt.
+ S: Ja, du kan söka teknisk hjälp och vägledning från Aspose.Tasks-communityt[forum](https://forum.aspose.com/c/tasks/15)eller kontakta deras supportteam direkt.

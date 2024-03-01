@@ -18,7 +18,7 @@ Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 1. Temel C# Anlayışı: C# programlama diline aşinalık esastır.
 2.  Aspose.Tasks for .NET Kurulumu: Aspose.Tasks for .NET kütüphanesini aşağıdaki adresten indirip yükleyin:[İndirme: {link](https://releases.aspose.com/tasks/net/).
 3. Geliştirme Ortamı: C# kodunu yazmak ve yürütmek için Visual Studio gibi bir geliştirme ortamı kurun.
-4.  Dokümantasyona Erişim:[Aspose.Tasks for .NET belgeleri](https://reference.aspose.com/tasks/net/) referans için kullanışlı.
+4. Dokümantasyona Erişim:[Aspose.Tasks for .NET belgeleri](https://reference.aspose.com/tasks/net/) referans için kullanışlı.
 
 Artık önkoşulları ele aldığımıza göre, Aspose.Tasks for .NET kullanarak alt görevleri toplamaya yönelik adım adım kılavuza geçelim.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- biz uyguluyoruz`ChildTasksCollector`Toplama sürecini yinelemeli olarak başlatarak projenin temel görevine.
+ biz uyguluyoruz`ChildTasksCollector` Toplama sürecini yinelemeli olarak başlatarak projenin temel görevine.
 
 ## Adım 4: Toplanan Görevleri Yineleyin
 
@@ -91,7 +91,7 @@ Cevap3: Aspose.Tasks for .NET öncelikli olarak .NET ortamları için tasarlanm�
 
 ### S4: Aspose.Tasks for .NET için teknik destek mevcut mu?
 
- C4: Evet, kullanıcılar teknik desteğe şu adresten erişebilir:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
+C4: Evet, kullanıcılar teknik desteğe şu adresten erişebilir:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15).
 
 ### S5: Satın almadan önce Aspose.Tasks for .NET'i deneyebilir miyim?
 

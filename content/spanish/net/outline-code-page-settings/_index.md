@@ -33,7 +33,7 @@ Administre eficientemente los valores de esquema de Microsoft Project con Aspose
 ## Colección de valores de esquema en Aspose.Tasks para .NET
  Aprenda a administrar valores de esquema en archivos de Microsoft Project usando Aspose.Tasks para .NET. Este tutorial paso a paso incluye ejemplos de código, lo que garantiza que pueda implementar estas prácticas sin esfuerzo.[Leer más](./outline-value-collection/)
 
-## Configurar la leyenda de página en Aspose.Tasks para .NET
+## Configuración de la leyenda de página en Aspose.Tasks para .NET
  La gestión eficiente de proyectos se extiende a la configuración de leyendas de páginas de MS Project en .NET. Este tutorial, que utiliza Aspose.Tasks, proporciona una guía paso a paso sobre cómo adaptar las leyendas de su proyecto para una eficiencia óptima.[Leer más](./page-legend/)
 
 ## Establezca sin esfuerzo los márgenes de la página de MS Project con Aspose.Tasks para .NET

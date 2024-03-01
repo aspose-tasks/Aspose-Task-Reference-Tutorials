@@ -13,7 +13,7 @@ Quản lý dự án hiệu quả thường liên quan đến việc hình dung r
 Trước khi chúng tôi bắt đầu, hãy đảm bảo bạn đã thiết lập các điều kiện tiên quyết sau:
 ### 1. Cài đặt Aspose.Tasks cho .NET
 Để làm việc với Aspose.Tasks cho .NET, bạn cần cài đặt nó trong môi trường phát triển của mình. Bạn có thể tải xuống thư viện từ[trang mạng](https://releases.aspose.com/tasks/net/) hoặc thông qua các trình quản lý gói như NuGet.
-### 2.Môi trường phát triển
+### 2. Môi trường phát triển
 Đảm bảo bạn đã thiết lập môi trường phát triển .NET trên máy của mình. Bạn có thể sử dụng Visual Studio hoặc bất kỳ .NET IDE nào khác mà bạn chọn.
 ## Nhập không gian tên
 Trước khi đi sâu vào mã, hãy nhập các không gian tên cần thiết để truy cập các chức năng của Aspose.Tasks.

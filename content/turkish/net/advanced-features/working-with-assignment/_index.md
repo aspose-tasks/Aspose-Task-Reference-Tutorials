@@ -108,4 +108,4 @@ C4: Evet, bu eğitimde gösterildiği gibi proje gereksinimlerinize göre kaplum
 
 ### S5: Aspose.Tasks ile ilgili sorgular için desteği nerede bulabilirim?
 
- Cevap 5: Şu adreste destek bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) uzmanların ve topluluk üyelerinin aktif olarak tartışmalara katıldığı yer.
+Cevap 5: Şu adreste destek bulabilirsiniz:[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) uzmanların ve topluluk üyelerinin aktif olarak tartışmalara katıldığı yer.

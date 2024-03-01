@@ -12,7 +12,7 @@ Aspose.Tasks를 사용하여 .NET 애플리케이션에서 시간대별 데이�
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 1.  .NET 라이브러리용 Aspose.Tasks: 다음에서 라이브러리를 다운로드하고 설치하세요.[Aspose.Tasks .NET 문서](https://reference.aspose.com/tasks/net/).
-2. .NET 개발 환경: 작동하는 .NET 개발 환경이 설정되어 있는지 확인하십시오.
+2. .NET 개발 환경: 작동하는 .NET 개발 환경이 설정되어 있는지 확인하세요.
 3. 문서 디렉터리: 코드 조각의 자리 표시자 "문서 디렉터리"를 문서 디렉터리 경로로 바꿉니다.
 ## 네임스페이스 가져오기
 .NET 프로젝트에서 Aspose.Tasks 기능을 활용하는 데 필요한 네임스페이스를 가져오는 것부터 시작하세요.
@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // 할당 속성 설정...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// 할당2 속성 설정...
+//할당2 속성 설정...
 ```
 ## 4. 시간대별 데이터 작업
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. 시간대별 데이터 조작
 ```csharp
-//잘못된 시간대별 데이터 항목을 추가한 후 삭제하세요.
+// 잘못된 시간대별 데이터 항목을 추가한 후 삭제하세요.
 var td4 = new TimephasedData
 {
     // 잘못된 시간대별 데이터 속성 설정...
@@ -120,4 +120,4 @@ Aspose.Tasks는 다양한 규모의 프로젝트를 처리하며 리소스 및 �
 ### 구매하기 전에 .NET용 Aspose.Tasks를 사용해 볼 수 있나요?
  예, 다음에 액세스하여 .NET용 Aspose.Tasks의 기능을 탐색할 수 있습니다.[무료 시험판](https://releases.aspose.com/).
 ### .NET용 Aspose.Tasks 라이선스는 어디서 구매할 수 있나요?
- .NET용 Aspose.Tasks 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+.NET용 Aspose.Tasks 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).

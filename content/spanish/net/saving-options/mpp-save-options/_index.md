@@ -11,7 +11,7 @@ url: /es/net/saving-options/mpp-save-options/
 En el mundo del desarrollo .NET, administrar y manipular archivos de proyectos de manera eficiente es crucial para el éxito. Aspose.Tasks para .NET ofrece una potente solución para manejar archivos de Microsoft Project (MPP) con facilidad. Entre sus muchas características, Aspose.Tasks permite a los usuarios guardar opciones de MS Project sin problemas, optimizando el flujo de trabajo y garantizando la integridad del proyecto. En este tutorial, profundizaremos en el proceso de guardar opciones de MS Project usando Aspose.Tasks para .NET.
 ## Requisitos previos
 Antes de comenzar, asegúrese de contar con los siguientes requisitos previos:
-1. Instalación de Aspose.Tasks para .NET: Descargue e instale la biblioteca Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/tasks/net/).
+1.  Instalación de Aspose.Tasks para .NET: Descargue e instale la biblioteca Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/tasks/net/).
 2. Entorno de desarrollo: tenga configurado un entorno de desarrollo .NET, como Visual Studio.
 3. Comprensión básica de C#: la familiaridad con el lenguaje de programación C# es esencial para implementar los ejemplos.
 
@@ -62,7 +62,7 @@ Sí, Aspose.Tasks para .NET admite varias versiones de archivos de Microsoft Pro
 ### ¿Puedo probar Aspose.Tasks para .NET antes de comprarlo?
  ¡Ciertamente! Puede descargar una prueba gratuita de Aspose.Tasks para .NET desde[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte técnico para Aspose.Tasks para .NET?
- Para obtener asistencia técnica, puede visitar el foro de Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15).
+Para obtener asistencia técnica, puede visitar el foro de Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15).
 ### ¿Qué es una licencia temporal y cómo puedo obtenerla?
  Una licencia temporal le permite evaluar Aspose.Tasks para .NET sin limitaciones. Puede adquirir una licencia temporal de[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo comprar una versión con licencia de Aspose.Tasks para .NET?

@@ -9,7 +9,7 @@ url: /pl/net/advanced-concepts/nullable-booleans/
 ---
 ## Wstęp
 
- W tym samouczku zagłębimy się w pracę z wartościami logicznymi dopuszczającymi wartość null w Aspose.Tasks dla .NET. Wartości logiczne null oferują elastyczność w reprezentowaniu wartości logicznych, dopuszczając możliwość bycia niezdefiniowanym. Zastanowimy się, jak korzystać z`NullableBool` klasa, jej konstruktory, właściwości i metody.
+ tym samouczku zagłębimy się w pracę z wartościami logicznymi dopuszczającymi wartość null w Aspose.Tasks dla .NET. Wartości logiczne null oferują elastyczność w reprezentowaniu wartości logicznych, dopuszczając możliwość bycia niezdefiniowanym. Zastanowimy się, jak korzystać z`NullableBool` klasa, jej konstruktory, właściwości i metody.
 
 ## Warunki wstępne
 
@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Krok 4: Użyj`NullableBool` instance by setting it in the project.
+###  Krok 4: Skorzystaj z`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Krok 6: Wyświetl ciąg znaków reprezentujący plik`NullableBool` object.
+###  Krok 6: Wyświetl ciąg znaków reprezentujący plik`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Krok 2: Wydrukuj kod skrótu dla każdego z nich`NullableBool` object.
+### Krok 2: Wydrukuj kod skrótu dla każdego z nich`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Wniosek
 
- W tym samouczku omówiliśmy, jak obsługiwać wartości logiczne null w Aspose.Tasks dla .NET. Korzystając z`NullableBool` class i jej metodami, możesz efektywnie zarządzać wartościami boolowskimi z dodatkową elastycznością wynikającą z dopuszczalności wartości null.
+ W tym samouczku omówiliśmy, jak obsługiwać wartości logiczne null w Aspose.Tasks dla .NET. Korzystając z`NullableBool` class i jej metodami, można efektywnie zarządzać wartościami boolowskimi z dodatkową elastycznością wynikającą z dopuszczalności wartości null.
 
 ## Często zadawane pytania
 

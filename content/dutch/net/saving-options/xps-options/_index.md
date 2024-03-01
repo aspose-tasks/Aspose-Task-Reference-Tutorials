@@ -26,7 +26,7 @@ using Aspose.Tasks.Saving;
 // Het pad naar de documentenmap.
 String DataDir = "Your Document Directory";
 ```
- vervangen`"Your Document Directory"` met het pad waar uw MSP-document zich bevindt.
+ Vervangen`"Your Document Directory"` met het pad waar uw MSP-document zich bevindt.
 ## Stap 2: Laad het MSP-document
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -40,12 +40,12 @@ var options = new XpsOptions
     RenderMetafileAsBitmap = true
 };
 ```
- In deze stap instantiëren we`XpsOptions`en configureer parameters. Instellingen`RenderMetafileAsBitmap` naar`true` zorgt voor een juiste weergave van metabestanden.
+ In deze stap instantiëren we`XpsOptions`en configureer parameters. Instelling`RenderMetafileAsBitmap` naar`true` zorgt voor een juiste weergave van metabestanden.
 ## Stap 4: Sla het document op als XPS
 ```csharp
 project.Save(DataDir + "UseSvgOptions_out.xps", options);
 ```
- Uiteindelijk hebben we gebeld met de`Save` methode op de`Project` object, waarbij het pad van het uitvoerbestand en het eerder geconfigureerde pad worden opgegeven`XpsOptions`.
+ Tenslotte noemen wij de`Save` methode op de`Project` object, waarbij het pad van het uitvoerbestand en het eerder geconfigureerde pad worden opgegeven`XpsOptions`.
 
 ## Conclusie
 Concluderend vereenvoudigt Aspose.Tasks voor .NET het proces van het programmatisch converteren van Microsoft Project-documenten naar XPS-formaat. Door de stappen in deze tutorial te volgen, kunnen ontwikkelaars deze functionaliteit naadloos integreren in hun .NET-applicaties, waardoor de workflows voor projectbeheer met gemak worden verbeterd.

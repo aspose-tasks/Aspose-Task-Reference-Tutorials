@@ -12,7 +12,7 @@ takt med att projektledning utvecklas, ökar också behovet av kraftfulla verkty
 ## Förutsättningar
 Innan vi dyker in i handledningen, se till att du har följande förutsättningar på plats:
 - En praktisk kunskap om .NET-utveckling.
-- Aspose.Tasks för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks för .NET-biblioteket installerat. Du kan ladda ner den[här](https://releases.aspose.com/tasks/net/).
 - En kodredigerare (Visual Studio rekommenderas).
 ## Importera namnområden
 I ditt .NET-projekt börjar du med att importera de nödvändiga namnrymden:

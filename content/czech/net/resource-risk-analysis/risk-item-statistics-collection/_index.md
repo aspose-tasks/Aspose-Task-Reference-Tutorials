@@ -87,4 +87,4 @@ Odpověď: Aspose.Tasks je rozhodně navržen tak, aby splňoval požadavky apli
 ### Otázka: Mohu upravit nastavení analýzy rizik v Aspose.Tasks?
 Odpověď: Ano, Aspose.Tasks nabízí flexibilitu při konfiguraci nastavení analýzy rizik tak, aby vyhovovala vašim specifickým projektovým požadavkům a scénářům.
 ### Otázka: Je pro uživatele Aspose.Tasks k dispozici technická podpora?
- Odpověď: Ano, uživatelé Aspose.Tasks mají přístup k technické podpoře prostřednictvím Aspose.[fórech](https://forum.aspose.com/c/tasks/15), kde mohou klást otázky, hlásit problémy a komunikovat s komunitou.
+ Odpověď: Ano, uživatelé Aspose.Tasks mají přístup k technické podpoře prostřednictvím Aspose[fórech](https://forum.aspose.com/c/tasks/15), kde mohou klást otázky, hlásit problémy a komunikovat s komunitou.

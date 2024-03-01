@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- 다음을 사용하여 프로젝트 파일을 로드합니다.`Project` 클래스 생성자, 파일 경로를 지정합니다.
+ 다음을 사용하여 프로젝트 파일을 로드합니다.`Project`클래스 생성자, 파일 경로를 지정합니다.
 
 ## 2단계: 모든 프로젝트 작업 수집
 

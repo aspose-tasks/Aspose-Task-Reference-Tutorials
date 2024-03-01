@@ -41,7 +41,7 @@ var project = new Project("Project2.mpp");
 
  Najpierw musimy załadować plik projektu do naszej aplikacji. Tworzymy nowe`Project` obiekt i zainicjuj go ścieżką do pliku naszego projektu.
 
-## Krok 2: Uzyskaj dostęp do zasobów
+## Krok 2: Uzyskaj dostęp do zasobu
 
 ```csharp
 var resource = project.Resources.GetById(1);
@@ -55,7 +55,7 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Tutaj ustawiamy typ naliczania kosztów dla zasobu. W tym przykładzie ustawiamy to na`CostAccrualType.End`, co oznacza, że koszty nie będą naliczane, dopóki pozostała praca nie wyniesie zero.
+Tutaj ustawiamy typ naliczania kosztów dla zasobu. W tym przykładzie ustawiamy to na`CostAccrualType.End`, co oznacza, że koszty nie będą naliczane, dopóki pozostała praca nie wyniesie zero.
 
 ## Krok 4: Praca z projektem
 
@@ -73,7 +73,7 @@ Odpowiedź 1: Tak, możesz przeglądać kolekcję zasobów i ustawiać typ nalic
 
 ### P2: Jakie są inne dostępne typy naliczania kosztów oprócz „Koniec”?
 
- O2: Aspose.Tasks dla .NET udostępnia kilka innych typów naliczania kosztów, takich jak`Start`, `Prorated` ,I`Duration`.
+O2: Aspose.Tasks dla .NET udostępnia kilka innych typów naliczania kosztów, takich jak`Start`, `Prorated` , I`Duration`.
 
 ### P3: Jak określić bieżący typ naliczania kosztów dla zasobu?
 

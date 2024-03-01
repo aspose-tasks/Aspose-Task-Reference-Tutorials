@@ -11,7 +11,7 @@ url: /cs/net/task-table-management/table-fields/
 Vítejte ve světě Aspose.Tasks for .NET, výkonné knihovny, která umožňuje bezproblémovou manipulaci se soubory Microsoft Project ve vašich aplikacích .NET. V tomto tutoriálu se ponoříme do složitosti manipulace s tabulkovými poli v Aspose.Tasks, což vám umožní efektivně číst a spravovat tabulky projektů. Ať už jste zkušený vývojář nebo nováček, tento podrobný průvodce vám umožní využít plný potenciál Aspose.Tasks.
 ## Předpoklady
 Než se vydáme na tuto cestu, ujistěte se, že máte splněny následující předpoklady:
--  Knihovna Aspose.Tasks: Stáhněte a nainstalujte knihovnu Aspose.Tasks for .NET. můžete to najít[tady](https://releases.aspose.com/tasks/net/).
+- Knihovna Aspose.Tasks: Stáhněte a nainstalujte knihovnu Aspose.Tasks for .NET. Můžete to najít[tady](https://releases.aspose.com/tasks/net/).
 - Vývojové prostředí: Ujistěte se, že máte na svém počítači nastavené vhodné vývojové prostředí, jako je Visual Studio.
 Nyní se vrhněme na to, co je v tabulkovém poli.
 ## Importovat jmenné prostory
@@ -71,4 +71,4 @@ Od nejnovější verze neexistují žádná přísná omezení počtu polí tabu
 ### Jak často jsou vydávány aktualizace pro Aspose.Tasks?
 Aktualizace pro Aspose.Tasks jsou vydávány pravidelně, aby byla zajištěna kompatibilita a zavedeny nové funkce.
 ### Existuje komunitní fórum pro podporu Aspose.Tasks?
-Ano, nápovědu a diskuze najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Ano, nápovědu a diskuze najdete na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).

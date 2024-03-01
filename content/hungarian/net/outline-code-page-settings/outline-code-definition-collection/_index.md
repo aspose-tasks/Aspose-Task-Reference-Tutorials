@@ -8,7 +8,7 @@ weight: 13
 url: /hu/net/outline-code-page-settings/outline-code-definition-collection/
 ---
 ## Bevezetés
-Az Aspose.Tasks egy hatékony .NET-könyvtár, amelyet a Microsoft Project dokumentumok egyszerű és hatékony kezeléséhez terveztek. Egyik kulcsfontosságú jellemzője a körvonalkód-definíciókkal való munkavégzés, lehetővé téve a felhasználók számára a projektadatok hatékony rendszerezését és kategorizálását. Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk vázlatkód-definíciókkal az Aspose.Tasks for .NET használatával.
+Az Aspose.Tasks egy hatékony .NET-könyvtár, amelyet a Microsoft Project dokumentumok egyszerű és hatékony kezeléséhez terveztek. Egyik kulcsfontosságú jellemzője az a képesség, hogy vázlatkód-definíciókkal dolgozhat, lehetővé téve a felhasználók számára a projektadatok hatékony rendszerezését és kategorizálását. Ebben az oktatóanyagban megvizsgáljuk, hogyan dolgozhatunk vázlatkód-definíciókkal az Aspose.Tasks for .NET használatával.
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy rendelkezik a következőkkel:
 1. A C# alapvető ismerete: A C# programozási nyelv ismerete előnyös lesz.

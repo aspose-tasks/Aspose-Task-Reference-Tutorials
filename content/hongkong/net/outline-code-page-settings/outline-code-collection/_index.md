@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 根據需要操作大綱程式碼，例如插入、刪除或清除。
 ```csharp
 //操縱範例
-//,
+//…
 //在正確位置插入帶有 2 的程式碼
 task.OutlineCodes.Insert(2, code2);
 //檢查代碼是否插入

@@ -12,7 +12,7 @@ url: /hi/net/time-recurrence-configuration/yearly-recurrence-patterns/
 ## आवश्यक शर्तें
 ट्यूटोरियल में जाने से पहले, सुनिश्चित करें कि आपके पास निम्नलिखित हैं:
 - C# और .NET फ्रेमवर्क का कार्यसाधक ज्ञान।
--  Aspose. कार्य लाइब्रेरी स्थापित की गई. आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks लाइब्रेरी स्थापित की गई। आप इसे डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/tasks/net/).
 - विजुअल स्टूडियो जैसा एक एकीकृत विकास वातावरण (आईडीई)।
 - परियोजना प्रबंधन अवधारणाओं की बुनियादी समझ।
 ## नामस्थान आयात करें
@@ -67,5 +67,5 @@ project.Save("Your Document Directory" + "WorkWithYearlyRecurrencePattern_out.mp
  सुनिश्चित करें कि आपको C# और .NET का कार्यसाधक ज्ञान है, साथ ही स्थापित Aspose.Tasks लाइब्रेरी का भी ज्ञान है। इसे डाउनलोड करें[यहाँ](https://releases.aspose.com/tasks/net/).
 ### मैं Aspose.Tasks के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
  दौरा करना[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) सामुदायिक समर्थन और सहायता के लिए।
-### क्या मैं खरीदने से पहले Aspose. कार्य मुफ़्त में आज़मा सकता हूँ?
+### क्या मैं खरीदने से पहले Aspose.Tasks को निःशुल्क आज़मा सकता हूँ?
  हां, आप नि:शुल्क परीक्षण का पता लगा सकते हैं[यहाँ](https://releases.aspose.com/).

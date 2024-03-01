@@ -38,7 +38,7 @@ Definisci il percorso della directory in cui si trova il file MS Project:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- sostituire`"Your Document Directory"` con il percorso effettivo della directory dei documenti.
+ Sostituire`"Your Document Directory"` con il percorso effettivo della directory dei documenti.
 ## Passaggio 2: caricare il file di progetto
  Caricare il file MS Project utilizzando il file`Project` classe:
 ```csharp
@@ -52,7 +52,7 @@ foreach (var task in project.RootTask.Children)
 {
     foreach (var attribute in task.ExtendedAttributes)
     {
-        // Leggi le informazioni comuni sugli attributi estesi
+        // Leggi informazioni comuni sugli attributi estesi
         Console.WriteLine("Extended Attribute: " + attribute.ToString());
     }
 }

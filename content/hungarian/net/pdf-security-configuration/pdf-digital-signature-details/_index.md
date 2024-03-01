@@ -1,6 +1,6 @@
 ---
 title: Konfigurálja az MS Project PDF digitális aláírását az Aspose.Tasks segítségével
-linktitle: Konfigurálja a PDF digitális aláírás részleteit az Aspose.Tasks alkalmazásban
+linktitle: A PDF digitális aláírás részleteinek konfigurálása az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja a Microsoft Project PDF digitális aláírás részleteit az Aspose.Tasks for .NET használatával. Biztosítsa projektfájljai biztonságát és hitelességét.
 type: docs

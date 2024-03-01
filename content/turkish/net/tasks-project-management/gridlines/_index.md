@@ -112,4 +112,4 @@ C: Evet, Aspose.Tasks for .NET, popüler proje yönetimi araçları ve platforml
 
 ### S5: Aspose.Tasks for .NET'in deneme sürümü mevcut mu?
 
- C: Evet, ücretsiz deneme sürümünü indirebilirsiniz.[Aspose.Tasks for .NET'ten](https://forum.aspose.com/c/tasks/15), Bir satın alma işlemi yapmadan önce özelliklerini keşfetmek için.
+ C: Evet, ücretsiz deneme sürümünü indirebilirsiniz.[Aspose.Tasks for .NET'ten](https://forum.aspose.com/c/tasks/15). Bir satın alma işlemi yapmadan önce özelliklerini keşfetmek için.

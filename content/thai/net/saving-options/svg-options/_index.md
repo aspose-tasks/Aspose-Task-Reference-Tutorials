@@ -2,7 +2,7 @@
 title: การสร้าง SVG ได้อย่างง่ายดายสำหรับ Aspose.Tasks
 linktitle: ตัวเลือก SVG สำหรับ Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: เรียนรู้วิธีใช้ Aspose.Tasks สำหรับ .NET เพื่อสร้างการนำเสนอ SVG ของไฟล์ Microsoft Project ได้อย่างง่ายดายเพื่อการแสดงภาพโครงการที่ได้รับการปรับปรุง
+description: เรียนรู้วิธีใช้ Aspose.Tasks สำหรับ .NET เพื่อสร้างการแสดงภาพ SVG ของไฟล์ Microsoft Project ได้อย่างง่ายดายเพื่อการแสดงภาพโครงการที่ได้รับการปรับปรุง
 type: docs
 weight: 20
 url: /th/net/saving-options/svg-options/
@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## ขั้นตอนที่ 1: กำหนดไดเร็กทอรีเอกสาร
-ตรวจสอบให้แน่ใจว่าคุณมีไดเร็กทอรีที่กำหนดไว้สำหรับเอกสารของคุณ แทนที่`"Your Document Directory"` พร้อมเส้นทางไปยังไดเร็กทอรีที่คุณต้องการ
+ ตรวจสอบให้แน่ใจว่าคุณมีไดเร็กทอรีที่กำหนดไว้สำหรับเอกสารของคุณ แทนที่`"Your Document Directory"` พร้อมเส้นทางไปยังไดเร็กทอรีที่คุณต้องการ
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## ขั้นตอนที่ 2: โหลดไฟล์โครงการ
- โหลดไฟล์ Microsoft Project (.mpp) โดยใช้นามสกุล`Project` ระดับ.
+โหลดไฟล์ Microsoft Project (.mpp) โดยใช้นามสกุล`Project` ระดับ.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

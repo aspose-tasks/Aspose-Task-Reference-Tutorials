@@ -50,7 +50,7 @@ J: Aspose.Tasks mendukung format Microsoft Project 2003 XML, Microsoft Project 2
 ### T: Dapatkah saya mencoba Aspose.Tasks sebelum membeli?
  J: Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### T: Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Tasks?
- J: Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Tasks.[Di Sini](https://forum.aspose.com/c/tasks/15).
+J: Anda bisa mendapatkan dukungan dari forum komunitas Aspose.Tasks[Di Sini](https://forum.aspose.com/c/tasks/15).
 ### T: Apakah lisensi sementara tersedia untuk Aspose.Tasks?
  J: Ya, lisensi sementara tersedia untuk tujuan evaluasi. Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Berapa harga Aspose.Tasks?

@@ -47,7 +47,7 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-プレースホルダーの値を実際のデータベースの資格情報に置き換えてください。
+プレースホルダーの値を実際のデータベース資格情報に置き換えてください。
 
 ## ステップ 2: MspDbSettings を構成する
 
@@ -86,7 +86,7 @@ A1: はい、Aspose.Tasks はさまざまなバージョンの Microsoft Project
 
 ### Q2: データベースの接続問題をトラブルシューティングするにはどうすればよいですか?
 
-A2: 接続文字列が適切な資格情報とデータベースの詳細で正しく構成されていることを確認してください。ドキュメントを参照したり、サポートを求めたりすることもできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
+ A2: 接続文字列が適切な資格情報とデータベースの詳細で正しく構成されていることを確認してください。ドキュメントを参照したり、サポートを求めたりすることもできます。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15).
 
 ### Q3: Aspose.Tasks の試用版はありますか?
 

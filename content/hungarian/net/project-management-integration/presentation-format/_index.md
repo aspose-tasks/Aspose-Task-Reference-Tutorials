@@ -17,11 +17,11 @@ Mielőtt elkezdené, győződjön meg arról, hogy rendelkezik a következő el�
 
 ### 1. Telepítse az Aspose.Tasks programot .NET-hez
 
- Ha még nem tette meg, töltse le és telepítse az Aspose.Tasks for .NET programot a[letöltési oldal](https://releases.aspose.com/tasks/net/), Kövesse a mellékelt telepítési utasításokat a megfelelő beállításhoz.
+ Ha még nem tette meg, töltse le és telepítse az Aspose.Tasks for .NET programot a[letöltési oldal](https://releases.aspose.com/tasks/net/). Kövesse a mellékelt telepítési utasításokat a megfelelő beállításhoz.
 
 ### 2. Importálja a szükséges névtereket
 
-A .NET-projektben feltétlenül importálja az Aspose.Tasks szükséges névtereit:
+.NET-projektben feltétlenül importálja az Aspose.Tasks szükséges névtereit:
 
 ```csharp
 
@@ -39,7 +39,7 @@ Először is győződjön meg arról, hogy be van állítva egy könyvtár a pro
 String DataDir = "Your Document Directory";
 ```
 
- cserélje ki`"Your Document Directory"` a kívánt könyvtár elérési útjával.
+ Cserélje ki`"Your Document Directory"` a kívánt könyvtár elérési útjával.
 
 ## 2. lépés: Töltse be az MS Project fájlt
 
@@ -49,7 +49,7 @@ Ezután be kell töltenie az MS Project fájlt az Aspose.Tasks segítségével:
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- cserélje ki`"ResourceSheetView.mpp"` az MS Project fájl nevével.
+ Cserélje ki`"ResourceSheetView.mpp"` az MS Project fájl nevével.
 
 ## 3. lépés: Adja meg a mentési beállításokat
 

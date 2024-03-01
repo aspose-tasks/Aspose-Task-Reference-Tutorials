@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## Krok 1: Nastavte adresář dokumentů
- Ujistěte se, že máte určený adresář pro práci se soubory projektu. nahradit`"Your Document Directory"` s cestou k adresáři s dokumenty.
+ Ujistěte se, že máte určený adresář pro práci se soubory projektu. Nahradit`"Your Document Directory"` s cestou k adresáři s dokumenty.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ Odpověď: Ano, Aspose.Tasks poskytuje rozsáhlou podporu pro práci s různými
 ### Otázka: Kde najdu dokumentaci k Aspose.Tasks?
  Odpověď: K dispozici je podrobná dokumentace pro Aspose.Tasks[tady](https://reference.aspose.com/tasks/net/).
 ### Otázka: Jak mohu získat podporu pro Aspose.Tasks?
- Odpověď: Podporu můžete získat na fóru komunity Aspose.Tasks.[tady](https://forum.aspose.com/c/tasks/15).
+Odpověď: Podporu můžete získat na fóru komunity Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Jak si koupím licenci pro Aspose.Tasks?
  A: Můžete si zakoupit licenci pro Aspose.Tasks z[nákupní stránku](https://purchase.aspose.com/buy).

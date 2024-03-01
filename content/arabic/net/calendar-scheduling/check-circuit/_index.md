@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## الخطوة 1: تحميل ملف المشروع
 
- ابدأ بتحميل ملف Microsoft Project (.mpp) الذي تريد التحقق من وجود بنية معطلة. استخدم ال`Project` فئة لتحميل الملف.
+ابدأ بتحميل ملف Microsoft Project (.mpp) الذي تريد التحقق من وجود بنية معطلة. استخدم ال`Project` فئة لتحميل الملف.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -41,7 +41,7 @@ var project = new Project(DataDir + "ParentChildTasks.mpp");
 
 ## الخطوة 2: التحقق من هيكل المشروع
 
- للكشف عن أي هيكل مكسور داخل المشروع، سنستخدم`CheckCircuit` الطبقة جنبا إلى جنب`TaskUtils.Apply` طريقة.
+ للكشف عن أي هيكل مكسور داخل المشروع، سنستخدم`CheckCircuit` الصف جنبا إلى جنب مع`TaskUtils.Apply` طريقة.
 
 ```csharp
 try
@@ -70,7 +70,7 @@ A1: نعم، Aspose.Tasks for .NET متوافق مع أطر عمل .NET المت
 
 ### س3: كيف يمكنني الحصول على دعم Aspose.Tasks لـ .NET؟
 
-ج3: يمكنك طلب المساعدة من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
+ ج3: يمكنك طلب المساعدة من منتدى مجتمع Aspose.Tasks[هنا](https://forum.aspose.com/c/tasks/15).
 
 ### س4: هل أحتاج إلى ترخيص مؤقت لأغراض الاختبار؟
 

@@ -65,7 +65,7 @@ Dostosuj kolumny wykresu Gantta w Aspose.Tasks dla .NET, aby efektywnie wyświet
 
 ## Dostosuj linie siatki projektu za pomocą Aspose.Tasks dla .NET
 
- Programowo dostosowuj ustawienia linii siatki w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET w celu wydajnej wizualizacji projektów i zarządzania nimi.[Dostosuj linie siatki projektu za pomocą Aspose.Tasks dla .NET](./gridlines-management/)
+ Programowo dostosowuj ustawienia linii siatki w plikach Microsoft Project za pomocą Aspose.Tasks dla .NET w celu wydajnej wizualizacji projektów i zarządzania nimi.[Dostosuj linie siatki projektu za pomocą Aspose.Tasks dla .NET](./gridlines-management/)
 
 ## Efektywne grupowanie zadań MS Project za pomocą Aspose.Tasks
 
@@ -119,7 +119,7 @@ Dowiedz się, jak dostosować widoki wykresów Gantta w plikach Microsoft Projec
 ### [Dostosuj linie siatki w MS Project dla Aspose.Tasks](./gridlines/)
 Dowiedz się, jak dostosować linie siatki w MS Project przy użyciu Aspose.Tasks dla .NET. Ulepsz wizualizację projektu i zarządzanie nim, wykonując proste kroki.
 ### [ Dostosuj linie siatki projektu za pomocą Aspose.Tasks dla .NET](./gridlines-management/)
-Dowiedz się, jak programowo dostosować ustawienia linii siatki w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET, wizualizacji projektu i efektywności zarządzania.
+Dowiedz się, jak programowo dostosować ustawienia linii siatki w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET, wizualizacji projektu i wydajności zarządzania.
 ### [Efektywne grupowanie zadań MS Project za pomocą Aspose.Tasks](./grouping-tasks/)
 Dowiedz się, jak efektywnie grupować zadania Microsoft Project za pomocą Aspose.Tasks dla .NET.
 ### [Zarządzanie kolekcjami projektów w Aspose.Tasks](./group-collection/)

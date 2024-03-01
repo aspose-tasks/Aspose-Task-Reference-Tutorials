@@ -27,13 +27,13 @@ Když se ponoříte do světa projektového řízení, stane se prvořadé zvlá
 ## Sbírka obrysových masek pomocí Aspose.Tasks pro .NET
  Zvyšte svou produktivitu tím, že se naučíte manipulovat s maskami obrysu kolekce Microsoft Project pomocí Aspose.Tasks for .NET. Tento komplexní výukový program vám poskytuje nástroje pro optimalizaci pracovního postupu řízení projektů.[Přečtěte si více](./outline-mask-collection/)
 
-## Zvládnutí hodnot osnovy MS Project s Aspose.Tasks pro .NET
-Efektivně spravujte hodnoty osnovy Microsoft Project pomocí Aspose.Tasks for .NET. Tento výukový program vám umožňuje snadno přizpůsobit obrysy projektu a poskytuje bezproblémovou zkušenost s řízením vašeho projektu.[Přečtěte si více](./outline-values/)
+## Zvládnutí hodnot osnovy MS Project pomocí Aspose.Tasks pro .NET
+Efektivně spravujte hodnoty osnovy Microsoft Project pomocí Aspose.Tasks pro .NET. Tento výukový program vám umožňuje snadno přizpůsobit obrysy projektu a poskytuje bezproblémovou zkušenost s řízením vašeho projektu.[Přečtěte si více](./outline-values/)
 
 ## Sbírka hodnot osnovy v Aspose.Tasks pro .NET
  Naučte se spravovat hodnoty osnovy v souborech Microsoft Project pomocí Aspose.Tasks for .NET. Tento výukový program krok za krokem obsahuje příklady kódu, které zajistí, že tyto postupy můžete bez námahy implementovat.[Přečtěte si více](./outline-value-collection/)
 
-## Nakonfigurujte legendu stránky v Aspose.Tasks pro .NET
+## Konfigurace legendy stránky v Aspose.Tasks pro .NET
  Efektivní správa projektů se rozšiřuje na konfiguraci legend stránek MS Project v .NET. Tento výukový program využívající Aspose.Tasks poskytuje podrobného průvodce, jak přizpůsobit legendy projektu pro optimální efektivitu.[Přečtěte si více](./page-legend/)
 
 ## Bez námahy nastavte okraje stránky MS Project pomocí Aspose.Tasks pro .NET
@@ -59,11 +59,11 @@ Naučte se manipulovat s definicemi osnovy kódu v dokumentech Microsoft Project
 Naučte se pracovat se soubory Microsoft Project programově pomocí Aspose.Tasks for .NET. Ovládněte masky obrysů efektivně.
 ### [Kolekce obrysových masek v Aspose.Tasks](./outline-mask-collection/)
 Naučte se manipulovat s maskami obrysu kolekce MS Project pomocí Aspose.Tasks for .NET. Zvyšte produktivitu pomocí tohoto komplexního návodu.
-### [Zvládnutí hodnot osnovy MS Project s Aspose.Tasks](./outline-values/)
+### [Zvládnutí hodnot osnovy MS Project pomocí Aspose.Tasks](./outline-values/)
 Naučte se, jak efektivně spravovat hodnoty osnovy MS Project pomocí Aspose.Tasks pro .NET. Snadno přizpůsobte obrysy projektu.
 ### [Sbírka hodnot osnovy v Aspose.Tasks](./outline-value-collection/)
 Naučte se spravovat hodnoty osnovy v souborech Microsoft Project pomocí Aspose.Tasks for .NET. Výukový program krok za krokem s příklady kódu.
-### [Nakonfigurujte legendu stránky v Aspose.Tasks](./page-legend/)
+### [Konfigurace legendy stránky v Aspose.Tasks](./page-legend/)
 Naučte se konfigurovat legendy stránek MS Project v .NET pomocí Aspose.Tasks pro efektivní řízení projektů. Poskytován průvodce krok za krokem.
 ### [Bez námahy nastavte okraje stránky MS Project pomocí Aspose.Tasks](./page-margins/)
 Naučte se, jak upravit okraje stránek v souborech Microsoft Project pomocí Aspose.Tasks for .NET. Snadno vylepšete rozvržení a prezentaci dokumentu.

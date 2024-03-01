@@ -1,6 +1,6 @@
 ---
-title: Konfigurasikan Opsi Tampilan Proyek MS di Aspose.Tasks
-linktitle: Konfigurasikan Opsi Tampilan Proyek di Aspose.Tasks
+title: Mengonfigurasi Opsi Tampilan Proyek MS di Aspose.Tasks
+linktitle: Mengonfigurasi Opsi Tampilan Proyek di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi opsi tampilan MS Project secara terprogram menggunakan Aspose.Tasks untuk .NET. Sesuaikan tampilan proyek Anda dengan mudah.
 type: docs

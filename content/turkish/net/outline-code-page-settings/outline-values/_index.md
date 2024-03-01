@@ -8,7 +8,7 @@ weight: 16
 url: /tr/net/outline-code-page-settings/outline-values/
 ---
 ## giriiş
-Bu eğitimde, .NET için Aspose.Tasks kütüphanesini kullanarak Microsoft Project anahat değerlerinin nasıl yönetileceğini inceleyeceğiz. Aspose.Tasks ile anahat kodlarını kolayca değiştirebilir, yeni anahat değerleri oluşturabilir ve proje ana hatlarını ihtiyaçlarınıza göre özelleştirebilirsiniz.
+Bu eğitimde, .NET için Aspose.Tasks kitaplığını kullanarak Microsoft Project anahat değerlerinin nasıl yönetileceğini inceleyeceğiz. Aspose.Tasks ile anahat kodlarını kolayca değiştirebilir, yeni anahat değerleri oluşturabilir ve proje ana hatlarını gereksinimlerinize göre özelleştirebilirsiniz.
 ## Önkoşullar
 Başlamadan önce aşağıdakilere sahip olduğunuzdan emin olun:
 1.  Aspose.Tasks for .NET Kurulumu: Aspose.Tasks for .NET kütüphanesini şuradan indirip yükleyin:[Burada](https://releases.aspose.com/tasks/net/).
@@ -64,7 +64,7 @@ outline2.Values.Add(value2);
 Bu adımda iki OutlineValue nesnesi oluşturup bunların değer, değer kimliği, tür, açıklama ve çökme durumu gibi özelliklerini ayarlıyoruz.
 
 ## Çözüm
-Aspose.Tasks for .NET'i kullanarak MS Project anahat değerlerini yönetmek, sağlanan işlevler sayesinde basittir. Bu öğreticide özetlenen adımları izleyerek proje ana hatlarını ihtiyaçlarınıza göre özelleştirmek için ana hat kodlarını ve değerlerini verimli bir şekilde değiştirebilirsiniz.
+Aspose.Tasks for .NET'i kullanarak MS Project anahat değerlerini yönetmek, sağlanan işlevler sayesinde basittir. Bu öğreticide özetlenen adımları izleyerek, proje ana hatlarını ihtiyaçlarınıza göre özelleştirmek için ana hat kodlarını ve değerlerini verimli bir şekilde değiştirebilirsiniz.
 ## SSS'ler
 ### S: Aspose.Tasks'ı diğer .NET çerçeveleriyle kullanabilir miyim?
 C: Evet, Aspose.Tasks çeşitli .NET çerçeveleriyle uyumludur ve geliştirme ortamınızda esneklik sağlar.
@@ -73,6 +73,6 @@ C: Evet, Aspose.Tasks çeşitli .NET çerçeveleriyle uyumludur ve geliştirme o
 ### S: Aspose.Tasks için nasıl destek alabilirim?
  C: Destek ve yardım için Aspose.Tasks forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks için geçici lisans satın alabilir miyim?
- C: Evet, Aspose.Tasks için geçici lisansı şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
+C: Evet, Aspose.Tasks için geçici lisansı şu adresten satın alabilirsiniz:[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks için ayrıntılı belgeleri nerede bulabilirim?
  C: Mevcut kapsamlı belgelere başvurabilirsiniz[Burada](https://reference.aspose.com/tasks/net/).

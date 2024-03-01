@@ -9,7 +9,7 @@ url: /vi/net/advanced-features/assignment-baseline/
 ---
 ## Giới thiệu
 
-Khi thực hiện các nhiệm vụ quản lý dự án, việc quản lý các đường cơ sở của nhiệm vụ là rất quan trọng để theo dõi tiến độ chính xác. Aspose.Tasks for .NET cung cấp một bộ công cụ toàn diện để xử lý các đường cơ sở của bài tập một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình quản lý đường cơ sở của nhiệm vụ theo từng bước.
+Khi thực hiện các nhiệm vụ quản lý dự án, việc quản lý các đường cơ sở của nhiệm vụ là rất quan trọng để theo dõi tiến độ một cách chính xác. Aspose.Tasks for .NET cung cấp một bộ công cụ toàn diện để xử lý các đường cơ sở của bài tập một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quy trình quản lý đường cơ sở của nhiệm vụ theo từng bước.
 
 ## Điều kiện tiên quyết
 

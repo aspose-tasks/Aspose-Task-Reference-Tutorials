@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Töltse be a projektfájlt a`Project` osztály konstruktorát, megadva a fájl elérési útját.
+ Töltse be a projektfájlt a`Project`osztály konstruktorát, megadva a fájl elérési útját.
 
 ## 2. lépés: Gyűjtsd össze az összes projektfeladatot
 
@@ -117,4 +117,4 @@ V1: Igen, bármilyen egyéni feltételt meghatározhat és alkalmazhat a projekt
 
 ### 5. kérdés: Elérhető közösségi fórum vagy támogatási csatorna az Aspose.Tasks felhasználók számára?
 
- 5. válasz: Igen, elérheti az Aspose.Tasks közösségi fórumot.[itt](https://forum.aspose.com/c/tasks/15) bármilyen kérdésért vagy segítségért.
+ 5. válasz: Igen, elérheti az Aspose.Tasks közösségi fórumot[itt](https://forum.aspose.com/c/tasks/15) bármilyen kérdésért vagy segítségért.

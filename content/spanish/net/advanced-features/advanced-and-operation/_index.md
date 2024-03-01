@@ -46,7 +46,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 
 ## Paso 2: definir las condiciones del filtro
 
-continuación, defina las condiciones del filtro. Para este ejemplo, crearemos dos condiciones: una para filtrar tareas de resumen y otra para filtrar tareas no nulas:
+A continuación, defina las condiciones del filtro. Para este ejemplo, crearemos dos condiciones: una para filtrar tareas de resumen y otra para filtrar tareas no nulas:
 
 ```csharp
 var condition1 = new SummaryCondition();
@@ -84,7 +84,7 @@ foreach (var task in collection)
 
 ## Conclusión
 
- En este tutorial, aprendimos cómo realizar operaciones AND avanzadas en Aspose.Tasks para .NET. Combinando condiciones utilizando el`Util.And` clase, podemos filtrar tareas de manera eficiente según múltiples criterios.
+ En este tutorial, aprendimos cómo realizar operaciones AND avanzadas en Aspose.Tasks para .NET. Combinando condiciones utilizando el`Util.And`clase, podemos filtrar tareas de manera eficiente según múltiples criterios.
 
 ## Preguntas frecuentes
 
@@ -106,4 +106,4 @@ R: Sí, Util.And se puede utilizar para combinar cualquier cantidad de condicion
 
 ### P5: ¿Cómo puedo obtener soporte para Aspose.Tasks para .NET?
 
- R: Puede obtener soporte en el foro de la comunidad Aspose.Tasks.[aquí](https://forum.aspose.com/c/tasks/15).
+R: Puede obtener soporte en el foro de la comunidad Aspose.Tasks[aquí](https://forum.aspose.com/c/tasks/15).

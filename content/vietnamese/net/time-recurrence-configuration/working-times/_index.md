@@ -12,8 +12,8 @@ Trong quản lý dự án, việc kiểm soát chính xác thời gian làm vi�
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào hướng dẫn, hãy đảm bảo bạn có những điều sau:
 - Hiểu biết cơ bản về ngôn ngữ lập trình C#.
-- Aspose.Tasks cho thư viện .NET đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
-- Thiết lập Visual Studio hoặc bất kỳ môi trường phát triển C# ưa thích nào.
+-  Aspose.Tasks cho thư viện .NET đã được cài đặt. Bạn có thể tải nó xuống[đây](https://releases.aspose.com/tasks/net/).
+- Visual Studio hoặc bất kỳ môi trường phát triển C# ưa thích nào được thiết lập.
 ## Nhập không gian tên
 Bắt đầu bằng cách nhập các không gian tên cần thiết để truy cập các chức năng của Aspose.Tasks:
 ```csharp

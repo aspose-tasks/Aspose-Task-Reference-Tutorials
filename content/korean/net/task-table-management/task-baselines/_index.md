@@ -62,13 +62,13 @@ foreach (var data in baseline.TimephasedData)
 ## 결론
 축하해요! .NET용 Aspose.Tasks에서 작업 기준선을 처리하는 방법을 성공적으로 배웠습니다. 이러한 지식은 프로젝트 관리 능력을 향상시켜 정확한 추적 및 계획을 보장합니다.
 ## 자주 묻는 질문
-### Q: Aspose.Tasks를 다른 .NET 프레임워크와 함께 사용할 수 있습니까?
+### Q: Aspose.Tasks를 다른 .NET 프레임워크와 함께 사용할 수 있나요?
 A: Aspose.Tasks는 여러 .NET 프레임워크와 호환되므로 개발 환경에 유연성을 제공합니다.
 ### Q: Aspose.Tasks 지원을 위한 커뮤니티 포럼이 있나요?
-A: 예, 다음에서 지원을 받고 커뮤니티에 참여할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+ A: 예, 다음에서 지원을 받고 커뮤니티에 참여할 수 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
 ### Q: Aspose.Tasks에 대한 임시 라이선스를 어떻게 얻을 수 있나요?
- 답: 방문하다[여기](https://purchase.aspose.com/temporary-license/) Aspose.Tasks에 대한 임시 라이센스를 얻으려면.
+ 답: 방문하다[여기](https://purchase.aspose.com/temporary-license/)Aspose.Tasks에 대한 임시 라이센스를 얻으려면.
 ### Q: 작업 기준을 넘어서는 자습서가 있습니까?
- A:탐색해 보세요[선적 서류 비치](https://reference.aspose.com/tasks/net/) Aspose.Tasks 기능에 대한 다양한 튜토리얼을 확인하세요.
+ A: 탐색해 보세요.[선적 서류 비치](https://reference.aspose.com/tasks/net/) Aspose.Tasks 기능에 대한 다양한 튜토리얼을 확인하세요.
 ### Q: .NET용 Aspose.Tasks는 어디서 구매할 수 있나요?
  A: Aspose.Tasks를 편리하게 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).

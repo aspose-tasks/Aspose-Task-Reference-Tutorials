@@ -12,7 +12,7 @@ Aspose.Tasks para .NET proporciona una funcionalidad sólida para filtrar datos 
 ## Requisitos previos
 Antes de sumergirse en el tutorial, asegúrese de cumplir con los siguientes requisitos previos:
 ### 1. Instale Aspose.Tasks para .NET
- Descargue e instale Aspose.Tasks para .NET desde[pagina de descarga](https://releases.aspose.com/tasks/net/), Siga las instrucciones de instalación proporcionadas para configurar la biblioteca en su entorno de desarrollo.
+ Descargue e instale Aspose.Tasks para .NET desde[pagina de descarga](https://releases.aspose.com/tasks/net/). Siga las instrucciones de instalación proporcionadas para configurar la biblioteca en su entorno de desarrollo.
 ### 2. Configure su entorno de desarrollo
 Asegúrese de tener un entorno de desarrollo funcional para la programación .NET. Esto incluye un IDE compatible como Visual Studio y un conocimiento básico del lenguaje de programación C#.
 ### 3. Acceda al archivo de muestra de Microsoft Project

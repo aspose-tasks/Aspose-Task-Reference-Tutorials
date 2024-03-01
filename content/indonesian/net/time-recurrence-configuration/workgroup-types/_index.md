@@ -41,7 +41,7 @@ Ya, Aspose.Tasks mendukung .NET Core bersama dengan .NET Framework tradisional.
 ### Bisakah saya menetapkan beberapa tipe grup kerja untuk satu sumber daya?
 Ya, Anda dapat mengatur tipe kelompok kerja yang berbeda untuk sumber daya di berbagai tahapan proyek Anda.
 ### Di mana saya dapat menemukan dukungan tambahan untuk Aspose.Tasks?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi komunitas.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan dan diskusi komunitas.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Tasks?
  Ya, Anda dapat mengakses uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Tasks?

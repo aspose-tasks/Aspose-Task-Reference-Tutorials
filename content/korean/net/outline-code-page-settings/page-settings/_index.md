@@ -15,7 +15,7 @@ url: /ko/net/outline-code-page-settings/page-settings/
 2. 개발 환경: Visual Studio 또는 .NET 개발을 위해 선호하는 기타 IDE를 사용하여 개발 환경을 설정합니다.
 
 ## 네임스페이스 가져오기
-시작하려면 필요한 네임스페이스를 프로젝트로 가져와야 합니다. 이러한 네임스페이스는 MS 프로젝트 파일을 조작하는 데 필요한 Aspose.Tasks 클래스 및 메서드에 대한 액세스를 제공합니다.
+시작하려면 프로젝트에서 필요한 네임스페이스를 가져와야 합니다. 이러한 네임스페이스는 MS 프로젝트 파일을 조작하는 데 필요한 Aspose.Tasks 클래스 및 메서드에 대한 액세스를 제공합니다.
 ```csharp
 using Aspose.Tasks;
 using System.Linq;

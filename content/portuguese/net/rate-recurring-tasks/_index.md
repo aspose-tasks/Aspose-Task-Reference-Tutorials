@@ -19,7 +19,7 @@ Você está lutando para dominar as complexidades do gerenciamento de taxas e ta
  Em[Domine as taxas do MS Project com Aspose.Tasks](./rate-collection/), nos aprofundamos nas complexidades do gerenciamento de taxas em arquivos do MS Project. Este tutorial é o seu recurso ideal para compreender as nuances da cobrança de taxas, oferecendo insights práticos e capacitando você a aprimorar os recursos de gerenciamento de recursos do seu projeto.
 
 ## Intervalos recorrentes do MS Project sem esforço em Aspose.Tasks
- Descubra a arte de gerenciar intervalos recorrentes sem esforço com[Intervalos recorrentes do MS Project sem esforço em Aspose.Tasks](./recurring-intervals/), Este tutorial orienta você através do processo usando Aspose.Tasks for .NET, garantindo que você possa lidar perfeitamente com tarefas recorrentes em seu MS Project.
+ Descubra a arte de gerenciar intervalos recorrentes sem esforço com[Intervalos recorrentes do MS Project sem esforço em Aspose.Tasks](./recurring-intervals/). Este tutorial orienta você através do processo usando Aspose.Tasks for .NET, garantindo que você possa lidar perfeitamente com tarefas recorrentes em seu MS Project.
 
 ## Extraindo informações de tarefas recorrentes em Aspose.Tasks
  Aprenda como extrair informações de tarefas recorrentes de arquivos do MS Project com[Extraindo informações de tarefas recorrentes em Aspose.Tasks](./recurring-task-information/)Este tutorial oferece fácil integração para desenvolvedores .NET, permitindo que você trabalhe de forma eficiente com tarefas recorrentes em seus projetos.
@@ -31,13 +31,13 @@ Você está lutando para dominar as complexidades do gerenciamento de taxas e ta
  Diga adeus à remoção manual de tarefas![Removendo tarefas do MS Project com Aspose.Tasks](./removing-tasks/) orienta você no processo de remoção programática de tarefas usando Aspose.Tasks for .NET. O guia passo a passo inclui exemplos de código para uma experiência perfeita.
 
 ## Domine relatórios de projetos MS com Aspose.Tasks
- Desbloqueie todo o potencial dos relatórios do MS Project com[Domine relatórios de projetos MS com Aspose.Tasks](./report-types/), Este tutorial explora como trabalhar com arquivos do MS Project usando Aspose.Tasks for .NET, permitindo gerar vários tipos de relatórios sem esforço.
+ Desbloqueie todo o potencial dos relatórios do MS Project com[Domine relatórios de projetos MS com Aspose.Tasks](./report-types/). Este tutorial explora como trabalhar com arquivos do MS Project usando Aspose.Tasks for .NET, permitindo gerar vários tipos de relatórios sem esforço.
 
 ## Salvando arquivos do MS Project em vários formatos em Aspose.Tasks
  gerenciamento eficiente de projetos inclui diversos formatos de arquivo.[Salvando arquivos do MS Project em vários formatos em Aspose.Tasks](./save-file-formats/) orienta você nas etapas de salvamento de arquivos do MS Project em diferentes formatos usando Aspose.Tasks for .NET.
 
 ## Manipulando partes divididas do MS Project em Aspose.Tasks
- Navegar pelas partes divididas no MS Project torna-se muito fácil com[Manipulando partes divididas do MS Project em Aspose.Tasks](./split-parts/), Aprimore seu fluxo de trabalho de gerenciamento de projetos lidando com eficiência com peças divididas usando Aspose.Tasks for .NET.
+ Navegar pelas partes divididas no MS Project torna-se muito fácil com[Manipulando partes divididas do MS Project em Aspose.Tasks](./split-parts/). Aprimore seu fluxo de trabalho de gerenciamento de projetos lidando com eficiência com peças divididas usando Aspose.Tasks for .NET.
 
 ## Colete partes divididas do MS Project em Aspose.Tasks
  Nosso tutorial sobre[Colete partes divididas do MS Project em Aspose.Tasks](./split-part-collection/) é um guia completo que orienta você passo a passo no processo. Aprenda como coletar peças divididas no MS Project, permitindo otimizar seu fluxo de trabalho de gerenciamento de projetos.

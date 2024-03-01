@@ -50,7 +50,7 @@ Vytiskněte odkazy na úkoly pro projekt:
 ```csharp
 Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
 Console.WriteLine("Task links count: " + project.TaskLinks.Count);
-// Iterujte odkazy na úkoly
+//Iterujte odkazy na úkoly
 foreach (var link in project.TaskLinks)
 {
     Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));
@@ -78,7 +78,7 @@ Neváhejte a prozkoumejte další funkce a funkce nabízené Aspose.Tasks, abyst
 ### Je Aspose.Tasks kompatibilní se všemi verzemi .NET?
 Ano, Aspose.Tasks je navržen tak, aby bezproblémově fungoval se všemi verzemi .NET.
 ### Mohu vytvořit vlastní typy odkazů na úkoly pomocí Aspose.Tasks?
-současné době Aspose.Tasks podporuje standardní typy propojení úloh a vlastní typy propojení nejsou k dispozici.
+V současné době Aspose.Tasks podporuje standardní typy propojení úloh a vlastní typy propojení nejsou k dispozici.
 ### Jak mohu použít omezení na úkoly v Aspose.Tasks?
  Omezení můžete použít pomocí`ConstraintType` vlastnictvím`Task` třídy v Aspose.Úkoly.
 ### Existují nějaká omezení velikosti souborů projektu, které Aspose.Tasks zvládne?

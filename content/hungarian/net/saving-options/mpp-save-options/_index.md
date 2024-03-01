@@ -8,10 +8,10 @@ weight: 12
 url: /hu/net/saving-options/mpp-save-options/
 ---
 ## Bevezetés
-A .NET-fejlesztés világában a projektfájlok hatékony kezelése és kezelése kulcsfontosságú a sikerhez. Az Aspose.Tasks for .NET hatékony megoldást kínál a Microsoft Project fájlok (MPP) egyszerű kezelésére. Számos funkciója mellett az Aspose.Tasks lehetővé teszi a felhasználók számára az MS Project opcióinak zökkenőmentes elmentését, egyszerűsítve a munkafolyamatot és biztosítva a projekt integritását. Ebben az oktatóanyagban az MS Project opcióinak Aspose.Tasks for .NET használatával történő mentésének folyamatát mutatjuk be.
+.NET-fejlesztés világában a projektfájlok hatékony kezelése és kezelése kulcsfontosságú a sikerhez. Az Aspose.Tasks for .NET hatékony megoldást kínál a Microsoft Project fájlok (MPP) egyszerű kezelésére. Számos funkciója mellett az Aspose.Tasks lehetővé teszi a felhasználók számára az MS Project opcióinak zökkenőmentes elmentését, egyszerűsítve a munkafolyamatot és biztosítva a projekt integritását. Ebben az oktatóanyagban az MS Project opcióinak Aspose.Tasks for .NET használatával történő mentésének folyamatát mutatjuk be.
 ## Előfeltételek
 Mielőtt elkezdené, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
-1. Az Aspose.Tasks for .NET telepítése: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat innen[itt](https://releases.aspose.com/tasks/net/).
+1.  Az Aspose.Tasks for .NET telepítése: Töltse le és telepítse az Aspose.Tasks for .NET könyvtárat innen[itt](https://releases.aspose.com/tasks/net/).
 2. Fejlesztői környezet: .NET fejlesztői környezetet kell beállítani, például a Visual Studio-t.
 3. A C# alapjai: A C# programozási nyelv ismerete elengedhetetlen a példák megvalósításához.
 
@@ -62,7 +62,7 @@ Igen, az Aspose.Tasks for .NET támogatja a Microsoft Project fájlok különfé
 ### Kipróbálhatom az Aspose.Tasks for .NET szolgáltatást a vásárlás előtt?
  Biztosan! Letöltheti az Aspose.Tasks .NET ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok műszaki támogatást az Aspose.Tasks for .NET-hez?
- Technikai segítségért keresse fel az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15).
+Technikai segítségért keresse fel az Aspose.Tasks fórumot[itt](https://forum.aspose.com/c/tasks/15).
 ### Mi az az ideiglenes engedély, és hogyan szerezhetem meg?
  Az ideiglenes licenc lehetővé teszi az Aspose.Tasks .NET-hez korlátozás nélküli értékelését. Ideiglenes jogosítványt szerezhet be[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol vásárolhatom meg az Aspose.Tasks licencelt verzióját .NET-hez?

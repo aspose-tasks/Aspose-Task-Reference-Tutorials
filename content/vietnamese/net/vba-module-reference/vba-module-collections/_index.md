@@ -27,7 +27,7 @@ Bây giờ chúng ta đã có sẵn các điều kiện tiên quyết, hãy chia
 // Đường dẫn đến thư mục tài liệu.
 String DataDir = "Your Document Directory";
 ```
- Đảm bảo thay thế`"Your Document Directory"` với đường dẫn thực tế đến thư mục tài liệu dự án của bạn.
+ Đảm bảo thay thế`"Your Document Directory"`với đường dẫn thực tế đến thư mục tài liệu dự án của bạn.
 ## Bước 2: Tải dự án và truy cập dự án VBA
 ```csharp
 var project = new Project(DataDir + "VbaProject.mpp");
@@ -65,9 +65,9 @@ Tóm lại, việc thành thạo các mô-đun VBA trong Aspose.Tasks sẽ mở 
 ### Tôi có thể sử dụng Aspose.Tasks cho .NET với các ngôn ngữ lập trình khác không?
 Aspose.Tasks chủ yếu hỗ trợ các ngôn ngữ .NET như C#. Tuy nhiên, có sẵn các phiên bản Java để tương thích với nhiều ngôn ngữ.
 ### Có bản dùng thử miễn phí dành cho Aspose.Tasks cho .NET không?
-Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+ Có, bạn có thể tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ cộng đồng hoặc cân nhắc mua một gói hỗ trợ.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ cộng đồng hoặc cân nhắc mua một gói hỗ trợ.
 ### Giấy phép tạm thời có sẵn không?
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm tài liệu chi tiết về Aspose.Tasks ở đâu?

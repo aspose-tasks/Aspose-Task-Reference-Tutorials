@@ -32,7 +32,7 @@ Geben Sie zunächst den Pfad zu Ihrer Microsoft Project-Datei an:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrer Projektdatei.
+ Ersetzen`"Your Document Directory"` mit dem Pfad zu Ihrer Projektdatei.
 ## Schritt 2: Informationen zu Aufgabengruppen abrufen
 Rufen Sie als Nächstes Informationen zu Aufgabengruppen im Projekt ab:
 ```csharp

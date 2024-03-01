@@ -15,7 +15,7 @@ Aspose.Tasks para .NET proporciona una funcionalidad integral para trabajar con 
 
 Antes de comenzar, asegúrese de tener implementados los siguientes requisitos previos:
 
-1. Instalación: asegúrese de tener Aspose.Tasks para .NET instalado en su entorno de desarrollo. Puedes descargarlo desde[aquí](https://releases.aspose.com/tasks/net/).
+1.  Instalación: asegúrese de tener Aspose.Tasks para .NET instalado en su entorno de desarrollo. Puedes descargarlo desde[aquí](https://releases.aspose.com/tasks/net/).
 
 2. Conocimientos básicos: familiarícese con el lenguaje de programación C# y los conceptos del marco .NET.
 

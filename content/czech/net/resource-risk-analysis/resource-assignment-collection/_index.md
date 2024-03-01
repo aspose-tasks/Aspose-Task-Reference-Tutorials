@@ -11,7 +11,7 @@ url: /cs/net/resource-risk-analysis/resource-assignment-collection/
 Vítejte v tomto komplexním kurzu o správě přiřazení zdrojů v aplikaci Microsoft Project pomocí Aspose.Tasks for .NET. V tomto tutoriálu se ponoříme do procesu krok za krokem a zajistíme, že budete dobře rozumět tomu, jak efektivně manipulovat s přiřazením zdrojů. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vás provede vším, co potřebujete vědět.
 ## Předpoklady
 Než se ponoříme do kódu, ujistěte se, že máte následující nastavení:
-1. Nainstalované Aspose.Tasks for .NET: Ujistěte se, že máte ve svém vývojovém prostředí nainstalované Aspose.Tasks for .NET. Pokud ne, můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
+1.  Nainstalované Aspose.Tasks for .NET: Ujistěte se, že máte ve svém vývojovém prostředí nainstalované Aspose.Tasks for .NET. Pokud ne, můžete si jej stáhnout z[tady](https://releases.aspose.com/tasks/net/).
 2. Základní znalost C#: Tento tutoriál předpokládá, že máte základní znalosti programovacího jazyka C#.
 3. Soubor Microsoft Project: Připravte si soubor Microsoft Project pro testovací účely. Pokud žádný nemáte, můžete vytvořit ukázkový soubor.
 

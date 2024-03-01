@@ -9,7 +9,7 @@ url: /sv/net/advanced-features/availability-period-collection/
 ---
 ## Introduktion
 
-I den här handledningen kommer vi att utforska hur man arbetar med tillgänglighetsperiodens insamling av en resurs i Aspose.Tasks för .NET. Att hantera tillgänglighetsperioder är avgörande för projektledning, vilket gör att vi kan definiera när resurser finns tillgängliga för uppgifter inom ett projekt.
+den här handledningen kommer vi att utforska hur man arbetar med tillgänglighetsperiodens insamling av en resurs i Aspose.Tasks för .NET. Att hantera tillgänglighetsperioder är avgörande för projektledning, vilket gör att vi kan definiera när resurser finns tillgängliga för uppgifter inom ett projekt.
 
 ## Förutsättningar
 
@@ -125,7 +125,7 @@ Vi uppdaterar de tillgängliga enheterna under en period och tar bort specifika 
 
 ## Slutsats
 
-den här handledningen har vi lärt oss hur man arbetar med tillgänglighetsperiodsamlingar i Aspose.Tasks för .NET. Att hantera resurstillgänglighet är avgörande för effektiv projektplanering och genomförande.
+I den här handledningen har vi lärt oss hur man arbetar med tillgänglighetsperiodsamlingar i Aspose.Tasks för .NET. Att hantera resurstillgänglighet är avgörande för effektiv projektplanering och genomförande.
 
 ## FAQ's
 

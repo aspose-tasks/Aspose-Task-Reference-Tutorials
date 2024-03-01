@@ -12,7 +12,7 @@ Nell’ambito della gestione del progetto, un coordinamento efficace e una comun
 ## Prerequisiti
 Prima di intraprendere il viaggio di gestione delle credenziali di MS Project Server con Aspose.Tasks per .NET, assicurarsi che siano soddisfatti i seguenti prerequisiti:
 ### 1. Installazione di Aspose.Tasks per .NET
- Per iniziare, scaricare e installare Aspose.Tasks per .NET dal pacchetto fornito[Link per scaricare](https://releases.aspose.com/tasks/net/), Segui le istruzioni di installazione per integrare perfettamente la libreria nel tuo ambiente .NET.
+ Per iniziare, scaricare e installare Aspose.Tasks per .NET dal pacchetto fornito[Link per scaricare](https://releases.aspose.com/tasks/net/). Segui le istruzioni di installazione per integrare perfettamente la libreria nel tuo ambiente .NET.
 ### 2. Credenziali di accesso
 Raccogli le credenziali necessarie per accedere a MS Project Server. Ciò include l'indirizzo del dominio, il nome utente e la password di SharePoint associati a Project Server.
 

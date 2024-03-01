@@ -13,7 +13,7 @@ url: /zh/net/advanced-features/layout-builder-out-of-memory/
 
 ## 先决条件
 
-在深入学习本教程之前，请确保您具备以下先决条件：
+在深入学习本教程之前，请确保您满足以下先决条件：
 
 1. C# 编程的基础知识：本教程假设您熟悉 C# 语法和概念。
 2. 安装 Aspose.Tasks for .NET：确保您的开发环境中安装了 Aspose.Tasks for .NET。如果没有，您可以从以下位置下载[这里](https://releases.aspose.com/tasks/net/).

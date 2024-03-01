@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Paso 3: definir una columna personalizada
 
- Ahora, defina su columna personalizada creando una instancia de`AssignmentViewColumn`Esta clase requiere el nombre de la columna, el ancho y una función delegada para convertir los datos de la tarea en texto de columna:
+ Ahora, defina su columna personalizada creando una instancia de`AssignmentViewColumn`. Esta clase requiere el nombre de la columna, el ancho y una función delegada para convertir los datos de la tarea en texto de columna:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

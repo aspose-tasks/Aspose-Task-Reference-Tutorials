@@ -78,7 +78,7 @@ foreach (var rsc in list)
 ```
 
 ## Závěr
-Správa kolekcí zdrojů Microsoft Project pomocí Aspose.Tasks for .NET poskytuje vývojářům robustní sadu nástrojů pro efektivní programové zacházení se zdroji projektu. Dodržováním kroků uvedených v tomto kurzu můžete bez problémů manipulovat se zdroji ve svých projektech a zvýšit tak produktivitu a flexibilitu v úlohách projektového řízení.
+Správa kolekcí zdrojů Microsoft Project pomocí Aspose.Tasks for .NET poskytuje vývojářům robustní sadu nástrojů pro efektivní programové zacházení se zdroji projektu. Podle kroků popsaných v tomto kurzu můžete bez problémů manipulovat se zdroji ve svých projektech, čímž zvýšíte produktivitu a flexibilitu v úlohách projektového řízení.
 ## FAQ
 ### Otázka: Dokáže Aspose.Tasks zpracovat rozsáhlé soubory projektů?
 
@@ -98,4 +98,4 @@ Odpověď: Ano, Aspose.Tasks podporuje multi-threading, což umožňuje souběž
 
 ### Otázka: Je pro uživatele Aspose.Tasks k dispozici technická podpora?
 
- Odpověď: Ano, uživatelé Aspose.Tasks mají přístup k technické podpoře prostřednictvím fóra.[tady](https://forum.aspose.com/c/tasks/15).
+ Odpověď: Ano, uživatelé Aspose.Tasks mají přístup k technické podpoře prostřednictvím fóra[tady](https://forum.aspose.com/c/tasks/15).

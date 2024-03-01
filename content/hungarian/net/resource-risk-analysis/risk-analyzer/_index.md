@@ -58,7 +58,7 @@ var analysisResult = analyzer.Analyze(project);
 var earlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);
 ```
 ## 5. lépés: Az elemzési eredmények lekérése
-Lekérheti és megjelenítheti az elemzési eredményeket, például a várható értékeket és százalékos értékeket.
+Kérje le és jelenítse meg az elemzési eredményeket, például a várható értékeket és százalékos értékeket.
 ```csharp
 Console.WriteLine("Expected value: {0}", earlyFinish.ExpectedValue);
 Console.WriteLine("StandardDeviation: {0}", earlyFinish.StandardDeviation);

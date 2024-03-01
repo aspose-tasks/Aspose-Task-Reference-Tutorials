@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks で MS プロジェクトのリスク分析を構成する
-linktitle: Aspose.Tasks でリスク分析設定を構成する
+title: Aspose.Tasks での MS プロジェクトのリスク分析の構成
+linktitle: Aspose.Tasks でのリスク分析設定の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用して MS Project のリスク分析設定を構成する方法を学びます。高度なリスク評価技術によりプロジェクト管理の効率を高めます。
 type: docs
@@ -44,7 +44,7 @@ riskAnalysisSettings.IterationsCount = 200;
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");
 ```
-MS Project ファイルを`Project`さらなる分析のためのオブジェクト。
+ MS Project ファイルを`Project`さらなる分析のためのオブジェクト。
 ## ステップ 5: リスク分析のタスクを選択する
 ```csharp
 var task = project.RootTask.Children.GetById(17);
@@ -80,7 +80,7 @@ pattern.ConfidenceLevel = ConfidenceLevel.CL75;
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
-を初期化します`RiskAnalyzer`客観的にプロジェクトのリスク分析を実行します。
+を初期化します`RiskAnalyzer`プロジェクトに反対し、リスク分析を実行します。
 ## ステップ 12: 分析結果を取得する
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

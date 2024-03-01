@@ -62,7 +62,7 @@ Créez un nouveau style de barre et personnalisez ses propriétés :
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Définir le type d'élément de barre
 style.BarColor = Color.Green; // Définir la couleur de la barre
-style.BarShape = BarShape.HalfHeight; //Définir la forme de la barre
+style.BarShape = BarShape.HalfHeight; // Définir la forme de la barre
 style.StartShape = Shape.LeftBracket; // Définir la forme au début de la barre
 style.StartShapeColor = Color.Aqua; // Définir la couleur de la forme de départ
 style.EndShape = Shape.RightBracket; // Définir la forme au bout de la barre

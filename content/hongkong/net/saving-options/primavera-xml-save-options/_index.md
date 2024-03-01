@@ -51,7 +51,7 @@ project.Save(DataDir + "UsingPrimaveraXMLSaveOptions_out.xml", options);
 ### Q：Aspose.Tasks for .NET 有沒有免費試用版？
 答：是的，您可以免費試用 Aspose.Tasks for .NET[這裡](https://releases.aspose.com/).
 ### Q：如何獲得 Aspose.Tasks for .NET 的技術支援？
-答：您可以在 Aspose.Tasks 論壇上尋求技術協助並與社群互動。[這裡](https://forum.aspose.com/c/tasks/15).
+答：您可以在 Aspose.Tasks 論壇上尋求技術援助並與社區互動[這裡](https://forum.aspose.com/c/tasks/15).
 ### Q：Aspose.Tasks for .NET 有哪些授權選項？
 答：Aspose.Tasks for .NET 提供各種許可證選項，包括臨時許可證。探索許可詳細信息[這裡](https://purchase.aspose.com/buy).
 ### Q：我可以自訂 Primavera XML 格式的儲存選項嗎？

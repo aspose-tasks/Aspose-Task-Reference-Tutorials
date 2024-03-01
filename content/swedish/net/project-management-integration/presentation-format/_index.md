@@ -17,11 +17,11 @@ Innan vi börjar, se till att du har följande förutsättningar:
 
 ### 1. Installera Aspose.Tasks för .NET
 
- Om du inte redan har gjort det, ladda ner och installera Aspose.Tasks för .NET från[nedladdningssida](https://releases.aspose.com/tasks/net/), Följ installationsinstruktionerna för att ställa in den korrekt.
+ Om du inte redan har gjort det, ladda ner och installera Aspose.Tasks för .NET från[nedladdningssida](https://releases.aspose.com/tasks/net/). Följ installationsinstruktionerna för att ställa in den korrekt.
 
 ### 2. Importera nödvändiga namnområden
 
-I ditt .NET-projekt, se till att importera de nödvändiga namnrymden för Aspose.Tasks:
+ditt .NET-projekt, se till att importera de nödvändiga namnrymden för Aspose.Tasks:
 
 ```csharp
 
@@ -39,7 +39,7 @@ Se först till att du har en katalog inställd för att lagra dina projektfiler.
 String DataDir = "Your Document Directory";
 ```
 
- byta ut`"Your Document Directory"` med sökvägen till din önskade katalog.
+ Byta ut`"Your Document Directory"` med sökvägen till din önskade katalog.
 
 ## Steg 2: Ladda din MS Project-fil
 
@@ -49,7 +49,7 @@ Därefter måste du ladda din MS Project-fil med Aspose.Tasks:
 var project = new Project(DataDir + "ResourceSheetView.mpp");
 ```
 
- byta ut`"ResourceSheetView.mpp"` med namnet på din MS Project-fil.
+ Byta ut`"ResourceSheetView.mpp"` med namnet på din MS Project-fil.
 
 ## Steg 3: Definiera sparalternativ
 

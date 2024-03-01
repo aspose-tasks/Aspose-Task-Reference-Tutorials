@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks のテーブル テキスト スタイルのカスタマイズ ガイド
-linktitle: Aspose.Tasks でテーブル テキスト スタイルを構成する
+linktitle: Aspose.Tasks でのテーブル テキスト スタイルの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用してプロジェクトの視覚化を強化します。表のテキストスタイルを段階的に構成する方法を学びます。効率とプレゼンテーションを向上させます。
 type: docs
@@ -11,7 +11,7 @@ url: /ja/net/task-table-management/table-text-styles/
 プロジェクト管理の世界では、タスクを効果的に視覚化することが成功に不可欠です。 Aspose.Tasks for .NET は、テーブルのテキスト スタイルをカスタマイズするための強力なソリューションを提供し、プロジェクト内のテキスト項目の外観を調整できるようにします。このステップバイステップ ガイドでは、Aspose.Tasks for .NET を使用してテーブル テキスト スタイルを構成するプロセスについて説明します。
 ## 前提条件
 チュートリアルに入る前に、次のものが揃っていることを確認してください。
--  Aspose.Tasks for .NET: 最新バージョンの Aspose.Tasks for .NET がインストールされていることを確認します。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks for .NET: 最新バージョンの Aspose.Tasks for .NET がインストールされていることを確認します。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
 - ドキュメント ディレクトリ: ドキュメント用のディレクトリを設定します。コード内の「Your Document Directory」を実際のパスに置き換えます。
 - 有効な Aspose ライセンス: この例では、有効な Aspose ライセンスが必要です。フルライセンスを購入できます[ここ](https://purchase.aspose.com/buy)または 30 日間の一時ライセンスを取得する[ここ](https://purchase.aspose.com/temporary-license/).
 ## 名前空間のインポート
@@ -61,7 +61,7 @@ catch (NotSupportedException ex)
 {
     Console.WriteLine(
         ex.Message
-        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx.");
+        + "\nThis example will only work if you apply a valid Aspose License. You can purchase a full license or get a 30-day temporary license from [Aspose](http://www.aspose.com/purchase/default.aspx).");
 }
 ```
 ## 結論

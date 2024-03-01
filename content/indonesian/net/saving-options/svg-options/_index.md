@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## Langkah 1: Tentukan Direktori Dokumen
-Pastikan Anda memiliki direktori khusus untuk dokumen Anda. mengganti`"Your Document Directory"` dengan jalur ke direktori yang Anda inginkan.
+ Pastikan Anda memiliki direktori khusus untuk dokumen Anda. Mengganti`"Your Document Directory"` dengan jalur ke direktori yang Anda inginkan.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Langkah 2: Muat File Proyek
- Muat file Microsoft Project (.mpp) menggunakan`Project` kelas.
+Muat file Microsoft Project (.mpp) menggunakan`Project` kelas.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

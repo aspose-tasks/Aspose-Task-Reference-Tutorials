@@ -27,7 +27,7 @@ Zorg ervoor dat u in uw C#-code de benodigde naamruimten opneemt om de functiona
 String DataDir = "Your Document Directory";
 var project = new Project();
 ```
-## Stap 2: WBS-codedefinitie configureren
+## Stap 2: Configureer WBS-codedefinitie
 ```csharp
 project.WBSCodeDefinition = new WBSCodeDefinition();
 project.WBSCodeDefinition.GenerateWBSCode = true;
@@ -71,6 +71,6 @@ Absoluut! Aspose.Tasks biedt flexibiliteit bij het definiëren van WBS-codes op 
 ### Is er een proefversie beschikbaar?
  Ja, dat kan[download een gratis proefversie](https://releases.aspose.com/) om de functies te verkennen voordat u een aankoop doet.
 ### Hoe kan ik community-ondersteuning krijgen voor Aspose.Tasks?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) om verbinding te maken met de gemeenschap en hulp te zoeken.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) om verbinding te maken met de gemeenschap en hulp te zoeken.
 ### Zijn er tijdelijke licenties beschikbaar?
- Ja, je kunt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.
+ Ja, u kunt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) voor testdoeleinden.

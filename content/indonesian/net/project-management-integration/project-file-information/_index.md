@@ -11,7 +11,7 @@ url: /id/net/project-management-integration/project-file-information/
 Selamat datang di panduan langkah demi langkah kami dalam mengambil informasi file Microsoft Project menggunakan Aspose.Tasks untuk .NET. Aspose.Tasks adalah perpustakaan canggih yang memungkinkan pengembang .NET bekerja dengan file Microsoft Project secara terprogram, memungkinkan tugas seperti membaca, menulis, dan memanipulasi data proyek.
 ## Prasyarat
 Sebelum kita mendalami tutorialnya, pastikan Anda memiliki prasyarat berikut:
-1. Pengetahuan Dasar C# dan .NET: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang bahasa pemrograman C# dan kerangka .NET.
+1. Pengetahuan Dasar tentang C# dan .NET: Tutorial ini mengasumsikan Anda memiliki pemahaman dasar tentang bahasa pemrograman C# dan kerangka .NET.
 2. Visual Studio: Instal Visual Studio atau IDE lain yang kompatibel dengan pengembangan .NET.
 3.  Aspose.Tasks untuk .NET Library: Unduh dan instal Aspose.Tasks untuk perpustakaan .NET. Anda dapat menemukan tautan unduhan[Di Sini](https://releases.aspose.com/tasks/net/).
 4. File Proyek Microsoft: Siapkan file Microsoft Project (format XML dalam contoh ini) untuk tujuan pengujian.
@@ -31,12 +31,12 @@ Sekarang, mari kita uraikan kode contoh yang diberikan menjadi beberapa langkah:
 // Jalur ke direktori dokumen.
 string dataDir = "Your Document Directory";
 ```
- mengganti`"Your Document Directory"` dengan path ke direktori Anda yang berisi file MS Project.
+ Mengganti`"Your Document Directory"` dengan path ke direktori Anda yang berisi file MS Project.
 ## Langkah 3: Ambil Informasi File Proyek
 ```csharp
 var info = Project.GetProjectFileInfo(dataDir + "Project.xml");
 ```
- Baris kode ini mengambil informasi tentang file Proyek yang ditentukan. mengganti`"Project.xml"` dengan nama file MS Project Anda.
+ Baris kode ini mengambil informasi tentang file Proyek yang ditentukan. Mengganti`"Project.xml"` dengan nama file MS Project Anda.
 ## Langkah 4: Tampilkan Informasi Proyek
 ```csharp
 Console.WriteLine("CanRead: " + info.CanRead);

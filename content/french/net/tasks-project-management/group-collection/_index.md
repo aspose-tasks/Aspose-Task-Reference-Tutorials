@@ -103,7 +103,7 @@ Aspose.Tasks for .NET prend en charge différentes versions de Microsoft Project
 ### Puis-je personnaliser les propriétés du groupe à l’aide d’Aspose.Tasks pour .NET ?
 Oui, vous pouvez personnaliser les propriétés du groupe telles que le nom et la visibilité à l'aide d'Aspose.Tasks pour .NET.
 ### Aspose.Tasks pour .NET offre-t-il une compatibilité multiplateforme ?
-Aspose.Tasks pour .NET cible principalement le framework .NET, mais il peut être utilisé dans des scénarios multiplateformes avec .NET Core et .NET Standard.
+Aspose.Tasks for .NET cible principalement le framework .NET, mais il peut être utilisé dans des scénarios multiplateformes avec .NET Core et .NET Standard.
 ### Comment puis-je obtenir de l’assistance pour Aspose.Tasks pour .NET ?
  Vous pouvez obtenir une assistance pour Aspose.Tasks pour .NET via le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Existe-t-il une version d’essai disponible pour Aspose.Tasks pour .NET ?

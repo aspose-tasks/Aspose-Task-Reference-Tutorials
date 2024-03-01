@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Ở đây, chúng tôi tạo ra một`ChildTasksCollector` đối tượng để tập hợp tất cả các nhiệm vụ trong dự án. Sau đó chúng tôi sử dụng`TaskUtils.Apply`phương pháp duyệt qua hệ thống phân cấp nhiệm vụ của dự án và thu thập tất cả các nhiệm vụ con.
+ Ở đây, chúng tôi tạo ra một`ChildTasksCollector` đối tượng để tập hợp tất cả các nhiệm vụ trong dự án. Sau đó chúng tôi sử dụng`TaskUtils.Apply` phương pháp duyệt qua hệ thống phân cấp nhiệm vụ của dự án và thu thập tất cả các nhiệm vụ con.
 
 ## Bước 3: Xác định điều kiện lọc
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Chúng tôi xác định điều kiện lọc bằng cách sử dụng lớp tùy chỉnh có tên`NullCondition`, Điều kiện này chọn các tác vụ có giá trị null.
+ Chúng tôi xác định điều kiện lọc bằng cách sử dụng lớp tùy chỉnh có tên`NullCondition`. Điều kiện này chọn các tác vụ có giá trị null.
 
 ## Bước 4: Áp dụng thao tác NOT
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- Chúng ta áp dụng thao tác NOT cho điều kiện lọc bằng cách sử dụng`Not<T>` lớp được cung cấp bởi Aspose.Tasks. Điều này sẽ đảo ngược điều kiện lọc, chọn các tác vụ không có giá trị null.
+ Chúng ta áp dụng thao tác NOT cho điều kiện lọc bằng cách sử dụng`Not<T>`lớp được cung cấp bởi Aspose.Tasks. Điều này sẽ đảo ngược điều kiện lọc, chọn các tác vụ không có giá trị null.
 
 ## Bước 5: Lọc nhiệm vụ
 

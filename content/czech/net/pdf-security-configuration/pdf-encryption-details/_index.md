@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Definujte podrobnosti o šifrování včetně hesla uživatele, hesla vlastníka, šifrovacího algoritmu a oprávnění:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //Uživatelské heslo
+    "userPassword",        // Uživatelské heslo
     "ownerPassword",       // Heslo vlastníka
     PdfEncryptionAlgorithm.RC4_128);  // Šifrovací algoritmus
 // Zadejte oprávnění
@@ -56,7 +56,7 @@ project.Save(DataDir + "EncryptedProject.pdf", options);
 ```
 
 ## Závěr
-V tomto tutoriálu jsme prozkoumali, jak nakonfigurovat podrobnosti šifrování MS Project PDF pomocí Aspose.Tasks pro .NET. Pomocí těchto kroků můžete zajistit zabezpečení souborů projektu tím, že je zašifrujete hesly uživatele a vlastníka, určíte šifrovací algoritmy a podle potřeby nastavíte oprávnění.
+tomto tutoriálu jsme prozkoumali, jak nakonfigurovat podrobnosti šifrování MS Project PDF pomocí Aspose.Tasks pro .NET. Pomocí těchto kroků můžete zajistit zabezpečení souborů projektu tím, že je zašifrujete hesly uživatele a vlastníka, určíte šifrovací algoritmy a podle potřeby nastavíte oprávnění.
 ## FAQ
 ### Otázka: Mohu šifrovat více souborů MS Project současně?
 Odpověď: Ano, můžete procházet více soubory projektu a použít podrobnosti šifrování na každý jednotlivě.

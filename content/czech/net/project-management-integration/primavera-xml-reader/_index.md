@@ -51,9 +51,9 @@ V tomto tutoriálu jsme se naučili, jak využít MS Project Primavera XML Reade
 ### Otázka: Dokáže Aspose.Tasks zvládnout složité projektové struktury?
 Odpověď: Ano, Aspose.Tasks poskytuje robustní funkce pro efektivní zpracování různých projektových struktur a složitostí.
 ### Otázka: Je k dispozici bezplatná zkušební verze pro Aspose.Tasks?
-Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+ Odpověď: Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 ### Otázka: Jak mohu získat podporu pro Aspose.Tasks?
- Odpověď: Podporu můžete získat na fóru Aspose.Tasks.[tady](https://forum.aspose.com/c/tasks/15).
+ Odpověď: Podporu můžete získat na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Mohu si zakoupit dočasnou licenci pro Aspose.Tasks?
  Odpověď: Ano, dočasné licence je možné zakoupit[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde najdu komplexní dokumentaci k Aspose.Tasks?

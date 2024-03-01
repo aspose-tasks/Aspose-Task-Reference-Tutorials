@@ -86,7 +86,7 @@ A1: Ja, Aspose.Tasks unterstützt verschiedene Versionen von Microsoft Project-D
 
 ### F2: Wie kann ich Verbindungsprobleme mit der Datenbank beheben?
 
-A2: Stellen Sie sicher, dass Ihre Verbindungszeichenfolge korrekt mit den entsprechenden Anmeldeinformationen und Datenbankdetails konfiguriert ist. Sie können auch in der Dokumentation nachschlagen oder Unterstützung von der erhalten[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
+ A2: Stellen Sie sicher, dass Ihre Verbindungszeichenfolge korrekt mit den entsprechenden Anmeldeinformationen und Datenbankdetails konfiguriert ist. Sie können auch in der Dokumentation nachschlagen oder Unterstützung von der erhalten[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
 
 ### F3: Gibt es eine Testversion für Aspose.Tasks?
 

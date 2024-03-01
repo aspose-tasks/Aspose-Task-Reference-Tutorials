@@ -65,9 +65,9 @@ Gratulujeme! Úspěšně jste se naučili, jak zacházet se základními liniemi
 ### Otázka: Mohu používat Aspose.Tasks s jinými frameworky .NET?
 Odpověď: Aspose.Tasks je kompatibilní s více frameworky .NET a poskytuje flexibilitu ve vašem vývojovém prostředí.
 ### Otázka: Existuje komunitní fórum pro podporu Aspose.Tasks?
-Odpověď: Ano, můžete najít podporu a zapojit se do komunity na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Odpověď: Ano, můžete najít podporu a zapojit se do komunity na[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### Otázka: Jak mohu získat dočasnou licenci pro Aspose.Tasks?
- Návštěva[tady](https://purchase.aspose.com/temporary-license/) získat dočasnou licenci pro Aspose.Tasks.
+ Návštěva[tady](https://purchase.aspose.com/temporary-license/)získat dočasnou licenci pro Aspose.Tasks.
 ### Otázka: Jsou k dispozici nějaké výukové programy mimo základní linie úkolů?
  A: Prozkoumejte[dokumentace](https://reference.aspose.com/tasks/net/) pro širokou škálu výukových programů o funkcích Aspose.Tasks.
 ### Otázka: Kde mohu zakoupit Aspose.Tasks pro .NET?

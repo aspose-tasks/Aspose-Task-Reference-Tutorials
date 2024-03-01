@@ -8,14 +8,14 @@ weight: 23
 url: /hu/net/resource-risk-analysis/managing-risk-patterns/
 ---
 ## Bevezetés
-A projektmenedzsmentben a kockázatok megértése és csökkentése kulcsfontosságú a sikeres végrehajtáshoz. Az Aspose.Tasks for .NET hatékony eszközöket kínál a Microsoft Project fájlokon belüli kockázati minták kezelésére, simább projektmunkafolyamatokat és eredményeket biztosítva. Ez az oktatóanyag végigvezeti Önt az Aspose.Tasks használatának folyamatán a kockázati minták hatékony kezelése érdekében.
+projektmenedzsmentben a kockázatok megértése és csökkentése kulcsfontosságú a sikeres végrehajtáshoz. Az Aspose.Tasks for .NET hatékony eszközöket kínál a Microsoft Project fájlokon belüli kockázati minták kezelésére, simább projektmunkafolyamatokat és eredményeket biztosítva. Ez az oktatóanyag végigvezeti Önt az Aspose.Tasks használatának folyamatán a kockázati minták hatékony kezelése érdekében.
 
 ## Előfeltételek
 
 Mielőtt belevágnánk az MS Project kockázati mintáinak kezelésébe az Aspose.Tasks for .NET használatával, győződjön meg arról, hogy rendelkezik a következőkkel:
 
 1. Microsoft Project File: rendelkezzen egy Microsoft Project fájllal (.mpp), amely feladatokat és releváns projektadatokat tartalmaz.
-2. Aspose.Tasks for .NET: Töltse le és telepítse a .NET Aspose.Tasks könyvtárát a[weboldal](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks for .NET: Töltse le és telepítse a .NET Aspose.Tasks könyvtárát a[weboldal](https://releases.aspose.com/tasks/net/).
 3. A C# alapjai: A C# programozási nyelv alapjainak ismerete ajánlott.
 
 ## Névterek importálása
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- Ebben a lépésben meghatározzuk a projektdokumentum könyvtárát, és létrehozzuk a kockázatelemzés beállításait. Állítsa be a`IterationsCount` szükség szerint a projekt összetettsége alapján.
+Ebben a lépésben meghatározzuk a projektdokumentum könyvtárát, és létrehozzuk a kockázatelemzés beállításait. Állítsa be a`IterationsCount` szükség szerint a projekt összetettsége alapján.
 
 ## 2. lépés: Töltse be a projektet és a feladatot
 

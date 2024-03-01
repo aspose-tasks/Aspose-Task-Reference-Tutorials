@@ -38,7 +38,7 @@ using Aspose.Tasks.Saving;
 ## चरण 1: प्रोजेक्ट फ़ाइल लोड करें
 
 ```csharp
-// दस्तावेज़ निर्देशिका का पथ.
+// वें दस्तावेज़ निर्देशिका का पथ.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project1.mpp");
 ```
@@ -107,7 +107,7 @@ A1: हां, .NET के लिए Aspose.Tasks पुनरावृत्त
 
 ###Q4: क्या .NET के लिए Aspose.Tasks के लिए अस्थायी लाइसेंस उपलब्ध हैं?
 
- उ4: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/) परीक्षण और मूल्यांकन प्रयोजनों के लिए.
+ उ4: हां, आप यहां से अस्थायी लाइसेंस प्राप्त कर सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/) परीक्षण और मूल्यांकन उद्देश्यों के लिए।
 
 ###Q5: मुझे .NET के लिए Aspose.Tasks के लिए व्यापक दस्तावेज़ कहां मिल सकते हैं?
 

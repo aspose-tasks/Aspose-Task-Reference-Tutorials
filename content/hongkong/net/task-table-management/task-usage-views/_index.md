@@ -74,4 +74,4 @@ Aspose.Tasks 支援各種示範格式，包括甘特圖、ResourceUsage 等。
 ### 我可以對特定任務套用不同的時間刻度設定嗎？
 當然，您可以為專案中的各個任務自訂時間刻度設定。
 ### 我如何獲得 Aspose.Tasks 的支持或尋求協助？
-訪問[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區的支持和指導。
+參觀[Aspose.Tasks 論壇](https://forum.aspose.com/c/tasks/15)以獲得社區的支持和指導。

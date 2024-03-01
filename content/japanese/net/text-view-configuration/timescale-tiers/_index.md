@@ -1,6 +1,6 @@
 ---
-title: Aspose.Tasks でガント チャートのタイムスケール層を構成する
-linktitle: Aspose.Tasks でタイムスケール層を構成する
+title: Aspose.Tasks でのガント チャートのタイムスケール層の構成
+linktitle: Aspose.Tasks でのタイムスケール層の構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を探索して、ガント チャート ビューでタイムスケール層を構成し、プロジェクトのタイムラインを正確に視覚化します。 #Aspose.Task #MS プロジェクト
 type: docs
@@ -12,7 +12,7 @@ url: /ja/net/text-view-configuration/timescale-tiers/
 ## 前提条件
 チュートリアルに入る前に、次のものが揃っていることを確認してください。
 - C# と .NET の基本的な知識。
-- Aspose.Tasks for .NET ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks for .NET ライブラリがインストールされています。ダウンロードできます[ここ](https://releases.aspose.com/tasks/net/).
 - .NET アプリケーション開発のためにセットアップされた開発環境。
 ## 名前空間のインポート
 ```csharp

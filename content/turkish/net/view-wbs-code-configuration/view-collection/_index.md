@@ -90,7 +90,7 @@ Aspose.Tasks, çeşitli .NET Framework sürümleriyle uyumlu olacak şekilde tas
 ### Gantt Grafiği görünümlerinin görünümünü özelleştirebilir miyim?
 Kesinlikle! Aspose.Tasks, Gantt Grafiği görünümlerinin görünümünü projenizin ihtiyaçlarına uyacak şekilde özelleştirmek için kapsamlı seçenekler sunar.
 ### Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
- Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
+Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Tasks için topluluk desteğini nasıl alabilirim?
  Aspose.Tasks topluluğuyla etkileşime geçin[forum](https://forum.aspose.com/c/tasks/15) Herhangi bir sorunuz veya yardımınız için.
 ### Aspose.Tasks için geçici lisanslar mevcut mu?

@@ -69,6 +69,6 @@ Aspose.Tasks für .NET unterstützt Microsoft Project-Dateiformate ab 2003, eins
 ### Kann ich andere Aspekte von MS Project-Dateien mit Aspose.Tasks für .NET bearbeiten?
 Ja, Aspose.Tasks für .NET bietet eine breite Palette von Funktionen zum Lesen, Schreiben und Ändern verschiedener Aspekte von MS Project-Dateien, wie z. B. Aufgaben, Ressourcen und Kalender.
 ### Ist Aspose.Tasks für .NET sowohl für Desktop- als auch für Webanwendungen geeignet?
-Ja, Aspose.Tasks für .NET kann sowohl in Desktop- als auch in Webanwendungen verwendet werden, die mit dem .NET-Framework entwickelt wurden.
+Ja, Aspose.Tasks für .NET kann sowohl in Desktop- als auch in Webanwendungen verwendet werden, die mit dem .NET Framework entwickelt wurden.
 ### Wo finde ich zusätzliche Unterstützung und Ressourcen für Aspose.Tasks für .NET?
  Sie können die besuchen[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) Für Unterstützung greifen Sie auf die Dokumentation zu[Dokumentationsseite](https://reference.aspose.com/tasks/net/), und entdecken Sie Tutorials und Beispiele auf der Aspose.Tasks-Website.

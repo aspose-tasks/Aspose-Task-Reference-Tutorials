@@ -75,4 +75,4 @@ A: U kunt inderdaad de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) 
 ### Vraag: Kan ik Aspose.Tasks voor .NET uitproberen voordat ik het aanschaf?
  EEN: Natuurlijk! U krijgt toegang tot een gratis proefversie van Aspose.Tasks[hier](https://releases.aspose.com/).
 ### Vraag: Waar kan ik een tijdelijke licentie voor Aspose.Tasks verkrijgen?
- A: Als u een tijdelijke licentie nodig heeft voor evaluatie- of testdoeleinden, kunt u er een aanschaffen.[hier](https://purchase.aspose.com/temporary-license/).
+ A: Als u een tijdelijke licentie nodig heeft voor evaluatie- of testdoeleinden, kunt u er een aanschaffen[hier](https://purchase.aspose.com/temporary-license/).

@@ -1,6 +1,6 @@
 ---
 title: Lépésről lépésre WBS-kód konfigurálása az Aspose.Tasks .NET-ben
-linktitle: Konfigurálja a WBS kódmaszkokat az Aspose.Tasks alkalmazásban
+linktitle: A WBS kódmaszkok konfigurálása az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Fedezze fel a WBS kódmaszkok konfigurálását lépésről lépésre .NET-projektekben az Aspose.Tasks használatával. Fokozza a projektmenedzsment képességeit erőfeszítés nélkül.
 type: docs
@@ -78,13 +78,13 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ```
 Gratulálunk! Sikeresen konfigurálta a WBS kódmaszkokat az Aspose.Tasks projektben.
 ## Következtetés
-Ebben az oktatóanyagban a WBS-kódmaszkok Aspose.Tasks for .NET használatával történő konfigurálásának lépésenkénti folyamatát mutattuk be. Ez a nagy teljesítményű könyvtár zökkenőmentes módot biztosít a fejlesztők számára a projektmenedzsment képességek fejlesztésére .NET-alkalmazásaikon belül.
+Ebben az oktatóanyagban a WBS kódmaszkok Aspose.Tasks for .NET használatával történő konfigurálásának lépésről lépésre történő folyamatát vizsgáltuk meg. Ez a nagy teljesítményű könyvtár zökkenőmentes módot biztosít a fejlesztők számára a projektmenedzsment képességek fejlesztésére .NET-alkalmazásaikon belül.
 
 ## GYIK
 ### Használhatom ingyenesen az Aspose.Tasks-t?
  Az Aspose.Tasks ingyenes próbaverziót kínál, amelyet letölthet[itt](https://releases.aspose.com/).
-### Hol találhatok további támogatást?
- meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15)közösségi támogatásért.
+### Hol találok további támogatást?
+ Meglátogatni a[Aspose.Tasks fórum](https://forum.aspose.com/c/tasks/15) közösségi támogatásért.
 ### Hogyan szerezhetek ideiglenes engedélyt?
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Létezik részletes dokumentáció?

@@ -12,7 +12,7 @@ När det gäller projektledning är effektiv samordning och sömlös kommunikati
 ## Förutsättningar
 Innan du ger dig ut på resan med att hantera MS Project Server-referenser med Aspose.Tasks för .NET, se till att följande förutsättningar är uppfyllda:
 ### 1. Installera Aspose.Tasks för .NET
- För att börja, ladda ner och installera Aspose.Tasks för .NET från den medföljande[nedladdningslänk](https://releases.aspose.com/tasks/net/), Följ installationsinstruktionerna för att sömlöst integrera biblioteket i din .NET-miljö.
+ För att börja, ladda ner och installera Aspose.Tasks för .NET från den medföljande[nedladdningslänk](https://releases.aspose.com/tasks/net/). Följ installationsinstruktionerna för att sömlöst integrera biblioteket i din .NET-miljö.
 ### 2. Åtkomstuppgifter
 Samla in de nödvändiga referenserna som krävs för att komma åt MS Project Server. Detta inkluderar SharePoint-domänadressen, användarnamnet och lösenordet som är kopplat till Project Server.
 

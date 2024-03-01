@@ -85,7 +85,7 @@ Aspose.Tasks je primárně určen pro vývoj .NET. Jeho funkcionality však moho
 ### Je k dispozici bezplatná zkušební verze pro Aspose.Tasks pro .NET?
  Ano, můžete vyzkoušet bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Jak mohu získat podporu pro Aspose.Tasks pro .NET?
- navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15)za podporu komunity.
+ Navštivte[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) za podporu komunity.
 ### Co je to dočasná licence a jak ji mohu získat?
  Přečtěte si o dočasných licencích[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu dokumentaci k Aspose.Tasks pro .NET?

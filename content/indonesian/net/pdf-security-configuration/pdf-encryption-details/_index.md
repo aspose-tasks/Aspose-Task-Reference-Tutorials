@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Tentukan detail enkripsi termasuk kata sandi pengguna, kata sandi pemilik, algoritma enkripsi, dan izin:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //Kata Sandi Pengguna
+    "userPassword",        // Kata Sandi Pengguna
     "ownerPassword",       // Kata Sandi Pemilik
     PdfEncryptionAlgorithm.RC4_128);  // Algoritma Enkripsi
 // Tentukan izin

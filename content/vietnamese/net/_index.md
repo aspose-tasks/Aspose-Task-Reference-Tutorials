@@ -69,6 +69,6 @@ Khám phá Aspose.Tasks để biết các hướng dẫn .NET về cấu hình t
 ### [Tùy chọn định dạng tệp Aspose.Tasks](./file-format-options/)
 Khám phá các tùy chọn định dạng tệp Aspose.Tasks và cấu hình thành thạo các tùy chọn XAML & XLSX trong Aspose.Tasks .NET. Nâng cao khả năng quản lý dự án với các mẹo tùy chỉnh.
 ### [Cấu hình bảo mật Aspose.Tasks PDF](./pdf-security-configuration/)
-Khám phá cách nâng cao tính bảo mật của các tệp PDF Microsoft Project của bạn bằng Aspose.Tasks cho .NET. Tìm hiểu kỹ thuật mã hóa và chữ ký số.
+Khám phá cách nâng cao tính bảo mật của các tệp PDF Microsoft Project của bạn bằng Aspose.Tasks for .NET. Tìm hiểu kỹ thuật mã hóa và chữ ký số.
 ### [Quản lý giấy phép Aspose.Tasks](./license-management/)
 Khai phá sức mạnh của Aspose.Tasks cho .NET bằng các hướng dẫn toàn diện của chúng tôi. Quản lý giấy phép và tối ưu hóa việc sử dụng MS Project để quản lý dự án hiệu quả.

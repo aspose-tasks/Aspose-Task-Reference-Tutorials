@@ -8,14 +8,14 @@ weight: 23
 url: /pl/net/resource-risk-analysis/managing-risk-patterns/
 ---
 ## Wstęp
-W zarządzaniu projektami zrozumienie i łagodzenie ryzyka ma kluczowe znaczenie dla pomyślnej realizacji. Aspose.Tasks dla .NET zapewnia potężne narzędzia do zarządzania wzorcami ryzyka w plikach Microsoft Project, zapewniając płynniejszy przepływ pracy i wyniki projektów. Ten samouczek poprowadzi Cię przez proces wykorzystania Aspose.Tasks do skutecznego zarządzania wzorcami ryzyka.
+zarządzaniu projektami zrozumienie i łagodzenie ryzyka ma kluczowe znaczenie dla pomyślnej realizacji. Aspose.Tasks dla .NET zapewnia potężne narzędzia do zarządzania wzorcami ryzyka w plikach Microsoft Project, zapewniając płynniejszy przepływ pracy i wyniki projektów. Ten samouczek poprowadzi Cię przez proces wykorzystania Aspose.Tasks do skutecznego zarządzania wzorcami ryzyka.
 
 ## Warunki wstępne
 
 Zanim zagłębimy się w zarządzanie wzorcami ryzyka MS Project za pomocą Aspose.Tasks dla .NET, upewnij się, że posiadasz następujące elementy:
 
 1. Plik projektu Microsoft: Przygotuj plik programu Microsoft Project (.mpp) zawierający zadania i odpowiednie dane projektu.
-2. Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[strona internetowa](https://releases.aspose.com/tasks/net/).
+2.  Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[strona internetowa](https://releases.aspose.com/tasks/net/).
 3. Podstawowa znajomość języka C#: Zalecana jest znajomość podstaw języka programowania C#.
 
 ## Importuj przestrzenie nazw
@@ -39,7 +39,7 @@ var settings = new RiskAnalysisSettings();
 settings.IterationsCount = 200;
 ```
 
- Na tym etapie definiujemy katalog dla dokumentu projektu i tworzymy ustawienia do analizy ryzyka. Poprawić`IterationsCount` w zależności od złożoności projektu.
+Na tym etapie definiujemy katalog dla dokumentu projektu i tworzymy ustawienia do analizy ryzyka. Poprawić`IterationsCount` w zależności od złożoności projektu.
 
 ## Krok 2: Załaduj projekt i zadanie
 

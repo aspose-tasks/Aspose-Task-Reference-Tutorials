@@ -11,7 +11,7 @@ url: /nl/net/task-table-management/managing-tasks/
 Als u een .NET-ontwikkelaar bent en taken binnen uw projecten efficiënt wilt beheren, biedt Aspose.Tasks voor .NET een robuuste oplossing. Deze tutorial leidt u door verschillende aspecten van het beheren van taken met Aspose.Tasks, met stapsgewijze instructies en codevoorbeelden. Of u nu taken toevoegt, gesplitste delen weergeeft, taken onder hetzelfde bovenliggende item verplaatst, taakeigenschappen ophaalt/instelt, taaktoewijzingen herhaalt, taakbasislijnen leest of taken verwijdert, deze handleiding heeft de oplossing voor u.
 ## Vereisten
 Voordat u in de zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
-1.  Aspose.Tasks voor .NET-bibliotheek: Zorg ervoor dat de Aspose.Tasks voor .NET-bibliotheek is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
+1. Aspose.Tasks voor .NET-bibliotheek: Zorg ervoor dat de Aspose.Tasks voor .NET-bibliotheek is geïnstalleerd. Je kunt het downloaden[hier](https://releases.aspose.com/tasks/net/).
 2. Documentmap: stel een map in waarin uw projectdocumenten worden opgeslagen.
 ## Naamruimten importeren
 Neem in uw .NET-project de benodigde naamruimten op om met Aspose.Tasks te werken:
@@ -42,7 +42,7 @@ project.Save(DataDir + "CreateNewTask_out.xml", SaveFileFormat.Xml);
 ```csharp
 // Laad een project met gesplitste taken
 var project = new Project(DataDir + "ViewSplitTasks.mpp");
-//Toegang tot een taak
+// Toegang tot een taak
 var task = project.RootTask.Children.GetById(4);
 // Gesplitste onderdelen weergeven
 var collection = task.SplitParts;
@@ -125,7 +125,7 @@ foreach (var baseline in task.Baselines)
 var project = new Project();
 // Voeg een taak toe
 var task = project.RootTask.Children.Add("Task");
-// Geef het aantal taken weer voor en na het verwijderen
+//Geef het aantal taken weer voor en na het verwijderen
 Console.WriteLine("Number of tasks: " + project.RootTask.Children.Count);
 // Verwijder de taak
 task.Delete();

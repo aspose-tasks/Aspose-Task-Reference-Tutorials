@@ -12,7 +12,7 @@ Cherchez-vous à exploiter la puissance des masques de plan de Microsoft Project
 ## Conditions préalables
 Avant de vous lancer dans ce didacticiel, assurez-vous que les conditions préalables suivantes sont remplies :
 ### 1. Installation d'Aspose.Tasks pour .NET
- Assurez-vous que Aspose.Tasks pour .NET est installé dans votre environnement de développement. Vous pouvez télécharger la bibliothèque depuis le site Web d'Aspose[ici](https://releases.aspose.com/tasks/net/).
+Assurez-vous que Aspose.Tasks pour .NET est installé dans votre environnement de développement. Vous pouvez télécharger la bibliothèque depuis le site Web d'Aspose[ici](https://releases.aspose.com/tasks/net/).
 ### 2. Connaissance de base de C# et .NET Framework
 Familiarisez-vous avec le langage de programmation C# et le .NET Framework, car ce didacticiel utilisera les deux.
 ### 3. Fichier de projet Microsoft
@@ -108,4 +108,4 @@ R : Absolument ! Vous pouvez personnaliser les masques de contour en ajustant le
 ### Q4 : Aspose.Tasks pour .NET fournit-il de la documentation et une assistance ?
  : Oui, Aspose.Tasks for .NET propose une documentation complète et une assistance dédiée via son site Web et[forums](https://forum.aspose.com/c/tasks/15).
 ### Q5 : Existe-t-il un essai gratuit disponible pour Aspose.Tasks pour .NET ?
- R : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour .NET depuis leur[site web](https://releases.aspose.com/tasks/net/), pour explorer ses caractéristiques et fonctionnalités avant de faire un achat.
+ R : Oui, vous pouvez accéder à un essai gratuit d'Aspose.Tasks pour .NET depuis leur[site web](https://releases.aspose.com/tasks/net/). pour explorer ses caractéristiques et fonctionnalités avant de faire un achat.

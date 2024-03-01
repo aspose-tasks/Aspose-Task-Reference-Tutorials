@@ -151,7 +151,7 @@ A2: Com certeza, Aspose.Tasks oferece suporte à importação de calendários de
 
 ### P3: Como posso remover um calendário específico de um projeto?
 
-A3: Você pode remover um calendário obtendo-o da coleção e ligando para o`Remove` método.
+ A3: Você pode remover um calendário obtendo-o da coleção e ligando para o`Remove` método.
 
 ### Q4: O Aspose.Tasks oferece suporte à exportação de calendários para diferentes formatos?
 

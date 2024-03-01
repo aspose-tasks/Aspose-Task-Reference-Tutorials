@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## Krok 1: Definujte adresář dokumentů
-Ujistěte se, že máte určený adresář pro vaše dokumenty. nahradit`"Your Document Directory"` s cestou k požadovanému adresáři.
+ Ujistěte se, že máte určený adresář pro vaše dokumenty. Nahradit`"Your Document Directory"` s cestou k požadovanému adresáři.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Krok 2: Načtěte soubor projektu
- Načtěte soubor Microsoft Project (.mpp) pomocí`Project` třída.
+Načtěte soubor Microsoft Project (.mpp) pomocí`Project` třída.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

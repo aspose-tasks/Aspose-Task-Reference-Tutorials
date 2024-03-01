@@ -27,7 +27,7 @@ Um die in diesem Tutorial behandelten Konzepte zu verstehen, ist ein grundlegend
 
 Zunächst müssen Sie die erforderlichen Namespaces in Ihr .NET-Projekt importieren. 
 
- Umfassen die`Aspose.Tasks` Namespace in Ihrem Projekt, um auf die von der Aspose.Tasks-Bibliothek bereitgestellten Klassen und Methoden zuzugreifen.
+ Umfassen die`Aspose.Tasks`Namespace in Ihrem Projekt, um auf die von der Aspose.Tasks-Bibliothek bereitgestellten Klassen und Methoden zuzugreifen.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Lassen Sie uns nun das bereitgestellte Beispiel in mehrere Schritte unterteilen:
 
 ## Schritt 1: Laden Sie die Projektdatei
 
- Beginnen Sie mit dem Laden der Projektdatei mithilfe von`Project`Klassenkonstruktor.
+ Beginnen Sie mit dem Laden der Projektdatei mithilfe von`Project` Klassenkonstruktor.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

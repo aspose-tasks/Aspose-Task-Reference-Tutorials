@@ -33,7 +33,7 @@ var project = new Project("YourProjectFile.mpp");
 ```csharp
 var options = new HtmlSaveOptions();
 ```
-## 步驟 3：將專案資料儲存為 HTML
+## 第 3 步：將項目資料儲存為 HTML
 ```csharp
 project.Save("OutputFilePath.html", options);
 ```

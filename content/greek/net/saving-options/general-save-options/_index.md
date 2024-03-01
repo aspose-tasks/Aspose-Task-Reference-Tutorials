@@ -35,7 +35,7 @@ url: /el/net/saving-options/general-save-options/
 var project = new Project("Your Document Directory/CreateProject2.mpp");
 ```
 ## Βήμα 2: Ορίστε τις επιλογές αποθήκευσης
- Καθορίστε τις επιλογές αποθήκευσης σύμφωνα με τις απαιτήσεις σας. Σε αυτό το παράδειγμα, χρησιμοποιούμε`Spreadsheet2003SaveOptions`,
+ Καθορίστε τις επιλογές αποθήκευσης σύμφωνα με τις απαιτήσεις σας. Σε αυτό το παράδειγμα, χρησιμοποιούμε`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -63,8 +63,8 @@ project.Save("Your Document Directory/UsingSpreadsheet2003SaveOptions_out.xml", 
 ### Ε: Μπορώ να δοκιμάσω το Aspose.Tasks πριν από την αγορά;
  Α: Ναι, μπορείτε να εξερευνήσετε το Aspose.Tasks με διαθέσιμη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 ### Ε: Πού μπορώ να βρω τεκμηρίωση για το Aspose.Tasks;
-Α: Μπορείτε να βρείτε αναλυτική τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/net/), παρέχοντας ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση των δυνατοτήτων Aspose.Tasks.
+ Α: Μπορείτε να βρείτε αναλυτική τεκμηρίωση[εδώ](https://reference.aspose.com/tasks/net/), παρέχοντας ολοκληρωμένη καθοδήγηση σχετικά με τη χρήση των δυνατοτήτων Aspose.Tasks.
 ### Ε: Πώς μπορώ να αποκτήσω προσωρινές άδειες για το Aspose.Tasks;
- Α: Διατίθενται προσωρινές άδειες για σκοπούς αξιολόγησης.[εδώ](https://purchase.aspose.com/temporary-license/).
+ Α: Διατίθενται προσωρινές άδειες για σκοπούς αξιολόγησης[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Ε: Πού μπορώ να αναζητήσω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Tasks;
- Α: Μπορείτε να εγγραφείτε στο φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15) για να λάβετε βοήθεια από ειδικούς και συναδέλφους προγραμματιστές.
+ Α: Μπορείτε να εγγραφείτε στο φόρουμ κοινότητας Aspose.Tasks[εδώ](https://forum.aspose.com/c/tasks/15)για να λάβετε βοήθεια από ειδικούς και συναδέλφους προγραμματιστές.

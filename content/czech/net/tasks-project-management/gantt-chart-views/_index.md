@@ -12,7 +12,7 @@ Ganttovy diagramy jsou výkonné nástroje používané při řízení projektů
 ## Předpoklady
 Než budete pokračovat, ujistěte se, že máte splněny následující předpoklady:
 ### 1. Instalace Aspose.Tasks pro .NET
- Ujistěte se, že jste nainstalovali Aspose.Tasks for .NET. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/tasks/net/) postupujte podle pokynů k instalaci uvedených v dokumentaci[tady](https://reference.aspose.com/tasks/net/).
+ Ujistěte se, že jste nainstalovali Aspose.Tasks for .NET. Knihovnu si můžete stáhnout z[tady](https://releases.aspose.com/tasks/net/) a postupujte podle pokynů k instalaci uvedených v dokumentaci[tady](https://reference.aspose.com/tasks/net/).
 ### 2. Soubor Microsoft Project
 Připravte soubor Microsoft Project (`Project2.mpp`), který budete používat pro práci se zobrazeními Ganttova diagramu.
 ### 3. Základní znalost C# a .NET Framework
@@ -51,7 +51,7 @@ var view = (GanttChartView)project.Views.ToList()[0];
 Z projektu přistupujeme k zobrazení Ganttova diagramu. Aspose.Tasks umožňuje přístup k zobrazením, jako je Ganttův diagram, síťový diagram a využití úloh.
 ## Krok 4: Přizpůsobte zobrazení Ganttova diagramu
 Nyní přizpůsobíme různé aspekty zobrazení Ganttova diagramu:
-### Nastavte zaokrouhlení pruhů
+### Nastavte zaokrouhlení tyče
 ```csharp
 view.BarRounding = false;
 ```
@@ -75,13 +75,13 @@ Definuje barvu pro nepracovní dobu v Ganttově diagramu.
 ```csharp
 view.RollUpGanttBars = true;
 ```
-Určete, zda musí být pruhy v Ganttově diagramu srolované.
+Určuje, zda musí být pruhy v Ganttově diagramu srolovány.
 ### Zobrazit rozdělení pruhů
 ```csharp
 view.ShowBarSplits = true;
 ```
 Určuje, zda se musí zobrazit rozdělení úkolů v Ganttově diagramu.
-### ukázat výkresy
+### Zobrazit výkresy
 ```csharp
 view.ShowDrawings = true;
 ```
@@ -97,7 +97,7 @@ project.Save(DataDir + "WorkWithGanttChartViews_out.pdf", SaveFileFormat.Pdf);
 ```
 Nakonec uložíme přizpůsobené zobrazení Ganttova diagramu jako soubor PDF.
 ## Závěr
-tomto tutoriálu jsme se naučili, jak pracovat se zobrazeními Ganttova diagramu v Aspose.Tasks pro .NET. Dodržováním uvedených kroků můžete efektivně manipulovat a přizpůsobovat Ganttovy diagramy podle požadavků vašeho projektu.
+V tomto tutoriálu jsme se naučili, jak pracovat se zobrazeními Ganttova diagramu v Aspose.Tasks pro .NET. Dodržováním uvedených kroků můžete efektivně manipulovat a přizpůsobovat Ganttovy diagramy podle požadavků vašeho projektu.
 ## FAQ
 ### Otázka: Mohu dále upravit vzhled pruhů Ganttova diagramu?
 Odpověď: Ano, Aspose.Tasks poskytuje rozsáhlé možnosti přizpůsobení vzhledu pruhů Ganttova diagramu, včetně barev, tvarů a velikostí.

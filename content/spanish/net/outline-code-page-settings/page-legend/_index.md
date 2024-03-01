@@ -1,5 +1,5 @@
 ---
-title: Configurar MS Project Legends en Aspose.Tasks
+title: Configuración de leyendas de MS Project en Aspose.Tasks
 linktitle: Configurar la leyenda de la página en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Aprenda a configurar las leyendas de las páginas de MS Project en .NET usando Aspose.Tasks para una gestión eficiente de proyectos. Se proporciona una guía paso a paso.
@@ -11,7 +11,7 @@ url: /es/net/outline-code-page-settings/page-legend/
 En el ámbito del desarrollo .NET, gestionar tareas de manera eficiente es crucial, especialmente cuando se trata de gestión de proyectos. Aspose.Tasks para .NET surge como una poderosa herramienta que ofrece una gran cantidad de funcionalidades para agilizar los procesos de gestión de tareas. Una de esas características es la capacidad de configurar leyendas de páginas de MS Project, lo que proporciona a los usuarios información valiosa sobre la presentación de datos del proyecto.
 ## Requisitos previos
 Antes de profundizar en la configuración de las leyendas de las páginas de MS Project usando Aspose.Tasks para .NET, asegúrese de que se cumplan los siguientes requisitos previos:
-1.  Instalación: Tenga instalado Aspose.Tasks para .NET en su entorno de desarrollo. Puedes descargarlo desde[aquí](https://releases.aspose.com/tasks/net/).
+1. Instalación: Tenga instalado Aspose.Tasks para .NET en su entorno de desarrollo. Puedes descargarlo desde[aquí](https://releases.aspose.com/tasks/net/).
 2. Conocimientos básicos de .NET: familiarícese con los conceptos básicos del desarrollo de .NET, incluida la configuración de proyectos y el trabajo con espacios de nombres.
 3. Entorno de desarrollo: utilice un entorno de desarrollo integrado (IDE), como Visual Studio, para disfrutar de una experiencia de codificación perfecta.
 4. Archivo de proyecto: tenga un archivo de Microsoft Project (MPP) listo para experimentar.

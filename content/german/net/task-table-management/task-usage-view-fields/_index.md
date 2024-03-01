@@ -8,7 +8,7 @@ weight: 25
 url: /de/net/task-table-management/task-usage-view-fields/
 ---
 ## Einführung
-Im Bereich Projektmanagement stellt Aspose.Tasks für .NET eine robuste Lösung dar, die Entwicklern ein leistungsstarkes Toolkit zur Bearbeitung und Verwaltung von Projektdaten bietet. Eine der bemerkenswerten Funktionen ist die Aufgabenverwendungsansicht, die Einblicke in verschiedene Bereiche bietet, die die Sichtbarkeit des Projekts verbessern. In diesem Tutorial befassen wir uns mit den Feinheiten der Aufgabenverwendungsansichtsfelder mit Aspose.Tasks für .NET und schlüsseln jeden Schritt auf, um ein umfassendes Verständnis zu ermöglichen.
+Im Bereich des Projektmanagements stellt Aspose.Tasks für .NET eine robuste Lösung dar, die Entwicklern ein leistungsstarkes Toolkit zur Bearbeitung und Verwaltung von Projektdaten bietet. Eine der bemerkenswerten Funktionen ist die Aufgabenverwendungsansicht, die Einblicke in verschiedene Bereiche bietet, die die Sichtbarkeit des Projekts verbessern. In diesem Tutorial befassen wir uns mit den Feinheiten der Aufgabenverwendungsansichtsfelder mithilfe von Aspose.Tasks für .NET und schlüsseln jeden Schritt für ein umfassendes Verständnis auf.
 ## Voraussetzungen
 Bevor wir uns auf diese Reise begeben, stellen Sie sicher, dass Sie über die folgenden Voraussetzungen verfügen:
 -  Aspose.Tasks für .NET-Bibliothek: Laden Sie die Bibliothek herunter und installieren Sie sie von[Aspose.Tasks für die .NET-Dokumentation](https://reference.aspose.com/tasks/net/).
@@ -57,7 +57,7 @@ In diesem Tutorial haben wir die Vielfalt von Aspose.Tasks für .NET untersucht 
 ### Kann ich Aspose.Tasks für .NET mit anderen Projektmanagement-Tools verwenden?
 Aspose.Tasks konzentriert sich hauptsächlich auf .NET-Anwendungen. Sie können Daten jedoch in verschiedene Formate exportieren, die mit anderen Tools kompatibel sind.
 ### Ist eine kostenlose Testversion für Aspose.Tasks für .NET verfügbar?
-Ja, Sie können die Funktionalitäten von Aspose.Tasks für .NET erleben, indem Sie eine kostenlose Testversion erwerben[Hier](https://releases.aspose.com/).
+ Ja, Sie können die Funktionalitäten von Aspose.Tasks für .NET erleben, indem Sie eine kostenlose Testversion erwerben[Hier](https://releases.aspose.com/).
 ### Wie erhalte ich Unterstützung für Aspose.Tasks für .NET?
  Besuche den[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15) für Community-basierten Support oder erkunden Sie die umfassende Dokumentation.
 ### Sind temporäre Lizenzen für Aspose.Tasks für .NET verfügbar?

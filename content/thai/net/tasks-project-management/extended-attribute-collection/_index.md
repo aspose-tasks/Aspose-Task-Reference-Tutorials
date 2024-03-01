@@ -81,7 +81,7 @@ task.ExtendedAttributes.Add(extendedAttribute2);
 task.ExtendedAttributes.RemoveAt(0);
 task.ExtendedAttributes.Remove(extendedAttribute2);
 ```
-## ขั้นตอนที่ 9: คัดลอกแอตทริบิวต์ไปยังงานอื่น
+## ขั้นตอนที่ 9: คัดลอกคุณลักษณะไปยังงานอื่น
 คัดลอกแอตทริบิวต์ไปยังงานอื่นภายในโปรเจ็กต์เดียวกันหรือต่างกัน:
 ```csharp
 var otherProject = new Project();

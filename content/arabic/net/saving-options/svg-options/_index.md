@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## الخطوة 1: تحديد دليل المستندات
-تأكد من أن لديك دليلاً مخصصًا لمستنداتك. يستبدل`"Your Document Directory"` مع المسار إلى الدليل المطلوب.
+ تأكد من أن لديك دليلاً مخصصًا لمستنداتك. يستبدل`"Your Document Directory"` مع المسار إلى الدليل المطلوب.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## الخطوة 2: تحميل ملف المشروع
- قم بتحميل ملف Microsoft Project (.mpp) باستخدام الملف`Project` فصل.
+قم بتحميل ملف Microsoft Project (.mpp) باستخدام الملف`Project` فصل.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

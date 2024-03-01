@@ -9,7 +9,7 @@ url: /id/net/advanced-concepts/tree-algorithm/
 ---
 ## Perkenalan
 
-Aspose.Tasks untuk .NET menyediakan fungsionalitas canggih untuk bekerja dengan tugas, sumber daya, dan jadwal manajemen proyek. Salah satu fitur tersebut adalah Algoritma Pohon, yang memungkinkan pengguna memanipulasi hierarki tugas secara efisien. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Algoritma Pohon di Aspose.Tasks untuk .NET untuk mengumpulkan pekerjaan umum dan memperbarui nilai pekerjaan dalam sebuah proyek.
+Aspose.Tasks untuk .NET menyediakan fungsionalitas canggih untuk bekerja dengan tugas, sumber daya, dan jadwal manajemen proyek. Salah satu fitur tersebut adalah Algoritma Pohon, yang memungkinkan pengguna memanipulasi hierarki tugas secara efisien. Dalam tutorial ini, kita akan mempelajari cara memanfaatkan Algoritma Pohon di Aspose.Tasks untuk .NET guna mengumpulkan pekerjaan umum dan memperbarui nilai pekerjaan dalam sebuah proyek.
 
 ## Prasyarat
 

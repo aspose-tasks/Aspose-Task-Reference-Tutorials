@@ -11,7 +11,7 @@ url: /zh-hant/net/task-table-management/table-fields/
 歡迎來到 Aspose.Tasks for .NET 的世界，這是一個功能強大的程式庫，可以在 .NET 應用程式中無縫操作 Microsoft Project 檔案。在本教程中，我們將深入研究 Aspose.Tasks 中處理表格欄位的複雜性，讓您能夠有效率地讀取和管理專案表。無論您是經驗豐富的開發人員還是新手，本逐步指南都將幫助您充分發揮 Aspose.Tasks 的潛力。
 ## 先決條件
 在我們開始這趟旅程之前，請確保您具備以下先決條件：
--  Aspose.Tasks 函式庫：下載並安裝 Aspose.Tasks for .NET 函式庫。你可以找到它[這裡](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks 函式庫：下載並安裝 Aspose.Tasks for .NET 函式庫。你可以找到它[這裡](https://releases.aspose.com/tasks/net/).
 - 開發環境：確保您的電腦上設定了適當的開發環境，例如 Visual Studio。
 現在，讓我們深入了解處理表格欄位的實質內容。
 ## 導入命名空間

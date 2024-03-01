@@ -31,7 +31,7 @@ Innanzitutto, imposta il percorso della directory contenente il file MS Project.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- sostituire`"Your Document Directory"` con il percorso effettivo del file di progetto.
+ Sostituire`"Your Document Directory"` con il percorso effettivo del file di progetto.
 ## Passaggio 2: caricare il file di progetto
  Istanziarne uno nuovo`Project` oggetto caricando il file MS Project.
 ```csharp

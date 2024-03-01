@@ -112,4 +112,4 @@ project.Save(DataDir + "PrintProjectPagesToSeparateFiles_out.png", options);
 
 ### คำถามที่ 5: Aspose.Tasks สำหรับ .NET มีเวอร์ชันทดลองใช้งานหรือไม่
 
- ตอบ: ได้ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้[Aspose.Tasks สำหรับ .NET จาก](https://forum.aspose.com/c/tasks/15), เพื่อสำรวจคุณสมบัติต่างๆ ก่อนตัดสินใจซื้อ
+ ตอบ: ได้ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้[Aspose.Tasks สำหรับ .NET จาก](https://forum.aspose.com/c/tasks/15). เพื่อสำรวจคุณสมบัติต่างๆ ก่อนตัดสินใจซื้อ

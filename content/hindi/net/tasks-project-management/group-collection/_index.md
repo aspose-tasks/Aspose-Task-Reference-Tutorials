@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks में प्रोजेक्ट संग्रह का प्रबंधन करना
-linktitle: Aspose में समूह संग्रह का प्रबंधन। कार्य
+linktitle: Aspose.Tasks में समूह संग्रह का प्रबंधन करना
 second_title: Aspose.Tasks .NET API
 description: .NET के लिए Aspose.Tasks का उपयोग करके MS प्रोजेक्ट संग्रहों को कुशलतापूर्वक प्रबंधित करना सीखें। हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें.
 type: docs
@@ -16,7 +16,7 @@ url: /hi/net/tasks-project-management/group-collection/
 3. विकास परिवेश: एक विकास परिवेश स्थापित करें जैसे विज़ुअल स्टूडियो या कोई अन्य आईडीई जो .NET विकास का समर्थन करता हो।
 
 ## नामस्थान आयात करें
-सबसे पहले, आइए Aspose के साथ काम करने के लिए आवश्यक नेमस्पेस आयात करें। हमारे C# कोड में कार्य कार्यक्षमताएँ।
+सबसे पहले, आइए अपने C# कोड में Aspose.Tasks कार्यात्मकताओं के साथ काम करने के लिए आवश्यक नामस्थान आयात करें।
 
 ```csharp
 using Aspose.Tasks;
@@ -30,7 +30,7 @@ using System.Collections.Generic;
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
-इस चरण में MS प्रोजेक्ट फ़ाइल को Aspose. Tasks प्रोजेक्ट ऑब्जेक्ट में लोड करना शामिल है, जिससे हमें उस पर ऑपरेशन करने की अनुमति मिलती है।
+इस चरण में MS प्रोजेक्ट फ़ाइल को Aspose.Tasks प्रोजेक्ट ऑब्जेक्ट में लोड करना शामिल है, जिससे हमें उस पर संचालन करने की अनुमति मिलती है।
 ## चरण 2: कार्य समूहों पर पुनरावृति करें
 ```csharp
 Console.WriteLine("Print task groups of {0} project: ", project.Get(Prj.Name));
@@ -54,7 +54,7 @@ foreach (var group in project.ResourceGroups)
     Console.WriteLine("Resource group ShowInMenu" + group.ShowInMenu);
 }
 ```
-इसी तरह, यह चरण मेनू में उनके सूचकांक, नाम और दृश्यता को प्रदर्शित करते हुए संसाधन समूहों पर पुनरावृत्त होता है।
+इसी प्रकार, यह चरण मेनू में उनके सूचकांक, नाम और दृश्यता को प्रदर्शित करते हुए संसाधन समूहों पर पुनरावृत्त होता है।
 ## चरण 4: समूहों को साफ़ करें और दूसरे प्रोजेक्ट में कॉपी करें
 ```csharp
 var otherProject = new Project(DataDir + "Blank2010.mpp");

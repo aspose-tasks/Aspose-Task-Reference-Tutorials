@@ -71,6 +71,6 @@ Sangat! Aspose.Tasks memberikan fleksibilitas dalam menentukan kode WBS sesuai d
 ### Apakah ada versi uji coba yang tersedia?
  Ya kamu bisa[unduh uji coba gratis](https://releases.aspose.com/) untuk menjelajahi fitur sebelum melakukan pembelian.
 ### Bagaimana saya bisa mendapatkan dukungan komunitas untuk Aspose.Tasks?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk berhubungan dengan masyarakat dan mencari bantuan.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk berhubungan dengan masyarakat dan mencari bantuan.
 ### Apakah lisensi sementara tersedia?
- Ya, Anda bisa mendapatkan[izin sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.
+ Ya, Anda bisa mendapatkan a[izin sementara](https://purchase.aspose.com/temporary-license/) untuk tujuan pengujian.

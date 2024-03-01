@@ -85,7 +85,7 @@ Aspose.Tasks는 주로 .NET 개발을 위해 설계되었습니다. 그러나 �
 ### .NET용 Aspose.Tasks에 대한 무료 평가판이 있습니까?
  예, 무료 평가판을 사용해 볼 수 있습니다[여기](https://releases.aspose.com/).
 ### .NET용 Aspose.Tasks에 대한 지원을 어떻게 받을 수 있나요?
- 방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)지역 사회 지원을 위해.
+ 방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역 사회 지원을 위해.
 ### 임시 라이센스란 무엇이며 어떻게 얻을 수 있나요?
  임시 라이선스에 대해 알아보기[여기](https://purchase.aspose.com/temporary-license/).
 ### .NET용 Aspose.Tasks에 대한 설명서는 어디에서 찾을 수 있나요?

@@ -17,7 +17,7 @@ Voordat we beginnen, zorg ervoor dat u over het volgende beschikt:
 
 1. Kennis van de programmeertaal C#: u moet een basiskennis hebben van de syntaxis en concepten van C#.
    
-2. Installatie van Aspose.Tasks voor .NET: Zorg ervoor dat u de Aspose.Tasks-bibliotheek in uw ontwikkelomgeving hebt geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
+2.  Installatie van Aspose.Tasks voor .NET: Zorg ervoor dat u de Aspose.Tasks-bibliotheek in uw ontwikkelomgeving hebt geïnstalleerd. Je kunt het downloaden van[hier](https://releases.aspose.com/tasks/net/).
 
 3. Ontwikkelingsomgeving instellen: Stel uw favoriete IDE in voor .NET-ontwikkeling, zoals Visual Studio.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## Stap 2: Configureer de opties voor het opslaan van afbeeldingen
 
- Definiëren`ImageSaveOptions` en pas het gedrag voor het opslaan van pagina's aan door de`PageSavingCallback` eigendom:
+ Definiëren`ImageSaveOptions`en pas het gedrag voor het opslaan van pagina's aan door de`PageSavingCallback` eigendom:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);

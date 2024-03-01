@@ -75,4 +75,4 @@ Trả lời: Aspose.Tasks cho phép bạn tùy chỉnh số lượng cột sẽ 
 ### Câu hỏi: Aspose.Tasks có tương thích với tất cả các phiên bản Microsoft Project không?
 Trả lời: Aspose.Tasks cung cấp khả năng tương thích với Microsoft Project 2003 và các phiên bản mới hơn.
 ### Câu hỏi: Tôi có thể tìm thêm trợ giúp hoặc hỗ trợ cho Aspose.Tasks ở đâu?
- Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15)nếu có bất kỳ thắc mắc hoặc vấn đề nào bạn gặp phải trong quá trình sử dụng.
+ Đáp: Bạn có thể ghé thăm[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) nếu có bất kỳ thắc mắc hoặc vấn đề nào bạn gặp phải trong quá trình sử dụng.

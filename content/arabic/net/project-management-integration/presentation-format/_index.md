@@ -17,7 +17,7 @@ url: /ar/net/project-management-integration/presentation-format/
 
 ### 1. قم بتثبيت Aspose.Tasks لـ .NET
 
- إذا لم تكن قد قمت بذلك بالفعل، فقم بتنزيل Aspose.Tasks وتثبيته لـ .NET من[صفحة التحميل](https://releases.aspose.com/tasks/net/), اتبع تعليمات التثبيت المقدمة لإعداده بشكل صحيح.
+ إذا لم تكن قد قمت بذلك بالفعل، فقم بتنزيل Aspose.Tasks وتثبيته لـ .NET من[صفحة التحميل](https://releases.aspose.com/tasks/net/). اتبع تعليمات التثبيت المقدمة لإعداده بشكل صحيح.
 
 ### 2. قم باستيراد مساحات الأسماء الضرورية
 

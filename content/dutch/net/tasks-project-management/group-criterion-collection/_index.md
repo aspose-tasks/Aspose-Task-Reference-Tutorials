@@ -69,7 +69,7 @@ Wis bestaande groepscriteria als deze niet alleen-lezen zijn.
 group.GroupCriteria.Clear();
 ```
 
-## Stap 5: Voeg nieuwe criteria toe
+## Stap 5: Nieuw criterium toevoegen
 
 Maak een nieuw groepscriterium aan en voeg dit toe aan de groep.
 
@@ -125,4 +125,4 @@ A: Absoluut, u kunt meerdere criteria aan een groep toevoegen door ze allemaal t
 
 ### Vraag 5: Hoe kan ik ondersteuning krijgen als ik problemen tegenkom?
 
- A: Als u vragen heeft of problemen ondervindt, kunt u ondersteuning zoeken op het Aspose.Tasks-forum.[hier](https://forum.aspose.com/c/tasks/15).
+ A: Als u vragen heeft of problemen ondervindt, kunt u ondersteuning zoeken op het Aspose.Tasks-forum[hier](https://forum.aspose.com/c/tasks/15).

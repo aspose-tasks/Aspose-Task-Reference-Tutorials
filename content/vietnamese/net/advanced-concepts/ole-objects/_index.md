@@ -15,7 +15,7 @@ Aspose.Tasks for .NET cung cấp chức năng toàn diện để làm việc v�
 
 Trước khi chúng ta bắt đầu, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 
-1. Cài đặt: Đảm bảo bạn đã cài đặt Aspose.Tasks for .NET trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
+1.  Cài đặt: Đảm bảo bạn đã cài đặt Aspose.Tasks for .NET trong môi trường phát triển của mình. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
 
 2. Kiến thức cơ bản: Làm quen với ngôn ngữ lập trình C# và các khái niệm .NET framework.
 

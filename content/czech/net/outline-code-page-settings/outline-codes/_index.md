@@ -31,7 +31,7 @@ Nejprve nastavte cestu k adresáři obsahujícímu váš soubor MS Project.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- nahradit`"Your Document Directory"` se skutečnou cestou k souboru vašeho projektu.
+ Nahradit`"Your Document Directory"` se skutečnou cestou k souboru vašeho projektu.
 ## Krok 2: Načtěte soubor projektu
  Vytvořte nový`Project` objekt načtením souboru MS Project.
 ```csharp
@@ -62,7 +62,7 @@ Tento fragment kódu prochází každou úlohou, kontroluje, zda obsahuje kódy 
 Závěrem lze říci, že Aspose.Tasks for .NET poskytuje výkonné funkce pro programovou správu kódů osnovy Microsoft Project. Podle kroků uvedených v tomto kurzu můžete efektivně číst a manipulovat s kódy osnovy v souborech MS Project pomocí C#.
 ## FAQ
 ### Otázka: Mohu upravit kódy osnovy pomocí Aspose.Tasks?
-Odpověď: Ano, kódy osnovy můžete upravit programově pomocí Aspose.Tasks pro .NET. Jednoduše přistupujte k obrysovým kódům úkolů a podle potřeby aktualizujte jejich hodnoty.
+Odpověď: Ano, kódy osnovy můžete upravit programově pomocí Aspose.Tasks pro .NET. Jednoduše přistupujte k přehledovým kódům úkolů a podle potřeby aktualizujte jejich hodnoty.
 ### Otázka: Je Aspose.Tasks kompatibilní se všemi verzemi Microsoft Project?
 Odpověď: Aspose.Tasks podporuje širokou škálu verzí Microsoft Project, včetně 2003, 2007, 2010, 2013, 2016 a 2019.
 ### Otázka: Vyžaduje Aspose.Tasks licenci pro komerční použití?

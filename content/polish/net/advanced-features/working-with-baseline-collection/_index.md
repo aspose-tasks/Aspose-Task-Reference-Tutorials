@@ -18,7 +18,7 @@ Zanim zaczniemy pracować z kolekcjami bazowymi w Aspose.Tasks, upewnij się, ż
 1. Visual Studio: Zainstaluj Visual Studio IDE w swoim systemie.
 2.  Aspose.Tasks dla .NET: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET z[link do pobrania](https://releases.aspose.com/tasks/net/).
 3. Podstawowa znajomość języka C#: Zapoznaj się z językiem programowania C#.
-4. Plik Microsoft Project: Przygotuj plik Microsoft Project (.mpp) do celów testowych.
+4. Plik Microsoft Project: przygotuj plik Microsoft Project (.mpp) do celów testowych.
 
 ## Importuj przestrzenie nazw
 
@@ -93,7 +93,7 @@ foreach (var baseline in baselines)
 
 ## Wniosek
 
-W tym samouczku omówiliśmy, jak pracować z kolekcjami bazowymi w Aspose.Tasks dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, można łatwo zarządzać poziomami bazowymi w aplikacjach .NET, umożliwiając efektywne śledzenie i analizę projektu.
+tym samouczku omówiliśmy, jak pracować z kolekcjami linii bazowych w Aspose.Tasks dla .NET. Postępując zgodnie z przewodnikiem krok po kroku, można łatwo zarządzać poziomami bazowymi w aplikacjach .NET, umożliwiając efektywne śledzenie i analizę projektu.
 
 ## Często zadawane pytania
 

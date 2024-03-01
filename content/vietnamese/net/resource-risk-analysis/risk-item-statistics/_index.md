@@ -11,7 +11,7 @@ url: /vi/net/resource-risk-analysis/risk-item-statistics/
 Bạn đang tìm cách nâng cao năng lực quản lý dự án của mình bằng Aspose.Tasks cho .NET? Đi sâu vào lĩnh vực phân tích rủi ro với hướng dẫn từng bước của chúng tôi về cách thu thập số liệu thống kê về các mục rủi ro trong tệp MS Project. Bằng cách tận dụng các khả năng mạnh mẽ của Aspose.Tasks, bạn có thể có được những hiểu biết sâu sắc vô giá về những điều không chắc chắn của dự án và đưa ra quyết định sáng suốt để giảm thiểu rủi ro một cách hiệu quả.
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu cuộc hành trình này, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-1.  Aspose.Tasks for .NET Library: Tải xuống và cài đặt thư viện từ[Aspose.Tasks cho tài liệu .NET](https://reference.aspose.com/tasks/net/), Thư viện này trang bị cho bạn các công cụ mạnh mẽ để thao tác các tệp MS Project theo chương trình.
+1.  Aspose.Tasks for .NET Library: Tải xuống và cài đặt thư viện từ[Aspose.Tasks cho tài liệu .NET](https://reference.aspose.com/tasks/net/). Thư viện này trang bị cho bạn các công cụ mạnh mẽ để thao tác các tệp MS Project theo chương trình.
 2. Môi trường phát triển .NET: Thiết lập môi trường phát triển .NET của bạn, bao gồm Visual Studio hoặc bất kỳ IDE nào khác mà bạn chọn, để tạo điều kiện tích hợp liền mạch Aspose.Tasks vào các dự án của bạn.
 
 ## Nhập không gian tên
@@ -27,7 +27,7 @@ using Aspose.Tasks.RiskAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- Đảm bảo thay thế`"Your Document Directory"`với đường dẫn đến thư mục tài liệu nơi chứa các tệp MS Project của bạn.
+ Đảm bảo thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu nơi chứa các tệp MS Project của bạn.
 ## Bước 2: Định cấu hình cài đặt phân tích rủi ro
 ```csharp
 var settings = new RiskAnalysisSettings
@@ -35,7 +35,7 @@ var settings = new RiskAnalysisSettings
     IterationsCount = 200
 };
 ```
- Điều chỉnh`IterationsCount` tham số dựa trên yêu cầu dự án của bạn để kiểm soát độ chính xác của phân tích rủi ro.
+ Điều chỉnh`IterationsCount`tham số dựa trên yêu cầu dự án của bạn để kiểm soát độ chính xác của phân tích rủi ro.
 ## Bước 3: Tải tệp dự án MS
 ```csharp
 var project = new Project(DataDir + "Software Development Plan-1.mpp");

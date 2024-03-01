@@ -13,7 +13,7 @@ In deze zelfstudie gaan we in op de fijne kneepjes van het omgaan met Microsoft 
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
 
 ## Naamruimten importeren
-1. Aspose.Tasks: importeer de naamruimte Aspose.Tasks om toegang te krijgen tot de functionaliteit van de Aspose.Tasks API.
+1. Aspose.Tasks: Importeer de Aspose.Tasks-naamruimte om toegang te krijgen tot de functionaliteit van de Aspose.Tasks API.
 ```csharp
 using Aspose.Tasks;
 using System;
@@ -23,7 +23,7 @@ using System.Net;
 ```
 
 ## Stap 1: Documentmap instellen
- Zorg ervoor dat u een aangewezen map heeft om met uw projectbestanden te werken. vervangen`"Your Document Directory"` met het pad naar uw documentmap.
+ Zorg ervoor dat u een aangewezen map heeft om met uw projectbestanden te werken. Vervangen`"Your Document Directory"` met het pad naar uw documentmap.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -71,6 +71,6 @@ A: Ja, Aspose.Tasks biedt uitgebreide ondersteuning voor het werken met verschil
 ### Vraag: Waar kan ik documentatie vinden voor Aspose.Tasks?
  A: Er is gedetailleerde documentatie voor Aspose.Tasks beschikbaar[hier](https://reference.aspose.com/tasks/net/).
 ### Vraag: Hoe kan ik ondersteuning krijgen voor Aspose.Tasks?
- A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum.[hier](https://forum.aspose.com/c/tasks/15).
+A: U kunt ondersteuning krijgen van het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15).
 ### Vraag: Hoe koop ik een licentie voor Aspose.Tasks?
  A: U kunt een licentie voor Aspose.Tasks kopen bij de[aankooppagina](https://purchase.aspose.com/buy).

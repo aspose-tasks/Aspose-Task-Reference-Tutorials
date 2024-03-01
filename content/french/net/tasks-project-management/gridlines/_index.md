@@ -112,4 +112,4 @@ R : Absolument, vous pouvez personnaliser non seulement le motif mais également
 
 ### Q5 : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour .NET ?
 
- R : Oui, vous pouvez télécharger une version d'essai gratuite de[Aspose.Tasks pour .NET à partir de](https://forum.aspose.com/c/tasks/15), pour explorer ses fonctionnalités avant de faire un achat.
+ R : Oui, vous pouvez télécharger une version d'essai gratuite de[Aspose.Tasks pour .NET à partir de](https://forum.aspose.com/c/tasks/15). pour explorer ses fonctionnalités avant de faire un achat.

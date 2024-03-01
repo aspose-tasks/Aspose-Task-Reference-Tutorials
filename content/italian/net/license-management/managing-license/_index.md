@@ -13,7 +13,7 @@ La gestione delle licenze è un aspetto cruciale dell'utilizzo efficace di Aspos
 Prima di approfondire la gestione delle licenze con Aspose.Tasks in .NET, assicurati di avere i seguenti prerequisiti:
 - Conoscenza di base del linguaggio di programmazione C# e del framework .NET.
 - Aspose.Tasks installato per .NET.
-- Accesso a un file di licenza Aspose.Tasks valido (`.lic`,
+- Accesso a un file di licenza Aspose.Tasks valido (`.lic`).
 ## Importa spazi dei nomi
 Prima di poter iniziare a utilizzare Aspose.Tasks nel tuo progetto .NET, devi importare gli spazi dei nomi necessari. Questi spazi dei nomi forniscono l'accesso alle classi e ai metodi richiesti per la gestione delle licenze.
 

@@ -11,7 +11,7 @@ url: /zh/net/task-table-management/table-fields/
 欢迎来到 Aspose.Tasks for .NET 的世界，这是一个功能强大的库，可以在 .NET 应用程序中无缝操作 Microsoft Project 文件。在本教程中，我们将深入研究 Aspose.Tasks 中处理表字段的复杂性，让您能够高效地读取和管理项目表。无论您是经验丰富的开发人员还是新手，本分步指南都将帮助您充分发挥 Aspose.Tasks 的潜力。
 ## 先决条件
 在我们开始这一旅程之前，请确保您具备以下先决条件：
--  Aspose.Tasks 库：下载并安装 Aspose.Tasks for .NET 库。你可以找到它[这里](https://releases.aspose.com/tasks/net/).
+- Aspose.Tasks 库：下载并安装 Aspose.Tasks for .NET 库。你可以找到它[这里](https://releases.aspose.com/tasks/net/).
 - 开发环境：确保您的计算机上设置了合适的开发环境，例如 Visual Studio。
 现在，让我们深入了解处理表字段的实质内容。
 ## 导入命名空间

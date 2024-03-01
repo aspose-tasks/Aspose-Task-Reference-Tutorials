@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 กำหนดรายละเอียดการเข้ารหัส รวมถึงรหัสผ่านผู้ใช้ รหัสผ่านของเจ้าของ อัลกอริธึมการเข้ารหัส และการอนุญาต:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //รหัสผ่านผู้ใช้
+    "userPassword",        // รหัสผ่านผู้ใช้
     "ownerPassword",       // รหัสผ่านของเจ้าของ
     PdfEncryptionAlgorithm.RC4_128);  // อัลกอริธึมการเข้ารหัส
 // ระบุสิทธิ์

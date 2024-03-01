@@ -8,7 +8,7 @@ weight: 18
 url: /zh-hant/net/tasks-project-management/filter-criteria/
 ---
 ## 介紹
-在專案管理領域，Microsoft Project 是一款強大的工具，提供大量功能來幫助專案規劃者和經理。其眾多功能包括過濾專案資料的能力，使用戶能夠專注於專案任務的特定方面。然而，如果沒有正確的指導，掌握這些過濾功能可能是一項艱鉅的任務。本教程旨在透過提供使用 Aspose.Tasks for .NET 在 MS Project 中實現標準過濾器的逐步指南來揭開該過程的神秘面紗。
+在專案管理領域，Microsoft Project 是一款強大的工具，提供大量功能來幫助專案規劃者和經理。其眾多功能包括過濾專案資料的能力，使用戶能夠專注於專案任務的特定方面。然而，如果沒有正確的指導，掌握這些過濾功能可能是一項艱鉅的任務。本教程旨在透過提供有關使用 Aspose.Tasks for .NET 在 MS Project 中實現過濾條件的逐步指南來揭開該過程的神秘面紗。
 ## 先決條件
 在深入學習本教程之前，請確保您具備以下先決條件：
 1. 對 C# 的基本了解：要掌握本教學中介紹的概念，需要熟悉 C# 程式語言。
@@ -51,7 +51,7 @@ foreach (var row in filter.Criteria.CriteriaRows)
     Console.WriteLine("Value{0}: {1}", values.Length == 1 ? "" : "s", string.Join(", ", values));
 }
 ```
-說明：本部分迭代過濾器的每個條件行並顯示其欄位、操作、測試和值（如果有）。
+說明：此部分迭代過濾器的每個條件行並顯示其欄位、操作、測試和值（如果有）。
 ## 第 4 步：列印過濾條件
 ```csharp
 Console.WriteLine(filter.Criteria.Operation.ToString());

@@ -9,7 +9,7 @@ url: /ru/net/advanced-concepts/nullable-booleans/
 ---
 ## Введение
 
- В этом уроке мы углубимся в работу с логическими значениями, допускающими значение NULL, в Aspose.Tasks для .NET. Логические значения, допускающие значение NULL, обеспечивают гибкость в представлении логических значений, допуская возможность неопределенности. Мы рассмотрим, как использовать`NullableBool` класс, его конструкторы, свойства и методы.
+В этом уроке мы углубимся в работу с логическими значениями, допускающими значение NULL, в Aspose.Tasks для .NET. Логические значения, допускающие значение NULL, обеспечивают гибкость в представлении логических значений, допуская возможность неопределенности. Мы рассмотрим, как использовать`NullableBool` класс, его конструкторы, свойства и методы.
 
 ## Предварительные условия
 
@@ -34,7 +34,7 @@ using System.Diagnostics.CodeAnalysis;
 
 ##  Работать с`NullableBool`
 
-###  Шаг 1: Создайте новый`Project` instance.
+###  Шаг 1. Создайте новый`Project` instance.
 
 ```csharp
 var project = new Project();
@@ -53,7 +53,7 @@ Console.WriteLine("'ActualsInSync' Value: " + actualsInSync.Value);
 Console.WriteLine("'ActualsInSync' Is Defined: " + actualsInSync.IsDefined);
 ```
 
-###  Шаг 4. Используйте`NullableBool` instance by setting it in the project.
+###  Шаг 4: Используйте`NullableBool` instance by setting it in the project.
 
 ```csharp
 project.Set(Prj.ActualsInSync, actualsInSync);
@@ -65,7 +65,7 @@ project.Set(Prj.ActualsInSync, actualsInSync);
 var honorConstraints = new NullableBool(true);
 ```
 
-### Шаг 6. Отобразите строковое представление`NullableBool` object.
+###  Шаг 6. Отобразите строковое представление`NullableBool` object.
 
 ```csharp
 Console.WriteLine("'HonorConstraints' ToString: " + honorConstraints.ToString());
@@ -121,7 +121,7 @@ var bool1 = new NullableBool(true);
 var bool2 = new NullableBool(true, false);
 ```
 
-###  Шаг 2. Распечатайте хэш-код для каждого`NullableBool` object.
+### Шаг 2. Распечатайте хеш-код для каждого`NullableBool` object.
 
 ```csharp
 Console.WriteLine("Bool 1: {0} Hash Code 1: {1}", bool1.ToString(), bool1.GetHashCode());
@@ -130,7 +130,7 @@ Console.WriteLine("Bool 2: {0} Hash Code 1: {1}", bool2.ToString(), bool2.GetHas
 
 ## Заключение
 
- В этом уроке мы рассмотрели, как обрабатывать логические значения, допускающие значение NULL, в Aspose.Tasks для .NET. Используя`NullableBool` class и его методы, вы можете эффективно управлять логическими значениями с дополнительной гибкостью, допускающей обнуление.
+ В этом уроке мы рассмотрели, как обрабатывать логические значения, допускающие значение NULL, в Aspose.Tasks для .NET. Используя`NullableBool` и его методы, вы можете эффективно управлять логическими значениями с дополнительной гибкостью, допускающей значение NULL.
 
 ## Часто задаваемые вопросы
 
@@ -142,7 +142,7 @@ A1: Логическое значение, допускающее значени
 
 A2. Логические значения, допускающие значение NULL, обеспечивают гибкость в сценариях, где логическое значение не всегда может быть определено.
 
-### Вопрос 3. Как сравниваются логические значения, допускающие значение NULL, на предмет равенства?
+### Вопрос 3. Как сравниваются логические значения, допускающие значение NULL, на равенство?
 
 A3: Логические значения, допускающие значение NULL, сравниваются на основе их определенного статуса и значений.
 

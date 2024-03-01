@@ -17,7 +17,7 @@ Innan vi börjar, se till att du har följande:
 
 1. Kunskaper i C# programmeringsspråk: Du bör ha en grundläggande förståelse för C# syntax och begrepp.
    
-2. Installation av Aspose.Tasks för .NET: Se till att du har installerat Aspose.Tasks-biblioteket i din utvecklingsmiljö. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
+2.  Installation av Aspose.Tasks för .NET: Se till att du har installerat Aspose.Tasks-biblioteket i din utvecklingsmiljö. Du kan ladda ner den från[här](https://releases.aspose.com/tasks/net/).
 
 3. Inställning av utvecklingsmiljö: Konfigurera din föredragna IDE för .NET-utveckling, till exempel Visual Studio.
 
@@ -44,7 +44,7 @@ var project = new Project(DataDir + "Homemoveplan.mpp");
 
 ## Steg 2: Konfigurera bildsparalternativ
 
- Definiera`ImageSaveOptions` och anpassa sidsparbeteendet genom att ställa in`PageSavingCallback` fast egendom:
+ Definiera`ImageSaveOptions`och anpassa sidsparbeteendet genom att ställa in`PageSavingCallback` fast egendom:
 
 ```csharp
 var imageSaveOptions = new ImageSaveOptions(SaveFileFormat.Png);
@@ -98,7 +98,7 @@ private sealed class CustomPageSavingCallback : IPageSavingCallback
 
 ## Slutsats:
 
-den här handledningen har vi lärt oss hur man implementerar en sidsparande callback i Aspose.Tasks för .NET, vilket gör att vi kan spara flersidiga dokument till separata strömmar. Genom att följa dessa steg kan du förbättra din applikations funktionalitet och uppnå anpassad utdatahantering.
+I den här handledningen har vi lärt oss hur man implementerar en sidsparande callback i Aspose.Tasks för .NET, vilket gör att vi kan spara flersidiga dokument till separata strömmar. Genom att följa dessa steg kan du förbättra din applikations funktionalitet och uppnå anpassad utdatahantering.
 
 ## FAQ's
 

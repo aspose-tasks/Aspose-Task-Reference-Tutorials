@@ -1,6 +1,6 @@
 ---
-title: Konfigurálja az MS Project Legends-et az Aspose.Tasks-ban
-linktitle: Konfigurálja az oldal jelmagyarázatát az Aspose.Tasks alkalmazásban
+title: MS Project Legends konfigurálása az Aspose.Tasks-ban
+linktitle: Az oldalmagyarázat konfigurálása az Aspose.Tasks programban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhat MS Project oldaljelmagyarázatokat .NET-ben az Aspose.Tasks segítségével a hatékony projektkezelés érdekében. Lépésről lépésre bemutatott útmutató.
 type: docs
@@ -8,16 +8,16 @@ weight: 18
 url: /hu/net/outline-code-page-settings/page-legend/
 ---
 ## Bevezetés
-.NET fejlesztés területén a feladatok hatékony kezelése kulcsfontosságú, különösen a projektmenedzsment terén. Az Aspose.Tasks for .NET hatékony eszközként jelenik meg, amely számos funkciót kínál a feladatkezelési folyamatok egyszerűsítésére. Az egyik ilyen funkció az MS Project oldalak jelmagyarázatainak konfigurálása, így a felhasználók értékes betekintést nyerhetnek a projektadatok bemutatásába.
+A .NET fejlesztés területén a feladatok hatékony kezelése kulcsfontosságú, különösen a projektmenedzsment terén. Az Aspose.Tasks for .NET hatékony eszközként jelenik meg, amely számos funkciót kínál a feladatkezelési folyamatok egyszerűsítésére. Az egyik ilyen funkció az MS Project oldalak jelmagyarázatainak konfigurálása, így a felhasználók értékes betekintést nyerhetnek a projektadatok bemutatásába.
 ## Előfeltételek
 Mielőtt belevágna az MS Project oldaljelmagyarázatainak konfigurálásába az Aspose.Tasks for .NET használatával, győződjön meg arról, hogy teljesülnek a következő előfeltételek:
-1.  Telepítés: Telepítse az Aspose.Tasks for .NET programot a fejlesztői környezetébe. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
+1. Telepítés: Telepítse az Aspose.Tasks for .NET programot a fejlesztői környezetébe. Letöltheti innen[itt](https://releases.aspose.com/tasks/net/).
 2. Alapvető ismeretek a .NET-ről: Ismerkedjen meg a .NET-fejlesztés alapjaival, beleértve a projektek beállítását és a névterekkel való munkát.
 3. Fejlesztési környezet: Használjon integrált fejlesztői környezetet (IDE), például a Visual Studio-t a zökkenőmentes kódolási élmény érdekében.
 4. Projektfájl: Készítsen egy Microsoft Project fájlt (MPP) a kísérletezésre.
 
 ## Névterek importálása
-.NET-projektben importálja a szükséges névtereket az Aspose.Tasks for .NET által biztosított funkciók eléréséhez.
+A .NET-projektben importálja a szükséges névtereket az Aspose.Tasks for .NET által biztosított funkciók eléréséhez.
 1. Projekt megnyitása: Indítsa el .NET-projektjét a kívánt IDE-ben.
 2. Névterek importálása: A kódfájl elején importálja a szükséges névtereket:
 ```csharp

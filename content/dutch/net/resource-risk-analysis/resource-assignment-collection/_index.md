@@ -11,7 +11,7 @@ url: /nl/net/resource-risk-analysis/resource-assignment-collection/
 Welkom bij deze uitgebreide zelfstudie over het beheren van resourcetoewijzingen in Microsoft Project met Aspose.Tasks voor .NET. In deze zelfstudie gaan we stap voor stap dieper in op het proces, zodat u goed begrijpt hoe u resourcetoewijzingen efficiënt kunt manipuleren. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze gids leidt u door alles wat u moet weten.
 ## Vereisten
 Voordat we in de code duiken, moet je ervoor zorgen dat je het volgende hebt ingesteld:
-1. Aspose.Tasks voor .NET geïnstalleerd: Zorg ervoor dat Aspose.Tasks voor .NET in uw ontwikkelomgeving is geïnstalleerd. Als dit niet het geval is, kunt u deze downloaden van[hier](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks voor .NET geïnstalleerd: Zorg ervoor dat Aspose.Tasks voor .NET in uw ontwikkelomgeving is geïnstalleerd. Als dit niet het geval is, kunt u deze downloaden van[hier](https://releases.aspose.com/tasks/net/).
 2. Basiskennis van C#: Deze tutorial gaat ervan uit dat je een basiskennis hebt van de programmeertaal C#.
 3. Microsoft Project-bestand: Zorg ervoor dat u een Microsoft Project-bestand gereed heeft voor testdoeleinden. Als u er geen heeft, kunt u een voorbeeldbestand maken.
 

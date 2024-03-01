@@ -50,9 +50,9 @@ Concluderend stelt Aspose.Tasks voor .NET ontwikkelaars in staat om werkeenheden
 ### Is Aspose.Tasks compatibel met alle bestandsformaten voor projectbeheer?
  Aspose.Tasks ondersteunt verschillende projectbestandsindelingen, waaronder MPP, XML en meer. Verwijs naar de[documentatie](https://reference.aspose.com/tasks/net/) voor een uitgebreide lijst.
 ### Kan ik Aspose.Tasks uitproberen voordat ik een aankoop doe?
-Ja, u kunt Aspose.Tasks verkennen met een gratis proefperiode. Download het van de[pagina vrijgeven](https://releases.aspose.com/).
+ Ja, u kunt Aspose.Tasks verkennen met een gratis proefperiode. Download het van de[pagina vrijgeven](https://releases.aspose.com/).
 ### Waar kan ik aanvullende ondersteuning vinden voor Aspose.Tasks?
- bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en discussies.
+ Bezoek de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) voor gemeenschapsondersteuning en discussies.
 ### Hoe verkrijg ik een tijdelijke licentie voor Aspose.Tasks?
  Verkrijg een tijdelijke licentie voor Aspose.Tasks door naar de[tijdelijke licentiepagina](https://purchase.aspose.com/temporary-license/).
 ### Welke voordelen biedt Aspose.Tasks voor het omgaan met werkeenheden?

@@ -9,7 +9,7 @@ url: /tr/
 is_root: true
 ---
 
-Aspose.Tasks Öğretici Listemiz ile çeşitli programlama dillerinde proje yönetimi yeteneklerini kapsamlı bir şekilde keşfetmeye başlayın. İster Aspose.Tasks for .NET, Java, C ile çalışıyor olun,, veya diğer dillerde, bu seçilmiş eğitim koleksiyonu, geliştiricileri her düzeyde desteklemek için tasarlanmıştır. Temel kavramlardan ileri tekniklere kadar her eğitim, Aspose.Tasks'ın tüm potansiyelinden tercih ettiğiniz dilde yararlanmanıza olanak tanıyan adım adım rehberlik sağlar. Zengin veri havuzumuza dalın ve birden fazla platform ve kodlama ortamında proje yönetimi becerilerinizi geliştirin. Gelin Aspose.Tasks eğitimlerinin çeşitli ortamında birlikte gezinelim!
+Aspose.Tasks Öğretici Listemizle çeşitli programlama dillerinde proje yönetimi yeteneklerini kapsamlı bir şekilde keşfetmeye başlayın. İster Aspose.Tasks for .NET, Java, C ile çalışıyor olun++, veya diğer dillerde, bu seçilmiş eğitim koleksiyonu, geliştiricileri her düzeyde desteklemek için tasarlanmıştır. Temel kavramlardan ileri tekniklere kadar her eğitim, Aspose.Tasks'ın tüm potansiyelinden tercih ettiğiniz dilde yararlanmanıza olanak tanıyan adım adım rehberlik sağlar. Zengin veri havuzumuza dalın ve birden fazla platform ve kodlama ortamında proje yönetimi becerilerinizi geliştirin. Gelin Aspose.Tasks eğitimlerinin çeşitli ortamında birlikte gezinelim!
 
 ## .NET Eğitimleri için Aspose.Tasks
 {{% alert color="primary" %}}
@@ -34,3 +34,27 @@ Bunlar bazı yararlı kaynaklara bağlantılar:
 - [Aspose.Tasks Dosya Formatı Seçenekleri](./net/file-format-options/)
 - [Aspose.Tasks PDF Güvenlik Yapılandırması](./net/pdf-security-configuration/)
 - [Aspose.Tasks Lisans Yönetimi](./net/license-management/)
+
+## Java Eğitimleri için Aspose.Tasks
+{{% alert color="primary" %}}
+Gelişmiş Java proje yönetiminin ağ geçidine hoş geldiniz! Kapsamlı eğitimlerimizin ve örneklerimizin proje iş akışlarını yönetme şeklinizi yeniden tanımladığı Aspose.Tasks for Java ile bir yolculuğa çıkın. Takvim istisnalarının üstesinden gelmekten kusursuz VBA entegrasyonuna kadar, her düzeydeki geliştiricileri desteklemek için zengin kaynaklar seçtik. Proje yönetiminin inceliklerini keşfederken, adım adım rehberlik sunarak ve Aspose.Tasks for Java'nın tüm potansiyelini açığa çıkarırken bize katılın. Projelerinizi optimize etmeye, iş akışlarını kolaylaştırmaya ve Java geliştirme becerilerinizi yükseltmeye hazır olun!
+{{% /alert %}}
+
+Bunlar bazı yararlı kaynaklara bağlantılar:
+
+- [Takvim İstisnaları](./java/calendar-exceptions/)
+- [Takvimler](./java/calendars/)
+- [Para birimi](./java/currency/)
+- [Formüller](./java/formulas/)
+- [Proje Özellikleri](./java/project-properties/)
+- [Para Birimi Özellikleri](./java/currency-properties/)
+- [Proje Yapılandırması](./java/project-configuration/)
+- [Proje Yönetimi](./java/project-management/)
+- [Proje Verilerinin Okunması](./java/project-data-reading/)
+- [Proje Dosyası İşlemleri](./java/project-file-operations/)
+- [Kaynak Atamaları](./java/resource-assignments/)
+- [Kaynak yönetimi](./java/resource-management/)
+- [Görev Temelleri](./java/task-baselines/)
+- [Görev Bağlantıları](./java/task-links/)
+- [Görev Özellikleri](./java/task-properties/)
+- [VBA Entegrasyonu](./java/vba-integration/)

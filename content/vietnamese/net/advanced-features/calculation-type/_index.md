@@ -9,7 +9,7 @@ url: /vi/net/advanced-features/calculation-type/
 ---
 ## Giới thiệu
 
-Trong hướng dẫn này, chúng ta sẽ khám phá tính năng Loại tính toán trong Aspose.Tasks cho .NET. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc với các tệp Microsoft Project mà không cần cài đặt Microsoft Project trên hệ thống của họ. Loại tính toán cho phép chúng ta xác định cách tính các giá trị cho các nhiệm vụ và nhiệm vụ tóm tắt trong một dự án.
+Trong hướng dẫn này, chúng ta sẽ khám phá tính năng Loại tính toán trong Aspose.Tasks cho .NET. Aspose.Tasks là một thư viện mạnh mẽ cho phép các nhà phát triển .NET làm việc với các tệp Microsoft Project mà không cần cài đặt Microsoft Project trên hệ thống của họ. Loại tính toán cho phép chúng tôi xác định cách tính các giá trị cho các nhiệm vụ và nhiệm vụ tóm tắt trong một dự án.
 
 ## Điều kiện tiên quyết
 
@@ -74,13 +74,13 @@ project.ExtendedAttributes.Add(lookup);
 
 ## Phần kết luận
 
-Trong hướng dẫn này, chúng ta đã khám phá cách làm việc với Loại tính toán trong Aspose.Tasks cho .NET. Bằng cách xác định Loại tính toán cho các thuộc tính mở rộng, chúng tôi có thể tùy chỉnh cách tính giá trị cho các nhiệm vụ và nhiệm vụ tóm tắt trong dự án, mang lại sự linh hoạt và khả năng kiểm soát cao hơn.
+Trong hướng dẫn này, chúng ta đã khám phá cách làm việc với Loại tính toán trong Aspose.Tasks cho .NET. Bằng cách xác định Loại tính toán cho các thuộc tính mở rộng, chúng tôi có thể tùy chỉnh cách tính giá trị cho các nhiệm vụ và nhiệm vụ tóm tắt trong dự án, mang lại khả năng kiểm soát và linh hoạt cao hơn.
 
 ## Câu hỏi thường gặp
 
 ### Câu hỏi 1: Loại tính toán trong Aspose.Tasks là gì?
 
-Câu trả lời 1: Loại tính toán trong Aspose.Tasks xác định cách tính giá trị cho các tác vụ và nhiệm vụ tóm tắt trong dự án, cung cấp các tùy chọn như Công thức và Tổng hợp.
+Câu trả lời 1: Loại tính toán trong Aspose.Tasks xác định cách tính giá trị cho các nhiệm vụ và nhiệm vụ tóm tắt trong dự án, cung cấp các tùy chọn như Công thức và Tổng hợp.
 
 ### Câu hỏi 2: Làm cách nào để đặt Loại tính toán cho Thuộc tính mở rộng?
 

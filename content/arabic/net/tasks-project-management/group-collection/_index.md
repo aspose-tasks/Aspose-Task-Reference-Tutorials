@@ -102,7 +102,7 @@ foreach (var group in groupsToDelete)
 يدعم Aspose.Tasks for .NET إصدارات مختلفة من Microsoft Project، بما في ذلك 2003 و2007 و2010 و2013 و2016 و2019.
 ### هل يمكنني تخصيص خصائص المجموعة باستخدام Aspose.Tasks لـ .NET؟
 نعم، يمكنك تخصيص خصائص المجموعة مثل الاسم وإمكانية الرؤية باستخدام Aspose.Tasks لـ .NET.
-### هل يوفر Aspose.Tasks لـ .NET التوافق بين الأنظمة الأساسية؟
+### هل يوفر Aspose.Tasks for .NET التوافق بين الأنظمة الأساسية؟
 يستهدف Aspose.Tasks for .NET بشكل أساسي إطار عمل .NET، ولكن يمكن استخدامه في سيناريوهات الأنظمة الأساسية المشتركة مع .NET Core و.NET Standard.
 ### كيف يمكنني الحصول على دعم Aspose.Tasks لـ .NET؟
  يمكنك الحصول على دعم لـ Aspose.Tasks لـ .NET من خلال[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15).

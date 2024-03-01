@@ -1,6 +1,6 @@
 ---
 title: Интеграция Field Helper MS Project в Aspose.Tasks
-linktitle: Полевой помощник в Aspose.Задачи
+linktitle: Полевой помощник в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как использовать Aspose.Tasks для .NET для беспрепятственной работы с файлами MS Project.
 type: docs
@@ -29,7 +29,7 @@ using System;
 
 ```
 
-Теперь, когда в вашем проекте настроены Aspose.Tasks, давайте рассмотрим, как использовать Field Helper для работы с полями MS Project.
+Теперь, когда в вашем проекте настроен Aspose.Tasks, давайте рассмотрим, как использовать Field Helper для работы с полями MS Project.
 
 ## Шаг 1. Доступ к заголовкам полей задач
 

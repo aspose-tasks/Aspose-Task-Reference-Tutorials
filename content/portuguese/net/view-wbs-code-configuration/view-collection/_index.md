@@ -85,12 +85,12 @@ foreach (var v in array)
 ## Conclusão
 Parabéns! Você navegou com sucesso no cenário Aspose.Tasks for .NET, dominando a arte de gerenciar visualizações do MS Project. Agora, libere todo o potencial desta biblioteca em seus projetos para um gerenciamento de projetos perfeito.
 ## Perguntas frequentes
-### O Aspose.Tasks é compatível com as versões mais recentes do .NET Framework?
+### Aspose.Tasks é compatível com as versões mais recentes do .NET Framework?
 Aspose.Tasks foi projetado para ser compatível com várias versões do .NET Framework. Verifique a documentação para detalhes específicos.
-### Posso personalizar a aparência das visualizações do Gráfico de Gantt?
+### Posso personalizar a aparência das visualizações do gráfico de Gantt?
 Absolutamente! Aspose.Tasks oferece amplas opções para personalizar a aparência das visualizações do gráfico de Gantt para atender às necessidades do seu projeto.
 ### Existe um teste gratuito disponível para Aspose.Tasks?
- Sim, você pode acessar um teste gratuito[aqui](https://releases.aspose.com/).
+Sim, você pode acessar um teste gratuito[aqui](https://releases.aspose.com/).
 ### Como posso obter suporte da comunidade para Aspose.Tasks?
  Envolva-se com a comunidade Aspose.Tasks no[fórum](https://forum.aspose.com/c/tasks/15) para qualquer dúvida ou assistência.
 ### As licenças temporárias estão disponíveis para Aspose.Tasks?

@@ -69,7 +69,7 @@ Löschen Sie vorhandene Gruppenkriterien, wenn diese nicht schreibgeschützt sin
 group.GroupCriteria.Clear();
 ```
 
-## Schritt 5: Neue Kriterien hinzufügen
+## Schritt 5: Neues Kriterium hinzufügen
 
 Erstellen Sie ein neues Gruppenkriterium und fügen Sie es der Gruppe hinzu.
 
@@ -125,4 +125,4 @@ A: Auf jeden Fall können Sie einer Gruppe mehrere Kriterien hinzufügen, indem 
 
 ### F5: Wie kann ich Support erhalten, wenn ich auf Probleme stoße?
 
- A: Wenn Sie Fragen haben oder auf Probleme stoßen, können Sie im Aspose.Tasks-Forum Unterstützung suchen.[Hier](https://forum.aspose.com/c/tasks/15).
+ A: Wenn Sie Fragen haben oder auf Probleme stoßen, können Sie im Aspose.Tasks-Forum Unterstützung suchen[Hier](https://forum.aspose.com/c/tasks/15).

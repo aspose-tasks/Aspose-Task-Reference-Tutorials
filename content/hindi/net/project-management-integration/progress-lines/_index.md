@@ -28,7 +28,7 @@ using Aspose.Tasks.Visualization;
 अब, आइए प्रगति रेखाओं को संभालने के प्रत्येक चरण का विश्लेषण करें:
 ## चरण 1: प्रोजेक्ट फ़ाइल लोड करें
 ```csharp
-// दस्तावेज़ निर्देशिका का पथ.
+// वें दस्तावेज़ निर्देशिका का पथ.
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

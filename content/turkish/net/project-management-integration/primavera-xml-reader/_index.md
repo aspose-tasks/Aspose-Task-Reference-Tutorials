@@ -51,9 +51,9 @@ Bu eğitimde, proje verilerine verimli bir şekilde erişmek ve bunları yönetm
 ### S: Aspose.Tasks karmaşık proje yapılarını yönetebilir mi?
 C: Evet, Aspose.Tasks, çeşitli proje yapılarını ve karmaşıklıklarını etkili bir şekilde ele almak için güçlü özellikler sağlar.
 ### S: Aspose.Tasks için ücretsiz deneme sürümü mevcut mu?
-C: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
+ C: Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### S: Aspose.Tasks için nasıl destek alabilirim?
- C: Aspose.Tasks forumundan destek alabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15).
+ C: Aspose.Tasks forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15).
 ### S: Aspose.Tasks için geçici lisans satın alabilir miyim?
  C: Evet, geçici lisanslar satın alınabilir[Burada](https://purchase.aspose.com/temporary-license/).
 ### S: Aspose.Tasks için kapsamlı belgeleri nerede bulabilirim?

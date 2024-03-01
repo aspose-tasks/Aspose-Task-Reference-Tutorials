@@ -8,7 +8,7 @@ weight: 16
 url: /pl/net/resource-risk-analysis/resource-usage-view-fields/
 ---
 ## Wstęp
-zarządzaniu projektami wydajna obsługa plików Microsoft Project jest kluczowa. Aspose.Tasks dla .NET zapewnia kompleksowe rozwiązanie do płynnej pracy z plikami MS Project. W tym samouczku zagłębimy się w proces uzyskiwania dostępu i wykorzystywania pól widoku użycia zasobów za pomocą Aspose.Tasks dla .NET.
+W zarządzaniu projektami wydajna obsługa plików Microsoft Project jest kluczowa. Aspose.Tasks dla .NET zapewnia kompleksowe rozwiązanie do płynnej pracy z plikami MS Project. W tym samouczku zagłębimy się w proces uzyskiwania dostępu i wykorzystywania pól widoku użycia zasobów za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 1.  Instalacja Aspose.Tasks dla .NET: Upewnij się, że zainstalowałeś bibliotekę Aspose.Tasks dla .NET. Jeśli nie, możesz pobrać go ze strony[strona internetowa](https://releases.aspose.com/tasks/net/).
@@ -60,7 +60,7 @@ Opanowanie manipulacji polami widoku użycia zasobów w Aspose.Tasks dla .NET ot
 ### P: Czy Aspose.Tasks dla .NET jest kompatybilny ze wszystkimi wersjami plików Microsoft Project?
 O: Tak, Aspose.Tasks dla .NET obsługuje szeroką gamę formatów plików Microsoft Project, zapewniając kompatybilność w różnych wersjach.
 ### P: Czy mogę wykonywać zaawansowane obliczenia na polach widoku użycia zasobów przy użyciu Aspose.Tasks dla .NET?
-Odp.: Absolutnie! Aspose.Tasks dla .NET zapewnia rozbudowaną funkcjonalność do wykonywania zaawansowanych obliczeń i manipulacji na polach widoku wykorzystania zasobów.
+Odp.: Absolutnie! Aspose.Tasks dla .NET zapewnia rozbudowaną funkcjonalność do wykonywania zaawansowanych obliczeń i manipulacji na polach widoku użycia zasobów.
 ### P: Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc dotyczącą Aspose.Tasks dla .NET?
  O: Możesz zwrócić się o pomoc do tętniącej życiem społeczności i ekspertów pod adresem[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 ### P: Czy dostępna jest wersja próbna Aspose.Tasks dla .NET?

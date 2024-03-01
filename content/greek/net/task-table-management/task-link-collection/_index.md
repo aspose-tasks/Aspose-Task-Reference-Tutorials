@@ -50,7 +50,7 @@ project.TaskLinks.Add(task2, task5, TaskLinkType.FinishToStart, project.GetDurat
 ```csharp
 Console.WriteLine("Print task links of " + project.TaskLinks.ParentProject.Get(Prj.Name) + " project.");
 Console.WriteLine("Task links count: " + project.TaskLinks.Count);
-// Επανάληψη μέσω συνδέσμων εργασιών
+//Επανάληψη μέσω συνδέσμων εργασιών
 foreach (var link in project.TaskLinks)
 {
     Console.WriteLine("From ID = " + link.PredTask.Get(Tsk.Id) + " => To ID = " + link.SuccTask.Get(Tsk.Id));

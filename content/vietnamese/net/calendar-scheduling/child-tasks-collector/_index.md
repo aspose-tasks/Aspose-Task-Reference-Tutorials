@@ -18,7 +18,7 @@ Trước khi chúng ta bắt đầu, hãy đảm bảo rằng bạn có sẵn c�
 1. Hiểu biết cơ bản về C#: Làm quen với ngôn ngữ lập trình C# là điều cần thiết.
 2.  Cài đặt Aspose.Tasks cho .NET: Tải xuống và cài đặt thư viện Aspose.Tasks cho .NET từ[Liên kết tải xuống](https://releases.aspose.com/tasks/net/).
 3. Môi trường phát triển: Thiết lập môi trường phát triển, chẳng hạn như Visual Studio, để viết và thực thi mã C#.
-4.  Truy cập vào tài liệu: Giữ[Aspose.Tasks cho tài liệu .NET](https://reference.aspose.com/tasks/net/) tiện để tham khảo.
+4. Truy cập vào tài liệu: Giữ[Aspose.Tasks cho tài liệu .NET](https://reference.aspose.com/tasks/net/) tiện để tham khảo.
 
 Bây giờ chúng ta đã có các điều kiện tiên quyết, hãy đi sâu vào hướng dẫn từng bước để thu thập các tác vụ con bằng cách sử dụng Aspose.Tasks cho .NET.
 
@@ -58,7 +58,7 @@ var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
 ```
 
- Chúng tôi áp dụng`ChildTasksCollector`vào nhiệm vụ gốc của dự án, bắt đầu quá trình thu thập theo cách đệ quy.
+ Chúng tôi áp dụng`ChildTasksCollector` vào nhiệm vụ gốc của dự án, bắt đầu quá trình thu thập theo cách đệ quy.
 
 ## Bước 4: Lặp lại các nhiệm vụ đã thu thập
 
@@ -91,7 +91,7 @@ Câu trả lời 3: Mặc dù được thiết kế chủ yếu cho môi trườ
 
 ### Câu hỏi 4: Aspose.Tasks dành cho .NET có hỗ trợ kỹ thuật không?
 
- Đ4: Có, người dùng có thể truy cập hỗ trợ kỹ thuật thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+Đ4: Có, người dùng có thể truy cập hỗ trợ kỹ thuật thông qua[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### Câu hỏi 5: Tôi có thể dùng thử Aspose.Tasks cho .NET trước khi mua không?
 

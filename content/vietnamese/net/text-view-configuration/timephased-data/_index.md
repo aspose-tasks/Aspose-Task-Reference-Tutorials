@@ -85,7 +85,7 @@ Aspose.Tasks được thiết kế chủ yếu để phát triển .NET. Tuy nhi
 ### Có bản dùng thử miễn phí dành cho Aspose.Tasks cho .NET không?
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15)để hỗ trợ cộng đồng.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để hỗ trợ cộng đồng.
 ### Giấy phép tạm thời là gì và làm cách nào để có được giấy phép?
  Tìm hiểu về giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm tài liệu về Aspose.Tasks cho .NET ở đâu?

@@ -1,8 +1,8 @@
 ---
 title: Quản lý giá trị phác thảo dự án MS với Aspose.Tasks
-linktitle: Tập hợp các giá trị Outline trong Aspose.Tasks
+linktitle: Bộ sưu tập các giá trị phác thảo trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách quản lý các giá trị phác thảo trong tệp Microsoft Project bằng Aspose.Tasks for .NET. Hướng dẫn từng bước với các ví dụ về mã.
+description: Tìm hiểu cách quản lý các giá trị phác thảo trong tệp Microsoft Project bằng Aspose.Tasks cho .NET. Hướng dẫn từng bước với các ví dụ về mã.
 type: docs
 weight: 17
 url: /vi/net/outline-code-page-settings/outline-value-collection/

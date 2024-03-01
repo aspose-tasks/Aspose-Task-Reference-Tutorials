@@ -33,7 +33,7 @@ Aspose.Tasks for .NET ile Microsoft Project anahat değerlerini verimli bir şek
 ## Aspose.Tasks for .NET'te Anahat Değerlerinin Toplanması
  Aspose.Tasks for .NET'i kullanarak Microsoft Project dosyalarındaki anahat değerlerini nasıl yöneteceğinizi öğrenin. Bu adım adım eğitim, bu uygulamaları zahmetsizce uygulayabilmenizi sağlayan kod örnekleri içerir.[Devamını oku](./outline-value-collection/)
 
-## Aspose.Tasks for .NET'te Sayfa Göstergesini Yapılandırma
+## Aspose.Tasks for .NET'te Sayfa Açıklamalarını Yapılandırma
  Verimli proje yönetimi, .NET'te MS Project sayfa açıklamalarının yapılandırılmasına kadar uzanır. Aspose.Tasks'ı kullanan bu eğitim, proje göstergelerinizi optimum verimlilik için nasıl özelleştireceğiniz konusunda adım adım bir kılavuz sağlar.[Devamını oku](./page-legend/)
 
 ## Aspose.Tasks for .NET ile MS Proje Sayfası Kenar Boşluklarını Zahmetsizce Ayarlayın

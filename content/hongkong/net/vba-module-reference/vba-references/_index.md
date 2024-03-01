@@ -1,6 +1,6 @@
 ---
 title: 掌握 VBA 參考處理 - 逐步指南
-linktitle: 在 Aspose.Tasks 中處理引用 VBA
+linktitle: 在 Aspose.Tasks 中處理 VBA 引用
 second_title: Aspose.Tasks .NET API
 description: 透過我們的綜合教學探索在 Aspose.Tasks .NET 中處理 VBA 參考的強大功能。學習無縫閱讀、比較和使用 VBA 參考資料。
 type: docs
@@ -21,7 +21,7 @@ url: /zh-hant/net/vba-module-reference/vba-references/
     using System;
     
 ```
-## 閱讀參考文獻VBA
+## 閱讀 VBA 參考資料
 讓我們先從專案文件中讀取 VBA 引用：
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -78,4 +78,4 @@ foreach (var reference in project.VbaProject.References)
 ### Q：在哪裡可以找到 Aspose.Tasks 的詳細文件？
 答：文檔已提供[這裡](https://reference.aspose.com/tasks/net/).
 ### Q：我可以購買 Aspose.Tasks 嗎？
-答：是的，您可以購買。[這裡](https://purchase.aspose.com/buy).
+答： 是的，您可以購買[這裡](https://purchase.aspose.com/buy).

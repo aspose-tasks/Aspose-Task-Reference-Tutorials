@@ -86,7 +86,7 @@ A1: 예, Aspose.Tasks는 다양한 버전의 Microsoft Project 데이터베이�
 
 ### Q2: 데이터베이스 연결 문제를 해결하려면 어떻게 해야 합니까?
 
-A2: 연결 문자열이 적절한 자격 증명 및 데이터베이스 세부 정보로 올바르게 구성되었는지 확인하세요. 문서를 참조하거나 지원을 요청할 수도 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
+ A2: 연결 문자열이 적절한 자격 증명 및 데이터베이스 세부 정보로 올바르게 구성되었는지 확인하세요. 문서를 참조하거나 지원을 요청할 수도 있습니다.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15).
 
 ### Q3: Aspose.Tasks에 사용할 수 있는 평가판이 있습니까?
 

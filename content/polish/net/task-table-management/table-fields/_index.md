@@ -11,7 +11,7 @@ url: /pl/net/task-table-management/table-fields/
 Witamy w świecie Aspose.Tasks dla .NET, potężnej biblioteki, która umożliwia płynną manipulację plikami Microsoft Project w aplikacjach .NET. W tym samouczku zagłębimy się w zawiłości obsługi pól tabel w Aspose.Tasks, umożliwiając efektywne odczytywanie tabel projektu i zarządzanie nimi. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, ten przewodnik krok po kroku umożliwi Ci wykorzystanie pełnego potencjału Aspose.Tasks.
 ## Warunki wstępne
 Zanim wyruszymy w tę podróż, upewnijmy się, że spełniamy następujące warunki wstępne:
--  Biblioteka Aspose.Tasks: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET. możesz to znaleźć[Tutaj](https://releases.aspose.com/tasks/net/).
+- Biblioteka Aspose.Tasks: Pobierz i zainstaluj bibliotekę Aspose.Tasks dla .NET. Możesz to znaleźć[Tutaj](https://releases.aspose.com/tasks/net/).
 - Środowisko programistyczne: upewnij się, że na komputerze skonfigurowano odpowiednie środowisko programistyczne, takie jak Visual Studio.
 Przejdźmy teraz do sedna obsługi pól tabeli.
 ## Importuj przestrzenie nazw
@@ -71,4 +71,4 @@ Od najnowszej wersji nie ma ścisłych ograniczeń co do liczby pól tabeli.
 ### Jak często są wydawane aktualizacje dla Aspose.Tasks?
 Aktualizacje Aspose.Tasks są regularnie wydawane, aby zapewnić kompatybilność i wprowadzić nowe funkcje.
 ### Czy istnieje forum społecznościowe dla wsparcia Aspose.Tasks?
-Tak, możesz znaleźć pomoc i dyskusje na temat[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ Tak, możesz znaleźć pomoc i dyskusje na temat[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).

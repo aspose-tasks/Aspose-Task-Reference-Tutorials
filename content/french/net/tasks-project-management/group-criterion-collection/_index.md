@@ -69,7 +69,7 @@ Effacez les critères de groupe existants s’ils ne sont pas en lecture seule.
 group.GroupCriteria.Clear();
 ```
 
-## Étape 5 : Ajouter de nouveaux critères
+## Étape 5 : Ajouter un nouveau critère
 
 Créez un nouveau critère de groupe et ajoutez-le au groupe.
 
@@ -125,4 +125,4 @@ R : Absolument, vous pouvez ajouter plusieurs critères à un groupe en parcoura
 
 ### Q5 : Comment puis-je obtenir de l'aide si je rencontre des problèmes ?
 
- R : Si vous avez des questions ou rencontrez des problèmes, vous pouvez demander de l'aide sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).
+ R : Si vous avez des questions ou rencontrez des problèmes, vous pouvez demander de l'aide sur le forum Aspose.Tasks.[ici](https://forum.aspose.com/c/tasks/15).

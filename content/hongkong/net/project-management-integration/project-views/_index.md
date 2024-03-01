@@ -12,7 +12,7 @@ Microsoft Project 是一個強大的專案管理工具，可讓使用者有效�
 ## 先決條件
 在開始之前，請確保您已設定以下先決條件：
 ### 1.安裝Aspose.Tasks for .NET
-您可以從以下位置下載並安裝 Aspose.Tasks for .NET[網站](https://releases.aspose.com/tasks/net/),按照提供的安裝說明在您的開發環境中設定該庫。
+您可以從以下位置下載並安裝 Aspose.Tasks for .NET[網站](https://releases.aspose.com/tasks/net/)。按照提供的安裝說明在您的開發環境中設定該庫。
 ### 2. C#和.NET Framework基礎知識
 熟悉 C# 程式語言和 .NET Framework，因為本教學假設您對這些概念有基本的了解。
 ### 3.微軟專案文件

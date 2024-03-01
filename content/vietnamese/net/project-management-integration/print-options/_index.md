@@ -11,7 +11,7 @@ url: /vi/net/project-management-integration/print-options/
 Trong lĩnh vực phát triển phần mềm, Aspose.Tasks for .NET nổi bật như một công cụ mạnh mẽ để quản lý các nhiệm vụ và dự án một cách hiệu quả. Một trong những tính năng chính của nó là khả năng cấu hình các tùy chọn in Microsoft Project một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình định cấu hình các tùy chọn in MS Project bằng Aspose.Tasks cho .NET.
 ## Điều kiện tiên quyết
 Trước khi chúng ta đi sâu vào sự phức tạp của việc định cấu hình các tùy chọn in MS Project, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
-1.  Cài đặt Aspose.Tasks cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Tasks cho .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
+1. Cài đặt Aspose.Tasks cho .NET: Đảm bảo bạn đã cài đặt thư viện Aspose.Tasks cho .NET. Bạn có thể tải nó xuống từ[đây](https://releases.aspose.com/tasks/net/).
 2. Hiểu biết cơ bản về C#: Làm quen với những điều cơ bản về ngôn ngữ lập trình C# vì hướng dẫn này chủ yếu sử dụng C# để trình diễn.
 
 ## Nhập không gian tên
@@ -43,7 +43,7 @@ Trước khi in, bạn nên kiểm tra số trang để tránh in những trang 
 ```csharp
 if (project.GetPageCount(Timescale.ThirdsOfMonths) <= 280)
 {
-    //Tiến hành in ấn
+    // Tiến hành in ấn
     project.Print(options);
 }
 ```

@@ -27,7 +27,7 @@ Een fundamenteel begrip van .NET-programmering is noodzakelijk om de concepten t
 
 Om te beginnen moet u de vereiste naamruimten in uw .NET-project importeren. 
 
- Omvat de`Aspose.Tasks` naamruimte in uw project om toegang te krijgen tot de klassen en methoden die worden aangeboden door de Aspose.Tasks-bibliotheek.
+ Omvat de`Aspose.Tasks`naamruimte in uw project om toegang te krijgen tot de klassen en methoden die worden aangeboden door de Aspose.Tasks-bibliotheek.
 
 ```csharp
 
@@ -37,7 +37,7 @@ Laten we het gegeven voorbeeld nu in meerdere stappen opsplitsen:
 
 ## Stap 1: Laad het projectbestand
 
- Begin met het laden van het projectbestand met behulp van de`Project`klasse constructeur.
+ Begin met het laden van het projectbestand met behulp van de`Project` klasse constructeur.
 
 ```csharp
 var project = new Project(DataDir + "Project2.mpp");

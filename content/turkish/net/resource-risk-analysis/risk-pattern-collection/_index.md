@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Adım 8: Desenleri Temizle
 Desen koleksiyonunu tek tek veya tamamen temizleyin:
 ```csharp
-// bireysel kaldırma
+// Bireysel kaldırma
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ C: Kesinlikle Aspose.Tasks, diğer .NET çerçeveleriyle sorunsuz bir şekilde b
 ### S: Aspose.Tasks'ın deneme sürümü mevcut mu?
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[Burada](https://releases.aspose.com/)Bir satın alma işlemi yapmadan önce özelliklerini keşfetmenize olanak tanır.
 ### S: Aspose.Tasks için desteği nerede bulabilirim?
- C: Aspose.Tasks forumunda kapsamlı destek ve yardım bulabilirsiniz.[Burada](https://forum.aspose.com/c/tasks/15)Soruları ve sorunları çözmek için uzmanlarla ve diğer kullanıcılarla etkileşime girebileceğiniz yer.
+ C: Aspose.Tasks forumunda kapsamlı destek ve yardım bulabilirsiniz[Burada](https://forum.aspose.com/c/tasks/15)Soruları ve sorunları çözmek için uzmanlarla ve diğer kullanıcılarla etkileşime girebileceğiniz yer.

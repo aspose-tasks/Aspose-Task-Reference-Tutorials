@@ -75,10 +75,10 @@ Kesimpulannya, Aspose.Tasks untuk .NET memberikan solusi tangguh untuk menangani
 ### Bisakah saya memiliki beberapa minggu kerja khusus dalam satu proyek?
 Ya, Anda dapat menambahkan beberapa minggu kerja khusus ke kalender proyek.
 ### Bagaimana cara mengubah minggu kerja yang ada?
- Gunakan yang disediakan`WorkWeek` properti dan metode untuk mengubah minggu kerja yang ada.
+ Gunakan yang disediakan`WorkWeek`properti dan metode untuk mengubah minggu kerja yang ada.
 ### Apakah Aspose.Tasks kompatibel dengan .NET Core?
 Ya, Aspose.Tasks mendukung .NET Core.
 ### Bisakah saya mengekspor proyek dengan minggu kerja khusus ke format file Microsoft Project?
 Tentu saja, Aspose.Tasks memungkinkan Anda menyimpan proyek Anda dalam berbagai format, termasuk Microsoft Project.
 ### Di mana saya dapat mencari dukungan untuk pertanyaan terkait Aspose.Tasks?
- mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan atau bantuan apa pun.
+ Mengunjungi[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15) untuk dukungan atau bantuan apa pun.

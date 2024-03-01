@@ -26,7 +26,7 @@ Podzielmy teraz przykład na kilka kroków:
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- zastępować`"Your Document Directory"` ze ścieżką do pliku MS Project.
+ Zastępować`"Your Document Directory"` ze ścieżką do pliku MS Project.
 ## Krok 2: Załaduj plik MS Project
 ```csharp
 var project = new Project(DataDir + "TestRecurringTask2016.mpp");
@@ -50,7 +50,7 @@ foreach (var task in project.RootTask.SelectAllChildTasks())
 ```
 Ta pętla iteruje po wszystkich zadaniach w projekcie i sprawdza, czy z każdym zadaniem są powiązane powtarzające się informacje. Jeśli tak, pobiera i wyświetla różne właściwości zadania cyklicznego, takie jak data rozpoczęcia, czas trwania, data zakończenia itp.
 ## Wniosek
-W tym samouczku nauczyliśmy się, jak wyodrębniać informacje o powtarzających się zadaniach z plików MS Project za pomocą Aspose.Tasks dla .NET. Dzięki tej wiedzy możesz teraz zintegrować tę funkcjonalność z aplikacjami .NET, aby efektywniej pracować z powtarzającymi się zadaniami.
+tym samouczku nauczyliśmy się, jak wyodrębniać informacje o powtarzających się zadaniach z plików MS Project za pomocą Aspose.Tasks dla .NET. Dzięki tej wiedzy możesz teraz zintegrować tę funkcjonalność z aplikacjami .NET, aby efektywniej pracować z powtarzającymi się zadaniami.
 ## Często zadawane pytania
 ### P: Czy mogę modyfikować informacje o zadaniach cyklicznych za pomocą Aspose.Tasks dla .NET?
 O: Tak, możesz programowo modyfikować informacje o zadaniach cyklicznych, korzystając z dostarczonych interfejsów API.
@@ -61,4 +61,4 @@ O: Tak, Aspose.Tasks obsługuje różne formaty plików projektów, takie jak MP
 ### P: Gdzie mogę znaleźć dokumentację Aspose.Tasks dla .NET?
  Odp.: Można znaleźć dokumentację[Tutaj](https://reference.aspose.com/tasks/net/).
 ### P: Jak mogę uzyskać pomoc techniczną dla Aspose.Tasks dla .NET?
-Odp.: Możesz uzyskać pomoc techniczną na forum Aspose.Tasks.[Tutaj](https://forum.aspose.com/c/tasks/15).
+ Odp.: Możesz uzyskać pomoc techniczną na forum Aspose.Tasks[Tutaj](https://forum.aspose.com/c/tasks/15).

@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Passaggio 8: Cancella modelli
 Cancella la raccolta di modelli singolarmente o completamente:
 ```csharp
-// rimozione individuale
+// Rimozione individuale
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ R: Certamente, Aspose.Tasks si integra perfettamente con altri framework .NET, c
 ### D: È disponibile una versione di prova per Aspose.Tasks?
  R: Sì, puoi accedere a una prova gratuita di Aspose.Tasks da[Qui](https://releases.aspose.com/)consentendoti di esplorarne le funzionalità prima di effettuare un acquisto.
 ### D: Dove posso trovare supporto per Aspose.Tasks?
- R: Puoi trovare supporto e assistenza completi sul forum Aspose.Tasks.[Qui](https://forum.aspose.com/c/tasks/15), dove puoi interagire con esperti e altri utenti per risolvere domande e problemi.
+ R: Puoi trovare supporto e assistenza completi sul forum Aspose.Tasks[Qui](https://forum.aspose.com/c/tasks/15), dove puoi interagire con esperti e altri utenti per risolvere domande e problemi.

@@ -1,6 +1,6 @@
 ---
 title: Menguasai Kustomisasi Gaya Teks di Aspose.Tasks
-linktitle: Konfigurasikan Gaya Teks di Aspose.Tasks
+linktitle: Mengonfigurasi Gaya Teks di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Tingkatkan estetika dokumen proyek dengan Aspose.Tasks untuk .NET. Sesuaikan gaya teks dengan mudah untuk representasi yang menarik secara visual.
 type: docs

@@ -12,7 +12,7 @@ Vill du utnyttja kraften i Microsoft Projects konturmasker med Aspose.Tasks för
 ## Förutsättningar
 Innan du dyker in i den här handledningen, se till att du har följande förutsättningar på plats:
 ### 1. Installation av Aspose.Tasks för .NET
- Se till att du har Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Du kan ladda ner biblioteket från Asposes webbplats[här](https://releases.aspose.com/tasks/net/).
+Se till att du har Aspose.Tasks för .NET installerat i din utvecklingsmiljö. Du kan ladda ner biblioteket från Asposes webbplats[här](https://releases.aspose.com/tasks/net/).
 ### 2. Grundläggande kunskaper i C# och .NET Framework
 Bekanta dig med programmeringsspråket C# och .NET Framework, eftersom den här handledningen kommer att använda båda.
 ### 3. Microsoft Project File
@@ -108,4 +108,4 @@ A: Absolut! Du kan anpassa konturmasker genom att justera deras längd, nivå, a
 ### F4: Tillhandahåller Aspose.Tasks för .NET dokumentation och support?
 S: Ja, Aspose.Tasks för .NET erbjuder omfattande dokumentation och dedikerad support via deras webbplats och[forum](https://forum.aspose.com/c/tasks/15).
 ### F5: Finns det en gratis testversion tillgänglig för Aspose.Tasks för .NET?
- S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks för .NET från deras[hemsida](https://releases.aspose.com/tasks/net/), att utforska dess funktioner och funktioner innan du gör ett köp.
+ S: Ja, du kan få tillgång till en gratis testversion av Aspose.Tasks för .NET från deras[hemsida](https://releases.aspose.com/tasks/net/). att utforska dess funktioner och funktioner innan du gör ett köp.

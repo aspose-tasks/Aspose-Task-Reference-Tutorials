@@ -76,6 +76,6 @@ A: Ja, Aspose.Tasks kan naadloos worden geïntegreerd met elk .NET-project, waar
 ### Vraag: Is er een gratis proefversie beschikbaar?
  A: Ja, u heeft toegang tot de gratis proefperiode[hier](https://releases.aspose.com/).
 ### Vraag: Hoe kan ik een tijdelijke licentie voor Aspose.Tasks verkrijgen?
-A: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
+ A: U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Vraag: Waar kan ik Aspose.Tasks kopen?
  A: Koop Aspose.Tasks[hier](https://purchase.aspose.com/buy).

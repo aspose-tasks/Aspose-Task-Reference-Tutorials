@@ -24,12 +24,12 @@ using Aspose.Tasks.Visualization;
 ```
 
 ## Βήμα 1: Ορίστε τον Κατάλογο Εγγράφων
-Βεβαιωθείτε ότι έχετε έναν καθορισμένο κατάλογο για τα έγγραφά σας. αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον επιθυμητό κατάλογο.
+ Βεβαιωθείτε ότι έχετε έναν καθορισμένο κατάλογο για τα έγγραφά σας. Αντικαθιστώ`"Your Document Directory"` με τη διαδρομή προς τον επιθυμητό κατάλογο.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
 ## Βήμα 2: Φορτώστε το Αρχείο Έργου
- Φορτώστε το αρχείο Microsoft Project (.mpp) χρησιμοποιώντας το`Project` τάξη.
+Φορτώστε το αρχείο Microsoft Project (.mpp) χρησιμοποιώντας το`Project` τάξη.
 ```csharp
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```

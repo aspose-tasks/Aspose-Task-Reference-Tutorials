@@ -71,6 +71,6 @@ Assolutamente! Aspose.Tasks offre flessibilità nella definizione dei codici WBS
 ### È disponibile una versione di prova?
  Si, puoi[scarica una versione di prova gratuita](https://releases.aspose.com/) per esplorare le funzionalità prima di effettuare un acquisto.
 ### Come posso ottenere il supporto della community per Aspose.Tasks?
- visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) connettersi con la comunità e cercare assistenza.
+ Visitare il[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) connettersi con la comunità e cercare assistenza.
 ### Sono disponibili licenze temporanee?
  Sì, puoi ottenere un[licenza temporanea](https://purchase.aspose.com/temporary-license/) a scopo di test.

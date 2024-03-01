@@ -75,4 +75,4 @@ O: Tak, możesz zastosować szablony do istniejących projektów, ładując plik
 ### P: Czy Aspose.Tasks dla .NET obsługuje programowanie międzyplatformowe?
 Odp.: Aspose.Tasks dla .NET jest przeznaczony przede wszystkim dla aplikacji .NET Framework działających na platformach Windows.
 ### P: Czy dostępna jest pomoc techniczna dla Aspose.Tasks dla .NET?
- Odp.: Tak, możesz zwrócić się o pomoc techniczną i wskazówki do społeczności Aspose.Tasks.[fora](https://forum.aspose.com/c/tasks/15) lub skontaktuj się bezpośrednio z ich zespołem wsparcia.
+ Odp.: Tak, możesz zwrócić się o pomoc techniczną i wskazówki do społeczności Aspose.Tasks[fora](https://forum.aspose.com/c/tasks/15)lub skontaktuj się bezpośrednio z ich zespołem wsparcia.

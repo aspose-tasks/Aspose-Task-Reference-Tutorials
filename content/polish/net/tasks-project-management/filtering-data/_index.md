@@ -12,7 +12,7 @@ Aspose.Tasks dla .NET zapewnia solidną funkcjonalność filtrowania danych w pl
 ## Warunki wstępne
 Zanim przejdziesz do samouczka, upewnij się, że spełniasz następujące wymagania wstępne:
 ### 1. Zainstaluj Aspose.Tasks dla .NET
- Pobierz i zainstaluj Aspose.Tasks dla .NET z[strona pobierania](https://releases.aspose.com/tasks/net/), Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby skonfigurować bibliotekę w środowisku programistycznym.
+ Pobierz i zainstaluj Aspose.Tasks dla .NET z[strona pobierania](https://releases.aspose.com/tasks/net/). Postępuj zgodnie z dostarczonymi instrukcjami instalacji, aby skonfigurować bibliotekę w środowisku programistycznym.
 ### 2. Skonfiguruj swoje środowisko programistyczne
 Upewnij się, że masz działające środowisko programistyczne do programowania .NET. Obejmuje to zgodne środowisko IDE, takie jak Visual Studio i podstawową wiedzę na temat języka programowania C#.
 ### 3. Uzyskaj dostęp do przykładowego pliku projektu Microsoft
@@ -66,7 +66,7 @@ Console.WriteLine("Resource filter ShowRelatedSummaryRows: " + resourceFilters[0
 ```
 Wyświetl szczegóły filtrów zasobów, w tym liczbę, typ filtra, Pokaż w menu i Pokaż powiązane wiersze podsumowania.
 ## Wniosek
-Filtrowanie danych w plikach MS Project przy użyciu Aspose.Tasks dla .NET to prosty proces, który zwiększa produktywność i możliwości analityczne. Wykonując kroki opisane w tym samouczku, możesz efektywnie zarządzać informacjami o projekcie zgodnie ze specyficznymi kryteriamia.
+Filtrowanie danych w plikach MS Project przy użyciu Aspose.Tasks dla .NET to prosty proces, który zwiększa produktywność i możliwości analityczne. Wykonując kroki opisane w tym samouczku, możesz efektywnie zarządzać informacjami o projekcie zgodnie z określonymi kryteriami.
 ## Często zadawane pytania
 ### P: Czy Aspose.Tasks może filtrować dane na podstawie niestandardowych kryteriów?
 O: Tak, Aspose.Tasks umożliwia filtrowanie danych na podstawie niestandardowych kryteriów dostosowanych do wymagań Twojego projektu.

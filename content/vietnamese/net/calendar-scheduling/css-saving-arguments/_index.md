@@ -71,7 +71,7 @@ public static HtmlSaveOptions GetSaveOptions(int pageNumber)
 {
     var options = new HtmlSaveOptions
     {
-        // Định cấu hình tùy chọn lưu HTML
+        //Định cấu hình tùy chọn lưu HTML
     };
 
     var program = new ResourcePrefixForNestedResources();
@@ -113,7 +113,7 @@ A3: Aspose.Tasks for .NET hỗ trợ nhiều phiên bản khác nhau của tệp
 
 ### Câu hỏi 4: Tôi có thể tìm tài liệu toàn diện về Aspose.Tasks cho .NET ở đâu?
 
- A4: Bạn có thể tham khảo[tài liệu](https://reference.aspose.com/tasks/net/) để biết thông tin chi tiết và ví dụ.
+A4: Bạn có thể tham khảo[tài liệu](https://reference.aspose.com/tasks/net/) để biết thông tin chi tiết và ví dụ.
 
 ### Câu hỏi 5: Aspose.Tasks dành cho .NET có cung cấp hỗ trợ cho các nhà phát triển không?
 

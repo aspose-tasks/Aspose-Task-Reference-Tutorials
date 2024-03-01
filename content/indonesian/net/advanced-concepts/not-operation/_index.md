@@ -50,7 +50,7 @@ var coll = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, coll, 0);
 ```
 
- Di sini, kami membuat a`ChildTasksCollector` objek untuk mengumpulkan semua tugas dalam proyek. Kami kemudian menggunakan`TaskUtils.Apply`metode untuk menelusuri hierarki tugas proyek dan mengumpulkan semua tugas anak.
+ Di sini, kami membuat a`ChildTasksCollector` objek untuk mengumpulkan semua tugas dalam proyek. Kami kemudian menggunakan`TaskUtils.Apply` metode untuk menelusuri hierarki tugas proyek dan mengumpulkan semua tugas anak.
 
 ## Langkah 3: Tentukan Kondisi Filter
 
@@ -58,7 +58,7 @@ TaskUtils.Apply(project.RootTask, coll, 0);
 var filter = new NullCondition();
 ```
 
- Kami mendefinisikan kondisi filter menggunakan nama kelas khusus`NullCondition`, Kondisi ini memilih tugas yang memiliki nilai null.
+ Kami mendefinisikan kondisi filter menggunakan nama kelas khusus`NullCondition`. Kondisi ini memilih tugas yang memiliki nilai null.
 
 ## Langkah 4: Terapkan BUKAN Operasi
 
@@ -66,7 +66,7 @@ var filter = new NullCondition();
 var condition = new Not<Task>(filter);
 ```
 
- Kami menerapkan operasi NOT pada kondisi filter menggunakan`Not<T>` kelas yang disediakan oleh Aspose.Tasks. Ini akan membalikkan kondisi filter, memilih tugas yang tidak memiliki nilai nol.
+ Kami menerapkan operasi NOT pada kondisi filter menggunakan`Not<T>`kelas yang disediakan oleh Aspose.Tasks. Ini akan membalikkan kondisi filter, memilih tugas yang tidak memiliki nilai nol.
 
 ## Langkah 5: Filter Tugas
 

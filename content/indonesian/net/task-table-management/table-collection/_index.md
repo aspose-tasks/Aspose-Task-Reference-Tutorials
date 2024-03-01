@@ -91,7 +91,7 @@ J: Tentu saja! Anda dapat mengubah properti seperti nama, visibilitas, dan lainn
 J: Ya, Anda dapat membuat dan menambahkan tabel khusus untuk menyesuaikannya dengan kebutuhan spesifik Anda.
 ### T: Apakah ada batasan jumlah tabel dalam suatu proyek?
 J: Pada versi terbaru, tidak ada batasan standar mengenai jumlah tabel.
-### T: Dapatkah saya mengembalikan perubahan yang dilakukan pada kumpulan tabel?
+### T: Bisakah saya mengembalikan perubahan yang dilakukan pada kumpulan tabel?
 J: Ya, Anda dapat menggunakan project.Undo() untuk mengembalikan perubahan yang dibuat selama sesi.
 ### T: Apakah ada pertimbangan kinerja saat mengerjakan proyek besar?
 J: Untuk performa optimal, pertimbangkan operasi batching dan hindari iterasi yang tidak perlu.

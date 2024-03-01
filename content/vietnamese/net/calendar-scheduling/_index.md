@@ -55,7 +55,7 @@ Tìm hiểu cách sử dụng Aspose.Tasks cho .NET để quản lý và phân t
 
 ## Tùy chọn CSV trong Aspose.Tasks
 
- Sử dụng Aspose.Tasks để .NET hoạt động hiệu quả với các tệp CSV. Nâng cao khả năng quản lý dự án của bạn một cách dễ dàng với các hướng dẫn từng bước.[Đọc thêm](./csv-options/)
+ Sử dụng Aspose.Tasks cho .NET để làm việc hiệu quả với các tệp CSV. Nâng cao khả năng quản lý dự án của bạn một cách dễ dàng với các hướng dẫn từng bước.[Đọc thêm](./csv-options/)
 
 ## Vị trí ký hiệu tiền tệ trong Aspose.Tasks
 
@@ -116,7 +116,7 @@ Tìm hiểu cách quản lý chi phí dự án một cách hiệu quả với As
 ### [Đối số lưu CSS trong Aspose.Tasks](./css-saving-arguments/)
 Tìm hiểu cách lưu đối số CSS trong Aspose.Tasks cho .NET để tùy chỉnh đầu ra HTML. Tăng cường trình bày với các cài đặt CSS phù hợp.
 ### [Tùy chọn CSV trong Aspose.Tasks](./csv-options/)
-Tìm hiểu cách sử dụng Aspose.Tasks để .NET hoạt động hiệu quả với các tệp CSV, nâng cao khả năng quản lý dự án của bạn một cách dễ dàng.
+Tìm hiểu cách sử dụng Aspose.Tasks cho .NET để làm việc hiệu quả với các tệp CSV, nâng cao khả năng quản lý dự án của bạn một cách dễ dàng.
 ### [Vị trí ký hiệu tiền tệ trong Aspose.Tasks](./currency-symbol-positions/)
 Tìm hiểu cách kiểm soát vị trí ký hiệu tiền tệ trong các dự án .NET một cách dễ dàng với Aspose.Tasks.
 ### [Các loại trường tùy chỉnh trong Aspose.Tasks](./custom-field-types/)

@@ -76,6 +76,6 @@ V: Igen, az Aspose.Tasks zökkenőmentesen integrálható bármely .NET-projektb
 ### K: Van ingyenes próbaverzió?
  V: Igen, hozzáférhet az ingyenes próbaverzióhoz[itt](https://releases.aspose.com/).
 ### K: Hogyan szerezhetek ideiglenes licencet az Aspose.Tasks számára?
-V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
+ V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol vásárolhatom meg az Aspose.Tasks-t?
  V: Vásároljon Aspose.Tasks-t[itt](https://purchase.aspose.com/buy).

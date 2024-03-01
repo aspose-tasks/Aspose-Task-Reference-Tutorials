@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Đặt thuộc tính bài tập...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Đặt thuộc tính gán2...
+//Đặt thuộc tính gán2...
 ```
 ## 4. Làm việc với dữ liệu theo pha thời gian
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Thao tác dữ liệu theo pha thời gian
 ```csharp
-//Thêm một mục dữ liệu theo pha thời gian sai rồi xóa nó
+// Thêm một mục dữ liệu theo pha thời gian sai rồi xóa nó
 var td4 = new TimephasedData
 {
     // Đặt thuộc tính dữ liệu theo pha thời gian sai...
@@ -109,7 +109,7 @@ foreach (var timephasedData in tds)
 }
 ```
 ## Phần kết luận
-Tóm lại, hướng dẫn này đã cung cấp hướng dẫn chi tiết về cách thu thập dữ liệu theo pha thời gian bằng cách sử dụng Aspose.Tasks cho .NET. Bằng cách làm theo các bước này, bạn có thể tích hợp liền mạch chức năng này vào các dự án của mình, cho phép theo dõi thời gian và quản lý tài nguyên hiệu quả.
+Tóm lại, hướng dẫn này đã cung cấp hướng dẫn chi tiết về cách thu thập dữ liệu theo pha thời gian bằng cách sử dụng Aspose.Tasks cho .NET. Bằng cách làm theo các bước này, bạn có thể tích hợp liền mạch chức năng này vào các dự án của mình, cho phép quản lý tài nguyên và theo dõi thời gian hiệu quả.
 ## Các câu hỏi thường gặp
 ### Tôi có thể sử dụng Aspose.Tasks cho .NET với các công cụ quản lý dự án khác không?
 Có, Aspose.Tasks for .NET được thiết kế để hoạt động với các công cụ quản lý dự án phổ biến và hỗ trợ nhiều định dạng tệp khác nhau.
@@ -120,4 +120,4 @@ Aspose.Tasks xử lý các dự án có quy mô khác nhau và không có giới
 ### Tôi có thể dùng thử Aspose.Tasks cho .NET trước khi mua nó không?
  Có, bạn có thể khám phá các tính năng của Aspose.Tasks for .NET bằng cách truy cập[dùng thử miễn phí](https://releases.aspose.com/).
 ### Tôi có thể mua giấy phép Aspose.Tasks cho .NET ở đâu?
- Bạn có thể mua giấy phép Aspose.Tasks cho .NET[đây](https://purchase.aspose.com/buy).
+Bạn có thể mua giấy phép Aspose.Tasks cho .NET[đây](https://purchase.aspose.com/buy).

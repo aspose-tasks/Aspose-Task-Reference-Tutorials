@@ -45,12 +45,12 @@ Console.WriteLine("Working hours: " + workUnit.WorkingHours);
 ```
 특정 프로젝트 요구 사항에 따라 필요에 따라 이러한 단계를 반복합니다.
 ## 결론
-결론적으로 Aspose.Tasks for .NET은 개발자가 프로젝트 관리 내의 작업 단위를 원활하게 처리하여 효과적인 시간 관리 및 리소스 활용을 촉진할 수 있도록 지원합니다. 이 라이브러리를 .NET 애플리케이션에 통합하면 프로젝트 일정을 제어하고 팀 생산성을 최적화하는 능력이 향상됩니다.
+결론적으로 Aspose.Tasks for .NET은 개발자가 프로젝트 관리 내에서 작업 단위를 원활하게 처리하여 효과적인 시간 관리 및 리소스 활용을 촉진할 수 있도록 지원합니다. 이 라이브러리를 .NET 애플리케이션에 통합하면 프로젝트 일정을 제어하고 팀 생산성을 최적화하는 능력이 향상됩니다.
 ## 자주 묻는 질문
 ### Aspose.Tasks는 모든 프로젝트 관리 파일 형식과 호환됩니까?
  Aspose.Tasks는 MPP, XML 등을 포함한 다양한 프로젝트 파일 형식을 지원합니다. 다음을 참조하세요.[선적 서류 비치](https://reference.aspose.com/tasks/net/) 포괄적인 목록을 보려면
 ### 구매하기 전에 Aspose.Tasks를 사용해 볼 수 있나요?
-예, 무료 평가판을 통해 Aspose.Tasks를 탐색할 수 있습니다. 다음에서 다운로드하세요.[릴리스 페이지](https://releases.aspose.com/).
+ 예, 무료 평가판을 통해 Aspose.Tasks를 탐색할 수 있습니다. 다음에서 다운로드하세요.[릴리스 페이지](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 추가 지원은 어디서 찾을 수 있나요?
  방문하다[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 커뮤니티 지원 및 토론을 위해.
 ### Aspose.Tasks에 대한 임시 라이선스는 어떻게 얻나요?

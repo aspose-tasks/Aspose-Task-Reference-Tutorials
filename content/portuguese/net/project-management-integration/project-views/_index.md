@@ -12,7 +12,7 @@ O Microsoft Project é uma ferramenta poderosa para gerenciamento de projetos, p
 ## Pré-requisitos
 Antes de começarmos, certifique-se de ter os seguintes pré-requisitos configurados:
 ### 1. Instale Aspose.Tasks para .NET
- Você pode baixar e instalar Aspose.Tasks for .NET do[local na rede Internet](https://releases.aspose.com/tasks/net/), Siga as instruções de instalação fornecidas para configurar a biblioteca em seu ambiente de desenvolvimento.
+ Você pode baixar e instalar Aspose.Tasks for .NET do[local na rede Internet](https://releases.aspose.com/tasks/net/). Siga as instruções de instalação fornecidas para configurar a biblioteca em seu ambiente de desenvolvimento.
 ### 2. Conhecimento básico de C# e .NET Framework
 Familiarize-se com a linguagem de programação C# e o .NET Framework, pois este tutorial pressupõe uma compreensão básica desses conceitos.
 ### 3. Arquivo do Microsoft Project
@@ -48,7 +48,7 @@ project.Save(OutDir + "WorkWithProjectView_AssignmentView_out.pdf", options);
 ```
 Salve a visualização personalizada do projeto em um arquivo PDF com as opções especificadas.
 ## Conclusão
-A personalização das visualizações do MS Project usando Aspose.Tasks for .NET oferece aos desenvolvedores flexibilidade e controle sobre como os dados do projeto são visualizados. Seguindo as etapas descritas neste tutorial, você pode personalizar com eficiência as visualizações do projeto para atender às necessidades específicas de gerenciamento de projetos.
+personalização das visualizações do MS Project usando Aspose.Tasks for .NET oferece aos desenvolvedores flexibilidade e controle sobre como os dados do projeto são visualizados. Seguindo as etapas descritas neste tutorial, você pode personalizar com eficiência as visualizações do projeto para atender às necessidades específicas de gerenciamento de projetos.
 ## Perguntas frequentes
 ### 1. Posso personalizar outras visualizações além da visualização da tarefa?
 Sim, Aspose.Tasks for .NET oferece opções para personalizar várias visualizações, incluindo gráficos de Gantt, uso de recursos e visualizações de uso de tarefas.

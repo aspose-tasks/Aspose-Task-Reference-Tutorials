@@ -1,6 +1,6 @@
 ---
 title: قم بتخصيص إعدادات عرض صفحة مشروع MS في Aspose.Tasks
-linktitle: قم بتكوين إعدادات عرض الصفحة في Aspose.Tasks
+linktitle: تكوين إعدادات عرض الصفحة في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين إعدادات عرض الصفحة في Aspose.Tasks لـ .NET لتخصيص تنسيق الطباعة لمستندات Microsoft Project الخاصة بك.
 type: docs
@@ -75,4 +75,4 @@ project.Save(DataDir + "ProjectWithComments_out.pdf", SaveFileFormat.Pdf);
 ### س: هل Aspose.Tasks متوافق مع كافة إصدارات Microsoft Project؟
 ج: يوفر Aspose.Tasks التوافق مع Microsoft Project 2003 والإصدارات الأحدث.
 ### س: أين يمكنني العثور على مزيد من المساعدة أو الدعم لـ Aspose.Tasks؟
- ج: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)لأية استفسارات أو مشاكل تواجهك أثناء الاستخدام.
+ ج: يمكنك زيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لأية استفسارات أو مشاكل تواجهك أثناء الاستخدام.

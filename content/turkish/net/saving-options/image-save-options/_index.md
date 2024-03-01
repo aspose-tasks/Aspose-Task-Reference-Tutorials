@@ -13,9 +13,9 @@ Yazılım geliştirme dünyasında, proje görevlerini verimli bir şekilde ele 
 ## Önkoşullar
 MS Project seçeneklerini görüntü olarak kaydetmek için Aspose.Tasks for .NET'i kullanmaya başlamadan önce aşağıdaki önkoşulların yerine getirildiğinden emin olun:
 ### 1. Aspose.Tasks for .NET'i yükleyin
- Başlamak için geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olması gerekir. Kütüphaneyi adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/tasks/net/) ve verilen kurulum talimatlarını izleyin.
+Başlamak için geliştirme ortamınızda Aspose.Tasks for .NET'in kurulu olması gerekir. Kütüphaneyi adresinden indirebilirsiniz.[İnternet sitesi](https://releases.aspose.com/tasks/net/) ve verilen kurulum talimatlarını izleyin.
 ### 2. Lisans Alın (İsteğe Bağlı)
- Aspose.Tasks for .NET, değerlendirme modunda lisans olmadan kullanılabilse de, tam işlevsellik ve değerlendirme sınırlamalarını ortadan kaldırmak için bir lisans alınması önerilir. adresinden lisans alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy) veya birini tercih edin[geçici lisans](https://purchase.aspose.com/temporary-license/) test amaçlı.
+ Aspose.Tasks for .NET, değerlendirme modunda lisans olmadan kullanılabilse de, tam işlevsellik ve değerlendirme sınırlamalarını kaldırmak için bir lisans alınması önerilir. adresinden lisans alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy) veya birini tercih edin[geçici lisans](https://purchase.aspose.com/temporary-license/) test amaçlı.
 ### 3. C# ve .NET Geliştirmeye İlişkin Temel Bilgiler
 Örnekleri takip etmek ve Aspose.Tasks işlevlerini uygulamalarınıza etkili bir şekilde entegre etmek için C# programlama dili ve .NET çerçevesi hakkında temel bir anlayış gereklidir.
 ## Ad Alanlarını İçe Aktar
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## 3. Adım: Görüntü Kaydetme Seçeneklerini Tanımlayın
- Bir örneğini oluşturun`ImageSaveOptions` ve istediğiniz ayarları belirtin:
+ Bir örneğini oluşturun`ImageSaveOptions`ve istediğiniz ayarları belirtin:
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {

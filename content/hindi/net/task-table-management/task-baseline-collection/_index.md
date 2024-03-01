@@ -2,7 +2,7 @@
 title: Aspose.Tasks में कार्य बेसलाइन का संग्रह
 linktitle: Aspose.Tasks में कार्य बेसलाइन का संग्रह
 second_title: Aspose.Tasks .NET API
-description: .NET के लिए Aspose.Tasks के साथ कार्य बेसलाइन को सहजता से खोजें। कुशल परियोजना प्रबंधन को सरल बनाया गया। अब डाउनलोड करो! #Aspose.कार्य #MSProject
+description: .NET के लिए Aspose.Tasks के साथ कार्य बेसलाइन को सहजता से खोजें। कुशल परियोजना प्रबंधन को सरल बनाया गया। अब डाउनलोड करो! #Aspose.Tasks #MS प्रोजेक्ट
 type: docs
 weight: 17
 url: /hi/net/task-table-management/task-baseline-collection/

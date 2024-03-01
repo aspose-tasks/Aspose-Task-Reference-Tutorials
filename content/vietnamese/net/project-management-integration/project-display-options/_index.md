@@ -1,5 +1,5 @@
 ---
-title: Định cấu hình Tùy chọn hiển thị dự án MS trong Aspose.Tasks
+title: Định cấu hình tùy chọn hiển thị dự án MS trong Aspose.Tasks
 linktitle: Định cấu hình tùy chọn hiển thị dự án trong Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Tìm hiểu cách định cấu hình các tùy chọn hiển thị MS Project theo chương trình bằng cách sử dụng Aspose.Tasks cho .NET. Tùy chỉnh giao diện dự án của bạn một cách dễ dàng.

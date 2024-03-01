@@ -12,7 +12,7 @@ Aspose.Tasks for .NET, geliştiricilerin Microsoft Project dosyalarını kolayl�
 ## Önkoşullar
 Başlamadan önce aşağıdaki önkoşulların mevcut olduğundan emin olun:
 ### 1. Aspose.Tasks for .NET'i yükleyin
-Aspose.Tasks for .NET'i yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
+ Aspose.Tasks for .NET'i yüklediğinizden emin olun. Şuradan indirebilirsiniz[Burada](https://releases.aspose.com/tasks/net/).
 ### 2. Lisans Alın (İsteğe Bağlı)
  Aspose.Tasks'ı ticari bir projede kullanıyorsanız lisansa ihtiyacınız olacaktır. adresinden lisans satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy) veya geçici bir lisans talep edebilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### 3. Geliştirme Ortamınızı Kurun

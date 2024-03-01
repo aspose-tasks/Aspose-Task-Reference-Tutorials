@@ -12,7 +12,7 @@ Microsoft Project là một công cụ mạnh mẽ để quản lý dự án, ch
 ## Điều kiện tiên quyết
 Trước khi chúng ta bắt đầu, hãy đảm bảo rằng bạn đã thiết lập các điều kiện tiên quyết sau:
 ### 1. Cài đặt Aspose.Tasks cho .NET
- Bạn có thể tải xuống và cài đặt Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/tasks/net/), Làm theo hướng dẫn cài đặt được cung cấp để thiết lập thư viện trong môi trường phát triển của bạn.
+ Bạn có thể tải xuống và cài đặt Aspose.Tasks cho .NET từ[trang mạng](https://releases.aspose.com/tasks/net/). Làm theo hướng dẫn cài đặt được cung cấp để thiết lập thư viện trong môi trường phát triển của bạn.
 ### 2. Kiến thức cơ bản về C# và .NET Framework
 Hãy tự làm quen với ngôn ngữ lập trình C# và .NET Framework vì hướng dẫn này giả định bạn có hiểu biết cơ bản về các khái niệm này.
 ### 3. Tệp dự án Microsoft

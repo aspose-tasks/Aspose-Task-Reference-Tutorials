@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2.mpp");
 ```
 
- Laad het projectbestand met behulp van de`Project` klasseconstructor, die het bestandspad specificeert.
+ Laad het projectbestand met behulp van de`Project`klasseconstructor, die het bestandspad specificeert.
 
 ## Stap 2: Verzamel alle projecttaken
 
@@ -117,4 +117,4 @@ A4: Ja, u kunt Aspose.Tasks naadloos integreren met andere .NET-frameworks en -b
 
 ### V5: Is er een communityforum of ondersteuningskanaal beschikbaar voor Aspose.Tasks-gebruikers?
 
- A5: Ja, u heeft toegang tot het Aspose.Tasks-communityforum.[hier](https://forum.aspose.com/c/tasks/15) voor eventuele vragen of hulp.
+ A5: Ja, u heeft toegang tot het Aspose.Tasks-communityforum[hier](https://forum.aspose.com/c/tasks/15) voor eventuele vragen of hulp.

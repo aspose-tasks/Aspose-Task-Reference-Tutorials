@@ -15,7 +15,7 @@ Başlamadan önce aşağıdaki önkoşullara sahip olduğunuzdan emin olun:
 2. Geliştirme Ortamı: Visual Studio veya .NET geliştirme için tercih edilen herhangi bir IDE ile ayarlanmış bir geliştirme ortamına sahip olun.
 
 ## Ad Alanlarını İçe Aktarma
-Başlamak için gerekli ad alanlarını projenize aktarmanız gerekir. Bu ad alanları, MS Project dosyalarını yönetmek için gereken Aspose.Tasks sınıflarına ve yöntemlerine erişim sağlar.
+Başlamak için projenize gerekli ad alanlarını içe aktarmanız gerekir. Bu ad alanları, MS Project dosyalarını yönetmek için gereken Aspose.Tasks sınıflarına ve yöntemlerine erişim sağlar.
 ```csharp
 using Aspose.Tasks;
 using System.Linq;

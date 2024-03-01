@@ -52,7 +52,7 @@ var options = new Spreadsheet2003SaveOptions();
 
 ## Stap 3: Definieer aangepaste kolom
 
- Definieer nu uw aangepaste kolom door een exemplaar van te maken`AssignmentViewColumn`Deze klasse vereist de kolomnaam, breedte en een delegatiefunctie om toewijzingsgegevens om te zetten in kolomtekst:
+ Definieer nu uw aangepaste kolom door een exemplaar van te maken`AssignmentViewColumn`. Deze klasse vereist de kolomnaam, breedte en een delegatiefunctie om toewijzingsgegevens om te zetten in kolomtekst:
 
 ```csharp
 var column = new AssignmentViewColumn("Notes", 200, delegate(ResourceAssignment assignment) { return assignment.Get(Asn.NotesText); });

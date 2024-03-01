@@ -89,7 +89,7 @@ settings.Patterns.Remove(pattern1);
 ## Bước 8: Xóa mẫu
 Xóa bộ sưu tập mẫu riêng lẻ hoặc hoàn toàn:
 ```csharp
-// loại bỏ cá nhân
+// Xóa riêng lẻ
 settings.Patterns.Clear();
 ```
 
@@ -105,4 +105,4 @@ Trả lời: Chắc chắn, Aspose.Tasks tích hợp liền mạch với các kh
 ### Câu hỏi: Có phiên bản dùng thử cho Aspose.Tasks không?
  Trả lời: Có, bạn có thể truy cập bản dùng thử miễn phí Aspose.Tasks từ[đây](https://releases.aspose.com/)cho phép bạn khám phá các tính năng của nó trước khi mua hàng.
 ### Câu hỏi: Tôi có thể tìm hỗ trợ cho Aspose.Tasks ở đâu?
- Trả lời: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp toàn diện trên diễn đàn Aspose.Tasks.[đây](https://forum.aspose.com/c/tasks/15), nơi bạn có thể tương tác với các chuyên gia và người dùng đồng nghiệp để giải quyết các truy vấn và vấn đề.
+ Trả lời: Bạn có thể tìm thấy sự hỗ trợ và trợ giúp toàn diện trên diễn đàn Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15), nơi bạn có thể tương tác với các chuyên gia và người dùng đồng nghiệp để giải quyết các truy vấn và vấn đề.

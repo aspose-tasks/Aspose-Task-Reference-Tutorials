@@ -9,7 +9,7 @@ url: /it/
 is_root: true
 ---
 
-Intraprendi un'esplorazione completa delle capacità di gestione dei progetti in vari linguaggi di programmazione con il nostro elenco di tutorial Aspose.Tasks. Sia che tu stia lavorando con Aspose.Tasks per .NET, Java, C,o altri linguaggi, questa raccolta curata di tutorial è progettata per potenziare gli sviluppatori a ogni livello. Dai concetti fondamentali alle tecniche avanzate, ogni tutorial fornisce una guida passo passo, consentendoti di sfruttare tutto il potenziale di Aspose.Tasks nella tua lingua preferita. Immergiti nel nostro ricco repository e migliora le tue capacità di gestione dei progetti su più piattaforme e ambienti di codifica. Esploriamo insieme il variegato panorama dei tutorial Aspose.Tasks!
+Intraprendi un'esplorazione completa delle capacità di gestione dei progetti in vari linguaggi di programmazione con il nostro elenco di tutorial Aspose.Tasks. Sia che tu stia lavorando con Aspose.Tasks per .NET, Java, C++o altri linguaggi, questa raccolta curata di tutorial è progettata per potenziare gli sviluppatori a ogni livello. Dai concetti fondamentali alle tecniche avanzate, ogni tutorial fornisce una guida passo passo, consentendoti di sfruttare tutto il potenziale di Aspose.Tasks nella tua lingua preferita. Immergiti nel nostro ricco repository e migliora le tue capacità di gestione dei progetti su più piattaforme e ambienti di codifica. Esploriamo insieme il variegato panorama dei tutorial Aspose.Tasks!
 
 ## Aspose.Tasks per esercitazioni .NET
 {{% alert color="primary" %}}
@@ -34,3 +34,27 @@ Questi sono i link ad alcune risorse utili:
 - [Opzioni del formato file Aspose.Tasks](./net/file-format-options/)
 - [Aspose.Tasks Configurazione della sicurezza PDF](./net/pdf-security-configuration/)
 - [Gestione delle licenze Aspose.Tasks](./net/license-management/)
+
+## Aspose.Tasks per tutorial Java
+{{% alert color="primary" %}}
+Benvenuti nel portale della gestione avanzata dei progetti Java! Intraprendi un viaggio con Aspose.Tasks per Java, dove i nostri tutorial ed esempi completi ridefiniscono il modo in cui gestisci i flussi di lavoro dei progetti. Dalla gestione delle eccezioni del calendario alla perfetta integrazione VBA, abbiamo curato una vasta gamma di risorse per potenziare gli sviluppatori di tutti i livelli. Unisciti a noi mentre approfondiamo le complessità della gestione dei progetti, offrendo una guida passo passo e sbloccando tutto il potenziale di Aspose.Tasks per Java. Preparati a ottimizzare i tuoi progetti, semplificare i flussi di lavoro e migliorare le tue capacità di sviluppo Java!
+{{% /alert %}}
+
+Questi sono i link ad alcune risorse utili:
+
+- [Eccezioni del calendario](./java/calendar-exceptions/)
+- [Calendari](./java/calendars/)
+- [Valuta](./java/currency/)
+- [Formule](./java/formulas/)
+- [Proprietà del progetto](./java/project-properties/)
+- [Proprietà valutarie](./java/currency-properties/)
+- [Configurazione del progetto](./java/project-configuration/)
+- [Gestione del progetto](./java/project-management/)
+- [Lettura dei dati di progetto](./java/project-data-reading/)
+- [Operazioni sui file di progetto](./java/project-file-operations/)
+- [Assegnazioni di risorse](./java/resource-assignments/)
+- [Gestione delle risorse](./java/resource-management/)
+- [Linee di base delle attività](./java/task-baselines/)
+- [Collegamenti alle attività](./java/task-links/)
+- [Proprietà dell'attività](./java/task-properties/)
+- [Integrazione VBA](./java/vba-integration/)

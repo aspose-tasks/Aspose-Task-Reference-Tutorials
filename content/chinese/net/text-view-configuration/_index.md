@@ -24,7 +24,7 @@ url: /zh/net/text-view-configuration/
 掌握使用 Aspose.Tasks for .NET 自定义时间线视图的艺术，以增强您的项目管理体验。定制具有视觉吸引力的时间表，以满足您项目的独特需求。浏览我们的分步指南[在 Aspose.Tasks 中自定义时间线视图](./timeline-views/).
 
 ## 在 Aspose.Tasks 中处理时间分段数据## 
-使用 Aspose.Tasks for .NET 轻松管理时间分段数据、增强项目规划并优化资源管理。通过浏览我们的指南来发现见解[在 Aspose.Tasks 中处理时间分段数据](./timephased-data/).
+使用 Aspose.Tasks for .NET 轻松管理时间分段数据、增强项目规划并优化资源管理。通过探索我们的指南来发现见解[在 Aspose.Tasks 中处理时间分段数据](./timephased-data/).
 
 ## Aspose.Tasks 中时间分段数据的收集## 
 通过我们的分步指南、常见问题解答等，深入了解 Aspose.Tasks for .NET 中的时间分段数据收集世界。通过探索今天提升您的项目管理能力[Aspose.Tasks 中时间分段数据的收集](./timephased-data-collection/).

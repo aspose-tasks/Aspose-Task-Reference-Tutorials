@@ -32,7 +32,7 @@ url: /th/net/rate-recurring-tasks/recurring-intervals/
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-ที่นี่เราเริ่มต้นอินสแตนซ์ใหม่ของ`Project` คลาสโดยระบุเส้นทางไปยังไฟล์ Microsoft Project
+ ที่นี่เราเริ่มต้นอินสแตนซ์ใหม่ของ`Project` คลาสโดยระบุเส้นทางไปยังไฟล์ Microsoft Project
 ## ขั้นตอนที่ 2: กำหนดวันที่สถานะ:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));

@@ -2,7 +2,7 @@
 title: Aspose.Tasks .NET을 사용한 간편한 MS 프로젝트 뷰 관리
 linktitle: Aspose.Tasks의 뷰 컬렉션
 second_title: Aspose.태스크 .NET API
-description: .NET용 Aspose.Tasks를 탐색하고 MS 프로젝트 뷰를 쉽게 관리하는 기술을 익히세요. 원활한 프로젝트 관리 경험을 위해 지금 다운로드하세요.
+description: .NET용 Aspose.Tasks를 탐색하고 MS 프로젝트 뷰를 쉽게 관리하는 기술을 익히십시오. 원활한 프로젝트 관리 경험을 위해 지금 다운로드하세요.
 type: docs
 weight: 11
 url: /ko/net/view-wbs-code-configuration/view-collection/
@@ -90,7 +90,7 @@ Aspose.Tasks는 다양한 .NET Framework 버전과 호환되도록 설계되었�
 ### 간트 차트 보기의 모양을 사용자 정의할 수 있나요?
 전적으로! Aspose.Tasks는 프로젝트 요구 사항에 맞게 간트 차트 보기의 모양을 사용자 정의할 수 있는 광범위한 옵션을 제공합니다.
 ### Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
- 예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
+예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Tasks에 대한 커뮤니티 지원은 어떻게 받을 수 있나요?
  Aspose.Tasks 커뮤니티에 참여하세요.[법정](https://forum.aspose.com/c/tasks/15) 문의사항이나 도움이 필요하시면
 ### Aspose.Tasks에 임시 라이선스를 사용할 수 있나요?

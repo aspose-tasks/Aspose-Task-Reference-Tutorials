@@ -31,7 +31,7 @@ Ange först sökvägen till katalogen som innehåller din MS Project-fil.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- byta ut`"Your Document Directory"` med den faktiska sökvägen till din projektfil.
+ Byta ut`"Your Document Directory"` med den faktiska sökvägen till din projektfil.
 ## Steg 2: Ladda projektfilen
  Instantiera en ny`Project` objekt genom att ladda MS Project-filen.
 ```csharp
@@ -62,7 +62,7 @@ Det här kodavsnittet går igenom varje uppgift, kontrollerar om den har disposi
 Sammanfattningsvis ger Aspose.Tasks för .NET kraftfulla funktioner för att hantera Microsoft Project-konturkoder programmatiskt. Genom att följa stegen som beskrivs i denna handledning kan du effektivt läsa och manipulera dispositionskoder i dina MS Project-filer med C#.
 ## FAQ's
 ### F: Kan jag ändra konturkoder med Aspose.Tasks?
-S: Ja, du kan modifiera konturkoder programmatiskt med Aspose.Tasks för .NET. Få helt enkelt tillgång till dispositionskoderna för uppgifter och uppdatera deras värden efter behov.
+S: Ja, du kan modifiera konturkoder programmatiskt med Aspose.Tasks för .NET. Få helt enkelt tillgång till uppgifternas dispositionskoder och uppdatera deras värden efter behov.
 ### F: Är Aspose.Tasks kompatibel med alla versioner av Microsoft Project?
 S: Aspose.Tasks stöder ett brett utbud av Microsoft Project-versioner, inklusive 2003, 2007, 2010, 2013, 2016 och 2019.
 ### F: Kräver Aspose.Tasks en licens för kommersiellt bruk?

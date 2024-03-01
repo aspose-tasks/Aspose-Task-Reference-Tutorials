@@ -86,7 +86,7 @@ analysisResult.SaveReport(DataDir + "AnalysisReport_out.pdf");
 ```
 
 ## 결론
-결론적으로 Aspose.Tasks for .NET은 MS 프로젝트 위험 분석을 위한 강력한 기능을 제공하여 프로젝트 관리자가 정보에 입각한 결정을 내리고 잠재적인 문제를 완화할 수 있도록 해줍니다. 이 튜토리얼에 설명된 단계를 따르면 Aspose.Tasks를 효과적으로 활용하여 자신있게 프로젝트 위험을 관리할 수 있습니다.
+결론적으로 Aspose.Tasks for .NET은 MS 프로젝트 위험 분석을 위한 강력한 기능을 제공하여 프로젝트 관리자가 정보에 입각한 결정을 내리고 잠재적인 문제를 완화할 수 있도록 합니다. 이 튜토리얼에 설명된 단계를 따르면 Aspose.Tasks를 효과적으로 활용하여 자신있게 프로젝트 위험을 관리할 수 있습니다.
 ## FAQ
 ### Q: Aspose.Tasks를 다른 프로젝트 관리 도구와 함께 사용할 수 있나요?
 A: 예, Aspose.Tasks는 다양한 프로젝트 관리 플랫폼 및 도구와의 통합을 지원합니다.

@@ -8,7 +8,7 @@ weight: 10
 url: /hu/net/rate-recurring-tasks/handling-rates/
 ---
 ## Bevezetés
-Üdvözöljük az MS Project Rates kezeléséről szóló oktatóanyagunkban az Aspose.Tasks for .NET használatával! Ebben az útmutatóban lépésről lépésre végigvezetjük a folyamaton, így biztosítva, hogy hatékonyan kezelje a díjakat az MS Project dokumentumaiban. Az Aspose.Tasks for .NET hatékony szolgáltatásokat kínál az MS Project fájlok programozott kezeléséhez, lehetővé téve a projektkezelési feladatok egyszerűsítését.
+Üdvözöljük az MS Project Rates kezeléséről szóló oktatóanyagunkban az Aspose.Tasks for .NET használatával! Ebben az útmutatóban lépésről lépésre végigvezetjük a folyamaton, így biztosítva, hogy hatékonyan kezelje a díjakat az MS Project dokumentumaiban. Az Aspose.Tasks for .NET hatékony funkciókat kínál az MS Project fájlok programozott kezeléséhez, lehetővé téve a projektkezelési feladatok egyszerűsítését.
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 1. Visual Studio telepítve: Győződjön meg arról, hogy a Visual Studio telepítve van a rendszeren.

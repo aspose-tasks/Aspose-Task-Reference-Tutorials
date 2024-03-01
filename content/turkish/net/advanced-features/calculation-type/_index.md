@@ -39,7 +39,7 @@ using System;
 var project = new Project();
 ```
 
-## 2. Adım: Görev Ekle
+## 2. Adım: Görev Ekleme
 
 Şimdi projemize bir görev ekleyelim:
 
@@ -74,7 +74,7 @@ project.ExtendedAttributes.Add(lookup);
 
 ## Çözüm
 
-Bu eğitimde Aspose.Tasks for .NET'te Hesaplama Türü ile nasıl çalışılacağını araştırdık. Genişletilmiş nitelikler için Hesaplama Türlerini tanımlayarak, bir proje içindeki görevler ve özet görevler için değerlerin nasıl hesaplanacağını özelleştirerek daha fazla esneklik ve kontrol sağlayabiliriz.
+Bu eğitimde Aspose.Tasks for .NET'te Hesaplama Türü ile nasıl çalışılacağını araştırdık. Genişletilmiş nitelikler için Hesaplama Türlerini tanımlayarak, bir proje içindeki görevler ve özet görevler için değerlerin nasıl hesaplanacağını özelleştirebilir, böylece daha fazla esneklik ve kontrol sağlayabiliriz.
 
 ## SSS'ler
 

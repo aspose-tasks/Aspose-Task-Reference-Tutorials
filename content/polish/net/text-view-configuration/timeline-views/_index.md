@@ -71,7 +71,7 @@ Tak, Aspose.Tasks obsługuje różne frameworki .NET, zapewniając kompatybilno�
 ### Czy mogę dostosować wygląd poszczególnych zadań w widoku osi czasu?
 Absolutnie! Aspose.Tasks zapewnia elastyczność dostosowywania wyglądu każdego zadania w widoku osi czasu.
 ### Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Tasks?
- odwiedzić[Dokumentacja Aspose.Tasks](https://reference.aspose.com/tasks/net/) dla kompleksowych przewodników i[forum wsparcia](https://forum.aspose.com/c/tasks/15) do pomocy.
+ Odwiedzić[Dokumentacja Aspose.Tasks](https://reference.aspose.com/tasks/net/)dla kompleksowych przewodników i[forum wsparcia](https://forum.aspose.com/c/tasks/15) do pomocy.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks?
  Tak, możesz skorzystać z bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### Jak uzyskać tymczasową licencję na Aspose.Tasks?

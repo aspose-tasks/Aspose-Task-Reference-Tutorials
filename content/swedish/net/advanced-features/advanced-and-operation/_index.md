@@ -84,7 +84,7 @@ foreach (var task in collection)
 
 ## Slutsats
 
- I den här handledningen lärde vi oss hur man utför avancerade AND-operationer i Aspose.Tasks för .NET. Genom att kombinera förhållanden med hjälp av`Util.And` klass kan vi filtrera uppgifter effektivt baserat på flera kriterier.
+ I den här handledningen lärde vi oss hur man utför avancerade AND-operationer i Aspose.Tasks för .NET. Genom att kombinera förhållanden med hjälp av`Util.And`klass kan vi filtrera uppgifter effektivt baserat på flera kriterier.
 
 ## FAQ's
 
@@ -106,4 +106,4 @@ S: Ja, Util.And kan användas för att kombinera valfritt antal villkor för att
 
 ### F5: Hur kan jag få support för Aspose.Tasks för .NET?
 
- S: Du kan få stöd från Aspose.Tasks communityforum.[här](https://forum.aspose.com/c/tasks/15).
+S: Du kan få stöd från Aspose.Tasks communityforum[här](https://forum.aspose.com/c/tasks/15).

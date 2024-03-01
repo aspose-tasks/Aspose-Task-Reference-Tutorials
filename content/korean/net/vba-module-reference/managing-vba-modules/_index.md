@@ -71,6 +71,6 @@ foreach (var module in project.VbaProject.Modules)
 ### Aspose.Tasks에 대한 추가 예제와 문서는 어디에서 찾을 수 있나요?
  방문하다[선적 서류 비치](https://reference.aspose.com/tasks/net/) 포괄적인 예시와 지침을 확인하세요.
 ### Aspose.Tasks에 사용할 수 있는 무료 평가판이 있나요?
- 예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
+예, 무료 평가판에 액세스할 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Tasks와 관련된 문제에 대해 어떻게 지원을 받거나 도움을 구할 수 있나요?
- 부담 없이 방문해 보세요[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15)지역 사회 지원을 위해.
+부담 없이 방문해 보세요.[Aspose.Tasks 포럼](https://forum.aspose.com/c/tasks/15) 지역 사회 지원을 위해.

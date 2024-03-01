@@ -65,8 +65,8 @@ Console.WriteLine("Footer right image size: {0} ", info.Footer.RightImageSize);
 ### क्या Aspose.Tasks MS प्रोजेक्ट के अलावा अन्य प्रोजेक्ट फ़ाइल स्वरूपों का समर्थन करता है?
 हाँ, Aspose.Tasks MPP, XML और MPX सहित विभिन्न प्रोजेक्ट फ़ाइल स्वरूपों का समर्थन करता है।
 ### क्या Aspose.Tasks के लिए कोई निःशुल्क परीक्षण उपलब्ध है?
- हाँ, आप Aspose. Tasks का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
+ हां, आप Aspose.Tasks का निःशुल्क परीक्षण यहां से डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/).
 ### मुझे Aspose.Tasks के लिए दस्तावेज़ कहाँ मिल सकते हैं?
  आप Aspose.Tasks के लिए दस्तावेज़ पा सकते हैं[यहाँ](https://reference.aspose.com/tasks/net/).
 ### मैं Aspose.Tasks के लिए समर्थन कैसे प्राप्त कर सकता हूँ?
- आप पर जाकर Aspose.कार्यों के लिए समर्थन प्राप्त कर सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).
+ आप पर जाकर Aspose.Tasks के लिए समर्थन प्राप्त कर सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15).

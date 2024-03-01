@@ -75,7 +75,7 @@ task.OutlineCodes.Add(codeOne);
 Manipolare i codici di struttura secondo necessità, ad esempio inserendo, rimuovendo o cancellando.
 ```csharp
 // Esempio di manipolazione
-// ,
+// ...
 // Inserisci il codice con 2 nella posizione giusta
 task.OutlineCodes.Insert(2, code2);
 // Controlla se il codice è stato inserito

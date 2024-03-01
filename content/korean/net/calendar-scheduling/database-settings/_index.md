@@ -81,7 +81,7 @@ project.Save(OutDir + "SupportForSQLiteDatabase_out.mpp", SaveFileFormat.Mpp);
 
 ## FAQ
 
-### Q1: Aspose.Tasks for .NET을 사용하여 다른 데이터베이스 공급자로부터 프로젝트를 가져올 수 있나요?
+### Q1: Aspose.Tasks for .NET을 사용하여 다른 데이터베이스 공급자로부터 프로젝트를 가져올 수 있습니까?
 
 A1: 예, 연결 문자열과 공급자 고정 이름을 적절하게 조정하여 다양한 데이터베이스 공급자로부터 프로젝트를 가져올 수 있습니다.
 

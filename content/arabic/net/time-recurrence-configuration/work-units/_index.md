@@ -50,7 +50,7 @@ Console.WriteLine("Working hours: " + workUnit.WorkingHours);
 ### هل Aspose.Tasks متوافق مع جميع تنسيقات ملفات إدارة المشاريع؟
  يدعم Aspose.Tasks العديد من تنسيقات ملفات المشروع، بما في ذلك MPP وXML والمزيد. الرجوع إلى[توثيق](https://reference.aspose.com/tasks/net/) للحصول على قائمة شاملة.
 ### هل يمكنني تجربة Aspose.Tasks قبل الشراء؟
-نعم، يمكنك استكشاف Aspose.Tasks من خلال النسخة التجريبية المجانية. قم بتنزيله من[صفحة الإصدار](https://releases.aspose.com/).
+ نعم، يمكنك استكشاف Aspose.Tasks من خلال النسخة التجريبية المجانية. قم بتنزيله من[صفحة الإصدار](https://releases.aspose.com/).
 ### أين يمكنني العثور على دعم إضافي لـ Aspose.Tasks؟
  قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع والمناقشات.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Tasks؟

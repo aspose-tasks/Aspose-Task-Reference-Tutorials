@@ -89,4 +89,4 @@ project.Save("OutputFile.xlsx", options);
 
 ### 问：是否有任何临时许可证选项可用于测试目的？
 
-答：是的，您可以从以下机构获得临时许可证：[Aspose.Tasks临时许可证页面](https://purchase.aspose.com/temporary-license/).
+答：是的，您可以从以下机构获得临时许可证：[Aspose.Tasks 临时许可证页面](https://purchase.aspose.com/temporary-license/).

@@ -2,7 +2,7 @@
 title: Aspose.Tasks में VBA मॉड्यूल विशेषताओं में महारत हासिल करना
 linktitle: Aspose.Tasks में VBA मॉड्यूल विशेषताओं का संग्रह
 second_title: Aspose.Tasks .NET API
-description: VBA मॉड्यूल विशेषताओं को प्रबंधित करने में .NET के लिए Aspose.Tasks की शक्ति का अन्वेषण करें। अपने .NET प्रोजेक्ट्स को सहजता से बढ़ाएं। अब डाउनलोड करो! #असपोज़ #कार्य #एमएसप्रोजेक्ट
+description: VBA मॉड्यूल विशेषताओं को प्रबंधित करने में .NET के लिए Aspose.Tasks की शक्ति का अन्वेषण करें। अपने .NET प्रोजेक्ट्स को सहजता से बढ़ाएं। अब डाउनलोड करो! #असपोज़ #कार्य #एमएस प्रोजेक्ट
 type: docs
 weight: 12
 url: /hi/net/vba-module-reference/vba-module-attribute-collection/
@@ -28,7 +28,7 @@ url: /hi/net/vba-module-reference/vba-module-attribute-collection/
 String DataDir = "Your Document Directory";
 ```
 ## चरण 2: मॉड्यूल के माध्यम से पुनरावृति करें
-इस चरण में, अपने Aspose. Tasks प्रोजेक्ट में मॉड्यूल के माध्यम से पुनरावृति करें। यह VBA मॉड्यूल विशेषताओं तक पहुँचने के लिए आवश्यक है।
+इस चरण में, अपने Aspose.Tasks प्रोजेक्ट में मॉड्यूल के माध्यम से पुनरावृति करें। यह VBA मॉड्यूल विशेषताओं तक पहुँचने के लिए आवश्यक है।
 ```csharp
 foreach (var module in project.VbaProject.Modules)
 {

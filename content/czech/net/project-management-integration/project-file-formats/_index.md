@@ -8,7 +8,7 @@ weight: 18
 url: /cs/net/project-management-integration/project-file-formats/
 ---
 ## Úvod
-V tomto tutoriálu prozkoumáme, jak zacházet s formáty souborů Microsoft Project pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům programově manipulovat a spravovat soubory projektu. Ať už pracujete se soubory .mpp, .xml nebo .csv, Aspose.Tasks poskytuje komplexní sadu funkcí pro různé aspekty projektového řízení.
+tomto tutoriálu prozkoumáme, jak zacházet s formáty souborů Microsoft Project pomocí Aspose.Tasks for .NET. Aspose.Tasks je výkonná knihovna, která umožňuje vývojářům programově manipulovat a spravovat soubory projektu. Ať už pracujete se soubory .mpp, .xml nebo .csv, Aspose.Tasks poskytuje komplexní sadu funkcí pro různé aspekty projektového řízení.
 ## Předpoklady
 Než začneme, ujistěte se, že máte následující předpoklady:
 1. Visual Studio: Nainstalujte Visual Studio nebo jakékoli jiné preferované .NET IDE.

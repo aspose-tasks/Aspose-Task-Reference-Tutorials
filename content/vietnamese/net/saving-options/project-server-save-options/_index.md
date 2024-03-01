@@ -36,7 +36,7 @@ var project = new Project(DataDir + @"Project1.mpp");
 var windowsCredentials = new NetworkCredential(UserName, Password, Domain);
 var projectServerCredentials = new ProjectServerCredentials(URL, windowsCredentials);
 ```
- Đảm bảo bạn thay thế`"Your Document Directory"`, `URL`, `Domain`, `UserName` ,Và`Password` với giá trị thực tế của bạn.
+ Đảm bảo bạn thay thế`"Your Document Directory"`, `URL`, `Domain`, `UserName` , Và`Password` với giá trị thực tế của bạn.
 ## Bước 2: Tạo Trình quản lý máy chủ dự án
 ```csharp
 var manager = new ProjectServerManager(projectServerCredentials);
@@ -51,7 +51,7 @@ var options = new ProjectServerSaveOptions
     PollingInterval = TimeSpan.FromSeconds(3)
 };
 ```
- Điều chỉnh`ProjectGuid`, `ProjectName`, `Timeout` ,Và`PollingInterval` theo yêu cầu của bạn.
+ Điều chỉnh`ProjectGuid`, `ProjectName`, `Timeout` , Và`PollingInterval` theo yêu cầu của bạn.
 ## Bước 4: Lưu dự án vào máy chủ
 ```csharp
 manager.CreateNewProject(project, options);

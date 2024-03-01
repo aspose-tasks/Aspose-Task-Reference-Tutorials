@@ -82,7 +82,7 @@ Na koniec projekt jest zapisywany w formacie pliku XML programu Microsoft Projec
 ## Wniosek
 W tym samouczku nauczyliśmy się, jak pracować z danymi Microsoft Project przy użyciu biblioteki Aspose.Tasks w .NET. Postępując zgodnie z przewodnikiem krok po kroku, możesz manipulować plikami projektu, dodawać zadania, zasoby, przypisywać zasoby do zadań i zapisywać projekty w różnych formatach.
 ## Często zadawane pytania
-### P: Czy Aspose.Tasks obsługuje złożone struktury projektów?
+### P: Czy Aspose.Tasks obsługuje złożone struktury projektu?
 O: Tak, Aspose.Tasks zapewnia kompleksową obsługę złożonych struktur projektów, umożliwiając efektywne zarządzanie zadaniami, zasobami i zadaniami.
 ### P: Czy Aspose.Tasks jest kompatybilny z różnymi wersjami Microsoft Project?
 Odp.: Aspose.Tasks obsługuje szeroką gamę wersji Microsoft Project, zapewniając kompatybilność w różnych środowiskach.

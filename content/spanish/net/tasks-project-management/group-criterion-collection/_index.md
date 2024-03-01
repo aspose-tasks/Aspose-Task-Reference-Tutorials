@@ -69,7 +69,7 @@ Borre los criterios del grupo existente si no es de solo lectura.
 group.GroupCriteria.Clear();
 ```
 
-## Paso 5: agregar nuevos criterios
+## Paso 5: agregar un nuevo criterio
 
 Cree un nuevo criterio de grupo y agréguelo al grupo.
 

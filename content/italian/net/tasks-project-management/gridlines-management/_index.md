@@ -13,7 +13,7 @@ Gestire i progetti in modo efficiente spesso implica visualizzare chiaramente le
 Prima di iniziare, assicurati di aver configurato i seguenti prerequisiti:
 ### 1. Installare Aspose.Tasks per .NET
 Per lavorare con Aspose.Tasks per .NET, è necessario averlo installato nel proprio ambiente di sviluppo. È possibile scaricare la libreria da[sito web](https://releases.aspose.com/tasks/net/) o tramite gestori di pacchetti come NuGet.
-### 2.Ambiente di sviluppo
+### 2. Ambiente di sviluppo
 Assicurati di avere un ambiente di sviluppo .NET configurato sul tuo computer. Puoi utilizzare Visual Studio o qualsiasi altro IDE .NET di tua scelta.
 ## Importa spazi dei nomi
 Prima di immergerci nel codice, importiamo gli spazi dei nomi necessari per accedere alle funzionalità Aspose.Tasks.

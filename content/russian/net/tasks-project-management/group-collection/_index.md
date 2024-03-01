@@ -1,6 +1,6 @@
 ---
 title: Управление коллекциями проектов в Aspose.Tasks
-linktitle: Управление коллекцией групп в Aspose.
+linktitle: Управление коллекцией групп в Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Узнайте, как эффективно управлять коллекциями MS Project с помощью Aspose.Tasks для .NET. Следуйте нашему пошаговому руководству.
 type: docs
@@ -16,7 +16,7 @@ url: /ru/net/tasks-project-management/group-collection/
 3. Среда разработки: настройте среду разработки, например Visual Studio или любую другую среду разработки, поддерживающую разработку .NET.
 
 ## Импортировать пространства имен
-Во-первых, давайте импортируем необходимые пространства имен для работы с функциями Aspose.Tasks в нашем коде C#.
+Сначала давайте импортируем необходимые пространства имен для работы с функциями Aspose.Tasks в нашем коде C#.
 
 ```csharp
 using Aspose.Tasks;
@@ -44,7 +44,7 @@ foreach (var group in project.TaskGroups)
 }
 ```
 Здесь мы перебираем группы задач в проекте, печатая такие детали, как индекс, имя и видимость, в меню для каждой группы.
-## Шаг 3. Перебор групп ресурсов
+## Шаг 3. Перебор групп ресурсов
 ```csharp
 Console.WriteLine("Project resource group count: " + project.ResourceGroups.Count);
 foreach (var group in project.ResourceGroups)
@@ -60,7 +60,7 @@ foreach (var group in project.ResourceGroups)
 var otherProject = new Project(DataDir + "Blank2010.mpp");
 // Очистить группы других проектов
 otherProject.TaskGroups.Clear();
-// Копирование групп в другие проекты
+// Копировать группы в другой проект
 var groups = new Group[project.TaskGroups.Count];
 project.TaskGroups.CopyTo(groups, 0);
 foreach (var group in groups)

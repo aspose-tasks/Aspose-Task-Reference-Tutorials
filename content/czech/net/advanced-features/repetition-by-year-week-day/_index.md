@@ -9,7 +9,7 @@ url: /cs/net/advanced-features/repetition-by-year-week-day/
 ---
 ## Úvod
 
-oblasti projektového řízení je prvořadá efektivita a přesnost. Aspose.Tasks for .NET se ukazuje jako výkonný nástroj, který nabízí nepřeberné množství funkcí pro zefektivnění práce s projekty. Mezi jeho arzenál patří schopnost zvládat opakující se úkoly s pozoruhodnou flexibilitou. Jednou z takových funkcí je funkce „Opakování podle dne v týdnu roku“, která uživatelům umožňuje nastavit úkoly, které se opakují v určité dny v týdnu, v určených měsících a v průběhu několika let.
+V oblasti projektového řízení je prvořadá efektivita a přesnost. Aspose.Tasks for .NET se ukazuje jako výkonný nástroj, který nabízí nepřeberné množství funkcí pro zefektivnění práce s projekty. Mezi jeho arzenál patří schopnost zvládat opakující se úkoly s pozoruhodnou flexibilitou. Jednou z takových funkcí je funkce „Opakování podle dne v týdnu roku“, která uživatelům umožňuje nastavit úkoly, které se opakují v určité dny v týdnu, v určených měsících a v průběhu několika let.
 
 ## Předpoklady
 
@@ -21,7 +21,7 @@ Seznamte se se základy .NET Framework, včetně konceptů objektově orientovan
 
 ### 2. Instalace Aspose.Tasks pro .NET
 
- Stáhněte a nainstalujte knihovnu Aspose.Tasks for .NET z[odkaz ke stažení](https://releases.aspose.com/tasks/net/)Při integraci knihovny do vašeho vývojového prostředí postupujte podle pokynů k instalaci.
+ Stáhněte a nainstalujte knihovnu Aspose.Tasks for .NET z[odkaz ke stažení](https://releases.aspose.com/tasks/net/). Při integraci knihovny do vašeho vývojového prostředí postupujte podle pokynů k instalaci.
 
 ### 3. Přístup k dokumentaci
 
@@ -125,4 +125,4 @@ Odpověď: Ano, Aspose.Tasks for .NET nabízí podporu pro cloudová řešení p
 
 ### Q5: Je k dispozici zkušební verze pro Aspose.Tasks pro .NET?
 
- Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks pro .NET z webu[webová stránka](https://releases.aspose.com/), což vám umožní prozkoumat jeho funkce před rozhodnutím o nákupu.
+Odpověď: Ano, máte přístup k bezplatné zkušební verzi Aspose.Tasks pro .NET z webu[webová stránka](https://releases.aspose.com/), což vám umožní prozkoumat jeho funkce před rozhodnutím o nákupu.

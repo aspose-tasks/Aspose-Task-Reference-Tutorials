@@ -61,13 +61,13 @@ Toutes nos félicitations! Vous avez géré avec succès MS Project Server à l'
 ## Conclusion
 Dans ce didacticiel, nous avons exploré comment gérer MS Project Server par programme à l'aide d'Aspose.Tasks pour .NET. Avec les étapes fournies, vous pouvez intégrer de manière transparente Aspose.Tasks dans vos applications .NET pour automatiser les tâches de gestion de projet sur MS Project Server.
 ## FAQ
-### Q : Aspose.Tasks est-il compatible avec toutes les versions de Microsoft Project Server ?
+### : Aspose.Tasks est-il compatible avec toutes les versions de Microsoft Project Server ?
 R : Aspose.Tasks prend en charge l'intégration avec différentes versions de Microsoft Project Server, garantissant ainsi la compatibilité entre différents environnements.
 ### Q : Puis-je effectuer des opérations groupées sur des projets à l’aide d’Aspose.Tasks ?
 R : Oui, Aspose.Tasks vous permet d'effectuer des opérations groupées telles que la création, la mise à jour et la suppression de projets sur MS Project Server.
 ### Q : Aspose.Tasks fournit-il une prise en charge pour la planification de projets et la gestion des ressources ?
 R : Absolument, Aspose.Tasks offre une prise en charge complète des fonctionnalités de planification de projet, d'allocation de ressources et de gestion des tâches.
 ### Q : Est-il possible d'automatiser les tâches de reporting avec Aspose.Tasks ?
-: Oui, Aspose.Tasks vous permet d'automatiser la génération de rapports personnalisés basés sur les données du projet, facilitant ainsi un suivi et une analyse efficaces du projet.
+R : Oui, Aspose.Tasks vous permet d'automatiser la génération de rapports personnalisés basés sur les données du projet, facilitant ainsi un suivi et une analyse efficaces du projet.
 ### Q : Puis-je essayer Aspose.Tasks avant de l'acheter ?
  R : Oui, vous pouvez explorer les capacités d'Aspose.Tasks en accédant à un essai gratuit depuis le[site web](https://purchase.aspose.com/temporary-license/).

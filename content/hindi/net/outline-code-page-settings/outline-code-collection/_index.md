@@ -16,7 +16,7 @@ url: /hi/net/outline-code-page-settings/outline-code-collection/
 3. C# प्रोग्रामिंग की बुनियादी समझ: C# से परिचित होना फायदेमंद होगा।
 
 ## नामस्थान आयात करें
-सबसे पहले, अपने C# प्रोजेक्ट में Aspose.कार्य कार्यक्षमता तक पहुँचने के लिए आवश्यक नामस्थान आयात करें।
+सबसे पहले, अपने C# प्रोजेक्ट में Aspose.Tasks कार्यक्षमता तक पहुँचने के लिए आवश्यक नामस्थान आयात करें।
 ```csharp
     using Aspose.Tasks;
     using System;
@@ -24,13 +24,13 @@ url: /hi/net/outline-code-page-settings/outline-code-collection/
     using Aspose.Tasks.Util;
 ```
 ## चरण 1: प्रोजेक्ट फ़ाइल लोड करें
- का उपयोग करके Microsoft प्रोजेक्ट फ़ाइल लोड करके प्रारंभ करें`Project` कक्षा. कक्षा.
+ का उपयोग करके Microsoft प्रोजेक्ट फ़ाइल लोड करके प्रारंभ करें`Project` कक्षा।
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineCodes2003.mpp");
 ```
 ## चरण 2: रूपरेखा कोड एकत्र करें
-प्रोजेक्ट कार्यों से रूपरेखा कोड एकत्र करने के लिए एक कलेक्टर बनाएं।
+प्रोजेक्ट कार्यों से रूपरेखा कोड इकट्ठा करने के लिए एक कलेक्टर बनाएं।
 ```csharp
 var collector = new ChildTasksCollector();
 TaskUtils.Apply(project.RootTask, collector, 0);
@@ -94,4 +94,4 @@ Console.WriteLine("Is outline codes contains the inserted value: " + task.Outlin
 ### प्रश्न: क्या मैं .NET के लिए Aspose.Tasks के साथ काम करते समय आउटपुट प्रारूप को अनुकूलित कर सकता हूँ?
 उत्तर: बिल्कुल, .NET के लिए Aspose.Tasks आपकी आवश्यकताओं के अनुसार आउटपुट प्रारूप को अनुकूलित करने के लिए व्यापक विकल्प प्रदान करता है।
 ### प्रश्न: मुझे .NET के लिए Aspose.Tasks के लिए अतिरिक्त समर्थन या संसाधन कहां मिल सकते हैं?
- उत्तर: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) Aspose से संबंधित किसी भी सहायता या प्रश्न के लिए। .NET के लिए कार्य।
+ उत्तर: आप यहां जा सकते हैं[Aspose.कार्य मंच](https://forum.aspose.com/c/tasks/15) .NET के लिए Aspose.Tasks के संबंध में किसी भी सहायता या प्रश्न के लिए।

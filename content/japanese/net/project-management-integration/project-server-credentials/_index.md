@@ -12,7 +12,7 @@ url: /ja/net/project-management-integration/project-server-credentials/
 ## 前提条件
 Aspose.Tasks for .NET を使用して MS Project Server 資格情報を管理する作業を開始する前に、次の前提条件が満たされていることを確認してください。
 ### 1. Aspose.Tasks for .NET のインストール
-まず、提供されているから Aspose.Tasks for .NET をダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/tasks/net/)、インストール手順に従って、ライブラリを .NET 環境にシームレスに統合します。
+まず、提供されているから Aspose.Tasks for .NET をダウンロードしてインストールします。[ダウンロードリンク](https://releases.aspose.com/tasks/net/)。インストール手順に従って、ライブラリを .NET 環境にシームレスに統合します。
 ### 2. アクセス認証情報
 MS Project Server へのアクセスに必要な資格情報を収集します。これには、Project Server に関連付けられた SharePoint ドメイン アドレス、ユーザー名、パスワードが含まれます。
 

@@ -10,21 +10,21 @@ url: /es/net/vba-module-reference/
 
 ## Gestión de módulos VBA en Aspose.Tasks
 
- Libere el potencial de los archivos de Microsoft Project con Aspose.Tasks para .NET. En este tutorial, lo guiamos a través de la gestión perfecta de[módulos VBA](./managing-vba-modules/), Mejore sin esfuerzo su flujo de trabajo de desarrollo con instrucciones paso a paso, asegurándose de aprovechar todo el poder de Aspose.Tasks.
+ Libere el potencial de los archivos de Microsoft Project con Aspose.Tasks para .NET. En este tutorial, lo guiamos a través de la gestión perfecta de[módulos VBA](./managing-vba-modules/). Mejore sin esfuerzo su flujo de trabajo de desarrollo con instrucciones paso a paso, asegurándose de aprovechar todo el poder de Aspose.Tasks.
 
 ## Colección de atributos del módulo VBA en Aspose.Tasks
 
- Profundice en la profundidad de Aspose.Tasks para .NET mientras exploramos el intrincado mundo de[Atributos del módulo VBA](./vba-module-attribute-collection/), Aprenda a gestionar atributos sin esfuerzo, mejorando sus proyectos .NET. Nuestro tutorial proporciona una guía clara y detallada, asegurando que domine este aspecto crucial del desarrollo de proyectos.
+ Profundice en la profundidad de Aspose.Tasks para .NET mientras exploramos el intrincado mundo de[Atributos del módulo VBA](./vba-module-attribute-collection/). Aprenda a gestionar atributos sin esfuerzo, mejorando sus proyectos .NET. Nuestro tutorial proporciona una guía clara y detallada, asegurando que domine este aspecto crucial del desarrollo de proyectos.
 
 ## Gestión de colecciones de módulos VBA en Aspose.Tasks
 
- manejar eficientemente[Colecciones de módulos VBA](./vba-module-collections/)en Aspose.Tasks para .NET con nuestra guía paso a paso. Descubra las mejores prácticas para una integración perfecta en sus proyectos. Ya sea que sea un desarrollador novato o experimentado, este tutorial garantiza una curva de aprendizaje fluida para dominar las colecciones de módulos de VBA.
+ Manejar eficientemente[Colecciones de módulos VBA](./vba-module-collections/)en Aspose.Tasks para .NET con nuestra guía paso a paso. Descubra las mejores prácticas para una integración perfecta en sus proyectos. Ya sea que sea un desarrollador novato o experimentado, este tutorial garantiza una curva de aprendizaje fluida para dominar las colecciones de módulos de VBA.
 
 ## Trabajar con proyectos VBA en Aspose.Tasks
 
- Libere el poder de Aspose.Tasks para .NET en la gestión[proyectos vba](./vba-projects/) sin esfuerzo. Nuestro tutorial lo lleva a través de los pasos esenciales y le brinda información sobre cómo optimizar sus capacidades de gestión de proyectos. Mejore sus habilidades con una guía completa diseñada para desarrolladores de todos los niveles.
+ Libere el poder de Aspose.Tasks para .NET en la gestión[Proyectos VBA](./vba-projects/) sin esfuerzo. Nuestro tutorial lo lleva a través de los pasos esenciales y le brinda información sobre cómo optimizar sus capacidades de gestión de proyectos. Mejore sus habilidades con una guía completa diseñada para desarrolladores de todos los niveles.
 
-## Manejo de referencias VBA en Aspose.Tasks
+## Manejo de referencias de VBA en Aspose.Tasks
 
  Navegar por las complejidades del manejo[Referencias VBA](./vba-references/) en Aspose.Tasks para .NET con nuestro tutorial completo. Aprenda a leer, comparar y trabajar con referencias de VBA sin problemas. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía le brinda el conocimiento para aprovechar las referencias de VBA de manera efectiva.
 
@@ -38,5 +38,5 @@ Explore el poder de Aspose.Tasks para .NET en la gestión de atributos del módu
 Descubra cómo administrar eficientemente las colecciones de módulos VBA en Aspose.Tasks para .NET. Guía paso a paso para una integración perfecta en sus proyectos.
 ### [Trabajar con proyectos VBA en Aspose.Tasks](./vba-projects/)
 Explore el poder de Aspose.Tasks para .NET para administrar proyectos VBA sin esfuerzo. Mejore sus capacidades de gestión de proyectos con esta guía paso a paso.
-### [Manejo de referencias VBA en Aspose.Tasks](./vba-references/)
+### [Manejo de referencias de VBA en Aspose.Tasks](./vba-references/)
 Explore el poder de manejar referencias de VBA en Aspose.Tasks .NET con nuestro tutorial completo. Aprenda a leer, comparar y trabajar con referencias de VBA sin problemas.

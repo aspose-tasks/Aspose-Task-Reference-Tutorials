@@ -11,7 +11,7 @@ url: /de/net/resource-risk-analysis/resource-assignment-collection/
 Willkommen zu diesem umfassenden Tutorial zum Verwalten von Ressourcenzuweisungen in Microsoft Project mit Aspose.Tasks für .NET. In diesem Tutorial befassen wir uns Schritt für Schritt mit dem Prozess und stellen sicher, dass Sie ein solides Verständnis dafür haben, wie Sie Ressourcenzuweisungen effizient bearbeiten. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieser Leitfaden führt Sie durch alles, was Sie wissen müssen.
 ## Voraussetzungen
 Bevor wir uns mit dem Code befassen, stellen Sie sicher, dass Sie Folgendes eingerichtet haben:
-1. Aspose.Tasks für .NET installiert: Stellen Sie sicher, dass Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung installiert ist. Wenn nicht, können Sie es hier herunterladen[Hier](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks für .NET installiert: Stellen Sie sicher, dass Aspose.Tasks für .NET in Ihrer Entwicklungsumgebung installiert ist. Wenn nicht, können Sie es hier herunterladen[Hier](https://releases.aspose.com/tasks/net/).
 2. Grundkenntnisse von C#: In diesem Tutorial wird davon ausgegangen, dass Sie über grundlegende Kenntnisse der Programmiersprache C# verfügen.
 3. Microsoft Project-Datei: Halten Sie zu Testzwecken eine Microsoft Project-Datei bereit. Wenn Sie noch keine haben, können Sie eine Beispieldatei erstellen.
 

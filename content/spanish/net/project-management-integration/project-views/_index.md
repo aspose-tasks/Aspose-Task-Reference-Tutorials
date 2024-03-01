@@ -12,11 +12,11 @@ Microsoft Project es una potente herramienta para la gestión de proyectos que p
 ## Requisitos previos
 Antes de comenzar, asegúrese de tener configurados los siguientes requisitos previos:
 ### 1. Instale Aspose.Tasks para .NET
- Puede descargar e instalar Aspose.Tasks para .NET desde el[sitio web](https://releases.aspose.com/tasks/net/), Siga las instrucciones de instalación proporcionadas para configurar la biblioteca en su entorno de desarrollo.
+ Puede descargar e instalar Aspose.Tasks para .NET desde el[sitio web](https://releases.aspose.com/tasks/net/). Siga las instrucciones de instalación proporcionadas para configurar la biblioteca en su entorno de desarrollo.
 ### 2. Conocimientos básicos de C# y .NET Framework
 Familiarícese con el lenguaje de programación C# y .NET Framework, ya que este tutorial supone una comprensión básica de estos conceptos.
 ### 3. Archivo de proyecto de Microsoft
-Prepare un archivo de Microsoft Project (.mpp) que utilizará para la personalización. Asegúrese de tener la ruta del archivo a mano como referencia en su código C#.
+Prepare un archivo de Microsoft Project (.mpp) que usará para la personalización. Asegúrese de tener la ruta del archivo a mano como referencia en su código C#.
 ## Importar espacios de nombres
 En su código C#, importe los espacios de nombres necesarios para trabajar con Aspose.Tasks para .NET.
 ```csharp

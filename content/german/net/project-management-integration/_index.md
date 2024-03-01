@@ -23,7 +23,7 @@ Erfahren Sie, wie Sie MS Project-Präsentationen mit Aspose.Tasks für .NET müh
 
 Die Reise endet hier nicht; Entdecken Sie eine Vielzahl von Tutorials, die alles von der Handhabung von Fortschrittslinien und der Beherrschung von Projektdaten bis hin zur Konfiguration von Anzeigeoptionen und der nahtlosen Verwaltung von MS Project Server abdecken. Tauchen Sie ein in die Aspose.Tasks für .NET-Tutorials, um das volle Potenzial Ihrer Projektmanagementfunktionen auszuschöpfen.
 
- Sind Sie bereit, MS Project-Ansichten anzupassen, Serveranmeldeinformationen zu verwalten und Projektinformationen mühelos zu extrahieren? Folgen Sie unseren Anleitungen auf[Anpassen der MS Project-Ansichten](./project-views/), [Verwalten von MS Project Server-Anmeldeinformationen](./project-server-credentials/) ,Und[Extrahieren von MS Project-Informationen](./project-information/) für vertiefte Einblicke.
+ Sind Sie bereit, MS Project-Ansichten anzupassen, Serveranmeldeinformationen zu verwalten und Projektinformationen mühelos zu extrahieren? Folgen Sie unseren Anleitungen auf[Anpassen der MS Project-Ansichten](./project-views/), [Verwalten von MS Project Server-Anmeldeinformationen](./project-server-credentials/) , Und[Extrahieren von MS Project-Informationen](./project-information/) für vertiefte Einblicke.
 
  Behandeln Sie MS Project Online-Ausnahmen nahtlos, automatisieren Sie Projektaufgaben und steigern Sie die Effizienz des Projektmanagements mit Tutorials zu[Verwalten von MS Project Online-Ausnahmen](./project-online-exceptions/) Und[Verwalten von MS Project Server mit Aspose.Tasks](./project-server-management/).
 
@@ -40,13 +40,13 @@ Erfahren Sie, wie Sie MS Project Primavera-Datenbankeinstellungen in Aspose.Task
 Erfahren Sie, wie Sie MS Project Primavera-Daten mit Aspose.Tasks für .NET lesen. Schritt-für-Schritt-Anleitung mit Codebeispielen.
 ### [Verwendung des MS Project Primavera XML Reader in Aspose.Tasks](./primavera-xml-reader/)
 Erfahren Sie, wie Sie den MS Project Primavera XML Reader in Aspose.Tasks für .NET verwenden, um Projektdaten effektiv zu verwalten. Erhalten Sie eine Schritt-für-Schritt-Anleitung und erkunden Sie die FAQs.
-### [Konfigurieren Sie die Druckoptionen für MS Project in Aspose.Tasks](./print-options/)
+### [Konfigurieren der MS Project-Druckoptionen in Aspose.Tasks](./print-options/)
 Erfahren Sie, wie Sie MS Project-Druckoptionen nahtlos mit Aspose.Tasks für .NET konfigurieren. Erweitern Sie Ihre Projektmanagementfähigkeiten.
 ### [Umgang mit MS Project-Fortschrittslinien mit Aspose.Tasks](./progress-lines/)
 Erfahren Sie, wie Sie Fortschrittslinien in MS Project-Dateien mit Aspose.Tasks für .NET bearbeiten und so die Projektvisualisierung und -verwaltung verbessern.
 ### [Projektdaten mit Aspose.Tasks beherrschen](./project-data/)
 Erfahren Sie, wie Sie Microsoft Project-Daten mithilfe von Aspose.Tasks in .NET bearbeiten. Erstellen Sie ganz einfach Aufgaben, fügen Sie Ressourcen hinzu und speichern Sie Projekte.
-### [Konfigurieren Sie die Anzeigeoptionen für MS Project in Aspose.Tasks](./project-display-options/)
+### [Konfigurieren der MS Project-Anzeigeoptionen in Aspose.Tasks](./project-display-options/)
 Erfahren Sie, wie Sie MS Project-Anzeigeoptionen programmgesteuert mit Aspose.Tasks für .NET konfigurieren. Passen Sie das Erscheinungsbild Ihres Projekts mühelos an.
 ### [Beherrschen Sie den Umgang mit MS Project-Dateien mit Aspose.Tasks](./project-file-formats/)
 Nutzen Sie die Leistungsfähigkeit der Microsoft Project-Dateibearbeitung mit Aspose.Tasks für .NET. Tauchen Sie ein in die nahtlose Integration und Verwaltung.

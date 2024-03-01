@@ -65,9 +65,9 @@ Selamat! Anda telah berhasil mempelajari cara menangani garis dasar tugas di Asp
 ### T: Dapatkah saya menggunakan Aspose.Tasks dengan kerangka .NET lainnya?
 J: Aspose.Tasks kompatibel dengan beberapa kerangka .NET, memberikan fleksibilitas dalam lingkungan pengembangan Anda.
 ### T: Apakah ada forum komunitas untuk dukungan Aspose.Tasks?
-J: Ya, Anda dapat memperoleh dukungan dan terlibat dengan komunitas di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+ J: Ya, Anda dapat memperoleh dukungan dan terlibat dengan komunitas di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
 ### T: Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Tasks?
- Sebuah kunjungan[Di Sini](https://purchase.aspose.com/temporary-license/) untuk mendapatkan lisensi sementara untuk Aspose.Tasks.
+ Sebuah kunjungan[Di Sini](https://purchase.aspose.com/temporary-license/)untuk mendapatkan lisensi sementara untuk Aspose.Tasks.
 ### T: Apakah ada tutorial di luar dasar tugas yang tersedia?
  J: Jelajahi[dokumentasi](https://reference.aspose.com/tasks/net/) untuk berbagai tutorial tentang fitur Aspose.Tasks.
 ### T: Di mana saya dapat membeli Aspose.Tasks untuk .NET?

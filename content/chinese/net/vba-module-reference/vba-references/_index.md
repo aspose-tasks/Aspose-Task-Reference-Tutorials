@@ -1,6 +1,6 @@
 ---
 title: 掌握 VBA 参考处理 - 分步指南
-linktitle: 在 Aspose.Tasks 中处理引用 VBA
+linktitle: 在 Aspose.Tasks 中处理 VBA 引用
 second_title: Aspose.Tasks .NET API
 description: 通过我们的综合教程探索在 Aspose.Tasks .NET 中处理 VBA 引用的强大功能。学习无缝阅读、比较和使用 VBA 参考资料。
 type: docs
@@ -21,7 +21,7 @@ url: /zh/net/vba-module-reference/vba-references/
     using System;
     
 ```
-## 阅读参考文献VBA
+## 阅读 VBA 参考资料
 让我们首先从项目文件中读取 VBA 引用：
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -78,4 +78,4 @@ foreach (var reference in project.VbaProject.References)
 ### 问：在哪里可以找到 Aspose.Tasks 的详细文档？
 答：文档已提供[这里](https://reference.aspose.com/tasks/net/).
 ### 问：我可以购买 Aspose.Tasks 吗？
-答：是的，您可以购买。[这里](https://purchase.aspose.com/buy).
+答： 是的，您可以购买[这里](https://purchase.aspose.com/buy).

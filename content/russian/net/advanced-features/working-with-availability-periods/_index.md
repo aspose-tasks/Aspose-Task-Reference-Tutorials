@@ -94,7 +94,7 @@ foreach (var period in resource.AvailabilityPeriods)
 
 ### Вопрос 2. Доступна ли бесплатная пробная версия Aspose.Tasks для .NET?
 
- О2: Да, вы можете получить бесплатную пробную версию Aspose.Tasks для .NET.[здесь](https://releases.aspose.com/).
+О2: Да, вы можете получить бесплатную пробную версию Aspose.Tasks для .NET.[здесь](https://releases.aspose.com/).
 
 ### Вопрос 3. Где я могу найти документацию по Aspose.Tasks для .NET?
 

@@ -1,6 +1,6 @@
 ---
 title: تكوين كود WBS خطوة بخطوة في Aspose.Tasks .NET
-linktitle: قم بتكوين أقنعة كود WBS في Aspose.Tasks
+linktitle: تكوين أقنعة كود WBS في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: استكشف تكوين أقنعة رمز WBS خطوة بخطوة في مشاريع .NET باستخدام Aspose.Tasks. تعزيز قدرات إدارة المشاريع دون عناء.
 type: docs
@@ -29,7 +29,7 @@ String DataDir = "Your Document Directory";
 var project = new Project();
 ```
 ## الخطوة 2: تحديد تعريف رمز WBS
-قم بإعداد تعريف كود WBS لمشروعك:
+قم بإعداد تعريف رمز WBS لمشروعك:
 ```csharp
 project.WBSCodeDefinition = new WBSCodeDefinition();
 project.WBSCodeDefinition.GenerateWBSCode = true;
@@ -78,13 +78,13 @@ project.Save(DataDir + @"AddWBSCodes_out.xml", SaveFileFormat.Xml);
 ```
 تهانينا! لقد قمت بتكوين أقنعة رمز WBS بنجاح في مشروع Aspose.Tasks الخاص بك.
 ## خاتمة
-في هذا البرنامج التعليمي، اكتشفنا العملية خطوة بخطوة لتكوين أقنعة كود WBS باستخدام Aspose.Tasks لـ .NET. توفر هذه المكتبة القوية للمطورين طريقة سلسة لتعزيز قدرات إدارة المشروعات ضمن تطبيقات .NET الخاصة بهم.
+في هذا البرنامج التعليمي، اكتشفنا العملية خطوة بخطوة لتكوين أقنعة رمز WBS باستخدام Aspose.Tasks لـ .NET. توفر هذه المكتبة القوية للمطورين طريقة سلسة لتعزيز قدرات إدارة المشروعات ضمن تطبيقات .NET الخاصة بهم.
 
 ## الأسئلة الشائعة
 ### هل يمكنني استخدام Aspose.Tasks مجانًا؟
  يقدم Aspose.Tasks نسخة تجريبية مجانية يمكنك تنزيلها[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على دعم إضافي؟
- قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15)لدعم المجتمع.
+ قم بزيارة[Aspose.منتدى المهام](https://forum.aspose.com/c/tasks/15) لدعم المجتمع.
 ### كيف يمكنني الحصول على ترخيص مؤقت؟
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل هناك وثائق مفصلة متاحة؟

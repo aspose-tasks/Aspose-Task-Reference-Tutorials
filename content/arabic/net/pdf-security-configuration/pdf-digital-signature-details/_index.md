@@ -1,6 +1,6 @@
 ---
 title: قم بتكوين التوقيع الرقمي لـ MS Project PDF باستخدام Aspose.Tasks
-linktitle: قم بتكوين تفاصيل التوقيع الرقمي لملف PDF في Aspose.Tasks
+linktitle: تكوين تفاصيل التوقيع الرقمي لملف PDF في Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: تعرف على كيفية تكوين تفاصيل التوقيع الرقمي لـ Microsoft Project PDF باستخدام Aspose.Tasks لـ .NET. تأكد من أمان وصحة ملفات مشروعك.
 type: docs

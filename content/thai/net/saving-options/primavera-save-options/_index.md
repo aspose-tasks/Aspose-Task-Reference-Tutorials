@@ -24,7 +24,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## ขั้นตอนที่ 1: โหลดไฟล์โครงการ MS
-เริ่มต้นด้วยการโหลดไฟล์ MS Project ที่คุณต้องการใช้งานลงในแอปพลิเคชัน C# ของคุณ คุณสามารถทำได้โดยใช้`Project` คลาสที่จัดทำโดย Aspose.Tasks
+ เริ่มต้นด้วยการโหลดไฟล์ MS Project ที่คุณต้องการใช้งานลงในแอปพลิเคชัน C# ของคุณ คุณสามารถทำได้โดยใช้`Project` คลาสที่จัดทำโดย Aspose.Tasks
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -58,4 +58,4 @@ project.Save(DataDir + "WorkWithPrimaveraSaveOptions_out.xer", options);
 ### ถาม: ฉันสามารถทดลองใช้ Aspose.Tasks ฟรีก่อนตัดสินใจซื้อได้หรือไม่
  ตอบ: ได้ คุณสามารถดาวน์โหลด Aspose.Tasks รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/) เพื่อสำรวจคุณสมบัติและความสามารถของมัน
 ### ถาม: ฉันจะรับการสนับสนุนได้ที่ไหนหากฉันประสบปัญหาหรือมีคำถามขณะใช้งาน Aspose.Tasks
-ตอบ: คุณสามารถขอความช่วยเหลือจากชุมชน Aspose.Tasks และทีมสนับสนุนได้ที่[ฟอรั่ม](https://forum.aspose.com/c/tasks/15).
+ ตอบ: คุณสามารถขอความช่วยเหลือจากชุมชน Aspose.Tasks และทีมสนับสนุนได้ที่[ฟอรั่ม](https://forum.aspose.com/c/tasks/15).

@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks .NET での段階的な WBS コード構成
-linktitle: Aspose.Tasks で WBS コード マスクを構成する
+linktitle: Aspose.Tasks での WBS コード マスクの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks を使用して、.NET プロジェクトで WBS コード マスクの構成を段階的に確認します。プロジェクト管理機能を簡単に強化します。
 type: docs
@@ -56,7 +56,7 @@ project.WBSCodeDefinition.CodeMaskCollection.Add(mask);
 var task = project.RootTask.Children.Add("Task 1");
 task.Children.Add("Task 2");
 ```
-## ステップ 5: 再計算する
+## ステップ 5: 再計算
 プロジェクトを再計算して、WBS コードが正しく適用されていることを確認します。
 ```csharp
 project.Recalculate();

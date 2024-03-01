@@ -1,6 +1,6 @@
 ---
 title: Den Umgang mit VBA-Referenzen beherrschen – eine Schritt-für-Schritt-Anleitung
-linktitle: Umgang mit Referenzen VBA in Aspose.Tasks
+linktitle: Umgang mit VBA-Referenzen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie mit unserem umfassenden Tutorial die Möglichkeiten des Umgangs mit VBA-Referenzen in Aspose.Tasks .NET. Lernen Sie, VBA-Referenzen nahtlos zu lesen, zu vergleichen und damit zu arbeiten.
 type: docs
@@ -21,7 +21,7 @@ Stellen Sie sicher, dass am Anfang Ihres Codes die erforderlichen Namespaces ent
     using System;
     
 ```
-## Referenzen lesen VBA
+## Lesen von VBA-Referenzen
 Beginnen wir mit dem Lesen von VBA-Referenzen aus einer Projektdatei:
 ```csharp
 var project = new Project("Your Document Directory" + "VbaProject.mpp");
@@ -72,10 +72,10 @@ Glückwunsch! Sie haben erfolgreich durch die Handhabung von VBA-Referenzen in A
 ### F: Kann ich Aspose.Tasks mit anderen Programmiersprachen verwenden?
 A: Aspose.Tasks unterstützt hauptsächlich .NET-Sprachen, es gibt jedoch auch andere Aspose-Produkte, die auf verschiedene Plattformen und Sprachen zugeschnitten sind.
 ### F: Wie erhalte ich eine temporäre Lizenz für Aspose.Tasks?
-A: Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
+ A: Sie können eine temporäre Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Gibt es Community-Support für Aspose.Tasks?
  A: Ja, Sie finden Unterstützung auf der[Aspose.Tasks-Forum](https://forum.aspose.com/c/tasks/15).
 ### F: Wo finde ich eine ausführliche Dokumentation zu Aspose.Tasks?
  A: Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/tasks/net/).
 ### F: Kann ich Aspose.Tasks kaufen?
- A: Ja, Sie können es kaufen.[Hier](https://purchase.aspose.com/buy).
+ A: Ja, Sie können es kaufen[Hier](https://purchase.aspose.com/buy).

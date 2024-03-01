@@ -71,6 +71,6 @@ manager.CreateNewProject(project);
 ### प्रश्न: मुझे Aspose.Tasks के लिए दस्तावेज़ कहाँ मिल सकते हैं?
  उत्तर: Aspose.Tasks के लिए विस्तृत दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/tasks/net/).
 ### प्रश्न: मैं Aspose.Tasks के लिए समर्थन कैसे प्राप्त कर सकता हूं?
- उत्तर: आप Aspose.Tasks समुदाय मंच से समर्थन प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
+उत्तर: आप Aspose.Tasks समुदाय मंच से समर्थन प्राप्त कर सकते हैं[यहाँ](https://forum.aspose.com/c/tasks/15).
 ### प्रश्न: मैं Aspose.Tasks के लिए लाइसेंस कैसे खरीदूं?
- उ: आप Aspose के लिए लाइसेंस खरीद सकते हैं। से कार्य[खरीद पृष्ठ](https://purchase.aspose.com/buy).
+ उ: आप Aspose.Tasks के लिए लाइसेंस खरीद सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/buy).

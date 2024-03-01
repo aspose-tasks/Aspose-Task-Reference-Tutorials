@@ -32,7 +32,7 @@ Nejprve zadejte cestu k souboru Microsoft Project:
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "ReadGroupDefinitionData.mpp");
 ```
- nahradit`"Your Document Directory"` s cestou k souboru vašeho projektu.
+ Nahradit`"Your Document Directory"` s cestou k souboru vašeho projektu.
 ## Krok 2: Načtěte informace o skupinách úkolů
 Dále načtěte informace o skupinách úkolů v projektu:
 ```csharp

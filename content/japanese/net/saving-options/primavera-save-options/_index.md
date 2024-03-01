@@ -24,7 +24,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## ステップ 1: MS プロジェクト ファイルをロードする
-まず、作業する MS Project ファイルを C# アプリケーションにロードします。これを行うには、`Project`Aspose.Tasks によって提供されるクラス。
+まず、作業する MS Project ファイルを C# アプリケーションにロードします。これを行うには、`Project` Aspose.Tasks によって提供されるクラス。
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -58,4 +58,4 @@ A: もちろん、Aspose.Tasks はあらゆる規模のプロジェクトに取�
 ### Q: 購入する前に、Aspose.Tasks を無料で試すことはできますか?
  A: はい、Aspose.Tasks の無料トライアルを次のサイトからダウンロードできます。[ここ](https://releases.aspose.com/)その機能と機能を探索します。
 ### Q: Aspose.Tasks の使用中に問題が発生したり質問がある場合、どこでサポートを受けられますか?
-A: Aspose.Tasks コミュニティおよびサポート チームに支援を求めることができます。[フォーラム](https://forum.aspose.com/c/tasks/15).
+ A: Aspose.Tasks コミュニティおよびサポート チームに支援を求めることができます。[フォーラム](https://forum.aspose.com/c/tasks/15).

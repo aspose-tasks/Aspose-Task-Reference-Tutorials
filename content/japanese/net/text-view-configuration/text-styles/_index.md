@@ -1,6 +1,6 @@
 ---
 title: Aspose.Tasks でのテキスト スタイルのカスタマイズをマスターする
-linktitle: Aspose.Tasks でテキスト スタイルを構成する
+linktitle: Aspose.Tasks でのテキスト スタイルの構成
 second_title: Aspose.Tasks .NET API
 description: Aspose.Tasks for .NET を使用してプロジェクト ドキュメントの美しさを強化します。テキスト スタイルを簡単にカスタマイズして、視覚的に魅力的な表現を実現します。
 type: docs

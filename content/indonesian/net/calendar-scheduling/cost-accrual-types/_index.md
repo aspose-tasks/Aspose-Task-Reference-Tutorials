@@ -47,7 +47,7 @@ var project = new Project("Project2.mpp");
 var resource = project.Resources.GetById(1);
 ```
 
- Selanjutnya, kita mengakses sumber daya yang ingin kita terapkan jenis akrual biaya. Kami menggunakan`GetById` metode dari`Resources` koleksi dan meneruskan ID sumber daya sebagai argumen.
+ Selanjutnya, kita mengakses sumber daya yang ingin kita terapkan jenis akrual biaya. Kami menggunakan`GetById` metode`Resources` koleksi dan meneruskan ID sumber daya sebagai argumen.
 
 ## Langkah 3: Tetapkan Jenis Akrual Biaya
 
@@ -55,11 +55,11 @@ var resource = project.Resources.GetById(1);
 resource.Set(Rsc.AccrueAt, CostAccrualType.End);
 ```
 
- Di sini, kami menetapkan jenis akrual biaya untuk sumber daya. Dalam contoh ini, kami menyetelnya ke`CostAccrualType.End`, yang berarti biaya tidak akan dibebankan sampai sisa pekerjaan adalah nol.
+Di sini, kami menetapkan jenis akrual biaya untuk sumber daya. Dalam contoh ini, kami menyetelnya ke`CostAccrualType.End`, yang berarti biaya tidak akan dibebankan sampai sisa pekerjaan adalah nol.
 
 ## Langkah 4: Bekerja dengan Proyek
 
-Setelah mengatur jenis akrual biaya, Anda dapat terus mengerjakan proyek sesuai kebutuhan, melakukan operasi atau penghitungan tambahan.
+Setelah mengatur jenis akrual biaya, Anda dapat terus mengerjakan proyek sesuai kebutuhan, melakukan operasi atau perhitungan tambahan.
 
 ## Kesimpulan
 
@@ -73,7 +73,7 @@ A1: Ya, Anda dapat menelusuri pengumpulan sumber daya dan menetapkan jenis akrua
 
 ### Q2: Apa saja jenis akrual biaya lain yang tersedia selain 'Akhir'?
 
- A2: Aspose.Tasks untuk .NET menyediakan beberapa jenis akrual biaya lainnya seperti`Start`, `Prorated` ,Dan`Duration`.
+A2: Aspose.Tasks untuk .NET menyediakan beberapa jenis akrual biaya lainnya seperti`Start`, `Prorated` , Dan`Duration`.
 
 ### Q3: Bagaimana cara menentukan jenis akrual biaya saat ini untuk suatu sumber daya?
 

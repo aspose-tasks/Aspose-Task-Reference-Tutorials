@@ -25,7 +25,7 @@ Maak uzelf vertrouwd met de basisbeginselen van de programmeertaal C#, inclusief
 
 ### 3. Installatie van Aspose.Tasks voor .NET
 
-Download en installeer Aspose.Tasks voor .NET-bibliotheek vanuit de[website](https://releases.aspose.com/tasks/net/).
+ Download en installeer Aspose.Tasks voor .NET-bibliotheek vanuit de[website](https://releases.aspose.com/tasks/net/).
 
 ### 4. Bekendheid met projectmanagementconcepten
 
@@ -44,7 +44,7 @@ using Aspose.Tasks.Properties;
 
 ```
 
-Laten we de meegeleverde voorbeeldcode opsplitsen in meerdere stappen om te begrijpen hoe u meta-eigenschappen van projecten kunt lezen met Aspose.Tasks voor .NET.
+Laten we de meegeleverde voorbeeldcode in meerdere stappen opsplitsen om te begrijpen hoe u meta-eigenschappen van projecten kunt lezen met Aspose.Tasks voor .NET.
 
 ## Stap 1: Laad het projectbestand
 

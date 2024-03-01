@@ -90,7 +90,7 @@ Aspose.Tasks został zaprojektowany tak, aby był kompatybilny z różnymi wersj
 ### Czy mogę dostosować wygląd widoków Wykresu Gantta?
 Absolutnie! Aspose.Tasks zapewnia rozbudowane opcje dostosowywania wyglądu widoków Wykresu Gantta do potrzeb Twojego projektu.
 ### Czy dostępna jest bezpłatna wersja próbna Aspose.Tasks?
- Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
+Tak, możesz uzyskać dostęp do bezpłatnego okresu próbnego[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać wsparcie społeczności dla Aspose.Tasks?
  Nawiąż kontakt ze społecznością Aspose.Tasks na stronie[forum](https://forum.aspose.com/c/tasks/15) w przypadku jakichkolwiek pytań lub pomocy.
 ### Czy dostępne są licencje tymczasowe dla Aspose.Tasks?

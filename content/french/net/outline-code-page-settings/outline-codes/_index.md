@@ -31,7 +31,7 @@ Tout d’abord, définissez le chemin d’accès au répertoire contenant votre 
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- remplacer`"Your Document Directory"` avec le chemin réel de votre fichier de projet.
+ Remplacer`"Your Document Directory"` avec le chemin réel de votre fichier de projet.
 ## Étape 2 : charger le fichier de projet
  Instancier un nouveau`Project` objet en chargeant le fichier MS Project.
 ```csharp
@@ -68,6 +68,6 @@ R : Aspose.Tasks prend en charge un large éventail de versions de Microsoft Pro
 ### Q : Aspose.Tasks nécessite-t-il une licence pour une utilisation commerciale ?
 R : Oui, une licence valide est requise pour une utilisation commerciale d’Aspose.Tasks. Vous pouvez obtenir une licence sur le site Web Aspose.
 ### Q : Puis-je essayer Aspose.Tasks avant d'acheter ?
-R : Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Tasks à partir du site Web pour évaluer ses fonctionnalités et capacités.
+: Oui, vous pouvez télécharger une version d'essai gratuite d'Aspose.Tasks à partir du site Web pour évaluer ses fonctionnalités et capacités.
 ### Q : Où puis-je obtenir de l'aide pour Aspose.Tasks ?
  R : Vous pouvez obtenir de l'aide pour Aspose.Tasks en visitant le forum à l'adresse[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).## Code source complet

@@ -12,7 +12,7 @@ Wilt u de kracht van de overzichtsmaskers van Microsoft Project benutten met Asp
 ## Vereisten
 Voordat u in deze zelfstudie duikt, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 ### 1. Installatie van Aspose.Tasks voor .NET
- Zorg ervoor dat Aspose.Tasks voor .NET in uw ontwikkelomgeving is geïnstalleerd. U kunt de bibliotheek downloaden van de Aspose-website[hier](https://releases.aspose.com/tasks/net/).
+Zorg ervoor dat Aspose.Tasks voor .NET in uw ontwikkelomgeving is geïnstalleerd. U kunt de bibliotheek downloaden van de Aspose-website[hier](https://releases.aspose.com/tasks/net/).
 ### 2. Basiskennis van C# en .NET Framework
 Maak uzelf vertrouwd met de programmeertaal C# en het .NET Framework, aangezien deze tutorial beide zal gebruiken.
 ### 3. Microsoft Project-bestand
@@ -108,4 +108,4 @@ EEN: Absoluut! U kunt overzichtsmaskers aanpassen door de lengte, het niveau, he
 ### V4: Biedt Aspose.Tasks voor .NET documentatie en ondersteuning?
 A: Ja, Aspose.Tasks voor .NET biedt uitgebreide documentatie en speciale ondersteuning via hun website en[forums](https://forum.aspose.com/c/tasks/15).
 ### V5: Is er een gratis proefversie beschikbaar voor Aspose.Tasks voor .NET?
- A: Ja, u kunt via hun .net toegang krijgen tot een gratis proefversie van Aspose.Tasks voor .NET[website](https://releases.aspose.com/tasks/net/), om de kenmerken en functionaliteiten ervan te verkennen voordat u een aankoop doet.
+ A: Ja, u kunt via hun .net toegang krijgen tot een gratis proefversie van Aspose.Tasks voor .NET[website](https://releases.aspose.com/tasks/net/). om de kenmerken en functionaliteiten ervan te verkennen voordat u een aankoop doet.

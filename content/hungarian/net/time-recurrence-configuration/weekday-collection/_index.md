@@ -8,7 +8,7 @@ weight: 11
 url: /hu/net/time-recurrence-configuration/weekday-collection/
 ---
 ## Bevezetés
-Az Aspose.Tasks for .NET egy hatékony könyvtár, amely megkönnyíti a projektmenedzsment adatok hatékony kezelését. Ebben az oktatóanyagban megvizsgáljuk az Aspose.Tasks hétköznapjainak gyűjteményét, amely lehetővé teszi a munkanapok testreszabását, a hétvégék eltávolítását, és speciális naptárak létrehozását a projekt követelményeinek megfelelően. Akár tapasztalt fejlesztő, akár újonc, ez a lépésről lépésre végigvezeti Önt az Aspose.Tasks for .NET hétköznapjainak kezelésén.
+Az Aspose.Tasks for .NET egy hatékony könyvtár, amely megkönnyíti a projektmenedzsment adatok hatékony kezelését. Ebben az oktatóanyagban megvizsgáljuk az Aspose.Tasks hétköznapjainak gyűjteményét, amely lehetővé teszi a munkanapok testreszabását, a hétvégék eltávolítását, és speciális naptárak létrehozását a projekt követelményeinek megfelelően. Akár tapasztalt fejlesztő, akár újonc, ez a lépésről lépésre végigvezeti Önt az Aspose.Tasks for .NET hétköznapjainak munkafolyamatán.
 ## Előfeltételek
 Mielőtt belevágnánk az oktatóanyagba, győződjön meg arról, hogy a következő előfeltételek teljesülnek:
 -  Telepítse az Aspose.Tasks for .NET könyvtárat. Letöltheti a[Aspose.Tasks for .NET letöltési oldal](https://releases.aspose.com/tasks/net/).

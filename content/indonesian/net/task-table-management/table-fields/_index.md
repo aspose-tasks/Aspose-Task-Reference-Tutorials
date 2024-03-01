@@ -11,7 +11,7 @@ url: /id/net/task-table-management/table-fields/
 Selamat datang di dunia Aspose.Tasks untuk .NET, pustaka canggih yang memungkinkan manipulasi file Microsoft Project dengan lancar di aplikasi .NET Anda. Dalam tutorial ini, kita akan mempelajari seluk-beluk penanganan bidang tabel di Aspose.Tasks, memungkinkan Anda membaca dan mengelola tabel proyek secara efisien. Baik Anda seorang pengembang berpengalaman atau pendatang baru, panduan langkah demi langkah ini akan memberdayakan Anda untuk memanfaatkan potensi penuh Aspose.Tasks.
 ## Prasyarat
 Sebelum kita memulai perjalanan ini, pastikan Anda memiliki prasyarat berikut:
--  Perpustakaan Aspose.Tasks: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET. kamu bisa menemukannya[Di Sini](https://releases.aspose.com/tasks/net/).
+- Perpustakaan Aspose.Tasks: Unduh dan instal perpustakaan Aspose.Tasks untuk .NET. Kamu bisa menemukannya[Di Sini](https://releases.aspose.com/tasks/net/).
 - Lingkungan Pengembangan: Pastikan Anda memiliki lingkungan pengembangan yang sesuai, seperti Visual Studio, yang disiapkan di mesin Anda.
 Sekarang, mari masuk ke seluk beluk penanganan bidang tabel.
 ## Impor Namespace
@@ -71,4 +71,4 @@ Pada versi terbaru, tidak ada batasan ketat pada jumlah kolom tabel.
 ### Seberapa sering pembaruan dirilis untuk Aspose.Tasks?
 Pembaruan untuk Aspose.Tasks dirilis secara berkala untuk memastikan kompatibilitas dan memperkenalkan fitur baru.
 ### Apakah ada forum komunitas untuk dukungan Aspose.Tasks?
-Ya, Anda dapat menemukan bantuan dan diskusi di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).
+ Ya, Anda dapat menemukan bantuan dan diskusi di[Forum Aspose.Tugas](https://forum.aspose.com/c/tasks/15).

@@ -29,7 +29,7 @@ var project = new Project(DataDir + "CreateProject2.mpp");
 ```
 交換する`"Your Document Directory"`MS Project ファイルが配置されている実際のディレクトリ パスに置き換えます。
 ## ステップ 2: 保存オプションを定義する
-のインスタンスを作成して、スプレッドシート 2003 の保存オプションを定義します。`Spreadsheet2003SaveOptions`、
+のインスタンスを作成して、スプレッドシート 2003 の保存オプションを定義します。`Spreadsheet2003SaveOptions`:
 ```csharp
 var options = new Spreadsheet2003SaveOptions();
 ```
@@ -58,7 +58,7 @@ Aspose.Tasks for .NET、特に Spreadsheet 2003 Save MS Project オプション�
 ### Q: Aspose.Tasks for .NET は Web アプリケーションとデスクトップ アプリケーションの両方で使用できますか?
 A: はい、Aspose.Tasks for .NET は Web アプリケーションとデスクトップ アプリケーションの両方にシームレスに統合でき、プラットフォーム間で一貫した機能を提供します。
 ### Q: Aspose.Tasks for .NET の試用版はありますか?
- A: はい、Aspose.Tasks for .NET の無料トライアルにアクセスできます。[Webサイト](https://releases.aspose.com/)を使用すると、購入する前にその機能を調べることができます。
+A: はい、Aspose.Tasks for .NET の無料トライアルにアクセスできます。[Webサイト](https://releases.aspose.com/)を使用すると、購入する前にその機能を調べることができます。
 ### Q: Aspose.Tasks for .NET を使用してビュー列をカスタマイズする場合に制限はありますか?
 A: Aspose.Tasks for .NET は、最小限の制限付きで、ビュー列の広範なカスタマイズ オプションを提供します。ただし、複雑なカスタマイズには、ライブラリに関する高度な知識が必要になる場合があります。
 ### Q: Aspose.Tasks for .NET の使用中に問題が発生した場合、サポートを求めることはできますか?

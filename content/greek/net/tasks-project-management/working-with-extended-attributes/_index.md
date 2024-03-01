@@ -38,7 +38,7 @@ using System.Diagnostics.CodeAnalysis;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
+ Αντικαθιστώ`"Your Document Directory"` με την πραγματική διαδρομή προς τον κατάλογο εγγράφων σας.
 ## Βήμα 2: Φορτώστε το Αρχείο Έργου
  Φορτώστε το αρχείο MS Project χρησιμοποιώντας το`Project` τάξη:
 ```csharp

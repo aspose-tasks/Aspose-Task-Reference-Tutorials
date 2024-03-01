@@ -64,7 +64,7 @@ catch (InvalidPasswordException e)
 
 ### S1: Aspose.Tasks'ta InvalidPasswordException'ın nedeni nedir?
 
- A1:Bir`InvalidPasswordException` doğru parolayı sağlamadan parola korumalı bir proje dosyasına erişmeye çalışıldığında veya sağlanan parola yanlış olduğunda atılır.
+ A1: Bir`InvalidPasswordException` doğru parolayı sağlamadan parola korumalı bir proje dosyasına erişmeye çalışıldığında veya sağlanan parola yanlış olduğunda atılır.
 
 ### S2: Aspose.Tasks'ı diğer istisna türlerini yönetmek için kullanabilir miyim?
 

@@ -1,6 +1,6 @@
 ---
 title: Opanowanie konfiguracji tygodnia pracy w Aspose.Tasks
-linktitle: Skonfiguruj tygodnie pracy w Aspose.Tasks
+linktitle: Konfigurowanie tygodni pracy w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
 description: Dowiedz się, jak bez wysiłku konfigurować tygodnie pracy w Aspose.Tasks dla .NET. Ulepsz planowanie projektów i zarządzanie zasobami dzięki naszemu przewodnikowi krok po kroku.
 type: docs

@@ -1,6 +1,6 @@
 ---
 title: Dominar las vistas de uso de tareas en Aspose.Tasks para .NET
-linktitle: Configurar vistas de uso de tareas en Aspose.Tasks
+linktitle: Configuración de vistas de uso de tareas en Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Explore Aspose.Tasks para .NET y aprenda cómo configurar vistas de uso de tareas. Personalice la configuración de escala de tiempo y mejore los elementos visuales de gestión de proyectos.
 type: docs
@@ -23,7 +23,7 @@ En su proyecto .NET, importe los espacios de nombres necesarios para acceder a l
     using Aspose.Tasks.Visualization;
 ```
 ## Paso 1: establecer la ruta del directorio de documentos
- Antes de trabajar con las funcionalidades de Aspose.Tasks, establezca la ruta a su directorio de documentos. reemplazar`"Your Document Directory"` con el camino real.
+ Antes de trabajar con las funcionalidades de Aspose.Tasks, establezca la ruta a su directorio de documentos. Reemplazar`"Your Document Directory"` con el camino real.
 ```csharp
 String DataDir = "Your Document Directory";
 ```
@@ -74,4 +74,4 @@ Sí, Aspose.Tasks admite formatos de archivos de proyectos populares, como MPP, 
 ### ¿Puedo aplicar diferentes configuraciones de escala de tiempo a tareas específicas?
 Por supuesto, puedes personalizar la configuración de la escala de tiempo para tareas individuales dentro de tu proyecto.
 ### ¿Cómo puedo obtener soporte o buscar asistencia para Aspose.Tasks?
- visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para el apoyo y orientación de la comunidad.
+ Visita el[Foro Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para el apoyo y orientación de la comunidad.

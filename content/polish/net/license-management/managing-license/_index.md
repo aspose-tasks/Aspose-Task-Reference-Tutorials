@@ -13,7 +13,7 @@ Zarządzanie licencjami jest kluczowym aspektem efektywnego wykorzystania Aspose
 Zanim zagłębimy się w zarządzanie licencjami za pomocą Aspose.Tasks w .NET, upewnij się, że spełniasz następujące wymagania wstępne:
 - Podstawowa znajomość języka programowania C# i frameworku .NET.
 - Zainstalowano Aspose.Tasks dla .NET.
-- Dostęp do ważnego pliku licencji Aspose.Tasks (`.lic`,
+- Dostęp do ważnego pliku licencji Aspose.Tasks (`.lic`).
 ## Importuj przestrzenie nazw
 Zanim zaczniesz używać Aspose.Tasks w swoim projekcie .NET, musisz zaimportować niezbędne przestrzenie nazw. Te przestrzenie nazw zapewniają dostęp do klas i metod wymaganych do zarządzania licencjami.
 

@@ -33,7 +33,7 @@ using Aspose.Tasks.Util;
 
 ## Bước 1: Tải tệp dự án
 
- Bắt đầu bằng cách tải tệp Microsoft Project (.mpp) mà bạn muốn kiểm tra xem cấu trúc có bị hỏng hay không. Sử dụng`Project` lớp để tải tập tin.
+Bắt đầu bằng cách tải tệp Microsoft Project (.mpp) mà bạn muốn kiểm tra xem cấu trúc có bị hỏng hay không. Sử dụng`Project` lớp để tải tập tin.
 
 ```csharp
 var project = new Project(DataDir + "ParentChildTasks.mpp");
@@ -70,7 +70,7 @@ Câu trả lời 1: Có, Aspose.Tasks cho .NET tương thích với nhiều khun
 
 ### Câu hỏi 3: Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
 
-Câu trả lời 3: Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
+ Câu trả lời 3: Bạn có thể tìm kiếm sự trợ giúp từ diễn đàn cộng đồng Aspose.Tasks[đây](https://forum.aspose.com/c/tasks/15).
 
 ### Câu hỏi 4: Tôi có cần giấy phép tạm thời cho mục đích thử nghiệm không?
 

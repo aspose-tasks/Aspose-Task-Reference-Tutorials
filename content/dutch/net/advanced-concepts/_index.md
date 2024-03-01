@@ -14,7 +14,7 @@ Ben je klaar om je Aspose.Tasks voor .NET-vaardigheden naar een hoger niveau te 
 
 ## Omgaan met het opslaan van afbeeldingen in Aspose.Tasks
 
-Leer de kunst van het opslaan van afbeeldingen in Aspose.Tasks voor .NET met onze stapsgewijze richtlijnen. Integreer de functionaliteit voor het opslaan van afbeeldingen naadloos in uw .NET-toepassingen, waardoor de visuele weergave van uw projectgegevens wordt verbeterd.[Lees verder](./image-saving/)
+ Leer de kunst van het opslaan van afbeeldingen in Aspose.Tasks voor .NET met onze stapsgewijze richtlijnen. Integreer de functionaliteit voor het opslaan van afbeeldingen naadloos in uw .NET-toepassingen, waardoor de visuele weergave van uw projectgegevens wordt verbeterd.[Lees verder](./image-saving/)
 
 ## Omgaan met ongeldige wachtwoorduitzonderingen in Aspose.Tasks
 
@@ -22,11 +22,11 @@ Leer de kunst van het opslaan van afbeeldingen in Aspose.Tasks voor .NET met onz
 
 ## Implementatie van callback voor het opslaan van pagina's in Aspose.Tasks
 
- Ontgrendel het potentieel van aangepaste verwerking van documentuitvoerstromen met meerdere pagina's. Leer hoe u een callback voor het opslaan van pagina's implementeert in Aspose.Tasks voor .NET, waardoor u controle krijgt over de presentatie van uw projectgegevens.[Lees verder](./page-saving-callback/)
+Ontgrendel het potentieel van aangepaste verwerking van documentuitvoerstromen met meerdere pagina's. Leer hoe u een callback voor het opslaan van pagina's implementeert in Aspose.Tasks voor .NET, waardoor u controle krijgt over de presentatie van uw projectgegevens.[Lees verder](./page-saving-callback/)
 
 ## Boomalgoritme gebruiken in Aspose.Tasks
 
-Manipuleer effectief taakhiërarchieën in uw .NET-projecten met behulp van het Tree Algorithm van Aspose.Tasks. Met deze tutorial kunt u projectstructuren optimaliseren en een naadloze en georganiseerde workflow garanderen.[Lees verder](./tree-algorithm/)
+ Manipuleer effectief taakhiërarchieën in uw .NET-projecten met behulp van het Tree Algorithm van Aspose.Tasks. Met deze tutorial kunt u projectstructuren optimaliseren en een naadloze en georganiseerde workflow garanderen.[Lees verder](./tree-algorithm/)
 
 ## Labels weergeven in Aspose.Tasks
 
@@ -38,11 +38,11 @@ Manipuleer effectief taakhiërarchieën in uw .NET-projecten met behulp van het 
 
 ## Maandelijkse herhalingspatronen verwerken in Aspose.Tasks
 
- Beheers de kunst van het omgaan met maandelijkse herhalingspatronen in Aspose.Tasks voor .NET. Deze zelfstudie biedt een stapsgewijze handleiding voor het efficiënt beheren van terugkerende taken in uw projecten.[Lees verder](./monthly-recurrence-patterns/)
+Beheers de kunst van het omgaan met maandelijkse herhalingspatronen in Aspose.Tasks voor .NET. Deze zelfstudie biedt een stapsgewijze handleiding voor het efficiënt beheren van terugkerende taken in uw projecten.[Lees verder](./monthly-recurrence-patterns/)
 
 ## Instellingen voor Microsoft Project Database in Aspose.Tasks
 
-Configureer Microsoft Project-database-instellingen naadloos met Aspose.Tasks voor .NET. Integreer projectgegevens moeiteloos in uw .NET-applicaties, waardoor uw projectbeheermogelijkheden worden geoptimaliseerd.[Lees verder](./msp-database-settings/)
+ Configureer Microsoft Project-database-instellingen naadloos met Aspose.Tasks voor .NET. Integreer projectgegevens moeiteloos in uw .NET-applicaties, waardoor uw projectbeheermogelijkheden worden geoptimaliseerd.[Lees verder](./msp-database-settings/)
 
 ## Werken met NOT-bewerking in Aspose.Tasks
 
@@ -54,11 +54,11 @@ Configureer Microsoft Project-database-instellingen naadloos met Aspose.Tasks vo
 
 ## Werken met OLE-objecten in Aspose.Tasks
 
- Werk efficiënt met OLE-objecten in .NET-applicaties met behulp van Aspose.Tasks. Verbeter uw projectmanagementmogelijkheden door de verwerking van OLE-objecten onder de knie te krijgen, waardoor een nieuwe dimensie aan uw projectdocumenten wordt toegevoegd.[Lees verder](./ole-objects/)
+Werk efficiënt met OLE-objecten in .NET-applicaties met behulp van Aspose.Tasks. Verbeter uw projectmanagementmogelijkheden door de verwerking van OLE-objecten onder de knie te krijgen, waardoor een nieuwe dimensie aan uw projectdocumenten wordt toegevoegd.[Lees verder](./ole-objects/)
 
 ## Verzameling van OLE-objecten in Aspose.Tasks
 
-Beheer OLE-objecten in Aspose.Tasks voor .NET met deze uitgebreide tutorial. Verkrijg expertise in het omgaan met ingebedde bestanden in projectdocumenten, zodat u verzekerd bent van een naadloze integratie van OLE-objecten in uw projecten.[Lees verder](./ole-object-collection/)
+ Beheer OLE-objecten in Aspose.Tasks voor .NET met deze uitgebreide tutorial. Verkrijg expertise in het omgaan met ingebedde bestanden in projectdocumenten, zodat u verzekerd bent van een naadloze integratie van OLE-objecten in uw projecten.[Lees verder](./ole-object-collection/)
 ## Tutorials voor geavanceerde concepten
 ### [Omgaan met het opslaan van afbeeldingen in Aspose.Tasks](./image-saving/)
 Leer hoe u met stapsgewijze richtlijnen omgaat met het opslaan van afbeeldingen in Aspose.Tasks voor .NET. Integreer de functionaliteit voor het opslaan van afbeeldingen naadloos in uw .NET-toepassingen.

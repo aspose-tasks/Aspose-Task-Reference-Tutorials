@@ -108,4 +108,4 @@ A4: Ja, zoals gedemonstreerd in deze tutorial, kunt u verschillende contouren in
 
 ### V5: Waar kan ik ondersteuning vinden voor Aspose.Tasks-gerelateerde vragen?
 
- A5: U kunt ondersteuning vinden op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) waar experts en leden van de gemeenschap actief deelnemen aan discussies.
+A5: U kunt ondersteuning vinden op de[Aspose.Tasks-forum](https://forum.aspose.com/c/tasks/15) waar experts en leden van de gemeenschap actief deelnemen aan discussies.

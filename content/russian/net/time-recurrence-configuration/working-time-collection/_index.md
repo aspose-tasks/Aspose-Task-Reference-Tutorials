@@ -111,6 +111,6 @@ foreach (var day in calendar.WeekDays)
 ### Как часто обновляется Aspose.Tasks?
  Aspose.Tasks регулярно обновляется, включая новые функции, улучшения и улучшения совместимости. Проверить[страница выпуска](https://releases.aspose.com/tasks/net/) для получения последних обновлений.
 ### Доступна ли бесплатная пробная версия Aspose.Tasks?
- Да, вы можете изучить Aspose.Tasks с бесплатной пробной версией, посетив[эта ссылка](https://releases.aspose.com/).
+ Да, вы можете изучить Aspose.Tasks с помощью бесплатной пробной версии, посетив[эта ссылка](https://releases.aspose.com/).
 ### Где я могу получить поддержку для Aspose.Tasks?
  По любым вопросам или помощи посетите[Форум поддержки Aspose.Tasks](https://forum.aspose.com/c/tasks/15).

@@ -66,5 +66,5 @@ C: İstisnaları hassas bir şekilde ele almak ve kodunuzun sorunsuz bir şekild
 C: Aspose.Tasks for .NET, görev sayısına katı sınırlamalar getirmez ve farklı proje boyutları için esneklik sağlar.
 ### S: Basılı temel bilgilerin biçimini özelleştirebilir miyim?
 C: Kesinlikle! Temel ayrıntıları yazdırırken biçimlendirme üzerinde tam kontrole sahip olursunuz ve bunu özel gereksinimlerinize göre uyarlamanıza olanak tanır.
-### S: Sorunlarla karşılaşırsam veya ek sorularım olursa nereden yardım alabilirim?
+### S: Sorunlarla karşılaşırsam veya ek sorularım olursa nereden yardım isteyebilirim?
  C: Ziyaret edin[Aspose.Tasks forumu](https://forum.aspose.com/c/tasks/15) özel destek ve topluluk yardımı için.

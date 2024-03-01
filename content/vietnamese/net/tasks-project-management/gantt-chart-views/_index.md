@@ -12,7 +12,7 @@ Biểu đồ Gantt là công cụ mạnh mẽ được sử dụng trong quản 
 ## Điều kiện tiên quyết
 Trước khi tiếp tục, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 ### 1. Cài đặt Aspose.Tasks cho .NET
- Đảm bảo bạn đã cài đặt Aspose.Tasks cho .NET. Bạn có thể tải thư viện từ[đây](https://releases.aspose.com/tasks/net/)và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu[đây](https://reference.aspose.com/tasks/net/).
+ Đảm bảo bạn đã cài đặt Aspose.Tasks cho .NET. Bạn có thể tải thư viện từ[đây](https://releases.aspose.com/tasks/net/) và làm theo hướng dẫn cài đặt được cung cấp trong tài liệu[đây](https://reference.aspose.com/tasks/net/).
 ### 2. Tệp dự án Microsoft
 Chuẩn bị tệp Microsoft Project (`Project2.mpp`) mà bạn sẽ sử dụng để làm việc với các dạng xem biểu đồ Gantt.
 ### 3. Kiến thức cơ bản về C# và .NET Framework
@@ -81,7 +81,7 @@ Chỉ định xem các thanh trên biểu đồ Gantt có phải được cuộn
 view.ShowBarSplits = true;
 ```
 Xác định xem có phải hiển thị các phần phân chia nhiệm vụ trên biểu đồ Gantt hay không.
-### hiển thị bản vẽ
+### Hiển thị bản vẽ
 ```csharp
 view.ShowDrawings = true;
 ```

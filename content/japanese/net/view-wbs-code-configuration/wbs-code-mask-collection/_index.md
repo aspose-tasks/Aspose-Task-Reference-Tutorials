@@ -127,14 +127,14 @@ foreach (var childTask in otherChildTasks)
 }
 ```
 ## 結論
-Aspose.Tasks for .NET を使用すると、WBS コードの管理が簡単なタスクになります。このチュートリアルでは、WBS コード マスクの作成、操作、転送について説明し、プロジェクト管理エクスペリエンスを向上させるための包括的なガイドを提供します。
+Aspose.Tasks for .NET を使用すると、WBS コードの管理が簡単なタスクになります。このチュートリアルでは、WBS コード マスクの作成、操作、転送について説明し、プロジェクト管理エクスペリエンスを強化するための包括的なガイドを提供します。
 ## よくある質問
 ### Q: Aspose.Tasks for .NET を他のプログラミング言語で使用できますか?
 A: Aspose.Tasks は主に .NET 言語をサポートしていますが、他の言語との相互運用性オプションを検討することもできます。
 ### Q: Aspose.Tasks for .NET の試用版はありますか?
  A: はい、試用版をダウンロードできます。[ここ](https://releases.aspose.com/).
 ### Q: Aspose.Tasks for .NET に関するヘルプを求めたり、問題を報告するにはどうすればよいですか?
-A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートとディスカッションのため。
+ A: にアクセスしてください。[Aspose.Task フォーラム](https://forum.aspose.com/c/tasks/15)サポートとディスカッションのため。
 ### Q: プロジェクト管理における WBS コードの目的は何ですか?
 A: WBS コードは、プロジェクト タスクを階層的に整理および構造化するのに役立ち、プロジェクト計画への体系的なアプローチを提供します。
 ### Q: Aspose.Tasks for .NET で WBS コードの形式をカスタマイズできますか?

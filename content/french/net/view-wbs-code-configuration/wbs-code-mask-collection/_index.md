@@ -13,7 +13,7 @@ Dans le monde dynamique de la gestion de projet, organiser efficacement les tâc
 Avant de nous lancer dans ce voyage de codage, assurez-vous d'avoir les conditions préalables suivantes en place :
 - Une connaissance pratique du langage de programmation C#.
 -  Aspose.Tasks pour .NET installé dans votre environnement de développement. Sinon, téléchargez-le[ici](https://releases.aspose.com/tasks/net/).
-- Un éditeur de code comme Visual Studio pour une expérience de codage transparente.
+- Un éditeur de code comme Visual Studio pour une expérience de codage fluide.
 ## Importer des espaces de noms
 Pour commencer, importons les espaces de noms nécessaires :
 ```csharp
@@ -130,12 +130,12 @@ foreach (var childTask in otherChildTasks)
 Avec Aspose.Tasks pour .NET, la gestion des codes WBS devient une tâche sans effort. Ce didacticiel a couvert la création, la manipulation et le transfert de masques de code WBS, vous fournissant un guide complet pour améliorer votre expérience de gestion de projet.
 ## FAQ
 ### Q : Puis-je utiliser Aspose.Tasks pour .NET avec d’autres langages de programmation ?
-R : Aspose.Tasks prend principalement en charge les langages .NET, mais vous pouvez explorer les options d'interopérabilité avec d'autres langages.
+: Aspose.Tasks prend principalement en charge les langages .NET, mais vous pouvez explorer les options d'interopérabilité avec d'autres langages.
 ### Q : Existe-t-il une version d'essai disponible pour Aspose.Tasks pour .NET ?
- R : Oui, vous pouvez télécharger la version d'essai.[ici](https://releases.aspose.com/).
+ R : Oui, vous pouvez télécharger la version d'essai[ici](https://releases.aspose.com/).
 ### Q : Comment puis-je demander de l'aide ou signaler des problèmes avec Aspose.Tasks pour .NET ?
  R : Visitez le[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) pour du soutien et des discussions.
 ### Q : A quoi servent les codes WBS dans la gestion de projet ?
 R : Les codes WBS aident à organiser et à structurer les tâches du projet de manière hiérarchique, offrant ainsi une approche systématique de la planification du projet.
 ### Q : Puis-je personnaliser le format des codes WBS dans Aspose.Tasks pour .NET ?
-: Absolument, vous avez un contrôle total sur le format et la structure des codes WBS à l'aide d'Aspose.Tasks pour .NET.
+R : Absolument, vous avez un contrôle total sur le format et la structure des codes WBS à l'aide d'Aspose.Tasks pour .NET.

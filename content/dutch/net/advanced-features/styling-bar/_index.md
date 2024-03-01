@@ -62,7 +62,7 @@ Maak een nieuwe staafstijl en pas de eigenschappen ervan aan:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Stel het type staafitem in
 style.BarColor = Color.Green; // Stel de kleur van de balk in
-style.BarShape = BarShape.HalfHeight; //Staafvorm instellen
+style.BarShape = BarShape.HalfHeight; // Staafvorm instellen
 style.StartShape = Shape.LeftBracket; // Vorm instellen aan het begin van de balk
 style.StartShapeColor = Color.Aqua; // Stel de kleur van de startvorm in
 style.EndShape = Shape.RightBracket; // Vorm aan het einde van de balk instellen

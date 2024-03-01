@@ -2,7 +2,7 @@
 title: Lưu hình ảnh Tùy chọn dự án MS cho Aspose.Tasks
 linktitle: Tùy chọn lưu hình ảnh cho Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Tìm hiểu cách lưu các tùy chọn MS Project dưới dạng hình ảnh bằng Aspose.Tasks for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
+description: Tìm hiểu cách lưu các tùy chọn MS Project dưới dạng hình ảnh bằng Aspose.Tasks cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
 type: docs
 weight: 11
 url: /vi/net/saving-options/image-save-options/
@@ -13,7 +13,7 @@ Trong thế giới phát triển phần mềm, việc xử lý các nhiệm vụ
 ## Điều kiện tiên quyết
 Trước khi đi sâu vào sử dụng Aspose.Tasks cho .NET để lưu các tùy chọn MS Project dưới dạng hình ảnh, hãy đảm bảo bạn có sẵn các điều kiện tiên quyết sau:
 ### 1. Cài đặt Aspose.Tasks cho .NET
- Để bắt đầu, bạn cần cài đặt Aspose.Tasks for .NET trong môi trường phát triển của mình. Bạn có thể tải xuống thư viện từ[trang mạng](https://releases.aspose.com/tasks/net/) và làm theo hướng dẫn cài đặt được cung cấp.
+Để bắt đầu, bạn cần cài đặt Aspose.Tasks for .NET trong môi trường phát triển của mình. Bạn có thể tải xuống thư viện từ[trang mạng](https://releases.aspose.com/tasks/net/) và làm theo hướng dẫn cài đặt được cung cấp.
 ### 2. Lấy giấy phép (Tùy chọn)
  Mặc dù Aspose.Tasks cho .NET có thể được sử dụng mà không cần giấy phép trong chế độ đánh giá, nhưng bạn nên lấy giấy phép để có đầy đủ chức năng và loại bỏ các giới hạn đánh giá. Bạn có thể nhận được giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy) hoặc chọn một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích thử nghiệm.
 ### 3. Kiến thức cơ bản về phát triển C# và .NET
@@ -42,7 +42,7 @@ String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
 ```
 ## Bước 3: Xác định tùy chọn lưu hình ảnh
- Tạo một thể hiện của`ImageSaveOptions` và chỉ định các cài đặt mong muốn:
+ Tạo một thể hiện của`ImageSaveOptions`và chỉ định các cài đặt mong muốn:
 ```csharp
 var options = new ImageSaveOptions(SaveFileFormat.Jpeg)
 {

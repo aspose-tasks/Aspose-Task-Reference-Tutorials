@@ -47,7 +47,7 @@ connectionString.Password = "*";
 connectionString.ConnectTimeout = 2;
 ```
 
-Nezapomeňte nahradit zástupné hodnoty vašimi skutečnými přihlašovacími údaji k databázi.
+Zajistěte, aby byly zástupné hodnoty nahrazeny vašimi skutečnými přihlašovacími údaji k databázi.
 
 ## Krok 2: Nakonfigurujte MspDbSettings
 
@@ -86,7 +86,7 @@ Odpověď 1: Ano, Aspose.Tasks podporuje různé verze databází Microsoft Proj
 
 ### Q2: Jak mohu řešit problémy s připojením k databázi?
 
-A2: Ujistěte se, že váš připojovací řetězec je správně nakonfigurován s příslušnými pověřeními a podrobnostmi o databázi. Můžete se také podívat do dokumentace nebo požádat o podporu u[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
+ A2: Ujistěte se, že váš připojovací řetězec je správně nakonfigurován s příslušnými pověřeními a podrobnostmi o databázi. Můžete se také podívat do dokumentace nebo požádat o podporu u[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15).
 
 ### Q3: Je k dispozici zkušební verze pro Aspose.Tasks?
 

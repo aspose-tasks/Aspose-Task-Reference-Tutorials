@@ -35,7 +35,7 @@ var project = new Project(DataDir + "YourProjectFile.mpp");
 Καθορίστε τις λεπτομέρειες κρυπτογράφησης, συμπεριλαμβανομένων του κωδικού πρόσβασης χρήστη, του κωδικού πρόσβασης κατόχου, του αλγόριθμου κρυπτογράφησης και των δικαιωμάτων:
 ```csharp
 var encryptionDetails = new PdfEncryptionDetails(
-    "userPassword",        //Κωδικός Χρήστη
+    "userPassword",        // Κωδικός Χρήστη
     "ownerPassword",       // Κωδικός κατόχου
     PdfEncryptionAlgorithm.RC4_128);  // Αλγόριθμος κρυπτογράφησης
 // Καθορίστε δικαιώματα

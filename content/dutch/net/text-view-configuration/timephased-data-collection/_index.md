@@ -42,7 +42,7 @@ var task2 = project.RootTask.Children.Add("Task 2");
 var assignment = project.ResourceAssignments.Add(task, resource);
 // Toewijzingseigenschappen instellen...
 var assignment2 = project.ResourceAssignments.Add(task2, resource2);
-// Eigenschappen van opdracht2 instellen...
+//Eigenschappen van opdracht2 instellen...
 ```
 ## 4. Werk met tijdgebonden gegevens
 ```csharp
@@ -72,7 +72,7 @@ IList<TimephasedData> filteredTds = assignment.TimephasedData.SelectBetweenStart
 ```
 ## 5. Manipuleer tijdgebonden gegevens
 ```csharp
-//Voeg een verkeerd tijdgebonden gegevensitem toe en verwijder het vervolgens
+// Voeg een verkeerd tijdgebonden gegevensitem toe en verwijder het vervolgens
 var td4 = new TimephasedData
 {
     // Verkeerde tijdgebonden gegevenseigenschappen instellen...
@@ -120,4 +120,4 @@ Aspose.Tasks verwerkt projecten van verschillende omvang en er is geen strikte l
 ### Kan ik Aspose.Tasks voor .NET uitproberen voordat ik het aanschaf?
  Ja, u kunt de functies van Aspose.Tasks voor .NET verkennen door naar de[gratis proefperiode](https://releases.aspose.com/).
 ### Waar kan ik een licentie kopen voor Aspose.Tasks voor .NET?
- U kunt een licentie kopen voor Aspose.Tasks voor .NET[hier](https://purchase.aspose.com/buy).
+ kunt een licentie kopen voor Aspose.Tasks voor .NET[hier](https://purchase.aspose.com/buy).

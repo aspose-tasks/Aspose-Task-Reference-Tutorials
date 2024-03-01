@@ -62,7 +62,7 @@ Erstellen Sie einen neuen Balkenstil und passen Sie seine Eigenschaften an:
 var style = new BarStyle();
 style.ItemType = BarItemType.Milestone; // Legen Sie den Typ des Balkenelements fest
 style.BarColor = Color.Green; // Balkenfarbe festlegen
-style.BarShape = BarShape.HalfHeight; //Stabform einstellen
+style.BarShape = BarShape.HalfHeight; // Stabform einstellen
 style.StartShape = Shape.LeftBracket; // Legen Sie die Form am Anfang des Balkens fest
 style.StartShapeColor = Color.Aqua; // Legen Sie die Farbe der Startform fest
 style.EndShape = Shape.RightBracket; // Form am Ende der Leiste festlegen

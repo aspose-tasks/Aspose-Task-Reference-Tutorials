@@ -69,7 +69,7 @@ Vymažte existující kritéria skupiny, pokud není jen pro čtení.
 group.GroupCriteria.Clear();
 ```
 
-## Krok 5: Přidejte nová kritéria
+## Krok 5: Přidejte nové kritérium
 
 Vytvořte nové skupinové kritérium a přidejte jej do skupiny.
 
@@ -125,4 +125,4 @@ Odpověď: Rozhodně můžete do skupiny přidat více kritérií tím, že je b
 
 ### Q5: Jak mohu získat podporu, pokud narazím na nějaké problémy?
 
- Odpověď: Pokud máte nějaké otázky nebo se potýkáte s nějakými problémy, můžete vyhledat podporu na fóru Aspose.Tasks.[tady](https://forum.aspose.com/c/tasks/15).
+ Odpověď: Pokud máte nějaké otázky nebo se potýkáte s nějakými problémy, můžete vyhledat podporu na fóru Aspose.Tasks[tady](https://forum.aspose.com/c/tasks/15).

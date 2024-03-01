@@ -12,7 +12,7 @@ Aspose.Tasks para .NET es una poderosa biblioteca que permite a los desarrollado
 ## Requisitos previos
 Antes de comenzar, asegúrese de cumplir con los siguientes requisitos previos:
 ### 1. Instale Aspose.Tasks para .NET
-Asegúrese de haber instalado Aspose.Tasks para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/tasks/net/).
+ Asegúrese de haber instalado Aspose.Tasks para .NET. Puedes descargarlo desde[aquí](https://releases.aspose.com/tasks/net/).
 ### 2. Obtener una licencia (opcional)
  Si está utilizando Aspose.Tasks en un proyecto comercial, necesitará una licencia. Puede adquirir una licencia en[aquí](https://purchase.aspose.com/buy) , o puedes solicitar una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### 3. Configure su entorno de desarrollo
@@ -43,7 +43,7 @@ using (var stream = new FileStream(OutDir + "Burndown_out.pdf", FileMode.Create)
 ```
 
 ## Conclusión
-En conclusión, Aspose.Tasks para .NET es una biblioteca versátil para trabajar con archivos de MS Project. Si sigue los pasos descritos en este tutorial, podrá cargar fácilmente archivos de MS Project y generar varios tipos de informes con un mínimo esfuerzo. Ya sea que sea un desarrollador experimentado o esté comenzando con el desarrollo de .NET, Aspose.Tasks le permite manejar de manera eficiente las tareas de gestión de proyectos.
+En conclusión, Aspose.Tasks para .NET es una biblioteca versátil para trabajar con archivos de MS Project. Si sigue los pasos descritos en este tutorial, podrá cargar fácilmente archivos de MS Project y generar varios tipos de informes con un mínimo esfuerzo. Ya sea que sea un desarrollador experimentado o recién esté comenzando con el desarrollo de .NET, Aspose.Tasks le permite manejar de manera eficiente las tareas de gestión de proyectos.
 ## Preguntas frecuentes
 ### P1: ¿Puedo utilizar Aspose.Tasks para .NET en proyectos comerciales?
 R: Sí, puedes usar Aspose.Tasks para .NET en proyectos comerciales, pero necesitarás comprar una licencia.

@@ -1,6 +1,6 @@
 ---
 title: Menguasai Konfigurasi Minggu Kerja di Aspose.Tasks
-linktitle: Konfigurasikan Minggu Kerja di Aspose.Tasks
+linktitle: Mengonfigurasi Minggu Kerja di Aspose.Tasks
 second_title: Aspose.Tugas .NET API
 description: Pelajari cara mengonfigurasi minggu kerja dengan mudah di Aspose.Tasks untuk .NET. Tingkatkan penjadwalan proyek dan manajemen sumber daya dengan panduan langkah demi langkah kami.
 type: docs

@@ -32,7 +32,7 @@ Aspose.Tasks for .NET 라이브러리에서 제공하는 기능에 액세스하�
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "Project2007.mpp");
 ```
-여기서는 새 인스턴스를 초기화합니다.`Project` Microsoft Project 파일의 경로를 제공하여 클래스를 생성합니다.
+ 여기서는 새 인스턴스를 초기화합니다.`Project` Microsoft Project 파일의 경로를 제공하여 클래스를 생성합니다.
 ## 2단계: 상황 보고 날짜 설정:
 ```csharp
 project.Set(Prj.StatusDate, project.Get(Prj.StartDate));
@@ -67,7 +67,7 @@ var newInterval = new RecurringInterval();
 ```csharp
 // 월별 진행 상황을 날짜별로 설정하세요.
 interval.MonthlyDay = true;
-// 월별 진행 라인의 일 수를 설정합니다.
+// 월별 진행 라인의 일수를 설정합니다.
 interval.MonthlyDayDayNumber = 1;
 // 월별 진행 라인의 월 수를 설정합니다.
 interval.MonthlyDayMonthNumber = 1;
@@ -91,7 +91,7 @@ project.Save(DataDir + "WorkWithRecurringInterval_out.pdf", SaveFileFormat.Pdf);
 마지막으로 업데이트된 반복 간격이 포함된 프로젝트를 PDF 파일로 저장합니다.
 
 ## 결론
-결론적으로, .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일에서 반복 간격을 관리하는 것은 라이브러리에서 제공하는 포괄적인 기능을 통해 간단해집니다. 이 튜토리얼에 설명된 단계별 가이드를 따르면 프로젝트에서 반복되는 간격을 효율적으로 처리하여 생산성과 구성을 향상할 수 있습니다.
+결론적으로, .NET용 Aspose.Tasks를 사용하여 Microsoft Project 파일에서 반복 간격을 관리하는 것은 라이브러리에서 제공하는 포괄적인 기능을 통해 간단해집니다. 이 튜토리얼에 설명된 단계별 가이드를 따르면 프로젝트에서 반복되는 간격을 효율적으로 처리하여 생산성과 구성을 향상시킬 수 있습니다.
 ### FAQ
 ### 다른 프로그래밍 언어와 함께 .NET용 Aspose.Tasks를 사용할 수 있나요?
 예, Aspose.Tasks for .NET은 C# 및 VB.NET과 같은 .NET 지원 언어와 함께 사용할 수 있습니다.

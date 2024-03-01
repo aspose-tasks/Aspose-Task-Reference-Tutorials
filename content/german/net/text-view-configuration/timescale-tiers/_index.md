@@ -1,6 +1,6 @@
 ---
-title: Konfigurieren Sie die Zeitskalenstufen des Gantt-Diagramms in Aspose.Tasks
-linktitle: Konfigurieren Sie Zeitskalenstufen in Aspose.Tasks
+title: Konfigurieren von Gantt-Diagramm-Zeitskalenebenen in Aspose.Tasks
+linktitle: Konfigurieren von Zeitskalenstufen in Aspose.Tasks
 second_title: Aspose.Tasks .NET-API
 description: Entdecken Sie Aspose.Tasks für .NET, um Zeitskalenebenen in Ihrer Gantt-Diagrammansicht für eine präzise Visualisierung der Projektzeitachse zu konfigurieren. #Aspose.Tasks #MS-Projekt
 type: docs
@@ -12,7 +12,7 @@ In der dynamischen Landschaft des Projektmanagements ist eine effektive Visualis
 ## Voraussetzungen
 Bevor Sie mit dem Tutorial beginnen, stellen Sie sicher, dass Sie über Folgendes verfügen:
 - Grundkenntnisse in C# und .NET.
-- Aspose.Tasks für .NET-Bibliothek installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
+-  Aspose.Tasks für .NET-Bibliothek installiert. Sie können es herunterladen[Hier](https://releases.aspose.com/tasks/net/).
 - Eine für die .NET-Anwendungsentwicklung eingerichtete Entwicklungsumgebung.
 ## Namespaces importieren
 ```csharp
@@ -51,7 +51,7 @@ Passen Sie die mittlere Zeitskalaebene an, um Wochen mit bestimmten Beschriftung
 ```csharp
 view.TopTimescaleTier = new TimescaleTier(TimescaleUnit.Months, 1);
 ```
-Fügen Sie eine oberste Zeitskalaebene hinzu, um Monate darzustellen.
+Fügen Sie eine obere Zeitskalaebene hinzu, um Monate darzustellen.
 ## Schritt 5: Passen Sie die Daten der mittleren Ebene an
 ```csharp
 view.TopTimescaleTier.DateTimeConverter = date =>

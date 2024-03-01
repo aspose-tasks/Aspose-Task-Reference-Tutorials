@@ -1,6 +1,6 @@
 ---
 title: Dominando as visualizações do Microsoft Project com Aspose.Tasks
-linktitle: Configurar visualizações em Aspose.Tasks
+linktitle: Configurando visualizações em Aspose.Tasks
 second_title: API Aspose.Tasks .NET
 description: Domine as visualizações do Microsoft Project com Aspose.Tasks para .NET. Personalize e simplifique sua experiência de gerenciamento de projetos sem esforço.
 type: docs
@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Destaque o filtro para uma visualização únic
 ## Etapa 4: ajustar as configurações de visualização
 ```csharp
 // Ajuste algumas configurações de visualização
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Defina o número das primeiras colunas a serem impressas em todas as páginas
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Defina o número das primeiras colunas a serem impressas em todas as páginas
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // Imprima um número especificado de primeiras colunas em todas as páginas
 ```
 ## Etapa 5: adicionar visualização ao projeto
 ```csharp
-//Adicione a visualização ao nosso projeto
+// Adicione a visualização ao nosso projeto
 project.Views.Add(view);
 ```
 ## Passo 6: Salve o Projeto com a Nova Visualização
@@ -73,8 +73,8 @@ Aspose.Tasks foi projetado principalmente para Microsoft Project, garantindo int
 ### Existe uma avaliação gratuita disponível para Aspose.Tasks for .NET?
  Sim, você pode explorar uma avaliação gratuita[aqui](https://releases.aspose.com/).
 ### Como posso obter suporte para Aspose.Tasks for .NET?
- visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio comunitário ou considere adquirir planos de apoio.
+ Visite a[Fórum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) para apoio comunitário ou considere adquirir planos de apoio.
 ### Posso personalizar ainda mais a aparência das visualizações?
- Com certeza, mergulhe na documentação do Aspose.Tasks[aqui](https://reference.aspose.com/tasks/net/)para opções de personalização avançadas.
+ Com certeza, mergulhe na documentação do Aspose.Tasks[aqui](https://reference.aspose.com/tasks/net/) para opções de personalização avançadas.
 ### Onde posso comprar o Aspose.Tasks para .NET?
  Você pode comprar a biblioteca[aqui](https://purchase.aspose.com/buy) para uma experiência perfeita de gerenciamento de projetos.

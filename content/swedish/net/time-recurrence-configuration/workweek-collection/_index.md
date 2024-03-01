@@ -8,7 +8,7 @@ weight: 17
 url: /sv/net/time-recurrence-configuration/workweek-collection/
 ---
 ## Introduktion
-Välkommen till vår handledning om att skapa en anpassad arbetsvecka med Aspose.Tasks för .NET! I den här steg-för-steg-guiden går vi igenom processen för att definiera en personlig arbetsvecka för en kalender i ditt projekt. Aspose.Tasks är ett kraftfullt bibliotek som ger utvecklare möjlighet att arbeta effektivt med Microsoft Project-dokument i sina .NET-applikationer.
+Välkommen till vår handledning om att skapa en anpassad arbetsvecka med Aspose.Tasks för .NET! I den här steg-för-steg-guiden går vi igenom processen för att definiera en personlig arbetsvecka för en kalender i ditt projekt. Aspose.Tasks är ett kraftfullt bibliotek som ger utvecklare möjlighet att effektivt arbeta med Microsoft Project-dokument i sina .NET-applikationer.
 ## Förutsättningar
 Innan du dyker in i handledningen, se till att du har följande förutsättningar:
 1. Visual Studio: Se till att du har Visual Studio installerat på din dator.
@@ -75,10 +75,10 @@ Sammanfattningsvis erbjuder Aspose.Tasks för .NET en robust lösning för att h
 ### Kan jag ha flera anpassade arbetsveckor i ett enda projekt?
 Ja, du kan lägga till flera anpassade arbetsveckor i en projektkalender.
 ### Hur kan jag ändra befintliga arbetsveckor?
- Använd den medföljande`WorkWeek` egenskaper och metoder för att ändra befintliga arbetsveckor.
+ Använd den medföljande`WorkWeek`egenskaper och metoder för att ändra befintliga arbetsveckor.
 ### Är Aspose.Tasks kompatibelt med .NET Core?
 Ja, Aspose.Tasks stöder .NET Core.
 ### Kan jag exportera projektet med anpassade arbetsveckor till Microsoft Project-filformat?
 Absolut, Aspose.Tasks låter dig spara ditt projekt i olika format, inklusive Microsoft Project.
 ### Var kan jag söka stöd för Aspose.Tasks-relaterade frågor?
- besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för all stöd eller hjälp.
+ Besök[Aspose.Tasks forum](https://forum.aspose.com/c/tasks/15) för all stöd eller hjälp.

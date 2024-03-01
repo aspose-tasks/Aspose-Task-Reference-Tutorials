@@ -12,7 +12,7 @@ Aspose.Tasks for .NET은 Microsoft Project 파일의 데이터를 필터링하�
 ## 전제조건
 튜토리얼을 시작하기 전에 다음 전제 조건이 충족되었는지 확인하세요.
 ### 1. .NET용 Aspose.Tasks 설치
- 다음에서 .NET용 Aspose.Tasks를 다운로드하고 설치하세요.[다운로드 페이지](https://releases.aspose.com/tasks/net/), 개발 환경에서 라이브러리를 설정하려면 제공된 설치 지침을 따르십시오.
+ 다음에서 .NET용 Aspose.Tasks를 다운로드하고 설치하세요.[다운로드 페이지](https://releases.aspose.com/tasks/net/). 개발 환경에서 라이브러리를 설정하려면 제공된 설치 지침을 따르십시오.
 ### 2. 개발 환경 설정
 .NET 프로그래밍을 위한 작업 개발 환경이 있는지 확인하세요. 여기에는 Visual Studio와 같은 호환 IDE와 C# 프로그래밍 언어에 대한 기본적인 이해가 포함됩니다.
 ### 3. 샘플 Microsoft Project 파일에 액세스
@@ -33,7 +33,7 @@ using System.Collections.Generic;
 string dataDir = "Your Document Directory";
 var project = new Project(dataDir + "SampleProject.mpp");
 ```
- 교체를 확인하세요`"Your Document Directory"`프로젝트 파일 디렉터리 경로를 사용하세요.
+ 반드시 교체하세요`"Your Document Directory"`프로젝트 파일 디렉터리 경로를 사용하세요.
 ## 2단계: 작업 필터 검색
 ```csharp
 List<Filter> filters = project.TaskFilters.ToList();

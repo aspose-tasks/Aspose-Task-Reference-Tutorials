@@ -50,8 +50,8 @@ A: Aspose.Tasks unterstützt die Formate Microsoft Project 2003 XML, Microsoft P
 ### F: Kann ich Aspose.Tasks vor dem Kauf testen?
  A: Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 ### F: Wie kann ich Unterstützung für Aspose.Tasks erhalten?
- A: Sie können Unterstützung vom Aspose.Tasks-Community-Forum erhalten.[Hier](https://forum.aspose.com/c/tasks/15).
+A: Sie können Unterstützung vom Aspose.Tasks-Community-Forum erhalten[Hier](https://forum.aspose.com/c/tasks/15).
 ### F: Sind temporäre Lizenzen für Aspose.Tasks verfügbar?
- A: Ja, zu Evaluierungszwecken stehen temporäre Lizenzen zur Verfügung. Du kannst eins bekommen[Hier](https://purchase.aspose.com/temporary-license/).
+ A: Ja, zu Evaluierungszwecken stehen temporäre Lizenzen zur Verfügung. Sie können eines erhalten[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wie hoch sind die Preise für Aspose.Tasks?
  A: Preisinformationen finden Sie auf der Kaufseite von Aspose.Tasks[Hier](https://purchase.aspose.com/buy).

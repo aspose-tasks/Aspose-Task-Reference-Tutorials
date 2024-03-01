@@ -11,7 +11,7 @@ url: /nl/net/rate-recurring-tasks/removing-tasks/
 In deze zelfstudie onderzoeken we hoe u taken uit een Microsoft Project-bestand kunt verwijderen met Aspose.Tasks voor .NET. Aspose.Tasks is een krachtige API waarmee ontwikkelaars Microsoft Project-bestanden programmatisch kunnen manipuleren. Het verwijderen van taken uit een projectbestand kan een veel voorkomende vereiste zijn in projectbeheerscenario's, en Aspose.Tasks biedt een eenvoudige manier om dit te bereiken.
 ## Vereisten
 Voordat we beginnen, zorg ervoor dat u aan de volgende vereisten voldoet:
-1. Installatie van Aspose.Tasks voor .NET: Aspose.Tasks voor .NET moet in uw ontwikkelomgeving zijn geïnstalleerd. Als u het nog niet hebt geïnstalleerd, kunt u het downloaden van[hier](https://releases.aspose.com/tasks/net/).
+1.  Installatie van Aspose.Tasks voor .NET: Aspose.Tasks voor .NET moet in uw ontwikkelomgeving zijn geïnstalleerd. Als u het nog niet hebt geïnstalleerd, kunt u het downloaden van[hier](https://releases.aspose.com/tasks/net/).
 2. Microsoft Project-bestand: bereid een Microsoft Project-bestand voor (`Project1.mpp` in dit voorbeeld) waaruit u taken wilt verwijderen.
 
 ## Naamruimten importeren

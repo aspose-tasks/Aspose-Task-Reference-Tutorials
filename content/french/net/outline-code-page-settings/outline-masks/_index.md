@@ -75,4 +75,4 @@ R : Oui, Aspose.Tasks permet aux développeurs de lire et d'écrire dans des fic
 ### Q : Puis-je essayer Aspose.Tasks pour .NET avant d'acheter ?
  R : Bien sûr ! Vous pouvez accéder à un essai gratuit d'Aspose.Tasks[ici](https://releases.aspose.com/).
 ### Q : Où puis-je obtenir une licence temporaire pour Aspose.Tasks ?
- R : Si vous avez besoin d’une licence temporaire à des fins d’évaluation ou de test, vous pouvez en obtenir une.[ici](https://purchase.aspose.com/temporary-license/).
+ R : Si vous avez besoin d'une licence temporaire à des fins d'évaluation ou de test, vous pouvez en obtenir une.[ici](https://purchase.aspose.com/temporary-license/).

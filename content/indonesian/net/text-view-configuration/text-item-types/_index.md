@@ -11,9 +11,9 @@ url: /id/net/text-view-configuration/text-item-types/
 Jika Anda seorang pengembang .NET yang mendalami manajemen proyek menggunakan Aspose.Tasks, Anda datang ke tempat yang tepat! Dalam panduan langkah demi langkah ini, kita akan menjelajahi seluk-beluk penanganan jenis item teks di Aspose.Tasks, dengan fokus pada penyesuaian menggunakan pustaka .NET yang canggih.
 ## Prasyarat
 Sebelum kita mulai, pastikan Anda memiliki hal berikut:
-1. Aspose.Tasks untuk .NET Library: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks. Jika belum, Anda dapat mendownloadnya[Di Sini](https://releases.aspose.com/tasks/net/).
+1.  Aspose.Tasks untuk .NET Library: Pastikan Anda telah menginstal perpustakaan Aspose.Tasks. Jika belum, Anda dapat mendownloadnya[Di Sini](https://releases.aspose.com/tasks/net/).
 2. Direktori Dokumen: Siapkan direktori untuk dokumen proyek Anda.
-Sekarang, mari selami seluk beluk penanganan tipe item teks.
+Sekarang, mari selami seluk beluk penanganan jenis item teks.
 ## Impor Namespace
 Hal pertama yang pertama, impor namespace yang diperlukan untuk memulai proyek Anda:
 ```csharp
@@ -62,7 +62,7 @@ project.Save(DataDir + "CustomizeTextStyle_out.pdf", options);
 Terapkan gaya teks yang ditentukan ke proyek Anda dan simpan proyek yang disesuaikan sebagai file PDF.
 Ulangi langkah-langkah ini untuk kebutuhan penyesuaian lainnya, bereksperimen dengan berbagai jenis item teks, gaya font, dan warna.
 ## Kesimpulan
- Selamat! Anda baru saja mempelajari permukaan penanganan tipe item teks di Aspose.Tasks untuk .NET. Saat Anda melanjutkan penjelajahan, lihat[dokumentasi](https://reference.aspose.com/tasks/net/) untuk wawasan yang mendalam.
+Selamat! Anda baru saja mempelajari permukaan penanganan tipe item teks di Aspose.Tasks untuk .NET. Saat Anda melanjutkan penjelajahan, lihat[dokumentasi](https://reference.aspose.com/tasks/net/) untuk wawasan yang mendalam.
 ### FAQ
 ### T: Bisakah saya menggunakan Aspose.Tasks secara gratis?
  J: Aspose.Tasks menawarkan uji coba gratis. Ambil[Di Sini](https://releases.aspose.com/).

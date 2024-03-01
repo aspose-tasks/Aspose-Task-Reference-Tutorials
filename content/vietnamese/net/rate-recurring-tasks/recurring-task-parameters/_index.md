@@ -26,12 +26,12 @@ using System;
 ```csharp
 String DataDir = "Your Document Directory";
 ```
- thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn.
+ Thay thế`"Your Document Directory"` với đường dẫn đến thư mục tài liệu của bạn.
 ## Bước 2: Tải tệp dự án
 ```csharp
 var project = new Project(DataDir + "Blank2010.mpp");
 ```
- Dòng mã này tải tệp Microsoft Project vào`project` biến.
+ Dòng mã này tải tệp Microsoft Project vào`project` Biến đổi.
 ## Bước 3: Xác định tham số tác vụ định kỳ
 ```csharp
 var parameters = new RecurringTaskParameters

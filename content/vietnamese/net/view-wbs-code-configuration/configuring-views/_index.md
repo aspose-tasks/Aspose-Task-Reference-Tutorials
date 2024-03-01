@@ -40,12 +40,12 @@ view.HighlightFilter = true;  // Đánh dấu bộ lọc cho một chế độ x
 ## Bước 4: Điều chỉnh cài đặt chế độ xem
 ```csharp
 // Điều chỉnh một số cài đặt chế độ xem
-view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  // Đặt số cột đầu tiên sẽ được in trên tất cả các trang
+view.PageInfo.PageViewSettings.FirstColumnsCount = 4;  //Đặt số cột đầu tiên sẽ được in trên tất cả các trang
 view.PageInfo.PageViewSettings.PrintFirstColumnsCountOnAllPages = true;  // In một số cột đầu tiên được chỉ định trên tất cả các trang
 ```
 ## Bước 5: Thêm chế độ xem vào dự án
 ```csharp
-//Thêm chế độ xem vào dự án của chúng tôi
+// Thêm chế độ xem vào dự án của chúng tôi
 project.Views.Add(view);
 ```
 ## Bước 6: Lưu dự án với chế độ xem mới
@@ -73,8 +73,8 @@ Aspose.Tasks được thiết kế chủ yếu cho Microsoft Project, đảm b�
 ### Có bản dùng thử miễn phí dành cho Aspose.Tasks cho .NET không?
  Có, bạn có thể khám phá bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Tasks cho .NET?
- tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ cộng đồng hoặc xem xét mua các gói hỗ trợ.
+ Tham quan[Diễn đàn Aspose.Tasks](https://forum.aspose.com/c/tasks/15) để được hỗ trợ cộng đồng hoặc xem xét mua các gói hỗ trợ.
 ### Tôi có thể tùy chỉnh thêm giao diện của các chế độ xem không?
- Chắc chắn rồi, hãy đi sâu vào tài liệu Aspose.Tasks[đây](https://reference.aspose.com/tasks/net/)để có các tùy chọn tùy chỉnh nâng cao.
+ Chắc chắn rồi, hãy đi sâu vào tài liệu Aspose.Tasks[đây](https://reference.aspose.com/tasks/net/) để có các tùy chọn tùy chỉnh nâng cao.
 ### Tôi có thể mua Aspose.Tasks cho .NET ở đâu?
  Bạn có thể mua thư viện[đây](https://purchase.aspose.com/buy) để có trải nghiệm quản lý dự án liền mạch.

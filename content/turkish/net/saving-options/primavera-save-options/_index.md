@@ -24,7 +24,7 @@ using System;
 using Aspose.Tasks.Saving;
 ```
 ## Adım 1: MS Proje Dosyasını Yükleyin
-Çalışmayı planladığınız MS Project dosyasını C# uygulamanıza yükleyerek başlayın. Bunu kullanarak yapabilirsiniz`Project` Aspose.Tasks tarafından sağlanan sınıf.
+ Çalışmayı planladığınız MS Project dosyasını C# uygulamanıza yükleyerek başlayın. Bunu kullanarak yapabilirsiniz`Project` Aspose.Tasks tarafından sağlanan sınıf.
 ```csharp
 String DataDir = "Your Document Directory";
 var project = new Project(DataDir + "EstimatedMilestoneTasks.mpp");
@@ -58,4 +58,4 @@ C: Kesinlikle, Aspose.Tasks, her boyutta proje üzerinde çalışan geliştirici
 ### S: Satın almadan önce Aspose.Tasks'ı ücretsiz deneyebilir miyim?
  C: Evet, Aspose.Tasks'ın ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://releases.aspose.com/) özelliklerini ve yeteneklerini keşfetmek için.
 ### S: Aspose.Tasks'ı kullanırken sorunlarla karşılaşırsam veya sorularım olursa nereden destek alabilirim?
-C: Aspose.Tasks topluluğundan ve destek ekibinden yardım isteyebilirsiniz.[forum](https://forum.aspose.com/c/tasks/15).
+ C: Aspose.Tasks topluluğundan ve destek ekibinden yardım isteyebilirsiniz.[forum](https://forum.aspose.com/c/tasks/15).

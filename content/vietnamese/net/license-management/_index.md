@@ -10,7 +10,7 @@ url: /vi/net/license-management/
 
 ## Giới thiệu
 
-Tìm hiểu chi tiết về Aspose.Tasks dành cho .NET với các hướng dẫn chi tiết của chúng tôi về quản lý giấy phép. Cho dù bạn là người mới làm quen với khuôn khổ này hay đang tìm cách nâng cao kỹ năng của mình, hướng dẫn từng bước của chúng tôi sẽ cung cấp kiến thức bạn cần để tích hợp liền mạch.
+Tìm hiểu chi tiết về Aspose.Tasks dành cho .NET với các hướng dẫn chi tiết của chúng tôi về quản lý giấy phép. Cho dù bạn là người mới làm quen với khuôn khổ này hay đang muốn nâng cao kỹ năng của mình, hướng dẫn từng bước của chúng tôi sẽ cung cấp kiến thức bạn cần để tích hợp liền mạch.
 
 ## Quản lý giấy phép Aspose.Tasks trong .NET
 

@@ -8,7 +8,7 @@ weight: 12
 url: /nl/net/vba-module-reference/vba-module-attribute-collection/
 ---
 ## Invoering
-Welkom in de wereld van Aspose.Tasks voor .NET! Als u een ontwikkelaar bent die de kracht van Aspose.Tasks voor .NET in uw projecten wil benutten, bent u hier op de juiste plek. In deze zelfstudie verdiepen we ons in de fijne kneepjes van het werken met VBA-moduleattributen en bieden we u een stapsgewijze handleiding over hoe u deze effectief kunt gebruiken in uw .NET-toepassingen.
+Welkom in de wereld van Aspose.Tasks voor .NET! Als u een ontwikkelaar bent die de kracht van Aspose.Tasks voor .NET in uw projecten wil benutten, bent u hier op de juiste plek. In deze zelfstudie verdiepen we ons in de fijne kneepjes van het werken met VBA-modulekenmerken en bieden we u een stapsgewijze handleiding over hoe u deze effectief kunt gebruiken in uw .NET-toepassingen.
 ## Vereisten
 Voordat we aan deze reis beginnen, moet u ervoor zorgen dat u aan de volgende vereisten voldoet:
 -  Aspose.Tasks voor .NET-bibliotheek: Download en installeer de Aspose.Tasks voor .NET-bibliotheek vanaf de[downloadpagina](https://releases.aspose.com/tasks/net/).

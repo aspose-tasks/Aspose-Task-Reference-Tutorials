@@ -2,13 +2,13 @@
 title: Zarządzaj wartościami konspektu projektu MS za pomocą Aspose.Tasks
 linktitle: Zbiór wartości konspektu w Aspose.Tasks
 second_title: Aspose.Tasks .NET API
-description: Dowiedz się, jak zarządzać wartościami konspektu w plikach Microsoft Project za pomocą Aspose.Tasks dla .NET. Samouczek krok po kroku z przykładami kodu.
+description: Dowiedz się, jak zarządzać wartościami konspektu w plikach Microsoft Project przy użyciu Aspose.Tasks dla .NET. Samouczek krok po kroku z przykładami kodu.
 type: docs
 weight: 17
 url: /pl/net/outline-code-page-settings/outline-value-collection/
 ---
 ## Wstęp
-Aspose.Tasks dla .NET zapewnia kompleksowy zestaw funkcji do interakcji z plikami Microsoft Project. Jedną z takich funkcji jest możliwość zarządzania wartościami konspektu w ramach projektu. W tym samouczku przyjrzymy się, jak zbierać i manipulować wartościami konspektu za pomocą Aspose.Tasks dla .NET.
+Aspose.Tasks dla .NET zapewnia kompleksowy zestaw funkcji do interakcji z plikami Microsoft Project. Jedną z takich funkcji jest możliwość zarządzania wartościami konspektu w projekcie. W tym samouczku odkryjemy, jak zbierać i manipulować wartościami konspektu za pomocą Aspose.Tasks dla .NET.
 ## Warunki wstępne
 Zanim zaczniemy, upewnij się, że masz następujące elementy:
 1.  Aspose.Tasks dla .NET: Możesz pobrać bibliotekę z[Tutaj](https://releases.aspose.com/tasks/net/).
@@ -23,7 +23,7 @@ using System;
 ```
 Podzielmy podany przykład na kilka kroków:
 ## Krok 1: Załaduj plik projektu
- Najpierw zainicjuj a`Project` obiekt, ładując istniejący plik Microsoft Project:
+ Po pierwsze, zainicjuj a`Project` obiekt, ładując istniejący plik Microsoft Project:
 ```csharp
 string DataDir = "Your Document Directory";
 var project = new Project(DataDir + "OutlineValues2010.mpp");
@@ -101,10 +101,10 @@ tym samouczku nauczyliśmy się pracować z wartościami konspektu w plikach Mic
 ### P: Czy mogę jednocześnie manipulować wieloma kodami konspektu?
 Odp.: Tak, możesz definiować i manipulować wieloma kodami konspektu w projekcie za pomocą Aspose.Tasks.
 ### P: Czy Aspose.Tasks jest kompatybilny z różnymi wersjami plików Microsoft Project?
-Odp.: Tak, Aspose.Tasks obsługuje różne wersje plików Microsoft Project, w tym formaty MPP i XML.
+O: Tak, Aspose.Tasks obsługuje różne wersje plików Microsoft Project, w tym formaty MPP i XML.
 ### P: Jak mogę poradzić sobie z błędami podczas pracy z wartościami konspektu?
 O: Możesz zaimplementować mechanizmy obsługi błędów, takie jak bloki try-catch, aby sprawnie zarządzać wyjątkami.
 ### P: Czy mogę dostosować wygląd wartości konspektu w moim projekcie?
-O: Tak, Aspose.Tasks udostępnia rozbudowane API umożliwiające dostosowanie wyglądu i zachowania wartości konspektu do Twoich wymagań.
+O: Tak, Aspose.Tasks zapewnia rozbudowane interfejsy API umożliwiające dostosowanie wyglądu i zachowania wartości konspektu zgodnie z Twoimi wymaganiami.
 ### P: Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Tasks?
  O: Możesz odwiedzić[Forum Aspose.Tasks](https://forum.aspose.com/c/tasks/15) o wsparcie społeczności i poznaj[dokumentacja](https://reference.aspose.com/tasks/net/) aby uzyskać szczegółowe informacje na temat interfejsów API i funkcji.

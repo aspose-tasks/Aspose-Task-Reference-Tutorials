@@ -1,6 +1,6 @@
 ---
-title: Konfigurálja az MS Project kockázatelemzést az Aspose.Tasks alkalmazásban
-linktitle: Konfigurálja a kockázatelemzési beállításokat az Aspose.Tasks alkalmazásban
+title: MS Project kockázatelemzés konfigurálása az Aspose.Tasks programban
+linktitle: Kockázatelemzési beállítások konfigurálása az Aspose.Tasks alkalmazásban
 second_title: Aspose.Tasks .NET API
 description: Ismerje meg, hogyan konfigurálhatja az MS Project kockázatelemzési beállításait az Aspose.Tasks for .NET használatával. Növelje a projektmenedzsment hatékonyságát fejlett kockázatértékelési technikákkal.
 type: docs
@@ -8,7 +8,7 @@ weight: 19
 url: /hu/net/resource-risk-analysis/risk-analysis-settings/
 ---
 ## Bevezetés
-projektmenedzsmentben a kockázatelemzés döntő szerepet játszik a potenciális bizonytalanságok azonosításában és ezeknek a projekt ütemtervére gyakorolt hatásában. Az Aspose.Tasks for .NET átfogó megoldást kínál a Microsoft Project kockázatelemzési beállításainak konfigurálására, lehetővé téve a felhasználók számára a projektkockázatok hatékony felmérését és csökkentését.
+projektmenedzsmentben a kockázatelemzés döntő szerepet játszik a lehetséges bizonytalanságok azonosításában, és ezek hatásának a projektek ütemezésére. Az Aspose.Tasks for .NET átfogó megoldást kínál a Microsoft Project kockázatelemzési beállításainak konfigurálására, lehetővé téve a felhasználók számára a projektkockázatok hatékony felmérését és csökkentését.
 ## Előfeltételek
 
 Mielőtt belevágna az MS Project kockázatelemzési beállításainak konfigurálásába az Aspose.Tasks for .NET használatával, győződjön meg arról, hogy rendelkezik a következő előfeltételekkel:
@@ -59,7 +59,7 @@ var pattern = new RiskPattern(task);
 ```csharp
 pattern.Distribution = ProbabilityDistributionType.Normal;
 ```
-Válassza ki az eloszlás típusát a véletlenszerű értékek generálásához (pl. normál vagy egyenletes).
+Válassza ki az eloszlás típusát a véletlen értékek generálásához (pl. normál vagy egyenletes).
 ## 8. lépés: Állítsa be az optimista időtartamot
 ```csharp
 pattern.Optimistic = 70;
@@ -80,7 +80,7 @@ pattern.ConfidenceLevel = ConfidenceLevel.CL75;
 var analyzer = new RiskAnalyzer(riskAnalysisSettings);
 var analysisResult = analyzer.Analyze(project);
 ```
- Inicializálás a`RiskAnalyzer` objektív és kockázatelemzés elvégzése a projekten.
+ Inicializálás a`RiskAnalyzer` tárgyat és kockázatelemzést végezni a projekten.
 ## 12. lépés: Az elemzési eredmények lekérése
 ```csharp
 var rootEarlyFinish = analysisResult.GetRiskItems(RiskItemType.EarlyFinish).Get(project.RootTask);

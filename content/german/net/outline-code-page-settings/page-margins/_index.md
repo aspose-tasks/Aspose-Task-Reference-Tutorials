@@ -19,7 +19,7 @@ Bevor Sie mit Aspose.Tasks für .NET arbeiten können, muss es in Ihrer Entwickl
 ### 2. Vertrautheit mit der Programmiersprache C#
 Da es sich bei Aspose.Tasks für .NET um eine .NET-Bibliothek handelt, sollten Sie über grundlegende Kenntnisse der Syntax und Konzepte der Programmiersprache C# verfügen.
 ### 3. Microsoft Project-Datei
-Stellen Sie sicher, dass Sie über eine Microsoft Project-Datei verfügen (`Project2.mpp`), verfügbar in Ihrem angegebenen Dokumentenverzeichnis (`DataDir`, Diese Datei dient als Ziel für die Einstellung der Seitenränder.
+Stellen Sie sicher, dass Sie über eine Microsoft Project-Datei verfügen (`Project2.mpp`), verfügbar in Ihrem angegebenen Dokumentenverzeichnis (`DataDir`). Diese Datei dient als Ziel für die Einstellung der Seitenränder.
 
 ## Namespaces importieren
 Um mit der Bearbeitung von Microsoft Project-Dateien mit Aspose.Tasks für .NET zu beginnen, müssen Sie die erforderlichen Namespaces in Ihren C#-Code importieren. Durch diesen Schritt wird sichergestellt, dass Sie Zugriff auf die von der Aspose.Tasks-Bibliothek bereitgestellten Klassen und Methoden haben.
@@ -61,7 +61,7 @@ project.Save(DataDir + "WorkWithPageMargins_out.mpp", SaveFileFormat.Mpp);
 ```
 
 ## Abschluss
-In diesem Tutorial haben wir den Prozess des Festlegens von MS Project-Seitenrändern mithilfe von Aspose.Tasks für .NET untersucht. Indem Sie der Schritt-für-Schritt-Anleitung folgen und die Funktionen der Aspose.Tasks-Bibliothek nutzen, können Sie Projektdateien effizient bearbeiten, um Ihre spezifischen Anforderungen zu erfüllen. Ganz gleich, ob Sie die Ränder für ein besseres Dokumentlayout anpassen oder ästhetische Präsentationen verbessern, mit Aspose.Tasks können Sie Ihre Ziele mühelos erreichen.
+In diesem Tutorial haben wir den Prozess des Festlegens von MS Project-Seitenrändern mithilfe von Aspose.Tasks für .NET untersucht. Indem Sie der Schritt-für-Schritt-Anleitung folgen und die Funktionen der Aspose.Tasks-Bibliothek nutzen, können Sie Projektdateien effizient bearbeiten, um Ihre spezifischen Anforderungen zu erfüllen. Ganz gleich, ob Sie die Ränder für ein besseres Dokumentlayout anpassen oder die Präsentationsästhetik verbessern, mit Aspose.Tasks können Sie Ihre Ziele mühelos erreichen.
 ## FAQs
 ### F: Ist Aspose.Tasks mit allen Versionen von Microsoft Project-Dateien kompatibel?
 A: Aspose.Tasks unterstützt verschiedene Versionen von Microsoft Project-Dateien und gewährleistet so die Kompatibilität in verschiedenen Umgebungen.
